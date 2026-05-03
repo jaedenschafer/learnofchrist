@@ -38,8 +38,7 @@ export const EZEKIEL_37: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'resolve-bones-rise',
-          html:
-            '<p>Dry bones live, graves open, breath returns: the dead rise and know the Lord. Death is not the end of God&apos;s story.</p>',
+          html: '<p>Dry bones live, graves open, breath returns: the dead rise and know the Lord. Death is not the end of God&apos;s story.</p>[res:bibleodyssey-ezekiel]',
         },
         {
           kind: 'scripture',
@@ -54,14 +53,12 @@ export const EZEKIEL_37: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezekiel37-can-live',
-          html:
-            'The question is meant to break Ezekiel&apos;s confidence in what is merely possible. Ezekiel answers honestly: "O Lord God, thou knowest." He does not say, "No, they cannot." He does not say, "Yes, they can." He says: I don&apos;t know. You alone know. This is the only honest answer when confronted with the impossible. Faith is not pretending you know better. Faith is admitting you don&apos;t know, but trusting that God does.',
+          html: 'The question is meant to break Ezekiel&apos;s confidence in what is merely possible. Ezekiel answers honestly: "O Lord God, thou knowest." He does not say, "No, they cannot." He does not say, "Yes, they can." He says: I don&apos;t know. You alone know. This is the only honest answer when confronted with the impossible. Faith is not pretending you know better. Faith is admitting you don&apos;t know, but trusting that God does[res:sefaria-ezekiel].',
         },
         {
           kind: 'commentary',
           id: 'ezekiel37-noise',
-          html:
-            'The prophet hears a noise—a rustling, a sound of movement. The bones are coming to life, but not yet alive. They are assembling themselves. The process is visible, audible. Resurrection is not invisible or instantaneous. It is a progression: bones to sinews to flesh to skin. Only then breath. Only then life.',
+          html: 'The prophet hears a noise—a rustling, a sound of movement. The bones are coming to life, but not yet alive. They are assembling themselves. The process is visible, audible. Resurrection is not invisible or instantaneous. It is a progression: bones to sinews to flesh to skin. Only then breath. Only then life.',
         },
         {
           kind: 'hebrew',
@@ -76,8 +73,7 @@ export const EZEKIEL_37: RichChapterContent = {
           kind: 'christ',
           id: 'ezekiel37-christ-resurrection',
           title: 'Christ Connection — Resurrection Through Christ',
-          html:
-            'In 1 Corinthians 15, Paul writes that Christ is "the first fruits of them that slept," the first to be raised from the dead. And in Him, all who believe will be made alive. The valley of dry bones is a vision of what Christ accomplishes: the gathering of the scattered, the resurrection of the dead, the breathing of the Spirit into lifeless forms. We are the bones in the valley. Christ is the one who raises us.',
+          html: 'In 1 Corinthians 15, Paul writes that Christ is "the first fruits of them that slept," the first to be raised from the dead. And in Him, all who believe will be made alive. The valley of dry bones is a vision of what Christ accomplishes: the gathering of the scattered, the resurrection of the dead, the breathing of the Spirit into lifeless forms. We are the bones in the valley. Christ is the one who raises us.',
         },
         {
           kind: 'carry',
@@ -136,7 +132,24 @@ export const EZEKIEL_37: RichChapterContent = {
     quote: 'O ye dry bones, hear the word of the Lord...the breath came into them, and they lived.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Ezekiel 37 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'bibleodyssey-ezekiel',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Ezekiel',
+      url: 'https://www.bibleodyssey.org/passages/main-articles/ezekiel/',
+      description: 'Peer-reviewed SBL entry on the prophet Ezekiel and the Babylonian exile.',
+    },
+    {
+      id: 'sefaria-ezekiel',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezekiel',
+      url: 'https://www.sefaria.org/Ezekiel',
+      description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
+    }
+  ],
 
   hasHebrew: true,
 };

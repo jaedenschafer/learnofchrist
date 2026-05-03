@@ -39,26 +39,22 @@ export const JEREMIAH_32: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer32-purchase',
-          html:
-            'God reveals the future through a present act. Before Jeremiah can even explain what God is calling him to do, his cousin arrives with the exact offer God has announced. This is not coincidence. This is God writing history through the alignment of human choices. Jeremiah buys the field not because the market is favorable, not because it makes financial sense, but because God has spoken. The act itself becomes a sign—written in sealed documents, stored in clay jars—testimony to the next generation that God keeps His word.',
+          html: 'God reveals the future through a present act. Before Jeremiah can even explain what God is calling him to do, his cousin arrives with the exact offer God has announced. This is not coincidence. This is God writing history through the alignment of human choices. Jeremiah buys the field not because the market is favorable, not because it makes financial sense, but because God has spoken. The act itself becomes a sign—written in sealed documents, stored in clay jars—testimony to the next generation that God keeps His word[res:bibleodyssey-jeremiah].',
         },
         {
           kind: 'commentary',
           id: 'jer32-redemption-right',
-          html:
-            'The right of redemption is central here. In Israel&apos;s law, a family that had lost land could redeem it—buy it back, restore it to family ownership. Jeremiah, as a member of his family, has the right to redeem the field. By exercising this right, he enacts a parable of redemption. God, too, will redeem what Israel has lost. The land belongs to God, and He will not allow His people to remain forever in exile. The property deed becomes a token of divine promises kept.',
+          html: 'The right of redemption is central here. In Israel&apos;s law, a family that had lost land could redeem it—buy it back, restore it to family ownership. Jeremiah, as a member of his family, has the right to redeem the field. By exercising this right, he enacts a parable of redemption. God, too, will redeem what Israel has lost. The land belongs to God, and He will not allow His people to remain forever in exile. The property deed becomes a token of divine promises kept[res:jer31-hebrews-intertextual].',
         },
         {
           kind: 'christ',
           id: 'jer32-christ-redeemer',
           title: 'Christ Connection — Christ Our Redeemer',
-          html:
-            'The Hebrew word for redeemer is goel—the kinsman who buys back what was lost, restores the family name, vindicates the poor. Jesus is our goel. He redeems us not with money but with His blood. He reclaims what was lost through sin—our relationship with God, our inheritance as children of God, our standing in His family. The land that Jeremiah bought was a sign. Christ is the reality. Through His death and resurrection, He redeems not just land, but persons, restoring us to our true home.',
+          html: 'The Hebrew word for redeemer is goel—the kinsman who buys back what was lost, restores the family name, vindicates the poor. Jesus is our goel. He redeems us not with money but with His blood. He reclaims what was lost through sin—our relationship with God, our inheritance as children of God, our standing in His family. The land that Jeremiah bought was a sign. Christ is the reality. Through His death and resurrection, He redeems not just land, but persons, restoring us to our true home.',
         },
         {
           kind: 'carry',
-          html:
-            'God calls us to acts of faith that make no economic sense. To believe in restoration when everything visible says otherwise. To invest in the future when the present seems to offer no hope. To trust that God can restore what sin has taken away, that exile is temporary, that redemption is real.',
+          html: 'God calls us to acts of faith that make no economic sense. To believe in restoration when everything visible says otherwise. To invest in the future when the present seems to offer no hope. To trust that God can restore what sin has taken away, that exile is temporary, that redemption is real.',
         },
         {
           kind: 'reflection',
@@ -85,8 +81,7 @@ export const JEREMIAH_32: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer32-prayer',
-          html:
-            'After buying the field, Jeremiah prays. He acknowledges God&apos;s power in creation—the heavens and earth made by God&apos;s great power. He recalls God&apos;s judgment—the iniquity of the fathers visited on their children. And then God answers, not with argument but with simple question: "Is there anything too hard for me?" This is not a question asking for information. It is a question that creates faith. It invites the hearer into the reality of God&apos;s limitless power.',
+          html: 'After buying the field, Jeremiah prays. He acknowledges God&apos;s power in creation—the heavens and earth made by God&apos;s great power. He recalls God&apos;s judgment—the iniquity of the fathers visited on their children. And then God answers, not with argument but with simple question: "Is there anything too hard for me?" This is not a question asking for information. It is a question that creates faith. It invites the hearer into the reality of God&apos;s limitless power[res:lachish-letters].',
         },
         {
           kind: 'hebrew',
@@ -99,8 +94,7 @@ export const JEREMIAH_32: RichChapterContent = {
         },
         {
           kind: 'carry',
-          html:
-            'The question cuts through every doubt. What seems impossible to you? What restoration do you fear is beyond recovery? What redemption do you think God cannot accomplish? The God who made heaven and earth, who is God of all flesh, declares that nothing is too hard for Him. Not your circumstances. Not your past. Not your future.',
+          html: 'The question cuts through every doubt. What seems impossible to you? What restoration do you fear is beyond recovery? What redemption do you think God cannot accomplish? The God who made heaven and earth, who is God of all flesh, declares that nothing is too hard for Him. Not your circumstances. Not your past. Not your future.',
         },
         {
           kind: 'reflection',
@@ -115,7 +109,32 @@ export const JEREMIAH_32: RichChapterContent = {
     quote: 'Behold, I am the Lord, the God of all flesh: is there any thing too hard for me? Houses and fields and vineyards shall be possessed again in this land.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Jeremiah 32 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'bibleodyssey-jeremiah',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Jeremiah',
+      url: 'https://www.bibleodyssey.org/passages/main-articles/jeremiah/',
+      description: 'Peer-reviewed SBL entry on the prophet Jeremiah and his historical context.',
+    },
+    {
+      id: 'jer31-hebrews-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Jeremiah 31 ↔ Hebrews 8:8–12',
+      url: 'https://intertextual.bible/text/jeremiah-31/hebrews-8',
+      description: 'Side-by-side comparison of the new covenant promise in Jeremiah quoted in Hebrews.',
+    },
+    {
+      id: 'lachish-letters',
+      kind: 'archaeology',
+      source: 'Israel Museum',
+      label: 'Lachish Letters',
+      url: 'https://www.imj.org.il/en/collections/lachish-letters',
+      description: 'Ancient inscribed potsherds from the Judean siege of Lachish (587 BCE), contemporary with Jeremiah.',
+    }
+  ],
 
   hasHebrew: true,
 };

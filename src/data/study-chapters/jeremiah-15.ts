@@ -43,12 +43,12 @@ export const JEREMIAH_15: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer15-moses',
-          html: 'Even if Moses and Samuel—two of the greatest intercessors in Scripture—stood before God, God would not relent. The judgment is certain. No amount of intercession can change what is coming. The people have refused the prophets, rejected the warnings, embraced lies. Now judgment must come.',
+          html: 'Even if Moses and Samuel—two of the greatest intercessors in Scripture—stood before God, God would not relent. The judgment is certain. No amount of intercession can change what is coming. The people have refused the prophets, rejected the warnings, embraced lies. Now judgment must come[res:jer31-hebrews-intertextual].',
         },
         {
           kind: 'commentary',
           id: 'jer15-weary',
-          html: 'A remarkable statement: "I am weary with repenting." God is weary with changing His mind, with offering mercy and being rejected, with calling the people back and being spurned. The patience has limits. Yet this weariness is not coldness—it is the exhaustion of love that has been persistently refused.',
+          html: 'A remarkable statement: "I am weary with repenting." God is weary with changing His mind, with offering mercy and being rejected, with calling the people back and being spurned. The patience has limits. Yet this weariness is not coldness—it is the exhaustion of love that has been persistently refused[res:lachish-letters].',
         },
         {
           kind: 'carry',
@@ -119,7 +119,24 @@ export const JEREMIAH_15: RichChapterContent = {
     quote: 'Thy words were found, and I did eat them; and thy word was unto me the joy and rejoicing of mine heart: for I am called by thy name, O Lord God of hosts.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Jeremiah 15 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'jer31-hebrews-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Jeremiah 31 ↔ Hebrews 8:8–12',
+      url: 'https://intertextual.bible/text/jeremiah-31/hebrews-8',
+      description: 'Side-by-side comparison of the new covenant promise in Jeremiah quoted in Hebrews.',
+    },
+    {
+      id: 'lachish-letters',
+      kind: 'archaeology',
+      source: 'Israel Museum',
+      label: 'Lachish Letters',
+      url: 'https://www.imj.org.il/en/collections/lachish-letters',
+      description: 'Ancient inscribed potsherds from the Judean siege of Lachish (587 BCE), contemporary with Jeremiah.',
+    }
+  ],
 
   hasHebrew: true,
 };

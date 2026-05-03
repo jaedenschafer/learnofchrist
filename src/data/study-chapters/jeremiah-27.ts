@@ -78,8 +78,7 @@ export const JEREMIAH_27: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer27-nations-serve-warning',
-          html:
-            'God&apos;s power is absolute—He made the earth and all life upon it, and He gives dominion to whom He chooses. Now He has chosen to give dominion to Babylon. Resistance is futile. The warning shifts to the consequence: those who refuse will be judged with sword, famine, and pestilence.',
+          html: 'God&apos;s power is absolute—He made the earth and all life upon it, and He gives dominion to whom He chooses. Now He has chosen to give dominion to Babylon. Resistance is futile. The warning shifts to the consequence: those who refuse will be judged with sword, famine, and pestilence[res:babylonian-chronicle].',
         },
         {
           kind: 'scripture',
@@ -120,14 +119,12 @@ export const JEREMIAH_27: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer27-yoke-submission',
-          html:
-            'The yoke is a sign of subjugation, yet God says that bringing the neck under the yoke of Babylon is the way to remain in the land. Those who resist will be driven out and destroyed. Those who submit will till the land and dwell in it. The path to life is submission, not resistance.',
+          html: 'The yoke is a sign of subjugation, yet God says that bringing the neck under the yoke of Babylon is the way to remain in the land. Those who resist will be driven out and destroyed. Those who submit will till the land and dwell in it. The path to life is submission, not resistance[res:sefaria-jeremiah].',
         },
         {
           kind: 'commentary',
           id: 'jer27-false-prophets-again',
-          html:
-            'The false prophets say, "Ye shall not serve the king of Babylon." They speak a lie designed to lead the people away from the land. But Jeremiah is clear: those who believe the false prophets will perish.',
+          html: 'The false prophets say, "Ye shall not serve the king of Babylon." They speak a lie designed to lead the people away from the land. But Jeremiah is clear: those who believe the false prophets will perish.',
         },
         {
           kind: 'hebrew',
@@ -140,8 +137,7 @@ export const JEREMIAH_27: RichChapterContent = {
         },
         {
           kind: 'carry',
-          html:
-            'God calls His people to something that feels like weakness: submission, acceptance of circumstances, the wearing of a yoke. Yet this submission to God&apos;s will, even when expressed through submission to an earthly power, is the way to life. We want deliverance; God offers wisdom.',
+          html: 'God calls His people to something that feels like weakness: submission, acceptance of circumstances, the wearing of a yoke. Yet this submission to God&apos;s will, even when expressed through submission to an earthly power, is the way to life. We want deliverance; God offers wisdom.',
         },
         {
           kind: 'reflection',
@@ -288,5 +284,22 @@ export const JEREMIAH_27: RichChapterContent = {
         },
       ],
     },
+  ],  resources: [
+    {
+      id: 'babylonian-chronicle',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Babylonian Chronicle (Jerusalem siege)',
+      url: 'https://www.britishmuseum.org/collection/object/Y_EA25091',
+      description: 'Cuneiform tablet documenting the Babylonian assault on Jerusalem in 597 and 587 BCE.',
+    },
+    {
+      id: 'sefaria-jeremiah',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jeremiah',
+      url: 'https://www.sefaria.org/Jeremiah',
+      description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
+    }
   ],
 };

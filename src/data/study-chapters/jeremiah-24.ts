@@ -61,8 +61,7 @@ export const JEREMIAH_24: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jeremiah-24-78mid-1',
-          html:
-            'The two baskets of figs are interpreted. Good figs and bad — the LORD names which captives He will save and which He will scatter.',
+          html: 'The two baskets of figs are interpreted. Good figs and bad — the LORD names which captives He will save and which He will scatter[res:jer31-hebrews-intertextual].',
         },
         {
           kind: 'scripture',
@@ -97,19 +96,16 @@ export const JEREMIAH_24: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer24-good-figs',
-          html:
-            'The good figs are those carried away in captivity. God says, "Like these good figs, so will I acknowledge them." Exile becomes the sign of God&apos;s favor. This is the reversal of all human expectation. Those taken away are those God will set His eyes upon for good. They will be built, not pulled down. They will be planted, not plucked up.',
+          html: 'The good figs are those carried away in captivity. God says, "Like these good figs, so will I acknowledge them." Exile becomes the sign of God&apos;s favor. This is the reversal of all human expectation. Those taken away are those God will set His eyes upon for good. They will be built, not pulled down. They will be planted, not plucked up[res:sefaria-jeremiah].',
         },
         {
           kind: 'commentary',
           id: 'jer24-heart-know',
-          html:
-            '"I will give them an heart to know me, that I am the Lord." The gift of exile is not merely survival, but relationship. In the land of captivity, the people will learn to know God in a way they never did in the land of privilege. Exile becomes the school where God teaches His people to seek Him with all their hearts.',
+          html: '"I will give them an heart to know me, that I am the Lord." The gift of exile is not merely survival, but relationship. In the land of captivity, the people will learn to know God in a way they never did in the land of privilege. Exile becomes the school where God teaches His people to seek Him with all their hearts.',
         },
         {
           kind: 'carry',
-          html:
-            'We tend to think that being far from home, separated from comfort, is abandonment. But Jeremiah teaches that God&apos;s eye is on the exiled ones. Sometimes what feels like the worst circumstance is the place where God is closest, where He is teaching us to know Him most deeply. The exile may be where we become most fully God&apos;s people.',
+          html: 'We tend to think that being far from home, separated from comfort, is abandonment. But Jeremiah teaches that God&apos;s eye is on the exiled ones. Sometimes what feels like the worst circumstance is the place where God is closest, where He is teaching us to know Him most deeply. The exile may be where we become most fully God&apos;s people.',
         },
         {
           kind: 'reflection',
@@ -196,5 +192,22 @@ export const JEREMIAH_24: RichChapterContent = {
         },
       ],
     },
+  ],  resources: [
+    {
+      id: 'jer31-hebrews-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Jeremiah 31 ↔ Hebrews 8:8–12',
+      url: 'https://intertextual.bible/text/jeremiah-31/hebrews-8',
+      description: 'Side-by-side comparison of the new covenant promise in Jeremiah quoted in Hebrews.',
+    },
+    {
+      id: 'sefaria-jeremiah',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jeremiah',
+      url: 'https://www.sefaria.org/Jeremiah',
+      description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
+    }
   ],
 };

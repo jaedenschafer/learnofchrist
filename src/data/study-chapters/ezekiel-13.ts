@@ -40,8 +40,7 @@ export const EZEKIEL_13: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezk13-false-comfort',
-          html:
-            'The false prophets are seducing the people with a single false word: peace. There is no peace, God says, yet they declare it. They have not stood in His council. They have not heard His voice. They follow their own spirits, their own desires. They are like foxes in the desert — clever enough to appear wise, but destructive. The metaphor of the wall and the untempered mortar is vivid. The wall stands because of honest mortar. But when it is daubed with untempered mortar, when the binding agent has no real strength, the whole structure is compromised. When the rain comes, when the hailstones fall, when the wind blows — the wall collapses, and the false mortar is exposed.',
+          html: 'The false prophets are seducing the people with a single false word: peace. There is no peace, God says, yet they declare it. They have not stood in His council. They have not heard His voice. They follow their own spirits, their own desires. They are like foxes in the desert — clever enough to appear wise, but destructive. The metaphor of the wall and the untempered mortar is vivid. The wall stands because of honest mortar. But when it is daubed with untempered mortar, when the binding agent has no real strength, the whole structure is compromised. When the rain comes, when the hailstones fall, when the wind blows — the wall collapses, and the false mortar is exposed[res:babylonian-exile-context].',
         },
         {
           kind: 'hebrew',
@@ -54,8 +53,7 @@ export const EZEKIEL_13: RichChapterContent = {
         },
         {
           kind: 'carry',
-          html:
-            'We live surrounded by voices that offer comfort at the expense of truth. They tell us what we want to hear. They promise peace where judgment is coming. They construct walls with untempered mortar — structures beautiful in appearance but without foundation. The true prophet must sometimes be the one who tears down false comfort, who speaks the hard word, who refuses to daub walls with lies.',
+          html: 'We live surrounded by voices that offer comfort at the expense of truth. They tell us what we want to hear. They promise peace where judgment is coming. They construct walls with untempered mortar — structures beautiful in appearance but without foundation. The true prophet must sometimes be the one who tears down false comfort, who speaks the hard word, who refuses to daub walls with lies.',
         },
         {
           kind: 'reflection',
@@ -81,15 +79,13 @@ export const EZEKIEL_13: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezk13-false-prophetesses',
-          html:
-            'The false prophetesses hunt souls with magical means — pillows and kerchiefs that are supposed to divine the future or offer protection. They claim power they do not have. They promise safety to the doomed. They announce judgment on the innocent. And they do it for hire — for handfuls of barley and pieces of bread. Their falsehood is not even principled. It is mercenary. They have commodified prophecy, turning the word of God into a product to be sold.',
+          html: 'The false prophetesses hunt souls with magical means — pillows and kerchiefs that are supposed to divine the future or offer protection. They claim power they do not have. They promise safety to the doomed. They announce judgment on the innocent. And they do it for hire — for handfuls of barley and pieces of bread. Their falsehood is not even principled. It is mercenary. They have commodified prophecy, turning the word of God into a product to be sold[res:ezekiel-revelation-intertextual].',
         },
         {
           kind: 'christ',
           id: 'ezk13-christ-true-prophet',
           title: 'Christ Connection — The Prophet Rejected',
-          html:
-            'Christ comes as the True Prophet, and He is rejected by those who profit from false prophecy. The religious establishment of His day has much invested in false words — in traditions that substitute for truth, in practices that promise security without substance. When Christ speaks truth, He threatens their comfort. They rise against Him. Yet His word stands while theirs crumbles. The true prophet always faces opposition from those who profit from lies.',
+          html: 'Christ comes as the True Prophet, and He is rejected by those who profit from false prophecy. The religious establishment of His day has much invested in false words — in traditions that substitute for truth, in practices that promise security without substance. When Christ speaks truth, He threatens their comfort. They rise against Him. Yet His word stands while theirs crumbles. The true prophet always faces opposition from those who profit from lies.',
         },
         {
           kind: 'carry',
@@ -109,7 +105,24 @@ export const EZEKIEL_13: RichChapterContent = {
     quote: '"Peace; and there is no peace." — Ezekiel 13:10',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Ezekiel 13 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'babylonian-exile-context',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Babylonian Exile Context',
+      url: 'https://www.britishmuseum.org/collection/object/W_Y_EA25091',
+      description: 'Cuneiform and archaeological evidence of Babylon under Nebuchadnezzar.',
+    },
+    {
+      id: 'ezekiel-revelation-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Ezekiel Temple Vision ↔ Revelation 21-22',
+      url: 'https://intertextual.bible/text/ezekiel-40/revelation-21',
+      description: 'Side-by-side comparison of Ezekiel&apos;s temple vision and John&apos;s new creation.',
+    }
+  ],
 
   hasHebrew: true,
 };

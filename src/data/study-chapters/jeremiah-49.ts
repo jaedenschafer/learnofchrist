@@ -36,13 +36,11 @@ export const JEREMIAH_49: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer49-ammon',
-          html:
-            'The Ammonites have seized the territory of Gad, which belonged to Israel. They do this as if Gad had no heir, as if Israel were without children to claim their inheritance. But God will reverse this. The Ammonites will be judged. Yet even in judgment, there is a promise of restoration. "Afterward I will bring again the captivity of the Ammonites." Even the enemies of God&apos;s people are not beyond the possibility of restoration.',
+          html: 'The Ammonites have seized the territory of Gad, which belonged to Israel. They do this as if Gad had no heir, as if Israel were without children to claim their inheritance. But God will reverse this. The Ammonites will be judged. Yet even in judgment, there is a promise of restoration. "Afterward I will bring again the captivity of the Ammonites." Even the enemies of God&apos;s people are not beyond the possibility of restoration[res:babylonian-chronicle].',
         },
         {
           kind: 'carry',
-          html:
-            'This passage reveals a pattern: human kingdoms rise and fall, territories change hands, the powerful dominate the weak. But all of this occurs within God&apos;s sovereign plan. No taking of territory, no matter how successful, stands outside God&apos;s ultimate purposes. The Ammonites may hold Gad for a time, but God will reverse it.',
+          html: 'This passage reveals a pattern: human kingdoms rise and fall, territories change hands, the powerful dominate the weak. But all of this occurs within God&apos;s sovereign plan. No taking of territory, no matter how successful, stands outside God&apos;s ultimate purposes. The Ammonites may hold Gad for a time, but God will reverse it.',
         },
         {
           kind: 'reflection',
@@ -68,14 +66,12 @@ export const JEREMIAH_49: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer49-edom-pride',
-          html:
-            'Edom, dwelling in the clefts of the rock, in strongholds high in the hills, believed themselves safe and impregnable. Their "terribleness"—their reputation for fierceness—had deceived them into thinking they could escape God&apos;s judgment. But God will make them small and despised. No height, no fortress, no nest high as the eagle&apos;s—nothing can protect a nation from God&apos;s word.',
+          html: 'Edom, dwelling in the clefts of the rock, in strongholds high in the hills, believed themselves safe and impregnable. Their "terribleness"—their reputation for fierceness—had deceived them into thinking they could escape God&apos;s judgment. But God will make them small and despised. No height, no fortress, no nest high as the eagle&apos;s—nothing can protect a nation from God&apos;s word[res:sefaria-jeremiah].',
         },
         {
           kind: 'commentary',
           id: 'jer49-nest',
-          html:
-            'The image of the eagle&apos;s nest speaks to pride and exaltation. Yet even the eagle, at the height of its domain, is subject to God&apos;s judgment. Edom believed in its own strength and security. But pride itself is the trap that leads to downfall.',
+          html: 'The image of the eagle&apos;s nest speaks to pride and exaltation. Yet even the eagle, at the height of its domain, is subject to God&apos;s judgment. Edom believed in its own strength and security. But pride itself is the trap that leads to downfall.',
         },
         {
           kind: 'christ',
@@ -102,5 +98,22 @@ export const JEREMIAH_49: RichChapterContent = {
     quote: 'I will make thee small among the heathen, and despised among men. Thy terribleness hath deceived thee, and the pride of thine heart.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Jeremiah 49 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'babylonian-chronicle',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Babylonian Chronicle (Jerusalem siege)',
+      url: 'https://www.britishmuseum.org/collection/object/Y_EA25091',
+      description: 'Cuneiform tablet documenting the Babylonian assault on Jerusalem in 597 and 587 BCE.',
+    },
+    {
+      id: 'sefaria-jeremiah',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jeremiah',
+      url: 'https://www.sefaria.org/Jeremiah',
+      description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
+    }
+  ],
 };

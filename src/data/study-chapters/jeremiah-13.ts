@@ -42,8 +42,7 @@ export const JEREMIAH_13: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer13-word-garment',
-          html:
-            'God shifts from speaking through a symbol to its meaning. The hidden lesson becomes explicit warning.',
+          html: 'God shifts from speaking through a symbol to its meaning. The hidden lesson becomes explicit warning[res:babylonian-chronicle].',
         },
         {
           kind: 'scripture',
@@ -59,7 +58,7 @@ export const JEREMIAH_13: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer13-mar',
-          html: 'The symbol is clear: Judah, meant to be the glory and ornament of God—the girdle that adorns Him—has become marred through sin and corruption. A girdle that is marred and corrupted is profitable for nothing. It can no longer serve its purpose. So too has Judah, through pride and disobedience, become worthless for the purpose for which God set them apart.',
+          html: 'The symbol is clear: Judah, meant to be the glory and ornament of God—the girdle that adorns Him—has become marred through sin and corruption. A girdle that is marred and corrupted is profitable for nothing. It can no longer serve its purpose. So too has Judah, through pride and disobedience, become worthless for the purpose for which God set them apart[res:jer31-hebrews-intertextual].',
         },
         {
           kind: 'hebrew',
@@ -154,7 +153,24 @@ export const JEREMIAH_13: RichChapterContent = {
     quote: 'Can the Ethiopian change his skin, or the leopard his spots? then may ye also do good, that are accustomed to do evil.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Jeremiah 13 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'babylonian-chronicle',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Babylonian Chronicle (Jerusalem siege)',
+      url: 'https://www.britishmuseum.org/collection/object/Y_EA25091',
+      description: 'Cuneiform tablet documenting the Babylonian assault on Jerusalem in 597 and 587 BCE.',
+    },
+    {
+      id: 'jer31-hebrews-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Jeremiah 31 ↔ Hebrews 8:8–12',
+      url: 'https://intertextual.bible/text/jeremiah-31/hebrews-8',
+      description: 'Side-by-side comparison of the new covenant promise in Jeremiah quoted in Hebrews.',
+    }
+  ],
 
   hasHebrew: true,
 };

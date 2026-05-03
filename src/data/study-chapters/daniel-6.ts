@@ -40,8 +40,7 @@ export const DANIEL_6: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'resolve-lion-trust',
-          html:
-            '<p>Daniel in the den—envies plot, the king prays, and morning brings deliverance. Trust in God stands when schemes collapse.</p>',
+          html: '<p>Daniel in the den—envies plot, the king prays, and morning brings deliverance. Trust in God stands when schemes collapse.</p>[res:cyrus-cylinder]',
         },
         {
           kind: 'scripture',
@@ -56,8 +55,7 @@ export const DANIEL_6: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'daniel6-windows-open',
-          html:
-            'Daniel knows the decree. He knows the penalty. He knows that his enemies are watching. And he goes home, opens his windows toward Jerusalem, and kneels to pray three times a day as he has always done. This is not defiance for its own sake. This is faithfulness that acknowledges no authority higher than God. Daniel does not hide his prayer. He does not pray secretly to avoid detection. He prays openly, as if the decree did not exist. He has decided, long before this moment, what his answer would be when the choice came between the king and God.',
+          html: 'Daniel knows the decree. He knows the penalty. He knows that his enemies are watching. And he goes home, opens his windows toward Jerusalem, and kneels to pray three times a day as he has always done. This is not defiance for its own sake. This is faithfulness that acknowledges no authority higher than God. Daniel does not hide his prayer. He does not pray secretly to avoid detection. He prays openly, as if the decree did not exist. He has decided, long before this moment, what his answer would be when the choice came between the king and God[res:sefaria-daniel].',
         },
         {
           kind: 'hebrew',
@@ -71,8 +69,7 @@ export const DANIEL_6: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'daniel6-darius-dismayed',
-          html:
-            'The king is displeased with himself when he realizes what has happened. He has been trapped by his own pride, by the decree he signed without understanding its implications. He labors until sunset to deliver Daniel, but the decree of the Medes and Persians cannot be changed. The law that seemed to honor the king has become his instrument of torment. He must let Daniel be cast into the den. But notice: he speaks words of faith to Daniel. "Thy God whom thou servest continually, he will deliver thee." The king, who is not of Israel, speaks as if he already believes.',
+          html: 'The king is displeased with himself when he realizes what has happened. He has been trapped by his own pride, by the decree he signed without understanding its implications. He labors until sunset to deliver Daniel, but the decree of the Medes and Persians cannot be changed. The law that seemed to honor the king has become his instrument of torment. He must let Daniel be cast into the den. But notice: he speaks words of faith to Daniel. "Thy God whom thou servest continually, he will deliver thee." The king, who is not of Israel, speaks as if he already believes.',
         },
       ],
     },
@@ -93,8 +90,7 @@ export const DANIEL_6: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'resolve-lion-trust-2',
-          html:
-            '<p>The plot unfolds: accusation, the den, angelic deliverance. God&apos;s faithfulness outlasts hatred.</p>',
+          html: '<p>The plot unfolds: accusation, the den, angelic deliverance. God&apos;s faithfulness outlasts hatred.</p>',
         },
         {
           kind: 'scripture',
@@ -143,7 +139,24 @@ export const DANIEL_6: RichChapterContent = {
     quote: 'My God hath sent his angel, and hath shut the lions&apos; mouths, that they have not hurt me: forasmuch as before him innocency was found in me.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Daniel 6 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'cyrus-cylinder',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Cyrus Cylinder',
+      url: 'https://www.britishmuseum.org/collection/object/Y_EA90920',
+      description: 'Persian edict of Cyrus authorizing return of exiled peoples (ca. 539 BCE), fulfilling Daniel&apos;s prophecy.',
+    },
+    {
+      id: 'sefaria-daniel',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Daniel',
+      url: 'https://www.sefaria.org/Daniel',
+      description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
+    }
+  ],
 
   hasHebrew: true,
 };

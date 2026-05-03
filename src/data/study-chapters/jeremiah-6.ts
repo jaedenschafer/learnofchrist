@@ -43,8 +43,7 @@ export const JEREMIAH_6: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer6-siege-call',
-          html:
-            'The army approaches—they will pitch tents, feed on what they find. "She is wholly oppression"—God Himself permits the siege. Now the pivot: from siege language to God&apos;s appeal.',
+          html: 'The army approaches—they will pitch tents, feed on what they find. "She is wholly oppression"—God Himself permits the siege. Now the pivot: from siege language to God&apos;s appeal[res:babylonian-chronicle].',
         },
         {
           kind: 'scripture',
@@ -60,7 +59,7 @@ export const JEREMIAH_6: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer6-old-paths',
-          html: 'God&apos;s invitation is to stand at the crossroads and ask for the old paths. This is not nostalgia. The old paths are those established by the covenant, by the law given at Sinai, by the pattern of faithful following that has characterized the righteous throughout Israel&apos;s history. To ask for the good way is to inquire after wisdom, after the path that leads to life and rest. Yet the response is a refusal: "We will not walk therein." This refusal is the core of the problem. It is not ignorance but willful rejection.',
+          html: 'God&apos;s invitation is to stand at the crossroads and ask for the old paths. This is not nostalgia. The old paths are those established by the covenant, by the law given at Sinai, by the pattern of faithful following that has characterized the righteous throughout Israel&apos;s history. To ask for the good way is to inquire after wisdom, after the path that leads to life and rest. Yet the response is a refusal: "We will not walk therein." This refusal is the core of the problem. It is not ignorance but willful rejection[res:bibleodyssey-jeremiah].',
         },
         {
           kind: 'hebrew',
@@ -160,7 +159,24 @@ export const JEREMIAH_6: RichChapterContent = {
     quote: 'Stand ye in the ways, and see, and ask for the old paths, where is the good way, and walk therein, and ye shall find rest for your souls.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Jeremiah 6 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'babylonian-chronicle',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Babylonian Chronicle (Jerusalem siege)',
+      url: 'https://www.britishmuseum.org/collection/object/Y_EA25091',
+      description: 'Cuneiform tablet documenting the Babylonian assault on Jerusalem in 597 and 587 BCE.',
+    },
+    {
+      id: 'bibleodyssey-jeremiah',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Jeremiah',
+      url: 'https://www.bibleodyssey.org/passages/main-articles/jeremiah/',
+      description: 'Peer-reviewed SBL entry on the prophet Jeremiah and his historical context.',
+    }
+  ],
 
   hasHebrew: true,
 };

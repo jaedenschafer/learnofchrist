@@ -44,14 +44,12 @@ export const EZEKIEL_22: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezek22-bloody',
-          html:
-            'Jerusalem is "bloody"—not metaphorically, but literally. Blood fills her streets. The city perpetuates itself through violence. "The city sheddeth blood in the midst of it, that her time may come"—she murders so that she can hold power a little longer. And alongside the shedding of blood, she makes idols to defile herself. Violence and idolatry go hand in hand.',
+          html: 'Jerusalem is "bloody"—not metaphorically, but literally. Blood fills her streets. The city perpetuates itself through violence. "The city sheddeth blood in the midst of it, that her time may come"—she murders so that she can hold power a little longer. And alongside the shedding of blood, she makes idols to defile herself. Violence and idolatry go hand in hand[res:bibleodyssey-ezekiel].',
         },
         {
           kind: 'commentary',
           id: 'ezek22-all-classes',
-          html:
-            'And it is not one class that fails. It is all of them. The princes use their power to shed blood. The people dishonor parents, oppress strangers, vex the fatherless and widow. Some carry tales to shed blood. Some commit lewdness. From the highest to the lowest, the city is corrupted. This is not a failure of individuals. It is a failure of the whole system.',
+          html: 'And it is not one class that fails. It is all of them. The princes use their power to shed blood. The people dishonor parents, oppress strangers, vex the fatherless and widow. Some carry tales to shed blood. Some commit lewdness. From the highest to the lowest, the city is corrupted. This is not a failure of individuals. It is a failure of the whole system[res:gog-magog-bibleodyssey].',
         },
         {
           kind: 'hebrew',
@@ -86,8 +84,7 @@ export const EZEKIEL_22: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'resolve-city-burns',
-          html:
-            '<p>Jerusalem is a furnace; God will melt the city and its false leaders together. Corruption runs too deep for surface fixes.</p>',
+          html: '<p>Jerusalem is a furnace; God will melt the city and its false leaders together. Corruption runs too deep for surface fixes.</p>[res:tyre-archaeology]',
         },
         {
           kind: 'scripture',
@@ -102,21 +99,18 @@ export const EZEKIEL_22: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezek22-prophets-priests',
-          html:
-            'The prophets prophesy falsely, lulling people with false hope. The priests violate the holy, making no distinction between clean and unclean, sacred and profane. The princes are like wolves, shedding blood for gain. Leadership at every level has failed. Those who should have called the people back to God have instead led them deeper into corruption.',
+          html: 'The prophets prophesy falsely, lulling people with false hope. The priests violate the holy, making no distinction between clean and unclean, sacred and profane. The princes are like wolves, shedding blood for gain. Leadership at every level has failed. Those who should have called the people back to God have instead led them deeper into corruption.',
         },
         {
           kind: 'commentary',
           id: 'ezek22-sought',
-          html:
-            'Then comes the most piercing moment in the chapter: "I sought for a man among them, that should make up the hedge, and stand in the gap before me for the land, that I should not destroy it: but I found none." God is searching. He is looking for someone—anyone—who will take the burden of the city upon himself, who will stand between God&apos;s wrath and the people, who will intercede. The hedge is the boundary between God&apos;s holiness and human sin. To stand in the gap is to bear that boundary in one&apos;s own person. But no one is found.',
+          html: 'Then comes the most piercing moment in the chapter: "I sought for a man among them, that should make up the hedge, and stand in the gap before me for the land, that I should not destroy it: but I found none." God is searching. He is looking for someone—anyone—who will take the burden of the city upon himself, who will stand between God&apos;s wrath and the people, who will intercede. The hedge is the boundary between God&apos;s holiness and human sin. To stand in the gap is to bear that boundary in one&apos;s own person. But no one is found.',
         },
         {
           kind: 'christ',
           id: 'ezek22-christ-gap',
           title: 'Christ Connection — The One Who Stands in the Gap',
-          html:
-            'Ezekiel&apos;s search for "a man" who would stand in the gap remained unfulfilled in his own time. But in Christ, that search found its answer. Jesus is the One who stands between God&apos;s holiness and human sin. At the Cross, He bears the judgment that should have fallen on us. He offers His righteousness as a hedge between us and destruction. In Pauline language, Christ is our "propitiation"—the satisfaction of God&apos;s just judgment. He is the mediator, the one standing in the gap.',
+          html: 'Ezekiel&apos;s search for "a man" who would stand in the gap remained unfulfilled in his own time. But in Christ, that search found its answer. Jesus is the One who stands between God&apos;s holiness and human sin. At the Cross, He bears the judgment that should have fallen on us. He offers His righteousness as a hedge between us and destruction. In Pauline language, Christ is our "propitiation"—the satisfaction of God&apos;s just judgment. He is the mediator, the one standing in the gap.',
         },
         {
           kind: 'carry',
@@ -136,7 +130,32 @@ export const EZEKIEL_22: RichChapterContent = {
     quote: 'I sought for a man among them, that should make up the hedge, and stand in the gap before me for the land, that I should not destroy it: but I found none.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Ezekiel 22 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'bibleodyssey-ezekiel',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Ezekiel',
+      url: 'https://www.bibleodyssey.org/passages/main-articles/ezekiel/',
+      description: 'Peer-reviewed SBL entry on the prophet Ezekiel and the Babylonian exile.',
+    },
+    {
+      id: 'gog-magog-bibleodyssey',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Gog and Magog',
+      url: 'https://www.bibleodyssey.org/dictionary/gog/',
+      description: 'SBL entry on the mysterious Gog figure in Ezekiel and Revelation.',
+    },
+    {
+      id: 'tyre-archaeology',
+      kind: 'archaeology',
+      source: 'Israel Museum / ToposText',
+      label: 'Tyre Archaeology (Ezek 26-28)',
+      url: 'https://www.imj.org.il/en',
+      description: 'Archaeological record of ancient Tyre, subject of Ezekiel&apos;s prophecies.',
+    }
+  ],
 
   hasHebrew: true,
 };

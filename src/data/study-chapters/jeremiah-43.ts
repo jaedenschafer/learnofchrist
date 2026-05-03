@@ -38,8 +38,7 @@ export const JEREMIAH_43: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jeremiah-43-78mid-1',
-          html:
-            'The remnant carries Jeremiah to Egypt against the LORD&apos;s word. The prophet goes with them — bound to the people who will not listen.',
+          html: 'The remnant carries Jeremiah to Egypt against the LORD&apos;s word. The prophet goes with them — bound to the people who will not listen[res:jer31-hebrews-intertextual].',
         },
         {
           kind: 'scripture',
@@ -54,20 +53,17 @@ export const JEREMIAH_43: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer43-denial',
-          html:
-            'The leaders deny that God has spoken. "Thou speakest falsely," they say. Yet Jeremiah has delivered the word God gave him. The denial is not of the prophet&apos;s integrity, but of God&apos;s authority. They deny the very God they had promised to obey. This is the moment when promise meets test, and the people fail.',
+          html: 'The leaders deny that God has spoken. "Thou speakest falsely," they say. Yet Jeremiah has delivered the word God gave him. The denial is not of the prophet&apos;s integrity, but of God&apos;s authority. They deny the very God they had promised to obey. This is the moment when promise meets test, and the people fail[res:lachish-letters].',
         },
         {
           kind: 'commentary',
           id: 'jer43-captive',
-          html:
-            'Jeremiah is taken to Egypt against his will. He does not flee. He does not choose this path. But he is compelled to go, the captive of those he has tried to lead. And even in Egypt, he continues to speak God&apos;s word. Even captive, he is not silenced. Even in the place of disobedience, the prophet continues to proclaim what God speaks.',
+          html: 'Jeremiah is taken to Egypt against his will. He does not flee. He does not choose this path. But he is compelled to go, the captive of those he has tried to lead. And even in Egypt, he continues to speak God&apos;s word. Even captive, he is not silenced. Even in the place of disobedience, the prophet continues to proclaim what God speaks.',
         },
         {
           kind: 'commentary',
           id: 'jer43-sign',
-          html:
-            'God gives a sign. Jeremiah buries stones in the palace of Pharaoh and declares that Nebuchadnezzar will set his throne above them. Even Egypt is not safe from the Babylonian king. The very refuge the remnant sought will be conquered. The decision to flee does not save them. It only delays judgment and sets it in a foreign place.',
+          html: 'God gives a sign. Jeremiah buries stones in the palace of Pharaoh and declares that Nebuchadnezzar will set his throne above them. Even Egypt is not safe from the Babylonian king. The very refuge the remnant sought will be conquered. The decision to flee does not save them. It only delays judgment and sets it in a foreign place.',
         },
         {
           kind: 'christ',
@@ -94,7 +90,23 @@ export const JEREMIAH_43: RichChapterContent = {
     quote: 'They obeyed not the voice of the Lord: thus came they even to Tahpanhes. Behold, I will send and take Nebuchadrezzar the king of Babylon, and will set his throne above these stones.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Jeremiah 43 · Study Guide',
-  },
-
+  },  resources: [
+    {
+      id: 'jer31-hebrews-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Jeremiah 31 ↔ Hebrews 8:8–12',
+      url: 'https://intertextual.bible/text/jeremiah-31/hebrews-8',
+      description: 'Side-by-side comparison of the new covenant promise in Jeremiah quoted in Hebrews.',
+    },
+    {
+      id: 'lachish-letters',
+      kind: 'archaeology',
+      source: 'Israel Museum',
+      label: 'Lachish Letters',
+      url: 'https://www.imj.org.il/en/collections/lachish-letters',
+      description: 'Ancient inscribed potsherds from the Judean siege of Lachish (587 BCE), contemporary with Jeremiah.',
+    }
+  ],
   hasHebrew: false,
 };

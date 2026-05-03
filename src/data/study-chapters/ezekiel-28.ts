@@ -46,14 +46,12 @@ export const EZEKIEL_28: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezek28-prince-heart',
-          html:
-            'The prince of Tyre "hath said, I am a God, I sit in the seat of God." His heart is lifted up. He has become wise through his trading and accumulated such riches that he believes himself divine. This is the fundamental sin: the usurpation of God&apos;s seat, the claim to be what only God is. Tyre&apos;s king mistakes his wisdom and wealth for divinity.',
+          html: 'The prince of Tyre "hath said, I am a God, I sit in the seat of God." His heart is lifted up. He has become wise through his trading and accumulated such riches that he believes himself divine. This is the fundamental sin: the usurpation of God&apos;s seat, the claim to be what only God is. Tyre&apos;s king mistakes his wisdom and wealth for divinity[res:babylonian-exile-context].',
         },
         {
           kind: 'commentary',
           id: 'ezek28-pride',
-          html:
-            '"Thine heart is lifted up because of thy riches." Wealth becomes a kind of religion. It creates the illusion of self-sufficiency, of power independent of God. The king believes he is answerable to no one. But God promises judgment: "I will bring strangers upon thee, the terrible of the nations: and they shall draw their swords against the beauty of thy wisdom."',
+          html: '"Thine heart is lifted up because of thy riches." Wealth becomes a kind of religion. It creates the illusion of self-sufficiency, of power independent of God. The king believes he is answerable to no one. But God promises judgment: "I will bring strangers upon thee, the terrible of the nations: and they shall draw their swords against the beauty of thy wisdom."[res:bibleodyssey-ezekiel]',
         },
         {
           kind: 'hebrew',
@@ -91,26 +89,22 @@ export const EZEKIEL_28: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezek28-eden',
-          html:
-            'The language now moves to cosmic mythology. The king of Tyre "hath been in Eden the garden of God." He is "the anointed cherub that covereth"—one of the highest order of heavenly beings, stationed on "the holy mountain of God." This is not earthly language. This is the description of a supernatural being corrupted by pride. "Thou wast perfect in thy ways from the day that thou wast created, till iniquity was found in thee."',
+          html: 'The language now moves to cosmic mythology. The king of Tyre "hath been in Eden the garden of God." He is "the anointed cherub that covereth"—one of the highest order of heavenly beings, stationed on "the holy mountain of God." This is not earthly language. This is the description of a supernatural being corrupted by pride. "Thou wast perfect in thy ways from the day that thou wast created, till iniquity was found in thee."[res:tyre-archaeology]',
         },
         {
           kind: 'commentary',
           id: 'ezek28-fall',
-          html:
-            'The fall comes through pride in beauty and wisdom. "Thine heart was lifted up because of thy beauty, thou hast corrupted thy wisdom by reason of thy brightness." The being was created perfect, adorned with every precious stone, filled with music and glory. But this very perfection became the occasion for pride. He began to believe in his own divinity. "Therefore I will cast thee as profane out of the mountain of God...I will cast thee to the ground, I will lay thee before kings, that they may behold thee."',
+          html: 'The fall comes through pride in beauty and wisdom. "Thine heart was lifted up because of thy beauty, thou hast corrupted thy wisdom by reason of thy brightness." The being was created perfect, adorned with every precious stone, filled with music and glory. But this very perfection became the occasion for pride. He began to believe in his own divinity. "Therefore I will cast thee as profane out of the mountain of God...I will cast thee to the ground, I will lay thee before kings, that they may behold thee."',
         },
         {
           kind: 'christ',
           id: 'ezek28-christ-victory',
           title: 'Christ Connection — Principalities and Powers Defeated',
-          html:
-            'Paul writes in Colossians 2:15 that Christ, in His resurrection, "spoiled principalities and powers...making a shew of them openly, triumphing over them in it." The cosmic rebellion described in Ezekiel 28—the fall of the created being who tried to usurp God&apos;s throne—is overcome by Christ. Every earthly manifestation of this spiritual pride—every Tyre, every human kingdom built on power and self-deification—is ultimately subject to Christ&apos;s lordship.',
+          html: 'Paul writes in Colossians 2:15 that Christ, in His resurrection, "spoiled principalities and powers...making a shew of them openly, triumphing over them in it." The cosmic rebellion described in Ezekiel 28—the fall of the created being who tried to usurp God&apos;s throne—is overcome by Christ. Every earthly manifestation of this spiritual pride—every Tyre, every human kingdom built on power and self-deification—is ultimately subject to Christ&apos;s lordship.',
         },
         {
           kind: 'carry',
-          html:
-            'Behind every earthly power that opposes God stands a spiritual force—the spirit of rebellion that began with Lucifer&apos;s pride in Eden. But that rebellion has been defeated. In Christ, the powers are "spoiled." We need not fear them. What appears strong and invincible is already subject to the One who has conquered all.',
+          html: 'Behind every earthly power that opposes God stands a spiritual force—the spirit of rebellion that began with Lucifer&apos;s pride in Eden. But that rebellion has been defeated. In Christ, the powers are "spoiled." We need not fear them. What appears strong and invincible is already subject to the One who has conquered all.',
         },
         {
           kind: 'reflection',
@@ -125,7 +119,32 @@ export const EZEKIEL_28: RichChapterContent = {
     quote: 'Thou wast perfect in thy ways from the day that thou wast created, till iniquity was found in thee...Thine heart was lifted up because of thy beauty, thou hast corrupted thy wisdom by reason of thy brightness.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Ezekiel 28 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'babylonian-exile-context',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Babylonian Exile Context',
+      url: 'https://www.britishmuseum.org/collection/object/W_Y_EA25091',
+      description: 'Cuneiform and archaeological evidence of Babylon under Nebuchadnezzar.',
+    },
+    {
+      id: 'bibleodyssey-ezekiel',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Ezekiel',
+      url: 'https://www.bibleodyssey.org/passages/main-articles/ezekiel/',
+      description: 'Peer-reviewed SBL entry on the prophet Ezekiel and the Babylonian exile.',
+    },
+    {
+      id: 'tyre-archaeology',
+      kind: 'archaeology',
+      source: 'Israel Museum / ToposText',
+      label: 'Tyre Archaeology (Ezek 26-28)',
+      url: 'https://www.imj.org.il/en',
+      description: 'Archaeological record of ancient Tyre, subject of Ezekiel&apos;s prophecies.',
+    }
+  ],
 
   hasHebrew: true,
 };

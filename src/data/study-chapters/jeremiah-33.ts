@@ -39,26 +39,22 @@ export const JEREMIAH_33: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer33-call-answer',
-          html:
-            'God opens an invitation: "Call unto me, and I will answer thee." This is not a God distant from His people, unmoved by exile or destruction. This is a God who desires relationship, who positions Himself to be found by those who seek Him. And He promises that in answering, He will reveal "great and mighty things which thou knowest not." The future He has prepared is beyond what the prophet can imagine from the vantage point of exile.',
+          html: 'God opens an invitation: "Call unto me, and I will answer thee." This is not a God distant from His people, unmoved by exile or destruction. This is a God who desires relationship, who positions Himself to be found by those who seek Him. And He promises that in answering, He will reveal "great and mighty things which thou knowest not." The future He has prepared is beyond what the prophet can imagine from the vantage point of exile[res:bibleodyssey-jeremiah].',
         },
         {
           kind: 'commentary',
           id: 'jer33-cleanse',
-          html:
-            'God promises not merely to return the people, but to cleanse them. The exile has been God&apos;s judgment on their sin. But judgment has an end. God will forgive and pardon. To pardon is to release the debt. To cleanse is to remove the stain. The restored people will not return as they were—burdened by guilt. They will return cleansed, forgiven, ready to begin again.',
+          html: 'God promises not merely to return the people, but to cleanse them. The exile has been God&apos;s judgment on their sin. But judgment has an end. God will forgive and pardon. To pardon is to release the debt. To cleanse is to remove the stain. The restored people will not return as they were—burdened by guilt. They will return cleansed, forgiven, ready to begin again[res:lachish-letters].',
         },
         {
           kind: 'christ',
           id: 'jer33-christ-cleanse',
           title: 'Christ Connection — The Cleansing Lamb',
-          html:
-            'Jesus came not merely to teach or to lead, but to cleanse. "In whom we have redemption through his blood, the forgiveness of sins." He is the Lamb whose blood removes sin, whose death pays the price, whose resurrection opens the door to a new beginning. We are not merely pardoned through Christ. We are cleansed. The stain is removed. We stand before God not as those who have been forgiven of a debt we still bear, but as those who have been made new.',
+          html: 'Jesus came not merely to teach or to lead, but to cleanse. "In whom we have redemption through his blood, the forgiveness of sins." He is the Lamb whose blood removes sin, whose death pays the price, whose resurrection opens the door to a new beginning. We are not merely pardoned through Christ. We are cleansed. The stain is removed. We stand before God not as those who have been forgiven of a debt we still bear, but as those who have been made new.',
         },
         {
           kind: 'carry',
-          html:
-            'God calls you to speak to Him—to pray, to seek, to call upon Him. He promises to answer. You do not pray into a void. You do not seek a God who is distant. The God of all creation positions Himself to be found by those who call. And what He reveals through prayer and faith will astonish you.',
+          html: 'God calls you to speak to Him—to pray, to seek, to call upon Him. He promises to answer. You do not pray into a void. You do not seek a God who is distant. The God of all creation positions Himself to be found by those who call. And what He reveals through prayer and faith will astonish you.',
         },
         {
           kind: 'reflection',
@@ -128,7 +124,24 @@ export const JEREMIAH_33: RichChapterContent = {
     quote: 'Call unto me, and I will answer thee, and shew thee great and mighty things...In those days will I cause the Branch of righteousness to grow up unto David; and he shall execute judgment and righteousness in the land.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Jeremiah 33 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'bibleodyssey-jeremiah',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Jeremiah',
+      url: 'https://www.bibleodyssey.org/passages/main-articles/jeremiah/',
+      description: 'Peer-reviewed SBL entry on the prophet Jeremiah and his historical context.',
+    },
+    {
+      id: 'lachish-letters',
+      kind: 'archaeology',
+      source: 'Israel Museum',
+      label: 'Lachish Letters',
+      url: 'https://www.imj.org.il/en/collections/lachish-letters',
+      description: 'Ancient inscribed potsherds from the Judean siege of Lachish (587 BCE), contemporary with Jeremiah.',
+    }
+  ],
 
   hasHebrew: true,
 };

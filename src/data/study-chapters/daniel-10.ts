@@ -39,8 +39,7 @@ export const DANIEL_10: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'resolve-struggle-prayer',
-          html:
-            '<p>Three weeks of fasting, then an angelic visitor confirms God heard from day one. Your prayers are never unheard.</p>',
+          html: '<p>Three weeks of fasting, then an angelic visitor confirms God heard from day one. Your prayers are never unheard.</p>[res:bibleodyssey-apocalyptic]',
         },
         {
           kind: 'scripture',
@@ -55,8 +54,7 @@ export const DANIEL_10: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'daniel10-delayed',
-          html:
-            'The angel tells Daniel that his prayer was heard on the first day he set his heart to understand. But the angel himself was delayed for three weeks, held back by "the prince of the kingdom of Persia." This is not a human ruler. This is a spiritual being, a demonic power assigned to influence the earthly kingdom. The angel could not reach Daniel until Michael, the chief prince, came to his aid. This vision pulls back the veil. It shows that earthly history is shaped by spiritual forces at work behind the scenes. Kingdoms that seem to operate independently are actually contested grounds where God&apos;s purposes clash with demonic powers.',
+          html: 'The angel tells Daniel that his prayer was heard on the first day he set his heart to understand. But the angel himself was delayed for three weeks, held back by "the prince of the kingdom of Persia." This is not a human ruler. This is a spiritual being, a demonic power assigned to influence the earthly kingdom. The angel could not reach Daniel until Michael, the chief prince, came to his aid. This vision pulls back the veil. It shows that earthly history is shaped by spiritual forces at work behind the scenes. Kingdoms that seem to operate independently are actually contested grounds where God&apos;s purposes clash with demonic powers[res:daniel-revelation-intertextual].',
         },
         {
           kind: 'hebrew',
@@ -70,8 +68,7 @@ export const DANIEL_10: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'daniel10-michael',
-          html:
-            'Michael is introduced here as "one of the chief princes," and later as "your prince"—Israel&apos;s spiritual defender. Michael does not ask permission to help. He comes immediately when called upon. He aids the messenger. He stands against the demonic powers. This is the work of the heavenly host—not distant or inactive, but engaged in an ongoing spiritual battle on behalf of God&apos;s people.',
+          html: 'Michael is introduced here as "one of the chief princes," and later as "your prince"—Israel&apos;s spiritual defender. Michael does not ask permission to help. He comes immediately when called upon. He aids the messenger. He stands against the demonic powers. This is the work of the heavenly host—not distant or inactive, but engaged in an ongoing spiritual battle on behalf of God&apos;s people[res:sefaria-daniel].',
         },
       ],
     },
@@ -83,21 +80,18 @@ export const DANIEL_10: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'daniel10-prayer-power',
-          html:
-            'From this passage, we learn that prayer is not merely personal. It is powerful. Daniel&apos;s prayer was heard on the first day. The delay was not because God did not hear. The delay was because spiritual forces opposed the answer. But the prayer moved heaven to act. The angel was sent. Michael was called to help. The resistance was overcome. This teaches us that our prayers matter more than we know. They are heard in heaven. They set divine forces in motion. Even when we do not see the answer immediately, heaven is working on our behalf.',
+          html: 'From this passage, we learn that prayer is not merely personal. It is powerful. Daniel&apos;s prayer was heard on the first day. The delay was not because God did not hear. The delay was because spiritual forces opposed the answer. But the prayer moved heaven to act. The angel was sent. Michael was called to help. The resistance was overcome. This teaches us that our prayers matter more than we know. They are heard in heaven. They set divine forces in motion. Even when we do not see the answer immediately, heaven is working on our behalf.',
         },
         {
           kind: 'commentary',
           id: 'daniel10-resistance',
-          html:
-            'The "prince of Persia" represents the forces that would keep us bound, that resist God&apos;s purposes, that try to prevent His will from being done on earth. But such resistance is temporary. It is ultimately futile. God has appointed Michael—His chief warrior—to overcome these powers. And every believer who stands in faith is part of the army that stands with Michael against the powers of darkness.',
+          html: 'The "prince of Persia" represents the forces that would keep us bound, that resist God&apos;s purposes, that try to prevent His will from being done on earth. But such resistance is temporary. It is ultimately futile. God has appointed Michael—His chief warrior—to overcome these powers. And every believer who stands in faith is part of the army that stands with Michael against the powers of darkness.',
         },
         {
           kind: 'christ',
           id: 'daniel10-christ-warrior',
           title: 'Christ Connection — The War Against Darkness',
-          html:
-            'Paul later describes this same spiritual reality: "For we wrestle not against flesh and blood, but against principalities, against powers, against the rulers of the darkness of this world, against spiritual wickedness in high places" (Ephesians 6:12). Christ came to overcome these powers. He stripped off the principalities and powers, making a show of them openly, triumphing over them by the cross (Colossians 2:15). Every believer is enlisted in this spiritual warfare. We are not fighting against people, but against the forces that would hold people in bondage.',
+          html: 'Paul later describes this same spiritual reality: "For we wrestle not against flesh and blood, but against principalities, against powers, against the rulers of the darkness of this world, against spiritual wickedness in high places" (Ephesians 6:12). Christ came to overcome these powers. He stripped off the principalities and powers, making a show of them openly, triumphing over them by the cross (Colossians 2:15). Every believer is enlisted in this spiritual warfare. We are not fighting against people, but against the forces that would hold people in bondage.',
         },
         {
           kind: 'carry',
@@ -117,7 +111,32 @@ export const DANIEL_10: RichChapterContent = {
     quote: 'Fear not, Daniel: for from the first day that thou didst set thine heart to understand...thy words were heard...Michael, one of the chief princes, came to help me.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Daniel 10 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'bibleodyssey-apocalyptic',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Apocalyptic Literature',
+      url: 'https://www.bibleodyssey.org/dictionary/apocalypse/',
+      description: 'SBL entry on the apocalyptic genre exemplified by Daniel.',
+    },
+    {
+      id: 'daniel-revelation-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Daniel 7 ↔ Revelation 13 / Matthew 24',
+      url: 'https://intertextual.bible/text/daniel-7/revelation-13',
+      description: 'Side-by-side comparison of Daniel&apos;s apocalyptic visions and their NT fulfillment.',
+    },
+    {
+      id: 'sefaria-daniel',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Daniel',
+      url: 'https://www.sefaria.org/Daniel',
+      description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
+    }
+  ],
 
   hasHebrew: true,
 };

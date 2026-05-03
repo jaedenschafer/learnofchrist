@@ -74,19 +74,16 @@ export const JEREMIAH_29: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer29-build',
-          html:
-            'Jeremiah tells the exiles not to despair, not to mark time, not to wait passively for return. Instead, build houses, plant gardens, marry, have children. Live as though you are staying. This is the wisdom of exile: not to reject your circumstances but to embrace them, to live fully within them.',
+          html: 'Jeremiah tells the exiles not to despair, not to mark time, not to wait passively for return. Instead, build houses, plant gardens, marry, have children. Live as though you are staying. This is the wisdom of exile: not to reject your circumstances but to embrace them, to live fully within them[res:babylonian-chronicle].',
         },
         {
           kind: 'commentary',
           id: 'jer29-peace',
-          html:
-            'And the exiles are told to seek the peace of the city where they are held captive. Babylon is the enemy city, yet they are called to pray for its peace, to seek its welfare. In doing so, they will find peace for themselves. The paradox: by seeking the good of those who hold you captive, you find your own good.',
+          html: 'And the exiles are told to seek the peace of the city where they are held captive. Babylon is the enemy city, yet they are called to pray for its peace, to seek its welfare. In doing so, they will find peace for themselves. The paradox: by seeking the good of those who hold you captive, you find your own good[res:bibleodyssey-jeremiah].',
         },
         {
           kind: 'carry',
-          html:
-            'We often find ourselves in circumstances we did not choose. Yet Jeremiah teaches that exile is not a time to cease living, to put off joy, to wait for rescue. It is a time to live fully, to plant and build, to marry and have children, to seek the common good. Life happens in exile, not after it.',
+          html: 'We often find ourselves in circumstances we did not choose. Yet Jeremiah teaches that exile is not a time to cease living, to put off joy, to wait for rescue. It is a time to live fully, to plant and build, to marry and have children, to seek the common good. Life happens in exile, not after it.',
         },
         {
           kind: 'reflection',
@@ -128,8 +125,7 @@ export const JEREMIAH_29: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jeremiah-29-78mid-1',
-          html:
-            'Jeremiah turns from instructions to the exiles — build houses, plant gardens — to the LORD&apos;s long promise of restoration after seventy years.',
+          html: 'Jeremiah turns from instructions to the exiles — build houses, plant gardens — to the LORD&apos;s long promise of restoration after seventy years.',
         },
         {
           kind: 'scripture',
@@ -310,5 +306,22 @@ export const JEREMIAH_29: RichChapterContent = {
         },
       ],
     },
+  ],  resources: [
+    {
+      id: 'babylonian-chronicle',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Babylonian Chronicle (Jerusalem siege)',
+      url: 'https://www.britishmuseum.org/collection/object/Y_EA25091',
+      description: 'Cuneiform tablet documenting the Babylonian assault on Jerusalem in 597 and 587 BCE.',
+    },
+    {
+      id: 'bibleodyssey-jeremiah',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Jeremiah',
+      url: 'https://www.bibleodyssey.org/passages/main-articles/jeremiah/',
+      description: 'Peer-reviewed SBL entry on the prophet Jeremiah and his historical context.',
+    }
   ],
 };

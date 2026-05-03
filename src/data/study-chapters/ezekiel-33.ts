@@ -37,8 +37,7 @@ export const EZEKIEL_33: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'resolve-watchman-call',
-          html:
-            '<p>The watchman speaks or stays silent—either way, the watchman&apos;s own soul is on the line. Witness carries weight.</p>',
+          html: '<p>The watchman speaks or stays silent—either way, the watchman&apos;s own soul is on the line. Witness carries weight.</p>[res:sefaria-ezekiel]',
         },
         {
           kind: 'scripture',
@@ -53,14 +52,12 @@ export const EZEKIEL_33: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezekiel33-watchman-call',
-          html:
-            'The watchman is given an impossible-sounding task. He must warn. He must blow the trumpet so loudly, so clearly, that no one can pretend they did not hear. Yet he cannot force anyone to listen. He is responsible for his faithfulness to speak, but not for their choice to listen. This is the tension at the heart of all moral exhortation: you can tell the truth, but you cannot compel belief.',
+          html: 'The watchman is given an impossible-sounding task. He must warn. He must blow the trumpet so loudly, so clearly, that no one can pretend they did not hear. Yet he cannot force anyone to listen. He is responsible for his faithfulness to speak, but not for their choice to listen. This is the tension at the heart of all moral exhortation: you can tell the truth, but you cannot compel belief[res:tyre-archaeology].',
         },
         {
           kind: 'commentary',
           id: 'ezekiel33-blood',
-          html:
-            'The language of blood—"his blood shall be upon his own head"—is not cursing. It is accountability. If you choose to ignore the warning, your death is your responsibility, not the watchman&apos;s. But if the watchman does not warn, then he bears the responsibility. This is why the prophet&apos;s calling is not comfortable. To speak God&apos;s truth is to accept responsibility. To remain silent is to accept a different kind of responsibility.',
+          html: 'The language of blood—"his blood shall be upon his own head"—is not cursing. It is accountability. If you choose to ignore the warning, your death is your responsibility, not the watchman&apos;s. But if the watchman does not warn, then he bears the responsibility. This is why the prophet&apos;s calling is not comfortable. To speak God&apos;s truth is to accept responsibility. To remain silent is to accept a different kind of responsibility.',
         },
         {
           kind: 'hebrew',
@@ -75,8 +72,7 @@ export const EZEKIEL_33: RichChapterContent = {
           kind: 'christ',
           id: 'ezekiel33-christ-repent',
           title: 'Christ Connection — God&apos;s Call to Repent',
-          html:
-            'John the Baptist came as a watchman in the wilderness, crying out in preparation for Christ: "Repent ye, for the kingdom of heaven is at hand." And Christ Himself took up this call: "Repent, for the kingdom of God is at hand." The entire New Testament is shot through with this urgency: turn, now, while there is time. Christ is the ultimate watchman, warning all who will hear, grieving over those who refuse. Yet the love beneath the warning is absolute: "I have no pleasure in the death of the wicked."',
+          html: 'John the Baptist came as a watchman in the wilderness, crying out in preparation for Christ: "Repent ye, for the kingdom of heaven is at hand." And Christ Himself took up this call: "Repent, for the kingdom of God is at hand." The entire New Testament is shot through with this urgency: turn, now, while there is time. Christ is the ultimate watchman, warning all who will hear, grieving over those who refuse. Yet the love beneath the warning is absolute: "I have no pleasure in the death of the wicked."',
         },
         {
           kind: 'carry',
@@ -135,7 +131,24 @@ export const EZEKIEL_33: RichChapterContent = {
     quote: 'As I live, saith the Lord God, I have no pleasure in the death of the wicked; but that the wicked turn from his way and live.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Ezekiel 33 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'sefaria-ezekiel',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezekiel',
+      url: 'https://www.sefaria.org/Ezekiel',
+      description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
+    },
+    {
+      id: 'tyre-archaeology',
+      kind: 'archaeology',
+      source: 'Israel Museum / ToposText',
+      label: 'Tyre Archaeology (Ezek 26-28)',
+      url: 'https://www.imj.org.il/en',
+      description: 'Archaeological record of ancient Tyre, subject of Ezekiel&apos;s prophecies.',
+    }
+  ],
 
   hasHebrew: true,
 };

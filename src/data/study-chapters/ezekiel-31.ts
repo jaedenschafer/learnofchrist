@@ -39,14 +39,12 @@ export const EZEKIEL_31: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezekiel31-cedar',
-          html:
-            'The prophet does not mock Pharaoh&apos;s power. He acknowledges it. Pharaoh is like a cedar of Lebanon — tall, stately, beautiful. The comparison is not meant to be diminishing. Rather, Ezekiel is saying: look at this height, this majesty, this dominion. And yet, from the perspective of eternity, even the greatest earthly power is like a tree. And trees fall.',
+          html: 'The prophet does not mock Pharaoh&apos;s power. He acknowledges it. Pharaoh is like a cedar of Lebanon — tall, stately, beautiful. The comparison is not meant to be diminishing. Rather, Ezekiel is saying: look at this height, this majesty, this dominion. And yet, from the perspective of eternity, even the greatest earthly power is like a tree. And trees fall[res:bibleodyssey-ezekiel].',
         },
         {
           kind: 'commentary',
           id: 'ezekiel31-garden',
-          html:
-            'The garden of Eden — the primeval garden where humanity began, where God walked, where creation bloomed in its fullness — is invoked here. Even in that perfect place, Ezekiel imagines, the cedar of Lebanon would have stood preeminent. Yet the fact that the prophet must imagine it in Eden is the point: Pharaoh&apos;s greatness is not in the realm of God&apos;s creation and blessing. It is in the realm of earthly power, which is fleeting.',
+          html: 'The garden of Eden — the primeval garden where humanity began, where God walked, where creation bloomed in its fullness — is invoked here. Even in that perfect place, Ezekiel imagines, the cedar of Lebanon would have stood preeminent. Yet the fact that the prophet must imagine it in Eden is the point: Pharaoh&apos;s greatness is not in the realm of God&apos;s creation and blessing. It is in the realm of earthly power, which is fleeting[res:ezekiel-revelation-intertextual].',
         },
         {
           kind: 'hebrew',
@@ -61,13 +59,11 @@ export const EZEKIEL_31: RichChapterContent = {
           kind: 'christ',
           id: 'ezekiel31-christ-humility',
           title: 'Christ Connection — Pride Humbled',
-          html:
-            'Christ enters not as the mightiest cedar, but as a child born in poverty, a carpenter&apos;s son, one without a place to lay His head. When faced with His hour, He does not summon legions. Instead, He kneels and washes the feet of those who follow Him. The greatest King ever born did not cling to power. His power lay precisely in His willing descent. Where Pharaoh is brought low by pride, Christ made Himself low by choice—and in that descent, redeemed all who would follow.',
+          html: 'Christ enters not as the mightiest cedar, but as a child born in poverty, a carpenter&apos;s son, one without a place to lay His head. When faced with His hour, He does not summon legions. Instead, He kneels and washes the feet of those who follow Him. The greatest King ever born did not cling to power. His power lay precisely in His willing descent. Where Pharaoh is brought low by pride, Christ made Himself low by choice—and in that descent, redeemed all who would follow.',
         },
         {
           kind: 'carry',
-          html:
-            'The danger Ezekiel warns of is not ambition or excellence. It is not wrong to build, to lead, to tend a kingdom or a calling. The danger is forgetting where the ability comes from. When Pharaoh looked at his cedar-height, he did not see the hand of God in it. He saw only himself. That forgetting, that self-absorption, is the flaw that brings the fall.',
+          html: 'The danger Ezekiel warns of is not ambition or excellence. It is not wrong to build, to lead, to tend a kingdom or a calling. The danger is forgetting where the ability comes from. When Pharaoh looked at his cedar-height, he did not see the hand of God in it. He saw only himself. That forgetting, that self-absorption, is the flaw that brings the fall.',
         },
         {
           kind: 'reflection',
@@ -121,7 +117,24 @@ export const EZEKIEL_31: RichChapterContent = {
     quote: 'Because thou hast lifted up thyself in height...I have therefore delivered him into the hand of the mighty one of the heathen.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Ezekiel 31 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'bibleodyssey-ezekiel',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Ezekiel',
+      url: 'https://www.bibleodyssey.org/passages/main-articles/ezekiel/',
+      description: 'Peer-reviewed SBL entry on the prophet Ezekiel and the Babylonian exile.',
+    },
+    {
+      id: 'ezekiel-revelation-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Ezekiel Temple Vision ↔ Revelation 21-22',
+      url: 'https://intertextual.bible/text/ezekiel-40/revelation-21',
+      description: 'Side-by-side comparison of Ezekiel&apos;s temple vision and John&apos;s new creation.',
+    }
+  ],
 
   hasHebrew: true,
 };

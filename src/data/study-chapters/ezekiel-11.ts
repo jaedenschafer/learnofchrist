@@ -38,8 +38,7 @@ export const EZEKIEL_11: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezk11-scattered-sanctuary',
-          html:
-            'Even scattered among the heathen, God will be a sanctuary to His people. Even in exile, where no temple stands, where they cannot make pilgrimage to Jerusalem, God will make Himself present. The promise moves through stages: first, God&apos;s presence with them in exile. Then, gathering. Then, restoration to the land. And finally, transformation of heart.',
+          html: 'Even scattered among the heathen, God will be a sanctuary to His people. Even in exile, where no temple stands, where they cannot make pilgrimage to Jerusalem, God will make Himself present. The promise moves through stages: first, God&apos;s presence with them in exile. Then, gathering. Then, restoration to the land. And finally, transformation of heart[res:babylonian-exile-context].',
         },
         {
           kind: 'hebrew',
@@ -53,13 +52,11 @@ export const EZEKIEL_11: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezk11-transformed-obey',
-          html:
-            'The purpose of the new heart is not arbitrary. It is specifically that they might walk in God&apos;s statutes, keep His ordinances, and do them. The new heart is not a reward for obedience. It is the gift that makes obedience possible. A heart of stone cannot obey. A heart of flesh can. God transforms His people so that they become capable of the very faithfulness He requires.',
+          html: 'The purpose of the new heart is not arbitrary. It is specifically that they might walk in God&apos;s statutes, keep His ordinances, and do them. The new heart is not a reward for obedience. It is the gift that makes obedience possible. A heart of stone cannot obey. A heart of flesh can. God transforms His people so that they become capable of the very faithfulness He requires[res:tyre-archaeology].',
         },
         {
           kind: 'carry',
-          html:
-            'We cannot change our own hearts. We cannot remove the hardness that years of resistance to God have built. We cannot make ourselves capable of the obedience God requires. But God can. God will. The promise of a new heart is not conditioned on our effort or our improvement. It is God&apos;s free gift, given to those who admit they cannot change themselves.',
+          html: 'We cannot change our own hearts. We cannot remove the hardness that years of resistance to God have built. We cannot make ourselves capable of the obedience God requires. But God can. God will. The promise of a new heart is not conditioned on our effort or our improvement. It is God&apos;s free gift, given to those who admit they cannot change themselves.',
         },
         {
           kind: 'reflection',
@@ -86,8 +83,7 @@ export const EZEKIEL_11: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezk11-false-counsel',
-          html:
-            'The princes of the people are counseling the exiles: the judgment is not near. Build your houses. Settle in. This city is secure — it is like a caldron, and we are the meat within it, protected on all sides. This is false hope offered by false prophets. Ezekiel is commanded to prophesy against them. His message will contradict theirs. And it will be true.',
+          html: 'The princes of the people are counseling the exiles: the judgment is not near. Build your houses. Settle in. This city is secure — it is like a caldron, and we are the meat within it, protected on all sides. This is false hope offered by false prophets. Ezekiel is commanded to prophesy against them. His message will contradict theirs. And it will be true.',
         },
         {
           kind: 'christ',
@@ -114,7 +110,24 @@ export const EZEKIEL_11: RichChapterContent = {
     quote: '"I will give them one heart, and I will put a new spirit within you." — Ezekiel 11:19',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Ezekiel 11 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'babylonian-exile-context',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Babylonian Exile Context',
+      url: 'https://www.britishmuseum.org/collection/object/W_Y_EA25091',
+      description: 'Cuneiform and archaeological evidence of Babylon under Nebuchadnezzar.',
+    },
+    {
+      id: 'tyre-archaeology',
+      kind: 'archaeology',
+      source: 'Israel Museum / ToposText',
+      label: 'Tyre Archaeology (Ezek 26-28)',
+      url: 'https://www.imj.org.il/en',
+      description: 'Archaeological record of ancient Tyre, subject of Ezekiel&apos;s prophecies.',
+    }
+  ],
 
   hasHebrew: true,
 };

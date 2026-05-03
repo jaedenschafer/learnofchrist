@@ -38,8 +38,7 @@ export const DANIEL_7: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'resolve-vision-call',
-          html:
-            '<p>Daniel&apos;s night vision of kingdoms reveals God&apos;s final rule. From confusion comes clarity about what truly endures.</p>',
+          html: '<p>Daniel&apos;s night vision of kingdoms reveals God&apos;s final rule. From confusion comes clarity about what truly endures.</p>[res:bibleodyssey-apocalyptic]',
         },
         {
           kind: 'scripture',
@@ -54,8 +53,7 @@ export const DANIEL_7: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'daniel7-beasts',
-          html:
-            'The four beasts represent earthly kingdoms and powers. They are monsters—fierce, hungry, brutal. They devour, they destroy, they war against one another. They are not merely imperfect; they are bestial. They are driven by appetite, by violence, by the lust for dominion. They come from the sea—from chaos, from the forces that oppose God&apos;s order. And they imagine themselves to be supreme, each ruling over all the earth. But none of them endures. They are replaced by one another, and they will all be replaced by the kingdom of the Son of Man.',
+          html: 'The four beasts represent earthly kingdoms and powers. They are monsters—fierce, hungry, brutal. They devour, they destroy, they war against one another. They are not merely imperfect; they are bestial. They are driven by appetite, by violence, by the lust for dominion. They come from the sea—from chaos, from the forces that oppose God&apos;s order. And they imagine themselves to be supreme, each ruling over all the earth. But none of them endures. They are replaced by one another, and they will all be replaced by the kingdom of the Son of Man[res:sefaria-daniel].',
         },
         {
           kind: 'hebrew',
@@ -88,8 +86,7 @@ export const DANIEL_7: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'daniel7-son-of-man',
-          html:
-            'The Son of Man—this title captures something essential. Not a beast. Not a monster. A man, yet more than a man. One like the Son of Man comes with the clouds of heaven. He comes before the Ancient of Days. And before Him there is given dominion and glory and a kingdom. All people, all nations, all languages serve Him. His dominion is everlasting. His kingdom shall not be destroyed. The kingdoms of the earth are temporal. The Kingdom of the Son of Man is eternal.',
+          html: 'The Son of Man—this title captures something essential. Not a beast. Not a monster. A man, yet more than a man. One like the Son of Man comes with the clouds of heaven. He comes before the Ancient of Days. And before Him there is given dominion and glory and a kingdom. All people, all nations, all languages serve Him. His dominion is everlasting. His kingdom shall not be destroyed. The kingdoms of the earth are temporal. The Kingdom of the Son of Man is eternal.',
         },
         {
           kind: 'hebrew',
@@ -103,8 +100,7 @@ export const DANIEL_7: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'daniel7-saints-possess',
-          html:
-            'And the saints of the Most High shall take the kingdom and possess it forever. The Kingdom of the Son of Man is not for Him alone. It is for those who belong to Him. The people of the saints of the Most High inherit an everlasting kingdom. All dominions—all the kingdoms that rose from the sea, all the earthly powers that thought themselves supreme—shall serve and obey Him. This is the promise: not that we will escape the kingdoms of this world, but that we will be raised with Christ into a Kingdom that cannot be shaken.',
+          html: 'And the saints of the Most High shall take the kingdom and possess it forever. The Kingdom of the Son of Man is not for Him alone. It is for those who belong to Him. The people of the saints of the Most High inherit an everlasting kingdom. All dominions—all the kingdoms that rose from the sea, all the earthly powers that thought themselves supreme—shall serve and obey Him. This is the promise: not that we will escape the kingdoms of this world, but that we will be raised with Christ into a Kingdom that cannot be shaken.',
         },
         {
           kind: 'christ',
@@ -131,7 +127,24 @@ export const DANIEL_7: RichChapterContent = {
     quote: 'One like the Son of man came with the clouds of heaven...and there was given him dominion, and glory, and a kingdom, that all people, nations, and languages, should serve him.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Daniel 7 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'bibleodyssey-apocalyptic',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Apocalyptic Literature',
+      url: 'https://www.bibleodyssey.org/dictionary/apocalypse/',
+      description: 'SBL entry on the apocalyptic genre exemplified by Daniel.',
+    },
+    {
+      id: 'sefaria-daniel',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Daniel',
+      url: 'https://www.sefaria.org/Daniel',
+      description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
+    }
+  ],
 
   hasHebrew: true,
 };

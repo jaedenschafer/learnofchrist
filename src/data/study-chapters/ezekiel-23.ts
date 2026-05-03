@@ -40,8 +40,7 @@ export const EZEKIEL_23: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'resolve-sisters-fall',
-          html:
-            '<p>Two sisters play harlot, then cry out under judgment. Unfaithfulness always ends in the same ruin.</p>',
+          html: '<p>Two sisters play harlot, then cry out under judgment. Unfaithfulness always ends in the same ruin.</p>[res:sefaria-ezekiel]',
         },
         {
           kind: 'scripture',
@@ -56,14 +55,12 @@ export const EZEKIEL_23: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezek23-sisters',
-          html:
-            'Both sisters are born of the same mother—one Israel, one people. Yet both turn to other lovers. Aholah (Samaria) played the harlot early, in Egypt. Then she gave herself to the Assyrians. Aholibah (Jerusalem) witnessed her sister&apos;s downfall—Assyria destroyed the northern kingdom. And yet, when she saw this, she did not learn. Instead, "she was more corrupt in her inordinate love than she, and in her whoredoms more than her sister in her whoredoms."',
+          html: 'Both sisters are born of the same mother—one Israel, one people. Yet both turn to other lovers. Aholah (Samaria) played the harlot early, in Egypt. Then she gave herself to the Assyrians. Aholibah (Jerusalem) witnessed her sister&apos;s downfall—Assyria destroyed the northern kingdom. And yet, when she saw this, she did not learn. Instead, "she was more corrupt in her inordinate love than she, and in her whoredoms more than her sister in her whoredoms."[res:tyre-archaeology]',
         },
         {
           kind: 'commentary',
           id: 'ezek23-lovers',
-          html:
-            'Jerusalem doted upon the Assyrians—powerful, gorgeous, adorned with the trappings of authority. She sent messengers to Chaldea (Babylon). The language suggests that she actively pursued these lovers, sending embassies, making treaties, binding herself to them through political alliances. Each alliance is described as a form of prostitution—giving herself for a price.',
+          html: 'Jerusalem doted upon the Assyrians—powerful, gorgeous, adorned with the trappings of authority. She sent messengers to Chaldea (Babylon). The language suggests that she actively pursued these lovers, sending embassies, making treaties, binding herself to them through political alliances. Each alliance is described as a form of prostitution—giving herself for a price.',
         },
         {
           kind: 'hebrew',
@@ -98,8 +95,7 @@ export const EZEKIEL_23: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'resolve-sisters-fall-2',
-          html:
-            '<p>The lovers take the unfaithful; shame and desolation follow. Rebellion always collects its wages.</p>',
+          html: '<p>The lovers take the unfaithful; shame and desolation follow. Rebellion always collects its wages.</p>',
         },
         {
           kind: 'scripture',
@@ -148,7 +144,24 @@ export const EZEKIEL_23: RichChapterContent = {
     quote: 'Behold, I will raise up thy lovers against thee, from whom thy mind is alienated, and I will bring them against thee on every side.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Ezekiel 23 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'sefaria-ezekiel',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezekiel',
+      url: 'https://www.sefaria.org/Ezekiel',
+      description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
+    },
+    {
+      id: 'tyre-archaeology',
+      kind: 'archaeology',
+      source: 'Israel Museum / ToposText',
+      label: 'Tyre Archaeology (Ezek 26-28)',
+      url: 'https://www.imj.org.il/en',
+      description: 'Archaeological record of ancient Tyre, subject of Ezekiel&apos;s prophecies.',
+    }
+  ],
 
   hasHebrew: true,
 };

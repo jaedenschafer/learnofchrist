@@ -38,25 +38,21 @@ export const LAMENTATIONS_2: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'lam2-covered-cloud',
-          html:
-            'The opening image is of God covering Jerusalem with a cloud—not a cloud of protection, but of anger. God has cast down the beauty of Israel from heaven to earth. The "footstool" refers to the temple, where God&apos;s presence dwelt. God has forgotten even His own sanctuary in His anger. The implication is that nothing is beyond the reach of divine judgment.',
+          html: 'The opening image is of God covering Jerusalem with a cloud—not a cloud of protection, but of anger. God has cast down the beauty of Israel from heaven to earth. The "footstool" refers to the temple, where God&apos;s presence dwelt. God has forgotten even His own sanctuary in His anger. The implication is that nothing is beyond the reach of divine judgment[res:bibleodyssey-lament].',
         },
         {
           kind: 'commentary',
           id: 'lam2-enemy',
-          html:
-            'God is described as an enemy: "The Lord was as an enemy: he hath swallowed up Israel." The word "as" is crucial—this is how God appears in the moment of judgment. This is not God abandoned His people. This is God actively turning against them. God has swallowed up their palaces, destroyed their strongholds, increased their mourning. All of this is attributed directly to God.',
+          html: 'God is described as an enemy: "The Lord was as an enemy: he hath swallowed up Israel." The word "as" is crucial—this is how God appears in the moment of judgment. This is not God abandoned His people. This is God actively turning against them. God has swallowed up their palaces, destroyed their strongholds, increased their mourning. All of this is attributed directly to God[res:sefaria-lamentations].',
         },
         {
           kind: 'commentary',
           id: 'lam2-purposed',
-          html:
-            'God has "purposed to destroy the wall." It is not random. It is not accidental. It is God&apos;s intention, God&apos;s deliberate plan. "He hath not withdrawn his hand from destroying." God&apos;s hand remains extended in judgment. The ramparts and walls, the physical defenses of Jerusalem, are made to lament. They languish. They fall silent. The entire city has become a monument to God&apos;s judgment.',
+          html: 'God has "purposed to destroy the wall." It is not random. It is not accidental. It is God&apos;s intention, God&apos;s deliberate plan. "He hath not withdrawn his hand from destroying." God&apos;s hand remains extended in judgment. The ramparts and walls, the physical defenses of Jerusalem, are made to lament. They languish. They fall silent. The entire city has become a monument to God&apos;s judgment[res:sumerian-lamentations].',
         },
         {
           kind: 'carry',
-          html:
-            'This passage presents a hard truth: sometimes our suffering is not accidental or circumstantial. Sometimes it is directly the result of God&apos;s judgment on our sin. The call is not to blame God or rebel against Him, but to receive the judgment, acknowledge the sin that prompted it, and turn.',
+          html: 'This passage presents a hard truth: sometimes our suffering is not accidental or circumstantial. Sometimes it is directly the result of God&apos;s judgment on our sin. The call is not to blame God or rebel against Him, but to receive the judgment, acknowledge the sin that prompted it, and turn.',
         },
         {
           kind: 'reflection',
@@ -82,14 +78,12 @@ export const LAMENTATIONS_2: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'lam2-cry-heart',
-          html:
-            'In the midst of describing divine judgment, the poet turns to address Jerusalem herself. He calls on her to cry out. Her heart should cry to the Lord. She should let tears run like a river day and night, without ceasing. The image is of unrelenting, persistent lamentation. She is to "give thyself no rest." The tears should flow constantly. This is not a call to despair, but a call to bring her entire anguish to God.',
+          html: 'In the midst of describing divine judgment, the poet turns to address Jerusalem herself. He calls on her to cry out. Her heart should cry to the Lord. She should let tears run like a river day and night, without ceasing. The image is of unrelenting, persistent lamentation. She is to "give thyself no rest." The tears should flow constantly. This is not a call to despair, but a call to bring her entire anguish to God.',
         },
         {
           kind: 'commentary',
           id: 'lam2-arise-cry',
-          html:
-            '"Arise, cry out in the night." The call comes at the darkest hour—in the night, during the watches when darkness is deepest. Even then, even in that darkness, Jerusalem is called to cry out. "Pour out thine heart like water before the face of the Lord." Do not hold back. Do not bottle up your pain. Pour it out. Let it flow like water before God&apos;s face. Lift your hands toward Him—the gesture of prayer, of desperation, of openness.',
+          html: '"Arise, cry out in the night." The call comes at the darkest hour—in the night, during the watches when darkness is deepest. Even then, even in that darkness, Jerusalem is called to cry out. "Pour out thine heart like water before the face of the Lord." Do not hold back. Do not bottle up your pain. Pour it out. Let it flow like water before God&apos;s face. Lift your hands toward Him—the gesture of prayer, of desperation, of openness.',
         },
         {
           kind: 'hebrew',
@@ -125,5 +119,30 @@ export const LAMENTATIONS_2: RichChapterContent = {
     quote: 'Arise, cry out in the night: pour out thine heart like water before the face of the Lord: lift up thy hands toward him for the life of thy young children.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Lamentations 2 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'bibleodyssey-lament',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Lament Genre in the Ancient Near East',
+      url: 'https://www.bibleodyssey.org/dictionary/lament/',
+      description: 'SBL entry on lament poetry in ANE literature, including parallels to Lamentations.',
+    },
+    {
+      id: 'sefaria-lamentations',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Lamentations',
+      url: 'https://www.sefaria.org/Lamentations',
+      description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
+    },
+    {
+      id: 'sumerian-lamentations',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Sumerian City Laments',
+      url: 'https://www.britishmuseum.org/collection/object/Y_EA9319',
+      description: 'ANE parallels to Lamentations: Sumerian lament poetry over destroyed cities.',
+    }
+  ],
 };

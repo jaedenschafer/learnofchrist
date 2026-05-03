@@ -37,8 +37,7 @@ export const JEREMIAH_38: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jeremiah-38-78mid-1',
-          html:
-            'Ebed-melech the Ethiopian intervenes. The prophet who was thrown into the cistern is lifted out by a foreigner&apos;s mercy.',
+          html: 'Ebed-melech the Ethiopian intervenes. The prophet who was thrown into the cistern is lifted out by a foreigner&apos;s mercy[res:bibleodyssey-jeremiah].',
         },
         {
           kind: 'scripture',
@@ -53,32 +52,27 @@ export const JEREMIAH_38: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer38-dungeon',
-          html:
-            'The princes accuse Jeremiah of weakening the hands of the soldiers. But weakening hands is not Jeremiah&apos;s fault. It is the result of judgment. A truth-teller speaks the reality that circumstance already contains. Denying that reality does not change it. Silencing the prophet does not silence the approaching judgment. The mire awaits regardless of whether Jeremiah speaks it or not.',
+          html: 'The princes accuse Jeremiah of weakening the hands of the soldiers. But weakening hands is not Jeremiah&apos;s fault. It is the result of judgment. A truth-teller speaks the reality that circumstance already contains. Denying that reality does not change it. Silencing the prophet does not silence the approaching judgment. The mire awaits regardless of whether Jeremiah speaks it or not[res:lachish-letters].',
         },
         {
           kind: 'commentary',
           id: 'jer38-ebed-melech',
-          html:
-            'Ebed-melech is a foreigner. He is a chamberlain—a servant, a eunuch, a person of no authority in his own right. Yet he alone has the courage to speak for the prophet. He goes to the king. He argues that what is being done is evil. He risks his position, his reputation, perhaps his life. And the king listens. God uses the outsider to save His prophet.',
+          html: 'Ebed-melech is a foreigner. He is a chamberlain—a servant, a eunuch, a person of no authority in his own right. Yet he alone has the courage to speak for the prophet. He goes to the king. He argues that what is being done is evil. He risks his position, his reputation, perhaps his life. And the king listens. God uses the outsider to save His prophet[res:sefaria-jeremiah].',
         },
         {
           kind: 'commentary',
           id: 'jer38-rags-rope',
-          html:
-            'Ebed-melech takes cast clouts and rotten rags—discarded material—and uses them to rescue Jeremiah. The manner of rescue is as humble as the rescuer. But it works. The abandoned rags protect the prophet&apos;s skin as he is drawn up from the mire. Nothing is wasted. Everything is used. Even the least and most broken materials become instruments of salvation.',
+          html: 'Ebed-melech takes cast clouts and rotten rags—discarded material—and uses them to rescue Jeremiah. The manner of rescue is as humble as the rescuer. But it works. The abandoned rags protect the prophet&apos;s skin as he is drawn up from the mire. Nothing is wasted. Everything is used. Even the least and most broken materials become instruments of salvation.',
         },
         {
           kind: 'christ',
           id: 'jer38-christ-rescue',
           title: 'Christ Connection — The Foreign Savior',
-          html:
-            'In Jeremiah, a foreigner rescues the prophet. In the Gospels, the Gentiles respond to Jesus&apos; message while the religious authorities oppose Him. The pattern repeats: those outside the establishment often see what insiders refuse to see. And Christ&apos;s entire work is one of rescue—pulling us from the mire of sin, lifting us from the dungeon of death, using materials that seem useless and broken to accomplish salvation.',
+          html: 'In Jeremiah, a foreigner rescues the prophet. In the Gospels, the Gentiles respond to Jesus&apos; message while the religious authorities oppose Him. The pattern repeats: those outside the establishment often see what insiders refuse to see. And Christ&apos;s entire work is one of rescue—pulling us from the mire of sin, lifting us from the dungeon of death, using materials that seem useless and broken to accomplish salvation.',
         },
         {
           kind: 'carry',
-          html:
-            'Have you found yourself in a mire, abandoned by those who should have helped you? Has rescue come from an unexpected source? God uses the weak, the outsider, the foreigner, the discarded. He wastes nothing. His salvation often comes through people we would never have expected, using means we would never have predicted.',
+          html: 'Have you found yourself in a mire, abandoned by those who should have helped you? Has rescue come from an unexpected source? God uses the weak, the outsider, the foreigner, the discarded. He wastes nothing. His salvation often comes through people we would never have expected, using means we would never have predicted.',
         },
         {
           kind: 'reflection',
@@ -93,7 +87,32 @@ export const JEREMIAH_38: RichChapterContent = {
     quote: 'My lord the king, these men have done evil in all that they have done to Jeremiah the prophet, whom they have cast into the dungeon. And Ebed-melech took the men with him...and they drew up Jeremiah with cords.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Jeremiah 38 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'bibleodyssey-jeremiah',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Jeremiah',
+      url: 'https://www.bibleodyssey.org/passages/main-articles/jeremiah/',
+      description: 'Peer-reviewed SBL entry on the prophet Jeremiah and his historical context.',
+    },
+    {
+      id: 'lachish-letters',
+      kind: 'archaeology',
+      source: 'Israel Museum',
+      label: 'Lachish Letters',
+      url: 'https://www.imj.org.il/en/collections/lachish-letters',
+      description: 'Ancient inscribed potsherds from the Judean siege of Lachish (587 BCE), contemporary with Jeremiah.',
+    },
+    {
+      id: 'sefaria-jeremiah',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jeremiah',
+      url: 'https://www.sefaria.org/Jeremiah',
+      description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
+    }
+  ],
 
   hasHebrew: false,
 };

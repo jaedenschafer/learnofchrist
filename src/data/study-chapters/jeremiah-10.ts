@@ -41,8 +41,7 @@ export const JEREMIAH_10: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer10-idols-sovereign',
-          html:
-            'Jeremiah moves from mocking human-made idols to proclaiming God&apos;s sovereignty. Ridicule becomes affirmation of the true King.',
+          html: 'Jeremiah moves from mocking human-made idols to proclaiming God&apos;s sovereignty. Ridicule becomes affirmation of the true King[res:jer31-hebrews-intertextual].',
         },
         {
           kind: 'scripture',
@@ -58,7 +57,7 @@ export const JEREMIAH_10: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer10-none-like',
-          html: 'The declaration is absolute: "There is none like unto thee." Not merely that God is greater than other gods, but that there is a categorical difference. God is the only true God. All others are nothing—not lesser versions of God, but non-existent. The claim is not comparative but exclusive.',
+          html: 'The declaration is absolute: "There is none like unto thee." Not merely that God is greater than other gods, but that there is a categorical difference. God is the only true God. All others are nothing—not lesser versions of God, but non-existent. The claim is not comparative but exclusive[res:lachish-letters].',
         },
         {
           kind: 'hebrew',
@@ -71,7 +70,7 @@ export const JEREMIAH_10: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer10-craftsman',
-          html: 'Jeremiah describes the making of an idol: a tree is cut down, a craftsman shapes it with an axe, it is decorated with silver and gold, it is fastened with nails and hammers "that it move not." The purpose of the nails is to keep the idol from falling over—it cannot stand on its own. It must be secured. And even then, it cannot speak, it cannot walk, it cannot do good or evil. It is utterly inert, utterly powerless.',
+          html: 'Jeremiah describes the making of an idol: a tree is cut down, a craftsman shapes it with an axe, it is decorated with silver and gold, it is fastened with nails and hammers "that it move not." The purpose of the nails is to keep the idol from falling over—it cannot stand on its own. It must be secured. And even then, it cannot speak, it cannot walk, it cannot do good or evil. It is utterly inert, utterly powerless[res:sefaria-jeremiah].',
         },
         {
           kind: 'commentary',
@@ -157,7 +156,32 @@ export const JEREMIAH_10: RichChapterContent = {
     quote: 'But the Lord is the true God, he is the living God, and an everlasting king: at his wrath the earth shall tremble, and the nations shall not be able to abide his indignation.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Jeremiah 10 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'jer31-hebrews-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Jeremiah 31 ↔ Hebrews 8:8–12',
+      url: 'https://intertextual.bible/text/jeremiah-31/hebrews-8',
+      description: 'Side-by-side comparison of the new covenant promise in Jeremiah quoted in Hebrews.',
+    },
+    {
+      id: 'lachish-letters',
+      kind: 'archaeology',
+      source: 'Israel Museum',
+      label: 'Lachish Letters',
+      url: 'https://www.imj.org.il/en/collections/lachish-letters',
+      description: 'Ancient inscribed potsherds from the Judean siege of Lachish (587 BCE), contemporary with Jeremiah.',
+    },
+    {
+      id: 'sefaria-jeremiah',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jeremiah',
+      url: 'https://www.sefaria.org/Jeremiah',
+      description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
+    }
+  ],
 
   hasHebrew: true,
 };

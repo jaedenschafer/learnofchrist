@@ -68,8 +68,7 @@ export const JEREMIAH_23: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jeremiah-23-78mid-1',
-          html:
-            'The oracle turns from the failed shepherds to the Branch that is coming — &quot;a King shall reign and prosper.&quot; Judgment makes room for a promise.',
+          html: 'The oracle turns from the failed shepherds to the Branch that is coming — &quot;a King shall reign and prosper.&quot; Judgment makes room for a promise[res:bibleodyssey-jeremiah].',
         },
         {
           kind: 'scripture',
@@ -108,14 +107,12 @@ export const JEREMIAH_23: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer23-branch',
-          html:
-            'The "righteous Branch" echoes through Jeremiah and the prophets. It is a shoot, a descendant, from the line of David who will be righteous — unlike the false kings who came before. This Branch will not be cursed or childless; He will reign and prosper. The messianic promise is implicit in the name "Branch" — it speaks of life, growth, fruitfulness.',
+          html: 'The "righteous Branch" echoes through Jeremiah and the prophets. It is a shoot, a descendant, from the line of David who will be righteous — unlike the false kings who came before. This Branch will not be cursed or childless; He will reign and prosper. The messianic promise is implicit in the name "Branch" — it speaks of life, growth, fruitfulness[res:sefaria-jeremiah].',
         },
         {
           kind: 'commentary',
           id: 'jer23-name',
-          html:
-            '"The Lord Our Righteousness" — a name that belongs to God alone, yet is given to the King. This King will not merely rule; He will be righteous. His very being will be righteousness. This is not a human king who tries to be just; this is a King in whom justice itself resides.',
+          html: '"The Lord Our Righteousness" — a name that belongs to God alone, yet is given to the King. This King will not merely rule; He will be righteous. His very being will be righteousness. This is not a human king who tries to be just; this is a King in whom justice itself resides.',
         },
         {
           kind: 'hebrew',
@@ -130,8 +127,7 @@ export const JEREMIAH_23: RichChapterContent = {
           kind: 'christ',
           id: 'jer23-christ-branch',
           title: 'Christ Connection — The Branch and the Root',
-          html:
-            'Jesus is identified as "the Root and the Offspring of David" (Revelation 22:16). He is the righteous Branch that Jeremiah prophesied. And His name, revealed to Paul, is "the Power of God, and the Wisdom of God" (1 Corinthians 1:24) — but more intimately for Jeremiah&apos;s purpose, He is our Righteousness. "God... made him to be sin who knew no sin, that we might become the righteousness of God in him" (2 Corinthians 5:21).',
+          html: 'Jesus is identified as "the Root and the Offspring of David" (Revelation 22:16). He is the righteous Branch that Jeremiah prophesied. And His name, revealed to Paul, is "the Power of God, and the Wisdom of God" (1 Corinthians 1:24) — but more intimately for Jeremiah&apos;s purpose, He is our Righteousness. "God... made him to be sin who knew no sin, that we might become the righteousness of God in him" (2 Corinthians 5:21).',
         },
         {
           kind: 'carry',
@@ -426,5 +422,22 @@ export const JEREMIAH_23: RichChapterContent = {
         },
       ],
     },
+  ],  resources: [
+    {
+      id: 'bibleodyssey-jeremiah',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Jeremiah',
+      url: 'https://www.bibleodyssey.org/passages/main-articles/jeremiah/',
+      description: 'Peer-reviewed SBL entry on the prophet Jeremiah and his historical context.',
+    },
+    {
+      id: 'sefaria-jeremiah',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jeremiah',
+      url: 'https://www.sefaria.org/Jeremiah',
+      description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
+    }
   ],
 };

@@ -38,8 +38,7 @@ export const DANIEL_8: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'daniel-8-beast-explained',
-          html:
-            'The ram and the goat fall. Now the angel Gabriel steps in. What Daniel saw in vision—terror and confusion—Gabriel translates into history: kings will rise, the wicked will fall, the end is written.',
+          html: 'The ram and the goat fall. Now the angel Gabriel steps in. What Daniel saw in vision—terror and confusion—Gabriel translates into history: kings will rise, the wicked will fall, the end is written[res:bibleodyssey-apocalyptic].',
         },
         {
           kind: 'scripture',
@@ -55,8 +54,7 @@ export const DANIEL_8: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'daniel8-gabriel',
-          html:
-            'Gabriel comes to Daniel with a message: "Understand, O son of man: for at the time of the end shall be the vision." The powers Daniel sees are real—they are the kingdoms of Media and Persia, and the empire of Greece that will eventually conquer them. But the vision is ultimately about "the time of the end"—not merely the end of earthly kingdoms, but the end of all things, when God&apos;s reign becomes fully manifest.',
+          html: 'Gabriel comes to Daniel with a message: "Understand, O son of man: for at the time of the end shall be the vision." The powers Daniel sees are real—they are the kingdoms of Media and Persia, and the empire of Greece that will eventually conquer them. But the vision is ultimately about "the time of the end"—not merely the end of earthly kingdoms, but the end of all things, when God&apos;s reign becomes fully manifest[res:cyrus-cylinder].',
         },
         {
           kind: 'hebrew',
@@ -70,8 +68,7 @@ export const DANIEL_8: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'daniel8-holiness',
-          html:
-            'The horn "shall destroy the mighty and the holy people." Throughout history, powers have risen that persecute God&apos;s people. But Daniel is assured that this too is part of God&apos;s sovereign plan. The persecution is real. The suffering is real. But it is limited in time and purpose. "At the time of the end," when God&apos;s full plan is revealed, all that opposed His people will be judged and broken.',
+          html: 'The horn "shall destroy the mighty and the holy people." Throughout history, powers have risen that persecute God&apos;s people. But Daniel is assured that this too is part of God&apos;s sovereign plan. The persecution is real. The suffering is real. But it is limited in time and purpose. "At the time of the end," when God&apos;s full plan is revealed, all that opposed His people will be judged and broken[res:sefaria-daniel].',
         },
       ],
     },
@@ -90,20 +87,17 @@ export const DANIEL_8: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'daniel8-overwhelmed',
-          html:
-            'The vision overwhelms Daniel. He becomes sick. He is astonished. And yet, even in his bewilderment, he returns to his duties in the king&apos;s service. He does not neglect his work in the world. He does not become paralyzed by what he has seen. Instead, he carries the weight of the vision while continuing to be faithful in his daily responsibilities. This is the balance Daniel maintains throughout his life: he knows that all earthly powers are temporary, yet he serves faithfully within them. He knows that God&apos;s kingdom shall ultimately prevail, yet he works diligently in the kingdoms of men.',
+          html: 'The vision overwhelms Daniel. He becomes sick. He is astonished. And yet, even in his bewilderment, he returns to his duties in the king&apos;s service. He does not neglect his work in the world. He does not become paralyzed by what he has seen. Instead, he carries the weight of the vision while continuing to be faithful in his daily responsibilities. This is the balance Daniel maintains throughout his life: he knows that all earthly powers are temporary, yet he serves faithfully within them. He knows that God&apos;s kingdom shall ultimately prevail, yet he works diligently in the kingdoms of men.',
         },
         {
           kind: 'christ',
           id: 'daniel8-christ-history',
           title: 'Christ Connection — God&apos;s Sovereignty Over History',
-          html:
-            'Daniel 8 reveals that God knows the rise and fall of empires before they occur. He orders all history toward His purposes. Though earthly kingdoms may seem to govern, they are all subject to God&apos;s sovereign hand. This is the comfort that Jesus offers to His disciples: "In the world ye shall have tribulation: but be of good cheer; I have overcome the world." The powers that persecuted the early church, that have persecuted the faith in every age, are temporary. Christ has overcome them all, and He reigns forever.',
+          html: 'Daniel 8 reveals that God knows the rise and fall of empires before they occur. He orders all history toward His purposes. Though earthly kingdoms may seem to govern, they are all subject to God&apos;s sovereign hand. This is the comfort that Jesus offers to His disciples: "In the world ye shall have tribulation: but be of good cheer; I have overcome the world." The powers that persecuted the early church, that have persecuted the faith in every age, are temporary. Christ has overcome them all, and He reigns forever.',
         },
         {
           kind: 'carry',
-          html:
-            'When we see the chaos of the world, the rise of powers hostile to God and to His people, the persecution of believers, it is easy to despair. But Daniel 8 teaches us that God sees all of this. He knows the beginning from the end. He has determined the boundaries of every kingdom and the length of every persecution. We are not left without comfort. We are not abandoned. "At the time of the end," when God&apos;s purposes are fully fulfilled, all that opposed Him will be broken. Until then, we are called to faithfulness—to serve God, to honor Him, to maintain our integrity, knowing that His kingdom shall ultimately prevail.',
+          html: 'When we see the chaos of the world, the rise of powers hostile to God and to His people, the persecution of believers, it is easy to despair. But Daniel 8 teaches us that God sees all of this. He knows the beginning from the end. He has determined the boundaries of every kingdom and the length of every persecution. We are not left without comfort. We are not abandoned. "At the time of the end," when God&apos;s purposes are fully fulfilled, all that opposed Him will be broken. Until then, we are called to faithfulness—to serve God, to honor Him, to maintain our integrity, knowing that His kingdom shall ultimately prevail.',
         },
         {
           kind: 'reflection',
@@ -118,7 +112,32 @@ export const DANIEL_8: RichChapterContent = {
     quote: 'And he said, Behold, I will make known unto thee what shall be in the last end of the indignation: for at the time appointed the end shall be.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Daniel 8 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'bibleodyssey-apocalyptic',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Apocalyptic Literature',
+      url: 'https://www.bibleodyssey.org/dictionary/apocalypse/',
+      description: 'SBL entry on the apocalyptic genre exemplified by Daniel.',
+    },
+    {
+      id: 'cyrus-cylinder',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Cyrus Cylinder',
+      url: 'https://www.britishmuseum.org/collection/object/Y_EA90920',
+      description: 'Persian edict of Cyrus authorizing return of exiled peoples (ca. 539 BCE), fulfilling Daniel&apos;s prophecy.',
+    },
+    {
+      id: 'sefaria-daniel',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Daniel',
+      url: 'https://www.sefaria.org/Daniel',
+      description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
+    }
+  ],
 
   hasHebrew: true,
 };

@@ -42,8 +42,7 @@ export const JEREMIAH_9: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jeremiah-9-78mid-1',
-          html:
-            'Jeremiah turns from the deceit of his neighbors to the death of his nation. The personal grief becomes a national one.',
+          html: 'Jeremiah turns from the deceit of his neighbors to the death of his nation. The personal grief becomes a national one[res:babylonian-chronicle].',
         },
         {
           kind: 'scripture',
@@ -58,7 +57,7 @@ export const JEREMIAH_9: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer9-waters',
-          html: 'Jeremiah&apos;s desire is extraordinary. He does not wish merely to weep. He wishes his entire being could be transformed into tears so that he could weep perpetually, without ceasing, for those who have died as a consequence of the people&apos;s rebellion against God. This reveals the depth of the prophet&apos;s compassion and his internalization of God&apos;s grief.',
+          html: 'Jeremiah&apos;s desire is extraordinary. He does not wish merely to weep. He wishes his entire being could be transformed into tears so that he could weep perpetually, without ceasing, for those who have died as a consequence of the people&apos;s rebellion against God. This reveals the depth of the prophet&apos;s compassion and his internalization of God&apos;s grief[res:jer31-hebrews-intertextual].',
         },
         {
           kind: 'hebrew',
@@ -136,7 +135,24 @@ export const JEREMIAH_9: RichChapterContent = {
     quote: 'Let not the wise man glory in his wisdom, neither let the mighty man glory in his might, let not the rich man glory in his riches: But let him that glorieth glory in this, that he understandeth and knoweth me.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Jeremiah 9 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'babylonian-chronicle',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Babylonian Chronicle (Jerusalem siege)',
+      url: 'https://www.britishmuseum.org/collection/object/Y_EA25091',
+      description: 'Cuneiform tablet documenting the Babylonian assault on Jerusalem in 597 and 587 BCE.',
+    },
+    {
+      id: 'jer31-hebrews-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Jeremiah 31 ↔ Hebrews 8:8–12',
+      url: 'https://intertextual.bible/text/jeremiah-31/hebrews-8',
+      description: 'Side-by-side comparison of the new covenant promise in Jeremiah quoted in Hebrews.',
+    }
+  ],
 
   hasHebrew: true,
 };

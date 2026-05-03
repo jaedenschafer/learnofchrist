@@ -39,14 +39,12 @@ export const EZEKIEL_36: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezekiel36-mountains',
-          html:
-            'The prophet speaks to the mountains themselves—not to the people, but to the land. This is poetic and profound. The mountains have witnessed the desolation. They have seen the cities emptied, the vines torn up, the people driven away. But now God commands the mountains to bear fruit again. The land itself will become a witness to God&apos;s restoration.',
+          html: 'The prophet speaks to the mountains themselves—not to the people, but to the land. This is poetic and profound. The mountains have witnessed the desolation. They have seen the cities emptied, the vines torn up, the people driven away. But now God commands the mountains to bear fruit again. The land itself will become a witness to God&apos;s restoration[res:ezekiel-revelation-intertextual].',
         },
         {
           kind: 'commentary',
           id: 'ezekiel36-multiply',
-          html:
-            'The promise is not merely return; it is multiplication. "I will multiply upon you man and beast." What was broken will not merely be repaired—it will be greater than before. "I will do better unto you than at your beginnings." God is not just undoing the damage. He is moving the people forward into something better than what they lost.',
+          html: 'The promise is not merely return; it is multiplication. "I will multiply upon you man and beast." What was broken will not merely be repaired—it will be greater than before. "I will do better unto you than at your beginnings." God is not just undoing the damage. He is moving the people forward into something better than what they lost[res:tyre-archaeology].',
         },
         {
           kind: 'hebrew',
@@ -61,13 +59,11 @@ export const EZEKIEL_36: RichChapterContent = {
           kind: 'christ',
           id: 'ezekiel36-christ-new',
           title: 'Christ Connection — New Creation',
-          html:
-            'In 2 Corinthians 5:17, Paul writes: "If any man be in Christ, he is a new creature: old things are passed away; behold, all things are become new." Christ does not merely repair what is broken in us. He makes us new. We are not restored to our former state; we are transformed. This is what regeneration means—not rehabilitation, but resurrection into a new life.',
+          html: 'In 2 Corinthians 5:17, Paul writes: "If any man be in Christ, he is a new creature: old things are passed away; behold, all things are become new." Christ does not merely repair what is broken in us. He makes us new. We are not restored to our former state; we are transformed. This is what regeneration means—not rehabilitation, but resurrection into a new life.',
         },
         {
           kind: 'carry',
-          html:
-            'Whatever desolation you carry—broken relationships, failed attempts, wasted years—God is not interested in merely undoing the damage. He wants to make you new and to do better by you than at your beginning. This requires faith. It requires release of what you thought your life would be. It requires trust that God&apos;s restoration is better than what you lost.',
+          html: 'Whatever desolation you carry—broken relationships, failed attempts, wasted years—God is not interested in merely undoing the damage. He wants to make you new and to do better by you than at your beginning. This requires faith. It requires release of what you thought your life would be. It requires trust that God&apos;s restoration is better than what you lost.',
         },
         {
           kind: 'reflection',
@@ -122,7 +118,24 @@ export const EZEKIEL_36: RichChapterContent = {
     quote: 'A new heart also will I give you, and a new spirit will I put within you.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Ezekiel 36 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'ezekiel-revelation-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Ezekiel Temple Vision ↔ Revelation 21-22',
+      url: 'https://intertextual.bible/text/ezekiel-40/revelation-21',
+      description: 'Side-by-side comparison of Ezekiel&apos;s temple vision and John&apos;s new creation.',
+    },
+    {
+      id: 'tyre-archaeology',
+      kind: 'archaeology',
+      source: 'Israel Museum / ToposText',
+      label: 'Tyre Archaeology (Ezek 26-28)',
+      url: 'https://www.imj.org.il/en',
+      description: 'Archaeological record of ancient Tyre, subject of Ezekiel&apos;s prophecies.',
+    }
+  ],
 
   hasHebrew: true,
 };

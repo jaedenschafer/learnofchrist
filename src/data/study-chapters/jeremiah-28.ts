@@ -67,8 +67,7 @@ export const JEREMIAH_28: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer28-peace-sword',
-          html:
-            'Hananiah shifts from promising peace to Jeremiah pronouncing the sword. False hope meets true judgment.',
+          html: 'Hananiah shifts from promising peace to Jeremiah pronouncing the sword. False hope meets true judgment[res:babylonian-chronicle].',
         },
         {
           kind: 'scripture',
@@ -109,19 +108,16 @@ export const JEREMIAH_28: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer28-broken',
-          html:
-            'Hananiah breaks the yoke physically, from Jeremiah&apos;s neck, and declares that God has broken the yoke of Babylon. It is a dramatic, public action. But Jeremiah&apos;s response is telling: "The prophet which prophesieth of peace, when the word of the prophet shall come to pass, then shall the prophet be known." The true prophet is known by whether his words come to pass, not by the comfort of his message.',
+          html: 'Hananiah breaks the yoke physically, from Jeremiah&apos;s neck, and declares that God has broken the yoke of Babylon. It is a dramatic, public action. But Jeremiah&apos;s response is telling: "The prophet which prophesieth of peace, when the word of the prophet shall come to pass, then shall the prophet be known." The true prophet is known by whether his words come to pass, not by the comfort of his message[res:bibleodyssey-jeremiah].',
         },
         {
           kind: 'commentary',
           id: 'jer28-amen',
-          html:
-            'Jeremiah initially says "Amen," wishing that Hananiah&apos;s words were true. Yet he knows they are not. He then makes clear why he cannot believe Hananiah: the great prophets of old prophesied hard words — war, evil, pestilence. Those who prophesy only peace are suspect. But if the word comes to pass, then the prophet is true.',
+          html: 'Jeremiah initially says "Amen," wishing that Hananiah&apos;s words were true. Yet he knows they are not. He then makes clear why he cannot believe Hananiah: the great prophets of old prophesied hard words — war, evil, pestilence. Those who prophesy only peace are suspect. But if the word comes to pass, then the prophet is true[res:lachish-letters].',
         },
         {
           kind: 'carry',
-          html:
-            'We prefer people who tell us comfortable things. Hananiah is more popular than Jeremiah. But Jeremiah teaches that truth is not measured by comfort. A true prophet speaks hard words if those hard words are what God is saying. We must learn to distinguish between the prophets we like and the prophets who speak truth.',
+          html: 'We prefer people who tell us comfortable things. Hananiah is more popular than Jeremiah. But Jeremiah teaches that truth is not measured by comfort. A true prophet speaks hard words if those hard words are what God is saying. We must learn to distinguish between the prophets we like and the prophets who speak truth.',
         },
         {
           kind: 'reflection',
@@ -169,8 +165,7 @@ export const JEREMIAH_28: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jeremiah-28-78mid-1',
-          html:
-            'Hananiah breaks the wooden yoke; Jeremiah replies that an iron yoke will follow. False prophecy is met with sharpened truth.',
+          html: 'Hananiah breaks the wooden yoke; Jeremiah replies that an iron yoke will follow. False prophecy is met with sharpened truth.',
         },
         {
           kind: 'scripture',
@@ -205,8 +200,7 @@ export const JEREMIAH_28: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer28-iron-yoke',
-          html:
-            'Hananiah breaks the wooden yoke, but God says the consequence is an iron yoke. The judgment is not less for the breaking; it is more. The wooden yoke was hard, but the iron yoke is harder. By lying about God&apos;s word, Hananiah has brought a worse judgment on the people.',
+          html: 'Hananiah breaks the wooden yoke, but God says the consequence is an iron yoke. The judgment is not less for the breaking; it is more. The wooden yoke was hard, but the iron yoke is harder. By lying about God&apos;s word, Hananiah has brought a worse judgment on the people.',
         },
         {
           kind: 'commentary',
@@ -250,5 +244,30 @@ export const JEREMIAH_28: RichChapterContent = {
         },
       ],
     },
+  ],  resources: [
+    {
+      id: 'babylonian-chronicle',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Babylonian Chronicle (Jerusalem siege)',
+      url: 'https://www.britishmuseum.org/collection/object/Y_EA25091',
+      description: 'Cuneiform tablet documenting the Babylonian assault on Jerusalem in 597 and 587 BCE.',
+    },
+    {
+      id: 'bibleodyssey-jeremiah',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Jeremiah',
+      url: 'https://www.bibleodyssey.org/passages/main-articles/jeremiah/',
+      description: 'Peer-reviewed SBL entry on the prophet Jeremiah and his historical context.',
+    },
+    {
+      id: 'lachish-letters',
+      kind: 'archaeology',
+      source: 'Israel Museum',
+      label: 'Lachish Letters',
+      url: 'https://www.imj.org.il/en/collections/lachish-letters',
+      description: 'Ancient inscribed potsherds from the Judean siege of Lachish (587 BCE), contemporary with Jeremiah.',
+    }
   ],
 };

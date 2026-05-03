@@ -39,14 +39,12 @@ export const EZEKIEL_38: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezekiel38-gog',
-          html:
-            'Gog is not named elsewhere in Scripture. His identity remains ambiguous. Yet he represents a principle: the gathering of all hostile forces against God&apos;s people in the end times. He comes from the north, the place of cold and darkness in biblical geography. He is drawn to attack Israel not by God, but seemingly by his own cupidity and ambition. Yet God will use this very impulse to bring judgment.',
+          html: 'Gog is not named elsewhere in Scripture. His identity remains ambiguous. Yet he represents a principle: the gathering of all hostile forces against God&apos;s people in the end times. He comes from the north, the place of cold and darkness in biblical geography. He is drawn to attack Israel not by God, but seemingly by his own cupidity and ambition. Yet God will use this very impulse to bring judgment[res:babylonian-exile-context].',
         },
         {
           kind: 'commentary',
           id: 'ezekiel38-safe',
-          html:
-            'Gog is attracted to Israel precisely because Israel dwells in security—without walls, without bars, without gates. They have peace because they trust in God, not in fortifications. Gog sees this as weakness and opportunity. He does not understand that the protection of Israel is not in walls, but in the hand of God.',
+          html: 'Gog is attracted to Israel precisely because Israel dwells in security—without walls, without bars, without gates. They have peace because they trust in God, not in fortifications. Gog sees this as weakness and opportunity. He does not understand that the protection of Israel is not in walls, but in the hand of God[res:ezekiel-revelation-intertextual].',
         },
         {
           kind: 'hebrew',
@@ -61,13 +59,11 @@ export const EZEKIEL_38: RichChapterContent = {
           kind: 'christ',
           id: 'ezekiel38-christ-final',
           title: 'Christ Connection — The Final Battle',
-          html:
-            'In Revelation 20:7–9, John sees Gog and Magog gathering for the final battle after a thousand years of peace. But Christ defeats them. Fire comes down from heaven and destroys them. This is the ultimate vindication: evil gathers one last time, and Christ crushes it entirely. There is no ongoing conflict. Victory is complete and final.',
+          html: 'In Revelation 20:7–9, John sees Gog and Magog gathering for the final battle after a thousand years of peace. But Christ defeats them. Fire comes down from heaven and destroys them. This is the ultimate vindication: evil gathers one last time, and Christ crushes it entirely. There is no ongoing conflict. Victory is complete and final.',
         },
         {
           kind: 'carry',
-          html:
-            'The comfort in Ezekiel&apos;s vision is this: God does not pretend there will be no opposition. But neither does He fear it. He says: "I am against thee, O Gog." The outcome is not in doubt. God will bring Gog low. Trust in His ultimate power, not in your own military or political might.',
+          html: 'The comfort in Ezekiel&apos;s vision is this: God does not pretend there will be no opposition. But neither does He fear it. He says: "I am against thee, O Gog." The outcome is not in doubt. God will bring Gog low. Trust in His ultimate power, not in your own military or political might.',
         },
         {
           kind: 'reflection',
@@ -94,14 +90,12 @@ export const EZEKIEL_38: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezekiel38-shaking',
-          html:
-            'The response of God is not a military maneuver. It is cosmic intervention. The earth itself shakes. Fire and brimstone rain from heaven. The enemies turn on each other. This is not warfare as humans know it. This is divine judgment.',
+          html: 'The response of God is not a military maneuver. It is cosmic intervention. The earth itself shakes. Fire and brimstone rain from heaven. The enemies turn on each other. This is not warfare as humans know it. This is divine judgment[res:sefaria-ezekiel].',
         },
         {
           kind: 'commentary',
           id: 'ezekiel38-sanctified',
-          html:
-            'God says: "I will be sanctified in thee, O Gog, before their eyes." Gog is the instrument by which God shows His holiness. His destruction, his utter defeat, will be the demonstration that God is holy, that God is sovereign, that God alone rules over all nations.',
+          html: 'God says: "I will be sanctified in thee, O Gog, before their eyes." Gog is the instrument by which God shows His holiness. His destruction, his utter defeat, will be the demonstration that God is holy, that God is sovereign, that God alone rules over all nations.',
         },
         {
           kind: 'carry',
@@ -121,7 +115,32 @@ export const EZEKIEL_38: RichChapterContent = {
     quote: 'I am against thee, O Gog...I will be sanctified in thee before their eyes.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Ezekiel 38 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'babylonian-exile-context',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Babylonian Exile Context',
+      url: 'https://www.britishmuseum.org/collection/object/W_Y_EA25091',
+      description: 'Cuneiform and archaeological evidence of Babylon under Nebuchadnezzar.',
+    },
+    {
+      id: 'ezekiel-revelation-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Ezekiel Temple Vision ↔ Revelation 21-22',
+      url: 'https://intertextual.bible/text/ezekiel-40/revelation-21',
+      description: 'Side-by-side comparison of Ezekiel&apos;s temple vision and John&apos;s new creation.',
+    },
+    {
+      id: 'sefaria-ezekiel',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezekiel',
+      url: 'https://www.sefaria.org/Ezekiel',
+      description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
+    }
+  ],
 
   hasHebrew: true,
 };

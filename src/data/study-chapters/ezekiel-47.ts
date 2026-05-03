@@ -40,14 +40,12 @@ export const EZEKIEL_47: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezekiel47-growing-river',
-          html:
-            'The river grows by stages. Each thousand cubits, it deepens. This is not instantaneous flooding but measured growth. The kingdom of God grows gradually, flowing outward, gathering power, until it becomes unstoppable. By the end, it cannot be forded. It must be swum in.',
+          html: 'The river grows by stages. Each thousand cubits, it deepens. This is not instantaneous flooding but measured growth. The kingdom of God grows gradually, flowing outward, gathering power, until it becomes unstoppable. By the end, it cannot be forded. It must be swum in[res:sefaria-ezekiel].',
         },
         {
           kind: 'commentary',
           id: 'ezekiel47-dead-sea',
-          html:
-            'The most barren place in Israel is the Dead Sea—so salt that nothing can live. And yet Ezekiel sees it transformed. Fish swim in it. The salt is healed. This is transformation, not destruction. What was dead is made alive. What was bitter is made sweet.',
+          html: 'The most barren place in Israel is the Dead Sea—so salt that nothing can live. And yet Ezekiel sees it transformed. Fish swim in it. The salt is healed. This is transformation, not destruction. What was dead is made alive. What was bitter is made sweet[res:tyre-archaeology].',
         },
         {
           kind: 'hebrew',
@@ -62,13 +60,11 @@ export const EZEKIEL_47: RichChapterContent = {
           kind: 'christ',
           id: 'ezekiel47-christ-river',
           title: 'Christ Connection — The River of Life',
-          html:
-            'In Revelation 22:1–2, John writes: "He shewed me a pure river of water of life, clear as crystal, proceeding out of the throne of God and of the Lamb. In the midst of the street of it, and on either side of the river, was there the tree of life...and the leaves of the tree were for the healing of the nations." Christ is that river. His Spirit flows from His presence, bringing life and healing to all creation. In Him, what was dead is made alive. What was broken is healed.',
+          html: 'In Revelation 22:1–2, John writes: "He shewed me a pure river of water of life, clear as crystal, proceeding out of the throne of God and of the Lamb. In the midst of the street of it, and on either side of the river, was there the tree of life...and the leaves of the tree were for the healing of the nations." Christ is that river. His Spirit flows from His presence, bringing life and healing to all creation. In Him, what was dead is made alive. What was broken is healed.',
         },
         {
           kind: 'carry',
-          html:
-            'The river begins small but grows unstoppable. This is the pattern of God&apos;s kingdom. It does not conquer through force but through life. It does not destroy what is dry—it makes it green. It does not leave the barren barren—it makes it flourish.',
+          html: 'The river begins small but grows unstoppable. This is the pattern of God&apos;s kingdom. It does not conquer through force but through life. It does not destroy what is dry—it makes it green. It does not leave the barren barren—it makes it flourish.',
         },
         {
           kind: 'reflection',
@@ -122,7 +118,24 @@ export const EZEKIEL_47: RichChapterContent = {
     quote: 'Waters issued out from under the threshold...Every thing that liveth...shall live.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Ezekiel 47 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'sefaria-ezekiel',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezekiel',
+      url: 'https://www.sefaria.org/Ezekiel',
+      description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
+    },
+    {
+      id: 'tyre-archaeology',
+      kind: 'archaeology',
+      source: 'Israel Museum / ToposText',
+      label: 'Tyre Archaeology (Ezek 26-28)',
+      url: 'https://www.imj.org.il/en',
+      description: 'Archaeological record of ancient Tyre, subject of Ezekiel&apos;s prophecies.',
+    }
+  ],
 
   hasHebrew: true,
 };

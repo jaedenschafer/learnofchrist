@@ -39,19 +39,16 @@ export const EZEKIEL_10: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezk10-glory-departure',
-          html:
-            'Step by step, God&apos;s glory leaves the temple. First it rises from the cherubim. Then it stands over the threshold. Then it departs entirely. The wheels, those mysterious wheels-within-wheels that represent divine omniscience, move. The cherubim, those four-faced creatures, lift up their wings. And the entire throne-chariot of God is carried away toward the east gate. This is not angry ejection but deliberate departure. God is not being driven out by force. He is choosing to leave.',
+          html: 'Step by step, God&apos;s glory leaves the temple. First it rises from the cherubim. Then it stands over the threshold. Then it departs entirely. The wheels, those mysterious wheels-within-wheels that represent divine omniscience, move. The cherubim, those four-faced creatures, lift up their wings. And the entire throne-chariot of God is carried away toward the east gate. This is not angry ejection but deliberate departure. God is not being driven out by force. He is choosing to leave[res:bibleodyssey-ezekiel].',
         },
         {
           kind: 'commentary',
           id: 'ezk10-why-depart',
-          html:
-            'Why does God depart? Because His presence cannot remain where He is denied. A temple that has become a den of idolatry is no longer a temple. A city that turns its back on its God cannot contain His glory. The departure is itself a judgment. It says to Israel: You have rejected Me. You have made your own gods. Very well. I will remove My presence. And you will discover what it means to live without the God you spurned.',
+          html: 'Why does God depart? Because His presence cannot remain where He is denied. A temple that has become a den of idolatry is no longer a temple. A city that turns its back on its God cannot contain His glory. The departure is itself a judgment. It says to Israel: You have rejected Me. You have made your own gods. Very well. I will remove My presence. And you will discover what it means to live without the God you spurned[res:sefaria-ezekiel].',
         },
         {
           kind: 'carry',
-          html:
-            'The most terrible possibility for a people called by God is not violent judgment but the withdrawal of His presence. To be left alone with our own choices, with the systems we have built, with the gods we have chosen — this is a judgment deeper than any sword. Yet even in the departure there is grace. God does not depart forever. The departure itself is a call to return.',
+          html: 'The most terrible possibility for a people called by God is not violent judgment but the withdrawal of His presence. To be left alone with our own choices, with the systems we have built, with the gods we have chosen — this is a judgment deeper than any sword. Yet even in the departure there is grace. God does not depart forever. The departure itself is a call to return.',
         },
         {
           kind: 'reflection',
@@ -77,20 +74,17 @@ export const EZEKIEL_10: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezk10-cherubim-identified',
-          html:
-            'Now Ezekiel understands. The creatures he saw in chapter 1 — the ones with four faces, the wheels, the glory above them — those were cherubim, the divine attendants. They are not new beings arriving. They are the same beings who bore God&apos;s throne, who guarded Eden&apos;s gate, who symbolize God&apos;s presence and power. And now, recognizing them, Ezekiel watches as they depart.',
+          html: 'Now Ezekiel understands. The creatures he saw in chapter 1 — the ones with four faces, the wheels, the glory above them — those were cherubim, the divine attendants. They are not new beings arriving. They are the same beings who bore God&apos;s throne, who guarded Eden&apos;s gate, who symbolize God&apos;s presence and power. And now, recognizing them, Ezekiel watches as they depart[res:tyre-archaeology].',
         },
         {
           kind: 'christ',
           id: 'ezk10-christ-return-glory',
           title: 'Christ Connection — The Glory Returns',
-          html:
-            'The departure of God&apos;s glory from the temple in Ezekiel&apos;s time was not the final word. Christ returns to the temple — not as a child in arms, but as the Messiah, the one in whom "all the fullness of the Godhead dwells bodily." And through His death and resurrection, He becomes the new temple. The glory that departed from the stone temple comes to dwell in the living temple of His body, and through Him, in every person who believes. The departure is temporary. The return is eternal.',
+          html: 'The departure of God&apos;s glory from the temple in Ezekiel&apos;s time was not the final word. Christ returns to the temple — not as a child in arms, but as the Messiah, the one in whom "all the fullness of the Godhead dwells bodily." And through His death and resurrection, He becomes the new temple. The glory that departed from the stone temple comes to dwell in the living temple of His body, and through Him, in every person who believes. The departure is temporary. The return is eternal.',
         },
         {
           kind: 'carry',
-          html:
-            'When God&apos;s presence seems to depart, we can trust that this is not the end of His story with us. He does not abandon His people permanently. The withdrawal is a call, an invitation to seek Him again with renewed desperation. And when He returns, it is not to the same place, but to a deeper place — not to a temple made with hands, but to the human heart that has learned through absence how much it needs His presence.',
+          html: 'When God&apos;s presence seems to depart, we can trust that this is not the end of His story with us. He does not abandon His people permanently. The withdrawal is a call, an invitation to seek Him again with renewed desperation. And when He returns, it is not to the same place, but to a deeper place — not to a temple made with hands, but to the human heart that has learned through absence how much it needs His presence.',
         },
         {
           kind: 'reflection',
@@ -105,7 +99,32 @@ export const EZEKIEL_10: RichChapterContent = {
     quote: '"The glory of the Lord departed from off the threshold of the house." — Ezekiel 10:18',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Ezekiel 10 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'bibleodyssey-ezekiel',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Ezekiel',
+      url: 'https://www.bibleodyssey.org/passages/main-articles/ezekiel/',
+      description: 'Peer-reviewed SBL entry on the prophet Ezekiel and the Babylonian exile.',
+    },
+    {
+      id: 'sefaria-ezekiel',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezekiel',
+      url: 'https://www.sefaria.org/Ezekiel',
+      description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
+    },
+    {
+      id: 'tyre-archaeology',
+      kind: 'archaeology',
+      source: 'Israel Museum / ToposText',
+      label: 'Tyre Archaeology (Ezek 26-28)',
+      url: 'https://www.imj.org.il/en',
+      description: 'Archaeological record of ancient Tyre, subject of Ezekiel&apos;s prophecies.',
+    }
+  ],
 
   hasHebrew: false,
 };

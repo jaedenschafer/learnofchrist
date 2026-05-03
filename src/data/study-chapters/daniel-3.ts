@@ -38,8 +38,7 @@ export const DANIEL_3: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'resolve-furnace-faith',
-          html:
-            '<p>The three men face the fire—but King Nebuchadnezzar sees a fourth figure walking with them. God&apos;s presence is real in the heat.</p>',
+          html: '<p>The three men face the fire—but King Nebuchadnezzar sees a fourth figure walking with them. God&apos;s presence is real in the heat.</p>[res:bibleodyssey-apocalyptic]',
         },
         {
           kind: 'scripture',
@@ -54,8 +53,7 @@ export const DANIEL_3: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'daniel3-careless',
-          html:
-            '"We are not careful to answer thee in this matter." They are not anxious. They are not defensive. They have already made their choice before the question was asked. They know what they will do and what will happen to them. The fire is fierce. The furnace is heated seven times hotter than usual. The soldiers who cast them in are burned to death. But Shadrach, Meshach, and Abednego do not hesitate. They fall down bound into the fire, and their faith is absolute: God is able to deliver them. But more importantly—if God does not deliver them, they will not worship the golden image. Their faithfulness is not contingent on God&apos;s protection. It is rooted in the God they have chosen to serve, no matter what.',
+          html: '"We are not careful to answer thee in this matter." They are not anxious. They are not defensive. They have already made their choice before the question was asked. They know what they will do and what will happen to them. The fire is fierce. The furnace is heated seven times hotter than usual. The soldiers who cast them in are burned to death. But Shadrach, Meshach, and Abednego do not hesitate. They fall down bound into the fire, and their faith is absolute: God is able to deliver them. But more importantly—if God does not deliver them, they will not worship the golden image. Their faithfulness is not contingent on God&apos;s protection. It is rooted in the God they have chosen to serve, no matter what[res:ishtar-gate].',
         },
         {
           kind: 'hebrew',
@@ -69,8 +67,7 @@ export const DANIEL_3: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'daniel3-song',
-          html:
-            'Ancient tradition holds that in the furnace, the three men began to sing a song of praise. Though their voices could be heard by no one in that hour, they sang. They praised God in the midst of flames hot enough to slay the soldiers who cast them in. This is the deepest kind of faithfulness—not the faithfulness that expects reward, but the faithfulness that praises God even when every circumstance suggests abandonment. It is the song of those who have given everything, who have nothing left to lose, and who have found that in that naked place, they possess everything.',
+          html: 'Ancient tradition holds that in the furnace, the three men began to sing a song of praise. Though their voices could be heard by no one in that hour, they sang. They praised God in the midst of flames hot enough to slay the soldiers who cast them in. This is the deepest kind of faithfulness—not the faithfulness that expects reward, but the faithfulness that praises God even when every circumstance suggests abandonment. It is the song of those who have given everything, who have nothing left to lose, and who have found that in that naked place, they possess everything.',
         },
       ],
     },
@@ -94,8 +91,7 @@ export const DANIEL_3: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'daniel3-fourth',
-          html:
-            'The king looks into the furnace and sees not three men, but four. And the form of the fourth is like the Son of God. In that fire, where all earthly power would seem to have its final say, God walks among His people. The fire does not consume them. The bonds do not hold them. They walk loose, unharmed, protected by a presence no human can account for. This is no escape from the fire. This is deliverance in the fire. God does not remove them from the trial. He stands with them in it.',
+          html: 'The king looks into the furnace and sees not three men, but four. And the form of the fourth is like the Son of God. In that fire, where all earthly power would seem to have its final say, God walks among His people. The fire does not consume them. The bonds do not hold them. They walk loose, unharmed, protected by a presence no human can account for. This is no escape from the fire. This is deliverance in the fire. God does not remove them from the trial. He stands with them in it.',
         },
         {
           kind: 'commentary',
@@ -128,7 +124,24 @@ export const DANIEL_3: RichChapterContent = {
     quote: 'If it be so, our God whom we serve is able to deliver us from the burning fiery furnace...But if not, be it known unto thee, O king, that we will not serve thy gods.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Daniel 3 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'bibleodyssey-apocalyptic',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Apocalyptic Literature',
+      url: 'https://www.bibleodyssey.org/dictionary/apocalypse/',
+      description: 'SBL entry on the apocalyptic genre exemplified by Daniel.',
+    },
+    {
+      id: 'ishtar-gate',
+      kind: 'museum',
+      source: 'British Museum / Berlin Museum',
+      label: 'Ishtar Gate of Babylon',
+      url: 'https://www.britishmuseum.org/collection/search?q=ishtar+gate',
+      description: 'Reconstructed gate from ancient Babylon, showing the city&apos;s magnificence in Daniel&apos;s era.',
+    }
+  ],
 
   hasHebrew: true,
 };

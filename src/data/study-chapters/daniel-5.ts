@@ -38,8 +38,7 @@ export const DANIEL_5: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'resolve-empire-end',
-          html:
-            '<p>The feast, the hand, the writing: Babylon&apos;s end is declared. God sees every boast; nothing hidden is forever hidden.</p>',
+          html: '<p>The feast, the hand, the writing: Babylon&apos;s end is declared. God sees every boast; nothing hidden is forever hidden.</p>[res:bibleodyssey-apocalyptic]',
         },
         {
           kind: 'scripture',
@@ -54,8 +53,7 @@ export const DANIEL_5: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'daniel5-didst-know',
-          html:
-            'Daniel does not mince words. He speaks the truth to the king with the directness of a prophet. Belshazzar knew what had happened to his father Nebuchadnezzar. He had heard the story of the king whose reason left him, who ate grass like the beasts until he lifted his eyes to heaven and acknowledged God&apos;s sovereignty. And yet, knowing this, Belshazzar has not humbled his heart. Instead, he has lifted up himself against the Lord of heaven. He has taken the vessels from God&apos;s house and drunk wine in them while praising gods of silver and gold, of brass and iron, of wood and stone—things that cannot see, hear, or know.',
+          html: 'Daniel does not mince words. He speaks the truth to the king with the directness of a prophet. Belshazzar knew what had happened to his father Nebuchadnezzar. He had heard the story of the king whose reason left him, who ate grass like the beasts until he lifted his eyes to heaven and acknowledged God&apos;s sovereignty. And yet, knowing this, Belshazzar has not humbled his heart. Instead, he has lifted up himself against the Lord of heaven. He has taken the vessels from God&apos;s house and drunk wine in them while praising gods of silver and gold, of brass and iron, of wood and stone—things that cannot see, hear, or know[res:daniel-revelation-intertextual].',
         },
         {
           kind: 'hebrew',
@@ -69,14 +67,12 @@ export const DANIEL_5: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'daniel5-tekel',
-          html:
-            'TEKEL means thou art weighed in the balances and found wanting. This is the deepest judgment—not that you are weak, but that you are insufficient. You fall short. You do not measure up to what God requires. In the balances of heaven, where truth is weighed against truth, where deed is weighed against justice, Belshazzar is found light. He has no substance. He has no weight. He is hollow at the center, filled only with pride and blasphemy.',
+          html: 'TEKEL means thou art weighed in the balances and found wanting. This is the deepest judgment—not that you are weak, but that you are insufficient. You fall short. You do not measure up to what God requires. In the balances of heaven, where truth is weighed against truth, where deed is weighed against justice, Belshazzar is found light. He has no substance. He has no weight. He is hollow at the center, filled only with pride and blasphemy.',
         },
         {
           kind: 'commentary',
           id: 'daniel5-peres',
-          html:
-            'PERES means thy kingdom is divided and given to the Medes and Persians. The kingdom that Belshazzar thought was his forever is divided from him. What he held will be taken away. What he believed was secure crumbles. And not to him, but to another power, to another people—this is the final humiliation. The pride that led him to drink from the vessels of God&apos;s temple leads him to lose his throne on the very night the writing appears.',
+          html: 'PERES means thy kingdom is divided and given to the Medes and Persians. The kingdom that Belshazzar thought was his forever is divided from him. What he held will be taken away. What he believed was secure crumbles. And not to him, but to another power, to another people—this is the final humiliation. The pride that led him to drink from the vessels of God&apos;s temple leads him to lose his throne on the very night the writing appears.',
         },
       ],
     },
@@ -131,7 +127,24 @@ export const DANIEL_5: RichChapterContent = {
     quote: 'Thou art weighed in the balances, and art found wanting. Thy kingdom is divided, and given to the Medes and Persians.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Daniel 5 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'bibleodyssey-apocalyptic',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Apocalyptic Literature',
+      url: 'https://www.bibleodyssey.org/dictionary/apocalypse/',
+      description: 'SBL entry on the apocalyptic genre exemplified by Daniel.',
+    },
+    {
+      id: 'daniel-revelation-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Daniel 7 ↔ Revelation 13 / Matthew 24',
+      url: 'https://intertextual.bible/text/daniel-7/revelation-13',
+      description: 'Side-by-side comparison of Daniel&apos;s apocalyptic visions and their NT fulfillment.',
+    }
+  ],
 
   hasHebrew: true,
 };

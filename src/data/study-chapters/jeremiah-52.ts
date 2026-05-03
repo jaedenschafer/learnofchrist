@@ -38,19 +38,16 @@ export const JEREMIAH_52: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer52-fall',
-          html:
-            'The narrative is relentless in its detail. The siege lasts two years—from the tenth day of the tenth month until the ninth day of the fourth month of the nineteenth year of Nebuchadrezzar&apos;s reign. The city is breached. The temple is burned. The walls are broken down. The people are carried away. Every detail confirms that Jeremiah&apos;s prophecy has come to pass.',
+          html: 'The narrative is relentless in its detail. The siege lasts two years—from the tenth day of the tenth month until the ninth day of the fourth month of the nineteenth year of Nebuchadrezzar&apos;s reign. The city is breached. The temple is burned. The walls are broken down. The people are carried away. Every detail confirms that Jeremiah&apos;s prophecy has come to pass[res:babylonian-chronicle].',
         },
         {
           kind: 'commentary',
           id: 'jer52-poor-carried',
-          html:
-            'The captain of the guard carries away "certain of the poor of the land." The word "poor" here may refer to those left behind as laborers, or it may be poignant commentary: those of least means remain, while the influential and wealthy are taken into exile. Either way, the result is that Jerusalem is emptied, depopulated, left in ruins.',
+          html: 'The captain of the guard carries away "certain of the poor of the land." The word "poor" here may refer to those left behind as laborers, or it may be poignant commentary: those of least means remain, while the influential and wealthy are taken into exile. Either way, the result is that Jerusalem is emptied, depopulated, left in ruins[res:bibleodyssey-jeremiah].',
         },
         {
           kind: 'carry',
-          html:
-            'The fulfillment of Jeremiah&apos;s prophecy invites reflection. Every word he spoke came to pass. Nothing he prophesied failed. Yet he was mocked and rejected during his lifetime. The lesson is that God&apos;s word is sure, whether or not it is believed. And God&apos;s judgment is certain, whether or not it is heeded. Do we listen to God&apos;s word only when it is convenient or only after judgment has come?',
+          html: 'The fulfillment of Jeremiah&apos;s prophecy invites reflection. Every word he spoke came to pass. Nothing he prophesied failed. Yet he was mocked and rejected during his lifetime. The lesson is that God&apos;s word is sure, whether or not it is believed. And God&apos;s judgment is certain, whether or not it is heeded. Do we listen to God&apos;s word only when it is convenient or only after judgment has come?',
         },
         {
           kind: 'reflection',
@@ -78,14 +75,12 @@ export const JEREMIAH_52: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer52-jehoiachin-freed',
-          html:
-            'After thirty-seven years in captivity, Jehoiachin is lifted out of prison. The phrase "lifted up the head" means to restore honor and dignity. The new king of Babylon, Evil-merodach, speaks kindly to Jehoiachin and sets his throne above the thrones of other exiled kings. Jehoiachin is given dignity. He is allowed to wear clothes other than prison garments. He eats regularly at the king&apos;s table. His needs are provided for.',
+          html: 'After thirty-seven years in captivity, Jehoiachin is lifted out of prison. The phrase "lifted up the head" means to restore honor and dignity. The new king of Babylon, Evil-merodach, speaks kindly to Jehoiachin and sets his throne above the thrones of other exiled kings. Jehoiachin is given dignity. He is allowed to wear clothes other than prison garments. He eats regularly at the king&apos;s table. His needs are provided for[res:lachish-letters].',
         },
         {
           kind: 'commentary',
           id: 'jer52-continual',
-          html:
-            'The repetition of "continual" and "all the days of his life" emphasizes permanence. This is not a temporary reprieve. This is a lasting change in Jehoiachin&apos;s condition. From the depths of captivity and imprisonment, he is raised to a position of honor. It is a small thing compared to restoration to the throne, but it is a light in the darkness.',
+          html: 'The repetition of "continual" and "all the days of his life" emphasizes permanence. This is not a temporary reprieve. This is a lasting change in Jehoiachin&apos;s condition. From the depths of captivity and imprisonment, he is raised to a position of honor. It is a small thing compared to restoration to the throne, but it is a light in the darkness.',
         },
         {
           kind: 'hebrew',
@@ -100,8 +95,7 @@ export const JEREMIAH_52: RichChapterContent = {
           kind: 'christ',
           id: 'jer52-christ-light',
           title: 'Christ Connection — Light at the End of Exile',
-          html:
-            'The release of Jehoiachin, small though it is, prefigures the ultimate restoration that will come through Christ. The people are in exile, the temple is burned, the walls are broken. But light breaks through. A king is honored in captivity. It is not homecoming—not yet. But it is a sign that God has not abandoned His people. Christ fulfills this promise completely. He takes up the cause of the exiled and the imprisoned. He lifts up the head of all who have been brought low by sin. He restores them to a place of honor at the Father&apos;s table. He provides for them abundantly all the days of their lives.',
+          html: 'The release of Jehoiachin, small though it is, prefigures the ultimate restoration that will come through Christ. The people are in exile, the temple is burned, the walls are broken. But light breaks through. A king is honored in captivity. It is not homecoming—not yet. But it is a sign that God has not abandoned His people. Christ fulfills this promise completely. He takes up the cause of the exiled and the imprisoned. He lifts up the head of all who have been brought low by sin. He restores them to a place of honor at the Father&apos;s table. He provides for them abundantly all the days of their lives.',
         },
         {
           kind: 'carry',
@@ -121,5 +115,30 @@ export const JEREMIAH_52: RichChapterContent = {
     quote: 'Evil-merodach king of Babylon lifted up the head of Jehoiachin king of Judah out of prison...and set his throne above the throne of the kings that were with him in Babylon.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Jeremiah 52 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'babylonian-chronicle',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Babylonian Chronicle (Jerusalem siege)',
+      url: 'https://www.britishmuseum.org/collection/object/Y_EA25091',
+      description: 'Cuneiform tablet documenting the Babylonian assault on Jerusalem in 597 and 587 BCE.',
+    },
+    {
+      id: 'bibleodyssey-jeremiah',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Jeremiah',
+      url: 'https://www.bibleodyssey.org/passages/main-articles/jeremiah/',
+      description: 'Peer-reviewed SBL entry on the prophet Jeremiah and his historical context.',
+    },
+    {
+      id: 'lachish-letters',
+      kind: 'archaeology',
+      source: 'Israel Museum',
+      label: 'Lachish Letters',
+      url: 'https://www.imj.org.il/en/collections/lachish-letters',
+      description: 'Ancient inscribed potsherds from the Judean siege of Lachish (587 BCE), contemporary with Jeremiah.',
+    }
+  ],
 };

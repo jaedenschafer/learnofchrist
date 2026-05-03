@@ -38,13 +38,11 @@ export const EZEKIEL_12: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezk12-sign-act-exile',
-          html:
-            'The sign-act is explicit. Ezekiel prepares a bag as though for exile. He carries it out in the sight of all. He digs through a wall — as a refugee might flee through a collapsed or weakened wall rather than walking openly through a gate. He covers his face so he cannot see the land he is leaving. All of this is visible prophecy. The exiles who see will understand: Ezekiel is showing us what will happen. The king will not walk openly through the gates. He will flee. The people will not gather their goods in orderly fashion. They will flee in panic. This is the reality Ezekiel makes visible.',
+          html: 'The sign-act is explicit. Ezekiel prepares a bag as though for exile. He carries it out in the sight of all. He digs through a wall — as a refugee might flee through a collapsed or weakened wall rather than walking openly through a gate. He covers his face so he cannot see the land he is leaving. All of this is visible prophecy. The exiles who see will understand: Ezekiel is showing us what will happen. The king will not walk openly through the gates. He will flee. The people will not gather their goods in orderly fashion. They will flee in panic. This is the reality Ezekiel makes visible[res:ezekiel-revelation-intertextual].',
         },
         {
           kind: 'carry',
-          html:
-            'Sometimes the deepest prophecy is not words but actions that make visible what lies ahead. Sometimes people need to see before they can truly hear. Ezekiel&apos;s willingness to enact exile, to become a living sign, declares his certainty about what he proclaims. He is not merely theorizing about judgment. He is demonstrating it through his body.',
+          html: 'Sometimes the deepest prophecy is not words but actions that make visible what lies ahead. Sometimes people need to see before they can truly hear. Ezekiel&apos;s willingness to enact exile, to become a living sign, declares his certainty about what he proclaims. He is not merely theorizing about judgment. He is demonstrating it through his body.',
         },
         {
           kind: 'reflection',
@@ -72,15 +70,13 @@ export const EZEKIEL_12: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezk12-vision-fails-not',
-          html:
-            'The people of Israel have a saying: "The days are prolonged, and every vision fails." In other words, the prophets keep announcing judgment, but it never comes. Surely Ezekiel&apos;s words will also prove empty. But God speaks directly against this false hope: the vain visions will cease, the false prophecies will end, and Ezekiel&apos;s word will stand. Not prolonged further. Not delayed indefinitely. It will happen. It will happen in their days. The people are living under the illusion that they have time. They do not.',
+          html: 'The people of Israel have a saying: "The days are prolonged, and every vision fails." In other words, the prophets keep announcing judgment, but it never comes. Surely Ezekiel&apos;s words will also prove empty. But God speaks directly against this false hope: the vain visions will cease, the false prophecies will end, and Ezekiel&apos;s word will stand. Not prolonged further. Not delayed indefinitely. It will happen. It will happen in their days. The people are living under the illusion that they have time. They do not[res:gog-magog-bibleodyssey].',
         },
         {
           kind: 'christ',
           id: 'ezk12-christ-word-stands',
           title: 'Christ Connection — A Word That Will Never Pass Away',
-          html:
-            'Jesus teaches: "Heaven and earth shall pass away, but my words shall not pass away." The measure of a true prophet is whether his word comes to pass. Ezekiel&apos;s words did come to pass. Jerusalem fell. The people were exiled. The temple was destroyed. And the promise of restoration came true as well. Christ is the one about whom every true prophet spoke. His word stands. It will accomplish all that He purposes.',
+          html: 'Jesus teaches: "Heaven and earth shall pass away, but my words shall not pass away." The measure of a true prophet is whether his word comes to pass. Ezekiel&apos;s words did come to pass. Jerusalem fell. The people were exiled. The temple was destroyed. And the promise of restoration came true as well. Christ is the one about whom every true prophet spoke. His word stands. It will accomplish all that He purposes.',
         },
         {
           kind: 'carry',
@@ -100,7 +96,24 @@ export const EZEKIEL_12: RichChapterContent = {
     quote: '"The word that I shall speak shall come to pass." — Ezekiel 12:25',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Ezekiel 12 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'ezekiel-revelation-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Ezekiel Temple Vision ↔ Revelation 21-22',
+      url: 'https://intertextual.bible/text/ezekiel-40/revelation-21',
+      description: 'Side-by-side comparison of Ezekiel&apos;s temple vision and John&apos;s new creation.',
+    },
+    {
+      id: 'gog-magog-bibleodyssey',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Gog and Magog',
+      url: 'https://www.bibleodyssey.org/dictionary/gog/',
+      description: 'SBL entry on the mysterious Gog figure in Ezekiel and Revelation.',
+    }
+  ],
 
   hasHebrew: false,
 };

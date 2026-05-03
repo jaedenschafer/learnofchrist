@@ -39,14 +39,12 @@ export const EZEKIEL_44: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezekiel44-closed',
-          html:
-            'The gate is closed because God has entered through it. Its sanctification is permanent. It is not sealed out of judgment, but out of reverence. What the holy has touched remains holy. The boundary between the sacred and the common is marked by this closed gate.',
+          html: 'The gate is closed because God has entered through it. Its sanctification is permanent. It is not sealed out of judgment, but out of reverence. What the holy has touched remains holy. The boundary between the sacred and the common is marked by this closed gate[res:ezekiel-revelation-intertextual].',
         },
         {
           kind: 'commentary',
           id: 'ezekiel44-zadok',
-          html:
-            'Zadok is a priesthood known for faithfulness. In the days when many priests failed, Zadok remained true. Here, Zadok&apos;s lineage is honored. Faithfulness matters. The priests who remained true when others fell away are appointed to the closest service. Your faithfulness is seen and remembered by God.',
+          html: 'Zadok is a priesthood known for faithfulness. In the days when many priests failed, Zadok remained true. Here, Zadok&apos;s lineage is honored. Faithfulness matters. The priests who remained true when others fell away are appointed to the closest service. Your faithfulness is seen and remembered by God[res:gog-magog-bibleodyssey].',
         },
         {
           kind: 'hebrew',
@@ -61,13 +59,11 @@ export const EZEKIEL_44: RichChapterContent = {
           kind: 'christ',
           id: 'ezekiel44-christ-priest',
           title: 'Christ Connection — Christ the True Priest',
-          html:
-            'Christ is the ultimate priest—not from the line of Aaron, but from the order of Melchizedek, who was priest before the Aaronic priesthood. He is the true Zadok—the righteous and faithful priest. And His priesthood is not limited by lineage or by the restrictions of the old law. All who trust in Him become priests with Him, able to approach God directly.',
+          html: 'Christ is the ultimate priest—not from the line of Aaron, but from the order of Melchizedek, who was priest before the Aaronic priesthood. He is the true Zadok—the righteous and faithful priest. And His priesthood is not limited by lineage or by the restrictions of the old law. All who trust in Him become priests with Him, able to approach God directly.',
         },
         {
           kind: 'carry',
-          html:
-            'Faithfulness is being watched. Your constancy in difficult times, your refusal to compromise when others fall away—these are not forgotten. God sees the Zadoks among His people. Those who remain faithful will be honored in the renewal.',
+          html: 'Faithfulness is being watched. Your constancy in difficult times, your refusal to compromise when others fall away—these are not forgotten. God sees the Zadoks among His people. Those who remain faithful will be honored in the renewal.',
         },
         {
           kind: 'reflection',
@@ -94,14 +90,12 @@ export const EZEKIEL_44: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezekiel44-garments',
-          html:
-            'The linen garments mark the priests as set apart. They are not like other people. They have restrictions, rules, and requirements that flow from their calling. Yet these restrictions are not burdens—they are signs of honor and purpose.',
+          html: 'The linen garments mark the priests as set apart. They are not like other people. They have restrictions, rules, and requirements that flow from their calling. Yet these restrictions are not burdens—they are signs of honor and purpose[res:sefaria-ezekiel].',
         },
         {
           kind: 'commentary',
           id: 'ezekiel44-inheritance',
-          html:
-            'Most striking: "I am their inheritance." God Himself is the priests&apos; inheritance. They will have no land, no property, no material security like others. But they have God. And God is enough. This is the radical trust asked of those who serve the holy.',
+          html: 'Most striking: "I am their inheritance." God Himself is the priests&apos; inheritance. They will have no land, no property, no material security like others. But they have God. And God is enough. This is the radical trust asked of those who serve the holy.',
         },
         {
           kind: 'carry',
@@ -121,7 +115,32 @@ export const EZEKIEL_44: RichChapterContent = {
     quote: 'The sons of Zadok...they shall come near to me to minister unto me.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Ezekiel 44 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'ezekiel-revelation-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Ezekiel Temple Vision ↔ Revelation 21-22',
+      url: 'https://intertextual.bible/text/ezekiel-40/revelation-21',
+      description: 'Side-by-side comparison of Ezekiel&apos;s temple vision and John&apos;s new creation.',
+    },
+    {
+      id: 'gog-magog-bibleodyssey',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Gog and Magog',
+      url: 'https://www.bibleodyssey.org/dictionary/gog/',
+      description: 'SBL entry on the mysterious Gog figure in Ezekiel and Revelation.',
+    },
+    {
+      id: 'sefaria-ezekiel',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezekiel',
+      url: 'https://www.sefaria.org/Ezekiel',
+      description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
+    }
+  ],
 
   hasHebrew: true,
 };

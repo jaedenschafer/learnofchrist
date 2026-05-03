@@ -40,8 +40,7 @@ export const EZEKIEL_18: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'resolve-soul-turns',
-          html:
-            '<p>Each soul answers for itself. Turn from sin, live. Turn toward evil, die. God offers the choice; you make the move.</p>',
+          html: '<p>Each soul answers for itself. Turn from sin, live. Turn toward evil, die. God offers the choice; you make the move.</p>[res:babylonian-exile-context]',
         },
         {
           kind: 'scripture',
@@ -56,14 +55,12 @@ export const EZEKIEL_18: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezek18-souls',
-          html:
-            '"Behold, all souls are mine." God claims radical ownership. The soul is not the property of family lineage or tribal identity. Each person stands individually before God, owned by Him, answerable to Him. The proverb that blames parents for children&apos;s suffering assumes that sin works like inheritance—you are marked by your family&apos;s failure. But God says: No. Each soul is mine. Each soul will answer for itself.',
+          html: '"Behold, all souls are mine." God claims radical ownership. The soul is not the property of family lineage or tribal identity. Each person stands individually before God, owned by Him, answerable to Him. The proverb that blames parents for children&apos;s suffering assumes that sin works like inheritance—you are marked by your family&apos;s failure. But God says: No. Each soul is mine. Each soul will answer for itself[res:gog-magog-bibleodyssey].',
         },
         {
           kind: 'commentary',
           id: 'ezek18-righteous',
-          html:
-            'Then Ezekiel catalogs the righteous man: he does not eat on the mountains (worship idols), does not lift his eyes to idols, does not defile his neighbor&apos;s wife, does not oppress, restores pledges, does not rob, gives bread to the hungry, covers the naked. This is not mystical righteousness. It is concrete, visible, relational. It touches how you treat others—the poor, the naked, the debtor. And such a man "shall surely live."',
+          html: 'Then Ezekiel catalogs the righteous man: he does not eat on the mountains (worship idols), does not lift his eyes to idols, does not defile his neighbor&apos;s wife, does not oppress, restores pledges, does not rob, gives bread to the hungry, covers the naked. This is not mystical righteousness. It is concrete, visible, relational. It touches how you treat others—the poor, the naked, the debtor. And such a man "shall surely live."',
         },
         {
           kind: 'hebrew',
@@ -101,8 +98,7 @@ export const EZEKIEL_18: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezek18-inverse',
-          html:
-            'The righteous man may have a wicked son. The son follows a different path—becomes a robber, sheds blood, eats on the mountains, defiles neighbors, oppresses the poor. He does the opposite of what his father did. And God says: "He shall surely die." The son&apos;s wickedness is not erased by the father&apos;s righteousness. Each stands alone.',
+          html: 'The righteous man may have a wicked son. The son follows a different path—becomes a robber, sheds blood, eats on the mountains, defiles neighbors, oppresses the poor. He does the opposite of what his father did. And God says: "He shall surely die." The son&apos;s wickedness is not erased by the father&apos;s righteousness. Each stands alone.',
         },
         {
           kind: 'commentary',
@@ -175,7 +171,24 @@ export const EZEKIEL_18: RichChapterContent = {
     quote: 'The soul that sinneth, it shall die...I have no pleasure in the death of him that dieth, saith the Lord God: wherefore turn yourselves, and live ye.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Ezekiel 18 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'babylonian-exile-context',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Babylonian Exile Context',
+      url: 'https://www.britishmuseum.org/collection/object/W_Y_EA25091',
+      description: 'Cuneiform and archaeological evidence of Babylon under Nebuchadnezzar.',
+    },
+    {
+      id: 'gog-magog-bibleodyssey',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Gog and Magog',
+      url: 'https://www.bibleodyssey.org/dictionary/gog/',
+      description: 'SBL entry on the mysterious Gog figure in Ezekiel and Revelation.',
+    }
+  ],
 
   hasHebrew: true,
 };

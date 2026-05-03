@@ -39,8 +39,7 @@ export const EZEKIEL_8: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezk8-idols-in-temple',
-          html:
-            'The image of jealousy provokes God&apos;s jealousy because it stands in the most sacred place, the inner court, the very chamber where God promised to dwell. Israel has not merely drifted into idolatry. The priests and elders, the leaders of the people, have brought false worship into the sanctuary itself. And they do this in the dark, in hidden chambers, believing themselves hidden from God&apos;s sight. This is not ignorance but deliberate rebellion.',
+          html: 'The image of jealousy provokes God&apos;s jealousy because it stands in the most sacred place, the inner court, the very chamber where God promised to dwell. Israel has not merely drifted into idolatry. The priests and elders, the leaders of the people, have brought false worship into the sanctuary itself. And they do this in the dark, in hidden chambers, believing themselves hidden from God&apos;s sight. This is not ignorance but deliberate rebellion[res:babylonian-exile-context].',
         },
         {
           kind: 'hebrew',
@@ -54,13 +53,11 @@ export const EZEKIEL_8: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezk8-leaders-responsible',
-          html:
-            'The seventy elders of Israel — the leadership, the ones supposed to guard the covenant — are burning incense to these idols in the dark chambers of the temple. They believe they are hidden, that God cannot see what they do in darkness. This assumption reveals how far they have fallen. They have forgotten that God sees all, that darkness is not a refuge from divine sight, that the inner chambers of the temple are not hidden from the God who dwells there.',
+          html: 'The seventy elders of Israel — the leadership, the ones supposed to guard the covenant — are burning incense to these idols in the dark chambers of the temple. They believe they are hidden, that God cannot see what they do in darkness. This assumption reveals how far they have fallen. They have forgotten that God sees all, that darkness is not a refuge from divine sight, that the inner chambers of the temple are not hidden from the God who dwells there[res:sefaria-ezekiel].',
         },
         {
           kind: 'carry',
-          html:
-            'We too sometimes believe ourselves hidden — that what we do in secret, in the dark chambers of our hearts, is unseen by God. But the God who dwells in us, who has claimed our hearts as His temple, sees all. The question is not whether God sees our secret sins, but whether we will confess them and turn.',
+          html: 'We too sometimes believe ourselves hidden — that what we do in secret, in the dark chambers of our hearts, is unseen by God. But the God who dwells in us, who has claimed our hearts as His temple, sees all. The question is not whether God sees our secret sins, but whether we will confess them and turn.',
         },
         {
           kind: 'reflection',
@@ -87,20 +84,17 @@ export const EZEKIEL_8: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezk8-tammuz-sun',
-          html:
-            'The abominations multiply. Women weep for Tammuz, a dying-and-rising god of the ancient Near East, whose worship was particularly associated with fertility rituals. Then twenty-five men turn their backs on the temple of the Lord and worship the sun toward the east. The progression reveals the depths of Israel&apos;s apostasy. They have not merely added false gods alongside the true God. They have turned their backs on Him entirely, directing their worship toward the creation rather than the Creator.',
+          html: 'The abominations multiply. Women weep for Tammuz, a dying-and-rising god of the ancient Near East, whose worship was particularly associated with fertility rituals. Then twenty-five men turn their backs on the temple of the Lord and worship the sun toward the east. The progression reveals the depths of Israel&apos;s apostasy. They have not merely added false gods alongside the true God. They have turned their backs on Him entirely, directing their worship toward the creation rather than the Creator[res:tyre-archaeology].',
         },
         {
           kind: 'christ',
           id: 'ezk8-christ-temple-cleanse',
           title: 'Christ Connection — The Temple Cleansed',
-          html:
-            'When Christ enters the temple, He sees a different kind of desecration — the money changers and sellers of doves, the institution corrupted by commerce. But His action is the same as the judgment Ezekiel announces: He drives out the merchants, He overturns the tables, He declares: "It is written, My house shall be called the house of prayer, but ye have made it a den of thieves." Christ will not permit His house to be profaned. The cleansing of the temple is a sign of Christ&apos;s authority and His absolute claim on what belongs to God.',
+          html: 'When Christ enters the temple, He sees a different kind of desecration — the money changers and sellers of doves, the institution corrupted by commerce. But His action is the same as the judgment Ezekiel announces: He drives out the merchants, He overturns the tables, He declares: "It is written, My house shall be called the house of prayer, but ye have made it a den of thieves." Christ will not permit His house to be profaned. The cleansing of the temple is a sign of Christ&apos;s authority and His absolute claim on what belongs to God.',
         },
         {
           kind: 'carry',
-          html:
-            'Our bodies are the temple of the Holy Spirit. When we act in ways that contradict our identity in Christ, when we turn our backs on Him and worship other things, we are desecrating the very temple of God that we are. The call to holiness is not arbitrary. It flows from the truth that we belong to God, that we are His dwelling place, that the least of our actions matters because God sees all.',
+          html: 'Our bodies are the temple of the Holy Spirit. When we act in ways that contradict our identity in Christ, when we turn our backs on Him and worship other things, we are desecrating the very temple of God that we are. The call to holiness is not arbitrary. It flows from the truth that we belong to God, that we are His dwelling place, that the least of our actions matters because God sees all.',
         },
         {
           kind: 'reflection',
@@ -115,7 +109,32 @@ export const EZEKIEL_8: RichChapterContent = {
     quote: '"There stood before them seventy men...with every man his censer in his hand." — Ezekiel 8:11',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Ezekiel 8 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'babylonian-exile-context',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Babylonian Exile Context',
+      url: 'https://www.britishmuseum.org/collection/object/W_Y_EA25091',
+      description: 'Cuneiform and archaeological evidence of Babylon under Nebuchadnezzar.',
+    },
+    {
+      id: 'sefaria-ezekiel',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezekiel',
+      url: 'https://www.sefaria.org/Ezekiel',
+      description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
+    },
+    {
+      id: 'tyre-archaeology',
+      kind: 'archaeology',
+      source: 'Israel Museum / ToposText',
+      label: 'Tyre Archaeology (Ezek 26-28)',
+      url: 'https://www.imj.org.il/en',
+      description: 'Archaeological record of ancient Tyre, subject of Ezekiel&apos;s prophecies.',
+    }
+  ],
 
   hasHebrew: true,
 };

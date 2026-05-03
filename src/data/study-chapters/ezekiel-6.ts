@@ -36,8 +36,7 @@ export const EZEKIEL_6: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'resolve-idols-judgment',
-          html:
-            '<p>The mountains hear God&apos;s word: idols will fall, altars will burn, and survivors will remember why. Judgment aims at restoration.</p>',
+          html: '<p>The mountains hear God&apos;s word: idols will fall, altars will burn, and survivors will remember why. Judgment aims at restoration.</p>[res:babylonian-exile-context]',
         },
         {
           kind: 'scripture',
@@ -52,8 +51,7 @@ export const EZEKIEL_6: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezk6-false-altars',
-          html:
-            'The high places of Israel were not mere political structures. They represented a fundamental turning away from the covenant God. On these mountains, Israel has sought out false gods, worshiped images, offered incense to demons. The judgment God announces is thorough: the altars will be desolate, the images broken, the idols destroyed. What Israel has built will be unmade. And yet the purpose is clarification. When all the false gods are proven powerless, when all the altars lie in ruins, when death surrounds the broken idols — then Israel will know that the God who brought this judgment is the God who alone is real.',
+          html: 'The high places of Israel were not mere political structures. They represented a fundamental turning away from the covenant God. On these mountains, Israel has sought out false gods, worshiped images, offered incense to demons. The judgment God announces is thorough: the altars will be desolate, the images broken, the idols destroyed. What Israel has built will be unmade. And yet the purpose is clarification. When all the false gods are proven powerless, when all the altars lie in ruins, when death surrounds the broken idols — then Israel will know that the God who brought this judgment is the God who alone is real[res:ezekiel-revelation-intertextual].',
         },
         {
           kind: 'hebrew',
@@ -66,8 +64,7 @@ export const EZEKIEL_6: RichChapterContent = {
         },
         {
           kind: 'carry',
-          html:
-            'We too construct high places — elevated places where we meet our false gods. We may not call them altars or fashion them as idols, but they exist wherever we place our ultimate trust: in success, in comfort, in the approval of others, in our own power. The judgment of God works to tear down these high places, not out of cruelty but out of love, that we might know Him truly.',
+          html: 'We too construct high places — elevated places where we meet our false gods. We may not call them altars or fashion them as idols, but they exist wherever we place our ultimate trust: in success, in comfort, in the approval of others, in our own power. The judgment of God works to tear down these high places, not out of cruelty but out of love, that we might know Him truly.',
         },
         {
           kind: 'reflection',
@@ -93,8 +90,7 @@ export const EZEKIEL_6: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezk6-remnant-memory',
-          html:
-            'Even in judgment, God preserves a remnant. Some will escape the sword. And these survivors, scattered among the nations, will carry something precious: the memory of God. In the midst of exile, stripped of temple and land, they will remember. And in remembering, they will loathe themselves for the idolatry that brought them to this place. This is not condemnation but redemption. The knowledge that comes through judgment is the knowledge of their own sin and of God&apos;s unwavering reality.',
+          html: 'Even in judgment, God preserves a remnant. Some will escape the sword. And these survivors, scattered among the nations, will carry something precious: the memory of God. In the midst of exile, stripped of temple and land, they will remember. And in remembering, they will loathe themselves for the idolatry that brought them to this place. This is not condemnation but redemption. The knowledge that comes through judgment is the knowledge of their own sin and of God&apos;s unwavering reality.',
         },
         {
           kind: 'christ',
@@ -121,7 +117,24 @@ export const EZEKIEL_6: RichChapterContent = {
     quote: '"Ye shall know that I am the Lord." — Ezekiel 6:7',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Ezekiel 6 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'babylonian-exile-context',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Babylonian Exile Context',
+      url: 'https://www.britishmuseum.org/collection/object/W_Y_EA25091',
+      description: 'Cuneiform and archaeological evidence of Babylon under Nebuchadnezzar.',
+    },
+    {
+      id: 'ezekiel-revelation-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Ezekiel Temple Vision ↔ Revelation 21-22',
+      url: 'https://intertextual.bible/text/ezekiel-40/revelation-21',
+      description: 'Side-by-side comparison of Ezekiel&apos;s temple vision and John&apos;s new creation.',
+    }
+  ],
 
   hasHebrew: true,
 };

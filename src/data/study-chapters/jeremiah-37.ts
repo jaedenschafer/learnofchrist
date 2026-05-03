@@ -38,19 +38,16 @@ export const JEREMIAH_37: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer37-same-word',
-          html:
-            'What is remarkable is not that Jeremiah is imprisoned, but that his message is unchanged. He could have negotiated his release by saying what the king wanted to hear. He could have altered his prophecy to suit the moment. But he does not. From prison, he speaks the same word: "Thou shalt be delivered into the hand of the king of Babylon." The truth is not negotiable. It is not contingent on circumstance.',
+          html: 'What is remarkable is not that Jeremiah is imprisoned, but that his message is unchanged. He could have negotiated his release by saying what the king wanted to hear. He could have altered his prophecy to suit the moment. But he does not. From prison, he speaks the same word: "Thou shalt be delivered into the hand of the king of Babylon." The truth is not negotiable. It is not contingent on circumstance[res:bibleodyssey-jeremiah].',
         },
         {
           kind: 'commentary',
           id: 'jer37-reliance-false-hope',
-          html:
-            'The people rely on Pharaoh&apos;s army to deliver them. They believe political alliances will save them. But Jeremiah says Pharaoh will return to Egypt, and the Babylonians will come again. The people are looking to human power. God is offering truth. The truth says the human power will fail. The only real security is in accepting God&apos;s word and preparing for restoration beyond judgment.',
+          html: 'The people rely on Pharaoh&apos;s army to deliver them. They believe political alliances will save them. But Jeremiah says Pharaoh will return to Egypt, and the Babylonians will come again. The people are looking to human power. God is offering truth. The truth says the human power will fail. The only real security is in accepting God&apos;s word and preparing for restoration beyond judgment[res:sefaria-jeremiah].',
         },
         {
           kind: 'carry',
-          html:
-            'When your circumstances are difficult—when you are imprisoned by circumstance, by illness, by limitation—does your message to others change? Do you offer false hope because hope is what is wanted? Or do you maintain the truth, even when it is costly? Jeremiah&apos;s example is one of faithfulness that transcends circumstance.',
+          html: 'When your circumstances are difficult—when you are imprisoned by circumstance, by illness, by limitation—does your message to others change? Do you offer false hope because hope is what is wanted? Or do you maintain the truth, even when it is costly? Jeremiah&apos;s example is one of faithfulness that transcends circumstance.',
         },
         {
           kind: 'reflection',
@@ -61,8 +58,7 @@ export const JEREMIAH_37: RichChapterContent = {
           kind: 'christ',
           id: 'jer37-christ',
           title: 'Christ Connection — Prisoner and Judge',
-          html:
-            'Jeremiah sits in chains, imprisoned and falsely accused. Yet the king seeks him out, desperate for truth. Christ too was imprisoned. He was falsely accused before the council: "Now the chief priests and elders and all the council, sought false witness against Jesus" (Matthew 26:59–60). Yet even in chains, His word did not waver. Pilate came to Him in secret, asking questions, just as Zedekiah did. "Art thou the King of the Jews?" And Christ spoke truth to power, unafraid. The prisoner became the judge. The accused became the deliverer. In both cases, the world would not believe, even when truth came from captivity.',
+          html: 'Jeremiah sits in chains, imprisoned and falsely accused. Yet the king seeks him out, desperate for truth. Christ too was imprisoned. He was falsely accused before the council: "Now the chief priests and elders and all the council, sought false witness against Jesus" (Matthew 26:59–60). Yet even in chains, His word did not waver. Pilate came to Him in secret, asking questions, just as Zedekiah did. "Art thou the King of the Jews?" And Christ spoke truth to power, unafraid. The prisoner became the judge. The accused became the deliverer. In both cases, the world would not believe, even when truth came from captivity.',
         },
       ],
     },
@@ -72,7 +68,24 @@ export const JEREMIAH_37: RichChapterContent = {
     quote: 'Is there any word from the Lord? And Jeremiah said, There is: for said he, thou shalt be delivered into the hand of the king of Babylon.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Jeremiah 37 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'bibleodyssey-jeremiah',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Jeremiah',
+      url: 'https://www.bibleodyssey.org/passages/main-articles/jeremiah/',
+      description: 'Peer-reviewed SBL entry on the prophet Jeremiah and his historical context.',
+    },
+    {
+      id: 'sefaria-jeremiah',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jeremiah',
+      url: 'https://www.sefaria.org/Jeremiah',
+      description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
+    }
+  ],
 
   hasHebrew: false,
 };

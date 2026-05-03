@@ -38,19 +38,16 @@ export const JEREMIAH_51: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer51-golden-cup',
-          html:
-            'The image is striking: Babylon is a golden cup in the hand of the Lord. Beautiful, refined, precious—but a cup nonetheless, an instrument in God&apos;s hand. Babylon has made all the earth drunk with its power and influence. The nations have drunk deeply and become mad—intoxicated, disoriented, losing their judgment. But what was used to make others drunk will now be emptied.',
+          html: 'The image is striking: Babylon is a golden cup in the hand of the Lord. Beautiful, refined, precious—but a cup nonetheless, an instrument in God&apos;s hand. Babylon has made all the earth drunk with its power and influence. The nations have drunk deeply and become mad—intoxicated, disoriented, losing their judgment. But what was used to make others drunk will now be emptied[res:bibleodyssey-jeremiah].',
         },
         {
           kind: 'commentary',
           id: 'jer51-fallen',
-          html:
-            'The fall comes suddenly. No gradual decline, no warning. "Babylon is suddenly fallen and destroyed." The command to "howl for her" and "take balm for her pain" is ironic. Babylon&apos;s pain is mortal. No healing balm can save it. The golden cup is shattered.',
+          html: 'The fall comes suddenly. No gradual decline, no warning. "Babylon is suddenly fallen and destroyed." The command to "howl for her" and "take balm for her pain" is ironic. Babylon&apos;s pain is mortal. No healing balm can save it. The golden cup is shattered[res:lachish-letters].',
         },
         {
           kind: 'carry',
-          html:
-            'The fate of Babylon speaks to the fate of all worldly systems built without reference to God. They may seem golden, beautiful, refined. They may make others drunk with desire and ambition. But they stand on no sure foundation. And their fall comes suddenly. What golden cups—what beautiful but ultimately hollow systems—are you drinking from?',
+          html: 'The fate of Babylon speaks to the fate of all worldly systems built without reference to God. They may seem golden, beautiful, refined. They may make others drunk with desire and ambition. But they stand on no sure foundation. And their fall comes suddenly. What golden cups—what beautiful but ultimately hollow systems—are you drinking from?',
         },
         {
           kind: 'reflection',
@@ -77,8 +74,7 @@ export const JEREMIAH_51: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer51-come-out',
-          html:
-            'God&apos;s call to His people is clear and urgent: leave Babylon. Separate yourselves from her. Do not remain entangled with a system that stands under God&apos;s judgment. This is not a suggestion or recommendation. This is a command. "Go ye out of the midst of her, and deliver every man his soul from the fierce anger of the Lord."',
+          html: 'God&apos;s call to His people is clear and urgent: leave Babylon. Separate yourselves from her. Do not remain entangled with a system that stands under God&apos;s judgment. This is not a suggestion or recommendation. This is a command. "Go ye out of the midst of her, and deliver every man his soul from the fierce anger of the Lord."',
         },
         {
           kind: 'commentary',
@@ -111,5 +107,22 @@ export const JEREMIAH_51: RichChapterContent = {
     quote: 'Come out of the midst of her, my people, and deliver every man his soul from the fierce anger of the Lord.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Jeremiah 51 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'bibleodyssey-jeremiah',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Jeremiah',
+      url: 'https://www.bibleodyssey.org/passages/main-articles/jeremiah/',
+      description: 'Peer-reviewed SBL entry on the prophet Jeremiah and his historical context.',
+    },
+    {
+      id: 'lachish-letters',
+      kind: 'archaeology',
+      source: 'Israel Museum',
+      label: 'Lachish Letters',
+      url: 'https://www.imj.org.il/en/collections/lachish-letters',
+      description: 'Ancient inscribed potsherds from the Judean siege of Lachish (587 BCE), contemporary with Jeremiah.',
+    }
+  ],
 };

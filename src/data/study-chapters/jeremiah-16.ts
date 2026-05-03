@@ -70,19 +70,16 @@ export const JEREMIAH_16: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer16-this-place',
-          html:
-            'The phrase "in this place" — meaning Jerusalem and Judah — carries an edge of finality. Jeremiah is being told that the future here belongs to death. The normal joys of life — marriage, children, the passing on of one&apos;s name — will not be possible in a land that faces exile. This is not punishment of Jeremiah himself, but a prophecy written into his life.',
+          html: 'The phrase "in this place" — meaning Jerusalem and Judah — carries an edge of finality. Jeremiah is being told that the future here belongs to death. The normal joys of life — marriage, children, the passing on of one&apos;s name — will not be possible in a land that faces exile. This is not punishment of Jeremiah himself, but a prophecy written into his life[res:bibleodyssey-jeremiah].',
         },
         {
           kind: 'commentary',
           id: 'jer16-grievous',
-          html:
-            '&quot;Grievous deaths&quot; — the Hebrew suggests deaths brought by plague, pestilence, the sword. The people will not merely die; they will die in ways that strip them of dignity, of memorial, of the rituals of mourning. They will become "dung upon the face of the earth." This is the language of total destruction, of a people unmourned and unmemorialized.',
+          html: '&quot;Grievous deaths&quot; — the Hebrew suggests deaths brought by plague, pestilence, the sword. The people will not merely die; they will die in ways that strip them of dignity, of memorial, of the rituals of mourning. They will become "dung upon the face of the earth." This is the language of total destruction, of a people unmourned and unmemorialized[res:jer31-hebrews-intertextual].',
         },
         {
           kind: 'carry',
-          html:
-            'Jeremiah is asked to bear a sign in his own flesh — the absence of family, the lack of continuity. We live in an age that often celebrates individual fulfillment. But Jeremiah&apos;s life raises a question: What if our greatest calling requires the sacrifice of what the world calls natural blessing? What if what we renounce testifies more powerfully than what we possess?',
+          html: 'Jeremiah is asked to bear a sign in his own flesh — the absence of family, the lack of continuity. We live in an age that often celebrates individual fulfillment. But Jeremiah&apos;s life raises a question: What if our greatest calling requires the sacrifice of what the world calls natural blessing? What if what we renounce testifies more powerfully than what we possess?',
         },
         {
           kind: 'reflection',
@@ -136,19 +133,16 @@ export const JEREMIAH_16: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer16-no-mourning',
-          html:
-            'Jeremiah is instructed not to participate in the ordinary human rhythms of consolation — the house of mourning where friends gather, where the rituals of grief take place. This is staggering. The prophet must stand apart, bearing witness to a judgment so complete that even the normal work of grieving will be suspended. The people will be too broken to mourn one another.',
+          html: 'Jeremiah is instructed not to participate in the ordinary human rhythms of consolation — the house of mourning where friends gather, where the rituals of grief take place. This is staggering. The prophet must stand apart, bearing witness to a judgment so complete that even the normal work of grieving will be suspended. The people will be too broken to mourn one another[res:lachish-letters].',
         },
         {
           kind: 'commentary',
           id: 'jer16-no-feasting',
-          html:
-            'Nor can Jeremiah enter the house of feasting. No weddings. No celebrations. No voice of the bridegroom, no voice of the bride. The entire emotional landscape of the people — both sorrow and joy — will be swept away. What is being promised is not merely military defeat but a silencing of the normal human voice, a stripping away of the ceremonies that mark us as a people with memory and hope.',
+          html: 'Nor can Jeremiah enter the house of feasting. No weddings. No celebrations. No voice of the bridegroom, no voice of the bride. The entire emotional landscape of the people — both sorrow and joy — will be swept away. What is being promised is not merely military defeat but a silencing of the normal human voice, a stripping away of the ceremonies that mark us as a people with memory and hope.',
         },
         {
           kind: 'carry',
-          html:
-            'In our time, we live in communities built on shared ritual — we mourn together, we celebrate together. Jeremiah is asked to stand outside both. To witness judgment. To refuse to anesthetize the people with the comfort of normal ceremonies. Sometimes faithfulness means refusing easy comfort, means standing in the hard place so that truth can be heard.',
+          html: 'In our time, we live in communities built on shared ritual — we mourn together, we celebrate together. Jeremiah is asked to stand outside both. To witness judgment. To refuse to anesthetize the people with the comfort of normal ceremonies. Sometimes faithfulness means refusing easy comfort, means standing in the hard place so that truth can be heard.',
         },
         {
           kind: 'reflection',
@@ -367,5 +361,30 @@ export const JEREMIAH_16: RichChapterContent = {
         },
       ],
     },
+  ],  resources: [
+    {
+      id: 'bibleodyssey-jeremiah',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Jeremiah',
+      url: 'https://www.bibleodyssey.org/passages/main-articles/jeremiah/',
+      description: 'Peer-reviewed SBL entry on the prophet Jeremiah and his historical context.',
+    },
+    {
+      id: 'jer31-hebrews-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Jeremiah 31 ↔ Hebrews 8:8–12',
+      url: 'https://intertextual.bible/text/jeremiah-31/hebrews-8',
+      description: 'Side-by-side comparison of the new covenant promise in Jeremiah quoted in Hebrews.',
+    },
+    {
+      id: 'lachish-letters',
+      kind: 'archaeology',
+      source: 'Israel Museum',
+      label: 'Lachish Letters',
+      url: 'https://www.imj.org.il/en/collections/lachish-letters',
+      description: 'Ancient inscribed potsherds from the Judean siege of Lachish (587 BCE), contemporary with Jeremiah.',
+    }
   ],
 };

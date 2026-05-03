@@ -43,14 +43,12 @@ export const EZEKIEL_17: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezek17-transplant',
-          html:
-            'The first eagle is Nebuchadnezzar of Babylon. He takes a cutting from the great cedar of Lebanon—Judah—and plants it in foreign soil. The vine grows, but in exile. It is far from its native mountain. It spreads its branches and sends out roots, reaching for security and water. This is the condition of displacement, of vulnerability, of seeking to survive in an alien land.',
+          html: 'The first eagle is Nebuchadnezzar of Babylon. He takes a cutting from the great cedar of Lebanon—Judah—and plants it in foreign soil. The vine grows, but in exile. It is far from its native mountain. It spreads its branches and sends out roots, reaching for security and water. This is the condition of displacement, of vulnerability, of seeking to survive in an alien land[res:bibleodyssey-ezekiel].',
         },
         {
           kind: 'commentary',
           id: 'ezek17-divided',
-          html:
-            '"There was also another great eagle"—Egypt. And here the parable turns bitter. The vine, already displaced and uncertain, turns its roots and branches toward yet another power. It cannot settle. It cannot trust. It seeks security by offering loyalty to whichever eagle will give it water. This is unfaithfulness dressed as pragmatism. But God sees it: a vine that bends toward every wind will not prosper.',
+          html: '"There was also another great eagle"—Egypt. And here the parable turns bitter. The vine, already displaced and uncertain, turns its roots and branches toward yet another power. It cannot settle. It cannot trust. It seeks security by offering loyalty to whichever eagle will give it water. This is unfaithfulness dressed as pragmatism. But God sees it: a vine that bends toward every wind will not prosper[res:sefaria-ezekiel].',
         },
         {
           kind: 'hebrew',
@@ -87,14 +85,12 @@ export const EZEKIEL_17: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezek17-interpret',
-          html:
-            'Judah&apos;s king has broken his covenant with Babylon to seek alliance with Egypt. He thought to gain freedom through divided loyalty. But God will not suffer covenant-breaking. The vine will wither. Nor will Egypt deliver. Human power is always finally insufficient. The king "rebelled against him in sending his ambassadors into Egypt...Shall he escape that doeth such things? Or shall he break the covenant, and be delivered?" The answer is no.',
+          html: 'Judah&apos;s king has broken his covenant with Babylon to seek alliance with Egypt. He thought to gain freedom through divided loyalty. But God will not suffer covenant-breaking. The vine will wither. Nor will Egypt deliver. Human power is always finally insufficient. The king "rebelled against him in sending his ambassadors into Egypt...Shall he escape that doeth such things? Or shall he break the covenant, and be delivered?" The answer is no.',
         },
         {
           kind: 'commentary',
           id: 'ezek17-plant',
-          html:
-            'But even as judgment falls, God speaks of another planting, another twig, taken from the heights of Israel itself. Not by the hand of Babylon or Egypt. By the hand of God. "I will also take of the highest branch of the high cedar, and will set it...I will plant it upon an high mountain and eminent." This shoot will be different. It will not seek security through political alliance. It will be rooted in God&apos;s mountain, drawing strength from the source that cannot fail.',
+          html: 'But even as judgment falls, God speaks of another planting, another twig, taken from the heights of Israel itself. Not by the hand of Babylon or Egypt. By the hand of God. "I will also take of the highest branch of the high cedar, and will set it...I will plant it upon an high mountain and eminent." This shoot will be different. It will not seek security through political alliance. It will be rooted in God&apos;s mountain, drawing strength from the source that cannot fail.',
         },
         {
           kind: 'christ',
@@ -121,7 +117,24 @@ export const EZEKIEL_17: RichChapterContent = {
     quote: 'I will take of the highest branch of the high cedar, and will set it: I will crop off from the top of his young twigs a tender one, and will plant it upon an high mountain.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Ezekiel 17 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'bibleodyssey-ezekiel',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Ezekiel',
+      url: 'https://www.bibleodyssey.org/passages/main-articles/ezekiel/',
+      description: 'Peer-reviewed SBL entry on the prophet Ezekiel and the Babylonian exile.',
+    },
+    {
+      id: 'sefaria-ezekiel',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezekiel',
+      url: 'https://www.sefaria.org/Ezekiel',
+      description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
+    }
+  ],
 
   hasHebrew: true,
 };

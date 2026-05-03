@@ -38,25 +38,21 @@ export const JEREMIAH_40: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer40-remnant',
-          html:
-            'God does not exile all Israel. Even when judgment is total, even when the mighty are taken away, God leaves a remnant. The word "remnant"—she&apos;ar in Hebrew—means what remains, what is left over. But in biblical theology, the remnant is never incidental. It is precious. It is the seed through which restoration will come.',
+          html: 'God does not exile all Israel. Even when judgment is total, even when the mighty are taken away, God leaves a remnant. The word "remnant"—she&apos;ar in Hebrew—means what remains, what is left over. But in biblical theology, the remnant is never incidental. It is precious. It is the seed through which restoration will come[res:babylonian-chronicle].',
         },
         {
           kind: 'commentary',
           id: 'jer40-gedaliah',
-          html:
-            'Gedaliah is appointed governor not by Israel&apos;s king, but by Babylon&apos;s. This is a remarkable arrangement. The pagan empire leaves a Jewish governor in place. Jeremiah, though he could go to Babylon, chooses to stay with Gedaliah and the remnant. The prophet ministers to the small group, encouraging them, speaking hope into their despair.',
+          html: 'Gedaliah is appointed governor not by Israel&apos;s king, but by Babylon&apos;s. This is a remarkable arrangement. The pagan empire leaves a Jewish governor in place. Jeremiah, though he could go to Babylon, chooses to stay with Gedaliah and the remnant. The prophet ministers to the small group, encouraging them, speaking hope into their despair[res:jer31-hebrews-intertextual].',
         },
         {
           kind: 'commentary',
           id: 'jer40-gather',
-          html:
-            'Word spreads among the scattered Jews: there is a remnant in the land. There is leadership. There is the possibility of beginning again. And they come. From Moab, from Ammonites, from Edom, Jews who had fled in different directions hear that home is possible and return. The harvest of wine and summer fruits begins again. Life resumes.',
+          html: 'Word spreads among the scattered Jews: there is a remnant in the land. There is leadership. There is the possibility of beginning again. And they come. From Moab, from Ammonites, from Edom, Jews who had fled in different directions hear that home is possible and return. The harvest of wine and summer fruits begins again. Life resumes[res:lachish-letters].',
         },
         {
           kind: 'carry',
-          html:
-            'Even in your own exile—whether from God, from community, from home—God preserves a remnant of hope. There is always a small group, a seed, a beginning point from which restoration can flow. You are not alone. You are not forgotten. God leaves a remnant in every catastrophe.',
+          html: 'Even in your own exile—whether from God, from community, from home—God preserves a remnant of hope. There is always a small group, a seed, a beginning point from which restoration can flow. You are not alone. You are not forgotten. God leaves a remnant in every catastrophe.',
         },
         {
           kind: 'reflection',
@@ -67,8 +63,7 @@ export const JEREMIAH_40: RichChapterContent = {
           kind: 'christ',
           id: 'jer40-christ',
           title: 'Christ Connection — Freedom to the Captives',
-          html:
-            'The remnant is gathered and preserved. They are set free to begin again. This is the pattern Christ fulfills. "The Spirit of the Lord is upon me, because he hath anointed me to preach the gospel to the poor; he hath sent me to heal the brokenhearted, to preach deliverance to the captives, and recovering of sight to the blind, to set at liberty them that are bruised" (Luke 4:18). And later: "If the Son therefore shall make you free, ye shall be free indeed" (John 8:36). Where Jeremiah announces freedom to the exiled remnant of Judah, Christ announces freedom to all who are captive—captive to sin, to shame, to despair. The gathering of the remnant points toward the gathering of all nations into His kingdom.',
+          html: 'The remnant is gathered and preserved. They are set free to begin again. This is the pattern Christ fulfills. "The Spirit of the Lord is upon me, because he hath anointed me to preach the gospel to the poor; he hath sent me to heal the brokenhearted, to preach deliverance to the captives, and recovering of sight to the blind, to set at liberty them that are bruised" (Luke 4:18). And later: "If the Son therefore shall make you free, ye shall be free indeed" (John 8:36). Where Jeremiah announces freedom to the exiled remnant of Judah, Christ announces freedom to all who are captive—captive to sin, to shame, to despair. The gathering of the remnant points toward the gathering of all nations into His kingdom.',
         },
       ],
     },
@@ -78,7 +73,32 @@ export const JEREMIAH_40: RichChapterContent = {
     quote: 'The king of Babylon hath left a remnant of Judah, and that he had set over them Gedaliah...they came to the land of Judah...and gathered wine and summer fruits very much.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Jeremiah 40 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'babylonian-chronicle',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Babylonian Chronicle (Jerusalem siege)',
+      url: 'https://www.britishmuseum.org/collection/object/Y_EA25091',
+      description: 'Cuneiform tablet documenting the Babylonian assault on Jerusalem in 597 and 587 BCE.',
+    },
+    {
+      id: 'jer31-hebrews-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Jeremiah 31 ↔ Hebrews 8:8–12',
+      url: 'https://intertextual.bible/text/jeremiah-31/hebrews-8',
+      description: 'Side-by-side comparison of the new covenant promise in Jeremiah quoted in Hebrews.',
+    },
+    {
+      id: 'lachish-letters',
+      kind: 'archaeology',
+      source: 'Israel Museum',
+      label: 'Lachish Letters',
+      url: 'https://www.imj.org.il/en/collections/lachish-letters',
+      description: 'Ancient inscribed potsherds from the Judean siege of Lachish (587 BCE), contemporary with Jeremiah.',
+    }
+  ],
 
   hasHebrew: false,
 };

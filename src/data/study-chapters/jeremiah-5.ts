@@ -41,8 +41,7 @@ export const JEREMIAH_5: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer5-knowledge-practice',
-          html:
-            'Jeremiah moves from lamenting their lack of knowledge to exposing their refusal to obey. Not knowing is not the problem; ignoring is.',
+          html: 'Jeremiah moves from lamenting their lack of knowledge to exposing their refusal to obey. Not knowing is not the problem; ignoring is[res:jer31-hebrews-intertextual].',
         },
         {
           kind: 'scripture',
@@ -58,7 +57,7 @@ export const JEREMIAH_5: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer5-find-man',
-          html: 'God sends Jeremiah as an urban detective. Walk through Jerusalem. Look. Seek. Find me a man—even one man—who executes judgment and seeks truth. The parallel is to Abraham&apos;s negotiation with God over Sodom: Abraham asked if God would spare the city for the sake of ten righteous men. God had found not even ten. Here, God asks for one. One righteous person to justify the existence of the entire city. And the search yields nothing.',
+          html: 'God sends Jeremiah as an urban detective. Walk through Jerusalem. Look. Seek. Find me a man—even one man—who executes judgment and seeks truth. The parallel is to Abraham&apos;s negotiation with God over Sodom: Abraham asked if God would spare the city for the sake of ten righteous men. God had found not even ten. Here, God asks for one. One righteous person to justify the existence of the entire city. And the search yields nothing[res:lachish-letters].',
         },
         {
           kind: 'hebrew',
@@ -155,7 +154,24 @@ export const JEREMIAH_5: RichChapterContent = {
     quote: 'Run ye to and fro through the streets of Jerusalem, and see now, and know, and seek in the broad places thereof, if ye can find a man, if there be any that executeth judgment, that seeketh the truth.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Jeremiah 5 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'jer31-hebrews-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Jeremiah 31 ↔ Hebrews 8:8–12',
+      url: 'https://intertextual.bible/text/jeremiah-31/hebrews-8',
+      description: 'Side-by-side comparison of the new covenant promise in Jeremiah quoted in Hebrews.',
+    },
+    {
+      id: 'lachish-letters',
+      kind: 'archaeology',
+      source: 'Israel Museum',
+      label: 'Lachish Letters',
+      url: 'https://www.imj.org.il/en/collections/lachish-letters',
+      description: 'Ancient inscribed potsherds from the Judean siege of Lachish (587 BCE), contemporary with Jeremiah.',
+    }
+  ],
 
   hasHebrew: true,
 };

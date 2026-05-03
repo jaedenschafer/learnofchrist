@@ -60,8 +60,7 @@ export const JEREMIAH_21: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jeremiah-21-78mid-1',
-          html:
-            'Zedekiah&apos;s messengers ask if the LORD will fight for them. Jeremiah&apos;s answer pivots — the LORD will fight, but against them, not for them.',
+          html: 'Zedekiah&apos;s messengers ask if the LORD will fight for them. Jeremiah&apos;s answer pivots — the LORD will fight, but against them, not for them[res:bibleodyssey-jeremiah].',
         },
         {
           kind: 'scripture',
@@ -96,19 +95,16 @@ export const JEREMIAH_21: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer21-turn-back',
-          html:
-            'Zedekiah hopes for deliverance, for one of God&apos;s "wondrous works." But Jeremiah&apos;s answer is shattering: God will turn back the weapons the people are using against Babylon and use them against the city itself. God will fight against Jerusalem, not for it. The king who hoped God would join his military struggle learns that God opposes him.',
+          html: 'Zedekiah hopes for deliverance, for one of God&apos;s "wondrous works." But Jeremiah&apos;s answer is shattering: God will turn back the weapons the people are using against Babylon and use them against the city itself. God will fight against Jerusalem, not for it. The king who hoped God would join his military struggle learns that God opposes him[res:jer31-hebrews-intertextual].',
         },
         {
           kind: 'commentary',
           id: 'jer21-deliver-enemy',
-          html:
-            'The promise of "deliverance" in verse 7 is delivered — but delivered into the hands of enemies, into the hand of Nebuchadrezzar. Zedekiah will be delivered, but as a captive, for destruction. The word "deliver" is turned inside out, inverted into its opposite.',
+          html: 'The promise of "deliverance" in verse 7 is delivered — but delivered into the hands of enemies, into the hand of Nebuchadrezzar. Zedekiah will be delivered, but as a captive, for destruction. The word "deliver" is turned inside out, inverted into its opposite.',
         },
         {
           kind: 'carry',
-          html:
-            'Sometimes we pray for rescue that God refuses to give. We ask for deliverance from consequences, but God offers something harder: the invitation to face consequences and learn from them. We want God to align with our plans; God invites us to align with His.',
+          html: 'Sometimes we pray for rescue that God refuses to give. We ask for deliverance from consequences, but God offers something harder: the invitation to face consequences and learn from them. We want God to align with our plans; God invites us to align with His.',
         },
         {
           kind: 'reflection',
@@ -251,5 +247,22 @@ export const JEREMIAH_21: RichChapterContent = {
         },
       ],
     },
+  ],  resources: [
+    {
+      id: 'bibleodyssey-jeremiah',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Jeremiah',
+      url: 'https://www.bibleodyssey.org/passages/main-articles/jeremiah/',
+      description: 'Peer-reviewed SBL entry on the prophet Jeremiah and his historical context.',
+    },
+    {
+      id: 'jer31-hebrews-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Jeremiah 31 ↔ Hebrews 8:8–12',
+      url: 'https://intertextual.bible/text/jeremiah-31/hebrews-8',
+      description: 'Side-by-side comparison of the new covenant promise in Jeremiah quoted in Hebrews.',
+    }
   ],
 };

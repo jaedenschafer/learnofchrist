@@ -38,25 +38,21 @@ export const LAMENTATIONS_4: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'lam4-gold-dim',
-          html:
-            'The opening lament is for loss of preciousness. Gold has become dim. Fine gold has changed. The sanctuary stones, stones that once held glory and beauty, are scattered in the streets. What was sacred is now desecrated. What was treasured is now worthless.',
+          html: 'The opening lament is for loss of preciousness. Gold has become dim. Fine gold has changed. The sanctuary stones, stones that once held glory and beauty, are scattered in the streets. What was sacred is now desecrated. What was treasured is now worthless[res:bibleodyssey-lament].',
         },
         {
           kind: 'commentary',
           id: 'lam4-sucking-child',
-          html:
-            'The suffering of the siege is described with particular attention to the young. Nursing children cry for milk, their tongues dry against the roof of their mouths. Young children ask for bread, and there is none to give. The slowness of starvation, the prolonged suffering of the innocent—these are the realities of siege warfare.',
+          html: 'The suffering of the siege is described with particular attention to the young. Nursing children cry for milk, their tongues dry against the roof of their mouths. Young children ask for bread, and there is none to give. The slowness of starvation, the prolonged suffering of the innocent—these are the realities of siege warfare[res:jerusalem-destruction-archaeology].',
         },
         {
           kind: 'commentary',
           id: 'lam4-pitiful-women',
-          html:
-            'Most horrifying: mothers have eaten their own children. The law of Leviticus 26 and Deuteronomy 28 warned that if Israel turned from God, they would be besieged and would eat their own children in desperation. This is the fulfillment of that curse. The violation of nature itself—mother eating child—signals the totality of the judgment.',
+          html: 'Most horrifying: mothers have eaten their own children. The law of Leviticus 26 and Deuteronomy 28 warned that if Israel turned from God, they would be besieged and would eat their own children in desperation. This is the fulfillment of that curse. The violation of nature itself—mother eating child—signals the totality of the judgment[res:sumerian-lamentations].',
         },
         {
           kind: 'carry',
-          html:
-            'This passage does not minimize the horror of judgment. It does not offer false comfort. It is unflinching in its realism. And it thereby acknowledges a truth: sometimes the consequences of sin are embodied and terrible. Sometimes innocents suffer alongside the guilty. The question is not whether suffering is real, but how we understand it and what we do in response.',
+          html: 'This passage does not minimize the horror of judgment. It does not offer false comfort. It is unflinching in its realism. And it thereby acknowledges a truth: sometimes the consequences of sin are embodied and terrible. Sometimes innocents suffer alongside the guilty. The question is not whether suffering is real, but how we understand it and what we do in response.',
         },
         {
           kind: 'reflection',
@@ -82,14 +78,12 @@ export const LAMENTATIONS_4: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'lam4-sins-prophets',
-          html:
-            'The suffering is traced to its source: the sins of prophets and priests. Those who should have led people to righteousness instead shed the blood of the just. The leaders bear special responsibility for the corruption that led to judgment. Yet even in naming these sins, there is a note of hope: the judgment is not endless.',
+          html: 'The suffering is traced to its source: the sins of prophets and priests. Those who should have led people to righteousness instead shed the blood of the just. The leaders bear special responsibility for the corruption that led to judgment. Yet even in naming these sins, there is a note of hope: the judgment is not endless.',
         },
         {
           kind: 'commentary',
           id: 'lam4-punishment-accomplished',
-          html:
-            '"The punishment of thine iniquity is accomplished, O daughter of Zion." The judgment, terrible as it has been, is not permanent. It is measured. It has limits. And it will end. More: the focus shifts. What about Edom, the enemy who rejoiced in Zion&apos;s destruction? God will visit Edom\'s iniquity. All nations stand under God\'s judgment. None escape. But for Zion, captivity will not be forever.',
+          html: '"The punishment of thine iniquity is accomplished, O daughter of Zion." The judgment, terrible as it has been, is not permanent. It is measured. It has limits. And it will end. More: the focus shifts. What about Edom, the enemy who rejoiced in Zion&apos;s destruction? God will visit Edom\'s iniquity. All nations stand under God\'s judgment. None escape. But for Zion, captivity will not be forever.',
         },
         {
           kind: 'hebrew',
@@ -125,5 +119,30 @@ export const LAMENTATIONS_4: RichChapterContent = {
     quote: 'How is the gold become dim! how is the most fine gold changed! the stones of the sanctuary are poured out in the top of every street.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Lamentations 4 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'bibleodyssey-lament',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Lament Genre in the Ancient Near East',
+      url: 'https://www.bibleodyssey.org/dictionary/lament/',
+      description: 'SBL entry on lament poetry in ANE literature, including parallels to Lamentations.',
+    },
+    {
+      id: 'jerusalem-destruction-archaeology',
+      kind: 'archaeology',
+      source: 'Israel Museum / IAA',
+      label: 'Jerusalem Destruction (587 BCE)',
+      url: 'https://www.imj.org.il/en/exhibitions/destruction-jerusalem-587',
+      description: 'Archaeological evidence of Jerusalem&apos;s destruction by Nebuchadnezzar&apos;s forces.',
+    },
+    {
+      id: 'sumerian-lamentations',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Sumerian City Laments',
+      url: 'https://www.britishmuseum.org/collection/object/Y_EA9319',
+      description: 'ANE parallels to Lamentations: Sumerian lament poetry over destroyed cities.',
+    }
+  ],
 };

@@ -44,8 +44,7 @@ export const EZEKIEL_30: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'resolve-egypt-fall',
-          html:
-            '<p>Egypt&apos;s might will shatter; a slave-realm will replace masters. The great shall be brought low.</p>',
+          html: '<p>Egypt&apos;s might will shatter; a slave-realm will replace masters. The great shall be brought low.</p>[res:gog-magog-bibleodyssey]',
         },
         {
           kind: 'scripture',
@@ -60,14 +59,12 @@ export const EZEKIEL_30: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezek30-day-of-lord',
-          html:
-            '"The day of the Lord is near, a cloudy day; it shall be the time of the heathen." The prophecy against Egypt is situated within the larger frame of the Day of the Lord—God&apos;s ultimate judgment of all nations. The clouds are a sign of God&apos;s presence, but also of judgment. What clouds over Egypt is the coming reckoning.',
+          html: '"The day of the Lord is near, a cloudy day; it shall be the time of the heathen." The prophecy against Egypt is situated within the larger frame of the Day of the Lord—God&apos;s ultimate judgment of all nations. The clouds are a sign of God&apos;s presence, but also of judgment. What clouds over Egypt is the coming reckoning[res:tyre-archaeology].',
         },
         {
           kind: 'commentary',
           id: 'ezek30-complete',
-          html:
-            'The judgment is comprehensive. Idols are destroyed—all the religious confidence that Egypt has placed in her gods. Cities are burned. The Nile rivers are dried up—the very source of Egypt&apos;s fertility and security. Princes fall. Multitudes are cut off. From north to south, from city to city, judgment sweeps through. There is nowhere to hide, nothing to trust in that will not be taken away.',
+          html: 'The judgment is comprehensive. Idols are destroyed—all the religious confidence that Egypt has placed in her gods. Cities are burned. The Nile rivers are dried up—the very source of Egypt&apos;s fertility and security. Princes fall. Multitudes are cut off. From north to south, from city to city, judgment sweeps through. There is nowhere to hide, nothing to trust in that will not be taken away.',
         },
         {
           kind: 'hebrew',
@@ -103,8 +100,7 @@ export const EZEKIEL_30: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezek30-broken-arm',
-          html:
-            'God says: "I have broken the arm of Pharaoh." The arm speaks to power—the ability to wield the sword, to strike, to defend. Pharaoh&apos;s military might is broken. "It shall not be bound up to be healed." The injury is permanent. No physician can make it whole again. Pharaoh will be powerless.',
+          html: 'God says: "I have broken the arm of Pharaoh." The arm speaks to power—the ability to wield the sword, to strike, to defend. Pharaoh&apos;s military might is broken. "It shall not be bound up to be healed." The injury is permanent. No physician can make it whole again. Pharaoh will be powerless.',
         },
         {
           kind: 'commentary',
@@ -137,7 +133,24 @@ export const EZEKIEL_30: RichChapterContent = {
     quote: 'The day is near, even the day of the Lord is near, a cloudy day; it shall be the time of the heathen...They shall know that I am the Lord.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Ezekiel 30 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'gog-magog-bibleodyssey',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Gog and Magog',
+      url: 'https://www.bibleodyssey.org/dictionary/gog/',
+      description: 'SBL entry on the mysterious Gog figure in Ezekiel and Revelation.',
+    },
+    {
+      id: 'tyre-archaeology',
+      kind: 'archaeology',
+      source: 'Israel Museum / ToposText',
+      label: 'Tyre Archaeology (Ezek 26-28)',
+      url: 'https://www.imj.org.il/en',
+      description: 'Archaeological record of ancient Tyre, subject of Ezekiel&apos;s prophecies.',
+    }
+  ],
 
   hasHebrew: true,
 };

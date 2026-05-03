@@ -37,19 +37,16 @@ export const JEREMIAH_50: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer50-babylon-taken',
-          html:
-            'God proclaims with absolute certainty that Babylon will fall. The proclamation is public, declared among the nations. Bel (the chief god of Babylon) and Merodach (another form of the god Marduk) are confounded and broken. The idols in which Babylon has placed its trust are shattered. This is not a prediction of political instability or weakness. This is a statement that Babylon&apos;s entire religious and cultural foundation is false and will be exposed.',
+          html: 'God proclaims with absolute certainty that Babylon will fall. The proclamation is public, declared among the nations. Bel (the chief god of Babylon) and Merodach (another form of the god Marduk) are confounded and broken. The idols in which Babylon has placed its trust are shattered. This is not a prediction of political instability or weakness. This is a statement that Babylon&apos;s entire religious and cultural foundation is false and will be exposed[res:babylonian-chronicle].',
         },
         {
           kind: 'commentary',
           id: 'jer50-remove',
-          html:
-            'God calls His people to leave Babylon. "Remove out of the midst of Babylon, and go forth out of the land of the Chaldeans, and be as the he goats before the flocks." The image is of male goats—strong, vigorous, leading the flocks. No longer will Israel follow passively. No longer will Israel be scattered and vulnerable. Israel will lead the way out of exile.',
+          html: 'God calls His people to leave Babylon. "Remove out of the midst of Babylon, and go forth out of the land of the Chaldeans, and be as the he goats before the flocks." The image is of male goats—strong, vigorous, leading the flocks. No longer will Israel follow passively. No longer will Israel be scattered and vulnerable. Israel will lead the way out of exile[res:bibleodyssey-jeremiah].',
         },
         {
           kind: 'carry',
-          html:
-            'This passage speaks to anyone who feels trapped by the powers of this world. Babylon represents the system that seems to have captured you, the forces that seem permanent and overwhelming. Yet God&apos;s word declares: even Babylon falls. Even the great powers of the world are not beyond God&apos;s reach. And if you belong to God, His call is to remove yourself from the systems that do not serve His purposes.',
+          html: 'This passage speaks to anyone who feels trapped by the powers of this world. Babylon represents the system that seems to have captured you, the forces that seem permanent and overwhelming. Yet God&apos;s word declares: even Babylon falls. Even the great powers of the world are not beyond God&apos;s reach. And if you belong to God, His call is to remove yourself from the systems that do not serve His purposes.',
         },
         {
           kind: 'reflection',
@@ -76,14 +73,12 @@ export const JEREMIAH_50: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer50-scattered',
-          html:
-            'The image of Israel as scattered sheep is one of the most poignant in scripture. The lions—the empires that have preyed upon Israel—have driven the flock in all directions. Assyria devoured Israel in the north. Babylon has broken Judah in the south. The people are scattered, vulnerable, without direction or protection.',
+          html: 'The image of Israel as scattered sheep is one of the most poignant in scripture. The lions—the empires that have preyed upon Israel—have driven the flock in all directions. Assyria devoured Israel in the north. Babylon has broken Judah in the south. The people are scattered, vulnerable, without direction or protection[res:jer31-hebrews-intertextual].',
         },
         {
           kind: 'commentary',
           id: 'jer50-habitation',
-          html:
-            'Yet God promises restoration. Israel will be brought again to his habitation. He will feed in the rich lands—Carmel, Bashan, Ephraim, Gilead—lands of abundance. His soul will be satisfied. More than this, God will pardon Israel&apos;s iniquity. When that day comes, Israel&apos;s sins "shall not be found." They will be pardoned and forgotten, as if they had never been.',
+          html: 'Yet God promises restoration. Israel will be brought again to his habitation. He will feed in the rich lands—Carmel, Bashan, Ephraim, Gilead—lands of abundance. His soul will be satisfied. More than this, God will pardon Israel&apos;s iniquity. When that day comes, Israel&apos;s sins "shall not be found." They will be pardoned and forgotten, as if they had never been.',
         },
         {
           kind: 'hebrew',
@@ -98,8 +93,7 @@ export const JEREMIAH_50: RichChapterContent = {
           kind: 'christ',
           id: 'jer50-christ-shepherd',
           title: 'Christ Connection — The Good Shepherd',
-          html:
-            'Jesus calls Himself the good shepherd. He goes out in search of the lost sheep. He brings them back to the fold. He lays down His life for the sheep. In Christ, the prophecy of Jeremiah 50 finds its ultimate fulfillment. Christ is the Shepherd who seeks out the scattered, gathers the vulnerable, leads them to green pastures, restores their souls, and forgives their sins completely. In the resurrection, the scattered flock of humanity is gathered into one fold under one Shepherd.',
+          html: 'Jesus calls Himself the good shepherd. He goes out in search of the lost sheep. He brings them back to the fold. He lays down His life for the sheep. In Christ, the prophecy of Jeremiah 50 finds its ultimate fulfillment. Christ is the Shepherd who seeks out the scattered, gathers the vulnerable, leads them to green pastures, restores their souls, and forgives their sins completely. In the resurrection, the scattered flock of humanity is gathered into one fold under one Shepherd.',
         },
         {
           kind: 'carry',
@@ -119,5 +113,30 @@ export const JEREMIAH_50: RichChapterContent = {
     quote: 'Israel is a scattered sheep; the lions have driven him away...Therefore will I bring Israel again to his habitation, and he shall feed in Carmel and Bashan.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Jeremiah 50 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'babylonian-chronicle',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Babylonian Chronicle (Jerusalem siege)',
+      url: 'https://www.britishmuseum.org/collection/object/Y_EA25091',
+      description: 'Cuneiform tablet documenting the Babylonian assault on Jerusalem in 597 and 587 BCE.',
+    },
+    {
+      id: 'bibleodyssey-jeremiah',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Jeremiah',
+      url: 'https://www.bibleodyssey.org/passages/main-articles/jeremiah/',
+      description: 'Peer-reviewed SBL entry on the prophet Jeremiah and his historical context.',
+    },
+    {
+      id: 'jer31-hebrews-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Jeremiah 31 ↔ Hebrews 8:8–12',
+      url: 'https://intertextual.bible/text/jeremiah-31/hebrews-8',
+      description: 'Side-by-side comparison of the new covenant promise in Jeremiah quoted in Hebrews.',
+    }
+  ],
 };

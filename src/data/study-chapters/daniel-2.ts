@@ -41,14 +41,12 @@ export const DANIEL_2: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'daniel2-metals',
-          html:
-            'The image is a vision of kingdoms. The head of gold—Babylon under Nebuchadnezzar, whose reign is glorious but finite. Silver, brass, iron, and finally iron mixed with clay—each represents a kingdom in succession. The metals grow stronger (iron is stronger than brass) but more fragile (clay cannot hold with iron). The progression shows that all earthly empires, no matter how mighty, are ultimately weak, divided against themselves, destined for collapse.',
+          html: 'The image is a vision of kingdoms. The head of gold—Babylon under Nebuchadnezzar, whose reign is glorious but finite. Silver, brass, iron, and finally iron mixed with clay—each represents a kingdom in succession. The metals grow stronger (iron is stronger than brass) but more fragile (clay cannot hold with iron). The progression shows that all earthly empires, no matter how mighty, are ultimately weak, divided against themselves, destined for collapse[res:babylon-archaeology].',
         },
         {
           kind: 'commentary',
           id: 'daniel2-stone',
-          html:
-            '"A stone was cut out without hands." This is no human craft. This is the work of God alone. The stone smites the image at its feet—not at the head, but at the foundation. And when it strikes, the whole image crumbles. Iron, clay, brass, silver, gold—all broken together like chaff. The image of human earthly power is revealed to be fragile, insubstantial, driven away by wind. But the stone becomes a great mountain, filling the whole earth. That which is made without hands endures forever.',
+          html: '"A stone was cut out without hands." This is no human craft. This is the work of God alone. The stone smites the image at its feet—not at the head, but at the foundation. And when it strikes, the whole image crumbles. Iron, clay, brass, silver, gold—all broken together like chaff. The image of human earthly power is revealed to be fragile, insubstantial, driven away by wind. But the stone becomes a great mountain, filling the whole earth. That which is made without hands endures forever[res:cyrus-cylinder].',
         },
       ],
     },
@@ -72,8 +70,7 @@ export const DANIEL_2: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'daniel2-sovereignty',
-          html:
-            'Daniel does not hide the hard truth. He tells Nebuchadnezzar plainly: your glory is real, but it is given to you by the God of heaven. Your dominion is vast, but it will fall. The gold shall give way to silver, silver to brass, brass to iron, iron to clay. And when clay tries to hold with iron, when kingdoms grow too weak to support themselves, when pride reaches its peak and fractures—then the stone of God&apos;s kingdom will be cut without hands, and it shall break in pieces all these kingdoms, and it shall stand for ever.',
+          html: 'Daniel does not hide the hard truth. He tells Nebuchadnezzar plainly: your glory is real, but it is given to you by the God of heaven. Your dominion is vast, but it will fall. The gold shall give way to silver, silver to brass, brass to iron, iron to clay. And when clay tries to hold with iron, when kingdoms grow too weak to support themselves, when pride reaches its peak and fractures—then the stone of God&apos;s kingdom will be cut without hands, and it shall break in pieces all these kingdoms, and it shall stand for ever[res:ishtar-gate].',
         },
         {
           kind: 'hebrew',
@@ -88,13 +85,11 @@ export const DANIEL_2: RichChapterContent = {
           kind: 'christ',
           id: 'daniel2-christ-stone',
           title: 'Christ Connection — The Rock of Ages',
-          html:
-            'Jesus quotes this prophecy of Himself. In Matthew 26:64, at His trial before the Sanhedrin, He tells the high priest, "Ye shall see the Son of man sitting on the right hand of power, and coming in the clouds of heaven." The Son of Man—the very phrase from Daniel 7—is the stone cut without hands. Christ is not carved from earthly matter. He is begotten of God, born of a virgin, fashioned by the hand of God alone. He strikes the kingdoms of this world and breaks them. He rises from the dead and becomes the foundation of a kingdom that cannot be shaken, that fills all the earth, that stands forever.',
+          html: 'Jesus quotes this prophecy of Himself. In Matthew 26:64, at His trial before the Sanhedrin, He tells the high priest, "Ye shall see the Son of man sitting on the right hand of power, and coming in the clouds of heaven." The Son of Man—the very phrase from Daniel 7—is the stone cut without hands. Christ is not carved from earthly matter. He is begotten of God, born of a virgin, fashioned by the hand of God alone. He strikes the kingdoms of this world and breaks them. He rises from the dead and becomes the foundation of a kingdom that cannot be shaken, that fills all the earth, that stands forever.',
         },
         {
           kind: 'carry',
-          html:
-            'In the presence of the most powerful king on earth, Daniel declares that all earthly power is temporary. The gold fades. The silver grows dull. The brass corrodes. The iron rusts. The clay crumbles. Only that which is made by God, that which is cut without the hands of men, endures forever. What are you building your life upon? Upon clay and iron—upon things that will break in pieces? Or upon the Rock that cannot be shaken, the kingdom that shall never be destroyed?',
+          html: 'In the presence of the most powerful king on earth, Daniel declares that all earthly power is temporary. The gold fades. The silver grows dull. The brass corrodes. The iron rusts. The clay crumbles. Only that which is made by God, that which is cut without the hands of men, endures forever. What are you building your life upon? Upon clay and iron—upon things that will break in pieces? Or upon the Rock that cannot be shaken, the kingdom that shall never be destroyed?',
         },
         {
           kind: 'reflection',
@@ -109,7 +104,31 @@ export const DANIEL_2: RichChapterContent = {
     quote: 'The God of heaven shall set up a kingdom, which shall never be destroyed: and the kingdom shall not be left to other people, but it shall break in pieces and consume all these kingdoms, and it shall stand for ever.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Daniel 2 · Study Guide',
-  },
-
+  },  resources: [
+    {
+      id: 'babylon-archaeology',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Babylon Archaeology',
+      url: 'https://www.britishmuseum.org/collection/object/Y_EA9050',
+      description: 'Cuneiform records and artifacts from Babylon under Nebuchadnezzar II.',
+    },
+    {
+      id: 'cyrus-cylinder',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Cyrus Cylinder',
+      url: 'https://www.britishmuseum.org/collection/object/Y_EA90920',
+      description: 'Persian edict of Cyrus authorizing return of exiled peoples (ca. 539 BCE), fulfilling Daniel&apos;s prophecy.',
+    },
+    {
+      id: 'ishtar-gate',
+      kind: 'museum',
+      source: 'British Museum / Berlin Museum',
+      label: 'Ishtar Gate of Babylon',
+      url: 'https://www.britishmuseum.org/collection/search?q=ishtar+gate',
+      description: 'Reconstructed gate from ancient Babylon, showing the city&apos;s magnificence in Daniel&apos;s era.',
+    }
+  ],
   hasHebrew: true,
 };

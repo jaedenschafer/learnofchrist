@@ -38,14 +38,12 @@ export const EZEKIEL_41: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezekiel41-posts',
-          html:
-            'The posts measure six cubits on each side—the breadth matches the tabernacle of old. There is continuity with the past, even as there is renewal. The new temple echoes the old, honoring what was while building what will be.',
+          html: 'The posts measure six cubits on each side—the breadth matches the tabernacle of old. There is continuity with the past, even as there is renewal. The new temple echoes the old, honoring what was while building what will be[res:babylonian-exile-context].',
         },
         {
           kind: 'commentary',
           id: 'ezekiel41-cherubim',
-          html:
-            'Cherubim guard the entrance to the holy place. They are the symbols of God&apos;s holiness and of His protection of the sacred. Palm trees represent flourishing, growth, and the blessing of God. Together, they suggest that in the holy place, those who enter find both protection and abundance.',
+          html: 'Cherubim guard the entrance to the holy place. They are the symbols of God&apos;s holiness and of His protection of the sacred. Palm trees represent flourishing, growth, and the blessing of God. Together, they suggest that in the holy place, those who enter find both protection and abundance[res:gog-magog-bibleodyssey].',
         },
         {
           kind: 'hebrew',
@@ -60,13 +58,11 @@ export const EZEKIEL_41: RichChapterContent = {
           kind: 'christ',
           id: 'ezekiel41-christ-dwelling',
           title: 'Christ Connection — God Dwelling with Us',
-          html:
-            'In Revelation 21:3, John hears a great voice: "Behold, the tabernacle of God is with men, and he will dwell with them, and they shall be his people, and God himself shall be with them, and be their God." This is the culmination of Ezekiel&apos;s vision. The separated holy place is no longer needed because God&apos;s dwelling place is now universal. All who trust in Christ become the temple. God dwells not in a building, but in His people.',
+          html: 'In Revelation 21:3, John hears a great voice: "Behold, the tabernacle of God is with men, and he will dwell with them, and they shall be his people, and God himself shall be with them, and be their God." This is the culmination of Ezekiel&apos;s vision. The separated holy place is no longer needed because God&apos;s dwelling place is now universal. All who trust in Christ become the temple. God dwells not in a building, but in His people.',
         },
         {
           kind: 'carry',
-          html:
-            'The care taken with the construction of the temple speaks to the care God takes with His people. You are being built into a spiritual house. The measuring rod is in His hand. Each dimension of your life is being shaped by His purpose and His love.',
+          html: 'The care taken with the construction of the temple speaks to the care God takes with His people. You are being built into a spiritual house. The measuring rod is in His hand. Each dimension of your life is being shaped by His purpose and His love.',
         },
         {
           kind: 'reflection',
@@ -81,7 +77,24 @@ export const EZEKIEL_41: RichChapterContent = {
     quote: 'There were made on them, on the doors of the temple, cherubim and palm trees.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Ezekiel 41 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'babylonian-exile-context',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Babylonian Exile Context',
+      url: 'https://www.britishmuseum.org/collection/object/W_Y_EA25091',
+      description: 'Cuneiform and archaeological evidence of Babylon under Nebuchadnezzar.',
+    },
+    {
+      id: 'gog-magog-bibleodyssey',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Gog and Magog',
+      url: 'https://www.bibleodyssey.org/dictionary/gog/',
+      description: 'SBL entry on the mysterious Gog figure in Ezekiel and Revelation.',
+    }
+  ],
 
   hasHebrew: true,
 };

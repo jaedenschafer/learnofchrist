@@ -40,8 +40,7 @@ export const EZEKIEL_1: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezk1-vision-opening',
-          html:
-            'Ezekiel&apos;s vision arrives as judgment falls on Judah. He is in exile, stripped of temple, home, and the visible signs of God&apos;s presence. Yet it is precisely here, in this moment of national collapse, that heaven opens. The vision comes not with gentle whisper but with whirlwind and cloud and fire. God does not leave His prophet comfortless in captivity. He appears.',
+          html: 'Ezekiel&apos;s vision arrives as judgment falls on Judah. He is in exile, stripped of temple, home, and the visible signs of God&apos;s presence. Yet it is precisely here, in this moment of national collapse, that heaven opens. The vision comes not with gentle whisper but with whirlwind and cloud and fire. God does not leave His prophet comfortless in captivity. He appears[res:sefaria-ezekiel].',
         },
         {
           kind: 'hebrew',
@@ -55,13 +54,11 @@ export const EZEKIEL_1: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezk1-four-faces',
-          html:
-            'Four faces, each different: man (reason, the human form), lion (majesty and power), ox (service and strength), eagle (speed and the transcendent). Together they suggest that God comprehends all that creation is — human wisdom, sovereign power, faithful service, soaring transcendence. No single face contains Him. All four together barely suggest His fullness.',
+          html: 'Four faces, each different: man (reason, the human form), lion (majesty and power), ox (service and strength), eagle (speed and the transcendent). Together they suggest that God comprehends all that creation is — human wisdom, sovereign power, faithful service, soaring transcendence. No single face contains Him. All four together barely suggest His fullness[res:tyre-archaeology].',
         },
         {
           kind: 'carry',
-          html:
-            'When we feel far from God, when we are stripped of the familiar signs of His presence, we may believe He has withdrawn. But Ezekiel&apos;s vision declares that God meets us most profoundly in exile. He comes with overwhelming reality precisely when we are most alone. The God who meets us is not small or easily understood. He transcends our categories. And yet He comes.',
+          html: 'When we feel far from God, when we are stripped of the familiar signs of His presence, we may believe He has withdrawn. But Ezekiel&apos;s vision declares that God meets us most profoundly in exile. He comes with overwhelming reality precisely when we are most alone. The God who meets us is not small or easily understood. He transcends our categories. And yet He comes.',
         },
         {
           kind: 'reflection',
@@ -87,8 +84,7 @@ export const EZEKIEL_1: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezk1-throne-sapphire',
-          html:
-            'Above all this — the creatures, the wheels, the firmament — sits a throne. And upon that throne, the likeness of a man. The phrase "likeness of the glory of the Lord" is carefully chosen. Ezekiel does not claim to see God himself, but the appearance of His glory — the revealed aspect of His transcendent being. That glory appears in human form, suggesting that God has always, even before the Incarnation, the pattern of humanity as the vehicle of His self-revelation.',
+          html: 'Above all this — the creatures, the wheels, the firmament — sits a throne. And upon that throne, the likeness of a man. The phrase "likeness of the glory of the Lord" is carefully chosen. Ezekiel does not claim to see God himself, but the appearance of His glory — the revealed aspect of His transcendent being. That glory appears in human form, suggesting that God has always, even before the Incarnation, the pattern of humanity as the vehicle of His self-revelation.',
         },
         {
           kind: 'christ',
@@ -115,7 +111,24 @@ export const EZEKIEL_1: RichChapterContent = {
     quote: '"This was the appearance of the likeness of the glory of the Lord." — Ezekiel 1:28',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Ezekiel 1 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'sefaria-ezekiel',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezekiel',
+      url: 'https://www.sefaria.org/Ezekiel',
+      description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
+    },
+    {
+      id: 'tyre-archaeology',
+      kind: 'archaeology',
+      source: 'Israel Museum / ToposText',
+      label: 'Tyre Archaeology (Ezek 26-28)',
+      url: 'https://www.imj.org.il/en',
+      description: 'Archaeological record of ancient Tyre, subject of Ezekiel&apos;s prophecies.',
+    }
+  ],
 
   hasHebrew: true,
 };

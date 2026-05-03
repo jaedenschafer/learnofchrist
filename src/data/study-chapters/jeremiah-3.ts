@@ -42,8 +42,7 @@ export const JEREMIAH_3: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jeremiah-3-78mid-1',
-          html:
-            'The prophet pivots from indictment to invitation — &quot;Return, thou backsliding Israel,&quot; the LORD says, and the next verses press the open door.',
+          html: 'The prophet pivots from indictment to invitation — &quot;Return, thou backsliding Israel,&quot; the LORD says, and the next verses press the open door[res:jer31-hebrews-intertextual].',
         },
         {
           kind: 'scripture',
@@ -58,7 +57,7 @@ export const JEREMIAH_3: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer3-married',
-          html: 'God speaks of covenant marriage. "I am married unto you." This is not a description of what God will do if Israel returns perfectly. This is a statement of what already exists. Despite Israel&apos;s infidelity, despite the broken covenant, God remains the husband. The marriage covenant stands. This is the foundation of all that follows—not a contract that can be dissolved by violation, but a covenant that persists even through betrayal.',
+          html: 'God speaks of covenant marriage. "I am married unto you." This is not a description of what God will do if Israel returns perfectly. This is a statement of what already exists. Despite Israel&apos;s infidelity, despite the broken covenant, God remains the husband. The marriage covenant stands. This is the foundation of all that follows—not a contract that can be dissolved by violation, but a covenant that persists even through betrayal[res:lachish-letters].',
         },
         {
           kind: 'hebrew',
@@ -152,7 +151,24 @@ export const JEREMIAH_3: RichChapterContent = {
     quote: 'Return, thou backsliding Israel, saith the Lord; for I am married unto you: and I will take you one of a city, and two of a family, and I will bring you to Zion.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Jeremiah 3 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'jer31-hebrews-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Jeremiah 31 ↔ Hebrews 8:8–12',
+      url: 'https://intertextual.bible/text/jeremiah-31/hebrews-8',
+      description: 'Side-by-side comparison of the new covenant promise in Jeremiah quoted in Hebrews.',
+    },
+    {
+      id: 'lachish-letters',
+      kind: 'archaeology',
+      source: 'Israel Museum',
+      label: 'Lachish Letters',
+      url: 'https://www.imj.org.il/en/collections/lachish-letters',
+      description: 'Ancient inscribed potsherds from the Judean siege of Lachish (587 BCE), contemporary with Jeremiah.',
+    }
+  ],
 
   hasHebrew: true,
 };

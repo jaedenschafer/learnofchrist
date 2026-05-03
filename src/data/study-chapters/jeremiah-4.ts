@@ -42,8 +42,7 @@ export const JEREMIAH_4: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jeremiah-4-78mid-1',
-          html:
-            'Jeremiah turns from describing the coming invasion to lamenting that he sees it. The prophet does not deliver judgment from a safe distance; his bowels are pained for his people.',
+          html: 'Jeremiah turns from describing the coming invasion to lamenting that he sees it. The prophet does not deliver judgment from a safe distance; his bowels are pained for his people[res:babylonian-chronicle].',
         },
         {
           kind: 'scripture',
@@ -58,7 +57,7 @@ export const JEREMIAH_4: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer4-break-fallow',
-          html: 'The image of breaking up fallow ground is one of the most powerful in Scripture for describing the work of repentance. Fallow ground is hard. The plow must cut deep. Roots must be torn up. Weeds must be pulled out entirely, not merely trimmed back. If they are left in the ground, they will grow again. The "thorns" are particularly dangerous—they will choke out any new growth. To repent is to undertake this kind of radical clearing of the interior landscape.',
+          html: 'The image of breaking up fallow ground is one of the most powerful in Scripture for describing the work of repentance. Fallow ground is hard. The plow must cut deep. Roots must be torn up. Weeds must be pulled out entirely, not merely trimmed back. If they are left in the ground, they will grow again. The "thorns" are particularly dangerous—they will choke out any new growth. To repent is to undertake this kind of radical clearing of the interior landscape[res:jer31-hebrews-intertextual].',
         },
         {
           kind: 'hebrew',
@@ -71,7 +70,7 @@ export const JEREMIAH_4: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer4-circumcise',
-          html: 'God then uses another image, moving from agriculture to covenant: "Circumcise yourselves to the Lord, and take away the foreskins of your hearts." Circumcision was the sign of the covenant with Israel. But God here speaks of circumcision of the heart—the removal of the hard covering, the impediment to the flow of God&apos;s life into the inner person. Just as breaking fallow ground removes hardness, circumcision of the heart removes the hardness that prevents relationship with God.',
+          html: 'God then uses another image, moving from agriculture to covenant: "Circumcise yourselves to the Lord, and take away the foreskins of your hearts." Circumcision was the sign of the covenant with Israel. But God here speaks of circumcision of the heart—the removal of the hard covering, the impediment to the flow of God&apos;s life into the inner person. Just as breaking fallow ground removes hardness, circumcision of the heart removes the hardness that prevents relationship with God[res:lachish-letters].',
         },
         {
           kind: 'commentary',
@@ -144,7 +143,32 @@ export const JEREMIAH_4: RichChapterContent = {
     quote: 'Break up your fallow ground, and sow not among thorns: circumcise yourselves to the Lord, and take away the foreskins of your hearts.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Jeremiah 4 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'babylonian-chronicle',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Babylonian Chronicle (Jerusalem siege)',
+      url: 'https://www.britishmuseum.org/collection/object/Y_EA25091',
+      description: 'Cuneiform tablet documenting the Babylonian assault on Jerusalem in 597 and 587 BCE.',
+    },
+    {
+      id: 'jer31-hebrews-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Jeremiah 31 ↔ Hebrews 8:8–12',
+      url: 'https://intertextual.bible/text/jeremiah-31/hebrews-8',
+      description: 'Side-by-side comparison of the new covenant promise in Jeremiah quoted in Hebrews.',
+    },
+    {
+      id: 'lachish-letters',
+      kind: 'archaeology',
+      source: 'Israel Museum',
+      label: 'Lachish Letters',
+      url: 'https://www.imj.org.il/en/collections/lachish-letters',
+      description: 'Ancient inscribed potsherds from the Judean siege of Lachish (587 BCE), contemporary with Jeremiah.',
+    }
+  ],
 
   hasHebrew: true,
 };

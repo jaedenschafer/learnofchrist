@@ -38,14 +38,12 @@ export const EZEKIEL_48: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezekiel48-territories',
-          html:
-            'The tribes are named in order, each receiving their portion. After generations of exile, after the promises made and seemingly broken, here at last is the allocation. Each tribe returns to its territory. Order is restored. The promise is fulfilled.',
+          html: 'The tribes are named in order, each receiving their portion. After generations of exile, after the promises made and seemingly broken, here at last is the allocation. Each tribe returns to its territory. Order is restored. The promise is fulfilled[res:bibleodyssey-ezekiel].',
         },
         {
           kind: 'commentary',
           id: 'ezekiel48-center',
-          html:
-            'The sanctuary is at the center. The city is at the center of the sanctuary. Everything radiates from the holy place. This is the order of renewed Israel: God at the center, the city around Him, the tribes radiating outward. The holy is not marginal. It is central.',
+          html: 'The sanctuary is at the center. The city is at the center of the sanctuary. Everything radiates from the holy place. This is the order of renewed Israel: God at the center, the city around Him, the tribes radiating outward. The holy is not marginal. It is central[res:ezekiel-revelation-intertextual].',
         },
         {
           kind: 'hebrew',
@@ -60,13 +58,11 @@ export const EZEKIEL_48: RichChapterContent = {
           kind: 'christ',
           id: 'ezekiel48-christ-presence',
           title: 'Christ Connection — God&apos;s Eternal Presence',
-          html:
-            'In Matthew 28:20, Christ says to His disciples: "Lo, I am with you alway, even unto the end of the world." And in John 14:18, He promises: "I will not leave you comfortless: I will come to you." This is the fulfillment of Ezekiel&apos;s promise. Christ is Immanuel—God with us. His presence is not confined to a building or a city. It is available to all who trust in Him.',
+          html: 'In Matthew 28:20, Christ says to His disciples: "Lo, I am with you alway, even unto the end of the world." And in John 14:18, He promises: "I will not leave you comfortless: I will come to you." This is the fulfillment of Ezekiel&apos;s promise. Christ is Immanuel—God with us. His presence is not confined to a building or a city. It is available to all who trust in Him.',
         },
         {
           kind: 'carry',
-          html:
-            'The vision began with the removal of God&apos;s presence—the glory departing from the temple. It ends with the absolute promise of that presence returning and remaining forever. In between is the journey of exile, judgment, repentance, and restoration. Your own spiritual journey may follow this pattern.',
+          html: 'The vision began with the removal of God&apos;s presence—the glory departing from the temple. It ends with the absolute promise of that presence returning and remaining forever. In between is the journey of exile, judgment, repentance, and restoration. Your own spiritual journey may follow this pattern.',
         },
         {
           kind: 'reflection',
@@ -120,7 +116,24 @@ export const EZEKIEL_48: RichChapterContent = {
     quote: 'The name of the city from that day shall be, The Lord Is There.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Ezekiel 48 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'bibleodyssey-ezekiel',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Ezekiel',
+      url: 'https://www.bibleodyssey.org/passages/main-articles/ezekiel/',
+      description: 'Peer-reviewed SBL entry on the prophet Ezekiel and the Babylonian exile.',
+    },
+    {
+      id: 'ezekiel-revelation-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Ezekiel Temple Vision ↔ Revelation 21-22',
+      url: 'https://intertextual.bible/text/ezekiel-40/revelation-21',
+      description: 'Side-by-side comparison of Ezekiel&apos;s temple vision and John&apos;s new creation.',
+    }
+  ],
 
   hasHebrew: true,
 };

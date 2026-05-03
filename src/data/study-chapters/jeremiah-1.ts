@@ -43,8 +43,7 @@ export const JEREMIAH_1: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer1-call-hesitation',
-          html:
-            'Jeremiah moves from his calling as a prophet to his resistance. Commission meets human fear.',
+          html: 'Jeremiah moves from his calling as a prophet to his resistance. Commission meets human fear[res:babylonian-chronicle].',
         },
         {
           kind: 'scripture',
@@ -60,7 +59,7 @@ export const JEREMIAH_1: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer1-before-formed',
-          html: 'God speaks of knowledge that precedes creation itself. This is not foreknowledge in the sense of seeing ahead what will happen. This is intimate, personal, eternal knowledge. The God who exists outside time has always known Jeremiah. Long before his mother conceived him, long before his father named him, God knew him by name and called him by name. This knowledge is the foundation of everything that follows—all of God&apos;s purpose for Jeremiah&apos;s life rests on this prior knowledge.',
+          html: 'God speaks of knowledge that precedes creation itself. This is not foreknowledge in the sense of seeing ahead what will happen. This is intimate, personal, eternal knowledge. The God who exists outside time has always known Jeremiah. Long before his mother conceived him, long before his father named him, God knew him by name and called him by name. This knowledge is the foundation of everything that follows—all of God&apos;s purpose for Jeremiah&apos;s life rests on this prior knowledge[res:bibleodyssey-jeremiah].',
         },
         {
           kind: 'commentary',
@@ -175,7 +174,24 @@ export const JEREMIAH_1: RichChapterContent = {
     quote: 'Before I formed thee in the belly I knew thee; and before thou camest forth out of the womb I sanctified thee, and I ordained thee a prophet unto the nations.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Jeremiah 1 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'babylonian-chronicle',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Babylonian Chronicle (Jerusalem siege)',
+      url: 'https://www.britishmuseum.org/collection/object/Y_EA25091',
+      description: 'Cuneiform tablet documenting the Babylonian assault on Jerusalem in 597 and 587 BCE.',
+    },
+    {
+      id: 'bibleodyssey-jeremiah',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Jeremiah',
+      url: 'https://www.bibleodyssey.org/passages/main-articles/jeremiah/',
+      description: 'Peer-reviewed SBL entry on the prophet Jeremiah and his historical context.',
+    }
+  ],
 
   hasHebrew: true,
 };

@@ -38,19 +38,16 @@ export const JEREMIAH_46: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer46-boast',
-          html:
-            'Egypt musters its strength with all the confidence of a superpower. Bucklers and shields, horses and chariots, helmets and spears—the full apparatus of ancient warfare. The language is brisk and commanding: "Order," "draw near," "harness," "get up," "stand forth," "furbish." This is the voice of a military machine in motion, certain of victory.',
+          html: 'Egypt musters its strength with all the confidence of a superpower. Bucklers and shields, horses and chariots, helmets and spears—the full apparatus of ancient warfare. The language is brisk and commanding: "Order," "draw near," "harness," "get up," "stand forth," "furbish." This is the voice of a military machine in motion, certain of victory[res:bibleodyssey-jeremiah].',
         },
         {
           kind: 'commentary',
           id: 'jer46-dismayed',
-          html:
-            'But then God&apos;s voice cuts in: "Wherefore have I seen them dismayed and turned away back?" The mighty ones are beaten down. They flee without looking back. "For fear was round about." What happened? No human explanation is given. The text simply states that God sees them dismayed—and they are dismayed. God sees them fleeing—and they flee. The implication is that the outcome is not the result of military prowess, but of God&apos;s will made manifest.',
+          html: 'But then God&apos;s voice cuts in: "Wherefore have I seen them dismayed and turned away back?" The mighty ones are beaten down. They flee without looking back. "For fear was round about." What happened? No human explanation is given. The text simply states that God sees them dismayed—and they are dismayed. God sees them fleeing—and they flee. The implication is that the outcome is not the result of military prowess, but of God&apos;s will made manifest[res:jer31-hebrews-intertextual].',
         },
         {
           kind: 'carry',
-          html:
-            'This passage presents a principle that runs through all of Jeremiah: the nations that seem most powerful are the most fragile when they stand against God. Egypt believed its chariots and horses and shields would secure its future. It did not understand that security comes not from arms, but from right relationship with God. What are you putting your confidence in? What shields and spears are you trusting?',
+          html: 'This passage presents a principle that runs through all of Jeremiah: the nations that seem most powerful are the most fragile when they stand against God. Egypt believed its chariots and horses and shields would secure its future. It did not understand that security comes not from arms, but from right relationship with God. What are you putting your confidence in? What shields and spears are you trusting?',
         },
         {
           kind: 'reflection',
@@ -76,21 +73,18 @@ export const JEREMIAH_46: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer46-save-afar',
-          html:
-            'In the midst of judgment against the nations, God turns to comfort His people. "Fear not thou, O my servant Jacob." The word is personal. Jacob is not a distant people; Jacob is "my servant," bound to God by covenant. And though Jacob will be carried off into captivity, God promises to save him "from afar"—that is, from the very place of exile itself. Jacob will return. He will be at rest and at ease. None shall make him afraid.',
+          html: 'In the midst of judgment against the nations, God turns to comfort His people. "Fear not thou, O my servant Jacob." The word is personal. Jacob is not a distant people; Jacob is "my servant," bound to God by covenant. And though Jacob will be carried off into captivity, God promises to save him "from afar"—that is, from the very place of exile itself. Jacob will return. He will be at rest and at ease. None shall make him afraid[res:lachish-letters].',
         },
         {
           kind: 'commentary',
           id: 'jer46-full-end',
-          html:
-            'The contrast is stark. God will "make a full end of all the nations whither I have driven thee"—the nations that carried Israel into exile will themselves be destroyed. But Israel? "I will not make a full end of thee." Israel will be corrected, disciplined, punished in measure—but not destroyed. This is the heart of God&apos;s covenant promise: even in judgment, there is mercy. Even in exile, there is hope of return.',
+          html: 'The contrast is stark. God will "make a full end of all the nations whither I have driven thee"—the nations that carried Israel into exile will themselves be destroyed. But Israel? "I will not make a full end of thee." Israel will be corrected, disciplined, punished in measure—but not destroyed. This is the heart of God&apos;s covenant promise: even in judgment, there is mercy. Even in exile, there is hope of return.',
         },
         {
           kind: 'christ',
           id: 'jer46-christ-shepherd',
           title: 'Christ Connection — The Shepherd Gathers',
-          html:
-            'Jeremiah speaks of God gathering Israel from the land of captivity, bringing them back to rest and ease. Christ is that Shepherd. He gathers the scattered sheep—not by force, but by the power of His own life and love. He speaks to those in exile from God and says, "Come unto me, all ye that are weary and are heavy laden, and I will give you rest." The nations that rejected God face destruction. But those who are God&apos;s, even in their brokenness and captivity, are gathered, restored, and made whole in Christ.',
+          html: 'Jeremiah speaks of God gathering Israel from the land of captivity, bringing them back to rest and ease. Christ is that Shepherd. He gathers the scattered sheep—not by force, but by the power of His own life and love. He speaks to those in exile from God and says, "Come unto me, all ye that are weary and are heavy laden, and I will give you rest." The nations that rejected God face destruction. But those who are God&apos;s, even in their brokenness and captivity, are gathered, restored, and made whole in Christ.',
         },
         {
           kind: 'carry',
@@ -110,5 +104,30 @@ export const JEREMIAH_46: RichChapterContent = {
     quote: 'Fear not thou, O my servant Jacob, and be not dismayed, O Israel: for, behold, I will save thee from afar, and thy seed from the land of their captivity.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Jeremiah 46 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'bibleodyssey-jeremiah',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Jeremiah',
+      url: 'https://www.bibleodyssey.org/passages/main-articles/jeremiah/',
+      description: 'Peer-reviewed SBL entry on the prophet Jeremiah and his historical context.',
+    },
+    {
+      id: 'jer31-hebrews-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Jeremiah 31 ↔ Hebrews 8:8–12',
+      url: 'https://intertextual.bible/text/jeremiah-31/hebrews-8',
+      description: 'Side-by-side comparison of the new covenant promise in Jeremiah quoted in Hebrews.',
+    },
+    {
+      id: 'lachish-letters',
+      kind: 'archaeology',
+      source: 'Israel Museum',
+      label: 'Lachish Letters',
+      url: 'https://www.imj.org.il/en/collections/lachish-letters',
+      description: 'Ancient inscribed potsherds from the Judean siege of Lachish (587 BCE), contemporary with Jeremiah.',
+    }
+  ],
 };

@@ -67,19 +67,16 @@ export const JEREMIAH_17: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer17-written',
-          html:
-            'Sin is inscribed on the heart "with a pen of iron, and with the point of a diamond" — the image is one of permanence. The sin is not superficial; it is carved deeply. And the inscription is visible not just inwardly but in external action — the children remember the altars of idolatry, the high places of false worship. The sin has become the inheritance of the people.',
+          html: 'Sin is inscribed on the heart "with a pen of iron, and with the point of a diamond" — the image is one of permanence. The sin is not superficial; it is carved deeply. And the inscription is visible not just inwardly but in external action — the children remember the altars of idolatry, the high places of false worship. The sin has become the inheritance of the people[res:babylonian-chronicle].',
         },
         {
           kind: 'commentary',
           id: 'jer17-discontinue',
-          html:
-            'The consequence is stark: they will be forced to discontinue from their heritage, the land God gave them. They will serve enemies in a land they know not. The fire kindled by their disobedience will burn forever. This is the severity that comes when sin has been so deeply inscribed in the heart that repentance seems impossible.',
+          html: 'The consequence is stark: they will be forced to discontinue from their heritage, the land God gave them. They will serve enemies in a land they know not. The fire kindled by their disobedience will burn forever. This is the severity that comes when sin has been so deeply inscribed in the heart that repentance seems impossible[res:lachish-letters].',
         },
         {
           kind: 'carry',
-          html:
-            'Sin, when allowed to deepen, becomes inscribed. It moves from choice to character, from action to identity. The early choice to trust idols becomes the settled conviction of the heart, passed on to children. Where are you allowing sin to be inscribed? What small acts of disobedience are you permitting to become grooves worn deep?',
+          html: 'Sin, when allowed to deepen, becomes inscribed. It moves from choice to character, from action to identity. The early choice to trust idols becomes the settled conviction of the heart, passed on to children. Where are you allowing sin to be inscribed? What small acts of disobedience are you permitting to become grooves worn deep?',
         },
         {
           kind: 'reflection',
@@ -145,8 +142,7 @@ export const JEREMIAH_17: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer17-cursed-man',
-          html:
-            'The curse is specific: the man who trusts in man, who makes flesh his arm. Flesh — the human body, human strength, human wisdom — becomes his confidence. And the consequence is drought, desolation. He becomes like the heath in the desert, unable to see goodness or flourish.',
+          html: 'The curse is specific: the man who trusts in man, who makes flesh his arm. Flesh — the human body, human strength, human wisdom — becomes his confidence. And the consequence is drought, desolation. He becomes like the heath in the desert, unable to see goodness or flourish.',
         },
         {
           kind: 'commentary',
@@ -423,5 +419,22 @@ export const JEREMIAH_17: RichChapterContent = {
         },
       ],
     },
+  ],  resources: [
+    {
+      id: 'babylonian-chronicle',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Babylonian Chronicle (Jerusalem siege)',
+      url: 'https://www.britishmuseum.org/collection/object/Y_EA25091',
+      description: 'Cuneiform tablet documenting the Babylonian assault on Jerusalem in 597 and 587 BCE.',
+    },
+    {
+      id: 'lachish-letters',
+      kind: 'archaeology',
+      source: 'Israel Museum',
+      label: 'Lachish Letters',
+      url: 'https://www.imj.org.il/en/collections/lachish-letters',
+      description: 'Ancient inscribed potsherds from the Judean siege of Lachish (587 BCE), contemporary with Jeremiah.',
+    }
   ],
 };

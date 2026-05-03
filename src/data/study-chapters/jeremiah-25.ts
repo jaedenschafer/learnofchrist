@@ -66,8 +66,7 @@ export const JEREMIAH_25: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer25-prophet-cup',
-          html:
-            'Jeremiah moves from God&apos;s long patience to the cup of wrath. Years of warning culminate in judgment.',
+          html: 'Jeremiah moves from God&apos;s long patience to the cup of wrath. Years of warning culminate in judgment[res:babylonian-chronicle].',
         },
         {
           kind: 'scripture',
@@ -108,8 +107,7 @@ export const JEREMIAH_25: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer25-mirth-removed',
-          html:
-            'The armies are summoned, the destruction declared. Now comes the catalog of loss: no mirth, no gladness, no bridegroom, no bride, no millstones grinding, no candles burning. All the sounds and signs of normal life will cease. Silence and desolation follow.',
+          html: 'The armies are summoned, the destruction declared. Now comes the catalog of loss: no mirth, no gladness, no bridegroom, no bride, no millstones grinding, no candles burning. All the sounds and signs of normal life will cease. Silence and desolation follow[res:jer31-hebrews-intertextual].',
         },
         {
           kind: 'scripture',
@@ -134,14 +132,12 @@ export const JEREMIAH_25: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer25-seventy',
-          html:
-            'Seventy years is a specific number. Not forever. Not a few years. A full generation and more. Those who enter exile as adults may not live to see the return. Those born in exile will be adults when it ends. Yet seventy years is a number that can be counted, can be endured, can be survived.',
+          html: 'Seventy years is a specific number. Not forever. Not a few years. A full generation and more. Those who enter exile as adults may not live to see the return. Those born in exile will be adults when it ends. Yet seventy years is a number that can be counted, can be endured, can be survived.',
         },
         {
           kind: 'commentary',
           id: 'jer25-servants',
-          html:
-            'God calls the prophets His "servants" — they have spoken faithfully for twenty-three years. But the people have not listened. Now the consequence is clear: the prophets will be vindicated, their words will come true, and the people will endure what they were warned to avoid.',
+          html: 'God calls the prophets His "servants" — they have spoken faithfully for twenty-three years. But the people have not listened. Now the consequence is clear: the prophets will be vindicated, their words will come true, and the people will endure what they were warned to avoid.',
         },
         {
           kind: 'carry',
@@ -293,5 +289,22 @@ export const JEREMIAH_25: RichChapterContent = {
         },
       ],
     },
+  ],  resources: [
+    {
+      id: 'babylonian-chronicle',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Babylonian Chronicle (Jerusalem siege)',
+      url: 'https://www.britishmuseum.org/collection/object/Y_EA25091',
+      description: 'Cuneiform tablet documenting the Babylonian assault on Jerusalem in 597 and 587 BCE.',
+    },
+    {
+      id: 'jer31-hebrews-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Jeremiah 31 ↔ Hebrews 8:8–12',
+      url: 'https://intertextual.bible/text/jeremiah-31/hebrews-8',
+      description: 'Side-by-side comparison of the new covenant promise in Jeremiah quoted in Hebrews.',
+    }
   ],
 };

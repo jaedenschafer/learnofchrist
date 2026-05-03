@@ -43,14 +43,12 @@ export const EZEKIEL_21: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezek21-sword',
-          html:
-            'God draws His sword. The image is stark and terrible. "I will cut off from thee the righteous and the wicked." This is not surgical judgment. This is wholesale judgment—the sword falls indiscriminately on the land. The sword is sharpened for "sore slaughter," burnished so that it glitters in the light. Judgment is not hidden. It is public, visible, terrible in its clarity.',
+          html: 'God draws His sword. The image is stark and terrible. "I will cut off from thee the righteous and the wicked." This is not surgical judgment. This is wholesale judgment—the sword falls indiscriminately on the land. The sword is sharpened for "sore slaughter," burnished so that it glitters in the light. Judgment is not hidden. It is public, visible, terrible in its clarity[res:babylonian-exile-context].',
         },
         {
           kind: 'commentary',
           id: 'ezek21-dirge',
-          html:
-            'Ezekiel is told not to speak words of comfort, but to lament. "Cry and howl." This is not professional detachment. The prophet is to embody the pain of what is coming. He is to smite his thigh—the gesture of deepest anguish. And why? "For it shall be upon my people." The sword comes against God&apos;s own people. This judgment is not God&apos;s delight. It is God&apos;s hard necessity.',
+          html: 'Ezekiel is told not to speak words of comfort, but to lament. "Cry and howl." This is not professional detachment. The prophet is to embody the pain of what is coming. He is to smite his thigh—the gesture of deepest anguish. And why? "For it shall be upon my people." The sword comes against God&apos;s own people. This judgment is not God&apos;s delight. It is God&apos;s hard necessity[res:sefaria-ezekiel].',
         },
         {
           kind: 'hebrew',
@@ -86,14 +84,12 @@ export const EZEKIEL_21: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezek21-overturned',
-          html:
-            'The earthly throne of Judah will be overturned. The diadem will be removed. The crown will be taken off. This is not the end of judgment. It is the clearing of the way. "Exalt him that is low, and abase him that is high." God will reverse the order of power in the world. The mighty will be brought down. The humble will be exalted. The throne of David—which had endured for four hundred years—will pass away.',
+          html: 'The earthly throne of Judah will be overturned. The diadem will be removed. The crown will be taken off. This is not the end of judgment. It is the clearing of the way. "Exalt him that is low, and abase him that is high." God will reverse the order of power in the world. The mighty will be brought down. The humble will be exalted. The throne of David—which had endured for four hundred years—will pass away.',
         },
         {
           kind: 'commentary',
           id: 'ezek21-until-he-come',
-          html:
-            '"I will overturn, overturn, overturn it: and it shall be no more, until he come whose right it is." Three times God says "overturn." The repetition conveys not just judgment but a kind of relentlessness. And yet, even in this relentless judgment, there is a "until"—a waiting. A limit. A point beyond which the overturning will cease. "Until he come whose right it is." This echoes Genesis 49:10: "The sceptre shall not depart from Judah...until Shiloh come." It is a prophecy of Messiah.',
+          html: '"I will overturn, overturn, overturn it: and it shall be no more, until he come whose right it is." Three times God says "overturn." The repetition conveys not just judgment but a kind of relentlessness. And yet, even in this relentless judgment, there is a "until"—a waiting. A limit. A point beyond which the overturning will cease. "Until he come whose right it is." This echoes Genesis 49:10: "The sceptre shall not depart from Judah...until Shiloh come." It is a prophecy of Messiah.',
         },
         {
           kind: 'christ',
@@ -120,7 +116,24 @@ export const EZEKIEL_21: RichChapterContent = {
     quote: 'I will overturn, overturn, overturn it: and it shall be no more, until he come whose right it is; and I will give it him.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Ezekiel 21 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'babylonian-exile-context',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Babylonian Exile Context',
+      url: 'https://www.britishmuseum.org/collection/object/W_Y_EA25091',
+      description: 'Cuneiform and archaeological evidence of Babylon under Nebuchadnezzar.',
+    },
+    {
+      id: 'sefaria-ezekiel',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezekiel',
+      url: 'https://www.sefaria.org/Ezekiel',
+      description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
+    }
+  ],
 
   hasHebrew: true,
 };

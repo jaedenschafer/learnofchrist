@@ -41,8 +41,7 @@ export const DANIEL_9: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'daniel9-weeks',
-          html:
-            'Seventy weeks—490 years—are determined upon the people and the city. The prophecy is structured precisely: seven weeks to rebuild Jerusalem, then sixty-two weeks to the coming of Messiah. The math points to a timeline. And the purpose is explicit: to finish transgression, to make an end of sins, to make reconciliation for iniquity, to bring in everlasting righteousness. These words describe the work of atonement—the taking away of sin, the reconciliation of humanity to God. Only one event in history accomplishes this: Christ&apos;s death and resurrection.',
+          html: 'Seventy weeks—490 years—are determined upon the people and the city. The prophecy is structured precisely: seven weeks to rebuild Jerusalem, then sixty-two weeks to the coming of Messiah. The math points to a timeline. And the purpose is explicit: to finish transgression, to make an end of sins, to make reconciliation for iniquity, to bring in everlasting righteousness. These words describe the work of atonement—the taking away of sin, the reconciliation of humanity to God. Only one event in history accomplishes this: Christ&apos;s death and resurrection[res:bibleodyssey-apocalyptic].',
         },
         {
           kind: 'hebrew',
@@ -56,14 +55,12 @@ export const DANIEL_9: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'daniel9-not-for-himself',
-          html:
-            '"But not for himself." This is the crucial phrase. The Messiah does not die for His own sin. He has no sin. He dies for the sins of others—He dies "for many." His death is vicarious. It is substitutional. He bears what others deserve. He takes the weight of transgression upon Himself. And in doing so, He makes reconciliation for iniquity.',
+          html: '"But not for himself." This is the crucial phrase. The Messiah does not die for His own sin. He has no sin. He dies for the sins of others—He dies "for many." His death is vicarious. It is substitutional. He bears what others deserve. He takes the weight of transgression upon Himself. And in doing so, He makes reconciliation for iniquity[res:cyrus-cylinder].',
         },
         {
           kind: 'commentary',
           id: 'daniel9-covenant',
-          html:
-            '"He shall confirm the covenant with many for one week: and in the midst of the week he shall cause the sacrifice and the oblation to cease." The Messiah establishes a covenant, and in the midst of the week—in the midst of His ministry, at His death—the old sacrifices become unnecessary. He is the Lamb of God. His blood shed once for all ends the need for repeated offerings. The old covenant gives way to the new.',
+          html: '"He shall confirm the covenant with many for one week: and in the midst of the week he shall cause the sacrifice and the oblation to cease." The Messiah establishes a covenant, and in the midst of the week—in the midst of His ministry, at His death—the old sacrifices become unnecessary. He is the Lamb of God. His blood shed once for all ends the need for repeated offerings. The old covenant gives way to the new.',
         },
       ],
     },
@@ -82,8 +79,7 @@ export const DANIEL_9: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'daniel9-beloved',
-          html:
-            'Gabriel says to Daniel: "Thou art greatly beloved." This is said to a man in exile, far from home, under the rule of pagan kings. Yet God has not forgotten him. God has not ceased to care for him. Daniel&apos;s faithful prayer, his confession of sin, his intercession for his people—all of this reaches God and is heard. And Gabriel is sent in response, not merely to satisfy Daniel&apos;s curiosity, but to show him that God&apos;s plan encompasses all the centuries ahead. The desolations are temporary. The exile will end. And more than that—Messiah will come.',
+          html: 'Gabriel says to Daniel: "Thou art greatly beloved." This is said to a man in exile, far from home, under the rule of pagan kings. Yet God has not forgotten him. God has not ceased to care for him. Daniel&apos;s faithful prayer, his confession of sin, his intercession for his people—all of this reaches God and is heard. And Gabriel is sent in response, not merely to satisfy Daniel&apos;s curiosity, but to show him that God&apos;s plan encompasses all the centuries ahead. The desolations are temporary. The exile will end. And more than that—Messiah will come.',
         },
         {
           kind: 'christ',
@@ -110,7 +106,24 @@ export const DANIEL_9: RichChapterContent = {
     quote: 'After threescore and two weeks shall Messiah be cut off, but not for himself...In the midst of the week he shall cause the sacrifice and the oblation to cease.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Daniel 9 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'bibleodyssey-apocalyptic',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Apocalyptic Literature',
+      url: 'https://www.bibleodyssey.org/dictionary/apocalypse/',
+      description: 'SBL entry on the apocalyptic genre exemplified by Daniel.',
+    },
+    {
+      id: 'cyrus-cylinder',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Cyrus Cylinder',
+      url: 'https://www.britishmuseum.org/collection/object/Y_EA90920',
+      description: 'Persian edict of Cyrus authorizing return of exiled peoples (ca. 539 BCE), fulfilling Daniel&apos;s prophecy.',
+    }
+  ],
 
   hasHebrew: true,
 };

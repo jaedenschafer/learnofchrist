@@ -37,26 +37,22 @@ export const JEREMIAH_41: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer41-murder',
-          html:
-            'Ishmael kills Gedaliah while eating bread with him—a violation of the hospitality covenant, a betrayal of the meal shared. This is not a political dispute. It is treachery. The man of royal blood resents serving under a commoner, and he acts to reclaim power. The cost is the stability of the remnant and the lives of all Gedaliah&apos;s supporters.',
+          html: 'Ishmael kills Gedaliah while eating bread with him—a violation of the hospitality covenant, a betrayal of the meal shared. This is not a political dispute. It is treachery. The man of royal blood resents serving under a commoner, and he acts to reclaim power. The cost is the stability of the remnant and the lives of all Gedaliah&apos;s supporters[res:babylonian-chronicle].',
         },
         {
           kind: 'commentary',
           id: 'jer41-scattering',
-          html:
-            'The murder scatters the remnant again. Some are killed. Others are taken captive. Still others flee in fear. The fragile restoration that had begun—the gathering of the scattered, the return home, the resumption of harvest—is shattered. The remnant must once again navigate uncertainty, fear, and displacement.',
+          html: 'The murder scatters the remnant again. Some are killed. Others are taken captive. Still others flee in fear. The fragile restoration that had begun—the gathering of the scattered, the return home, the resumption of harvest—is shattered. The remnant must once again navigate uncertainty, fear, and displacement[res:bibleodyssey-jeremiah].',
         },
         {
           kind: 'christ',
           id: 'jer41-christ-true-governor',
           title: 'Christ Connection — Christ the True Governor',
-          html:
-            'Human governors fail. They seek power, betray trust, scatter those they rule. Jesus is the Governor who seeks not His own glory but the welfare of His people. He does not claim a throne through violence or betrayal. He offers Himself sacrificially. And His government is not one that can be overthrown by human treachery. It is rooted in truth and love that transcend human power-seeking.',
+          html: 'Human governors fail. They seek power, betray trust, scatter those they rule. Jesus is the Governor who seeks not His own glory but the welfare of His people. He does not claim a throne through violence or betrayal. He offers Himself sacrificially. And His government is not one that can be overthrown by human treachery. It is rooted in truth and love that transcend human power-seeking.',
         },
         {
           kind: 'carry',
-          html:
-            'Your trust cannot be ultimately placed in human leadership, human institutions, or human power. These fail. They betray. They scatter. Your trust must be in God alone, who preserves a remnant beyond all human disruption. Even when order collapses, even when leadership fails, God&apos;s purpose continues.',
+          html: 'Your trust cannot be ultimately placed in human leadership, human institutions, or human power. These fail. They betray. They scatter. Your trust must be in God alone, who preserves a remnant beyond all human disruption. Even when order collapses, even when leadership fails, God&apos;s purpose continues.',
         },
         {
           kind: 'reflection',
@@ -71,7 +67,24 @@ export const JEREMIAH_41: RichChapterContent = {
     quote: 'Ishmael the son of Nethaniah...smote Gedaliah the son of Ahikam...and slew him, whom the king of Babylon had made governor over the land.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Jeremiah 41 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'babylonian-chronicle',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Babylonian Chronicle (Jerusalem siege)',
+      url: 'https://www.britishmuseum.org/collection/object/Y_EA25091',
+      description: 'Cuneiform tablet documenting the Babylonian assault on Jerusalem in 597 and 587 BCE.',
+    },
+    {
+      id: 'bibleodyssey-jeremiah',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Jeremiah',
+      url: 'https://www.bibleodyssey.org/passages/main-articles/jeremiah/',
+      description: 'Peer-reviewed SBL entry on the prophet Jeremiah and his historical context.',
+    }
+  ],
 
   hasHebrew: false,
 };

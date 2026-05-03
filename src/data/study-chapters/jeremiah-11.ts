@@ -40,8 +40,7 @@ export const JEREMIAH_11: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jeremiah-11-78mid-1',
-          html:
-            'Jeremiah pivots from naming the broken covenant to naming the men of Anathoth who plot to kill him. Faithfulness in this book is costly.',
+          html: 'Jeremiah pivots from naming the broken covenant to naming the men of Anathoth who plot to kill him. Faithfulness in this book is costly[res:babylonian-chronicle].',
         },
         {
           kind: 'scripture',
@@ -56,7 +55,7 @@ export const JEREMIAH_11: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer11-obey',
-          html: 'The covenant was built on a simple condition: obedience. "Obey my voice, and do them, according to all which I command you." Yet the people did not obey. They did not incline their ear. Instead, each person walked according to "the imagination of their evil heart"—following their own desires rather than God&apos;s command. This is the fundamental breach.',
+          html: 'The covenant was built on a simple condition: obedience. "Obey my voice, and do them, according to all which I command you." Yet the people did not obey. They did not incline their ear. Instead, each person walked according to "the imagination of their evil heart"—following their own desires rather than God&apos;s command. This is the fundamental breach[res:jer31-hebrews-intertextual].',
         },
         {
           kind: 'hebrew',
@@ -132,7 +131,24 @@ export const JEREMIAH_11: RichChapterContent = {
     quote: 'Cursed be the man that obeyeth not the words of this covenant which I commanded your fathers in the day that I brought them forth out of the land of Egypt.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Jeremiah 11 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'babylonian-chronicle',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Babylonian Chronicle (Jerusalem siege)',
+      url: 'https://www.britishmuseum.org/collection/object/Y_EA25091',
+      description: 'Cuneiform tablet documenting the Babylonian assault on Jerusalem in 597 and 587 BCE.',
+    },
+    {
+      id: 'jer31-hebrews-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Jeremiah 31 ↔ Hebrews 8:8–12',
+      url: 'https://intertextual.bible/text/jeremiah-31/hebrews-8',
+      description: 'Side-by-side comparison of the new covenant promise in Jeremiah quoted in Hebrews.',
+    }
+  ],
 
   hasHebrew: true,
 };

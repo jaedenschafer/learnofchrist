@@ -39,27 +39,23 @@ export const JEREMIAH_39: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer39-fall',
-          html:
-            'The fall is complete and total. The nine-month siege ends. The city is broken. Zedekiah is captured, brought to Babylon&apos;s king, and forced to watch his sons die before his own eyes are put out. The irony is stark: the king who would not listen to the prophet is made blind. The city that rejected God&apos;s word is burned. Judgment arrives exactly as promised.',
+          html: 'The fall is complete and total. The nine-month siege ends. The city is broken. Zedekiah is captured, brought to Babylon&apos;s king, and forced to watch his sons die before his own eyes are put out. The irony is stark: the king who would not listen to the prophet is made blind. The city that rejected God&apos;s word is burned. Judgment arrives exactly as promised[res:babylonian-chronicle].',
         },
         {
           kind: 'commentary',
           id: 'jer39-jeremiah-honor',
-          html:
-            'But Jeremiah is given special protection. Nebuchadrezzar—the pagan king—orders that the prophet be treated well, that he be given whatever he needs. The man whose own king imprisoned him is honored by the foreign conqueror. This is vindication. The prophet who seemed to have lost everything is revealed to have stood alone with truth.',
+          html: 'But Jeremiah is given special protection. Nebuchadrezzar—the pagan king—orders that the prophet be treated well, that he be given whatever he needs. The man whose own king imprisoned him is honored by the foreign conqueror. This is vindication. The prophet who seemed to have lost everything is revealed to have stood alone with truth[res:sefaria-jeremiah].',
         },
         {
           kind: 'commentary',
           id: 'jer39-choice',
-          html:
-            'Jeremiah is given a choice: go to Babylon with Nebuchadrezzar, where he will be honored; or stay in the land with the remnant. He chooses to stay. He does not flee to safety. He remains with the broken people, continuing his ministry of consolation and hope. The prophet&apos;s calling transcends circumstance.',
+          html: 'Jeremiah is given a choice: go to Babylon with Nebuchadrezzar, where he will be honored; or stay in the land with the remnant. He chooses to stay. He does not flee to safety. He remains with the broken people, continuing his ministry of consolation and hope. The prophet&apos;s calling transcends circumstance.',
         },
         {
           kind: 'christ',
           id: 'jer39-christ-judgment',
           title: 'Christ Connection — Judgment and Redemption',
-          html:
-            'When Jesus spoke judgment on Jerusalem—"not one stone shall be left upon another"—it came to pass. When He predicted His own suffering, it occurred. But also, like Jeremiah, Christ was vindicated. His crucifixion, which seemed like defeat, became the means of redemption. And those who feared His name—who sought to silence Him—found that His death released a word that could not be contained. Judgment fell, but redemption came to those who received it.',
+          html: 'When Jesus spoke judgment on Jerusalem—"not one stone shall be left upon another"—it came to pass. When He predicted His own suffering, it occurred. But also, like Jeremiah, Christ was vindicated. His crucifixion, which seemed like defeat, became the means of redemption. And those who feared His name—who sought to silence Him—found that His death released a word that could not be contained. Judgment fell, but redemption came to those who received it.',
         },
         {
           kind: 'carry',
@@ -79,7 +75,24 @@ export const JEREMIAH_39: RichChapterContent = {
     quote: 'In the ninth year of Zedekiah...came Nebuchadrezzar king of Babylon...and they besieged it. But Nebuchadrezzar king of Babylon gave charge concerning Jeremiah...Take him, and look well to him, and do him no harm.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Jeremiah 39 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'babylonian-chronicle',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Babylonian Chronicle (Jerusalem siege)',
+      url: 'https://www.britishmuseum.org/collection/object/Y_EA25091',
+      description: 'Cuneiform tablet documenting the Babylonian assault on Jerusalem in 597 and 587 BCE.',
+    },
+    {
+      id: 'sefaria-jeremiah',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jeremiah',
+      url: 'https://www.sefaria.org/Jeremiah',
+      description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
+    }
+  ],
 
   hasHebrew: false,
 };

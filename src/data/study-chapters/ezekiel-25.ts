@@ -42,14 +42,12 @@ export const EZEKIEL_25: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezek25-nations',
-          html:
-            'Each nation has a particular sin. Ammon says "Aha" when God&apos;s sanctuary is profaned—they gloat. They despise Israel&apos;s weakness. Moab says that Judah is like all the heathen—denying that Israel has any special relationship to God. Edom takes vengeance on Judah for old grudges. Philistia seeks total destruction. Each nation&apos;s sin is rooted in a failure to recognize God&apos;s sovereignty. They see weakness and move to exploit it. They do not ask: why has this happened? Is there a God whose will is being worked out?',
+          html: 'Each nation has a particular sin. Ammon says "Aha" when God&apos;s sanctuary is profaned—they gloat. They despise Israel&apos;s weakness. Moab says that Judah is like all the heathen—denying that Israel has any special relationship to God. Edom takes vengeance on Judah for old grudges. Philistia seeks total destruction. Each nation&apos;s sin is rooted in a failure to recognize God&apos;s sovereignty. They see weakness and move to exploit it. They do not ask: why has this happened? Is there a God whose will is being worked out?[res:babylonian-exile-context]',
         },
         {
           kind: 'commentary',
           id: 'ezek25-vengeance',
-          html:
-            '"I will execute great vengeance upon them with furious rebukes; and they shall know that I am the Lord." The refrain echoes: they will know. Not through instruction, but through judgment. Not through conversion, but through experiencing the consequences of their cruelty. The knowledge of God comes not always through grace, but through the working out of divine justice.',
+          html: '"I will execute great vengeance upon them with furious rebukes; and they shall know that I am the Lord." The refrain echoes: they will know. Not through instruction, but through judgment. Not through conversion, but through experiencing the consequences of their cruelty. The knowledge of God comes not always through grace, but through the working out of divine justice[res:sefaria-ezekiel].',
         },
         {
           kind: 'hebrew',
@@ -83,14 +81,12 @@ export const EZEKIEL_25: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezek25-pattern',
-          html:
-            'The judgment is precise: each nation is judged for its specific sin. Ammon for gloating. Moab for denying God&apos;s special relationship to Israel. Edom for vengeance. Philistia for despiteful destruction. And each judgment is in kind: nations will be delivered as spoil, cut off, destroyed. The pattern is consistent throughout Ezekiel: injustice does not go unnoticed by God. He watches. He will act.',
+          html: 'The judgment is precise: each nation is judged for its specific sin. Ammon for gloating. Moab for denying God&apos;s special relationship to Israel. Edom for vengeance. Philistia for despiteful destruction. And each judgment is in kind: nations will be delivered as spoil, cut off, destroyed. The pattern is consistent throughout Ezekiel: injustice does not go unnoticed by God. He watches. He will act.',
         },
         {
           kind: 'commentary',
           id: 'ezek25-vindication',
-          html:
-            'There is comfort here for the afflicted. When Israel feels powerless, scattered, destroyed, Ezekiel reminds them: God sees. The nations that gloat, that exploit, that take vengeance—they will answer. God&apos;s justice is universal. It is not limited to those who confess Him. It extends to all, and all will know that He is Lord.',
+          html: 'There is comfort here for the afflicted. When Israel feels powerless, scattered, destroyed, Ezekiel reminds them: God sees. The nations that gloat, that exploit, that take vengeance—they will answer. God&apos;s justice is universal. It is not limited to those who confess Him. It extends to all, and all will know that He is Lord.',
         },
         {
           kind: 'christ',
@@ -117,7 +113,24 @@ export const EZEKIEL_25: RichChapterContent = {
     quote: 'Thus will I execute great vengeance upon them with furious rebukes; and they shall know that I am the Lord, when I shall lay my vengeance upon them.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Ezekiel 25 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'babylonian-exile-context',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Babylonian Exile Context',
+      url: 'https://www.britishmuseum.org/collection/object/W_Y_EA25091',
+      description: 'Cuneiform and archaeological evidence of Babylon under Nebuchadnezzar.',
+    },
+    {
+      id: 'sefaria-ezekiel',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezekiel',
+      url: 'https://www.sefaria.org/Ezekiel',
+      description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
+    }
+  ],
 
   hasHebrew: true,
 };

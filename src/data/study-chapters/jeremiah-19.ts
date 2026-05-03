@@ -73,26 +73,22 @@ export const JEREMIAH_19: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer19-tophet',
-          html:
-            'The valley of Hinnom (Tophet) is the place where child sacrifice has taken place. Mothers and fathers have burned their own children to Baal. This is not merely idolatry; it is the defilement of the most sacred relationship — the parent&apos;s love for the child — twisted into an abomination. God says, "which I commanded not, nor spake it, neither came it into my mind" — this is so contrary to God&apos;s nature that it was never even conceived of as a possibility in His mind.',
+          html: 'The valley of Hinnom (Tophet) is the place where child sacrifice has taken place. Mothers and fathers have burned their own children to Baal. This is not merely idolatry; it is the defilement of the most sacred relationship — the parent&apos;s love for the child — twisted into an abomination. God says, "which I commanded not, nor spake it, neither came it into my mind" — this is so contrary to God&apos;s nature that it was never even conceived of as a possibility in His mind[res:bibleodyssey-jeremiah].',
         },
         {
           kind: 'commentary',
           id: 'jer19-innocent-blood',
-          html:
-            'The phrase "filled this place with the blood of innocents" echoes throughout Scripture as a mark of the deepest sin. To spill innocent blood is to violate the foundation of justice and mercy. When the innocent are killed, when children are burned to false gods, the land itself cries out for justice.',
+          html: 'The phrase "filled this place with the blood of innocents" echoes throughout Scripture as a mark of the deepest sin. To spill innocent blood is to violate the foundation of justice and mercy. When the innocent are killed, when children are burned to false gods, the land itself cries out for justice[res:lachish-letters].',
         },
         {
           kind: 'carry',
-          html:
-            'We may not sacrifice to Baal, but we do sacrifice the innocent in subtle ways. When we protect systems that harm children, when we remain silent in the face of injustice, when we turn a blind eye to exploitation — we too participate in the defilement of innocence. Jeremiah calls us to see the evil we do, even when hidden.',
+          html: 'We may not sacrifice to Baal, but we do sacrifice the innocent in subtle ways. When we protect systems that harm children, when we remain silent in the face of injustice, when we turn a blind eye to exploitation — we too participate in the defilement of innocence. Jeremiah calls us to see the evil we do, even when hidden.',
         },
         {
           kind: 'christ',
           id: 'jer19-christ',
           title: 'Christ Connection — The Potter and the Betrayal',
-          html:
-            'The broken flask cannot be repaired. Christ speaks of this judgment: "Fear not them which kill the body, but are not able to kill the soul: but rather fear him which is able to destroy both soul and body in hell" (Matt. 10:28). The flask broken is but a sign. Yet there is more: Matthew shows us that the blood of innocent children cried out, and thirty pieces of silver bought the potter&apos;s field, just as Jeremiah foretold (Matt. 27:7–10). Christ, innocent, was betrayed for silver and buried in a field bought with blood-money. And we, broken vessels, are not left broken forever — we are remade in His hands (2 Cor. 4:7).',
+          html: 'The broken flask cannot be repaired. Christ speaks of this judgment: "Fear not them which kill the body, but are not able to kill the soul: but rather fear him which is able to destroy both soul and body in hell" (Matt. 10:28). The flask broken is but a sign. Yet there is more: Matthew shows us that the blood of innocent children cried out, and thirty pieces of silver bought the potter&apos;s field, just as Jeremiah foretold (Matt. 27:7–10). Christ, innocent, was betrayed for silver and buried in a field bought with blood-money. And we, broken vessels, are not left broken forever — we are remade in His hands (2 Cor. 4:7).',
         },
         {
           kind: 'reflection',
@@ -276,5 +272,22 @@ export const JEREMIAH_19: RichChapterContent = {
         },
       ],
     },
+  ],  resources: [
+    {
+      id: 'bibleodyssey-jeremiah',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Jeremiah',
+      url: 'https://www.bibleodyssey.org/passages/main-articles/jeremiah/',
+      description: 'Peer-reviewed SBL entry on the prophet Jeremiah and his historical context.',
+    },
+    {
+      id: 'lachish-letters',
+      kind: 'archaeology',
+      source: 'Israel Museum',
+      label: 'Lachish Letters',
+      url: 'https://www.imj.org.il/en/collections/lachish-letters',
+      description: 'Ancient inscribed potsherds from the Judean siege of Lachish (587 BCE), contemporary with Jeremiah.',
+    }
   ],
 };

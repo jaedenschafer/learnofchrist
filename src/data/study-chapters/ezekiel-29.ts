@@ -42,14 +42,12 @@ export const EZEKIEL_29: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezek29-dragon',
-          html:
-            'Pharaoh claims: "My river is mine own, and I have made it for myself." Egypt&apos;s power rests on the Nile—its flooding, its fertility, its bounty. Pharaoh imagines this power is his own creation, his own possession. He has no need for God. The Nile will sustain him eternally. But God says: "I am against thee." What Pharaoh believes he owns and has made is actually in God&apos;s hands.',
+          html: 'Pharaoh claims: "My river is mine own, and I have made it for myself." Egypt&apos;s power rests on the Nile—its flooding, its fertility, its bounty. Pharaoh imagines this power is his own creation, his own possession. He has no need for God. The Nile will sustain him eternally. But God says: "I am against thee." What Pharaoh believes he owns and has made is actually in God&apos;s hands[res:babylonian-exile-context].',
         },
         {
           kind: 'commentary',
           id: 'ezek29-hooks',
-          html:
-            '"But I will put hooks in thy jaws, and I will cause the fish of thy rivers to stick unto thy scales, and I will bring thee up out of the midst of thy rivers." The great dragon will be dragged forth—humiliated, exposed, rendered powerless. He will be left in the wilderness, food for beasts and birds. Egypt will know—"all the inhabitants of Egypt shall know that I am the Lord"—that their power is not their own, that the river is not theirs, that Pharaoh is not god.',
+          html: '"But I will put hooks in thy jaws, and I will cause the fish of thy rivers to stick unto thy scales, and I will bring thee up out of the midst of thy rivers." The great dragon will be dragged forth—humiliated, exposed, rendered powerless. He will be left in the wilderness, food for beasts and birds. Egypt will know—"all the inhabitants of Egypt shall know that I am the Lord"—that their power is not their own, that the river is not theirs, that Pharaoh is not god[res:tyre-archaeology].',
         },
         {
           kind: 'hebrew',
@@ -87,14 +85,12 @@ export const EZEKIEL_29: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezek29-forty',
-          html:
-            'The judgment lasts forty years—a generation. Egypt will be utterly desolate. Its people will be scattered among the nations. But then—"At the end of forty years will I gather the Egyptians from the people whither they were scattered"—God will gather them back. Egypt will be restored. But not as a great power. "It shall be the basest of the kingdoms; neither shall it lift itself up any more above the nations."',
+          html: 'The judgment lasts forty years—a generation. Egypt will be utterly desolate. Its people will be scattered among the nations. But then—"At the end of forty years will I gather the Egyptians from the people whither they were scattered"—God will gather them back. Egypt will be restored. But not as a great power. "It shall be the basest of the kingdoms; neither shall it lift itself up any more above the nations."',
         },
         {
           kind: 'commentary',
           id: 'ezek29-humbled',
-          html:
-            'Egypt&apos;s restoration is not a return to glory. It is a return to a humbled state. The dragon has been broken. Pharaoh will no longer claim "My river is mine own." Egypt will know that her power, if any remains, is from God, not from herself. This is the purpose of judgment: not to destroy permanently, but to break pride so that humility can take root.',
+          html: 'Egypt&apos;s restoration is not a return to glory. It is a return to a humbled state. The dragon has been broken. Pharaoh will no longer claim "My river is mine own." Egypt will know that her power, if any remains, is from God, not from herself. This is the purpose of judgment: not to destroy permanently, but to break pride so that humility can take root.',
         },
         {
           kind: 'christ',
@@ -121,7 +117,24 @@ export const EZEKIEL_29: RichChapterContent = {
     quote: 'Thus saith the Lord God; Behold, I am against thee, Pharaoh king of Egypt, the great dragon that lieth in the midst of his rivers, which hath said, My river is mine own.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Ezekiel 29 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'babylonian-exile-context',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Babylonian Exile Context',
+      url: 'https://www.britishmuseum.org/collection/object/W_Y_EA25091',
+      description: 'Cuneiform and archaeological evidence of Babylon under Nebuchadnezzar.',
+    },
+    {
+      id: 'tyre-archaeology',
+      kind: 'archaeology',
+      source: 'Israel Museum / ToposText',
+      label: 'Tyre Archaeology (Ezek 26-28)',
+      url: 'https://www.imj.org.il/en',
+      description: 'Archaeological record of ancient Tyre, subject of Ezekiel&apos;s prophecies.',
+    }
+  ],
 
   hasHebrew: true,
 };

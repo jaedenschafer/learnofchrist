@@ -39,26 +39,22 @@ export const JEREMIAH_34: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer34-proclaimed',
-          html:
-            'Zedekiah&apos;s proclamation is itself righteous. It follows God&apos;s law. The people obey. The slaves are freed. For a moment, justice rules. But moment is all it is. When external pressure eases, the king reverses his decree. Those who had tasted freedom are returned to slavery. The covenant of liberty becomes, through its breaking, a covenant of greater bondage.',
+          html: 'Zedekiah&apos;s proclamation is itself righteous. It follows God&apos;s law. The people obey. The slaves are freed. For a moment, justice rules. But moment is all it is. When external pressure eases, the king reverses his decree. Those who had tasted freedom are returned to slavery. The covenant of liberty becomes, through its breaking, a covenant of greater bondage[res:babylonian-chronicle].',
         },
         {
           kind: 'commentary',
           id: 'jer34-liberty-false',
-          html:
-            'God&apos;s response is a mirror image of what they have done. They proclaimed liberty and then revoked it. Now God proclaims a liberty they cannot revoke—liberty to the sword, to pestilence, to famine. This is ironic judgment. They are freed from the obligation to keep slaves, but this freedom brings them no joy, because it comes wrapped in destruction. They are removed into all kingdoms of the earth—dispersed, scattered, their dominion broken.',
+          html: 'God&apos;s response is a mirror image of what they have done. They proclaimed liberty and then revoked it. Now God proclaims a liberty they cannot revoke—liberty to the sword, to pestilence, to famine. This is ironic judgment. They are freed from the obligation to keep slaves, but this freedom brings them no joy, because it comes wrapped in destruction. They are removed into all kingdoms of the earth—dispersed, scattered, their dominion broken[res:lachish-letters].',
         },
         {
           kind: 'christ',
           id: 'jer34-christ-liberty',
           title: 'Christ Connection — The Liberty That Cannot Be Revoked',
-          html:
-            'Jesus proclaimed in the synagogue at Nazareth, quoting Isaiah, "The Spirit of the Lord is upon me, because he hath anointed me to preach the gospel to the poor; he hath sent me to heal the brokenhearted, to preach deliverance to the captives, and recovering of sight to the blind, to set at liberty them that are bruised." But this liberty is not granted by a king who can revoke it. It is purchased by Christ&apos;s blood, sealed by His resurrection, sustained by His intercession. The freedom He gives cannot be taken back. It is eternal.',
+          html: 'Jesus proclaimed in the synagogue at Nazareth, quoting Isaiah, "The Spirit of the Lord is upon me, because he hath anointed me to preach the gospel to the poor; he hath sent me to heal the brokenhearted, to preach deliverance to the captives, and recovering of sight to the blind, to set at liberty them that are bruised." But this liberty is not granted by a king who can revoke it. It is purchased by Christ&apos;s blood, sealed by His resurrection, sustained by His intercession. The freedom He gives cannot be taken back. It is eternal[res:sefaria-jeremiah].',
         },
         {
           kind: 'carry',
-          html:
-            'Have you tasted the freedom of God&apos;s grace and then returned yourself to bondage? Have you felt the liberty of forgiveness and then taken yourself back into guilt? The false liberty that can be proclaimed and revoked is no true liberty at all. True freedom—the freedom Christ gives—is permanent, unrevokable, grounded in His own authority and power.',
+          html: 'Have you tasted the freedom of God&apos;s grace and then returned yourself to bondage? Have you felt the liberty of forgiveness and then taken yourself back into guilt? The false liberty that can be proclaimed and revoked is no true liberty at all. True freedom—the freedom Christ gives—is permanent, unrevokable, grounded in His own authority and power.',
         },
         {
           kind: 'reflection',
@@ -73,7 +69,32 @@ export const JEREMIAH_34: RichChapterContent = {
     quote: 'Behold, I proclaim a liberty for you, saith the Lord, to the sword, to the pestilence, and to the famine. Jesus said, The Spirit of the Lord...hath sent me to preach deliverance to the captives, and to set at liberty them that are bruised.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Jeremiah 34 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'babylonian-chronicle',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Babylonian Chronicle (Jerusalem siege)',
+      url: 'https://www.britishmuseum.org/collection/object/Y_EA25091',
+      description: 'Cuneiform tablet documenting the Babylonian assault on Jerusalem in 597 and 587 BCE.',
+    },
+    {
+      id: 'lachish-letters',
+      kind: 'archaeology',
+      source: 'Israel Museum',
+      label: 'Lachish Letters',
+      url: 'https://www.imj.org.il/en/collections/lachish-letters',
+      description: 'Ancient inscribed potsherds from the Judean siege of Lachish (587 BCE), contemporary with Jeremiah.',
+    },
+    {
+      id: 'sefaria-jeremiah',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jeremiah',
+      url: 'https://www.sefaria.org/Jeremiah',
+      description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
+    }
+  ],
 
   hasHebrew: false,
 };

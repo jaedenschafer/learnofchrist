@@ -37,14 +37,12 @@ export const EZEKIEL_46: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezekiel46-gate-closed',
-          html:
-            'The eastern gate, through which God&apos;s glory entered, is kept closed on working days. It opens only on the sabbath and at the new moon—times of special worship and celebration. The closed gate reminds the people that what is holy is also separate, set apart, not for everyday commerce.',
+          html: 'The eastern gate, through which God&apos;s glory entered, is kept closed on working days. It opens only on the sabbath and at the new moon—times of special worship and celebration. The closed gate reminds the people that what is holy is also separate, set apart, not for everyday commerce[res:babylonian-exile-context].',
         },
         {
           kind: 'commentary',
           id: 'ezekiel46-prince-worship',
-          html:
-            'The prince does not sit in a private chamber while priests offer. He stands at the threshold and worships with the people. His offering is prescribed, regular, and public. Leadership is demonstrated not by exemption from worship but by participation in it.',
+          html: 'The prince does not sit in a private chamber while priests offer. He stands at the threshold and worships with the people. His offering is prescribed, regular, and public. Leadership is demonstrated not by exemption from worship but by participation in it[res:bibleodyssey-ezekiel].',
         },
         {
           kind: 'hebrew',
@@ -59,13 +57,11 @@ export const EZEKIEL_46: RichChapterContent = {
           kind: 'christ',
           id: 'ezekiel46-christ-worship',
           title: 'Christ Connection — Christ the Worship-Offering',
-          html:
-            'In Hebrews 10:10, the writer says "we are sanctified through the offering of the body of Jesus Christ once for all." Christ is the perfect burnt offering. His entire self was offered to the Father, burning away the barriers between human and divine. And in Him, all believers become a holy and acceptable offering to God.',
+          html: 'In Hebrews 10:10, the writer says "we are sanctified through the offering of the body of Jesus Christ once for all." Christ is the perfect burnt offering. His entire self was offered to the Father, burning away the barriers between human and divine. And in Him, all believers become a holy and acceptable offering to God.',
         },
         {
           kind: 'carry',
-          html:
-            'Worship is not a private thing. The prince worships with the people. The people see their leader at the threshold, offering with them. This is the pattern: leaders lead by worshiping, by demonstrating dependence on God, by setting the rhythm of devotion.',
+          html: 'Worship is not a private thing. The prince worships with the people. The people see their leader at the threshold, offering with them. This is the pattern: leaders lead by worshiping, by demonstrating dependence on God, by setting the rhythm of devotion.',
         },
         {
           kind: 'reflection',
@@ -92,14 +88,12 @@ export const EZEKIEL_46: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezekiel46-kitchens',
-          html:
-            'Even the kitchens of the temple are measured and described. The sanctification of space extends to the practical, the mundane, the place where offerings are prepared. Nothing is too small to be sanctified. Nothing is outside the order of God&apos;s dwelling place.',
+          html: 'Even the kitchens of the temple are measured and described. The sanctification of space extends to the practical, the mundane, the place where offerings are prepared. Nothing is too small to be sanctified. Nothing is outside the order of God&apos;s dwelling place[res:sefaria-ezekiel].',
         },
         {
           kind: 'commentary',
           id: 'ezekiel46-sanctify',
-          html:
-            'The offerings are prepared in the holy chambers so that "they bear them not out into the utter court, to sanctify the people." The sanctifying power comes from the holy place, from proximity to God. The preparation itself communicates the sacred to those who receive the offering.',
+          html: 'The offerings are prepared in the holy chambers so that "they bear them not out into the utter court, to sanctify the people." The sanctifying power comes from the holy place, from proximity to God. The preparation itself communicates the sacred to those who receive the offering.',
         },
         {
           kind: 'carry',
@@ -119,7 +113,31 @@ export const EZEKIEL_46: RichChapterContent = {
     quote: 'The prince shall enter...and shall worship at the threshold of the gate.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Ezekiel 46 · Study Guide',
-  },
-
+  },  resources: [
+    {
+      id: 'babylonian-exile-context',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Babylonian Exile Context',
+      url: 'https://www.britishmuseum.org/collection/object/W_Y_EA25091',
+      description: 'Cuneiform and archaeological evidence of Babylon under Nebuchadnezzar.',
+    },
+    {
+      id: 'bibleodyssey-ezekiel',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Ezekiel',
+      url: 'https://www.bibleodyssey.org/passages/main-articles/ezekiel/',
+      description: 'Peer-reviewed SBL entry on the prophet Ezekiel and the Babylonian exile.',
+    },
+    {
+      id: 'sefaria-ezekiel',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezekiel',
+      url: 'https://www.sefaria.org/Ezekiel',
+      description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
+    }
+  ],
   hasHebrew: true,
 };

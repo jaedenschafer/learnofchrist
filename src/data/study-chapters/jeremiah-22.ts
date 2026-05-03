@@ -67,8 +67,7 @@ export const JEREMIAH_22: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer22-throne-captivity',
-          html:
-            'Jeremiah moves from promising the throne to its captivity. Royal hope collapses into exile.',
+          html: 'Jeremiah moves from promising the throne to its captivity. Royal hope collapses into exile[res:bibleodyssey-jeremiah].',
         },
         {
           kind: 'scripture',
@@ -109,19 +108,16 @@ export const JEREMIAH_22: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer22-execute-judgment',
-          html:
-            'The king is called to "execute judgment and righteousness, and deliver the spoiled." The king&apos;s primary duty is not splendor or strength, but justice — especially for the vulnerable: the stranger, the fatherless, the widow. The covenant with the throne is conditional: faithfulness brings continuity; betrayal brings desolation.',
+          html: 'The king is called to "execute judgment and righteousness, and deliver the spoiled." The king&apos;s primary duty is not splendor or strength, but justice — especially for the vulnerable: the stranger, the fatherless, the widow. The covenant with the throne is conditional: faithfulness brings continuity; betrayal brings desolation[res:jer31-hebrews-intertextual].',
         },
         {
           kind: 'commentary',
           id: 'jer22-gilead',
-          html:
-            'Gilead and Lebanon are places of richness and value. The king&apos;s house has been as valuable as these places. But now, if the king refuses to repent, God will make them a wilderness, a desolation. The choice is the king&apos;s to make.',
+          html: 'Gilead and Lebanon are places of richness and value. The king&apos;s house has been as valuable as these places. But now, if the king refuses to repent, God will make them a wilderness, a desolation. The choice is the king&apos;s to make[res:lachish-letters].',
         },
         {
           kind: 'carry',
-          html:
-            'Those in power are not exempt from the call to justice. Indeed, their power is conditional upon their willingness to care for the vulnerable. A throne built on injustice is doomed. But a throne built on justice and righteousness will endure.',
+          html: 'Those in power are not exempt from the call to justice. Indeed, their power is conditional upon their willingness to care for the vulnerable. A throne built on injustice is doomed. But a throne built on justice and righteousness will endure.',
         },
         {
           kind: 'reflection',
@@ -169,8 +165,7 @@ export const JEREMIAH_22: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jeremiah-22-78mid-1',
-          html:
-            'Jeremiah pivots from the throne of Judah to the kings on it, naming Shallum and Jehoiakim. The judgment narrows from policy to person.',
+          html: 'Jeremiah pivots from the throne of Judah to the kings on it, naming Shallum and Jehoiakim. The judgment narrows from policy to person.',
         },
         {
           kind: 'scripture',
@@ -205,8 +200,7 @@ export const JEREMIAH_22: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer22-shallum',
-          html:
-            'Shallum (Jehoahaz) is carried away to captivity and will never return to his native country. Jeremiah says, do not weep for him as though dead; weep for him as one carried away, for he will not see Judah again. Exile is worse than death — it is a living separation from home.',
+          html: 'Shallum (Jehoahaz) is carried away to captivity and will never return to his native country. Jeremiah says, do not weep for him as though dead; weep for him as one carried away, for he will not see Judah again. Exile is worse than death — it is a living separation from home.',
         },
         {
           kind: 'commentary',
@@ -350,5 +344,30 @@ export const JEREMIAH_22: RichChapterContent = {
         },
       ],
     },
+  ],  resources: [
+    {
+      id: 'bibleodyssey-jeremiah',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Jeremiah',
+      url: 'https://www.bibleodyssey.org/passages/main-articles/jeremiah/',
+      description: 'Peer-reviewed SBL entry on the prophet Jeremiah and his historical context.',
+    },
+    {
+      id: 'jer31-hebrews-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Jeremiah 31 ↔ Hebrews 8:8–12',
+      url: 'https://intertextual.bible/text/jeremiah-31/hebrews-8',
+      description: 'Side-by-side comparison of the new covenant promise in Jeremiah quoted in Hebrews.',
+    },
+    {
+      id: 'lachish-letters',
+      kind: 'archaeology',
+      source: 'Israel Museum',
+      label: 'Lachish Letters',
+      url: 'https://www.imj.org.il/en/collections/lachish-letters',
+      description: 'Ancient inscribed potsherds from the Judean siege of Lachish (587 BCE), contemporary with Jeremiah.',
+    }
   ],
 };

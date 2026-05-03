@@ -43,14 +43,12 @@ export const EZEKIEL_16: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezek16-found',
-          html:
-            'The image is almost unbearable in its tenderness. Jerusalem begins not in glory but in abandonment—a newborn left to die, covered in her own blood, with no one to clean her or wrap her in cloth. The city of God&apos;s presence, the place of covenant, begins as an orphan. And then God passes by. He does not pass over her. He does not remain distant. He stops. He sees her. He acts. "Live," He says—and she lives. There is no explanation for why He chooses her, only the fact that He does.',
+          html: 'The image is almost unbearable in its tenderness. Jerusalem begins not in glory but in abandonment—a newborn left to die, covered in her own blood, with no one to clean her or wrap her in cloth. The city of God&apos;s presence, the place of covenant, begins as an orphan. And then God passes by. He does not pass over her. He does not remain distant. He stops. He sees her. He acts. "Live," He says—and she lives. There is no explanation for why He chooses her, only the fact that He does[res:babylonian-exile-context].',
         },
         {
           kind: 'commentary',
           id: 'ezek16-covenant',
-          html:
-            'What follows is a catalog of gifts—washing, anointing with oil, fine linen and silk, gold and silver ornaments, honey, fine flour, oil. These are not rewards for obedience. They are not earned. They flow from the heart of one who has chosen another "in the time of love." And at the center of it all is the covenant: "I spread my skirt over thee...and I sware unto thee, and entered into a covenant with thee." The marriage formula. The binding of two lives in a promise that will not break.',
+          html: 'What follows is a catalog of gifts—washing, anointing with oil, fine linen and silk, gold and silver ornaments, honey, fine flour, oil. These are not rewards for obedience. They are not earned. They flow from the heart of one who has chosen another "in the time of love." And at the center of it all is the covenant: "I spread my skirt over thee...and I sware unto thee, and entered into a covenant with thee." The marriage formula. The binding of two lives in a promise that will not break[res:sefaria-ezekiel].',
         },
         {
           kind: 'hebrew',
@@ -65,8 +63,7 @@ export const EZEKIEL_16: RichChapterContent = {
           kind: 'christ',
           id: 'ezek16-christ-bride',
           title: 'Christ Connection — The Faithful Bridegroom',
-          html:
-            'Ezekiel&apos;s allegorical marriage points to the New Testament pattern of Christ as Bridegroom and the church as Bride. Paul writes in Ephesians that Christ "loved the church, and gave himself for it...that he might present it to himself a glorious church, not having spot, or wrinkle, or any such thing; but that it should be holy and without blemish." Christ does what God does in Ezekiel&apos;s vision—He finds the beloved in weakness and death (spiritually), cleanses her, clothes her with His righteousness, and binds Himself to her in an everlasting covenant. The gift is grace. The response is meant to be love.',
+          html: 'Ezekiel&apos;s allegorical marriage points to the New Testament pattern of Christ as Bridegroom and the church as Bride. Paul writes in Ephesians that Christ "loved the church, and gave himself for it...that he might present it to himself a glorious church, not having spot, or wrinkle, or any such thing; but that it should be holy and without blemish." Christ does what God does in Ezekiel&apos;s vision—He finds the beloved in weakness and death (spiritually), cleanses her, clothes her with His righteousness, and binds Himself to her in an everlasting covenant. The gift is grace. The response is meant to be love.',
         },
         {
           kind: 'reflection',
@@ -95,19 +92,16 @@ export const EZEKIEL_16: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezek16-harlot',
-          html:
-            'The judgment is not arbitrary. It follows directly from covenant-breaking. Jerusalem—having been found in blood and raised to beauty—uses her beauty not to honor the One who gave it, but to seduce strangers. She gives the gifts meant for her bridegroom to her lovers. Worse, she involves her own children in idolatrous worship. The word "harlotry" carries the weight of betrayal. A harlot gives her body for payment. But Jerusalem does something deeper: she exchanges her covenant for a lie.',
+          html: 'The judgment is not arbitrary. It follows directly from covenant-breaking. Jerusalem—having been found in blood and raised to beauty—uses her beauty not to honor the One who gave it, but to seduce strangers. She gives the gifts meant for her bridegroom to her lovers. Worse, she involves her own children in idolatrous worship. The word "harlotry" carries the weight of betrayal. A harlot gives her body for payment. But Jerusalem does something deeper: she exchanges her covenant for a lie[res:tyre-archaeology].',
         },
         {
           kind: 'commentary',
           id: 'ezek16-fury',
-          html:
-            'God&apos;s fury is not capricious. It is the anger of betrayed love. "I will give thee blood in fury and jealousy." Jealousy in Scripture is not petty. It is the rightful claim of the covenant partner over the beloved. When one is bound in covenant, jealousy is the heat of faithfulness asserting itself. But notice: even in judgment, God speaks. Even in fury, He is present. His judgment is not abandonment. It is correction meant to call His people back.',
+          html: 'God&apos;s fury is not capricious. It is the anger of betrayed love. "I will give thee blood in fury and jealousy." Jealousy in Scripture is not petty. It is the rightful claim of the covenant partner over the beloved. When one is bound in covenant, jealousy is the heat of faithfulness asserting itself. But notice: even in judgment, God speaks. Even in fury, He is present. His judgment is not abandonment. It is correction meant to call His people back.',
         },
         {
           kind: 'carry',
-          html:
-            'Covenant is not conditional on our faithfulness. God swears His covenant with Jerusalem not because she deserves it, but because He has chosen her. Yet covenant is not meaningless either. To break covenant is to invite judgment. Judgment itself becomes a form of love—the refusal to let the beloved remain in destruction. If God were indifferent, He would leave Jerusalem to her harlotries. Instead, He acts in anger to shake her awake.',
+          html: 'Covenant is not conditional on our faithfulness. God swears His covenant with Jerusalem not because she deserves it, but because He has chosen her. Yet covenant is not meaningless either. To break covenant is to invite judgment. Judgment itself becomes a form of love—the refusal to let the beloved remain in destruction. If God were indifferent, He would leave Jerusalem to her harlotries. Instead, He acts in anger to shake her awake.',
         },
         {
           kind: 'reflection',
@@ -169,7 +163,32 @@ export const EZEKIEL_16: RichChapterContent = {
     quote: 'I will remember my covenant which I made with thee in the days of thy youth: and I will establish unto thee an everlasting covenant.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Ezekiel 16 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'babylonian-exile-context',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Babylonian Exile Context',
+      url: 'https://www.britishmuseum.org/collection/object/W_Y_EA25091',
+      description: 'Cuneiform and archaeological evidence of Babylon under Nebuchadnezzar.',
+    },
+    {
+      id: 'sefaria-ezekiel',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezekiel',
+      url: 'https://www.sefaria.org/Ezekiel',
+      description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
+    },
+    {
+      id: 'tyre-archaeology',
+      kind: 'archaeology',
+      source: 'Israel Museum / ToposText',
+      label: 'Tyre Archaeology (Ezek 26-28)',
+      url: 'https://www.imj.org.il/en',
+      description: 'Archaeological record of ancient Tyre, subject of Ezekiel&apos;s prophecies.',
+    }
+  ],
 
   hasHebrew: true,
 };

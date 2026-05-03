@@ -40,8 +40,7 @@ export const JEREMIAH_8: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jeremiah-8-78mid-1',
-          html:
-            'The prophet pivots from indictment to lament — &quot;Is there no balm in Gilead?&quot; The same voice that announced judgment now grieves it.',
+          html: 'The prophet pivots from indictment to lament — &quot;Is there no balm in Gilead?&quot; The same voice that announced judgment now grieves it[res:babylonian-chronicle].',
         },
         {
           kind: 'scripture',
@@ -56,7 +55,7 @@ export const JEREMIAH_8: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer8-fall',
-          html: 'God poses a question: when someone falls, do they not get back up? When they turn away, do they not turn back? This is the natural human response—to recover, to correct course, to return. Yet Israel has become an exception to this natural law. They have engaged in perpetual backsliding. They have not recovered. They refuse to return.',
+          html: 'God poses a question: when someone falls, do they not get back up? When they turn away, do they not turn back? This is the natural human response—to recover, to correct course, to return. Yet Israel has become an exception to this natural law. They have engaged in perpetual backsliding. They have not recovered. They refuse to return[res:bibleodyssey-jeremiah].',
         },
         {
           kind: 'hebrew',
@@ -69,7 +68,7 @@ export const JEREMIAH_8: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer8-stork',
-          html: 'In a striking comparison, Jeremiah notes that even animals know the judgment of the Lord—the stork, the turtle, the crane, the swallow all observe their appointed times. They migrate, they breed, they live according to natural law. Yet the people of Judah, who have the law written and the prophets speaking, do not know the judgment of God. They are less wise than birds.',
+          html: 'In a striking comparison, Jeremiah notes that even animals know the judgment of the Lord—the stork, the turtle, the crane, the swallow all observe their appointed times. They migrate, they breed, they live according to natural law. Yet the people of Judah, who have the law written and the prophets speaking, do not know the judgment of God. They are less wise than birds[res:jer31-hebrews-intertextual].',
         },
         {
           kind: 'commentary',
@@ -144,7 +143,32 @@ export const JEREMIAH_8: RichChapterContent = {
     quote: 'Is there no balm in Gilead; is there no physician there? why then is not the health of the daughter of my people recovered?',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Jeremiah 8 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'babylonian-chronicle',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Babylonian Chronicle (Jerusalem siege)',
+      url: 'https://www.britishmuseum.org/collection/object/Y_EA25091',
+      description: 'Cuneiform tablet documenting the Babylonian assault on Jerusalem in 597 and 587 BCE.',
+    },
+    {
+      id: 'bibleodyssey-jeremiah',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Jeremiah',
+      url: 'https://www.bibleodyssey.org/passages/main-articles/jeremiah/',
+      description: 'Peer-reviewed SBL entry on the prophet Jeremiah and his historical context.',
+    },
+    {
+      id: 'jer31-hebrews-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Jeremiah 31 ↔ Hebrews 8:8–12',
+      url: 'https://intertextual.bible/text/jeremiah-31/hebrews-8',
+      description: 'Side-by-side comparison of the new covenant promise in Jeremiah quoted in Hebrews.',
+    }
+  ],
 
   hasHebrew: true,
 };

@@ -39,8 +39,7 @@ export const JEREMIAH_31: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer31-everlasting',
-          html:
-            'God speaks to Israel not as a judge who has grown weary, but as a lover whose affection has never wavered. "I have loved thee with an everlasting love"—not for a season, not while you were obedient, but always. This is the foundation upon which restoration is built. The exile is not the end. It is a chapter in a much longer love story. The phrase "with lovingkindness have I drawn thee" echoes the wilderness journey—God drawing Israel out of Egypt, sustaining them in the desert, leading them to the land. That same drawing power reaches into exile and calls them home.',
+          html: 'God speaks to Israel not as a judge who has grown weary, but as a lover whose affection has never wavered. "I have loved thee with an everlasting love"—not for a season, not while you were obedient, but always. This is the foundation upon which restoration is built. The exile is not the end. It is a chapter in a much longer love story. The phrase "with lovingkindness have I drawn thee" echoes the wilderness journey—God drawing Israel out of Egypt, sustaining them in the desert, leading them to the land. That same drawing power reaches into exile and calls them home[res:bibleodyssey-jeremiah].',
         },
         {
           kind: 'hebrew',
@@ -54,20 +53,17 @@ export const JEREMIAH_31: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer31-build',
-          html:
-            'God promises not merely to forgive, but to rebuild. "Again I will build thee, and thou shalt be built." This is restoration beyond mere return from exile. It is reconstruction of identity, of joy, of the dances and celebrations that mark a people at home with themselves and their God. The virgin of Israel will be adorned again—not with the forced beauty of captivity, but with the ornaments of freedom and joy.',
+          html: 'God promises not merely to forgive, but to rebuild. "Again I will build thee, and thou shalt be built." This is restoration beyond mere return from exile. It is reconstruction of identity, of joy, of the dances and celebrations that mark a people at home with themselves and their God. The virgin of Israel will be adorned again—not with the forced beauty of captivity, but with the ornaments of freedom and joy[res:jer31-hebrews-intertextual].',
         },
         {
           kind: 'christ',
           id: 'jer31-christ-covenant',
           title: 'Christ Connection — The Mediator of the Covenant',
-          html:
-            'Jesus declared over the bread and wine, "This is my blood of the new covenant." In Him, the promise Jeremiah announced is fulfilled. He is the one who walks between God and humanity, the mediator whose own flesh becomes the place where heaven and earth meet. The covenant is written not on tablets or even in hearts, but in the body of Christ—given for us, shed for the remission of sins. Through His death and resurrection, God&apos;s everlasting love is not merely announced. It is embodied.',
+          html: 'Jesus declared over the bread and wine, "This is my blood of the new covenant." In Him, the promise Jeremiah announced is fulfilled. He is the one who walks between God and humanity, the mediator whose own flesh becomes the place where heaven and earth meet. The covenant is written not on tablets or even in hearts, but in the body of Christ—given for us, shed for the remission of sins. Through His death and resurrection, God&apos;s everlasting love is not merely announced. It is embodied.',
         },
         {
           kind: 'carry',
-          html:
-            'God calls us out of exile today—the exile of shame, of broken identity, of separation from our true home. His love is not contingent on our worthiness or our obedience. It is everlasting. He draws us with lovingkindness, not with judgment. And like Israel, we are called to rise, to be rebuilt, to put on the garments of joy and to dance.',
+          html: 'God calls us out of exile today—the exile of shame, of broken identity, of separation from our true home. His love is not contingent on our worthiness or our obedience. It is everlasting. He draws us with lovingkindness, not with judgment. And like Israel, we are called to rise, to be rebuilt, to put on the garments of joy and to dance.',
         },
         {
           kind: 'reflection',
@@ -128,7 +124,24 @@ export const JEREMIAH_31: RichChapterContent = {
     quote: 'I have loved thee with an everlasting love: therefore with lovingkindness have I drawn thee. Again I will build thee, and thou shalt be built, O virgin of Israel.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Jeremiah 31 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'bibleodyssey-jeremiah',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Jeremiah',
+      url: 'https://www.bibleodyssey.org/passages/main-articles/jeremiah/',
+      description: 'Peer-reviewed SBL entry on the prophet Jeremiah and his historical context.',
+    },
+    {
+      id: 'jer31-hebrews-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Jeremiah 31 ↔ Hebrews 8:8–12',
+      url: 'https://intertextual.bible/text/jeremiah-31/hebrews-8',
+      description: 'Side-by-side comparison of the new covenant promise in Jeremiah quoted in Hebrews.',
+    }
+  ],
 
   hasHebrew: true,
 };

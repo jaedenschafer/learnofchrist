@@ -40,25 +40,21 @@ export const JEREMIAH_35: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer35-rechabite',
-          html:
-            'The Rechabites are remarkable not for the commands they keep, but for their consistency in keeping them across generations. The command not to drink wine is specific and peculiar. Yet they honor it. Why? Because their father commanded it. Because they are bound to an ancestral covenant, and they understand their faithfulness as a way of honoring that bond.',
+          html: 'The Rechabites are remarkable not for the commands they keep, but for their consistency in keeping them across generations. The command not to drink wine is specific and peculiar. Yet they honor it. Why? Because their father commanded it. Because they are bound to an ancestral covenant, and they understand their faithfulness as a way of honoring that bond[res:babylonian-chronicle].',
         },
         {
           kind: 'commentary',
           id: 'jer35-obedience',
-          html:
-            'Notice their language: "We will drink no wine...for Jonadab the son of Rechab our father commanded us." The command itself is the reason for obedience. They do not ask whether the command makes sense, whether wine is truly harmful, whether a new generation might choose differently. They obey because to obey is to honor the father who commanded.',
+          html: 'Notice their language: "We will drink no wine...for Jonadab the son of Rechab our father commanded us." The command itself is the reason for obedience. They do not ask whether the command makes sense, whether wine is truly harmful, whether a new generation might choose differently. They obey because to obey is to honor the father who commanded[res:jer31-hebrews-intertextual].',
         },
         {
           kind: 'commentary',
           id: 'jer35-israel-contrast',
-          html:
-            'By contrast, Jeremiah turns to Israel and says: I have sent prophets, saying, "Turn ye now every one from his evil way, and amend your doings." But you have not obeyed. You have not listened. The Rechabites honor a human father&apos;s command across centuries. Israel will not honor the commands of the Father of all. The Rechabites maintain covenant. Israel breaks it. The comparison is devastating.',
+          html: 'By contrast, Jeremiah turns to Israel and says: I have sent prophets, saying, "Turn ye now every one from his evil way, and amend your doings." But you have not obeyed. You have not listened. The Rechabites honor a human father&apos;s command across centuries. Israel will not honor the commands of the Father of all. The Rechabites maintain covenant. Israel breaks it. The comparison is devastating.',
         },
         {
           kind: 'carry',
-          html:
-            'The Rechabites are rewarded not with the absence of struggle, but with the assurance that their line will not fail. "Jonadab the son of Rechab shall not want a man to stand before me for ever." They chose loyalty across generations, and their legacy is secured. What loyalty are you extending to the God of your fathers? What faithfulness will you pass on to the next generation?',
+          html: 'The Rechabites are rewarded not with the absence of struggle, but with the assurance that their line will not fail. "Jonadab the son of Rechab shall not want a man to stand before me for ever." They chose loyalty across generations, and their legacy is secured. What loyalty are you extending to the God of your fathers? What faithfulness will you pass on to the next generation?',
         },
         {
           kind: 'reflection',
@@ -80,7 +76,24 @@ export const JEREMIAH_35: RichChapterContent = {
     quote: 'Jonadab the son of Rechab our father commanded us...Thus have we obeyed the voice of Jonadab our father in all that he hath charged us. But Israel will not hearken unto my voice, saith the Lord.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Jeremiah 35 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'babylonian-chronicle',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Babylonian Chronicle (Jerusalem siege)',
+      url: 'https://www.britishmuseum.org/collection/object/Y_EA25091',
+      description: 'Cuneiform tablet documenting the Babylonian assault on Jerusalem in 597 and 587 BCE.',
+    },
+    {
+      id: 'jer31-hebrews-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Jeremiah 31 ↔ Hebrews 8:8–12',
+      url: 'https://intertextual.bible/text/jeremiah-31/hebrews-8',
+      description: 'Side-by-side comparison of the new covenant promise in Jeremiah quoted in Hebrews.',
+    }
+  ],
 
   hasHebrew: false,
 };

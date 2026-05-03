@@ -41,7 +41,7 @@ export const JEREMIAH_12: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer12-righteous',
-          html: 'Jeremiah begins with a profession of faith: "Righteous art thou, O Lord." God is righteous. Yet immediately he launches his complaint: "Yet let me talk with thee of thy judgments." This is the structure of honest prayer—acknowledge God&apos;s righteousness, then ask why the world appears to contradict that righteousness. The wicked prosper. Those who deal treacherously are happy. Where is justice?',
+          html: 'Jeremiah begins with a profession of faith: "Righteous art thou, O Lord." God is righteous. Yet immediately he launches his complaint: "Yet let me talk with thee of thy judgments." This is the structure of honest prayer—acknowledge God&apos;s righteousness, then ask why the world appears to contradict that righteousness. The wicked prosper. Those who deal treacherously are happy. Where is justice?[res:babylonian-chronicle]',
         },
         {
           kind: 'hebrew',
@@ -54,7 +54,7 @@ export const JEREMIAH_12: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer12-wearied',
-          html: 'God&apos;s response is surprising. He does not answer the question directly. Instead, He tells Jeremiah that what he has faced so far is merely the beginning. "If thou hast run with the footmen, and they have wearied thee, then how canst thou contend with horses?" The trials ahead will be greater than those behind. The complaint Jeremiah makes now will pale in comparison to what is coming.',
+          html: 'God&apos;s response is surprising. He does not answer the question directly. Instead, He tells Jeremiah that what he has faced so far is merely the beginning. "If thou hast run with the footmen, and they have wearied thee, then how canst thou contend with horses?" The trials ahead will be greater than those behind. The complaint Jeremiah makes now will pale in comparison to what is coming[res:lachish-letters].',
         },
         {
           kind: 'commentary',
@@ -135,7 +135,24 @@ export const JEREMIAH_12: RichChapterContent = {
     quote: 'Righteous art thou, O Lord, when I plead with thee: yet let me talk with thee of thy judgments: Wherefore doth the way of the wicked prosper?',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Jeremiah 12 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'babylonian-chronicle',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Babylonian Chronicle (Jerusalem siege)',
+      url: 'https://www.britishmuseum.org/collection/object/Y_EA25091',
+      description: 'Cuneiform tablet documenting the Babylonian assault on Jerusalem in 597 and 587 BCE.',
+    },
+    {
+      id: 'lachish-letters',
+      kind: 'archaeology',
+      source: 'Israel Museum',
+      label: 'Lachish Letters',
+      url: 'https://www.imj.org.il/en/collections/lachish-letters',
+      description: 'Ancient inscribed potsherds from the Judean siege of Lachish (587 BCE), contemporary with Jeremiah.',
+    }
+  ],
 
   hasHebrew: true,
 };

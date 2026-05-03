@@ -38,14 +38,12 @@ export const EZEKIEL_40: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezekiel40-measuring',
-          html:
-            'The appearance of a figure with a measuring rod is the sign that order and plan are being restored. Exile was chaos—the temple destroyed, the people scattered, the boundaries of the holy land violated. Now measurement returns. This is the return of civilization, of order, of the divine blueprint.',
+          html: 'The appearance of a figure with a measuring rod is the sign that order and plan are being restored. Exile was chaos—the temple destroyed, the people scattered, the boundaries of the holy land violated. Now measurement returns. This is the return of civilization, of order, of the divine blueprint[res:ezekiel-revelation-intertextual].',
         },
         {
           kind: 'commentary',
           id: 'ezekiel40-numbers',
-          html:
-            'The obsessive attention to measurement is not mere architectural detail. In biblical thought, numbers carry meaning. Six is the number of humanity and imperfection. Seven is completion. Twelve is God&apos;s people. The specific measurements of the temple encode theological meaning into its very structure.',
+          html: 'The obsessive attention to measurement is not mere architectural detail. In biblical thought, numbers carry meaning. Six is the number of humanity and imperfection. Seven is completion. Twelve is God&apos;s people. The specific measurements of the temple encode theological meaning into its very structure[res:gog-magog-bibleodyssey].',
         },
         {
           kind: 'hebrew',
@@ -60,13 +58,11 @@ export const EZEKIEL_40: RichChapterContent = {
           kind: 'christ',
           id: 'ezekiel40-christ-temple',
           title: 'Christ Connection — Christ the True Temple',
-          html:
-            'In John 2:19–21, Christ says: "Destroy this temple, and in three days I will raise it up." And John explains: "He spake of the temple of his body." Christ is the true temple. In Him, the separated holy place and the outer court are united. In Him, heaven and earth meet. His body is the dwelling place of God.',
+          html: 'In John 2:19–21, Christ says: "Destroy this temple, and in three days I will raise it up." And John explains: "He spake of the temple of his body." Christ is the true temple. In Him, the separated holy place and the outer court are united. In Him, heaven and earth meet. His body is the dwelling place of God.',
         },
         {
           kind: 'carry',
-          html:
-            'Ezekiel&apos;s meticulous vision teaches that God pays attention to detail. He notices measurements. He cares about order and structure. He is not abstract or vague. He is precise, present, and concerned with the actual world of His people.',
+          html: 'Ezekiel&apos;s meticulous vision teaches that God pays attention to detail. He notices measurements. He cares about order and structure. He is not abstract or vague. He is precise, present, and concerned with the actual world of His people.',
         },
         {
           kind: 'reflection',
@@ -93,14 +89,12 @@ export const EZEKIEL_40: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezekiel40-gates',
-          html:
-            'Gates and entries represent access—who can enter, at what stages, by what path. The temple is not open to all equally. There is an outer court for the people, an inner court for the priests, a holy place, and a holy of holies. Each has its place. Each has its boundary.',
+          html: 'Gates and entries represent access—who can enter, at what stages, by what path. The temple is not open to all equally. There is an outer court for the people, an inner court for the priests, a holy place, and a holy of holies. Each has its place. Each has its boundary[res:tyre-archaeology].',
         },
         {
           kind: 'commentary',
           id: 'ezekiel40-wash',
-          html:
-            'The chambers are places where the priests wash. Washing and purification are central to access to the holy. You cannot enter the presence of God without being cleansed. This is not a New Testament insight alone, but a truth embedded in the structure of the temple itself.',
+          html: 'The chambers are places where the priests wash. Washing and purification are central to access to the holy. You cannot enter the presence of God without being cleansed. This is not a New Testament insight alone, but a truth embedded in the structure of the temple itself.',
         },
         {
           kind: 'carry',
@@ -120,7 +114,32 @@ export const EZEKIEL_40: RichChapterContent = {
     quote: 'There was a man, whose appearance was like the appearance of brass, with a line of flax in his hand, and a measuring reed.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Ezekiel 40 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'ezekiel-revelation-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Ezekiel Temple Vision ↔ Revelation 21-22',
+      url: 'https://intertextual.bible/text/ezekiel-40/revelation-21',
+      description: 'Side-by-side comparison of Ezekiel&apos;s temple vision and John&apos;s new creation.',
+    },
+    {
+      id: 'gog-magog-bibleodyssey',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Gog and Magog',
+      url: 'https://www.bibleodyssey.org/dictionary/gog/',
+      description: 'SBL entry on the mysterious Gog figure in Ezekiel and Revelation.',
+    },
+    {
+      id: 'tyre-archaeology',
+      kind: 'archaeology',
+      source: 'Israel Museum / ToposText',
+      label: 'Tyre Archaeology (Ezek 26-28)',
+      url: 'https://www.imj.org.il/en',
+      description: 'Archaeological record of ancient Tyre, subject of Ezekiel&apos;s prophecies.',
+    }
+  ],
 
   hasHebrew: true,
 };

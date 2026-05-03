@@ -67,8 +67,7 @@ export const JEREMIAH_30: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer30-disaster-restoration',
-          html:
-            'God moves from the terror of disaster to the wonder of restoration. Judgment ends and healing begins.',
+          html: 'God moves from the terror of disaster to the wonder of restoration. Judgment ends and healing begins[res:babylonian-chronicle].',
         },
         {
           kind: 'scripture',
@@ -109,19 +108,16 @@ export const JEREMIAH_30: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer30-break-yoke',
-          html:
-            'The yoke that was sent to bind Judah to Babylon will be broken. The bonds will be burst. Those who served as strangers and captors will serve no more. This is the complete reversal of what has been happening through Jeremiah&apos;s ministry. The judgment of exile is not final. Restoration will come.',
+          html: 'The yoke that was sent to bind Judah to Babylon will be broken. The bonds will be burst. Those who served as strangers and captors will serve no more. This is the complete reversal of what has been happening through Jeremiah&apos;s ministry. The judgment of exile is not final. Restoration will come[res:jer31-hebrews-intertextual].',
         },
         {
           kind: 'commentary',
           id: 'jer30-david',
-          html:
-            'When the people are restored, they will serve "David their king, whom I will raise up unto them." This points forward to a king of David&apos;s line, to the messianic hope. The exile is the darkness before dawn. When restoration comes, it will come with a righteous king.',
+          html: 'When the people are restored, they will serve "David their king, whom I will raise up unto them." This points forward to a king of David&apos;s line, to the messianic hope. The exile is the darkness before dawn. When restoration comes, it will come with a righteous king.',
         },
         {
           kind: 'carry',
-          html:
-            'Jacob&apos;s trouble is great, yet it is not eternal. The time of travail ends. The yoke is broken. Bonds are burst. Even when we are in the deepest affliction, we can hold onto the promise that deliverance comes, that restoration will follow judgment, that God has not abandoned us forever.',
+          html: 'Jacob&apos;s trouble is great, yet it is not eternal. The time of travail ends. The yoke is broken. Bonds are burst. Even when we are in the deepest affliction, we can hold onto the promise that deliverance comes, that restoration will follow judgment, that God has not abandoned us forever.',
         },
         {
           kind: 'reflection',
@@ -316,5 +312,22 @@ export const JEREMIAH_30: RichChapterContent = {
         },
       ],
     },
+  ],  resources: [
+    {
+      id: 'babylonian-chronicle',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Babylonian Chronicle (Jerusalem siege)',
+      url: 'https://www.britishmuseum.org/collection/object/Y_EA25091',
+      description: 'Cuneiform tablet documenting the Babylonian assault on Jerusalem in 597 and 587 BCE.',
+    },
+    {
+      id: 'jer31-hebrews-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Jeremiah 31 ↔ Hebrews 8:8–12',
+      url: 'https://intertextual.bible/text/jeremiah-31/hebrews-8',
+      description: 'Side-by-side comparison of the new covenant promise in Jeremiah quoted in Hebrews.',
+    }
   ],
 };

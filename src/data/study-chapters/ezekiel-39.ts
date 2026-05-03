@@ -37,14 +37,12 @@ export const EZEKIEL_39: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezekiel39-birds',
-          html:
-            'The image of birds feasting on the corpses is intentionally degrading. In biblical thought, a body left unburied was the ultimate shame. Yet here, Gog&apos;s corpse is left for the scavenging birds. This is the reversal of shame: the mighty one who thought to plunder Israel becomes food for vultures.',
+          html: 'The image of birds feasting on the corpses is intentionally degrading. In biblical thought, a body left unburied was the ultimate shame. Yet here, Gog&apos;s corpse is left for the scavenging birds. This is the reversal of shame: the mighty one who thought to plunder Israel becomes food for vultures[res:bibleodyssey-ezekiel].',
         },
         {
           kind: 'commentary',
           id: 'ezekiel39-weapons',
-          html:
-            'The weapons burn for seven years—a number suggesting completeness. All the instruments of war are consumed. Israel will not need them. Peace has been secured. The weapons are not stored for future use; they are burned away. This is a vision of a world where war itself becomes a relic.',
+          html: 'The weapons burn for seven years—a number suggesting completeness. All the instruments of war are consumed. Israel will not need them. Peace has been secured. The weapons are not stored for future use; they are burned away. This is a vision of a world where war itself becomes a relic[res:ezekiel-revelation-intertextual].',
         },
         {
           kind: 'hebrew',
@@ -59,13 +57,11 @@ export const EZEKIEL_39: RichChapterContent = {
           kind: 'christ',
           id: 'ezekiel39-christ-spoils',
           title: 'Christ Connection — Christ Triumphs',
-          html:
-            'In Colossians 2:15, Paul writes that Christ "spoiled principalities and powers" and "made a shew of them openly, triumphing over them in it." Christ&apos;s victory over Satan and death is absolute. The weapons of our old enemies—sin, death, the grave—are rendered powerless. Christ burns them away in the fire of His resurrection.',
+          html: 'In Colossians 2:15, Paul writes that Christ "spoiled principalities and powers" and "made a shew of them openly, triumphing over them in it." Christ&apos;s victory over Satan and death is absolute. The weapons of our old enemies—sin, death, the grave—are rendered powerless. Christ burns them away in the fire of His resurrection.',
         },
         {
           kind: 'carry',
-          html:
-            'In your own life, what are the "weapons" of the enemy that need to be burned away? What shame needs to be reversed? Ezekiel&apos;s vision promises that God&apos;s victory is comprehensive and complete. Nothing of the enemy&apos;s arsenal will remain to threaten you again.',
+          html: 'In your own life, what are the "weapons" of the enemy that need to be burned away? What shame needs to be reversed? Ezekiel&apos;s vision promises that God&apos;s victory is comprehensive and complete. Nothing of the enemy&apos;s arsenal will remain to threaten you again.',
         },
         {
           kind: 'reflection',
@@ -119,7 +115,24 @@ export const EZEKIEL_39: RichChapterContent = {
     quote: 'I have poured out my spirit upon the house of Israel, saith the Lord God.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Ezekiel 39 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'bibleodyssey-ezekiel',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Ezekiel',
+      url: 'https://www.bibleodyssey.org/passages/main-articles/ezekiel/',
+      description: 'Peer-reviewed SBL entry on the prophet Ezekiel and the Babylonian exile.',
+    },
+    {
+      id: 'ezekiel-revelation-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Ezekiel Temple Vision ↔ Revelation 21-22',
+      url: 'https://intertextual.bible/text/ezekiel-40/revelation-21',
+      description: 'Side-by-side comparison of Ezekiel&apos;s temple vision and John&apos;s new creation.',
+    }
+  ],
 
   hasHebrew: true,
 };

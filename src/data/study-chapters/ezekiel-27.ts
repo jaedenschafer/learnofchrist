@@ -43,14 +43,12 @@ export const EZEKIEL_27: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezek27-ship',
-          html:
-            'Tyre is not merely a city. She is a ship—perfectly built, laden with goods, moving across the seas bringing wealth and merchandise to all nations. The ship&apos;s construction speaks to beauty and craftsmanship: cedar from Lebanon for the masts, oak from Bashan for the oars, benches of ivory brought from distant lands. Even the sail is made of fine linen with embroidered work—beauty and function united.',
+          html: 'Tyre is not merely a city. She is a ship—perfectly built, laden with goods, moving across the seas bringing wealth and merchandise to all nations. The ship&apos;s construction speaks to beauty and craftsmanship: cedar from Lebanon for the masts, oak from Bashan for the oars, benches of ivory brought from distant lands. Even the sail is made of fine linen with embroidered work—beauty and function united[res:ezekiel-revelation-intertextual].',
         },
         {
           kind: 'commentary',
           id: 'ezek27-army',
-          html:
-            'And the ship carries crew and soldiers from many lands—Persians, Lydians, those from Phut (Africa). They hang shields and helmets on her sides, "setting forth thy comeliness"—displaying her majesty to the world. This is not merely a vessel for trade. It is a symbol of human power, military strength, international prestige.',
+          html: 'And the ship carries crew and soldiers from many lands—Persians, Lydians, those from Phut (Africa). They hang shields and helmets on her sides, "setting forth thy comeliness"—displaying her majesty to the world. This is not merely a vessel for trade. It is a symbol of human power, military strength, international prestige[res:tyre-archaeology].',
         },
         {
           kind: 'hebrew',
@@ -88,14 +86,12 @@ export const EZEKIEL_27: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezek27-cargo',
-          html:
-            'The catalog of Tyre&apos;s trade is overwhelming. Tarshish brings precious metals—silver, iron, tin, lead. Syria brings emeralds, purple, fine linen, coral. Judah and Israel bring wheat, honey, oil, balm—the good fruits of the land. Every nation contributes. Tyre is the center through which all the world&apos;s goods flow. She has become wealthy beyond measure because everyone needs to trade with her.',
+          html: 'The catalog of Tyre&apos;s trade is overwhelming. Tarshish brings precious metals—silver, iron, tin, lead. Syria brings emeralds, purple, fine linen, coral. Judah and Israel bring wheat, honey, oil, balm—the good fruits of the land. Every nation contributes. Tyre is the center through which all the world&apos;s goods flow. She has become wealthy beyond measure because everyone needs to trade with her.',
         },
         {
           kind: 'commentary',
           id: 'ezek27-sink',
-          html:
-            'But then the reversal. "The east wind hath broken thee in the midst of the seas." In a moment, the tide turns. The ship that brought riches from all the earth will sink in the sea. And everything goes down with it: "Thy riches, and thy fairs, thy merchandise, thy mariners, and thy pilots...shall fall into the midst of the sea in the day of thy ruin." Not just the ship, but the crew, the merchants, the wealth—all lost to the depths.',
+          html: 'But then the reversal. "The east wind hath broken thee in the midst of the seas." In a moment, the tide turns. The ship that brought riches from all the earth will sink in the sea. And everything goes down with it: "Thy riches, and thy fairs, thy merchandise, thy mariners, and thy pilots...shall fall into the midst of the sea in the day of thy ruin." Not just the ship, but the crew, the merchants, the wealth—all lost to the depths.',
         },
         {
           kind: 'christ',
@@ -122,7 +118,24 @@ export const EZEKIEL_27: RichChapterContent = {
     quote: 'All thy company in the midst of thee shall fall into the midst of the seas in the day of thy ruin.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Ezekiel 27 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'ezekiel-revelation-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Ezekiel Temple Vision ↔ Revelation 21-22',
+      url: 'https://intertextual.bible/text/ezekiel-40/revelation-21',
+      description: 'Side-by-side comparison of Ezekiel&apos;s temple vision and John&apos;s new creation.',
+    },
+    {
+      id: 'tyre-archaeology',
+      kind: 'archaeology',
+      source: 'Israel Museum / ToposText',
+      label: 'Tyre Archaeology (Ezek 26-28)',
+      url: 'https://www.imj.org.il/en',
+      description: 'Archaeological record of ancient Tyre, subject of Ezekiel&apos;s prophecies.',
+    }
+  ],
 
   hasHebrew: true,
 };

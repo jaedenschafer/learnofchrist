@@ -40,8 +40,7 @@ export const EZEKIEL_19: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'resolve-lion-lament',
-          html:
-            '<p>A lament for the royal line: young lions roar, then are captured or burned. Power without righteousness crumbles.</p>',
+          html: '<p>A lament for the royal line: young lions roar, then are captured or burned. Power without righteousness crumbles.</p>[res:babylonian-exile-context]',
         },
         {
           kind: 'scripture',
@@ -56,14 +55,12 @@ export const EZEKIEL_19: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezek19-lioness',
-          html:
-            'Jerusalem is a lioness—strong, fertile, capable of bearing and raising warriors. Her cubs are Israel&apos;s princes, her potential kings. She nourished them "among young lions"—in the rough school of power and conflict. And they learned to hunt, to devour, to roar and shake the land. This should be the mark of a strong kingdom: rulers who are fierce enough to protect their people.',
+          html: 'Jerusalem is a lioness—strong, fertile, capable of bearing and raising warriors. Her cubs are Israel&apos;s princes, her potential kings. She nourished them "among young lions"—in the rough school of power and conflict. And they learned to hunt, to devour, to roar and shake the land. This should be the mark of a strong kingdom: rulers who are fierce enough to protect their people[res:bibleodyssey-ezekiel].',
         },
         {
           kind: 'commentary',
           id: 'ezek19-trapped',
-          html:
-            'But then the reversal. "The nations set against him on every side...and spread their net over him." The mighty hunter is caught in a pit. His strength, which should have protected his people, avails nothing. He is taken in chains and brought to the king of Babylon. And in Babylon, "his voice should no more be heard upon the mountains of Israel." The roar of the young lion, which once shook the land, is silenced. Power is broken.',
+          html: 'But then the reversal. "The nations set against him on every side...and spread their net over him." The mighty hunter is caught in a pit. His strength, which should have protected his people, avails nothing. He is taken in chains and brought to the king of Babylon. And in Babylon, "his voice should no more be heard upon the mountains of Israel." The roar of the young lion, which once shook the land, is silenced. Power is broken.',
         },
         {
           kind: 'hebrew',
@@ -100,8 +97,7 @@ export const EZEKIEL_19: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezek19-vine-withered',
-          html:
-            'The image shifts from lioness to vine—both images of fertility and potential. Jerusalem was once fruitful, planted by great waters, growing strong with many branches. Her "strong rods" became scepters—symbols of rule. But God&apos;s fury came. The vine was plucked up, cast to the ground. The east wind dried her fruit. Her strong rods were broken. Fire consumed them. Now she is planted in the wilderness—a dry and thirsty land where nothing can flourish.',
+          html: 'The image shifts from lioness to vine—both images of fertility and potential. Jerusalem was once fruitful, planted by great waters, growing strong with many branches. Her "strong rods" became scepters—symbols of rule. But God&apos;s fury came. The vine was plucked up, cast to the ground. The east wind dried her fruit. Her strong rods were broken. Fire consumed them. Now she is planted in the wilderness—a dry and thirsty land where nothing can flourish.',
         },
         {
           kind: 'commentary',
@@ -134,7 +130,24 @@ export const EZEKIEL_19: RichChapterContent = {
     quote: 'Thy mother is like a vine in thy blood, planted by the waters: she was fruitful and full of branches...But she was plucked up in fury, and cast down to the ground.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Ezekiel 19 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'babylonian-exile-context',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Babylonian Exile Context',
+      url: 'https://www.britishmuseum.org/collection/object/W_Y_EA25091',
+      description: 'Cuneiform and archaeological evidence of Babylon under Nebuchadnezzar.',
+    },
+    {
+      id: 'bibleodyssey-ezekiel',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Ezekiel',
+      url: 'https://www.bibleodyssey.org/passages/main-articles/ezekiel/',
+      description: 'Peer-reviewed SBL entry on the prophet Ezekiel and the Babylonian exile.',
+    }
+  ],
 
   hasHebrew: true,
 };

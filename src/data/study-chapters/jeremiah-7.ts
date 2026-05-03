@@ -44,8 +44,7 @@ export const JEREMIAH_7: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer7-amend-dwell',
-          html:
-            'The condition is clear and concrete: amend your ways, execute justice, protect the vulnerable, turn from other gods. If you do this, you will dwell in the land. The covenant promise hinges on the people&apos;s choice.',
+          html: 'The condition is clear and concrete: amend your ways, execute justice, protect the vulnerable, turn from other gods. If you do this, you will dwell in the land. The covenant promise hinges on the people&apos;s choice[res:bibleodyssey-jeremiah].',
         },
         {
           kind: 'scripture',
@@ -61,7 +60,7 @@ export const JEREMIAH_7: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer7-lying-words',
-          html: 'The repetition of "The temple of the Lord" three times is deliberately mocking. It is the chant of those who believe that the physical building has magical power, that merely being there or saying its name will protect them. Jeremiah breaks the spell by calling it what it is: a lie. The temple is not a talisman. It is not a charm that works through repetition. Its sanctity depends entirely on the holiness of those who worship in it.',
+          html: 'The repetition of "The temple of the Lord" three times is deliberately mocking. It is the chant of those who believe that the physical building has magical power, that merely being there or saying its name will protect them. Jeremiah breaks the spell by calling it what it is: a lie. The temple is not a talisman. It is not a charm that works through repetition. Its sanctity depends entirely on the holiness of those who worship in it[res:sefaria-jeremiah].',
         },
         {
           kind: 'hebrew',
@@ -161,7 +160,24 @@ export const JEREMIAH_7: RichChapterContent = {
     quote: 'Trust ye not in lying words, saying, The temple of the Lord, The temple of the Lord, The temple of the Lord, are these. Is this house, which is called by my name, become a den of robbers in your eyes?',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Jeremiah 7 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'bibleodyssey-jeremiah',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Jeremiah',
+      url: 'https://www.bibleodyssey.org/passages/main-articles/jeremiah/',
+      description: 'Peer-reviewed SBL entry on the prophet Jeremiah and his historical context.',
+    },
+    {
+      id: 'sefaria-jeremiah',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jeremiah',
+      url: 'https://www.sefaria.org/Jeremiah',
+      description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
+    }
+  ],
 
   hasHebrew: true,
 };

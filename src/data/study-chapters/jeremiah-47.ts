@@ -37,27 +37,23 @@ export const JEREMIAH_47: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer47-waters',
-          html:
-            'The waters rise from the north—the direction from which all of God&apos;s judgments come in Jeremiah. They are not a natural flood, but an image of an invading army. The description is vivid and terrible: overflowing flood, overwhelming land and city alike. The people cry and howl. This is not quiet judgment. This is catastrophe made manifest.',
+          html: 'The waters rise from the north—the direction from which all of God&apos;s judgments come in Jeremiah. They are not a natural flood, but an image of an invading army. The description is vivid and terrible: overflowing flood, overwhelming land and city alike. The people cry and howl. This is not quiet judgment. This is catastrophe made manifest[res:jer31-hebrews-intertextual].',
         },
         {
           kind: 'commentary',
           id: 'jer47-fathers',
-          html:
-            'The chaos is so complete that fathers abandon their children. The text says they "shall not look back to their children for feebleness of hands"—that is, their hands are too weak, their strength too gone, to even turn and look back. All semblance of family, of order, of human care collapses before the advancing judgment. The strongest and most capable men are reduced to fleeing for their own lives.',
+          html: 'The chaos is so complete that fathers abandon their children. The text says they "shall not look back to their children for feebleness of hands"—that is, their hands are too weak, their strength too gone, to even turn and look back. All semblance of family, of order, of human care collapses before the advancing judgment. The strongest and most capable men are reduced to fleeing for their own lives[res:sefaria-jeremiah].',
         },
         {
           kind: 'commentary',
           id: 'jer47-baldness',
-          html:
-            'Baldness is a sign of mourning and shame in the ancient world. Gaza and Ashkelon—great Philistine cities—are shaved bare, stripped of their power and pride. The rhetorical question—"how long wilt thou cut thyself?"—suggests that Philistia will continue to inflict wounds upon itself, to tear at itself in panic and despair.',
+          html: 'Baldness is a sign of mourning and shame in the ancient world. Gaza and Ashkelon—great Philistine cities—are shaved bare, stripped of their power and pride. The rhetorical question—"how long wilt thou cut thyself?"—suggests that Philistia will continue to inflict wounds upon itself, to tear at itself in panic and despair.',
         },
         {
           kind: 'christ',
           id: 'jer47-christ-sovereignty',
           title: 'Christ Connection — God&apos;s Absolute Sovereignty',
-          html:
-            'The nations that oppose God believe their chariots and their cities and their strength will protect them. But Christ reveals a God whose sovereignty is absolute and inescapable. The waters rise. The defenders flee. No human power can stand against the purposes of God. In Christ, this sovereignty becomes not a threat but a promise: the same God whose word brings low the proud is the God who lifts up the broken and heals the brokenhearted. His authority over all creation is exercised for the good of those who trust Him.',
+          html: 'The nations that oppose God believe their chariots and their cities and their strength will protect them. But Christ reveals a God whose sovereignty is absolute and inescapable. The waters rise. The defenders flee. No human power can stand against the purposes of God. In Christ, this sovereignty becomes not a threat but a promise: the same God whose word brings low the proud is the God who lifts up the broken and heals the brokenhearted. His authority over all creation is exercised for the good of those who trust Him.',
         },
         {
           kind: 'carry',
@@ -77,5 +73,22 @@ export const JEREMIAH_47: RichChapterContent = {
     quote: 'Behold, waters rise up out of the north, and shall be an overflowing flood, and shall overflow the land, and all that is therein.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Jeremiah 47 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'jer31-hebrews-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Jeremiah 31 ↔ Hebrews 8:8–12',
+      url: 'https://intertextual.bible/text/jeremiah-31/hebrews-8',
+      description: 'Side-by-side comparison of the new covenant promise in Jeremiah quoted in Hebrews.',
+    },
+    {
+      id: 'sefaria-jeremiah',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jeremiah',
+      url: 'https://www.sefaria.org/Jeremiah',
+      description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
+    }
+  ],
 };

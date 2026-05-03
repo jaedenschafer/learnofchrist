@@ -38,14 +38,12 @@ export const EZEKIEL_43: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezekiel43-voice',
-          html:
-            'The voice of God is like the roar of many waters—overwhelming, undeniable, powerful. This is not the still, small voice of God to the individual prophet. This is the cosmic voice of God entering into His dwelling place. The earth itself shines with His glory.',
+          html: 'The voice of God is like the roar of many waters—overwhelming, undeniable, powerful. This is not the still, small voice of God to the individual prophet. This is the cosmic voice of God entering into His dwelling place. The earth itself shines with His glory[res:babylonian-exile-context].',
         },
         {
           kind: 'commentary',
           id: 'ezekiel43-forever',
-          html:
-            '"I will dwell...for ever." This is not a conditional promise. It is not "if you obey, I will stay." It is absolute. The divorce is over. Reconciliation is permanent. God will not abandon His people again.',
+          html: '"I will dwell...for ever." This is not a conditional promise. It is not "if you obey, I will stay." It is absolute. The divorce is over. Reconciliation is permanent. God will not abandon His people again[res:gog-magog-bibleodyssey].',
         },
         {
           kind: 'hebrew',
@@ -60,13 +58,11 @@ export const EZEKIEL_43: RichChapterContent = {
           kind: 'christ',
           id: 'ezekiel43-christ-temple',
           title: 'Christ Connection — Immanuel',
-          html:
-            'In Matthew 1:23, Matthew quotes Isaiah: "Behold, a virgin shall be with child, and shall bring forth a son, and they shall call his name Immanuel: which being interpreted is, God with us." Christ is God dwelling among His people in the flesh. He is the ultimate fulfillment of Ezekiel&apos;s promise. God, present, tangible, dwelling forever in the midst of those who believe in Him.',
+          html: 'In Matthew 1:23, Matthew quotes Isaiah: "Behold, a virgin shall be with child, and shall bring forth a son, and they shall call his name Immanuel: which being interpreted is, God with us." Christ is God dwelling among His people in the flesh. He is the ultimate fulfillment of Ezekiel&apos;s promise. God, present, tangible, dwelling forever in the midst of those who believe in Him.',
         },
         {
           kind: 'carry',
-          html:
-            'The promise is not that God will be in heaven, watching from afar. It is that He will be with you. The shekinah is not a distant reality. It is a present possibility. Through Christ, through the Holy Spirit, God dwells in the midst of His people now.',
+          html: 'The promise is not that God will be in heaven, watching from afar. It is that He will be with you. The shekinah is not a distant reality. It is a present possibility. Through Christ, through the Holy Spirit, God dwells in the midst of His people now.',
         },
         {
           kind: 'reflection',
@@ -120,7 +116,24 @@ export const EZEKIEL_43: RichChapterContent = {
     quote: 'The place of my throne, and the place of the soles of my feet, where I will dwell in the midst of the children of Israel for ever.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Ezekiel 43 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'babylonian-exile-context',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Babylonian Exile Context',
+      url: 'https://www.britishmuseum.org/collection/object/W_Y_EA25091',
+      description: 'Cuneiform and archaeological evidence of Babylon under Nebuchadnezzar.',
+    },
+    {
+      id: 'gog-magog-bibleodyssey',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Gog and Magog',
+      url: 'https://www.bibleodyssey.org/dictionary/gog/',
+      description: 'SBL entry on the mysterious Gog figure in Ezekiel and Revelation.',
+    }
+  ],
 
   hasHebrew: true,
 };

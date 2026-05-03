@@ -36,13 +36,11 @@ export const EZEKIEL_3: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezk3-sweetness',
-          html:
-            'The scroll that Ezekiel eats tastes like honey. This is astonishing. The scroll contained lamentations, mourning, and woe. Yet when it becomes part of him, it is sweet. The sweetness is not in the message — which is indeed a message of judgment — but in the intimacy with God it represents. To be fully known, fully commissioned, fully trusted with God&apos;s word: this is sweet beyond measure, even when the word itself is sorrowful.',
+          html: 'The scroll that Ezekiel eats tastes like honey. This is astonishing. The scroll contained lamentations, mourning, and woe. Yet when it becomes part of him, it is sweet. The sweetness is not in the message — which is indeed a message of judgment — but in the intimacy with God it represents. To be fully known, fully commissioned, fully trusted with God&apos;s word: this is sweet beyond measure, even when the word itself is sorrowful[res:bibleodyssey-ezekiel].',
         },
         {
           kind: 'carry',
-          html:
-            'When we receive God&apos;s word fully — not just hearing it but making it part of ourselves — we taste a sweetness that goes beyond the content of what we receive. It is the sweetness of being loved by God, of being trusted with His truth, of being part of His redemptive work in the world. The hardest truths can taste sweet when they come from a God we know and love.',
+          html: 'When we receive God&apos;s word fully — not just hearing it but making it part of ourselves — we taste a sweetness that goes beyond the content of what we receive. It is the sweetness of being loved by God, of being trusted with His truth, of being part of His redemptive work in the world. The hardest truths can taste sweet when they come from a God we know and love.',
         },
         {
           kind: 'reflection',
@@ -70,8 +68,7 @@ export const EZEKIEL_3: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezk3-watchman-duty',
-          html:
-            'The watchman&apos;s responsibility is unsparing. If the wicked man faces death and the watchman does not warn him, the blood is on the watchman&apos;s hands. If the watchman warns and the wicked man refuses to turn, then the wicked man dies in his sin, but the watchman has discharged his duty. The responsibility is not for the outcome but for faithfulness in the warning. This is a solemn calling, but it is also a just one. The watchman is not responsible for what others choose. He is responsible only for whether he speaks.',
+          html: 'The watchman&apos;s responsibility is unsparing. If the wicked man faces death and the watchman does not warn him, the blood is on the watchman&apos;s hands. If the watchman warns and the wicked man refuses to turn, then the wicked man dies in his sin, but the watchman has discharged his duty. The responsibility is not for the outcome but for faithfulness in the warning. This is a solemn calling, but it is also a just one. The watchman is not responsible for what others choose. He is responsible only for whether he speaks[res:ezekiel-revelation-intertextual].',
         },
         {
           kind: 'hebrew',
@@ -86,8 +83,7 @@ export const EZEKIEL_3: RichChapterContent = {
           kind: 'christ',
           id: 'ezk3-christ-warning',
           title: 'Christ Connection — The Warning Prophet',
-          html:
-            'Jesus came as the ultimate watchman. He saw the danger approaching — not merely military danger but the danger of hearts turned away from God. He warned Jerusalem: "How often would I have gathered thy children together...and ye would not." He stood at the wall of human destiny and sounded every alarm He could. Yet many refused to hear. His faithfulness was not in their response but in His unwavering proclamation of truth. We are called to follow Him in this watchman role.',
+          html: 'Jesus came as the ultimate watchman. He saw the danger approaching — not merely military danger but the danger of hearts turned away from God. He warned Jerusalem: "How often would I have gathered thy children together...and ye would not." He stood at the wall of human destiny and sounded every alarm He could. Yet many refused to hear. His faithfulness was not in their response but in His unwavering proclamation of truth. We are called to follow Him in this watchman role.',
         },
         {
           kind: 'carry',
@@ -107,7 +103,24 @@ export const EZEKIEL_3: RichChapterContent = {
     quote: '"And it was in my mouth as honey for sweetness." — Ezekiel 3:3',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Ezekiel 3 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'bibleodyssey-ezekiel',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Ezekiel',
+      url: 'https://www.bibleodyssey.org/passages/main-articles/ezekiel/',
+      description: 'Peer-reviewed SBL entry on the prophet Ezekiel and the Babylonian exile.',
+    },
+    {
+      id: 'ezekiel-revelation-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Ezekiel Temple Vision ↔ Revelation 21-22',
+      url: 'https://intertextual.bible/text/ezekiel-40/revelation-21',
+      description: 'Side-by-side comparison of Ezekiel&apos;s temple vision and John&apos;s new creation.',
+    }
+  ],
 
   hasHebrew: true,
 };

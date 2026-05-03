@@ -79,8 +79,7 @@ export const JEREMIAH_18: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer18-potter',
-          html:
-            'The vessel is marred in the potter&apos;s hand, and rather than discarding the clay, the potter reshapes it into a new vessel. This is the image God uses to speak of His work with Israel. The people are the clay; God is the potter. Marring is not final; reshaping is always possible as long as the people remain in the potter&apos;s hand.',
+          html: 'The vessel is marred in the potter&apos;s hand, and rather than discarding the clay, the potter reshapes it into a new vessel. This is the image God uses to speak of His work with Israel. The people are the clay; God is the potter. Marring is not final; reshaping is always possible as long as the people remain in the potter&apos;s hand[res:jer31-hebrews-intertextual].',
         },
         {
           kind: 'hebrew',
@@ -93,8 +92,7 @@ export const JEREMIAH_18: RichChapterContent = {
         },
         {
           kind: 'carry',
-          html:
-            'The potter does not discard the marred vessel; he remakes it. Your life may feel ruined, your path may seem interrupted, your plans destroyed. But in the hand of God, marring is not final. As long as you remain in His hand, you can be reshaped, remade into something new. The question is: will you yield to His work, or will you resist?',
+          html: 'The potter does not discard the marred vessel; he remakes it. Your life may feel ruined, your path may seem interrupted, your plans destroyed. But in the hand of God, marring is not final. As long as you remain in His hand, you can be reshaped, remade into something new. The question is: will you yield to His work, or will you resist?',
         },
         {
           kind: 'reflection',
@@ -154,14 +152,12 @@ export const JEREMIAH_18: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer18-repent',
-          html:
-            'The principle is clear: God&apos;s judgment is not arbitrary or fixed. When He announces judgment, repentance can change the outcome. Conversely, when He announces blessing, disobedience can change the outcome. This is the meaning of God&apos;s "repenting" — not changing His character, but responding to the changing character and response of His people.',
+          html: 'The principle is clear: God&apos;s judgment is not arbitrary or fixed. When He announces judgment, repentance can change the outcome. Conversely, when He announces blessing, disobedience can change the outcome. This is the meaning of God&apos;s "repenting" — not changing His character, but responding to the changing character and response of His people[res:lachish-letters].',
         },
         {
           kind: 'commentary',
           id: 'jer18-no-hope',
-          html:
-            'But Judah refuses. They say, "There is no hope." They have given up. Rather than turning from their evil ways, they declare their intention to walk after their own devices. They reject the invitation to be reshaped. They prefer to remain marred clay, hardened and resistant to the potter&apos;s hand.',
+          html: 'But Judah refuses. They say, "There is no hope." They have given up. Rather than turning from their evil ways, they declare their intention to walk after their own devices. They reject the invitation to be reshaped. They prefer to remain marred clay, hardened and resistant to the potter&apos;s hand.',
         },
         {
           kind: 'carry',
@@ -337,5 +333,22 @@ export const JEREMIAH_18: RichChapterContent = {
         },
       ],
     },
+  ],  resources: [
+    {
+      id: 'jer31-hebrews-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Jeremiah 31 ↔ Hebrews 8:8–12',
+      url: 'https://intertextual.bible/text/jeremiah-31/hebrews-8',
+      description: 'Side-by-side comparison of the new covenant promise in Jeremiah quoted in Hebrews.',
+    },
+    {
+      id: 'lachish-letters',
+      kind: 'archaeology',
+      source: 'Israel Museum',
+      label: 'Lachish Letters',
+      url: 'https://www.imj.org.il/en/collections/lachish-letters',
+      description: 'Ancient inscribed potsherds from the Judean siege of Lachish (587 BCE), contemporary with Jeremiah.',
+    }
   ],
 };

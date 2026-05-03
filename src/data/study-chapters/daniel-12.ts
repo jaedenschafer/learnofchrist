@@ -39,8 +39,7 @@ export const DANIEL_12: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'daniel12-michael',
-          html:
-            'Michael stands up. This is not a beginning, but a rising to final action. He has been standing throughout Daniel&apos;s visions, warring against spiritual powers, guarding the people of God. Now, "at that time," he stands to defend them in the final conflict. The time of trouble is coming—a trial such as never was. But it is not unguarded. Michael stands for the people of God. And those who are written in the book—those whose names are recorded in God&apos;s register—shall be delivered.',
+          html: 'Michael stands up. This is not a beginning, but a rising to final action. He has been standing throughout Daniel&apos;s visions, warring against spiritual powers, guarding the people of God. Now, "at that time," he stands to defend them in the final conflict. The time of trouble is coming—a trial such as never was. But it is not unguarded. Michael stands for the people of God. And those who are written in the book—those whose names are recorded in God&apos;s register—shall be delivered[res:bibleodyssey-apocalyptic].',
         },
         {
           kind: 'hebrew',
@@ -54,14 +53,12 @@ export const DANIEL_12: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'daniel12-wise',
-          html:
-            'The wise shall shine as the brightness of the firmament. This is not merely victory, but transformation. The wise ones—those who understood the visions, who kept faith in the times of trouble, who turned many to righteousness—will shine like stars. Their light will be visible forever. They will endure eternally, their faithfulness vindicated, their suffering transformed into glory.',
+          html: 'The wise shall shine as the brightness of the firmament. This is not merely victory, but transformation. The wise ones—those who understood the visions, who kept faith in the times of trouble, who turned many to righteousness—will shine like stars. Their light will be visible forever. They will endure eternally, their faithfulness vindicated, their suffering transformed into glory[res:cyrus-cylinder].',
         },
         {
           kind: 'commentary',
           id: 'daniel12-sealed',
-          html:
-            'Daniel is told to seal up the words and the book until the time of the end. The prophecies are written. They are preserved. Even though they will not be fully understood until the end times arrive, they stand as a permanent record. "Knowledge shall be increased"—in the time of the end, these sealed words will be unsealed, and their meaning will be revealed. Until then, they remain as a testimony and a sign that God knows the future.',
+          html: 'Daniel is told to seal up the words and the book until the time of the end. The prophecies are written. They are preserved. Even though they will not be fully understood until the end times arrive, they stand as a permanent record. "Knowledge shall be increased"—in the time of the end, these sealed words will be unsealed, and their meaning will be revealed. Until then, they remain as a testimony and a sign that God knows the future.',
         },
       ],
     },
@@ -83,8 +80,7 @@ export const DANIEL_12: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'daniel-12-sealed-time',
-          html:
-            'Daniel saw visions; now he asks when. Three and a half times. The end draws close. Time itself bends toward restoration. Seal the scroll; let the faithful endure. The outcome is sure.',
+          html: 'Daniel saw visions; now he asks when. Three and a half times. The end draws close. Time itself bends toward restoration. Seal the scroll; let the faithful endure. The outcome is sure.',
         },
         {
           kind: 'scripture',
@@ -143,7 +139,24 @@ export const DANIEL_12: RichChapterContent = {
     quote: 'And many of them that sleep in the dust of the earth shall awake, some to everlasting life...And they that be wise shall shine as the brightness of the firmament; and they that turn many to righteousness as the stars for ever and ever.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Daniel 12 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'bibleodyssey-apocalyptic',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Apocalyptic Literature',
+      url: 'https://www.bibleodyssey.org/dictionary/apocalypse/',
+      description: 'SBL entry on the apocalyptic genre exemplified by Daniel.',
+    },
+    {
+      id: 'cyrus-cylinder',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Cyrus Cylinder',
+      url: 'https://www.britishmuseum.org/collection/object/Y_EA90920',
+      description: 'Persian edict of Cyrus authorizing return of exiled peoples (ca. 539 BCE), fulfilling Daniel&apos;s prophecy.',
+    }
+  ],
 
   hasHebrew: true,
 };

@@ -39,8 +39,7 @@ export const DANIEL_1: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'resolve-faith-test',
-          html:
-            '<p>Daniel and friends refuse the royal food, choosing faithfulness over comfort. See how conviction matters even in exile.</p>',
+          html: '<p>Daniel and friends refuse the royal food, choosing faithfulness over comfort. See how conviction matters even in exile.</p>[res:bibleodyssey-apocalyptic]',
         },
         {
           kind: 'scripture',
@@ -55,8 +54,7 @@ export const DANIEL_1: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'daniel1-purpose',
-          html:
-            'Nebuchadnezzar takes the best of Judah&apos;s youth—those without blemish, skilled in wisdom, able to learn the tongue of the Chaldeans. He renames them, integrating them into his court, intending to make them Babylonian in speech, learning, and custom. He offers them the abundance of his table. But Daniel, though young, though far from home, though stripped of his identity, makes a decision that will shape his entire life: he will not defile himself. This is not passive faith. This is active resistance. He chooses what he will eat. He chooses what he will not become.',
+          html: 'Nebuchadnezzar takes the best of Judah&apos;s youth—those without blemish, skilled in wisdom, able to learn the tongue of the Chaldeans. He renames them, integrating them into his court, intending to make them Babylonian in speech, learning, and custom. He offers them the abundance of his table. But Daniel, though young, though far from home, though stripped of his identity, makes a decision that will shape his entire life: he will not defile himself. This is not passive faith. This is active resistance. He chooses what he will eat. He chooses what he will not become[res:sefaria-daniel].',
         },
         {
           kind: 'hebrew',
@@ -70,8 +68,7 @@ export const DANIEL_1: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'daniel1-defilement',
-          html:
-            'What does it mean for Daniel to defile himself? The king&apos;s meat may have been sacrificed to idols. The wine may have been offered in pagan ceremonies. To partake would be to accept the king&apos;s religion, to bow to Babylonian gods. But the deeper issue is this: Daniel&apos;s body belongs to God, not to a human king. In the midst of captivity, he reclaims the only sovereignty he possesses—the sovereignty over his own choices, his own conscience, his own faithfulness.',
+          html: 'What does it mean for Daniel to defile himself? The king&apos;s meat may have been sacrificed to idols. The wine may have been offered in pagan ceremonies. To partake would be to accept the king&apos;s religion, to bow to Babylonian gods. But the deeper issue is this: Daniel&apos;s body belongs to God, not to a human king. In the midst of captivity, he reclaims the only sovereignty he possesses—the sovereignty over his own choices, his own conscience, his own faithfulness.',
         },
       ],
     },
@@ -93,8 +90,7 @@ export const DANIEL_1: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'daniel-1-test-proof',
-          html:
-            'Ten days pass. A test becomes a testimony. The four youths prove what faith can do: refuse unclean food, watch God provide, stand cleaner and stronger than those who ate from the king&apos;s table.',
+          html: 'Ten days pass. A test becomes a testimony. The four youths prove what faith can do: refuse unclean food, watch God provide, stand cleaner and stronger than those who ate from the king&apos;s table.',
         },
         {
           kind: 'scripture',
@@ -178,7 +174,24 @@ export const DANIEL_1: RichChapterContent = {
     quote: 'Daniel purposed in his heart that he would not defile himself with the portion of the king&apos;s meat, nor with the wine which he drank.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Daniel 1 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'bibleodyssey-apocalyptic',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Apocalyptic Literature',
+      url: 'https://www.bibleodyssey.org/dictionary/apocalypse/',
+      description: 'SBL entry on the apocalyptic genre exemplified by Daniel.',
+    },
+    {
+      id: 'sefaria-daniel',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Daniel',
+      url: 'https://www.sefaria.org/Daniel',
+      description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
+    }
+  ],
 
   hasHebrew: true,
 };

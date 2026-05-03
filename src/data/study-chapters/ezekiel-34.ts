@@ -39,14 +39,12 @@ export const EZEKIEL_34: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezekiel34-feed',
-          html:
-            'The accusation is clear: the shepherds feed themselves. They eat the fat. They clothe themselves in wool. They take the visible, material benefits of their position, yet they do not feed the sheep. The spiritual leadership of Israel has become parasitic. The leaders benefit; the people suffer.',
+          html: 'The accusation is clear: the shepherds feed themselves. They eat the fat. They clothe themselves in wool. They take the visible, material benefits of their position, yet they do not feed the sheep. The spiritual leadership of Israel has become parasitic. The leaders benefit; the people suffer[res:bibleodyssey-ezekiel].',
         },
         {
           kind: 'commentary',
           id: 'ezekiel34-broken',
-          html:
-            'A true shepherd has five duties: strengthen the diseased, heal the sick, bind up the broken, bring again the driven away, seek the lost. These are not military virtues or administrative achievements. They are virtues of care, tenderness, and persistence. The false shepherds of Israel have neglected all five. They rule with force and cruelty instead.',
+          html: 'A true shepherd has five duties: strengthen the diseased, heal the sick, bind up the broken, bring again the driven away, seek the lost. These are not military virtues or administrative achievements. They are virtues of care, tenderness, and persistence. The false shepherds of Israel have neglected all five. They rule with force and cruelty instead[res:ezekiel-revelation-intertextual].',
         },
         {
           kind: 'hebrew',
@@ -61,13 +59,11 @@ export const EZEKIEL_34: RichChapterContent = {
           kind: 'christ',
           id: 'ezekiel34-christ-shepherd',
           title: 'Christ Connection — The Good Shepherd',
-          html:
-            'In John 10, Christ says: "I am the good shepherd. The good shepherd giveth his life for the sheep." He knows His sheep by name. He calls them forth. He does not flee when the wolf comes, as the hired shepherd does. Instead, He stands in the gap. He lays down His life. This is shepherding in its ultimate and truest form: not using the flock for personal gain, but offering the self entirely for the flock&apos;s welfare.',
+          html: 'In John 10, Christ says: "I am the good shepherd. The good shepherd giveth his life for the sheep." He knows His sheep by name. He calls them forth. He does not flee when the wolf comes, as the hired shepherd does. Instead, He stands in the gap. He lays down His life. This is shepherding in its ultimate and truest form: not using the flock for personal gain, but offering the self entirely for the flock&apos;s welfare.',
         },
         {
           kind: 'carry',
-          html:
-            'If you hold any position of leadership—as parent, teacher, employer, pastor, friend to the vulnerable—Ezekiel&apos;s word applies to you. The question is not: what am I getting from this position? It is: am I strengthening the weak, healing the sick, seeking the lost? Do those I lead feel shepherded, or exploited?',
+          html: 'If you hold any position of leadership—as parent, teacher, employer, pastor, friend to the vulnerable—Ezekiel&apos;s word applies to you. The question is not: what am I getting from this position? It is: am I strengthening the weak, healing the sick, seeking the lost? Do those I lead feel shepherded, or exploited?',
         },
         {
           kind: 'reflection',
@@ -95,14 +91,12 @@ export const EZEKIEL_34: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezekiel34-search',
-          html:
-            'God does not wait for the sheep to come back. He does not demand repentance first. Instead, He says: I will search you out. I will seek you. I will find you in the dark places and the scattered places. This is the active love of God—a shepherd who does not sit at home waiting for lost sheep to return, but who goes into the mountains and the dark valleys to find them.',
+          html: 'God does not wait for the sheep to come back. He does not demand repentance first. Instead, He says: I will search you out. I will seek you. I will find you in the dark places and the scattered places. This is the active love of God—a shepherd who does not sit at home waiting for lost sheep to return, but who goes into the mountains and the dark valleys to find them[res:sefaria-ezekiel].',
         },
         {
           kind: 'commentary',
           id: 'ezekiel34-david',
-          html:
-            'God promises to raise up "my servant David" as a shepherd. This cannot refer to David himself, who has long been dead. Nor can it refer merely to the line of David continuing. It points to the coming one, the Messiah, who will be called the "Son of David" and who will shepherd God&apos;s people with perfect justice and love. In Matthew 1, Christ is genealogically descended from David. In John 10, He fulfills this prophecy as the Good Shepherd.',
+          html: 'God promises to raise up "my servant David" as a shepherd. This cannot refer to David himself, who has long been dead. Nor can it refer merely to the line of David continuing. It points to the coming one, the Messiah, who will be called the "Son of David" and who will shepherd God&apos;s people with perfect justice and love. In Matthew 1, Christ is genealogically descended from David. In John 10, He fulfills this prophecy as the Good Shepherd.',
         },
         {
           kind: 'carry',
@@ -122,7 +116,32 @@ export const EZEKIEL_34: RichChapterContent = {
     quote: 'And I will set up one shepherd over them, and he shall feed them, even my servant David; he shall feed them, and he shall be their shepherd.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Ezekiel 34 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'bibleodyssey-ezekiel',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Ezekiel',
+      url: 'https://www.bibleodyssey.org/passages/main-articles/ezekiel/',
+      description: 'Peer-reviewed SBL entry on the prophet Ezekiel and the Babylonian exile.',
+    },
+    {
+      id: 'ezekiel-revelation-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Ezekiel Temple Vision ↔ Revelation 21-22',
+      url: 'https://intertextual.bible/text/ezekiel-40/revelation-21',
+      description: 'Side-by-side comparison of Ezekiel&apos;s temple vision and John&apos;s new creation.',
+    },
+    {
+      id: 'sefaria-ezekiel',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezekiel',
+      url: 'https://www.sefaria.org/Ezekiel',
+      description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
+    }
+  ],
 
   hasHebrew: true,
 };

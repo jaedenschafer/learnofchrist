@@ -38,27 +38,23 @@ export const JEREMIAH_36: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer36-write-scroll',
-          html:
-            'God&apos;s command is simple: write. After years of speaking, the word must be recorded. Writing gives permanence. It creates a testimony that extends beyond the prophet&apos;s lifetime. It allows the word to reach those not present when it is first spoken. Jeremiah does not write it himself. He dictates to Baruch. The prophet&apos;s words become the scribe&apos;s words, but the authority is God&apos;s.',
+          html: 'God&apos;s command is simple: write. After years of speaking, the word must be recorded. Writing gives permanence. It creates a testimony that extends beyond the prophet&apos;s lifetime. It allows the word to reach those not present when it is first spoken. Jeremiah does not write it himself. He dictates to Baruch. The prophet&apos;s words become the scribe&apos;s words, but the authority is God&apos;s[res:bibleodyssey-jeremiah].',
         },
         {
           kind: 'commentary',
           id: 'jer36-burning',
-          html:
-            'Jehoiakim&apos;s response is defiant. He burns the scroll. This is not merely an act of political suppression. It is an attempt to erase God&apos;s word itself. If the scroll is destroyed, the thinking goes, the word dies with it. But this logic misunderstands the nature of God&apos;s word. What is burned is merely paper. What is destroyed is merely ink. The word itself—the eternal decree, the divine pronouncement—cannot be destroyed.',
+          html: 'Jehoiakim&apos;s response is defiant. He burns the scroll. This is not merely an act of political suppression. It is an attempt to erase God&apos;s word itself. If the scroll is destroyed, the thinking goes, the word dies with it. But this logic misunderstands the nature of God&apos;s word. What is burned is merely paper. What is destroyed is merely ink. The word itself—the eternal decree, the divine pronouncement—cannot be destroyed[res:jer31-hebrews-intertextual].',
         },
         {
           kind: 'commentary',
           id: 'jer36-rewrite',
-          html:
-            'God&apos;s response is not a lamentation for what is lost. It is a command to write again. And this time, more is written. The second scroll contains all the former words plus "many other words like unto them." What the king meant for harm—burning the word—becomes an occasion for the word to be expanded, strengthened, multiplied.',
+          html: 'God&apos;s response is not a lamentation for what is lost. It is a command to write again. And this time, more is written. The second scroll contains all the former words plus "many other words like unto them." What the king meant for harm—burning the word—becomes an occasion for the word to be expanded, strengthened, multiplied.',
         },
         {
           kind: 'christ',
           id: 'jer36-christ-word',
           title: 'Christ Connection — Christ the Eternal Word',
-          html:
-            'Jesus is called "the Word of God" in John&apos;s gospel. He is the living embodiment of all that God speaks. And though attempts were made to silence Him—false witnesses, political pressure, ultimately crucifixion—He could not be destroyed. His death became the very means of His word being spread to all the world. What enemies meant to end became the gospel reaching to the ends of the earth. The word that could not be burned finds its fullest expression in Christ, who cannot be contained or destroyed.',
+          html: 'Jesus is called "the Word of God" in John&apos;s gospel. He is the living embodiment of all that God speaks. And though attempts were made to silence Him—false witnesses, political pressure, ultimately crucifixion—He could not be destroyed. His death became the very means of His word being spread to all the world. What enemies meant to end became the gospel reaching to the ends of the earth. The word that could not be burned finds its fullest expression in Christ, who cannot be contained or destroyed.',
         },
         {
           kind: 'carry',
@@ -78,7 +74,24 @@ export const JEREMIAH_36: RichChapterContent = {
     quote: 'The word of the Lord endureth for ever. Take thee again another roll, and write in it all the former words...and moreover, add unto it many other words like unto them.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Jeremiah 36 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'bibleodyssey-jeremiah',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Jeremiah',
+      url: 'https://www.bibleodyssey.org/passages/main-articles/jeremiah/',
+      description: 'Peer-reviewed SBL entry on the prophet Jeremiah and his historical context.',
+    },
+    {
+      id: 'jer31-hebrews-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Jeremiah 31 ↔ Hebrews 8:8–12',
+      url: 'https://intertextual.bible/text/jeremiah-31/hebrews-8',
+      description: 'Side-by-side comparison of the new covenant promise in Jeremiah quoted in Hebrews.',
+    }
+  ],
 
   hasHebrew: false,
 };

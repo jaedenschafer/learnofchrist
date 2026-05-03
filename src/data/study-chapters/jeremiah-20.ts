@@ -79,8 +79,7 @@ export const JEREMIAH_20: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer20-pashur',
-          html:
-            'Pashur, chief priest, smites Jeremiah for prophesying. It is an act of authority wielded against truth. Jeremiah responds, not with recrimination, but with a new name for Pashur: "Magor-missabib," meaning "Terror on every side." The name is itself a prophecy — Pashur will become a terror to himself and his friends. The priest who tried to silence the prophet will be silenced by terror.',
+          html: 'Pashur, chief priest, smites Jeremiah for prophesying. It is an act of authority wielded against truth. Jeremiah responds, not with recrimination, but with a new name for Pashur: "Magor-missabib," meaning "Terror on every side." The name is itself a prophecy — Pashur will become a terror to himself and his friends. The priest who tried to silence the prophet will be silenced by terror[res:babylonian-chronicle].',
         },
         {
           kind: 'hebrew',
@@ -93,8 +92,7 @@ export const JEREMIAH_20: RichChapterContent = {
         },
         {
           kind: 'carry',
-          html:
-            'Those who try to silence truth do not succeed; they only multiply their own terror. Pashur thought he could stop Jeremiah by putting him in the stocks. But the word of God cannot be contained. And his attempt to silence truth becomes the occasion for his own judgment.',
+          html: 'Those who try to silence truth do not succeed; they only multiply their own terror. Pashur thought he could stop Jeremiah by putting him in the stocks. But the word of God cannot be contained. And his attempt to silence truth becomes the occasion for his own judgment.',
         },
         {
           kind: 'reflection',
@@ -144,19 +142,16 @@ export const JEREMIAH_20: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer20-burning-fire',
-          html:
-            'Jeremiah has decided not to speak anymore — the reproach and derision are too much. But he cannot keep silent. The word burns within him like a fire shut up in his bones. He is "weary with forbearing" — exhausted from trying to contain it. The word of God is not a burden he can set down; it is a burning that consumes him.',
+          html: 'Jeremiah has decided not to speak anymore — the reproach and derision are too much. But he cannot keep silent. The word burns within him like a fire shut up in his bones. He is "weary with forbearing" — exhausted from trying to contain it. The word of God is not a burden he can set down; it is a burning that consumes him[res:jer31-hebrews-intertextual].',
         },
         {
           kind: 'commentary',
           id: 'jer20-fear-on-every-side',
-          html:
-            'Jeremiah hears "defaming of many, fear on every side" — the phrase echoes back to Pashur&apos;s name, Magor-missabib. Those who oppose Jeremiah are themselves living in fear, suspicion, and defamation. They plot against him, watching for him to stumble so they can take their revenge.',
+          html: 'Jeremiah hears "defaming of many, fear on every side" — the phrase echoes back to Pashur&apos;s name, Magor-missabib. Those who oppose Jeremiah are themselves living in fear, suspicion, and defamation. They plot against him, watching for him to stumble so they can take their revenge[res:lachish-letters].',
         },
         {
           kind: 'carry',
-          html:
-            'The prophet experiences both the compulsion of the word and the suffering it brings. Jeremiah wants to stop prophesying, but he cannot. The word is a fire that consumes him from within. And we who have tasted the word of God in our own hearts know this experience — we may be exhausted by speaking truth, but silence becomes impossible. The word burns.',
+          html: 'The prophet experiences both the compulsion of the word and the suffering it brings. Jeremiah wants to stop prophesying, but he cannot. The word is a fire that consumes him from within. And we who have tasted the word of God in our own hearts know this experience — we may be exhausted by speaking truth, but silence becomes impossible. The word burns.',
         },
         {
           kind: 'reflection',
@@ -198,8 +193,7 @@ export const JEREMIAH_20: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer20-mighty-terrible',
-          html:
-            'In the midst of his suffering, Jeremiah returns to trust. "The Lord is with me as a mighty terrible one." The same God who gives the burning word is present to protect the prophet. The persecutors will stumble; they will not prevail. Their shame will be everlasting.',
+          html: 'In the midst of his suffering, Jeremiah returns to trust. "The Lord is with me as a mighty terrible one." The same God who gives the burning word is present to protect the prophet. The persecutors will stumble; they will not prevail. Their shame will be everlasting.',
         },
         {
           kind: 'commentary',
@@ -309,5 +303,30 @@ export const JEREMIAH_20: RichChapterContent = {
         },
       ],
     },
+  ],  resources: [
+    {
+      id: 'babylonian-chronicle',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Babylonian Chronicle (Jerusalem siege)',
+      url: 'https://www.britishmuseum.org/collection/object/Y_EA25091',
+      description: 'Cuneiform tablet documenting the Babylonian assault on Jerusalem in 597 and 587 BCE.',
+    },
+    {
+      id: 'jer31-hebrews-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Jeremiah 31 ↔ Hebrews 8:8–12',
+      url: 'https://intertextual.bible/text/jeremiah-31/hebrews-8',
+      description: 'Side-by-side comparison of the new covenant promise in Jeremiah quoted in Hebrews.',
+    },
+    {
+      id: 'lachish-letters',
+      kind: 'archaeology',
+      source: 'Israel Museum',
+      label: 'Lachish Letters',
+      url: 'https://www.imj.org.il/en/collections/lachish-letters',
+      description: 'Ancient inscribed potsherds from the Judean siege of Lachish (587 BCE), contemporary with Jeremiah.',
+    }
   ],
 };

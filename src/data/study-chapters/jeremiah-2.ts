@@ -43,8 +43,7 @@ export const JEREMIAH_2: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer2-remembrance-to-accusation',
-          html:
-            'God remembers the kindness and love of Israel&apos;s youth—when they followed Him in the wilderness, when they were holy to the Lord, when they asked "Where is the Lord?" Now comes the turning point: from what God has done for them, to what they have done with what they were given.',
+          html: 'God remembers the kindness and love of Israel&apos;s youth—when they followed Him in the wilderness, when they were holy to the Lord, when they asked "Where is the Lord?" Now comes the turning point: from what God has done for them, to what they have done with what they were given[res:bibleodyssey-jeremiah].',
         },
         {
           kind: 'scripture',
@@ -58,8 +57,7 @@ export const JEREMIAH_2: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jeremiah-2-78mid-1',
-          html:
-            'After God states He will plead "with your children&apos;s children," the tone shifts from appeal to the hard evidence of Israel&apos;s ruin.',
+          html: 'After God states He will plead "with your children&apos;s children," the tone shifts from appeal to the hard evidence of Israel&apos;s ruin[res:lachish-letters].',
         },
         {
           kind: 'scripture',
@@ -74,7 +72,7 @@ export const JEREMIAH_2: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer2-remember',
-          html: 'God begins by remembering the kindness and love of Israel&apos;s youth. This memory is not meant to shame but to remind. God recalls that early moment when Israel was newly formed as a people, when they followed Him through the wilderness. At that time, Israel was holy to the Lord, set apart as a people of God. The memory serves as a baseline against which the present fall is measured.',
+          html: 'God begins by remembering the kindness and love of Israel&apos;s youth. This memory is not meant to shame but to remind. God recalls that early moment when Israel was newly formed as a people, when they followed Him through the wilderness. At that time, Israel was holy to the Lord, set apart as a people of God. The memory serves as a baseline against which the present fall is measured[res:sefaria-jeremiah].',
         },
         {
           kind: 'hebrew',
@@ -173,7 +171,32 @@ export const JEREMIAH_2: RichChapterContent = {
     quote: 'My people have committed two evils; they have forsaken me the fountain of living waters, and hewed them out cisterns, broken cisterns, that can hold no water.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Jeremiah 2 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'bibleodyssey-jeremiah',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Jeremiah',
+      url: 'https://www.bibleodyssey.org/passages/main-articles/jeremiah/',
+      description: 'Peer-reviewed SBL entry on the prophet Jeremiah and his historical context.',
+    },
+    {
+      id: 'lachish-letters',
+      kind: 'archaeology',
+      source: 'Israel Museum',
+      label: 'Lachish Letters',
+      url: 'https://www.imj.org.il/en/collections/lachish-letters',
+      description: 'Ancient inscribed potsherds from the Judean siege of Lachish (587 BCE), contemporary with Jeremiah.',
+    },
+    {
+      id: 'sefaria-jeremiah',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jeremiah',
+      url: 'https://www.sefaria.org/Jeremiah',
+      description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
+    }
+  ],
 
   hasHebrew: true,
 };

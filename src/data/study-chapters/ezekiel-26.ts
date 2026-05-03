@@ -43,14 +43,12 @@ export const EZEKIEL_26: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezek26-tyre-proud',
-          html:
-            'Tyre gloats over Jerusalem&apos;s destruction. "She is broken that was the gates of the people: she is turned unto me: I shall be replenished." Tyre sees Jerusalem&apos;s fall as opportunity for herself. She will capture Jerusalem&apos;s trade, her wealth. But in this moment of triumph, Tyre reveals her own blindness. She does not see the hand of God moving. She sees only her own advantage.',
+          html: 'Tyre gloats over Jerusalem&apos;s destruction. "She is broken that was the gates of the people: she is turned unto me: I shall be replenished." Tyre sees Jerusalem&apos;s fall as opportunity for herself. She will capture Jerusalem&apos;s trade, her wealth. But in this moment of triumph, Tyre reveals her own blindness. She does not see the hand of God moving. She sees only her own advantage[res:babylonian-exile-context].',
         },
         {
           kind: 'commentary',
           id: 'ezek26-destruction',
-          html:
-            'And God promises destruction. "I will cause many nations to come up against thee, as the sea causeth his waves to come up." The language is of overwhelming force—like waves, they will come. Walls will be broken. Towers will fall. The city that brought riches from all the earth will be scraped bare. "I will make her like the top of a rock"—a barren stone where nothing can grow, where the only use is for fishermen to spread their nets.',
+          html: 'And God promises destruction. "I will cause many nations to come up against thee, as the sea causeth his waves to come up." The language is of overwhelming force—like waves, they will come. Walls will be broken. Towers will fall. The city that brought riches from all the earth will be scraped bare. "I will make her like the top of a rock"—a barren stone where nothing can grow, where the only use is for fishermen to spread their nets[res:gog-magog-bibleodyssey].',
         },
         {
           kind: 'hebrew',
@@ -88,26 +86,22 @@ export const EZEKIEL_26: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezek26-princes-weep',
-          html:
-            'The princes of the sea will weep. These are the neighboring city-states, the trading partners, those who depended on Tyre&apos;s wealth and power. They remove their robes of office, clothe themselves with trembling, sit on the ground in the gesture of deepest mourning. Tyre&apos;s fall is not merely a local calamity. It shakes the whole trading world. What was stable becomes unstable. What was permanent becomes desolate.',
+          html: 'The princes of the sea will weep. These are the neighboring city-states, the trading partners, those who depended on Tyre&apos;s wealth and power. They remove their robes of office, clothe themselves with trembling, sit on the ground in the gesture of deepest mourning. Tyre&apos;s fall is not merely a local calamity. It shakes the whole trading world. What was stable becomes unstable. What was permanent becomes desolate[res:tyre-archaeology].',
         },
         {
           kind: 'commentary',
           id: 'ezek26-terror',
-          html:
-            '"I will make thee a terror, and thou shalt be no more." Tyre will become a warning—the example of pride brought low. She sought to be of perfect beauty. Instead, she becomes a terror—a monument to what happens when the pride of human achievement is confronted by the God who alone endures.',
+          html: '"I will make thee a terror, and thou shalt be no more." Tyre will become a warning—the example of pride brought low. She sought to be of perfect beauty. Instead, she becomes a terror—a monument to what happens when the pride of human achievement is confronted by the God who alone endures.',
         },
         {
           kind: 'christ',
           id: 'ezek26-christ-glory',
           title: 'Christ Connection — The Glory That Endures',
-          html:
-            'Ezekiel contrasts Tyre&apos;s desolation with God&apos;s promise: "I shall set glory in the land of the living." Human glory, built on wealth and power, passes away. But the glory of God—revealed in Christ, His self-giving love, His willingness to empty Himself—this glory endures. Jesus emptied Himself, surrendered earthly glory, and in doing so revealed the only glory that matters: the glory of God.',
+          html: 'Ezekiel contrasts Tyre&apos;s desolation with God&apos;s promise: "I shall set glory in the land of the living." Human glory, built on wealth and power, passes away. But the glory of God—revealed in Christ, His self-giving love, His willingness to empty Himself—this glory endures. Jesus emptied Himself, surrendered earthly glory, and in doing so revealed the only glory that matters: the glory of God.',
         },
         {
           kind: 'carry',
-          html:
-            'We live in a world that celebrates Tyre&apos;s virtues: power, wealth, beauty, the achievement of human ambition. But Ezekiel reminds us: such glory is fragile. It can be swept away like water. Only the glory of God—manifest in humility, in self-giving, in covenant fidelity—endures. Where are you building? On the rock of human pride? Or on the rock of God?',
+          html: 'We live in a world that celebrates Tyre&apos;s virtues: power, wealth, beauty, the achievement of human ambition. But Ezekiel reminds us: such glory is fragile. It can be swept away like water. Only the glory of God—manifest in humility, in self-giving, in covenant fidelity—endures. Where are you building? On the rock of human pride? Or on the rock of God?',
         },
         {
           kind: 'reflection',
@@ -122,7 +116,32 @@ export const EZEKIEL_26: RichChapterContent = {
     quote: 'Thus saith the Lord God to Tyrus; Shall not the isles shake at the sound of thy fall, when the wounded cry, when the slaughter is made in the midst of thee?',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Ezekiel 26 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'babylonian-exile-context',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Babylonian Exile Context',
+      url: 'https://www.britishmuseum.org/collection/object/W_Y_EA25091',
+      description: 'Cuneiform and archaeological evidence of Babylon under Nebuchadnezzar.',
+    },
+    {
+      id: 'gog-magog-bibleodyssey',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Gog and Magog',
+      url: 'https://www.bibleodyssey.org/dictionary/gog/',
+      description: 'SBL entry on the mysterious Gog figure in Ezekiel and Revelation.',
+    },
+    {
+      id: 'tyre-archaeology',
+      kind: 'archaeology',
+      source: 'Israel Museum / ToposText',
+      label: 'Tyre Archaeology (Ezek 26-28)',
+      url: 'https://www.imj.org.il/en',
+      description: 'Archaeological record of ancient Tyre, subject of Ezekiel&apos;s prophecies.',
+    }
+  ],
 
   hasHebrew: true,
 };

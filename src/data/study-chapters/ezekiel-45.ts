@@ -38,14 +38,12 @@ export const EZEKIEL_45: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezekiel45-sacred',
-          html:
-            'The sacred portion is listed first. Before the prince&apos;s land, before the people&apos;s inheritance, God&apos;s sanctuary and the priests&apos; dwellings are allocated. This is the proper order of priorities: God first, then His servants, then the people.',
+          html: 'The sacred portion is listed first. Before the prince&apos;s land, before the people&apos;s inheritance, God&apos;s sanctuary and the priests&apos; dwellings are allocated. This is the proper order of priorities: God first, then His servants, then the people[res:bibleodyssey-ezekiel].',
         },
         {
           kind: 'commentary',
           id: 'ezekiel45-prince',
-          html:
-            'The prince is given a portion, but not arbitrary power over all the land. He receives what is designated for him. And the critical statement: "my princes shall no more oppress my people." The renewal includes reform of leadership. Princes are appointed to serve, not to plunder.',
+          html: 'The prince is given a portion, but not arbitrary power over all the land. He receives what is designated for him. And the critical statement: "my princes shall no more oppress my people." The renewal includes reform of leadership. Princes are appointed to serve, not to plunder[res:ezekiel-revelation-intertextual].',
         },
         {
           kind: 'hebrew',
@@ -60,13 +58,11 @@ export const EZEKIEL_45: RichChapterContent = {
           kind: 'christ',
           id: 'ezekiel45-christ-inheritance',
           title: 'Christ Connection — Christ the Inheritance',
-          html:
-            'In Ephesians 1:11, Paul writes that believers "have obtained an inheritance." Christ is our portion. The land, the provision, the security—all are found in union with Him. He is both the prince who serves and the inheritance that sustains.',
+          html: 'In Ephesians 1:11, Paul writes that believers "have obtained an inheritance." Christ is our portion. The land, the provision, the security—all are found in union with Him. He is both the prince who serves and the inheritance that sustains.',
         },
         {
           kind: 'carry',
-          html:
-            'In a just society, the sacred is honored, leaders serve without oppression, and all people are given their rightful portion. These are not ideals that have been fully realized in any earthly kingdom. But they remain God&apos;s vision of what His order looks like.',
+          html: 'In a just society, the sacred is honored, leaders serve without oppression, and all people are given their rightful portion. These are not ideals that have been fully realized in any earthly kingdom. But they remain God&apos;s vision of what His order looks like.',
         },
         {
           kind: 'reflection',
@@ -120,7 +116,24 @@ export const EZEKIEL_45: RichChapterContent = {
     quote: 'My princes shall no more oppress my people; and the rest of the land shall they give to the house of Israel.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Ezekiel 45 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'bibleodyssey-ezekiel',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Ezekiel',
+      url: 'https://www.bibleodyssey.org/passages/main-articles/ezekiel/',
+      description: 'Peer-reviewed SBL entry on the prophet Ezekiel and the Babylonian exile.',
+    },
+    {
+      id: 'ezekiel-revelation-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Ezekiel Temple Vision ↔ Revelation 21-22',
+      url: 'https://intertextual.bible/text/ezekiel-40/revelation-21',
+      description: 'Side-by-side comparison of Ezekiel&apos;s temple vision and John&apos;s new creation.',
+    }
+  ],
 
   hasHebrew: true,
 };

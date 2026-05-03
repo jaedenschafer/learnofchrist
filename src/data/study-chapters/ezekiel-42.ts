@@ -37,14 +37,12 @@ export const EZEKIEL_42: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezekiel42-chambers',
-          html:
-            'The chambers are designated as holy. They are not ordinary residences. They are where sacred service is conducted, where holy things are stored and prepared. To dwell here is to accept the consecration that comes with serving God.',
+          html: 'The chambers are designated as holy. They are not ordinary residences. They are where sacred service is conducted, where holy things are stored and prepared. To dwell here is to accept the consecration that comes with serving God[res:babylonian-exile-context].',
         },
         {
           kind: 'commentary',
           id: 'ezekiel42-eat-holy',
-          html:
-            'The priests will eat "the most holy things" in these chambers. This is not mere sustenance. This is participation in the holy offerings, the nourishment that comes from God&apos;s provision and the priest&apos;s service. To eat in these chambers is to be sustained by your calling.',
+          html: 'The priests will eat "the most holy things" in these chambers. This is not mere sustenance. This is participation in the holy offerings, the nourishment that comes from God&apos;s provision and the priest&apos;s service. To eat in these chambers is to be sustained by your calling[res:gog-magog-bibleodyssey].',
         },
         {
           kind: 'hebrew',
@@ -59,13 +57,11 @@ export const EZEKIEL_42: RichChapterContent = {
           kind: 'christ',
           id: 'ezekiel42-christ-priests',
           title: 'Christ Connection — Priests in Christ',
-          html:
-            'In 1 Peter 2:9, Peter writes: "Ye are a chosen generation, a royal priesthood, an holy nation, a peculiar people." Every believer is now a priest, dwelling in holy space, set apart for God&apos;s service. The separation between priest and people, so carefully maintained in the old temple, is broken down in Christ. All are sanctified.',
+          html: 'In 1 Peter 2:9, Peter writes: "Ye are a chosen generation, a royal priesthood, an holy nation, a peculiar people." Every believer is now a priest, dwelling in holy space, set apart for God&apos;s service. The separation between priest and people, so carefully maintained in the old temple, is broken down in Christ. All are sanctified.',
         },
         {
           kind: 'carry',
-          html:
-            'If you serve God—whether in ministry, in work, in family, or in any calling—these chambers are for you. God makes provision for those who serve Him. You are not left unsupported. Your labor is recognized, your dwelling place is holy, and your sustenance comes from the holy things of God.',
+          html: 'If you serve God—whether in ministry, in work, in family, or in any calling—these chambers are for you. God makes provision for those who serve Him. You are not left unsupported. Your labor is recognized, your dwelling place is holy, and your sustenance comes from the holy things of God.',
         },
         {
           kind: 'reflection',
@@ -80,7 +76,24 @@ export const EZEKIEL_42: RichChapterContent = {
     quote: 'They be holy chambers, where the priests that approach unto the Lord shall eat the most holy things.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Ezekiel 42 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'babylonian-exile-context',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Babylonian Exile Context',
+      url: 'https://www.britishmuseum.org/collection/object/W_Y_EA25091',
+      description: 'Cuneiform and archaeological evidence of Babylon under Nebuchadnezzar.',
+    },
+    {
+      id: 'gog-magog-bibleodyssey',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Gog and Magog',
+      url: 'https://www.bibleodyssey.org/dictionary/gog/',
+      description: 'SBL entry on the mysterious Gog figure in Ezekiel and Revelation.',
+    }
+  ],
 
   hasHebrew: true,
 };

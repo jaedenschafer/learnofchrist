@@ -41,8 +41,7 @@ export const JEREMIAH_14: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer14-famine-drought',
-          html:
-            'Jeremiah moves from describing famine and sword to the deeper drought of meaning. Physical deprivation becomes spiritual emptiness.',
+          html: 'Jeremiah moves from describing famine and sword to the deeper drought of meaning. Physical deprivation becomes spiritual emptiness[res:bibleodyssey-jeremiah].',
         },
         {
           kind: 'scripture',
@@ -58,7 +57,7 @@ export const JEREMIAH_14: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer14-false',
-          html: 'God&apos;s diagnosis is devastating: "The prophets prophesy lies in my name." They claim to speak for God, but they do not. God has not sent them. He has not commanded them. They speak lies—a "false vision and divination." They are not merely mistaken; they are deliberately deceiving the people, speaking "the deceit of their heart"—their own desires, not God&apos;s truth.',
+          html: 'God&apos;s diagnosis is devastating: "The prophets prophesy lies in my name." They claim to speak for God, but they do not. God has not sent them. He has not commanded them. They speak lies—a "false vision and divination." They are not merely mistaken; they are deliberately deceiving the people, speaking "the deceit of their heart"—their own desires, not God&apos;s truth[res:jer31-hebrews-intertextual].',
         },
         {
           kind: 'hebrew',
@@ -71,7 +70,7 @@ export const JEREMIAH_14: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer14-sword-famine',
-          html: 'The false prophets promise: "Ye shall not see the sword, neither shall ye have famine; but I will give you assured peace in this place." This is the classic promise of the false prophet—peace when God is about to bring judgment. These prophets are telling the people what they want to hear, not what they need to hear. The people would much rather believe that judgment is not coming than prepare for it.',
+          html: 'The false prophets promise: "Ye shall not see the sword, neither shall ye have famine; but I will give you assured peace in this place." This is the classic promise of the false prophet—peace when God is about to bring judgment. These prophets are telling the people what they want to hear, not what they need to hear. The people would much rather believe that judgment is not coming than prepare for it[res:sefaria-jeremiah].',
         },
         {
           kind: 'commentary',
@@ -139,7 +138,32 @@ export const JEREMIAH_14: RichChapterContent = {
     quote: 'The prophets prophesy lies in my name: I sent them not, neither have I commanded them, neither spake unto them: they prophesy unto you a false vision and divination.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Jeremiah 14 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'bibleodyssey-jeremiah',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Jeremiah',
+      url: 'https://www.bibleodyssey.org/passages/main-articles/jeremiah/',
+      description: 'Peer-reviewed SBL entry on the prophet Jeremiah and his historical context.',
+    },
+    {
+      id: 'jer31-hebrews-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Jeremiah 31 ↔ Hebrews 8:8–12',
+      url: 'https://intertextual.bible/text/jeremiah-31/hebrews-8',
+      description: 'Side-by-side comparison of the new covenant promise in Jeremiah quoted in Hebrews.',
+    },
+    {
+      id: 'sefaria-jeremiah',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jeremiah',
+      url: 'https://www.sefaria.org/Jeremiah',
+      description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
+    }
+  ],
 
   hasHebrew: true,
 };

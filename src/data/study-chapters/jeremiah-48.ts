@@ -37,13 +37,11 @@ export const JEREMIAH_48: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer48-cities',
-          html:
-            'God names specific Moabite cities: Nebo, Kirjaim, Misgab. Each is "spoiled," "confounded," "dismayed." The word is not abstract or distant. It touches real places where real people live. The effect is to make the judgment concrete and inescapable. No city will escape. The valley will perish. The plain will be destroyed. This is comprehensive devastation.',
+          html: 'God names specific Moabite cities: Nebo, Kirjaim, Misgab. Each is "spoiled," "confounded," "dismayed." The word is not abstract or distant. It touches real places where real people live. The effect is to make the judgment concrete and inescapable. No city will escape. The valley will perish. The plain will be destroyed. This is comprehensive devastation[res:babylonian-chronicle].',
         },
         {
           kind: 'carry',
-          html:
-            'The scope and inevitability of judgment in this passage is striking. No city escapes. No valley is spared. No plain remains. There is a totality to God&apos;s judgment on those who resist His purposes. Yet the point extends beyond the historical judgment on Moab. What areas of your life are you defending against God&apos;s claim? Where are you trying to escape judgment?',
+          html: 'The scope and inevitability of judgment in this passage is striking. No city escapes. No valley is spared. No plain remains. There is a totality to God&apos;s judgment on those who resist His purposes. Yet the point extends beyond the historical judgment on Moab. What areas of your life are you defending against God&apos;s claim? Where are you trying to escape judgment?',
         },
         {
           kind: 'reflection',
@@ -68,14 +66,12 @@ export const JEREMIAH_48: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer48-deceitfully',
-          html:
-            'This verse is often misunderstood. To "do the work of the Lord deceitfully" means to serve God with reservations, with half-measures, with an eye toward personal advantage. It means to say "yes" with your mouth while your heart holds back. It means to commit superficially while remaining uncommitted at the core. God curses such divided service. He will have wholehearted devotion or nothing at all.',
+          html: 'This verse is often misunderstood. To "do the work of the Lord deceitfully" means to serve God with reservations, with half-measures, with an eye toward personal advantage. It means to say "yes" with your mouth while your heart holds back. It means to commit superficially while remaining uncommitted at the core. God curses such divided service. He will have wholehearted devotion or nothing at all[res:jer31-hebrews-intertextual].',
         },
         {
           kind: 'commentary',
           id: 'jer48-sword',
-          html:
-            'To "keep back his sword from blood" means to refrain from the full commitment that God&apos;s service demands. It means to draw back in fear, to be cautious, to reserve one&apos;s strength. In the context of warfare and judgment, the sword represents the full force of one&apos;s commitment. To keep it back is to be half-hearted. And God says such half-heartedness is itself cursed.',
+          html: 'To "keep back his sword from blood" means to refrain from the full commitment that God&apos;s service demands. It means to draw back in fear, to be cautious, to reserve one&apos;s strength. In the context of warfare and judgment, the sword represents the full force of one&apos;s commitment. To keep it back is to be half-hearted. And God says such half-heartedness is itself cursed.',
         },
         {
           kind: 'hebrew',
@@ -111,5 +107,22 @@ export const JEREMIAH_48: RichChapterContent = {
     quote: 'Cursed be he that doeth the work of the Lord deceitfully, and cursed be he that keepeth back his sword from blood.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Jeremiah 48 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'babylonian-chronicle',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Babylonian Chronicle (Jerusalem siege)',
+      url: 'https://www.britishmuseum.org/collection/object/Y_EA25091',
+      description: 'Cuneiform tablet documenting the Babylonian assault on Jerusalem in 597 and 587 BCE.',
+    },
+    {
+      id: 'jer31-hebrews-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Jeremiah 31 ↔ Hebrews 8:8–12',
+      url: 'https://intertextual.bible/text/jeremiah-31/hebrews-8',
+      description: 'Side-by-side comparison of the new covenant promise in Jeremiah quoted in Hebrews.',
+    }
+  ],
 };

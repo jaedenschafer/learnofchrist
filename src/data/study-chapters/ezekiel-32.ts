@@ -38,14 +38,12 @@ export const EZEKIEL_32: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezekiel32-dragon',
-          html:
-            'Pharaoh is a dragon, a leviathan of the sea—a creature of chaos and ancient power. He muddies the waters with his feet, claiming dominion over all he touches. His very presence is a disturbance to creation. But God will catch him in a net, drag him from the sea, and leave him for the carrion birds. The imagery is deliberately degrading. The mighty are made monstrous and then destroyed, their bodies left to rot unhonored.',
+          html: 'Pharaoh is a dragon, a leviathan of the sea—a creature of chaos and ancient power. He muddies the waters with his feet, claiming dominion over all he touches. His very presence is a disturbance to creation. But God will catch him in a net, drag him from the sea, and leave him for the carrion birds. The imagery is deliberately degrading. The mighty are made monstrous and then destroyed, their bodies left to rot unhonored[res:bibleodyssey-ezekiel].',
         },
         {
           kind: 'commentary',
           id: 'ezekiel32-net',
-          html:
-            'The net is not thrown by God alone, but by "a company of many people." Here we see how judgment works in history. God does not always strike directly. He allows human powers to rise against their enemies, allows the turning of the political wheel, and in that turning, His judgment is enacted. Pharaoh will be caught not by miracle, but by the machinery of history itself—the very machinery he thought he could control.',
+          html: 'The net is not thrown by God alone, but by "a company of many people." Here we see how judgment works in history. God does not always strike directly. He allows human powers to rise against their enemies, allows the turning of the political wheel, and in that turning, His judgment is enacted. Pharaoh will be caught not by miracle, but by the machinery of history itself—the very machinery he thought he could control[res:gog-magog-bibleodyssey].',
         },
         {
           kind: 'hebrew',
@@ -60,13 +58,11 @@ export const EZEKIEL_32: RichChapterContent = {
           kind: 'christ',
           id: 'ezekiel32-christ-final',
           title: 'Christ Connection — All Nations Face Judgment',
-          html:
-            'In Matthew 25, Christ sits in judgment over all the nations, separating them as a shepherd separates sheep from goats. The criterion is simple: how did you treat the hungry, the stranger, the prisoner, the sick? Christ is the judge before whom even emperors must stand. Like Pharaoh, every nation, every ruler, every heart will one day answer. But unlike Pharaoh, those who have lived toward Christ and His kingdom will hear "Come, ye blessed of my Father."',
+          html: 'In Matthew 25, Christ sits in judgment over all the nations, separating them as a shepherd separates sheep from goats. The criterion is simple: how did you treat the hungry, the stranger, the prisoner, the sick? Christ is the judge before whom even emperors must stand. Like Pharaoh, every nation, every ruler, every heart will one day answer. But unlike Pharaoh, those who have lived toward Christ and His kingdom will hear "Come, ye blessed of my Father."',
         },
         {
           kind: 'carry',
-          html:
-            'The temptation to believe that earthly power is permanent is ever-present. We live under rulers. We see empires rise. We assume they will stand forever. But Egypt is gone. Pharaoh is dust. His riches, his armies, his dominion—all of it returned to nothing. This is not a counsel to despair, but to perspective. Where is your trust? In what will not last, or in what cannot fall?',
+          html: 'The temptation to believe that earthly power is permanent is ever-present. We live under rulers. We see empires rise. We assume they will stand forever. But Egypt is gone. Pharaoh is dust. His riches, his armies, his dominion—all of it returned to nothing. This is not a counsel to despair, but to perspective. Where is your trust? In what will not last, or in what cannot fall?',
         },
         {
           kind: 'reflection',
@@ -93,14 +89,12 @@ export const EZEKIEL_32: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezekiel32-sheol',
-          html:
-            'Sheol in biblical thinking is the place of the dead—not heaven or hell in the Christian sense, but the grave, the place where all souls go. Ezekiel&apos;s vision populates it with the great kingdoms of history: Assyria, Elam, Sidon, Egypt. All of them are there, lying in rows of stone, uncircumcised (a sign of shame and separation from Israel&apos;s covenant), slain by the sword.',
+          html: 'Sheol in biblical thinking is the place of the dead—not heaven or hell in the Christian sense, but the grave, the place where all souls go. Ezekiel&apos;s vision populates it with the great kingdoms of history: Assyria, Elam, Sidon, Egypt. All of them are there, lying in rows of stone, uncircumcised (a sign of shame and separation from Israel&apos;s covenant), slain by the sword[res:sefaria-ezekiel].',
         },
         {
           kind: 'commentary',
           id: 'ezekiel32-comforted',
-          html:
-            'The word "comforted" here is grim. Pharaoh, descending to Sheol and seeing all the mighty nations before him, will be "comforted" in the sense that he will understand his fall is not unique. All the great are brought low. All the proud are brought to silence. It is a dark comfort—the comfort of knowing you are not alone in your ruin.',
+          html: 'The word "comforted" here is grim. Pharaoh, descending to Sheol and seeing all the mighty nations before him, will be "comforted" in the sense that he will understand his fall is not unique. All the great are brought low. All the proud are brought to silence. It is a dark comfort—the comfort of knowing you are not alone in your ruin.',
         },
         {
           kind: 'carry',
@@ -120,7 +114,32 @@ export const EZEKIEL_32: RichChapterContent = {
     quote: 'Pharaoh shall see them, and shall be comforted over all his multitude, even Pharaoh and all his army slain by the sword.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Ezekiel 32 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'bibleodyssey-ezekiel',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Ezekiel',
+      url: 'https://www.bibleodyssey.org/passages/main-articles/ezekiel/',
+      description: 'Peer-reviewed SBL entry on the prophet Ezekiel and the Babylonian exile.',
+    },
+    {
+      id: 'gog-magog-bibleodyssey',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Gog and Magog',
+      url: 'https://www.bibleodyssey.org/dictionary/gog/',
+      description: 'SBL entry on the mysterious Gog figure in Ezekiel and Revelation.',
+    },
+    {
+      id: 'sefaria-ezekiel',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezekiel',
+      url: 'https://www.sefaria.org/Ezekiel',
+      description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
+    }
+  ],
 
   hasHebrew: true,
 };

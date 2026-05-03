@@ -42,14 +42,12 @@ export const EZEKIEL_20: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezek20-chose',
-          html:
-            'God begins by recounting the choosing. "In the day when I chose Israel"—not because of Israel&apos;s merit, but by free election. He swore an oath, made Himself known, declared His intention: to bring them out of Egypt to a land of blessing. He was faithful. He revealed Himself. He kept His word.',
+          html: 'God begins by recounting the choosing. "In the day when I chose Israel"—not because of Israel&apos;s merit, but by free election. He swore an oath, made Himself known, declared His intention: to bring them out of Egypt to a land of blessing. He was faithful. He revealed Himself. He kept His word[res:babylonian-exile-context].',
         },
         {
           kind: 'commentary',
           id: 'ezek20-rebelled',
-          html:
-            'But Israel "rebelled against me, and would not hearken unto me." They did not cast away the idols of Egypt. They clung to the abominations they had seen. Even after God broke the chains of slavery and showed Himself mighty in plague and parting of the sea, Israel held onto false gods. God&apos;s just response would be to pour out fury and accomplish His anger. But He did not. Why? "I wrought for my name&apos;s sake, that it should not be polluted before the heathen."',
+          html: 'But Israel "rebelled against me, and would not hearken unto me." They did not cast away the idols of Egypt. They clung to the abominations they had seen. Even after God broke the chains of slavery and showed Himself mighty in plague and parting of the sea, Israel held onto false gods. God&apos;s just response would be to pour out fury and accomplish His anger. But He did not. Why? "I wrought for my name&apos;s sake, that it should not be polluted before the heathen."[res:sefaria-ezekiel]',
         },
         {
           kind: 'hebrew',
@@ -87,19 +85,16 @@ export const EZEKIEL_20: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezek20-wilderness',
-          html:
-            'Israel comes into the wilderness—a place of stripping down, where there are no resources but what God provides. In this place of dependence, God gives them the Sabbath as a sign of covenant. And in this place, they rebel again. They despise God&apos;s judgments. They pollute His Sabbaths. "Their heart went after their idols." Again, God would be just to pour out His fury. Again, He restrains Himself—for His name&apos;s sake.',
+          html: 'Israel comes into the wilderness—a place of stripping down, where there are no resources but what God provides. In this place of dependence, God gives them the Sabbath as a sign of covenant. And in this place, they rebel again. They despise God&apos;s judgments. They pollute His Sabbaths. "Their heart went after their idols." Again, God would be just to pour out His fury. Again, He restrains Himself—for His name&apos;s sake[res:tyre-archaeology].',
         },
         {
           kind: 'commentary',
           id: 'ezek20-but-wrought',
-          html:
-            'The refrain becomes almost unbearable: "But I wrought for my name&apos;s sake, that it should not be polluted." How many times will this happen? How many times will Israel rebel, and how many times will God stay His hand? Yet that hand falls. "I lifted up my hand...that I would not bring them into the land." A generation dies in the wilderness. God&apos;s patience and God&apos;s judgment are the same thing—both aimed at keeping His people from destroying themselves.',
+          html: 'The refrain becomes almost unbearable: "But I wrought for my name&apos;s sake, that it should not be polluted." How many times will this happen? How many times will Israel rebel, and how many times will God stay His hand? Yet that hand falls. "I lifted up my hand...that I would not bring them into the land." A generation dies in the wilderness. God&apos;s patience and God&apos;s judgment are the same thing—both aimed at keeping His people from destroying themselves.',
         },
         {
           kind: 'carry',
-          html:
-            'God does not minimize Israel&apos;s sin or pretend it has no consequence. But His primary motivation is not their destruction. It is His own faithfulness. He acts "for my name&apos;s sake." This is strange comfort: you matter to God not because you are good, but because His own reputation is bound up with your redemption. He cannot lose you without losing Himself.',
+          html: 'God does not minimize Israel&apos;s sin or pretend it has no consequence. But His primary motivation is not their destruction. It is His own faithfulness. He acts "for my name&apos;s sake." This is strange comfort: you matter to God not because you are good, but because His own reputation is bound up with your redemption. He cannot lose you without losing Himself.',
         },
         {
           kind: 'reflection',
@@ -127,8 +122,7 @@ export const EZEKIEL_20: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezek20-restore',
-          html:
-            'Yet the chronicle does not end in exile. God speaks of gathering, of bringing Israel back to their own land. In that restoration, they will serve Him in His holy mountain. Not as slaves, but as a people returned. God will "accept them"—will accept their offerings and firstfruits, will delight in the aroma of their worship. This is not because they have earned it. It is because God has acted "for my name&apos;s sake."',
+          html: 'Yet the chronicle does not end in exile. God speaks of gathering, of bringing Israel back to their own land. In that restoration, they will serve Him in His holy mountain. Not as slaves, but as a people returned. God will "accept them"—will accept their offerings and firstfruits, will delight in the aroma of their worship. This is not because they have earned it. It is because God has acted "for my name&apos;s sake."',
         },
         {
           kind: 'commentary',
@@ -161,7 +155,32 @@ export const EZEKIEL_20: RichChapterContent = {
     quote: 'I wrought for my name&apos;s sake, that it should not be polluted before the heathen, among whom they were.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Ezekiel 20 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'babylonian-exile-context',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Babylonian Exile Context',
+      url: 'https://www.britishmuseum.org/collection/object/W_Y_EA25091',
+      description: 'Cuneiform and archaeological evidence of Babylon under Nebuchadnezzar.',
+    },
+    {
+      id: 'sefaria-ezekiel',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezekiel',
+      url: 'https://www.sefaria.org/Ezekiel',
+      description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
+    },
+    {
+      id: 'tyre-archaeology',
+      kind: 'archaeology',
+      source: 'Israel Museum / ToposText',
+      label: 'Tyre Archaeology (Ezek 26-28)',
+      url: 'https://www.imj.org.il/en',
+      description: 'Archaeological record of ancient Tyre, subject of Ezekiel&apos;s prophecies.',
+    }
+  ],
 
   hasHebrew: true,
 };

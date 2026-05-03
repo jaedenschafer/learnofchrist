@@ -36,8 +36,7 @@ export const EZEKIEL_7: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'resolve-end-coming',
-          html:
-            '<p>The end comes; no escape, no pity. Yet even in doom, a remnant will know the Lord. Severity awakens faith.</p>',
+          html: '<p>The end comes; no escape, no pity. Yet even in doom, a remnant will know the Lord. Severity awakens faith.</p>[res:babylonian-exile-context]',
         },
         {
           kind: 'scripture',
@@ -52,13 +51,11 @@ export const EZEKIEL_7: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezk7-urgency-final',
-          html:
-            'The repetition of "the end is come" is not poetic embellishment. It is the breaking through of an urgency that will not be denied. Ezekiel announces what Israel has refused to believe: the end of the age as you have known it. This is not a threat that might be averted. It is a reality that is already approaching, already watchful, already arriving. The day of the Lord — a day Israel once hoped for as a day of vindication — comes instead as a day of terror.',
+          html: 'The repetition of "the end is come" is not poetic embellishment. It is the breaking through of an urgency that will not be denied. Ezekiel announces what Israel has refused to believe: the end of the age as you have known it. This is not a threat that might be averted. It is a reality that is already approaching, already watchful, already arriving. The day of the Lord — a day Israel once hoped for as a day of vindication — comes instead as a day of terror[res:ezekiel-revelation-intertextual].',
         },
         {
           kind: 'carry',
-          html:
-            'There comes a time when the possibility of return is foreclosed, when judgment is not pending but present. Ezekiel announces this moment with clarity: the time for amendment is past. Now comes consequence. This is a truth we do not like to contemplate, but it is real. The God of judgment is not less God than the God of mercy. He is the God of both, and there are times when mercy gives way to justice.',
+          html: 'There comes a time when the possibility of return is foreclosed, when judgment is not pending but present. Ezekiel announces this moment with clarity: the time for amendment is past. Now comes consequence. This is a truth we do not like to contemplate, but it is real. The God of judgment is not less God than the God of mercy. He is the God of both, and there are times when mercy gives way to justice.',
         },
         {
           kind: 'reflection',
@@ -85,8 +82,7 @@ export const EZEKIEL_7: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezk7-silver-gold-useless',
-          html:
-            'In the moment of judgment, all the accumulations of peace become worthless. Silver and gold, the tokens of power and security, are cast into the streets like garbage. Why? Because they cannot buy deliverance. They cannot satisfy the soul or fill the belly when destruction comes. Israel has built its confidence on material things — on commerce, on display, on the visible signs of power. And in the day of judgment, all these things reveal their fundamental impotence.',
+          html: 'In the moment of judgment, all the accumulations of peace become worthless. Silver and gold, the tokens of power and security, are cast into the streets like garbage. Why? Because they cannot buy deliverance. They cannot satisfy the soul or fill the belly when destruction comes. Israel has built its confidence on material things — on commerce, on display, on the visible signs of power. And in the day of judgment, all these things reveal their fundamental impotence.',
         },
         {
           kind: 'christ',
@@ -113,7 +109,24 @@ export const EZEKIEL_7: RichChapterContent = {
     quote: '"An end is come, the end is come." — Ezekiel 7:6',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Ezekiel 7 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'babylonian-exile-context',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Babylonian Exile Context',
+      url: 'https://www.britishmuseum.org/collection/object/W_Y_EA25091',
+      description: 'Cuneiform and archaeological evidence of Babylon under Nebuchadnezzar.',
+    },
+    {
+      id: 'ezekiel-revelation-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Ezekiel Temple Vision ↔ Revelation 21-22',
+      url: 'https://intertextual.bible/text/ezekiel-40/revelation-21',
+      description: 'Side-by-side comparison of Ezekiel&apos;s temple vision and John&apos;s new creation.',
+    }
+  ],
 
   hasHebrew: false,
 };

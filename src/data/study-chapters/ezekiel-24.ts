@@ -43,14 +43,12 @@ export const EZEKIEL_24: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezek24-cauldron',
-          html:
-            'Jerusalem is a cauldron filled with the choice of the flock—the best pieces, the shoulder, the thigh. God has provided abundantly. Israel has been fed with the finest offerings. But the cauldron itself is rusted and corrupted. The rust cannot be removed by boiling. It goes deeper than the surface. It is structural corrosion.',
+          html: 'Jerusalem is a cauldron filled with the choice of the flock—the best pieces, the shoulder, the thigh. God has provided abundantly. Israel has been fed with the finest offerings. But the cauldron itself is rusted and corrupted. The rust cannot be removed by boiling. It goes deeper than the surface. It is structural corrosion[res:bibleodyssey-ezekiel].',
         },
         {
           kind: 'commentary',
           id: 'ezek24-melting',
-          html:
-            'The only remedy is to pour out the cauldron empty and let it be heated until its filthiness melts and is consumed. This is not a gentle cleansing. This is total destruction. "Set it empty upon the coals thereof, that the brass of it may be hot, and may be burnt, and that the filthiness of it may be molten in it." The cauldron must be stripped of everything, emptied, and burned to the bare metal. Only then can restoration even be imagined.',
+          html: 'The only remedy is to pour out the cauldron empty and let it be heated until its filthiness melts and is consumed. This is not a gentle cleansing. This is total destruction. "Set it empty upon the coals thereof, that the brass of it may be hot, and may be burnt, and that the filthiness of it may be molten in it." The cauldron must be stripped of everything, emptied, and burned to the bare metal. Only then can restoration even be imagined[res:ezekiel-revelation-intertextual].',
         },
         {
           kind: 'hebrew',
@@ -88,14 +86,12 @@ export const EZEKIEL_24: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezek24-wife-death',
-          html:
-            'God tells Ezekiel that his wife will die—"the desire of thine eyes." This phrase suggests not mere affection, but the deepest love, the beauty that his eyes love to behold. And Ezekiel must not mourn. He must not weep. He must not cover his lips in the gesture of grief. This is not heartlessness. It is sacrifice. Ezekiel&apos;s personal sorrow becomes a prophetic sign.',
+          html: 'God tells Ezekiel that his wife will die—"the desire of thine eyes." This phrase suggests not mere affection, but the deepest love, the beauty that his eyes love to behold. And Ezekiel must not mourn. He must not weep. He must not cover his lips in the gesture of grief. This is not heartlessness. It is sacrifice. Ezekiel&apos;s personal sorrow becomes a prophetic sign.',
         },
         {
           kind: 'commentary',
           id: 'ezek24-sign',
-          html:
-            'Israel will lose "the desire of your eyes"—their temple, their sanctuary, the place where their soul pitieth. The temple is not merely a building. It is the visible sign of God&apos;s presence, the place of sacrifice, the heart of their spiritual life. That too will be destroyed. And they, like Ezekiel, will grieve without comfort. The eating of bread with mourners is forbidden. They will eat alone, in isolation, in deepest grief.',
+          html: 'Israel will lose "the desire of your eyes"—their temple, their sanctuary, the place where their soul pitieth. The temple is not merely a building. It is the visible sign of God&apos;s presence, the place of sacrifice, the heart of their spiritual life. That too will be destroyed. And they, like Ezekiel, will grieve without comfort. The eating of bread with mourners is forbidden. They will eat alone, in isolation, in deepest grief.',
         },
         {
           kind: 'christ',
@@ -122,7 +118,24 @@ export const EZEKIEL_24: RichChapterContent = {
     quote: 'Behold, I take away from thee the desire of thine eyes with a stroke: yet neither shalt thou mourn nor weep, neither shall thy tears run down.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Ezekiel 24 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'bibleodyssey-ezekiel',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Ezekiel',
+      url: 'https://www.bibleodyssey.org/passages/main-articles/ezekiel/',
+      description: 'Peer-reviewed SBL entry on the prophet Ezekiel and the Babylonian exile.',
+    },
+    {
+      id: 'ezekiel-revelation-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Ezekiel Temple Vision ↔ Revelation 21-22',
+      url: 'https://intertextual.bible/text/ezekiel-40/revelation-21',
+      description: 'Side-by-side comparison of Ezekiel&apos;s temple vision and John&apos;s new creation.',
+    }
+  ],
 
   hasHebrew: true,
 };

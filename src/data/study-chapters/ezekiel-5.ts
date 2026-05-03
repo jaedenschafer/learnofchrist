@@ -37,13 +37,11 @@ export const EZEKIEL_5: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezk5-razor-judgment',
-          html:
-            'The razor divides with mathematical precision. One third, one third, one third. Each portion of Ezekiel&apos;s hair is assigned a mode of destruction: fire, wind, sword. This is not chaos. This is judgment administered with proportion and clarity. God is not raging arbitrarily. He is acting according to the measure of Jerusalem&apos;s unfaithfulness. Yet even in the midst of this total judgment, a remnant is saved. A few hairs are bound in Ezekiel&apos;s skirts — and from these, paradoxically, another fire emerges. Not destruction but new beginning.',
+          html: 'The razor divides with mathematical precision. One third, one third, one third. Each portion of Ezekiel&apos;s hair is assigned a mode of destruction: fire, wind, sword. This is not chaos. This is judgment administered with proportion and clarity. God is not raging arbitrarily. He is acting according to the measure of Jerusalem&apos;s unfaithfulness. Yet even in the midst of this total judgment, a remnant is saved. A few hairs are bound in Ezekiel&apos;s skirts — and from these, paradoxically, another fire emerges. Not destruction but new beginning[res:gog-magog-bibleodyssey].',
         },
         {
           kind: 'carry',
-          html:
-            'We live in a God-ordered universe where actions have consequences, where choices matter, where justice is real. But the God who judges is also the God who preserves a remnant. The fire that falls on Jerusalem is not the final word. From the ashes of judgment, God will build again.',
+          html: 'We live in a God-ordered universe where actions have consequences, where choices matter, where justice is real. But the God who judges is also the God who preserves a remnant. The fire that falls on Jerusalem is not the final word. From the ashes of judgment, God will build again.',
         },
         {
           kind: 'reflection',
@@ -71,15 +69,13 @@ export const EZEKIEL_5: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezk5-privileged-accountable',
-          html:
-            'Jerusalem is placed at the center of the nations not as a privilege to be exploited but as a responsibility to be lived. The city that has been given God&apos;s law, God&apos;s temple, God&apos;s covenant — it is precisely this city that has fallen deeper into wickedness than the nations around it. The greater the privilege, the greater the accountability. Jerusalem was meant to be a light to the nations. Instead, it has become a cautionary tale. The judgment is proportionate to the privilege abandoned.',
+          html: 'Jerusalem is placed at the center of the nations not as a privilege to be exploited but as a responsibility to be lived. The city that has been given God&apos;s law, God&apos;s temple, God&apos;s covenant — it is precisely this city that has fallen deeper into wickedness than the nations around it. The greater the privilege, the greater the accountability. Jerusalem was meant to be a light to the nations. Instead, it has become a cautionary tale. The judgment is proportionate to the privilege abandoned[res:tyre-archaeology].',
         },
         {
           kind: 'christ',
           id: 'ezk5-christ-center-judgment',
           title: 'Christ Connection — The Center Made New',
-          html:
-            'Christ comes to a Jerusalem still set at the center of God&apos;s purposes. He comes not to destroy that centering but to redeem it. The temple He speaks of is not the stone structure but His own body — the true center around which all nations will gather. Where Ezekiel saw Jerusalem split into thirds for judgment, the New Testament sees all believers gathered into one body in Christ, the Center who holds all things together.',
+          html: 'Christ comes to a Jerusalem still set at the center of God&apos;s purposes. He comes not to destroy that centering but to redeem it. The temple He speaks of is not the stone structure but His own body — the true center around which all nations will gather. Where Ezekiel saw Jerusalem split into thirds for judgment, the New Testament sees all believers gathered into one body in Christ, the Center who holds all things together.',
         },
         {
           kind: 'carry',
@@ -99,7 +95,24 @@ export const EZEKIEL_5: RichChapterContent = {
     quote: '"Behold, I, even I, am against thee." — Ezekiel 5:8',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Ezekiel 5 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'gog-magog-bibleodyssey',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Gog and Magog',
+      url: 'https://www.bibleodyssey.org/dictionary/gog/',
+      description: 'SBL entry on the mysterious Gog figure in Ezekiel and Revelation.',
+    },
+    {
+      id: 'tyre-archaeology',
+      kind: 'archaeology',
+      source: 'Israel Museum / ToposText',
+      label: 'Tyre Archaeology (Ezek 26-28)',
+      url: 'https://www.imj.org.il/en',
+      description: 'Archaeological record of ancient Tyre, subject of Ezekiel&apos;s prophecies.',
+    }
+  ],
 
   hasHebrew: false,
 };

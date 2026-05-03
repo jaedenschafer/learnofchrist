@@ -66,8 +66,7 @@ export const JEREMIAH_26: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer26-speak-refusal',
-          html:
-            'Jeremiah moves from urging repentance to his own imminent persecution. The prophet&apos;s message meets the people&apos;s rage.',
+          html: 'Jeremiah moves from urging repentance to his own imminent persecution. The prophet&apos;s message meets the people&apos;s rage[res:babylonian-chronicle].',
         },
         {
           kind: 'scripture',
@@ -108,19 +107,16 @@ export const JEREMIAH_26: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer26-diminish-not',
-          html:
-            'God commands Jeremiah to "diminish not a word." Jeremiah must speak the full message, not edit it for palatability or to avoid offense. The message includes the hard word: that the temple will be destroyed, that Jerusalem will become a curse. And when he speaks this word faithfully, he is seized and threatened with death.',
+          html: 'God commands Jeremiah to "diminish not a word." Jeremiah must speak the full message, not edit it for palatability or to avoid offense. The message includes the hard word: that the temple will be destroyed, that Jerusalem will become a curse. And when he speaks this word faithfully, he is seized and threatened with death[res:bibleodyssey-jeremiah].',
         },
         {
           kind: 'commentary',
           id: 'jer26-took-him',
-          html:
-            'The priests and prophets and all the people take him. The crowd turns against him. The message that should bring repentance instead brings persecution. Yet Jeremiah has spoken faithfully. He has not diminished a word.',
+          html: 'The priests and prophets and all the people take him. The crowd turns against him. The message that should bring repentance instead brings persecution. Yet Jeremiah has spoken faithfully. He has not diminished a word[res:sefaria-jeremiah].',
         },
         {
           kind: 'carry',
-          html:
-            'Sometimes faithfulness to God brings not gratitude but danger. The prophets must speak even when speaking brings persecution. The comfort is that God commands it, knows it will happen, and will protect the one who obeys.',
+          html: 'Sometimes faithfulness to God brings not gratitude but danger. The prophets must speak even when speaking brings persecution. The comfort is that God commands it, knows it will happen, and will protect the one who obeys.',
         },
         {
           kind: 'reflection',
@@ -174,8 +170,7 @@ export const JEREMIAH_26: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer26-seized-witness',
-          html:
-            'Jeremiah transitions from his seizers speaking to his life hanging in the balance. From accusation to peril.',
+          html: 'Jeremiah transitions from his seizers speaking to his life hanging in the balance. From accusation to peril.',
         },
         {
           kind: 'scripture',
@@ -216,8 +211,7 @@ export const JEREMIAH_26: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer26-micah',
-          html:
-            'The elders remember Micah, who spoke similar words of judgment against Jerusalem a century earlier — "Zion shall be plowed like a field." Yet Micah was not executed; instead, King Hezekiah feared the Lord and sought His mercy, and God repented of the evil He had pronounced. The precedent is that a prophet speaking God&apos;s word should be heard, not killed.',
+          html: 'The elders remember Micah, who spoke similar words of judgment against Jerusalem a century earlier — "Zion shall be plowed like a field." Yet Micah was not executed; instead, King Hezekiah feared the Lord and sought His mercy, and God repented of the evil He had pronounced. The precedent is that a prophet speaking God&apos;s word should be heard, not killed.',
         },
         {
           kind: 'commentary',
@@ -327,5 +321,30 @@ export const JEREMIAH_26: RichChapterContent = {
         },
       ],
     },
+  ],  resources: [
+    {
+      id: 'babylonian-chronicle',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Babylonian Chronicle (Jerusalem siege)',
+      url: 'https://www.britishmuseum.org/collection/object/Y_EA25091',
+      description: 'Cuneiform tablet documenting the Babylonian assault on Jerusalem in 597 and 587 BCE.',
+    },
+    {
+      id: 'bibleodyssey-jeremiah',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Jeremiah',
+      url: 'https://www.bibleodyssey.org/passages/main-articles/jeremiah/',
+      description: 'Peer-reviewed SBL entry on the prophet Jeremiah and his historical context.',
+    },
+    {
+      id: 'sefaria-jeremiah',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jeremiah',
+      url: 'https://www.sefaria.org/Jeremiah',
+      description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
+    }
   ],
 };

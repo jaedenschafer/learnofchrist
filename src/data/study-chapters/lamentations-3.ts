@@ -42,25 +42,21 @@ export const LAMENTATIONS_3: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'lam3-man-affliction',
-          html:
-            'The opening is starkly personal: "I am the man." Not an abstract report of suffering, but the testimony of one who has endured it. He has been struck by the rod of God&apos;s wrath. He is led into darkness, not light. His body is worn and broken. His bones are shattered. The physical dimension of his suffering is emphasized—he is not merely sad or discouraged, he is bodily broken.',
+          html: 'The opening is starkly personal: "I am the man." Not an abstract report of suffering, but the testimony of one who has endured it. He has been struck by the rod of God&apos;s wrath. He is led into darkness, not light. His body is worn and broken. His bones are shattered. The physical dimension of his suffering is emphasized—he is not merely sad or discouraged, he is bodily broken[res:bibleodyssey-lament].',
         },
         {
           kind: 'commentary',
           id: 'lam3-hedged',
-          html:
-            'God has hedged him about. The image is of a prison, a wall, an enclosure from which there is no escape. His chain is heavy. He is imprisoned not only in place but in his own inability to escape. This is the experience of total bondage. There is no way out.',
+          html: 'God has hedged him about. The image is of a prison, a wall, an enclosure from which there is no escape. His chain is heavy. He is imprisoned not only in place but in his own inability to escape. This is the experience of total bondage. There is no way out[res:sefaria-lamentations].',
         },
         {
           kind: 'commentary',
           id: 'lam3-peace-far',
-          html:
-            'Most devastatingly: "thou hast removed my soul far off from peace." Peace is not merely absent; it is removed. It is distant. The speaker has forgotten what prosperity and peace feel like. All memory of them has been erased by the weight of present suffering.',
+          html: 'Most devastatingly: "thou hast removed my soul far off from peace." Peace is not merely absent; it is removed. It is distant. The speaker has forgotten what prosperity and peace feel like. All memory of them has been erased by the weight of present suffering.',
         },
         {
           kind: 'carry',
-          html:
-            'This passage gives language to depression, despair, and the experience of being trapped. It does not minimize suffering or offer false comfort. It names the reality: the weight is real, the chains are real, the darkness is real. And in that naming, those who suffer find companionship. They are not alone in their despair. Even in scripture, such suffering is acknowledged as real.',
+          html: 'This passage gives language to depression, despair, and the experience of being trapped. It does not minimize suffering or offer false comfort. It names the reality: the weight is real, the chains are real, the darkness is real. And in that naming, those who suffer find companionship. They are not alone in their despair. Even in scripture, such suffering is acknowledged as real.',
         },
         {
           kind: 'reflection',
@@ -183,5 +179,22 @@ export const LAMENTATIONS_3: RichChapterContent = {
     quote: 'It is of the Lord\'s mercies that we are not consumed, because his compassions fail not. They are new every morning: great is thy faithfulness.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Lamentations 3 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'bibleodyssey-lament',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Lament Genre in the Ancient Near East',
+      url: 'https://www.bibleodyssey.org/dictionary/lament/',
+      description: 'SBL entry on lament poetry in ANE literature, including parallels to Lamentations.',
+    },
+    {
+      id: 'sefaria-lamentations',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Lamentations',
+      url: 'https://www.sefaria.org/Lamentations',
+      description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
+    }
+  ],
 };

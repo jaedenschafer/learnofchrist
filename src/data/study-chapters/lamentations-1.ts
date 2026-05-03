@@ -37,19 +37,16 @@ export const LAMENTATIONS_1: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'lam1-solitary',
-          html:
-            'The opening image is desolation personified. Jerusalem sits solitary—the city that was once filled with voices and people, with commerce and movement, now empty. She is like a widow, stripped of her husband&apos;s protection and provision. She who was great among the nations, who held a princess-like status, is now tributary—reduced to paying taxes to conquerors, her sovereignty stripped away.',
+          html: 'The opening image is desolation personified. Jerusalem sits solitary—the city that was once filled with voices and people, with commerce and movement, now empty. She is like a widow, stripped of her husband&apos;s protection and provision. She who was great among the nations, who held a princess-like status, is now tributary—reduced to paying taxes to conquerors, her sovereignty stripped away[res:bibleodyssey-lament].',
         },
         {
           kind: 'commentary',
           id: 'lam1-lovers-betray',
-          html:
-            'The "lovers" are likely the nations Jerusalem sought alliance with—Egypt, perhaps others. They promised protection and aid. Now they have all betrayed her. They have become her enemies. There is no one to comfort her. The text emphasizes the completeness of the abandonment. Not even one friend remains loyal. All have proved false.',
+          html: 'The "lovers" are likely the nations Jerusalem sought alliance with—Egypt, perhaps others. They promised protection and aid. Now they have all betrayed her. They have become her enemies. There is no one to comfort her. The text emphasizes the completeness of the abandonment. Not even one friend remains loyal. All have proved false[res:sumerian-lamentations].',
         },
         {
           kind: 'carry',
-          html:
-            'This passage speaks to the experience of deep abandonment and loss. Everyone you trusted proves false. Everyone you thought would help you turns away. You are left alone. The genius of Lamentations is that it does not gloss over this reality with false comfort. It names the abandonment. It gives voice to it. And in that voicing, something begins to shift.',
+          html: 'This passage speaks to the experience of deep abandonment and loss. Everyone you trusted proves false. Everyone you thought would help you turns away. You are left alone. The genius of Lamentations is that it does not gloss over this reality with false comfort. It names the abandonment. It gives voice to it. And in that voicing, something begins to shift.',
         },
         {
           kind: 'reflection',
@@ -76,8 +73,7 @@ export const LAMENTATIONS_1: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'lam1-behold',
-          html:
-            'In verse 12, the city itself begins to speak. She cries out to passersby: "Look! See if there is any sorrow like my sorrow!" She calls attention to her suffering. She insists on being witnessed. She will not be silent in her pain. This is a profound spiritual principle: lament that is witnessed is less isolating than lament that is hidden.',
+          html: 'In verse 12, the city itself begins to speak. She cries out to passersby: "Look! See if there is any sorrow like my sorrow!" She calls attention to her suffering. She insists on being witnessed. She will not be silent in her pain. This is a profound spiritual principle: lament that is witnessed is less isolating than lament that is hidden.',
         },
         {
           kind: 'commentary',
@@ -125,5 +121,22 @@ export const LAMENTATIONS_1: RichChapterContent = {
     quote: 'How doth the city sit solitary, that was full of people! how is she become as a widow! she that was great among the nations, and princess among the provinces, how is she become tributary!',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Lamentations 1 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'bibleodyssey-lament',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Lament Genre in the Ancient Near East',
+      url: 'https://www.bibleodyssey.org/dictionary/lament/',
+      description: 'SBL entry on lament poetry in ANE literature, including parallels to Lamentations.',
+    },
+    {
+      id: 'sumerian-lamentations',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Sumerian City Laments',
+      url: 'https://www.britishmuseum.org/collection/object/Y_EA9319',
+      description: 'ANE parallels to Lamentations: Sumerian lament poetry over destroyed cities.',
+    }
+  ],
 };

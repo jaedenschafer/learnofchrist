@@ -38,13 +38,11 @@ export const EZEKIEL_4: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezk4-sign-act',
-          html:
-            'The commands God gives Ezekiel are specific and strange. Take a tile. Draw the city. Build siege works. These are not metaphorical instructions. Ezekiel is to do these things literally, visibly, that the exiles might see and understand. Words about judgment are one thing. But a prophet lying on his side for months, bearing the weight of the city&apos;s iniquity on his own body — this has a power words alone cannot match.',
+          html: 'The commands God gives Ezekiel are specific and strange. Take a tile. Draw the city. Build siege works. These are not metaphorical instructions. Ezekiel is to do these things literally, visibly, that the exiles might see and understand. Words about judgment are one thing. But a prophet lying on his side for months, bearing the weight of the city&apos;s iniquity on his own body — this has a power words alone cannot match[res:babylonian-exile-context].',
         },
         {
           kind: 'carry',
-          html:
-            'Truth spoken only in words can be intellectualized, dismissed, forgotten. But truth embodied — truth lived out in the body, in visible action, in the prophetic dramatization of what lies ahead — enters deeper. Ezekiel&apos;s sacrifice of his own comfort, his willingness to lie immobilized for hundreds of days, declares to the exiles: This is how serious God is. This is how complete the judgment will be. And by extension: how great is the God who requires even His prophet to share the weight of His people&apos;s sin.',
+          html: 'Truth spoken only in words can be intellectualized, dismissed, forgotten. But truth embodied — truth lived out in the body, in visible action, in the prophetic dramatization of what lies ahead — enters deeper. Ezekiel&apos;s sacrifice of his own comfort, his willingness to lie immobilized for hundreds of days, declares to the exiles: This is how serious God is. This is how complete the judgment will be. And by extension: how great is the God who requires even His prophet to share the weight of His people&apos;s sin[res:ezekiel-revelation-intertextual].',
         },
         {
           kind: 'reflection',
@@ -71,20 +69,17 @@ export const EZEKIEL_4: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezk4-siege-deprivation',
-          html:
-            'Not only must Ezekiel lie immobilized, but he must eat siege rations — meager portions, carefully measured, mixed with ingredients that would normally be considered unclean. The God of Israel, concerned with holiness and purity, commands His prophet to eat bread baked over human dung. This is the reality of siege: all refinement stripped away, all decency sacrificed to mere survival. The exiles watching Ezekiel eat will understand: this is what comes.',
+          html: 'Not only must Ezekiel lie immobilized, but he must eat siege rations — meager portions, carefully measured, mixed with ingredients that would normally be considered unclean. The God of Israel, concerned with holiness and purity, commands His prophet to eat bread baked over human dung. This is the reality of siege: all refinement stripped away, all decency sacrificed to mere survival. The exiles watching Ezekiel eat will understand: this is what comes[res:bibleodyssey-ezekiel].',
         },
         {
           kind: 'christ',
           id: 'ezk4-christ-suffering',
           title: 'Christ Connection — Bearing Our Affliction',
-          html:
-            'When Christ came, He did not merely proclaim redemption. He entered into the human condition fully, bearing its weight and shame. He fasted and hungered. He was mocked and stripped. He ate and drank with those considered unclean. He made Himself a sign to the world not of comfort but of willingness to share in the affliction of those He came to save. Ezekiel&apos;s willingness to live out the judgment in his own body prefigures Christ&apos;s willingness to bear the sins of the world in His own body.',
+          html: 'When Christ came, He did not merely proclaim redemption. He entered into the human condition fully, bearing its weight and shame. He fasted and hungered. He was mocked and stripped. He ate and drank with those considered unclean. He made Himself a sign to the world not of comfort but of willingness to share in the affliction of those He came to save. Ezekiel&apos;s willingness to live out the judgment in his own body prefigures Christ&apos;s willingness to bear the sins of the world in His own body.',
         },
         {
           kind: 'carry',
-          html:
-            'Our faith is not only what we confess. It is how we live. When we are willing to sacrifice our comfort, our dignity, our preferences in order to witness to truth or to serve others, we become signs — living signs that God is real and His truth worth every cost.',
+          html: 'Our faith is not only what we confess. It is how we live. When we are willing to sacrifice our comfort, our dignity, our preferences in order to witness to truth or to serve others, we become signs — living signs that God is real and His truth worth every cost.',
         },
         {
           kind: 'reflection',
@@ -99,7 +94,32 @@ export const EZEKIEL_4: RichChapterContent = {
     quote: '"This shall be a sign to the house of Israel." — Ezekiel 4:3',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Ezekiel 4 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'babylonian-exile-context',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Babylonian Exile Context',
+      url: 'https://www.britishmuseum.org/collection/object/W_Y_EA25091',
+      description: 'Cuneiform and archaeological evidence of Babylon under Nebuchadnezzar.',
+    },
+    {
+      id: 'bibleodyssey-ezekiel',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Ezekiel',
+      url: 'https://www.bibleodyssey.org/passages/main-articles/ezekiel/',
+      description: 'Peer-reviewed SBL entry on the prophet Ezekiel and the Babylonian exile.',
+    },
+    {
+      id: 'ezekiel-revelation-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Ezekiel Temple Vision ↔ Revelation 21-22',
+      url: 'https://intertextual.bible/text/ezekiel-40/revelation-21',
+      description: 'Side-by-side comparison of Ezekiel&apos;s temple vision and John&apos;s new creation.',
+    }
+  ],
 
   hasHebrew: false,
 };

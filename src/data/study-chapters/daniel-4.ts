@@ -40,8 +40,7 @@ export const DANIEL_4: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'resolve-humility-pride',
-          html:
-            '<p>A king dreams of his fall. Nebuchadnezzar&apos;s madness teaches what happens when we forget we answer to Someone greater.</p>',
+          html: '<p>A king dreams of his fall. Nebuchadnezzar&apos;s madness teaches what happens when we forget we answer to Someone greater.</p>[res:babylon-archaeology]',
         },
         {
           kind: 'scripture',
@@ -56,8 +55,7 @@ export const DANIEL_4: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'daniel4-tree',
-          html:
-            'The tree is Nebuchadnezzar himself. Great, strong, reaching to heaven with his pride and power. All the beasts of the field—all people—shelter under his dominion. But the tree is to be cut down. Not destroyed utterly, but hewed. The stump remains. And in this cutting is a message: your power will be taken from you. Your reason will be taken from you. You shall eat grass like the beasts, humbled to the lowest place, until you learn the deepest truth—that the most High ruleth in the kingdom of men, and giveth it to whomsoever he will.',
+          html: 'The tree is Nebuchadnezzar himself. Great, strong, reaching to heaven with his pride and power. All the beasts of the field—all people—shelter under his dominion. But the tree is to be cut down. Not destroyed utterly, but hewed. The stump remains. And in this cutting is a message: your power will be taken from you. Your reason will be taken from you. You shall eat grass like the beasts, humbled to the lowest place, until you learn the deepest truth—that the most High ruleth in the kingdom of men, and giveth it to whomsoever he will[res:ishtar-gate].',
         },
         {
           kind: 'hebrew',
@@ -71,8 +69,7 @@ export const DANIEL_4: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'daniel4-stump',
-          html:
-            'The detail about the stump is crucial. The roots remain. The tree is not plucked up. This is not the end of Nebuchadnezzar&apos;s kingship—it is the humbling of it. His kingdom will be sure unto him after he learns that the heavens do rule. The stump bound with iron and brass suggests a captivity, a binding, a restraint. But the binding is meant to preserve. And Daniel offers the king a way of mercy: "Break off thy sins by righteousness, and thine iniquities by showing mercy to the poor; if it may be a lengthening of thy tranquility."',
+          html: 'The detail about the stump is crucial. The roots remain. The tree is not plucked up. This is not the end of Nebuchadnezzar&apos;s kingship—it is the humbling of it. His kingdom will be sure unto him after he learns that the heavens do rule. The stump bound with iron and brass suggests a captivity, a binding, a restraint. But the binding is meant to preserve. And Daniel offers the king a way of mercy: "Break off thy sins by righteousness, and thine iniquities by showing mercy to the poor; if it may be a lengthening of thy tranquility."[res:sefaria-daniel]',
         },
       ],
     },
@@ -96,14 +93,12 @@ export const DANIEL_4: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'daniel4-pride',
-          html:
-            'A year passes. Nebuchadnezzar has time to repent, to turn, to acknowledge God&apos;s sovereignty. Instead, he walks in his palace and says, "Is not this great Babylon, that I have built by the might of my power, and for the honour of my majesty?" He forgets. Or more likely, he remembers but refuses to accept that his power comes from any hand but his own. And in that moment—while the pride is still on his lips—the word falls from heaven. The kingdom is departed. And what was a dream becomes a terrible waking reality. The tree is hewn down. The king eats grass. His hair grows like eagles&apos; feathers. His nails grow like birds&apos; claws. He becomes a beast, because he would not acknowledge the God who rules.',
+          html: 'A year passes. Nebuchadnezzar has time to repent, to turn, to acknowledge God&apos;s sovereignty. Instead, he walks in his palace and says, "Is not this great Babylon, that I have built by the might of my power, and for the honour of my majesty?" He forgets. Or more likely, he remembers but refuses to accept that his power comes from any hand but his own. And in that moment—while the pride is still on his lips—the word falls from heaven. The kingdom is departed. And what was a dream becomes a terrible waking reality. The tree is hewn down. The king eats grass. His hair grows like eagles&apos; feathers. His nails grow like birds&apos; claws. He becomes a beast, because he would not acknowledge the God who rules.',
         },
         {
           kind: 'commentary',
           id: 'daniel4-seven-times',
-          html:
-            'Seven times shall pass over him—seven years, or perhaps seven seasons. The number seven in Scripture suggests completion, fullness, judgment, mercy. This is not endless punishment. It is measured, purposeful, designed to break the king&apos;s will until he is ready to receive what he has lost. The seven years are the time of the stump\'s binding, the time of root growth in humility, preparing for the restoration that will come only after the king learns.',
+          html: 'Seven times shall pass over him—seven years, or perhaps seven seasons. The number seven in Scripture suggests completion, fullness, judgment, mercy. This is not endless punishment. It is measured, purposeful, designed to break the king&apos;s will until he is ready to receive what he has lost. The seven years are the time of the stump\'s binding, the time of root growth in humility, preparing for the restoration that will come only after the king learns.',
         },
       ],
     },
@@ -125,8 +120,7 @@ export const DANIEL_4: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'daniel4-lifted',
-          html:
-            'The turning point comes when the king does the one thing he had not done: he lifts up his eyes unto heaven. He turns his gaze from his own power, his own works, his own kingdom, and looks upward. And in that moment, his understanding returns. He blesses the most High. He acknowledges what he had forgotten: the dominion of God is everlasting. All the inhabitants of the earth are as nothing before Him. He doeth according to His will, and none can stay His hand.',
+          html: 'The turning point comes when the king does the one thing he had not done: he lifts up his eyes unto heaven. He turns his gaze from his own power, his own works, his own kingdom, and looks upward. And in that moment, his understanding returns. He blesses the most High. He acknowledges what he had forgotten: the dominion of God is everlasting. All the inhabitants of the earth are as nothing before Him. He doeth according to His will, and none can stay His hand.',
         },
         {
           kind: 'christ',
@@ -153,7 +147,32 @@ export const DANIEL_4: RichChapterContent = {
     quote: 'Those that walk in pride he is able to abase. Now I Nebuchadnezzar praise and extol and honour the King of heaven, all whose works are truth, and his ways are judgment.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Daniel 4 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'babylon-archaeology',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Babylon Archaeology',
+      url: 'https://www.britishmuseum.org/collection/object/Y_EA9050',
+      description: 'Cuneiform records and artifacts from Babylon under Nebuchadnezzar II.',
+    },
+    {
+      id: 'ishtar-gate',
+      kind: 'museum',
+      source: 'British Museum / Berlin Museum',
+      label: 'Ishtar Gate of Babylon',
+      url: 'https://www.britishmuseum.org/collection/search?q=ishtar+gate',
+      description: 'Reconstructed gate from ancient Babylon, showing the city&apos;s magnificence in Daniel&apos;s era.',
+    },
+    {
+      id: 'sefaria-daniel',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Daniel',
+      url: 'https://www.sefaria.org/Daniel',
+      description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
+    }
+  ],
 
   hasHebrew: true,
 };

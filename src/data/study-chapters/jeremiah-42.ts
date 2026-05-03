@@ -40,25 +40,21 @@ export const JEREMIAH_42: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer42-promise',
-          html:
-            'The remnant makes a solemn oath: "Whether it be good, or whether it be evil, we will obey the voice of the Lord." This is a statement of radical openness. They are committing to obey not just if God&apos;s answer pleases them, but if it does not. They are inviting God to speak, and they are pledging to listen. It is a beautiful promise.',
+          html: 'The remnant makes a solemn oath: "Whether it be good, or whether it be evil, we will obey the voice of the Lord." This is a statement of radical openness. They are committing to obey not just if God&apos;s answer pleases them, but if it does not. They are inviting God to speak, and they are pledging to listen. It is a beautiful promise[res:lachish-letters].',
         },
         {
           kind: 'commentary',
           id: 'jer42-gods-answer',
-          html:
-            'God&apos;s answer is not Egypt. It is stay. "If ye will still abide in this land, then will I build you." The promise is reconstruction, not escape. The promise is that God will be with them in the land where they fear, not in the safety of Egypt where they imagine refuge. God calls them not to flee from difficulty, but to face it in faith.',
+          html: 'God&apos;s answer is not Egypt. It is stay. "If ye will still abide in this land, then will I build you." The promise is reconstruction, not escape. The promise is that God will be with them in the land where they fear, not in the safety of Egypt where they imagine refuge. God calls them not to flee from difficulty, but to face it in faith[res:sefaria-jeremiah].',
         },
         {
           kind: 'commentary',
           id: 'jer42-contrast',
-          html:
-            'The contrast is stark. In the land: "I will build you, and not pull you down, and I will plant you, and not pluck you up." In Egypt: "the sword...shall overtake you...and the famine...shall follow close after you there in Egypt; and there ye shall die." There is no refuge in Egypt. There is no escape from God&apos;s purposes. The only true safety is in obedience to God&apos;s word, in the place of God&apos;s choosing.',
+          html: 'The contrast is stark. In the land: "I will build you, and not pull you down, and I will plant you, and not pluck you up." In Egypt: "the sword...shall overtake you...and the famine...shall follow close after you there in Egypt; and there ye shall die." There is no refuge in Egypt. There is no escape from God&apos;s purposes. The only true safety is in obedience to God&apos;s word, in the place of God&apos;s choosing.',
         },
         {
           kind: 'carry',
-          html:
-            'God&apos;s call is often to remain, not to flee. To trust, not to escape. To obey even when obedience seems dangerous. The remnant will answer this call in the next chapter with disobedience. But the call itself stands: you are not called to escape your circumstances, but to meet God in them.',
+          html: 'God&apos;s call is often to remain, not to flee. To trust, not to escape. To obey even when obedience seems dangerous. The remnant will answer this call in the next chapter with disobedience. But the call itself stands: you are not called to escape your circumstances, but to meet God in them.',
         },
         {
           kind: 'reflection',
@@ -80,7 +76,24 @@ export const JEREMIAH_42: RichChapterContent = {
     quote: 'We will obey the voice of the Lord our God, to whom we send thee...If ye will still abide in this land, then will I build you, and not pull you down.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Jeremiah 42 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'lachish-letters',
+      kind: 'archaeology',
+      source: 'Israel Museum',
+      label: 'Lachish Letters',
+      url: 'https://www.imj.org.il/en/collections/lachish-letters',
+      description: 'Ancient inscribed potsherds from the Judean siege of Lachish (587 BCE), contemporary with Jeremiah.',
+    },
+    {
+      id: 'sefaria-jeremiah',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jeremiah',
+      url: 'https://www.sefaria.org/Jeremiah',
+      description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
+    }
+  ],
 
   hasHebrew: false,
 };

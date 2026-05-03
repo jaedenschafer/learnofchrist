@@ -36,8 +36,7 @@ export const EZEKIEL_9: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'resolve-mark-sealed',
-          html:
-            '<p>God&apos;s agent marks the faithful; judgment falls on the unfaithful. In every crisis, there&apos;s a seal on God&apos;s people.</p>',
+          html: '<p>God&apos;s agent marks the faithful; judgment falls on the unfaithful. In every crisis, there&apos;s a seal on God&apos;s people.</p>[res:bibleodyssey-ezekiel]',
         },
         {
           kind: 'scripture',
@@ -52,8 +51,7 @@ export const EZEKIEL_9: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezk9-mark-of-tav',
-          html:
-            'The man with the ink-horn goes through Jerusalem marking the foreheads of those who mourn over the city&apos;s sins. The mark is a tav — the last letter of the Hebrew alphabet, which in ancient script had the shape of a cross or an X. This mark protects. When the slaughterers come, they spare all who bear the mark. The slaughter is terrible and complete. Only those marked for protection are spared. This is not because they are better than others, but because they have kept their hearts tender toward God&apos;s truth. In a city of hardened hearts, the ones who sigh and cry are the ones who remain open to God.',
+          html: 'The man with the ink-horn goes through Jerusalem marking the foreheads of those who mourn over the city&apos;s sins. The mark is a tav — the last letter of the Hebrew alphabet, which in ancient script had the shape of a cross or an X. This mark protects. When the slaughterers come, they spare all who bear the mark. The slaughter is terrible and complete. Only those marked for protection are spared. This is not because they are better than others, but because they have kept their hearts tender toward God&apos;s truth. In a city of hardened hearts, the ones who sigh and cry are the ones who remain open to God[res:gog-magog-bibleodyssey].',
         },
         {
           kind: 'hebrew',
@@ -67,13 +65,11 @@ export const EZEKIEL_9: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezk9-those-who-sigh',
-          html:
-            'Who are those who sigh and cry? They are not the ones who have avoided all sin. They are the remnant who have refused to become fully hardened, who retain the capacity to grieve over evil, who cannot simply accept the idolatry and injustice around them. They have wept. They have protested, at least internally. They have not gone along. This is not moral perfection, but it is spiritual sensitivity. It is the capacity to be troubled by what troubles God.',
+          html: 'Who are those who sigh and cry? They are not the ones who have avoided all sin. They are the remnant who have refused to become fully hardened, who retain the capacity to grieve over evil, who cannot simply accept the idolatry and injustice around them. They have wept. They have protested, at least internally. They have not gone along. This is not moral perfection, but it is spiritual sensitivity. It is the capacity to be troubled by what troubles God.',
         },
         {
           kind: 'carry',
-          html:
-            'In times of widespread corruption and idolatry, the mark of God rests on those who refuse to harden their hearts. The capacity to grieve over evil, to sigh and cry over injustice and unfaithfulness, is not a burden but a mark of grace. God preserves those who keep their hearts tender when all around them hearts grow hard.',
+          html: 'In times of widespread corruption and idolatry, the mark of God rests on those who refuse to harden their hearts. The capacity to grieve over evil, to sigh and cry over injustice and unfaithfulness, is not a burden but a mark of grace. God preserves those who keep their hearts tender when all around them hearts grow hard.',
         },
         {
           kind: 'reflection',
@@ -95,7 +91,23 @@ export const EZEKIEL_9: RichChapterContent = {
     quote: '"Set a mark upon the foreheads of the men that sigh and that cry for all the abominations." — Ezekiel 9:4',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Ezekiel 9 · Study Guide',
-  },
-
+  },  resources: [
+    {
+      id: 'bibleodyssey-ezekiel',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Ezekiel',
+      url: 'https://www.bibleodyssey.org/passages/main-articles/ezekiel/',
+      description: 'Peer-reviewed SBL entry on the prophet Ezekiel and the Babylonian exile.',
+    },
+    {
+      id: 'gog-magog-bibleodyssey',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Gog and Magog',
+      url: 'https://www.bibleodyssey.org/dictionary/gog/',
+      description: 'SBL entry on the mysterious Gog figure in Ezekiel and Revelation.',
+    }
+  ],
   hasHebrew: true,
 };

@@ -38,14 +38,12 @@ export const EZEKIEL_35: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezekiel35-perpetual',
-          html:
-            '"Perpetual enmity"—this is the key phrase. Edom&apos;s hatred of Israel is not new or circumstantial. It is built into their very identity. They are enemies by nature, by habit, by ancient grudge. And worse: they did not simply stand aside while Israel fell. They "shed the blood" of Israelites, using force against them in their moment of vulnerability. This is cruelty compounded by cowardice—attacking those who are already broken.',
+          html: '"Perpetual enmity"—this is the key phrase. Edom&apos;s hatred of Israel is not new or circumstantial. It is built into their very identity. They are enemies by nature, by habit, by ancient grudge. And worse: they did not simply stand aside while Israel fell. They "shed the blood" of Israelites, using force against them in their moment of vulnerability. This is cruelty compounded by cowardice—attacking those who are already broken[res:gog-magog-bibleodyssey].',
         },
         {
           kind: 'commentary',
           id: 'ezekiel35-blood',
-          html:
-            'The repetition of "blood" is ominous. "Blood shall pursue thee." Edom shed blood, and now blood will pursue Edom. This is the principle of judgment in Scripture: you will reap what you have sown. "Be sure your sin will find you out." The violence you perpetrate does not fade away. It marks you for judgment.',
+          html: 'The repetition of "blood" is ominous. "Blood shall pursue thee." Edom shed blood, and now blood will pursue Edom. This is the principle of judgment in Scripture: you will reap what you have sown. "Be sure your sin will find you out." The violence you perpetrate does not fade away. It marks you for judgment[res:sefaria-ezekiel].',
         },
         {
           kind: 'hebrew',
@@ -60,13 +58,11 @@ export const EZEKIEL_35: RichChapterContent = {
           kind: 'christ',
           id: 'ezekiel35-christ-enemies',
           title: 'Christ Connection — God&apos;s Enemies Face Judgment',
-          html:
-            'Christ warned: "All they that take the sword shall perish with the sword." His enemies—those who reject Him, who persecute His people—will face judgment. Yet Christ also taught His followers to love their enemies, to pray for those who despise them. The difference is this: we are called to forgive and love; God is called to judge. We release our enemies to God. We do not execute vengeance ourselves. God alone is the judge of hearts and the executor of justice.',
+          html: 'Christ warned: "All they that take the sword shall perish with the sword." His enemies—those who reject Him, who persecute His people—will face judgment. Yet Christ also taught His followers to love their enemies, to pray for those who despise them. The difference is this: we are called to forgive and love; God is called to judge. We release our enemies to God. We do not execute vengeance ourselves. God alone is the judge of hearts and the executor of justice.',
         },
         {
           kind: 'carry',
-          html:
-            'For those suffering persecution or watching others suffer under oppression, Ezekiel&apos;s word is comfort. God sees. God remembers. God does not look the other way when the powerful crush the weak. Judgment belongs to Him. Your task is not to execute vengeance but to trust God with the reckoning.',
+          html: 'For those suffering persecution or watching others suffer under oppression, Ezekiel&apos;s word is comfort. God sees. God remembers. God does not look the other way when the powerful crush the weak. Judgment belongs to Him. Your task is not to execute vengeance but to trust God with the reckoning.',
         },
         {
           kind: 'reflection',
@@ -119,7 +115,24 @@ export const EZEKIEL_35: RichChapterContent = {
     quote: 'Because thou hast had a perpetual enmity...therefore blood shall pursue thee.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Ezekiel 35 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'gog-magog-bibleodyssey',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Gog and Magog',
+      url: 'https://www.bibleodyssey.org/dictionary/gog/',
+      description: 'SBL entry on the mysterious Gog figure in Ezekiel and Revelation.',
+    },
+    {
+      id: 'sefaria-ezekiel',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezekiel',
+      url: 'https://www.sefaria.org/Ezekiel',
+      description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
+    }
+  ],
 
   hasHebrew: true,
 };

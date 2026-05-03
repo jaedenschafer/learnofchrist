@@ -40,14 +40,12 @@ export const JEREMIAH_45: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer45-woe',
-          html:
-            'Baruch&apos;s lament is profound: "Woe is me now!" He has watched the world fall apart. The kingdom is collapsing. The temple is about to be destroyed. And he is exhausted. "I fainted in my sighing, and I find no rest." He has sighed so much that he has lost strength. He seeks rest but cannot find it. This is not the complaint of a spoiled person. This is the deepest weariness of one who has given everything and watched it come to nothing.',
+          html: 'Baruch&apos;s lament is profound: "Woe is me now!" He has watched the world fall apart. The kingdom is collapsing. The temple is about to be destroyed. And he is exhausted. "I fainted in my sighing, and I find no rest." He has sighed so much that he has lost strength. He seeks rest but cannot find it. This is not the complaint of a spoiled person. This is the deepest weariness of one who has given everything and watched it come to nothing[res:bibleodyssey-jeremiah].',
         },
         {
           kind: 'commentary',
           id: 'jer45-great-things',
-          html:
-            'God&apos;s response goes straight to the heart: "Seekest thou great things for thyself?" In the midst of a collapsing kingdom, Baruch has been seeking great things—honor, safety, a place of importance. This desire is not sinful, but it is misplaced. God is saying, in effect: "You want great things for yourself, but I am about to break down what I have built and pluck up what I have planted. The whole land is coming down. You cannot have great things for yourself in the ruins of civilization."',
+          html: 'God&apos;s response goes straight to the heart: "Seekest thou great things for thyself?" In the midst of a collapsing kingdom, Baruch has been seeking great things—honor, safety, a place of importance. This desire is not sinful, but it is misplaced. God is saying, in effect: "You want great things for yourself, but I am about to break down what I have built and pluck up what I have planted. The whole land is coming down. You cannot have great things for yourself in the ruins of civilization."[res:sefaria-jeremiah]',
         },
         {
           kind: 'hebrew',
@@ -60,8 +58,7 @@ export const JEREMIAH_45: RichChapterContent = {
         },
         {
           kind: 'carry',
-          html:
-            'The deepest contentment comes not from seeking great things, but from releasing the need for them. Baruch has been exhausted because he is trying to hold on to something—honor, safety, rest. He is trying to be comfortable in an uncomfortable age. God&apos;s word invites him to a different kind of peace: the peace of surrender. "Your life will be given to you as a prey. That is enough. Stop seeking, and receive what I give."',
+          html: 'The deepest contentment comes not from seeking great things, but from releasing the need for them. Baruch has been exhausted because he is trying to hold on to something—honor, safety, rest. He is trying to be comfortable in an uncomfortable age. God&apos;s word invites him to a different kind of peace: the peace of surrender. "Your life will be given to you as a prey. That is enough. Stop seeking, and receive what I give."',
         },
         {
           kind: 'reflection',
@@ -72,8 +69,7 @@ export const JEREMIAH_45: RichChapterContent = {
           kind: 'christ',
           id: 'jer45-christ',
           title: 'Christ Connection — Lose Your Life and Find It',
-          html:
-            'Baruch seeks great things for himself and finds only exhaustion. God offers him something radically different: the promise that his life will be preserved as shalal, a prize seized from ruin. This paradox runs through Christ&apos;s teaching: "Whosoever will lose his life for my sake shall find it" (Matthew 16:25). Baruch learns the deepest truth of discipleship—that surrendering ambition for oneself opens the door to being treasured by God. "Therefore if any man be in Christ, he is a new creature: old things are passed away; behold, all things are become new" (2 Corinthians 5:17). And the servant who gives everything receives: "Now we know that all things work together for good to them that love God" (Romans 8:28). Baruch&apos;s restoration is a small shadow of the fullness Christ promises to those who lay down their own seeking and trust His.',
+          html: 'Baruch seeks great things for himself and finds only exhaustion. God offers him something radically different: the promise that his life will be preserved as shalal, a prize seized from ruin. This paradox runs through Christ&apos;s teaching: "Whosoever will lose his life for my sake shall find it" (Matthew 16:25). Baruch learns the deepest truth of discipleship—that surrendering ambition for oneself opens the door to being treasured by God. "Therefore if any man be in Christ, he is a new creature: old things are passed away; behold, all things are become new" (2 Corinthians 5:17). And the servant who gives everything receives: "Now we know that all things work together for good to them that love God" (Romans 8:28). Baruch&apos;s restoration is a small shadow of the fullness Christ promises to those who lay down their own seeking and trust His.',
         },
       ],
     },
@@ -83,5 +79,22 @@ export const JEREMIAH_45: RichChapterContent = {
     quote: 'Seekest thou great things for thyself? Seek them not: for...thy life will I give unto thee for a prey in all places whither thou goest.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Jeremiah 45 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'bibleodyssey-jeremiah',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Jeremiah',
+      url: 'https://www.bibleodyssey.org/passages/main-articles/jeremiah/',
+      description: 'Peer-reviewed SBL entry on the prophet Jeremiah and his historical context.',
+    },
+    {
+      id: 'sefaria-jeremiah',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jeremiah',
+      url: 'https://www.sefaria.org/Jeremiah',
+      description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
+    }
+  ],
 };

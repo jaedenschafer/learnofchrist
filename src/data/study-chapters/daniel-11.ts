@@ -38,8 +38,7 @@ export const DANIEL_11: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'daniel11-kingdoms',
-          html:
-            'The prophecy unfolds with remarkable specificity. Three kings of Persia will stand. Then a fourth, far richer, will come. Then the mighty king of Greece—Alexander—will arise and rule with great dominion. But when he stands up, his kingdom will be broken and divided toward the four winds. This speaks to Alexander&apos;s death at the height of his power, at only thirty-two years old, and the subsequent division of his empire among his generals. None of this was predetermined by human plan. All of it was known to God and revealed to Daniel 200 years before it occurred.',
+          html: 'The prophecy unfolds with remarkable specificity. Three kings of Persia will stand. Then a fourth, far richer, will come. Then the mighty king of Greece—Alexander—will arise and rule with great dominion. But when he stands up, his kingdom will be broken and divided toward the four winds. This speaks to Alexander&apos;s death at the height of his power, at only thirty-two years old, and the subsequent division of his empire among his generals. None of this was predetermined by human plan. All of it was known to God and revealed to Daniel 200 years before it occurred[res:bibleodyssey-apocalyptic].',
         },
         {
           kind: 'hebrew',
@@ -53,8 +52,7 @@ export const DANIEL_11: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'daniel11-divided',
-          html:
-            'The great kingdom is broken not to his posterity—Alexander left an infant son, who was eventually murdered—nor according to his dominion. His generals fought for control, and his empire was divided among them. Egypt fell to the Ptolemies, Syria to the Seleucids. The prophecy continues with details of their wars, their intermarriage, their betrayals. Each detail points to a God who knows not only the broad strokes of history, but the small details that seem to lie outside His purview.',
+          html: 'The great kingdom is broken not to his posterity—Alexander left an infant son, who was eventually murdered—nor according to his dominion. His generals fought for control, and his empire was divided among them. Egypt fell to the Ptolemies, Syria to the Seleucids. The prophecy continues with details of their wars, their intermarriage, their betrayals. Each detail points to a God who knows not only the broad strokes of history, but the small details that seem to lie outside His purview[res:sefaria-daniel].',
         },
       ],
     },
@@ -77,14 +75,12 @@ export const DANIEL_11: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'daniel11-exalt',
-          html:
-            'The prophecy arrives at a figure—sometimes identified as Antiochus Epiphanes, the Seleucid king who persecuted the Jews and desecrated the temple—who shall exalt himself above every god, speak marvelous things against the God of gods, and prosper until the indignation be accomplished. This king imagines himself supreme. He acknowledges no authority above his own will. Yet his prosperity is limited. "Till the indignation be accomplished." There is a date set. There is a limit. When God&apos;s purposes are fulfilled, this king too will come to his end, and none shall help him.',
+          html: 'The prophecy arrives at a figure—sometimes identified as Antiochus Epiphanes, the Seleucid king who persecuted the Jews and desecrated the temple—who shall exalt himself above every god, speak marvelous things against the God of gods, and prosper until the indignation be accomplished. This king imagines himself supreme. He acknowledges no authority above his own will. Yet his prosperity is limited. "Till the indignation be accomplished." There is a date set. There is a limit. When God&apos;s purposes are fulfilled, this king too will come to his end, and none shall help him.',
         },
         {
           kind: 'commentary',
           id: 'daniel11-end',
-          html:
-            'The prophecy reveals a pattern that repeats throughout history: powers rise that exalt themselves above God. They prosper for a time. They seem invincible. But their reign is limited. "That which is determined shall be done"—not according to the will of the king, but according to the will of God. And when the appointed time arrives, the king comes to his end.',
+          html: 'The prophecy reveals a pattern that repeats throughout history: powers rise that exalt themselves above God. They prosper for a time. They seem invincible. But their reign is limited. "That which is determined shall be done"—not according to the will of the king, but according to the will of God. And when the appointed time arrives, the king comes to his end.',
         },
         {
           kind: 'christ',
@@ -111,7 +107,24 @@ export const DANIEL_11: RichChapterContent = {
     quote: 'And at the time of the end shall the king of the south push at him: and the king of the north shall come against him...Yet he shall come to his end, and none shall help him.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Daniel 11 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'bibleodyssey-apocalyptic',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Apocalyptic Literature',
+      url: 'https://www.bibleodyssey.org/dictionary/apocalypse/',
+      description: 'SBL entry on the apocalyptic genre exemplified by Daniel.',
+    },
+    {
+      id: 'sefaria-daniel',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Daniel',
+      url: 'https://www.sefaria.org/Daniel',
+      description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
+    }
+  ],
 
   hasHebrew: true,
 };

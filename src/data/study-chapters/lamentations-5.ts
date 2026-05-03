@@ -39,26 +39,22 @@ export const LAMENTATIONS_5: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'lam5-remember',
-          html:
-            'The prayer opens with a simple plea: "Remember." God has not forgotten, but the people cry out for remembrance anyway. They want to be seen, to be acknowledged, to have their suffering witnessed by God. They ask God to consider their reproach—the shame and humiliation they have endured.',
+          html: 'The prayer opens with a simple plea: "Remember." God has not forgotten, but the people cry out for remembrance anyway. They want to be seen, to be acknowledged, to have their suffering witnessed by God. They ask God to consider their reproach—the shame and humiliation they have endured[res:bibleodyssey-lament].',
         },
         {
           kind: 'commentary',
           id: 'lam5-inheritance',
-          html:
-            'The specificity of the lament is important: their inheritance is turned to strangers. The land that was promised to them, that was passed down through generations, is now held by foreigners. Houses that belonged to families are occupied by aliens. The fundamental dispossession of exile is named.',
+          html: 'The specificity of the lament is important: their inheritance is turned to strangers. The land that was promised to them, that was passed down through generations, is now held by foreigners. Houses that belonged to families are occupied by aliens. The fundamental dispossession of exile is named[res:jerusalem-destruction-archaeology].',
         },
         {
           kind: 'commentary',
           id: 'lam5-servants-rule',
-          html:
-            '"Servants have ruled over us." Those they considered beneath them now rule them. The inversion of the social order is part of the shame. There is no one to deliver them. They are utterly powerless.',
+          html: '"Servants have ruled over us." Those they considered beneath them now rule them. The inversion of the social order is part of the shame. There is no one to deliver them. They are utterly powerless.',
         },
         {
           kind: 'commentary',
           id: 'lam5-joy-ceased',
-          html:
-            'Most poignantly: "The joy of our heart is ceased; our dance is turned into mourning." The capacity for joy is gone. What was celebratory is now mournful. The totality of the loss includes not just physical deprivation but the loss of the capacity to rejoice.',
+          html: 'Most poignantly: "The joy of our heart is ceased; our dance is turned into mourning." The capacity for joy is gone. What was celebratory is now mournful. The totality of the loss includes not just physical deprivation but the loss of the capacity to rejoice.',
         },
         {
           kind: 'carry',
@@ -145,5 +141,22 @@ export const LAMENTATIONS_5: RichChapterContent = {
     quote: 'Turn thou us unto thee, O Lord, and we shall be turned; renew our days as of old.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Lamentations 5 · Study Guide',
-  },
+  },  resources: [
+    {
+      id: 'bibleodyssey-lament',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Lament Genre in the Ancient Near East',
+      url: 'https://www.bibleodyssey.org/dictionary/lament/',
+      description: 'SBL entry on lament poetry in ANE literature, including parallels to Lamentations.',
+    },
+    {
+      id: 'jerusalem-destruction-archaeology',
+      kind: 'archaeology',
+      source: 'Israel Museum / IAA',
+      label: 'Jerusalem Destruction (587 BCE)',
+      url: 'https://www.imj.org.il/en/exhibitions/destruction-jerusalem-587',
+      description: 'Archaeological evidence of Jerusalem&apos;s destruction by Nebuchadnezzar&apos;s forces.',
+    }
+  ],
 };
