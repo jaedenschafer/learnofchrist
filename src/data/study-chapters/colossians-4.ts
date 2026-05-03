@@ -555,4 +555,31 @@ export const COLOSSIANS_4: RichChapterContent = {
       ],
     },
   ],
+
+  resources: [
+    {
+      id: 'hals-scaife',
+      kind: 'lexicon',
+      source: 'Perseus Scaife',
+      label: 'Halas (ἅλας) — Salt',
+      url: 'https://scaife.perseus.org/lexica/lsj/ἅλας/',
+      description: 'Salt as seasoning and preservative: speech seasoned with grace and salt (Colossians 4:6) brings flavor and preserves truth.',
+    },
+    {
+      id: 'onesimus-philemon-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Onesimus (Colossians 4:9 ↔ Philemon)',
+      url: 'https://intertextual.bible/text/colossians-4.9/',
+      description: 'The runaway slave Onesimus, now beloved brother, sent with Tychicus—the letter to Philemon expands his story.',
+    },
+    {
+      id: 'aristarchus-luke-companionship',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Paul&apos;s Co-Laborers (Aristarchus, Marcus, Luke)',
+      url: 'https://www.bibleodyssey.org/dictionary/aristarchus/',
+      description: 'Paul&apos;s circle of companions in prison and ministry—Aristarchus, Mark, Luke, and others who remained faithful.',
+    },
+  ],
 };

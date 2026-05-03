@@ -58,7 +58,7 @@ export const PHILIPPIANS_1: RichChapterContent = {
           kind: 'commentary',
           id: 'p1-serve',
           html:
-            'Paul calls himself and Timothy "servants of Jesus Christ." The Greek word is <em>doulos</em>, a slave—the strongest possible word for submission. Paul does not apologize for this. To be enslaved to Christ is freedom itself.',
+            'Paul calls himself and Timothy "servants of Jesus Christ." The Greek word is <em>doulos[res:doulos-scaife]</em>, a slave—the strongest possible word for submission. Paul does not apologize for this. To be enslaved to Christ is freedom itself. The Praetorian guard[res:praetorian-guard-sbl] were the imperial troops to whom Paul&apos;s bonds made Christ visible (1:13). And the Philippian church itself was rooted in a Roman colony[res:philippi-topostext].',
         },
         {
           kind: 'christ',
@@ -594,6 +594,33 @@ export const PHILIPPIANS_1: RichChapterContent = {
     /* ─── Divider ──────────────────────────────────────────────────────── */
     {
       blocks: [{ kind: 'divider' }],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'philippi-topostext',
+      kind: 'archaeology',
+      source: 'ToposText',
+      label: 'Philippi',
+      url: 'https://topostext.org/place/437237PPhi',
+      description: 'Comprehensive geographic and archaeological data on Philippi, the Roman colony where Paul established his first European church.',
+    },
+    {
+      id: 'doulos-scaife',
+      kind: 'lexicon',
+      source: 'Perseus Scaife',
+      label: 'Doulos (δοῦλος) — Slave; Servant',
+      url: 'https://scaife.perseus.org/lexica/lsj/δοῦλος/',
+      description: 'Greek lexicon entry exploring the semantic range of doulos from servile bondage to willing submission in Christ.',
+    },
+    {
+      id: 'praetorian-guard-sbl',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Praetorian Guard',
+      url: 'https://www.bibleodyssey.org/dictionary/praetorian-guard/',
+      description: 'Open-access entry on the imperial household guard to whom Paul&apos;s bonds made Christ manifest according to Philippians 1:13.',
     },
   ],
 };

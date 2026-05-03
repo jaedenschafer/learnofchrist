@@ -210,7 +210,7 @@ export const PHILIPPIANS_4: RichChapterContent = {
           kind: 'commentary',
           id: 'p4-peace',
           html:
-            'The peace of God—not the world&apos;s peace, not mere absence of conflict, but <em>the peace of God</em>—a wholeness, a sense of being held. It passes all understanding. Your mind cannot explain it. The circumstances have not changed; your anxiety is the same; yet you are at peace. This peace shall keep—guard like a sentinel—your hearts and minds. It protects the inner life from being destroyed by external pressure. Through Christ Jesus. This peace is Christ&apos;s gift, mediated through Him, possible only in relationship with Him.',
+            'The <em>peace[res:eirene-scaife]</em> of God—not the world&apos;s peace, not mere absence of conflict, but <em>the peace of God</em>—a wholeness, a sense of being held. It passes all understanding. Your mind cannot explain it. The circumstances have not changed; your anxiety is the same; yet you are at peace. This peace shall keep—guard like a sentinel—your hearts and minds. It protects the inner life from being destroyed by external pressure. Through Christ Jesus. This peace is Christ&apos;s gift, mediated through Him, possible only in relationship with Him.',
         },
 
         {
@@ -382,7 +382,7 @@ export const PHILIPPIANS_4: RichChapterContent = {
           kind: 'commentary',
           id: 'p4-strength',
           html:
-            'Paul is not saying you can accomplish anything you dream up. He is saying, in context: I can endure abundance or want, honor or humiliation, fullness or hunger. The strength is for perseverance, not conquest. It is the strength of a soldier who holds the line through a long campaign. And it comes through Christ. Not from inside Paul, but through his connection to Christ. He is drawing on a strength outside himself.',
+            'Paul is not saying you can accomplish anything you dream up. He is saying, in context: I can endure <em>abundance or want[res:philippians-4-13-intertextual]</em>, honor or humiliation, fullness or hunger. The strength is for perseverance, not conquest. It is the strength of a soldier who holds the line through a long campaign. And it comes through Christ. Not from inside Paul, but through his connection to Christ. He is drawing on a strength outside himself.',
         },
 
         {
@@ -563,7 +563,7 @@ export const PHILIPPIANS_4: RichChapterContent = {
           kind: 'commentary',
           id: 'p4-caesar',
           html:
-            'Paul is in Rome, under arrest, awaiting trial before Caesar. Yet believers in Caesar&apos;s own household—perhaps servants, perhaps officials—have become followers of Christ. The gospel is at work even in the seat of power. No place is outside the reach of Christ&apos;s kingdom. No person is beyond the redemption He offers.',
+            'Paul is in Rome, under arrest, awaiting trial before Caesar. Yet believers in <em>Caesar&apos;s household[res:caesar-household-sbl]</em>—perhaps servants, perhaps officials—have become followers of Christ. The gospel is at work even in the seat of power. No place is outside the reach of Christ&apos;s kingdom. No person is beyond the redemption He offers.',
         },
 
         {
@@ -606,6 +606,33 @@ export const PHILIPPIANS_4: RichChapterContent = {
           prompt: 'What is the one thing from Philippians 4 that speaks to where you are right now? How will you carry it with you this week?',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'eirene-scaife',
+      kind: 'lexicon',
+      source: 'Perseus Scaife',
+      label: 'Eirene (εἰρήνη) — Peace',
+      url: 'https://scaife.perseus.org/lexica/lsj/εἰρήνη/',
+      description: 'Greek word for the divine peace guarding believers&apos; hearts in Philippians 4:7—not absence of trouble but presence of God.',
+    },
+    {
+      id: 'philippians-4-13-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Philippians 4:13 — I Can Do All Things Through Christ',
+      url: 'https://intertextual.bible/text/philippians-4.13/',
+      description: 'The context of Paul&apos;s declaration of strength through Christ, rooted in his experience of suffering and contentment.',
+    },
+    {
+      id: 'caesar-household-sbl',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Caesar&apos;s Household',
+      url: 'https://www.bibleodyssey.org/dictionary/caesars-household/',
+      description: 'The imperial household and servants—a network of believers at the center of Roman power, mentioned in Philippians 4:22.',
     },
   ],
 };

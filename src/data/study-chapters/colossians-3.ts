@@ -52,7 +52,7 @@ export const COLOSSIANS_3: RichChapterContent = {
           kind: 'commentary',
           id: 'c3-risen',
           html:
-            'The "if" here is not doubt—it is a logical consequence. You have been raised with Christ in baptism (Col. 2:12). Therefore, begin seeking. Not later, not when you feel it, but now. The grammar is present tense: <em>keep on seeking</em>. And the object of your seeking is not vague religious sentiment. It is "those things which are above"—the things of eternity, of Christ&apos;s kingdom, of God&apos;s purpose. This is not escape from the world. It is setting your gaze where Christ is already sitting: at the right hand of the Father, in power, in intercession, in victory.',
+            'The "if" here is not doubt—it is a logical consequence. You have been raised with Christ in baptism (Col. 2:12). Therefore, begin <em>seeking[res:zeteo-scaife]</em>. Not later, not when you feel it, but now. The grammar is present tense: <em>keep on seeking</em>. And the object of your seeking is not vague religious sentiment. It is "those things which are above"—the things of eternity, of Christ&apos;s kingdom, of God&apos;s purpose. This is not escape from the world. It is setting your gaze where Christ is already sitting: at the right hand of the Father, in power, in intercession, in victory.',
         },
         {
           kind: 'greek',
@@ -408,7 +408,7 @@ export const COLOSSIANS_3: RichChapterContent = {
           kind: 'commentary',
           id: 'c3-all-in-all',
           html:
-            'Paul names the divisions that fractured the ancient world. Greek and Jew—the cultural divide. Circumcision and uncircumcision—the religious divide. Barbarian and Scythian—the civilization divide. Slave and free—the social divide. Every human category that once conferred status or shame, that once separated one from another, <em>collapses in Christ.</em> Not because humans forget these distinctions (they do not), but because in the body of Christ, one person <em>is</em> the defining identity. Christ is all—the sum of everything that matters. And in all—present in each member, the ground of their equal worth.',
+            'Paul names the divisions that fractured the ancient world. Greek and Jew—the cultural divide. <em>Circumcision[res:nakedness-baptism-sbl]</em> and uncircumcision—the religious divide. Barbarian and Scythian—the civilization divide. Slave and free—the social divide. Every human category that once conferred status or shame, that once separated one from another, <em>collapses in Christ.</em> Not because humans forget these distinctions (they do not), but because in the body of Christ, one person <em>is</em> the defining identity. Christ is all—the sum of everything that matters. And in all—present in each member, the ground of their equal worth.',
         },
         {
           kind: 'carry',
@@ -700,7 +700,7 @@ export const COLOSSIANS_3: RichChapterContent = {
         {
           kind: 'commentary',
           html:
-            'Colossians now turns to the household—the primary structure of ancient life. Paul addresses wives, husbands, children, fathers, servants, and masters. This passage is debated among Christians. Some believe the commands are cultural accommodations to a first-century world. Others believe they transcend culture and remain binding. A third view holds that Paul sanctifies these relationships by framing them "in the Lord" and "unto the Lord"—that is, by making Jesus the ultimate authority and motive in every relationship, even the hierarchical ones. We will read it that way: the question is not whether the first-century household structure is eternally binding, but how the gospel enters any structure—even an imperfect one—and begins to redeem it from within.',
+            'Colossians now turns to the <em>household code[res:ephesians-household-intertextual]</em>—the primary structure of ancient life. Paul addresses wives, husbands, children, fathers, servants, and masters. This passage is debated among Christians. Some believe the commands are cultural accommodations to a first-century world. Others believe they transcend culture and remain binding. A third view holds that Paul sanctifies these relationships by framing them "in the Lord" and "unto the Lord"—that is, by making Jesus the ultimate authority and motive in every relationship, even the hierarchical ones. We will read it that way: the question is not whether the first-century household structure is eternally binding, but how the gospel enters any structure—even an imperfect one—and begins to redeem it from within.',
         },
         {
           kind: 'scripture',
@@ -824,6 +824,33 @@ export const COLOSSIANS_3: RichChapterContent = {
             'What household role are you in? Spouse, parent, child, worker, leader? How would it change if Christ, not the other person, were truly your ultimate authority and audience?',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'zeteo-scaife',
+      kind: 'lexicon',
+      source: 'Perseus Scaife',
+      label: 'Zeteo (ζητέω) — To Seek',
+      url: 'https://scaife.perseus.org/lexica/lsj/ζητέω/',
+      description: 'Paul&apos;s command to "seek those things which are above" (Colossians 3:1)—an active, deliberate pursuit of heavenly realities.',
+    },
+    {
+      id: 'ephesians-household-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Colossians 3:18–4:1 ↔ Ephesians 5:21–6:9 (Household Codes)',
+      url: 'https://intertextual.bible/text/colossians-3.18/',
+      description: 'Parallel household instructions between Colossians and Ephesians, both reframing relationships through Christ&apos;s lordship.',
+    },
+    {
+      id: 'nakedness-baptism-sbl',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Putting Off and Putting On (Baptismal Language)',
+      url: 'https://www.bibleodyssey.org/dictionary/baptism/',
+      description: 'Baptismal imagery underlying Colossians 3:9–10: dying to old identity, rising to new identity in Christ.',
     },
   ],
 };

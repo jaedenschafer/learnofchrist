@@ -34,6 +34,33 @@ export const EPHESIANS_5: RichChapterContent = {
     ref: 'Ephesians 5 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-genesis-2-marriage',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Genesis 2:24 — One Flesh',
+      url: 'https://www.sefaria.org/Genesis.2.24',
+      description: 'OT foundation for marriage and union that Paul applies to Christ and the church in verse 31.',
+    },
+    {
+      id: 'intertextual-ephesians-5',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Genesis 2:24 & Ephesians 5:31–32',
+      url: 'https://intertextual.bible/text/genesis-2.24/ephesians-5.31',
+      description: 'Paul&apos;s reapplication of the creation account to reveal the mystery of Christ and the church.',
+    },
+    {
+      id: 'bibleodyssey-marriage-ancient',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Marriage in Ancient Israel',
+      url: 'https://www.bibleodyssey.org/search?q=marriage',
+      description: 'Context for understanding marriage customs and Paul&apos;s teaching on marital love.',
+    },
+  ],
+
   sections: [
     /* ─── Ephesians 5:1–2 — Be Imitators of God ────────────────────────── */
     {
@@ -753,7 +780,7 @@ export const EPHESIANS_5: RichChapterContent = {
           kind: 'commentary',
           id: 'e5-body-flesh',
           html:
-            'This language echoes Genesis 2:23, where Adam first sees Eve and says, "This is now bone of my bones, and flesh of my flesh." Paul uses that same language to describe the relationship between Christ and the church. You are not foreign to Christ. You are part of Him. Not symbolically, but really.',
+            'This language echoes Genesis 2:23[res:sefaria-genesis-2-marriage], where Adam first sees Eve and says, "This is now bone of my bones, and flesh of my flesh." Paul uses that same language to describe the relationship between Christ and the church. You are not foreign to Christ. You are part of Him. Not symbolically, but really.',
         },
         {
           kind: 'commentary',
@@ -827,13 +854,13 @@ export const EPHESIANS_5: RichChapterContent = {
           kind: 'commentary',
           id: 'e5-mystery',
           html:
-            'The mystery is that marriage itself is a parable. Two become one flesh. That union was hidden in the rest of Scripture, hinted at in the covenant language, foreshadowed in the imagery of God as husband and Israel as bride. But Paul is making it explicit: Your marriage, if you are married, is meant to be a sign of Christ&apos;s covenant with the church.',
+            'The mystery is that marriage itself is a parable. Two become one flesh[res:intertextual-ephesians-5]. That union was hidden in the rest of Scripture, hinted at in the covenant language, foreshadowed in the imagery of God as husband and Israel as bride. But Paul is making it explicit: Your marriage, if you are married, is meant to be a sign of Christ&apos;s covenant with the church.',
         },
         {
           kind: 'commentary',
           id: 'e5-church-mystery',
           html:
-            'Paul is not reducing marriage to symbolism. Your actual marriage matters. But it also means something beyond itself. The way you love your spouse, the way you give yourself to them, the way you build a life together — all of it is a language that speaks to the world about Christ&apos;s love for the church.',
+            'Paul is not reducing marriage to symbolism. Your actual marriage matters. But it also means something beyond itself[res:bibleodyssey-marriage-ancient]. The way you love your spouse, the way you give yourself to them, the way you build a life together — all of it is a language that speaks to the world about Christ&apos;s love for the church.',
         },
         {
           kind: 'commentary',

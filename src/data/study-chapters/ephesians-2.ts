@@ -38,6 +38,33 @@ export const EPHESIANS_2: RichChapterContent = {
     ref: 'Ephesians 2 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-isaiah-28',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 28:16 — The Cornerstone',
+      url: 'https://www.sefaria.org/Isaiah.28.16',
+      description: 'OT prophecy of the cornerstone that Paul applies to Christ as the foundation of the church.',
+    },
+    {
+      id: 'bibleodyssey-reconciliation',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Reconciliation in Scripture',
+      url: 'https://www.bibleodyssey.org/search?q=reconciliation',
+      description: 'Explores how Christ breaks down barriers between Jew and Gentile, transforming enmity into peace.',
+    },
+    {
+      id: 'intertextual-ephesians-2',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Isaiah 57:19 & Ephesians 2:17',
+      url: 'https://intertextual.bible/text/isaiah-57.19/ephesians-2.17',
+      description: 'Paul&apos;s citation of Isaiah&apos;s peace proclamation applied to preaching the gospel to near and far.',
+    },
+  ],
+
   sections: [
     /* ─── Ephesians 2:1–3 — Dead in Trespasses and Sins ──────────────────── */
     {
@@ -556,7 +583,7 @@ export const EPHESIANS_2: RichChapterContent = {
           kind: 'commentary',
           id: 'e2-middle-wall',
           html:
-            '"Broken down the middle wall of partition." Paul has a specific image in mind: the barrier in the Jerusalem Temple that separated the Court of the Gentiles (where Gentiles could go) from the inner courts (where only Jews could enter). This was not just architecture. It was a theological statement: Gentiles are not fully part of God&apos;s people. Christ demolished that wall—not metaphorically, but in reality, by making a new way.',
+            '"Broken down the middle wall of partition." Paul has a specific image in mind: the barrier in the Jerusalem Temple that separated the Court of the Gentiles (where Gentiles could go) from the inner courts (where only Jews could enter)[res:bibleodyssey-reconciliation]. This was not just architecture. It was a theological statement: Gentiles are not fully part of God&apos;s people. Christ demolished that wall—not metaphorically, but in reality, by making a new way.',
         },
         {
           kind: 'greek',
@@ -583,7 +610,7 @@ export const EPHESIANS_2: RichChapterContent = {
           kind: 'commentary',
           id: 'e2-preached-peace',
           html:
-            '"And came and preached peace to you which were afar off, and to them that were nigh." Paul describes the Gospel proclamation. To the Gentiles (afar off), peace meant access to what was closed to them. To the Jews (nigh), peace meant release from the burden of separatism, the law that hemmed them in. Both groups received peace, but peace that reunited them.',
+            '"And came and preached peace to you which were afar off, and to them that were nigh."[res:intertextual-ephesians-2] Paul describes the Gospel proclamation. To the Gentiles (afar off), peace meant access to what was closed to them. To the Jews (nigh), peace meant release from the burden of separatism, the law that hemmed them in. Both groups received peace, but peace that reunited them.',
         },
         {
           kind: 'commentary',
@@ -676,7 +703,7 @@ export const EPHESIANS_2: RichChapterContent = {
           kind: 'commentary',
           id: 'e2-cornerstone',
           html:
-            '"Jesus Christ himself being the chief corner stone." A cornerstone is the foundational stone, often placed at the corner where two walls meet, bearing the weight of both. It is also the stone chosen for its strength and beauty, the one that determines the alignment of the entire building. Christ is not merely one stone in a building. He is the cornerstone on which everything else rests and against which everything else aligns.',
+            '"Jesus Christ himself being the chief corner stone."[res:sefaria-isaiah-28] A cornerstone is the foundational stone, often placed at the corner where two walls meet, bearing the weight of both. It is also the stone chosen for its strength and beauty, the one that determines the alignment of the entire building. Christ is not merely one stone in a building. He is the cornerstone on which everything else rests and against which everything else aligns.',
         },
         {
           kind: 'greek',

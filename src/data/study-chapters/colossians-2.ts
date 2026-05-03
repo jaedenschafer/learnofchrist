@@ -68,13 +68,13 @@ export const COLOSSIANS_2: RichChapterContent = {
           kind: 'commentary',
           id: 'c2-knit',
           html:
-            'Paul wants their hearts "knit together in love." Not divided by false doctrine, not scattered by competing loyalties to angels and disciplines, but bound together in love. This is the antidote to false teaching. Not isolation, but community. Not private knowledge hidden from others, but shared affection.',
+            'Paul wants their hearts "knit together in love," leading to <em>full assurance[res:plerophoria-scaife]</em> of understanding. Not divided by false doctrine, not scattered by competing loyalties to angels and disciplines, but bound together in love. This is the antidote to false teaching. Not isolation, but community. Not private knowledge hidden from others, but shared affection. True assurance comes from being rooted together in Christ.',
         },
         {
           kind: 'commentary',
           id: 'c2-mystery',
           html:
-            'Paul speaks of <em>the mystery of God, and of the Father, and of Christ</em>. Notice how he holds these together. The mystery is not hidden cosmic knowledge for initiates. It is the revelation of God through Christ. The false teachers claimed to have secret knowledge that led to mystical experiences and hidden wisdom. Paul says: the real mystery—God&apos;s hidden purpose—has been revealed in Christ. Everything you need to know is there.',
+            'Paul speaks of <em>the mystery of God, and of the Father, and of Christ</em>. Notice how he holds these together. The mystery is not hidden cosmic knowledge for initiates. It is the revelation of God through Christ. The false teachers claimed to have <em>secret knowledge[res:gnosticism-sbl]</em> that led to mystical experiences and hidden wisdom. Paul says: the real mystery—God&apos;s hidden purpose—has been revealed in Christ. Everything you need to know is there.',
         },
         {
           kind: 'greek',
@@ -441,7 +441,7 @@ export const COLOSSIANS_2: RichChapterContent = {
           kind: 'commentary',
           id: 'c2-handwriting',
           html:
-            'Paul uses the image of a legal document — the "handwriting" (cheirographon) that records your debt. The law, with all its demands, stands against you. You cannot keep it. You have broken it. That document is a sentence of death upon you. But Christ has taken it off the record. He has nailed it to His cross. The legal verdict against you is no longer active. It has been discharged.',
+            'Paul uses the image of a legal document — the <em>handwriting[res:handwriting-cross-intertextual]</em> (cheirographon) that records your debt. The law, with all its demands, stands against you. You cannot keep it. You have broken it. That document is a sentence of death upon you. But Christ has taken it off the record. He has nailed it to His cross. The legal verdict against you is no longer active. It has been discharged.',
         },
         {
           kind: 'greek',
@@ -732,4 +732,31 @@ export const COLOSSIANS_2: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Colossians 2 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'plerophoria-scaife',
+      kind: 'lexicon',
+      source: 'Perseus Scaife',
+      label: 'Plerophoria (πληροφορία) — Full Assurance',
+      url: 'https://scaife.perseus.org/lexica/lsj/πληροφορία/',
+      description: 'Paul&apos;s word for the confidence and certainty believers have in Christ—complete assurance in Him (Colossians 2:2).',
+    },
+    {
+      id: 'handwriting-cross-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Colossians 2:14 — Blotting Out the Handwriting',
+      url: 'https://intertextual.bible/text/colossians-2.14/',
+      description: 'Christ&apos;s cross canceled the debt—the handwriting (chirograph) of ordinances against believers.',
+    },
+    {
+      id: 'gnosticism-sbl',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Gnosticism',
+      url: 'https://www.bibleodyssey.org/dictionary/gnosticism/',
+      description: 'Background on early Gnostic false teaching that threatened Colossae: secret knowledge, angelic mediation, and cosmic dualism.',
+    },
+  ],
 };

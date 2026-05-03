@@ -28,6 +28,33 @@ export const EPHESIANS_4: RichChapterContent = {
     ref: 'Ephesians 4 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-psalm-68',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 68:18 — Ascension and Gifts',
+      url: 'https://www.sefaria.org/Psalms.68.18',
+      description: 'OT text of the ascension and gift-giving that Paul applies to Christ&apos;s exaltation and bestowal of spiritual gifts.',
+    },
+    {
+      id: 'bibleodyssey-gifts',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Spiritual Gifts in the New Testament',
+      url: 'https://www.bibleodyssey.org/search?q=spiritual+gifts',
+      description: 'Explores how diverse gifts build up the one body of Christ through different members&apos; contributions.',
+    },
+    {
+      id: 'intertextual-ephesians-4',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Psalm 68:18 & Ephesians 4:8–10',
+      url: 'https://intertextual.bible/text/psalms-68.18/ephesians-4.8',
+      description: 'Paul&apos;s reapplication of the ascension psalm to show Christ&apos;s victory and distribution of gifts.',
+    },
+  ],
+
   sections: [
     /* ─── Ephesians 4:1–3 — Walk Worthy of the Vocation ────────────────── */
     {
@@ -202,7 +229,7 @@ export const EPHESIANS_4: RichChapterContent = {
           kind: 'commentary',
           id: 'e4-ascension',
           html:
-            'Paul quotes Psalm 68:18, reinterpreted in the light of Christ&apos;s resurrection and ascension. "When he ascended up on high"—Christ did not stay on earth. He ascended into heaven, taking His seat at the right hand of the Father. But as He ascended, He "led captivity captive." He overthrew the powers that held humanity captive—sin, death, the law, the demonic forces. And the result? "Gave gifts unto men." The ascended Christ is a giving Christ. His ascension is not departure; it is investment in the church.',
+            'Paul quotes Psalm 68:18[res:sefaria-psalm-68], reinterpreted in the light of Christ&apos;s resurrection and ascension. "When he ascended up on high"—Christ did not stay on earth. He ascended into heaven, taking His seat at the right hand of the Father. But as He ascended, He "led captivity captive." He overthrew the powers that held humanity captive—sin, death, the law, the demonic forces. And the result? "Gave gifts unto men."[res:intertextual-ephesians-4] The ascended Christ is a giving Christ. His ascension is not departure; it is investment in the church.',
         },
         {
           kind: 'christ',
@@ -244,7 +271,7 @@ export const EPHESIANS_4: RichChapterContent = {
         {
           kind: 'commentary',
           html:
-            'Paul lists five leadership gifts. Not five ranks, but five distinct roles Christ has given to the body. Some are sent as apostles—foundational figures with authority and a message for wider circles. Some are prophets—those who hear from God and speak His word into particular moments. Some are evangelists—proclaimers of the gospel, especially to those outside the fold. Some are pastors—shepherds who tend to the flock, knowing members by name. Some are teachers—those who explain Scripture and build understanding.',
+            'Paul lists five leadership gifts[res:bibleodyssey-gifts]. Not five ranks, but five distinct roles Christ has given to the body. Some are sent as apostles—foundational figures with authority and a message for wider circles. Some are prophets—those who hear from God and speak His word into particular moments. Some are evangelists—proclaimers of the gospel, especially to those outside the fold. Some are pastors—shepherds who tend to the flock, knowing members by name. Some are teachers—those who explain Scripture and build understanding.',
         },
         {
           kind: 'greek',

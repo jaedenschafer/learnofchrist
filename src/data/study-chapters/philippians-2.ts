@@ -199,6 +199,12 @@ export const PHILIPPIANS_2: RichChapterContent = {
       title: 'In the Form of God',
       blocks: [
         {
+          kind: 'commentary',
+          id: 'p2-christ-hymn',
+          html:
+            'The Christ-hymn[res:christ-hymn-sbl] in Philippians 2:6–11 stands among the earliest and highest Christologies in Scripture. Christ&apos;s descent from God&apos;s form to the cross, and His exaltation when "every knee shall bow"[res:isaiah-45-23-sefaria]—this hymn echoes Isaiah 45:23. Paul quotes an OT passage naming God&apos;s unique prerogative and applies it to Christ. The Greek word <em>kenoo</em>[res:kenosis-lexicon] (to empty) describes Christ&apos;s self-humiliation: He emptied Himself, taking the form of a servant.',
+        },
+        {
           kind: 'scripture',
           chapter: 2,
           lines: [
@@ -932,6 +938,33 @@ export const PHILIPPIANS_2: RichChapterContent = {
           caption: 'Philippians 2:19–30 · Service and Faithfulness',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'christ-hymn-sbl',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Christ Hymn',
+      url: 'https://www.bibleodyssey.org/dictionary/christ-hymn/',
+      description: 'Scholarly entry on the early Christian hymn in Philippians 2:6–11, examining its Christological claims and liturgical context.',
+    },
+    {
+      id: 'isaiah-45-23-sefaria',
+      kind: 'archive',
+      source: 'Sefaria',
+      label: 'Isaiah 45:23 — Every Knee Shall Bow',
+      url: 'https://www.sefaria.org/Isaiah.45.23',
+      description: 'Parallel OT text: "To me every knee shall bow, every tongue shall swear." Paul applies this Isaiah passage to Christ&apos;s universal dominion.',
+    },
+    {
+      id: 'kenosis-lexicon',
+      kind: 'lexicon',
+      source: 'Perseus Scaife',
+      label: 'Kenoo (κενόω) — To Empty',
+      url: 'https://scaife.perseus.org/lexica/lsj/κενόω/',
+      description: 'Greek verb for Christ&apos;s self-emptying: He "emptied himself, taking the form of a servant" (Philippians 2:7).',
     },
   ],
 };

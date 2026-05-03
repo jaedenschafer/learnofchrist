@@ -223,7 +223,7 @@ export const EPHESIANS_6: RichChapterContent = {
           title: 'Palē — &ldquo;Wrestling&rdquo;',
           script: 'πάλη',
           translit: '<strong>palē</strong> · wrestling; a close hand-to-hand struggle',
-          description: 'Wrestling is the most intimate form of combat. It is not a distant battle with arrows and spears. It is face-to-face, body-to-body contact. Paul says your struggle is this intimate with spiritual forces. You are not merely resisting ideas; you are engaged with principalities and powers.',
+          description: 'Wrestling is the most intimate form of combat[res:perseus-lexicon-wrestle]. It is not a distant battle with arrows and spears. It is face-to-face, body-to-body contact. Paul says your struggle is this intimate with spiritual forces. You are not merely resisting ideas; you are engaged with principalities and powers.',
         },
         {
           kind: 'commentary',
@@ -310,7 +310,7 @@ export const EPHESIANS_6: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'eph6-righteousness-living',
-          html: 'Isaiah 59:17 says God Himself wears a breastplate of righteousness. When you put on this breastplate, you are putting on an aspect of Christ. His perfect obedience, His alignment with the will of God, His integrity—these become your protection. They shield your heart from guilt, from shame, from the accusations of the enemy.',
+          html: 'Isaiah 59:17[res:intertextual-ephesians-6-armor] says God Himself wears a breastplate of righteousness. When you put on this breastplate, you are putting on an aspect of Christ. His perfect obedience, His alignment with the will of God, His integrity—these become your protection. They shield your heart from guilt, from shame, from the accusations of the enemy.',
         },
         {
           kind: 'carry',
@@ -424,7 +424,7 @@ export const EPHESIANS_6: RichChapterContent = {
           kind: 'christ',
           id: 'christ-salvation',
           title: 'Christ Connection — Christ Your Salvation',
-          html: 'In Isaiah 59:17, the Lord Himself puts on a helmet of salvation. When you put on this helmet, you are putting on Christ&apos;s own assurance of victory. He has already won. The battle is His. And you share in that victory.',
+          html: 'In Isaiah 59:17[res:intertextual-ephesians-6-armor], the Lord Himself puts on a helmet of salvation. When you put on this helmet, you are putting on Christ&apos;s own assurance of victory. He has already won. The battle is His. And you share in that victory.',
         },
         {
           kind: 'carry',
@@ -543,7 +543,7 @@ export const EPHESIANS_6: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'eph6-love-faith',
-          html: 'Paul&apos;s final word is peace. But not peace divorced from love and faith. These three—peace, love, and faith—flow from God the Father and the Lord Jesus Christ. They are not your creation. They are the gifts of the risen Christ to His church.',
+          html: 'Paul&apos;s final word is peace[res:sefaria-isaiah-57-peace]. But not peace divorced from love and faith. These three—peace, love, and faith—flow from God the Father and the Lord Jesus Christ. They are not your creation. They are the gifts of the risen Christ to His church.',
         },
         {
           kind: 'commentary',
@@ -579,6 +579,33 @@ export const EPHESIANS_6: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Ephesians 6 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'intertextual-ephesians-6-armor',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Isaiah 59:17 & Ephesians 6:14–17',
+      url: 'https://intertextual.bible/text/isaiah-59.17/ephesians-6.14',
+      description: 'Isaiah&apos;s vision of God&apos;s armor, reapplied by Paul to believers in their spiritual warfare.',
+    },
+    {
+      id: 'sefaria-isaiah-57-peace',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 57:19 — Peace to Far and Near',
+      url: 'https://www.sefaria.org/Isaiah.57.19',
+      description: 'OT foundation for Paul&apos;s theme of reconciliation and peace through Christ.',
+    },
+    {
+      id: 'perseus-lexicon-wrestle',
+      kind: 'lexicon',
+      source: 'Perseus Scaife Library',
+      label: 'Greek Lexicon: Palē (Wrestling)',
+      url: 'https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0057%3Aalphabetic+letter%3DP%3Aentry+group%3D1%3Aentry%3Dpale',
+      description: 'Classical Greek definition of wrestling as intimate spiritual combat, illuminating Paul&apos;s metaphor.',
+    },
+  ],
 
   hasHebrew: false,
 };

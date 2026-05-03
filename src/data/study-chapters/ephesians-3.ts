@@ -36,6 +36,33 @@ export const EPHESIANS_3: RichChapterContent = {
     ref: 'Ephesians 3 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'intertextual-ephesians-3-mystery',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'The Mystery Revealed — Gentiles and Jews United',
+      url: 'https://intertextual.bible/text/ephesians-3',
+      description: 'Cross-references showing how OT prophecy of gentile inclusion finds fulfillment in the church.',
+    },
+    {
+      id: 'sefaria-genesis-2-love',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Genesis 2:24 — Love as Foundation',
+      url: 'https://www.sefaria.org/Genesis.2.24',
+      description: 'OT basis for understanding love as the foundation on which believers are rooted and grounded.',
+    },
+    {
+      id: 'perseus-pleroma-love',
+      kind: 'lexicon',
+      source: 'Perseus Scaife',
+      label: 'Plērōma — Fullness (Greek Lexicon)',
+      url: 'https://scaife.perseus.org/library/lsj/πλήρωμα/1',
+      description: 'Classical Greek concept of fullness and completion, enriching Paul&apos;s vision of being filled with God&apos;s fullness.',
+    },
+  ],
+
   sections: [
     /* ─── Ephesians 3:1 — The Prisoner of Jesus Christ for You Gentiles ──────── */
     {
@@ -474,7 +501,7 @@ export const EPHESIANS_3: RichChapterContent = {
           kind: 'commentary',
           id: 'c-rooted',
           html:
-            '"Rooted and grounded in love." A tree is rooted in the soil; a building is grounded in the foundation. Your life is rooted and grounded in love—not your love for God, but His love for you. That is the soil from which everything grows. That is the bedrock on which everything stands.',
+            '"Rooted and grounded in love."[res:sefaria-genesis-2-love] A tree is rooted in the soil; a building is grounded in the foundation. Your life is rooted and grounded in love—not your love for God, but His love for you. That is the soil from which everything grows. That is the bedrock on which everything stands.',
         },
         {
           kind: 'carry',
@@ -523,7 +550,7 @@ export const EPHESIANS_3: RichChapterContent = {
           kind: 'commentary',
           id: 'c-dimensions',
           html:
-            'The breadth: how wide is the circle of His love? It reaches to the uttermost parts of the earth. The length: how long does it last? From before the foundation of the world to eternity. The depth: how profound is His commitment? Down to the cross, down into death, down into hell itself for your sake. The height: how high does it lift you? To the throne of God, to the right hand of Christ, to a seat in the heavens. These four dimensions can only be comprehended "with all saints"—not in isolation, but in community.',
+            'The breadth: how wide is the circle of His love?[res:intertextual-ephesians-3-mystery] It reaches to the uttermost parts of the earth. The length: how long does it last? From before the foundation of the world to eternity. The depth: how profound is His commitment? Down to the cross, down into death, down into hell itself for your sake. The height: how high does it lift you? To the throne of God, to the right hand of Christ, to a seat in the heavens. These four dimensions can only be comprehended "with all saints"—not in isolation, but in community.',
         },
         {
           kind: 'commentary',
@@ -535,7 +562,7 @@ export const EPHESIANS_3: RichChapterContent = {
           kind: 'commentary',
           id: 'c-fullness',
           html:
-            'The final destination of this prayer is that you would be "filled with all the fulness of God." The Greek word is <em>pleroma</em>—the fullness, the completion, the overflow. Paul is praying that you would be so indwelt by God that you lack nothing, that you are complete, that you overflow.',
+            'The final destination of this prayer is that you would be "filled with all the fulness of God."[res:perseus-pleroma-love] The Greek word is <em>pleroma</em>—the fullness, the completion, the overflow. Paul is praying that you would be so indwelt by God that you lack nothing, that you are complete, that you overflow.',
         },
         {
           kind: 'greek',

@@ -37,6 +37,33 @@ export const EPHESIANS_1: RichChapterContent = {
     ref: 'Ephesians 1 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-psalm-110',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 110 — The Enthronement Psalm',
+      url: 'https://www.sefaria.org/Psalms.110',
+      description: 'OT basis for the language of Christ seated at God&apos;s right hand in verses 20–22 (quoted in Paul&apos;s vision of exaltation).',
+    },
+    {
+      id: 'intertextual-ephesians-1',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'OT Quotations in Ephesians 1',
+      url: 'https://intertextual.bible/text/ephesians-1',
+      description: 'Cross-referenced OT texts woven into Paul&apos;s election theology, showing deep scriptural roots.',
+    },
+    {
+      id: 'perseus-seal-sphragizo',
+      kind: 'lexicon',
+      source: 'Perseus Scaife',
+      label: 'Sphragizō — Seal (Greek Lexicon)',
+      url: 'https://scaife.perseus.org/library/lsj/σφραγίζω/1',
+      description: 'Classical and biblical usage of the sealing metaphor, showing ownership and authentication in ancient practice.',
+    },
+  ],
+
   sections: [
     /* ─── Ephesians 1:1–2 — Greeting ──────────────────────────────────── */
     {
@@ -438,7 +465,7 @@ export const EPHESIANS_1: RichChapterContent = {
           kind: 'commentary',
           id: 'e1-sealed',
           html:
-            'Now the doxology moves toward closure. Paul returns to the believers directly: "In whom ye also trusted… ye were sealed with that holy Spirit of promise." The sealing is the final confirmation. In antiquity, a seal marked ownership and authenticity. A document sealed with wax and the ring of the owner declared: this is authentic; this belongs to him. When believers trust in Christ, they are sealed with the Holy Spirit—marked as God&apos;s own, authentic, belonging to Him. The seal is not just a mark; it is a person. The Holy Spirit Himself is the seal.',
+            'Now the doxology moves toward closure. Paul returns to the believers directly: "In whom ye also trusted… ye were sealed with that holy Spirit of promise." The sealing is the final confirmation[res:perseus-seal-sphragizo]. In antiquity, a seal marked ownership and authenticity. A document sealed with wax and the ring of the owner declared: this is authentic; this belongs to him. When believers trust in Christ, they are sealed with the Holy Spirit—marked as God&apos;s own, authentic, belonging to Him. The seal is not just a mark; it is a person. The Holy Spirit Himself is the seal.',
         },
         {
           kind: 'greek',
@@ -663,13 +690,13 @@ export const EPHESIANS_1: RichChapterContent = {
           kind: 'commentary',
           id: 'e1-raised',
           html:
-            'God&apos;s power was "wrought in Christ" at the resurrection. Christ was raised—lifted from death to life, from the tomb to the throne. This is not resuscitation (like Lazarus being called out of the tomb); this is resurrection—transformation into a new mode of existence. Jesus appeared and disappeared, ate and yet was not bound by physical space. His resurrection is not a return to the old life but an entry into a new life, glorified, imperishable, full.',
+            'God&apos;s power was "wrought in Christ" at the resurrection. Christ was raised—lifted from death to life, from the tomb to the throne. This is not resuscitation (like Lazarus being called out of the tomb); this is resurrection—transformation into a new mode of existence[res:intertextual-ephesians-1]. Jesus appeared and disappeared, ate and yet was not bound by physical space. His resurrection is not a return to the old life but an entry into a new life, glorified, imperishable, full.',
         },
         {
           kind: 'commentary',
           id: 'e1-seated',
           html:
-            'More than that, Christ was "set… at his own right hand in the heavenly places." The right hand is the place of power and authority. To sit at the right hand of God is to be exalted above all. Christ is not merely alive; He is enthroned. He rules. "Heavenly places" (epouranios) appears in Ephesians 1:3 (believers are blessed in heavenly places) and 2:6 (believers are seated with Christ in heavenly places). Christ&apos;s exaltation is the foundation for the believer&apos;s spiritual position.',
+            'More than that, Christ was "set… at his own right hand in the heavenly places." The right hand is the place of power and authority[res:sefaria-psalm-110]. To sit at the right hand of God is to be exalted above all. Christ is not merely alive; He is enthroned. He rules. "Heavenly places" (epouranios) appears in Ephesians 1:3 (believers are blessed in heavenly places) and 2:6 (believers are seated with Christ in heavenly places). Christ&apos;s exaltation is the foundation for the believer&apos;s spiritual position.',
         },
         {
           kind: 'commentary',

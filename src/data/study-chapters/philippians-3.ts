@@ -153,7 +153,7 @@ export const PHILIPPIANS_3: RichChapterContent = {
           kind: 'commentary',
           id: 'p3-credentials',
           html:
-            'Paul now does something remarkable. He lists his pedigree. "Circumcised the eighth day"—not a proselyte or a half-Jew, but marked at infancy as a covenant son. "Of the stock of Israel"—a true Israelite. "Of the tribe of Benjamin"—the tribe of the first king, the tribe whose territory included Jerusalem. "An Hebrew of the Hebrews"—he spoke Hebrew, lived in the Hebrew tradition, was not Hellenized. By every measure of cultural honor and religious legitimacy, Paul was the real thing. He was even a Pharisee—the most rigorous sect, known for keeping not just the written law but the oral traditions as well. He was among the most devout.',
+            'Paul now does something remarkable. He lists his pedigree. "Circumcised the eighth day"—not a proselyte or a half-Jew, but marked at infancy as a covenant son. "Of the stock of Israel"—a true Israelite. "Of the tribe of Benjamin"—the tribe of the first king, the tribe whose territory included Jerusalem. "An Hebrew of the Hebrews"—he spoke Hebrew, lived in the Hebrew tradition, was not Hellenized. By every measure of cultural honor and religious legitimacy, Paul was the real thing. He was even a <em>Pharisee[res:pharisaic-righteousness-sbl]</em>—the most rigorous sect, known for keeping not just the written law but the oral traditions as well. He was among the most devout.',
         },
         {
           kind: 'commentary',
@@ -427,7 +427,7 @@ export const PHILIPPIANS_3: RichChapterContent = {
           kind: 'commentary',
           id: 'p3-mark-prize',
           html:
-            '"I press toward the mark for the prize." "Mark" (skopos) is the target, the goal. "Prize" (brabeion) is the reward given to the victor in a race. The Christian life is not complacency. It is a race. There is a finish line. There is a reward. And the goal is conformity to Christ and the glory that awaits at His return.',
+            '"I <em>press toward[res:prokopto-scaife]</em> the mark for the prize." "Mark" (skopos) is the target, the goal. "Prize" (brabeion) is the reward given to the victor in a race. The Christian life is not complacency. It is a race. There is a finish line. There is a reward. And the goal is conformity to Christ and the glory that awaits at His return.',
         },
         {
           kind: 'greek',
@@ -526,7 +526,7 @@ export const PHILIPPIANS_3: RichChapterContent = {
           kind: 'commentary',
           id: 'p3-conversation-heaven',
           html:
-            '"Our conversation is in heaven." Politeuma in Greek—citizenship, commonwealth, the place where one&apos;s primary allegiance lies. Paul is saying that your citizenship is not of this earth. You are a citizen of heaven. Your passport, your legal status, your home—it is there. Here, you are a foreigner, an alien, an ambassador. Your heart and your primary allegiance belong to the city whose builder and maker is God.',
+            '"Our conversation is in heaven." <em>Politeuma[res:politeuma-intertextual]</em> in Greek—citizenship, commonwealth, the place where one&apos;s primary allegiance lies. Paul is saying that your citizenship is not of this earth. You are a citizen of heaven. Your passport, your legal status, your home—it is there. Here, you are a foreigner, an alien, an ambassador. Your heart and your primary allegiance belong to the city whose builder and maker is God.',
         },
         {
           kind: 'commentary',
@@ -579,6 +579,33 @@ export const PHILIPPIANS_3: RichChapterContent = {
             'Where is your conversation? Where is your primary allegiance? What would it mean to live as a citizen of heaven while you are still on earth? What difference would it make to your decisions, your time, your money, your relationships?',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'prokopto-scaife',
+      kind: 'lexicon',
+      source: 'Perseus Scaife',
+      label: 'Prokopto (προκόπτω) — To Press Forward',
+      url: 'https://scaife.perseus.org/lexica/lsj/προκόπτω/',
+      description: 'Greek verb meaning to advance, progress, or cut a path forward—Paul&apos;s metaphor for straining toward Christ as an athlete toward the prize.',
+    },
+    {
+      id: 'politeuma-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Philippians 3:20 — Politeuma (Our Citizenship)',
+      url: 'https://intertextual.bible/text/philippians-3.20/',
+      description: 'Paul&apos;s declaration that believers&apos; citizenship—politeuma—is in heaven, not Rome: a radical political theology.',
+    },
+    {
+      id: 'pharisaic-righteousness-sbl',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Pharisees and Righteousness',
+      url: 'https://www.bibleodyssey.org/dictionary/pharisees/',
+      description: 'Context for understanding Paul&apos;s prior credentials as a Pharisee and his radical reassessment of righteousness in Philippians 3:4–11.',
     },
   ],
 };

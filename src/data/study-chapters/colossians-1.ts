@@ -64,7 +64,7 @@ export const COLOSSIANS_1: RichChapterContent = {
           kind: 'commentary',
           id: 'c1-timothy',
           html:
-            'Timothy, Paul&apos;s close companion and protégé, is mentioned not as a co-author but as a fellow witness. Paul opens letters in the same way: asserting his apostolic authority, then immediately naming partners who can vouch for what follows. This is a letter backed by trustworthy voices.',
+            'Timothy, Paul&apos;s close companion and protégé, is mentioned not as a co-author but as a fellow witness. Paul opens letters in the same way: asserting his apostolic authority, then immediately naming partners who can vouch for what follows. This is a letter backed by trustworthy voices. The recipients are at <em>Colossae[res:colossae-archaeology]</em>, a city in Phrygia under pressure from false teachers.',
         },
       ],
     },
@@ -379,7 +379,7 @@ export const COLOSSIANS_1: RichChapterContent = {
           kind: 'commentary',
           id: 'c1-eikon',
           html:
-            'Christ is the image of the invisible God. Not a copy, not a representation that stands apart from the thing itself. The Greek <em>eikon</em> conveys exact likeness, full manifestation. To see Christ is to see God. To study Christ&apos;s character, His mercy, His power, His resolve—is to study God&apos;s character directly. The invisible God has made Himself visible in Christ.',
+            'Christ is the <em>image[res:eikon-scaife]</em> of the invisible God. Not a copy, not a representation that stands apart from the thing itself. The Greek <em>eikon</em> conveys exact likeness, full manifestation. To see Christ is to see God. To study Christ&apos;s character, His mercy, His power, His resolve—is to study God&apos;s character directly. The invisible God has made Himself visible in Christ.',
         },
 
         {
@@ -662,7 +662,7 @@ export const COLOSSIANS_1: RichChapterContent = {
           kind: 'commentary',
           id: 'c1-fullness',
           html:
-            'The Father has chosen to lodge all His fullness in Christ. This is not a small claim. Fullness here means the complete substance, the totality of divine attributes and power. God did not pour some of His nature into Christ and reserve other aspects for Himself or other mediators. The complete divine fullness dwells in Christ. There is nothing lacking in Christ. There is no aspect of God&apos;s character, power, or purpose that Christ does not fully embody.',
+            'The Father has chosen to lodge <em>all His fullness[res:christ-hymn-colossians-sbl]</em> in Christ. This is not a small claim. Fullness here means the complete substance, the totality of divine attributes and power. God did not pour some of His nature into Christ and reserve other aspects for Himself or other mediators. The complete divine fullness dwells in Christ. There is nothing lacking in Christ. There is no aspect of God&apos;s character, power, or purpose that Christ does not fully embody.',
         },
 
         {
@@ -1007,6 +1007,33 @@ export const COLOSSIANS_1: RichChapterContent = {
             '<strong>Colossians 1 in Sum:</strong> Paul opens his letter with a thundering affirmation of Christ&apos;s supremacy. Christ is the image of God, the creator of all things, the sustainer of the cosmos, the head of the church, the one in whom all fullness dwells, the reconciler of all things. The false teachers have tried to diminish Christ by adding layers of spiritual disciplines, angelic mediators, and secret knowledge. Paul answers by showing that Christ is not in need of supplementary powers. He is complete. He is sufficient. And the mystery—the truth hidden for ages but now revealed—is that Christ Himself indwells believers. Christ in you. This is the hope of glory. If you are in Christ, you are reconciled, you are translated into the kingdom of light, you are part of His body, and His presence within you guarantees your transformation. No false teacher can offer you anything Christ does not already supply.',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'christ-hymn-colossians-sbl',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Christ Hymn (Colossians)',
+      url: 'https://www.bibleodyssey.org/dictionary/christ-hymn/',
+      description: 'Scholarly entry on the Christ-hymn in Colossians 1:15–20, an early Christian confession of Christ&apos;s cosmic supremacy.',
+    },
+    {
+      id: 'eikon-scaife',
+      kind: 'lexicon',
+      source: 'Perseus Scaife',
+      label: 'Eikon (εἰκών) — Image',
+      url: 'https://scaife.perseus.org/lexica/lsj/εἰκών/',
+      description: 'Christ as the image—not a copy but an exact representation—of the invisible God (Colossians 1:15).',
+    },
+    {
+      id: 'colossae-archaeology',
+      kind: 'archaeology',
+      source: 'ToposText',
+      label: 'Colossae',
+      url: 'https://topostext.org/place/437260PCom',
+      description: 'Geographical and archaeological data on Colossae in Phrygia, a city threatened by false teachers and strengthened by Paul&apos;s affirmation of Christ.',
     },
   ],
 };
