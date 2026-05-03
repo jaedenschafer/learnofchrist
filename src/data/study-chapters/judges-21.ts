@@ -65,7 +65,7 @@ export const JUDGES_21: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'oath-sworn',
-          html: 'The oath was made in the heat of judgment against Benjamin\'s crime at Gibeah. It was a rash oath — the kind that Numbers 30 addresses. The men of Israel swore that not one of them would give his daughter unto Benjamin as a wife. But now, having nearly destroyed the tribe entirely, they repented. Yet their repentance is disconnected from God\'s wisdom. They weep and build altars, but the solutions they devise produce new sins.',
+          html: 'The oath was made in the heat of judgment against Benjamin\'s crime at Gibeah. It was a rash oath — the kind that Numbers 30 addresses. The men of Israel swore that not one of them would give his daughter unto Benjamin as a wife. But now, having nearly destroyed the tribe entirely, they repented. Yet their repentance is disconnected from God\'s wisdom. They weep and build altars, but the solutions they devise produce new sins[res:sefaria-judges-21][res:bibleodyssey-shiloh].',
         },
         {
           kind: 'hebrew',
@@ -366,6 +366,26 @@ export const JUDGES_21: RichChapterContent = {
     ref: 'Judges 21:25 · Study Guide',
     label: 'Share Judges 21',
   },
+
+  resources: [
+    {
+      id: 'sefaria-judges-21',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Judges 21 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Judges.21',
+      description: 'The Hebrew text of Israel&apos;s grief over Benjamin and the awkward path to preserving the tribe.',
+    },
+    {
+      id: 'bibleodyssey-shiloh',
+      kind: 'archaeology',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Shiloh',
+      url: 'https://www.bibleodyssey.org/places/related-articles/shiloh/',
+      description: 'SBL entry on Shiloh, the central sanctuary where the daughters dance and Benjamin finds wives.',
+    },
+  ],
+
 
   hasHebrew: true,
 };

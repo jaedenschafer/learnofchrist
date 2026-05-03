@@ -31,6 +31,26 @@ export const KINGS_2_2: RichChapterContent = {
     ref: '2 Kings 2 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-2-kings-2',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Kings 2 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/II_Kings.2',
+      description: 'The Hebrew text of Elijah&apos;s ascension by chariot of fire and Elisha&apos;s double portion.',
+    },
+    {
+      id: 'intertextual-elijah-translation',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Elijah&apos;s Translation ↔ Christ&apos;s Ascension',
+      url: 'https://intertextual.bible/text/2-kings-2',
+      description: 'Cross-references showing how Elijah&apos;s ascension prefigures Christ and informs Acts 1.',
+    },
+  ],
+
+
   sections: [
     /* ─── 2 Kings 2:1–6 — The Journey: Three Refusals and One Refusal ──── */
     {
@@ -85,7 +105,7 @@ export const KINGS_2_2: RichChapterContent = {
           kind: 'commentary',
           id: 'elijah-taken-up',
           html:
-            'The narrative opens with the knowledge that Elijah will be taken up — not through death, but through a whirlwind. In all of Scripture, only two people leave the earth without dying: Enoch in Genesis 5, and now Elijah. This is not an ending; it is a translation. The Greek word used in the Septuagint for Enoch\'s translation is used by the writer to Hebrews when affirming that "Enoch was not; for God took him" (Hebrews 11:5). To be taken up is to be received by God, to be carried into heaven while still living.',
+            'The narrative opens with the knowledge that Elijah will be taken up — not through death, but through a whirlwind. In all of Scripture, only two people leave the earth without dying: Enoch in Genesis 5, and now Elijah. This is not an ending; it is a translation. The Greek word used in the Septuagint for Enoch\'s translation is used by the writer to Hebrews when affirming that "Enoch was not; for God took him" (Hebrews 11:5). To be taken up is to be received by God, to be carried into heaven while still living[res:sefaria-2-kings-2][res:intertextual-elijah-translation].',
         },
         {
           kind: 'commentary',

@@ -58,7 +58,7 @@ export const JUDGES_17: RichChapterContent = {
           kind: 'commentary',
           id: 'jdg17-curse',
           html:
-            'The mother had cursed—a serious thing in Israel. A curse released into the air hangs there; the family feels its weight. When Micah confesses, he is trying to lift it. But the mother, instead of forgiving directly, will redirect the stolen money toward God. As if sanctification can erase theft.',
+            'The mother had cursed—a serious thing in Israel. A curse released into the air hangs there; the family feels its weight. When Micah confesses, he is trying to lift it. But the mother, instead of forgiving directly, will redirect the stolen money toward God. As if sanctification can erase theft[res:sefaria-judges-17][res:bibleodyssey-judges-epilogue].',
         },
         {
           kind: 'hebrew',
@@ -425,6 +425,26 @@ export const JUDGES_17: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Judges 17 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-judges-17',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Judges 17 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Judges.17',
+      description: 'The Hebrew text of Micah&apos;s shrine, hired Levite, and the spiritual chaos of "no king in Israel."',
+    },
+    {
+      id: 'bibleodyssey-judges-epilogue',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Epilogue of Judges (chs. 17–21)',
+      url: 'https://www.bibleodyssey.org/articles/judges/',
+      description: 'SBL overview of Judges 17–21 as a deliberate portrait of Israel without a king.',
+    },
+  ],
+
 
   hasHebrew: true,
 };

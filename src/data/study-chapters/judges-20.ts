@@ -96,7 +96,7 @@ export const JUDGES_20: RichChapterContent = {
           kind: 'commentary',
           id: 'judges-20-mid1',
           html:
-            'Israel&apos;s pattern emerges: defeat, weeping, inquiry of the Lord, another battle. They do not turn away after the first loss. They do not trust their own strength after the second. Each defeat drives them deeper into repentance. By the second inquiry, they are fasting and offering sacrifices. The depths of their humbling are the precondition for the victory God will grant.',
+            'Israel&apos;s pattern emerges: defeat, weeping, inquiry of the Lord, another battle. They do not turn away after the first loss. They do not trust their own strength after the second. Each defeat drives them deeper into repentance. By the second inquiry, they are fasting and offering sacrifices. The depths of their humbling are the precondition for the victory God will grant[res:sefaria-judges-20][res:iaa-gibeah-archaeology].',
         },
         {
           kind: 'scripture',
@@ -229,6 +229,26 @@ export const JUDGES_20: RichChapterContent = {
     ref: 'Ephesians 2:14',
     label: 'Share Judges 20 + Ephesians 2',
   },
+
+  resources: [
+    {
+      id: 'sefaria-judges-20',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Judges 20 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Judges.20',
+      description: 'The Hebrew text of Israel&apos;s civil war against Benjamin after the outrage at Gibeah.',
+    },
+    {
+      id: 'iaa-gibeah-archaeology',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Gibeah of Saul (Tell el-Ful)',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Archaeological surveys of the site associated with the Benjamite stronghold and Saul&apos;s later capital.',
+    },
+  ],
+
 
   hasHebrew: true,
 };

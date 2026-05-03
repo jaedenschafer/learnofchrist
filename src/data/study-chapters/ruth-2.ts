@@ -44,7 +44,7 @@ export const RUTH_2: RichChapterContent = {
           kind: 'commentary',
           id: 'boaz-intro',
           html:
-            'Boaz appears first in Naomi\'s memory, not Ruth\'s sight. He is a kinsman—and more than that, a <em>mighty man of wealth</em>, a man of standing. The Hebrew phrase <em>ish gibor chayil</em> carries weight: a man of valor, of substance, of the kind who gets things done. He is a go\'el, a kinsman-redeemer—a role the law and culture had carved out for such moments. Naomi knows him. He is hope, waiting in the wings.',
+            'Boaz appears first in Naomi\'s memory, not Ruth\'s sight. He is a kinsman—and more than that, a <em>mighty man of wealth</em>, a man of standing. The Hebrew phrase <em>ish gibor chayil</em> carries weight: a man of valor, of substance, of the kind who gets things done. He is a go\'el, a kinsman-redeemer—a role the law and culture had carved out for such moments. Naomi knows him. He is hope, waiting in the wings[res:sefaria-ruth-2][res:sefaria-leviticus-19-9].',
         },
         {
           kind: 'hebrew',
@@ -377,6 +377,26 @@ export const RUTH_2: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Ruth 2 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-ruth-2',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ruth 2 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Ruth.2',
+      description: 'The Hebrew text of Ruth gleaning in Boaz&apos;s field with classical commentary on chesed.',
+    },
+    {
+      id: 'sefaria-leviticus-19-9',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Leviticus 19:9–10 — Gleaning Laws',
+      url: 'https://www.sefaria.org/Leviticus.19.9',
+      description: 'The legal background to Boaz&apos;s generosity: leaving the corners and gleanings of the field for the poor and the foreigner.',
+    },
+  ],
+
 
   hasHebrew: true,
 };

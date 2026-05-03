@@ -31,6 +31,26 @@ export const CHRONICLES_1_1: RichChapterContent = {
     ref: '1 Chronicles 1 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-1-chronicles-1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '1 Chronicles 1 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/I_Chronicles.1',
+      description: 'The Hebrew text of the genealogy from Adam through Israel with Rashi and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-genealogies',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Genealogies in the Hebrew Bible',
+      url: 'https://www.bibleodyssey.org/articles/genealogies/',
+      description: 'SBL essay on the function and theology of biblical genealogies as covenantal memory.',
+    },
+  ],
+
+
   sections: [
     /* ─── 1 Chronicles 1:1–3 — From Adam Through Noah ──────────────────── */
     {
@@ -50,7 +70,7 @@ export const CHRONICLES_1_1: RichChapterContent = {
           kind: 'commentary',
           id: 'adam-line',
           html:
-            'The genealogy opens with the line from Adam — not Adam the story, but Adam the name in a chain. Notice what the Chronicler does not include: no creation account, no temptation, no fall. The Chronicler is not interested in theology of origins for its own sake. The Chronicler is interested in continuity — the line that runs from the beginning of humanity to the present day. By listing Adam first, the text says: You are human. You belong to the human race, created in God&apos;s image.',
+            'The genealogy opens with the line from Adam — not Adam the story, but Adam the name in a chain. Notice what the Chronicler does not include: no creation account, no temptation, no fall. The Chronicler is not interested in theology of origins for its own sake. The Chronicler is interested in continuity — the line that runs from the beginning of humanity to the present day. By listing Adam first, the text says: You are human. You belong to the human race, created in God&apos;s image[res:sefaria-1-chronicles-1][res:bibleodyssey-genealogies].',
         },
         {
           kind: 'hebrew',

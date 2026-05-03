@@ -51,7 +51,7 @@ export const JOSHUA_22: RichChapterContent = {
           kind: 'commentary',
           id: 'obedience-past',
           html:
-            'Joshua opens not with accusation but with affirmation. The eastern tribes have been faithful — they fought beside the western tribes for years without complaint or divided loyalty. This praise is not ceremonial; it is earned. Joshua is not releasing them as second-class partners; he is honoring their covenant-keeping. The word "kept" (Hebrew <em>shamar</em>) will echo through the chapter.',
+            'Joshua opens not with accusation but with affirmation. The eastern tribes have been faithful — they fought beside the western tribes for years without complaint or divided loyalty. This praise is not ceremonial; it is earned. Joshua is not releasing them as second-class partners; he is honoring their covenant-keeping. The word "kept" (Hebrew <em>shamar</em>) will echo through the chapter[res:sefaria-joshua-22][res:bibleodyssey-tribal-territories].',
         },
         {
           kind: 'commentary',
@@ -533,6 +533,26 @@ export const JOSHUA_22: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Joshua 22 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-joshua-22',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Joshua 22 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Joshua.22',
+      description: 'The Hebrew text of the Trans-Jordan tribes&apos; altar of witness and the threat of civil war averted.',
+    },
+    {
+      id: 'bibleodyssey-tribal-territories',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Tribal Territories of Israel',
+      url: 'https://www.bibleodyssey.org/articles/the-tribal-territories-of-israel/',
+      description: 'SBL article mapping the inheritance and the meaning of the eastern tribes&apos; settlement beyond the Jordan.',
+    },
+  ],
+
 
   hasHebrew: true,
 };

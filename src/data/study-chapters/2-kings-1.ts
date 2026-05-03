@@ -31,6 +31,26 @@ export const KINGS_2_1: RichChapterContent = {
     ref: '2 Kings 1 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-2-kings-1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Kings 1 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/II_Kings.1',
+      description: 'The Hebrew text of Ahaziah&apos;s fall and Elijah&apos;s confrontation with the messengers of Baal-zebub.',
+    },
+    {
+      id: 'bibleodyssey-elijah',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Elijah',
+      url: 'https://www.bibleodyssey.org/dictionary/elijah/',
+      description: 'SBL entry on Elijah&apos;s confrontations with the kings of Israel and his theological role as fire-bringer.',
+    },
+  ],
+
+
   sections: [
     /* ─── 2 Kings 1:1–4 — Ahaziah Falls & Seeks False Gods ────────────── */
     {
@@ -51,7 +71,7 @@ export const KINGS_2_1: RichChapterContent = {
           kind: 'commentary',
           id: 'ahaziah-fall',
           html:
-            'Ahaziah\'s injury is not random. He falls through a lattice in his own house — a sign that his power, his position, his very roof cannot protect him. The moment he is vulnerable, his first instinct reveals his heart: he seeks counsel from a foreign god rather than from the Lord. He has inherited a kingdom; he has not inherited his father\'s grip on power, nor his willingness to turn to Israel\'s God.',
+            'Ahaziah\'s injury is not random. He falls through a lattice in his own house — a sign that his power, his position, his very roof cannot protect him. The moment he is vulnerable, his first instinct reveals his heart: he seeks counsel from a foreign god rather than from the Lord. He has inherited a kingdom; he has not inherited his father\'s grip on power, nor his willingness to turn to Israel\'s God[res:sefaria-2-kings-1][res:bibleodyssey-elijah].',
         },
         {
           kind: 'hebrew',

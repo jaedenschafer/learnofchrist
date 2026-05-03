@@ -49,7 +49,7 @@ export const JUDGES_6: RichChapterContent = {
           kind: 'commentary',
           id: 'midian-oppression',
           html:
-            'The pattern in Judges runs like a wheel: Israel does evil, God delivers them to their enemies for a season, then they cry out and He raises a deliverer. Seven years is a full cycle in biblical time — a complete, hard measure of consequence. The people are not merely conquered; they are driven underground.',
+            'The pattern in Judges runs like a wheel: Israel does evil, God delivers them to their enemies for a season, then they cry out and He raises a deliverer. Seven years is a full cycle in biblical time — a complete, hard measure of consequence. The people are not merely conquered; they are driven underground[res:sefaria-judges-6][res:bibleodyssey-gideon].',
         },
         {
           kind: 'commentary',
@@ -739,4 +739,24 @@ export const JUDGES_6: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Judges 6 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-judges-6',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Judges 6 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Judges.6',
+      description: 'The Hebrew text of Gideon&apos;s call from the threshing floor and the angel of the Lord&apos;s appearance.',
+    },
+    {
+      id: 'bibleodyssey-gideon',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Gideon',
+      url: 'https://www.bibleodyssey.org/dictionary/gideon/',
+      description: 'SBL entry on Gideon as the reluctant warrior whose strength was God&apos;s choosing of the weak.',
+    },
+  ],
+
 };
