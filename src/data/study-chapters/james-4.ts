@@ -660,5 +660,4 @@ export const JAMES_4: RichChapterContent = {
     },
   ],
 
-  hasHebrew: true,
 };

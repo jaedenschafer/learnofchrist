@@ -49,7 +49,7 @@ export const JOSHUA_3: RichChapterContent = {
                 t('Yet there shall be a space between you and it, about '),
                 hy('two thousand cubits', 'joshua-distance'),
                 t(' by measure: come not near unto it, that ye may know the way by which ye must go: for '),
-                hp('ye have not passed this way heretofore', 'christ-new-path'),
+                t('ye have not passed this way heretofore'),
                 t('.'),
               ],
             },
@@ -299,7 +299,7 @@ export const JOSHUA_3: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'priests-step',
+          id: 'priests-step-2',
           prompt:
             'What would change if you took a step of obedience before you had seen the outcome? What is one small step you can take today on God&apos;s word alone?',
         },

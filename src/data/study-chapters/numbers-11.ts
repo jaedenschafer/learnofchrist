@@ -628,7 +628,7 @@ export const NUMBERS_11: RichChapterContent = {
         },
         {
           kind: 'christ',
-          id: 'christ-feast-turned-judgment',
+          id: 'christ-feast-turned-judgment-2',
           title: 'Christ Connection — Feasting and Judgment',
           html:
             'This scene echoes throughout Scripture. Psalm 78:29–31 reflects on it: "So they did eat, and were well filled: for he gave them their own desire; But while their meat was yet in their mouths, the wrath of God came upon them." The pattern repeats in 1 Corinthians 10:5–6, where Paul warns the Corinthians about exactly this story. The judgment comes not because God is stingy but because the people have forgotten the Giver and are serving only appetite. Jesus, by contrast, turns us away from appetite toward Him. "Blessed are they which do hunger and thirst after righteousness: for they shall be filled" (Matthew 5:6). The graves of craving are avoided only when desire is transformed.',

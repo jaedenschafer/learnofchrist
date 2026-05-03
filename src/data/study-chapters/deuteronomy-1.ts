@@ -70,7 +70,7 @@ export const DEUTERONOMY_1: RichChapterContent = {
               number: 3,
               spans: [
                 t('And it came to pass in '),
-                hy('the fortieth year', 'deut-forty'),
+                t('the fortieth year'),
                 t(', in the eleventh month, on the first day of the month, that Moses spake unto the children of Israel, according unto all that the Lord had given him in commandment unto them;'),
               ],
             },
@@ -120,7 +120,7 @@ export const DEUTERONOMY_1: RichChapterContent = {
               number: 8,
               spans: [
                 t('Behold, I have '),
-                hy('set before you', 'c-set-before'),
+                t('set before you'),
                 t(' the land: go in and '),
                 hg('possess it', 'hebrew-yarash'),
                 t(' which the Lord sware unto your fathers, Abraham, Isaac, and Jacob, to give unto them and to their seed after them.'),
@@ -204,7 +204,7 @@ export const DEUTERONOMY_1: RichChapterContent = {
               number: 11,
               spans: [
                 t('(The Lord God of your fathers make you '),
-                hp('a thousand times so many more as ye are', 'c-blessing-multiply'),
+                t('a thousand times so many more as ye are'),
                 t(', and bless you, as he hath promised you!)'),
               ],
             },
@@ -463,7 +463,7 @@ export const DEUTERONOMY_1: RichChapterContent = {
               number: 33,
               spans: [
                 t('Who went in the way before you, to search you out a place to pitch your tents, and to shew you by fire by night, and in a cloud by day, '),
-                hy('the way', 'c-the-way'),
+                t('the way'),
                 t(' ye should go.'),
               ],
             },
@@ -492,7 +492,7 @@ export const DEUTERONOMY_1: RichChapterContent = {
         },
         {
           kind: 'christ',
-          id: 'hebrew-sane',
+          id: 'hebrew-sane-2',
           title: 'Christ Connection — The Lie at the Core',
           html:
             'The deepest sin in Kadesh-Barnea is not the refusal to enter the land. It is the slander: "the Lord hated us." This lie echoes through Scripture until Jesus steps into the Jordan and hears, "This is my beloved Son" (Matt. 3:17). God does not hate us. He loves us. And that love is so costly that He sends His own Son into the very wilderness we cannot cross alone. At the crucifixion, the lie comes to its worst: "My God, my God, why hast thou forsaken me?" (Matt. 27:46). But resurrection answers it: the Father never hated. He was always moving toward us, always making a way, always willing to bear us as a man bears his son.',
@@ -586,7 +586,7 @@ export const DEUTERONOMY_1: RichChapterContent = {
         },
         {
           kind: 'christ',
-          id: 'c-gods-anger',
+          id: 'c-gods-anger-2',
           title: 'Christ Connection — Judgment Borne',
           html:
             'Moses tells the people: "The Lord was angry with me for your sakes." Moses, the faithful leader, bears the consequence of the people&apos;s unfaithfulness. He does not enter the land either. This prefigures a deeper truth: in the New Testament, Christ stands in a similar place. "For he hath made him to be sin for us, who knew no sin; that we might be made the righteousness of God in him" (2 Cor. 5:21). Jesus bears the judgment that belongs to faithlessness, so that those who follow Him can enter the rest that has been prepared. His anger toward sin is real. His suffering is real. But His purpose is not destruction; it is restoration.',
@@ -687,7 +687,7 @@ export const DEUTERONOMY_1: RichChapterContent = {
         },
         {
           kind: 'christ',
-          id: 'hebrew-azaz',
+          id: 'hebrew-azaz-2',
           title: 'Christ Connection — Presumption and Faith',
           html:
             'When Jesus is tempted in the wilderness, one temptation is particularly telling: "Cast thyself down" from the temple, quoting Scripture—"He shall give his angels charge concerning thee" (Matt. 4:6). Jesus refuses. He says, "Thou shalt not tempt the Lord thy God" (Matt. 4:7). Presumption uses Scripture, claims faith, acts with confidence—but it is not faith in God; it is presumption about God. True faith listens and obeys. True faith says yes when He says yes, and no when He says no. Jesus never presumed. In Gethsemane, facing the cup of suffering, He prayed, "Nevertheless not as I will, but as thou wilt" (Matt. 26:39). That is the opposite of presumption. That is perfect trust.',

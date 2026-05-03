@@ -129,7 +129,7 @@ export const NUMBERS_20: RichChapterContent = {
                 t('And '),
                 hg('wherefore have ye made us to come up out of Egypt', 'c-egypt-again'),
                 t(', to bring us in unto this evil place? it is no place of seed, or of figs, or of vines, or of pomegranates; '),
-                hg('neither is there any water to drink', 'c-water-again'),
+                t('neither is there any water to drink'),
                 t('.'),
               ],
             },

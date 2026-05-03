@@ -207,7 +207,7 @@ export const ACTS_10: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'acts10-vision',
+          id: 'acts10-vision-2',
           prompt:
             'What lines have you drawn that once felt righteous? What is the Spirit asking you to reconsider?',
         },
@@ -521,7 +521,7 @@ export const ACTS_10: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'acts10-spirit-falls',
+          id: 'acts10-spirit-falls-2',
           prompt:
             'Peter had to watch the Spirit work on Gentiles before he could fully believe it was happening. Where in your own life have you been surprised by the Spirit working in someone you thought was beyond His reach?',
         },

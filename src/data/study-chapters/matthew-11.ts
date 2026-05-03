@@ -131,7 +131,7 @@ export const MATTHEW_11: RichChapterContent = {
         },
         {
           kind: 'christ',
-          id: 'matt11-christ-rest',
+          id: 'matt11-christ-rest-2',
           title: 'Christ Connection — Christ the Rest of the Soul',
           html:
             'After His works of power and His denunciation of unbelief, Jesus extends an invitation that opens the door to every weary soul. He is not only the one who performs miracles. He is the one who gives rest. Not the cessation of all labor, but the presence of one who labors alongside you, whose burden you share, whose strength sustains you.',

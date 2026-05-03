@@ -213,7 +213,7 @@ export const JOB_1: RichChapterContent = {
                 t('But '),
                 hy('put forth thine hand now, and touch all that he hath', 'job1-touch'),
                 t(', and he will '),
-                hy('curse thee to thy face', 'job1-curse-face'),
+                t('curse thee to thy face'),
                 t('.'),
               ],
             },

@@ -413,7 +413,7 @@ export const NEHEMIAH_13: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'final-prayer',
+          id: 'final-prayer-2',
           prompt:
             'What work have you done that you cannot guarantee will last? What would it mean to entrust it to God&apos;s remembrance, as Nehemiah did, rather than trying to make it permanent by your own effort?',
         },

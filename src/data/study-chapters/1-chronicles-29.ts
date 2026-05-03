@@ -126,7 +126,7 @@ export const CHRONICLES_1_29: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'perfect-heart',
+          id: 'perfect-heart-2',
           prompt: 'When have you given something — time, money, service — with a whole and undivided heart? How did it feel different from times when you gave reluctantly?',
         },
       ],
@@ -348,7 +348,7 @@ export const CHRONICLES_1_29: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'good-death',
+          id: 'good-death-2',
           prompt: 'What would it look like for you to die "full of days" — not merely old, but having lived a life of meaning, devotion, and wholehearted service? What legacy are you building toward?',
         },
       ],

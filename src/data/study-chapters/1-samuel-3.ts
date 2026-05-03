@@ -259,7 +259,7 @@ export const SAMUEL_1_3: RichChapterContent = {
               number: 10,
               spans: [
                 t('And the Lord came, and stood, and called as at other times, Samuel, Samuel. And Samuel said, '),
-                hp('Speak', 'c-speak-lord'),
+                t('Speak'),
                 t('; for thy servant heareth.'),
               ],
             },

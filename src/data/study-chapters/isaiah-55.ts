@@ -125,7 +125,7 @@ export const ISAIAH_55: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'isa55-word',
+          id: 'isa55-word-2',
           prompt: 'How does it change your faith to know that God\'s word will not return void—that it will accomplish what He purposes? What word from Scripture might God be speaking to you that will accomplish His purposes in your life?',
         },
       ],

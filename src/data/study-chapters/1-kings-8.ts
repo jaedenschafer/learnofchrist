@@ -136,7 +136,7 @@ export const KINGS_1_8: RichChapterContent = {
               number: 11,
               spans: [
                 t('So that the priests could not stand to minister because of the cloud: for the '),
-                hp('glory of the Lord', '1k8-glory'),
+                t('glory of the Lord'),
                 t(' had filled the house of the Lord.'),
               ],
             },

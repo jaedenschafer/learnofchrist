@@ -226,7 +226,7 @@ export const EZRA_3: RichChapterContent = {
         },
         {
           kind: 'hebrew',
-          id: 'ezra3-yasad',
+          id: 'ezra3-yasad-2',
           title: 'Yasad — "To Lay" or "To Found"',
           script: 'יָסַד',
           translit: '<strong>Yasad</strong> · to lay a foundation; to establish; to make firm',

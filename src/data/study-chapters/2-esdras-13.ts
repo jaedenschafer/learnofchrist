@@ -169,7 +169,7 @@ export const SECOND_ESDRAS_13: RichChapterContent = {
 
         {
           kind: 'reflection',
-          id: 'esd13-fire-mouth',
+          id: 'esd13-fire-mouth-2',
           prompt:
             'The man sends fire from his mouth and destroys all who come against him. What does it mean that the ultimate power in creation is not military might, but the word of the one whom God keeps?',
         },
@@ -294,7 +294,7 @@ export const SECOND_ESDRAS_13: RichChapterContent = {
 
         {
           kind: 'reflection',
-          id: 'esd13-kept-ages',
+          id: 'esd13-kept-ages-2',
           prompt:
             'What would it change about your faith to know that the Messiah was kept by God from eternity, and that you were chosen in him before the foundation of the world?',
         },
@@ -381,7 +381,7 @@ export const SECOND_ESDRAS_13: RichChapterContent = {
 
         {
           kind: 'reflection',
-          id: 'esd13-lost-tribes',
+          id: 'esd13-lost-tribes-2',
           prompt:
             'The lost tribes were separated for centuries, yet God remembered them and will gather them again. In what ways do you feel lost or separated? How might the Messiah&apos;s gathering apply to you?',
         },

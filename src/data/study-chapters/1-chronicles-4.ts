@@ -299,7 +299,7 @@ export const CHRONICLES_1_4: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'simeon-diminished',
+          id: 'simeon-diminished-2',
           prompt: 'Simeon was diminished and scattered, yet found good pasture and a place to dwell. When have you discovered God&apos;s provision in circumstances that felt smaller or different than you expected?',
         },
       ],

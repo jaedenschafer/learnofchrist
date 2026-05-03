@@ -74,7 +74,7 @@ export const PSALMS_96: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'psalms96-declare-glory',
+          id: 'psalms96-declare-glory-2',
           prompt: 'How can you declare God&apos;s glory in your sphere of influence? What would it mean to be part of the proclamation of His salvation to those around you?',
         },
       ],

@@ -338,7 +338,7 @@ export const ACTS_11: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'acts11-withstand',
+          id: 'acts11-withstand-2',
           prompt: 'What in your life have you tried to withstand or resist, only to find that God was moving beyond your objection? What did you learn?',
         },
       ],

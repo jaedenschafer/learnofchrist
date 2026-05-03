@@ -129,7 +129,7 @@ export const CHRONICLES_1_25: RichChapterContent = {
                 t('So the number of them, with their brethren that were '),
                 hg('instructed in the songs of the Lord', 'instructed-songs'),
                 t(', even all that were '),
-                hy('cunning', 'cunning-musicians'),
+                t('cunning'),
                 t(', was two hundred fourscore and eight.'),
               ],
             },

@@ -631,7 +631,7 @@ export const LEVITICUS_26: RichChapterContent = {
         },
         {
           kind: 'christ',
-          id: 'lev26-remember-covenant',
+          id: 'lev26-remember-covenant-2',
           title: 'Christ Connection — The Curse Becomes a Blessing',
           html:
             'Paul writes, &ldquo;Christ hath redeemed us from the curse of the law, being made a curse for us… that the blessing of Abraham might come on the Gentiles through Jesus Christ&rdquo; (Gal. 3:13–14). Every curse in Leviticus 26 — terror, famine, plague, exile, the consumption of the flesh — fell on Christ at the cross. Romans 5:1 says, &ldquo;Therefore being justified by faith, we have peace with God through our Lord Jesus Christ&rdquo; (Rom. 5:1). The blessings promised here — peace, fruitfulness, God&apos;s presence — flow now through Him. The covenant is not abolished; it is fulfilled and opened to all who believe.',

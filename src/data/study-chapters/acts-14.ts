@@ -85,7 +85,7 @@ export const ACTS_14: RichChapterContent = {
         },
         {
           kind: 'greek',
-          id: 'acts14-apitheo',
+          id: 'acts14-apitheo-2',
           title: 'Apeitheo — To Disbelieve; To Refuse to Obey',
           script: 'ἀπειθέω',
           translit: '<strong>apeitheo</strong> · to disobey; to refuse to believe; to be stubborn against truth',
@@ -100,7 +100,7 @@ export const ACTS_14: RichChapterContent = {
         },
         {
           kind: 'greek',
-          id: 'acts14-semeion',
+          id: 'acts14-semeion-2',
           title: 'Semeion — Sign; Miracle; Token',
           script: 'σημεῖον',
           translit: '<strong>semeion</strong> · a sign; a token; a miracle that points to divine power',
@@ -169,7 +169,7 @@ export const ACTS_14: RichChapterContent = {
         },
         {
           kind: 'greek',
-          id: 'acts14-dynamai',
+          id: 'acts14-dynamai-2',
           title: 'Dynamai — To Lack Power; To Be Impotent',
           script: 'δύναμαι',
           translit: '<strong>dynamai</strong> · to be able; to have power. Here in the negative: to be without power, impotent',
@@ -303,7 +303,7 @@ export const ACTS_14: RichChapterContent = {
         },
         {
           kind: 'greek',
-          id: 'acts14-pathos',
+          id: 'acts14-pathos-2',
           title: 'Pathos — Feeling; Passion; Suffering; Emotion',
           script: 'πάθος',
           translit: '<strong>pathos</strong> · feeling; passion; emotion; what is felt or suffered',
@@ -519,7 +519,7 @@ export const ACTS_14: RichChapterContent = {
         },
         {
           kind: 'greek',
-          id: 'acts14-exegeomai',
+          id: 'acts14-exegeomai-2',
           title: 'Exegeomai — To Lead Out; To Recount; To Explain in Detail',
           script: 'ἐξηγέομαι',
           translit: '<strong>exegeomai</strong> · to lead out; to recount fully; to explain; to narrate in detail',

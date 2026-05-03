@@ -78,7 +78,7 @@ export const DEUTERONOMY_17: RichChapterContent = {
                 t(', and '),
                 hy('worshipped them', 'c-worship-false'),
                 t(', either the '),
-                hg('sun, or moon, or any of the host of heaven', 'c-host'),
+                t('sun, or moon, or any of the host of heaven'),
                 t(', which I have not commanded;'),
               ],
             },
@@ -500,7 +500,7 @@ export const DEUTERONOMY_17: RichChapterContent = {
         },
         {
           kind: 'christ',
-          id: 'c-daily-read',
+          id: 'c-daily-read-2',
           title: 'Christ Connection — The Law Written on the Heart',
           html:
             'Jesus lives as this law demands. &ldquo;The law of the Lord is within my heart,&rdquo; the Psalms say (Ps. 40:8)—and Jesus quotes it of Himself. He does not accumulate power, wives, gold, or horses. He reads Scripture daily, meditates on it, quotes it even under trial. He submits to the very God He is. And His heart never lifts above His brethren—He calls the disciples His friends, and washes their feet. The portrait of the king in Deuteronomy 17 is a portrait of Christ.',

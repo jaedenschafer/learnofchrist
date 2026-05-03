@@ -54,7 +54,7 @@ export const JUDGES_19: RichChapterContent = {
           chapter: 19,
           lines: [
             verse(10, t('But the man would not tarry that night: but he rose up and departed, and came over against '), hp('Jebus (the same is Jerusalem)', 'choice-jebus'), t(': and there were with him two asses saddled, his concubine also was with him.')),
-            verse(11, t('And when they were by '), hy('Jebus', 'belial-word'), t(', the day was far spent; and the servant said unto his master, Come, I pray thee, and let us turn in into this city of the '), hy('Jebusites', 'belial-jebusites'), t(', and lodge in it.')),
+            verse(11, t('And when they were by '), hy('Jebus', 'belial-word'), t(', the day was far spent; and the servant said unto his master, Come, I pray thee, and let us turn in into this city of the '), t('Jebusites'), t(', and lodge in it.')),
             verse(12, t('And his master said unto him, We will not turn aside hither into the city of a stranger, that is not of the children of Israel; we will pass over to '), hp('Gibeah', 'choice-gibeah'), t('.')),
             verse(13, t('And he said unto his companion, Come, and let us draw near to one of these places to lodge all night, in '), hg('Gibeah, or in Ramah', 'lev-towns'), t('.')),
             plain(14, 'And they passed on and went their way; and the sun went down upon them when they were by Gibeah, which belongeth to Benjamin.'),

@@ -38,7 +38,7 @@ export const DEUTERONOMY_25: RichChapterContent = {
               number: 1,
               spans: [
                 t('If there be '),
-                hg('a controversy', 'c-controversy'),
+                t('a controversy'),
                 t(' between men, and they come unto judgment, that the judges may judge them; then they shall '),
                 hy('justify the righteous', 'c-tsedek'),
                 t(', and condemn the wicked.'),
@@ -219,7 +219,7 @@ export const DEUTERONOMY_25: RichChapterContent = {
               number: 10,
               spans: [
                 t('And his name shall be called in Israel, '),
-                hg('The house of him that hath his shoe loosed', 'c-shame'),
+                t('The house of him that hath his shoe loosed'),
                 t('.'),
               ],
             },

@@ -46,7 +46,7 @@ export const EZRA_9: RichChapterContent = {
               number: 2,
               spans: [
                 t('For they have taken of their daughters for themselves, and for their sons: so that the '),
-                hy('holy seed', 'ezra9-holy-seed'),
+                t('holy seed'),
                 t(' have mingled themselves with the people of those lands: yea, the hand of the princes and rulers hath been chief in this trespass.'),
               ],
             },
@@ -404,7 +404,7 @@ export const EZRA_9: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'ezra9-forsaken',
+          id: 'ezra9-forsaken-2',
           prompt: 'Where do you know the commandment clearly, yet continue in disobedience? What would it mean to face that, as Ezra does, without excuse or mitigation?',
         },
       ],
@@ -500,7 +500,7 @@ export const EZRA_9: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'ezra9-cannot-stand',
+          id: 'ezra9-cannot-stand-2',
           prompt: 'Is there a transgression in your life that you have been trying to defend, justify, or minimize? What would it mean to stand before God and say simply: "We cannot stand because of this"?',
         },
       ],

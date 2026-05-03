@@ -36,9 +36,9 @@ export const NUMBERS_2: RichChapterContent = {
               number: 2,
               spans: [
                 t('Every man of the children of Israel shall pitch by his own '),
-                hg('standard', 'nums2-degel'),
+                t('standard'),
                 t(', '),
-                hy('with the ensign of their father&apos;s house', 'nums2-oth'),
+                t('with the ensign of their father&apos;s house'),
                 t(': far off about the tabernacle of the congregation shall they pitch.'),
               ],
             },

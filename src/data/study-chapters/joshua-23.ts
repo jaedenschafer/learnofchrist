@@ -59,7 +59,7 @@ export const JOSHUA_23: RichChapterContent = {
               number: 5,
               spans: [
                 t('And the Lord your God, he shall '),
-                hy('expel them from before you', 'josh-expel'),
+                t('expel them from before you'),
                 t('; and ye shall possess their land, as the Lord your God hath promised unto you.'),
               ],
             },
@@ -79,7 +79,7 @@ export const JOSHUA_23: RichChapterContent = {
         },
         {
           kind: 'christ',
-          id: 'christ-fighter',
+          id: 'christ-fighter-2',
           title: 'Christ Connection — The One Who Fights for Us',
           html:
             'Paul echoes this promise across the centuries: &ldquo;If God be for us, who can be against us?&rdquo; (Romans 8:31). The God who fought for Joshua&apos;s generation fights for every generation of believers who put their trust in Him. Jesus taught His disciples the same security: &ldquo;Peace I leave with you, not as the world giveth, give I unto you&rdquo; (John 14:27). The victory is already won; our task is to remain faithful.',
@@ -337,7 +337,7 @@ export const JOSHUA_23: RichChapterContent = {
         },
         {
           kind: 'christ',
-          id: 'josh-promises',
+          id: 'josh-promises-2',
           title: 'Christ Connection — All Promises Yes and Amen',
           html:
             '&ldquo;For all the promises of God in him are yea, and in him Amen, unto the glory of God by us&rdquo; (2 Corinthians 1:20). In Christ, every promise of God is affirmed. Nothing fails. Nothing is revoked. Joshua&apos;s confidence — &ldquo;not one thing hath failed&rdquo; — is the confidence every believer can inherit through Christ&apos;s resurrection. The promises of God are not luck. They are character.',

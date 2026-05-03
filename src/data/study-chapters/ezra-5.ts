@@ -83,7 +83,7 @@ export const EZRA_5: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'prophets-arise',
+          id: 'prophets-arise-2',
           prompt:
             'When have you felt called to begin or resume a work through the encouragement of someone else&apos;s faith or prophetic word? What made you trust that call?',
         },
@@ -143,7 +143,7 @@ export const EZRA_5: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'eye-of-god',
+          id: 'eye-of-god-2',
           prompt:
             'When have you felt God&apos;s protective eye upon you during a difficult work? What gave you confidence to continue despite the opposition?',
         },
@@ -226,7 +226,7 @@ export const EZRA_5: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'servants-of-god',
+          id: 'servants-of-god-2',
           prompt:
             'When have you felt compelled to declare your true allegiance before someone in authority? What gave you courage to speak it plainly?',
         },
@@ -306,7 +306,7 @@ export const EZRA_5: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'eye-upon-builders',
+          id: 'eye-upon-builders-2',
           prompt:
             'When you confess your true allegiance to God before others, do you trust that He will vindicate that confession? What would it look like for you to speak more plainly about whom you serve?',
         },

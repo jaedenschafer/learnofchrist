@@ -143,5 +143,4 @@ export const ECCLESIASTES_12: RichChapterContent = {
     ref: 'Ecclesiastes 12 · Study Guide',
   },
 
-  hasHebrew: false,
 };

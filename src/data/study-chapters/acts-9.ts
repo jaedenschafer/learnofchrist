@@ -154,7 +154,7 @@ export const ACTS_9: RichChapterContent = {
         },
         {
           kind: 'christ',
-          id: 'acts9-christ-identification',
+          id: 'acts9-christ-identification-2',
           title: 'Christ Connection — He Identifies with His Church',
           html:
             'Saul hears Jesus say "I am Jesus whom thou persecutest." The risen Lord is not in heaven untouched by earthly suffering. He suffers when His church suffers. Paul later writes: "And whether one member suffer, all the members suffer with it" (1 Cor. 12:26). And to the persecutor Saul, He reveals Himself: My body is on earth. When you touch them, you touch Me. This is the mystical body of Christ made visible through resurrection power. Later, in 1 Corinthians 15, Paul will link his own resurrection experience—this encounter on the Damascus road—to the definition of apostleship itself.',

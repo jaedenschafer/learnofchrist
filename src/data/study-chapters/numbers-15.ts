@@ -301,7 +301,7 @@ export const NUMBERS_15: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'high-hand',
+          id: 'high-hand-2',
           prompt:
             'Where do you see yourself in this chapter — in the stumbling, in the ignorance that needs atonement, or ever tempted to raise your hand in defiance? How does knowing one carries atonement and one does not shape how you move forward?',
         },

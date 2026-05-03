@@ -201,7 +201,7 @@ export const CHRONICLES_2_33: RichChapterContent = {
               number: 13,
               spans: [
                 t('And '),
-                hp('prayed unto him', 'manasseh-prayer'),
+                t('prayed unto him'),
                 t(': and he was '),
                 hg('intreated of him', 'manasseh-heard'),
                 t(', and heard his supplication, and brought him again to Jerusalem into his kingdom. '),

@@ -251,7 +251,7 @@ export const CHRONICLES_1_15: RichChapterContent = {
                 t('And it came to pass, as the ark of the covenant of the Lord came into the city of David, that '),
                 hg('Michal the daughter of Saul looking out at a window saw king David dancing and playing', 'michal-sees'),
                 t(': and she '),
-                hy('despised him in her heart', 'michal-despise'),
+                t('despised him in her heart'),
                 t('.'),
               ],
             },

@@ -49,7 +49,7 @@ export const CHRONICLES_1_3: RichChapterContent = {
               number: 5,
               spans: [
                 t('And these were born unto him in Jerusalem; Shimea, and Shobab, and Nathan, and '),
-                hy('Solomon', 'davidic-solomon'),
+                t('Solomon'),
                 t(', four, of Bath-shua the daughter of Ammiel:'),
               ],
             },

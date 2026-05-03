@@ -66,7 +66,7 @@ export const NUMBERS_17: RichChapterContent = {
               number: 5,
               spans: [
                 t('And it shall come to pass, that the man\'s rod, whom I shall choose, shall '),
-                hp('blossom', 'christ-blossom'),
+                t('blossom'),
                 t(': and I will make to cease from me the murmurings of the children of Israel, whereby they murmur against you.'),
               ],
             },
@@ -262,7 +262,7 @@ export const NUMBERS_17: RichChapterContent = {
         },
         {
           kind: 'christ',
-          id: 'c-question',
+          id: 'c-question-2',
           title: 'Christ Connection — The Fear That Becomes Love',
           html:
             'Jesus says to John in Revelation: "Fear not; I am the first and the last… I am alive for evermore, and have the keys of hell and of death" (Rev. 1:17–18). The same Jesus who holds all power, who can destroy or resurrect, invites us not to a place of terror but into the rest of His presence. Like Aaron\'s rod, the cross looks at first like death—the instrument of the cruelest execution. But it is the dead wood that bears all the fruit of resurrection. The God who can consume is revealed as the God who chooses to save. The power that terrifies is the power that loves.',

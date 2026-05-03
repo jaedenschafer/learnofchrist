@@ -36,7 +36,7 @@ export const EXODUS_36: RichChapterContent = {
           kind: 'scripture',
           chapter: 36,
           lines: [
-            { number: 1, spans: [ t('Then wrought '), hg('Bezaleel and Aholiab', 'craftsmen-begin'), t(', and every '), hy('wise hearted man', 'chokhma-heart'), t(', in whom the LORD put wisdom and understanding to know how to work all manner of work for the service of the sanctuary, according to all that the LORD had commanded.') ] },
+            { number: 1, spans: [ t('Then wrought '), t('Bezaleel and Aholiab'), t(', and every '), hy('wise hearted man', 'chokhma-heart'), t(', in whom the LORD put wisdom and understanding to know how to work all manner of work for the service of the sanctuary, according to all that the LORD had commanded.') ] },
             { number: 2, spans: [ t('And Moses called '), hg('Bezaleel and Aholiab', 'craftsmen-called'), t(', and every wise hearted man, in whose heart the LORD had put wisdom, even every one whose heart stirred him up to come unto the work to do it:') ] },
             { number: 3, spans: [ t('And they received of Moses all the offering, which the children of Israel had brought for the work of the service of the sanctuary, to make it withal: and they brought yet unto him free offerings every morning.') ] },
           ],
@@ -136,7 +136,7 @@ export const EXODUS_36: RichChapterContent = {
           kind: 'scripture',
           chapter: 36,
           lines: [
-            { number: 8, spans: [ t('And every wise hearted man among them that wrought the work of the tabernacle made '), hy('ten curtains', 'curtains-ten'), t(' of fine twined linen, and blue, and purple, and scarlet: with cherubims of cunning work made he them.') ] },
+            { number: 8, spans: [ t('And every wise hearted man among them that wrought the work of the tabernacle made '), t('ten curtains'), t(' of fine twined linen, and blue, and purple, and scarlet: with cherubims of cunning work made he them.') ] },
             { number: 9, spans: [ t('The length of one curtain was twenty and eight cubits, and the breadth of one curtain four cubits: the curtains were all of one size.') ] },
             { number: 10, spans: [ t('And he coupled five curtains one unto another: and the other five curtains he coupled one unto another.') ] },
             { number: 11, spans: [ t('And he made loops of blue on the edge of one curtain from the selvedge in the coupling: likewise he made in the uttermost edge of another curtain, in the coupling of the second.') ] },
@@ -231,7 +231,7 @@ export const EXODUS_36: RichChapterContent = {
           kind: 'scripture',
           chapter: 36,
           lines: [
-            { number: 35, spans: [ t('And he made a veil of '), hp('blue, and purple, and scarlet, and fine twined linen', 'veil-colors'), t(': with cherubims made he it of cunning work.') ] },
+            { number: 35, spans: [ t('And he made a veil of '), t('blue, and purple, and scarlet, and fine twined linen'), t(': with cherubims made he it of cunning work.') ] },
             { number: 36, spans: [ t('And he made thereunto four pillars of shittim wood, and overlaid them with gold: their hooks were of gold; and he cast for them four sockets of silver.') ] },
             { number: 37, spans: [ t('And he made an hanging for the tabernacle door of blue, and purple, and scarlet, and fine twined linen, of needlework;') ] },
             { number: 38, spans: [ t('And the five pillars of it with their hooks: and he overlaid the chapiters of them and their fillets with gold: but their five sockets were of brass.') ] },

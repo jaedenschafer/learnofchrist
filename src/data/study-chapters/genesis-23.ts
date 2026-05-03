@@ -50,7 +50,7 @@ export const GENESIS_23: RichChapterContent = {
                 t('; the same is '),
                 hg('Hebron', 'c-hebron'),
                 t(' in the land of Canaan: and '),
-                hp('Abraham came to mourn for Sarah, and to weep for her', 'christ-mourning'),
+                t('Abraham came to mourn for Sarah, and to weep for her'),
                 t('.'),
               ],
             },
@@ -191,7 +191,7 @@ export const GENESIS_23: RichChapterContent = {
         },
         {
           kind: 'hebrew',
-          id: 'hebrew-ger-toshav',
+          id: 'hebrew-ger-toshav-2',
           title: 'Ger v\'toshav — "stranger and sojourner"',
           script: 'גֵּר וְתוֹשָׁב',
           translit: '<strong>ger</strong> · stranger, alien; <strong>toshav</strong> · sojourner, resident',

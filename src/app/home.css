@@ -9,9 +9,16 @@
 :root {
   --loc-max: 1180px;
   --loc-gutter: clamp(1.25rem, 3vw, 2rem);
-  --loc-section-y: clamp(4.5rem, 8vw, 8rem);
+  /* One rhythmic vertical scale across every section. */
+  --loc-section-y: clamp(5rem, 8vw, 8.5rem);
   --loc-radius-md: 16px;
   --loc-radius-lg: 28px;
+
+  /* Display type ladder — one source of truth so every section's
+     headline scales together. h1 (hero) → h2 (sections) → h3 (cards). */
+  --loc-h1: clamp(3.5rem, 9.2vw, 7.75rem);
+  --loc-h2: clamp(2.25rem, 5vw, 3.75rem);
+  --loc-h3: clamp(1.5rem, 2.8vw, 2.25rem);
 
   /* Vesper home tokens — alias the global Vesper palette so the home
      page stays in sync with the rest of the site automatically. */
@@ -213,9 +220,9 @@ html[data-reader-theme="dark"] {
 }
 
 /* ─── Buttons — uses the shared .frost-pill recipe ───────────────────────
-   Every button on the home page (hero CTA, "Browse the art library",
-   "Open the Bible" closer, gallery "View" pills) reads from the same
-   --frost-* tokens as the dashboard. One source of truth. */
+   Every button on the home page reads from the --frost-* tokens. The
+   hover uses scale+brightness instead of translateY so it reads as the
+   iOS Material press-state, not a 2015-portfolio hover. */
 .loc-btn,
 .loc-btn--solid,
 .loc-btn--ghost,
@@ -240,20 +247,41 @@ html[data-reader-theme="dark"] {
   border: none;
   box-shadow: var(--frost-shadow);
   transition: transform 0.18s cubic-bezier(0.2, 0.7, 0.2, 1),
-              background 0.2s ease;
+              background 0.2s ease,
+              filter 0.2s ease;
   isolation: isolate;
 }
 .loc-btn:hover,
 .loc-btn--solid:hover,
 .loc-btn--ghost:hover,
 .loc-btn--outline:hover {
-  transform: translateY(-1px);
   background: var(--frost-tint-hover);
+  filter: brightness(1.06);
 }
 .loc-btn:active,
 .loc-btn--solid:active,
 .loc-btn--ghost:active,
 .loc-btn--outline:active { transform: scale(0.97); }
+
+/* Hero text link — quiet secondary action sitting under the primary
+   CTA pill. No background, no border, just a soft underline. */
+.loc-hero__textlink {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 0.875rem;
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 0.9375rem;
+  font-weight: 500;
+  letter-spacing: 0.005em;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.32);
+  padding-bottom: 1px;
+  transition: color 0.18s ease, border-color 0.18s ease;
+}
+.loc-hero__textlink:hover {
+  color: #FFFFFF;
+  border-bottom-color: rgba(255, 255, 255, 0.65);
+}
 
 /* ─── 1. Hero — 100vh, bottom-aligned ───────────────────────────────── */
 .loc-hero {
@@ -345,8 +373,9 @@ html[data-reader-theme="dark"] {
 
 .loc-hero__ctas {
   display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0;
 }
 
 /* Tiny scroll-cue line at the bottom edge */
@@ -384,16 +413,16 @@ html[data-reader-theme="dark"] {
 
 .loc-resources {
   /* Photo backdrop so the white-frosted CTA reads consistently with
-     every other section. Uses a softer warm landscape so the arches
-     of artwork above stay the visual focus. */
+     every other section. Backlit canyon at golden hour — keeps the
+     mood warm but quiet so the arches of artwork remain the focal. */
   position: relative;
   isolation: isolate;
   overflow: hidden;
-  padding: clamp(4rem, 7vw, 6.5rem) 0 clamp(2.5rem, 5vw, 4.5rem);
+  padding: var(--loc-section-y) 0 calc(var(--loc-section-y) * 0.6);
   text-align: center;
   background-image:
-    linear-gradient(180deg, rgba(26, 22, 18, 0.30), rgba(26, 22, 18, 0.42)),
-    url('https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=2400&q=85');
+    linear-gradient(180deg, rgba(26, 22, 18, 0.42), rgba(26, 22, 18, 0.58)),
+    url('https://images.unsplash.com/photo-1486325212027-8081e485255e?auto=format&fit=crop&w=2400&q=85');
   background-size: cover;
   background-position: center;
 }
@@ -763,25 +792,18 @@ html[data-reader-theme="dark"] {
   isolation: isolate;
   overflow: hidden;
   padding: var(--loc-section-y) 0;
+  /* Quiet golden field at dusk — deeper than the previous bright pasture
+     so the white-frosted glass pane reads as luminous, not washed out. */
   background-image:
-    linear-gradient(180deg, rgba(26, 22, 18, 0.18), rgba(26, 22, 18, 0.32)),
-    url('https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=2400&q=85');
+    linear-gradient(180deg, rgba(26, 22, 18, 0.30), rgba(26, 22, 18, 0.50)),
+    url('https://images.unsplash.com/photo-1490604001847-b712b0c2f967?auto=format&fit=crop&w=2400&q=85');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
 
-/* Tiny gold separator above the mission to mark the section change. */
-.loc-mission::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 64px;
-  height: 1px;
-  background: linear-gradient(90deg, transparent, var(--loc-gold), transparent);
-}
+/* Decorative gold separator removed — fought the photo backdrop. The
+   section break is communicated by the photographic transition itself. */
 
 /* Mission pane = shared .frost-card recipe (scaled up). Mission section
    has a photo backdrop, so the pane reads as a luminous frosted plate
@@ -827,276 +849,12 @@ html[data-reader-theme="dark"] {
    Atmospheric photo backdrop with a strong dark veil + Cloister Indigo
    tint, so the gold numerals read as luminous against a deep
    contemplative scene rather than a flat colored block. */
-.loc-stats {
-  position: relative;
-  isolation: isolate;
-  overflow: hidden;
-  color: var(--vesper-parchment);
-  padding: clamp(3.5rem, 5vw, 5.5rem) 0;
-  background-image:
-    linear-gradient(180deg, rgba(42, 47, 74, 0.78), rgba(21, 24, 42, 0.86)),
-    url('https://images.unsplash.com/photo-1465101162946-4377e57745c3?auto=format&fit=crop&w=2400&q=85');
-  background-size: cover;
-  background-position: center;
-}
-
-.loc-stats__grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 2.5rem 1.5rem;
-}
-
-@media (min-width: 760px) {
-  .loc-stats__grid {
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1.5rem;
-  }
-}
-
-.loc-stat__value {
-  font-family: 'EB Garamond', 'New York', Georgia, serif;
-  font-weight: 500;
-  font-size: clamp(3.25rem, 7vw, 5.5rem);
-  line-height: 0.95;
-  letter-spacing: -0.028em;
-  color: var(--vesper-gold);
-  margin: 0 0 0.5rem;
-  /* Faint warm glow under each numeral. */
-  text-shadow: 0 0 40px rgba(200, 150, 74, 0.18);
-}
-
-.loc-stat__label {
-  font-size: 0.8125rem;
-  line-height: 1.5;
-  color: rgba(245, 240, 230, 0.68);
-  margin: 0;
-  max-width: 18rem;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  font-weight: 600;
-}
-
-/* ─── 5. Features ───────────────────────────────────────────────────── */
-.loc-features {
-  background: var(--color-bg);
-  padding: var(--loc-section-y) 0 calc(var(--loc-section-y) * 0.5);
-}
-
-.loc-features__head {
-  text-align: center;
-  margin: 0 auto clamp(3rem, 6vw, 5.5rem);
-  max-width: 44rem;
-}
-
-.loc-features__title {
-  font-family: 'EB Garamond', 'New York', Georgia, serif;
-  font-weight: 500;
-  font-size: clamp(2.25rem, 4.6vw, 3.5rem);
-  line-height: 1.05;
-  letter-spacing: -0.02em;
-  color: var(--color-label);
-  margin: 0 0 1rem;
-  text-wrap: balance;
-}
-
-.loc-features__lede {
-  font-size: clamp(1rem, 1.4vw, 1.125rem);
-  line-height: 1.6;
-  color: var(--color-secondary-label);
-  margin: 0 auto;
-  max-width: 38rem;
-}
-
-.loc-feature {
-  padding: clamp(2.5rem, 5vw, 5rem) 0;
-}
-
-.loc-feature__inner {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 2.5rem;
-  align-items: center;
-}
-
-@media (min-width: 920px) {
-  .loc-feature__inner {
-    grid-template-columns: 1fr 1.15fr;
-    gap: clamp(3rem, 5vw, 5.5rem);
-  }
-  .loc-feature--flip .loc-feature__copy { order: 2; }
-  .loc-feature--flip .loc-feature__media { order: 1; }
-}
-
-.loc-feature__copy {
-  max-width: 32rem;
-}
-
-.loc-feature__title {
-  font-family: 'EB Garamond', 'New York', Georgia, serif;
-  font-weight: 500;
-  font-size: clamp(1.875rem, 3.4vw, 2.625rem);
-  line-height: 1.05;
-  letter-spacing: -0.018em;
-  color: var(--color-label);
-  margin: 0 0 1rem;
-  text-wrap: balance;
-}
-
-.loc-feature__body {
-  font-size: 1.0625rem;
-  line-height: 1.6;
-  color: var(--color-secondary-label);
-  margin: 0 0 2rem;
-}
-
-.loc-feature__media {
-  position: relative;
-  aspect-ratio: 5 / 4;
-  border-radius: var(--loc-radius-lg);
-  overflow: hidden;
-  background: var(--color-separator);
-  /* Subtle paper-edge shadow */
-  box-shadow:
-    0 1px 2px rgba(20, 14, 8, 0.04),
-    0 30px 60px -20px rgba(20, 14, 8, 0.20);
-}
-
-.loc-feature__media img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.7s cubic-bezier(0.2, 0.7, 0.2, 1);
-}
-
-.loc-feature:hover .loc-feature__media img {
-  transform: scale(1.025);
-}
-
-@media (min-width: 920px) {
-  .loc-feature__media {
-    aspect-ratio: 4 / 3;
-  }
-}
-
-/* ─── 6. Stories — editorial pull-quote grid ─────────────────────────────
-   Stock-portrait testimonials read amateur fast. Strip the photos out
-   entirely and let the words carry the section: a big serif glyph, a
-   generous quote, a quiet byline. */
-.loc-stories {
-  /* Photo backdrop with dark veil so the white-frost story cards above
-     are legible. Same recipe as the dashboard / mission / blog. */
-  position: relative;
-  isolation: isolate;
-  overflow: hidden;
-  padding: var(--loc-section-y) 0;
-  background-image:
-    linear-gradient(180deg, rgba(26, 22, 18, 0.40), rgba(26, 22, 18, 0.55)),
-    url('https://images.unsplash.com/photo-1499209974431-9dddcece7f88?auto=format&fit=crop&w=2400&q=85');
-  background-size: cover;
-  background-position: center;
-}
-
-/* Faint warm ambient glow at the top of the stories band — picks up the
-   gold from the stats numerals one section above. */
-.loc-stories::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 240px;
-  pointer-events: none;
-  background: radial-gradient(ellipse 70% 100% at 50% 0%, rgba(200, 150, 74, 0.08), transparent 60%);
-}
-
-.loc-stories__head {
-  text-align: center;
-  max-width: 44rem;
-  margin: 0 auto clamp(2.5rem, 5vw, 4rem);
-  padding: 0 var(--loc-gutter);
-}
-
-.loc-stories__title {
-  font-family: 'EB Garamond', 'New York', Georgia, serif;
-  font-weight: 500;
-  font-size: clamp(2.25rem, 4.6vw, 3.5rem);
-  line-height: 1.05;
-  letter-spacing: -0.02em;
-  color: var(--frost-text);
-  margin: 0 0 1rem;
-  text-wrap: balance;
-}
-
-.loc-stories .loc-eyebrow { color: var(--loc-gold-soft); }
-
-.loc-stories__lede {
-  font-size: clamp(1rem, 1.3vw, 1.125rem);
-  line-height: 1.55;
-  color: var(--frost-text-soft);
-  margin: 0 auto;
-  max-width: 36rem;
-}
-
-.loc-stories__grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1.25rem;
-}
-
-@media (min-width: 760px) {
-  .loc-stories__grid { grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
-}
-
-/* Story card uses the .frost-card recipe. Stories sit on a parchment
-   band (no photo backdrop), so the section gets its own warm photo
-   added below — see .loc-stories — and the cards become white-on-
-   frost just like the dashboard. */
-.loc-story {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  padding: clamp(1.75rem, 3vw, 2.5rem) clamp(1.5rem, 2.5vw, 2rem);
-  background: var(--frost-tint-card);
-  -webkit-backdrop-filter: var(--frost-blur-card);
-  backdrop-filter: var(--frost-blur-card);
-  border: 1px solid var(--frost-border-card);
-  border-radius: 28px;
-  color: var(--frost-text);
-  transition: background 0.25s ease, border-color 0.2s ease;
-  isolation: isolate;
-}
-
-.loc-story:hover {
-  background: var(--frost-tint-hover);
-  border-color: rgba(255, 255, 255, 0.40);
-}
-
-.loc-story__mark {
-  font-family: 'EB Garamond', 'New York', Georgia, serif;
-  font-size: 4rem;
-  line-height: 0.5;
-  color: var(--loc-gold);
-  margin: 0 0 0.25rem;
-  display: block;
-  user-select: none;
-}
-
-.loc-story__quote {
-  font-family: 'EB Garamond', 'New York', Georgia, serif;
-  font-size: clamp(1.0625rem, 1.4vw, 1.1875rem);
-  line-height: 1.5;
-  color: var(--frost-text);
-  margin: 0 0 1.5rem;
-  flex: 1;
-}
-
-.loc-story__byline {
-  font-size: 0.8125rem;
-  letter-spacing: 0.02em;
-  color: var(--frost-text-muted);
-  margin: 0;
-}
-.loc-story__byline strong { color: var(--frost-text); font-weight: 600; }
+/* ─── (Removed) Stats, Features, Stories ─────────────────────────────────
+   These sections were cut from the home page during the $1M-app
+   tightening pass — Stats read as a corporate metrics dashboard,
+   Features duplicated content visible elsewhere on the site, and the
+   pull-quote Stories used fake testimonials. Their CSS lived here
+   for ~600 lines and has been removed. */
 
 /* ─── 7. Blog ───────────────────────────────────────────────────────── */
 .loc-blog {
@@ -1106,9 +864,11 @@ html[data-reader-theme="dark"] {
   isolation: isolate;
   overflow: hidden;
   padding: var(--loc-section-y) 0;
+  /* Pine forest at sunrise — more contemplative than the previous beach
+     and provides the soft cool-warm contrast that white frost loves. */
   background-image:
-    linear-gradient(180deg, rgba(26, 22, 18, 0.30), rgba(26, 22, 18, 0.45)),
-    url('https://images.unsplash.com/photo-1499988921418-b7df40ff03f9?auto=format&fit=crop&w=2400&q=85');
+    linear-gradient(180deg, rgba(26, 22, 18, 0.40), rgba(26, 22, 18, 0.58)),
+    url('https://images.unsplash.com/photo-1418065460487-3e41a6c84dc5?auto=format&fit=crop&w=2400&q=85');
   background-size: cover;
   background-position: center;
 }
@@ -1306,25 +1066,10 @@ html[data-reader-theme="dark"] {
 }
 
 /* ─── Dark theme overrides ──────────────────────────────────────────── */
-html[data-reader-theme="dark"] .loc-feature__media,
-html[data-reader-theme="dark"] .loc-arch__tile,
-html[data-reader-theme="dark"] .loc-story {
+html[data-reader-theme="dark"] .loc-arch__tile {
   box-shadow:
     0 1px 2px rgba(0, 0, 0, 0.4),
     0 24px 48px -20px rgba(0, 0, 0, 0.6);
-}
-
-html[data-reader-theme="dark"] .loc-story {
-  /* Same recipe in dark mode — white text on a darker frosted card. */
-  background: color-mix(in srgb, var(--color-surface) 55%, transparent);
-  border-color: rgba(255, 255, 255, 0.10);
-  color: var(--vesper-parchment);
-}
-
-html[data-reader-theme="dark"] .loc-stats {
-  background:
-    radial-gradient(ellipse 80% 100% at 50% 0%, rgba(214, 163, 87, 0.14), transparent 60%),
-    linear-gradient(180deg, var(--vesper-cloister) 0%, #15182A 100%);
 }
 
 /* Dark-theme button overrides for .loc-btn--solid / .loc-btn--outline

@@ -50,7 +50,7 @@ export const KINGS_1_3: RichChapterContent = {
                 t('Solomon '),
                 hg('loved the Lord', 'solomon-love-lord'),
                 t(', walking in the statutes of David his father: only he sacrificed and burnt incense in '),
-                hg('high places', 'high-places-then'),
+                t('high places'),
                 t('.'),
               ],
             },
@@ -186,7 +186,7 @@ export const KINGS_1_3: RichChapterContent = {
               number: 9,
               spans: [
                 t('Give therefore thy servant an '),
-                hy('understanding heart', 'lev-shomea'),
+                t('understanding heart'),
                 t(' to judge thy people, that I may '),
                 hg('discern between good and bad', 'discern-good-bad'),
                 t(': for who is able to judge this thy so great a people?'),
@@ -359,7 +359,7 @@ export const KINGS_1_3: RichChapterContent = {
               number: 15,
               spans: [
                 t('And Solomon awoke; and, behold, it was a dream. And he came to Jerusalem, and stood before the '),
-                hg('ark of the covenant', 'ark-covenant'),
+                t('ark of the covenant'),
                 t(' of the Lord, and offered up burnt offerings, and offered peace offerings, and made a feast to all his servants.'),
               ],
             },
@@ -420,7 +420,7 @@ export const KINGS_1_3: RichChapterContent = {
               number: 22,
               spans: [
                 t('Then said the other woman, Nay; but the '),
-                hg('living is my son', 'living-child'),
+                t('living is my son'),
                 t(', and the dead is thy son: and this said, No; but the dead is thy son, and the living is my son. Thus they spake before the king.'),
               ],
             },
@@ -445,7 +445,7 @@ export const KINGS_1_3: RichChapterContent = {
               number: 26,
               spans: [
                 t('Then the king answered and said, Give her the '),
-                hp('living child', 'give-living'),
+                t('living child'),
                 t(', and in no wise slay it: she is the mother thereof.'),
               ],
             },

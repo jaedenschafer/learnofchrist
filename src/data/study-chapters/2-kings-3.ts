@@ -208,7 +208,7 @@ export const KINGS_2_3: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'minstrel-worship',
+          id: 'minstrel-worship-2',
           prompt: 'When the minstrel played, the Spirit came upon the prophet. What role does worship or silence play in your own readiness to hear God&apos;s word? How does music or sacred space prepare your heart?',
         },
       ],

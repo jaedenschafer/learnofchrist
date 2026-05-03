@@ -530,7 +530,7 @@ export const ROMANS_16: RichChapterContent = {
         },
         {
           kind: 'christ',
-          id: 'rom16-apokalupto',
+          id: 'rom16-apokalupto-2',
           title: 'Christ Connection — The Mystery Made Known',
           html:
             'What is the mystery? Christ. His incarnation, His death, His resurrection, His offer of righteousness to all who believe. Paul writes in Colossians: "Christ in you, the hope of glory" (Col. 1:27). The secret that was kept since the world began is this: God Himself, in human flesh, dying for your sins, rising for your justification. That is the gospel. That is the power that will establish you.',

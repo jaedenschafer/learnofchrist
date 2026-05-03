@@ -162,7 +162,7 @@ export const GENESIS_18: RichChapterContent = {
                 t('And he said, I will certainly return unto thee '),
                 hg('according to the time of life', 'c-appointed-time'),
                 t('; and, lo, Sarah thy wife shall have a '),
-                hp('son', 'christ-seed-promise'),
+                t('son'),
                 t('. And Sarah heard it in the tent door, which was behind him.'),
               ],
             },
@@ -269,7 +269,7 @@ export const GENESIS_18: RichChapterContent = {
               number: 17,
               spans: [
                 t('And the LORD said, '),
-                hp('Shall I hide from Abraham that thing which I do', 'christ-disclosure'),
+                t('Shall I hide from Abraham that thing which I do'),
                 t(';'),
               ],
             },

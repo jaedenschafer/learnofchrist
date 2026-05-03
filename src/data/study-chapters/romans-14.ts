@@ -571,7 +571,7 @@ export const ROMANS_14: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'rom14-kingdom',
+          id: 'rom14-kingdom-2',
           prompt:
             'Where are you fighting for a principle (about diet, culture, practice, interpretation) that is getting in the way of righteousness, peace, and joy? What would it look like to let that go?',
         },

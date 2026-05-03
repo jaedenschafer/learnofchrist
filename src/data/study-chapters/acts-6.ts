@@ -330,7 +330,7 @@ export const ACTS_6: RichChapterContent = {
         },
         {
           kind: 'greek',
-          id: 'acts6-sophia',
+          id: 'acts6-sophia-2',
           title: 'Sophia — Wisdom',
           script: 'σοφία',
           translit: '<strong>sophia</strong> · wisdom; understanding; divine insight',

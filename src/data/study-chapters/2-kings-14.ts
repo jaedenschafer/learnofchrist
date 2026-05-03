@@ -213,7 +213,7 @@ export const KINGS_2_14: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'thistle-cedar',
+          id: 'thistle-cedar-2',
           prompt: 'Someone wiser has offered you counsel, even gently. Have you ever ignored it and learned the cost? What made the difference between times you heard wisdom and times you did not?',
         },
       ],

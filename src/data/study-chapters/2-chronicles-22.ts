@@ -237,7 +237,7 @@ export const CHRONICLES_2_22: RichChapterContent = {
                 t('But '),
                 hy('Jehoshabeath', 'c22-jehoshabeath'),
                 t(', the daughter of the king, took '),
-                hy('Joash', 'c22-joash'),
+                t('Joash'),
                 t(' the son of Ahaziah, and stole him from among the king&apos;s sons that were slain, and put him and his nurse in a '),
                 hg('bedchamber', 'c22-bedchamber'),
                 t('. So Jehoshabeath, the daughter of king Jehoram, the wife of Jehoiada the priest, (for she was the sister of Ahaziah,) hid him from Athaliah, so that she slew him not.'),

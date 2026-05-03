@@ -277,7 +277,7 @@ export const NEHEMIAH_3: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'over-against',
+          id: 'over-against-2',
           prompt: 'Is there a wall that needs building, a relationship that needs repair, a community that needs strengthening in the place where you actually live? What would it look like to put your neck to that work?',
         },
       ],

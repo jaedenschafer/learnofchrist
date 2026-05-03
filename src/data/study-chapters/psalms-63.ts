@@ -110,7 +110,7 @@ export const PSALMS_63: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'psalms63-king-rejoice',
+          id: 'psalms63-king-rejoice-2',
           prompt: 'How would your life change if your primary joy came from God rather than from defeating your enemies or securing your circumstances?',
         },
       ],

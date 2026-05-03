@@ -117,7 +117,7 @@ export const MICAH_5: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'micah5-cleansing',
+          id: 'micah5-cleansing-2',
           prompt:
             'What false securities, false knowledge, or idols does God need to cleanse from your own life and heart?',
         },

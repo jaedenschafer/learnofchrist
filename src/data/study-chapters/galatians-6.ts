@@ -533,7 +533,7 @@ export const GALATIANS_6: RichChapterContent = {
         },
         {
           kind: 'christ',
-          id: 'gal6-kauchao-cross',
+          id: 'gal6-kauchao-cross-2',
           title: 'Christ Connection — The Cross as Victory and Shame',
           html:
             'The cross appears shameful—the place of defeat, the criminal&apos;s death. But Paul sees it as the place of glory. Why? Because it is the place of Christ&apos;s victory over sin and death. Because it is the place where the old world dies and a new creation begins. And because when you join your death to His death, you are set free from the world&apos;s judgment forever. The cross is the scandal that shatters all other scandals.',

@@ -80,7 +80,7 @@ export const SAMUEL_2_5: RichChapterContent = {
                 t('So all the elders of Israel came to the king to Hebron; and king David made a '),
                 hg('league with them in Hebron before the Lord', 'c-covenant'),
                 t(': and they '),
-                hg('anointed David king over Israel', 'c-anointed'),
+                t('anointed David king over Israel'),
                 t('.'),
               ],
             },

@@ -153,7 +153,7 @@ export const MATTHEW_10: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'matt10-cross',
+          id: 'matt10-cross-2',
           prompt: 'What would taking up your cross look like in your concrete situation? What is Jesus asking you to surrender? What is He promising you will find?',
         },
       ],

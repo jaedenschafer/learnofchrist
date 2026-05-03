@@ -52,7 +52,7 @@ export const JUDGES_3: RichChapterContent = {
               number: 2,
               spans: [
                 t('Only that '),
-                hy('the generations of the children of Israel', 'judges-generations'),
+                t('the generations of the children of Israel'),
                 t(' might know, to teach them war, at the least such as before knew nothing thereof;'),
               ],
             },
@@ -101,7 +101,7 @@ export const JUDGES_3: RichChapterContent = {
               number: 6,
               spans: [
                 t('And the children of Israel '),
-                hy('did evil in the sight of the LORD', 'hebrew-shapath'),
+                t('did evil in the sight of the LORD'),
                 t(', and forgot the LORD their God, and served Baalim and '),
                 hg('the groves', 'judges-asherah'),
                 t('.'),
@@ -168,7 +168,7 @@ export const JUDGES_3: RichChapterContent = {
               number: 8,
               spans: [
                 t('And when the children of Israel cried unto the LORD, the LORD '),
-                hy('raised up', 'judges-raised-up'),
+                t('raised up'),
                 t(' a deliverer to the children of Israel, who '),
                 hp('delivered them', 'christ-deliverer'),
                 t(', even Othniel the son of Kenaz, Caleb&apos;s younger brother.'),
@@ -312,7 +312,7 @@ export const JUDGES_3: RichChapterContent = {
               number: 16,
               spans: [
                 t('But Ehud made him '),
-                hg('a dagger of two edges', 'judges-dagger'),
+                t('a dagger of two edges'),
                 t(', of a cubit length; and he did gird it under his raiment upon his right thigh.'),
               ],
             },
@@ -428,7 +428,7 @@ export const JUDGES_3: RichChapterContent = {
               number: 27,
               spans: [
                 t('And when he was come, he blew a trumpet in the mount of Ephraim: and the children of Israel went down with him from the mount, and he '),
-                hy('before them', 'judges-first'),
+                t('before them'),
                 t('.'),
               ],
             },
@@ -436,7 +436,7 @@ export const JUDGES_3: RichChapterContent = {
               number: 28,
               spans: [
                 t('And he said unto them, Follow after me: for the LORD hath delivered your enemies the Moabites into your hand. So they went down after him, and took the fords of Jordan toward Moab, and '),
-                hg('suffered not a man to pass over', 'judges-slaughter'),
+                t('suffered not a man to pass over'),
                 t('.'),
               ],
             },
@@ -544,7 +544,7 @@ export const JUDGES_3: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'judges-shamgar',
+          id: 'judges-shamgar-2',
           prompt:
             'What ordinary thing do you have in your hands right now? What would it look like to trust that it is enough?',
         },

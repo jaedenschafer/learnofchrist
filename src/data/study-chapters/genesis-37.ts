@@ -151,7 +151,7 @@ export const GENESIS_37: RichChapterContent = {
               number: 7,
               spans: [
                 t('For, behold, we were binding sheaves in the field, and, lo, my sheaf arose, and also '),
-                hy('stood upright', 'hebrew-nitsav'),
+                t('stood upright'),
                 t('; and behold, your sheaves stood round about, and made obeisance to my sheaf.'),
               ],
             },
@@ -187,7 +187,7 @@ export const GENESIS_37: RichChapterContent = {
               number: 11,
               spans: [
                 t('And his brethren '),
-                hp('envied him', 'christ-jealousy'),
+                t('envied him'),
                 t('; but his father observed the saying.'),
               ],
             },

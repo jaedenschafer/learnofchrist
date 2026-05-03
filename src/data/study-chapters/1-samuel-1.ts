@@ -374,7 +374,7 @@ export const SAMUEL_1_1: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'hannah-prayer',
+          id: 'hannah-prayer-2',
           prompt:
             'What would it be like to pray as Hannah did — in silence, entirely to God, without needing anyone to hear or understand? What are you carrying that needs to be poured out before the Lord?',
         },

@@ -80,7 +80,7 @@ export const JUDGES_15: RichChapterContent = {
                 t('And Samson went and caught three hundred '),
                 hy('foxes', 'hebrew-shu-al'),
                 t(', and took '),
-                hy('firebrands', 'jud15-firebrands'),
+                t('firebrands'),
                 t(', and turned tail to tail, and put a firebrand in the midst between two tails.'),
               ],
             },
@@ -252,7 +252,7 @@ export const JUDGES_15: RichChapterContent = {
               number: 14,
               spans: [
                 t('And when he came unto Lehi, '),
-                hp('the Philistines shouted against him', 'jud15-shout'),
+                t('the Philistines shouted against him'),
                 t(': and '),
                 hp('the Spirit of the Lord came mightily upon him', 'jud15-spirit'),
                 t('; and the cords that were upon his arms became as flax burnt with fire, and his bands loosed from off his hands.'),
@@ -416,7 +416,7 @@ export const JUDGES_15: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'jud15-water',
+          id: 'jud15-water-2',
           prompt:
             'When you are exhausted and thirsty — in your actual life, not metaphorically — where do you call? Where have you found the water you didn&apos;t expect?',
         },

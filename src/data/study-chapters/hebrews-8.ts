@@ -496,7 +496,7 @@ export const HEBREWS_8: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'heb8-vanish',
+          id: 'heb8-vanish-2',
           prompt:
             'Where are you still trying to keep rules as a way to stay close to God? Where could you trade religious effort for a relationship?',
         },

@@ -82,7 +82,7 @@ export const GENESIS_45: RichChapterContent = {
               number: 3,
               spans: [
                 t('And Joseph said unto his brethren, '),
-                hp('I am Joseph', 'c-i-am-joseph'),
+                t('I am Joseph'),
                 t('; '),
                 hp('doth my father yet live?', 'c-father-live'),
                 t(' And his brethren could not answer him; for they were '),
@@ -154,7 +154,7 @@ export const GENESIS_45: RichChapterContent = {
               number: 5,
               spans: [
                 t('Now therefore be not grieved, nor angry with yourselves, that ye sold me hither: for God did '),
-                hy('send me', 'c-send-me'),
+                t('send me'),
                 t(' before you to '),
                 hy('preserve life', 'hebrew-machyah'),
                 t('.'),

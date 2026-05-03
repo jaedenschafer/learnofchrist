@@ -155,7 +155,7 @@ export const EXODUS_40: RichChapterContent = {
           kind: 'scripture',
           chapter: 40,
           lines: [
-            { number: 34, spans: [ t('Then '), hp('a cloud covered the tent of the congregation', 'cloud-covered'), t(', and '), hp('the glory of the LORD filled the tabernacle', 'glory-filled'), t('.') ] },
+            { number: 34, spans: [ t('Then '), t('a cloud covered the tent of the congregation'), t(', and '), t('the glory of the LORD filled the tabernacle'), t('.') ] },
             { number: 35, spans: [ t('And Moses '), hy('was not able to enter into the tent of the congregation', 'unable-enter'), t(', because the cloud abode thereon, and the glory of the LORD filled the tabernacle.') ] },
             { number: 36, spans: [ t('And when the cloud was taken up from over the tabernacle, the children of Israel went onward in all their journeys:') ] },
             { number: 37, spans: [ t('But if the cloud were not taken up, then they journeyed not till the day that it was taken up.') ] },

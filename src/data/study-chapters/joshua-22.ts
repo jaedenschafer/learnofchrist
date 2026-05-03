@@ -66,7 +66,7 @@ export const JOSHUA_22: RichChapterContent = {
             {
               number: 3,
               spans: [
-                hp('Now the Lord your God hath given rest unto your brethren', 'rest-promise'),
+                t('Now the Lord your God hath given rest unto your brethren'),
                 t(', as he promised them: therefore now return ye, and get you unto the land of your possession, which Moses the servant of the Lord gave you on this side Jordan.'),
               ],
             },
@@ -134,7 +134,7 @@ export const JOSHUA_22: RichChapterContent = {
                 t('And Joshua said unto them, '),
                 hg('Return with much riches unto your tents', 'riches'),
                 t(', and with very much cattle, with silver, and with gold, and with brass, and with iron, and with very much raiment: '),
-                hp('divide the spoil of your enemies with your brethren', 'generosity'),
+                t('divide the spoil of your enemies with your brethren'),
                 t('.'),
               ],
             },
@@ -367,7 +367,7 @@ export const JOSHUA_22: RichChapterContent = {
               number: 25,
               spans: [
                 t('For the Lord hath made Jordan a border between us and you, ye children of Reuben and children of Gad; '),
-                hp('ye have no part in the Lord', 'exclusion-fear'),
+                t('ye have no part in the Lord'),
                 t('. Thus shall your children make our children cease from fearing the Lord.'),
               ],
             },
@@ -401,7 +401,7 @@ export const JOSHUA_22: RichChapterContent = {
               number: 27,
               spans: [
                 t('Therefore said we, It shall be when they should so say to us or to our generations in time to come, that we may say again, Behold the '),
-                hy('pattern of the altar of the Lord', 'mizbeach-pattern'),
+                t('pattern of the altar of the Lord'),
                 t(', which our fathers made, not for burnt offerings, nor for sacrifices; but it is a witness between us and you.'),
               ],
             },

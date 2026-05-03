@@ -42,7 +42,7 @@ export const JOSHUA_17: RichChapterContent = {
               number: 1,
               spans: [
                 t('There was a lot for the tribe of Manasseh; for he was the '),
-                hy('firstborn', 'machir-firstborn'),
+                t('firstborn'),
                 t(' of Joseph. To Machir the firstborn of Manasseh, father of Gilead, because he was a man of war, were given Gilead and Bashan.'),
               ],
             },
@@ -90,7 +90,7 @@ export const JOSHUA_17: RichChapterContent = {
               number: 3,
               spans: [
                 t('But '),
-                hy('Zelophehad', 'zelophehad-name'),
+                t('Zelophehad'),
                 t(', the son of Hepher, the son of Gilead, the son of Machir, the son of Manasseh, had no sons, but daughters: and these are the names of his daughters, Mahlah, and Noah, Hoglah, Milcah, and Tirzah.'),
               ],
             },
@@ -214,7 +214,7 @@ export const JOSHUA_17: RichChapterContent = {
               number: 14,
               spans: [
                 t('And the children of Joseph spake unto Joshua, saying, Why hast thou given me but one lot and one portion to inherit, seeing I am a '),
-                hy('great people', 'great-people'),
+                t('great people'),
                 t(', forasmuch as the LORD hath blessed me hitherto?'),
               ],
             },
@@ -228,7 +228,7 @@ export const JOSHUA_17: RichChapterContent = {
               number: 16,
               spans: [
                 t('And the children of Joseph said, The hill is not enough for us: and all the Canaanites that dwell in the land of the valley have '),
-                hy('chariots of iron', 'iron-chariots'),
+                t('chariots of iron'),
                 t(' — both they who are of Beth-shean and her towns, and they who are of the valley of Jezreel.'),
               ],
             },
@@ -293,7 +293,7 @@ export const JOSHUA_17: RichChapterContent = {
                 t('But the '),
                 hp('mountain shall be thine', 'christ-power-to-possess'),
                 t('; for it is a wood, and thou shalt cut it down: and the outgoings of it shall be thine: for thou shalt '),
-                hy('drive out', 'yarash-possess'),
+                t('drive out'),
                 t(' the Canaanites, though they have iron chariots, and though they be strong.'),
               ],
             },

@@ -496,7 +496,7 @@ export const EXODUS_28: RichChapterContent = {
 
         {
           kind: 'reflection',
-          id: 'ex28-bells',
+          id: 'ex28-bells-2',
           prompt:
             'What is one faithful act you&apos;ve done quietly, thinking no one noticed? How would it change if you believed that sound reaches the throne of God?',
         },
@@ -647,7 +647,7 @@ export const EXODUS_28: RichChapterContent = {
 
         {
           kind: 'reflection',
-          id: 'ex28-covered',
+          id: 'ex28-covered-2',
           prompt:
             'Where do you feel most exposed or unworthy before God? How does it change your prayer if you believe you are covered by the garments of your High Priest?',
         },

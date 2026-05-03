@@ -51,7 +51,7 @@ export const ISAIAH_14: RichChapterContent = {
         },
         {
           kind: 'hebrew',
-          id: 'isaiah14-lucifer',
+          id: 'isaiah14-lucifer-2',
           title: 'Helel — "Lucifer" or "Shining One"',
           script: 'הֵלֵל',
           translit: '<strong>Helel</strong> · shining one, bright one, morning star; from the root meaning "to shine"',

@@ -25,7 +25,7 @@ export const DEUTERONOMY_23: RichChapterContent = {
               number: 1,
               spans: [
                 t('He that is wounded in the stones, or hath his privy member cut off, '),
-                hy('shall not enter into the congregation of the Lord', 'hebrew-qahal'),
+                t('shall not enter into the congregation of the Lord'),
                 t('.'),
               ],
             },
@@ -106,7 +106,7 @@ export const DEUTERONOMY_23: RichChapterContent = {
                 t('Thou shalt not abhor an Edomite; for he is thy '),
                 hg('brother', 'c-family'),
                 t(': thou shalt not abhor an Egyptian; because thou wast a '),
-                hg('stranger in his land', 'c-stranger'),
+                t('stranger in his land'),
                 t('.'),
               ],
             },
@@ -202,7 +202,7 @@ export const DEUTERONOMY_23: RichChapterContent = {
               number: 12,
               spans: [
                 t('And thou shalt have a '),
-                hy('paddle upon thy weapon', 'hebrew-yated'),
+                t('paddle upon thy weapon'),
                 t('; and it shall be, when thou wilt ease thyself abroad, thou shalt dig therewith, and shalt turn back and cover that which cometh from thee:'),
               ],
             },

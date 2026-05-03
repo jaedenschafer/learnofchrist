@@ -151,7 +151,7 @@ export const KINGS_2_25: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'temple-burned',
+          id: 'temple-burned-2',
           prompt: 'What is the most sacred place in your own life — not a physical place, but something you hold as precious and irreplaceable? How would you grieve if it were taken from you?',
         },
       ],
@@ -197,7 +197,7 @@ export const KINGS_2_25: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'leaders-executed',
+          id: 'leaders-executed-2',
           prompt: 'When the structures of your life — your job, your church, your community — are disrupted or taken away, how do you remember who you are apart from them?',
         },
       ],
@@ -244,7 +244,7 @@ export const KINGS_2_25: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'gedaliah-governor',
+          id: 'gedaliah-governor-2',
           prompt: 'When you have faced a setback or loss you cannot change, have you been able to accept it and build something new? Or have you, like Ishmael, refused to accept the new reality?',
         },
       ],

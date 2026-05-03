@@ -154,7 +154,7 @@ export const MATTHEW_9: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'matt9-harvest',
+          id: 'matt9-harvest-2',
           prompt: 'When you look at the people around you—your community, your nation, the world—what harvest do you see? How is Jesus calling you to be a laborer in that harvest?',
         },
       ],

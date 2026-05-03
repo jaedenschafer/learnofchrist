@@ -134,7 +134,7 @@ export const ISAIAH_35: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'isaiah35-highway',
+          id: 'isaiah35-highway-2',
           prompt: 'How clear is the highway of holiness to you? What obstacles obscure your view of the path? What would it take for you to walk it with confidence and joy?',
         },
       ],

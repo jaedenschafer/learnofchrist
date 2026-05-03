@@ -261,7 +261,7 @@ export const NEHEMIAH_8: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'joy-strength',
+          id: 'joy-strength-2',
           prompt: 'When have you experienced joy as a source of strength? What distinction does Nehemiah draw between mourning and feasting? How can both have their place?',
         },
       ],

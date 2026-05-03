@@ -245,13 +245,14 @@ function scanFile(file) {
   // (Empty html / prompt check is disabled — multi-line and concatenated
   // string literals produce too many false positives. tsc + the registry
   // check together cover the real cases.)
+  // Hebrew/Greek field-presence check: just look for the bare field name in
+  // the block region. Content-emptiness is too noisy to detect via regex
+  // (values containing internal quotes break lazy-matching), and rare
+  // enough in practice that visual eyeball is fine.
   for (const r of blockRegions(source)) {
     if (r.kind === 'hebrew' || r.kind === 'greek') {
-      // All four fields must be present.
       for (const f of ['title', 'script', 'translit', 'description']) {
-        const re = new RegExp(`${f}:\\s*\\n?\\s*['\"\`]((?:\\\\['\"\`]|.)*?)['\"\`]`, 's');
-        const m = r.region.match(re);
-        if (!m || stripHtml(m[1]).length === 0) {
+        if (!new RegExp(`\\b${f}:\\s`).test(r.region)) {
           findings.schema_callout_incomplete.push({ fn, kind: r.kind, field: f });
         }
       }

@@ -98,7 +98,7 @@ export const GENESIS_15: RichChapterContent = {
               number: 5,
               spans: [
                 t('And he brought him forth abroad, and said, '),
-                hp('Look now toward heaven, and tell the stars, if thou be able to number them', 'christ-seed'),
+                t('Look now toward heaven, and tell the stars, if thou be able to number them'),
                 t(': and he said unto him, So shall thy seed be.'),
               ],
             },

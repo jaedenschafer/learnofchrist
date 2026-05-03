@@ -106,7 +106,7 @@ export const EZEKIEL_25: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'ezek25-vindication',
+          id: 'ezek25-vindication-2',
           prompt: 'Where do you need to trust that God will vindicate justice? Where are you tempted to take vengeance into your own hands?',
         },
       ],

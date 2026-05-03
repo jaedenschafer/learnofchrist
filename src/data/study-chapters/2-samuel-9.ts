@@ -215,7 +215,7 @@ export const SAMUEL_2_9: RichChapterContent = {
                 t(', and will '),
                 hg('restore thee all the land of Saul thy father', 'c-restoration'),
                 t('; and thou shalt '),
-                hp('eat bread at my table continually', 'c-table-fellowship'),
+                t('eat bread at my table continually'),
                 t('.'),
               ],
             },

@@ -353,7 +353,7 @@ export const NUMBERS_16: RichChapterContent = {
         },
         {
           kind: 'commentary',
-          id: 'glory-appears',
+          id: 'glory-appears-2',
           html:
             'The glory of the Lord is visible before the test even happens. God is signaling: I am here. I am watching. This is not a mere human trial.',
         },
@@ -670,7 +670,7 @@ export const NUMBERS_16: RichChapterContent = {
         },
         {
           kind: 'commentary',
-          id: 'morrow-murmur',
+          id: 'morrow-murmur-2',
           html:
             'The very next day, the people turn. The ground has closed over Korah and his company. The fire has consumed the 250. Everyone saw. And yet the morning brings not gratitude but accusation. "You have killed the people of the Lord." The people cannot yet see that they were being offered the same choice Korah had: obey or rebel. They only see judgment and mistake it for cruelty.',
         },

@@ -356,7 +356,7 @@ export const DEUTERONOMY_13: RichChapterContent = {
               number: 3,
               spans: [
                 t('Thou shalt not hearken unto the words of that prophet, or that dreamer of dreams: for the '),
-                hp('Lord your God proveth you', 'christ-test-you-why'),
+                t('Lord your God proveth you'),
                 t(', to know whether ye love the Lord your God with all your heart and with all your soul.'),
               ],
             },

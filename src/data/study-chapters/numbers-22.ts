@@ -140,7 +140,7 @@ export const NUMBERS_22: RichChapterContent = {
             plain(13, 'And Balaam rose up in the morning, and said unto the princes of Moab, Get you into your land: for the Lord refuseth to let me go with you.'),
             verse(14,
               t('And the princes of Moab rose up, and they went unto Balak, and said, '),
-              hy('Balaam refuseth to come with us', 'refusal-sent-back'),
+              t('Balaam refuseth to come with us'),
               t('.')
             ),
           ],
@@ -297,7 +297,7 @@ export const NUMBERS_22: RichChapterContent = {
             ),
             verse(27,
               t('And when the ass saw the angel of the Lord, she '),
-              hp('lay down under Balaam', 'donkey-lies-down'),
+              t('lay down under Balaam'),
               t(': and Balaam\'s anger was kindled, and he smote the ass with a staff.')
             ),
           ],
@@ -395,7 +395,7 @@ export const NUMBERS_22: RichChapterContent = {
             plain(34, 'And Balaam said unto the angel of the Lord, I have sinned; for I knew not that thou stoodest in the way against me: now therefore, if it displease thee, I will get me back again.'),
             verse(35,
               t('And the angel of the Lord said unto Balaam, '),
-              hg('Go with the men', 'angel-permission'),
+              t('Go with the men'),
               t(': but only the word that I shall speak unto thee, that thou shalt speak. So Balaam went with the princes of Balak.')
             ),
           ],

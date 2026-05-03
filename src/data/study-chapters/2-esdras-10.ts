@@ -535,7 +535,7 @@ export const SECOND_ESDRAS_10: RichChapterContent = {
 
         {
           kind: 'reflection',
-          id: 'zion-mother',
+          id: 'zion-mother-2',
           prompt:
             'What does it mean to you that Zion is your mother? How does that knowledge change the way you understand your own sorrow and your hope for restoration?',
         },

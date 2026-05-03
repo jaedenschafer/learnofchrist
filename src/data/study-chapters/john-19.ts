@@ -100,7 +100,7 @@ export const JOHN_19: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'john19-finished',
+          id: 'john19-finished-2',
           prompt: 'What does it mean to you that Jesus&apos; death was the completion of God&apos;s redemptive work? How does His finished work change your relationship to your own struggles?',
         },
       ],
@@ -164,7 +164,7 @@ export const JOHN_19: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'john19-pierced',
+          id: 'john19-pierced-2',
           prompt: 'The blood and water that flowed from Jesus&apos; pierced side—what does each represent to you? How do they speak of redemption and cleansing?',
         },
       ],

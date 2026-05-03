@@ -143,7 +143,7 @@ export const MATTHEW_16: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'matt16-cross',
+          id: 'matt16-cross-2',
           prompt: 'Peter confessed truth but then rejected the cross. How do you sometimes hold true beliefs while resisting the costly changes they demand?',
         },
       ],

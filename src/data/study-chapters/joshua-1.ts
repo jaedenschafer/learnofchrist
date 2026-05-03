@@ -231,7 +231,7 @@ export const JOSHUA_1: RichChapterContent = {
               number: 9,
               spans: [
                 t('Have not I commanded thee? '),
-                hp('Be strong and of a good courage', 'c-third-charge'),
+                t('Be strong and of a good courage'),
                 t('; be not afraid, neither be thou dismayed: for the Lord thy God is with thee whithersoever thou goest.'),
               ],
             },

@@ -72,7 +72,7 @@ export const ISAIAH_54: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'isa54-barren',
+          id: 'isa54-barren-2',
           prompt: 'What "barrenness" in your life—places where you felt unable to bear fruit or too ashamed to hope—might be transformed by knowing that your Maker is your husband?',
         },
       ],
@@ -121,7 +121,7 @@ export const ISAIAH_54: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'isa54-covenant',
+          id: 'isa54-covenant-2',
           prompt: 'What would it mean to live as if no weapon formed against you will prosper? How would your fears change if you truly believed in the permanence of God\'s covenant?',
         },
       ],

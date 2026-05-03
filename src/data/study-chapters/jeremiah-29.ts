@@ -179,7 +179,7 @@ export const JEREMIAH_29: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'jer29-peace',
+          id: 'jer29-peace-2',
           prompt: 'God&apos;s thoughts toward you are thoughts of peace and good, not evil. How does this promise change the way you face difficult circumstances? How are you seeking God with all your heart?',
         },
       ],

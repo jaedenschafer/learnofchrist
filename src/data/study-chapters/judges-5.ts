@@ -432,7 +432,7 @@ export const JUDGES_5: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'j5-jael',
+          id: 'j5-jael-2',
           prompt:
             'What small, ordinary act is available to you right now that could make a difference for someone in danger or in need? What keeps you from doing it?',
         },
@@ -496,7 +496,7 @@ export const JUDGES_5: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'j5-mother',
+          id: 'j5-mother-2',
           prompt:
             'Is there a decision or stand you&apos;ve taken where you haven&apos;t fully faced the human cost on the other side? What would change if you let yourself see it now?',
         },

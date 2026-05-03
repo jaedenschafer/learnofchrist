@@ -221,7 +221,7 @@ export const ROMANS_2: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'You cannot hide behind your family&apos;s faith. You cannot lean on your church membership. You cannot shelter in your denomination. God does not accept the face—the persona, the reputation, the appearance. He accepts the heart. That is terrifying and freeing all at once.',
+            'You cannot hide behind your family&apos;s faith. You cannot lean on your church membership. You cannot shelter in the religion you inherited. God does not accept the face—the persona, the reputation, the appearance. He accepts the heart. That is terrifying and freeing all at once.',
         },
         {
           kind: 'reflection',

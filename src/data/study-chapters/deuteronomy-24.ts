@@ -123,7 +123,7 @@ export const DEUTERONOMY_24: RichChapterContent = {
                 t('When a man hath taken a new wife, he shall not go out to war, neither shall he be charged with any business: but he shall be '),
                 hg('free at home one year', 'deut-one-year'),
                 t(', and shall '),
-                hp('cheer up', 'jesus-joy'),
+                t('cheer up'),
                 t(' his wife which he hath taken.'),
               ],
             },
@@ -204,7 +204,7 @@ export const DEUTERONOMY_24: RichChapterContent = {
               number: 13,
               spans: [
                 t('In any case thou shalt deliver him the pledge again when the sun goeth down, that he may '),
-                hy('sleep', 'heb-shakab'),
+                t('sleep'),
                 t(' in his own raiment, and bless thee: and it shall be righteousness unto thee before the Lord thy God.'),
               ],
             },

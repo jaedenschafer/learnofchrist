@@ -423,7 +423,7 @@ export const FIRST_CORINTHIANS_9: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'c-castaway',
+          id: 'c-castaway-2',
           prompt:
             'Where are you running this week? What is one area where you have let your body, your appetites, your comfort, set the pace instead of your calling? How will you bring it back into line?',
         },

@@ -314,7 +314,7 @@ export const SECOND_CORINTHIANS_11: RichChapterContent = {
         },
         {
           kind: 'greek',
-          id: 'c11-dorean',
+          id: 'c11-dorean-2',
           title: 'Dorean — Freely; Without Charge',
           script: 'δωρεάν',
           translit: '<strong>dorean</strong> · freely; without payment; for nothing',
@@ -797,7 +797,7 @@ export const SECOND_CORINTHIANS_11: RichChapterContent = {
         },
         {
           kind: 'greek',
-          id: 'c11-merimna',
+          id: 'c11-merimna-2',
           title: 'Merimna — Anxious Care; Concern',
           script: 'μέριμνα',
           translit: '<strong>merimna</strong> · anxiety; care; solicitous concern; burden of responsibility',
@@ -948,5 +948,4 @@ export const SECOND_CORINTHIANS_11: RichChapterContent = {
     },
   ],
 
-  hasHebrew: false,
 };

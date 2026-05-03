@@ -243,7 +243,7 @@ export const NUMBERS_1: RichChapterContent = {
               number: 46,
               spans: [
                 t('Even all they that were numbered were '),
-                hp('six hundred thousand and three thousand and five hundred and fifty', 'christ-sealed'),
+                t('six hundred thousand and three thousand and five hundred and fifty'),
                 t('.'),
               ],
             },

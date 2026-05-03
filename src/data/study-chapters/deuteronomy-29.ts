@@ -310,7 +310,7 @@ export const DEUTERONOMY_29: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'self-blessing',
+          id: 'self-blessing-2',
           prompt:
             'Where are you most tempted to "bless yourself" in your own heart — to believe a compromise or indulgence will bring you peace? What is the lie you are almost believing?',
         },

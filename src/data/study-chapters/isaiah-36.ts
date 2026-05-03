@@ -88,7 +88,7 @@ export const ISAIAH_36: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'isaiah36-silence',
+          id: 'isaiah36-silence-2',
           prompt: 'What voice of the enemy do you find yourself arguing with? What would it look like for you to respond with Hezekiah&apos;s silence—not ignoring the threat, but refusing to let it shake your trust in God?',
         },
       ],

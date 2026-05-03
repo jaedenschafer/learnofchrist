@@ -51,7 +51,7 @@ export const DEUTERONOMY_14: RichChapterContent = {
                 t('For thou art an '),
                 hy('holy people', 'deut14-holy'),
                 t(' unto the LORD thy God, and the LORD hath chosen thee to be a '),
-                hy('peculiar people', 'deut14-segulah'),
+                t('peculiar people'),
                 t(' unto himself, above all the nations that are upon the earth.'),
               ],
             },

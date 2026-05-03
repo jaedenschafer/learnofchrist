@@ -326,7 +326,7 @@ export const FIRST_CORINTHIANS_12: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'cor12-11-as-he-will',
+          id: 'cor12-11-as-he-will-2',
           prompt: 'Can you say with honesty that the gift the Spirit has given you is the right one for you? What would it mean to actually trust that?',
         },
       ],

@@ -48,7 +48,7 @@ export const SECOND_TIMOTHY_1: RichChapterContent = {
           kind: 'commentary',
           id: 'tim2-apostle-will',
           html:
-            'Paul opens by grounding his apostleship in God&apos;s will, not human appointment. His authority does not rest on survival or popular acclaim. It rests on divine calling. And his promise to Timothy is rooted in "the promise of life which is in Christ Jesus"—not temporal survival, but eternal life. This is what Paul will be executed for. This is what he asks Timothy to defend.',
+            'Paul opens by grounding his apostleship in God&apos;s will, not human appointment. His authority does not rest on survival or popular acclaim. It rests on divine calling. And his promise to Timothy is rooted in "the promise of life which is in Christ Jesus"—not temporal survival, but eternal life. This is what Paul will be executed for. This is what he asks Timothy to defend. [res:sefaria-2tim-1]',
         },
         {
           kind: 'commentary',
@@ -109,7 +109,7 @@ export const SECOND_TIMOTHY_1: RichChapterContent = {
           kind: 'commentary',
           id: 'remembrance-prayers',
           html:
-            'Paul does not pray for Timothy once a week or once a day. He prays night and day, without ceasing. This is not heaviness but love. The rhythm of his prayer life has Timothy woven through it. Before he exhorts Timothy to be bold, he shows Timothy he is carried. You cannot pour strength into someone you do not hold in prayer.',
+            'Paul does not pray for Timothy once a week or once a day. He prays night and day, without ceasing. This is not heaviness but love. The rhythm of his prayer life has Timothy woven through it. Before he exhorts Timothy to be bold, he shows Timothy he is carried. You cannot pour strength into someone you do not hold in prayer. [res:intertextual-psalm23-2tim1]',
         },
         {
           kind: 'carry',
@@ -582,7 +582,7 @@ export const SECOND_TIMOTHY_1: RichChapterContent = {
           kind: 'commentary',
           id: 'onesiphorus-faithful',
           html:
-            'Against this backdrop stands Onesiphorus. He does not fear. He seeks Paul out. In Rome, where being found with the prisoner could mean becoming a prisoner yourself, Onesiphorus searches diligently and finds him. Not once. Repeatedly. He refreshes Paul. He is not ashamed of his chain. This is fidelity. This is what a friend looks like in the furnace.',
+            'Against this backdrop stands Onesiphorus. He does not fear. He seeks Paul out. In Rome, where being found with the prisoner could mean becoming a prisoner yourself, Onesiphorus searches diligently and finds him. Not once. Repeatedly. He refreshes Paul. He is not ashamed of his chain. This is fidelity. This is what a friend looks like in the furnace. [res:bibleodyssey-pastoral-epistles]',
         },
         {
           kind: 'christ',
@@ -611,6 +611,33 @@ export const SECOND_TIMOTHY_1: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: '2 Timothy 1 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-2tim-1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Timothy 1',
+      url: 'https://www.sefaria.org/2%20Timothy.1',
+      description: 'Multiple translations and commentary on courage, faithfulness, and the deposit of faith.',
+    },
+    {
+      id: 'bibleodyssey-pastoral-epistles',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Pastoral Epistles and Early Christian Leadership',
+      url: 'https://www.bibleodyssey.org/dictionary/pastoral-epistles/',
+      description: 'Historical overview of the pastoral letters and their guidance for church leadership and faithfulness.',
+    },
+    {
+      id: 'intertextual-psalm23-2tim1',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Psalm 23 ↔ 2 Timothy 1:12',
+      url: 'https://intertextual.bible/text/psalm-23/2-timothy-1.12',
+      description: 'Paul&apos;s confidence that Christ will keep his deposit echoes the psalmist&apos;s trust in God&apos;s shepherding care.',
+    },
+  ],
 
   hasHebrew: false,
 };

@@ -325,7 +325,7 @@ export const ROMANS_6: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'rom6-yield',
+          id: 'rom6-yield-2',
           prompt: 'What is one of your gifts or abilities that you have been offering to sin? What would it mean to yield that same gift to God instead?',
         },
       ],

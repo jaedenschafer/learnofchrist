@@ -529,13 +529,13 @@ export const EXODUS_29: RichChapterContent = {
         },
         {
           kind: 'commentary',
-          id: 'exo29-wave-comm',
+          id: 'exo29-wave-comm-2',
           html:
             'The wave offering moves the sacrifice before God — left and right, back and forth, up and down. It is shown to Him before it is given to the priest. The priest does not feed himself first. He presents what he has been given to God, receives God&apos;s blessing on it, and only then partakes. The rhythm is always: offer, then receive.',
         },
         {
           kind: 'commentary',
-          id: 'exo29-breast-comm',
+          id: 'exo29-breast-comm-2',
           html:
             'The breast — the place nearest the heart — becomes the priest&apos;s portion. He tends God&apos;s people with his whole heart, and God provides for him. The priest is cared for. He does not work for wages that come from those he serves. His care comes directly from the covenant.',
         },
@@ -547,7 +547,7 @@ export const EXODUS_29: RichChapterContent = {
         },
         {
           kind: 'commentary',
-          id: 'exo29-stranger-comm',
+          id: 'exo29-stranger-comm-2',
           html:
             'A stranger — anyone outside the priesthood — cannot eat of the consecration meal. This meal belongs only to those who have been marked. The privacy is not arrogance but protection. What is holy cannot be consumed casually. What has been paid for with blood is not for casual tasting.',
         },
@@ -605,7 +605,7 @@ export const EXODUS_29: RichChapterContent = {
         },
         {
           kind: 'commentary',
-          id: 'exo29-holiness-comm',
+          id: 'exo29-holiness-comm-2',
           html:
             'Most holy — the highest category of sacred space. The altar becomes so set apart that anything touching it becomes holy too. Holiness is not just a property of an object; it is contagious. Whatever meets the holy altar is drawn into its holiness.',
         },

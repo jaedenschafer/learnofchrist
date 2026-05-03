@@ -305,7 +305,7 @@ export const NUMBERS_10: RichChapterContent = {
           kind: 'scripture',
           chapter: 10,
           lines: [
-            { number: 35, spans: [t('And it came to pass, when the ark set forward, that Moses said, '), hp('Rise up, LORD, and let thine enemies be scattered', 'c-rise-up-lord'), t('; and let them that hate thee flee before thee.')] },
+            { number: 35, spans: [t('And it came to pass, when the ark set forward, that Moses said, '), t('Rise up, LORD, and let thine enemies be scattered'), t('; and let them that hate thee flee before thee.')] },
           ],
         },
         {

@@ -50,7 +50,7 @@ export const SECOND_TIMOTHY_3: RichChapterContent = {
           kind: 'commentary',
           id: 'tim3-perilous-intro',
           html:
-            'Paul does not soften or spiritualize. "Perilous times shall come." He is not describing distant apocalypse. He is speaking of the reality Timothy is witnessing—and what the church will face throughout history until Christ returns. The word "perilous" is not gentle. It means grievous, hard, fierce—times when evil will press in from all sides.',
+            'Paul does not soften or spiritualize. "Perilous times shall come." He is not describing distant apocalypse. He is speaking of the reality Timothy is witnessing—and what the church will face throughout history until Christ returns. The word "perilous" is not gentle. It means grievous, hard, fierce—times when evil will press in from all sides. [res:sefaria-2tim-3]',
         },
         {
           kind: 'greek',
@@ -686,13 +686,13 @@ export const SECOND_TIMOTHY_3: RichChapterContent = {
           script: 'θεόπνευστος',
           translit: '<strong>theopneustos</strong> · inspired by God; God-breathed; divinely inspired',
           description:
-            'The word literally means "breathed out by God." Scripture is not human invention later blessed by God. It is the living breath of God taking written form. This does not deny the human writers. They wrote in their language, their style, their context. But they wrote as instruments of the Spirit, and what came out bears the mark of God.',
+            'The word literally means "breathed out by God." Scripture is not human invention later blessed by God. It is the living breath of God taking written form. This does not deny the human writers. They wrote in their language, their style, their context. But they wrote as instruments of the Spirit, and what came out bears the mark of God. [res:perseus-theopneustos]',
         },
         {
           kind: 'commentary',
           id: 'tim3-four-uses',
           html:
-            'Paul lists four uses: (1) Doctrine—what to believe, the framework of truth. (2) Reproof—exposure of error, correction when you wander. (3) Correction—restoration to the right path. (4) Instruction in righteousness—training toward virtue, character formation. Together, these four make you whole.',
+            'Paul lists four uses: (1) Doctrine—what to believe, the framework of truth. (2) Reproof—exposure of error, correction when you wander. (3) Correction—restoration to the right path. (4) Instruction in righteousness—training toward virtue, character formation. Together, these four make you whole. [res:bibleodyssey-inspiration-scripture]',
         },
         {
           kind: 'scripture',
@@ -761,6 +761,33 @@ export const SECOND_TIMOTHY_3: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: '2 Timothy 3 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'perseus-theopneustos',
+      kind: 'lexicon',
+      source: 'Perseus Scaife',
+      label: 'Theopneustos — God-Breathed, Inspired',
+      url: 'https://www.perseus.tufts.edu/hopper/resolveform?type=exact&lookup=theopneustos&lang=greek',
+      description: 'Greek lexicon entry for theopneustos showing its origin and use in early Christian theology of Scripture.',
+    },
+    {
+      id: 'sefaria-2tim-3',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Timothy 3',
+      url: 'https://www.sefaria.org/2%20Timothy.3',
+      description: 'Multiple translations and commentary on perilous times, false doctrine, and the inspiration of Scripture.',
+    },
+    {
+      id: 'bibleodyssey-inspiration-scripture',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Inspiration and Authority of Scripture',
+      url: 'https://www.bibleodyssey.org/dictionary/inspiration-scripture/',
+      description: 'Historical and theological perspective on how early Christians understood the divine origin and authority of Scripture.',
+    },
+  ],
 
   hasHebrew: false,
 };

@@ -392,7 +392,7 @@ export const LEVITICUS_9: RichChapterContent = {
           kind: 'commentary',
           id: 'c-divine-acceptance',
           html:
-            'In every other chapter of Leviticus, the priest performs the sacrifice. Here, the fire performs it. This is the moment of divine acceptance — not human achievement, but God&apos;s own fire saying yes to what Aaron has brought. The Cross works the same way. Christ brings the offering. The Father accepts it. The Spirit testifies to it. The whole Trinity says yes, and the world is changed.',
+            'In every other chapter of Leviticus, the priest performs the sacrifice. Here, the fire performs it. This is the moment of divine acceptance — not human achievement, but God&apos;s own fire saying yes to what Aaron has brought. The Cross works the same way. Christ brings the offering. The Father accepts it. The Spirit testifies to it. Father, Son, and Spirit together say yes, and the world is changed.',
         },
         {
           kind: 'christ',

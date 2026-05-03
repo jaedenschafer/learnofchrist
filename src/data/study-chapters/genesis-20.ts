@@ -49,7 +49,7 @@ export const GENESIS_20: RichChapterContent = {
               number: 1,
               spans: [
                 t('And Abraham journeyed from thence toward the south country, and dwelled between '),
-                hy('Kadesh and Shur', 'gerar-location'),
+                t('Kadesh and Shur'),
                 t(', and sojourned in '),
                 hy('Gerar', 'hebrew-gerar'),
                 t('.'),
@@ -331,7 +331,7 @@ export const GENESIS_20: RichChapterContent = {
               number: 18,
               spans: [
                 t('For the LORD had '),
-                hy('fast closed up all the wombs of the house of Abimelech', 'c-wombs'),
+                t('fast closed up all the wombs of the house of Abimelech'),
                 t(', because of Sarah Abraham\'s wife.'),
               ],
             },

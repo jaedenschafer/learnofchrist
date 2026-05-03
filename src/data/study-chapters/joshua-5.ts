@@ -302,7 +302,7 @@ export const JOSHUA_5: RichChapterContent = {
                 t('And it came to pass, when Joshua was by Jericho, that he '),
                 hg('lifted up his eyes and looked', 'lifted-eyes'),
                 t(', and, behold, there stood a man over against him with his sword drawn in his hand: and Joshua went unto him, and said unto him, '),
-                hp('Art thou for us, or for our adversaries', 'captain-sides'),
+                t('Art thou for us, or for our adversaries'),
                 t('?'),
               ],
             },

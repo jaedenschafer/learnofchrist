@@ -45,7 +45,7 @@ export const JOSHUA_18: RichChapterContent = {
               number: 1,
               spans: [
                 t('And the whole congregation of the children of Israel assembled together at '),
-                hy('Shiloh', 'shiloh-place'),
+                t('Shiloh'),
                 t(', and '),
                 hg('set up the tabernacle of the congregation there', 'c-tabernacle'),
                 t('. And '),
@@ -111,7 +111,7 @@ export const JOSHUA_18: RichChapterContent = {
               number: 3,
               spans: [
                 t('And Joshua said unto the children of Israel, '),
-                hp('How long are ye slack', 'slowness-theme'),
+                t('How long are ye slack'),
                 t(' to go to possess the land, which the Lord God of your fathers hath given you?'),
               ],
             },
@@ -215,7 +215,7 @@ export const JOSHUA_18: RichChapterContent = {
                 t('And '),
                 hp('Joshua cast lots for them in Shiloh', 'casting-lots-theme'),
                 t(' before the Lord: and there '),
-                hy('Joshua divided the land', 'goral-lot'),
+                t('Joshua divided the land'),
                 t(' unto the children of Israel according to their divisions.'),
               ],
             },
@@ -464,7 +464,7 @@ export const JOSHUA_18: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'benjamin-legacy',
+          id: 'benjamin-legacy-2',
           prompt:
             'Where in your life do you see smallness — your resources, your reach, your sense of yourself — that God might be waiting to make fierce and significant?',
         },

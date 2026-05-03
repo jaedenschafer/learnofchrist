@@ -291,7 +291,7 @@ export const GENESIS_29: RichChapterContent = {
         },
         {
           kind: 'christ',
-          id: 'c-few-days',
+          id: 'c-few-days-2',
           title: 'Christ Connection — Love That Labors',
           html:
             'Jacob labors seven years for the bride he loves, and the years seem like days. Christ, Bridegroom of the Church, labors through all of history for His bride—and the apostle Paul quotes this very verse to describe it: Christ "loved the church, and gave himself for it" (Eph. 5:25). The years from creation to the cross to the age to come are, from the perspective of eternity, a labor of love. His seven years—or seven thousand—are rendered nothing by the measure of His love. We are the Rachel He cannot stop working for.',
@@ -587,7 +587,7 @@ export const GENESIS_29: RichChapterContent = {
         },
         {
           kind: 'christ',
-          id: 'hebrew-judah-praise',
+          id: 'hebrew-judah-praise-2',
           title: 'Christ Connection — The Praise That Could Not Be Silenced',
           html:
             'Leah&apos;s fourth son, Judah, becomes the father of the royal line. David comes from Judah. Christ comes from Judah. The person the world rejected, the wife Jacob did not choose, became the mother of kings. The pattern echoes across Scripture: God chooses what humanity overlooks. Mary was not a wealthy woman. Ruth was a foreigner. Bathsheba was a poor woman in a king&apos;s way. And in each case, God chose the overlooked one to bear the line. Jesus came not through the powerful or the celebrated, but through the humble and the unwanted. And He made His first appearance after resurrection to Mary Magdalene—a woman everyone else had abandoned. God&apos;s eye has always been on the person the world turned away from.',

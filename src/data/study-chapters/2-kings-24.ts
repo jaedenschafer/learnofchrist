@@ -358,7 +358,7 @@ export const KINGS_2_24: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'zedekiah-puppet',
+          id: 'zedekiah-puppet-2',
           prompt: 'Zedekiah is made king by a foreign power, yet he is still called "king of Judah." How do you distinguish between legitimate authority and authority granted by force? And what does it mean to give allegiance to a king who rules under the shadow of another power?',
         },
       ],

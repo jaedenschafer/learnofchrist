@@ -74,7 +74,7 @@ export const CHRONICLES_1_9: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'first-inhabitants',
+          id: 'first-inhabitants-2',
           prompt: 'When have you had to begin again after a loss or failure? What did it feel like to return, not to power, but to ordinary faithfulness?',
         },
       ],

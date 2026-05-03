@@ -61,7 +61,7 @@ export const SAMUEL_1_25: RichChapterContent = {
                 t('And there was a man in Maon, whose possessions were in Carmel; and the man was '),
                 hy('very great', 'c-very-great'),
                 t(', having three thousand sheep, and a thousand goats: and he was '),
-                hg('shearing his sheep', 'c-shearing'),
+                t('shearing his sheep'),
                 t(' in Carmel.'),
               ],
             },

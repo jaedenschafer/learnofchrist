@@ -322,7 +322,7 @@ export const THIRD_JOHN_1: RichChapterContent = {
         },
         {
           kind: 'christ',
-          id: '3j-face-to-face',
+          id: '3j-face-to-face-2',
           title: 'Christ Connection — Face to Face',
           html:
             'John was one of the few who saw Jesus face to face. He will see Him again. Paul writes, &ldquo;Now we see through a glass, darkly; but then face to face&rdquo; (1 Cor. 13:12). Every time believers gather in person, they taste that promise—the day when Jesus will look us in the eye and say our name.',

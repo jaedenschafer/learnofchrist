@@ -89,7 +89,7 @@ export const DEUTERONOMY_28: RichChapterContent = {
           lines: [
             { number: 8, spans: [t('The Lord shall command the blessing upon thee in thy storehouses, and in all that thou settest thine hand unto; and '), hg('he shall bless thee', 'c-identity'), t(' in the land which the Lord thy God giveth thee.')] },
             { number: 9, spans: [t('The Lord shall establish thee an holy people unto himself, as he hath sworn unto thee, if thou shalt keep the commandments of the Lord thy God, and walk in his ways.')] },
-            { number: 10, spans: [t('And all people of the earth shall see that thou art called by the '), hp('name of the Lord', 'christ-name'), t('; and they shall be afraid of thee.')] },
+            { number: 10, spans: [t('And all people of the earth shall see that thou art called by the '), t('name of the Lord'), t('; and they shall be afraid of thee.')] },
             { number: 11, spans: [t('And the Lord shall make thee plenteous in goods, in the fruit of thy body, and in the fruit of thy cattle, and in the fruit of thy ground, in the land which the Lord sware unto thy fathers to give thee.')] },
             { number: 12, spans: [t('The Lord shall open unto thee his good treasure of the heaven to give the rain unto thy land in his season, and to bless all the work of thine hand: and thou shalt lend unto many nations, and thou shalt not borrow.')] },
             { number: 13, spans: [t('And the Lord shall make thee the head, and not the tail; and thou shalt be above only, and thou shalt not be beneath; if that thou hearken unto the commandments of the Lord thy God, which I command thee this day, to observe and to do them:')] },
@@ -345,7 +345,7 @@ export const DEUTERONOMY_28: RichChapterContent = {
           kind: 'scripture',
           chapter: 28,
           lines: [
-            { number: 58, spans: [t('If thou wilt not observe to do all the words of this law that are written in this book, that thou mayest '), hy('fear this glorious and fearful name', 'c-fear-name'), t(', THE LORD THY GOD;')] },
+            { number: 58, spans: [t('If thou wilt not observe to do all the words of this law that are written in this book, that thou mayest '), t('fear this glorious and fearful name'), t(', THE LORD THY GOD;')] },
             { number: 59, spans: [t('Then the Lord will make thy plagues wonderful, and the plagues of thy seed: even great plagues, and of long continuance, and sore sicknesses, and of long continuance.')] },
             { number: 60, spans: [t('Moreover he will bring upon thee all the diseases of Egypt, which thou wast afraid of; and they shall cleave unto thee.')] },
             { number: 61, spans: [t('Also every sickness, and every plague, which is not written in the book of this law, them will the Lord bring upon thee, until thou be destroyed.')] },

@@ -69,7 +69,7 @@ export const PSALMS_122: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'ps122-peace',
+          id: 'ps122-peace-2',
           prompt:
             'When have you experienced genuine gladness at being called to gather with others in God&apos;s presence? What is the difference between praying for your own peace and praying for the peace of the community? How might your perspective change if you viewed your own well-being as bound up with the well-being of the whole?',
         },

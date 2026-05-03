@@ -41,7 +41,7 @@ export const JUDGES_1: RichChapterContent = {
               number: 1,
               spans: [
                 t('Now after the death of Joshua it came to pass, that the children of Israel asked the Lord, saying, '),
-                hp('Who shall go up for us against the Canaanites first', 'christ-lord-guides'),
+                t('Who shall go up for us against the Canaanites first'),
                 t(', to fight against them?'),
               ],
             },
@@ -180,7 +180,7 @@ export const JUDGES_1: RichChapterContent = {
               number: 9,
               spans: [
                 t('And afterward the children of Judah went down to fight against the Canaanites, that dwelt in the '),
-                hy('mountain, and in the south', 'hebrew-region'),
+                t('mountain, and in the south'),
                 t(', and in the valley.'),
               ],
             },
@@ -299,7 +299,7 @@ export const JUDGES_1: RichChapterContent = {
         },
         {
           kind: 'hebrew',
-          id: 'hebrew-iron-chariots',
+          id: 'hebrew-iron-chariots-2',
           title: 'Rekev Barzel — "chariots of iron"',
           script: 'רֶכֶב בַּרְזֶל',
           translit: '<strong>rekev barzel</strong> · iron chariot, war machine',

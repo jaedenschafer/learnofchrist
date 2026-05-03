@@ -54,7 +54,7 @@ export const NUMBERS_18: RichChapterContent = {
                 t('And thy brethren also of the tribe of Levi, '),
                 hy('the tribe of thy father', 'c-levi-family'),
                 t(', bring thou with thee, that they may be joined unto thee, and minister unto thee: but thou and thy sons with thee shall minister '),
-                hy('before the tabernacle of witness', 'c-presence'),
+                t('before the tabernacle of witness'),
                 t('.'),
               ],
             },

@@ -59,7 +59,7 @@ export const EZRA_7: RichChapterContent = {
                 t('This Ezra went up from Babylon; and he was a '),
                 hy('ready scribe', 'ezra-ready-scribe'),
                 t(' in the law of Moses, which the Lord God of Israel had given: and the king granted him '),
-                hp('all his request', 'ezra-hand-of-lord'),
+                t('all his request'),
                 t(', according to the hand of the Lord his God upon him.'),
               ],
             },

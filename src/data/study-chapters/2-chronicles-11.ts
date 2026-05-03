@@ -230,7 +230,7 @@ export const CHRONICLES_2_11: RichChapterContent = {
         },
         {
           kind: 'hebrew',
-          id: 'h-nashim',
+          id: 'h-nashim-2',
           title: 'Nashim — "Wives"',
           script: 'נָשִׁים',
           translit: '<strong>Nashim</strong> · wives; women in covenant of marriage',

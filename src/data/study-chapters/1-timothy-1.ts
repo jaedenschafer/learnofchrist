@@ -44,7 +44,7 @@ export const FIRST_TIMOTHY_1: RichChapterContent = {
           kind: 'commentary',
           id: 'tim1-apostle',
           html:
-            'Paul opens not with personal opinion but with apostolic authority. He is commissioned "by the commandment of God our Saviour"—not self-appointed. Timothy is his "own son in the faith," a designation of deep spiritual kinship. This is not a formal memo. This is a father&apos;s urgent care for a child he has trained.',
+            'Paul opens not with personal opinion but with apostolic authority. He is commissioned "by the commandment of God our Saviour"—not self-appointed. Timothy is his "own son in the faith," a designation of deep spiritual kinship. This is not a formal memo. This is a father&apos;s urgent care for a child he has trained. [res:sefaria-1tim-1]',
         },
         {
           kind: 'christ',
@@ -95,7 +95,7 @@ export const FIRST_TIMOTHY_1: RichChapterContent = {
           kind: 'commentary',
           id: 'tim1-genealogies',
           html:
-            'First-century Ephesus was awash in gnostic speculation—endless tracing of cosmic genealogies, secret names of angels, layers of knowledge reserved for the elite. These false teachers promised a shortcut to God. What they delivered was confusion. Paul names the fruit of false doctrine clearly: questions, division, pride. True doctrine produces something different entirely.',
+            'First-century Ephesus was awash in gnostic speculation—endless tracing of cosmic genealogies, secret names of angels, layers of knowledge reserved for the elite. These false teachers promised a shortcut to God. What they delivered was confusion. Paul names the fruit of false doctrine clearly: questions, division, pride. True doctrine produces something different entirely. [res:perseus-soter]',
         },
         {
           kind: 'carry',
@@ -161,7 +161,7 @@ export const FIRST_TIMOTHY_1: RichChapterContent = {
           kind: 'commentary',
           id: 'tim1-pure-heart',
           html:
-            'Paul identifies three components of spiritual health: a pure heart (singlemindedness toward God), a good conscience (alignment between belief and action), and genuine faith (not theater, not borrowed conviction). Together they produce agapē—love that is not self-serving but other-oriented. This is the real fruit of sound doctrine.',
+            'Paul identifies three components of spiritual health: a pure heart (singlemindedness toward God), a good conscience (alignment between belief and action), and genuine faith (not theater, not borrowed conviction). Together they produce agapē—love that is not self-serving but other-oriented. This is the real fruit of sound doctrine. [res:bibleodyssey-timothy]',
         },
         {
           kind: 'carry',
@@ -546,6 +546,33 @@ export const FIRST_TIMOTHY_1: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: '1 Timothy 1 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-1tim-1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '1 Timothy 1',
+      url: 'https://www.sefaria.org/1%20Timothy.1',
+      description: 'Open-access multiple translations and Jewish/Christian commentary on the chapter.',
+    },
+    {
+      id: 'perseus-soter',
+      kind: 'lexicon',
+      source: 'Perseus Scaife',
+      label: 'Sōtēr — Saviour',
+      url: 'https://www.perseus.tufts.edu/hopper/resolveform?type=exact&lookup=soter&lang=greek',
+      description: 'Greek lexicon entry for sōtēr (saviour), tracing its usage across the New Testament and classical texts.',
+    },
+    {
+      id: 'bibleodyssey-timothy',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Timothy and the Pastoral Epistles',
+      url: 'https://www.bibleodyssey.org/dictionary/timothy/',
+      description: 'Overview of Timothy&apos;s role in Paul&apos;s mission and the historical context of the pastoral letters.',
+    },
+  ],
 
   hasHebrew: false,
 };

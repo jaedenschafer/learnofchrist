@@ -65,9 +65,9 @@ export const CHRONICLES_2_26: RichChapterContent = {
               number: 5,
               spans: [
                 t('And he '),
-                hg('sought God in the days of Zechariah', 'sought-zechariah'),
+                t('sought God in the days of Zechariah'),
                 t(', who had understanding in the '),
-                hy('visions of God', 'visions-god'),
+                t('visions of God'),
                 t(': and '),
                 hp('as long as he sought the Lord, God made him to prosper', 'pattern-prosper'),
                 t('.'),
@@ -158,7 +158,7 @@ export const CHRONICLES_2_26: RichChapterContent = {
               number: 11,
               spans: [
                 t('Moreover Uzziah had an host of '),
-                hy('fighting men', 'fighting-men'),
+                t('fighting men'),
                 t(', that went out to war by bands, according to the number of their account by the hand of Jeiel the scribe and Maaseiah the ruler, under the hand of Hananiah, one of the king\'s captains.'),
               ],
             },

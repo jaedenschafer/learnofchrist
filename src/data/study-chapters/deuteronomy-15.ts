@@ -42,7 +42,7 @@ export const DEUTERONOMY_15: RichChapterContent = {
               number: 1,
               spans: [
                 t('At the '),
-                hy('end of every seven years', 'shemittah-seven'),
+                t('end of every seven years'),
                 t(' thou shalt make a '),
                 hg('release', 'shemittah-word'),
                 t('.'),
@@ -157,9 +157,9 @@ export const DEUTERONOMY_15: RichChapterContent = {
                 t('Beware that there be not a '),
                 hy('thought in thy wicked heart', 'wicked-thought'),
                 t(', saying, The seventh year, the year of release, is at hand; and thine eye be evil against thy poor brother, and thou '),
-                hg('givest him nought', 'givest-nought'),
+                t('givest him nought'),
                 t('; and he '),
-                hp('cry unto the LORD', 'cry-to-lord'),
+                t('cry unto the LORD'),
                 t(' against thee, and it be sin unto thee.'),
               ],
             },
@@ -175,7 +175,7 @@ export const DEUTERONOMY_15: RichChapterContent = {
               number: 11,
               spans: [
                 t('For the poor shall never cease out of the land: therefore I command thee, saying, Thou shalt '),
-                hg('open thine hand wide', 'open-hand-final'),
+                t('open thine hand wide'),
                 t(' unto thy brother, to thy poor, and to thy needy, in thy land.'),
               ],
             },
@@ -272,7 +272,7 @@ export const DEUTERONOMY_15: RichChapterContent = {
               number: 15,
               spans: [
                 t('And thou shalt remember that thou wast a bondman in the land of Egypt, and the LORD thy God '),
-                hp('redeemed thee', 'redeemed-egypt'),
+                t('redeemed thee'),
                 t(': therefore I command thee this thing to day.'),
               ],
             },

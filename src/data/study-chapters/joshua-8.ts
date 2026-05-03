@@ -207,7 +207,7 @@ export const JOSHUA_8: RichChapterContent = {
               number: 10,
               spans: [
                 t('And Joshua rose up early in the morning, and '),
-                hg('numbered the people', 'josh8-numbered'),
+                t('numbered the people'),
                 t(', and went up, he and the elders of Israel, before the people to Ai.'),
               ],
             },
@@ -407,7 +407,7 @@ export const JOSHUA_8: RichChapterContent = {
                 t('¶ And '),
                 hy('the king of Ai he hanged on a tree', 'josh8-hanged-tree'),
                 t(' until the eventide: and as soon as the sun was down, Joshua '),
-                hy('commanded that they should take his carcase down from the tree', 'josh8-taken-down'),
+                t('commanded that they should take his carcase down from the tree'),
                 t(', and cast it at the entering of the gate of the city, and raise thereon a great heap of stones, that remaineth unto this day.'),
               ],
             },

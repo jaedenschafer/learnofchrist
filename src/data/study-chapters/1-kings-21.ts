@@ -438,7 +438,7 @@ export const KINGS_1_21: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'ahab-repent',
+          id: 'ahab-repent-2',
           prompt: 'Ahab, even after his great evil, was given time when he repented. Is there something you need to repent of? What would it look like to humble yourself as Ahab did?',
         },
       ],

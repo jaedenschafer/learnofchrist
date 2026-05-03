@@ -359,7 +359,7 @@ export const KINGS_1_10: RichChapterContent = {
         },
         {
           kind: 'commentary',
-          id: 'greater-than-solomon',
+          id: 'greater-than-solomon-2',
           html:
             'But the pattern Solomon embodies — the king who is known for wisdom, who draws the nations, whose realm is a foretaste of order and justice — does not end with Solomon. It is taken up into the promise of a Greater King. The nations will come to Him. Not with gold and spices, though some will. But with the hunger of the soul, the seeking of the spirit. The Queen of Sheba will rise in judgment and testify: I came from the ends of the earth to hear his wisdom. And her coming will be a sign of the many who will be drawn to the one who is greater than Solomon — not by gold, but by love.',
         },

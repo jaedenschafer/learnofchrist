@@ -39,13 +39,13 @@ export const FIRST_TIMOTHY_6: RichChapterContent = {
           kind: 'commentary',
           id: 'yoke-service',
           html:
-            'The yoke was a symbol of servitude. In Paul&apos;s time, slavery was woven into the fabric of society. He does not call for abolition here—that was not his immediate strategy—but for something more radical: he calls masters and servants to honor each other as brothers in Christ. The gospel transforms relationships from within.',
+            'The yoke was a symbol of servitude. In Paul&apos;s time, slavery was woven into the fabric of society. He does not call for abolition here—that was not his immediate strategy—but for something more radical: he calls masters and servants to honor each other as brothers in Christ. The gospel transforms relationships from within. [res:sefaria-1tim-6]',
         },
         {
           kind: 'commentary',
           id: 'honour-masters',
           html:
-            'Servants are to count their masters "worthy of all honour." This is not flattery. It is a posture of respect that recognizes the dignity of the other person&apos;s station. When a believer serves faithfully, the gospel itself is on display. Unbelievers watching will see whether Christ makes a person more trustworthy, more diligent, more honest. The stakes are high: "that the name of God and his doctrine be not blasphemed."',
+            'Servants are to count their masters "worthy of all honour." This is not flattery. It is a posture of respect that recognizes the dignity of the other person&apos;s station. When a believer serves faithfully, the gospel itself is on display. Unbelievers watching will see whether Christ makes a person more trustworthy, more diligent, more honest. The stakes are high: "that the name of God and his doctrine be not blasphemed." [res:bibleodyssey-wealth]',
         },
         {
           kind: 'carry',
@@ -580,7 +580,7 @@ export const FIRST_TIMOTHY_6: RichChapterContent = {
           kind: 'commentary',
           id: 'grace-closing',
           html:
-            '"Grace be with thee." Paul ends where he began—with grace. Not with a command, though he has issued many. Not with a threat, though he has warned of the love of money. But with grace. Grace to stand. Grace to fight. Grace to keep the faith. This is the final word: you do not stand alone. God&apos;s grace goes with you. Amen.',
+            '"Grace be with thee." Paul ends where he began—with grace. Not with a command, though he has issued many. Not with a threat, though he has warned of the love of money. But with grace. Grace to stand. Grace to fight. Grace to keep the faith. This is the final word: you do not stand alone. God&apos;s grace goes with you. Amen. [res:intertextual-psalm24-1tim6]',
         },
         {
           kind: 'carry',
@@ -603,6 +603,33 @@ export const FIRST_TIMOTHY_6: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: '1 Timothy 6 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-1tim-6',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '1 Timothy 6',
+      url: 'https://www.sefaria.org/1%20Timothy.6',
+      description: 'Multiple translations and commentary on contentment, wealth, and the doxology to Christ the King.',
+    },
+    {
+      id: 'bibleodyssey-wealth',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Wealth and Possessions in Early Christianity',
+      url: 'https://www.bibleodyssey.org/dictionary/riches/',
+      description: 'Historical and ethical perspective on the challenges of wealth and the call to generosity in the early church.',
+    },
+    {
+      id: 'intertextual-psalm24-1tim6',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Psalm 24:10 ↔ 1 Timothy 6:15',
+      url: 'https://intertextual.bible/text/psalm-24.10/1-timothy-6.15',
+      description: 'Paul&apos;s doxology echoes the psalmist&apos;s vision of the King of glory—demonstrating Christ&apos;s eternal kingship.',
+    },
+  ],
 
   hasHebrew: false,
 };

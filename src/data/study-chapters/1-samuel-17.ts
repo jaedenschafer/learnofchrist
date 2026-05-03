@@ -403,7 +403,7 @@ export const SAMUEL_1_17: RichChapterContent = {
                 t(', and '),
                 hp('taketh away the reproach from Israel', 'c-reproach'),
                 t('? for '),
-                hg('who is this uncircumcised Philistine', 'c-uncircumcised'),
+                t('who is this uncircumcised Philistine'),
                 t(', that he should '),
                 hg('defy the armies of the living God', 'c-defiance-david'),
                 t('?'),
@@ -571,7 +571,7 @@ export const SAMUEL_1_17: RichChapterContent = {
               number: 35,
               spans: [
                 t('And I went out after him, and smote him, and delivered it out of his mouth: and when he arose against me, '),
-                hy('I caught him by his beard', 'c-beard'),
+                t('I caught him by his beard'),
                 t(', and smote him, and slew him.'),
               ],
             },

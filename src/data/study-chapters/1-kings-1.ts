@@ -435,9 +435,9 @@ export const KINGS_1_1: RichChapterContent = {
               number: 40,
               spans: [
                 t('And Zadok the priest took an horn of oil out of the tabernacle, and '),
-                hp('anointed Solomon', 'anointed-solomon'),
+                t('anointed Solomon'),
                 t('. And they blew the trumpet; and all the people said, '),
-                hp('God save king Solomon', 'god-save-solomon'),
+                t('God save king Solomon'),
                 t('.'),
               ],
             },

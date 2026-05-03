@@ -57,7 +57,7 @@ export const SECOND_TIMOTHY_2: RichChapterContent = {
           kind: 'commentary',
           id: 'c-grace-strong',
           html:
-            '"Be strong" does not mean conjure your own strength. It means lean into the grace. Paul opens not with exhortation but with gospel: grace is already in Christ Jesus. Your strength is receiving what He offers. This is the posture of the whole chapter—not straining from your own resources but anchored in what Christ has already done.',
+            '"Be strong" does not mean conjure your own strength. It means lean into the grace. Paul opens not with exhortation but with gospel: grace is already in Christ Jesus. Your strength is receiving what He offers. This is the posture of the whole chapter—not straining from your own resources but anchored in what Christ has already done. [res:sefaria-2tim-2]',
         },
         {
           kind: 'commentary',
@@ -622,7 +622,7 @@ export const SECOND_TIMOTHY_2: RichChapterContent = {
           kind: 'commentary',
           id: 'c-flee-lusts',
           html:
-            'Youthful lusts—not only sexual, but the passions of a young man: the hunger for status, the drive to win, the need to prove himself right. Timothy is to flee these. Not struggle against them. Not engage them. Flee. And simultaneously, pursue—righteousness, faith, charity, peace. Positive virtue, not merely negative abstinence.',
+            'Youthful lusts—not only sexual, but the passions of a young man: the hunger for status, the drive to win, the need to prove himself right. Timothy is to flee these. Not struggle against them. Not engage them. Flee. And simultaneously, pursue—righteousness, faith, charity, peace. Positive virtue, not merely negative abstinence. [res:intf-rightly-dividing]',
         },
         {
           kind: 'greek',
@@ -637,7 +637,7 @@ export const SECOND_TIMOTHY_2: RichChapterContent = {
           kind: 'commentary',
           id: 'c-meekness-instruct',
           html:
-            'To instruct "those that oppose themselves"—those who are fighting against their own salvation, who resist the truth even as truth pursues them. How do you teach someone like that? Not by crushing them in argument. Not by winning. By meekness. By patience. By gentleness that opens a door they have slammed shut.',
+            'To instruct "those that oppose themselves"—those who are fighting against their own salvation, who resist the truth even as truth pursues them. How do you teach someone like that? Not by crushing them in argument. Not by winning. By meekness. By patience. By gentleness that opens a door they have slammed shut. [res:intertextual-2sam2-2tim2]',
         },
         {
           kind: 'christ',
@@ -668,6 +668,33 @@ export const SECOND_TIMOTHY_2: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: '2 Timothy 2 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-2tim-2',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Timothy 2',
+      url: 'https://www.sefaria.org/2%20Timothy.2',
+      description: 'Multiple translations and commentary on rightly dividing Scripture, suffering, and endurance in faith.',
+    },
+    {
+      id: 'intf-rightly-dividing',
+      kind: 'study',
+      source: 'INTF',
+      label: 'Orthotomounta—Rightly Dividing the Word',
+      url: 'https://intf.uni-muenster.de/',
+      description: 'The Institute for New Testament Textual Research contextualizes orthotomounta in manuscript tradition and faithful interpretation.',
+    },
+    {
+      id: 'intertextual-2sam2-2tim2',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: '2 Samuel 2 ↔ 2 Timothy 2:3–4',
+      url: 'https://intertextual.bible/text/2-samuel-2/2-timothy-2.3',
+      description: 'Paul&apos;s soldier metaphor echoes Scripture&apos;s depiction of the Christian as enduring hardship like a soldier devoted to his commander.',
+    },
+  ],
 
   hasHebrew: false,
 };

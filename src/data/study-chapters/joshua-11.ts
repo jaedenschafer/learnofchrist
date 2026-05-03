@@ -57,7 +57,7 @@ export const JOSHUA_11: RichChapterContent = {
               number: 3,
               spans: [
                 t('And to the Canaanite on the east and on the west, and to the Amorite, and the Hittite, and the Perizzite, and the Jebusite in the mountains, and to the Hivite under '),
-                hy('Hermon', 'mount-hermon'),
+                t('Hermon'),
                 t(' in the land of Mizpeh.'),
               ],
             },
@@ -134,7 +134,7 @@ export const JOSHUA_11: RichChapterContent = {
                 t('And the LORD said unto Joshua, '),
                 hp('"Be not afraid because of them"', 'c-not-afraid'),
                 t(': for to morrow about this time will I '),
-                hp('deliver them up all slain', 'c-deliver'),
+                t('deliver them up all slain'),
                 t(' before Israel: thou shalt hough their horses, and burn their chariots with fire.'),
               ],
             },
@@ -156,7 +156,7 @@ export const JOSHUA_11: RichChapterContent = {
               number: 7,
               spans: [
                 t('So Joshua came, and all the people of war with him, against them by the waters of Merom suddenly; and they '),
-                hg('fell upon them', 'c-fell'),
+                t('fell upon them'),
                 t('.'),
               ],
             },
@@ -164,7 +164,7 @@ export const JOSHUA_11: RichChapterContent = {
               number: 8,
               spans: [
                 t('And the LORD '),
-                hp('delivered them into the hand of Israel', 'c-deliver'),
+                t('delivered them into the hand of Israel'),
                 t(', who smote them, and chased them unto the great Zidon, and unto Misrephoth-maim, and unto the valley of Mizpeh eastward; and they '),
                 hg('left none remaining', 'c-remaining'),
                 t('.'),
@@ -230,7 +230,7 @@ export const JOSHUA_11: RichChapterContent = {
                 t('And Joshua at that time turned back, and took '),
                 hy('Hazor', 'hazor-center'),
                 t(', and '),
-                hg('smote the king thereof with the sword', 'c-king-sword'),
+                t('smote the king thereof with the sword'),
                 t(': for Hazor beforetime was the head of all those kingdoms.'),
               ],
             },
@@ -483,7 +483,7 @@ export const JOSHUA_11: RichChapterContent = {
         },
         {
           kind: 'christ',
-          id: 'c-rest',
+          id: 'c-rest-2',
           title: 'Christ Connection — The Rest That Remains',
           html:
             'The writer of Hebrews takes up this moment and makes it sing: "There remaineth therefore a rest to the people of God… Let us labour therefore to enter into that rest" (Hebrews 4:9–11). Joshua&apos;s generation entered a land at rest, but the text leaves a question open: Is this rest final? Hebrews says no. There is a rest still coming, a sabbath that belongs to the people of God through Christ. David echoes it: "Some trust in chariots, and some in horses: but we will remember the name of the Lord our God" (Psalm 20:7). The rest from war is real and good. But the deeper rest — the cessation of striving itself, the entrance into the peace that passes understanding — that rest comes through Jesus.',

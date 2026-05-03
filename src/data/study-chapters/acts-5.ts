@@ -318,7 +318,7 @@ export const ACTS_5: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'acts5-gamaliel',
+          id: 'acts5-gamaliel-2',
           prompt: 'What work or calling in your life faces opposition? How might you trust that if it is of God, no opposition will ultimately prevail?',
         },
       ],

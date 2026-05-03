@@ -174,7 +174,7 @@ export const KINGS_1_13: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'eat-no-bread',
+          id: 'eat-no-bread-2',
           prompt: 'Have you ever been tested in your obedience by a kind offer that violated a commitment you had made? How did you decide what to do?',
         },
       ],
@@ -197,7 +197,7 @@ export const KINGS_1_13: RichChapterContent = {
               number: 15,
               spans: [
                 t('And he said, I may not return with thee, nor go in with thee: neither will I '),
-                hg('eat bread nor drink water', 'second-refusal'),
+                t('eat bread nor drink water'),
                 t(' with thee in this place:'),
               ],
             },
@@ -373,7 +373,7 @@ export const KINGS_1_13: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'jeroboam-hardened',
+          id: 'jeroboam-hardened-2',
           prompt: 'Jeroboam sees the sign and hardens his heart. What keeps you turning toward the Lord, even when you see His work around you? What would need to change for your heart to grow harder instead of softer?',
         },
       ],

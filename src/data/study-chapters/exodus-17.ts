@@ -412,7 +412,7 @@ export const EXODUS_17: RichChapterContent = {
         },
         {
           kind: 'christ',
-          id: 'oath-final',
+          id: 'oath-final-2',
           title: 'Christ Connection — Victory Assured and Perpetual',
           html:
             'The promise "the LORD will have war with Amalek from generation to generation" becomes in the New Testament a picture of Christ&apos;s ongoing victory. Christ ascended with His hand on the throne of God (Hebrews 12:2), and from that throne He wages war against all spiritual enemies on behalf of His people. The victory at the cross was not a one-time event after which the war ended; it is a perpetual reality. Every attack of the enemy against the church is already defeated by the one who sits with His hand upon the throne. Amalek will keep coming, but the outcome is sealed.',

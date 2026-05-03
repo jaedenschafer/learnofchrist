@@ -109,7 +109,7 @@ export const ISAIAH_64: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'isa64-potter',
+          id: 'isa64-potter-2',
           prompt: 'In what ways are you resisting the Potter\'s hands? What would it look like to surrender fully to His shaping, even if it is painful?',
         },
       ],

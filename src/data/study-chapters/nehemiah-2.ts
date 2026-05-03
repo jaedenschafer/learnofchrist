@@ -280,7 +280,7 @@ export const NEHEMIAH_2: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'night-survey',
+          id: 'night-survey-2',
           prompt: 'Nehemiah surveys the walls alone before speaking to anyone. What would change in your own leadership or work if you spent more time in private observation and prayer before speaking your vision?',
         },
       ],

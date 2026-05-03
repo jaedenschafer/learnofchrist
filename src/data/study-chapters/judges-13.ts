@@ -99,7 +99,7 @@ export const JUDGES_13: RichChapterContent = {
               number: 4,
               spans: [
                 t('Now therefore beware, I pray thee, and '),
-                hy('drink not wine nor strong drink', 'j13-nazarite-command'),
+                t('drink not wine nor strong drink'),
                 t(', and eat not any unclean thing:'),
               ],
             },
@@ -107,7 +107,7 @@ export const JUDGES_13: RichChapterContent = {
               number: 5,
               spans: [
                 t('For, lo, thou shalt conceive, and '),
-                hg('bear a son; and no razor shall come on his head', 'j13-nazarite-mark'),
+                t('bear a son; and no razor shall come on his head'),
                 t(': for the child shall be a '),
                 hy('Nazarite unto God from the womb', 'j13-nazarite'),
                 t(': and '),
@@ -305,7 +305,7 @@ export const JUDGES_13: RichChapterContent = {
               number: 18,
               spans: [
                 t('And the angel of the Lord said unto him, '),
-                hy('Why askest thou thus after my name, seeing it is secret?', 'j13-pele'),
+                t('Why askest thou thus after my name, seeing it is secret?'),
                 t(' (or wonderful)'),
               ],
             },
@@ -422,7 +422,7 @@ export const JUDGES_13: RichChapterContent = {
               number: 24,
               spans: [
                 t('And the woman bare a son, and called his name '),
-                hy('Samson', 'j13-samson'),
+                t('Samson'),
                 t(': and the child grew, and the Lord blessed him.'),
               ],
             },

@@ -206,7 +206,7 @@ export const KINGS_1_20: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'gods-hills',
+          id: 'gods-hills-2',
           prompt: 'In what area of your life have you unconsciously limited God&apos;s power or authority? How might it change your faith to recognize His absolute dominion there?',
         },
       ],

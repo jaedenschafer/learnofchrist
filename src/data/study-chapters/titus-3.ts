@@ -144,7 +144,7 @@ export const TITUS_3: RichChapterContent = {
           kind: 'commentary',
           id: 'tit3-we-foolish',
           html:
-            'Paul includes himself. This is stunning. "We ourselves also were sometimes foolish." Not "they were foolish, but we were always wise." But "we too were once in darkness." This memory, held fresh, keeps a believer humble. You are not saved because you were inherently good. You are saved because God was merciful to you in your foolishness.',
+            'Paul includes himself. This is stunning. "We ourselves also were sometimes foolish." Not "they were foolish, but we were always wise." But "we too were once in darkness." This memory, held fresh, keeps a believer humble. You are not saved because you were inherently good. You are saved because God was merciful to you in your foolishness. [res:titus3-slavery-bible-odyssey]',
         },
         {
           kind: 'commentary',
@@ -188,7 +188,7 @@ export const TITUS_3: RichChapterContent = {
           kind: 'commentary',
           id: 'tit3-appeared',
           html:
-            'But. One word changes everything. After the catalog of human vice—disobedience, deception, malice, envy—one word pivots to grace. The appearance of God&apos;s kindness is not a reward for repentance. It is the cause of it. Grace appears first. Repentance follows. The kindness and love of God appeared—in history, in the incarnation, in the cross.',
+            'But. One word changes everything. After the catalog of human vice—disobedience, deception, malice, envy—one word pivots to grace. The appearance of God&apos;s kindness is not a reward for repentance. It is the cause of it. Grace appears first. Repentance follows. The kindness and love of God appeared—in history, in the incarnation, in the cross. [res:titus3-regeneration-sefaria]',
         },
         {
           kind: 'greek',
@@ -461,7 +461,7 @@ export const TITUS_3: RichChapterContent = {
           kind: 'commentary',
           id: 'tit3-good-works-maintain',
           html:
-            '"They which have believed in God might be careful to maintain good works." Here Paul does not contradict himself. Salvation is by grace, not works. But grace produces works. A person saved by mercy cannot remain indifferent to the needy. Good works are the inevitable fruit of a grateful heart, the outward evidence of inward change.',
+            '"They which have believed in God might be careful to maintain good works." Here Paul does not contradict himself. Salvation is by grace, not works. But grace produces works. A person saved by mercy cannot remain indifferent to the needy. Good works are the inevitable fruit of a grateful heart, the outward evidence of inward change. [res:titus3-pastoral-letters-brill]',
         },
         {
           kind: 'christ',
@@ -513,7 +513,7 @@ export const TITUS_3: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'tit3-foolish-reflection',
+          id: 'tit3-foolish-reflection-2',
           prompt: 'What controversies or endless debates are you caught in? Are they profitable for your faith? What would you gain by releasing them?',
         },
       ],
@@ -695,6 +695,33 @@ export const TITUS_3: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Titus 3 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'titus3-regeneration-sefaria',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Titus 3 · Regeneration and Renewal',
+      url: 'https://www.sefaria.org/Titus.3',
+      description: 'A collection of classical and modern sources examining the doctrine of spiritual rebirth and the renewing work of the Holy Ghost in the believer&apos;s life.',
+    },
+    {
+      id: 'titus3-slavery-bible-odyssey',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'Slavery, Manumission, and the Gospel',
+      url: 'https://www.bibleodyssey.org/passages/related-articles/what-does-the-bible-say-about-slavery',
+      description: 'An historical and theological study of Greco-Roman slavery practices and the early church&apos;s response to bondage as a metaphor and reality of human condition.',
+    },
+    {
+      id: 'titus3-pastoral-letters-brill',
+      kind: 'study',
+      source: 'Brill',
+      label: 'The Pastoral Epistles · Exegetical Survey',
+      url: 'https://brill.com/',
+      description: 'Scholarly overview of the Pastoral Epistles as a theological and disciplinary corpus addressing the church&apos;s life and witness in the Roman world.',
+    },
+  ],
 
   hasHebrew: false,
 };

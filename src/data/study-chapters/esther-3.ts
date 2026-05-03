@@ -84,7 +84,7 @@ export const ESTHER_3: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'mordecai-refuses',
+          id: 'mordecai-refuses-2',
           prompt: 'Mordecai refuses to bow to Haman, knowing it will bring danger not just to himself, but to his entire people. What convictions do you hold that you would not compromise, even if it cost you dearly?',
         },
       ],

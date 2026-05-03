@@ -436,9 +436,9 @@ export const SAMUEL_1_15: RichChapterContent = {
               number: 22,
               spans: [
                 t('And Samuel said, Hath the Lord as great delight in burnt offerings and sacrifices, as in '),
-                hp('obeying the voice of the Lord', 'c-obey-voice'),
+                t('obeying the voice of the Lord'),
                 t('? '),
-                hp('Behold, to obey is better than sacrifice', 'c-obey-better'),
+                t('Behold, to obey is better than sacrifice'),
                 t(', and to hearken than the fat of rams.'),
               ],
             },

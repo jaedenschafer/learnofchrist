@@ -124,7 +124,7 @@ export const ISAIAH_53: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'isa53-substitution',
+          id: 'isa53-substitution-2',
           prompt: 'How does it change your understanding of redemption to know that the Servant bore your transgressions, took your wounds? What response does this substitution call forth from you?',
         },
       ],

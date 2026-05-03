@@ -83,7 +83,7 @@ export const KINGS_1_12: RichChapterContent = {
                 t('And they spake unto him, saying, If thou wilt be a '),
                 hg('servant unto this people', 'servant-people'),
                 t(' this day, and wilt serve them, and answer them, and speak '),
-                hg('good words to them', 'good-words'),
+                t('good words to them'),
                 t(', then they will be thy servants for ever.'),
               ],
             },

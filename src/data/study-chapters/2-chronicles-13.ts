@@ -87,7 +87,7 @@ export const CHRONICLES_2_13: RichChapterContent = {
                 t('Ought ye not to know that the '),
                 hy('Lord God of Israel gave the kingdom', 'covenant-gave'),
                 t(' over Israel to David for ever, even to him and to his sons by a '),
-                hy('covenant of salt', 'covenant-salt'),
+                t('covenant of salt'),
                 t('?'),
               ],
             },

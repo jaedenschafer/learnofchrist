@@ -359,7 +359,7 @@ export const KINGS_2_15: RichChapterContent = {
         },
         {
           kind: 'commentary',
-          id: 'k15-galah',
+          id: 'k15-galah-2',
           html:
             'Tiglath-pileser does not come as a tributary-taker this time. He comes as a conqueror. He takes the northern and eastern territories of Israel—all of Galilee, Gilead, and Naphtali. The tribes who lived there are deported to Assyria. It is the first deportation of Israel. Many of these people will never return. They will be absorbed into the Assyrian empire and their identity will be lost. They become the "Lost Tribes of Israel."',
         },

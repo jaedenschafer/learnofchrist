@@ -516,5 +516,4 @@ export const BARUCH_6: RichChapterContent = {
     ref: 'Baruch 6 · Study Guide',
   },
 
-  hasHebrew: true,
 };

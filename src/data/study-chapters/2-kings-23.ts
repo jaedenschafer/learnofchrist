@@ -41,7 +41,7 @@ export const KINGS_2_23: RichChapterContent = {
               number: 3,
               spans: [
                 t('And the king stood by a pillar, and '),
-                hp('made a covenant', 'k23-covenant'),
+                t('made a covenant'),
                 t(' before the Lord, to walk after the Lord, and to keep his commandments and his testimonies and his statutes with all his heart and all his soul, to perform the words of this covenant that were written in this book. And all the people stood to the covenant.'),
               ],
             },

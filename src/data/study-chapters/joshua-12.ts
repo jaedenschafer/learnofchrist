@@ -88,7 +88,7 @@ export const JOSHUA_12: RichChapterContent = {
                 t(' on the east, and unto the sea of the plain, even the '),
                 hy('salt sea', 'salt-sea'),
                 t(' on the east, the way to Beth-jeshimoth; and from the south, under '),
-                hy('Ashdoth-pisgah', 'pisgah'),
+                t('Ashdoth-pisgah'),
                 t(':'),
               ],
             },
@@ -282,7 +282,7 @@ export const JOSHUA_12: RichChapterContent = {
             {
               number: 11,
               spans: [
-                hg('The king of Debir, one; the king of Geder, one; the king of Hormah, one; the king of Arad, one;', 'kings-list-3'),
+                t('The king of Debir, one; the king of Geder, one; the king of Hormah, one; the king of Arad, one;'),
               ],
             },
           ],
@@ -294,7 +294,7 @@ export const JOSHUA_12: RichChapterContent = {
             {
               number: 12,
               spans: [
-                hg('The king of Libnah, one; the king of Adullam, one; the king of Makkedah, one; the king of Bethel, one;', 'kings-list-4'),
+                t('The king of Libnah, one; the king of Adullam, one; the king of Makkedah, one; the king of Bethel, one;'),
               ],
             },
           ],
@@ -306,7 +306,7 @@ export const JOSHUA_12: RichChapterContent = {
             {
               number: 13,
               spans: [
-                hg('The king of Tappuah, one; the king of Hepher, one; the king of Aphek, one; the king of Lasharon, one;', 'kings-list-5'),
+                t('The king of Tappuah, one; the king of Hepher, one; the king of Aphek, one; the king of Lasharon, one;'),
               ],
             },
           ],
@@ -318,7 +318,7 @@ export const JOSHUA_12: RichChapterContent = {
             {
               number: 14,
               spans: [
-                hg('The king of Madon, one; the king of Hazor, one; the king of Shimron-meron, one; the king of Achshaph, one;', 'kings-list-6'),
+                t('The king of Madon, one; the king of Hazor, one; the king of Shimron-meron, one; the king of Achshaph, one;'),
               ],
             },
           ],
@@ -330,7 +330,7 @@ export const JOSHUA_12: RichChapterContent = {
             {
               number: 15,
               spans: [
-                hg('The king of Taanach, one; the king of Megiddo, one; the king of Kedesh, one; the king of Jokneam of Carmel, one;', 'kings-list-7'),
+                t('The king of Taanach, one; the king of Megiddo, one; the king of Kedesh, one; the king of Jokneam of Carmel, one;'),
               ],
             },
           ],
@@ -342,7 +342,7 @@ export const JOSHUA_12: RichChapterContent = {
             {
               number: 16,
               spans: [
-                hg('The king of Dor in the coast of Dor, one; the king of the nations of Gilgal, one; the king of Tirzah, one:', 'kings-list-8'),
+                t('The king of Dor in the coast of Dor, one; the king of the nations of Gilgal, one; the king of Tirzah, one:'),
               ],
             },
           ],

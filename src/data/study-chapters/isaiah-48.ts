@@ -102,7 +102,7 @@ export const ISAIAH_48: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'isaiah48-peace-river',
+          id: 'isaiah48-peace-river-2',
           prompt: 'Do you truly long for peace as a river? What would it take for you to hearken to God&apos;s commandments? What false securities, what "Babylons," do you need to leave behind to return to God and find the peace that He offers?',
         },
       ],

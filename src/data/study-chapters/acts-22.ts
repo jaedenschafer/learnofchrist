@@ -511,5 +511,4 @@ export const ACTS_22: RichChapterContent = {
     },
   ],
 
-  hasHebrew: true,
 };

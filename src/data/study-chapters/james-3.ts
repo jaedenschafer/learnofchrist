@@ -84,7 +84,7 @@ export const JAMES_3: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'jam3-teachers',
+          id: 'jam3-teachers-2',
           prompt:
             'Have you ever been shaped by a teacher—someone whose words stuck with you and changed how you saw things? How do those words still move you? Now reverse it: whose life have you shaped through your words?',
         },

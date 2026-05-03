@@ -59,7 +59,7 @@ export const HOSEA_12: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'hosea12-wind',
+          id: 'hosea12-wind-2',
           prompt: 'Ephraim feeds on wind. What are you consuming that does not nourish your soul? How will you return to feeding on God&apos;s Word?',
         },
       ],

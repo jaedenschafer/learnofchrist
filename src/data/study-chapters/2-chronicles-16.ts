@@ -186,7 +186,7 @@ export const CHRONICLES_2_16: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: '2ch16-eyes',
+          id: '2ch16-eyes-2',
           prompt:
             'What would it look like for your heart to be entirely devoted to the Lord—not just in emergencies, but in ordinary decisions and possibilities? Where are you holding back from wholehearted reliance?',
         },
@@ -257,7 +257,7 @@ export const CHRONICLES_2_16: RichChapterContent = {
                 t('And Asa in the thirty and ninth year of his reign was diseased in his feet, until his disease was exceeding great: '),
                 hg('yet in his disease he sought not to the Lord', '2ch16-disease'),
                 t(', '),
-                hy('but to the physicians', '2ch16-physicians'),
+                t('but to the physicians'),
                 t('.'),
               ],
             },
@@ -310,7 +310,7 @@ export const CHRONICLES_2_16: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: '2ch16-physician',
+          id: '2ch16-physician-2',
           prompt:
             'Asa sought physicians instead of the Lord. In your own life, what do you reach for when trouble comes—remedies and fixes that might help, but without turning to God? What would it look like to seek Him first?',
         },

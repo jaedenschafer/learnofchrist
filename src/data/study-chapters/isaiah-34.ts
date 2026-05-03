@@ -141,7 +141,7 @@ export const ISAIAH_34: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'isaiah34-book-lord',
+          id: 'isaiah34-book-lord-2',
           prompt: 'What does it mean to you that God&apos;s words and purposes are written in a book that cannot fail? How does this truth comfort you when you face injustice or suffering?',
         },
       ],

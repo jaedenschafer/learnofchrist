@@ -414,7 +414,7 @@ export const DEUTERONOMY_11: RichChapterContent = {
             {
               number: 26,
               spans: [
-                hp('Behold, I set before you this day a blessing and a curse;', 'christ-covenant'),
+                t('Behold, I set before you this day a blessing and a curse;'),
               ],
             },
             {

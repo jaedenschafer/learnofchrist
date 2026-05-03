@@ -134,7 +134,7 @@ export const SAMUEL_2_17: RichChapterContent = {
               number: 8,
               spans: [
                 t('For, said Hushai, thou knowest thy father and his men, that they be mighty men, and they be '),
-                hy('chafed in their minds', 'c-chafed'),
+                t('chafed in their minds'),
                 t(', as a bear robbed of her whelps in the field: and thy father is a man of war, will not lodge with the people.'),
               ],
             },

@@ -158,7 +158,7 @@ export const RUTH_4: RichChapterContent = {
               number: 8,
               spans: [
                 t('Now '),
-                hg('this was the manner in former time in Israel', 'c-custom'),
+                t('this was the manner in former time in Israel'),
                 t(' concerning redeeming and concerning changing, for to confirm all things; a man plucked off his '),
                 hy('shoe', 'hebrew-na-al'),
                 t(', and gave it to his neighbour: and this was a testimony in Israel.'),

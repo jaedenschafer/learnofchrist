@@ -255,7 +255,7 @@ export const DEUTERONOMY_4: RichChapterContent = {
               number: 11,
               spans: [
                 t('And ye came near and stood under the mountain; and '),
-                hg('the mountain burned', 'c-mountain-fire'),
+                t('the mountain burned'),
                 t(' with fire unto the midst of heaven, with darkness, clouds, and thick darkness.'),
               ],
             },

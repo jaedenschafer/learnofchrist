@@ -256,7 +256,7 @@ export const CHRONICLES_2_2: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: '2c2-huram-abi',
+          id: '2c2-huram-abi-2',
           prompt: 'Hiram-abi was born of two peoples — his mother Israelite, his father from Tyre. His skill was forged in both traditions. What gifts have you received from different sources, different people, different places in your life? How can those gifts work together in something you build?',
         },
       ],

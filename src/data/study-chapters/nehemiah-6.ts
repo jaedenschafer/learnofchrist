@@ -234,7 +234,7 @@ export const NEHEMIAH_6: RichChapterContent = {
               number: 14,
               spans: [
                 t('My God, '),
-                hp('THINK THOU UPON TOBIAH AND SANBALLAT ACCORDING TO THESE THEIR WORKS', 'neh6-judgment'),
+                t('THINK THOU UPON TOBIAH AND SANBALLAT ACCORDING TO THESE THEIR WORKS'),
                 t(', and on the prophetess Noadiah, and the rest of the prophets, that would have put me in fear.'),
               ],
             },

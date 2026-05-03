@@ -293,7 +293,7 @@ export const KINGS_2_2: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'chariot-fire',
+          id: 'chariot-fire-2',
           prompt: 'Who in your spiritual life has been a "father" or "mother"? When they have departed, what mantle have you been called to pick up?',
         },
       ],

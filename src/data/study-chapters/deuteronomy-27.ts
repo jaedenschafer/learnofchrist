@@ -62,7 +62,7 @@ export const DEUTERONOMY_27: RichChapterContent = {
               number: 3,
               spans: [
                 t('And thou shalt write upon them '),
-                hy('all the words of this law', 'c-all-words'),
+                t('all the words of this law'),
                 t(', when thou art passed over, that thou mayest go in unto the land which the Lord thy God giveth thee, a land that floweth with milk and honey; as the Lord God of thy fathers hath promised thee.'),
               ],
             },
@@ -479,7 +479,7 @@ export const DEUTERONOMY_27: RichChapterContent = {
               number: 26,
               spans: [
                 t('Cursed be he that '),
-                hp('confirmeth not all the words of this law', 'christ-curse-all'),
+                t('confirmeth not all the words of this law'),
                 t(' to do them. And all the people shall say, Amen.'),
               ],
             },

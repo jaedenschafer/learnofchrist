@@ -60,7 +60,7 @@ export const JOSHUA_4: RichChapterContent = {
                 t('And command ye them, saying, Take you hence out of the midst of Jordan, '),
                 hy('out of the place where the priests&apos; feet stood firm', 'priests-place'),
                 t(', '),
-                hg('twelve stones', 'eben-memorial'),
+                t('twelve stones'),
                 t(', and ye shall carry them over with you, and leave them in the lodging place, where ye shall lodge this night.'),
               ],
             },

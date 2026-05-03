@@ -384,7 +384,7 @@ export const FIRST_CORINTHIANS_14: RichChapterContent = {
         },
         {
           kind: 'christ',
-          id: 'cor14-both',
+          id: 'cor14-both-2',
           title: 'Christ Connection — The Whole Person',
           html:
             'Jesus taught not only in parables and riddles, but in clear speech that anyone could follow. &ldquo;Come unto me, all ye that labour and are heavy laden, and I will give you rest&rdquo; (Matt. 11:28). He engaged both heart and mind, both spirit and reason. The gospel requires understanding.',
@@ -517,7 +517,7 @@ export const FIRST_CORINTHIANS_14: RichChapterContent = {
         },
         {
           kind: 'christ',
-          id: 'cor14-convicted',
+          id: 'cor14-convicted-2',
           title: 'Christ Connection — The Word That Pierces',
           html:
             '&ldquo;The word of God is quick, and powerful, and sharper than any twoedged sword, piercing even to the dividing asunder of soul and spirit&rdquo; (Heb. 4:12). The unbeliever does not need ecstasy; they need clarity. They need to hear the word of Christ, intelligibly spoken, so that their own heart stands revealed and the Spirit can work conviction.',
@@ -684,7 +684,7 @@ export const FIRST_CORINTHIANS_14: RichChapterContent = {
         },
         {
           kind: 'christ',
-          id: 'cor14-god-peace',
+          id: 'cor14-god-peace-2',
           title: 'Christ Connection — Peace as the Mark of His Presence',
           html:
             '&ldquo;Peace I leave with you, my peace I give unto you&rdquo; (John 14:27). Where Jesus reigns, there is order. Where the Spirit works, there is clarity, not chaos. &ldquo;God hath not given us the spirit of fear; but of power, and of love, and of a sound mind&rdquo; (2 Tim. 1:7). The Spirit produces self-control.',
@@ -837,7 +837,7 @@ export const FIRST_CORINTHIANS_14: RichChapterContent = {
         },
         {
           kind: 'christ',
-          id: 'cor14-decently-order',
+          id: 'cor14-decently-order-2',
           title: 'Christ Connection — The Head and the Body',
           html:
             '&ldquo;The head from which all the body by joints and bands having nourishment ministered, and knit together, increaseth with the increase of God&rdquo; (Col. 2:19). The church is Christ&apos;s body. A body without coordination is a convulsion. A body with each member in its place is alive, purposeful, growing. Order is not the opposite of life; it is the condition for it.',

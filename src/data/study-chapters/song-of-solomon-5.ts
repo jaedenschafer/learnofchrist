@@ -125,7 +125,7 @@ export const SONG_5: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'song5-altogether-lovely',
+          id: 'song5-altogether-lovely-2',
           prompt: 'Do you experience Christ as "altogether lovely"? Or do you see Him in parts—merciful in this moment, just in another? What would it mean to see His entire being as beautiful, as worthy of your full devotion and friendship?',
         },
       ],

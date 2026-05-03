@@ -487,7 +487,7 @@ export const ROMANS_13: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'rom13-darkness',
+          id: 'rom13-darkness-2',
           prompt: 'What "works of darkness" do you still cherish in secret? What would it cost to bring them to light and cast them off?',
         },
       ],

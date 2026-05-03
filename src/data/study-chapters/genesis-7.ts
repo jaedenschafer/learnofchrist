@@ -35,7 +35,7 @@ export const GENESIS_7: RichChapterContent = {
               number: 1,
               spans: [
                 t('And the LORD said unto Noah, '),
-                hp('Come thou and all thy house into the ark', 'christ-invitation'),
+                t('Come thou and all thy house into the ark'),
                 t('; for thee have I seen righteous before me in this generation.'),
               ],
             },
@@ -241,7 +241,7 @@ export const GENESIS_7: RichChapterContent = {
               number: 16,
               spans: [
                 t('And they that went in, went in male and female of all flesh, as God had commanded: and '),
-                hy('the LORD shut him in', 'gen7-shut-door'),
+                t('the LORD shut him in'),
                 t('.'),
               ],
             },

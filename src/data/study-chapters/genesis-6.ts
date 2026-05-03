@@ -166,7 +166,7 @@ export const GENESIS_6: RichChapterContent = {
               number: 8,
               spans: [
                 t('But Noah found '),
-                hp('grace in the eyes of the LORD', 'christ-grace-noah'),
+                t('grace in the eyes of the LORD'),
                 t('.'),
               ],
             },

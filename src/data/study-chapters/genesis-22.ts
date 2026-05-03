@@ -147,7 +147,7 @@ export const GENESIS_22: RichChapterContent = {
               number: 8,
               spans: [
                 t('And Abraham said, My son, God will '),
-                hy('provide himself a lamb', 'hebrew-yireh'),
+                t('provide himself a lamb'),
                 t(' for a burnt offering: so they went both of them together.'),
               ],
             },

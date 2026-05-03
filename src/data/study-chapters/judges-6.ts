@@ -85,7 +85,7 @@ export const JUDGES_6: RichChapterContent = {
               spans: [
                 hy('And Israel was greatly impoverished', 'c-poverty'),
                 t(' because of the Midianites; and the children of Israel '),
-                hp('cried unto the Lord', 'christ-cry'),
+                t('cried unto the Lord'),
                 t('.'),
               ],
             },

@@ -99,7 +99,7 @@ export const SAMUEL_2_24: RichChapterContent = {
                 t('And Joab gave up the sum of the number of the people unto the king: and there were in Israel '),
                 hy('eight hundred thousand', 's24-eight-hundred'),
                 t(' valiant men that drew the sword; and the men of Judah were '),
-                hy('five hundred thousand', 's24-five-hundred'),
+                t('five hundred thousand'),
                 t(' men.'),
               ],
             },
@@ -234,7 +234,7 @@ export const SAMUEL_2_24: RichChapterContent = {
               number: 16,
               spans: [
                 t('And when the angel stretched out his hand upon Jerusalem to destroy it, the Lord repented him of the evil, and said to the angel that destroyed the people, It is enough: stay now thine hand. And the angel of the Lord was by the '),
-                hy('threshingplace of Araunah', 's24-araunah'),
+                t('threshingplace of Araunah'),
                 t(' the Jebusite.'),
               ],
             },

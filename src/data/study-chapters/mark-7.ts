@@ -204,7 +204,7 @@ export const MARK_7: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'mark7-ephphatha',
+          id: 'mark7-ephphatha-2',
           prompt: 'What in your life needs to be opened? What barriers, internal or external, keep you from hearing God&apos;s voice and speaking His praise?',
         },
       ],

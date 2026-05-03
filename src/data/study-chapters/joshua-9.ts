@@ -368,7 +368,7 @@ export const JOSHUA_9: RichChapterContent = {
               number: 27,
               spans: [
                 t('And Joshua made them that day '),
-                hy('hewers of wood and drawers of water', 'final-servers'),
+                t('hewers of wood and drawers of water'),
                 t(' for the congregation, and for the altar of the Lord, even unto this day, in the place which he should choose.'),
               ],
             },

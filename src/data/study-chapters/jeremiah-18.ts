@@ -291,7 +291,7 @@ export const JEREMIAH_18: RichChapterContent = {
         },
         {
           kind: 'commentary',
-          id: 'jer18-devices',
+          id: 'jer18-devices-2',
           html:
             'Jeremiah&apos;s enemies conspire. They say his words should be ignored; they will smite him with the tongue. And Jeremiah cries out: "Shall evil be recompensed for good?" He stood before God interceding for these very people, and they repay him with plots and pits.',
         },

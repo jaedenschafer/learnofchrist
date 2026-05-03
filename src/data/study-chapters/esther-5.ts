@@ -57,7 +57,7 @@ export const ESTHER_5: RichChapterContent = {
                 t('And it was so, when the king saw Esther the queen standing in the court, that she obtained '),
                 hg('favour in his sight', 'esth5-favour'),
                 t(': and the king held out to Esther the '),
-                hy('golden sceptre', 'esth5-sceptre'),
+                t('golden sceptre'),
                 t(' that was in his hand. So Esther drew near, and touched the top of the sceptre.'),
               ],
             },

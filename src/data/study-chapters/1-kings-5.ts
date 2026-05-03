@@ -70,7 +70,7 @@ export const KINGS_1_5: RichChapterContent = {
               number: 5,
               spans: [
                 t('And, behold, I purpose to build an house unto the name of the Lord my God, as the Lord spake unto David my father, saying, Thy son, whom I will set upon thy throne in thy room, he shall '),
-                hp('build an house unto my name', 's5-promise-fulfilled'),
+                t('build an house unto my name'),
                 t('.'),
               ],
             },

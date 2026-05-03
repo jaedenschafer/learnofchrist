@@ -136,7 +136,7 @@ export const JOB_40: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'job40-behemoth',
+          id: 'job40-behemoth-2',
           prompt:
             'What represents "Behemoth" in your own life—something powerful that you have learned you cannot control? How did you come to accept that?',
         },

@@ -575,7 +575,7 @@ export const HEBREWS_7: RichChapterContent = {
         },
         {
           kind: 'commentary',
-          id: 'c-melch-greatness',
+          id: 'c-melch-greatness-2',
           html:
             'The author is building an irrefutable logical case. Every line of evidence points the same direction: Melchisedec is great, greater than Abraham, greater than the Levitical system that will later arise from Abraham&apos;s descendants. And if Christ is a priest after Melchisedec&apos;s order, then Christ is necessarily greater than the entire Levitical system.',
         },

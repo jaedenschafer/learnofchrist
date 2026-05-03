@@ -170,7 +170,7 @@ export const HEBREWS_5: RichChapterContent = {
         },
         {
           kind: 'christ',
-          id: 'heb5-begotten',
+          id: 'heb5-begotten-2',
           title: 'Christ Connection — Humility Before Exaltation',
           html:
             'Paul describes it in Philippians 2:6–9: Jesus, though in the form of God, emptied Himself, took the form of a servant, humbled Himself unto death. "Wherefore God also hath highly exalted him, and given him a name which is above every name." Christ&apos;s priesthood is built on the foundation of His refusal to seize or grasp. The Father did the exalting. The Son did the obedience.',
@@ -235,7 +235,7 @@ export const HEBREWS_5: RichChapterContent = {
         },
         {
           kind: 'christ',
-          id: 'heb5-strong-crying',
+          id: 'heb5-strong-crying-2',
           title: 'Christ Connection — Gethsemane',
           html:
             'Matthew 26:39: "He went a little further, and fell on his face, and prayed, saying, O my Father, if it be possible, let this cup pass from me: nevertheless not as I will, but as thou wilt." This is Christ&apos;s priesthood in action. Not detached. Not cold. Real prayer, real tears, real wrestling with the will of the Father. And the Father heard Him not by removing the cup but by strengthening Him to drink it.',
@@ -297,7 +297,7 @@ export const HEBREWS_5: RichChapterContent = {
         },
         {
           kind: 'christ',
-          id: 'heb5-learned-obedience',
+          id: 'heb5-learned-obedience-2',
           title: 'Christ Connection — Our Pattern of Obedience',
           html:
             '1 Peter 2:21–23: "For even hereunto were ye called: because Christ also suffered for us, leaving us an example, that ye should follow his steps: Who did no sin, neither was guile found in his mouth: Who, when he was reviled, reviled not again; when he suffered, he threatened not; but committed himself to him that judgeth righteously." Christ&apos;s obedience through suffering is not His alone. It is the pattern for you. Your obedience, too, is tested and perfected through what you suffer.',

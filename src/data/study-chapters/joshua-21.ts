@@ -31,7 +31,7 @@ export const JOSHUA_21: RichChapterContent = {
               number: 1,
               spans: [
                 t('Then came the chief of the fathers of the Levites unto '),
-                hy('Eleazar', 'joshuael'),
+                t('Eleazar'),
                 t(' the priest, and unto Joshua the son of Nun, and unto the chief of the fathers of the tribes of the children of Israel;'),
               ],
             },
@@ -39,7 +39,7 @@ export const JOSHUA_21: RichChapterContent = {
               number: 2,
               spans: [
                 t('And they spake unto them at Shiloh in the land of Canaan, saying, '),
-                hp('The Lord commanded', 'josh-promise'),
+                t('The Lord commanded'),
                 t(' by the hand of Moses to give us cities to dwell in, with the suburbs thereof for our cattle.'),
               ],
             },
@@ -217,7 +217,7 @@ export const JOSHUA_21: RichChapterContent = {
               number: 44,
               spans: [
                 t('And the Lord gave them '),
-                hp('rest round about', 'josh-rest'),
+                t('rest round about'),
                 t(', according to all that he sware unto their fathers: and '),
                 hy('there stood not a man', 'failed-not'),
                 t(' of all their enemies before them; the Lord delivered all their enemies into their hand.'),
@@ -227,9 +227,9 @@ export const JOSHUA_21: RichChapterContent = {
               number: 45,
               spans: [
                 t('There failed not '),
-                hp('ought of any good thing', 'josh-good-thing'),
+                t('ought of any good thing'),
                 t(' which the Lord had spoken unto the house of Israel; '),
-                hy('all came to pass', 'all-pass'),
+                t('all came to pass'),
                 t('.'),
               ],
             },

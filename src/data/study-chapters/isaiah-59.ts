@@ -118,7 +118,7 @@ export const ISAIAH_59: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'isa59-redeemer',
+          id: 'isa59-redeemer-2',
           prompt: 'In what ways do you experience being separated from God? How does it change your perspective to know that the Redeemer comes precisely to those who acknowledge their need?',
         },
       ],

@@ -246,7 +246,7 @@ export const ESTHER_8: RichChapterContent = {
                 t('And Mordecai went out from the presence of the king in '),
                 hg('royal apparel of blue and white', 'esth8-apparel'),
                 t(', and with '),
-                hg('a great crown of gold', 'esth8-crown'),
+                t('a great crown of gold'),
                 t(', and a garment of fine linen and purple: and the city of Shushan rejoiced and was glad.'),
               ],
             },

@@ -498,7 +498,7 @@ export const ROMANS_1: RichChapterContent = {
         },
         {
           kind: 'commentary',
-          id: 'rom1-gave-up-3',
+          id: 'rom1-gave-up-3-2',
           html:
             'The third handover. They did not "like to retain God in their knowledge"—they made a choice to forget, to set Him aside, to live as though He did not matter. So God gave them over to a "reprobate mind," a mind no longer capable of knowing right from wrong, beauty from ugliness, truth from falsehood. It is not that conscience disappears. It is that it is so darkened it can no longer function.',
         },
@@ -528,7 +528,7 @@ export const ROMANS_1: RichChapterContent = {
 
         {
           kind: 'reflection',
-          id: 'rom1-catalogue',
+          id: 'rom1-catalogue-2',
           prompt: 'Where do you see this catalogue playing out in your own culture? And where are you tempted to "have pleasure in them that do them"—to call evil good?',
         },
 

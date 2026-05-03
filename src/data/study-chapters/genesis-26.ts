@@ -432,7 +432,7 @@ export const GENESIS_26: RichChapterContent = {
                 t('And he called it '),
                 hg('Shebah', 'c-shebah'),
                 t(': therefore the name of the city is '),
-                hg('Beersheba', 'c-beersheba'),
+                t('Beersheba'),
                 t(' unto this day.'),
               ],
             },

@@ -444,7 +444,7 @@ export const ACTS_28: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'acts28-hardening',
+          id: 'acts28-hardening-2',
           prompt:
             'How do you respond when someone you love refuses to see or hear truth you believe is plain? How can you stay faithful without bitterness?',
         },

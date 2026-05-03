@@ -193,7 +193,7 @@ export const NUMBERS_36: RichChapterContent = {
             ),
             verse(13,
               t('These are the commandments and the judgments, which '),
-              hp('the Lord commanded by the hand of Moses', 'moses-hand'),
+              t('the Lord commanded by the hand of Moses'),
               t(' unto the children of Israel in the plains of Moab by Jordan near Jericho.')
             ),
           ],

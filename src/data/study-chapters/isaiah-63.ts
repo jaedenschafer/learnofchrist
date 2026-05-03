@@ -108,7 +108,7 @@ export const ISAIAH_63: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'isa63-father',
+          id: 'isa63-father-2',
           prompt: 'When God seems distant or you do not understand His ways, what enables you to call Him "Father"? How do you hold both the memory of His past faithfulness and your current questions?',
         },
       ],

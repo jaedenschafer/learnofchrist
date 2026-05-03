@@ -518,5 +518,4 @@ export const FIRST_ESDRAS_2: RichChapterContent = {
     ref: '1 Esdras 2 · Study Guide',
   },
 
-  hasHebrew: false,
 };

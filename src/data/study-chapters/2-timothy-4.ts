@@ -48,7 +48,7 @@ export const SECOND_TIMOTHY_4: RichChapterContent = {
           kind: 'commentary',
           id: 'tim4-intro-charge',
           html:
-            'Paul places Timothy&apos;s entire ministry in the ultimate context: before God and Christ, who will judge both living and dead. This is not meant to terrify but to clarify. Timothy&apos;s preaching is not a career or a reputation to manage. It is a sacred trust. He is accountable to the Judge of all.',
+            'Paul places Timothy&apos;s entire ministry in the ultimate context: before God and Christ, who will judge both living and dead. This is not meant to terrify but to clarify. Timothy&apos;s preaching is not a career or a reputation to manage. It is a sacred trust. He is accountable to the Judge of all. [res:sefaria-2tim-4]',
         },
         {
           kind: 'greek',
@@ -230,7 +230,7 @@ export const SECOND_TIMOTHY_4: RichChapterContent = {
           kind: 'commentary',
           id: 'tim4-three-marks',
           html:
-            'Three things Paul can claim: he fought a good fight (the Greek word <em>agōn</em> means struggle, contest—his life has been a sustained, honest effort), he finished his course (the word for "course" is <em>dromos</em>, a running track—his race is complete), he kept the faith (not just intellectually, but lived it, guarded it, remained faithful to it through hardship). These are not proud boasts. They are a finished man&apos;s sober accounting.',
+            'Three things Paul can claim: he fought a good fight (the Greek word <em>agōn</em> means struggle, contest—his life has been a sustained, honest effort), he finished his course (the word for "course" is <em>dromos</em>, a running track—his race is complete), he kept the faith (not just intellectually, but lived it, guarded it, remained faithful to it through hardship). These are not proud boasts. They are a finished man&apos;s sober accounting. [res:intertextual-1corinthians9-2tim4]',
         },
         {
           kind: 'greek',
@@ -252,7 +252,7 @@ export const SECOND_TIMOTHY_4: RichChapterContent = {
           kind: 'commentary',
           id: 'tim4-stephanos',
           html:
-            'The "crown of righteousness" is not a crown awarded for human achievement. It is the gift of the righteous Judge Himself. Paul will wear it. And so will everyone "that love his appearing." The promise is not to the perfect, but to the faithful—those whose eyes are on Christ&apos;s return.',
+            'The "crown of righteousness" is not a crown awarded for human achievement. It is the gift of the righteous Judge Himself. Paul will wear it. And so will everyone "that love his appearing." The promise is not to the perfect, but to the faithful—those whose eyes are on Christ&apos;s return. [res:bibleodyssey-crown-righteousness]',
         },
         {
           kind: 'carry',
@@ -478,7 +478,7 @@ export const SECOND_TIMOTHY_4: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'tim4-standing',
+          id: 'tim4-standing-2',
           prompt: 'When have you felt most abandoned by people? How did you sense the Lord standing with you in that moment?',
         },
       ],
@@ -557,6 +557,33 @@ export const SECOND_TIMOTHY_4: RichChapterContent = {
     ref: '2 Timothy 4 · Study Guide',
     label: 'Share 2 Timothy 4',
   },
+
+  resources: [
+    {
+      id: 'sefaria-2tim-4',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Timothy 4',
+      url: 'https://www.sefaria.org/2%20Timothy.4',
+      description: 'Multiple translations and commentary on the final charge, Paul&apos;s farewell, and the crown of righteousness.',
+    },
+    {
+      id: 'bibleodyssey-crown-righteousness',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Crown of Righteousness and Eternal Reward',
+      url: 'https://www.bibleodyssey.org/dictionary/crown-righteousness/',
+      description: 'Eschatological significance of the crown promised to those who love His appearing and endure faithfully.',
+    },
+    {
+      id: 'intertextual-1corinthians9-2tim4',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: '1 Corinthians 9:24–27 ↔ 2 Timothy 4:7–8',
+      url: 'https://intertextual.bible/text/1-corinthians-9.24/2-timothy-4.7',
+      description: 'Paul&apos;s use of athletic metaphor (fighting the good fight, finishing the race) echoed throughout his letters as central to the Christian life.',
+    },
+  ],
 
   hasHebrew: false,
 };

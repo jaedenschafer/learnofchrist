@@ -55,7 +55,7 @@ export const SAMUEL_1_11: RichChapterContent = {
                 t('Then '),
                 hg('Nahash the Ammonite came up, and encamped against Jabesh-gilead', 'sam11-nahash-siege'),
                 t(': and all the men of Jabesh said unto Nahash, '),
-                hp('Make a covenant with us, and we will serve thee', 'christ-covenant'),
+                t('Make a covenant with us, and we will serve thee'),
                 t('.'),
               ],
             },

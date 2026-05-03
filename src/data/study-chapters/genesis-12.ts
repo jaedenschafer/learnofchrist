@@ -60,7 +60,7 @@ export const GENESIS_12: RichChapterContent = {
               number: 2,
               spans: [
                 t('And I will make of thee '),
-                hp('a great nation', 'christ-seed'),
+                t('a great nation'),
                 t(': and I will '),
                 hg('bless thee', 'c-bless'),
                 t(', and '),
@@ -74,7 +74,7 @@ export const GENESIS_12: RichChapterContent = {
               number: 3,
               spans: [
                 t('And '),
-                hp('I will bless them that bless thee, and curse him that curseth thee', 'c-covenant-sign'),
+                t('I will bless them that bless thee, and curse him that curseth thee'),
                 t(': and in thee shall '),
                 hp('all families of the earth be blessed', 'christ-nations'),
                 t('.'),
@@ -218,7 +218,7 @@ export const GENESIS_12: RichChapterContent = {
               number: 7,
               spans: [
                 t('And the LORD appeared unto Abram, and said, '),
-                hp('Unto thy seed will I give this land', 'c-land-promise'),
+                t('Unto thy seed will I give this land'),
                 t(': and there builded he an '),
                 hg('altar unto the LORD', 'c-altar-1'),
                 t(', who appeared unto him.'),

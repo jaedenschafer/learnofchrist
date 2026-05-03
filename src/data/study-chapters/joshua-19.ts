@@ -253,7 +253,7 @@ export const JOSHUA_19: RichChapterContent = {
               number: 24,
               spans: [
                 t('And the fifth lot came out for the tribe of the children of '),
-                hy('Asher', 'hebrew-asher'),
+                t('Asher'),
                 t(' according to their families.'),
               ],
             },

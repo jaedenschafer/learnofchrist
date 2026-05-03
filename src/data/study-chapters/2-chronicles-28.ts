@@ -47,7 +47,7 @@ export const CHRONICLES_2_28: RichChapterContent = {
               number: 1,
               spans: [
                 t('Ahaz was twenty years old when he began to reign, and he reigned sixteen years in Jerusalem: but he '),
-                hg('did not that which was right', '28-1-not-right'),
+                t('did not that which was right'),
                 t(' in the sight of the Lord, like David his father:'),
               ],
             },
@@ -61,7 +61,7 @@ export const CHRONICLES_2_28: RichChapterContent = {
               number: 3,
               spans: [
                 t('Moreover he burnt incense in the valley of the son of Hinnom, and '),
-                hp('burnt his children in the fire', '28-3-children-fire'),
+                t('burnt his children in the fire'),
                 t(', after the abominations of the heathen whom the Lord had cast out before the children of Israel:'),
               ],
             },
@@ -132,7 +132,7 @@ export const CHRONICLES_2_28: RichChapterContent = {
               number: 6,
               spans: [
                 t('For Pekah the son of Remaliah slew in Judah '),
-                hg('an hundred and twenty thousand', '28-6-120k'),
+                t('an hundred and twenty thousand'),
                 t(' in one day, which were all valiant men; because they had forsaken the Lord God of their fathers.'),
               ],
             },
@@ -197,7 +197,7 @@ export const CHRONICLES_2_28: RichChapterContent = {
               number: 9,
               spans: [
                 t('But a prophet of the Lord was there, whose name was Oded: and he went out before the host that came to Samaria, and said unto them, Behold, because the Lord God of your fathers was wroth with Judah, he hath delivered them into your hand, and ye have '),
-                hg('slain them in a rage that reacheth up unto heaven', '28-9-rage'),
+                t('slain them in a rage that reacheth up unto heaven'),
                 t('.'),
               ],
             },
@@ -205,7 +205,7 @@ export const CHRONICLES_2_28: RichChapterContent = {
               number: 10,
               spans: [
                 t('And now ye purpose to keep under the children of Judah and Jerusalem for bondmen and bondwomen unto you: but '),
-                hp('are there not with you, even with you, sins against the Lord your God', '28-10-your-sins'),
+                t('are there not with you, even with you, sins against the Lord your God'),
                 t('?'),
               ],
             },
@@ -213,7 +213,7 @@ export const CHRONICLES_2_28: RichChapterContent = {
               number: 11,
               spans: [
                 t('Now hear me therefore, and '),
-                hp('deliver the captives again', '28-11-deliver'),
+                t('deliver the captives again'),
                 t(', which ye have taken captive of your brethren: for the fierce wrath of the Lord is upon you.'),
               ],
             },
@@ -411,7 +411,7 @@ export const CHRONICLES_2_28: RichChapterContent = {
               number: 22,
               spans: [
                 t('And in the time of his distress did he '),
-                hg('trespass yet more', '28-22-trespass-more'),
+                t('trespass yet more'),
                 t(' against the Lord: this is that king Ahaz.'),
               ],
             },

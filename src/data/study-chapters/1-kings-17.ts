@@ -39,7 +39,7 @@ export const KINGS_1_17: RichChapterContent = {
               number: 1,
               spans: [
                 t('And '),
-                hy('Elijah the Tishbite', 'k1-elijah-name'),
+                t('Elijah the Tishbite'),
                 t(', who was of the inhabitants of Gilead, said unto Ahab, As the Lord God of Israel liveth, before whom I stand, there shall not be dew nor rain these years, but according to '),
                 hp('my word', 'k1-my-word'),
                 t('.'),
@@ -252,7 +252,7 @@ export const KINGS_1_17: RichChapterContent = {
               number: 24,
               spans: [
                 t('And the woman said to Elijah, Now by this I know that thou art a man of God, and that the '),
-                hp('word of the Lord in thy mouth is truth', 'k1-word-is-truth'),
+                t('word of the Lord in thy mouth is truth'),
                 t('.'),
               ],
             },

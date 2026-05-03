@@ -189,7 +189,7 @@ export const FIRST_CORINTHIANS_8: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'cor8-one-god',
+          id: 'cor8-one-god-2',
           prompt:
             'What do you know intellectually to be true that you have not yet felt in your bones? And who around you may still be where you used to be?',
         },
@@ -449,7 +449,7 @@ export const FIRST_CORINTHIANS_8: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'cor8-sin-against-christ',
+          id: 'cor8-sin-against-christ-2',
           prompt:
             'How does it change your thinking to realize that when you wound the weak, you wound Christ? What might look different in your choices if you truly believed that?',
         },

@@ -157,7 +157,7 @@ export const JOHN_14: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'john14-peace',
+          id: 'john14-peace-2',
           prompt: 'What is the difference between the peace the world offers and the peace Jesus gives? Where do you need His peace most?',
         },
       ],

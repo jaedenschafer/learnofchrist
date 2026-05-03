@@ -626,7 +626,7 @@ export const FIRST_CORINTHIANS_4: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'cor4-21-rod',
+          id: 'cor4-21-rod-2',
           prompt: 'When someone you love or respect sets a boundary with you, how do you respond? Would you rather be corrected in love or left to your own pride?',
         },
       ],

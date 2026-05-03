@@ -32,7 +32,7 @@ export const JUDGES_16: RichChapterContent = {
               number: 1,
               spans: [
                 t('Then went Samson to '),
-                hy('Gaza', 'judges-gaza'),
+                t('Gaza'),
                 t(', and saw there a harlot, and '),
                 hg('went in unto her', 'j16-harlot'),
                 t('.'),
@@ -54,7 +54,7 @@ export const JUDGES_16: RichChapterContent = {
               number: 2,
               spans: [
                 t('And it was told the Gazites, '),
-                hp('Samson is come hither', 'j16-trapped'),
+                t('Samson is come hither'),
                 t('. And they '),
                 hg('compassed him in', 'j16-wait'),
                 t(', and laid wait for him all night in the gate of the city: and were quiet all the night, saying, In the morning, when it is day, we shall kill him.'),
@@ -125,7 +125,7 @@ export const JUDGES_16: RichChapterContent = {
               number: 4,
               spans: [
                 t('And it came to pass afterward, that he loved a woman in the valley of '),
-                hy('Sorek', 'j16-sorek'),
+                t('Sorek'),
                 t(', whose name was '),
                 hy('Delilah', 'hebrew-delilah'),
                 t('.'),
@@ -445,7 +445,7 @@ export const JUDGES_16: RichChapterContent = {
               number: 20,
               spans: [
                 t('And she said, The Philistines be upon thee, Samson. And he awoke out of his sleep, and said, I will go out as at other times before, and '),
-                hy('shake myself', 'j16-shake'),
+                t('shake myself'),
                 t('. '),
                 hp('And he wist not that the Lord was departed from him', 'j16-lord-departed'),
                 t('.'),

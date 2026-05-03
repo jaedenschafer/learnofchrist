@@ -53,7 +53,7 @@ export const DEUTERONOMY_26: RichChapterContent = {
               number: 2,
               spans: [
                 t('And thou shalt go unto the priest that shall be in those days, and say unto him, '),
-                hp('I profess this day unto the Lord thy God, that I am come unto the country which the Lord sware unto our fathers for to give us', 'christ-confession'),
+                t('I profess this day unto the Lord thy God, that I am come unto the country which the Lord sware unto our fathers for to give us'),
                 t('.'),
               ],
             },
@@ -101,7 +101,7 @@ export const DEUTERONOMY_26: RichChapterContent = {
               number: 5,
               spans: [
                 t('And thou shalt speak and say before the Lord thy God, '),
-                hp('A Syrian ready to perish was my father', 'amitheology'),
+                t('A Syrian ready to perish was my father'),
                 t('; and he went down into Egypt, and sojourned there with a few, and became there a nation, great, mighty, and populous:'),
               ],
             },
@@ -187,7 +187,7 @@ export const DEUTERONOMY_26: RichChapterContent = {
               number: 10,
               spans: [
                 t('And now, behold, '),
-                hp('I have brought the firstfruits of the land, which thou, O Lord, hast given me', 'firstfruits-return'),
+                t('I have brought the firstfruits of the land, which thou, O Lord, hast given me'),
                 t('.'),
               ],
             },
@@ -220,7 +220,7 @@ export const DEUTERONOMY_26: RichChapterContent = {
               number: 11,
               spans: [
                 t('And thou shalt set it before the Lord thy God, and '),
-                hp('worship before the Lord thy God', 'worship-response'),
+                t('worship before the Lord thy God'),
                 t(': And thou shalt rejoice in every good thing which the Lord thy God hath given unto thee, and unto thy house, thou, and the Levite, and the stranger that is among you.'),
               ],
             },
@@ -283,7 +283,7 @@ export const DEUTERONOMY_26: RichChapterContent = {
               number: 13,
               spans: [
                 t('Then thou shalt say before the Lord thy God, '),
-                hp('I have brought away the hallowed things out of mine house, and also have given them unto the Levite, and unto the stranger, to the fatherless, and to the widow, according to all thy commandments which thou hast commanded me', 'obey-declaration'),
+                t('I have brought away the hallowed things out of mine house, and also have given them unto the Levite, and unto the stranger, to the fatherless, and to the widow, according to all thy commandments which thou hast commanded me'),
                 t(': I have not transgressed thy commandments, neither have I forgotten them:'),
               ],
             },
@@ -390,7 +390,7 @@ export const DEUTERONOMY_26: RichChapterContent = {
               number: 19,
               spans: [
                 t('And to make thee '),
-                hy('high above all nations', 'high-nations'),
+                t('high above all nations'),
                 t(' in praise, and in name, and in honour; and that thou mayest be an holy people unto the Lord thy God, as he hath spoken.'),
               ],
             },

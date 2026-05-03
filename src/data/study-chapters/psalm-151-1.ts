@@ -420,7 +420,7 @@ export const PSALM_151_1: RichChapterContent = {
         },
         {
           kind: 'hebrew',
-          id: 'ps151-herpah',
+          id: 'ps151-herpah-2',
           title: 'Herpah — Reproach, Shame, Mockery',
           script: 'חֶרְפָּה',
           translit: '<strong>herpah</strong> · reproach, shame, scorn; what clings to the defeated',

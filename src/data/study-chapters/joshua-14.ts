@@ -189,7 +189,7 @@ export const JOSHUA_14: RichChapterContent = {
               number: 9,
               spans: [
                 t('And Moses sware on that day, saying, '),
-                hp('Surely the land whereon thy feet have trodden shall be thine inheritance', 'christ-tread'),
+                t('Surely the land whereon thy feet have trodden shall be thine inheritance'),
                 t(', and thy children&apos;s for ever, because thou hast wholly followed the Lord my God.'),
               ],
             },

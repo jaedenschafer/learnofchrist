@@ -110,7 +110,7 @@ export const CHRONICLES_2_32: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'more-with-us',
+          id: 'more-with-us-2',
           prompt: 'When have you faced a situation that seemed to have impossible odds? What gave you courage in that moment? How did you speak to others about what you believed was happening?',
         },
       ],
@@ -165,9 +165,9 @@ export const CHRONICLES_2_32: RichChapterContent = {
               number: 21,
               spans: [
                 t('And the Lord sent an '),
-                hp('angel', 'angel-malak'),
+                t('angel'),
                 t(', which cut off all the '),
-                hg('mighty men of valour, the leaders and captains', 'mighty-men-destroyed'),
+                t('mighty men of valour, the leaders and captains'),
                 t(', in the camp of the king of Assyria. So he returned with shame of face to his own land. And when he was come into the house of his god, they that came forth of his own bowels slew him there with the sword.'),
               ],
             },
@@ -272,7 +272,7 @@ export const CHRONICLES_2_32: RichChapterContent = {
               number: 31,
               spans: [
                 t('Howbeit in the business of the ambassadors of the princes of Babylon, who sent unto him to enquire of the wonder that was done in the land, '),
-                hp('God left him, to try him', 'god-left-to-try'),
+                t('God left him, to try him'),
                 t(', that he might know all that was in his heart.'),
               ],
             },

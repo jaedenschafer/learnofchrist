@@ -39,7 +39,7 @@ export const DEUTERONOMY_7: RichChapterContent = {
               number: 1,
               spans: [
                 t('When the Lord thy God shall bring thee into the land whither thou goest to possess it, and hath cast out many nations before thee, the '),
-                hy('Hittites, and the Girgashites, and the Amorites, and the Canaanites, and the Perizzites, and the Hivites, and the Jebusites', 'seven-nations'),
+                t('Hittites, and the Girgashites, and the Amorites, and the Canaanites, and the Perizzites, and the Hivites, and the Jebusites'),
                 t(', seven nations greater and mightier than thou;'),
               ],
             },
@@ -293,7 +293,7 @@ export const DEUTERONOMY_7: RichChapterContent = {
               number: 13,
               spans: [
                 t('And he will '),
-                hg('love thee, and bless thee, and multiply thee', 'multiplication'),
+                t('love thee, and bless thee, and multiply thee'),
                 t(': he will also bless the fruit of thy womb, and the fruit of thy land, thy corn, and thy wine, and thine oil, the increase of thy kine, and the flocks of thy sheep, in the land which he sware unto thy fathers to give thee.'),
               ],
             },
@@ -382,7 +382,7 @@ export const DEUTERONOMY_7: RichChapterContent = {
               number: 19,
               spans: [
                 t('The great temptations which thine eyes saw, and the '),
-                hy('signs, and the wonders, and the mighty hand, and the stretched out arm', 'mighty-hand'),
+                t('signs, and the wonders, and the mighty hand, and the stretched out arm'),
                 t(', whereby the Lord thy God brought thee out: so shall the Lord thy God do unto all the people of whom thou art afraid.'),
               ],
             },

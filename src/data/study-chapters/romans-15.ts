@@ -96,7 +96,7 @@ export const ROMANS_15: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'rom15-strong',
+          id: 'rom15-strong-2',
           prompt:
             'Who in your circle is weak in something you are strong in? How could you use that strength this week to build them up, not to show off your freedom?',
         },
@@ -729,7 +729,7 @@ export const ROMANS_15: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'rom15-collection',
+          id: 'rom15-collection-2',
           prompt:
             'What would it look like for you to share not just your faith or your words, but your actual resources, with believers whose culture or background differs from yours? What holds you back?',
         },
@@ -843,7 +843,7 @@ export const ROMANS_15: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'rom15-peace',
+          id: 'rom15-peace-2',
           prompt:
             'Who do you need to pray for this week as if their life depended on it? And to whom do you need to offer the peace of God—not as a platitude, but as a concrete decision to lay down your grievance?',
         },

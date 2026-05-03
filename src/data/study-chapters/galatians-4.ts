@@ -178,7 +178,7 @@ export const GALATIANS_4: RichChapterContent = {
         },
         {
           kind: 'christ',
-          id: 'greek-abba',
+          id: 'greek-abba-2',
           title: 'Christ Connection — "Abba" Echoes Gethsemane',
           html:
             'Mark 14:36: Jesus prayed in the garden, &ldquo;Abba, Father, all things are possible unto thee; take away this cup from me: nevertheless not what I will, but what thou wilt.&rdquo; Jesus cried Abba to His Father in His darkest hour. Now the Spirit gives you the same cry. You are not alone. You have the same access to God&apos;s presence that Christ Himself enjoyed. In your Gethsemane, you too can cry Abba.',
@@ -342,7 +342,7 @@ export const GALATIANS_4: RichChapterContent = {
         },
         {
           kind: 'christ',
-          id: 'greek-odinao',
+          id: 'greek-odinao-2',
           title: 'Christ Connection — "Christ Be Formed in You"',
           html:
             '2 Corinthians 3:18: &ldquo;But we all, with open face beholding as in a glass the glory of the Lord, are changed into the same image from glory to glory, even as by the Spirit of the Lord.&rdquo; Christ is not just your savior; He is being formed inside you, reshaping you from the inside out. This is not a one-time event but a lifelong birth labor, and the Spirit Himself is the midwife.',
@@ -444,7 +444,7 @@ export const GALATIANS_4: RichChapterContent = {
         },
         {
           kind: 'christ',
-          id: 'c-jerusalem-above',
+          id: 'c-jerusalem-above-2',
           title: 'Christ Connection — "Jerusalem Above"',
           html:
             'Revelation 21:2–3: &ldquo;And I John saw the holy city, new Jerusalem, coming down from God out of heaven… And I heard a great voice out of heaven saying, Behold, the tabernacle of God is with men, and he will dwell with them, and they shall be his people, and God himself shall be with them, and be their God.&rdquo; Christ is the One who makes the heavenly city possible. He is the Lamb in the midst of the throne, and His presence makes it home.',

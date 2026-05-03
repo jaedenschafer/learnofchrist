@@ -86,7 +86,7 @@ export const ISAIAH_43: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'isaiah43-precious',
+          id: 'isaiah43-precious-2',
           prompt: 'Do you truly believe that you are precious in God&apos;s sight? That God honors you? That God loves you? What waters or fires are you facing that require the assurance of God&apos;s presence? How can you let His presence walk with you through them?',
         },
       ],
@@ -152,7 +152,7 @@ export const ISAIAH_43: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'isaiah43-new-thing',
+          id: 'isaiah43-new-thing-2',
           prompt: 'What old thing are you clinging to—a past failure, a past shame, a past disappointment? What new thing might God be inviting you to see or experience? How does the promise that God blots out your sins for His own sake change your sense of possibility?',
         },
       ],

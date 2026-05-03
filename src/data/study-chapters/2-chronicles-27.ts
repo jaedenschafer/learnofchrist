@@ -93,7 +93,7 @@ export const CHRONICLES_2_27: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'jotham-not-temple',
+          id: 'jotham-not-temple-2',
           prompt:
             'Jotham becomes mighty by learning what he must not do. What boundary or limitation in your life is actually teaching you how to prosper, not holding you back?',
         },
@@ -133,7 +133,7 @@ export const CHRONICLES_2_27: RichChapterContent = {
               number: 6,
               spans: [
                 t('So Jotham became '),
-                hp('mighty, because he prepared his ways before the Lord his God', 'jotham-prepared-ways'),
+                t('mighty, because he prepared his ways before the Lord his God'),
                 t('.'),
               ],
             },

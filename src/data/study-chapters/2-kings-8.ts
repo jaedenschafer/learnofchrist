@@ -238,7 +238,7 @@ export const KINGS_2_8: RichChapterContent = {
                 t('Yet the Lord would not destroy Judah for '),
                 hp('David his servant&apos;s sake', 'lamp-preserved'),
                 t(', as he had said he would give him alway a '),
-                hy('light', 'light-meaning'),
+                t('light'),
                 t('.'),
               ],
             },

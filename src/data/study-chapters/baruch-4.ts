@@ -435,7 +435,7 @@ export const BARUCH_4: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'bar4-wood-healed',
+          id: 'bar4-wood-healed-2',
           prompt:
             'What part of you feels broken, withered? Can you receive the mother&apos;s word that God knows your shame and has visited you with mercy anyway?',
         },
@@ -557,7 +557,7 @@ export const BARUCH_4: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'bar4-at-rest',
+          id: 'bar4-at-rest-2',
           prompt:
             'What would it look like for you to "make haste" toward God, not from panic but from the knowledge that He is already at rest, already certain of your salvation?',
         },

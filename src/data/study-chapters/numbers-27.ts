@@ -253,7 +253,7 @@ export const NUMBERS_27: RichChapterContent = {
               t(', and which may lead them out, and which may '),
               hp('bring them in', 'christ-shepherd'),
               t('; that the congregation of the Lord be not '),
-              hy('as sheep which have no shepherd', 'sheep-no-shepherd'),
+              t('as sheep which have no shepherd'),
               t('.')
             ),
           ],

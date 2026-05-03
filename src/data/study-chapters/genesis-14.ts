@@ -282,7 +282,7 @@ export const GENESIS_14: RichChapterContent = {
                 t('And blessed be the '),
                 hp('most high God', 'christ-melchizedek'),
                 t(', which hath delivered thine enemies into thy hand. And he gave him '),
-                hy('tithes', 'hebrew-maasar'),
+                t('tithes'),
                 t(' of all.'),
               ],
             },

@@ -474,7 +474,7 @@ export const EPHESIANS_6: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'eph6-sword',
+          id: 'eph6-sword-2',
           prompt: 'What Scripture has been most powerful in your spiritual battles? How can you make yourself more ready to wield the word of God when you need it?',
         },
       ],

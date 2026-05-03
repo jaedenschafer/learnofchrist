@@ -313,7 +313,7 @@ export const NUMBERS_30: RichChapterContent = {
             ),
             verse(15,
               t('But if he shall any ways make them void after he hath heard them; then '),
-              hp('he shall bear her iniquity', 'bear-iniquity'),
+              t('he shall bear her iniquity'),
               t('.')
             ),
           ],

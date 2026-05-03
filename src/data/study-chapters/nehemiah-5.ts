@@ -214,7 +214,7 @@ export const NEHEMIAH_5: RichChapterContent = {
               number: 13,
               spans: [
                 t('Also I shook my lap, and said, So God shake out every man from his house, and from his labour, that performeth not this promise, even thus be he shaken out, and emptied. And all the congregation said, '),
-                hg('Amen', 'amen-affirmation'),
+                t('Amen'),
                 t(', and praised the Lord. And the people did according to this promise.'),
               ],
             },

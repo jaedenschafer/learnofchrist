@@ -135,7 +135,7 @@ export const MATTHEW_7: RichChapterContent = {
         },
         {
           kind: 'christ',
-          id: 'matt7-christ-foundation',
+          id: 'matt7-christ-foundation-2',
           title: 'Christ Connection — Christ the Foundation',
           html:
             'The Sermon on the Mount closes with Jesus Himself as the foundation. He is not merely a teacher to be understood or a moral example to be emulated. He is the rock on which life is built. To hear His words and do them is to build upon the unshakeable foundation. Every other foundation—wealth, reputation, knowledge, power—is sand. When the storms of life come, only the foundation of Jesus holds.',

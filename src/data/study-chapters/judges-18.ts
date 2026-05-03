@@ -47,7 +47,7 @@ export const JUDGES_18: RichChapterContent = {
               number: 2,
               spans: [
                 t('And the children of Dan sent of their family '),
-                hg('five men', 'dan-spies'),
+                t('five men'),
                 t(' of their coasts, men of valour, from Zorah and from Eshtaol, to spy out the land, and to search it; and they said unto them, Go, search the land: who when they came to the mount Ephraim, to the house of Micah, they lodged there.'),
               ],
             },
@@ -636,7 +636,7 @@ export const JUDGES_18: RichChapterContent = {
               number: 25,
               spans: [
                 t('And the children of Dan said unto him, '),
-                hp('Let not thy voice be heard among us', 'christ-power-silences'),
+                t('Let not thy voice be heard among us'),
                 t(', lest '),
                 hg('angry fellows run upon thee, and thou lose thy life, with the lives of thy household.', 'c-threat'),
                 t(''),

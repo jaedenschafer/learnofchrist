@@ -46,7 +46,7 @@ export const GENESIS_50: RichChapterContent = {
               number: 1,
               spans: [
                 t('And '),
-                hp('Joseph fell upon his father\'s face, and wept upon him, and kissed him', 'christ-weeping'),
+                t('Joseph fell upon his father\'s face, and wept upon him, and kissed him'),
                 t('.'),
               ],
             },
@@ -75,7 +75,7 @@ export const GENESIS_50: RichChapterContent = {
               number: 5,
               spans: [
                 t('My father made me swear, saying, Lo, I die: in my grave which I have digged for me in the land of Canaan, there shalt thou bury me. Now therefore let me go up, I pray thee, and '),
-                hy('bury my father', 'ref-bury-father'),
+                t('bury my father'),
                 t(', and I will come again.'),
               ],
             },
@@ -256,7 +256,7 @@ export const GENESIS_50: RichChapterContent = {
               number: 19,
               spans: [
                 t('And Joseph said unto them, '),
-                hp('Fear not', 'christ-comfort'),
+                t('Fear not'),
                 t(': for am I in the place of God?'),
               ],
             },
@@ -356,7 +356,7 @@ export const GENESIS_50: RichChapterContent = {
               number: 25,
               spans: [
                 t('And Joseph took an oath of the children of Israel, saying, God will surely visit you, and ye shall carry up my '),
-                hy('bones from hence', 'hebrew-bones'),
+                t('bones from hence'),
                 t('.'),
               ],
             },

@@ -204,9 +204,9 @@ export const NUMBERS_21: RichChapterContent = {
               t('And Moses made a '),
               hy('serpent of brass', 'nachash-nechoshet'),
               t(', and put it upon a pole, and it came to pass, that if a serpent had bitten any man, when he '),
-              hp('beheld the serpent of brass', 'look-live-action'),
+              t('beheld the serpent of brass'),
               t(', he '),
-              hp('lived', 'life-received'),
+              t('lived'),
               t('.')
             ),
           ],

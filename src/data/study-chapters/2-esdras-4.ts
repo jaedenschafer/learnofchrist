@@ -441,5 +441,4 @@ export const SECOND_ESDRAS_4: RichChapterContent = {
     },
   ],
 
-  hasHebrew: true,
 };

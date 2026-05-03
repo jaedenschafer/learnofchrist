@@ -300,7 +300,7 @@ export const KINGS_1_9: RichChapterContent = {
               number: 21,
               spans: [
                 t('Their children that were left after them in the land, whom the children of Israel also were not able utterly to destroy, upon those did Solomon levy a tribute of '),
-                hg('bondservice', 'hebrew-mas'),
+                t('bondservice'),
                 t('; and so they are unto this day.'),
               ],
             },

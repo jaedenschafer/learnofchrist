@@ -64,7 +64,7 @@ export const DEUTERONOMY_20: RichChapterContent = {
               number: 4,
               spans: [
                 t('For the Lord your God is he that goeth with you, to '),
-                hp('fight for you against your enemies, to save you', 'christ-savior'),
+                t('fight for you against your enemies, to save you'),
                 t('.'),
               ],
             },
@@ -277,7 +277,7 @@ export const DEUTERONOMY_20: RichChapterContent = {
               number: 17,
               spans: [
                 t('But thou shalt '),
-                hy('utterly destroy them, namely, the Hittites, and the Amorites, the Canaanites, and the Perizzites, and the Hivites, and the Jebusites', 'seven-nations'),
+                t('utterly destroy them, namely, the Hittites, and the Amorites, the Canaanites, and the Perizzites, and the Hivites, and the Jebusites'),
                 t('; as the Lord thy God hath commanded thee:'),
               ],
             },

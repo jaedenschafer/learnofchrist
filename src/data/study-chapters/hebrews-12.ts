@@ -176,7 +176,7 @@ export const HEBREWS_12: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'heb12-look',
+          id: 'heb12-look-2',
           prompt:
             'What does it mean for you personally to &ldquo;look unto Jesus&rdquo? When you look away, what do you tend to look at instead? When will you look back?',
         },
@@ -671,7 +671,7 @@ export const HEBREWS_12: RichChapterContent = {
         },
         {
           kind: 'greek',
-          id: 'heb12-asaleutos',
+          id: 'heb12-asaleutos-2',
           title: 'Asaleutos — &ldquo;Cannot Be Moved&rdquo;',
           script: 'ἀσάλευτος',
           translit: '<strong>asaleutos</strong> · immovable, unshakeable, unmoved by external forces',

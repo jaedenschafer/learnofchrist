@@ -67,7 +67,7 @@ export const EZRA_4: RichChapterContent = {
               number: 3,
               spans: [
                 t('But Zerubbabel, and Jeshua, and the rest of the chief of the fathers of Israel, said unto them, '),
-                hp('Ye have nothing to do with us to build an house unto our God', 'ezra4-refusal'),
+                t('Ye have nothing to do with us to build an house unto our God'),
                 t('; but we ourselves together will build unto the Lord God of Israel, as king Cyrus the king of Persia hath commanded us.'),
               ],
             },

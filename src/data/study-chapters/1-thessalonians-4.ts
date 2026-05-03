@@ -233,7 +233,7 @@ export const FIRST_THESSALONIANS_4: RichChapterContent = {
         },
         {
           kind: 'greek',
-          id: 'v9-philadelphia',
+          id: 'v9-philadelphia-2',
           title: 'Philadelphia — &ldquo;Brotherly Love&rdquo;',
           script: 'φιλαδέλφια',
           translit: '<strong>philadelphia</strong> · love of brothers; familial affection; love among believers',
@@ -496,7 +496,7 @@ export const FIRST_THESSALONIANS_4: RichChapterContent = {
         },
         {
           kind: 'greek',
-          id: 'v17-harpazo',
+          id: 'v17-harpazo-2',
           title: 'Harpazō — &ldquo;Caught Up&rdquo;',
           script: 'ἁρπάζω',
           translit: '<strong>harpazō</strong> · to seize; to snatch away; to transport suddenly; to catch up with force',

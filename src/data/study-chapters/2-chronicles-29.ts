@@ -50,7 +50,7 @@ export const CHRONICLES_2_29: RichChapterContent = {
               number: 5,
               spans: [
                 t('And said unto them, Hear me, ye Levites, '),
-                hg('sanctify now yourselves', 'c29-sanctify'),
+                t('sanctify now yourselves'),
                 t(', sanctify the house of the Lord God of your fathers, and carry forth the filthiness out of the holy place.'),
               ],
             },
@@ -62,7 +62,7 @@ export const CHRONICLES_2_29: RichChapterContent = {
               number: 10,
               spans: [
                 t('Now it is in mine heart to '),
-                hp('make a covenant with the Lord God of Israel', 'c29-covenant'),
+                t('make a covenant with the Lord God of Israel'),
                 t(', that his fierce wrath may turn away from us.'),
               ],
             },
@@ -126,7 +126,7 @@ export const CHRONICLES_2_29: RichChapterContent = {
               number: 15,
               spans: [
                 t('And they gathered their brethren, and sanctified themselves, and came, according to the commandment of the king, by the words of the Lord, to '),
-                hg('cleanse the house of the Lord', 'c29-cleanse'),
+                t('cleanse the house of the Lord'),
                 t('.'),
               ],
             },
@@ -203,7 +203,7 @@ export const CHRONICLES_2_29: RichChapterContent = {
               number: 26,
               spans: [
                 t('And the Levites stood with the instruments of David, and the priests with the trumpets. '),
-                hp('And when the burnt offering began, the song of the Lord began also with the trumpets, and with the instruments ordained by David', 'c29-song-lord'),
+                t('And when the burnt offering began, the song of the Lord began also with the trumpets, and with the instruments ordained by David'),
                 t(': and all the congregation worshipped, the singers sang, and the trumpeters sounded: all this continued until the burnt offering was finished.'),
               ],
             },
@@ -283,7 +283,7 @@ export const CHRONICLES_2_29: RichChapterContent = {
               number: 35,
               spans: [
                 t('And also the burnt offerings were in abundance, with the fat of the peace offerings, and the drink offerings for '),
-                hp('every burnt offering', 'c29-abundance'),
+                t('every burnt offering'),
                 t('. So the service of the house of the Lord was set in order.'),
               ],
             },

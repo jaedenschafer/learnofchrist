@@ -302,7 +302,7 @@ export const CHRONICLES_2_23: RichChapterContent = {
               number: 16,
               spans: [
                 t('And Jehoiada made a covenant between him, and all the people, and the king, that they should be the '),
-                hg('Lord&apos;s people', 'lords-people'),
+                t('Lord&apos;s people'),
                 t('.'),
               ],
             },

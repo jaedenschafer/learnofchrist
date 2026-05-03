@@ -122,7 +122,7 @@ export const SAMUEL_1_14: RichChapterContent = {
                 t('And his armorbearer said unto him, Do all that is in thine heart: '),
                 hp('turn thee', 'c-turn'),
                 t('; behold, '),
-                hp('I am with thee according to thy heart', 'c-with-thee'),
+                t('I am with thee according to thy heart'),
                 t('.'),
               ],
             },

@@ -55,13 +55,13 @@ export const FIRST_TIMOTHY_4: RichChapterContent = {
           kind: 'commentary',
           id: 'latter-times-apostasia',
           html:
-            'Paul speaks of "the latter times"—the age between the first and second advents of Christ. In this period, true and false prophets coexist. The Spirit forewarns Timothy: apostasy will come. But forewarned is forearmed. The false teachers in Ephesus are a sign of these latter times.',
+            'Paul speaks of "the latter times"—the age between the first and second advents of Christ. In this period, true and false prophets coexist. The Spirit forewarns Timothy: apostasy will come. But forewarned is forearmed. The false teachers in Ephesus are a sign of these latter times. [res:sefaria-1tim-4]',
         },
         {
           kind: 'commentary',
           id: 'apostasia',
           html:
-            'The Greek word is <em>apostasia</em>, "standing away," a deliberate turning from the truth. This is not a slow drift or gradual cooling. It is apostasy—a conscious departure from the faith once delivered. Paul uses the language of defection, as if the church were a garrison and some soldiers are deserting the post. The Spirit speaks not cautiously but <em>expressly</em>—with direct, unambiguous clarity.',
+            'The Greek word is <em>apostasia</em>, "standing away," a deliberate turning from the truth. This is not a slow drift or gradual cooling. It is apostasy—a conscious departure from the faith once delivered. Paul uses the language of defection, as if the church were a garrison and some soldiers are deserting the post. The Spirit speaks not cautiously but <em>expressly</em>—with direct, unambiguous clarity. [res:bibleodyssey-false-doctrine]',
         },
         {
           kind: 'greek',
@@ -197,7 +197,7 @@ export const FIRST_TIMOTHY_4: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'creature-good',
+          id: 'creature-good-2',
           prompt: 'What is one creature, one simple good thing (food, rest, a relationship, your body), that you could receive with more conscious thanksgiving? What might change if you did?',
         },
         {
@@ -682,7 +682,7 @@ export const FIRST_TIMOTHY_4: RichChapterContent = {
           kind: 'commentary',
           id: 'save-thyself',
           html:
-            'The promise is remarkable: "thou shalt both save thyself, and them that hear thee." This is not works-righteousness. It is a statement of consequence. As you guard your own soul and proclaim sound doctrine, you participate in the redemption of those under your care. The stakes are high. Your faithfulness matters eternally.',
+            'The promise is remarkable: "thou shalt both save thyself, and them that hear thee." This is not works-righteousness. It is a statement of consequence. As you guard your own soul and proclaim sound doctrine, you participate in the redemption of those under your care. The stakes are high. Your faithfulness matters eternally. [res:intertextual-joshua1-1tim4]',
         },
         {
           kind: 'christ',
@@ -715,6 +715,33 @@ export const FIRST_TIMOTHY_4: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: '1 Timothy 4 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-1tim-4',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '1 Timothy 4',
+      url: 'https://www.sefaria.org/1%20Timothy.4',
+      description: 'Multiple translations and commentary on godliness, false teaching, and Timothy&apos;s charge to persevere.',
+    },
+    {
+      id: 'bibleodyssey-false-doctrine',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'False Teaching in Early Christianity',
+      url: 'https://www.bibleodyssey.org/dictionary/false-teaching/',
+      description: 'Historical overview of the gnostic and ascetic errors Paul addresses in the pastoral epistles.',
+    },
+    {
+      id: 'intertextual-joshua1-1tim4',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Joshua 1:8 ↔ 1 Timothy 4:15',
+      url: 'https://intertextual.bible/text/joshua-1.8/1-timothy-4.15',
+      description: 'Side-by-side meditation on the theme of meditating on divine truth to ensure success and perseverance.',
+    },
+  ],
 
   hasHebrew: false,
 };

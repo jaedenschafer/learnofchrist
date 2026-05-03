@@ -62,12 +62,12 @@ export default function AppDashboard() {
 
   return (
     <section className="loc-dash" aria-label="Today">
-      {/* Soft pale morning light — bright enough that white text on the
-          frosted cards stays legible, atmospheric enough that the
-          backdrop carries the meditative tone. */}
+      {/* Sunrise mountain ridge — the kind of light you wake up to for
+          morning prayer. Light enough that the cards' white frost stays
+          translucent, dim enough that white text reads cleanly. */}
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
-        src="https://images.unsplash.com/photo-1505672678657-cc7037095e60?auto=format&fit=crop&w=2400&q=85"
+        src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=2400&q=85"
         alt=""
         className="loc-dash__bg"
         loading="lazy"

@@ -94,7 +94,7 @@ export const GENESIS_21: RichChapterContent = {
               number: 8,
               spans: [
                 t('And the child grew, and was '),
-                hg('weaned', 'c-weaned'),
+                t('weaned'),
                 t(': and Abraham made a great feast the same day that Isaac was weaned.'),
               ],
             },

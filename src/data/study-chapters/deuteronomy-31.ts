@@ -49,7 +49,7 @@ export const DEUTERONOMY_31: RichChapterContent = {
               number: 3,
               spans: [
                 t('But the Lord thy God, he will go over before thee, and '),
-                hg('he will destroy these nations', 'deu-go-before'),
+                t('he will destroy these nations'),
                 t(' before thee, and thou shalt possess them: and '),
                 hp('Joshua, he shall go over before thee', 'christ-joshua'),
                 t(', as the Lord hath said.'),
@@ -125,9 +125,9 @@ export const DEUTERONOMY_31: RichChapterContent = {
               number: 6,
               spans: [
                 t('Be strong and of a good courage, fear not, '),
-                hy('nor be afraid of them', 'deu-fear-not'),
+                t('nor be afraid of them'),
                 t(': for the Lord thy God, '),
-                hp('he it is that doth go with thee', 'christ-go-with'),
+                t('he it is that doth go with thee'),
                 t('; '),
                 hp('he will not fail thee, nor forsake thee', 'christ-promise'),
                 t('.'),
@@ -309,7 +309,7 @@ export const DEUTERONOMY_31: RichChapterContent = {
               number: 17,
               spans: [
                 t('Then my anger shall be kindled against them in that day, and I will forsake them, and I will hide my face from them, and they shall be devoured, and '),
-                hy('many evils and troubles shall befall them', 'deu-evils'),
+                t('many evils and troubles shall befall them'),
                 t('; so that they will say in that day, Are not these evils come upon us, because our God is not among us?'),
               ],
             },
@@ -368,7 +368,7 @@ export const DEUTERONOMY_31: RichChapterContent = {
                 t('Now therefore write ye '),
                 hg('this song for you', 'deu-song-witness'),
                 t(', and teach it the children of Israel: put it in their mouths, that '),
-                hp('this song may be a witness for me', 'christ-song'),
+                t('this song may be a witness for me'),
                 t(' against them.'),
               ],
             },

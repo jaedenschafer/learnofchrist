@@ -47,7 +47,7 @@ export const JUDGES_14: RichChapterContent = {
               number: 3,
               spans: [
                 t('But his father and mother said unto him, Is there never a woman among the daughters of thy brethren, or among all my people, that thou goest to take a wife of the uncircumcised Philistines? And Samson said unto his father, '),
-                hy('Get her for me', 'j14-yashar'),
+                t('Get her for me'),
                 t('; '),
                 hg('for she pleaseth me well', 'j14-eye-rule'),
                 t('.'),
@@ -307,7 +307,7 @@ export const JUDGES_14: RichChapterContent = {
               number: 14,
               spans: [
                 t('And he said unto them, '),
-                hy('Out of the eater came forth meat, and out of the strong came forth sweetness', 'j14-riddle'),
+                t('Out of the eater came forth meat, and out of the strong came forth sweetness'),
                 t('. And they could not in three days expound the riddle.'),
               ],
             },

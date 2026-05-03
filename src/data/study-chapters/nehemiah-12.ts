@@ -295,7 +295,7 @@ export const NEHEMIAH_12: RichChapterContent = {
                 t(': for God had made them '),
                 hp('rejoice with great joy', 'neh12-great-joy'),
                 t(': the wives also and the children '),
-                hg('rejoiced', 'neh12-rejoiced-all'),
+                t('rejoiced'),
                 t(': so that the joy of Jerusalem was heard even afar off.'),
               ],
             },

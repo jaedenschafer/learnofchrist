@@ -83,7 +83,7 @@ export const DEUTERONOMY_10: RichChapterContent = {
               number: 5,
               spans: [
                 t('And I turned myself and came down from the mount, and put the tables in the ark which I had made; '),
-                hp('and there they be', 'd10-presence'),
+                t('and there they be'),
                 t(' unto this day.'),
               ],
             },
@@ -172,7 +172,7 @@ export const DEUTERONOMY_10: RichChapterContent = {
                 t('At that time the Lord separated '),
                 hy('the tribe of Levi', 'd10-levi'),
                 t(', to bear '),
-                hp('the ark of the covenant of the Lord', 'd10-ark-covenant'),
+                t('the ark of the covenant of the Lord'),
                 t(', to stand before the Lord to minister unto him, and to '),
                 hg('bless in his name', 'd10-bless'),
                 t(', unto this day.'),
@@ -290,7 +290,7 @@ export const DEUTERONOMY_10: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'd10-arise',
+          id: 'd10-arise-2',
           prompt:
             'What have you been praying about for a long time, and what might God be asking you to do next — not to solve it, but to obey despite it?',
         },

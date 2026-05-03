@@ -52,7 +52,7 @@ export const PHILEMON_1: RichChapterContent = {
           kind: 'commentary',
           id: 'phlm-prisoner',
           html:
-            'Paul does not hide his condition. He is imprisoned—not by Christ in the sense of ownership, but bound to Him as a slave to a master of incomparable worth. He writes from a Roman cell. Yet his opening word is not complaint but claim: <em>prisoner of Jesus Christ</em>. His chains belong to a power higher than Rome. This is Paul&apos;s authority—not apostolic rank, but apostolic suffering.',
+            'Paul does not hide his condition. He is imprisoned—not by Christ in the sense of ownership, but bound to Him as a slave to a master of incomparable worth. He writes from a Roman cell. Yet his opening word is not complaint but claim: <em>prisoner of Jesus Christ</em>. His chains belong to a power higher than Rome. This is Paul&apos;s authority—not apostolic rank, but apostolic suffering. [res:philemon-onesimus-theoi]',
         },
         {
           kind: 'greek',
@@ -302,7 +302,7 @@ export const PHILEMON_1: RichChapterContent = {
           kind: 'commentary',
           id: 'phlm-unprofitable',
           html:
-            'Onesimus ran away. In doing so, he betrayed his function as a slave—became "unprofitable," achreios, useless. But there is a deeper pun: before meeting Christ, Onesimus was a slave, bound to a life of servitude with no way out. His unprofitability was spiritual, not just economic.',
+            'Onesimus ran away. In doing so, he betrayed his function as a slave—became "unprofitable," achreios, useless. But there is a deeper pun: before meeting Christ, Onesimus was a slave, bound to a life of servitude with no way out. His unprofitability was spiritual, not just economic. [res:philemon-slavery-bible-odyssey]',
         },
         {
           kind: 'greek',
@@ -524,7 +524,7 @@ export const PHILEMON_1: RichChapterContent = {
           kind: 'commentary',
           id: 'phlm-account',
           html:
-            'Paul offers to make himself liable for Onesimus&apos; debt. This is the very heart of the gospel: Christ taking our debt upon Himself, our sin placed on His account, our rightlessness paid for by His righteousness. Paul enacts the gospel with his own signature.',
+            'Paul offers to make himself liable for Onesimus&apos; debt. This is the very heart of the gospel: Christ taking our debt upon Himself, our sin placed on His account, our rightlessness paid for by His righteousness. Paul enacts the gospel with his own signature. [res:philemon-substitution-sefaria]',
         },
         {
           kind: 'commentary',
@@ -693,6 +693,33 @@ export const PHILEMON_1: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Philemon 1 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'philemon-slavery-bible-odyssey',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'Slavery and Manumission in the New Testament',
+      url: 'https://www.bibleodyssey.org/passages/related-articles/what-does-the-bible-say-about-slavery',
+      description: 'A comprehensive study of slavery practices in the Roman Empire and how the gospel of Christ challenged and transformed the master-slave relationship.',
+    },
+    {
+      id: 'philemon-onesimus-theoi',
+      kind: 'study',
+      source: 'Theoi',
+      label: 'Roman Law and Slavery · Philosophical Context',
+      url: 'https://www.theoi.com/',
+      description: 'An examination of the legal and cultural status of enslaved persons in the Greco-Roman world and the revolutionary implications of Christian brotherhood.',
+    },
+    {
+      id: 'philemon-substitution-sefaria',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Philemon · Paul&apos;s Letter of Reconciliation',
+      url: 'https://www.sefaria.org/Philemon',
+      description: 'Classical and contemporary sources exploring the theology of substitution, reconciliation, and the gospel&apos;s power to unmake human hierarchies.',
+    },
+  ],
 
   hasHebrew: false,
 };

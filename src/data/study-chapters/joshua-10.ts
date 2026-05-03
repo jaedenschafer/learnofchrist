@@ -159,7 +159,7 @@ export const JOSHUA_10: RichChapterContent = {
               number: 8,
               spans: [
                 t('And the Lord said unto Joshua, '),
-                hp('Fear them not', 'j10-fear-not'),
+                t('Fear them not'),
                 t(': for I have delivered them into thine hand; there shall not a man of them stand before thee.'),
               ],
             },
@@ -285,7 +285,7 @@ export const JOSHUA_10: RichChapterContent = {
               number: 12,
               spans: [
                 t('Then spake Joshua to the Lord in the sight of all Israel, and said, '),
-                hp('Sun, stand thou still upon Gibeon', 'j10-sun'),
+                t('Sun, stand thou still upon Gibeon'),
                 t('; and thou, Moon, in the valley of Ajalon.'),
               ],
             },
@@ -476,7 +476,7 @@ export const JOSHUA_10: RichChapterContent = {
               number: 25,
               spans: [
                 t('And Joshua said unto them, '),
-                hp('Fear not, nor be dismayed, be strong and of good courage', 'j10-courage'),
+                t('Fear not, nor be dismayed, be strong and of good courage'),
                 t(': for thus shall the Lord do to all your enemies against whom ye fight.'),
               ],
             },

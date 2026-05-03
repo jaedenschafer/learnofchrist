@@ -96,7 +96,7 @@ export const MATTHEW_25: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'matt25-talents',
+          id: 'matt25-talents-2',
           prompt: 'If Christ asked you to account for how you have invested the gifts and opportunities He has given you, what would you say?',
         },
       ],
@@ -166,7 +166,7 @@ export const MATTHEW_25: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'matt25-least',
+          id: 'matt25-least-2',
           prompt: 'If Christ is present in the least of these, whom in your life might you be overlooking? How could you more actively serve the vulnerable and forgotten?',
         },
       ],

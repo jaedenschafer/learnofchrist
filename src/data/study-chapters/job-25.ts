@@ -115,7 +115,7 @@ export const JOB_25: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'job25-justified',
+          id: 'job25-justified-2',
           prompt: 'Do you believe you can be justified before God by your own efforts? Or do you trust in grace, in the work of another on your behalf?',
         },
       ],

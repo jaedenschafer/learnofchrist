@@ -138,7 +138,7 @@ export const EXODUS_38: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'exo38-mirrors',
+          id: 'exo38-mirrors-2',
           prompt: 'What mirror in your life — what tool of self-regard — have you or could you offer to God for others&apos; cleansing? What would it look like to give it up?',
         },
         {

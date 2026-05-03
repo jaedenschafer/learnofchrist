@@ -282,7 +282,7 @@ export const DEUTERONOMY_2: RichChapterContent = {
         },
         {
           kind: 'commentary',
-          id: 'giants-same-class',
+          id: 'giants-same-class-2',
           html:
             'The parallels pile up: Emim displaced by Moabites, Horim displaced by Edomites, Anakim will be displaced by Israel. The giants are not invincible. They are real, they are terrifying, but they are mortal. God has been displacing them for generations. Israel is not the first, and the way has been prepared.',
         },
@@ -373,7 +373,7 @@ export const DEUTERONOMY_2: RichChapterContent = {
         },
         {
           kind: 'commentary',
-          id: 'ammon-to-lot',
+          id: 'ammon-to-lot-2',
           html:
             'The repetition is intentional: Ammon&apos;s land is off-limits, just like Moab&apos;s and Edom&apos;s. There is a boundary. God protects the lands of nations outside the covenant. The conquest of Canaan is not a license for conquest everywhere. It is specific, limited, purposeful.',
         },
@@ -451,7 +451,7 @@ export const DEUTERONOMY_2: RichChapterContent = {
         },
         {
           kind: 'commentary',
-          id: 'sihon-refuses',
+          id: 'sihon-refuses-2',
           html:
             'Sihon is offered a peaceful arrangement. He is shown that Israel has kept faith with Edom and Moab. He has a choice. He refuses. His refusal is an act of human will, real and free.',
         },
@@ -464,7 +464,7 @@ export const DEUTERONOMY_2: RichChapterContent = {
         },
         {
           kind: 'hebrew',
-          id: 'god-hardened',
+          id: 'god-hardened-2',
           title: 'Haram — to devote to destruction',
           script: 'חרם',
           translit: '<strong>haram</strong> · to devote, consecrate, ban (from the root for "devoted thing")',

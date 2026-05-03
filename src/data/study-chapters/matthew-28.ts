@@ -156,7 +156,7 @@ export const MATTHEW_28: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'matt28-commission',
+          id: 'matt28-commission-2',
           prompt: 'What does the Great Commission ask of you? How might you go and teach and baptize—in your sphere of influence, with those you know?',
         },
       ],

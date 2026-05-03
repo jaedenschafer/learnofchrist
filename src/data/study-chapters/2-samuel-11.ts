@@ -90,7 +90,7 @@ export const SAMUEL_2_11: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 's11-tarried',
+          id: 's11-tarried-2',
           prompt:
             'When have you been called to something difficult, and chosen instead to linger in comfort? What opened the door to that choice?',
         },
@@ -482,7 +482,7 @@ export const SAMUEL_2_11: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 's11-displeased',
+          id: 's11-displeased-2',
           prompt:
             'The chapter ends not with David&apos;s success, but with the Lord&apos;s displeasure. Have you ever felt the weight of knowing that God sees what you have tried to hide? What happened next?',
         },

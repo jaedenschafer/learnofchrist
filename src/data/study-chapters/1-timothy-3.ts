@@ -56,7 +56,7 @@ export const FIRST_TIMOTHY_3: RichChapterContent = {
           kind: 'commentary',
           id: 'c-logon-pistos',
           html:
-            'Paul begins with a formula he uses elsewhere: "This is a trustworthy saying." It marks a word worth remembering, worth passing down. What follows is not optional advice but a reliable principle about the church&apos;s life.',
+            'Paul begins with a formula he uses elsewhere: "This is a trustworthy saying." It marks a word worth remembering, worth passing down. What follows is not optional advice but a reliable principle about the church&apos;s life. [res:perseus-episkopos]',
         },
         {
           kind: 'greek',
@@ -71,7 +71,7 @@ export const FIRST_TIMOTHY_3: RichChapterContent = {
           kind: 'commentary',
           id: 'c-bishop-office',
           html:
-            'Notice the order: first comes desire, then comes qualification. A man may long to lead—and Paul does not dismiss that longing as wrong. Desire for a good work is not sinful ambition but a stirring toward service. Yet desire without character is dangerous. Character must come first.',
+            'Notice the order: first comes desire, then comes qualification. A man may long to lead—and Paul does not dismiss that longing as wrong. Desire for a good work is not sinful ambition but a stirring toward service. Yet desire without character is dangerous. Character must come first. [res:sefaria-1tim-3]',
         },
         {
           kind: 'christ',
@@ -631,7 +631,7 @@ export const FIRST_TIMOTHY_3: RichChapterContent = {
           kind: 'commentary',
           id: 'c-manifest',
           html:
-            'When Paul says "God was manifest in the flesh," he is saying that the eternal, invisible God stepped into time and space, took a body, walked among us, suffered, died, rose, and ascended. He was seen by angels—the heavenly powers themselves witnessed His exaltation. He was preached to the Gentiles—to all nations, not just Israel. He was believed on in the world—people gave their lives to follow Him. He was received up into glory—seated at the right hand of God. This is not doctrine to debate. It is the central mystery, the truth that holds everything else in place.',
+            'When Paul says "God was manifest in the flesh," he is saying that the eternal, invisible God stepped into time and space, took a body, walked among us, suffered, died, rose, and ascended. He was seen by angels—the heavenly powers themselves witnessed His exaltation. He was preached to the Gentiles—to all nations, not just Israel. He was believed on in the world—people gave their lives to follow Him. He was received up into glory—seated at the right hand of God. This is not doctrine to debate. It is the central mystery, the truth that holds everything else in place. [res:bibleodyssey-episcopal]',
         },
         {
           kind: 'carry',
@@ -654,6 +654,33 @@ export const FIRST_TIMOTHY_3: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: '1 Timothy 3 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'perseus-episkopos',
+      kind: 'lexicon',
+      source: 'Perseus Scaife',
+      label: 'Episkopos — Bishop, Overseer',
+      url: 'https://www.perseus.tufts.edu/hopper/resolveform?type=exact&lookup=episkopos&lang=greek',
+      description: 'Greek lexicon entry for episkopos (bishop/overseer), tracing its evolution in church structure and leadership.',
+    },
+    {
+      id: 'sefaria-1tim-3',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '1 Timothy 3',
+      url: 'https://www.sefaria.org/1%20Timothy.3',
+      description: 'Multiple translations and commentary on church leadership qualifications and the mystery of godliness.',
+    },
+    {
+      id: 'bibleodyssey-episcopal',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Church Leadership and Ministry',
+      url: 'https://www.bibleodyssey.org/dictionary/bishop/',
+      description: 'Overview of the bishop, deacon, and elder roles in early Christian communities.',
+    },
+  ],
 
   hasHebrew: false,
 };

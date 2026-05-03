@@ -164,7 +164,7 @@ export const JOB_6: RichChapterContent = {
                 t('Even that it would please God to '),
                 hg('destroy me', 'destroy-me'),
                 t('; that he would let loose his hand, and '),
-                hg('cut me off', 'cut-off'),
+                t('cut me off'),
                 t('!'),
               ],
             },

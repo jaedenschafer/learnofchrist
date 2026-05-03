@@ -51,7 +51,7 @@ export const FIRST_TIMOTHY_5: RichChapterContent = {
           kind: 'commentary',
           id: 'tim5-rebuke-not',
           html:
-            'Timothy is a young man in a leadership role. The temptation is to exercise authority harshly, to prove himself by taking a tough line. Paul counters: "Rebuke not an elder." The church is not a military hierarchy. It is a family. When you confront a faltering elder, you do not command him like a superior to a subordinate. You entreat him like a son appealing to a father—with respect, with gentleness, with the assumption that he has wisdom you do not yet see.',
+            'Timothy is a young man in a leadership role. The temptation is to exercise authority harshly, to prove himself by taking a tough line. Paul counters: "Rebuke not an elder." The church is not a military hierarchy. It is a family. When you confront a faltering elder, you do not command him like a superior to a subordinate. You entreat him like a son appealing to a father—with respect, with gentleness, with the assumption that he has wisdom you do not yet see. [res:sefaria-1tim-5]',
         },
         {
           kind: 'greek',
@@ -66,7 +66,7 @@ export const FIRST_TIMOTHY_5: RichChapterContent = {
           kind: 'commentary',
           id: 'tim5-family-hierarchy',
           html:
-            'Paul then extends the principle: younger men as brothers (peers, equals in dignity), elder women as mothers (deserving the same respect as an elder man, and the tenderness of familial affection), younger women as sisters "with all purity." That last phrase is crucial. The church is a family, but it is not naive about the body and desire. Relating to younger women as sisters means protecting the boundaries that make familial love possible.',
+            'Paul then extends the principle: younger men as brothers (peers, equals in dignity), elder women as mothers (deserving the same respect as an elder man, and the tenderness of familial affection), younger women as sisters "with all purity." That last phrase is crucial. The church is a family, but it is not naive about the body and desire. Relating to younger women as sisters means protecting the boundaries that make familial love possible. [res:bibleodyssey-widows]',
         },
         {
           kind: 'greek',
@@ -559,7 +559,7 @@ export const FIRST_TIMOTHY_5: RichChapterContent = {
           kind: 'commentary',
           id: 'tim5-character-revealed',
           html:
-            'This is Paul&apos;s closing wisdom: character is not hidden. Some people sin openly; their failures precede them and make judgment straightforward. Others commit hidden sin; their corruption emerges only over time. But whether open or hidden, the truth eventually surfaces. Similarly, some people\'s good works are "manifest beforehand"—obvious to all. Others do good quietly, and their goodness becomes apparent only when you know them well. But in all cases, over time, the truth about a person becomes clear. This is why the election of leaders must not be rushed. This is why accusations must not be believed without witnesses. This is why ordination must be careful. Time reveals truth.',
+            'This is Paul&apos;s closing wisdom: character is not hidden. Some people sin openly; their failures precede them and make judgment straightforward. Others commit hidden sin; their corruption emerges only over time. But whether open or hidden, the truth eventually surfaces. Similarly, some people\'s good works are "manifest beforehand"—obvious to all. Others do good quietly, and their goodness becomes apparent only when you know them well. But in all cases, over time, the truth about a person becomes clear. This is why the election of leaders must not be rushed. This is why accusations must not be believed without witnesses. This is why ordination must be careful. Time reveals truth. [res:intertextual-deut25-1tim5]',
         },
         {
           kind: 'christ',
@@ -587,6 +587,33 @@ export const FIRST_TIMOTHY_5: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: '1 Timothy 5 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-1tim-5',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '1 Timothy 5',
+      url: 'https://www.sefaria.org/1%20Timothy.5',
+      description: 'Multiple translations and commentary on widows, elders, honor, and pastoral care.',
+    },
+    {
+      id: 'bibleodyssey-widows',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Widows in Early Christian Communities',
+      url: 'https://www.bibleodyssey.org/dictionary/widow/',
+      description: 'Historical and social context of widow care and support systems in the early church.',
+    },
+    {
+      id: 'intertextual-deut25-1tim5',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Deuteronomy 25:4 ↔ 1 Timothy 5:18',
+      url: 'https://intertextual.bible/text/deuteronomy-25.4/1-timothy-5.18',
+      description: 'Paul&apos;s application of the law on muzzling oxen to the honor and support of those who labor in word and doctrine.',
+    },
+  ],
 
   hasHebrew: false,
 };

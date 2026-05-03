@@ -518,7 +518,7 @@ export const JAMES_2: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'jam2-faith-perfect',
+          id: 'jam2-faith-perfect-2',
           prompt: 'What work is God asking you to do that would perfect your faith? What obedience would show that your faith is not alone but alive?',
         },
       ],

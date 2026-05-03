@@ -32,7 +32,7 @@ export const OBADIAH_1: RichChapterContent = {
               number: 1,
               spans: [
                 t('The vision of Obadiah. Thus saith the Lord God concerning Edom; We have heard a rumour from the Lord, and an ambassador is sent among the heathen, '),
-                hp('Arise ye, and let us rise up against her in battle', 'obadiah1-edom'),
+                t('Arise ye, and let us rise up against her in battle'),
                 t('.'),
               ],
             },
@@ -105,7 +105,7 @@ export const OBADIAH_1: RichChapterContent = {
               number: 17,
               spans: [
                 t('But upon mount Zion shall be deliverance, and there shall be '),
-                hp('holiness', 'obadiah1-holiness'),
+                t('holiness'),
                 t('; and the house of Jacob shall possess their possessions.'),
               ],
             },
@@ -116,9 +116,9 @@ export const OBADIAH_1: RichChapterContent = {
               number: 21,
               spans: [
                 t('And '),
-                hp('saviors shall come up on mount Zion to judge the mount of Esau', 'obadiah1-saviors'),
+                t('saviors shall come up on mount Zion to judge the mount of Esau'),
                 t('; and '),
-                hp('the kingdom shall be the Lord\'s', 'obadiah1-kingdom'),
+                t('the kingdom shall be the Lord\'s'),
                 t('.'),
               ],
             },

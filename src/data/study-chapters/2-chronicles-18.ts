@@ -128,7 +128,7 @@ export const CHRONICLES_2_18: RichChapterContent = {
               number: 7,
               spans: [
                 t('And the king of Israel said unto Jehoshaphat, There is yet one man, '),
-                hy('Micaiah the son of Imla', 'micaiah-imla-2c'),
+                t('Micaiah the son of Imla'),
                 t(', by whom we may enquire of the Lord: but he never prophesied good unto me, but always evil. Nevertheless let us hear him. So the king of Israel and Jehoshaphat the king of Judah sat either of them on his throne, clothed in their robes, and they sat in a void place at the entering in of the gate of Samaria; and all the prophets prophesied before them.'),
               ],
             },

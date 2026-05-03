@@ -56,7 +56,7 @@ export const LEVITICUS_23: RichChapterContent = {
               number: 3,
               spans: [
                 t('These are the feasts of the Lord, even '),
-                hg('holy convocations', 'c-convocations'),
+                t('holy convocations'),
                 t(', which ye shall proclaim in their seasons.'),
               ],
             },

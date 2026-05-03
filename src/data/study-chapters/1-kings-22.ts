@@ -69,7 +69,7 @@ export const KINGS_1_22: RichChapterContent = {
               number: 5,
               spans: [
                 t('And Jehoshaphat said unto the king of Israel, '),
-                hg('Inquire, I pray thee, at the word of the Lord today', 'inquire-lord'),
+                t('Inquire, I pray thee, at the word of the Lord today'),
                 t('.'),
               ],
             },
@@ -105,7 +105,7 @@ export const KINGS_1_22: RichChapterContent = {
               number: 8,
               spans: [
                 t('And the king of Israel said unto Jehoshaphat, There is yet one man, '),
-                hy('Micaiah the son of Imlah', 'micaiah-imla'),
+                t('Micaiah the son of Imlah'),
                 t(', by whom we may enquire of the Lord: but I hate him; for he doth not prophesy good concerning me, but evil. And Jehoshaphat said, Let not the king say so.'),
               ],
             },
@@ -125,7 +125,7 @@ export const KINGS_1_22: RichChapterContent = {
               number: 11,
               spans: [
                 t('And Zedekiah the son of Chenaanah made him '),
-                hg('horns of iron', 'horns-iron'),
+                t('horns of iron'),
                 t(': and he said, Thus saith the Lord, With these shalt thou push the Syrians, until thou have consumed them.'),
               ],
             },
@@ -337,7 +337,7 @@ export const KINGS_1_22: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'lying-spirit',
+          id: 'lying-spirit-2',
           prompt: 'Are there voices you surround yourself with because they confirm what you want to believe? What truth might you be refusing to hear?',
         },
       ],

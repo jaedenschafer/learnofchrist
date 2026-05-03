@@ -52,7 +52,7 @@ export const JOSHUA_6: RichChapterContent = {
                 t('Now Jericho was '),
                 hg('straitly shut up', 'josh6-closed'),
                 t(' because of the children of Israel: '),
-                hp('none went out, none came in', 'christ-trumpet'),
+                t('none went out, none came in'),
                 t('.'),
               ],
             },
@@ -94,7 +94,7 @@ export const JOSHUA_6: RichChapterContent = {
               number: 3,
               spans: [
                 t('And '),
-                hy('ye shall compass the city', 'hebrew-sabab'),
+                t('ye shall compass the city'),
                 t(', all the men of war, going round about the city once. Thus shalt thou do six days.'),
               ],
             },
@@ -182,7 +182,7 @@ export const JOSHUA_6: RichChapterContent = {
               number: 7,
               spans: [
                 t('And he said unto the people, Pass on, and '),
-                hg('compass the city', 'josh6-march'),
+                t('compass the city'),
                 t(', and let him that is armed pass on before the ark of the Lord.'),
               ],
             },
@@ -257,7 +257,7 @@ export const JOSHUA_6: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'josh6-silence',
+          id: 'josh6-silence-2',
           prompt: 'Where is God calling you to silence instead of speech? What are you learning in that quiet waiting?',
         },
       ],
@@ -528,7 +528,7 @@ export const JOSHUA_6: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'josh6-rahab',
+          id: 'josh6-rahab-2',
           prompt: 'What is the scarlet cord in your story — the moment when you recognized God&apos;s truth and chose His side? How has that covenant held?',
         },
       ],
@@ -596,7 +596,7 @@ export const JOSHUA_6: RichChapterContent = {
 
         {
           kind: 'reflection',
-          id: 'josh6-curse',
+          id: 'josh6-curse-2',
           prompt: 'What word of God — a promise or a boundary — are you still learning to trust even though you can&apos;t see its full effect yet?',
         },
       ],

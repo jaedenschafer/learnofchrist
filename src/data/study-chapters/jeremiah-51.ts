@@ -54,7 +54,7 @@ export const JEREMIAH_51: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'jer51-golden-cup',
+          id: 'jer51-golden-cup-2',
           prompt: 'What has been the "golden cup" of your life—the thing that seemed beautiful and refined but ultimately left you empty? How did its fall affect you?',
         },
       ],

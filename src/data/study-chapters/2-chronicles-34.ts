@@ -589,7 +589,7 @@ export const CHRONICLES_2_34: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: '34-all-days',
+          id: '34-all-days-2',
           prompt: 'When have you experienced a leader or a community whose faithfulness inspired your own faithfulness? What was it about their commitment that moved you?',
         },
       ],

@@ -29,7 +29,7 @@ export const DEUTERONOMY_22: RichChapterContent = {
               number: 1,
               spans: [
                 t('Thou shalt '),
-                hg('not see thy brother&apos;s ox or his sheep', 'deut22-lost'),
+                t('not see thy brother&apos;s ox or his sheep'),
                 t(' go astray, and '),
                 hp('hide thyself from them', 'deut22-witness'),
                 t(': thou shalt in any case bring them again unto thy brother.'),
@@ -39,7 +39,7 @@ export const DEUTERONOMY_22: RichChapterContent = {
               number: 2,
               spans: [
                 t('And if thy brother be '),
-                hg('not nigh unto thee', 'deut22-far'),
+                t('not nigh unto thee'),
                 t(', or if thou know him not, then thou shalt bring it unto thine own house, and it shall be with thee until thy brother seek after it, and thou shalt restore it to him again.'),
               ],
             },
@@ -47,7 +47,7 @@ export const DEUTERONOMY_22: RichChapterContent = {
               number: 3,
               spans: [
                 t('In like manner shalt thou do '),
-                hg('with his ass', 'deut22-ass'),
+                t('with his ass'),
                 t('; and so shalt thou do with his raiment; and with all lost things of thy brother&apos;s, which he hath lost, and thou hast found, thou shalt do likewise: thou mayest not hide thyself.'),
               ],
             },
@@ -130,7 +130,7 @@ export const DEUTERONOMY_22: RichChapterContent = {
               number: 7,
               spans: [
                 t('But thou shalt in any case let the dam go, and take the young to thee; that '),
-                hg('it may be well with thee', 'deut22-days'),
+                t('it may be well with thee'),
                 t(', and that thou mayest prolong thy days.'),
               ],
             },
@@ -158,7 +158,7 @@ export const DEUTERONOMY_22: RichChapterContent = {
               number: 8,
               spans: [
                 t('When thou buildest a new house, then thou shalt make a '),
-                hy('battlement', 'hebrew-akumah'),
+                t('battlement'),
                 t(' for thy roof, that thou bring not blood upon thine house, if any man fall from thence.'),
               ],
             },
@@ -317,7 +317,7 @@ export const DEUTERONOMY_22: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'deut22-slander',
+          id: 'deut22-slander-2',
           prompt:
             'Is there someone whose reputation you have heard attacked but not defended? What would it look like to repair that?',
         },

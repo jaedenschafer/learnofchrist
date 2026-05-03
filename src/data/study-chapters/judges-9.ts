@@ -227,7 +227,7 @@ export const JUDGES_9: RichChapterContent = {
               number: 10,
               spans: [
                 t('And the trees said to the '),
-                hg('fig tree', 'fig-tree'),
+                t('fig tree'),
                 t(', Come thou, and reign over us.'),
               ],
             },
@@ -241,7 +241,7 @@ export const JUDGES_9: RichChapterContent = {
               number: 12,
               spans: [
                 t('Then said the trees unto the '),
-                hg('vine', 'vine-tree'),
+                t('vine'),
                 t(', Come thou, and reign over us.'),
               ],
             },

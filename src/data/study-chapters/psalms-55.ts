@@ -139,7 +139,7 @@ export const PSALMS_55: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'psalms55-cast-burden',
+          id: 'psalms55-cast-burden-2',
           prompt: 'What burden related to betrayal or hurt are you still carrying alone? What would it mean to truly cast it upon the Lord?',
         },
       ],

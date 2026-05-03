@@ -434,7 +434,7 @@ export const ACTS_20: RichChapterContent = {
           script: 'περιποιέω',
           translit: '<strong>peripoieō</strong> · to acquire; to purchase; to save for oneself',
           description:
-            'Christ purchased the church—acquired it, made it His own possession, saved it. The church belongs to Christ. Not to denomination, not to pastor, not to tradition. To Christ alone, purchased by His blood.',
+            'Christ purchased the church—acquired it, made it His own possession, saved it. The church belongs to Christ. Not to a pastor, not to inherited custom, not to a label on a building. To Christ alone, purchased by His blood.',
         },
         {
           kind: 'commentary',

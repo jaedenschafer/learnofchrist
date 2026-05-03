@@ -457,7 +457,7 @@ export const KINGS_2_18: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: '2k18-silence',
+          id: '2k18-silence-2',
           prompt:
             'When have you had to hold your peace in the face of mockery or propaganda? What was it like to refuse to engage, and what did that silence protect in you?',
         },

@@ -504,7 +504,7 @@ export const SAMUEL_2_2: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'sword-devour',
+          id: 'sword-devour-2',
           prompt: 'Is there a conflict in your life — personal, professional, or relational — where the "sword" keeps devouring? What would it take for you to ask Abner&apos;s question: "Shall the sword devour for ever?" Who might listen?',
         },
       ],

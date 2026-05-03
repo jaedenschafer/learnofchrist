@@ -81,7 +81,7 @@ export const ROMANS_4: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'rom4-found',
+          id: 'rom4-found-2',
           prompt: 'If righteousness is counted to you on the basis of faith alone, what would you stop trying to earn? What would change if you simply believed God&apos;s word instead?',
         },
       ],
@@ -233,7 +233,7 @@ export const ROMANS_4: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'rom4-seal',
+          id: 'rom4-seal-2',
           prompt: 'What mark are you waiting for to prove you belong to God? What would it mean to recognize that faith itself is the seal?',
         },
       ],
@@ -429,7 +429,7 @@ export const ROMANS_4: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'rom4-fully-persuaded',
+          id: 'rom4-fully-persuaded-2',
           prompt: 'Where is God asking you to be strong in faith despite circumstance? What would fully persuading yourself of God&apos;s ability look like in your life this week?',
         },
       ],

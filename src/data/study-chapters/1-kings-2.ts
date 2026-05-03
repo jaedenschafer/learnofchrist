@@ -308,7 +308,7 @@ export const KINGS_1_2: RichChapterContent = {
               number: 17,
               spans: [
                 t('And he said, Speak, I pray thee, unto Solomon the king, (for he will not say thee nay,) that he give me '),
-                hg('Abishag the Shunammite to wife', 'abishag-request'),
+                t('Abishag the Shunammite to wife'),
                 t('.'),
               ],
             },
@@ -361,7 +361,7 @@ export const KINGS_1_2: RichChapterContent = {
               number: 21,
               spans: [
                 t('And she said, Let '),
-                hg('Abishag the Shunammite be given to Adonijah thy brother to wife', 'bathsheba-request'),
+                t('Abishag the Shunammite be given to Adonijah thy brother to wife'),
                 t('.'),
               ],
             },
@@ -456,7 +456,7 @@ export const KINGS_1_2: RichChapterContent = {
               number: 27,
               spans: [
                 t('So Solomon thrust out Abiathar from being priest unto the Lord: '),
-                hp('that he might fulfil the word of the Lord', 'eli-fulfilled'),
+                t('that he might fulfil the word of the Lord'),
                 t(', which he spake by Samuel against the house of Eli.'),
               ],
             },
@@ -602,7 +602,7 @@ export const KINGS_1_2: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'joab-blood-debt',
+          id: 'joab-blood-debt-2',
           prompt: 'Joab sought refuge at the altar, but he did not seek true forgiveness. Is there a place in your life where you are running from accountability rather than facing it? What would it look like to truly repent rather than merely hide?',
         },
       ],
@@ -736,7 +736,7 @@ export const KINGS_1_2: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'shimei-oath',
+          id: 'shimei-oath-2',
           prompt: 'Shimei agreed to the terms of his life, but then broke his oath when circumstances changed. Are there promises you have made that you have kept despite difficulty, or ones you have broken when circumstances seemed to justify it?',
         },
       ],

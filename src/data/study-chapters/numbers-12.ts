@@ -76,7 +76,7 @@ export const NUMBERS_12: RichChapterContent = {
                 t('And they said, '),
                 hp('Hath the LORD indeed spoken only by Moses?', 'c-jealousy-core'),
                 t(' hath he not spoken also by us? And '),
-                hg('the LORD heard it', 'c-god-hears'),
+                t('the LORD heard it'),
                 t('.'),
               ],
             },

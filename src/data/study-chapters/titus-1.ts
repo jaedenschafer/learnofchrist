@@ -537,5 +537,32 @@ export const TITUS_1: RichChapterContent = {
     ref: 'Titus 1 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'theoi-epimenides-cretan-liar',
+      kind: 'study',
+      source: 'Theoi Classical Texts',
+      label: 'Epimenides and the Cretan Liar',
+      url: 'https://www.theoi.com/Text/EpimeridsCretans.html',
+      description: 'The famous Cretan poet&apos;s claim that all Cretans are liars, quoted by Paul at Titus 1:12 to expose the cultural challenge faced in the Cretan church.',
+    },
+    {
+      id: 'sefaria-titus-1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Titus 1',
+      url: 'https://www.sefaria.org/Titus.1',
+      description: 'Multiple translations and commentary on elder qualifications and the challenge of false teaching in Crete.',
+    },
+    {
+      id: 'topostext-crete-archaeology',
+      kind: 'archaeology',
+      source: 'ToposText',
+      label: 'Crete in Classical and Biblical Times',
+      url: 'https://topostext.org/place/356278SCre',
+      description: 'Geographic and archaeological context for Crete, the island where Titus was commissioned to establish church leadership.',
+    },
+  ],
+
   hasHebrew: false,
 };

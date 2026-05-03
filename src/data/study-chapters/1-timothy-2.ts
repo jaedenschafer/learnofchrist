@@ -33,6 +33,33 @@ export const FIRST_TIMOTHY_2: RichChapterContent = {
     ref: '1 Timothy 2 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'perseus-mesites',
+      kind: 'lexicon',
+      source: 'Perseus Scaife',
+      label: 'Mesitēs — Mediator',
+      url: 'https://www.perseus.tufts.edu/hopper/resolveform?type=exact&lookup=mesites&lang=greek',
+      description: 'Greek lexicon entry for mesitēs (mediator), showing classical and biblical usage of mediation between parties.',
+    },
+    {
+      id: 'sefaria-1tim-2',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '1 Timothy 2',
+      url: 'https://www.sefaria.org/1%20Timothy.2',
+      description: 'Multiple translations and scholarly commentary on prayer, gender roles, and the mediation of Christ.',
+    },
+    {
+      id: 'intertextual-genesis3-1tim2',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Genesis 3 ↔ 1 Timothy 2:13–15',
+      url: 'https://intertextual.bible/text/genesis-3/1-timothy-2.13',
+      description: 'Side-by-side comparison showing Paul&apos;s appeal to the Fall narrative and the promise of Genesis 3:15.',
+    },
+  ],
+
   sections: [
     /* ─── 1 Timothy 2:1 — Supplications, Prayers, Intercessions ──────── */
     {
@@ -63,7 +90,7 @@ export const FIRST_TIMOTHY_2: RichChapterContent = {
           kind: 'commentary',
           id: 'c-proseuchai',
           html:
-            'Paul opens with <em>"first of all."</em> Not first in time, but first in priority. Before everything else the church does—before teaching, before healing, before social action—comes prayer. Prayer is not one spiritual activity among many. It is foundational. And it is to be made for <em>all men</em>—not the worthy, not the friendly, not just those who might become believers. All.',
+            'Paul opens with <em>"first of all."</em> Not first in time, but first in priority. Before everything else the church does—before teaching, before healing, before social action—comes prayer. Prayer is not one spiritual activity among many. It is foundational. And it is to be made for <em>all men</em>—not the worthy, not the friendly, not just those who might become believers. All. [res:sefaria-1tim-2]',
         },
         {
           kind: 'greek',
@@ -136,7 +163,7 @@ export const FIRST_TIMOTHY_2: RichChapterContent = {
           kind: 'commentary',
           id: 'c-kings',
           html:
-            'This was revolutionary in its time. The emperor on the throne in Paul&apos;s day was likely Nero—who would later persecute the church and execute believers. Yet Paul calls the church to intercede for him. Not because he is righteous. Not in hopes that he will become Christian (though God desires this). But because God desires his salvation. This is countercultural: your oppressor, your persecutor, the one who makes your life difficult—Paul tells you to pray for his salvation.',
+            'This was revolutionary in its time. The emperor on the throne in Paul&apos;s day was likely Nero—who would later persecute the church and execute believers. Yet Paul calls the church to intercede for him. Not because he is righteous. Not in hopes that he will become Christian (though God desires this). But because God desires his salvation. This is countercultural: your oppressor, your persecutor, the one who makes your life difficult—Paul tells you to pray for his salvation. [res:perseus-mesites]',
         },
         {
           kind: 'commentary',
@@ -201,7 +228,7 @@ export const FIRST_TIMOTHY_2: RichChapterContent = {
           kind: 'commentary',
           id: 'c-all-saved',
           html:
-            'Paul writes that God "will have" all men to be saved. This is His stated will. Whether through predestination, foresight, or the mystery of human freedom, Paul makes plain: God&apos;s intention spans all people. No one is outside His redemptive scope. This is the foundation of intercessory prayer. You pray for the person everyone has written off because God has not.',
+            'Paul writes that God "will have" all men to be saved. This is His stated will. Whether through predestination, foresight, or the mystery of human freedom, Paul makes plain: God&apos;s intention spans all people. No one is outside His redemptive scope. This is the foundation of intercessory prayer. You pray for the person everyone has written off because God has not. [res:intertextual-genesis3-1tim2]',
         },
         {
           kind: 'commentary',

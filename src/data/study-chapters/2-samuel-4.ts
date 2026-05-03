@@ -120,7 +120,7 @@ export const SAMUEL_2_4: RichChapterContent = {
         },
         {
           kind: 'commentary',
-          id: 'flight-darkness',
+          id: 'flight-darkness-2',
           html:
             'They flee through the night. The plain is dark. No one sees them. But someone will know what they have done, and they will bring the head to David, hoping he will remember them, reward them, make them powerful. They have not reckoned with the kind of king David is.',
         },

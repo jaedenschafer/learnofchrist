@@ -575,7 +575,7 @@ export const SAMUEL_2_3: RichChapterContent = {
 
         {
           kind: 'reflection',
-          id: 'weak-anointed',
+          id: 'weak-anointed-2',
           prompt:
             'Where in your life do you have responsibility but not control—authority that does not match your power? What would it look like to grieve that limitation, as David did, rather than pretending it doesn\'t exist or raging against it?',
         },

@@ -97,7 +97,7 @@ export const RUTH_2: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'her-hap',
+          id: 'her-hap-2',
           prompt: 'When have you looked back and seen what felt like pure chance actually line up with God\'s providence? How did that change the way you see small decisions now?',
         },
       ],
@@ -165,7 +165,7 @@ export const RUTH_2: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'boaz-protection',
+          id: 'boaz-protection-2',
           prompt: 'Where do you need Boaz\'s kind of quiet protection right now? Who in your life is offering that kind of cover?',
         },
       ],
