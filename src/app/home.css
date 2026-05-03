@@ -30,6 +30,168 @@ html[data-reader-theme="dark"] {
   --loc-gold-soft: #E8C089;
 }
 
+/* ─── Vesper Frost system ────────────────────────────────────────────────
+   The design language extracted from the dashboard. Every frosted-glass
+   surface on the home page (and beyond) reads from these tokens and
+   composes via the .frost-* utility classes below. Change a value
+   here and the whole site moves together. */
+
+:root {
+  /* Tints — controls how translucent the frost is. Higher = more opaque. */
+  --frost-tint:         rgba(255, 255, 255, 0.16);
+  --frost-tint-card:    rgba(255, 255, 255, 0.18);
+  --frost-tint-strong:  rgba(255, 255, 255, 0.22);
+  --frost-tint-rail:    rgba(255, 255, 255, 0.14);
+  --frost-tint-hover:   rgba(255, 255, 255, 0.26);
+
+  /* Backdrop filters — the actual frost effect. */
+  --frost-blur:         blur(24px) saturate(150%);
+  --frost-blur-card:    blur(28px) saturate(150%);
+  --frost-blur-pill:    blur(20px) saturate(150%);
+
+  /* Foreground (text + icon). */
+  --frost-text:         #FFFFFF;
+  --frost-text-soft:    rgba(255, 255, 255, 0.78);
+  --frost-text-muted:   rgba(255, 255, 255, 0.65);
+
+  /* Borders — only on cards, chips, and the tab rail. Pills/circles
+     use no border so they read as a softer pane. */
+  --frost-border-card:  rgba(255, 255, 255, 0.28);
+  --frost-border-chip:  rgba(255, 255, 255, 0.20);
+  --frost-border-rail:  rgba(255, 255, 255, 0.18);
+
+  /* Lift shadow for pills and rows. */
+  --frost-shadow:       0 6px 20px -8px rgba(26, 22, 18, 0.18);
+}
+
+/* ── Frost CARD — large rounded surface (28px radius) ─────────────────── */
+.frost-card {
+  position: relative;
+  background: var(--frost-tint-card);
+  -webkit-backdrop-filter: var(--frost-blur-card);
+  backdrop-filter: var(--frost-blur-card);
+  border: 1px solid var(--frost-border-card);
+  border-radius: 28px;
+  color: var(--frost-text);
+  isolation: isolate;
+}
+
+/* ── Frost PILL — pill button or wide row (999px radius) ──────────────── */
+.frost-pill {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.95rem 1.85rem;
+  border-radius: 999px;
+  background: var(--frost-tint);
+  -webkit-backdrop-filter: var(--frost-blur);
+  backdrop-filter: var(--frost-blur);
+  color: var(--frost-text);
+  border: none;
+  text-decoration: none;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 0.9375rem;
+  letter-spacing: 0.005em;
+  cursor: pointer;
+  box-shadow: var(--frost-shadow);
+  transition: background 0.2s ease,
+              transform 0.18s cubic-bezier(0.2, 0.7, 0.2, 1);
+  isolation: isolate;
+}
+.frost-pill:hover {
+  background: var(--frost-tint-hover);
+  transform: translateY(-1px);
+}
+.frost-pill:active { transform: scale(0.97); }
+
+/* Compact pill — used for inline secondary actions (Reflect, Speak). */
+.frost-pill--compact {
+  padding: 0.4rem 0.95rem;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  background: var(--frost-tint-strong);
+  -webkit-backdrop-filter: var(--frost-blur-pill);
+  backdrop-filter: var(--frost-blur-pill);
+  box-shadow: none;
+}
+
+/* Block pill — full-width CTA inside a frost-card (Open chapter). */
+.frost-pill--block {
+  display: block;
+  width: 100%;
+  padding: 0.85rem 1rem;
+  text-align: center;
+  box-shadow: none;
+}
+
+/* Row pill — pill wrapping a label + secondary action (prompt rows). */
+.frost-pill--row {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 1rem 1.25rem;
+  font-weight: 600;
+  box-shadow: var(--frost-shadow);
+}
+
+/* ── Frost CIRCLE — round button (avatar, more, +, etc.) ──────────────── */
+.frost-circle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--frost-tint);
+  -webkit-backdrop-filter: var(--frost-blur);
+  backdrop-filter: var(--frost-blur);
+  color: var(--frost-text);
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+.frost-circle:hover { background: var(--frost-tint-hover); }
+/* Sizes */
+.frost-circle--sm { width: 32px; height: 32px; }
+.frost-circle--md { width: 38px; height: 38px; }
+.frost-circle--lg { width: 42px; height: 42px; }
+
+/* ── Frost CHIP — small rounded square (date "3 May") ─────────────────── */
+.frost-chip {
+  background: var(--frost-tint);
+  -webkit-backdrop-filter: var(--frost-blur);
+  backdrop-filter: var(--frost-blur);
+  border: 1px solid var(--frost-border-chip);
+  border-radius: 14px;
+  color: var(--frost-text);
+}
+
+/* ── Frost TABS — segmented control rail ──────────────────────────────── */
+.frost-tabs {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px;
+  border-radius: 999px;
+  background: var(--frost-tint-rail);
+  border: 1px solid var(--frost-border-rail);
+}
+.frost-tab {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.3rem 0.85rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: var(--frost-text-muted);
+  cursor: default;
+}
+.frost-tab.is-active {
+  background: #FFFFFF;
+  color: var(--vesper-compline);
+}
+
 /* ─── Generic frame ─────────────────────────────────────────────────── */
 .loc-wrap {
   width: 100%;
@@ -50,13 +212,10 @@ html[data-reader-theme="dark"] {
   margin: 0 0 1.25rem;
 }
 
-/* ─── Buttons — true frosted glass, no borders, white text ───────────────
-   One unified recipe matching the "Continue your study plan" prompt
-   row in the dashboard. The inset bottom dark bloom is the iOS Material
-   depth tell — it darkens the area where the text sits so the white
-   reads cleanly regardless of how bright the surface behind the button
-   happens to be. Without it, a frosted pill on a too-light backdrop
-   goes near-white and the text disappears. */
+/* ─── Buttons — uses the shared .frost-pill recipe ───────────────────────
+   Every button on the home page (hero CTA, "Browse the art library",
+   "Open the Bible" closer, gallery "View" pills) reads from the same
+   --frost-* tokens as the dashboard. One source of truth. */
 .loc-btn,
 .loc-btn--solid,
 .loc-btn--ghost,
@@ -68,22 +227,20 @@ html[data-reader-theme="dark"] {
   gap: 0.5rem;
   padding: 0.95rem 1.85rem;
   border-radius: 999px;
+  font-family: inherit;
   font-size: 0.9375rem;
   font-weight: 600;
   text-decoration: none;
   cursor: pointer;
   letter-spacing: 0.005em;
-  background: rgba(255, 255, 255, 0.16);
-  -webkit-backdrop-filter: blur(24px) saturate(150%);
-  backdrop-filter: blur(24px) saturate(150%);
-  color: #FFFFFF;
+  background: var(--frost-tint);
+  -webkit-backdrop-filter: var(--frost-blur);
+  backdrop-filter: var(--frost-blur);
+  color: var(--frost-text);
   border: none;
-  box-shadow:
-    inset 0 -16px 28px -14px rgba(0, 0, 0, 0.28),
-    0 6px 20px -8px rgba(26, 22, 18, 0.18);
+  box-shadow: var(--frost-shadow);
   transition: transform 0.18s cubic-bezier(0.2, 0.7, 0.2, 1),
-              background 0.2s ease,
-              box-shadow 0.2s ease;
+              background 0.2s ease;
   isolation: isolate;
 }
 .loc-btn:hover,
@@ -91,10 +248,7 @@ html[data-reader-theme="dark"] {
 .loc-btn--ghost:hover,
 .loc-btn--outline:hover {
   transform: translateY(-1px);
-  background: rgba(255, 255, 255, 0.26);
-  box-shadow:
-    inset 0 -16px 28px -14px rgba(0, 0, 0, 0.34),
-    0 10px 26px -10px rgba(26, 22, 18, 0.22);
+  background: var(--frost-tint-hover);
 }
 .loc-btn:active,
 .loc-btn--solid:active,
@@ -229,14 +383,19 @@ html[data-reader-theme="dark"] {
    library in motion without a single static screenshot. */
 
 .loc-resources {
+  /* Photo backdrop so the white-frosted CTA reads consistently with
+     every other section. Uses a softer warm landscape so the arches
+     of artwork above stay the visual focus. */
   position: relative;
-  background:
-    radial-gradient(ellipse 60% 40% at 50% 0%, rgba(200, 150, 74, 0.10), transparent 70%),
-    radial-gradient(ellipse 80% 60% at 50% 100%, rgba(232, 184, 148, 0.10), transparent 70%),
-    var(--loc-paper);
+  isolation: isolate;
+  overflow: hidden;
   padding: clamp(4rem, 7vw, 6.5rem) 0 clamp(2.5rem, 5vw, 4.5rem);
-  overflow: hidden; /* clip the wide marquee strips */
   text-align: center;
+  background-image:
+    linear-gradient(180deg, rgba(26, 22, 18, 0.30), rgba(26, 22, 18, 0.42)),
+    url('https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=2400&q=85');
+  background-size: cover;
+  background-position: center;
 }
 
 .loc-resources__head {
@@ -250,7 +409,7 @@ html[data-reader-theme="dark"] {
   font-size: clamp(2rem, 4.6vw, 3.5rem);
   line-height: 1.05;
   letter-spacing: -0.02em;
-  color: var(--color-label);
+  color: var(--frost-text);
   margin: 0 0 1rem;
   text-wrap: balance;
 }
@@ -258,10 +417,12 @@ html[data-reader-theme="dark"] {
 .loc-resources__sub {
   font-size: clamp(1rem, 1.3vw, 1.1875rem);
   line-height: 1.55;
-  color: var(--color-secondary-label);
+  color: var(--frost-text-soft);
   max-width: 40rem;
   margin: 0 auto;
 }
+
+.loc-resources .loc-eyebrow { color: var(--loc-gold-soft); }
 
 .loc-resources__cta {
   margin-top: clamp(2rem, 4vw, 3rem);
@@ -602,12 +763,8 @@ html[data-reader-theme="dark"] {
   isolation: isolate;
   overflow: hidden;
   padding: var(--loc-section-y) 0;
-  /* Stronger dark veil — the underlying pasture photo is bright and
-     was leaving the white-text buttons illegible. This brings the
-     surface into the same darkness range as the dashboard, where the
-     unified frosted-glass button recipe reads cleanly. */
   background-image:
-    linear-gradient(180deg, rgba(26, 22, 18, 0.55), rgba(26, 22, 18, 0.68)),
+    linear-gradient(180deg, rgba(26, 22, 18, 0.18), rgba(26, 22, 18, 0.32)),
     url('https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=2400&q=85');
   background-size: cover;
   background-position: center;
@@ -626,27 +783,21 @@ html[data-reader-theme="dark"] {
   background: linear-gradient(90deg, transparent, var(--loc-gold), transparent);
 }
 
+/* Mission pane = shared .frost-card recipe (scaled up). Mission section
+   has a photo backdrop, so the pane reads as a luminous frosted plate
+   on the photograph — same material as the dashboard reading card. */
 .loc-mission__inner {
   text-align: center;
   max-width: 56rem;
-  /* Same flat white-frosted-glass pane as the dashboard cards, scaled
-     up. No inner bloom, no big shadow — quiet material. */
   position: relative;
   padding: clamp(2.5rem, 5vw, 4.5rem) clamp(1.75rem, 4vw, 3.5rem);
-  background: rgba(255, 255, 255, 0.62);
-  -webkit-backdrop-filter: blur(28px) saturate(140%);
-  backdrop-filter: blur(28px) saturate(140%);
-  border: 1px solid rgba(255, 255, 255, 0.55);
+  background: var(--frost-tint-card);
+  -webkit-backdrop-filter: var(--frost-blur-card);
+  backdrop-filter: var(--frost-blur-card);
+  border: 1px solid var(--frost-border-card);
   border-radius: 36px;
-  color: var(--vesper-compline);
-  box-shadow: 0 14px 40px -18px rgba(26, 22, 18, 0.18);
+  color: var(--frost-text);
   isolation: isolate;
-}
-
-html[data-reader-theme="dark"] .loc-mission__inner {
-  background: color-mix(in srgb, var(--color-surface) 55%, transparent);
-  border-color: rgba(255, 255, 255, 0.10);
-  color: var(--vesper-parchment);
 }
 
 .loc-mission__title {
@@ -655,7 +806,7 @@ html[data-reader-theme="dark"] .loc-mission__inner {
   font-size: clamp(2.25rem, 5vw, 3.75rem);
   line-height: 1.05;
   letter-spacing: -0.02em;
-  color: var(--color-label);
+  color: var(--frost-text);
   margin: 0 0 1.25rem;
   text-wrap: balance;
 }
@@ -663,10 +814,14 @@ html[data-reader-theme="dark"] .loc-mission__inner {
 .loc-mission__lede {
   font-size: clamp(1.0625rem, 1.4vw, 1.25rem);
   line-height: 1.6;
-  color: var(--color-secondary-label);
+  color: var(--frost-text-soft);
   margin: 0 auto 2.25rem;
   max-width: 42rem;
 }
+
+/* Mission eyebrow stays Vesper Gold but lift it slightly so it shows
+   on the frosted pane. */
+.loc-mission .loc-eyebrow { color: var(--loc-gold-soft); }
 
 /* ─── 4. Stats band ────────────────────────────────────────────────────
    Atmospheric photo backdrop with a strong dark veil + Cloister Indigo
@@ -828,9 +983,17 @@ html[data-reader-theme="dark"] .loc-mission__inner {
    entirely and let the words carry the section: a big serif glyph, a
    generous quote, a quiet byline. */
 .loc-stories {
-  background: var(--loc-paper);
-  padding: var(--loc-section-y) 0;
+  /* Photo backdrop with dark veil so the white-frost story cards above
+     are legible. Same recipe as the dashboard / mission / blog. */
   position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  padding: var(--loc-section-y) 0;
+  background-image:
+    linear-gradient(180deg, rgba(26, 22, 18, 0.40), rgba(26, 22, 18, 0.55)),
+    url('https://images.unsplash.com/photo-1499209974431-9dddcece7f88?auto=format&fit=crop&w=2400&q=85');
+  background-size: cover;
+  background-position: center;
 }
 
 /* Faint warm ambient glow at the top of the stories band — picks up the
@@ -859,15 +1022,17 @@ html[data-reader-theme="dark"] .loc-mission__inner {
   font-size: clamp(2.25rem, 4.6vw, 3.5rem);
   line-height: 1.05;
   letter-spacing: -0.02em;
-  color: var(--color-label);
+  color: var(--frost-text);
   margin: 0 0 1rem;
   text-wrap: balance;
 }
 
+.loc-stories .loc-eyebrow { color: var(--loc-gold-soft); }
+
 .loc-stories__lede {
   font-size: clamp(1rem, 1.3vw, 1.125rem);
   line-height: 1.55;
-  color: var(--color-secondary-label);
+  color: var(--frost-text-soft);
   margin: 0 auto;
   max-width: 36rem;
 }
@@ -882,27 +1047,28 @@ html[data-reader-theme="dark"] .loc-mission__inner {
   .loc-stories__grid { grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
 }
 
+/* Story card uses the .frost-card recipe. Stories sit on a parchment
+   band (no photo backdrop), so the section gets its own warm photo
+   added below — see .loc-stories — and the cards become white-on-
+   frost just like the dashboard. */
 .loc-story {
-  /* Same flat-frosted recipe as the dashboard cards — white tint at
-     higher opacity so dark text reads on parchment. No inner glow. */
   position: relative;
   display: flex;
   flex-direction: column;
   padding: clamp(1.75rem, 3vw, 2.5rem) clamp(1.5rem, 2.5vw, 2rem);
-  background: rgba(255, 255, 255, 0.62);
-  -webkit-backdrop-filter: blur(28px) saturate(140%);
-  backdrop-filter: blur(28px) saturate(140%);
-  border: 1px solid rgba(255, 255, 255, 0.55);
+  background: var(--frost-tint-card);
+  -webkit-backdrop-filter: var(--frost-blur-card);
+  backdrop-filter: var(--frost-blur-card);
+  border: 1px solid var(--frost-border-card);
   border-radius: 28px;
-  color: var(--vesper-compline);
-  box-shadow: 0 10px 32px -16px rgba(26, 22, 18, 0.18);
+  color: var(--frost-text);
   transition: background 0.25s ease, border-color 0.2s ease;
   isolation: isolate;
 }
 
 .loc-story:hover {
-  background: rgba(255, 255, 255, 0.78);
-  border-color: rgba(255, 255, 255, 0.75);
+  background: var(--frost-tint-hover);
+  border-color: rgba(255, 255, 255, 0.40);
 }
 
 .loc-story__mark {
@@ -919,7 +1085,7 @@ html[data-reader-theme="dark"] .loc-mission__inner {
   font-family: 'EB Garamond', 'New York', Georgia, serif;
   font-size: clamp(1.0625rem, 1.4vw, 1.1875rem);
   line-height: 1.5;
-  color: var(--color-label);
+  color: var(--frost-text);
   margin: 0 0 1.5rem;
   flex: 1;
 }
@@ -927,10 +1093,10 @@ html[data-reader-theme="dark"] .loc-mission__inner {
 .loc-story__byline {
   font-size: 0.8125rem;
   letter-spacing: 0.02em;
-  color: var(--color-tertiary-label);
+  color: var(--frost-text-muted);
   margin: 0;
 }
-.loc-story__byline strong { color: var(--color-label); font-weight: 600; }
+.loc-story__byline strong { color: var(--frost-text); font-weight: 600; }
 
 /* ─── 7. Blog ───────────────────────────────────────────────────────── */
 .loc-blog {
@@ -995,20 +1161,18 @@ html[data-reader-theme="dark"] .loc-mission__inner {
 }
 
 .loc-blog-card {
-  /* Same flat white-frosted-glass recipe as the story card. The image
-     sits inside; the glass wraps copy + image so the whole card reads
-     as one frosted pane. */
+  /* Shared .frost-card recipe — image + body wrapped in one frosted
+     pane. Blog section has a photo backdrop, so white text reads. */
   display: flex;
   flex-direction: column;
   text-decoration: none;
   border-radius: 24px;
   overflow: hidden;
-  background: rgba(255, 255, 255, 0.62);
-  -webkit-backdrop-filter: blur(28px) saturate(140%);
-  backdrop-filter: blur(28px) saturate(140%);
-  border: 1px solid rgba(255, 255, 255, 0.55);
-  color: var(--vesper-compline);
-  box-shadow: 0 10px 32px -16px rgba(26, 22, 18, 0.18);
+  background: var(--frost-tint-card);
+  -webkit-backdrop-filter: var(--frost-blur-card);
+  backdrop-filter: var(--frost-blur-card);
+  border: 1px solid var(--frost-border-card);
+  color: var(--frost-text);
   transition: transform 0.25s cubic-bezier(0.2, 0.7, 0.2, 1),
               background 0.2s ease,
               border-color 0.2s ease;
@@ -1016,14 +1180,8 @@ html[data-reader-theme="dark"] .loc-mission__inner {
 
 .loc-blog-card:hover {
   transform: translateY(-3px);
-  background: rgba(255, 255, 255, 0.78);
-  border-color: rgba(255, 255, 255, 0.75);
-}
-
-html[data-reader-theme="dark"] .loc-blog-card {
-  background: color-mix(in srgb, var(--color-surface) 55%, transparent);
-  border-color: rgba(255, 255, 255, 0.10);
-  color: var(--vesper-parchment);
+  background: var(--frost-tint-hover);
+  border-color: rgba(255, 255, 255, 0.40);
 }
 
 .loc-blog-card__media {
@@ -1058,21 +1216,21 @@ html[data-reader-theme="dark"] .loc-blog-card {
   letter-spacing: 0.14em;
   text-transform: uppercase;
   margin-bottom: 0.5rem;
-  color: var(--color-tertiary-label);
+  color: var(--frost-text-soft);
 }
 
 .loc-blog-card__title {
   font-family: 'EB Garamond', 'New York', Georgia, serif;
   font-size: 1.25rem;
   line-height: 1.25;
-  color: var(--color-label);
+  color: var(--frost-text);
   margin: 0 0 0.5rem;
 }
 
 .loc-blog-card__excerpt {
   font-size: 0.875rem;
   line-height: 1.55;
-  color: var(--color-tertiary-label);
+  color: var(--frost-text-soft);
   margin: 0;
   display: -webkit-box;
   -webkit-line-clamp: 2;
@@ -1241,6 +1399,7 @@ html[data-reader-theme="dark"] .loc-stats {
   margin-bottom: clamp(1.5rem, 3vw, 2.25rem);
 }
 
+/* Avatar uses the .frost-circle--lg recipe via the shared system. */
 .loc-dash__avatar {
   flex: 0 0 auto;
   width: 42px;
@@ -1249,11 +1408,11 @@ html[data-reader-theme="dark"] .loc-stats {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background: rgba(255, 255, 255, 0.16);
-  -webkit-backdrop-filter: blur(24px) saturate(150%);
-  backdrop-filter: blur(24px) saturate(150%);
+  background: var(--frost-tint);
+  -webkit-backdrop-filter: var(--frost-blur);
+  backdrop-filter: var(--frost-blur);
   border: none;
-  color: #FFFFFF;
+  color: var(--frost-text);
 }
 
 .loc-dash__greet-body {
@@ -1285,23 +1444,24 @@ html[data-reader-theme="dark"] .loc-stats {
   letter-spacing: -0.01em;
 }
 
+/* "More" button uses the .frost-circle--md recipe. */
 .loc-dash__more {
   flex: 0 0 auto;
   width: 38px;
   height: 38px;
   border-radius: 50%;
   border: none;
-  background: rgba(255, 255, 255, 0.16);
-  -webkit-backdrop-filter: blur(24px) saturate(150%);
-  backdrop-filter: blur(24px) saturate(150%);
-  color: #FFFFFF;
+  background: var(--frost-tint);
+  -webkit-backdrop-filter: var(--frost-blur);
+  backdrop-filter: var(--frost-blur);
+  color: var(--frost-text);
   cursor: pointer;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   transition: background 0.2s ease;
 }
-.loc-dash__more:hover { background: rgba(255, 255, 255, 0.26); }
+.loc-dash__more:hover { background: var(--frost-tint-hover); }
 
 /* ── Reflection headline ────────────────────────────── */
 .loc-dash__eyebrow {
@@ -1328,20 +1488,16 @@ html[data-reader-theme="dark"] .loc-stats {
   text-wrap: balance;
 }
 
-/* ── Reading card — frosted glass, photo bleeds through, white text ──────
-   Matches the Mental Health reference exactly: the card is a thin
-   white-tinted pane that lets the photo behind it remain visible,
-   and all text inside is white. The frost comes from blur+saturate,
-   not opacity. */
+/* Reading card uses the shared .frost-card recipe. */
 .loc-dash__card {
   position: relative;
   border-radius: 28px;
   padding: clamp(1.25rem, 2.5vw, 1.75rem);
-  background: rgba(255, 255, 255, 0.18);
-  -webkit-backdrop-filter: blur(28px) saturate(150%);
-  backdrop-filter: blur(28px) saturate(150%);
-  border: 1px solid rgba(255, 255, 255, 0.28);
-  color: #FFFFFF;
+  background: var(--frost-tint-card);
+  -webkit-backdrop-filter: var(--frost-blur-card);
+  backdrop-filter: var(--frost-blur-card);
+  border: 1px solid var(--frost-border-card);
+  color: var(--frost-text);
   isolation: isolate;
 }
 
@@ -1362,13 +1518,14 @@ html[data-reader-theme="dark"] .loc-stats {
   letter-spacing: -0.005em;
 }
 
+/* Tabs rail + tab use the shared .frost-tabs / .frost-tab recipes. */
 .loc-dash__tabs {
   display: inline-flex;
   align-items: center;
   padding: 3px;
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.14);
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: var(--frost-tint-rail);
+  border: 1px solid var(--frost-border-rail);
 }
 
 .loc-dash__tab {
@@ -1379,7 +1536,7 @@ html[data-reader-theme="dark"] .loc-stats {
   font-size: 0.75rem;
   font-weight: 600;
   letter-spacing: 0.01em;
-  color: rgba(255, 255, 255, 0.65);
+  color: var(--frost-text-muted);
   cursor: default;
 }
 .loc-dash__tab.is-active {
@@ -1394,14 +1551,18 @@ html[data-reader-theme="dark"] .loc-stats {
   margin-bottom: 1.25rem;
 }
 
+/* Date chip uses the shared .frost-chip recipe. */
 .loc-dash__date {
   flex: 0 0 auto;
   width: 56px;
   text-align: center;
   padding: 0.55rem 0;
   border-radius: 14px;
-  background: rgba(255, 255, 255, 0.16);
-  border: 1px solid rgba(255, 255, 255, 0.20);
+  background: var(--frost-tint);
+  -webkit-backdrop-filter: var(--frost-blur);
+  backdrop-filter: var(--frost-blur);
+  border: 1px solid var(--frost-border-chip);
+  color: var(--frost-text);
 }
 .loc-dash__date strong {
   display: block;
@@ -1442,9 +1603,8 @@ html[data-reader-theme="dark"] .loc-stats {
   margin: 0;
 }
 
+/* "Open chapter" CTA = shared .frost-pill--block recipe. */
 .loc-dash__card-cta {
-  /* Same frost recipe as every other button — white text, no border,
-     iOS Material bottom dark bloom for legibility. */
   display: block;
   width: 100%;
   padding: 0.85rem 1rem;
@@ -1454,20 +1614,18 @@ html[data-reader-theme="dark"] .loc-stats {
   font-size: 0.9375rem;
   font-weight: 600;
   letter-spacing: -0.005em;
-  color: #FFFFFF;
-  background: rgba(255, 255, 255, 0.16);
-  -webkit-backdrop-filter: blur(24px) saturate(150%);
-  backdrop-filter: blur(24px) saturate(150%);
+  color: var(--frost-text);
+  background: var(--frost-tint);
+  -webkit-backdrop-filter: var(--frost-blur);
+  backdrop-filter: var(--frost-blur);
   border: none;
-  box-shadow: inset 0 -16px 28px -14px rgba(0, 0, 0, 0.28);
-  transition: background 0.2s ease, box-shadow 0.2s ease;
+  transition: background 0.2s ease;
 }
 .loc-dash__card-cta:hover {
-  background: rgba(255, 255, 255, 0.26);
-  box-shadow: inset 0 -16px 28px -14px rgba(0, 0, 0, 0.34);
+  background: var(--frost-tint-hover);
 }
 
-/* ── Prompt rows — same frost recipe (no border) ─────────────────────── */
+/* Prompt rows = shared .frost-pill--row recipe. */
 .loc-dash__row {
   display: flex;
   align-items: center;
@@ -1476,17 +1634,16 @@ html[data-reader-theme="dark"] .loc-stats {
   padding: 1rem 1.25rem;
   border-radius: 999px;
   text-decoration: none;
-  color: #FFFFFF;
-  background: rgba(255, 255, 255, 0.16);
-  -webkit-backdrop-filter: blur(24px) saturate(150%);
-  backdrop-filter: blur(24px) saturate(150%);
+  color: var(--frost-text);
+  background: var(--frost-tint);
+  -webkit-backdrop-filter: var(--frost-blur);
+  backdrop-filter: var(--frost-blur);
   border: none;
-  box-shadow: inset 0 -18px 32px -16px rgba(0, 0, 0, 0.26);
-  transition: background 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: var(--frost-shadow);
+  transition: background 0.2s ease;
 }
 .loc-dash__row:hover {
-  background: rgba(255, 255, 255, 0.26);
-  box-shadow: inset 0 -18px 32px -16px rgba(0, 0, 0, 0.32);
+  background: var(--frost-tint-hover);
 }
 
 .loc-dash__row-label {
@@ -1496,31 +1653,31 @@ html[data-reader-theme="dark"] .loc-stats {
   letter-spacing: -0.005em;
 }
 
+/* "Reflect" pill = shared .frost-pill--compact recipe. */
 .loc-dash__row-pill {
-  /* Same frost recipe as every other button. */
   flex: 0 0 auto;
   padding: 0.4rem 0.95rem;
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.22);
-  -webkit-backdrop-filter: blur(20px) saturate(150%);
-  backdrop-filter: blur(20px) saturate(150%);
-  color: #FFFFFF;
+  background: var(--frost-tint-strong);
+  -webkit-backdrop-filter: var(--frost-blur-pill);
+  backdrop-filter: var(--frost-blur-pill);
+  color: var(--frost-text);
   font-size: 0.8125rem;
   font-weight: 700;
   letter-spacing: 0.005em;
   border: none;
 }
 
+/* "+" button = shared .frost-circle--sm recipe. */
 .loc-dash__row-add {
-  /* Same frost recipe at circle scale. */
   flex: 0 0 auto;
   width: 32px;
   height: 32px;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.22);
-  -webkit-backdrop-filter: blur(20px) saturate(150%);
-  backdrop-filter: blur(20px) saturate(150%);
-  color: #FFFFFF;
+  background: var(--frost-tint-strong);
+  -webkit-backdrop-filter: var(--frost-blur-pill);
+  backdrop-filter: var(--frost-blur-pill);
+  color: var(--frost-text);
   border: none;
   display: inline-flex;
   align-items: center;
