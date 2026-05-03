@@ -18,7 +18,7 @@ export const ACTS_6: RichChapterContent = {
   intros: [
     'The apostolic church has swollen from a few hundred to thousands in mere weeks. The growth is a sign of the Spirit&apos;s power. But growth brings a problem: the daily distribution of food and aid to widows—the vulnerable at the heart of the Christian community—is being overlooked. Some widows are being neglected. The apostles could attempt to manage it themselves, but they recognize something the church would need for centuries to come: leadership means delegation, not domination.',
     'They call the multitude together and propose that seven men of honest report, full of the Holy Spirit and wisdom, be chosen to oversee this work. It is a beautiful moment: the apostles affirm that service to the poor is not a second-class task. The Spirit fills the servants as fully as He fills the preachers. Stephen is chosen—a man full of faith and power. But within verses, he is also described as doing great wonders and signs among the people. His appointment to serve at tables will become the doorway to something much larger.',
-    'Controversy erupts. Freedmen from various synagogues rise to dispute with Stephen. They cannot resist the wisdom and the Spirit by which he speaks. Unable to answer him, they suborn false witnesses to accuse him of blasphemy against Moses and against God. And as he stands before the council, his face becomes like the face of an angel.',
+    'Controversy erupts. Freedmen from various synagogues[res:bibleodyssey-hellenes] rise to dispute with Stephen. They cannot resist the wisdom and the Spirit by which he speaks. Unable to answer him, they suborn false witnesses to accuse him of blasphemy against Moses and against God. And as he stands before the council, his face becomes like the face of an angel[res:angel-face-second-temple].',
   ],
 
   sections: [
@@ -341,7 +341,7 @@ export const ACTS_6: RichChapterContent = {
           kind: 'commentary',
           id: 'acts6-disputers',
           html:
-            'These are powerful men. They come from the diaspora—from Cyrene, Alexandria, Cilicia, Asia. They are cosmopolitan, educated, trained in rhetoric. They come together in a united synagogue to dispute with Stephen. But they cannot <em>resist</em> him. The Greek word means they cannot stand against him. He is too full of the Spirit.',
+            'These are powerful men. They come from the diaspora—from Cyrene, Alexandria, Cilicia, Asia. They are cosmopolitan, educated, trained in rhetoric. They come together in a united synagogue to dispute with Stephen[res:theodotos-inscription]. But they cannot <em>resist</em> him. The Greek word means they cannot stand against him. He is too full of the Spirit.',
         },
         {
           kind: 'carry',
@@ -456,7 +456,7 @@ export const ACTS_6: RichChapterContent = {
           kind: 'commentary',
           id: 'acts6-angel-face',
           html:
-            'An angel&apos;s face. The image echoes Gabriel appearing to Zechariah, appearing to Mary—the moment the heavenly breaks into the earthly. Stephen&apos;s face is a doorway between worlds. What he is about to experience—his death, his vision of the heavens opening, the Son of Man standing to receive him—is already visible in his countenance. The council can see it and cannot explain it.',
+            'An angel&apos;s face. The image echoes Gabriel appearing to Zechariah, appearing to Mary—the moment the heavenly breaks into the earthly. Stephen&apos;s face is a doorway between worlds[res:deacon-ordination-early-church]. What he is about to experience—his death, his vision of the heavens opening, the Son of Man standing to receive him—is already visible in his countenance. The council can see it and cannot explain it.',
         },
         {
           kind: 'carry',
@@ -486,6 +486,41 @@ export const ACTS_6: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Acts 6 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bibleodyssey-hellenes',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Hellenists and Hebrews',
+      url: 'https://www.bibleodyssey.org/dictionary/hellenist/',
+      description: 'Open-access SBL entry on Greek-speaking Jews in first-century Palestine and their synagogues.',
+    },
+    {
+      id: 'theodotos-inscription',
+      kind: 'archaeology',
+      source: 'Israel Museum Digital Archive',
+      label: 'The Theodotos Inscription',
+      url: 'https://www.imj.org.il/en/collections/theodotos-inscription',
+      description: 'Limestone inscription from Jerusalem synagogue of freedmen, dated to Second Temple period — the artifact Acts 6:9 may reference.',
+    },
+    {
+      id: 'deacon-ordination-early-church',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Deacon',
+      url: 'https://www.bibleodyssey.org/dictionary/deacon/',
+      description: 'Open-access SBL entry on the seven-deacon model and ordination in the early church through laying on of hands.',
+    },
+    {
+      id: 'angel-face-second-temple',
+      kind: 'manuscript',
+      source: 'Dead Sea Scrolls Foundation',
+      label: 'Angel Imagery in Second Temple Texts',
+      url: 'https://dss.collections.imj.org.il/',
+      description: 'Collection of Dead Sea Scrolls texts documenting theophanic experiences and angelic encounters in Jewish eschatology.',
+    },
+  ],
 
   hasHebrew: false,
 };

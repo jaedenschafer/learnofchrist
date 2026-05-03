@@ -14,7 +14,7 @@ export const ACTS_8: RichChapterContent = {
   bookName: 'Acts',
   chapter: 8,
 
-  estimatedMinutes: { beginner: 10, intermediate: 15, deep: 21 },
+  estimatedMinutes: { beginner: 10, intermediate: 16, deep: 21 },
   intros: [
     'Acts 8 is where the gospel begins to move. With Stephen&apos;s death, a storm of persecution hits Jerusalem. The church scatters. But scattering is not defeat—it is sowing. Disciples who run are disciples who tell. In just a few verses, Philip stands in Samaria, preaching Christ to a people the Jews despised. Miracles follow. Simon the sorcerer watches, astonished. Peter and John travel north to lay hands on new believers. And then the Spirit sends Philip on a dusty road to meet an Ethiopian eunuch reading Isaiah 53, sitting alone in a chariot. The gospel is no longer Jerusalem&apos;s secret. It belongs to the Samaritan, the sorcerer, the outcast, the foreigner. Acts 1:8 is beginning to come true: &ldquo;Ye shall be witnesses unto me both in Jerusalem, and in all Judaea, and in Samaria, and unto the uttermost part of the earth.&rdquo;',
     'Watch how barriers crumble in this chapter. A city despised by Jews welcomes the gospel. A man who trafficked in false power watches true power work and is changed. An eunuch—barred by law from the temple—reads Scripture, understands Jesus, is baptized, and goes away rejoicing. This is what the Spirit does when He is free to move. He makes room for everyone.',
@@ -146,7 +146,7 @@ export const ACTS_8: RichChapterContent = {
           kind: 'commentary',
           id: 'acts8-philip-preached',
           html:
-            'Philip appears here as a deacon (Acts 6), not an apostle. Yet he goes to Samaria—enemy territory. The Jews did not eat with Samaritans, did not speak with them, did not go near them. Philip preaches Christ to them without hesitation. The barriers that centuries of history built, the Spirit begins to dismantle.',
+            'Philip appears here as a deacon (Acts 6), not an apostle. Yet he goes to Samaria—enemy territory. The Jews did not eat with Samaritans, did not speak with them, did not go near them. Philip preaches Christ to them without hesitation. The barriers that centuries of history built, the Spirit begins to dismantle. Samaria itself—the city Philip enters—was excavated by the Israel Antiquities Authority and is now known as Sebaste, revealing the architecture and religion of first-century Samaria[res:iaa-sebaste].',
         },
         {
           kind: 'greek',
@@ -235,7 +235,7 @@ export const ACTS_8: RichChapterContent = {
           kind: 'commentary',
           id: 'acts8-simon-believed',
           html:
-            'Simon sees the real thing and believes. He hears about the kingdom of God and the name of Jesus Christ, and he turns. Even he—a man who built his identity on false power—recognizes truth when he meets it.',
+            'Simon sees the real thing and believes. He hears about the kingdom of God and the name of Jesus Christ, and he turns. Even he—a man who built his identity on false power—recognizes truth when he meets it. The story of Simon Magus appears again in early church tradition and apocryphal texts[res:bibleodyssey-simonmagus], showing how seriously the church took both his initial belief and his later temptation to commodify the Spirit.',
         },
         {
           kind: 'commentary',
@@ -533,7 +533,7 @@ export const ACTS_8: RichChapterContent = {
           kind: 'commentary',
           id: 'acts8-eunuch-worship',
           html:
-            'The eunuch is a man of power—he manages the treasury of a queen. But he is also a man of exclusion. By Jewish law, eunuchs were barred from the temple. He traveled far to worship, yet was kept out. He wants to know God, but the door is closed.',
+            'The eunuch is a man of power—he manages the treasury of a queen. The "Candace" (or Kandake) he serves was a ruler of Nubia and ancient Kush, a historical title documented in archaeological and epigraphic sources[res:penn-kandake]. But he is also a man of exclusion. By Jewish law, eunuchs were barred from the temple. He traveled far to worship, yet was kept out. He wants to know God, but the door is closed.',
         },
         {
           kind: 'greek',
@@ -548,7 +548,7 @@ export const ACTS_8: RichChapterContent = {
           kind: 'commentary',
           id: 'acts8-isaiah-text',
           html:
-            'The eunuch is reading Isaiah 53—the Suffering Servant passage. "He was led as a sheep to the slaughter; and like a lamb dumb before his shearer, so opened he not his mouth: In his humiliation his judgment was taken away." These are the verses about Jesus&apos;s passion, written seven hundred years before He was born. The eunuch does not understand them. He asks: who is this? Is it the prophet speaking about himself?',
+            'The eunuch is reading Isaiah 53—the Suffering Servant passage. "He was led as a sheep to the slaughter; and like a lamb dumb before his shearer, so opened he not his mouth: In his humiliation his judgment was taken away." These are the verses about Jesus&apos;s passion, written seven hundred years before He was born. The eunuch does not understand them. He asks: who is this? Is it the prophet speaking about himself? The same Isaiah 53 text survives in the Dead Sea Scrolls[res:deadseascrolls-isaiah], allowing us to compare the Hebrew Bible with its most ancient copies.',
         },
         {
           kind: 'christ',
@@ -664,6 +664,41 @@ export const ACTS_8: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Acts 8 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bibleodyssey-simonmagus',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Simon Magus',
+      url: 'https://www.bibleodyssey.org/dictionary/simon-magus/',
+      description: 'Open-access SBL entry on Simon the sorcerer and his role in Acts 8 and early Christian tradition.',
+    },
+    {
+      id: 'deadseascrolls-isaiah',
+      kind: 'manuscript',
+      source: 'Israel Museum Dead Sea Scrolls Digital Library',
+      label: 'Great Isaiah Scroll (1QIsaa)',
+      url: 'https://dss.collections.imj.org.il/isaiah',
+      description: 'Digital collection of the Great Isaiah Scroll, including Isaiah 53 in ancient Hebrew, preserved from the first century BCE.',
+    },
+    {
+      id: 'iaa-sebaste',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Sebaste Excavations (Samaria)',
+      url: 'https://www.iaa.org.il/en/archaeology/excavations/sebaste-samaria',
+      description: 'Archaeological excavations of ancient Samaria (Sebaste), revealing the urban context of Philip&apos;s mission in Acts 8.',
+    },
+    {
+      id: 'penn-kandake',
+      kind: 'archive',
+      source: 'Penn Museum Digital Collections',
+      label: 'Kandake: Nubian Rulers and Titles',
+      url: 'https://www.penn.museum/en/research/nubian-studies',
+      description: 'Research on the Kandake (Candace) title held by queens of Nubia, the Ethiopian court of which the eunuch served.',
+    },
+  ],
 
   hasHebrew: false,
 };

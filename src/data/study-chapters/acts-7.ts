@@ -17,7 +17,7 @@ export const ACTS_7: RichChapterContent = {
   bookName: 'Acts',
   chapter: 7,
 
-  estimatedMinutes: { beginner: 10, intermediate: 16, deep: 22 },
+  estimatedMinutes: { beginner: 11, intermediate: 17, deep: 22 },
   intros: [
     'Stephen has been arrested on false charges. Brought before the Sanhedrin, he refuses to mount a conventional legal defense. Instead, he gives a sermon—a sweeping recitation of Israel&apos;s history from Abraham to Solomon—that reveals what his accusers are really doing: resisting the Holy Spirit, just as their ancestors resisted God&apos;s prophets and messengers.',
     'The sermon carries a double weight. On one level, it is historical—a summary of Israel&apos;s past that would have been familiar to any Jewish audience. On another level, it is prophetic rebuke. The council hears in it an indictment, and their fury rises. They drag Stephen outside the city and stone him. A young man named Saul stands guard over the witnesses&apos; clothes, approving of his death. But Stephen dies seeing the heavens opened and the Son of Man standing at God&apos;s right hand, and he forgives his killers.',
@@ -123,7 +123,7 @@ export const ACTS_7: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'acts7-joseph-envy',
-          html: 'Joseph is sold into slavery by his own brothers—moved by envy, by the simple fact that he is favored. Yet God does not abandon him in Egypt. This is the pattern Stephen wants to highlight: rejection does not separate the chosen from God. God is with Joseph in the pit, in Potiphar&apos;s house, in prison, and finally in the palace. The brothers tried to bury him. God raised him up.',
+          html: 'Joseph is sold into slavery by his own brothers—moved by envy, by the simple fact that he is favored. Yet God does not abandon him in Egypt. This is the pattern Stephen wants to highlight: rejection does not separate the chosen from God. God is with Joseph in the pit, in Potiphar&apos;s house, in prison, and finally in the palace. The brothers tried to bury him. God raised him up. The Egyptian context of Joseph&apos;s rise to power—his role in Pharaoh&apos;s court and the dynasties of Egypt—is richly attested in Egyptian records and archaeological evidence[res:oriental-institute-egypt].',
         },
         {
           kind: 'commentary',
@@ -275,7 +275,7 @@ export const ACTS_7: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'acts7-oracles',
-          html: 'Moses receives from God &ldquo;the lively oracles&rdquo;—the living words, the words that give life. Not stone tablets alone, but a whole system of instruction, covenant, law, and worship. These are the foundations of Israel&apos;s faith. Yet the people reject them.',
+          html: 'Moses receives from God &ldquo;the lively oracles&rdquo;—the living words, the words that give life. Not stone tablets alone, but a whole system of instruction, covenant, law, and worship. These are the foundations of Israel&apos;s faith. Yet the people reject them. The Hebrew texts Stephen quotes here—from Exodus and Deuteronomy—form the core of the Torah and are available with full textual apparatus on Sefaria[res:sefaria-torah].',
         },
         {
           kind: 'commentary',
@@ -367,7 +367,7 @@ export const ACTS_7: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'acts7-throne-footstool',
-          html: 'God&apos;s throne is heaven itself. The entire earth is His footstool. How, then, could a building made by human hands contain Him? The rhetoric is devastating. Stephen is not attacking the temple. He is expanding the vision of what God is. God cannot be localized, institutionalized, or controlled by a place—even a holy place. The most High dwells not in buildings but in hearts, in the Spirit-filled gathering of believers.',
+          html: 'God&apos;s throne is heaven itself. The entire earth is His footstool. How, then, could a building made by human hands contain Him? The rhetoric is devastating. Stephen is not attacking the temple. He is expanding the vision of what God is. God cannot be localized, institutionalized, or controlled by a place—even a holy place. The most High dwells not in buildings but in hearts, in the Spirit-filled gathering of believers. The distinction between the wilderness tabernacle and Solomon&apos;s temple—one portable, one fixed—carries deep theological weight explored in Bible Odyssey[res:bibleodyssey-temple].',
         },
         {
           kind: 'christ',
@@ -513,7 +513,7 @@ export const ACTS_7: RichChapterContent = {
           kind: 'christ',
           id: 'acts7-standing-christ',
           title: 'Christ Connection — The Standing Witness',
-          html: 'Jesus does not sit distant and unmoved. He stands. Stephen is faithful unto death, and the Son of Man rises to meet him. This is the only time in the New Testament (outside the Gospels) that Jesus is shown standing rather than sitting at God&apos;s right hand. The detail is a gift: Christ honors those who honor Him. When we are faithful in the face of hostility, Jesus stands with us.',
+          html: 'Jesus does not sit distant and unmoved. He stands. Stephen is faithful unto death, and the Son of Man rises to meet him. This is the only time in the New Testament (outside the Gospels) that Jesus is shown standing rather than sitting at God&apos;s right hand. The detail is a gift: Christ honors those who honor Him. When we are faithful in the face of hostility, Jesus stands with us. The Christological significance of the &ldquo;Son of Man&rdquo; title and its connection to Daniel&apos;s vision is richly documented in Bible Odyssey[res:bibleodyssey-sonofman].',
         },
         {
           kind: 'carry',
@@ -623,6 +623,41 @@ export const ACTS_7: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Acts 7 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-torah',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Torah (Exodus, Deuteronomy)',
+      url: 'https://www.sefaria.org/Exodus',
+      description: 'Complete Hebrew text with English translation and textual variants of the Torah books Stephen quotes.',
+    },
+    {
+      id: 'oriental-institute-egypt',
+      kind: 'archaeology',
+      source: 'Oriental Institute',
+      label: 'Ancient Egypt — Chronology & Culture',
+      url: 'https://oi.uchicago.edu/research-projects/egyptian-collection',
+      description: 'Museum collection and research on Egyptian dynasties, governance, and the historical context of Joseph in Pharaoh\'s court.',
+    },
+    {
+      id: 'bibleodyssey-temple',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Temple',
+      url: 'https://www.bibleodyssey.org/dictionary/temple/',
+      description: 'SBL entry on the Jerusalem temple, its distinction from the tabernacle, and its theological significance in Stephen\'s argument.',
+    },
+    {
+      id: 'bibleodyssey-sonofman',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Son of Man',
+      url: 'https://www.bibleodyssey.org/passages/related-articles/son-of-man/',
+      description: 'SBL study on the Christological title "Son of Man," its Danielic origin, and its significance in Stephen\'s vision.',
+    },
+  ],
 
   hasHebrew: false,
 };

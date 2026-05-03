@@ -53,7 +53,7 @@ export const ACTS_5: RichChapterContent = {
           kind: 'commentary',
           id: 'acts5-lying',
           html:
-            'Peter&apos;s accusation cuts straight to the heart: they have not lied to men; they have lied to the Holy Ghost. This is not about defrauding the church of money. It is about attempting to deceive the one who knows all hearts. &ldquo;Thou hast not lied unto men, but unto God&rdquo; (5:4). In the presence of the Spirit, pretense is not clever. It is the deepest foolishness.',
+            'Peter&apos;s accusation cuts straight to the heart: they have not lied to men; they have lied to the Holy Ghost[res:bibleodyssey-lying]. This is not about defrauding the church of money. It is about attempting to deceive the one who knows all hearts. &ldquo;Thou hast not lied unto men, but unto God&rdquo; (5:4). In the presence of the Spirit, pretense is not clever. It is the deepest foolishness.',
         },
         {
           kind: 'scripture',
@@ -122,7 +122,7 @@ export const ACTS_5: RichChapterContent = {
           kind: 'commentary',
           id: 'acts5-shadow-peter',
           html:
-            'The sick are laid in the streets and wait for Peter&apos;s shadow to pass over them. This detail is striking. Not Peter&apos;s touch, not even his prayer—his shadow. The image suggests that healing has become so abundant that it flows from Peter&apos;s very presence. But it also carries an echo: in the OT, the shadow of God is a shelter, a refuge (Ps. 91:1, &ldquo;He that dwelleth in the secret place of the most High shall abide under the shadow of the Almighty&rdquo;). The sick in Jerusalem are crowding to stand in the shadow of the apostles as they once crowded to stand under the shelter of God.',
+            'The sick are laid in the streets and wait for Peter&apos;s shadow to pass over them. This detail is striking. Not Peter&apos;s touch, not even his prayer—his shadow. The image suggests that healing has become so abundant that it flows from Peter&apos;s very presence[res:bibleodyssey-prison]. But it also carries an echo: in the OT, the shadow of God is a shelter, a refuge (Ps. 91:1, &ldquo;He that dwelleth in the secret place of the most High shall abide under the shadow of the Almighty&rdquo;). The sick in Jerusalem are crowding to stand in the shadow of the apostles as they once crowded to stand under the shelter of God.',
         },
         {
           kind: 'greek',
@@ -177,7 +177,7 @@ export const ACTS_5: RichChapterContent = {
           kind: 'commentary',
           id: 'acts5-angel-opens',
           html:
-            'In the night, an angel opens the prison doors. The apostles are not told to escape or hide. They are given a charge: &ldquo;Go, stand and speak in the temple to the people all the words of this life.&rdquo; This is not rescue for its own sake. It is a calling back to their post. The apostles are told to return—to the very place, at the very time, when they will face the council again.',
+            'In the night, an angel opens the prison doors[res:bibleodyssey-prison]. The apostles are not told to escape or hide. They are given a charge: &ldquo;Go, stand and speak in the temple to the people all the words of this life.&rdquo; This is not rescue for its own sake. It is a calling back to their post. The apostles are told to return—to the very place, at the very time, when they will face the council again.',
         },
         {
           kind: 'scripture',
@@ -225,7 +225,7 @@ export const ACTS_5: RichChapterContent = {
           kind: 'commentary',
           id: 'acts5-fear',
           html:
-            'The authorities cannot arrest the apostles with force. The people are on their side. So the apostles are brought without violence. And now the high priest poses the question that has been at the center since Acts began: the ban on teaching in the name of Jesus. The apostles have disobeyed a direct command. The high priest is right. And Peter&apos;s answer is simple and absolute.',
+            'The authorities cannot arrest the apostles with force. The people are on their side. So the apostles are brought without violence. And now the high priest[res:bibleodyssey-sanhedrin] poses the question that has been at the center since Acts began: the ban on teaching in the name of Jesus. The apostles have disobeyed a direct command. The high priest is right. And Peter&apos;s answer is simple and absolute.',
         },
         {
           kind: 'scripture',
@@ -293,7 +293,7 @@ export const ACTS_5: RichChapterContent = {
           kind: 'commentary',
           id: 'acts5-gamaliel',
           html:
-            'The council is cut to the heart—not convicted by the gospel, but enraged by the apostles&apos; defiance. They want to put them to death. But then Gamaliel rises. He is a Pharisee, not a Sadducee. He is a doctor of the law, respected by all the people. And he speaks a word that, for all his unbelief, is profoundly wise: &ldquo;Refrain from these men, and let them alone.&rdquo; If their work is merely human, it will fail of its own accord. History is full of movements that flared and died. Theudas rose up with four hundred followers; he was slain, and his movement scattered. Judas of Galilee drew multitudes; he perished, and they scattered too. The test, Gamaliel says, is time. Some movements are of men; some are of God. You cannot always tell immediately. But you can watch.',
+            'The council is cut to the heart—not convicted by the gospel, but enraged by the apostles&apos; defiance. They want to put them to death. But then Gamaliel rises[res:sefaria-gamaliel]. He is a Pharisee, not a Sadducee. He is a doctor of the law, respected by all the people. And he speaks a word that, for all his unbelief, is profoundly wise: &ldquo;Refrain from these men, and let them alone.&rdquo; If their work is merely human, it will fail of its own accord. History is full of movements that flared and died. Theudas rose up with four hundred followers; he was slain, and his movement scattered. Judas of Galilee drew multitudes; he perished, and they scattered too. The test, Gamaliel says, is time. Some movements are of men; some are of God. You cannot always tell immediately. But you can watch.',
         },
         {
           kind: 'greek',
@@ -399,6 +399,41 @@ export const ACTS_5: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Acts 5 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bibleodyssey-lying',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Deception and Lying',
+      url: 'https://www.bibleodyssey.org/dictionary/lying/',
+      description: 'SBL entry on deception in Scripture, covering Ananias and Sapphira and the gravity of lying to the Holy Spirit.',
+    },
+    {
+      id: 'bibleodyssey-sanhedrin',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Sanhedrin',
+      url: 'https://www.bibleodyssey.org/dictionary/sanhedrin/',
+      description: 'The Jewish council before which the apostles stood — its structure, authority, and role in Acts.',
+    },
+    {
+      id: 'bibleodyssey-prison',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Prison and Miraculous Deliverance',
+      url: 'https://www.bibleodyssey.org/dictionary/prison/',
+      description: 'Biblical imprisonment and angelic intervention — the apostles freed from the common prison in Jerusalem.',
+    },
+    {
+      id: 'sefaria-gamaliel',
+      kind: 'archive',
+      source: 'Sefaria',
+      label: 'Rabbinic Sanhedrin Tradition',
+      url: 'https://sefaria.org/Sanhedrin?lang=bi',
+      description: 'Mishnaic and Talmudic texts on the Sanhedrin, providing context for Gamaliel and apostolic judgment.',
+    },
+  ],
 
   hasHebrew: false,
 };
