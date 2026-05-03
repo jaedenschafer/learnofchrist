@@ -72,7 +72,7 @@ export const NUMBERS_20: RichChapterContent = {
           kind: 'commentary',
           id: 'c-zin',
           html:
-            'Zin is the barren place where the people will again demand water. It is forty years after they first left Egypt. A generation has died in the wilderness. The momentum of history is finally catching up.',
+            'Zin is the barren place where the people will again demand water. It is forty years after they first left Egypt. A generation has died in the wilderness. The momentum of history is finally catching up. [res:sefaria-numbers-20]',
         },
         {
           kind: 'hebrew',
@@ -190,7 +190,7 @@ export const NUMBERS_20: RichChapterContent = {
           kind: 'commentary',
           id: 'c-faces',
           html:
-            'Moses does what he has learned to do — he takes the problem to God. He falls on his face before the Lord\'s glory. This moment still shows his reverence, his knowledge that God is the only source. The tragedy is what happens next.',
+            'Moses does what he has learned to do — he takes the problem to God. He falls on his face before the Lord\'s glory. This moment still shows his reverence, his knowledge that God is the only source. The tragedy is what happens next. [res:1-corinthians-10-rock-christ]',
         },
         {
           kind: 'scripture',
@@ -281,7 +281,7 @@ export const NUMBERS_20: RichChapterContent = {
           kind: 'commentary',
           id: 'c-strike',
           html:
-            'Moses does not speak to the rock — he strikes it. Not once, but twice. He strikes it in his anger, the rod coming down twice against the stone. The water comes out abundantly. The people drink. The miracle <em>happens</em> — but the testimony is ruined. God gave water, yes. But the people saw their leader\'s rage first.',
+            'Moses does not speak to the rock — he strikes it. Not once, but twice. He strikes it in his anger, the rod coming down twice against the stone. The water comes out abundantly. The people drink. The miracle <em>happens</em> — but the testimony is ruined. God gave water, yes. But the people saw their leader\'s rage first. [res:meribah-lexicon]',
         },
         {
           kind: 'carry',

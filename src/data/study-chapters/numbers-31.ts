@@ -68,7 +68,7 @@ export const NUMBERS_31: RichChapterContent = {
         },
         {
           kind: 'commentary',
-          id: 'c-divine-word',
+          id: 'c-divine-word', [res:sefaria-numbers-31]',$
           html:
             'The word comes directly from God — not Moses&apos; idea, not Israel&apos;s impulse. The text never frames this as optional or debatable. This is <em>cherem</em>, the language of covenant devotion — total dedication to God&apos;s justice.',
         },
@@ -76,7 +76,7 @@ export const NUMBERS_31: RichChapterContent = {
           kind: 'commentary',
           id: 'c-death-nearby',
           html:
-            'Moses is told to avenge Midian, and then to die. He will not enter Canaan. Judgment begins with the leader. The man who gave the command will not live to see its aftermath. There is a seriousness here about the weight of what God orders.',
+            'Moses is told to avenge Midian, and then to die. He will not enter Canaan. Judgment begins with the leader. The man who gave the command will not live to see its aftermath. There is a seriousness here about the weight of what God orders. [res:balaam-death-fulfillment]',
         },
 
         {
@@ -115,7 +115,7 @@ export const NUMBERS_31: RichChapterContent = {
           kind: 'commentary',
           id: 'c-israel-called',
           html:
-            'Twelve thousand men. One thousand from each of the twelve tribes. The whole nation stands behind this judgment. It is not an elite unit or a revenge militia — it is the covenant people acting as one body, executing what God has ordered.',
+            'Twelve thousand men. One thousand from each of the twelve tribes. The whole nation stands behind this judgment. It is not an elite unit or a revenge militia — it is the covenant people acting as one body, executing what God has ordered. [res:holy-war-conquest]',
         },
         {
           kind: 'hebrew',

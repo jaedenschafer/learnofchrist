@@ -109,7 +109,7 @@ export const NUMBERS_19: RichChapterContent = {
           kind: 'commentary',
           id: 'heifer-outside-camp',
           html:
-            'The heifer is brought outside the camp. It is not sacrificed on the altar of the tabernacle. It is slain in the open air, its entire body burned completely. This outsider status — executed beyond the boundary of the holy community — will echo at Golgotha.',
+            'The heifer is brought outside the camp. It is not sacrificed on the altar of the tabernacle. It is slain in the open air, its entire body burned completely. This outsider status — executed beyond the boundary of the holy community — will echo at Golgotha. [res:sefaria-numbers-19]',
         },
         {
           kind: 'commentary',
@@ -130,7 +130,7 @@ export const NUMBERS_19: RichChapterContent = {
           kind: 'commentary',
           id: 'priest-defiled',
           html:
-            'The priest who burns the heifer becomes unclean. He must wash his clothes and bathe his flesh. Even the priest who gathers the ashes becomes unclean until evening. The one who handles the ritual of purification is defiled by it. This is not accidental. The text repeats it: both the one who burns the heifer and the one who gathers its ashes are unclean. The bearer of the purification becomes the bearer of uncleanness.',
+            'The priest who burns the heifer becomes unclean. He must wash his clothes and bathe his flesh. Even the priest who gathers the ashes becomes unclean until evening. The one who handles the ritual of purification is defiled by it. This is not accidental. The text repeats it: both the one who burns the heifer and the one who gathers its ashes are unclean. The bearer of the purification becomes the bearer of uncleanness. [res:hebrews-9-red-heifer]',
         },
         {
           kind: 'christ',
@@ -182,7 +182,7 @@ export const NUMBERS_19: RichChapterContent = {
           kind: 'commentary',
           id: 'touch-body-unclean',
           html:
-            'Death is contagious in the Law. To touch a dead body is to become unclean for seven days. This is not moral failure; it is ritual fact. The wilderness generation cannot escape death — it surrounds them. But the Law provides a way to be restored to the community even after touching what kills.',
+            'Death is contagious in the Law. To touch a dead body is to become unclean for seven days. This is not moral failure; it is ritual fact. The wilderness generation cannot escape death — it surrounds them. But the Law provides a way to be restored to the community even after touching what kills. [res:bible-odyssey-red-heifer]',
         },
         {
           kind: 'commentary',

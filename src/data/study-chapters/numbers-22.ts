@@ -82,7 +82,7 @@ export const NUMBERS_22: RichChapterContent = {
         },
         {
           kind: 'commentary',
-          id: 'balak-fear',
+          id: 'balak-fear', [res:sefaria-numbers-22]',$
           html:
             'Balak has watched Israel\'s campaign against the Amorites. He knows what Israel has done to the nations that stood in their way. His fear is reasonable by any earthly measure. But fear makes men do desperate things — and Moab\'s desperation leads them to hire a prophet to work against Israel.',
         },
@@ -90,13 +90,13 @@ export const NUMBERS_22: RichChapterContent = {
           kind: 'commentary',
           id: 'company-lick',
           html:
-            'The image is visceral: the whole people swallowing the land whole, like an ox grazing. Balak\'s language shows a man gripped by panic, imagining total annihilation. It is from this terror that he seeks a supernatural answer.',
+            'The image is visceral: the whole people swallowing the land whole, like an ox grazing. Balak\'s language shows a man gripped by panic, imagining total annihilation. It is from this terror that he seeks a supernatural answer. [res:deir-alla-balaam]',
         },
         {
           kind: 'commentary',
           id: 'balaam-curse-plea',
           html:
-            'Balaam was famous throughout the ancient Near East. His name is even found in extra-biblical inscriptions. What made him famous was his power over words — whatever he blessed thrived, whatever he cursed withered. Balak is offering him great wealth to use that power against Israel. The stakes are being set very high, and money is already part of the temptation.',
+            'Balaam was famous throughout the ancient Near East. His name is even found in extra-biblical inscriptions. What made him famous was his power over words — whatever he blessed thrived, whatever he cursed withered. Balak is offering him great wealth to use that power against Israel. The stakes are being set very high, and money is already part of the temptation. [res:jude-11-balaam]',
         },
         {
           kind: 'commentary',

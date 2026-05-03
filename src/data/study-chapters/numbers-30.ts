@@ -73,7 +73,7 @@ export const NUMBERS_30: RichChapterContent = {
         },
         {
           kind: 'commentary',
-          id: 'bond-phrase',
+          id: 'bond-phrase', [res:sefaria-numbers-30]',$
           html:
             'Notice the two-part construction: "vow a vow" and "swear an oath to bind his soul with a bond." The repetition is not accident. The chapter wants you to hear it twice. <em>Vow a vow. Bind your soul.</em> Your words have the power to bind you. Speech is not free; it creates obligation. The moment you speak a promise to God, something shifts. You are no longer free to ignore it.',
         },
@@ -81,7 +81,7 @@ export const NUMBERS_30: RichChapterContent = {
           kind: 'commentary',
           id: 'break-word-commentary',
           html:
-            'The command is absolute: he shall not break his word. Not "he should try not to," not "it is preferable if he doesn&apos;t." <em>He shall not.</em> The grammar admits no exceptions. Once spoken, a vow binds. The person who made it is bound. The person who heard it is bound. Heaven is listening.',
+            'The command is absolute: he shall not break his word. Not "he should try not to," not "it is preferable if he doesn&apos;t." <em>He shall not.</em> The grammar admits no exceptions. Once spoken, a vow binds. The person who made it is bound. The person who heard it is bound. Heaven is listening. [res:sefaria-vows-lexicon]',
         },
         {
           kind: 'christ',
@@ -141,7 +141,7 @@ export const NUMBERS_30: RichChapterContent = {
           kind: 'commentary',
           id: 'father-hears',
           html:
-            'The father "hears" the vow. Not "finds out secretly," but hears—it is brought to his attention openly. On the day he hears it, he has the power to confirm or annul. If he says nothing ("holds his peace"), the vow stands. If he disallows it immediately, it does not stand, and the woman is released. The key is the immediacy: on the day. This is not a door left open forever.',
+            'The father "hears" the vow. Not "finds out secretly," but hears—it is brought to his attention openly. On the day he hears it, he has the power to confirm or annul. If he says nothing ("holds his peace"), the vow stands. If he disallows it immediately, it does not stand, and the woman is released. The key is the immediacy: on the day. This is not a door left open forever. [res:vows-ecclesiastes-intertextual]',
         },
         {
           kind: 'commentary',

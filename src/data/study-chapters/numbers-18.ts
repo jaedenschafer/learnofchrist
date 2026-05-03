@@ -73,7 +73,7 @@ export const NUMBERS_18: RichChapterContent = {
           script: 'אֹהֶל הָעֵדוּת',
           translit: '<strong>ohel ha-eduth</strong> · the tent of testimony',
           description:
-            `The tabernacle is the tent where God's testimony (the law) dwells. It is not merely a building but the place where Heaven and earth meet — where God's will is kept and God's presence hovers.`,
+            'The tabernacle is the tent where God&apos;s testimony (the law) dwells. It is not merely a building but the place where Heaven and earth meet — where God&apos;s will is kept and God&apos;s presence hovers.',
         },
 
         {
@@ -214,7 +214,7 @@ export const NUMBERS_18: RichChapterContent = {
           kind: 'commentary',
           id: 'c-heave-given',
           html:
-            `God does not merely permit the priests to take a portion; He <em>gives</em> the heave offerings to them. The offerings are God's gift to Aaron, not a salary negotiated with Israel. This reverses the normal hierarchy: the priest does not beg sustenance from the people; he receives it from God Himself, distributed through the people's offerings.`,
+            `God does not merely permit the priests to take a portion; He <em>gives</em> the heave offerings to them. The offerings are God's gift to Aaron, not a salary negotiated with Israel. This reverses the normal hierarchy: the priest does not beg sustenance from the people; he receives it from God Himself, distributed through the people's offerings. [res:sefaria-numbers-18]`,
         },
 
         {
@@ -463,7 +463,7 @@ export const NUMBERS_18: RichChapterContent = {
           id: 'c-god-inheritance',
           title: 'Christ Connection — God Himself as Inheritance',
           html:
-            'Aaron is told: "I am thy part and thine inheritance." His sufficiency does not come from land or accumulation; it comes from God Himself. This echoes the psalmist: "The LORD is the portion of mine inheritance and of my cup… the lines are fallen unto me in pleasant places" (Ps. 16:5–6). In Hebrews 7, Jesus is the priest who needs no inheritance in the land because His inheritance is the very presence of God — and through Him, so is ours.',
+            'Aaron is told: "I am thy part and thine inheritance." His sufficiency does not come from land or accumulation; it comes from God Himself. This echoes the psalmist: "The LORD is the portion of mine inheritance and of my cup… the lines are fallen unto me in pleasant places" (Ps. 16:5–6). In Hebrews 7, Jesus is the priest who needs no inheritance in the land because His inheritance is the very presence of God — and through Him, so is ours. [res:hebrews-7-melchizedek-priest]',
         },
 
         {
@@ -513,7 +513,7 @@ export const NUMBERS_18: RichChapterContent = {
           kind: 'commentary',
           id: 'c-levi-tenth',
           html:
-            'Israel gives one-tenth of all increase — grain, wine, livestock — to the Levites. The Levites own no land, so the land-holders must feed them. This is the system: those with land holdings support those who have been called to service.',
+            'Israel gives one-tenth of all increase — grain, wine, livestock — to the Levites. The Levites own no land, so the land-holders must feed them. This is the system: those with land holdings support those who have been called to service. [res:1-corinthians-9-gospel-support]',
         },
 
         {

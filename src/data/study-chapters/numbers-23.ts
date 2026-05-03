@@ -67,7 +67,7 @@ export const NUMBERS_23: RichChapterContent = {
         },
         {
           kind: 'commentary',
-          id: 'c-altars',
+          id: 'c-altars', [res:sefaria-numbers-23]',$
           html:
             'Balaam builds seven altars—a full number, a complete number. He performs the ritual actions that belong to blessing, not cursing. But here is the deep irony: Balaam does not control what God will do. He can build the altar, but he cannot build the word. God alone speaks the blessing.',
         },
@@ -75,7 +75,7 @@ export const NUMBERS_23: RichChapterContent = {
           kind: 'commentary',
           id: 'c-the-lord',
           html:
-            'Balaam is hired to curse, yet he seeks God with the language of divination—waiting for the LORD to meet him, to reveal His will. Balaam is more pious than his employer wants. He cannot force God to cooperate with human plans.',
+            'Balaam is hired to curse, yet he seeks God with the language of divination—waiting for the LORD to meet him, to reveal His will. Balaam is more pious than his employer wants. He cannot force God to cooperate with human plans. [res:sefaria-balaam-oracles]',
         },
 
         {
@@ -411,7 +411,7 @@ export const NUMBERS_23: RichChapterContent = {
           kind: 'commentary',
           id: 'c-voice',
           html:
-            `One of the hardest truths in Numbers 23 is that the voice most likely to curse you is your own. You will tell yourself you are not blessed. You will rehearse your failures, your sins, your unworthiness. But Balaam teaches us: your voice cannot reverse God\'s blessing. The commandment to bless has already been given. You cannot undo what God has declared.`,
+            `One of the hardest truths in Numbers 23 is that the voice most likely to curse you is your own. You will tell yourself you are not blessed. You will rehearse your failures, your sins, your unworthiness. But Balaam teaches us: your voice cannot reverse God\'s blessing. The commandment to bless has already been given. You cannot undo what God has declared. [res:balaam-blessing-intertextual]`,
         },
         {
           kind: 'carry',

@@ -91,7 +91,7 @@ export const NUMBERS_17: RichChapterContent = {
           kind: 'commentary',
           id: 'c-murmuring',
           html:
-            'The Israelites have been murmuring — grumbling that Moses and Aaron took too much authority upon themselves. God will answer not with a voice or a sign in the sky, but with something growing. With <em>life.</em> Life itself will be the argument.',
+            'The Israelites have been murmuring — grumbling that Moses and Aaron took too much authority upon themselves. God will answer not with a voice or a sign in the sky, but with something growing. With <em>life.</em> Life itself will be the argument. [res:sefaria-numbers-17]',
         },
       ],
     },
@@ -142,7 +142,7 @@ export const NUMBERS_17: RichChapterContent = {
           id: 'c-budded-blossomed',
           title: 'Christ Connection — The Dead Rod That Bears Fruit',
           html:
-            'Hebrews 9:4 lists the contents of the ark of the covenant: "the golden pot that had manna, and Aaron\'s rod that budded." The rod itself — dead wood, inert, powerless — becomes the sign. In Romans 1:4, Paul says Jesus was "declared to be the Son of God with power... by the resurrection from the dead." The dead rod bearing fruit is the resurrection compressed into an image. Christ\'s body in the tomb, lifeless. Then life — budding, blooming, fruit — all at once, all undeniable. The whole logic of the cross lives in this single image.',
+            'Hebrews 9:4 lists the contents of the ark of the covenant: "the golden pot that had manna, and Aaron\'s rod that budded." The rod itself — dead wood, inert, powerless — becomes the sign. In Romans 1:4, Paul says Jesus was "declared to be the Son of God with power... by the resurrection from the dead." The dead rod bearing fruit is the resurrection compressed into an image. Christ\'s body in the tomb, lifeless. Then life — budding, blooming, fruit — all at once, all undeniable. The whole logic of the cross lives in this single image. [res:hebrews-9-aaron-rod]',
         },
         {
           kind: 'hebrew',
@@ -157,7 +157,7 @@ export const NUMBERS_17: RichChapterContent = {
           kind: 'commentary',
           id: 'c-fruit-stages',
           html:
-            'All three stages are visible: <em>buds, blooms, and almonds.</em> It is not just the budding that matters, though that is already miraculous. The progression all the way to fruit — to what can be eaten, what can be planted again, what can bear more life — that is what silences the murmuring.',
+            'All three stages are visible: <em>buds, blooms, and almonds.</em> It is not just the budding that matters, though that is already miraculous. The progression all the way to fruit — to what can be eaten, what can be planted again, what can bear more life — that is what silences the murmuring. [res:sefaria-almond-rod]',
         },
       ],
     },
