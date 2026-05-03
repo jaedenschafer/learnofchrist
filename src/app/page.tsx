@@ -35,20 +35,9 @@ const IMG = {
 
 export default async function Home() {
   const blogPosts = getAllBlogPosts().slice(0, 4);
-  // One curated art query feeds both "Today" cards and the arches band.
-  // Pulling from getCuratedHighlights guarantees no manuscript folios
-  // surface anywhere on the home page.
-  const highlightArt = await getCuratedHighlights(30);
-  const featuredArt =
-    highlightArt.find((a) => /tissot|creation/i.test(a.title)) ||
-    highlightArt[0] ||
-    null;
-  const secondaryArt =
-    highlightArt.find((a) => featuredArt && a.id !== featuredArt.id) || null;
-  const usedIds = new Set(
-    [featuredArt?.id, secondaryArt?.id].filter(Boolean) as string[],
-  );
-  const archArt = highlightArt.filter((a) => !usedIds.has(a.id));
+  // Curated art feeds the arches band (the gallery preview row above).
+  // No manuscript folios — see getCuratedHighlights for the filter.
+  const archArt = await getCuratedHighlights(30);
 
   return (
     <>
@@ -119,84 +108,7 @@ export default async function Home() {
       {/* ═══════════ 2. Continue reading rail — only renders if state ═══════════ */}
       <ContinueReading />
 
-      {/* ═══════════ 3. From the gallery ═══════════ */}
-      <section className="loc-today">
-        <div className="loc-wrap">
-          <p className="loc-eyebrow loc-today__eyebrow">From the gallery</p>
-          <div className="loc-today__grid">
-            {/* Featured painting */}
-            {featuredArt ? (
-              <Link
-                href={`/art/artwork/${featuredArt.slug}`}
-                className="loc-today-card loc-today-card--feature"
-              >
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src={featuredArt.image_url || featuredArt.thumbnail_url || ''}
-                  alt=""
-                  className="loc-today-card__bg"
-                  loading="lazy"
-                />
-                <div className="loc-today-card__veil" aria-hidden="true" />
-                <div className="loc-today-card__body">
-                  <p className="loc-today-card__kicker">Today&rsquo;s painting</p>
-                  <h3 className="loc-today-card__title">{featuredArt.title}</h3>
-                  {featuredArt.artist && (
-                    <p className="loc-today-card__sub">
-                      {featuredArt.artist.name}
-                      {featuredArt.year ? ` · ${featuredArt.year}` : ''}
-                    </p>
-                  )}
-                </div>
-                <span className="loc-today-card__cta" aria-hidden="true">
-                  <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" aria-hidden="true">
-                    <path d="M5 12h14M13 6l6 6-6 6" />
-                  </svg>
-                  View
-                </span>
-              </Link>
-            ) : null}
-
-            {/* Secondary painting or gallery CTA */}
-            {secondaryArt ? (
-              <Link
-                href={`/art/artwork/${secondaryArt.slug}`}
-                className="loc-today-card loc-today-card--small"
-              >
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src={secondaryArt.image_url || secondaryArt.thumbnail_url || ''}
-                  alt=""
-                  className="loc-today-card__bg"
-                  loading="lazy"
-                />
-                <div className="loc-today-card__veil" aria-hidden="true" />
-                <div className="loc-today-card__body">
-                  <p className="loc-today-card__kicker">Also on view</p>
-                  <h3 className="loc-today-card__title loc-today-card__title--small">
-                    {secondaryArt.title}
-                  </h3>
-                  {secondaryArt.artist && (
-                    <p className="loc-today-card__sub">{secondaryArt.artist.name}</p>
-                  )}
-                </div>
-              </Link>
-            ) : (
-              <Link href="/art" className="loc-today-card loc-today-card--small loc-today-card--text">
-                <div className="loc-today-card__body">
-                  <p className="loc-today-card__kicker">Browse the library</p>
-                  <h3 className="loc-today-card__title loc-today-card__title--small">
-                    A thousand sacred works, indexed by passage.
-                  </h3>
-                  <p className="loc-today-card__sub">Open the gallery.</p>
-                </div>
-              </Link>
-            )}
-          </div>
-        </div>
-      </section>
-
-      {/* ═══════════ 4. Mission — one declarative line ═══════════ */}
+      {/* ═══════════ 3. Mission — one declarative line ═══════════ */}
       <section className="loc-mission">
         <div className="loc-wrap loc-mission__inner">
           <p className="loc-eyebrow">The mission</p>

@@ -2007,111 +2007,114 @@ html[data-reader-theme="dark"] .resume-btn:hover { background: rgba(255, 255, 25
 }
 
 /* ── Continue reading widget (home) ── */
+/* ─── Continue Reading rail — Vesper Frost ──────────────────────────────
+   Same frosted-glass material as every other home-page card. Reads from
+   the --frost-* tokens at :root, so it adapts to whatever context it's
+   in: white-on-frost on photo sections, dark-on-frost on parchment. */
+
 .continue-reading {
-  margin-top: 0.5rem;
-  margin-bottom: 1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
 }
 .continue-reading-head {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
-  margin-bottom: 0.5rem;
-  padding: 0 0.15rem;
+  margin-bottom: 0.65rem;
+  padding: 0 0.25rem;
 }
 .continue-reading-eyebrow {
-  font-size: 11px;
+  font-size: 0.6875rem;
   font-weight: 700;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: #007AFF;
+  color: var(--vesper-gold);
 }
 .continue-reading-more {
-  font-size: 12px;
+  font-size: 0.8125rem;
   font-weight: 600;
-  color: #86868B;
+  color: var(--frost-text-soft);
   text-decoration: none;
+  transition: color 0.18s ease;
 }
-.continue-reading-more:hover { color: #007AFF; }
+.continue-reading-more:hover { color: var(--frost-text); }
 
 .continue-reading-card {
   display: block;
-  background: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.05);
+  background: var(--frost-tint-card);
+  -webkit-backdrop-filter: var(--frost-blur-card);
+  backdrop-filter: var(--frost-blur-card);
+  border: 1px solid var(--frost-border-card);
   border-radius: 22px;
-  padding: 1.1rem 1.25rem 1rem;
+  padding: 1.25rem 1.4rem 1.1rem;
   text-decoration: none;
-  transition: transform 0.15s, border-color 0.15s, box-shadow 0.15s;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
+  color: var(--frost-text);
+  box-shadow: var(--frost-shadow);
+  transition: background 0.2s ease, border-color 0.2s ease, filter 0.2s ease, transform 0.18s cubic-bezier(0.2, 0.7, 0.2, 1);
 }
 .continue-reading-card:hover {
-  transform: translateY(-1px);
-  border-color: rgba(0, 122, 255, 0.2);
-  box-shadow: 0 4px 14px rgba(0, 122, 255, 0.08);
+  background: var(--frost-tint-hover);
+  border-color: rgba(255, 255, 255, 0.40);
+  filter: brightness(1.04);
+  transform: scale(1.005);
 }
 .continue-reading-card-head { margin-bottom: 0.65rem; }
 .continue-reading-label {
   display: inline-block;
-  background: rgba(88, 86, 214, 0.12);
-  color: #5856D6;
-  font-size: 10px;
+  background: color-mix(in srgb, var(--vesper-gold) 18%, transparent);
+  color: var(--vesper-gold);
+  font-size: 0.625rem;
   font-weight: 700;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
-  padding: 3px 8px;
-  border-radius: 8px;
-  margin-bottom: 0.45rem;
+  padding: 3px 9px;
+  border-radius: 999px;
+  margin-bottom: 0.55rem;
 }
 .continue-reading-title {
-  font-size: 18px;
-  font-weight: 700;
-  color: #1D1D1F;
-  margin: 0 0 3px;
+  font-family: 'EB Garamond', 'New York', Georgia, serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: var(--frost-text);
+  margin: 0 0 0.2rem;
   letter-spacing: -0.005em;
 }
 .continue-reading-meta {
-  font-size: 12.5px;
-  color: #86868B;
+  font-size: 0.8125rem;
+  color: var(--frost-text-soft);
   margin: 0;
 }
 .continue-reading-bar {
   height: 4px;
-  background: rgba(0, 0, 0, 0.06);
+  background: color-mix(in srgb, var(--frost-text) 12%, transparent);
   border-radius: 2px;
   overflow: hidden;
-  margin-bottom: 0.7rem;
+  margin: 0.85rem 0 0.7rem;
 }
 .continue-reading-bar-fill {
   height: 100%;
-  background: linear-gradient(90deg, #007AFF, #5856D6);
+  background: linear-gradient(90deg, var(--vesper-peach), var(--vesper-gold));
   border-radius: 2px;
   transition: width 0.35s ease-out;
 }
 .continue-reading-foot {
   display: flex;
   align-items: center;
-  gap: 0.55rem;
-  font-size: 12px;
-  color: #86868B;
+  gap: 0.6rem;
+  font-size: 0.75rem;
+  color: var(--frost-text-soft);
 }
-.continue-reading-stat strong { color: #1D1D1F; font-weight: 700; }
+.continue-reading-stat strong { color: var(--frost-text); font-weight: 700; }
 .continue-reading-dot {
   width: 3px; height: 3px;
   border-radius: 50%;
-  background: #D1D1D6;
+  background: color-mix(in srgb, var(--frost-text) 22%, transparent);
 }
 .continue-reading-cta {
   margin-left: auto;
   font-weight: 600;
-  color: #007AFF;
+  color: var(--vesper-gold);
 }
-
-html[data-reader-theme="dark"] .continue-reading-card {
-  background: #18181C;
-  border-color: rgba(255, 255, 255, 0.06);
-}
-html[data-reader-theme="dark"] .continue-reading-title { color: #F5F5F7; }
-html[data-reader-theme="dark"] .continue-reading-stat strong { color: #F5F5F7; }
-html[data-reader-theme="dark"] .continue-reading-bar { background: rgba(255,255,255,0.08); }
 
 /* ── Progress dashboard ── */
 .progress-dash { font-family: var(--font-sans, system-ui); }
