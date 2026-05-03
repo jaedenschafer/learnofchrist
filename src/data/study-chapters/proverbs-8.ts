@@ -124,8 +124,8 @@ export const PROVERBS_8: RichChapterContent = {
         },
         {
           kind: 'commentary',
-          id: 'prov8-eternal-wisdom',
-          html: 'Wisdom claims existence before creation itself. She was not invented or conceived by human thought. She was "possessed" by God "in the beginning"—set up from everlasting, before the earth existed, before the depths or fountains were formed. When God prepared the heavens, marked the foundations of the earth, established the clouds and fountains—wisdom was there. She is woven into the fabric of creation from the ground up.',
+          id: 'prov8-cosmic-eternal',
+          html: 'Wisdom claims cosmic existence before creation itself, present at every moment God ordered the heavens and established the foundations of the earth—woven into reality&apos;s very fabric.',
         },
         {
           kind: 'scripture',

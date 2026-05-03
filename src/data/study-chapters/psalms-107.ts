@@ -36,6 +36,18 @@ export const PSALMS_107: RichChapterContent = {
             plain(6, 'Then they cried unto the Lord in their trouble: and he delivered them out of their distresses.'),
             plain(8, 'Oh that men would praise the Lord for his goodness, and for his wonderful works to the children of men!'),
             plain(10, 'Such as sit in darkness and in the shadow of death, being bound in affliction and iron;'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ps107-lostness-to-captivity',
+          html:
+            'The first scene—wanderers lost in the wilderness—concludes with deliverance and the call to give thanks. Now the second scene begins: captives in darkness and chains. Each subsequent scene will repeat the same pattern: deepening trouble, desperate prayer, and God&apos;s saving response.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 107,
+          lines: [
             plain(13, 'Then they cried unto the Lord in their trouble: and he saved them out of their distresses.'),
             plain(17, 'Fools because of their transgression, and because of their iniquities, are afflicted.'),
             plain(19, 'Then they cry unto the Lord in their trouble, and he saveth them out of their distresses.'),

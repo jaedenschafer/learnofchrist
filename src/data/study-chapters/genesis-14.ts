@@ -112,6 +112,18 @@ export const GENESIS_14: RichChapterContent = {
                 t('And they returned, and came to En-mishpat, which is Kadesh, and smote all the country of the Amalekites, and also the Amorites, that dwelt in Hazezon-tamar.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'gen14-conquest-pivot',
+          html:
+            'Chedorlaomer sweeps through the ancient world—Rephaim, Zuzim, Emim, Horites, Amalekites, Amorites—a crescendo of conquest. But now he returns to the heart of the conflict. The five kings of Canaan rise to meet him. The battlefield is the vale of Siddim. Lot, living in Sodom, has no idea his fate hangs in the balance. What matters now is not the great king&apos;s power, but one man&apos;s willingness to act.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 14,
+          lines: [
             {
               number: 8,
               spans: [

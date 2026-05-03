@@ -37,6 +37,18 @@ export const ISAIAH_48: RichChapterContent = {
             plain(4, 'Because I knew that thou art obstinate, and thy neck is an iron sinew, and thy brow brass;'),
             plain(5, 'Therefore I have told thee from the beginning; before it came to pass I shewed it thee: lest thou shouldest say, Mine idol hath done them, and my graven image, and my molten image, hath commanded them.'),
             plain(6, 'Thou hast heard, see all this; and will not ye declare it? I have shewed thee new things from this time, even hidden things, and thou didst not know them.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isaiah48-hidden-things',
+          html:
+            'God reveals what was hidden, showing things Israel never knew. Yet even faced with proof of God&apos;s knowledge and power, the people remain obstinate. The tone shifts now to Israel&apos;s profound refusal to hear and the graciousness God shows despite their treachery.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 48,
+          lines: [
             plain(7, 'They are created now, and not from the beginning; even before the day when thou heardest them not; lest thou shouldest say, Behold, I knew them.'),
             plain(8, 'Yea, thou heardest not; yea, thou knewest not; yea, from that time that thine ear was not opened: for I knew that thou wouldest deal very treacherously, and wast called a transgressor from the womb.'),
             plain(9, 'For my name&apos;s sake will I defer mine anger, and for my praise will I refrain for thee, that I cut thee not off.'),

@@ -36,6 +36,18 @@ export const ISAIAH_22: RichChapterContent = {
             plain(5, 'For it is a day of trouble, and of treading down, and of perplexity by the Lord God of hosts in the valley of vision, breaking down the walls, and of crying to the mountains.'),
             plain(6, 'And Elam bare the quiver with chariots of men and horsemen, and Kir uncovered the shield.'),
             plain(7, 'And it shall come to pass, that thy choicest valleys shall be full of chariots, and the horsemen shall set themselves in array at the gate.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isaiah22-siege-blindness',
+          html:
+            'The panic is palpable: the ruler fled, the city exposed, enemies approaching. Yet the blindness is spiritual. They see the siege but not the Maker. They plan defense but forget Deliverer. Isaiah pivots from describing the siege to describing the people&apos;s failure to look to God.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 22,
+          lines: [
             plain(8, 'And he discovered the covering of Judah, and thou didst look in that day to the armour of the house of the forest.'),
             plain(9, 'And ye have seen the breaches of the city of David, that they are many: and ye gathered together the waters of the lower pool.'),
             plain(10, 'And ye numbered the houses of Jerusalem, and the houses ye broke down to fortify the wall.'),

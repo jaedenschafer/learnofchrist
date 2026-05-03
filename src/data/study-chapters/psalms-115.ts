@@ -37,6 +37,18 @@ export const PSALMS_115: RichChapterContent = {
             plain(6, 'They have ears, but they hear not: noses have they, but they smell not:'),
             plain(7, 'They have hands, but they handle not: feet have they, but they walk not: neither speak they through their throat.'),
             plain(8, 'They that make them are like unto them; so is every one that trusteth in them.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ps115-maker-to-trust',
+          html:
+            'The contrast between God and the idols has been drawn: those who make false gods become like them—lifeless and powerless. Now the response shifts from the problem of idolatry to the call of true trust. Those who trust the living God find help and shield; those who make and worship idols become like the nothings they worship.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 115,
+          lines: [
             plain(9, 'O Israel, trust thou in the Lord: he is their help and their shield.'),
             plain(11, 'Ye that fear the Lord, trust in the Lord: he is their help and their shield.'),
             plain(12, 'The Lord hath been mindful of us: he will bless us: he will bless the house of Israel; he will bless them that fear the Lord, both small and great.'),

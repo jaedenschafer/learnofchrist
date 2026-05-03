@@ -38,6 +38,18 @@ export const JEREMIAH_6: RichChapterContent = {
             plain(4, 'Prepare ye war against her; arise, and let us go up at noon. Woe unto us! for the day goeth away, for the shadows of the evening are stretched out.'),
             plain(5, 'Arise, and let us go by night, and let us destroy her palaces.'),
             plain(6, 'For thus hath the Lord of hosts said, Hew ye down trees, and cast a mount against Jerusalem: this is the city to be visited; she is wholly oppression in the midst of her.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'jer6-siege-call',
+          html:
+            'The army approaches—they will pitch tents, feed on what they find. "She is wholly oppression"—God Himself permits the siege. Now the pivot: from siege language to God&apos;s appeal.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 6,
+          lines: [
             plain(7, 'As a fountain casteth out her waters, so she casteth out her wickedness: violence and spoil is heard in her; before me continually is grief and wounds.'),
             plain(8, 'Be thou instructed, O Jerusalem, lest my soul depart from thee; lest I make thee desolate, a land not inhabited.'),
             plain(9, 'Thus saith the Lord of hosts, They shall thoroughly glean the remnant of Israel as a vine: turn back thine hand as a grapegatherer into the baskets.'),

@@ -37,6 +37,17 @@ export const ECCLESIASTES_1: RichChapterContent = {
             plain(4, 'One generation passeth away, and another generation cometh: but the earth abideth for ever.'),
             plain(5, 'The sun also ariseth, and the sun goeth down, and hasteth to his place where he arose.'),
             plain(6, 'The wind goeth toward the south, and turneth about unto the north; it whirleth about continually, and the wind returneth again according to his circuits.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ecc1-cycles-observe',
+          html: 'The Preacher observes the cycles of nature—sun, wind, generations—all returning upon themselves in endless repetition, yet accomplishing nothing new.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
             plain(7, 'All the rivers run into the sea; yet the sea is not full; unto the place from whence the rivers come, thither they return again.'),
             plain(8, 'All things are full of labour; man is not able to utter it: the eye is not satisfied with seeing, nor the ear filled with hearing.'),
             plain(9, 'The thing that hath been, it is that which shall be; and that which is done is that which shall be done: and there is no new thing under the sun.'),

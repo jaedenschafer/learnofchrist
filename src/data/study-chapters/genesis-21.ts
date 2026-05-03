@@ -284,6 +284,18 @@ export const GENESIS_21: RichChapterContent = {
                 t('Arise, lift up the lad, and hold him in thine hand; for I will make him a great nation.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'gen21-angel-promise',
+          html:
+            'In the moment of despair, when death seems certain, the angel of God speaks: &ldquo;Fear not; for God hath heard the voice of the lad.&rdquo; The boy&apos;s name—Ishmael, &ldquo;God hears&rdquo;—is not just a name. It is a promise kept at the very edge of the grave. The angel tells Hagar to rise, to lift up the boy, because a great nation will come from him. The promise of God extends even to the cast-out, even to the discarded, even in the wilderness.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 21,
+          lines: [
             {
               number: 19,
               spans: [

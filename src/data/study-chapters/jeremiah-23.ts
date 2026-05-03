@@ -185,6 +185,18 @@ export const JEREMIAH_23: RichChapterContent = {
                 t('Therefore thus saith the Lord of hosts concerning the prophets; Behold, I will feed them with wormwood, and make them drink the water of gall: for from the prophets of Jerusalem is profaneness gone forth into all the land.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'jer23-prophet-judgment-to-false-peace',
+          html:
+            'Judgment has fallen on those who speak from their own hearts and deceive the people. Now the focus turns to the false prophets&apos; deadly message: peace where there should be warning, safety where danger approaches. They rob the people of the only wisdom that could save them.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 23,
+          lines: [
             {
               number: 16,
               spans: [

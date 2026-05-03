@@ -37,6 +37,17 @@ export const PROVERBS_11: RichChapterContent = {
             plain(6, 'The righteousness of the upright shall deliver them: but transgressors shall be taken in their own naughtiness.'),
             plain(7, 'When a wicked man dieth, his expectation shall perish: and the hope of unjust men perisheth.'),
             plain(8, 'The righteous is delivered out of trouble, and the wicked cometh in his stead.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov11-righteousness-delivers',
+          html: 'Eight sayings establish the moral order: pride brings shame, integrity guides, righteousness delivers, wickedness destroys itself—and the righteous are delivered from trouble.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 11,
+          lines: [
             plain(9, 'An hypocrite with his mouth destroyeth his neighbour: but through knowledge shall the just be delivered.'),
             plain(10, 'When it goeth well with the righteous, the city rejoiceth: and when the wicked perish, there is shouting.'),
             plain(11, 'By the blessing of the upright the city is exalted: but it is overthrown by the mouth of the wicked.'),

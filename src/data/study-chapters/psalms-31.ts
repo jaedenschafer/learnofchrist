@@ -33,6 +33,18 @@ export const PSALMS_31: RichChapterContent = {
             plain(2, 'Bow down thine ear to me; deliver me speedily: be thou my strong rock, for an house of defence to preserve me.'),
             plain(5, 'Into thine hand I commit my spirit: thou hast redeemed me, O Lord God of truth.'),
             plain(7, 'I will be glad and rejoice in thy mercy: for thou hast considered my trouble; thou hast known my soul in adversities.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms31-trust-to-adversity',
+          html:
+            'From the opening commitment to trust comes the assurance that God knows the psalmist&apos;s soul—not in abstract form, but in the concrete reality of adversities suffered. The turning point: from trust declaration to the lived experience of God&apos;s intimate knowledge through our deepest pain.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 31,
+          lines: [
             plain(9, 'Have mercy upon me, O Lord, for I am in trouble: mine eye is consumed with grief, yea, my soul and my belly.'),
             plain(10, 'For my life is spent with grief, and my years with sighing: my strength faileth because of mine iniquity, and my bones are consumed.'),
             plain(14, 'But I trusted in thee, O Lord: I said, Thou art my God.'),

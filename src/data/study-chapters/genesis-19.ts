@@ -251,6 +251,18 @@ export const GENESIS_19: RichChapterContent = {
                 t('; the LORD being merciful unto him: and they brought him forth, and set him without the city.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'gen19-grace-grasps',
+          html:
+            'Grace reaches down and grasps. Lot does not flee on his own strength; the angels lay hold upon his hand, upon his wife&apos;s hand, upon the hands of his daughters. He is weak. He lingers. He cannot move without being pulled. And the text names what happens: the LORD being merciful unto him. Mercy is not the absence of urgency—it is hands reaching down when someone cannot save themselves.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 19,
+          lines: [
             {
               number: 17,
               spans: [

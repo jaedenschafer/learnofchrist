@@ -290,6 +290,24 @@ export const DEUTERONOMY_9: RichChapterContent = {
                 t('So I turned and came down from the mount, and the mount burned with fire: and the two tables of the covenant were in my two hands.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'c-covenant-tablets',
+          html:
+            'Moses is on the mountain for forty days and nights, receiving the covenant written by God&apos;s finger on tablets of stone. No food, no water. He is entirely focused on receiving the word. And while he is there, the people below are worshiping a calf. The contrast could not be starker: covenant above, idolatry below. Faithfulness on one side, rebellion on the other.',
+        },
+        {
+          kind: 'commentary',
+          id: 'deut9-law-received-calf-worship',
+          html:
+            'Moses descends from the mount carrying the covenant tablets, the mount burning with fire, his face shining with the presence of God. And what awaits him at the base? Idolatry. The law written in stone is about to meet the golden calf. The moment of law-giving collides with the moment of law-breaking.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 9,
+          lines: [
             {
               number: 16,
               spans: [
@@ -327,12 +345,6 @@ export const DEUTERONOMY_9: RichChapterContent = {
               ],
             },
           ],
-        },
-        {
-          kind: 'commentary',
-          id: 'c-covenant-tablets',
-          html:
-            'Moses is on the mountain for forty days and nights, receiving the covenant written by God&apos;s finger on tablets of stone. No food, no water. He is entirely focused on receiving the word. And while he is there, the people below are worshiping a calf. The contrast could not be starker: covenant above, idolatry below. Faithfulness on one side, rebellion on the other.',
         },
         {
           kind: 'commentary',

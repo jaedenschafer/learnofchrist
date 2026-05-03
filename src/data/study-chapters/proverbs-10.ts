@@ -38,6 +38,17 @@ export const PROVERBS_10: RichChapterContent = {
             plain(6, 'Blessings are upon the head of the just: but violence covereth the mouth of the wicked.'),
             plain(7, 'The memory of the just is blessed: but the name of the wicked shall rot.'),
             plain(8, 'The wise in heart will receive commandments: but a prating fool shall fall.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov10-character-consequence',
+          html: 'The opening proverbs cluster around a single axis: character and consequence. A wise son brings joy; a foolish son brings grief. Righteousness delivers; wickedness destroys itself. The hand that works grows rich; the hand that slacks grows poor. The just are blessed; the wicked have violence. What you are, the world reflects back to you. Action and reaction are one.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 10,
+          lines: [
             plain(9, 'He that walketh uprightly walketh surely: but he that perverteth his ways shall be known.'),
             plain(10, 'He that winketh with the eye causeth sorrow: but a prating fool shall fall.'),
             plain(11, 'The mouth of a righteous man is a well of life: but violence covereth the mouth of the wicked.'),

@@ -342,4 +342,41 @@ export const LEVITICUS_3: RichChapterContent = {
       ],
     },
   ],
+
+  bottomShare: {
+    label: 'Share Leviticus 3',
+    quote:
+      'The peace offering is communion with God—fat offered, blood poured, and the meat shared at God\'s table. Shalom comes through fellowship, not distance.',
+    snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
+    ref: 'Leviticus 3 · Study Guide',
+  },
+
+  resources: [
+    {
+      id: 'sbl-peace-offering',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Peace Offerings and Communion in Ancient Israel',
+      url: 'https://www.bibleodyssey.org/en/passages/article/peace-offerings-in-ancient-israel',
+      description: 'Study of shelamim offerings, their role in covenant renewal, and the theology of God\'s table fellowship with His people.',
+    },
+    {
+      id: 'sefaria-fat-blood-covenant',
+      kind: 'archive',
+      source: 'Sefaria',
+      label: 'Fat and Blood Prohibitions in Rabbinical Interpretation',
+      url: 'https://www.sefaria.org/Leviticus.3',
+      description: 'Traditional Jewish commentary on the sacred reserves of fat and blood, and their significance in God\'s covenant relationship.',
+    },
+    {
+      id: 'intertextual-eucharist-blood',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Matthew 26:28 — The New Covenant in Blood',
+      url: 'https://intertextual.logos.com/',
+      description: 'Cross-references linking the peace offering\'s blood covenant to Christ\'s Eucharistic language and the new covenant meal.',
+    },
+  ],
+
+  hasHebrew: true,
 };

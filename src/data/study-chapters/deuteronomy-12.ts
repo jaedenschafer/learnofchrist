@@ -271,6 +271,33 @@ export const DEUTERONOMY_12: RichChapterContent = {
                 t('Take heed to thyself that thou forsake not the Levite as long as thou livest upon the earth.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'deut-blessing',
+          html:
+            'Moses makes a distinction: you may eat ordinary flesh in your own towns, whatever you want, as long as God has blessed you with enough. This is not all eating sacred. Only the tithe, the vow, the firstling brought to the Lord&apos;s chosen place carries that weight.',
+        },
+        {
+          kind: 'hebrew',
+          id: 'hebrew-dam',
+          title: 'Dam — &ldquo;blood&rdquo;',
+          script: 'דָּם',
+          translit: '<strong>dam</strong> · blood, life-force',
+          description:
+            'In Hebrew thought, the blood is not a byproduct. It is the essence of life itself. To shed blood is to release life. God reserves the right to receive it back at the altar.',
+        },
+        {
+          kind: 'commentary',
+          id: 'deut12-sacred-ordinary-divide',
+          html:
+            'A clear boundary separates what is sacred from what is ordinary. Ordinary flesh can be eaten anywhere with the blood poured out, but the tithe, vows, and firstlings must journey to the place God chooses. Sacred things stay sacred and do not blend with the everyday.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 12,
+          lines: [
             {
               number: 20,
               spans: [
@@ -332,21 +359,6 @@ export const DEUTERONOMY_12: RichChapterContent = {
               ],
             },
           ],
-        },
-        {
-          kind: 'commentary',
-          id: 'deut-blessing',
-          html:
-            'Moses makes a distinction: you may eat ordinary flesh in your own towns, whatever you want, as long as God has blessed you with enough. This is not all eating sacred. Only the tithe, the vow, the firstling brought to the Lord&apos;s chosen place carries that weight.',
-        },
-        {
-          kind: 'hebrew',
-          id: 'hebrew-dam',
-          title: 'Dam — &ldquo;blood&rdquo;',
-          script: 'דָּם',
-          translit: '<strong>dam</strong> · blood, life-force',
-          description:
-            'In Hebrew thought, the blood is not a byproduct. It is the essence of life itself. To shed blood is to release life. God reserves the right to receive it back at the altar.',
         },
         {
           kind: 'commentary',

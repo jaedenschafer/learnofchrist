@@ -39,6 +39,18 @@ export const JOEL_2: RichChapterContent = {
             plain(4, 'The appearance of them is as the appearance of horses; and as horsemen, so shall they run.'),
             plain(5, 'Like the noise of chariots on the tops of mountains shall they leap, like the noise of a flame of fire that devoureth the stubble, as a strong people set in battle array.'),
             plain(6, 'Before their face the people shall be much pained: all faces shall gather blackness.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'joel2-horror-to-judgment',
+          html:
+            'The picture of destruction is relentless—faces gather blackness, none can stand. But this horror is not the final word. God speaks. His voice utters before His army. The terrible day is coming, yet it is the day of the Lord, a day of judgment and ultimately redemption for those who turn.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 2,
+          lines: [
             plain(7, 'They shall run like mighty men; they shall climb the wall like men of war; and they shall march every one on his ways, and they shall not break their ranks:'),
             plain(8, 'Neither shall one thrust another; they shall walk every one in his path: and when they fall upon the sword, they shall not be wounded.'),
             plain(9, 'They shall run to and fro in the city; they shall run upon the wall, they shall climb up upon the houses; they shall enter in at the windows like a thief.'),

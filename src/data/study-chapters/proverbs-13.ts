@@ -36,6 +36,17 @@ export const PROVERBS_13: RichChapterContent = {
             plain(5, 'A righteous man hateth lying: but a wicked man is loathsome, and cometh to shame.'),
             plain(6, 'Righteousness keepeth him that is upright in the way: but wickedness overthroweth the sinner.'),
             plain(7, 'There is that maketh himself rich, yet hath nothing: there is that maketh himself poor, yet hath great riches.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov13-instruction-obedience',
+          html: 'A wise son receives instruction; a scorner rejects rebuke. Righteousness keeps the upright; wickedness overthrows the sinner. The heart desires wisdom, but only the diligent are satisfied.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 13,
+          lines: [
             plain(8, 'The ransom of a man&apos;s life are his riches: but the poor heareth not rebuke.'),
             plain(9, 'The light of the righteous rejoiceth: but the lamp of the wicked shall be put out.'),
             plain(10, 'Only by pride cometh contention: but with the well advised is wisdom.'),

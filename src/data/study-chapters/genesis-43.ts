@@ -172,6 +172,18 @@ export const GENESIS_43: RichChapterContent = {
                 t('For except we had lingered, surely now we had returned this second time.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'gen43-jacob-relents',
+          html:
+            'Jacob has held Benjamin back from Egypt through two trips, through the famine deepening, until the grain ran out. Judah&apos;s pledge changed something in Jacob&apos;s heart. The man who could not let go now opens his hands. Sometimes the moment you relent is the moment you are most close to blessing.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 43,
+          lines: [
             {
               number: 11,
               spans: [

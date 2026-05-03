@@ -38,6 +38,18 @@ export const MATTHEW_4: RichChapterContent = {
             plain(4, 'But he answered and said, It is written, Man shall not live by bread alone, but by every word that proceedeth out of the mouth of God.'),
             plain(5, 'Then the devil taketh him up into the holy city, and setteth him on a pinnacle of the temple,'),
             plain(6, 'And saith unto him, If thou be the Son of God, cast thyself down: for it is written, He shall give his angels charge concerning thee: and in their hands they shall bear thee up, lest at any time thou dash thy foot against a stone.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'matt4-bread-to-temple',
+          html:
+            'The first temptation appeals to hunger and survival. Jesus responds by affirming that life depends not on bread but on obedience to God&apos;s word. The second temptation is more subtle—a kind of vindication through the spectacular. Jesus is set on the temple pinnacle and offered angelic rescue if He will only jump. From hunger to pride, from bodily need to the desire for proof. Jesus refuses with the same weapon: Scripture.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 4,
+          lines: [
             plain(7, 'Jesus said unto him, It is written again, Thou shalt not tempt the Lord thy God.'),
             plain(8, 'Again, the devil taketh him up into an exceeding high mountain, and sheweth him all the kingdoms of the world, and the glory of them;'),
             plain(9, 'And saith unto him, All these things will I give thee, if thou wilt fall down and worship me.'),

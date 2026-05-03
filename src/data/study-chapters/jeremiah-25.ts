@@ -91,6 +91,18 @@ export const JEREMIAH_25: RichChapterContent = {
                 t('Behold, I will send and take all the families of the north, saith the Lord, and Nebuchadrezzar the king of Babylon, my servant, and will bring them against this land, and against the inhabitants thereof, and against all these nations round about, and will utterly destroy them, and make them an astonishment, and an hissing, and perpetual desolations.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'jer25-mirth-removed',
+          html:
+            'The armies are summoned, the destruction declared. Now comes the catalog of loss: no mirth, no gladness, no bridegroom, no bride, no millstones grinding, no candles burning. All the sounds and signs of normal life will cease. Silence and desolation follow.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 25,
+          lines: [
             {
               number: 10,
               spans: [

@@ -101,11 +101,35 @@ export const JUDGES_11: RichChapterContent = {
           chapter: 11,
           lines: [
             plain(12, 'And Jephthah sent messengers unto the king of the children of Ammon, saying, What hast thou to do with me, that thou art come against me to fight in my land?'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'judg11-jephthah-exile',
+          html:
+            'Jephthah is cast out by his brothers—an exile, a fugitive, a man without a home in his own land. Yet he becomes a leader of fighters. The rejected man becomes the defender. In his hands, those who trust him find a captain. His wounds teach him mercy.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 11,
+          lines: [
             plain(13, 'And the king of the children of Ammon answered unto the messengers of Jephthah, Because Israel took away my land, when they came up out of Egypt, from Arnon even unto Jabbok, and unto Jordan: now therefore restore those lands again peaceably.'),
             plain(14, 'And Jephthah sent messengers again unto the king of the children of Ammon:'),
             plain(15, 'And said unto him, Thus saith Jephthah, Israel took not away the land of Moab, nor the land of the children of Ammon:'),
             plain(16, 'But when Israel came up from Egypt, and walked through the wilderness unto the Red sea, and came to Kadesh;'),
             plain(17, 'Then Israel sent messengers unto the king of Edom, saying, Let me, I pray thee, pass through thy land: but the king of Edom would not hearken thereto. And in like manner they sent unto the king of Moab: but he refused: for Israel abode in Kadesh.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'judg11-jephthah-exile',
+          html:
+            'Jephthah pleads his case—explaining the history, the wrongs done to him, the willingness to negotiate. He does not rage; he reasons. The king of Ammon does not listen. Some men refuse to hear truth. Some doors are closed before we knock. Yet Jephthah does not retreat; he prepares for battle.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 11,
+          lines: [
             plain(18, 'Then they went along through the wilderness, and compassed the land of Edom, and the land of Moab, and came by the east side of the land of Moab, and pitched on the other side of Arnon, but came not within the border of Moab: for Arnon was the border of Moab.'),
             plain(19, 'And Israel sent messengers unto Sihon king of the Amorites, the king of Heshbon; and Israel said unto him, Let us pass, we pray thee, through thy land into my place.'),
             plain(20, 'But Sihon trusted not Israel to pass through his coasts: but Sihon gathered all his people together, and pitched in Jahaz, and fought against Israel.'),

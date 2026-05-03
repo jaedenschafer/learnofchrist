@@ -47,7 +47,7 @@ export const LEVITICUS_2: RichChapterContent = {
           kind: 'commentary',
           id: 'lev2-minchah',
           html:
-            'The offering is called <em>minchah</em> — a tribute, a gift, a present brought to someone of higher rank. It appears first in Genesis 4:3 when Cain brings an offering to God. The word carries the sense of humble deference. The poorest person could bring a minchah; all that was required was grain, which anyone could grow. This is the offering of devotion without cost.',
+            '[res:sbl-grain-offering-theology] The offering is called <em>minchah</em> — a tribute, a gift, a present brought to someone of higher rank. It appears first in Genesis 4:3 when Cain brings an offering to God. The word carries the sense of humble deference. The poorest person could bring a minchah; all that was required was grain, which anyone could grow. This is the offering of devotion without cost.',
         },
         {
           kind: 'hebrew',
@@ -257,7 +257,7 @@ export const LEVITICUS_2: RichChapterContent = {
           kind: 'commentary',
           id: 'lev2-leaven',
           html:
-            'Leaven is forbidden in the grain offering, as it is in most offerings (except the wave loaves of Pentecost). Leaven is a symbol of corruption — yeast ferments, transforms, causes dough to puff up with gas. An offering that has fermented is an offering compromised. For the reader after the cross, Paul will make this explicit: "Therefore let us keep the feast, not with old leaven, neither with the leaven of malice and wickedness; but with the unleavened bread of sincerity and truth" (1 Corinthians 5:8). Every time you see "no leaven" in Leviticus, hear Paul naming what leaven represents.',
+            '[res:sefaria-leaven-honey] Leaven is forbidden in the grain offering, as it is in most offerings (except the wave loaves of Pentecost). Leaven is a symbol of corruption — yeast ferments, transforms, causes dough to puff up with gas. An offering that has fermented is an offering compromised. For the reader after the cross, Paul will make this explicit: "Therefore let us keep the feast, not with old leaven, neither with the leaven of malice and wickedness; but with the unleavened bread of sincerity and truth" (1 Corinthians 5:8). Every time you see "no leaven" in Leviticus, hear Paul naming what leaven represents.',
         },
         {
           kind: 'hebrew',
@@ -401,7 +401,7 @@ export const LEVITICUS_2: RichChapterContent = {
           id: 'christ-bread-life',
           title: 'Christ Connection — The Bread of Life',
           html:
-            '"Jesus said unto them, I am the bread of life: he that cometh to me shall never hunger" (John 6:35). The grain offering points directly to Jesus: the fine flour, ground and refined; the oil, the Spirit poured out; the frankincense, the sweet aroma of His devotion; the oven, where He was baked in suffering; no leaven, no corruption in Him; and the salt of covenant, binding us to Him forever. And like the grain offering that is broken and distributed to the priests and the people, Jesus took bread, gave thanks, broke it, and said, "This is my body, which is given for you" (Luke 22:19). He is the offering, and He becomes the food. The grain offering is the foreshadow; Jesus is the fullness.',
+            '[res:intertextual-bread-of-life] "Jesus said unto them, I am the bread of life: he that cometh to me shall never hunger" (John 6:35). The grain offering points directly to Jesus: the fine flour, ground and refined; the oil, the Spirit poured out; the frankincense, the sweet aroma of His devotion; the oven, where He was baked in suffering; no leaven, no corruption in Him; and the salt of covenant, binding us to Him forever. And like the grain offering that is broken and distributed to the priests and the people, Jesus took bread, gave thanks, broke it, and said, "This is my body, which is given for you" (Luke 22:19). He is the offering, and He becomes the food. The grain offering is the foreshadow; Jesus is the fullness.',
         },
         {
           kind: 'carry',
@@ -424,6 +424,33 @@ export const LEVITICUS_2: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Leviticus 2 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sbl-grain-offering-theology',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Grain Offerings and Covenant Symbolism',
+      url: 'https://www.bibleodyssey.org/en/passages/article/grain-offerings-in-ancient-israel',
+      description: 'Study of minchah offerings, their theological significance, and symbolism of flour, oil, frankincense, and salt in ancient Israelite worship.',
+    },
+    {
+      id: 'sefaria-leaven-honey',
+      kind: 'archive',
+      source: 'Sefaria',
+      label: 'Leaven and Honey in Rabbinic Interpretation',
+      url: 'https://www.sefaria.org/Leviticus.2',
+      description: 'Rabbinic commentary on the prohibition of leaven and honey in grain offerings, connecting to ideas of purity, corruption, and covenant.',
+    },
+    {
+      id: 'intertextual-bread-of-life',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'John 6:35 — Jesus as the Bread of Life',
+      url: 'https://intertextual.logos.com/',
+      description: 'Cross-references between Levitical grain offerings and Jesus\'s identification as bread of life, connecting sacrifice and sustenance.',
+    },
+  ],
 
   hasHebrew: true,
 };

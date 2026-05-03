@@ -84,6 +84,12 @@ export const CHRONICLES_1_8: RichChapterContent = {
           lines: [
             plain(6, 'And these are the sons of Ehud: these are the heads of the fathers of the inhabitants of Geba: and they removed them to Manahath:'),
             plain(7, 'And Naaman, and Ahiah, and Gera, he removed them; and begat Uzza, and Ahihud.'),
+          ],
+        },
+        {
+          kind: 'scripture',
+          chapter: 8,
+          lines: [
             plain(8, 'And Shaharaim begat children in the country of Moab, after he had sent them away; and his wives were Hushim and Baara.'),
             plain(9, 'And he begat of Hodesh his wife, Jobab, and Zibia, and Mesha, and Malcham,'),
             plain(10, 'And Jeuz, and Shachia, and Mirma. These were his sons, heads of the fathers.'),
@@ -134,6 +140,18 @@ export const CHRONICLES_1_8: RichChapterContent = {
             plain(19, 'And Jakim, and Zichri, and Zabdi,'),
             plain(20, 'And Elienai, and Zillethai, and Eliel,'),
             plain(21, 'And Adaiah, and Beraiah, and Shimrath, the sons of Shimei;'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1chr8-benjamins',
+          html:
+            'Benjamin&apos;s line stretches from Bela through Ashbel, Aharah, Nohah, and Rapha. Six sons named, each carrying Benjamin&apos;s legacy. In later history, Benjamin will produce Israel&apos;s first king, Saul—but also Paul the apostle. The line holds both.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 8,
+          lines: [
             plain(22, 'And Ishpan, and Eber, and Eliel,'),
             plain(23, 'And Abdon, and Zichri, and Hanan,'),
             plain(24, 'And Hananiah, and Elam, and Antothijah,'),

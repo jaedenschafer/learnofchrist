@@ -266,6 +266,18 @@ export const GENESIS_26: RichChapterContent = {
                 t('And Abimelech said unto Isaac, Go from us; for thou art much mightier than we.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'gen26-expelled',
+          html:
+            'Success creates enemies. The Philistines see Isaac thriving, his flocks multiplying, his power growing, and they become afraid. Their solution is swift: leave. Go away. This is not a debate—it is a demand backed by political power. Isaac has been blessed so much that he has become a threat. And rather than fight, he obeys.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 26,
+          lines: [
             {
               number: 17,
               spans: [
@@ -429,6 +441,18 @@ export const GENESIS_26: RichChapterContent = {
                 t('And they said, We saw certainly that the LORD was with thee: and we said, Let there be now an oath betwixt us, even betwixt us and thee, and let us make a covenant with thee;'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'gen26-recognition',
+          html:
+            'Abimelech arrives to propose a covenant. His words are key: "We saw certainly that the LORD was with thee." What the Philistines saw was not Isaac\'s strength or military might. They saw God. The well-digging, the perseverance, the refusal to fight—all of it had become visible proof that God was with him. His faithfulness had spoken louder than his words ever could.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 26,
+          lines: [
             {
               number: 29,
               spans: [

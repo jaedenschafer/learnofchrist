@@ -300,6 +300,18 @@ export const GENESIS_47: RichChapterContent = {
                 t('And Joseph bought all the land of Egypt for Pharaoh; for the Egyptians sold every man his field, because the famine prevailed over them: so the land became Pharaoh&apos;s.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'gen47-split-1',
+          html:
+            'The moment Joseph consolidates all Egyptian wealth is stark. The people have given their money, their animals, their land. And now, in a single transaction, every field in Egypt belongs to Pharaoh. What began as feeding the hungry has become total control. The text pauses here, before Joseph explains what happens next.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 47,
+          lines: [
             {
               number: 21,
               spans: [

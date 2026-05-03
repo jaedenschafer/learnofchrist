@@ -37,6 +37,17 @@ export const PROVERBS_12: RichChapterContent = {
             plain(6, 'The words of the wicked are to lie in wait for blood: but the mouth of the upright shall deliver them.'),
             plain(7, 'The wicked are overthrown, and are not: but the house of the righteous shall stand.'),
             plain(8, 'A man shall be commended according to his wisdom: but he that is of a froward heart shall be despised.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov12-wisdom-reproach',
+          html: 'Love of instruction reveals your nature as human; hatred of reproof reveals brutishness. The righteous are grounded and cannot be moved; the wicked are overthrown. Wisdom brings commendation; a froward heart brings despising.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 12,
+          lines: [
             plain(9, 'He that is despised, and hath a servant, is better than he that honoureth himself, and lacketh bread.'),
             plain(10, 'A righteous man knoweth the soul of his beast: but the tender mercies of the wicked are cruel.'),
             plain(11, 'He that tilleth his land shall be satisfied with bread: but he that followeth vain persons is void of understanding.'),

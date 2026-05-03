@@ -38,6 +38,17 @@ export const ECCLESIASTES_7: RichChapterContent = {
             plain(5, 'It is better to hear the rebuke of the wise, than for a man to hear the song of fools.'),
             plain(6, 'For as the crackling of thorns under a pot, so is the laughter of the fool: this is also vanity.'),
             plain(7, 'Surely oppression maketh a wise man mad; and a gift destroyeth the heart.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ecc7-sorrow-teaches',
+          html: 'The Preacher establishes paradoxes: death is better than birth, mourning better than feasting, sorrow better than laughter. These are not invitations to despair but reminders that depth comes from facing reality, not fleeing it.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 7,
+          lines: [
             plain(8, 'Better is the end of a thing than the beginning thereof: and the patient in spirit is better than the proud in spirit.'),
             plain(9, 'Be not hasty in thy spirit to be angry: for anger resteth in the bosom of fools.'),
             plain(10, 'Say not thou, What is the cause that the former days were better than these? for thou dost not inquire wisely concerning this.'),

@@ -35,6 +35,17 @@ export const PROVERBS_9: RichChapterContent = {
             plain(4, 'Whoso is simple, let him turn in hither: as for him that wanteth understanding, she saith to him,'),
             plain(5, 'Come, eat of my bread, and drink of the wine which I have mingled.'),
             plain(6, 'Forsake the foolish, and live; and go in the way of understanding.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov9-banquet-call',
+          html: 'Wisdom opens her house and invites all to feast—the simple are welcome, the way of understanding is open to all who will answer her call.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 9,
+          lines: [
             plain(7, 'He that reproveth a scorner getteth to himself shame: and he that rebuketh a wicked man getteth himself a blot.'),
             plain(8, 'Reprove not a scorner, lest he hate thee: rebuke a wise man, and he will love thee.'),
             plain(9, 'Give instruction to a wise man, and he will be yet wiser: teach a righteous man, and he will increase in learning.'),

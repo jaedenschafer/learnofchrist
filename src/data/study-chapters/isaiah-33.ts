@@ -36,6 +36,18 @@ export const ISAIAH_33: RichChapterContent = {
             plain(4, 'And your spoils shall be gathered like the gathering of the caterpillar: as the running to and fro of locusts shall he run upon them.'),
             plain(5, 'The Lord is exalted; for he dwelleth on high: he hath filled Zion with judgment and righteousness.'),
             plain(6, 'And wisdom and knowledge shall be the stability of thy times, and strength of salvation: the fear of the Lord is his treasure.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isaiah33-woe-to-exalted',
+          html:
+            'The opening judgment falls on the spoilers and the treacherous. They will be repaid according to their deeds. Then comes the people&apos;s prayer: "O Lord, be gracious unto us; we have waited for thee." And the answer arrives: God is exalted, He dwells on high, He fills Zion with judgment and righteousness. The tone now shifts from the judgment of enemies to the exaltation of the God who hears His people&apos;s cry.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 33,
+          lines: [
             plain(7, 'Behold, their valiant ones shall cry without: the ambassadors of peace shall weep bitterly.'),
             plain(8, 'The highways lie waste, the wayfaring man ceaseth: he hath broken the covenant, he hath despised the cities, he regardeth no man.'),
             plain(9, 'The earth mourneth and languisheth: Lebanon is ashamed and hewn down: Sharon is like a wilderness; and Bashan and Carmel shake off their fruits.'),

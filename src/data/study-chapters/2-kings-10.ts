@@ -55,6 +55,18 @@ export const KINGS_2_10: RichChapterContent = {
             plain(5, 'And he that was over the house, and he that was over the city, the elders also, and the bringers up of the children, sent to Jehu, saying, We are thy servants, and will do all that thou shalt bid us; we will not make any king: do thou that which is good in thine eyes.'),
             plain(6, 'Then he wrote a letter the second time to them, saying, If ye be mine, and if ye will hearken unto my voice, take ye the heads of the men your master&apos;s sons, and come to me to Jezreel by to morrow this time. Now the king&apos;s sons, being seventy persons, were with the great men of the city, which brought them up.'),
             plain(7, 'And it came to pass, when the letter came to them, that they took the king&apos;s sons, and slew all seventy persons, and put their heads in baskets, and sent him them to Jezreel.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2k10-jehu-seventy',
+          html:
+            'Jehu writes letters to the royal guardians and elders: choose sides. Seventy princes live—Ahab&apos;s sons and grandsons. The guardians must decide: protect the old regime or align with the new. Loyalty&apos;s test comes in how we treat the vulnerable.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 10,
+          lines: [
             plain(8, 'And there came a messenger, and told him, saying, They have brought the heads of the king&apos;s sons. And he said, Lay ye them in two heaps at the entering in of the gate until the morning.'),
             plain(9, 'And it came to pass in the morning, that he went out, and stood, and said to all the people, Ye be righteous: behold, I conspired against my master, and slew him: but who slew all these?'),
             plain(10, 'Know now that there shall fall unto the earth nothing of the word of the Lord, which the Lord spake concerning the house of Ahab: for the Lord hath done that which he spake by his servant Elijah.'),

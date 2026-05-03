@@ -187,7 +187,7 @@ export const LEVITICUS_1: RichChapterContent = {
           kind: 'commentary',
           id: 'atonement-substitution',
           html:
-            'The word is kippur—to make atonement, to cover, to propitiate. And it is not magical. It works because of what the laying on of the hand means: this animal is taking my place. It is voluntary—"of his own voluntary will." The sinner chooses to come. He chooses to bring the substitute. He chooses to lay his hand on its head and mark the transfer of guilt. This is not coercion. This is access opened.',
+            '[res:sbl-sacrificial-system] The word is kippur—to make atonement, to cover, to propitiate. And it is not magical. It works because of what the laying on of the hand means: this animal is taking my place. It is voluntary—"of his own voluntary will." The sinner chooses to come. He chooses to bring the substitute. He chooses to lay his hand on its head and mark the transfer of guilt. This is not coercion. This is access opened.',
         },
         {
           kind: 'commentary',
@@ -206,7 +206,7 @@ export const LEVITICUS_1: RichChapterContent = {
           id: 'christ-olah-ascends',
           title: 'Christ Connection — The Offering That Ascends',
           html:
-            'Hebrews 10:5-10 quotes Psalm 40 and reads it as Christ speaking: "Lo, I come to do thy will, O God... by the which will we are sanctified through the offering of the body of Jesus Christ once for all." Christ is the burnt offering. His body is laid on the altar of the cross. His blood is poured out. And His sacrifice ascends to God the Father as a sweet savor—accepted, complete, needing nothing more. Every old covenant burnt offering points to this one sacrifice that makes access permanent.',
+            '[res:intertextual-hebrews-10] Hebrews 10:5-10 quotes Psalm 40 and reads it as Christ speaking: "Lo, I come to do thy will, O God... by the which will we are sanctified through the offering of the body of Jesus Christ once for all." Christ is the burnt offering. His body is laid on the altar of the cross. His blood is poured out. And His sacrifice ascends to God the Father as a sweet savor—accepted, complete, needing nothing more. Every old covenant burnt offering points to this one sacrifice that makes access permanent.',
         },
         {
           kind: 'carry',
@@ -321,7 +321,7 @@ export const LEVITICUS_1: RichChapterContent = {
           kind: 'commentary',
           id: 'poor-offering',
           html:
-            'A turtledove or a young pigeon. The poor person&apos;s offering. The Widow of Zarephath would have brought a bird. Hannah at the temple would have brought a bird. Mary, when she brought the infant Jesus to the temple for consecration, brought two turtledoves—the poor person&apos;s offering (Luke 2:24). The youngest of Jesus, the holiest person who ever lived, entered the temple through the poorest offering available. Access is not measured by wealth. The altar receives a pigeon with the same sweet savor as a bull.',
+            '[res:sefaria-olah-midrash] A turtledove or a young pigeon. The poor person&apos;s offering. The Widow of Zarephath would have brought a bird. Hannah at the temple would have brought a bird. Mary, when she brought the infant Jesus to the temple for consecration, brought two turtledoves—the poor person&apos;s offering (Luke 2:24). The youngest of Jesus, the holiest person who ever lived, entered the temple through the poorest offering available. Access is not measured by wealth. The altar receives a pigeon with the same sweet savor as a bull.',
         },
         {
           kind: 'christ',
@@ -357,6 +357,33 @@ export const LEVITICUS_1: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Leviticus 1 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sbl-sacrificial-system',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Sacrificial System in Ancient Israel',
+      url: 'https://www.bibleodyssey.org/en/passages/article/the-sacrificial-system-in-ancient-israel',
+      description: 'Comprehensive overview of burnt offerings, their function in Israelite worship, and theological significance in covenant access.',
+    },
+    {
+      id: 'sefaria-olah-midrash',
+      kind: 'archive',
+      source: 'Sefaria',
+      label: 'Olah in Rabbinic and Medieval Exegesis',
+      url: 'https://www.sefaria.org/Leviticus.1',
+      description: 'Traditional Jewish interpretations of the burnt offering\'s meaning, including commentary on the laying on of hands and substitution theology.',
+    },
+    {
+      id: 'intertextual-hebrews-10',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Hebrews 10:5-10 and Psalm 40 — Christ as Olah',
+      url: 'https://intertextual.logos.com/',
+      description: 'Cross-references and analysis of how the New Testament reads Levitical burnt offerings as fulfilled in Christ\'s once-for-all sacrifice.',
+    },
+  ],
 
   hasHebrew: true,
 };

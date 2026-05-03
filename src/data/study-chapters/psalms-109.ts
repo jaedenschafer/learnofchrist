@@ -37,6 +37,18 @@ export const PSALMS_109: RichChapterContent = {
             plain(5, 'And they have rewarded me evil for good, and hatred for my love.'),
             plain(6, 'Set thou a wicked man over him: and let Satan stand at his right hand.'),
             plain(8, 'Let his days be few; and let another take his office.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ps109-imprecation-to-mercy',
+          html:
+            'The imprecations—the curses upon the enemy—have been pronounced. The enemy has fought without cause, rewarded good with evil, hatred with love. Now the perspective shifts from imprecation to the psalmist&apos;s own appeal for mercy. The curses on the wicked are balanced by a turn toward God&apos;s grace for the sufferer.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 109,
+          lines: [
             plain(17, 'As he loved cursing, so let it come unto him: as he delighted not in blessing, so let it be far from him.'),
             plain(26, 'Help me, O Lord my God: O save me according to thy mercy;'),
             plain(27, 'That they may know that this is thy hand; that thou, Lord, hast done it.'),

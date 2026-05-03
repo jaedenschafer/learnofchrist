@@ -37,6 +37,18 @@ export const ISAIAH_43: RichChapterContent = {
             plain(5, 'Fear not: for I am with thee: I will bring thy seed from the east, and gather thee from the west;'),
             plain(6, 'I will say to the north, Give up; and to the south, Keep not back: bring my sons from far, and my daughters from the ends of the earth;'),
             plain(7, 'Even every one that is called by my name: for I have created him for my glory: I have formed him; yea, I have made him.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isaiah43-creation-witness',
+          html:
+            'All are created for God&apos;s glory—called by His name, formed by His hand. Now the focus shifts from comfort and protection to witness. The redeemed are not merely saved for their own sake. They exist to declare God&apos;s mighty acts to the nations.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 43,
+          lines: [
             plain(8, 'Bring forth the blind people that have eyes, and the deaf that have ears.'),
             plain(9, 'Let all the nations be gathered together, and let the people be assembled: who among them can declare this, and shew us former things? let them bring forth their witnesses, that they may be justified: or let them hear, and say, It is truth.'),
             plain(10, 'Ye are my witnesses, saith the Lord, and my servant whom I have chosen: that ye may know and believe me, and understand that I am he: before me there was no God formed, neither shall there be after me.'),

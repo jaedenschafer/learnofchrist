@@ -185,6 +185,18 @@ export const JOB_31: RichChapterContent = {
             plain(32, 'For the stranger did not lodge in the street: but I opened my doors to the traveller;)'),
             plain(33, 'If I covered my transgressions as Adam, by hiding mine iniquity in my bosom:'),
             plain(34, 'Did I fear a great multitude, or did the contempt of families terrify me, that I kept silence, and went not out of the door?),'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job31-oath2',
+          html:
+            'Job shifts from kindness to strangers into a deeper question about his own integrity. Has he hidden transgression as Adam did? Has he feared judgment? These are the final tests: does his claim to innocence rest on hiding anything, or on living openly?',
+        },
+        {
+          kind: 'scripture',
+          chapter: 31,
+          lines: [
             plain(35, 'Oh that one would hear me! behold, my desire is, that the Almighty would answer me, and that mine adversary had written a book.'),
             plain(36, 'Surely I would take it upon my shoulder, and bind it as a crown to me.'),
             plain(37, 'I would declare unto him the number of my steps; as a prince would I go near unto him.'),

@@ -58,6 +58,18 @@ export const ISAIAH_44: RichChapterContent = {
             plain(13, 'The carpenter stretcheth out his rule; he marketh it out with a line; he fitteth it with planes, and he marketh it out with the compass, and maketh it after the figure of a man, according to the beauty of a man; that it may remain in the house.'),
             plain(14, 'He heweth him down cedars, and taketh the cypress and the oak, which he strengtheneth for himself among the trees of the forest: he planteth an ash, and the rain doth nourish it.'),
             plain(15, 'Then shall it be for a man to burn: for he will take thereof, and warm himself; yea, he kindleth it, and baketh bread; yea, he maketh a god, and worshippeth it; he maketh it a graven image, and falleth down thereto.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isaiah44-tree-fire-god',
+          html:
+            'The craftsman uses the same tree for fuel and for worship—but warmth and bread cannot save the soul. The contradiction is stark. Now the account shifts to the moment of fatal error: the craftsman falls down and worships what came from flame.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 44,
+          lines: [
             plain(16, 'He burneth part thereof in the fire; with part thereof he eateth flesh; he roasteth roast, and is satisfied: yea, he warmeth himself, and saith, Aha, I am warm, I have seen the fire:'),
             plain(17, 'And the residue thereof he maketh a god, even his graven image: he falleth down unto it, and worshippeth it, and prayeth unto it, and saith, Deliver me; for thou art my god.'),
             plain(18, 'They have not known nor understood: for he hath shut their eyes, that they cannot see; and their hearts, that they cannot understand.'),

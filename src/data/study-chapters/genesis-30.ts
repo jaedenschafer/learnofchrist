@@ -608,6 +608,18 @@ export const GENESIS_30: RichChapterContent = {
                 t('And he removed that day the he goats that were ringstraked and spotted, and all the she goats that were speckled and spotted, and every one that had some white in it, and all the brown among the sheep, and gave them into the hand of his sons.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'gen30-split-2',
+          html:
+            'Laban has agreed to Jacob&apos;s terms. Now the test begins: Laban separates the spotted animals Jacob is meant to receive, puts three days&apos; distance between them and Jacob, and leaves him with only the plain-colored flock to tend. It is a setup designed to fail. But Jacob sees what is happening and becomes even more strategic in response.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 30,
+          lines: [
             {
               number: 36,
               spans: [

@@ -304,6 +304,18 @@ export const GENESIS_27: RichChapterContent = {
                 t('And he discerned him not, because his hands were hairy, as his brother Esau&apos;s hands: so he blessed him.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'gen27-hands-succeeded',
+          html:
+            'The deception succeeds. Isaac feels the hairy hands and his doubt evaporates. The goatskins held. The meal tastes right. The voice is young but it is asking for a blessing. And Isaac proceeds with the blessing—the word that will reshape a future, spoken now, irreversible. The moment of doubt passes, and Isaac surrenders to the deception. He does not continue questioning.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 27,
+          lines: [
             {
               number: 24,
               spans: [
@@ -428,6 +440,18 @@ export const GENESIS_27: RichChapterContent = {
                 t('And he said, Thy brother came with subtilty, and hath taken away thy blessing.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'gen27-esau-understands',
+          html:
+            'In one sentence, Isaac tells Esau what happened: your brother deceived you and stole your blessing. The truth is laid bare. Jacob came with subtilty—with cunning, with design. And he took what was yours. Isaac does not excuse the deception. He names it clearly. And now Esau understands: his loss was not an accident. It was orchestrated. Someone he loved conspired against him.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 27,
+          lines: [
             {
               number: 36,
               spans: [

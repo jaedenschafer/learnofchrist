@@ -160,6 +160,18 @@ export const GENESIS_23: RichChapterContent = {
                 t('That he may give me the cave of Machpelah, which he hath, which is in the end of his field; for as much money as it is worth he shall give it me for a possession of a buryingplace amongst you.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'gen23-specific-request',
+          html:
+            'Abraham does not take the Hittites&apos; offer of any burial place. He asks for one cave specifically: Machpelah, the field where it sits, the trees surrounding it. He is making a precise legal claim—not charity, but a full purchase. This is how a stranger becomes an owner: not by gift, but by witnessing and payment.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 23,
+          lines: [
             {
               number: 10,
               spans: [

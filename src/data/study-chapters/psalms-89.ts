@@ -36,6 +36,18 @@ export const PSALMS_89: RichChapterContent = {
             plain(4, 'Thy seed will I establish for ever, and build up thy throne to all generations. Selah.'),
             plain(19, 'Then thou spake in vision to thy holy one, and saidst, I have laid help upon one that is mighty; I have exalted one chosen out of the people.'),
             plain(20, 'I have found David my servant; with my holy oil have I anointed him:'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ps89-covenant-to-king',
+          html:
+            'The promise of the covenant is personal. God has chosen, sworn, found David, anointed him. Now the focus shifts to the consequences: the king will be exalted, his enemies beaten down, his throne made strong forever. God&apos;s faithfulness to David is not abstract—it is acted out in history.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 89,
+          lines: [
             plain(23, 'And I will beat down his foes before his face, and plague them that hate him.'),
             plain(24, 'But my faithfulness and my mercy shall be with him: and in my name shall his horn be exalted.'),
             plain(29, 'His seed also will I make to endure for ever, and his throne as the days of heaven.'),

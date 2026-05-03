@@ -318,6 +318,18 @@ export const CHRONICLES_1_1: RichChapterContent = {
             plain(44, 'The sons of Shobal; Alvan, and Manahath, and Ebal, Shephi, and Onam. And the sons of Zibeon; Aiah, and Anah.'),
             plain(45, 'The sons of Anah; Dishon. And the sons of Dishon; Hamran, and Eshban, and Ithran, and Cheran.'),
             plain(46, 'The sons of Ezer; Bilhan, and Zaavan, and Akan. The sons of Dishan; Uz, and Aran.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1chr1-seir-edom',
+          html:
+            'These five names—Lotan, Shobal, Zibeon, Anah, Dishon—are the sons of Seir, the original inhabitants of the land Esau claimed. The genealogy honors them before moving to Esau&apos;s kings. Even the displaced peoples have their lineage recorded. Edom&apos;s strength comes not from Esau alone, but from the peoples already dwelling there.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
             plain(47, 'Now these are the kings that reigned in the land of Edom, before any king reigned over Israel; Bela the son of Beor: and the name of his city was Dinhabah.'),
             plain(48, 'And when Bela was dead, Jobab the son of Zerah of Bozrah reigned in his stead.'),
             plain(49, 'And when Jobab was dead, Husham of the land of the Temanites reigned in his stead.'),

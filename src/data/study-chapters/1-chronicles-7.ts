@@ -49,6 +49,18 @@ export const CHRONICLES_1_7: RichChapterContent = {
             plain(5, 'And their brethren among all the families of Issachar were valiant men of might, reckoned in all by genealogy fourscore and seven thousand.'),
             plain(6, 'The sons of Benjamin; Bela, and Becher, and Jediael, three.'),
             plain(7, 'And the sons of Bela; Ezbon, and Uzzi, and Uzziel, and Jerimoth, and Iri, five; heads of the house of their fathers, mighty men of valour; and were reckoned by their genealogies twenty and two thousand and thirty and four.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1chr7-issachar',
+          html:
+            'Issachar shows his strength through intelligence and understanding—not mighty in battle, but mighty in wisdom. These six names share a tribe and a tribe&apos;s gift. When Issachar chose to follow David, it was a choice born of discernment, not coercion.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 7,
+          lines: [
             plain(8, 'And the sons of Becher; Zemira, and Joash, and Eliezer, and Elioenai, and Omri, and Jeremoth, and Abiah, and Anathoth, and Alemeth. All these are the sons of Becher.'),
             plain(9, 'And the number of them, after their genealogy by their generations, heads of the house of their fathers, mighty men of valour, was twenty thousand and two hundred.'),
             plain(10, 'The sons also of Jediael; Bilhan: and the sons of Bilhan; Jeush, and Benjamin, and Ehud, and Chenaanah, and Zethan, and Tharshish, and Ahishahar.'),
@@ -153,6 +165,18 @@ export const CHRONICLES_1_7: RichChapterContent = {
             plain(22, 'And Ephraim their father mourned many days, and his brethren came to comfort him.'),
             plain(23, 'And when he went in to his wife, she conceived, and bare a son, and he called his name Beriah, because it went evil with his house.'),
             plain(24, '(And his daughter was Sherah, who built Beth-horon the nether, and the upper, and Uzzensherah.)'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1chr7-ephraim-loss',
+          html:
+            'Ephraim&apos;s grief is a sharp detail in the genealogy. Two sons killed by raiders, and Ephraim mourns many days. From this grief comes Beriah—a son named for calamity. Yet from calamity comes Joshua, the liberator. Pain names the children we must bear.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 7,
+          lines: [
             plain(25, 'And Rephah was his son, also Resheph, and Telah his son, and Tahan his son,'),
             plain(26, 'Laadan his son, Ammihud his son, Elishama his son,'),
             plain(27, 'Non his son, Jehoshuah his son.'),
@@ -230,6 +254,18 @@ export const CHRONICLES_1_7: RichChapterContent = {
             plain(32, 'And Heber begat Japhlet, and Shomer, and Hotham, and Shua their sister.'),
             plain(33, 'And the sons of Japhlet; Pasach, and Bimhal, and Ashvath. These are the children of Japhlet.'),
             plain(34, 'And the sons of Shomer; Ahi, and Rohgah, Jehubbah, and Aram.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1chr7-asher-clans',
+          html:
+            'Asher&apos;s sons and grandsons multiply across many names—Imnah, Beriah, Heber, Malchiel. Each branch traces further, creating a network of descendants. The tribes expand not through single mighty men, but through families, through multiplication, through each generation adding more names to the record.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 7,
+          lines: [
             plain(35, 'And the sons of his brother Helem; Zophah, and Imna, and Shelesh, and Anam.'),
             plain(36, 'And the sons of Zophah; Suah, and Harnepher, and Shual, and Beri, and Imrah,'),
             plain(37, 'Bezer, and Hod, and Shamma, and Shilshah, and Ithran, and Beera.'),

@@ -91,6 +91,18 @@ export const PSALMS_135: RichChapterContent = {
             plain(12, 'And gave their land for an heritage, an heritage unto Israel his people.'),
             plain(13, 'Thy name, O Lord, endureth for ever; and thy memorial, O Lord, throughout all generations.'),
             plain(14, 'For the Lord will judge his people, and he will repent himself concerning his servants.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalm135-history-to-idols',
+          html:
+            'The Lord&apos;s mighty works in history are recounted: Egypt smitten, nations conquered, Canaan given as inheritance. His name endures forever, His memorial lives in every generation. Now the focus shifts from God&apos;s eternal power revealed in history to the contrast with the false gods of the nations—lifeless, helpless, a testimony to human folly.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 135,
+          lines: [
             plain(15, 'The idols of the heathen are but silver and gold, the work of men&apos;s hands.'),
             plain(16, 'They have mouths, but they speak not; eyes have they, but they see not;'),
             plain(17, 'They have ears, but they hear not; neither is there any breath in their mouths.'),

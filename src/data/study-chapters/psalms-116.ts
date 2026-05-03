@@ -40,6 +40,18 @@ export const PSALMS_116: RichChapterContent = {
             plain(13, 'I will take the cup of salvation, and call upon the name of the Lord.'),
             plain(14, 'I will pay my vows unto the Lord now in the presence of all his people.'),
             plain(15, 'Precious in the sight of the Lord is the death of his saints.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ps116-death-to-vows',
+          html:
+            'From the depth of death&apos;s grasp comes the cry for deliverance, and God answers. The psalmist is brought back to rest, healed of all that threatened him. Now comes the essential turning point: what will he offer in return? Not his life—that cannot repay God&apos;s mercy. But his gratitude, his worship, his vows of faithfulness made publicly before God&apos;s people.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 116,
+          lines: [
             plain(17, 'I will offer to thee the sacrifice of thanksgiving, and will call upon the name of the Lord.'),
             plain(18, 'I will pay my vows unto the Lord now in the presence of all his people,'),
             plain(19, 'In the courts of the Lord&apos;s house, in the midst of thee, O Jerusalem. Praise ye the Lord.'),

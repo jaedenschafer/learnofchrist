@@ -95,6 +95,18 @@ export const CHRONICLES_1_12: RichChapterContent = {
           chapter: 12,
           lines: [
             plain(8, 'And of the Gadites there separated themselves unto David into the hold to the wilderness men of might, and men of war fit for the battle, that could handle shield and buckler, whose faces were like the faces of lions, and were as swift as the roes upon the mountains;'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1chr12-duel-trained',
+          html:
+            'These names represent David&apos;s dual army—men trained for both battle and administration. Seven brothers from Benjamin, bearing shield and spear. They came to David not as forced conscripts, but as men who understood the moment. They recognized their king.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 12,
+          lines: [
             plain(9, 'Ezer the first, Obadiah the second, Eliab the third,'),
             plain(10, 'Mishmannah the fourth, Jeremiah the fifth,'),
             plain(11, 'Attai the sixth, Eliel the seventh,'),
@@ -265,6 +277,18 @@ export const CHRONICLES_1_12: RichChapterContent = {
             plain(28, 'And Zadok, a young man mighty of valour, and of his father&apos;s house twenty and two captains.'),
             plain(29, 'And of the children of Benjamin, the kindred of Saul, three thousand: for hitherto the greatest part of them had kept the ward of the house of Saul.'),
             plain(30, 'And of the children of Ephraim twenty thousand and eight hundred, mighty men of valour, famous throughout the house of their fathers.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1chr12-duel-trained',
+          html:
+            'These eight men of Issachar bear both shield and sword—warriors trained for the dual purpose of David&apos;s reign. The list names them, counts them: five thousand. Numbers tell power, but also precision. These are not a mob; they are a mustered army.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 12,
+          lines: [
             plain(31, 'And of the half tribe of Manasseh eighteen thousand, which were expressed by name, to come and make David king.'),
             plain(32, 'And of the children of Issachar, which were men that had understanding of the times, to know what Israel ought to do; the heads of them were two hundred; and all their brethren were at their commandment.'),
             plain(33, 'Of Zebulun, such as went forth to battle, expert in war, with all instruments of war, fifty thousand, which could keep rank: they were not of a double heart.'),

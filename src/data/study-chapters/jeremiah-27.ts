@@ -73,6 +73,18 @@ export const JEREMIAH_27: RichChapterContent = {
                 t('And now have I given all these lands into the hand of Nebuchadrezzar the king of Babylon, my servant; and the beasts of the field have I given him also to serve him.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'jer27-nations-serve-warning',
+          html:
+            'God&apos;s power is absolute—He made the earth and all life upon it, and He gives dominion to whom He chooses. Now He has chosen to give dominion to Babylon. Resistance is futile. The warning shifts to the consequence: those who refuse will be judged with sword, famine, and pestilence.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 27,
+          lines: [
             {
               number: 7,
               spans: [

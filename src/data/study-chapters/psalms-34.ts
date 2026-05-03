@@ -36,6 +36,18 @@ export const PSALMS_34: RichChapterContent = {
             plain(4, 'I sought the Lord, and he heard me, and delivered me from all my fears.'),
             plain(7, 'This poor man cried, and the Lord heard him, and saved him out of all his troubles.'),
             plain(8, 'The angel of the Lord encampeth round about them that fear him, and delivereth them.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms34-seek-to-taste',
+          html:
+            'From active seeking to deliverance comes the invitation to experience God directly. The psalmist&apos;s testimony—"I sought, I was delivered"—becomes an invitation to the reader: taste for yourself what God is good means by experiencing His goodness firsthand.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 34,
+          lines: [
             plain(9, 'O taste and see that the Lord is good: blessed is the man that trusteth in him.'),
             plain(15, 'The eyes of the Lord are upon the righteous, and his ears are open unto their cry.'),
             plain(17, 'The righteous cry, and the Lord heareth, and delivereth them out of all their troubles.'),

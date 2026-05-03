@@ -220,6 +220,18 @@ export const GENESIS_24: RichChapterContent = {
                 t('And she said, Drink, my lord: and she hasted, and let down her pitcher upon her hand, and gave him drink.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'gen24-camels-promise',
+          html:
+            'She says yes to his first request: Drink. And then, without being asked, she goes further. "I will draw water for thy camels also, until they have done drinking." This is the moment the servant is watching for. This is the sign. Not just kindness, but the kindness that sees beyond the immediate need to the burden that follows.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 24,
+          lines: [
             {
               number: 19,
               spans: [

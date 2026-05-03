@@ -104,6 +104,18 @@ export const ISAIAH_40: RichChapterContent = {
             plain(14, 'With whom took he counsel, and who instructed him, and taught him in the path of judgment, and taught him knowledge, and shewed to him the way of understanding?'),
             plain(15, 'Behold, the nations are as a drop of a bucket, and are counted as the small dust of the balance: behold, he taketh up the isles as a very little thing.'),
             plain(16, 'And Lebanon is not sufficient to burn, nor the beasts thereof sufficient for a burnt offering.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isaiah40-all-nothing',
+          html:
+            'The repetition escalates: drop of water, dust of balance, very little thing, not sufficient, then the climax—all nations are not merely small but less than nothing, vanity itself. Before the vast God, everything human shrinks to insignificance.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 40,
+          lines: [
             plain(17, 'All nations before him are as nothing; and they are counted to him less than nothing, and vanity.'),
           ],
         },

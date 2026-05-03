@@ -38,6 +38,17 @@ export const ECCLESIASTES_6: RichChapterContent = {
             plain(4, 'Moreover he hath not seen the sun, nor known any thing: this hath more rest than the other.'),
             plain(5, 'Yea, though he live a thousand years twice told, yet hath he seen no good: do not all go to one place?'),
             plain(6, 'All the labour of man is for his mouth, and yet the appetite is not filled.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ecc6-riches-enjoy',
+          html: 'The Preacher observes a peculiar evil: abundance without the power to enjoy it. Riches, honor, and long life mean nothing if the soul is not satisfied.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 6,
+          lines: [
             plain(7, 'For what hath the wise more than the fool? or what hath the poor, that knoweth to walk before the living?'),
             plain(8, 'Better is the sight of the eyes than the wandering of the desire: this is also vanity and vexation of spirit.'),
             plain(9, 'That which hath been is named already, and it is known that it is man: neither may he contend with him that is mightier than he.'),

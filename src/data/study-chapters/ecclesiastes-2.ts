@@ -36,6 +36,17 @@ export const ECCLESIASTES_2: RichChapterContent = {
             plain(4, 'I made me great works; I builded me houses; I planted me vineyards:'),
             plain(5, 'I made me gardens and orchards, and I planted trees in them of all kind of fruits:'),
             plain(6, 'I made me pools of water, to water therewith the wood that bringeth forth trees:'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ecc2-pleasure-pursuit',
+          html: 'The Preacher tests pleasure and laughter, wine and building—but all yield only emptiness.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 2,
+          lines: [
             plain(7, 'I got me servants and maidens, and had servants born in my house; also I had great possessions of great and small cattle above all that were before me in Jerusalem:'),
             plain(8, 'I gathered me also silver and gold, and the peculiar treasure of kings and of the provinces: I gat me men singers and women singers, and the delights of the sons of men, as musical instruments, and that of all sorts.'),
             plain(9, 'So I was great, and increased more than all that were before me in Jerusalem: also my wisdom remained with me.'),

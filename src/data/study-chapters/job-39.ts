@@ -111,6 +111,18 @@ export const JOB_39: RichChapterContent = {
             plain(16, 'She is hardened against her young ones, as though they were not hers: her labour is in vain without fear;'),
             plain(17, 'Because God hath deprived her of wisdom, and hath not imparted to her understanding.'),
             plain(18, 'What time she lifteth up herself on high, she scorneth the horse and his rider.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job39-ostrich-horse',
+          html:
+            'The ostrich is strange, imperfect, lacking wisdom—her wings useless, her eggs abandoned. Yet as she lifts herself high, she scorns the horse and his rider. The text pivots here. God has been describing a creature that seems poorly made. Now God is about to speak of a creature that glorifies in its own nature. This is the turn from imperfection to wild beauty.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 39,
+          lines: [
             plain(19, 'Hast thou given the horse strength? hast thou clothed his neck with thunder?'),
             plain(20, 'Canst thou make him afraid as a grasshopper? the glory of his nostrils is terrible.'),
             plain(21, 'He paweth in the valley, and rejoiceth in his strength: he goeth on to meet the armed men.'),

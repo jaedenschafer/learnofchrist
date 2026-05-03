@@ -153,6 +153,18 @@ export const JUDGES_20: RichChapterContent = {
             plain(40, 'But when the flame began to arise up out of the city with a pillar of smoke, the Benjamites looked behind them; and, behold, the flame of the city ascended up to heaven.'),
             plain(41, 'And the men of Israel turned again, and the men of Benjamin were amazed: for they saw that evil was come upon them.'),
             plain(42, 'Therefore they turned their backs before the men of Israel unto the way of the wilderness; but the battle overtook them; and them which came out of the cities they destroyed in the midst of them.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'judg20-israel-trap',
+          html:
+            'The ambush turns. Benjamin, believing victory is theirs, does not see the trap closing. They retreat to where the smoke rises—where the city burns. In one moment, confidence becomes terror. Israel employs strategy; Benjamin employs only numbers. Against a unified enemy, numbers alone cannot stand.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 20,
+          lines: [
             plain(43, 'Thus they inclosed the Benjamites round about, and chased them, and trode them down with ease over against Gibeah toward the sunrising.'),
             plain(44, 'And there fell of Benjamin eighteen thousand men; all these were men of valour.'),
             plain(45, 'And they turned and fled toward the wilderness unto the rock Rimmon: and five thousand men gleaned of them in the highways; and pursued hard after them unto Gibeah, and smote two thousand of them.'),

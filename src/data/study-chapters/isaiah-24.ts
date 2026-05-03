@@ -37,6 +37,18 @@ export const ISAIAH_24: RichChapterContent = {
             plain(5, 'The earth also is defiled under the inhabitants thereof; because they have transgressed the laws, changed the ordinance, broken the everlasting covenant.'),
             plain(6, 'Therefore hath the curse devoured the earth, and they that dwell therein are desolate: therefore the inhabitants of the earth are burned, and few men left.'),
             plain(7, 'The new wine mourneth; the vine languisheth; all the merryhearted do sigh.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isaiah24-cosmic-mourning',
+          html:
+            'Creation itself mourns. The wine, the vine, even joy itself grieves. The focus shifts from wholesale upheaval to the detailed silence of what once brought celebration—music, drink, mirth—all gone. Emptiness follows emptiness.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 24,
+          lines: [
             plain(8, 'The mirth of tabrets ceaseth, the noise of them that rejoice endeth, the joy of the harp ceaseth.'),
             plain(9, 'They shall not drink wine with a song; strong drink shall be bitter to them that drink it.'),
             plain(10, 'The city of confusion is broken down: every house is shut up, that no man may come in.'),

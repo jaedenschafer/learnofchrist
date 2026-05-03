@@ -39,6 +39,18 @@ export const JEREMIAH_7: RichChapterContent = {
             plain(4, 'Trust ye not in lying words, saying, The temple of the Lord, The temple of the Lord, The temple of the Lord, are these.'),
             plain(5, 'For if ye thoroughly amend your ways and your doings; if ye thoroughly execute judgment between a man and his neighbour;'),
             plain(6, 'If ye oppress not the stranger, the fatherless, and the widow, and shed not innocent blood in this place, and walk not after other gods to your hurt:'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'jer7-amend-dwell',
+          html:
+            'The condition is clear and concrete: amend your ways, execute justice, protect the vulnerable, turn from other gods. If you do this, you will dwell in the land. The covenant promise hinges on the people&apos;s choice.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 7,
+          lines: [
             plain(7, 'Then will I cause you to dwell in this place, in the land that I gave to your fathers, for ever and ever.'),
             plain(8, 'Behold, ye trust in lying words, that cannot profit.'),
             plain(9, 'Will ye steal, murder, and commit adultery, and swear falsely, and burn incense unto Baal, and walk after other gods whom ye know not;'),

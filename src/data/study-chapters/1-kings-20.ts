@@ -52,6 +52,18 @@ export const KINGS_1_20: RichChapterContent = {
             plain(4, 'And the king of Israel answered and said, My lord, O king, according to thy saying, I am thine, and all that I have.'),
             plain(5, 'And the messengers came again, and said, Thus speaketh Ben-hadad, saying, Although I have sent unto thee, saying, Thou shalt deliver me thy silver, and thy gold, and thy wives, and thy children;'),
             plain(6, 'Yet I will send my servants unto thee to morrow about this time, and they shall search thine house, and the houses of thy servants; and it shall come to pass, that whatsoever is pleasant in thine eyes, they shall put it in their hand, and take it away.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1k20-arameans-siege',
+          html:
+            'Ben-hadad brings horses and chariots—the ancient equivalent of overwhelming force. Syria surrounds Samaria, and the city is besieged with maximum pressure. The enormity of the threat prepares us for God&apos;s deliverance. Impossible odds reveal where faith must rest.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 20,
+          lines: [
             plain(7, 'Then the king of Israel called all the elders of the land, and said, Mark, I pray you, and see how this man seeketh a quarrel: for he sent unto me for my wives, and for my children, and for my silver, and for my gold; and I denied him not.'),
             plain(8, 'And all the elders and all the people said unto him, Hearken not unto him, nor consent.'),
             plain(9, 'Wherefore he said unto the messengers of Ben-hadad, Tell my lord the king, All that thou didst send for to thy servant at the first I will do: but this thing I cannot do. And the messengers departed, and brought him word again.'),
@@ -114,10 +126,34 @@ export const KINGS_1_20: RichChapterContent = {
             plain(15, 'Then he numbered the young men of the princes of the provinces, and they were two hundred and thirty and two: and after them he numbered all the people, even all the children of Israel, being seven thousand.'),
             plain(16, 'And they went out at noon. But Ben-hadad was drinking himself drunk in the pavilions, he and the kings, the thirty and two kings that helped him.'),
             plain(17, 'And the young men of the princes of the provinces went out first; and Ben-hadad sent out, and they told him, saying, There are men come out of Samaria.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1k20-prophets-word',
+          html:
+            'Two prophecies, both true, but with different weight. The first promises victory without condition; the second critiques the king&apos;s folly. Both voices speak for God, but faith must choose which wisdom to follow. Truth sometimes comes in competing calls.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 20,
+          lines: [
             plain(18, 'And he said, Whether they come out for peace, take them alive; or whether they come out for war, take them alive.'),
             plain(19, 'So these young men of the princes of the provinces came out of the city, and the army which followed them.'),
             plain(20, 'And they slew every one his man: and the Syrians fled; and Israel pursued them: and Ben-hadad the king of Syria escaped on an horse with the horsemen.'),
             plain(21, 'And the king of Israel went out, and smote the horses and chariots, and slew the Syrians with a great slaughter.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1k20-prophets-word',
+          html:
+            'Two prophets deliver word after word—the first speaks of victory, the second calls the king foolish. The parallel prophecies test Ahab&apos;s faith. Both speak truth, but only one promises salvation. The king must choose whose voice to follow.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 20,
+          lines: [
           ],
         },
         {
@@ -227,6 +263,18 @@ export const KINGS_1_20: RichChapterContent = {
             plain(34, 'And Ben-hadad said unto him, The cities which my father took from thee, I will restore; and thou shalt make streets for thee in Damascus, as my father made in Samaria. Then said Ahab, I will let thee go with this covenant. So he made a covenant with him, and let him go.'),
             plain(35, 'And a certain man of the sons of the prophets said unto his fellow by the word of the Lord, Smite me, I pray thee. And the man refused to smite him.'),
             plain(36, 'Then said he unto him, Because thou hast not obeyed the voice of the Lord, behold, as soon as thou art departed from me, a lion shall slay thee. And as soon as he was departed from him, a lion met him, and slew him.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1k20-lion-judgment',
+          html:
+            'The prophet speaks God&apos;s word, and the word carries judgment. One man refuses to strike—disobedience. A lion slays him. Another man strikes—obedience. He wounds the prophet. Words of judgment are not spoken casually; they carry the weight of God&apos;s intention. The prophet walks into Ahab&apos;s path to deliver the word he has been given.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 20,
+          lines: [
             plain(37, 'Then he found another man, and said, Smite me, I pray thee. And the man smote him, so that in smiting he wounded him.'),
             plain(38, 'So the prophet departed, and waited for the king by the way, and disguised himself with ashes upon his face.'),
             plain(39, 'And as the king passed by, he cried unto the king: and he said, Thy servant went out into the midst of the battle; and, behold, a man turned aside, and brought a man unto me, and said, Keep this man: if by any means he be missing, then shall thy life be for his life, or else thou shalt pay a talent of silver.'),
