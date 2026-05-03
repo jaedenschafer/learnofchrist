@@ -1,16 +1,10 @@
 import Link from 'next/link';
-import dynamic from 'next/dynamic';
 import { getAllBlogPosts, categoryColors } from '@/data/blog-posts';
 import { getCuratedHighlights } from '@/lib/supabase';
 import ArtArches from '@/components/ArtArches';
 import AppDashboard from '@/components/AppDashboard';
 import StudyShowcase from '@/components/StudyShowcase';
 import './home.css';
-
-// Below-the-fold + client-only — code-split so it doesn't block the hero.
-const ContinueReading = dynamic(() => import('@/components/ContinueReading'), {
-  loading: () => null,
-});
 
 // ─── ISR ───
 // Cache pages for 24h; regenerate in background after that.
@@ -106,10 +100,7 @@ export default async function Home() {
         </div>
       </section>
 
-      {/* ═══════════ 2. Continue reading rail — only renders if state ═══════════ */}
-      <ContinueReading />
-
-      {/* ═══════════ 3. Study showcase — 4-card horizontal scroll ═══════════ */}
+      {/* ═══════════ 2. Study showcase — 4-card horizontal scroll ═══════════ */}
       <StudyShowcase />
 
       {/* ═══════════ 4. Mission — one declarative line ═══════════ */}
