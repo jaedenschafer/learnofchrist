@@ -46,7 +46,7 @@ export const FIRST_CORINTHIANS_13: RichChapterContent = {
           script: 'ἀγάπη',
           translit: '<strong>agapē</strong> · self-giving love; the love of God',
           description:
-            'Agapē is not eros (romantic desire) or philos (friendship). It is the radical, self-emptying love of God—the love that goes first, asks nothing, endures all things. It is the love that chose the cross.',
+            'Agapē is not eros (romantic desire) or philos (friendship)[res:perseus-agape-lexicon]. It is the radical, self-emptying love of God—the love that goes first, asks nothing, endures all things. It is the love that chose the cross.',
         },
         {
           kind: 'scripture',
@@ -369,7 +369,7 @@ export const FIRST_CORINTHIANS_13: RichChapterContent = {
           kind: 'commentary',
           id: 'cor13-glass',
           html:
-            'Paul shifts the image. Now is like looking into a mirror—the ancient polished bronze that gave a cloudy reflection. We see <em>through</em> it, darkly. The image is warped. We are guessing at the shape of things. Our prophecy, our knowledge—all of it is distorted by the limits of our sight. We are trying to read the face of reality in a funhouse mirror.',
+            'Paul shifts the image. Now is like looking into a mirror—the ancient polished bronze[res:met-bronze-mirrors] that gave a cloudy reflection. We see <em>through</em> it, darkly. The image is warped. We are guessing at the shape of things. Our prophecy, our knowledge—all of it is distorted by the limits of our sight. We are trying to read the face of reality in a funhouse mirror.',
         },
         {
           kind: 'greek',
@@ -422,7 +422,7 @@ export const FIRST_CORINTHIANS_13: RichChapterContent = {
           kind: 'commentary',
           id: 'cor13-trinity-grace',
           html:
-            'Paul names the three virtues that survive into eternity: faith, hope, and charity. These three remain when everything else has passed away. <em>And now abideth</em>—present tense. They are already at work in you. Faith trusts God in the darkness. Hope believes in a future that hasn&apos;t happened yet. But love—<em>agapē</em>—is doing something right now, in this moment, to the person in front of you.',
+            'Paul names the three virtues that survive into eternity: faith, hope, and charity. These three remain when everything else has passed away. <em>And now abideth</em>—present tense. They are already at work in you. Faith trusts God in the darkness. Hope believes in a future that hasn&apos;t happened yet. But love—<em>agapē</em>—is doing something right now, in this moment, to the person in front of you. This echo of Hebrew <em>chesed</em>[res:sefaria-hosea-chesed] (steadfast mercy) and the Greek philosophical traditions of love[res:theoi-four-loves] converge in Paul&apos;s vision.',
         },
         {
           kind: 'commentary',
@@ -464,6 +464,41 @@ export const FIRST_CORINTHIANS_13: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: '1 Corinthians 13 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'perseus-agape-lexicon',
+      kind: 'lexicon',
+      source: 'Perseus Digital Library',
+      label: 'Agapē, Philos, Eros: Greek Love Words',
+      url: 'https://scaife.perseus.org/dictionaryLookup?q=agape',
+      description: 'Lexical entry from the LSJ Greek-English lexicon comparing agapē with philos and eros across classical and New Testament texts.',
+    },
+    {
+      id: 'sefaria-hosea-chesed',
+      kind: 'study',
+      source: 'Sefaria Library',
+      label: 'Hosea &amp; Hebrew Chesed',
+      url: 'https://www.sefaria.org/search?q=chesed+hosea',
+      description: 'Sefaria&apos;s open-access Hebrew scripture search tool — trace chesed (covenant love) through Hosea&apos;s portrait of God&apos;s unfailing mercy.',
+    },
+    {
+      id: 'met-bronze-mirrors',
+      kind: 'archaeology',
+      source: 'The Metropolitan Museum of Art',
+      label: 'Ancient Roman Bronze Mirrors',
+      url: 'https://www.metmuseum.org/art/collection?q=bronze%20mirror%20Roman',
+      description: 'Collection of polished bronze mirrors from the Roman period — actual artifacts matching Paul&apos;s image of seeing &quot;through a glass, darkly&quot; at 1 Corinthians 13:12.',
+    },
+    {
+      id: 'theoi-four-loves',
+      kind: 'study',
+      source: 'Theoi Classical Texts &amp; Database',
+      label: 'The Four Greek Love Words: Agapē, Philos, Storge, Eros',
+      url: 'https://www.theoi.com/',
+      description: 'Comprehensive reference for classical and New Testament distinctions among the four forms of love in ancient Greek philosophy and Scripture.',
+    },
+  ],
 
   hasHebrew: false,
 };

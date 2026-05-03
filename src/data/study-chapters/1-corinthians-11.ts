@@ -164,7 +164,7 @@ export const FIRST_CORINTHIANS_11: RichChapterContent = {
           kind: 'commentary',
           id: 'cor11-image-man',
           html:
-            'The shearing or shaving of a woman&apos;s head in Corinth was a mark of shame—a sign of adultery or punishment. Paul uses this to show the social seriousness of the covering. But notice: he also says <em>a man</em> is the image and glory of God, and <em>the woman</em> is the glory of the man. These are statements about <em>reflected order</em>, not about inherent worth. Both are image-bearers of God (Gen. 1:27). The difference is about who reflects whom in the order of creation and the structure of the assembly.',
+            'The shearing or shaving of a woman&apos;s head in Corinth was a mark of shame—a sign of adultery or punishment. Paul uses this to show the social seriousness of the covering. But notice: he also says <em>a man</em> is the image and glory of God, and <em>the woman</em> is the glory of the man. These are statements about <em>reflected order</em>, not about inherent worth. Both are image-bearers of God (Gen. 1:27). The difference is about who reflects whom in the order of creation and the structure of the assembly. Genesis 2 records this creation order in detail[res:sefaria-genesis-2].',
         },
         {
           kind: 'carry',
@@ -505,7 +505,7 @@ export const FIRST_CORINTHIANS_11: RichChapterContent = {
           kind: 'commentary',
           id: 'cor11-cup-remembrance',
           html:
-            'The cup is the <em>covenant</em> cup. The Hebrew word for &ldquo;testament&rdquo; is berith—covenant. Jesus is saying: the old covenant, ratified by the blood of animals at Sinai, is being replaced. My blood seals a new covenant. It is personal, intimate, eternal. To drink the cup is to say: I am grafted into this covenant.',
+            'The cup is the <em>covenant</em> cup. The Hebrew word for &ldquo;testament&rdquo; is berith—covenant. Jesus is saying: the old covenant, ratified by the blood of animals at Sinai, is being replaced. My blood seals a new covenant. It is personal, intimate, eternal. To drink the cup is to say: I am grafted into this covenant. This meal echoes the Passover seder[res:sefaria-mishnah-pesachim], which Jesus transformed into the Christian Eucharist[res:bibleodyssey-eucharist].',
         },
         {
           kind: 'scripture',
@@ -733,6 +733,33 @@ export const FIRST_CORINTHIANS_11: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: '1 Corinthians 11 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-genesis-2',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Genesis 2 — Woman from Man',
+      url: 'https://www.sefaria.org/Genesis.2',
+      description: 'Full text with classical Jewish commentary on the creation of woman from man&apos;s rib, the foundation Paul references in 1 Corinthians 11:8–9.',
+    },
+    {
+      id: 'bibleodyssey-eucharist',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Eucharist in Early Christian Practice',
+      url: 'https://www.bibleodyssey.org/dictionary/eucharist/',
+      description: 'Open-access overview of how the early church understood and practiced the Lord&apos;s Supper, covenant meal, and memorial of Christ&apos;s death.',
+    },
+    {
+      id: 'sefaria-mishnah-pesachim',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Mishnah Pesachim — The Passover Seder',
+      url: 'https://www.sefaria.org/Mishnah_Pesachim',
+      description: 'Rabbinic instructions for the Passover meal ritual, the Jewish covenant meal Jesus transformed into the Lord&apos;s Supper at the last supper.',
+    },
+  ],
 
   hasHebrew: false,
 };

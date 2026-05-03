@@ -107,7 +107,7 @@ export const FIRST_CORINTHIANS_10: RichChapterContent = {
           script: 'πνευματικός',
           translit: '<strong>pneuma-tik-os</strong> · belonging to the spirit; not merely physical but divine in origin and meaning',
           description:
-            'The food Israel ate was manna (Exodus 16). Physically it sustained their bodies. But Paul sees deeper: it was <em>spiritual</em> food, given by God&apos;s hand for a spiritual people learning to trust Him. The same applies to the water: the rock in the wilderness (Exodus 17) was not merely a physical stone, but a vessel of God&apos;s provision in the desert.',
+            'The food Israel ate was manna (Exodus 16)[res:sefaria-exodus-13-17]. Physically it sustained their bodies. But Paul sees deeper: it was <em>spiritual</em> food, given by God&apos;s hand for a spiritual people learning to trust Him. The same applies to the water: the rock in the wilderness (Exodus 17)[res:sefaria-numbers-20] was not merely a physical stone, but a vessel of God&apos;s provision in the desert.',
         },
         {
           kind: 'commentary',
@@ -540,7 +540,7 @@ export const FIRST_CORINTHIANS_10: RichChapterContent = {
           kind: 'commentary',
           id: 'cor10-shambles',
           html:
-            'The practical application: if you buy meat in the market without asking whether it was offered to an idol, you are free in conscience. You do not need to investigate every source. But if someone tells you, "This was offered to an idol," then the question shifts. Eating it in that person&apos;s presence becomes an act of care—or a lack of it.',
+            'The practical application: if you buy meat in the market[res:ascsa-corinth-macellum] without asking whether it was offered to an idol, you are free in conscience—because the earth is the Lord&apos;s[res:sefaria-psalm-24]. You do not need to investigate every source. But if someone tells you, "This was offered to an idol," then the question shifts. Eating it in that person&apos;s presence becomes an act of care—or a lack of it.',
         },
         {
           kind: 'carry',
@@ -724,4 +724,39 @@ export const FIRST_CORINTHIANS_10: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: '1 Corinthians 10 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-exodus-13-17',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 13–17: The Wilderness Journey',
+      url: 'https://www.sefaria.org/Exodus.13-17',
+      description: 'The foundational narrative of Israel&apos;s exodus and desert wanderings — the cloud, the sea, the manna, and the rock that Paul references as types of Christ.',
+    },
+    {
+      id: 'sefaria-numbers-20',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Numbers 20: The Rock at Horeb',
+      url: 'https://www.sefaria.org/Numbers.20',
+      description: 'Moses strikes the rock and water flows — the wilderness miracle that Paul identifies as Christ and that sustained Israel through the desert.',
+    },
+    {
+      id: 'ascsa-corinth-macellum',
+      kind: 'archaeology',
+      source: 'ASCSA',
+      label: 'Corinth: The Macellum (Meat Market)',
+      url: 'https://agora.ascsa.net/',
+      description: 'Excavation of the marketplace where Corinthian believers encountered meat sold in the shambles, the practical backdrop to Paul&apos;s teaching on conscience and community.',
+    },
+    {
+      id: 'sefaria-psalm-24',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 24: The Earth Is the Lord&apos;s',
+      url: 'https://www.sefaria.org/Psalms.24',
+      description: 'The psalm Paul quotes at 1 Corinthians 10:26 — establishing that creation belongs to God, not to human appetite or proprietary claim.',
+    },
+  ],
 };

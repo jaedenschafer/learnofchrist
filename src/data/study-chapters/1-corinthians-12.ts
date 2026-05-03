@@ -60,7 +60,7 @@ export const FIRST_CORINTHIANS_12: RichChapterContent = {
           script: 'πνευματικά',
           translit: '<strong>pneumatika</strong> · spiritual gifts; things of the Spirit; spiritual phenomena',
           description:
-            'The word draws from pneuma—spirit, breath, wind. A spiritual gift is not something you buy or study. It is something breathed into you by God&apos;s Spirit. It is His wind moving in you.',
+            'The word draws from pneuma—spirit, breath, wind. A spiritual gift is not something you buy or study. It is something breathed into you by God&apos;s Spirit. It is His wind moving in you. In classical Greek, <em>charis</em> and <em>charisma</em> refer to grace-endowments distributed by divine power[res:sefaria-charismata].',
         },
         {
           kind: 'commentary',
@@ -88,7 +88,7 @@ export const FIRST_CORINTHIANS_12: RichChapterContent = {
           id: 'cor12-christ-accursed',
           title: 'Christ Connection — Jesus Is Lord',
           html:
-            'The Spirit&apos;s work is always to point to Christ. "Ye cannot say that Jesus is the Lord, but by the Holy Ghost." This confession—Jesus is Lord—is the center of everything. It means Jesus has been raised. It means He has conquered death. It means He holds your future. Every gift serves this truth. Every gift is meant to build up those who believe it.',
+            'The Spirit&apos;s work is always to point to Christ. "Ye cannot say that Jesus is the Lord, but by the Holy Ghost." This confession—Jesus is Lord—is the center of everything[res:bibleodyssey-jesus-lord]. It means Jesus has been raised. It means He has conquered death. It means He holds your future. Every gift serves this truth. Every gift is meant to build up those who believe it.',
         },
         {
           kind: 'carry',
@@ -359,7 +359,7 @@ export const FIRST_CORINTHIANS_12: RichChapterContent = {
           kind: 'commentary',
           id: 'cor12-12-one-body',
           html:
-            'Paul shifts to metaphor. The body is one organism. It has many members—hands, feet, eyes, ears. But they are not competing parts. They are parts of a single body. The eye does not say to the hand, "I don&apos;t need you." The hand does not say to the foot, "I am more important." They work together. They share one life. They are members of one body.',
+            'Paul shifts to metaphor. The body is one organism. It has many members—hands, feet, eyes, ears. But they are not competing parts. They are parts of a single body. The eye does not say to the hand, "I don&apos;t need you." The hand does not say to the foot, "I am more important." They work together. They share one life. They are members of one body. This organic-state analogy draws on Greco-Roman political philosophy, where the commonwealth functions as a living body with each part essential[res:theoi-body-politic].',
         },
         {
           kind: 'commentary',
@@ -374,7 +374,7 @@ export const FIRST_CORINTHIANS_12: RichChapterContent = {
           script: 'βαπτίζω σῶμα',
           translit: '<strong>baptizo</strong> · baptize; immerse · <strong>soma</strong> · body',
           description:
-            'Baptism immerses you into the body. It is not an individual ritual. It is incorporation—you disappear into something larger than yourself. Your identity is no longer just you. It is you as a member of the body of Christ.',
+            'Baptism immerses you into the body. It is not an individual ritual. It is incorporation—you disappear into something larger than yourself[res:intertextual-corpus-christi]. Your identity is no longer just you. It is you as a member of the body of Christ.',
         },
         {
           kind: 'commentary',
@@ -707,6 +707,41 @@ export const FIRST_CORINTHIANS_12: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: '1 Corinthians 12 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-charismata',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Charismata — Greek Gifts',
+      url: 'https://www.sefaria.org/texts/Greek',
+      description: 'Greek term for grace-gifts; pneumatic endowments distributed by God&apos;s Spirit.',
+    },
+    {
+      id: 'theoi-body-politic',
+      kind: 'study',
+      source: 'Theoi Classical Texts',
+      label: 'Body as Polity: Plato & Plutarch',
+      url: 'https://www.theoi.com/Text/PlutarchMoralia.html',
+      description: 'Greco-Roman organic-state metaphor: the body as city-body reflecting social hierarchy and mutual dependence.',
+    },
+    {
+      id: 'bibleodyssey-jesus-lord',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Kyrios Iesous — Jesus Is Lord',
+      url: 'https://www.bibleodyssey.org/dictionary/lord-jesus/',
+      description: 'Earliest Christian creedal confession; proclamation that Jesus holds lordship and divine authority.',
+    },
+    {
+      id: 'intertextual-corpus-christi',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Soma Christou — Body of Christ',
+      url: 'https://intertextual.bible/text/1-corinthians-12.12',
+      description: 'Corporate membership metaphor: the church as living organism united in Christ through baptism and Spirit.',
+    },
+  ],
 
   hasHebrew: false,
 };
