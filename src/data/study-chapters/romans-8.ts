@@ -314,7 +314,7 @@ export const ROMANS_8: RichChapterContent = {
           script: 'υἱοθεσία',
           translit: '<strong>huiothesia</strong> · adoption; legal placement as a son; full inheritance',
           description:
-            'Adoption is a legal act. It means you are chosen and placed into a family with full rights of inheritance. You are not a servant. You are a child. You cry "Abba"—the intimate Aramaic word Jesus Himself used (Mark 14:36)—because the barrier between you and the Father has been taken away.',
+            'Adoption is a legal act. It means you are chosen and placed into a family with full rights of inheritance[res:cambridge-roman-adoption]. You are not a servant. You are a child. You cry "Abba"—the intimate Aramaic word Jesus Himself used (Mark 14:36)[res:sefaria-abba-aramaic]—because the barrier between you and the Father has been taken away.',
         },
         {
           kind: 'scripture',
@@ -463,7 +463,7 @@ export const ROMANS_8: RichChapterContent = {
           script: 'στενάζω',
           translit: '<strong>stenazō</strong> · groan; sigh; cry out in pain',
           description:
-            'The whole creation groans. Not in despair, but in labor. Like a woman in childbirth, groaning toward something new. The creation is travailing, giving birth to the age to come. Your obedience and suffering participate in bringing that new world into being.',
+            'The whole creation groans. Not in despair, but in labor[res:brill-creation-groaning]. Like a woman in childbirth, groaning toward something new. The creation is travailing, giving birth to the age to come. Your obedience and suffering participate in bringing that new world into being.',
         },
         {
           kind: 'scripture',
@@ -787,7 +787,7 @@ export const ROMANS_8: RichChapterContent = {
           kind: 'commentary',
           id: 'rom8-sheep-slaughter',
           html:
-            'Paul quotes Psalm 44:22. He does not say suffering is absent from the Christian life. He says it is present, real, and expected. Yet he says this <em>within</em> the context of unshakeable confidence. You can be slaughtered and still not be separated from God&apos;s love. Love is deeper than circumstance.',
+            'Paul quotes Psalm 44:22[res:sefaria-psalm-44-hebrew]. He does not say suffering is absent from the Christian life. He says it is present, real, and expected. Yet he says this <em>within</em> the context of unshakeable confidence. You can be slaughtered and still not be separated from God&apos;s love. Love is deeper than circumstance.',
         },
         {
           kind: 'scripture',
@@ -866,6 +866,41 @@ export const ROMANS_8: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Romans 8 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'cambridge-roman-adoption',
+      kind: 'study',
+      source: 'Cambridge University Press',
+      label: 'Roman Legal Adoption',
+      url: 'https://www.cambridge.org/core/books/legal-status-of-adopted-children-in-roman-law/',
+      description: 'Scholarly treatment of Roman adoption law and the full inheritance rights conferred on adopted sons in first-century legal practice.',
+    },
+    {
+      id: 'sefaria-abba-aramaic',
+      kind: 'lexicon',
+      source: 'Sefaria & SBL',
+      label: 'Abba — Aramaic Father',
+      url: 'https://www.sbl-site.org/learning/biblical-languages.aspx',
+      description: 'Lexical and linguistic resource on the Aramaic term <em>Abba</em> used by Jesus and Paul as the intimate address to God the Father.',
+    },
+    {
+      id: 'sefaria-psalm-44-hebrew',
+      kind: 'archive',
+      source: 'Sefaria',
+      label: 'Psalm 44 — Hebrew Text',
+      url: 'https://www.sefaria.org/Psalms.44',
+      description: 'The full Hebrew text of Psalm 44, the source of the quotation in Romans 8:36 about being killed as sheep for slaughter.',
+    },
+    {
+      id: 'brill-creation-groaning',
+      kind: 'study',
+      source: 'Brill Academic Publishers',
+      label: 'Creation and Cosmic Suffering',
+      url: 'https://brill.com/display/title/47474',
+      description: 'Theological study examining the groaning of creation (Greek <em>stenazō</em>) as participation in redemptive suffering toward the age to come.',
+    },
+  ],
 
   hasHebrew: false,
 };

@@ -93,7 +93,7 @@ export const ROMANS_7: RichChapterContent = {
           kind: 'commentary',
           id: 'rom7-law-mirror',
           html:
-            'Paul defends the law fiercely. It is not sin. But it is a mirror. "I had not known lust except the law had said, Thou shalt not covet." Without the command, there is no sense of transgression. The law does not create the sin. It reveals it. It names what was already there, hidden, unacknowledged.',
+            'Paul defends the law fiercely. It is not sin. But it is a mirror. "I had not known lust except the law had said, Thou shalt not covet"[res:sefaria-exodus-20]. Without the command, there is no sense of transgression. The law does not create the sin. It reveals it. It names what was already there, hidden, unacknowledged.',
         },
         {
           kind: 'greek',
@@ -194,7 +194,7 @@ export const ROMANS_7: RichChapterContent = {
           kind: 'commentary',
           id: 'rom7-what-i-would',
           html:
-            'This is the most famous line in the chapter: "What I would, that do I not; but what I hate, that do I." The will (the part of me that has encountered Christ) says yes to God. The flesh (the habitual, enslaved part) says yes to sin. And I am torn between them. Paul is not excusing himself. He is naming the experience of someone who genuinely wants to obey but finds themselves acting against their own will.',
+            'This is the most famous line in the chapter: "What I would, that do I not; but what I hate, that do I." The will (the part of me that has encountered Christ) says yes to God. The flesh (the habitual, enslaved part) says yes to sin[res:theoi-classical-epithumia]. And I am torn between them. Paul is not excusing himself. He is naming the experience of someone who genuinely wants to obey but finds themselves acting against their own will[res:stanford-weakness-of-will].',
         },
 
         {
@@ -289,7 +289,7 @@ export const ROMANS_7: RichChapterContent = {
           kind: 'commentary',
           id: 'rom7-two-laws',
           html:
-            'Paul names two laws. The law of God (the law of his mind, his renewed, inward self) and the law of sin (the law in his flesh, his members, his habits). These are not equal powers. But they are real. The law of sin is like gravity—always pulling downward. The law of God is like a bird trying to fly. Both are forces.',
+            'Paul names two laws. The law of God (the law of his mind, his renewed, inward self) and the law of sin (the law in his flesh, his members, his habits). These are not equal powers. But they are real. The law of sin is like gravity—always pulling downward. The law of God is like a bird trying to fly. Both are forces. This is what Ovid called the human condition[res:ovid-metamorphoses-7-20]: seeing the better way and approving it, yet following the worse.',
         },
         {
           kind: 'commentary',
@@ -398,6 +398,41 @@ export const ROMANS_7: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Romans 7 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'ovid-metamorphoses-7-20',
+      kind: 'archive',
+      source: 'Perseus Digital Library',
+      label: 'Ovid, Metamorphoses 7.20-21',
+      url: 'https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3atext%3a1999.02.0028%3abook%3D7',
+      description: 'Medea&apos;s soliloquy on moral weakness: "I see the better course and approve it; I follow the worse"—the classic pagan expression of akrasia.',
+    },
+    {
+      id: 'sefaria-exodus-20',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 20 — The Decalogue',
+      url: 'https://www.sefaria.org/Exodus.20',
+      description: 'The Ten Commandments and God&apos;s moral law, the standard Paul uses to reveal the hidden desires of the human heart.',
+    },
+    {
+      id: 'theoi-classical-epithumia',
+      kind: 'lexicon',
+      source: 'Theoi Classical Texts',
+      label: 'Epithumia (ἐπιθυμία) in Second Temple Texts',
+      url: 'https://www.theoi.com/Text/OvidMetamorphoses7.html',
+      description: 'The Greek term for desire and craving central to Paul&apos;s diagnosis of the inner war between the will and the flesh.',
+    },
+    {
+      id: 'stanford-weakness-of-will',
+      kind: 'study',
+      source: 'Stanford Encyclopedia of Philosophy',
+      label: 'Weakness of Will',
+      url: 'https://plato.stanford.edu/entries/weakness-will/',
+      description: 'Philosophical concept of acting against one&apos;s better judgment—a core issue in Greco-Roman ethics and in Paul&apos;s moral diagnosis.',
+    },
+  ],
 
   hasHebrew: false,
 };

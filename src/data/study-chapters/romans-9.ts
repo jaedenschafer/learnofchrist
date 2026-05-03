@@ -156,7 +156,7 @@ export const ROMANS_9: RichChapterContent = {
           kind: 'commentary',
           id: 'rom9-jacob-esau',
           html:
-            'Now Paul goes deeper. Not just Isaac over Ishmael—but within the same pregnancy, Jacob over Esau. Before either boy was born. Before either had done good or evil. Before works could play any role. God chose Jacob. The basis of that choice was not foreseen faith, not predicted obedience, not merit. It was "the purpose of God according to election." God chose. The choice came from Him, not from anything in Jacob or Esau. Paul does not explain why. He simply states that it is so. Some readers will find comfort in God&apos;s sovereignty over all things. Others will wrestle with the apparent unfairness. Paul invites both to trust that God is righteous, even when His methods are hidden.',
+            'Now Paul goes deeper. Not just Isaac over Ishmael—but within the same pregnancy, Jacob over Esau. Before either boy was born. Before either had done good or evil. Before works could play any role. God chose Jacob. Paul quotes the prophet Malachi[res:sefaria-malachi-1]: "Jacob have I loved, but Esau have I hated." The basis of that choice was not foreseen faith, not predicted obedience, not merit. It was "the purpose of God according to election." God chose. The choice came from Him, not from anything in Jacob or Esau. Paul does not explain why. He simply states that it is so. Some readers will find comfort in God&apos;s sovereignty over all things. Others will wrestle with the apparent unfairness. Paul invites both to trust that God is righteous, even when His methods are hidden.',
         },
 
         {
@@ -250,7 +250,7 @@ export const ROMANS_9: RichChapterContent = {
           kind: 'commentary',
           id: 'rom9-pharaoh-hardened',
           html:
-            'Paul brings Pharaoh as the example of hardening. "I have raised thee up… that I might shew my power in thee." God raised Pharaoh up to display His power through His judgment of Pharaoh&apos;s rebellion. Pharaoh hardened his own heart, but God permitted the hardening to show His power. God had mercy on Israel (bringing them out of Egypt) and showed hardening to Pharaoh (whose refusal let God&apos;s might be seen). The same God gives mercy and permits hardening—according to His purpose, not ours.',
+            'Paul brings Pharaoh as the example of hardening. "I have raised thee up… that I might shew my power in thee." This hardening tradition is rooted deep in Second Temple Jewish thought[res:bibleodyssey-pharaoh]. God raised Pharaoh up to display His power through His judgment of Pharaoh&apos;s rebellion. Pharaoh hardened his own heart, but God permitted the hardening to show His power. God had mercy on Israel (bringing them out of Egypt) and showed hardening to Pharaoh (whose refusal let God&apos;s might be seen). The same God gives mercy and permits hardening—according to His purpose, not ours.',
         },
 
         {
@@ -308,7 +308,7 @@ export const ROMANS_9: RichChapterContent = {
           kind: 'commentary',
           id: 'rom9-potter-power',
           html:
-            'Paul appeals to Isaiah 29:16 and 45:9. The potter has absolute authority over the clay. The pot does not get to ask why it was shaped one way and not another. But this image does not say the pot is passive. It says the pot has no standing to challenge the potter&apos;s right to shape it. The same God who made Jacob and Esau, Israel and Pharaoh, has the right to purposes that transcend our understanding. The clay—you—can trust the potter&apos;s hands, or rebel against them. But you cannot demand to understand His design.',
+            'Paul appeals to Isaiah 29:16 and 45:9 and to the vision Jeremiah receives of God as a potter reshaping clay[res:sefaria-jeremiah-18]. The potter has absolute authority over the clay. The pot does not get to ask why it was shaped one way and not another. But this image does not say the pot is passive. It says the pot has no standing to challenge the potter&apos;s right to shape it. The same God who made Jacob and Esau, Israel and Pharaoh, has the right to purposes that transcend our understanding. The clay—you—can trust the potter&apos;s hands, or rebel against them. But you cannot demand to understand His design.',
         },
 
         {
@@ -525,7 +525,7 @@ export const ROMANS_9: RichChapterContent = {
           kind: 'commentary',
           id: 'rom9-stone-in-zion',
           html:
-            'Paul quotes Isaiah 8:14 and 28:16. God Himself lays a stone in Zion. This stone will cause some to stumble and others to stand. "Whosoever believeth on him shall not be ashamed." The promise is clear: faith in this stone is safety. Rejection of it is falling. Israel fell because they did not recognize the stone as the foundation. They expected something else. But the Gentiles, coming from outside the system, could see it clearly. They believed. And they were not ashamed.',
+            'Paul quotes Isaiah 8:14 and 28:16[res:sefaria-isaiah-8-28]. God Himself lays a stone in Zion. This stone will cause some to stumble and others to stand. "Whosoever believeth on him shall not be ashamed." The promise is clear: faith in this stone is safety. Rejection of it is falling. Israel fell because they did not recognize the stone as the foundation. They expected something else. But the Gentiles, coming from outside the system, could see it clearly. They believed. And they were not ashamed.',
         },
 
         {
@@ -564,6 +564,41 @@ export const ROMANS_9: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Romans 9 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-malachi-1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Malachi 1',
+      url: 'https://www.sefaria.org/Malachi.1',
+      description: 'The passage &quot;Jacob have I loved, but Esau have I hated&quot; (Malachi 1:2–3) that Paul quotes in Romans 9:13.',
+    },
+    {
+      id: 'sefaria-jeremiah-18',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jeremiah 18',
+      url: 'https://www.sefaria.org/Jeremiah.18',
+      description: 'The prophet&apos;s vision of the potter reshaping clay — the image Paul draws upon for God&apos;s sovereignty over vessels of honor and dishonor.',
+    },
+    {
+      id: 'sefaria-isaiah-8-28',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 8 & 28',
+      url: 'https://www.sefaria.org/Isaiah.28',
+      description: 'Isaiah&apos;s prophecy of the stumblingstone and cornerstone, cited by Paul at Romans 9:33 as fulfilled in Christ.',
+    },
+    {
+      id: 'bibleodyssey-pharaoh',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Pharaoh',
+      url: 'https://www.bibleodyssey.org/dictionary/pharaoh/',
+      description: 'Entry on Pharaoh in Second Temple Jewish tradition, covering the hardening narrative that shapes Paul&apos;s theology of divine sovereignty.',
+    },
+  ],
 
   hasHebrew: false,
 };

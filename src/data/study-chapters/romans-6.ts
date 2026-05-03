@@ -83,7 +83,7 @@ export const ROMANS_6: RichChapterContent = {
           kind: 'commentary',
           id: 'rom6-buried',
           html:
-            'Baptism is not a shower or a sprinkling to mark membership. It is a burial. The waters close over you as the grave closed over Christ. You do not rise from that water unchanged. You rise <em>transformed.</em> The Greek word Paul uses is <em>baptizō</em>—to immerse, to plunge under, to submerge completely. You go down dead and come up alive. And the life you come up to is not merely <em>your</em> life renewed; it is Christ&apos;s resurrection life made yours.',
+            'Baptism is not a shower or a sprinkling to mark membership. It is a burial[res:bibleodyssey-baptism]. The waters close over you as the grave closed over Christ. You do not rise from that water unchanged. You rise <em>transformed.</em> The Greek word Paul uses is <em>baptizō</em>—to immerse, to plunge under, to submerge completely. You go down dead and come up alive. And the life you come up to is not merely <em>your</em> life renewed; it is Christ&apos;s resurrection life made yours.',
         },
         {
           kind: 'greek',
@@ -92,7 +92,7 @@ export const ROMANS_6: RichChapterContent = {
           script: 'βαπτίζω',
           translit: '<strong>baptizō</strong> · to immerse, to plunge under, to submerge completely',
           description:
-            'The Greek word does not mean "to sprinkle" or "to wash." It means to be plunged entirely under something—to be completely soaked or submerged. When you are baptized into Christ, you are completely immersed in His death and resurrection. There is no part of you that escapes.',
+            'The Greek word does not mean "to sprinkle" or "to wash." It means to be plunged entirely under something—to be completely soaked or submerged[res:blueletterbible-baptizo]. When you are baptized into Christ, you are completely immersed in His death and resurrection. There is no part of you that escapes.',
         },
         {
           kind: 'scripture',
@@ -105,7 +105,7 @@ export const ROMANS_6: RichChapterContent = {
           kind: 'commentary',
           id: 'rom6-planted',
           html:
-            'Paul uses the image of a seed planted in the ground. If you are planted in the likeness of Christ&apos;s death, you cannot help but grow into the likeness of His resurrection. The death and the rising are inseparable. You cannot have one without the other. To be a Christian is to have been planted with Christ in His grave and to be growing, now, into His risen life.',
+            'Paul uses the image of a seed planted in the ground—a metaphor drawing on burial imagery. If you are planted in the likeness of Christ&apos;s death, you cannot help but grow into the likeness of His resurrection. The death and the rising are inseparable. You cannot have one without the other. To be a Christian is to have been planted with Christ in His grave and to be growing, now, into His risen life.',
         },
         {
           kind: 'christ',
@@ -502,6 +502,25 @@ export const ROMANS_6: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Romans 6 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bibleodyssey-baptism',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Baptism in Early Christian Practice',
+      url: 'https://www.bibleodyssey.org/dictionary/baptism/',
+      description: 'Open-access SBL reference on baptism as practiced by the early church — immersion, rite of initiation, and theological meaning.',
+    },
+    {
+      id: 'blueletterbible-baptizo',
+      kind: 'lexicon',
+      source: 'Blue Letter Bible',
+      label: 'Baptizo — Greek Lexicon',
+      url: 'https://www.blueletterbible.org/lexicon/g907/kjv/',
+      description: 'Complete Greek lexical entry for baptizō with cognates, classical usage, and New Testament citations.',
+    },
+  ],
 
   hasHebrew: false,
 };
