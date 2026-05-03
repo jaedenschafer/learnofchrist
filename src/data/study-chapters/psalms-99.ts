@@ -16,7 +16,7 @@ export const PSALMS_99: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 99,
 
-  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 3 },
+  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
   intros: [
     'Psalm 99 is the shortest of the great affirmations of God&apos;s sovereignty. Yet it is filled with theology. It speaks of God&apos;s greatness, His transcendence, His holiness. But it also speaks of His accessibility—through priests and intercessors, God can be approached. Moses, Aaron, and Samuel are named as those who called upon the Lord and were answered. They stand as witnesses that God hears and responds.',
     'The psalm culminates in "Holy, holy, holy, is the Lord our God"—a phrase that echoes through Scripture, culminating in the seraphim&apos;s cry in Isaiah&apos;s vision and in the worship of heaven itself. God&apos;s holiness is not merely His separation from sin, but His absolute transcendence, His otherness, His overwhelming greatness.',
@@ -71,6 +71,13 @@ export const PSALMS_99: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms99-holy',
           html: '"Exalt the Lord our God, and worship at his holy hill; for the Lord our God is holy." The refrain returns. The Lord is holy. Not once, but repeatedly, the psalm drives home this truth. Holiness is God&apos;s fundamental character. It is the reason for worship. It is the reason for trembling. It is the reason for praise.',
+        },
+        {
+          kind: 'christ',
+          id: 'ps99-christ',
+          title: 'Christ Connection — Holy and Approachable',
+          html:
+            'Psalm 99 presents a paradox: God enthroned between the cherubim, utterly holy, yet answering those who call (v. 8). Hebrews describes Christ as sitting "on the right hand of the throne of the Majesty in the heavens" (Heb. 8:1), affirming His place of absolute holiness. Yet it also declares: "Let us therefore come boldly unto the throne of grace, that we may obtain mercy, and find grace to help in time of need" (Heb. 4:16). Through Christ, the unapproachable becomes approachable. He is the mediator between the holy God and sinful people (1 Tim. 2:5), fulfilling what Moses and Aaron could only foreshadow.',
         },
         {
           kind: 'carry',

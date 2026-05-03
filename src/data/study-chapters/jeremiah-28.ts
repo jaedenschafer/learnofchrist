@@ -14,7 +14,7 @@ export const JEREMIAH_28: RichChapterContent = {
   bookName: 'Jeremiah',
   chapter: 28,
 
-  estimatedMinutes: { beginner: 4, intermediate: 5, deep: 6 },
+  estimatedMinutes: { beginner: 4, intermediate: 6, deep: 7 },
   intros: [
     'Hananiah the false prophet publicly breaks the wooden yoke from Jeremiah&apos;s neck, declaring that the Lord will break the yoke of Babylon and bring back the vessels of the temple and Jeconiah within two years. It is a dramatic, public contradiction of Jeremiah&apos;s message. The people who want to believe Hananiah&apos;s words of comfort see a prophecy more believable than Jeremiah&apos;s harsh words of judgment.',
     'Yet Jeremiah responds: "Hear now, Hananiah; The Lord hath not sent thee... thou hast caused this people to trust in a lie." The false prophet breaks a wooden yoke, and God&apos;s response is an iron yoke — a harder judgment. The judgment for lying about God&apos;s word is more severe than the judgment for disobedience.',
@@ -194,6 +194,13 @@ export const JEREMIAH_28: RichChapterContent = {
           kind: 'carry',
           html:
             'False prophecy is not a harmless alternative view. It has consequences. Those who speak lies in God&apos;s name bring judgment upon themselves and upon those who believe them. Truth-telling is not optional; it is the foundation of God&apos;s relationship with His people.',
+        },
+        {
+          kind: 'christ',
+          id: 'jer28-christ',
+          title: 'Christ Connection — The True Word Against False Prophets',
+          html:
+            'Hananiah breaks the wooden yoke and promises freedom in two years. It is a lie. The iron yoke replaces it — a harder judgment. Jesus warned His followers: "Beware of false prophets, which come to you in sheep&apos;s clothing, but inwardly they are ravening wolves" (Matt. 7:15). Yet Christ Himself offers a yoke: "Take my yoke upon you… for my yoke is easy, and my burden is light" (Matt. 11:29–30). His yoke is not iron; it is not burdensome. His rest is not the illusory rest of Hananiah&apos;s false promise, but true peace. The true prophet offers not what we wish to hear, but what is true. And what is true, when it comes from Christ, is merciful.',
         },
         {
           kind: 'reflection',

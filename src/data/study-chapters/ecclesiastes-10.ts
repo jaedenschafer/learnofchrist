@@ -15,7 +15,7 @@ export const ECCLESIASTES_10: RichChapterContent = {
   bookName: 'Ecclesiastes',
   chapter: 10,
 
-  estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+  estimatedMinutes: { beginner: 2, intermediate: 5, deep: 6 },
   intros: [
     'The Preacher turns his attention to the power of small things. A single dead fly can spoil a whole pot of valuable ointment. A small mistake can destroy a great reputation. A moment of folly can erase years of wisdom. The image is humble—dead flies, apothecary ointment—but the lesson is profound. We are not as secure as we think. Our accomplishments, our reputations, our positions—these are fragile, subject to destruction by small things we may not even see.',
     'The Preacher then moves through a series of observations about folly and wisdom. A wise man&apos;s heart inclines him to the right, but a fool&apos;s heart to the left. The fool shows his folly openly. Idleness brings decay. Even small rebellions, small refusals to do what is required, can undermine everything. The Preacher is teaching a necessary vigilance. Not paranoia, but awareness. Not anxiety, but attentiveness. The small compromise, the small folly, the small neglect—these compound. They matter.',
@@ -115,6 +115,13 @@ export const ECCLESIASTES_10: RichChapterContent = {
           kind: 'carry',
           html:
             'The Preacher is teaching the power of words and the importance of discipline. Your words matter. Your speech reveals whether you are wise or foolish. And your actions matter. Idleness brings decay. Discipline brings order. A slip of the tongue, a moment of complaint, even unspoken criticism—these small things compound. Watch your mouth. Maintain your hands. Care for what has been entrusted to you.',
+        },
+        {
+          kind: 'christ',
+          id: 'ecc10-christ',
+          title: 'Christ Connection — The Leaven of Righteousness',
+          html:
+            'Solomon warns that "a little folly leaveneth the whole lump"—a small corruption compounds into something that ruins everything. Paul applies this exact image to something deeper: "Know ye not that a little leaven leaveneth the whole lump? Purge out therefore the old leaven… For even Christ our passover is sacrificed for us" (1 Cor. 5:6–8). Christ is the Passover—the one whose righteousness is leaven-free, utterly uncorrupted. By His death and resurrection, He cleanses the lump entirely. The small folly we cannot undo, He undoes.',
         },
         {
           kind: 'reflection',

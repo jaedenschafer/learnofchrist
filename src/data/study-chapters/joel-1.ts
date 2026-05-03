@@ -5,7 +5,7 @@ export const JOEL_1: RichChapterContent = {
   bookName: 'Joel',
   chapter: 1,
 
-  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+  estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
   intros: [
     'Joel opens with a crisis: a plague of locusts. "That which the palmerworm hath left hath the locust eaten; and that which the locust hath left hath the cankerworm eaten." Wave upon wave of destruction. The land is devastated. The grape vines are destroyed. The fig trees are stripped bare.',
     'Yet this physical judgment is a sign of a greater reality — the day of the Lord. The locust plague is but a small foreshadowing of the judgment that will come on all the earth. Joel calls the people to awake, to lament, to gather together. This is a wakeup call — not to doom them, but to turn them toward God.',
@@ -114,6 +114,13 @@ export const JOEL_1: RichChapterContent = {
           id: 'joel1-theme',
           html:
             'Joel 1 presents judgment as a wakeup call. The locusts devastate the land, and instead of the people despairing or hiding, they are called to wake up, to lament, to gather before God. The destruction is meant to turn them back to their Maker. It is harsh mercy — the removal of comfort so that they will seek the Comforter.',
+        },
+        {
+          kind: 'christ',
+          id: 'joel1-christ',
+          title: 'Christ Connection — Herald of the Day',
+          html:
+            'The locust plague stands as a shadow of the day of the Lord — a day of judgment and visitation. Yet Joel&apos;s urgent call to gather and seek God prefigures Christ&apos;s own call. "Come unto me, all ye that labour and are heavy laden, and I will give you rest" (Matt. 11:28). The day of the Lord will indeed come. But before it comes, Christ offers refuge. He is the One standing at the door, calling us to awake from our comforts, to gather before the Throne, to seek His face while He may be found.',
         },
         {
           kind: 'divider',

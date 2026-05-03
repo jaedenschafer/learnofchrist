@@ -17,7 +17,7 @@ export const JOB_12: RichChapterContent = {
   bookName: 'Job',
   chapter: 12,
 
-  estimatedMinutes: { beginner: 1, intermediate: 4, deep: 6 },
+  estimatedMinutes: { beginner: 1, intermediate: 5, deep: 6 },
   intros: [
     'Job has now heard from all three friends. Each has tried to convince him that his suffering must be the result of his sin. Each has assured him that if he will repent and seek God, he will be restored. And each has spoken with absolute certainty, as though the ways of God were transparent, as though the connection between sin and suffering were obvious and universal. Job responds to all of them at once, with a sarcasm so bitter it cuts like a blade.',
     '"No doubt but ye are the people, and wisdom shall die with you." This is Job&apos;s response. He is saying that his friends seem to believe that all wisdom lives in them, that when they die, wisdom will die with them. He is mocking their assumption that they understand God better than Job does, that they can see the truth about Job&apos;s situation more clearly than Job himself can.',
@@ -172,6 +172,13 @@ export const JOB_12: RichChapterContent = {
           kind: 'carry',
           html:
             'Job&apos;s portrait of God&apos;s wisdom is not comforting. It is vast, powerful, and utterly beyond human categories. God does not operate according to the simple rules his friends present. God&apos;s wisdom encompasses deception and truth, poverty and riches, success and failure. All of these are in God&apos;s hand.',
+        },
+        {
+          kind: 'christ',
+          id: 'job12-christ',
+          title: 'Christ Connection — All Treasures of Wisdom',
+          html:
+            'Job rightly insists that true wisdom belongs to God alone and cannot be reduced to human categories or formulas. But where does that wisdom finally become visible? Paul reveals it: "In whom are hid all the treasures of wisdom and knowledge" (Col. 2:3). Jesus is "the wisdom of God" (1 Cor. 1:24). The vastness that Job senses—the mystery that transcends human judgment—that same wisdom appeared in human flesh. God&apos;s inscrutability is not distant; it is intimate.',
         },
         {
           kind: 'reflection',

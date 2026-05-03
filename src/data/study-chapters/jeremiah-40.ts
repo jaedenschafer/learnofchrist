@@ -13,7 +13,7 @@ export const JEREMIAH_40: RichChapterContent = {
   bookName: 'Jeremiah',
   chapter: 40,
 
-  estimatedMinutes: { beginner: 1, intermediate: 2, deep: 2 },
+  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 3 },
   intros: [
     'After the fall of Jerusalem, exile seems total. The powerful are taken to Babylon. The Temple is burned. The walls are broken. But God has preserved a promise: not all are exiled. A remnant remains. These are the poor of the land, those left behind in the chaos of war. And over this remnant, God raises a governor—Gedaliah—and sends Jeremiah to walk among them.',
     'The pattern is ancient. In Noah&apos;s flood, a remnant was saved. Through Joseph, a remnant of Israel came to Egypt and was preserved. In exile, a remnant will be the seed of restoration. God never entirely abandons His people. Always there is a faithful few, a small group through whom restoration can flow.',
@@ -62,6 +62,13 @@ export const JEREMIAH_40: RichChapterContent = {
           kind: 'reflection',
           id: 'jer40-remnant-hope',
           prompt: 'What remnant of hope or faith do you hold onto in your own times of exile or loss? How might you be part of gathering and encouraging other remnants—other faithful ones—toward restoration?',
+        },
+        {
+          kind: 'christ',
+          id: 'jer40-christ',
+          title: 'Christ Connection — Freedom to the Captives',
+          html:
+            'The remnant is gathered and preserved. They are set free to begin again. This is the pattern Christ fulfills. "The Spirit of the Lord is upon me, because he hath anointed me to preach the gospel to the poor; he hath sent me to heal the brokenhearted, to preach deliverance to the captives, and recovering of sight to the blind, to set at liberty them that are bruised" (Luke 4:18). And later: "If the Son therefore shall make you free, ye shall be free indeed" (John 8:36). Where Jeremiah announces freedom to the exiled remnant of Judah, Christ announces freedom to all who are captive—captive to sin, to shame, to despair. The gathering of the remnant points toward the gathering of all nations into His kingdom.',
         },
       ],
     },

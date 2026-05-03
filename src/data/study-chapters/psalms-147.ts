@@ -16,7 +16,7 @@ export const PSALMS_147: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 147,
 
-  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 3 },
+  estimatedMinutes: { beginner: 1, intermediate: 4, deep: 4 },
   intros: [
     'Psalm 147 is a meditation on God&apos;s dual greatness: His cosmic power and His personal compassion. The Lord gathers the outcasts of Israel. He heals the broken in heart and binds their wounds. Yet He also has all the stars in His knowledge—He calls them all by name. The psalm refuses to separate cosmic authority from personal care. The God who orders the stars knows the number of hairs on your head. He who brings forth the snow and scatters the frost cares for the broken, the rejected, the wounded. Both truths flow from the same God.',
   ],
@@ -70,6 +70,11 @@ export const PSALMS_147: RichChapterContent = {
           id: 'psalm147-infinite',
           html:
             '"Great is our Lord, and of great power: his understanding is infinite." The infinite understanding includes both the cosmic and the intimate. God understands the movements of stars and the movements of a broken heart. His understanding encompasses all.',
+        },
+        {
+          kind: 'carry',
+          html:
+            'You&apos;ve stopped praying about that thing—the broken relationship, the chronic pain, the dream that won&apos;t happen. It feels "small" next to everyone else&apos;s struggles, so you carry it alone. But this psalm says: He counts the stars. He knows every one. He also knows the thing you stopped bringing to Him. Bring it back this week. Not because it&apos;s big enough. Because you matter to Him, and so does it.',
         },
       ],
     },

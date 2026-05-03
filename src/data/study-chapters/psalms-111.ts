@@ -14,7 +14,7 @@ export const PSALMS_111: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 111,
 
-  estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
+  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
   intros: [
     'Psalm 111 is an acrostic—the original Hebrew has each line beginning with successive letters of the Hebrew alphabet. This poetic form was used to help people remember the psalm, but it also suggests completeness: from aleph to tav, from beginning to end, the alphabet contains all human expression. And what fills all that speech? Praise of God. The psalm celebrates God&apos;s works, His glory, His righteousness, His power. And then comes the central declaration: "The fear of the Lord is the beginning of wisdom." This is the foundation of all true understanding: the recognition that God is God and we are not, that His works are wonderful, that He is worthy of our reverence and obedience.',
     'The acrostic form invites us into a kind of meditation. As we move through the alphabet, we move through different aspects of God&apos;s character and work. By the end, we have traced the shape of wisdom itself.',
@@ -65,6 +65,13 @@ export const PSALMS_111: RichChapterContent = {
           id: 'ps111-beginning-wisdom',
           html:
             '"The fear of the Lord is the beginning of wisdom." This phrase appears throughout the wisdom literature of the Bible (Proverbs, Job). It is not the end of wisdom but the beginning. All genuine understanding starts with reverence for God. The person who does not stand in awe of God, who does not recognize His authority and holiness, has missed the foundation upon which all true knowledge rests.',
+        },
+        {
+          kind: 'christ',
+          id: 'ps111-christ',
+          title: 'Christ Connection — Redemption and Covenant',
+          html:
+            'Verse 9 says: "He sent redemption unto his people: he hath commanded his covenant for ever." Redemption came fully through Christ—purchased at the cross, offered to all nations. Paul writes that Christ is "the image of the invisible God" and "by him all things consist" (Col. 1:15, 17). Every work of God&apos;s hands—described throughout this acrostic psalm—was made by Him and finds its meaning in Him. The covenant itself, remembered at the altar, points to His blood: "This cup is the new testament in my blood" (1 Cor. 11:25).',
         },
         {
           kind: 'carry',

@@ -5,7 +5,7 @@ export const HOSEA_12: RichChapterContent = {
   bookName: 'Hosea',
   chapter: 12,
 
-  estimatedMinutes: { beginner: 1, intermediate: 2, deep: 4 },
+  estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
   intros: [
     'Hosea 12 looks back to Jacob, Israel&apos;s ancestor. "By his strength he had power with God." Jacob wrestled with the angel of the Lord and prevailed. He wept and made supplication. This is the pattern: struggle, prayer, prevailing through intimacy with God.',
     'Yet Israel has not followed Jacob&apos;s pattern. She has followed Jacob&apos;s deception instead — his striving in her own strength, his manipulation. The chapter calls Israel to return to the God with whom Jacob wrestled, to find strength not in cunning but in communion with God.',
@@ -120,6 +120,13 @@ export const HOSEA_12: RichChapterContent = {
           id: 'hosea12-theme',
           html:
             'Hosea 12 teaches that true strength comes through wrestling with God, through prayer, through intimacy with Him. Jacob prevailed not because he was mighty but because he would not let go of God. He held on through the night, weeping, making supplication. This is the strength God is calling Israel to recover.',
+        },
+        {
+          kind: 'christ',
+          id: 'hos12-christ',
+          title: 'Christ Connection — Intercessor and Wrestler',
+          html:
+            'Jacob wrestled with God and would not let go. Yet the mightiest wrestler with God, the one who sweated as it were great drops of blood in His struggle, was Christ in Gethsemane. "Father, if thou be willing, remove this cup from me: nevertheless not my will, but thine, be done" (Luke 22:42). Christ did not turn away. He held on through the night of His passion. He prevailed not by might but by yielding wholly to the Father&apos;s will. In Him, Jacob&apos;s pattern reaches its fullest meaning.',
         },
         {
           kind: 'divider',

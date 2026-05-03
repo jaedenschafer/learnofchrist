@@ -15,7 +15,7 @@ export const PSALMS_107: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 107,
 
-  estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
+  estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
   intros: [
     'Psalm 107 is a song about deliverance in all circumstances. Whether you are lost in the desert, imprisoned in darkness, sick and dying, or drowning in a storm, the psalm says, you are not beyond God&apos;s reach. Each of the four scenes depicts a different kind of human trouble—physical lostness, captivity, sickness, danger. But in each case, the mechanism of deliverance is the same: the afflicted cry out to God, and He hears and delivers them. The psalm is structured like a refrain: trouble, cry, deliverance, praise. Four times this pattern repeats. The message is clear: no matter what form your trouble takes, God can rescue you.',
     'The psalm ends with a call to pay attention: "Oh that men would praise the Lord for his goodness, and for his wonderful works to the children of men!" The psalmist is saying: look at these stories of deliverance. See yourself in them. And understand that they are not exceptions. They are examples of how God regularly and habitually acts toward His people.',
@@ -76,6 +76,13 @@ export const PSALMS_107: RichChapterContent = {
           id: 'ps107-storm',
           html:
             'The fourth scene: sailors in a storm at sea, going down into the depths, their courage melting away. Yet when they cry to God, He quiets the storm. The waves become still. The danger passes.',
+        },
+        {
+          kind: 'christ',
+          id: 'ps107-christ',
+          title: 'Christ Connection — The Word That Heals',
+          html:
+            'Verse 20 says: "He sent his word, and healed them." John opens his Gospel with: "In the beginning was the Word, and the Word was God" (John 1:1–3). Jesus is that Word made flesh. He stilled the storm with a single command: "Peace, be still" (Mark 4:39)—the same God who quiets the sea here. He healed the sick, freed the captives, and spoke to those sitting in darkness. When sailors cry in a storm, when the sick cry for healing, when captives cry for freedom—they cry out to the One who does these things. Christ is the fulfillment of every deliverance promised in this psalm.',
         },
         {
           kind: 'carry',

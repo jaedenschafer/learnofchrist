@@ -5,7 +5,7 @@ export const AMOS_3: RichChapterContent = {
   bookName: 'Amos',
   chapter: 3,
 
-  estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
+  estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
   intros: [
     'Amos 3 begins with a fundamental question about knowledge and relationship. "Surely the Lord God will do nothing, but he revealeth his secret unto his servants the prophets." God does not act without revealing His purposes to His servants.',
     'The chapter contains the famous verse: "Can two walk together, except they be agreed?" This speaks to the foundation of all relationship with God — agreement, alignment, covenant. To walk with God requires that we be on the same path, pursuing the same purposes. This is the call Amos brings to Israel.',
@@ -48,6 +48,13 @@ export const AMOS_3: RichChapterContent = {
           kind: 'carry',
           html:
             'God roars like a lion when He has something to say. His voice is not silent. A prophet cannot help but prophesy when God has spoken. This is the power of God&apos;s Word — it compels response. When God speaks, the question is not whether we hear but whether we will obey.',
+        },
+        {
+          kind: 'christ',
+          id: 'amos3-christ',
+          title: 'Christ Connection — The Voice of God',
+          html:
+            'Amos says: "Surely the Lord God will do nothing, but he revealeth his secret unto his servants the prophets." God does not act in secret. He speaks. And when He does, prophets cannot help but respond. This reaches its climax in the New Testament: "God, who at sundry times and in divers manners spake in time past unto the fathers by the prophets, hath in these last days spoken unto us by his Son" (Heb. 1:1–2). Jesus is the final word of God. The voice that calls Israel back is the voice of Christ calling you to walk with Him in agreement, alignment, covenant.',
         },
         {
           kind: 'reflection',

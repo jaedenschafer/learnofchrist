@@ -5,7 +5,7 @@ export const AMOS_1: RichChapterContent = {
   bookName: 'Amos',
   chapter: 1,
 
-  estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
+  estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
   intros: [
     'Amos is a shepherd from Tekoa, not a professional prophet. Yet God calls him to prophesy. The opening statement echoes like a drum: "The Lord roars out of Zion, and utters his voice from Jerusalem; and the habitations of the shepherds shall mourn, and the top of Carmel shall wither."',
     'Amos announces a series of burdens against the nations around Israel — Damascus, Gaza, Tyre, Edom, Ammon, Moab. Each announcement follows the pattern: "For three transgressions, and for four, I will not turn away the punishment thereof." The refrain is relentless. God&apos;s patience has limits. His judgment is sure.',
@@ -59,6 +59,13 @@ export const AMOS_1: RichChapterContent = {
           kind: 'carry',
           html:
             'Damascus will face judgment because they have threshed Gilead with instruments of iron — they have brutalized the people of God. Fire will devour the palaces. The scepter will be cut off. God does not forget cruelty. He will judge those who harm His people.',
+        },
+        {
+          kind: 'christ',
+          id: 'amos1-christ',
+          title: 'Christ Connection — The Lion of the Tribe of Judah',
+          html:
+            'The roar of God from Zion echoes through the New Testament. "The Lord will roar out of Zion" becomes the roar of judgment and kingship. John sees this fulfilled: "Weep not: behold, the Lion of the tribe of Judah, the Root of David, hath prevailed" (Rev. 5:5). The same voice that thunders judgment against the nations in Amos is the voice of Jesus stepping forward to take the scroll of God\'s purposes. He roars not just as Judge but as King.',
         },
         {
           kind: 'reflection',

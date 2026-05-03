@@ -5,7 +5,7 @@ export const HOSEA_8: RichChapterContent = {
   bookName: 'Hosea',
   chapter: 8,
 
-  estimatedMinutes: { beginner: 1, intermediate: 2, deep: 4 },
+  estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
   intros: [
     '"Set the trumpet to thy mouth. As an eagle against the house of the Lord." The judgment comes swiftly. Israel has broken the covenant. She has made kings without God&apos;s direction. She has cast a molten calf and worshipped it.',
     'The most famous verse stands at the center: "They have sown the wind, and they shall reap the whirlwind." This is not God&apos;s judgment imposed from outside but the natural consequence of unfaithfulness. You reap what you sow. Israel has sown wind — empty, worthless actions — and will reap the whirlwind — destruction that will sweep away everything.',
@@ -122,6 +122,13 @@ export const HOSEA_8: RichChapterContent = {
           id: 'hosea8-theme',
           html:
             'Hosea 8 teaches that unfaithfulness has natural consequences. God does not need to impose punishment from without. The wind you sow becomes the whirlwind you reap. The covenant you break becomes your own destruction. This is why returning to God is so urgent — not because God is arbitrary, but because the consequences are inevitable and severe.',
+        },
+        {
+          kind: 'christ',
+          id: 'hos8-christ',
+          title: 'Christ Connection — Judge of the Harvest',
+          html:
+            '"They have sown the wind, and they shall reap the whirlwind." The law of the harvest speaks not only to Israel but to all creation. Christ will be the One who oversees the final reaping — "the Son of man shall sit in the throne of his glory" and He will "say unto them on his right hand...inherit the kingdom prepared for you from the foundation of the world" (Matt. 25:31, 34). Yet those on His left hear: "Depart from me...into everlasting fire" (Matt. 25:41). We reap what we sow — and Christ is the Harvester.',
         },
         {
           kind: 'divider',

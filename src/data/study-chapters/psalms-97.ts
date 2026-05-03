@@ -14,7 +14,7 @@ export const PSALMS_97: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 97,
 
-  estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
+  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 3 },
   intros: [
     'Psalm 97 opens with a powerful affirmation echoed throughout the Psalms: The Lord reigneth. And immediately, the proper response is named: Let the earth rejoice. When God reigns, creation itself is invited to celebrate. This is not the reign of a tyrant, but of a righteous God whose rule brings joy and goodness.',
     'The psalm acknowledges that God is clothed in darkness—mystery, hiddenness, transcendence. Yet from that darkness comes light. Righteousness and judgment are the foundation of His throne. And those who are righteous, those who have upright hearts, rejoice in His light. They are glad.',
@@ -63,6 +63,13 @@ export const PSALMS_97: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms97-light-sown',
           html: '"Light is sown for the righteous, and gladness for the upright in heart." For those whose hearts are aligned with God&apos;s righteousness, there is light and gladness. Not darkness, not sorrow, but the joy of those who are in harmony with God&apos;s righteous reign.',
+        },
+        {
+          kind: 'christ',
+          id: 'ps97-christ',
+          title: 'Christ Connection — The Lord Enthroned',
+          html:
+            'Hebrews quotes Psalm 97 directly about Jesus: "Let all the angels of God worship him" (Heb. 1:6, citing v. 7). The clouds and fire, the lightning and the shaking earth—they all announce a King. And Jesus took these images for His own return: "As the lightning cometh out of the east, and shineth even unto the west; so shall also the coming of the Son of man be" (Matt. 24:27). He will appear on the clouds with power and great glory (Rev. 1:7). The enthronement described here is His.',
         },
         {
           kind: 'carry',

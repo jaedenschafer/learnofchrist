@@ -5,7 +5,7 @@ export const AMOS_8: RichChapterContent = {
   bookName: 'Amos',
   chapter: 8,
 
-  estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
+  estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
   intros: [
     'Amos 8 opens with a vision of a basket of summer fruit. Summer fruit signals the end of the harvest, the closing of the season. "The end is come upon my people of Israel." The time for judgment is full. There is no more time for repentance.',
     'The chapter contains a startling prophecy: "Behold, the days come, saith the Lord, that I will send a famine in the land, not a famine of bread, nor a thirst for water, but of hearing the words of the Lord." Judgment is not primarily external but spiritual — the absence of God\'s word.',
@@ -90,6 +90,13 @@ export const AMOS_8: RichChapterContent = {
           kind: 'carry',
           html:
             'To be without God\'s word is to be lost. We live by every word that comes from God\'s mouth. When that word is absent, we are empty. How do you respond to God\'s word when it comes? Are you listening? Are you preserving it?',
+        },
+        {
+          kind: 'christ',
+          id: 'amos8-christ',
+          title: 'Christ Connection — The Bread of Life',
+          html:
+            'Amos prophecies a famine of God\'s word — people will hunger for it and find nothing. The judgment is spiritual deprivation. Yet Christ steps into this hunger and names Himself the solution: "I am the bread of life: he that cometh to me shall never hunger; and he that believeth on me shall never thirst" (John 6:35). Where there is famine, He is sustenance. Where there is silence, His voice speaks. The word of God that Israel rejected is made flesh in Jesus — not to condemn but to nourish, to fill the deepest hunger of the human heart.',
         },
         {
           kind: 'reflection',

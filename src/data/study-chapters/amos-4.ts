@@ -5,7 +5,7 @@ export const AMOS_4: RichChapterContent = {
   bookName: 'Amos',
   chapter: 4,
 
-  estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
+  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 3 },
   intros: [
     'Amos 4 addresses the women of Israel — those of ease in Samaria. "Hear this word, ye kine of Bashan, that are in the mountain of Samaria, which oppress the poor, which crush the needy." The language is harsh. Israel is like cattle — mindless, indulgent, oppressive.',
     'The chapter ends with the refrain: "Prepare to meet thy God, O Israel." This is the urgent call that runs through Amos. You cannot escape God. He is coming to meet you. The only question is: will you be ready?',
@@ -95,6 +95,13 @@ export const AMOS_4: RichChapterContent = {
       ref: 'Amos 4 · All',
       title: 'Meeting God',
       blocks: [
+        {
+          kind: 'christ',
+          id: 'amos4-christ',
+          title: 'Christ Connection — Prepare to Meet Your Redeemer',
+          html:
+            '"Prepare to meet thy God, O Israel." No one escapes the meeting. Yet the tone shifts in the New Testament. You do not meet God only as Judge; you meet Him as Redeemer. Christ steps forward saying, "Come unto me, all ye that labour and are heavy laden, and I will give you rest" (Matt. 11:28). The meeting is still coming — judgment is still real. But it is mediated through one who knows us, who loves us, who takes our judgment upon Himself. To prepare is not to fear but to turn toward Him.',
+        },
         {
           kind: 'commentary',
           id: 'amos4-theme',

@@ -15,7 +15,7 @@ export const PSALMS_98: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 98,
 
-  estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
+  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 3 },
   intros: [
     'Psalm 98 echoes Psalm 96: O sing unto the Lord a new song. But here the focus is more specific. What has the Lord done? He has done marvellous things. He has gotten Himself the victory. His right hand and His holy arm have accomplished salvation. Not through human power or human cleverness, but through God&apos;s own action. And all creation is invited to witness and rejoice.',
     'The psalm moves from God&apos;s salvation to the universal response: all the earth, the seas, the fields, the trees—all creation is invited to rejoice. This is an eschatological vision, a vision of the day when all creation will recognize and celebrate God&apos;s righteous rule.',
@@ -65,6 +65,13 @@ export const PSALMS_98: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms98-judge-equity',
           html: '"With righteousness shall he judge the world, and the people with equity." The vision moves to the future. God comes as judge. Not a harsh judge, but a righteous one. Equity—fairness, justice—will characterize His judgment. The God who has saved will also judge with perfect justice.',
+        },
+        {
+          kind: 'christ',
+          id: 'ps98-christ',
+          title: 'Christ Connection — The New Song of Redemption',
+          html:
+            'In Revelation, the redeemed around the throne sing a new song: "Thou art worthy...for thou wast slain, and hast redeemed us to God by thy blood" (Rev. 5:9). This is Psalm 98&apos;s new song made flesh. Christ&apos;s salvation—purchased at His cross, proclaimed to the nations—is the mighty act that calls forth the cosmic praise. Luke shows Jesus at His presentation as "a light to lighten the Gentiles" (Luke 2:32)—the salvation of God made known to all peoples, just as verse 2 declares.',
         },
         {
           kind: 'carry',

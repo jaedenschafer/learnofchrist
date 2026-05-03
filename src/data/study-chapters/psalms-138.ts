@@ -16,7 +16,7 @@ export const PSALMS_138: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 138,
 
-  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+  estimatedMinutes: { beginner: 1, intermediate: 4, deep: 4 },
   intros: [
     'Psalm 138 is a psalm of David, offered in the midst of opposition and danger. It is not a lament. It is a declaration of confidence and praise before hostile powers. The psalmist will praise God with his whole heart, before the gods—perhaps the gods of surrounding nations, perhaps metaphorical powers of darkness. The point is this: no matter the opposition, the psalmist&apos;s commitment to praise God is absolute. And the ground of this commitment is God&apos;s faithfulness. When the psalmist cries out, God hears. When he is brought low, God revives him. The psalm is a song for the soul under siege.',
   ],
@@ -104,6 +104,11 @@ export const PSALMS_138: RichChapterContent = {
           title: 'Christ Connection — Christ Revives',
           html:
             'In Ephesians 2:4–6, Paul writes: "God, being rich in mercy, because of His great love with which He loved us, even when we were dead in our transgressions, made us alive together with Christ—by grace you have been saved." Christ is the reviving hand of God. He takes those dead in sin and raises them to new life. He stands against all wrath and enmity. And He perfects the work begun in us, bringing us to completion in Him.',
+        },
+        {
+          kind: 'carry',
+          html:
+            'This week, be low. Let your shoulders drop. You don&apos;t have to be the one with the answer, the fix, the leadership. There is a place in your life—a moment, a space, maybe a relationship—where you are small, where you haven&apos;t figured it out, where you need help. That is not a failure. That is exactly where God draws near. Though the Lord be high, yet hath he respect unto the lowly. The carry is permission: stop performing. Stop climbing. Let yourself be small without shame.',
         },
       ],
     },

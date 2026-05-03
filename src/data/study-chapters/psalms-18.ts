@@ -14,7 +14,7 @@ export const PSALMS_18: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 18,
 
-  estimatedMinutes: { beginner: 1, intermediate: 4, deep: 4 },
+  estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
   intros: [
     'Psalm 18 is lengthy and expansive—the longest psalm to this point. It is a song of thanksgiving for deliverance, a recounting of God&apos;s power revealed through trial. David has faced death—the cords of death have wound around him, the floods of destruction have overwhelmed him. Yet God heard his cry. God reached down from heaven and pulled him out. The psalm does not minimize the darkness or the danger. It celebrates God&apos;s power revealed precisely in the midst of them.',
     'As David recounts God&apos;s deliverance, he moves from personal testimony to cosmic witness. The earth shook. The heavens were open. Lightning and hail fell. God rode upon a cherub. The voice of God thundered. All of creation is caught up in the drama of God saving David. This is not a minor matter. This is the breaking-through of heaven into earth.',
@@ -154,6 +154,11 @@ export const PSALMS_18: RichChapterContent = {
           kind: 'reflection',
           id: 'ps18-delighted',
           prompt: 'What does it mean that God "delighted" in David? How might God&apos;s delight in you change your understanding of your own worth?',
+        },
+        {
+          kind: 'carry',
+          html:
+            'There is a distress you are carrying right now that you haven&apos;t named. A weight. Something that makes you feel powerless or alone. David didn&apos;t call out to God because he had figured it all out—he called out precisely because he hadn&apos;t, because the sorrows had compassed him and he was drowning. The carry is this: name it. Not to anyone else yet, just to Him, in one sentence. In my distress I called upon the Lord. He heard. And sometimes that naming, that one honest sentence, is where the deliverance begins.',
         },
       ],
     },

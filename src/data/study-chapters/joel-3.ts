@@ -5,7 +5,7 @@ export const JOEL_3: RichChapterContent = {
   bookName: 'Joel',
   chapter: 3,
 
-  estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
+  estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
   intros: [
     'Joel 3 looks to the final judgment — the valley of decision. God will gather all nations to judge them for what they have done to His people. "The Lord shall roar out of Zion, and utter his voice from Jerusalem; and the heavens and the earth shall shake."',
     'Yet even here, in the midst of judgment, there is a promise of deliverance. "But Zion shall be holy, and there shall no strangers pass through her any more." God will protect His own. The nations will be judged, but God&apos;s people will be saved.',
@@ -113,6 +113,13 @@ export const JOEL_3: RichChapterContent = {
           id: 'joel3-theme',
           html:
             'Joel closes with the promise that God will judge all nations and will dwell with His people forever. The book moves from immediate crisis (the locust plague) to the ultimate crisis (the Day of the Lord) to ultimate hope (God dwelling with His people). This is the trajectory of all God&apos;s redemptive work: judgment, repentance, restoration, dwelling.',
+        },
+        {
+          kind: 'christ',
+          id: 'joel3-christ',
+          title: 'Christ Connection — Judge and Deliverer',
+          html:
+            'Joel speaks of God sitting to judge in the valley of Jehoshaphat and the outpouring of the Spirit on all flesh. Both find their center in Christ. Peter, standing at Pentecost, quotes Joel 2: "This is that which was spoken by the prophet Joel" (Acts 2:16). The Spirit poured out — that is Christ&apos;s work, Christ&apos;s gift. And one day Christ shall sit as Judge. "The Father...hath committed all judgment unto the Son" (John 5:22). From the cross to the throne, from the outpouring at Pentecost to the final judgment in the valley of decision, Christ is the fulfillment of Joel&apos;s prophecy.',
         },
         {
           kind: 'divider',

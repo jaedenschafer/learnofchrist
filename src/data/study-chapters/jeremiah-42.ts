@@ -14,7 +14,7 @@ export const JEREMIAH_42: RichChapterContent = {
   bookName: 'Jeremiah',
   chapter: 42,
 
-  estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
+  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
   intros: [
     'The remnant is in crisis. Gedaliah is dead. Ishmael has scattered them. Fear has seized the people. They come to Jeremiah and ask him to pray, to inquire of God, to ask whether they should flee to Egypt. Egypt is old hope. Egypt is the known quantity. Egypt is where they can escape the violence and uncertainty of the land.',
     'Jeremiah prays, as they have asked. God answers clearly: do not go to Egypt. Stay in the land. Do not flee. But staying means facing uncertainty. It means trusting God in a broken situation. It means accepting the loss of control. And so the remnant promises to obey. But promises made in seeking truth are often broken when truth arrives.',
@@ -64,6 +64,13 @@ export const JEREMIAH_42: RichChapterContent = {
           kind: 'reflection',
           id: 'jer42-hearing-and-obeying',
           prompt: 'When you ask God a question, can you truly promise to obey the answer, whether it pleases you or not? What makes it difficult to obey God&apos;s word when it contradicts what you want to do?',
+        },
+        {
+          kind: 'christ',
+          id: 'jer42-christ',
+          title: 'Christ Connection — Count the Cost',
+          html:
+            'The remnant promises to obey but will not. They hear God&apos;s word but choose their own path. Christ warned against this very thing: "Whosoever doth not bear his cross, and come after me, cannot be my disciple. For which of you, intending to build a tower, sitteth not down first, and counteth the cost, whether he have sufficient to finish it?" (Luke 14:27–28). And James echoes the danger: "Be ye doers of the word, and not hearers only, deceiving yourselves" (James 1:22). The rocky-soil hearer receives the word with joy but has no root. "Yet hath he not root in himself, but dureth for a while: for when tribulation or persecution ariseth because of the word, by and by he is offended" (Matthew 13:20–21). The remnant&apos;s failure foreshadows the necessity of Christ&apos;s cross—not as symbol only, but as the reality that demands everything.',
         },
       ],
     },

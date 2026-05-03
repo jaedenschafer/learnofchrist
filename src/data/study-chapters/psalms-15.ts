@@ -87,6 +87,11 @@ export const PSALMS_15: RichChapterContent = {
           id: 'ps15-mirror',
           prompt: 'Read through each quality described in this psalm. Which ones come most naturally to you, and which challenge you? How does seeing Christ as the perfect embodiment of these qualities change your understanding of your own journey?',
         },
+        {
+          kind: 'carry',
+          html:
+            'There is one word—or one silence—you can keep this week even when it costs you. Maybe it&apos;s the truth you&apos;re afraid to speak because the person won&apos;t like it. Maybe it&apos;s the exaggeration everyone tells, the slight dishonesty no one would notice. Maybe it&apos;s the promise you made that feels inconvenient now. This psalm names it: he sweareth to his own hurt and changeth not. One small integrity. Not because anyone is watching. Because you are learning what it looks like to walk uprightly before Him.',
+        },
       ],
     },
   ],

@@ -63,6 +63,11 @@ export const LUKE_19: RichChapterContent = {
             'Jesus seeks Zacchaeus. Jesus comes to Jerusalem to seek and save the lost. The kingdom is established through seeking, finding, saving.',
         },
         {
+          kind: 'carry',
+          html:
+            'This week, name one small return of obedience. Not a major life overhaul—a Zacchaeus gesture. A phone call you&apos;ve delayed. A penny of restitution where you&apos;ve been stingy in truth. A moment you step down from your tree and accept His invitation to your own house. The kingdom comes through small surrenders, not grand speeches. Make haste.',
+        },
+        {
           kind: 'reflection',
           id: 'luke19-zacchaeus-reflect',
           prompt: 'Do you believe Jesus is seeking you? What would a "Zacchaeus moment" look like for you?',

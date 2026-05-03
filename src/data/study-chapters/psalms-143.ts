@@ -16,7 +16,7 @@ export const PSALMS_143: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 143,
 
-  estimatedMinutes: { beginner: 1, intermediate: 4, deep: 4 },
+  estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
   intros: [
     'Psalm 143 is the last of the great penitential psalms—a prayer of David offered in deep distress. But unlike many laments, this psalm has a unique focus: it appeals not to the psalmist&apos;s own worth or righteousness, but to God&apos;s. "In thy righteousness deliver me," the psalmist cries. This is the breakthrough of the gospel in the Old Testament. The psalmist knows that his own righteousness is insufficient. He knows that he has sinned. His only hope is God&apos;s righteousness—God&apos;s commitment to what is right and just, God&apos;s covenant faithfulness, God&apos;s mercy toward the repentant.',
   ],
@@ -101,6 +101,11 @@ export const PSALMS_143: RichChapterContent = {
           id: 'psalm143-morning',
           html:
             '"Cause me to hear thy lovingkindness in the morning; for in thee do I trust: cause me to know the way wherein I should walk; for I lift up my soul unto thee." The prayer shifts to petition. The psalmist asks to hear God&apos;s lovingkindness in the morning—to awaken to comfort and reassurance. He asks to know the way to walk. He lifts his soul to God—an offering, a gesture of surrender and trust.',
+        },
+        {
+          kind: 'carry',
+          html:
+            'Some mornings you can&apos;t get out of bed. Not because you&apos;re lazy—because the weight is unbearable, because the day ahead is one impossible thing after another. When that happens, you don&apos;t need a ten-step plan. You need one short prayer for the first thing: "Show me the next step. Just the next step." Not the whole mountain, not the month. The hour. The task. The conversation. God will meet you there, one small yes at a time.',
         },
         {
           kind: 'commentary',

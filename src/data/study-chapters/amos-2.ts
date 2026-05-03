@@ -5,7 +5,7 @@ export const AMOS_2: RichChapterContent = {
   bookName: 'Amos',
   chapter: 2,
 
-  estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
+  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
   intros: [
     'Amos 2 turns the sword inward. The burdens against the foreign nations continue — Moab, Judah — but the real confrontation comes with Israel herself. "Thus saith the Lord; For three transgressions of Israel, and for four, I will not turn away the punishment thereof." Israel herself will be judged.',
     'Amos describes Israel&apos;s sin in detail: selling the righteous for silver, the poor for a pair of shoes. Oppressing the meek. Taking pledges from the poor. Yet God had brought Israel up out of Egypt, raised up prophets, given them Nazirites. They have rejected all of it.',
@@ -90,6 +90,13 @@ export const AMOS_2: RichChapterContent = {
           kind: 'carry',
           html:
             'Israel has been lavished with God&apos;s mercy and grace. She has been led, protected, provided for. She has been given prophets to speak God&apos;s Word. Yet she turns and oppresses the weak, silences the prophets, violates the holy. The judgment that falls is not arbitrary but a response to ingratitude and injustice.',
+        },
+        {
+          kind: 'christ',
+          id: 'amos2-christ',
+          title: 'Christ Connection — The Judge of All Nations',
+          html:
+            'Amos announces that God judges all nations — the foreign and Israel alike. None escape. This universal judgment reaches its fullness in Jesus. Paul tells the Athenians: "God...hath appointed a day, in the which he will judge the world in righteousness by that man whom he hath ordained" (Acts 17:30–31). Jesus is the Judge of all the earth. And like Amos, He turns the sword inward—He judges the covenant people most severely, demanding not just external obedience but transformation of heart. To whom much is given, much is required.',
         },
         {
           kind: 'reflection',

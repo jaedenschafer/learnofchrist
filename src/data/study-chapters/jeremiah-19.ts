@@ -14,7 +14,7 @@ export const JEREMIAH_19: RichChapterContent = {
   bookName: 'Jeremiah',
   chapter: 19,
 
-  estimatedMinutes: { beginner: 4, intermediate: 7, deep: 9 },
+  estimatedMinutes: { beginner: 5, intermediate: 8, deep: 10 },
   intros: [
     'Jeremiah is commanded to purchase a potter&apos;s bottle, to take the elders and priests with him to the valley of the Son of Hinnom, and there to break the bottle, declaring: "Thus saith the Lord of hosts; Even so will I break this people and this city, as one breaketh a potter&apos;s vessel, that cannot be made whole again." The action is as important as the word. The broken bottle speaks of a judgment that is total, irreversible. What is broken cannot be repaired.',
     'The valley of Hinnom is a place of particular desolation — it is where the people have burned their children to false gods. The judgment that comes upon them will fit their sin. The city will become a place of slaughter, so defiled that no one will be able to bury the dead. This is the language of total destruction, of a people brought to nothing.',
@@ -86,6 +86,13 @@ export const JEREMIAH_19: RichChapterContent = {
           kind: 'carry',
           html:
             'We may not sacrifice to Baal, but we do sacrifice the innocent in subtle ways. When we protect systems that harm children, when we remain silent in the face of injustice, when we turn a blind eye to exploitation — we too participate in the defilement of innocence. Jeremiah calls us to see the evil we do, even when hidden.',
+        },
+        {
+          kind: 'christ',
+          id: 'jer19-christ',
+          title: 'Christ Connection — The Potter and the Betrayal',
+          html:
+            'The broken flask cannot be repaired. Christ speaks of this judgment: "Fear not them which kill the body, but are not able to kill the soul: but rather fear him which is able to destroy both soul and body in hell" (Matt. 10:28). The flask broken is but a sign. Yet there is more: Matthew shows us that the blood of innocent children cried out, and thirty pieces of silver bought the potter&apos;s field, just as Jeremiah foretold (Matt. 27:7–10). Christ, innocent, was betrayed for silver and buried in a field bought with blood-money. And we, broken vessels, are not left broken forever — we are remade in His hands (2 Cor. 4:7).',
         },
         {
           kind: 'reflection',

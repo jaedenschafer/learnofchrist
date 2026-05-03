@@ -76,6 +76,11 @@ export const LUKE_24: RichChapterContent = {
             'The risen Jesus walks with the disciples, though they do not know Him. He teaches them the scriptures. Later, He breaks bread, and they recognize Him. The risen Christ is present, teaching, breaking bread, comforting the sad.',
         },
         {
+          kind: 'carry',
+          html:
+            'This week, let Him open the scriptures to you. Not by reading faster or checking off chapters. By reading one short passage and asking: What is He saying? How does this touch my Tuesday? Where is Jesus in this? You don&apos;t have to understand everything at once. The disciples on the road didn&apos;t recognize Him until bread was broken. Your burning heart is the sign. Trust it.',
+        },
+        {
           kind: 'reflection',
           id: 'luke24-emmaus-reflect',
           prompt: 'Why did the disciples not recognize the risen Jesus? What does it mean that their hearts burned when He opened the scriptures?',

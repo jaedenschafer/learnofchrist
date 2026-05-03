@@ -14,7 +14,7 @@ export const PSALMS_115: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 115,
 
-  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 3 },
+  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
   intros: [
     'Psalm 115 opens with a refusal. "Not unto us, O Lord, not unto us, but unto thy name give glory." The psalmist will not accept honor or praise for himself. He knows that all glory belongs to God alone. And he knows why: "For thy mercy and for thy truth&apos;s sake." God is the source of all mercy and all truth. Any good that comes is because God is merciful and true. The psalmist is simply responding to what God has done.',
     'The psalm then builds a stark contrast: the living God versus lifeless idols. Idols have faces but cannot see, ears but cannot hear, noses but cannot smell. They are objects created by human hands, without consciousness or power. By contrast, the God Israel worships is alive. He sees, hears, acts. He is infinitely beyond the gods of gold and silver that the nations worship. And His people are invited to trust Him, to fear Him, to be blessed by Him.',
@@ -70,6 +70,13 @@ export const PSALMS_115: RichChapterContent = {
           id: 'ps115-make-idols-like-them',
           html:
             '"They that make them are like unto them; so is every one that trusteth in them." This is a striking line. Those who make idols become like them—lifeless, powerless, disconnected. And those who trust in idols share the same fate. If you invest your trust in something without consciousness or power, you yourself become powerless. But those who trust in the living God become alive, empowered, connected to His strength.',
+        },
+        {
+          kind: 'christ',
+          id: 'ps115-christ',
+          title: 'Christ Connection — The True Image',
+          html:
+            'Paul writes of Jesus: "Who is the image of the invisible God" (Col. 1:15) and "the brightness of his glory, and the express image of his person" (Heb. 1:3). This psalm contrasts idols—lifeless counterfeits—with the living God. Jesus is the only true Image, not carved by human hands but begotten of the Father, sustaining all things by His power. He sees, hears, speaks, acts. He is not silent like the idols of silver and gold. His voice raises the dead. His touch heals the sick. He is the Image in which all who trust in Him are being transformed.',
         },
         {
           kind: 'carry',

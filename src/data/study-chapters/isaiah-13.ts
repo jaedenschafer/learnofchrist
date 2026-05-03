@@ -15,7 +15,7 @@ export const ISAIAH_13: RichChapterContent = {
   bookName: 'Isaiah',
   chapter: 13,
 
-  estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+  estimatedMinutes: { beginner: 2, intermediate: 5, deep: 6 },
   intros: [
     'Isaiah shifts his vision from Israel to the nations. Chapter 13 opens the "Burdens"—a series of prophecies against the nations that have threatened God&apos;s people or that refuse to acknowledge God&apos;s sovereignty. The first burden is against Babylon, the great empire that will one day conquer Judah and carry the people into exile. Yet Babylon will not escape judgment. God has "mingled" the people for the day of battle—He has called them together to execute His judgment. And that judgment is described in terms that reach beyond Babylon itself to the ultimate Day of the Lord, when God will shake the heavens and the earth, when the stars will cease to shine, when darkness will cover the earth.',
     'The vision is apocalyptic. It is not merely the fall of one empire, but the cosmic upheaval that accompanies God&apos;s final judgment of evil. Yet even in the terror of that day, there is a promise: God has a purpose that reaches beyond destruction. The prophets who follow Isaiah will expand this vision—the day of judgment will issue in the establishment of a new heaven and a new earth, where God dwells with His people forever.',
@@ -108,6 +108,13 @@ export const ISAIAH_13: RichChapterContent = {
           kind: 'reflection',
           id: 'isaiah13-pride-reflect',
           prompt: 'What are you tempted to fear because of its apparent strength or permanence? How does Isaiah&apos;s vision of its inevitable fall comfort or challenge you?',
+        },
+        {
+          kind: 'christ',
+          id: 'isa13-christ',
+          title: 'Christ Connection — The Day of His Return',
+          html:
+            'The day of the Lord that Isaiah describes reaches its full meaning in Christ&apos;s return. When Jesus spoke of the end times, He echoed Isaiah&apos;s language: "Immediately after the tribulation... shall appear the sign of the Son of man... and they shall see the Son of man coming in the clouds of heaven with power and great glory" (Matt. 24:29–30). The stars will cease to shine when He returns. Babylon-the-great, that final rebellion against God, will fall before Him (Rev. 18:1–2). But unlike the judgment without mercy that fell on the ancient city, Christ&apos;s return brings vindication for the faithful and the establishment of His eternal kingdom.',
         },
       ],
     },

@@ -76,6 +76,13 @@ export const ECCLESIASTES_6: RichChapterContent = {
             'The Preacher invites us to examine the source of our dissatisfaction. Is it truly deprivation, or is it the inability to be content with what we have? Many people live in apparent abundance but experience poverty of the soul. Many have much but enjoy little. The wisdom the Preacher points toward is simple: learn to enjoy what is present. Be satisfied with the sight of your eyes rather than the wandering of desire.',
         },
         {
+          kind: 'christ',
+          id: 'ecc6-christ',
+          title: 'Christ Connection — Abundant Life Fulfilled',
+          html:
+            'Solomon names an ache the world cannot fill: the appetite that remains hungry even in abundance. But Jesus comes announcing a different economy: "I am come that they might have life, and that they might have it more abundantly" (John 10:10). This is not promise of more riches or more possessions. This is the gift of fullness itself—not in having, but in living. The power to enjoy, the satisfaction of the soul, the feast that truly nourishes—these come not from accumulation but from relationship with Christ.',
+        },
+        {
           kind: 'reflection',
           id: 'ecc6-power-enjoy',
           prompt: 'Do you have the "power to enjoy" what God has given you? Or are you so focused on what you lack or what you might gain that you cannot be satisfied with what is present? What would change if you could truly enjoy what you have?',

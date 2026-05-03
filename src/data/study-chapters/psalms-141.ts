@@ -15,7 +15,7 @@ export const PSALMS_141: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 141,
 
-  estimatedMinutes: { beginner: 1, intermediate: 4, deep: 4 },
+  estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
   intros: [
     'Psalm 141 is a meditation on prayer—its beauty, its power, its acceptance before God. The image of prayer as incense connects the private, inner act of petition with the public, visible worship of the temple. When incense burned on the temple altar, the smoke rose visibly, carrying with it the prayers and desires of the people. To offer prayer "as incense" is to recognize that prayer is not merely internal. It rises. It is visible to God. It is accepted as a sweet offering. The psalm is David&apos;s song of prayer itself, even as he prays for protection from temptation and evil.',
   ],
@@ -67,6 +67,11 @@ export const PSALMS_141: RichChapterContent = {
           id: 'psalm141-incline-not',
           html:
             '"Incline not my heart to any evil thing, to practise wicked works with men that work iniquity." The prayer extends deeper: guard not just my words, but my desires. Do not let my heart be inclined toward evil. Do not let me fall into the company of those who work iniquity. Do not let me be seduced by "their dainties"—the pleasures and enticements of wicked company.',
+        },
+        {
+          kind: 'carry',
+          html:
+            'The email pings—a message that stings, a comment designed to wound. The first reflex is to fire back, to set the record straight, to defend yourself in detail. But between the impulse and the send button, there&apos;s a door. That&apos;s where this psalm lives. Draft the reply if you must, but don&apos;t press send. Let it sit overnight. Watch the door of your lips—not forever, but long enough for the heat to pass. And you&apos;ll find that half the things you wanted to say no longer need saying.',
         },
       ],
     },

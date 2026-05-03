@@ -13,7 +13,7 @@ export const JEREMIAH_25: RichChapterContent = {
   bookName: 'Jeremiah',
   chapter: 25,
 
-  estimatedMinutes: { beginner: 4, intermediate: 6, deep: 8 },
+  estimatedMinutes: { beginner: 5, intermediate: 7, deep: 9 },
   intros: [
     'For twenty-three years, Jeremiah has spoken to Judah, calling them to repent. They have not listened. Now, with Nebuchadrezzar about to besiege Jerusalem, Jeremiah announces the consequence: Judah will serve the king of Babylon and his son and his grandson for a total of seventy years. Seventy years — nearly the lifetime of a people, a generation that enters exile and a generation that is born in exile before the time of return.',
     'Yet seventy years is not forever. After that time, the cup of wrath will pass to Babylon itself. The exile that seems final, that seems like the end of the world, is actually limited and temporary. The cup of God&apos;s wrath, though it will be drunk, will eventually be emptied. And when the seventy years are complete, restoration will begin.',
@@ -189,6 +189,13 @@ export const JEREMIAH_25: RichChapterContent = {
           kind: 'carry',
           html:
             'While Judah drinks the cup in exile, they know that Babylon will also drink. Justice is not only for God&apos;s people; it is for all nations. No oppressor escapes God&apos;s reckoning. This knowledge — that God sees and will judge all nations — is a comfort to the exiled.',
+        },
+        {
+          kind: 'christ',
+          id: 'jer25-christ',
+          title: 'Christ Connection — The Cup of Wrath',
+          html:
+            'The cup passes to all. Jeremiah watches nations drink the fury of God. Yet in the garden of Gethsemane, Jesus prays: "O my Father, if it be possible, let this cup pass from me" (Matt. 26:39). He knows what the cup contains. He drinks it anyway. "So Jesus took the cup, and said unto his disciples, Drink ye all of it; For this is my blood of the new testament, which is shed for many for the remission of sins" (Matt. 26:27–28). The cup of God&apos;s wrath, drunk by all the nations, all the peoples — Christ drinks it for His people. The judgment that was destined for them, He bears (Isa. 51:22–23).',
         },
         {
           kind: 'reflection',

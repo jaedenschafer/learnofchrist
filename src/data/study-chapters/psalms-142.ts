@@ -16,7 +16,7 @@ export const PSALMS_142: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 142,
 
-  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+  estimatedMinutes: { beginner: 1, intermediate: 4, deep: 4 },
   intros: [
     'Psalm 142 is titled "Maschil of David; A Prayer when he was in the cave." David once fled into caves to escape Saul&apos;s persecution—he hid in the cave of Adullam, in caves in the wilderness of Judea. This psalm is offered from that place of confinement. The psalmist is trapped, his spirit failing, his enemies near. He cries out to God from the darkness. And the prayer is one of desperate hope: "Bring my soul out of prison, that I may praise thy name." Even in the cave, even in despair, the psalmist trusts that deliverance will come.',
   ],
@@ -62,6 +62,11 @@ export const PSALMS_142: RichChapterContent = {
           id: 'psalm142-right-hand',
           html:
             '"I looked on my right hand, and beheld, but there was no man that would know me: refuge failed me; no man cared for my soul." The right hand was the place where an ally would stand in battle. But the psalmist looks and finds nothing. No one knows him. No refuge remains. No one cares for his soul. He is utterly alone, trapped, abandoned. This is the depth of his despair.',
+        },
+        {
+          kind: 'carry',
+          html:
+            'There&apos;s a moment when you stop pretending everything is fine—when you actually tell God what&apos;s broken instead of the polite version. The right people might tell you to "be strong" or "stay positive." But here, in this cave, you don&apos;t have to. You can say the real thing: <em>I am terrified. I am lonely. I don&apos;t know if I&apos;ll make it.</em> And God hears you. He listens to the raw prayer—the one without the edit, without the filter. That honesty is where healing begins.',
         },
       ],
     },

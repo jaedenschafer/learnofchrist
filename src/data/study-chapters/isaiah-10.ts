@@ -15,7 +15,7 @@ export const ISAIAH_10: RichChapterContent = {
   bookName: 'Isaiah',
   chapter: 10,
 
-  estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+  estimatedMinutes: { beginner: 2, intermediate: 5, deep: 6 },
   intros: [
     'The scope of Isaiah&apos;s vision expands. He speaks not only of Judah&apos;s internal corruption and coming judgment, but of the international stage. God will use Assyria—a powerful empire—as the instrument of His judgment against the nations of the earth. Assyria will march forth as God&apos;s rod, His staff of indignation. Yet Assyria will not understand what it is doing. It will not recognize that it serves God&apos;s purposes. Assyria will see itself as conquering through its own strength and wisdom. And for this pride, for this refusal to acknowledge that it too is subject to God&apos;s authority, Assyria will be judged.',
     'Yet the vision does not end in the triumph of Assyria or the final destruction of Israel. A remnant shall return—the remnant of Jacob shall return unto the mighty God. Though Israel&apos;s people become as numerous as the sand of the sea, only a remnant will be saved. This remnant will be the vehicle of God&apos;s continued covenant purposes. In the midst of judgment, God preserves a people, a seed, a future.',
@@ -104,6 +104,13 @@ export const ISAIAH_10: RichChapterContent = {
           kind: 'reflection',
           id: 'isaiah10-remnant-reflect',
           prompt: 'What does it mean to be part of the remnant in your own time? How does knowing that God always preserves a faithful people encourage you in your own faithfulness?',
+        },
+        {
+          kind: 'christ',
+          id: 'isa10-christ',
+          title: 'Christ Connection — The Root and the Remnant',
+          html:
+            'Isaiah promises that "there shall come forth a rod out of the stem of Jesse, and a Branch shall grow out of his roots" (Isa. 11:1). This rod is Christ—not a rod of judgment like Assyria, but the true and righteous rod from Jesse&apos;s line. And Paul later writes that "the root of Jesse shall stand... and in him shall the Gentiles trust" (Rom. 15:12). The remnant that returns is preserved not for its own sake, but to keep alive the line through which the Messiah will come. Every faithful one in every generation is part of that unbroken chain of witness and hope that leads to Christ and extends through Him to the nations.',
         },
       ],
     },

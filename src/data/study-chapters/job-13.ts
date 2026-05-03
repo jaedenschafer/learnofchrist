@@ -18,7 +18,7 @@ export const JOB_13: RichChapterContent = {
   bookName: 'Job',
   chapter: 13,
 
-  estimatedMinutes: { beginner: 1, intermediate: 4, deep: 6 },
+  estimatedMinutes: { beginner: 1, intermediate: 5, deep: 6 },
   intros: [
     'Job has finished his response to the friends, and now he turns away from them entirely. He will speak to God. "Surely I would speak to the Almighty, and I desire to reason with God." This is a radical move. Not to his friends, not to the community, but to God Himself. Job will make his case directly before the throne of heaven.',
     'But before he does, Job says something crucial about his friends: "Ye are forgers of lies, ye are all physicians of no value." They have tried to help him with their theology, but their theology is false. Their medicine does not heal. And then comes the statement that will become the foundation of Job&apos;s faith: "Though he slay me, yet will I trust in him." Even if God kills him, even if this ordeal ends in death, Job will not stop trusting. He will not confess to sins he has not committed. He will maintain his integrity before God, even at the cost of his life.',
@@ -176,6 +176,13 @@ export const JOB_13: RichChapterContent = {
           kind: 'carry',
           html:
             'Job has crossed a threshold. He is no longer seeking comfort or explanation. He is seeking confrontation with God. He believes that ultimately, his case will be vindicated, but he does not require vindication as a condition of his trust. He trusts God even unto death.',
+        },
+        {
+          kind: 'christ',
+          id: 'job13-christ',
+          title: 'Christ Connection — The Daysman Fulfilled',
+          html:
+            'Job longs for someone to stand between him and God, to argue his case: "Neither is there any daysman betwixt us, that might lay his hand upon us both" (Job 9:33). A daysman—an umpire, a mediator—is exactly what Job needs. And Paul announces the answer directly: "There is one mediator between God and men, the man Christ Jesus" (1 Tim. 2:5). The Daysman has come. He stands with the sufferer, not judging but reconciling. He does not condemn the innocent; He becomes the Advocate.',
         },
         {
           kind: 'reflection',

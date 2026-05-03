@@ -16,7 +16,7 @@ export const SONG_3: RichChapterContent = {
   bookName: 'Song of Solomon',
   chapter: 3,
 
-  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 3 },
+  estimatedMinutes: { beginner: 2, intermediate: 4, deep: 4 },
   intros: [
     'The Song moves into a new mode: seeking. The Bride lies at night and seeks her Beloved in bed, but he is not there. She rises and goes out into the city, through the streets and in the squares, seeking him earnestly. It is a dream-like sequence—an interior drama of longing and pursuit. She questions the watchmen. Has anyone seen him? And finally, she finds him and holds him fast, unwilling to let him go. This is the anxious love that fears separation, that pursues, that cannot be at rest without the beloved.',
     'Then the Song shifts to a vision of a bridal procession. Solomon comes in his carriage, surrounded by warriors, crowned on his wedding day. The entire scene is regal, formal, public. The private seeking transforms into public celebration. The bride is being brought to the bridegroom in glory. There is both the personal seeking in the night and the public recognition of union. Both matter. Both are part of the fullness of love.',
@@ -72,6 +72,13 @@ export const SONG_3: RichChapterContent = {
           kind: 'carry',
           html:
             'The Song teaches that seeking is part of love. Love does not passively wait. It pursues, it asks, it goes out into the night, it will not rest until the beloved is found. And when found, it holds fast. Then there is the public dimension—the procession, the crown, the formal recognition of union. Both the private seeking and the public celebration are needed.',
+        },
+        {
+          kind: 'christ',
+          id: 'song3-christ',
+          title: 'Christ Connection — The Bridegroom and His Bride',
+          html:
+            'When the Bride wakes at night seeking her Beloved, she echoes Mary at the empty tomb: "they have taken away my Lord, and I know not where they have laid him" (John 20:13). Like Mary, she searches. Like Mary, she finds. But Jesus promises more than a moment of reunion. He comes for His bride: "the Bridegroom cometh" (Matt. 25:6). Paul writes that "Christ also loved the church, and gave himself for it; that he might present it to himself a glorious church, not having spot, or wrinkle, or any such thing" (Eph. 5:25–27). The Song\'s vision of the bridal procession—the public claiming, the crown, the day of gladness—is the day when the Bridegroom comes for His own.',
         },
         {
           kind: 'reflection',

@@ -16,7 +16,7 @@ export const PSALMS_140: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 140,
 
-  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 3 },
+  estimatedMinutes: { beginner: 1, intermediate: 4, deep: 4 },
   intros: [
     'Psalm 140 is a psalm of David, offered in the face of active persecution. Evil men plot against him. They speak lies. They have hidden snares and traps in his path. This is not theoretical danger. This is a person under siege, facing organized opposition. Yet the psalmist does not despair. He prays. He brings his case before God. He trusts that the Lord sees the wicked, will judge them, and will preserve the righteous. The psalm offers not vengeance, but vindication—the confidence that God will ultimately defend those who call upon Him.',
   ],
@@ -115,6 +115,11 @@ export const PSALMS_140: RichChapterContent = {
           title: 'Christ Connection — Delivers from Evil',
           html:
             'In 2 Timothy 4:17–18, Paul writes of Christ: "The Lord...will deliver me from every evil deed, and will bring me safely to His heavenly kingdom." Christ is our deliverer. He faces the real evil and deception of the world, confronts it, and in His resurrection overcomes it. Those who call upon Him are protected.',
+        },
+        {
+          kind: 'carry',
+          html:
+            'Someone&apos;s words have wounded you. Or are wounding you still. The temptation is to stay in the fight, to sharpen your own tongue like a serpent, to build your own case. Don&apos;t. The carry is simpler and quieter: I know that the Lord will maintain the cause of the afflicted. Bring that one person, that one wound, to God. Pray for His vindication, not yours. Ask Him to maintain your cause and let it go. Your job is to let Him be your advocate. He is better at it than you are.',
         },
       ],
     },

@@ -17,7 +17,7 @@ export const JOB_11: RichChapterContent = {
   bookName: 'Job',
   chapter: 11,
 
-  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 5 },
+  estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
   intros: [
     'Job has finished speaking, and now Zophar rises to respond. Of the three friends, Zophar is perhaps the most severe. Where Eliphaz was grandfatherly and Bildad conventional, Zophar is harsh. He begins with an accusation: "Should thy lies make men hold their peace?" He is not asking this as a question. He is asserting that Job has been lying, that Job has been deceiving both his friends and himself.',
     'Zophar then claims access to truth that Job lacks. "Canst thou by searching find out God?" he asks—implying that Job cannot, but that Zophar can, or that he understands what Job does not. Zophar speaks as a man utterly certain of his theology, utterly certain that he knows the mind of God. And his certainty is itself a form of cruelty. He leaves no room for mystery, no room for the possibility that he might be wrong, no room for the genuine wrestling with faith that Job is engaged in. He offers Job only condemnation and a demand for repentance.',
@@ -78,6 +78,13 @@ export const JOB_11: RichChapterContent = {
           kind: 'carry',
           html:
             'Zophar&apos;s cruelty lies in his certainty. He does not offer Job the possibility of innocence. He does not allow that Job might be genuinely confused or suffering unjustly. Zophar knows—absolutely, without doubt—that Job must deserve his suffering, and that Job is lying when he claims otherwise.',
+        },
+        {
+          kind: 'christ',
+          id: 'job11-christ',
+          title: 'Christ Connection — The Suffering Friend',
+          html:
+            'Zophar claims to judge Job&apos;s heart and accuses him of lying about his innocence. But there is One who knows the inside of suffering, who has been despised and rejected, yet never accused you falsely. "We have not an high priest which cannot be touched with the feeling of our infirmities" (Heb. 4:15). Where Zophar condemns, Christ becomes the Mediator: "If any man sin, we have an advocate with the Father, Jesus Christ the righteous" (1 John 2:1). Christ is the friend who stands with the sufferer, not against him.',
         },
         {
           kind: 'reflection',

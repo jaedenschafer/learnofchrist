@@ -5,7 +5,7 @@ export const AMOS_5: RichChapterContent = {
   bookName: 'Amos',
   chapter: 5,
 
-  estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
+  estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
   intros: [
     'Amos 5 contains one of the most famous passages in the book: "But let judgment run down as waters, and righteousness as a mighty stream." God does not desire elaborate worship divorced from justice. He desires righteousness.',
     'The chapter begins with a dirge — a lament: "The virgin of Israel is fallen; she shall no more rise." But immediately Amos calls Israel to seek the Lord and live. Even in judgment, there is the invitation to repent. Seek the Lord and you shall live.',
@@ -108,6 +108,13 @@ export const AMOS_5: RichChapterContent = {
           kind: 'carry',
           html:
             'You cannot worship God while you oppress the poor. You cannot offer sacrifice while you pervert justice. Righteousness is not an option — it is essential. Where are you offering God worship while neglecting justice? Where are you comfortable with injustice?',
+        },
+        {
+          kind: 'christ',
+          id: 'amos5-christ',
+          title: 'Christ Connection — Righteousness as a Mighty Stream',
+          html:
+            '"Let judgment run down as waters, and righteousness as a mighty stream." God will not accept worship divorced from justice. Yet Christ fulfills this in a way Israel could not imagine. He becomes righteousness itself. Paul says of Him: "To declare, I say, at this time his righteousness: that he might be just, and the justifier of him which believeth in Jesus" (Rom. 3:26). Christ is both the righteous Judge and the one who takes the place of the unjust, pouring out a stream of mercy that overwhelms all judgment. Righteousness flowing like water is His life poured out for the helpless.',
         },
         {
           kind: 'reflection',

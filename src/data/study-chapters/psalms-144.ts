@@ -16,7 +16,7 @@ export const PSALMS_144: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 144,
 
-  estimatedMinutes: { beginner: 1, intermediate: 4, deep: 4 },
+  estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
   intros: [
     'Psalm 144 is titled "of David." It begins as a praise of God for strength in battle and moves into meditation on human dignity and the brevity of human life. David praises God for training his hands and fingers for combat. He speaks of God as his tower, his refuge, his strength. But the prayer is not merely for victory. It is for the vindication of righteousness and the blessing of his people—that their sons might be like plants, their daughters like pillars, that their barns might be full, their flocks might multiply. The prayer balances military vigilance with hope for flourishing.',
   ],
@@ -122,6 +122,11 @@ export const PSALMS_144: RichChapterContent = {
           id: 'psalm144-happy',
           html:
             '"Happy is that people, whose God is the Lord." The psalm concludes with the definition of true happiness, true blessing. It is not in weapons or fortifications, though these have their place. It is in being a people whose God is the Lord. Whose strength, whose teacher, whose refuge, whose hope is in Him.',
+        },
+        {
+          kind: 'carry',
+          html:
+            'The daily fight isn&apos;t always dramatic. It&apos;s tying your shoes when you&apos;d rather stay numb. It&apos;s opening the laptop to the work you left unfinished. It&apos;s walking back into the room you&apos;d rather avoid, having the conversation you&apos;d rather skip, showing up to the life you&apos;re rebuilding. These small wars—this quiet showing up—are taught by God. They&apos;re an act of faithfulness. And in them, you&apos;ll find that His strength is enough.',
         },
         {
           kind: 'christ',

@@ -14,7 +14,7 @@ export const EZEKIEL_9: RichChapterContent = {
   bookName: 'Ezekiel',
   chapter: 9,
 
-  estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
+  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
   intros: [
     'The judgment Ezekiel has announced now arrives in vision. Six men with slaughter weapons appear, instruments of divine wrath. But before they act, another figure appears — a man clothed in linen, holding an ink-horn. This is no mere scribe. This is a figure who marks those who are to be spared. And whom does he mark? Not the righteous by their own estimation. Not the powerful or the successful. He marks those who sigh and cry over the abominations — the ones who see the idolatry and injustice and cannot remain silent, cannot harden themselves to it. These are marked for preservation. In the midst of judgment that spares no one outwardly, God identifies and protects those who have kept their hearts open to His truth.',
   ],
@@ -67,6 +67,13 @@ export const EZEKIEL_9: RichChapterContent = {
           kind: 'reflection',
           id: 'ezk9-tender-heart',
           prompt: 'Do you find yourself sighing and crying over the world&apos;s injustice and evil? Or have you become numb, accepting things as they are? What would it take to restore your capacity to grieve over what grieves God?',
+        },
+        {
+          kind: 'christ',
+          id: 'ezk9-christ',
+          title: 'Christ Connection — The Seal of His Name',
+          html:
+            'The mark placed on the righteous in Ezekiel points forward to the sealing described in Revelation. When the judgment comes, those sealed with the mark of God are protected. John writes that God&apos;s servants are "sealed in their foreheads" (Rev. 7:3). Paul teaches that believers are "sealed with that holy Spirit of promise" (Eph. 1:13). The mark is not visible to the naked eye, but it is real—a sign that belongs to God, marked with His name, protected by His power. Those who remain tender-hearted toward God, who refuse to harden themselves to evil, find themselves sealed by His presence.',
         },
       ],
     },

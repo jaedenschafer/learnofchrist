@@ -5,7 +5,7 @@ export const HOSEA_7: RichChapterContent = {
   bookName: 'Hosea',
   chapter: 7,
 
-  estimatedMinutes: { beginner: 1, intermediate: 2, deep: 4 },
+  estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
   intros: [
     'Hosea 7 presents Israel as "a cake not turned" — half-baked, unfinished, useless. The image is striking. A cake baked on one side only is burned on the exposed side and raw on the other. It is not fit to eat. This is what unfaithfulness does: it leaves us incomplete, distorted, not what we were made to be.',
     'The chapter describes a people who flatter their kings, who make an alliance with Assyria, who call upon God with double hearts. They are surrounded by enemies, but instead of turning to God, they turn to other nations, to other gods. They are like a half-baked cake — consumed on the outside but raw within.',
@@ -118,6 +118,13 @@ export const HOSEA_7: RichChapterContent = {
           id: 'hosea7-theme',
           html:
             'Hosea 7 presents the tragedy of half-heartedness. Israel is not fully turned toward God or fully turned toward idols. She is mixed, divided, incomplete. This is the danger of unfaithfulness: it does not make you more — it makes you less. It leaves you burned on one side and raw on the other, unfinished, incapable of nourishing yourself.',
+        },
+        {
+          kind: 'christ',
+          id: 'hos7-christ',
+          title: 'Christ Connection — Faithful Bridegroom',
+          html:
+            'Hosea&apos;s marriage to Gomer is a living parable of God&apos;s covenant with Israel — He takes what is unfaithful and loved her still. Yet the deepest fulfillment of this image comes in the New Testament. Paul writes: "Husbands, love your wives, even as Christ also loved the church, and gave himself for it" (Eph. 5:25). Christ is the faithful Bridegroom. He does not turn away from His bride. He gives Himself for her. Where Hosea&apos;s marriage speaks sorrow, Christ&apos;s covenant speaks redemption.',
         },
         {
           kind: 'divider',

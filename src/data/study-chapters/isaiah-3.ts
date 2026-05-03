@@ -15,7 +15,7 @@ export const ISAIAH_3: RichChapterContent = {
   bookName: 'Isaiah',
   chapter: 3,
 
-  estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+  estimatedMinutes: { beginner: 2, intermediate: 4, deep: 6 },
   intros: [
     'The judgment grows more specific. Isaiah now prophesies the removal of all that Jerusalem trusts in. The mighty men, the judges, the counselors—the infrastructure of human civilization—will be removed. And into positions of leadership will come children and babes, those utterly unfit to rule. This is not a statement about the incompetence of youth. It is a statement about the complete dissolution of human order that comes when a nation turns from God. When society rejects wisdom, it falls into the hands of the foolish.',
     'The chapter also turns its eye to the women of Zion, those who "walk with stretched forth necks and wanton eyes." The judgment against the city includes a judgment against those who have cultivated pride and sensuality. Isaiah describes, in unusual detail, the ornaments and garments of these women—the bangles, the chains, the veils—as if to say: all these will be stripped away. Judgment will expose what is false and remove what is merely decorative. What remains will be shame.',
@@ -106,6 +106,13 @@ export const ISAIAH_3: RichChapterContent = {
           kind: 'reflection',
           id: 'isaiah3-pride-reflect',
           prompt: 'In what do you take pride? What would it mean to have those sources of pride "scabbed over"—rendered useless as tools of self-exaltation? Where could your true worth and beauty be found instead?',
+        },
+        {
+          kind: 'christ',
+          id: 'isa3-christ',
+          title: 'Christ Connection — The Lament Over Pride',
+          html:
+            'Jesus wept over Jerusalem in the same spirit as Isaiah. He looked at the city&apos;s hardened heart and said, "How often would I have gathered thy children together, even as a hen gathereth her chickens under her wings, and ye would not" (Matt. 23:37). Where Isaiah saw the exposure and stripping away of false beauty, Jesus offers a different path: to come to Him, to become as children, to find worth not in self-exaltation but in the Father&apos;s love. The judgment Isaiah prophesied came because the city refused this gentler offer. But the offer itself—refuge, true beauty, security in God&apos;s care—remains open to all who turn from pride.',
         },
       ],
     },

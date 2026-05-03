@@ -13,7 +13,7 @@ export const PROVERBS_30: RichChapterContent = {
   bookName: 'Proverbs',
   chapter: 30,
 
-  estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
+  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 3 },
   intros: [
     'Proverbs 30 shifts voice. Now we hear from Agur, who opens by confessing his ignorance: "I am more brutish than any man, and have not the understanding of a man. I neither learned wisdom, nor have the knowledge of the holy ones." Yet from this very humility comes a clear request: Remove vanity and lies from me. Give me neither poverty nor riches, but my necessary food. This is the prayer of one who has learned to ask wisely because he has learned how little he knows.',
   ],
@@ -86,6 +86,13 @@ export const PROVERBS_30: RichChapterContent = {
           kind: 'carry',
           html:
             'Do you pray this prayer? For truth over flattery? For sufficiency over excess? This is the prayer of the truly wise.',
+        },
+        {
+          kind: 'christ',
+          id: 'prov30-christ',
+          title: 'Christ Connection — The Son Revealed',
+          html:
+            'Agur asks the cosmic question: "What is his name, and what is his son&apos;s name, if thou canst tell?" (Prov. 30:4). The question hangs unanswered in Proverbs. But Matthew answers it directly: "Thou shalt call his name JESUS: for he shall save his people from their sins" (Matt. 1:21). The Father&apos;s name is holy and high; the Son&apos;s name is Jesus—the one who saves. And John reveals the mystery fully: "In the beginning was the Word… and the Word was made flesh" (John 1:1, 14). The Son&apos;s name is given. The question is answered.',
         },
         {
           kind: 'reflection',

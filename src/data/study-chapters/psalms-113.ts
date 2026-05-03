@@ -15,7 +15,7 @@ export const PSALMS_113: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 113,
 
-  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 3 },
+  estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
   intros: [
     'Psalm 113 is a brief, pure hymn of praise. It opens and closes with the call to praise: "Praise ye the Lord." In between, it describes God&apos;s character and His actions. God&apos;s name is blessed from the rising of the sun to the going down of the same. God is exalted far above all nations. Yet—and this is the paradox that runs through the psalm—this exalted God bows down to look at heaven and earth. He humbles Himself to notice the poor, the needy, the barren. He lifts them from the dust and the dunghill and places them among the honored.',
     'Mary, the mother of Jesus, quotes this psalm in her Magnificat. She has been chosen for the highest honor any woman could receive, yet she sees it as an example of God&apos;s characteristic action: lifting the lowly. The message reverberates through Scripture: God&apos;s power is shown not in dominating the strong but in lifting the weak.',
@@ -67,6 +67,13 @@ export const PSALMS_113: RichChapterContent = {
           id: 'ps113-raiseth-poor',
           html:
             '"He raiseth up the poor out of the dust, and lifteth the needy out of the dunghill; that he may set him with princes, even with the princes of his people." The poor man sits in dust. The needy man sits on a dunghill—the lowest, filthiest place. And God raises him up. Not merely to normalcy, but to a place of honor—among princes. This is not a metaphor for improved circumstances. This is a reversal of status. The lowly are lifted to the highest place.',
+        },
+        {
+          kind: 'christ',
+          id: 'ps113-christ',
+          title: 'Christ Connection — Divine Humility Fulfilled',
+          html:
+            'The paradox of verse 6—the Most High humbling Himself to look—finds its ultimate fulfillment in Christ. Paul writes: "Who, being in the form of God, thought it not robbery to be equal with God: but made himself of no reputation, and took upon him the form of a servant, and was made in the likeness of men" (Phil. 2:6–7). The King of kings was born poor, in a stable. The Lord of lords took the form of a servant and washed the feet of His disciples. He died between two criminals. This is divine humility incarnate—God bending so low that He could lift the lowest of the low.',
         },
         {
           kind: 'carry',

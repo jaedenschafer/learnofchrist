@@ -78,6 +78,13 @@ export const PSALMS_150: RichChapterContent = {
             '"Praise ye the Lord." And then the briefest of endings: the command repeated once more. It is both conclusion and perpetual invitation. The Psalter ends as it began—with the call to praise. And the call does not end with the book. It echoes into the life of the reader: Praise ye the Lord.',
         },
         {
+          kind: 'christ',
+          id: 'ps150-christ',
+          title: 'Christ Connection — Every Knee and Tongue',
+          html:
+            'Psalm 150 envisions a day when every creature, with every instrument, praises the Lord. Paul echoes this: "Every knee should bow...and that every tongue should confess that Jesus Christ is Lord, to the glory of God the Father" (Phil. 2:10–11). Revelation depicts this very scene: "Every creature which is in heaven, and on the earth...heard I saying, Blessing, and honour, and glory, and power, be unto him that sitteth upon the throne, and unto the Lamb for ever and ever" (Rev. 5:13). The climactic praise of Psalm 150 reaches its full expression when all creation bows before the Lamb of God.',
+        },
+        {
           kind: 'carry',
           html:
             'Psalm 150 reminds us that praise is the natural response to encountering God. It is not obligation or duty. It is joy breaking forth, gratitude finding voice, the soul recognizing its Maker and responding with everything it has. The psalm asks: What will your praise look like? What instruments will you use? What voice will you add to the cosmic chorus that praises God without ceasing?',

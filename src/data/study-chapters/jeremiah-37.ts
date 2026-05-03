@@ -13,7 +13,7 @@ export const JEREMIAH_37: RichChapterContent = {
   bookName: 'Jeremiah',
   chapter: 37,
 
-  estimatedMinutes: { beginner: 1, intermediate: 2, deep: 2 },
+  estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
   intros: [
     'Jeremiah has been speaking God&apos;s word for forty years. He has been beaten, imprisoned, threatened with death. His message has not wavered: Jerusalem will fall. Babylon will prevail. Yet the city&apos;s leaders keep hoping for escape, for political maneuvering to preserve the kingdom.',
     'Now Jeremiah is imprisoned. The city is under siege. And King Zedekiah, desperate, sends for the prophet in secret. He wants to hear from Jeremiah. He wants to know if God will deliver them. But the word Jeremiah speaks is the same word he has spoken all along: you will not escape. The king has imprisoned the prophet, yet he still seeks him out. The prophet is in chains, yet his message is unbound.',
@@ -56,6 +56,13 @@ export const JEREMIAH_37: RichChapterContent = {
           kind: 'reflection',
           id: 'jer37-truth-cost',
           prompt: 'What truth have you been tempted to compromise or hide because of your circumstances? How can you maintain faithfulness to God&apos;s truth even when it costs you?',
+        },
+        {
+          kind: 'christ',
+          id: 'jer37-christ',
+          title: 'Christ Connection — Prisoner and Judge',
+          html:
+            'Jeremiah sits in chains, imprisoned and falsely accused. Yet the king seeks him out, desperate for truth. Christ too was imprisoned. He was falsely accused before the council: "Now the chief priests and elders and all the council, sought false witness against Jesus" (Matthew 26:59–60). Yet even in chains, His word did not waver. Pilate came to Him in secret, asking questions, just as Zedekiah did. "Art thou the King of the Jews?" And Christ spoke truth to power, unafraid. The prisoner became the judge. The accused became the deliverer. In both cases, the world would not believe, even when truth came from captivity.',
         },
       ],
     },

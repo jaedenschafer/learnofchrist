@@ -15,7 +15,7 @@ export const EZEKIEL_15: RichChapterContent = {
   bookName: 'Ezekiel',
   chapter: 15,
 
-  estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
+  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
   intros: [
     'The book of Ezekiel moves toward its close with a final series of parables. The prophet has announced judgment. He has proclaimed the departure of God&apos;s glory. He has condemned false prophets and false worship. Now he speaks a parable about a vine. Israel is a vine, planted by God in the promised land. But what is a vine for? A vine is for bearing fruit. Its wood is useless for anything else — cannot be fashioned into handles or pegs or useful instruments. And if the vine fails to bear fruit, what is left? Only wood fit for burning. The parable is deceptively simple, but its meaning is clear: Israel has been given one purpose. To bear the fruit of faithfulness, of justice, of love. If it fails in that purpose, it has failed in everything. And the only recourse left is judgment.',
   ],
@@ -68,6 +68,13 @@ export const EZEKIEL_15: RichChapterContent = {
           kind: 'reflection',
           id: 'ezk15-fruit-bearing',
           prompt: 'What fruit is God calling you to bear? Where are you trying to serve purposes other than the one God has for you? How would your life change if you focused entirely on fruitfulness — on becoming the kind of person who naturally produces the fruit of the Spirit?',
+        },
+        {
+          kind: 'christ',
+          id: 'ezk15-christ',
+          title: 'Christ Connection — The True Vine',
+          html:
+            'Jesus said, "I am the true vine, and my Father is the husbandman... I am the vine, ye are the branches: He that abideth in me, and I in him, the same bringeth forth much fruit" (John 15:1, 5). Where Ezekiel spoke of Israel as a vine that failed to bear fruit and faced judgment, Jesus offers a different possibility: abide in Him, and you will be fruitful. Apart from Him, the branches are useless—good only for burning. But in Him, attached to the true vine, you naturally produce the fruit the Father seeks. The judgment Ezekiel proclaimed teaches the severity of fruitlessness; Christ&apos;s promise teaches the joy of belonging to Him.',
         },
       ],
     },

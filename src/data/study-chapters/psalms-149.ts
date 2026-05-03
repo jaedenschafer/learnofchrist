@@ -17,7 +17,7 @@ export const PSALMS_149: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 149,
 
-  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 3 },
+  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
   intros: [
     'Psalm 149 is the second to last psalm in the Psalter. It brings the voice of personal joy and celebration to the cosmic praise of Psalm 148. The saints—those called apart, made holy by God—are summoned to sing a new song. This is not a song of lament or complaint. This is a song of joy, of celebration, of gladness. The psalmist invites the redeemed to rejoice publicly, to celebrate aloud, to be joyful in their king. The final two psalms (149 and 150) form a crescendo of pure praise, in which the entire book moves toward its conclusion.',
   ],
@@ -70,6 +70,11 @@ export const PSALMS_149: RichChapterContent = {
           id: 'psalm149-beds',
           html:
             '"Let the saints be joyful in glory: let them sing aloud upon their beds." The image is intimate: even on their beds—in the most private, vulnerable moments—the saints sing. Joy is not reserved for public worship alone. It becomes the underlying tone of life itself.',
+        },
+        {
+          kind: 'carry',
+          html:
+            'Praise Him out loud when no one is listening. A song in the car, low and honest. A single sentence of gratitude over the kitchen sink while you&apos;re washing dishes. Not a performance, not a shout to impress—just you and God, acknowledging what He&apos;s done. The new song is always the one you sing for the first time after He&apos;s moved. Sing it. No one else needs to hear. He will.',
         },
       ],
     },

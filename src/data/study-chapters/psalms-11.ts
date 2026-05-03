@@ -15,7 +15,7 @@ export const PSALMS_11: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 11,
 
-  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 3 },
+  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
   intros: [
     'Psalm 11 is a psalm of resolve. David faces danger, and those around him offer counsel—flee, escape, run. They see the threat and assume the only rational response is to disappear. But David refuses. He will not flee. He will trust. This is not because the danger is not real. It is because he has looked toward heaven and found something more real than the threat: the presence and the sight of God.',
     'The psalm opens with a crisis and concludes with trust. It is brief—only nine verses—but in its brevity lies its power. Three simple facts: The Lord sits in the heavens. His eyes behold. His countenance looks upon the upright. These facts are enough.',
@@ -89,6 +89,11 @@ export const PSALMS_11: RichChapterContent = {
           kind: 'reflection',
           id: 'ps11-behold',
           prompt: 'What would change if you truly believed that God&apos;s eyes behold you and know everything about your situation? How might trust in His gaze free you from the need to flee?',
+        },
+        {
+          kind: 'carry',
+          html:
+            'Your phone buzzes. A news alert. A disappointed message from someone you respect. Your own voice playing back a mistake. Something inside you starts to run—scroll, distract, check out, disappear. The room around you is saying exactly what David&apos;s friends said: flee. But the carry is simpler: put it down, for just thirty seconds, and say His name. The Lord is in His holy temple. His eyes are already upon your life. You don&apos;t have to run.',
         },
       ],
     },

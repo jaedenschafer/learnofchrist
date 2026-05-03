@@ -16,7 +16,7 @@ export const PSALMS_87: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 87,
 
-  estimatedMinutes: { beginner: 1, intermediate: 2, deep: 2 },
+  estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
   intros: [
     'Psalm 87 is a celebration of Zion, the city of God. But it is not a celebration of stones and walls. It is a celebration of what Zion means: the place where God dwells, the gathering place of all people, the spiritual home of all nations. The psalmist speaks of glorious things that will be fulfilled in the coming kingdom of God.',
   ],
@@ -77,6 +77,11 @@ export const PSALMS_87: RichChapterContent = {
           kind: 'reflection',
           id: 'ps87-born-there',
           prompt: 'What does it mean to be "born" in Zion, to become a citizen of the city of God? How does that identity shape who you are?',
+        },
+        {
+          kind: 'carry',
+          html:
+            'There will be a moment this week when you feel like you don&apos;t belong. In a room full of people who know each other. In a conversation you don&apos;t understand. Among the successful, the brilliant, the thin, the healed. You&apos;ll feel like the outsider, the one who was born somewhere else. In that moment, Psalm 87 whispers: this and that man was born there. You were born in Zion. Your truest citizenship, your deepest belonging, is to the city of God. That is the place that cannot be taken from you.',
         },
       ],
     },

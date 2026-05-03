@@ -17,7 +17,7 @@ export const SONG_7: RichChapterContent = {
   bookName: 'Song of Solomon',
   chapter: 7,
 
-  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+  estimatedMinutes: { beginner: 1, intermediate: 4, deep: 4 },
   intros: [
     'The Beloved moves through his bride&apos;s body with lingering attention. Each part is beautiful to him. Her feet are beautiful in her sandals. Her thighs are like jewels. Her navel is like a goblet. Her belly is like wheat surrounded by lilies. Her breasts are like twin fawns. Her neck is like an ivory tower. Her eyes are like pools. The enumeration is detailed, sensuous, affirming. He is not embarrassed by her body. He celebrates it. He desires her.',
     'And the Bride responds: "I am my beloved&apos;s, and his desire is toward me." She does not feel objectified by his desire. She feels chosen, wanted, affirmed. His desire for her is an expression of his love. And she responds by offering herself to him. "Let us go forth into the field...and there will I give thee my loves." She is not passive. She is active, willing, eager to give herself to him.',
@@ -81,6 +81,13 @@ export const SONG_7: RichChapterContent = {
           kind: 'carry',
           html:
             'The Song teaches that desire is not shameful. That to be desired is affirming. That offering yourself to the beloved, in the context of covenant love, is beautiful. The Song affirms the goodness of the body, the goodness of desire, the goodness of sexual union between husband and wife. There is no shame here.',
+        },
+        {
+          kind: 'christ',
+          id: 'song7-christ',
+          title: 'Christ Connection — His Longing for You',
+          html:
+            'The Bride says, "I am my beloved\'s, and his desire is toward me." Jesus echoed this longing the night before His cross: "with desire I have desired to eat this passover with you" (Luke 22:15). His desire is not generic. It is particular. It is for you. And it culminates at the marriage supper of the Lamb, when the Bridegroom stands before His bride and the feast begins: "Let us be glad and rejoice, and give honour to him: for the marriage of the Lamb is come, and his wife hath made herself ready" (Rev. 19:7). The Bridegroom\'s longing is answered. The Bride\'s offering of herself is received.',
         },
         {
           kind: 'reflection',

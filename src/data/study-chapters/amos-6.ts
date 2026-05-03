@@ -5,7 +5,7 @@ export const AMOS_6: RichChapterContent = {
   bookName: 'Amos',
   chapter: 6,
 
-  estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
+  estimatedMinutes: { beginner: 1, intermediate: 2, deep: 4 },
   intros: [
     'Amos 6 opens with one of the most damning statements in Scripture: "Woe to them that are at ease in Zion, and trust in the mountain of Samaria." The comfortable and complacent are the target. Israel has become so satisfied with her prosperity that she has forgotten God.',
     'The chapter describes Israel\'s ease in detail — lying on beds of ivory, feasting, anointing themselves with oil, making music. Yet the judgment approaches swiftly. Comfort can become the enemy of seeking God. It can distance us from Him.',
@@ -96,6 +96,13 @@ export const AMOS_6: RichChapterContent = {
       ref: 'Amos 6 · All',
       title: 'The Danger of Ease',
       blocks: [
+        {
+          kind: 'christ',
+          id: 'amos6-christ',
+          title: 'Christ Connection — Come Away from Ease',
+          html:
+            'Amos condemns the at-ease in Zion. Yet Christ calls those same people — the comfortable, the numb, the distracted — with a different kind of urgency: "Come unto me...I will give you rest" (Matt. 11:28). Not the false rest of ease and indulgence, but the deep rest of being known and forgiven. He does not call the comfortable to judgment alone but to a turning toward Him. The palaces of self-sufficiency will fall, but you do not have to fall with them. You can let go of what you&apos;re clinging to and find your security in Him instead.',
+        },
         {
           kind: 'commentary',
           id: 'amos6-theme',

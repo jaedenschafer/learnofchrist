@@ -5,7 +5,7 @@ export const HOSEA_9: RichChapterContent = {
   bookName: 'Hosea',
   chapter: 9,
 
-  estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
+  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
   intros: [
     'Hosea 9 speaks of "the days of visitation" — the appointed times when God comes to judge. Israel has become like the days of Gibeah — a reference to the shameful days of the judges, when chaos reigned. Yet even now, God has not forgotten. He will remember and appoint a day.',
     'The chapter echoes with longing and judgment together. Israel will not celebrate the feast. She will eat unclean bread in the land of strangers. She will be scattered. Yet the God of Israel is still God. The days of visitation are His appointed times, and in those times, His purposes are being worked out.',
@@ -104,6 +104,13 @@ export const HOSEA_9: RichChapterContent = {
           id: 'hosea9-theme',
           html:
             'Hosea 9 emphasizes that God has appointed times — times of visitation, times of recompense. These are not random or arbitrary. They are the times when God accomplishes His purposes in history. Israel will know when those days come. The question is: will she be ready? Will she have returned?',
+        },
+        {
+          kind: 'christ',
+          id: 'hos9-christ',
+          title: 'Christ Connection — Visitation and Return',
+          html:
+            'The "days of visitation" speak of appointed times when God comes to reckon with His people. But there is a visitation beyond all others — the coming of Christ Himself. "Blessed are ye that read, and they that hear the words of this prophecy" (Rev. 1:3). Christ came first in humility, despised and rejected. He comes again "in the clouds of heaven with power and great glory" (Matt. 24:30). Both comings are appointed. Both are reckoned. The question Hosea asks — "Will you be ready?" — echoes to us across the centuries.',
         },
         {
           kind: 'divider',

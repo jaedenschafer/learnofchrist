@@ -15,7 +15,7 @@ export const PROVERBS_7: RichChapterContent = {
   bookName: 'Proverbs',
   chapter: 7,
 
-  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 3 },
+  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
   intros: [
     'The seventh chapter of Proverbs tells a story. It is not a sermon or an abstract principle but a narrative of seduction, of a young man walking into the arms of destruction with his eyes wide open yet seeing nothing. The chapter is written almost as a drama—you are invited to observe from a distance, to see the seduction unfold, to learn by witnessing what happens when someone yields to the call of the strange woman.',
     'What makes the narrative powerful is that it does not minimize the appeal. The woman speaks sweetly, she makes promises, she flatters. She makes the wrong way seem right, the forbidden seem safe, the path to ruin seem the path to delight. And the young man, "lacking understanding," follows. The chapter asks: Will you be like him? Or will you see, before you step into the trap, where it leads?',
@@ -82,6 +82,13 @@ export const PROVERBS_7: RichChapterContent = {
         {
           kind: 'carry',
           html: 'The wisdom of Proverbs is to see this narrative, to recognize it in your own life before you have stepped so far that you cannot turn back. It is not merely to prohibit temptation but to ask: Where am I walking? At what hour? In what darkness? Who am I allowing to speak to my heart? The simple answer is to keep God&apos;s commandments so close that they are the apple of your eye, to make wisdom your sister and understanding your kinswoman. Then you will not be the young man in the story.',
+        },
+        {
+          kind: 'christ',
+          id: 'prov7-christ',
+          title: 'Christ Connection — Wisdom Calling in the Streets',
+          html:
+            'The strange woman speaks sweetly and draws the young man into destruction. But elsewhere in Proverbs, Wisdom herself cries out in the streets, calling the simple to life and understanding (Prov. 8:1–11). And Paul reveals who that Wisdom is: Jesus Christ, "the wisdom of God" (1 Cor. 1:24). Where the seductress promises pleasure and delivers death, the true Bridegroom wins back the unfaithful—"husbands, love your wives, even as Christ also loved the church, and gave himself for it" (Eph. 5:25). The voice that calls you away from destruction is His.',
         },
         {
           kind: 'reflection',

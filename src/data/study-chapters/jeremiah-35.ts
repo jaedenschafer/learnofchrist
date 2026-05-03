@@ -14,7 +14,7 @@ export const JEREMIAH_35: RichChapterContent = {
   bookName: 'Jeremiah',
   chapter: 35,
 
-  estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
+  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 3 },
   intros: [
     'Jeremiah 35 uses an unexpected device to rebuke Israel: the faithfulness of the Rechabites. The Rechabites were a community led by Jonadab, a man who gave his descendants strict rules—they would not drink wine, not plant vineyards, not build houses, but would live as nomads in tents. This was not arbitrary. It was a covenant, a way of maintaining separation from the degrading influences of settled civilization.',
     'The prophet invites the Rechabites to drink wine, and they refuse. They honor their father&apos;s command across generations. And God uses this faithfulness as an indictment of Israel&apos;s unfaithfulness. For centuries, God has sent prophets calling Israel to keep covenant. Yet Israel has drifted further and further from obedience. The Rechabites&apos; loyalty to a human father stands in stark contrast to Israel&apos;s disloyalty to the divine Father.',
@@ -64,6 +64,13 @@ export const JEREMIAH_35: RichChapterContent = {
           kind: 'reflection',
           id: 'jer35-faithful-generations',
           prompt: 'What command or covenant do you need to honor across time? How can faithfulness be passed from one generation to the next? What would it mean to be as consistent as the Rechabites in your obedience to God?',
+        },
+        {
+          kind: 'christ',
+          id: 'jer35-christ',
+          title: 'Christ Connection — Obedience to the Father',
+          html:
+            'The Rechabites honored their father&apos;s word across generations, and God called this faithfulness good. But there is one whose obedience surpasses theirs entirely. "My meat is to do the will of him that sent me" (John 4:34). Christ did not question the Father&apos;s commands or ask whether they made sense. He did not waver from them even in Gethsemane, where the cup was bitter. "I delight to do thy will, O my God" (Psalm 40:8). Where the Rechabites honored a human father, Christ honors the divine Father unto completion. Their obedience is the shadow; His obedience is the substance.',
         },
       ],
     },

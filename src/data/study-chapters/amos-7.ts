@@ -5,7 +5,7 @@ export const AMOS_7: RichChapterContent = {
   bookName: 'Amos',
   chapter: 7,
 
-  estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
+  estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
   intros: [
     'Amos 7 contains a series of visions showing God\'s judgment on Israel. Locusts, fire, and finally a plumbline. Each vision shows the approaching judgment, yet the plumbline is the most significant. God is setting a plumbline in the midst of His people to measure them.',
     'The plumbline is a standard — a measure of straightness, of truth. Israel will be measured against God\'s standard and found wanting. Christ is revealed in the New Testament as this plumbline — the standard by which all things are measured.',
@@ -58,9 +58,16 @@ export const AMOS_7: RichChapterContent = {
             'God first shows Amos grasshoppers and fire, and Amos intercedes — "O Lord God, forgive, I beseech thee." God relents. But when the plumbline is shown, there is no relenting. This is final judgment. The question is: how are you measured against God\'s plumbline? Are you straight or crooked?',
         },
         {
+          kind: 'christ',
+          id: 'amos7-christ',
+          title: 'Christ Connection — The Plumbline of Holiness',
+          html:
+            'The plumbline measures what is straight and true. Israel fails the test. Yet Christ is revealed in the New Testament as the plumbline made flesh. Paul calls Him "the image of the invisible God" (Col. 1:15) — the perfect measure of what straightness looks like. And when you stand before that plumbline, you are measured not by your own works but by His. "As many as received him, to them gave he power to become the sons of God" (John 1:12). The plumbline that condemns is also the plumbline that can reshape you, making you straight, making you true.',
+        },
+        {
           kind: 'reflection',
           id: 'amos7-plumbline-reflection',
-          prompt: 'God sets a plumbline in the midst of His people to measure them. How do you measure up against God\'s standard? Where are you out of alignment?',
+          prompt: 'God sets a plumbline in the midst of His people to measure them. How do you measure up against God&apos;s standard? Where are you out of alignment?',
         },
       ],
     },

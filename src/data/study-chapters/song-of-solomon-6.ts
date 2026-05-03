@@ -15,7 +15,7 @@ export const SONG_6: RichChapterContent = {
   bookName: 'Song of Solomon',
   chapter: 6,
 
-  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 3 },
+  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
   intros: [
     'The Song returns to its central theme: mutual possession and belonging. After the seeking, after the wounding, after the vulnerability, the Bride comes to a place of rest. She knows her identity. "I am my beloved&apos;s, and my beloved is mine: he feedeth among the lilies." She belongs to him. He belongs to her. This knowing gives her stability, her sense of self. She is not defined by what she lacks or what she fears, but by to whom she belongs.',
     'The Beloved continues to celebrate his bride. He calls her beautiful, unique, worthy of praise. He does not need to convince her anymore. She has chosen him, opened to him, sought him. Now there is a resting in each other. There is peace. The Bride does not question whether she is loved. She knows. And in knowing that she is loved, she finds her truest self.',
@@ -79,6 +79,13 @@ export const SONG_6: RichChapterContent = {
           kind: 'carry',
           html:
             'The Song teaches that belonging gives identity. The Bride knows who she is because she is beloved. She does not need to prove her worth. She does not need to compete with others. She is his, and in that, she is complete. This is the peace of the Song—the resting in love, the knowing that you are chosen.',
+        },
+        {
+          kind: 'christ',
+          id: 'song6-christ',
+          title: 'Christ Connection — Beloved and Chosen',
+          html:
+            'The Bride\'s refrain—"I am my beloved\'s, and my beloved is mine"—finds its fullest echo in Christ\'s love for the Church. Paul writes that "Christ also loved the church, and gave himself for it; that he might present it to himself a glorious church, not having spot, or wrinkle, or any such thing; but that it should be holy and without blemish" (Eph. 5:25–27). Christ does not love the Church reluctantly or distantly. He chooses her, claims her, celebrates her. You are not one among many. You are the one He desired to redeem, the one He called by name, the one He will present as His own glory.',
         },
         {
           kind: 'reflection',

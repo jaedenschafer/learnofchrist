@@ -132,6 +132,11 @@ export const LUKE_23: RichChapterContent = {
             'Jesus dies as the final sacrifice. His blood is shed for the sin of the world. Yet even in death, He shows mercy—to the thief, to His enemies, to all who believe. His death opens paradise.',
         },
         {
+          kind: 'carry',
+          html:
+            'Name the moment this week when you wanted to defend yourself. When shame tried to hide. When accusation stung. That moment is where the cross leans in. Instead of armor, remember Him. Instead of a counter-argument, remember forgiveness spoken from the worst pain. The carry is not to become passive—it&apos;s to refuse to let self-defense be your god. When the impulse rises, recall His hands, outstretched. That is your angle.',
+        },
+        {
           kind: 'reflection',
           id: 'luke23-crucifixion-reflect',
           prompt: 'How does Jesus&apos; forgiveness from the cross challenge you? What does it mean that paradise is opened through His death?',

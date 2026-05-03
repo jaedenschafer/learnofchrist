@@ -13,7 +13,7 @@ export const JEREMIAH_26: RichChapterContent = {
   bookName: 'Jeremiah',
   chapter: 26,
 
-  estimatedMinutes: { beginner: 5, intermediate: 8, deep: 9 },
+  estimatedMinutes: { beginner: 6, intermediate: 8, deep: 10 },
   intros: [
     'Jeremiah stands in the court of the Lord&apos;s house and speaks words of judgment against Jerusalem. The priests and prophets seize him, demanding his death. "Why hast thou prophesied in the name of the Lord, saying, This house shall be like Shiloh, and this city shall be desolate without an inhabitant?" They want to silence him, to stop the message. Yet God raises up protectors — the princes and elders who remember that Micah spoke similar words and was not put to death. Ahikam son of Shaphan stands with Jeremiah, and he is delivered from the hands of those who would kill him.',
     'The chapter shows that God does not leave His prophets without witnesses and protectors. Even when the religious establishment turns against the true prophet, God raises up defenders. Jeremiah is saved not by his own strength but by God&apos;s provision of allies.',
@@ -205,6 +205,13 @@ export const JEREMIAH_26: RichChapterContent = {
           kind: 'carry',
           html:
             'God preserves His prophets not always through dramatic rescue, but through the conscience of faithful ones who remember God&apos;s past work and fear to add innocent blood to their sin. The princes and elders, hearing the memory of Micah, hear the voice of God calling them back from murder.',
+        },
+        {
+          kind: 'christ',
+          id: 'jer26-christ',
+          title: 'Christ Connection — The Prophet Threatened',
+          html:
+            'Jeremiah stands in the temple and speaks judgment on the temple. The priests demand his death for this word. Yet Christ, standing in the temple, speaks a harder word: "Destroy this temple, and in three days I will raise it up" (John 2:19). He is threatened not only with death but with crucifixion. And unlike Jeremiah, saved by Ahikam, Christ is not spared. Yet Christ alone is not the last prophet killed. Jesus weeps: "O Jerusalem, Jerusalem, thou that killest the prophets, and stonest them which are sent unto thee" (Matt. 23:37). The prophets were killed before Him. He knew the cost of speaking God&apos;s word. He paid it.',
         },
         {
           kind: 'reflection',

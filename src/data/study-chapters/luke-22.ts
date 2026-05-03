@@ -129,6 +129,11 @@ export const LUKE_22: RichChapterContent = {
             'Jesus submits to the will of the Father. He is arrested, tried, denied. Yet He remains faithful. His obedience is not passive but active, chosen, costly. He gives Himself.',
         },
         {
+          kind: 'carry',
+          html:
+            'Tomorrow you will face something hard. Not someday—soon. The conversation you&apos;re dreading. The loss you&apos;re anticipating. The surrender you don&apos;t want to make. Before it arrives, practice the prayer: "Not my will, but thine, be done." Not once in the moment, but now, while you can still think clearly. Jesus agonized in Gethsemane beforehand so that on the cross He could trust. Your prayer now prepares you then.',
+        },
+        {
           kind: 'reflection',
           id: 'luke22-gethsemane-reflect',
           prompt: 'How does Jesus&apos; prayer in Gethsemane reveal both His humanity and His faith? When have you had to surrender your will to God&apos;s?',
