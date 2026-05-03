@@ -16,7 +16,7 @@ export const ECCLESIASTES_8: RichChapterContent = {
   bookName: 'Ecclesiastes',
   chapter: 8,
 
-  estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+  estimatedMinutes: { beginner: 1, intermediate: 5, deep: 6 },
   intros: [
     'The Preacher turns now to the question of authority and submission. He observes that we live under rulers, under authorities that we did not choose. And he counsels obedience: keep the king&apos;s commandment, because you have sworn an oath to God. Do not hastily withdraw from the king&apos;s presence in anger, for he can punish. The Preacher is teaching the necessity of social order, of submission to human authority.',
     'But then he adds a sobering note: power is limited. "There is no man that hath power over the spirit to retain the spirit." No king, no matter how great, has power over his own inner life, and certainly not over death. The king must die, just as the peasant must die. The wealthy merchant cannot bribe death. And the Preacher observes that the wicked seem to prosper, and the righteous seem to suffer. And yet he returns to his counsel: fear God. The only power that is real and lasting is God&apos;s power. All human authority is derivative, temporary, and subject to the ultimate authority of death and God.',

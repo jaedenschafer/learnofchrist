@@ -13,7 +13,7 @@ export const GENESIS_11: RichChapterContent = {
   bookName: 'Genesis',
   chapter: 11,
 
-  estimatedMinutes: { beginner: 7, intermediate: 11, deep: 14 },
+  estimatedMinutes: { beginner: 7, intermediate: 12, deep: 15 },
   intros: [
     'Genesis 11 closes the prehistory. Two chapters ago, humanity was scattered by the flood - only Noah and his sons remained. Now they are gathered again, speaking one language, moving as one. And in their unity, they dream an audacious dream: a tower whose top reaches into heaven, a name for themselves that cannot be forgotten.',
     'The chapter has two halves. The first nine verses are a judgment story: God sees the pride, comes down, scatters the people by breaking their language. The next twenty-three verses are a genealogy, not a punishment. A quiet narrowing. From the line of Shem, God picks one family. From that family, one man. From that man, a whole new story will begin.',

@@ -17,7 +17,7 @@ export const SONG_8: RichChapterContent = {
   bookName: 'Song of Solomon',
   chapter: 8,
 
-  estimatedMinutes: { beginner: 1, intermediate: 4, deep: 6 },
+  estimatedMinutes: { beginner: 1, intermediate: 5, deep: 6 },
   intros: [
     'The Song approaches its conclusion with the Bride&apos;s deepest affirmation of love. She speaks of love as strong as death, as immovable as the grave, as intense as a flame that cannot be extinguished. Love cannot be bought. Love cannot be reasoned away. Love is the most powerful force in the human experience. And she asks her Beloved to set himself as a seal upon her heart—to mark her, to claim her, to make it known that she belongs to him.',
     'The Bride then speaks of herself as a wall, complete and whole, but open to her Beloved. She has become strong enough to contain herself, to have boundaries. And within those boundaries, she gives herself fully to him. The Song concludes with mutual affirmation. The Beloved speaks of the Bride as a vineyard, precious and productive. And the Bride speaks of giving her fruit to him. There is a rest, a completion, a fullness at the end of the Song.',

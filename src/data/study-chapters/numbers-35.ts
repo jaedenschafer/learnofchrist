@@ -19,7 +19,7 @@ export const NUMBERS_35: RichChapterContent = {
   bookName: 'Numbers',
   chapter: 35,
 
-  estimatedMinutes: { beginner: 10, intermediate: 15, deep: 19 },
+  estimatedMinutes: { beginner: 10, intermediate: 15, deep: 20 },
   intros: [
     'Numbers 35 deals in hard matters: killing, guilt, refuge, and the purity of the land. The Levites are given 48 cities—not land to farm, but towns to live in, scattered among the twelve tribes. In each tribe&apos;s territory, the Levites remain the priests and teachers. But that is not the chapter&apos;s main concern. The chapter is about six of those cities: cities of refuge, where a man who has killed another by accident can flee and live.',
     'The law is precise and uncompromising. If you strike with iron, with stone, with wood, or by lying in wait, you are a murderer. The murderer shall surely be put to death. No ransom. No substitution. But if the killing was accidental, the manslayer can flee to a city of refuge, stand trial, and if found innocent of intent, he lives—confined to the city until the high priest dies. Then he can go home. Blood defiles the land. Only the blood of the one who shed it cleanses the land, or the death of the high priest cleanses the refugee. God dwells among His people. Holiness is not negotiable.',

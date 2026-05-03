@@ -16,7 +16,7 @@ export const EXODUS_32: RichChapterContent = {
   bookName: 'Exodus',
   chapter: 32,
 
-  estimatedMinutes: { beginner: 10, intermediate: 15, deep: 19 },
+  estimatedMinutes: { beginner: 10, intermediate: 16, deep: 20 },
   intros: [
     'Exodus 32 opens with Moses on a mountain — forty days, receiving the law written by God&apos;s finger on tablets of stone. Below, the people are restless. They have been set free from Egypt, but freedom without a visible God feels too strange, too much. So they ask Aaron for gods they can see and touch. And Aaron, the high priest, gives them what they ask for.',
     'What unfolds is Israel&apos;s first confrontation with idolatry, and God&apos;s first full display of anger against His own people. Yet even inside the judgment, God makes room for intercession — Moses steps between the people and the curse, offering himself as a ransom. It is the Old Testament&apos;s starkest image of substitutionary love, and Paul will echo it centuries later: &ldquo;I could wish that myself were accursed from Christ for my brethren.&rdquo;',

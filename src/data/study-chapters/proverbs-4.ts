@@ -15,7 +15,7 @@ export const PROVERBS_4: RichChapterContent = {
   bookName: 'Proverbs',
   chapter: 4,
 
-  estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+  estimatedMinutes: { beginner: 1, intermediate: 4, deep: 6 },
   intros: [
     'The fourth chapter of Proverbs takes the form of a father passing his wisdom to his son—not information about external rules, but living insight drawn from experience. "Hear, O my sons, the instruction of a father." This is the voice of one who has lived, who has seen the consequences of both wisdom and folly, and who speaks from a place of deep care. The father does not command obedience to arbitrary rules, but invites his sons to the way that leads to life.',
     'The centerpiece of the chapter is a vision of two paths: the path of the righteous, which grows ever brighter, and the way of the wicked, which leads into darkness. The choice between them is absolute. And at the heart of all is the keeping of the heart itself, the guarding of the inner life from which all choices flow.',

@@ -13,7 +13,7 @@ export const JOB_38: RichChapterContent = {
   bookName: 'Job',
   chapter: 38,
 
-  estimatedMinutes: { beginner: 2, intermediate: 4, deep: 6 },
+  estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
   intros: [
     'At last, God speaks. After all the debate, all the arguments, all the theories about suffering, God enters the whirlwind and addresses Job directly. God does not answer Job&apos;s questions philosophically. Instead, God questions Job. Where were you when the earth was laid? Can you command the dawn? Do you understand the rain? Through these questions, God reveals the vast gap between human understanding and divine wisdom.',
   ],

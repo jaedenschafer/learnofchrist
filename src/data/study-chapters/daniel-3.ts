@@ -15,7 +15,7 @@ export const DANIEL_3: RichChapterContent = {
   bookName: 'Daniel',
   chapter: 3,
 
-  estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+  estimatedMinutes: { beginner: 2, intermediate: 5, deep: 6 },
   intros: [
     'Nebuchadnezzar makes a golden image, ninety feet high and nine feet wide, and sets it in the plain of Dura. He gathers princes, governors, captains, judges, treasurers, counselors, and sheriffs—all the rulers of the provinces—to the dedication. And he makes a decree: whoever does not fall down and worship the golden image shall be cast into the fiery furnace.',
     'Certain Chaldeans come before the king and accuse the Jews—Shadrach, Meshach, and Abednego. They have not regarded the king&apos;s commandment. They serve not the king&apos;s gods, nor do they worship the golden image. Nebuchadnezzar summons them. He offers them one more chance: fall down and worship, or be cast into the furnace. Their answer is neither defiant nor fearful. It is the answer of men who have already laid down their lives before God. "Our God whom we serve is able to deliver us...But if not, be it known unto thee, O king, that we will not serve thy gods."',

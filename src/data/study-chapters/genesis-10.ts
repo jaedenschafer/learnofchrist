@@ -16,7 +16,7 @@ export const GENESIS_10: RichChapterContent = {
   bookName: 'Genesis',
   chapter: 10,
 
-  estimatedMinutes: { beginner: 6, intermediate: 10, deep: 13 },
+  estimatedMinutes: { beginner: 6, intermediate: 10, deep: 14 },
   intros: [
     'Genesis 10 is genealogy - page after page of names, mostly Hebrew ears unfamiliar to modern readers. But do not skim it. This chapter is Genesis answering a question: after the Flood wiped the earth clean, how did humanity branch into the nations we know? The answer: through three sons of Noah. Seventy peoples descended from them. Seventy different languages, lands, and identities - all named, all descended, all held in God\'s knowledge.',
     'This is remarkable. In the ancient world, genealogies were power documents. A king might list his conquests or his priests, his treasures or his cities. Genesis lists nations. It says: your people matters to God. Your land is in His book. You are not too small, too distant, too obscure for Him to know and name. The chapter even slows down for characters like Nimrod, the mighty hunter, and the cities of the Canaanites - the very peoples Abraham will later enter into conflict with. Genesis knows them first as Shem\'s cousins, descended from the same Flood-survivor, bearers of the same divine image. Before judgment comes knowledge. Before conquest comes kinship.',

@@ -12,7 +12,7 @@ export const GENESIS_44: RichChapterContent = {
   bookName: 'Genesis',
   chapter: 44,
 
-  estimatedMinutes: { beginner: 8, intermediate: 12, deep: 14 },
+  estimatedMinutes: { beginner: 8, intermediate: 13, deep: 15 },
   intros: [
     'Genesis 44 is the moment the entire Joseph story turns [res:bibleodyssey-joseph-egypt]. Everything before - the pit, the slavery, the false accusation in Egypt, the years in prison - points to this chapter. And everything after points back to it. A cup is hidden. A game of guilt and innocence plays out on the road. But the real drama is what happens inside Judah&apos;s heart.',
     'This is the chapter where the man who once said, "Let us sell him to the Ishmaelites" (37:27) becomes the man who says, "Let me be a slave in his place" [res:sefaria-genesis-44]. Not a rule change. Not a law that forced him. Something deeper: a metamorphosis. Judah has been remade from the inside by twenty years of memory and the weight of his own debt to his father Jacob.',

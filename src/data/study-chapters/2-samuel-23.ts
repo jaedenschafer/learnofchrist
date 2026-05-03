@@ -17,7 +17,7 @@ export const SAMUEL_2_23: RichChapterContent = {
   bookName: '2 Samuel',
   chapter: 23,
 
-  estimatedMinutes: { beginner: 8, intermediate: 17, deep: 21 },
+  estimatedMinutes: { beginner: 8, intermediate: 18, deep: 22 },
   intros: [
     'As David approaches the end of his life, the text records his last words — not a political testament, but a vision. He speaks of himself as "the man raised up on high, the anointed of the God of Jacob," and as "the sweet psalmist of Israel." But more than personal reflection, David articulates what he has learned about kingship: "He that ruleth over men must be just, ruling in the fear of God." A ruler who follows God will shine "as the light of the morning, when the sun riseth, even a morning without clouds." This is David&apos;s farewell message about the nature of just rule.',
     'The chapter then turns to the mighty men who made David&apos;s reign possible — warriors of extraordinary courage and strength. Adino, Eleazar, Shammah, Abishai, Benaiah, and a long list of others are named and their exploits recounted. Among these stories is a striking moment of grace: three of David&apos;s men broke through enemy lines to bring him water from the well of Bethlehem. But when he saw what it had cost them, David would not drink it. Instead, he poured it out unto the Lord as a drink offering — a transformation of valor into worship. Yet the chapter closes with an unsettling silence: the last name in the list of mighty men is Uriah the Hittite. No exploit is recorded for Uriah. The text simply names him and moves on. Every reader of David&apos;s story knows what David did to Uriah, and the chapter&apos;s quiet inclusion of that name is a reckoning.',

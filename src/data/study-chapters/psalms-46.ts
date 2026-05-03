@@ -13,7 +13,7 @@ export const PSALMS_46: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 46,
 
-  estimatedMinutes: { beginner: 2, intermediate: 5, deep: 6 },
+  estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
   intros: [
     'Psalm 46 begins with one of Scripture&apos;s most foundational promises: "God is our refuge and strength, a very present help in trouble." Note the specificity: not an abstract God, but "our" God. Not a distant God, but present. Not a God for some other time, but present help "in trouble"—right now, in the midst of difficulty. The psalmist then describes the kind of trouble: the earth itself shaking, the mountains being carried into the midst of the sea, waters roaring and foaming. This is total disorder. This is the undoing of creation itself.',
     'Yet in the midst of chaos, a voice speaks: "Be still, and know that I am God." The refusal to panic, the call to stillness, is rooted in a single fact: God is present. God is on the throne. God&apos;s city[res:bible-odyssey-zion-psalms]—Jerusalem—will not be moved because God is in its midst. For Christian readers, this presence reaches its fullness in Christ, who is Immanuel—God with us. The One who cannot be shaken, who brings peace in the midst of chaos, who calls us to stillness and trust.',

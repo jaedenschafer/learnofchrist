@@ -22,7 +22,7 @@ export const KINGS_1_20: RichChapterContent = {
   bookName: '1 Kings',
   chapter: 20,
 
-  estimatedMinutes: { beginner: 4, intermediate: 9, deep: 13 },
+  estimatedMinutes: { beginner: 4, intermediate: 10, deep: 14 },
   intros: [
     'Ahab is not a good king. He has married Jezebel, who leads him into the worship of Baal. He has built an altar to a foreign god in Samaria. Yet in this chapter, God demonstrates His power not because Ahab deserves it, but because His name is at stake. Ben-hadad, the king of Syria, comes with overwhelming force — 32 allied kings at his side, a siege laid against the capital of Israel. The situation appears hopeless. But the Lord has other plans.',
     'This is a chapter about victory, mercy, and the danger of partial obedience. Ahab will win a battle he could not possibly have won. He will extend mercy to an enemy who came to destroy him. And yet, in that mercy, he will commit a sin so grave that a prophet will pronounce his own death as the consequence. In the story of 1 Kings 20, we see the tension between human compassion and divine command — and we learn that when God decrees destruction, mercy becomes betrayal.',

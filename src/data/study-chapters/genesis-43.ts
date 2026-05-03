@@ -14,7 +14,7 @@ export const GENESIS_43: RichChapterContent = {
   bookName: 'Genesis',
   chapter: 43,
 
-  estimatedMinutes: { beginner: 8, intermediate: 11, deep: 14 },
+  estimatedMinutes: { beginner: 8, intermediate: 12, deep: 15 },
   intros: [
     'Genesis 43 is the chapter where famine forces a reckoning [res:bibleodyssey-joseph-egypt]. The grain Jacob bought is running out. Simeon, the second-eldest, is still held in Egypt as security. To get him back and to get more grain, Jacob must let Benjamin go down to Joseph - and Jacob has been refusing. The chapter pivots on a single moment: when Judah stands and pledges himself for Benjamin&apos;s safe return, Jacob&apos;s hands open.',
     'There is a transformation happening in Judah that the reader can barely see yet [res:sefaria-genesis-43]. In Genesis 37, he was the one who said, &ldquo;Come now, let us sell him to the Ishmaelites.&rdquo; Now he is saying, &ldquo;I will be surety for him; of my hand shalt thou require him.&rdquo; The man who abandoned his brother is learning to answer for him [res:met-museum-egypt]. And in Egypt, Joseph - who has seen his brothers but not yet been seen by them - looks at Benjamin and weeps. The walls of separation are about to break.',

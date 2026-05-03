@@ -13,7 +13,7 @@ export const JEREMIAH_38: RichChapterContent = {
   bookName: 'Jeremiah',
   chapter: 38,
 
-  estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
+  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 3 },
   intros: [
     'Jeremiah&apos;s life has become a series of attempts to silence him. He has been imprisoned, beaten, now thrown into a dungeon—a place of ooze and mud where he will slowly die. The princes want him dead not because he has committed a crime, but because his message gives them no political hope. A prophet who says the city will fall is dangerous to those who want to believe the city can be saved.',
     'But in the darkness of the dungeon, salvation comes from an unexpected source. Ebed-melech is an Ethiopian servant—a foreigner, a eunuch, a person of no status or authority. Yet he risks his life, goes to the king, and persuades him to let Jeremiah be pulled from the mire. In this moment, God uses the least powerful person in the kingdom to save His prophet.',

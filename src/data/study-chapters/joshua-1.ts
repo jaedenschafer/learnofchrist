@@ -15,7 +15,7 @@ export const JOSHUA_1: RichChapterContent = {
   bookName: 'Joshua',
   chapter: 1,
 
-  estimatedMinutes: { beginner: 8, intermediate: 12, deep: 16 },
+  estimatedMinutes: { beginner: 8, intermediate: 13, deep: 16 },
   intros: [
     'Deuteronomy closed with Moses dead on a mountain, looking at a land he would never enter. Joshua 1 opens with a voice breaking the silence: the Lord is speaking to Joshua, son of Nun, Moses&apos; minister. "Moses my servant is dead; now therefore arise."',
     'The shift is immediate and profound. For forty years Israel wandered in the wilderness. Moses gave them the law. Now Joshua must give them the land—not by his own strength, but by the Lord&apos;s presence and by Joshua&apos;s absolute faithfulness to the law Moses commanded. The chapter is structured as a divine commissioning: God&apos;s word to the leader (three times "Be strong and of a good courage"), the order to the people (prepare in three days), and the pledge of the eastern tribes (we will follow as we followed Moses).',

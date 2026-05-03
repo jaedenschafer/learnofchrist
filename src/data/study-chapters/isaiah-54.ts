@@ -13,7 +13,7 @@ export const ISAIAH_54: RichChapterContent = {
   bookName: 'Isaiah',
   chapter: 54,
 
-  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 5 },
   intros: [
     'The redemption of Isaiah 53 finds its fulfillment in Isaiah 54\'s celebration. The barren woman who once bore no children will suddenly become a mother of multitudes. The woman forsaken and grieved in spirit will be exalted as the wife of her Maker. This is the wedding of Christ and the Church, foreshadowed in the Old Testament, fulfilled in the New. The theme moves from sacrifice to celebration, from the cross to the marriage supper of the Lamb.',
   ],

@@ -15,7 +15,7 @@ export const JEREMIAH_23: RichChapterContent = {
   bookName: 'Jeremiah',
   chapter: 23,
 
-  estimatedMinutes: { beginner: 7, intermediate: 9, deep: 11 },
+  estimatedMinutes: { beginner: 7, intermediate: 10, deep: 12 },
   intros: [
     'Jeremiah 23 contains one of the most significant prophecies in Scripture: the coming of a "righteous Branch" from the line of David, a King who will "execute judgment and justice in the earth." This King will be called "The Lord Our Righteousness" — a name that echoes the character of God Himself. Where the false kings of Judah failed, where they were childless and cursed, this King will reign in righteousness.',
     'Yet the chapter also contains severe judgment on false prophets — those who claim to speak for God but lead the people away from Him. The contrast is stark: a true King is coming, a righteous One; but the people are being deceived by prophets who speak from their own hearts, not from God. The true prophets must distinguish their message from the lies.',

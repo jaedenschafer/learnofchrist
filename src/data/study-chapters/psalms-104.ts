@@ -15,7 +15,7 @@ export const PSALMS_104: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 104,
 
-  estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+  estimatedMinutes: { beginner: 2, intermediate: 5, deep: 6 },
   intros: [
     'Psalm 104 opens the same way Psalm 103 opens—"Bless the Lord, O my soul"—but here the psalmist directs our attention outward, to the created world. Where Psalm 103 celebrates God&apos;s mercy toward us, Psalm 104 celebrates God as Creator and Sustainer of all things. The psalmist sees divinity written across creation. God stretches out the heavens like a curtain. He lays the beams of His chambers in the waters. He rides on the wings of the wind. He speaks and things come into being. And then the psalmist zooms in: he sees the springs that water the creatures, the grass that feeds the animals, the bread that nourishes humans, the wine that makes the heart glad. All of this—from the vast vault of heaven to the small thing of a bird finding its nest—is the work of God&apos;s hands.',
     'This psalm teaches us to read creation as a text written by God. When we walk through a forest, when we see the organization and interdependence of nature, when we observe how each creature has a role and a place, we are reading God&apos;s commentary on His own character. God is powerful, precise, generous, and caring. All of this is visible in what He has made.',

@@ -20,7 +20,7 @@ export const KINGS_1_9: RichChapterContent = {
   bookName: '1 Kings',
   chapter: 9,
 
-  estimatedMinutes: { beginner: 8, intermediate: 14, deep: 21 },
+  estimatedMinutes: { beginner: 8, intermediate: 15, deep: 21 },
   intros: [
     'The house of the Lord is finished. The walls are built, the altar is set, the sacred fire burns. Solomon has done what his father David could not — he has raised the temple to its full magnificence. And he has built his own palace, greater still, and all the cities of his dominion. The work is complete. All the desire of Solomon is satisfied.',
     'But when a work is finished, when a vision is realized, there comes a moment of reckoning. Has God accepted what we have built? Has God been pleased with our offering? And if He has, what now? What is the cost of keeping what we have been given? In 1 Kings 9, the Lord appears to Solomon a second time, and the message is as much a warning as it is a blessing. The promise comes with a condition. The throne will be established forever — but only if.',

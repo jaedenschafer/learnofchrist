@@ -13,7 +13,7 @@ export const EXODUS_26: RichChapterContent = {
   bookName: 'Exodus',
   chapter: 26,
 
-  estimatedMinutes: { beginner: 9, intermediate: 14, deep: 16 },
+  estimatedMinutes: { beginner: 9, intermediate: 15, deep: 17 },
   intros: [
     'Exodus 26 is blueprint. Every verse is precise specification — dimensions, materials, how to fasten, how to hang. Ten curtains of fine twined linen with cherubim woven in, goat hair curtains, ram skins dyed red, badger skins. Shittim wood boards, sockets of silver. The parokhet — the veil that separates the Holy Place from the Holy of Holies, where God&apos;s presence dwells.',
     'It sounds like construction manual, and it is. But in the grammar of the Bible, buildings are not silent. They teach. The tabernacle is Israel&apos;s theology in wood and cloth — a place where heaven and earth meet, where a holy God and an unholy people can draw near to each other. And the veil is the threshold. It stands in the way. No one passes it except the high priest, once a year, on the Day of Atonement. The veil holds back. The veil separates.',

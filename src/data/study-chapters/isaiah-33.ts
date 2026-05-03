@@ -16,7 +16,7 @@ export const ISAIAH_33: RichChapterContent = {
   bookName: 'Isaiah',
   chapter: 33,
 
-  estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+  estimatedMinutes: { beginner: 2, intermediate: 6, deep: 8 },
   intros: [
     'Isaiah 33 is a prayer book chapter—a cry of the people in their need. "Lord, be gracious unto us; we have waited for thee." This is not the arrogant prayer of those who assume God owes them something. This is the humble prayer of those who have been waiting, watching, watching for God to act. They ask Him to be their arm every morning, their salvation in the time of trouble. The promise that comes in response is one of vision: the eyes that call upon God will see the king in his beauty. They will behold the land that is very far off. The God who hears the prayer of the waiting will show them wonders.',
   ],

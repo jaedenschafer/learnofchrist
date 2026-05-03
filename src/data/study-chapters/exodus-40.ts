@@ -26,7 +26,7 @@ export const EXODUS_40: RichChapterContent = {
   bookName: 'Exodus',
   chapter: 40,
 
-  estimatedMinutes: { beginner: 8, intermediate: 11, deep: 14 },
+  estimatedMinutes: { beginner: 8, intermediate: 12, deep: 15 },
   intros: [
     'Exodus 40 brings the book to its greatest moment. After a year in the wilderness, the tabernacle is complete. Every piece is in place—the wood, the gold, the oil, the priestly garments. But until now it has been a structure, not a house. Now Moses will assemble it, anoint it, and dedicate it to God. What happens next changes everything.',
     'The chapter opens with careful, methodical work: place this here, put that there, anoint this with oil. It reads like an ancient instruction manual. But it is not meant to sound ordinary. Each act is an echo of creation itself—God ordering chaos, placing things in their proper space, calling them good. And the author wants us to feel the weight of it: this is not a human structure being finished. This is the place where God will dwell.',

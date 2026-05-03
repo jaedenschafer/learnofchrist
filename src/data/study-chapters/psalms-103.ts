@@ -15,7 +15,7 @@ export const PSALMS_103: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 103,
 
-  estimatedMinutes: { beginner: 2, intermediate: 5, deep: 6 },
+  estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
   intros: [
     'Psalm 103 is one of the great celebrations of God&apos;s character in the Psalter. It opens with a direct address to the soul: "Bless the Lord, O my soul." The psalmist is talking to himself, commanding his own heart to remember, to praise, to bless. This is not the prayer of someone whose circumstances are perfect. It is the prayer of someone who has chosen to focus not on his troubles but on God&apos;s nature. And what he remembers is breathtaking: God is merciful and gracious, slow to anger and plenteous in mercy. He does not deal with us according to our sins. Instead, He removes our transgressions from us as far as the east is from the west.',
     'This psalm has shaped Christian understanding of forgiveness. When we sing "as far as the east is from the west," we are invoking Psalm 103. We are claiming a biblical promise that God does not hold grudges, does not bring up past failures, does not treat us as our wickedness deserves. Instead, He loves us with a father&apos;s love. This is not soft sentimentality. It is the hardest, most costly love of all: the love that forgives.',

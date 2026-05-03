@@ -16,7 +16,7 @@ export const PROVERBS_15: RichChapterContent = {
   bookName: 'Proverbs',
   chapter: 15,
 
-  estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+  estimatedMinutes: { beginner: 1, intermediate: 6, deep: 7 },
   intros: [
     'The fifteenth chapter of Proverbs is, in many ways, a summation of what has come before—a gathering place of wisdom about the power of words, the reach of God&apos;s knowledge, the transforming power of gentleness. It shows how the smallest choices—a soft word, a gentle answer, a joyful heart—ripple outward in ways we may not see. But God sees. God sees everything.',
     'The chapter also speaks to the deepest human needs: to be seen, to be understood, to be moved from sorrow to joy, to find our way out of confusion toward clarity. These are not luxuries. They are the basic sustenance of a human life lived well.',

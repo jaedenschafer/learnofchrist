@@ -15,7 +15,7 @@ export const DANIEL_5: RichChapterContent = {
   bookName: 'Daniel',
   chapter: 5,
 
-  estimatedMinutes: { beginner: 2, intermediate: 5, deep: 5 },
+  estimatedMinutes: { beginner: 2, intermediate: 5, deep: 6 },
   intros: [
     'Belshazzar the king makes a great feast to a thousand of his lords and drinks wine before the thousand. As the wine flows and the feast reaches its height, he commands that the golden and silver vessels be brought forth—the vessels that Nebuchadnezzar his father had taken from the temple of God in Jerusalem. The king and his lords, his wives and his concubines drink from them. They drink wine and praise the gods of gold and of silver, of brass and iron, of wood and of stone. In that moment of blasphemy, a sign appears.',
     'In the same hour, as the feasting reaches its peak and the king is exulting in his own power and wisdom, there comes forth the fingers of a man&apos;s hand. They write upon the wall of the palace: MENE, MENE, TEKEL, UPHARSIN. The king&apos;s countenance changes. His thoughts trouble him. His loins are loosed with fear. He cries out for the astrologers, the Chaldeans, the soothsayers. But none can read the writing. And in his desperation, he calls for Daniel, the man in whom the spirit of the holy gods dwells.',

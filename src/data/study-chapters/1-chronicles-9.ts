@@ -17,7 +17,7 @@ export const CHRONICLES_1_9: RichChapterContent = {
   bookName: '1 Chronicles',
   chapter: 9,
 
-  estimatedMinutes: { beginner: 7, intermediate: 13, deep: 17 },
+  estimatedMinutes: { beginner: 7, intermediate: 14, deep: 18 },
   intros: [
     'The first eight chapters of 1 Chronicles are genealogy — the long thread of descent from Adam through the tribes of Israel, preserving the names of those who went into exile in Babylon. The Chronicler writes for the remnant who returned, reminding them of their heritage, their place in God&apos;s story, and their covenant connection to the land and the temple.',
     'Now, in chapter 9, the focus shifts. The genealogies give way to narrative, and we see the people who actually returned and resettled Jerusalem and the surrounding cities. Among them are priests and Levites, the gatekeepers and singers, the temple servants and the ordinary workers who made the house of God function. In a list that might seem merely administrative, the Chronicler teaches us something profound: God notices the faithful work that no one else sees. He values the cup of cold water, the door kept open, the bread prepared in obedience. This is the kingdom of heaven — not always the visible triumph, but the small, persistent, unnoticed faithfulness.',

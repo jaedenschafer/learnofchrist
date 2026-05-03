@@ -15,7 +15,7 @@ export const ISAIAH_36: RichChapterContent = {
   bookName: 'Isaiah',
   chapter: 36,
 
-  estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
+  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
   intros: [
     'The narrative turns historical. Sennacherib has invaded Judah and sent his general, the Rabshakeh, to demand surrender. The Rabshakeh stands outside the walls of Jerusalem and speaks words of fear, mockery, and pride. He boasts of Assyrian conquests. He challenges the God of Israel to deliver His people. He attempts to divide the people from their king, to sow doubt about God&apos;s ability to save. But Hezekiah tells the people to listen in silence. He will not respond to the enemy&apos;s taunts. He will wait for God to act. This chapter is about the power of words—both the destructive words of the enemy and the silencing power of faith.',
   ],

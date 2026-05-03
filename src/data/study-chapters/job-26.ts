@@ -20,7 +20,7 @@ export const JOB_26: RichChapterContent = {
   bookName: 'Job',
   chapter: 26,
 
-  estimatedMinutes: { beginner: 2, intermediate: 4, deep: 6 },
+  estimatedMinutes: { beginner: 2, intermediate: 5, deep: 6 },
   intros: [
     'Job mocks Bildad&apos;s brief speech. "How hast thou helped him that is without power? how savest thou the arm that hath no strength?" Bildad &apos;s words are fine-sounding, but they are useless. They do not address the real problem. They do not offer real help. Job is saying: Your doctrine is correct as far as it goes. But it does not penetrate to the heart of the matter. It does not touch the real mystery of God&apos;s nature.',
     'And then Job does something extraordinary. Rather than continue to argue about his own suffering, he steps back and describes the vastness and power of God. "He stretcheth out the north over the empty place, and hangeth the earth upon nothing." The earth hangs on nothing—it is suspended in void, held only by divine power. The stars shine. The heavens are stretched out. Death and destruction are laid bare before God. This is not a vision of God as judge of wickedness or vindicator of the righteous. It is a vision of God as the sovereign creator, the one whose power maintains all things, before whom all secrets are known. In the face of such vastness, the question "why does the wicked prosper?" seems small, almost trivial.',

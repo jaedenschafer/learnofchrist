@@ -5,7 +5,7 @@ export const JOEL_1: RichChapterContent = {
   bookName: 'Joel',
   chapter: 1,
 
-  estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
+  estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
   intros: [
     'Joel opens with a crisis: a plague of locusts. "That which the palmerworm hath left hath the locust eaten; and that which the locust hath left hath the cankerworm eaten." Wave upon wave of destruction. The land is devastated. The grape vines are destroyed. The fig trees are stripped bare.',
     'Yet this physical judgment is a sign of a greater reality — the day of the Lord. The locust plague is but a small foreshadowing of the judgment that will come on all the earth. Joel calls the people to awake, to lament, to gather together. This is a wakeup call — not to doom them, but to turn them toward God.',

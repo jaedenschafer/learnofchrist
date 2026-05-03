@@ -16,7 +16,7 @@ export const JOHN_2: RichChapterContent = {
   bookName: 'John',
   chapter: 2,
 
-  estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+  estimatedMinutes: { beginner: 2, intermediate: 6, deep: 7 },
   intros: [
     'The wedding at Cana is Jesus&apos; first public sign in the Gospel of John. A celebration, a moment of joy, a crisis quietly unfolding: the wine has run out. To run short of wine at a wedding is to fail in hospitality, to bring shame on the bride and groom. Mary, Jesus&apos; mother, knows He can address this. She brings the need before Him without making a direct demand. Jesus responds with apparent distance—"Mine hour is not yet come"—yet He acts. Water becomes wine. Not a small emergency repair, but an abundance of the finest wine, five to six hundred liters of it.',
     'Days later, Jesus enters the Temple. He sees the money changers and merchants conducting business in the courtyard. The Temple has become a marketplace. Those coming to worship must exchange their coins, purchase sacrificial animals, navigate commerce disguised as devotion. Jesus makes a whip and drives them out, overturning tables, pouring out coins, commanding: "Take these things hence." His statement is both explanation and charge: "My house shall be called the house of prayer." The Temple is violated. It must be reclaimed.',

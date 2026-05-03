@@ -16,7 +16,7 @@ export const SONG_4: RichChapterContent = {
   bookName: 'Song of Solomon',
   chapter: 4,
 
-  estimatedMinutes: { beginner: 2, intermediate: 4, deep: 6 },
+  estimatedMinutes: { beginner: 2, intermediate: 5, deep: 6 },
   intros: [
     'The Bridegroom now celebrates his bride with an extended and sensuous description. He moves from her head to her feet, describing each part with vivid comparisons. Her eyes are doves. Her teeth are flocks of sheep washed in milk. Her lips are a thread of scarlet. Her breasts are like fawns. Every part is beautiful to him. This is not merely physical description. This is the testimony of one who loves and sees his beloved through the lens of that love. In his eyes, she is entirely fair. There is nothing he finds displeasing.',
     'Then comes a crucial affirmation: "Thou art all fair, my love; there is no spot in thee." The bride is whole, unblemished, perfect in the eyes of her lover. This language appears in the New Testament to describe the Church before Christ. Paul writes that Christ will "present it to himself a glorious church, not having spot, or wrinkle, or any such thing; but that it should be holy and without blemish." The bride is seen not as she might appear in her own self-judgment, but as she appears in the eyes of her beloved.',

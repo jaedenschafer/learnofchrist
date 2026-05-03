@@ -17,7 +17,7 @@ export const MARK_3: RichChapterContent = {
   bookName: 'Mark',
   chapter: 3,
 
-  estimatedMinutes: { beginner: 2, intermediate: 6, deep: 8 },
+  estimatedMinutes: { beginner: 2, intermediate: 6, deep: 9 },
   intros: [
     'Mark 3 begins with another Sabbath confrontation. A man with a withered hand enters the synagogue. The Pharisees watch Jesus closely, hoping He will heal on the Sabbath so they can accuse Him. But Jesus turns the question back on them: "Is it lawful to do good on the sabbath days, or to do evil? to save life, or to kill?" And He heals the man. The Pharisees leave in fury and begin plotting with the Herodians—those who support Herod, Rome&apos;s client king—how they might destroy Jesus. The authority of Jesus is now openly opposed.',
     'As Jesus withdraws, great multitudes follow Him. The chapter crescendos with a new definition of family. Jesus&apos; mother and brothers come looking for Him. Perhaps they think He is mad, perhaps they wish to protect Him. But when told of their arrival, Jesus redefines everything: "Whosoever shall do the will of God, the same is my brother, and my sister, and mother." In His kingdom, the bonds of faith supersede the bonds of blood. The true family is constituted not by genealogy but by obedience to God.',

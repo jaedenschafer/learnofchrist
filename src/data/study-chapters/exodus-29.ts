@@ -5,7 +5,7 @@ export const EXODUS_29: RichChapterContent = {
   bookName: 'Exodus',
   chapter: 29,
 
-  estimatedMinutes: { beginner: 13, intermediate: 20, deep: 27 },
+  estimatedMinutes: { beginner: 13, intermediate: 21, deep: 27 },
   intros: [
     'Exodus 29 details the priestly consecration ritual — the filling of the priests&apos; hands with the weight of their office. Before Aaron and his sons can stand in the tabernacle and speak for Israel, they must be washed, dressed, anointed, and marked with blood. The ritual is exacting, performed only once, and its pieces — the bull for sin, the first ram for wholeness, the second ram of consecration with its blood on ear and thumb and toe — teach what it means to be set apart.',
     'God closes the chapter with a promise: "I will dwell among the children of Israel, and will be their God." The whole apparatus of tabernacle and priesthood exists because God intends to live in the midst of His people. Every detail of the consecration ceremony points to a people being prepared to host the presence of the God who came down the mountain.',

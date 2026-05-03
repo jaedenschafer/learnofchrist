@@ -17,7 +17,7 @@ export const CHRONICLES_2_29: RichChapterContent = {
   bookName: '2 Chronicles',
   chapter: 29,
 
-  estimatedMinutes: { beginner: 5, intermediate: 10, deep: 14 },
+  estimatedMinutes: { beginner: 5, intermediate: 11, deep: 15 },
   intros: [
     'Hezekiah is twenty-five years old when he comes to the throne. Jerusalem has been wandering. His father Ahaz had done evil in the sight of the Lord, had shut the doors of the Lord\'s house, and the wrath of God had come upon Judah. The nation has turned away. But Hezekiah feels the weight of something more than just political crisis—he feels the weight of covenant, the broken relationship between God and His people.',
     'And so in the first year of his reign, in the first month (Nisan, the month of new beginnings), Hezekiah does something no other king in this generation would have dared: he opens the doors of the house of the Lord. He does not deliberate. He does not ask permission. He does not wait for the right season. He calls together the priests and Levites and speaks to them words that will change the course of a kingdom: "Sanctify yourselves. Sanctify the house of the Lord. Carry out the filthiness from the holy place."',

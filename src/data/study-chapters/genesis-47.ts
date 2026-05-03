@@ -22,7 +22,7 @@ export const GENESIS_47: RichChapterContent = {
   bookName: 'Genesis',
   chapter: 47,
 
-  estimatedMinutes: { beginner: 10, intermediate: 13, deep: 16 },
+  estimatedMinutes: { beginner: 10, intermediate: 14, deep: 16 },
   intros: [
     'Genesis 47 is the story of two peoples under one famine [res:met-museum-egypt]. Joseph has brought his family to Egypt, and now they meet Pharaoh. The scene moves fast: brothers presenting themselves, Jacob blessing the king, the famine tightening its grip. One by one the Egyptians trade their freedom for bread - first their money, then their animals, then their land, then their bodies. By verse 25 they are calling themselves Pharaoh&apos;s servants, grateful for the mercy of slavery. And in the middle of all this collapse, Israel is growing, multiplying, taking root in Goshen.',
     'The chapter&apos;s last notes are quiet [res:sefaria-genesis-47]. Jacob is dying. His final words are not blessings over Egypt or thanks for Joseph&apos;s power. They are a command: <em>bury me not in Egypt.</em> A pilgrim&apos;s last instruction [res:bibleodyssey-joseph-egypt]. Everything in this chapter - the contrast between Egypt&apos;s loss of freedom and Israel&apos;s flourishing, the patriarch&apos;s refusal to call Egypt home - points to a country he will never see in this life, and to a Deliverer who will be born from the people growing in Goshen.',

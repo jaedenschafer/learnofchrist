@@ -16,7 +16,7 @@ export const PSALMS_102: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 102,
 
-  estimatedMinutes: { beginner: 2, intermediate: 4, deep: 6 },
+  estimatedMinutes: { beginner: 2, intermediate: 5, deep: 6 },
   intros: [
     'Psalm 102 opens in desolation. The psalmist is in such pain that he barely eats, his bones ache, his heart is broken. His days are disappearing like smoke. He feels as worthless as a scattered shadow. Yet this is not a psalm of despair that ends in despair. The psalmist turns his gaze upward. He remembers that God has laid the foundation of the earth. He recalls that the heavens are the work of God&apos;s hands. And in that turning—from his own smallness to God&apos;s vastness—the psalm finds its resolution. The afflicted man discovers that his weakness is not the final word because God&apos;s strength is eternal.',
     'The apostle Paul saw in this psalm a revelation of Christ. He quoted verses 25–27—"Of old hast thou laid the foundation of the earth"—and attributed them to Jesus Himself. This is stunning: the psalmist&apos;s cry from the depths becomes, in the New Testament, a window onto Christ&apos;s eternity. The one who suffers is also the one through whom all things exist. The prayer of the afflicted is answered by the eternal Creator.',

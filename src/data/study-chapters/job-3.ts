@@ -17,7 +17,7 @@ export const JOB_3: RichChapterContent = {
   bookName: 'Job',
   chapter: 3,
 
-  estimatedMinutes: { beginner: 4, intermediate: 9, deep: 12 },
+  estimatedMinutes: { beginner: 4, intermediate: 9, deep: 13 },
   intros: [
     'Job has endured seven days of silence. His three friends — Eliphaz, Bildad, and Zophar — have come to comfort him, and for seven days and nights they simply sit with him, in the darkness of his loss, saying nothing. It is a profound act of presence. And then Job breaks the silence. But the words that come are not words of resignation or acceptance. They are words of raw, anguished lament.',
     'Job curses the day of his birth. He did not curse God — a distinction that will become crucial as the book unfolds. He curses the light that shines on his misery, wishes he had died in the womb, begs for darkness to cover him. His suffering is so acute that he questions the value of his own existence. He does not demand an answer from God. He demands an explanation for why he was born into a world of such pain.',

@@ -18,7 +18,7 @@ export const JOB_13: RichChapterContent = {
   bookName: 'Job',
   chapter: 13,
 
-  estimatedMinutes: { beginner: 1, intermediate: 5, deep: 6 },
+  estimatedMinutes: { beginner: 1, intermediate: 5, deep: 7 },
   intros: [
     'Job has finished his response to the friends, and now he turns away from them entirely. He will speak to God. "Surely I would speak to the Almighty, and I desire to reason with God." This is a radical move. Not to his friends, not to the community, but to God Himself. Job will make his case directly before the throne of heaven.',
     'But before he does, Job says something crucial about his friends: "Ye are forgers of lies, ye are all physicians of no value." They have tried to help him with their theology, but their theology is false. Their medicine does not heal. And then comes the statement that will become the foundation of Job&apos;s faith: "Though he slay me, yet will I trust in him." Even if God kills him, even if this ordeal ends in death, Job will not stop trusting. He will not confess to sins he has not committed. He will maintain his integrity before God, even at the cost of his life.',

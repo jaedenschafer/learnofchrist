@@ -14,7 +14,7 @@ export const JOB_28: RichChapterContent = {
   bookName: 'Job',
   chapter: 28,
 
-  estimatedMinutes: { beginner: 2, intermediate: 4, deep: 6 },
+  estimatedMinutes: { beginner: 2, intermediate: 4, deep: 7 },
   intros: [
     'In a moment of rare clarity within his suffering, Job speaks a poem about the nature of true wisdom. The passage contrasts earthly treasure—silver, gold, precious stones that men labor to extract from the earth—with wisdom, which cannot be bought or found through human effort alone. This chapter poses the fundamental question of the entire book: In a world of suffering and mystery, where is wisdom to be found?',
   ],

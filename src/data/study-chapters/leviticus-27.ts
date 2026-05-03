@@ -11,7 +11,7 @@ export const LEVITICUS_27: RichChapterContent = {
   bookName: 'Leviticus',
   chapter: 27,
 
-  estimatedMinutes: { beginner: 9, intermediate: 13, deep: 16 },
+  estimatedMinutes: { beginner: 9, intermediate: 13, deep: 17 },
   intros: [
     'After the intensity of Leviticus 26 — with its blessings and curses written in fire — Leviticus closes with a practical, almost mundane chapter: what happens when you make a vow? How much does it cost to keep one? Can you buy your way out of a promise you made to God? It feels like a legal appendix after all that drama, but it&apos;s beautiful. God provides a way to fulfill rash or impossible vows through redemption. There is always a substitute price.',
     'The chapter returns three times to one principle: if you dedicate something to the Lord and then change your mind, you can redeem it — buy it back — by paying a set price. A person, an animal, a house, a field. Each has its value. And then the chapter closes with the tithe: every tenth animal, every tenth grain belongs to God by right. Not an offer. Not a suggestion. One out of ten, always, for the Lord.',

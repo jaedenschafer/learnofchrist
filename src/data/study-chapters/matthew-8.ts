@@ -17,7 +17,7 @@ export const MATTHEW_8: RichChapterContent = {
   bookName: 'Matthew',
   chapter: 8,
 
-  estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+  estimatedMinutes: { beginner: 2, intermediate: 6, deep: 7 },
   intros: [
     'Matthew moves from Jesus&apos; teaching to His actions. The Sermon on the Mount has proclaimed the nature of the kingdom. Now the kingdom is demonstrated. A leper approaches—a man excluded from society, cut off from human community. He kneels and says "Lord, if thou wilt, thou canst make me clean." It is not a demand but a prayer, expressing both faith in Jesus&apos; power and dependence on His will. And Jesus, moved with compassion, touches him. He touches the untouchable. And the leprosy departs immediately.',
     'What unfolds throughout the chapter is a pattern: sickness, demon possession, fear, and powerlessness are met by Jesus&apos; word and touch. The centurion&apos;s servant, whom He has never met, is healed by a word spoken at a distance. Peter&apos;s mother-in-law, seized by a fever, is raised up. At evening, many possessed with demons are brought to Him, and He casts them out with a word. The disciples witness all this and ask in amazement: "What manner of man is this, that even the winds and the sea obey him?"',

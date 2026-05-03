@@ -15,7 +15,7 @@ export const ECCLESIASTES_2: RichChapterContent = {
   bookName: 'Ecclesiastes',
   chapter: 2,
 
-  estimatedMinutes: { beginner: 1, intermediate: 5, deep: 6 },
+  estimatedMinutes: { beginner: 1, intermediate: 5, deep: 7 },
   intros: [
     'Having established that all under the sun is vanity, the Preacher sets out to test this claim. Perhaps he has been too hasty. Perhaps if he pursues pleasure—real, tangible, intense pleasure—he will find meaning. Perhaps if he builds something great, something that bears his name, something of substance, he will have profit. So he embarks on an experiment, armed with wealth, power, and the freedom to do whatever he desires. He pursues mirth, wine, gardens, servants, music, women. And he observes it all with the eye of a scientist testing a hypothesis.',
     'What emerges is a portrait of the human condition when everything is permitted and nothing is denied. The results are clear: every pursuit yields the same conclusion. Pleasure passes and leaves a hollow ache. Building ends in ruin. Wisdom brings no advantage over folly. And most troubling of all, death comes for the wise and the fool alike. The accumulation of a lifetime is left to others, who may squander it. And so the Preacher concludes: "All was vanity and vexation of spirit."',

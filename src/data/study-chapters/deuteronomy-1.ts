@@ -22,7 +22,7 @@ export const DEUTERONOMY_1: RichChapterContent = {
   bookName: 'Deuteronomy',
   chapter: 1,
 
-  estimatedMinutes: { beginner: 13, intermediate: 21, deep: 26 },
+  estimatedMinutes: { beginner: 13, intermediate: 21, deep: 27 },
   intros: [
     'Deuteronomy opens with Moses at the end. Forty years have passed since Sinai. A whole generation has been born in the wilderness—people who never knew Egypt, never crossed the Red Sea, never camped trembling at the base of a smoking mountain. Now, before Israel crosses the Jordan into the Promised Land, Moses stands to address them. Not with new laws, but with the old ones restated: <em>this is what it means to love the Lord your God.</em>',
     'The book begins as a rehearsal of failure—and how failure became a schoolroom. At Kadesh-Barnea, Israel had every reason to trust. The land was promised. The spies came back saying, "It is indeed a good land." But ten of the twelve reported that the people there were too great, and Israel believed the report more than they believed God. They slandered His character: "Because the Lord hated us, he hath brought us forth out of the land of Egypt." In that moment, the forty-year wilderness began not as punishment, but as consequence—the loss of what they refused to possess.',

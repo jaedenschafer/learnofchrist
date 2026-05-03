@@ -19,7 +19,7 @@ export const MATTHEW_13: RichChapterContent = {
   bookName: 'Matthew',
   chapter: 13,
 
-  estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+  estimatedMinutes: { beginner: 2, intermediate: 6, deep: 8 },
   intros: [
     'Jesus sits by the sea and crowds gather around Him. He teaches them in parables—stories drawn from everyday life that contain hidden meaning. A sower goes out to sow. A mustard seed grows into a great tree. A woman hides leaven in meal. On the surface, they are simple agricultural scenes. But beneath, they reveal the nature of the kingdom of heaven. Parables are not meant to make truth easy. They are meant to hide it from those not ready to hear it, and to reveal it to those who seek earnestly.',
     'The disciples ask why Jesus teaches in parables. Jesus answers: "Therefore speak I to them in parables: because they seeing see not; and hearing they hear not, neither do they understand." The parables are a kind of divine judgment—those who are open to the kingdom hear and understand. Those whose hearts are hardened against truth neither see nor hear, even when truth stands before them. The kingdom is both hidden and revealed, both costly and precious.',

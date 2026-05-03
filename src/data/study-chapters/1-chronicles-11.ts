@@ -19,7 +19,7 @@ export const CHRONICLES_1_11: RichChapterContent = {
   bookName: '1 Chronicles',
   chapter: 11,
 
-  estimatedMinutes: { beginner: 9, intermediate: 15, deep: 20 },
+  estimatedMinutes: { beginner: 9, intermediate: 16, deep: 22 },
   intros: [
     'The books of Chronicles retell the history of Israel from a perspective that emphasizes the temple, the priesthood, and the continuity of David&apos;s line. Where 2 Samuel shows us David&apos;s personal story — his flight from Saul, his grief, his wars — 1 Chronicles frames David as the founder of a kingdom destined for the Messiah. In this chapter, David is anointed king by "all Israel," and we meet the men who gathered to him: warriors of extraordinary courage, men who broke through enemy lines and risked their lives for the man God had chosen.',
     'These mighty men are more than soldiers. They are the first community gathered around a king. When you read about them bringing water from the well of Bethlehem and David pouring it out as an offering rather than drinking it, you are watching a moment of covenantal sacrifice — the king willing to receive the costly gift of his men&apos;s devotion and transform it into worship. This pattern, of the rejected becoming king and gathering his own around him, echoes throughout Scripture and casts a long shadow forward to another king, gathered in an upper room with twelve men, where wine becomes the sign of a covenant sealed in blood.',

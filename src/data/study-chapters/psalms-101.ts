@@ -15,7 +15,7 @@ export const PSALMS_101: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 101,
 
-  estimatedMinutes: { beginner: 2, intermediate: 4, deep: 6 },
+  estimatedMinutes: { beginner: 2, intermediate: 5, deep: 6 },
   intros: [
     'Psalm 101 stands apart in the collection: it is a ruler&apos;s vow. David, as king, makes a solemn covenant about how he will govern. This is not a prayer asking God for strength or wisdom. This is a public declaration of principle. And what makes it remarkable is that David does not promise military might or territorial expansion. He promises mercy and judgment—the two pillars of just rule. He commits to walking in a perfect way, to avoiding corruption, to removing the wicked from his sight. This is a king who understands that his authority is lent to him by God and must be exercised in God&apos;s name.',
     'The psalm reveals the inner discipline such governance requires. A just king cannot entertain wicked counsel. He cannot ignore perverse heart. He cannot tolerate the deceitful tongue. To rule with integrity is to guard the threshold of one&apos;s own mind and home, to be ruthless about who and what influence you. David&apos;s vow applies not only to monarchs. It speaks to anyone entrusted with authority—parents, leaders, teachers, judges. How will you use the power you have been given?',

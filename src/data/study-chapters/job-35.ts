@@ -13,7 +13,7 @@ export const JOB_35: RichChapterContent = {
   bookName: 'Job',
   chapter: 35,
 
-  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 5 },
+  estimatedMinutes: { beginner: 1, intermediate: 4, deep: 6 },
   intros: [
     'Elihu makes a seemingly radical claim: your righteousness profits God nothing. God is not in debt to you for your goodness. Nor is God harmed by your wickedness. This means that suffering is not a debt-payment system—you do not suffer because you owe God something. Rather, suffering serves other purposes: to teach, to refine, to call you back to God.',
   ],

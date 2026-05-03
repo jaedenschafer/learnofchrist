@@ -16,7 +16,7 @@ export const JOHN_5: RichChapterContent = {
   bookName: 'John',
   chapter: 5,
 
-  estimatedMinutes: { beginner: 2, intermediate: 6, deep: 7 },
+  estimatedMinutes: { beginner: 2, intermediate: 6, deep: 8 },
   intros: [
     'Near the Sheep Gate at Jerusalem lies a pool called Bethesda, surrounded by five porches. In these porches lay a great multitude of the infirm, the blind, the halt, the withered—all waiting for the moving of the water. An angel stirred the water at certain seasons, and whoever stepped in first after the stirring was made whole. A man lies there who has been infirm for thirty-eight years. Thirty-eight years of waiting, of hoping, of disappointment. Yet when Jesus approaches and asks "Wilt thou be made whole?" the man does not answer yes. Instead, he gives excuse: "I have no man, when the water is troubled, to put me into the pool." He has settled into his infirmity. Yet Jesus, without waiting for consent, speaks a word: "Rise, take up thy bed, and walk."',
     'Immediately the man is whole. But it is the Sabbath. And in taking up his bed and walking, he has violated Sabbath law. The Jews confront him: "It is the Sabbath day: it is not lawful for thee to carry thy bed." But the man answers: "He that made me whole, the same said unto me, Take up thy bed, and walk." When they discover that it is Jesus, they seek to kill Him. For He does not only break the law. He claims a power that belongs to God alone. "I and my Father work hitherto," He says. The Father and the Son working together. Equal in authority, equal in power.',

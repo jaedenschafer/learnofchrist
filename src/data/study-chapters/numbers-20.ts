@@ -24,7 +24,7 @@ export const NUMBERS_20: RichChapterContent = {
   bookName: 'Numbers',
   chapter: 20,
 
-  estimatedMinutes: { beginner: 9, intermediate: 14, deep: 16 },
+  estimatedMinutes: { beginner: 9, intermediate: 14, deep: 17 },
   intros: [
     'Numbers 20 is where the wilderness finally breaks Moses. After forty years of leading a rebellious people — complaining about food, water, leadership — the people thirst again at Kadesh. God tells Moses to SPEAK to the rock. But Moses, in anger, STRIKES it twice, and says words that put himself and Aaron at the center instead of God\'s holiness. Water comes anyway, but the consequence is final: neither Moses nor Aaron will enter the Promised Land.',
     'The chapter holds two kinds of grief at once. It is a story of genuine failure — Moses did not believe, did not sanctify God\'s name in the sight of the people. Yet God still leads them forward, still provides water, still continues the priesthood. The rock that Moses struck twice echoes back to Exodus 17, where he struck it once. That first striking pictured Christ struck once for our sin (Isa 53:4). The second striking was never meant to happen — and that\'s why God\'s response is so severe. The gospel was misrepresented. But even in judgment, God\'s character shines: He does not abandon the people. He only bars their leader — who became their greatest argument against God\'s holiness — from leading them into the land.',

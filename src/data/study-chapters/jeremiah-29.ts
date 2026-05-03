@@ -15,7 +15,7 @@ export const JEREMIAH_29: RichChapterContent = {
   bookName: 'Jeremiah',
   chapter: 29,
 
-  estimatedMinutes: { beginner: 5, intermediate: 7, deep: 10 },
+  estimatedMinutes: { beginner: 5, intermediate: 8, deep: 10 },
   intros: [
     'This is a letter of hope written to those already in exile. Jeremiah does not promise that the exile will end immediately or easily. Instead, he calls the exiles to live fully, to build homes, plant gardens, marry their children, seek peace in Babylon itself. "I know the thoughts that I think toward you, saith the Lord, thoughts of peace, and not of evil, to give you an expected end."',
     'The promise is that God&apos;s thoughts toward the exiles are not thoughts of destruction but of peace, of a future and a hope. And the way to find that future is not to resist exile but to seek God with all their hearts in exile: "And ye shall seek me, and find me, when ye shall search for me with all your heart."',

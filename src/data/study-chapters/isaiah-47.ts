@@ -17,7 +17,7 @@ export const ISAIAH_47: RichChapterContent = {
   bookName: 'Isaiah',
   chapter: 47,
 
-  estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
+  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
   intros: [
     'After the promise to the faithful comes judgment on the oppressor. Babylon, the great power that has conquered the world, will fall. She sits in security, boasting of her power and eternity. But Isaiah pronounces her doom. Evil will come upon her. She will fall from her throne. She will lose her sons and her daughters. The wise men and sorcerers—all the sources of her confidence—will fail. This is the judgment on pride. This is the consequence of believing that you are accountable to no one, that your power will never end, that you will never face consequences. Babylon represents every power that sets itself against God. And such power will fall.',
   ],

@@ -15,7 +15,7 @@ export const KINGS_2_4: RichChapterContent = {
   bookName: '2 Kings',
   chapter: 4,
 
-  estimatedMinutes: { beginner: 3, intermediate: 13, deep: 18 },
+  estimatedMinutes: { beginner: 3, intermediate: 15, deep: 19 },
   intros: [
     'The book of 2 Kings shows us Elisha stepping into Elijah&apos;s mantle. Where Elijah was a prophet of judgment and fire, Elisha is a prophet of mercy and presence. He lives among the people, eating at their tables, sleeping in their chambers. And through these four miracles, we see God&apos;s character written in action: a God who notices the widow in her need, who restores what is dead, who heals the poisoned pot, who feeds the hungry with abundance.',
     'These miracles are not random acts of power. They are acts of redemption. The widow goes from debtor to provider. The Shunammite&apos;s house goes from childless to full of life. The prophets eat without death. A small gift becomes abundance for all. In each case, an empty vessel becomes full, a dead thing becomes alive, a deadly thing becomes life-giving. And all of it points to Christ—the One who multiplies, who raises, who heals, who is the True Bread that feeds the world.',

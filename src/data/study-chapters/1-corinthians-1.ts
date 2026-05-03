@@ -15,7 +15,7 @@ export const FIRST_CORINTHIANS_1: RichChapterContent = {
   bookName: '1 Corinthians',
   chapter: 1,
 
-  estimatedMinutes: { beginner: 5, intermediate: 10, deep: 15 },
+  estimatedMinutes: { beginner: 5, intermediate: 11, deep: 15 },
   intros: [
     'The church at Corinth was young, gifted, and dangerously divided. Their city sat at the crossroads of empire—a place of wealth, ambition, and competing philosophies. The Corinthians brought that competitive spirit into the body of Christ. They admired the gifted, collected the eloquent, and began to form factions around their favorite teachers. Paul&apos;s opening move is not to shame them (though rebuke comes), but to reorient their entire vision of what the gospel is and whose opinion matters.',
     'Corinth had confused the power of God with the power of words. They valued what the world values: skill, status, the ability to persuade by rhetoric. But Paul insists—and the whole of 1 Corinthians returns again and again to this point—that God&apos;s power works through weakness. A carpenter executed on a Roman cross. The message of the cross, which looked like utter defeat to the pagan eye, is actually the greatest power and deepest wisdom the universe has ever seen.',

@@ -18,7 +18,7 @@ export const JOB_16: RichChapterContent = {
   bookName: 'Job',
   chapter: 16,
 
-  estimatedMinutes: { beginner: 2, intermediate: 5, deep: 6 },
+  estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
   intros: [
     'Job has endured three rounds of counsel from his friends, and each round has been more painful than the last. Bildad offered false certainty. Zophar offered accusations. Eliphaz returned with condemnation. And now Job must speak about what he has experienced in listening to them. "Miserable comforters are ye all," he begins. The word "miserable" carries the sense of causing misery. These comforters have made things worse. They have not healed. They have wounded.',
     'But from his frustration with his friends, Job moves to something deeper. He speaks of being torn apart, crushed by God Himself. "He hath broken me," Job says. "He hath worn me out." But then comes a moment of extraordinary hope: "MY WITNESS IS IN HEAVEN, AND MY RECORD IS ON HIGH." Even though Job feels utterly alone, even though his friends condemn him and God seems silent, Job believes that there is someone in heaven who knows the truth about him, who is keeping a record, who will speak for him at the end.',

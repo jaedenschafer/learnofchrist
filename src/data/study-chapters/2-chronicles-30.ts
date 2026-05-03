@@ -18,7 +18,7 @@ export const CHRONICLES_2_30: RichChapterContent = {
   bookName: '2 Chronicles',
   chapter: 30,
 
-  estimatedMinutes: { beginner: 3, intermediate: 12, deep: 16 },
+  estimatedMinutes: { beginner: 3, intermediate: 12, deep: 17 },
   intros: [
     'The kingdom of Judah, under King Hezekiah, is in the midst of reform. The high places have been broken down, the altars cleansed, and now Hezekiah turns his attention to the ancient feast of Passover — the celebration that had fallen into disuse, "not done...in such sort as it was written" for a long time. But Hezekiah&apos;s vision extends beyond Judah. He sends letters throughout all Israel and Judah, even to the fractured northern kingdom of Ephraim and Manasseh: "Come to the house of the Lord at Jerusalem, to keep the Passover unto the Lord God of Israel."',
     'This is a radical invitation. Israel and Judah have been separated for two centuries. The northern kingdom has been scattered by the Assyrians. Yet Hezekiah calls them to come home — not to politics, but to worship. It is an act of spiritual gathering, a king using his authority not to expand his territory, but to reunite God&apos;s people at the table of remembrance. Many laugh. Many mock. But some — "divers of Asher and Manasseh and of Zebulun" — humble themselves and come. What they encounter is not merely ceremony, but a God whose mercy reaches even the unsanctified, whose grace bends toward the heart that seeks him.',

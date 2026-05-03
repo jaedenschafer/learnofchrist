@@ -17,7 +17,7 @@ export const JOB_15: RichChapterContent = {
   bookName: 'Job',
   chapter: 15,
 
-  estimatedMinutes: { beginner: 2, intermediate: 4, deep: 6 },
+  estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
   intros: [
     'Eliphaz has been silent while Job made his long plea and his accusation against his friends. Now he speaks again, and his tone is fundamentally changed. Where his first speech was concerned and grandfatherly, this second speech is harsh and contemptuous. Job has gone too far. By refusing to accept his friends&apos; counsel, by insisting on his own righteousness, by demanding to speak to God directly, Job has revealed something crucial: he is not truly righteous. He is acting like a man guilty of grave sin.',
     'Eliphaz accuses Job: "Thou castest off fear, and restrainest prayer before God." By refusing to submit, by maintaining his own way, Job is "casting off fear"—showing disrespect for God. And he is restraining prayer—refusing to engage in the kind of supplication that would restore him. Eliphaz then delivers warnings about the fate of the wicked, descriptions of their torment. The implicit message is: this is what is coming to you if you do not change your ways. Eliphaz has abandoned the possibility of sympathy. He now sees Job as an example of the wicked, and he is trying to warn him—or frighten him—into submission.',

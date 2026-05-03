@@ -15,7 +15,7 @@ export const PSALMS_105: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 105,
 
-  estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+  estimatedMinutes: { beginner: 2, intermediate: 4, deep: 6 },
   intros: [
     'Psalm 105 is a recitation of salvation history—God&apos;s covenant with Abraham, the journey to Egypt, Joseph&apos;s rise and fall and rise again, the plagues, the Exodus, the wilderness, the entry into Canaan. But it is not a neutral historical account. It is a proclamation of God&apos;s faithfulness. Each episode in the psalm is framed by the theme: God kept His promise. He remembered His covenant. He was faithful to His word. The psalmist is saying: "Look at the record. See for yourself. God has been faithful for centuries. He will not stop being faithful now."',
     'This psalm was meant to be spoken aloud in worship, reciting the great acts of God. By rehearsing what God has done, the community reinforces its own faith and strengthens its hope. When we remember God&apos;s faithfulness in the past, we are equipped to trust it in the future.',

@@ -11,7 +11,7 @@ export const LEVITICUS_9: RichChapterContent = {
   bookName: 'Leviticus',
   chapter: 9,
 
-  estimatedMinutes: { beginner: 7, intermediate: 10, deep: 14 },
+  estimatedMinutes: { beginner: 7, intermediate: 11, deep: 14 },
   intros: [
     'Leviticus 9 is the eighth day — the first day of a new week. It is the day Aaron, the high priest, stands before the people and offers his first sacrifices. For seven days he has been consecrated. Now he steps into the tabernacle with a sin offering, a burnt offering, and a peace offering. The eighth day in Scripture is always the day of beginning again, the day of resurrection, the day of new creation.',
     'What unfolds here is the climax of Leviticus. Not rules about sacrifices, but the moment when sacrifice itself works. When Aaron finishes his offerings, something happens that the text has been waiting for since Exodus 40. The glory of the LORD appears. The fire falls. The people see it and fall on their faces in worship. For every reader on this side of Pentecost, this chapter echoes with the fire that fell at Jerusalem, and with the Lamb who entered the heavenly tabernacle once for all.',

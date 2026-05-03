@@ -15,7 +15,7 @@ export const ISAIAH_53: RichChapterContent = {
   bookName: 'Isaiah',
   chapter: 53,
 
-  estimatedMinutes: { beginner: 4, intermediate: 7, deep: 10 },
+  estimatedMinutes: { beginner: 4, intermediate: 7, deep: 11 },
   intros: [
     'Isaiah 53 is the gospel in the Old Testament. Here, centuries before Christ came, the prophet describes a man who has no form, no comeliness. He is despised and rejected. He is acquainted with grief. Yet His suffering is not meaningless. It is redemptive. He bears our griefs, carries our sorrows, is wounded for our transgressions. All we like sheep have gone astray, but the Lord has laid on Him the iniquity of us all. He opens not His mouth, submits like a lamb to the slaughter. Yet by His knowledge, by His death, He justifies many and bears their iniquities. The chapter is the theological heart of the Suffering Servant theme: redemption through sacrifice, justification through substitution, healing through wounds.',
     'Every Christian tradition recognizes Christ in these verses. The prophet sees across centuries to the cross. The Servant\'s vindication follows His suffering—His days are prolonged, He sees His seed, His will prospers. Death could not hold Him. Resurrection vindicated what the cross appeared to destroy.',

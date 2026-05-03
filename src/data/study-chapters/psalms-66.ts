@@ -17,7 +17,7 @@ export const PSALMS_66: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 66,
 
-  estimatedMinutes: { beginner: 3, intermediate: 5, deep: 8 },
+  estimatedMinutes: { beginner: 3, intermediate: 6, deep: 8 },
   intros: [
     'Psalm 66 is a corporate psalm—a call to the nations to join in praise of God. "Make a joyful noise unto God, all ye lands." The summons is universal. The God being praised is not the tribal God of Israel alone, but the God of all peoples. And what are the grounds for this universal praise? God\'s works are terrible. He has cast down the enemies of His people. He has brought them through fire and water. The whole earth has seen and known what God has done.',
     'But then the psalm becomes personal. The speaker moves from "us" to "I," from the corporate testimony to individual experience. "Come and see the works of God"—not merely as historical fact, but as an invitation to behold, to witness, to understand. The works of God are not relics of the past. They are living demonstrations of His power and mercy, visible to all who have eyes to see.',
