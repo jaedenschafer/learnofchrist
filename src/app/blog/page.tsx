@@ -1,16 +1,17 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { getAllBlogPosts, categoryColors } from '@/data/blog-posts';
+import { getAllBlogPosts } from '@/data/blog-posts';
+import '@/styles/page-shell.css';
 
 // ─── ISR ───
-// Cache pages for 24h; regenerate in background after that.
 export const revalidate = 86400;
 
 export const metadata = {
-  title: 'Blog — Bible Study Articles & Devotionals | Learn of Christ',
-  description: 'Read articles about understanding Jesus Christ, studying the Bible effectively, and applying Scripture to daily life.',
+  title: 'Blog · Learn of Christ',
+  description:
+    'Articles, devotionals, and theological insights about understanding Jesus Christ and studying Scripture.',
   openGraph: {
-    title: 'Blog — Learn of Christ',
+    title: 'Blog · Learn of Christ',
     description: 'Bible study articles, devotionals, and theological insights.',
     url: 'https://learnofchrist.com/blog',
   },
@@ -25,102 +26,118 @@ export default function BlogPage() {
   const rest = posts.slice(1);
 
   return (
-    <div className="page-container">
-      <div className="max-w-4xl mx-auto">
-        {/* Header */}
-        <div className="page-header">
-          <span className="inline-block pill pill-gold text-[0.6875rem] font-semibold tracking-wide uppercase mb-3">
-            From the Study
-          </span>
-          <h1>Blog</h1>
-          <div className="section-divider mt-3"></div>
-          <p>Insights, devotionals, and articles about understanding Jesus Christ.</p>
+    <main className="lop">
+      {/* ═══════════ Hero ═══════════ */}
+      <section className="lop-hero">
+        <div className="lop-hero__sun" aria-hidden="true">
+          <span className="lop-hero__sun-ring lop-hero__sun-ring--4" />
+          <span className="lop-hero__sun-ring lop-hero__sun-ring--3" />
+          <span className="lop-hero__sun-ring lop-hero__sun-ring--2" />
+          <span className="lop-hero__sun-ring lop-hero__sun-ring--1" />
+          <span className="lop-hero__sun-core" />
         </div>
-
-        {/* Featured Post */}
-        {featured && (
-          <Link
-            href={`/blog/${featured.id}`}
-            className="block bg-[color:var(--color-surface)] rounded-2xl overflow-hidden mb-8 group transition-shadow duration-300 hover:shadow-[0_2px_8px_rgba(0,0,0,0.06),0_8px_24px_rgba(0,0,0,0.04)]"
-          >
-            <div className="relative aspect-[16/9] w-full overflow-hidden">
-              <Image
-                src={featured.image}
-                alt={featured.imageAlt}
-                fill
-                unoptimized
-                className="object-cover transition-transform duration-500 group-hover:scale-105"
-                sizes="(max-width: 896px) 100vw, 896px"
-              />
+        <div className="lop-wrap lop-hero__inner">
+          <div className="lop-hero__pane">
+            <p className="lop-eyebrow">From the Study</p>
+            <h1 className="lop-hero__title">
+              Reading and writing<br />about the Word.
+            </h1>
+            <p className="lop-hero__sub">
+              Devotionals, deep dives, and short reflections on what we
+              find when we read Scripture closely.
+            </p>
+            <div className="lop-hero__chips">
+              <span>{posts.length} posts</span>
+              <span className="lop-hero__chip-sep" aria-hidden="true">·</span>
+              <span>Updated weekly</span>
             </div>
-            <div className="p-5 sm:p-7">
-              <div className="flex items-center gap-2 mb-3">
-                <span
-                  className={`pill !py-0.5 !px-2.5 !text-[0.65rem] font-medium ${
-                    categoryColors[featured.category] || 'bg-gray-50 text-gray-600'
-                  }`}
-                >
-                  {featured.category}
-                </span>
-                <span className="text-xs text-[color:var(--color-secondary-label)]">{featured.readTime}</span>
+          </div>
+        </div>
+      </section>
+
+      {/* ═══════════ Featured + grid ═══════════ */}
+      <section className="lop-section">
+        <div className="lop-wrap">
+          {featured && (
+            <Link href={`/blog/${featured.id}`} className="lop-feature">
+              <div className="lop-feature__media">
+                <Image
+                  src={featured.image}
+                  alt={featured.imageAlt}
+                  fill
+                  unoptimized
+                  className="object-cover"
+                  sizes="(max-width: 1216px) 100vw, 1216px"
+                  priority
+                />
               </div>
-              <h2 className="font-serif text-xl sm:text-2xl font-bold text-[color:var(--color-label)] mb-2 group-hover:text-[color:var(--color-primary)] transition-colors leading-tight">
-                {featured.title}
-              </h2>
-              <p className="text-sm text-[color:var(--color-secondary-label)] leading-relaxed mb-4 line-clamp-3">
-                {featured.excerpt}
-              </p>
-              <span className="inline-flex items-center gap-1.5 text-sm font-medium text-[color:var(--color-primary)]">
-                Read More
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                </svg>
-              </span>
-            </div>
-          </Link>
-        )}
+              <div className="lop-feature__body">
+                <span className="lop-card__meta">
+                  <span className="lop-card__meta-key">{featured.category}</span>
+                  <span className="lop-card__meta-sep" aria-hidden="true">·</span>
+                  <span className="lop-card__meta-extra">{featured.readTime}</span>
+                </span>
+                <h2 className="lop-feature__title">{featured.title}</h2>
+                <p className="lop-card__copy">{featured.excerpt}</p>
+                <span className="lop-card__cta">Read it</span>
+              </div>
+            </Link>
+          )}
 
-        {/* Post Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-5">
-          {rest.map((post) => (
-            <article key={post.id}>
-              <Link
-                href={`/blog/${post.id}`}
-                className="block bg-[color:var(--color-surface)] rounded-2xl overflow-hidden h-full group transition-shadow duration-300 hover:shadow-[0_2px_8px_rgba(0,0,0,0.06),0_8px_24px_rgba(0,0,0,0.04)]"
-              >
-                <div className="relative aspect-[16/9] w-full overflow-hidden">
+          <div className="lop-section__head">
+            <p className="lop-eyebrow">More from the blog</p>
+            <h2 className="lop-section__title">Recent posts.</h2>
+          </div>
+
+          <div className="lop-grid lop-grid--2 lop-grid--3">
+            {rest.map((post) => (
+              <Link key={post.id} href={`/blog/${post.id}`} className="lop-card">
+                <div
+                  className="lop-feature__media"
+                  style={{ borderRadius: '18px', marginBottom: '1rem', aspectRatio: '16 / 10' }}
+                >
                   <Image
                     src={post.image}
                     alt={post.imageAlt}
                     fill
                     unoptimized
-                    className="object-cover transition-transform duration-500 group-hover:scale-105"
-                    sizes="(max-width: 640px) 100vw, 448px"
+                    className="object-cover"
+                    sizes="(max-width: 720px) 100vw, (max-width: 1040px) 50vw, 380px"
                   />
                 </div>
-                <div className="p-5">
-                  <div className="flex items-center gap-2 mb-2">
-                    <span
-                      className={`pill !py-0.5 !px-2 !text-[0.6rem] font-medium ${
-                        categoryColors[post.category] || 'bg-gray-50 text-gray-600'
-                      }`}
-                    >
-                      {post.category}
-                    </span>
-                    <span className="text-[0.65rem] text-[color:var(--color-tertiary-label)]">{post.readTime}</span>
-                  </div>
-                  <h2 className="font-sans text-base font-semibold text-[color:var(--color-label)] mb-1.5 group-hover:text-[color:var(--color-primary)] transition-colors leading-snug line-clamp-2">
-                    {post.title}
-                  </h2>
-                  <p className="text-xs text-[color:var(--color-secondary-label)] leading-relaxed line-clamp-2">
-                    {post.excerpt}
-                  </p>
-                </div>
+                <span className="lop-card__meta">
+                  <span className="lop-card__meta-key">{post.category}</span>
+                  <span className="lop-card__meta-sep" aria-hidden="true">·</span>
+                  <span className="lop-card__meta-extra">{post.readTime}</span>
+                </span>
+                <h3 className="lop-card__title">{post.title}</h3>
+                <p className="lop-card__copy">{post.excerpt}</p>
+                <span className="lop-card__cta">Read</span>
               </Link>
-            </article>
-          ))}
+            ))}
+          </div>
         </div>
-      </div>
-    </div>
+      </section>
+
+      {/* ═══════════ Closer ═══════════ */}
+      <section className="lop-closer">
+        <div className="lop-wrap lop-closer__inner">
+          <div className="lop-closer__pane">
+            <p className="lop-eyebrow lop-closer__eyebrow">Keep reading</p>
+            <h2 className="lop-closer__title">
+              The blog is short. The Bible is long.
+            </h2>
+            <p className="lop-closer__sub">
+              Open Scripture itself when you&rsquo;re ready &mdash; or
+              follow a guided reading plan to make the journey easier.
+            </p>
+            <div className="lop-closer__ctas">
+              <Link href="/bible" className="btn-primary">Open the Bible</Link>
+              <Link href="/study-plans" className="btn-outline">Pick a study plan</Link>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   );
 }

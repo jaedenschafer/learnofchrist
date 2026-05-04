@@ -1,67 +1,103 @@
 import Link from 'next/link';
 import { getAllStudyPlans } from '@/data/study-plans';
+import '@/styles/page-shell.css';
 
 // ─── ISR ───
-// Cache pages for 24h; regenerate in background after that.
 export const revalidate = 86400;
 
 export const metadata = {
-  title: 'Study Plans - Learn of Christ',
-  description: 'Choose from structured Bible study plans designed for consistent, meaningful engagement with scripture. Plans for beginners through advanced students.',
+  title: 'Study Plans · Learn of Christ',
+  description:
+    'Pick a guided journey through Scripture. Day by day, one short reading, one focus, one passage — no streak shaming, no signup wall.',
   openGraph: {
-    title: 'Study Plans - Learn of Christ',
-    description: 'Choose from structured Bible study plans designed for consistent, meaningful engagement with scripture.',
+    title: 'Study Plans · Learn of Christ',
+    description:
+      'Guided Bible reading plans — Gospel of John, Genesis, Psalms, and more.',
   },
 };
-
-// Difficulty pills (Beginner / Intermediate / Advanced) were removed —
-// they implied a judgment about the reader. Duration is enough.
 
 export default function StudyPlansPage() {
   const plans = getAllStudyPlans();
 
   return (
-    <div className="page-container">
-      <div className="max-w-3xl mx-auto">
-        <div className="page-header">
-          <h1>Study Plans</h1>
-          <div className="section-divider mt-3"></div>
-          <p>Choose a plan that fits your schedule and spiritual goals.</p>
+    <main className="lop">
+      {/* ═══════════ Hero ═══════════ */}
+      <section className="lop-hero">
+        <div className="lop-hero__sun" aria-hidden="true">
+          <span className="lop-hero__sun-ring lop-hero__sun-ring--4" />
+          <span className="lop-hero__sun-ring lop-hero__sun-ring--3" />
+          <span className="lop-hero__sun-ring lop-hero__sun-ring--2" />
+          <span className="lop-hero__sun-ring lop-hero__sun-ring--1" />
+          <span className="lop-hero__sun-core" />
         </div>
-
-        <div className="space-y-3">
-          {plans.map((plan) => (
-            <div key={plan.id} className="card">
-              <div className="flex items-start gap-4">
-                <div className={`feature-icon ${plan.color} text-2xl flex items-center justify-center`}>
-                  {plan.icon}
-                </div>
-                <div className="flex-1 min-w-0">
-                  <h3 className="font-sans text-base font-semibold text-navy mb-1">{plan.name}</h3>
-                  <div className="flex flex-wrap items-center gap-2 mb-2">
-                    <span className="text-[0.65rem] font-semibold text-gold uppercase tracking-wide">{plan.duration}</span>
-                    <span className="text-navy/20">|</span>
-                    <span className="text-[0.65rem] font-semibold text-navy/40 uppercase tracking-wide">{plan.category}</span>
-                  </div>
-                  <p className="text-sm text-navy/50 leading-relaxed mb-1">{plan.description}</p>
-                  <p className="text-xs text-navy/35 mb-4">{plan.days.length} daily readings</p>
-                  <Link href={`/study-plans/${plan.id}`} className="btn-primary text-sm !py-2 !px-5">
-                    Start Plan
-                  </Link>
-                </div>
-              </div>
+        <div className="lop-wrap lop-hero__inner">
+          <div className="lop-hero__pane">
+            <p className="lop-eyebrow">Study Plans</p>
+            <h1 className="lop-hero__title">
+              Walk through it,<br />day by day.
+            </h1>
+            <p className="lop-hero__sub">
+              Pick a guided journey. One short reading, one focus, one
+              passage of scripture each day &mdash; with no streak shaming
+              and no signup wall.
+            </p>
+            <div className="lop-hero__chips">
+              <span>{plans.length} plans</span>
+              <span className="lop-hero__chip-sep" aria-hidden="true">·</span>
+              <span>All free</span>
             </div>
-          ))}
+          </div>
         </div>
+      </section>
 
-        <div className="cta-banner mt-10">
-          <h2 className="font-serif text-2xl font-bold mb-3">Not sure which plan?</h2>
-          <p className="text-sm opacity-55 max-w-sm mx-auto mb-6">
-            Start with the &ldquo;Who Is Jesus?&rdquo; plan for a focused 7-day introduction, or dive into the Gospel of John for a deeper 21-day journey.
-          </p>
-          <Link href="/bible" className="btn-primary">Explore the Bible</Link>
+      {/* ═══════════ Plan grid ═══════════ */}
+      <section className="lop-section">
+        <div className="lop-wrap">
+          <div className="lop-section__head">
+            <p className="lop-eyebrow">Choose a path</p>
+            <h2 className="lop-section__title">Guided journeys.</h2>
+          </div>
+
+          <div className="lop-grid lop-grid--2">
+            {plans.map((plan) => (
+              <Link
+                key={plan.id}
+                href={`/study-plans/${plan.id}`}
+                className="lop-card"
+              >
+                <span className="lop-card__icon" aria-hidden="true">
+                  {plan.icon}
+                </span>
+                <span className="lop-card__meta">
+                  <span className="lop-card__meta-key">{plan.duration}</span>
+                  <span className="lop-card__meta-sep" aria-hidden="true">·</span>
+                  <span className="lop-card__meta-extra">{plan.category}</span>
+                </span>
+                <h3 className="lop-card__title">{plan.name}</h3>
+                <p className="lop-card__copy">{plan.description}</p>
+                <span className="lop-card__cta">Start day 1</span>
+              </Link>
+            ))}
+          </div>
         </div>
-      </div>
-    </div>
+      </section>
+
+      {/* ═══════════ Closer ═══════════ */}
+      <section className="lop-closer">
+        <div className="lop-wrap lop-closer__inner">
+          <div className="lop-closer__pane">
+            <p className="lop-eyebrow lop-closer__eyebrow">Begin</p>
+            <h2 className="lop-closer__title">Not sure where to start?</h2>
+            <p className="lop-closer__sub">
+              Try Who Is Jesus? for a focused 7-day intro, or the Gospel of
+              John deep-dive for a 21-day journey through every chapter.
+            </p>
+            <Link href="/bible" className="btn-primary lop-closer__cta">
+              Open the Bible
+            </Link>
+          </div>
+        </div>
+      </section>
+    </main>
   );
 }

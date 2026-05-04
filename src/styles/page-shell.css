@@ -1,0 +1,443 @@
+/* Shared "page shell" recipes for Plans / Topics / Questions / Blog /
+   Translations / About — all the navbar dropdown index pages. Mirrors
+   the home page's closer-pane recipe so every section reads as the same
+   liquid-glass material.
+
+   Class prefix: lop- (Learn of Christ page). */
+
+.lop {
+  min-height: 100vh;
+  position: relative;
+  isolation: isolate;
+}
+
+.lop-wrap {
+  max-width: 76rem;
+  margin: 0 auto;
+  padding: 0 clamp(1rem, 4vw, 2rem);
+}
+
+.lop-eyebrow {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--vesper-gold);
+  margin: 0 0 0.5rem;
+}
+
+/* ─── 1. Hero ───────────────────────────────────────────────────────── */
+
+.lop-hero {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  padding: clamp(4rem, 10vw, 7rem) 0 clamp(3rem, 8vw, 5rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Concentric sun rings — same idea as the home page closer. */
+.lop-hero__sun {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: -1;
+  pointer-events: none;
+}
+.lop-hero__sun-ring,
+.lop-hero__sun-core {
+  position: absolute;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    color-mix(in srgb, var(--vesper-peach) 32%, transparent) 0%,
+    transparent 70%
+  );
+  animation: lop-sun-grow 1.6s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+  opacity: 0;
+}
+.lop-hero__sun-ring--4 { width: 100vmin; height: 100vmin; animation-delay: 0s;   opacity: 0.55; }
+.lop-hero__sun-ring--3 { width: 70vmin;  height: 70vmin;  animation-delay: 0.1s; opacity: 0.6; }
+.lop-hero__sun-ring--2 { width: 46vmin;  height: 46vmin;  animation-delay: 0.2s; opacity: 0.7;
+  background: radial-gradient(circle, color-mix(in srgb, var(--vesper-gold) 38%, transparent) 0%, transparent 70%); }
+.lop-hero__sun-ring--1 { width: 28vmin;  height: 28vmin;  animation-delay: 0.3s; opacity: 0.85;
+  background: radial-gradient(circle, color-mix(in srgb, var(--vesper-gold) 50%, transparent) 0%, transparent 70%); }
+.lop-hero__sun-core    { width: 14vmin;  height: 14vmin;  animation-delay: 0.4s; opacity: 1;
+  background: radial-gradient(circle, color-mix(in srgb, var(--vesper-peach) 70%, transparent) 0%, transparent 70%); }
+
+@keyframes lop-sun-grow {
+  0%   { transform: scale(0.4); opacity: 0; }
+  60%  { opacity: var(--end-opacity, 0.7); }
+  100% { transform: scale(1); opacity: var(--end-opacity, 0.7); }
+}
+
+.lop-hero__inner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.lop-hero__pane {
+  text-align: center;
+  max-width: 44rem;
+  padding: clamp(2rem, 5vw, 3.5rem) clamp(1.5rem, 4vw, 3rem);
+  border-radius: 36px;
+  background: var(--frost-tint-card);
+  -webkit-backdrop-filter: var(--frost-blur-card);
+  backdrop-filter: var(--frost-blur-card);
+  border: 1px solid var(--frost-border-card);
+  color: var(--frost-text);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.55),
+    0 24px 60px -22px rgba(26, 22, 18, 0.28);
+  isolation: isolate;
+}
+
+.lop-hero__title {
+  font-family: 'EB Garamond', 'New York', Georgia, serif;
+  font-weight: 500;
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  line-height: 1.02;
+  letter-spacing: -0.025em;
+  color: var(--vesper-compline);
+  margin: 0.5rem 0 1.25rem;
+  text-wrap: balance;
+}
+
+.lop-hero__sub {
+  font-size: clamp(1rem, 1.4vw, 1.1875rem);
+  line-height: 1.6;
+  color: rgba(26, 22, 18, 0.70);
+  margin: 0 auto 0;
+  max-width: 36rem;
+}
+
+.lop-hero__chips {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  margin-top: 1.5rem;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: rgba(26, 22, 18, 0.55);
+}
+.lop-hero__chip-sep { color: rgba(26, 22, 18, 0.30); }
+
+/* ─── 2. Section header (above grids) ──────────────────────────────── */
+
+.lop-section {
+  padding: clamp(2rem, 5vw, 3.5rem) 0 clamp(2.5rem, 6vw, 4.5rem);
+}
+
+.lop-section__head {
+  text-align: center;
+  margin-bottom: clamp(1.75rem, 3.5vw, 2.5rem);
+}
+.lop-section__head .lop-eyebrow {
+  margin-bottom: 0.5rem;
+}
+
+.lop-section__title {
+  font-family: 'EB Garamond', 'New York', Georgia, serif;
+  font-weight: 500;
+  font-size: clamp(1.75rem, 4vw, 2.75rem);
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  color: var(--vesper-compline);
+  margin: 0;
+  text-wrap: balance;
+}
+
+/* ─── 3. Grids ─────────────────────────────────────────────────────── */
+
+.lop-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: clamp(0.85rem, 1.6vw, 1.25rem);
+}
+@media (min-width: 720px) {
+  .lop-grid--2 { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 1040px) {
+  .lop-grid--3 { grid-template-columns: repeat(3, 1fr); }
+  .lop-grid--3.lop-grid--2 { grid-template-columns: repeat(3, 1fr); }
+}
+
+/* ─── 4. Card recipes ──────────────────────────────────────────────── */
+
+.lop-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: clamp(1.5rem, 2.4vw, 2rem);
+  border-radius: 28px;
+  background: var(--frost-tint-card);
+  -webkit-backdrop-filter: var(--frost-blur-card);
+  backdrop-filter: var(--frost-blur-card);
+  border: 1px solid var(--frost-border-card);
+  color: var(--frost-text);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.45),
+    0 18px 40px -20px rgba(26, 22, 18, 0.22);
+  isolation: isolate;
+  text-decoration: none;
+  transition: transform 0.25s cubic-bezier(0.2, 0.7, 0.2, 1),
+              box-shadow 0.25s ease;
+}
+.lop-card:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.55),
+    0 28px 56px -22px rgba(26, 22, 18, 0.30);
+}
+
+.lop-card__icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.55);
+  border: 1px solid rgba(26, 22, 18, 0.06);
+  color: var(--vesper-gold);
+  font-size: 1.4rem;
+  margin-bottom: 0.85rem;
+}
+
+.lop-card__meta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 0.4rem;
+}
+.lop-card__meta-key   { color: var(--vesper-gold); }
+.lop-card__meta-sep   { color: rgba(26, 22, 18, 0.25); }
+.lop-card__meta-extra { color: rgba(26, 22, 18, 0.55); }
+
+.lop-card__title {
+  font-family: 'EB Garamond', 'New York', Georgia, serif;
+  font-weight: 500;
+  font-size: clamp(1.25rem, 1.9vw, 1.5rem);
+  line-height: 1.18;
+  letter-spacing: -0.015em;
+  color: var(--vesper-compline);
+  margin: 0 0 0.4rem;
+}
+
+.lop-card__copy {
+  font-size: 0.9375rem;
+  line-height: 1.55;
+  color: rgba(26, 22, 18, 0.68);
+  margin: 0 0 1rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.lop-card__cta {
+  margin-top: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: var(--vesper-compline);
+}
+.lop-card__cta::after {
+  content: '→';
+  transition: transform 0.2s ease;
+}
+.lop-card:hover .lop-card__cta::after {
+  transform: translateX(3px);
+}
+
+/* Featured banner card — image/visual on top, copy below. Used by Blog. */
+.lop-feature {
+  position: relative;
+  display: block;
+  text-decoration: none;
+  border-radius: 32px;
+  overflow: hidden;
+  background: var(--frost-tint-card);
+  -webkit-backdrop-filter: var(--frost-blur-card);
+  backdrop-filter: var(--frost-blur-card);
+  border: 1px solid var(--frost-border-card);
+  color: var(--frost-text);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.55),
+    0 24px 60px -22px rgba(26, 22, 18, 0.28);
+  margin-bottom: clamp(1.25rem, 2.5vw, 2rem);
+  transition: transform 0.25s cubic-bezier(0.2, 0.7, 0.2, 1),
+              box-shadow 0.25s ease;
+}
+.lop-feature:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.65),
+    0 32px 70px -24px rgba(26, 22, 18, 0.34);
+}
+.lop-feature__media {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  width: 100%;
+  overflow: hidden;
+}
+.lop-feature__media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+.lop-feature:hover .lop-feature__media img { transform: scale(1.04); }
+.lop-feature__body {
+  padding: clamp(1.5rem, 2.8vw, 2.25rem);
+}
+.lop-feature__title {
+  font-family: 'EB Garamond', 'New York', Georgia, serif;
+  font-weight: 500;
+  font-size: clamp(1.5rem, 2.4vw, 2rem);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: var(--vesper-compline);
+  margin: 0.4rem 0 0.6rem;
+  text-wrap: balance;
+}
+
+/* ─── 5. List card recipe (Plans / About list rows) ────────────────── */
+
+.lop-list-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.1rem;
+  padding: clamp(1.25rem, 2vw, 1.65rem);
+  border-radius: 24px;
+  background: var(--frost-tint-card);
+  -webkit-backdrop-filter: var(--frost-blur-card);
+  backdrop-filter: var(--frost-blur-card);
+  border: 1px solid var(--frost-border-card);
+  color: var(--frost-text);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.45),
+    0 14px 32px -18px rgba(26, 22, 18, 0.20);
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.lop-list-card:hover {
+  transform: translateY(-1px);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.55),
+    0 20px 40px -20px rgba(26, 22, 18, 0.28);
+}
+.lop-list-card__body {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+/* ─── 6. Closer ────────────────────────────────────────────────────── */
+
+.lop-closer {
+  padding: clamp(2.5rem, 6vw, 4.5rem) 0 clamp(4rem, 8vw, 6rem);
+}
+
+.lop-closer__inner {
+  display: flex;
+  justify-content: center;
+}
+
+.lop-closer__pane {
+  text-align: center;
+  max-width: 38rem;
+  padding: clamp(2rem, 4vw, 3rem);
+  border-radius: 36px;
+  background: var(--frost-tint-card);
+  -webkit-backdrop-filter: var(--frost-blur-card);
+  backdrop-filter: var(--frost-blur-card);
+  border: 1px solid var(--frost-border-card);
+  color: var(--frost-text);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.55),
+    0 24px 60px -22px rgba(26, 22, 18, 0.28);
+  isolation: isolate;
+}
+
+.lop-closer__eyebrow {
+  color: var(--vesper-peach);
+  margin-bottom: 0.85rem;
+}
+
+.lop-closer__title {
+  font-family: 'EB Garamond', 'New York', Georgia, serif;
+  font-weight: 500;
+  font-size: clamp(2rem, 4vw, 2.75rem);
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  color: var(--vesper-compline);
+  margin: 0 0 1rem;
+  text-wrap: balance;
+}
+
+.lop-closer__sub {
+  font-size: clamp(1rem, 1.3vw, 1.125rem);
+  line-height: 1.6;
+  color: rgba(26, 22, 18, 0.70);
+  margin: 0 auto 1.75rem;
+  max-width: 28rem;
+}
+
+.lop-closer__cta { min-width: 220px; }
+
+.lop-closer__ctas {
+  display: flex;
+  gap: 0.6rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* ─── 7. Dark theme ────────────────────────────────────────────────── */
+
+html[data-reader-theme="dark"] .lop-hero__pane,
+html[data-reader-theme="dark"] .lop-card,
+html[data-reader-theme="dark"] .lop-feature,
+html[data-reader-theme="dark"] .lop-list-card,
+html[data-reader-theme="dark"] .lop-closer__pane {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.10);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.12),
+    0 24px 60px -22px rgba(0, 0, 0, 0.55);
+}
+html[data-reader-theme="dark"] .lop-hero__title,
+html[data-reader-theme="dark"] .lop-section__title,
+html[data-reader-theme="dark"] .lop-card__title,
+html[data-reader-theme="dark"] .lop-feature__title,
+html[data-reader-theme="dark"] .lop-closer__title {
+  color: var(--vesper-parchment);
+}
+html[data-reader-theme="dark"] .lop-hero__sub,
+html[data-reader-theme="dark"] .lop-card__copy,
+html[data-reader-theme="dark"] .lop-closer__sub {
+  color: rgba(245, 240, 230, 0.78);
+}
+html[data-reader-theme="dark"] .lop-hero__chips,
+html[data-reader-theme="dark"] .lop-card__cta {
+  color: rgba(245, 240, 230, 0.65);
+}
+html[data-reader-theme="dark"] .lop-card__icon {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.10);
+}

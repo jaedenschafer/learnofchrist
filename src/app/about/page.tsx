@@ -1,110 +1,137 @@
 import Link from 'next/link';
+import '@/styles/page-shell.css';
 
 // ─── ISR ───
-// Cache pages for 24h; regenerate in background after that.
 export const revalidate = 86400;
 
 export const metadata = {
-  title: 'About - Learn of Christ',
-  description: 'Learn about our mission to help people deepen their understanding of Jesus Christ through scripture study.',
+  title: 'About · Learn of Christ',
+  description:
+    'Learn of Christ is a free, beautiful place to study the Bible — chapter by chapter, in plain language, anchored to scripture.',
 };
+
+const VALUES = [
+  {
+    title: 'Free for everyone',
+    desc:
+      'Every chapter, study guide, and image is free to read. No paywall, no email gate, no sign-up wall standing between you and Scripture.',
+  },
+  {
+    title: 'Anchored to scripture',
+    desc:
+      'Every page traces back to the Bible itself. We quote it, link to it, and try not to write a sentence the text would not back up.',
+  },
+  {
+    title: 'Beautiful by default',
+    desc:
+      'Reading God&rsquo;s Word should feel like sitting in a cathedral, not staring at a tax form. Typography, light, and quiet space matter.',
+  },
+  {
+    title: 'Christ at the center',
+    desc:
+      'Genesis to Revelation, one story is being told. Every study guide tries to show how its chapter fits into the larger arc that points to Jesus.',
+  },
+];
+
+const OFFERS = [
+  { title: 'Chapter-by-chapter study guides', desc: 'Detailed exploration of every chapter with key themes, original-language notes, and Christ connections.' },
+  { title: 'Multiple translations', desc: 'KJV, ASV, BSB, WEB, JST, NWT, LSV, DRA — switch translations on any page.' },
+  { title: 'Sacred art library', desc: '7,000+ public-domain Christian artworks indexed to the chapters they depict.' },
+  { title: 'Guided study plans', desc: 'Short, focused journeys — Gospel of John, Genesis, the Psalms.' },
+  { title: 'Topical resources', desc: 'Themes that run across the whole Bible, with verses and cross-references.' },
+];
 
 export default function AboutPage() {
   return (
-    <div className="page-container">
-      <div className="max-w-3xl mx-auto">
-        <div className="page-header">
-          <h1>About Learn of Christ</h1>
-          <div className="section-divider mt-3"></div>
-          <p>Our mission is to help you develop a deeper, more meaningful relationship with Jesus Christ through Scripture.</p>
+    <main className="lop">
+      {/* ═══════════ Hero ═══════════ */}
+      <section className="lop-hero">
+        <div className="lop-hero__sun" aria-hidden="true">
+          <span className="lop-hero__sun-ring lop-hero__sun-ring--4" />
+          <span className="lop-hero__sun-ring lop-hero__sun-ring--3" />
+          <span className="lop-hero__sun-ring lop-hero__sun-ring--2" />
+          <span className="lop-hero__sun-ring lop-hero__sun-ring--1" />
+          <span className="lop-hero__sun-core" />
         </div>
-
-        <div className="space-y-3">
-          {/* Mission */}
-          <div className="card">
-            <h2 className="font-sans text-base font-semibold text-navy mb-3">Our Mission</h2>
-            <p className="text-sm text-navy/55 leading-relaxed mb-3">
-              At Learn of Christ, we believe that understanding Jesus Christ is the foundation of a vibrant spiritual life. Our mission is to provide accessible, biblically-grounded resources for individuals and families.
-            </p>
-            <p className="text-sm text-navy/55 leading-relaxed">
-              We present Scripture with clarity, reverence, and depth &mdash; helping people see how every passage points to Jesus Christ and reveals God&apos;s redemptive plan.
+        <div className="lop-wrap lop-hero__inner">
+          <div className="lop-hero__pane">
+            <p className="lop-eyebrow">About</p>
+            <h1 className="lop-hero__title">
+              A free, beautiful<br />place to study.
+            </h1>
+            <p className="lop-hero__sub">
+              Learn of Christ is a study Bible for the open web &mdash;
+              every chapter, every translation, every painting, all free
+              and always will be.
             </p>
           </div>
+        </div>
+      </section>
 
-          {/* Core Values */}
-          <div className="px-1 mt-6 mb-2">
-            <p className="section-header">Core Values</p>
+      {/* ═══════════ What we believe (values) ═══════════ */}
+      <section className="lop-section">
+        <div className="lop-wrap">
+          <div className="lop-section__head">
+            <p className="lop-eyebrow">What we believe</p>
+            <h2 className="lop-section__title">Four things we will not move on.</h2>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            {[
-              { title: 'Biblical Fidelity', desc: 'Presenting Scripture accurately and faithfully, allowing God\'s Word to speak for itself.', color: 'frost-chip text-[color:var(--vesper-gold)]' },
-              { title: 'Accessibility', desc: 'Resources that are easy to understand for people of all backgrounds and ages.', color: 'frost-chip text-[color:var(--vesper-gold)]' },
-              { title: 'Christ-Centered', desc: 'Every resource points to Jesus as the center of Scripture and the hope of the Gospel.', color: 'frost-chip text-[color:var(--vesper-peach)]' },
-              { title: 'Transformative', desc: 'Helping people apply Biblical truths that lead to genuine spiritual transformation.', color: 'frost-chip text-[color:var(--vesper-gold)]' },
-            ].map((value) => (
-              <div key={value.title} className="card">
-                <div className={`feature-icon ${value.color} mb-3`}>
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
+          <div className="lop-grid lop-grid--2">
+            {VALUES.map((v) => (
+              <article key={v.title} className="lop-card">
+                <h3 className="lop-card__title">{v.title}</h3>
+                <p
+                  className="lop-card__copy"
+                  dangerouslySetInnerHTML={{ __html: v.desc }}
+                />
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ═══════════ What's here ═══════════ */}
+      <section className="lop-section">
+        <div className="lop-wrap">
+          <div className="lop-section__head">
+            <p className="lop-eyebrow">What&rsquo;s here</p>
+            <h2 className="lop-section__title">Everything is free.</h2>
+          </div>
+          <div className="lop-grid">
+            {OFFERS.map((o) => (
+              <div key={o.title} className="lop-list-card">
+                <div className="lop-list-card__body">
+                  <h3 className="lop-card__title" style={{ fontSize: '1.25rem' }}>
+                    {o.title}
+                  </h3>
+                  <p
+                    className="lop-card__copy"
+                    style={{ marginBottom: 0, WebkitLineClamp: 'unset' }}
+                  >
+                    {o.desc}
+                  </p>
                 </div>
-                <h3 className="font-sans text-sm font-semibold text-navy mb-1">{value.title}</h3>
-                <p className="text-xs text-navy/50 leading-relaxed">{value.desc}</p>
               </div>
             ))}
           </div>
+        </div>
+      </section>
 
-          {/* What We Offer */}
-          <div className="px-1 mt-6 mb-2">
-            <p className="section-header">What We Offer</p>
-          </div>
-          <div className="card-grouped">
-            {[
-              { title: 'Chapter-by-Chapter Study Guides', desc: 'Detailed explorations of every chapter with key themes and study questions.', icon: 'frost-chip text-[color:var(--vesper-gold)]' },
-              { title: 'Structured Study Plans', desc: 'Reading plans to help you engage with Scripture consistently.', icon: 'frost-chip text-[color:var(--vesper-peach)]' },
-              { title: 'Topical Resources', desc: 'Explore biblical themes with key verses and cross-references.', icon: 'frost-chip text-[color:var(--vesper-gold)]' },
-              { title: 'Questions and Answers', desc: 'Biblical answers to common questions about Jesus and faith.', icon: 'frost-chip text-[color:var(--vesper-peach)]' },
-              { title: 'Family Resources', desc: 'Tools for families to study Scripture together.', icon: 'frost-chip text-[color:var(--vesper-gold)]' },
-            ].map((item) => (
-              <div key={item.title} className="card-grouped-item flex items-center gap-3">
-                <div className={`w-9 h-9 rounded-xl ${item.icon} flex items-center justify-center flex-shrink-0`}>
-                  <svg className="w-4.5 h-4.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" /></svg>
-                </div>
-                <div>
-                  <h3 className="font-sans text-sm font-semibold text-navy">{item.title}</h3>
-                  <p className="text-xs text-navy/45 mt-0.5">{item.desc}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-
-          {/* Commitment */}
-          <div className="card mt-4">
-            <h2 className="font-sans text-base font-semibold text-navy mb-3">Our Commitment</h2>
-            <div className="space-y-2.5">
-              {[
-                'All resources are free and available to anyone.',
-                'We respect all Christian traditions while remaining faithful to Biblical truths.',
-                'We continuously improve resources based on your feedback.',
-                'Your privacy is important — we never share personal information.',
-              ].map((item, i) => (
-                <div key={i} className="flex gap-2.5 items-start">
-                  <svg className="w-4 h-4 text-gold flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" /></svg>
-                  <p className="text-sm text-navy/55">{item}</p>
-                </div>
-              ))}
+      {/* ═══════════ Closer ═══════════ */}
+      <section className="lop-closer">
+        <div className="lop-wrap lop-closer__inner">
+          <div className="lop-closer__pane">
+            <p className="lop-eyebrow lop-closer__eyebrow">Begin</p>
+            <h2 className="lop-closer__title">Open the Word.</h2>
+            <p className="lop-closer__sub">
+              Pick a chapter, a topic, or a guided plan. The Bible is open.
+            </p>
+            <div className="lop-closer__ctas">
+              <Link href="/bible" className="btn-primary">Open the Bible</Link>
+              <Link href="/study-plans" className="btn-outline">Pick a study plan</Link>
             </div>
           </div>
         </div>
-
-        {/* CTA */}
-        <div className="mt-10 text-center">
-          <h2 className="font-serif text-2xl font-bold text-navy mb-3">Ready to Begin?</h2>
-          <p className="text-sm text-navy/45 mb-6">Start your journey to a deeper understanding of Jesus Christ.</p>
-          <div className="flex flex-col sm:flex-row gap-3 justify-center">
-            <Link href="/bible" className="btn-primary">Explore the Bible</Link>
-            <Link href="/study-plans" className="btn-secondary">View Study Plans</Link>
-          </div>
-        </div>
-      </div>
-    </div>
+      </section>
+    </main>
   );
 }
