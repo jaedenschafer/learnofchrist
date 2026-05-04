@@ -1,0 +1,389 @@
+/* /bible/translations — page-scoped styles, mirrors the home page recipes
+   (closer pane, sun-circle bloom, big EB Garamond serif, frost cards). */
+
+.loct {
+  min-height: 100vh;
+  position: relative;
+  isolation: isolate;
+}
+
+.loct-wrap {
+  max-width: 76rem;
+  margin: 0 auto;
+  padding: 0 clamp(1rem, 4vw, 2rem);
+}
+
+.loct-eyebrow {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--vesper-gold);
+  margin: 0 0 0.5rem;
+}
+
+/* ─── 1. Hero ───────────────────────────────────────────────────────── */
+
+.loct-hero {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  padding: clamp(4rem, 10vw, 7rem) 0 clamp(3.5rem, 9vw, 6rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Concentric sun rings — same idea as the home page closer. Drift in
+   from a corner so the hero feels like dawn. */
+.loct-hero__sun {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: -1;
+  pointer-events: none;
+}
+.loct-hero__sun-ring,
+.loct-hero__sun-core {
+  position: absolute;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    color-mix(in srgb, var(--vesper-peach) 32%, transparent) 0%,
+    transparent 70%
+  );
+  animation: loct-sun-grow 1.6s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+  opacity: 0;
+}
+.loct-hero__sun-ring--4 { width: 100vmin; height: 100vmin; animation-delay: 0s; opacity: 0.55; }
+.loct-hero__sun-ring--3 { width: 70vmin; height: 70vmin; animation-delay: 0.1s; opacity: 0.6; }
+.loct-hero__sun-ring--2 { width: 46vmin; height: 46vmin; animation-delay: 0.2s; opacity: 0.7; background: radial-gradient(circle, color-mix(in srgb, var(--vesper-gold) 38%, transparent) 0%, transparent 70%); }
+.loct-hero__sun-ring--1 { width: 28vmin; height: 28vmin; animation-delay: 0.3s; opacity: 0.85; background: radial-gradient(circle, color-mix(in srgb, var(--vesper-gold) 50%, transparent) 0%, transparent 70%); }
+.loct-hero__sun-core    { width: 14vmin; height: 14vmin; animation-delay: 0.4s; opacity: 1; background: radial-gradient(circle, color-mix(in srgb, var(--vesper-peach) 70%, transparent) 0%, transparent 70%); }
+
+@keyframes loct-sun-grow {
+  0%   { transform: scale(0.4); opacity: 0; }
+  60%  { opacity: var(--end-opacity, 0.7); }
+  100% { transform: scale(1); opacity: var(--end-opacity, 0.7); }
+}
+
+.loct-hero__inner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.loct-hero__pane {
+  text-align: center;
+  max-width: 44rem;
+  padding: clamp(2rem, 5vw, 3.5rem) clamp(1.5rem, 4vw, 3rem);
+  border-radius: 36px;
+  background: var(--frost-tint-card);
+  -webkit-backdrop-filter: var(--frost-blur-card);
+  backdrop-filter: var(--frost-blur-card);
+  border: 1px solid var(--frost-border-card);
+  color: var(--frost-text);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.55),
+    0 24px 60px -22px rgba(26, 22, 18, 0.28);
+  isolation: isolate;
+}
+
+.loct-hero__title {
+  font-family: 'EB Garamond', 'New York', Georgia, serif;
+  font-weight: 500;
+  font-size: clamp(2.75rem, 6.4vw, 4.75rem);
+  line-height: 1.02;
+  letter-spacing: -0.025em;
+  color: var(--vesper-compline);
+  margin: 0.5rem 0 1.25rem;
+  text-wrap: balance;
+}
+
+.loct-hero__sub {
+  font-size: clamp(1rem, 1.4vw, 1.1875rem);
+  line-height: 1.6;
+  color: rgba(26, 22, 18, 0.70);
+  margin: 0 auto 1.75rem;
+  max-width: 36rem;
+}
+
+.loct-hero__chips {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: rgba(26, 22, 18, 0.55);
+}
+.loct-hero__chip {
+  white-space: nowrap;
+}
+.loct-hero__chip-sep {
+  color: rgba(26, 22, 18, 0.30);
+}
+
+/* ─── 2. Grid ───────────────────────────────────────────────────────── */
+
+.loct-grid-section {
+  padding: clamp(2.5rem, 6vw, 4.5rem) 0 clamp(3.5rem, 8vw, 6rem);
+}
+
+.loct-grid__eyebrow {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.loct-grid__title {
+  font-family: 'EB Garamond', 'New York', Georgia, serif;
+  font-weight: 500;
+  font-size: clamp(2rem, 4.4vw, 3rem);
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  color: var(--vesper-compline);
+  margin: 0 0 clamp(2rem, 4vw, 3rem);
+  text-align: center;
+  text-wrap: balance;
+}
+
+.loct-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: clamp(1rem, 2vw, 1.5rem);
+}
+@media (min-width: 720px) {
+  .loct-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+.loct-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: clamp(1.5rem, 2.4vw, 2rem);
+  border-radius: 28px;
+  background: var(--frost-tint-card);
+  -webkit-backdrop-filter: var(--frost-blur-card);
+  backdrop-filter: var(--frost-blur-card);
+  border: 1px solid var(--frost-border-card);
+  color: var(--frost-text);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.45),
+    0 18px 40px -20px rgba(26, 22, 18, 0.22);
+  isolation: isolate;
+  transition: transform 0.25s cubic-bezier(0.2, 0.7, 0.2, 1),
+              box-shadow 0.25s ease;
+}
+.loct-card:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.55),
+    0 28px 56px -22px rgba(26, 22, 18, 0.30);
+}
+
+.loct-card__head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 0.85rem;
+}
+
+.loct-card__abbr {
+  font-family: 'EB Garamond', 'New York', Georgia, serif;
+  font-weight: 500;
+  font-size: clamp(2rem, 3.2vw, 2.5rem);
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: var(--vesper-gold);
+}
+
+.loct-card__year {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  color: rgba(26, 22, 18, 0.45);
+  white-space: nowrap;
+}
+
+.loct-card__title {
+  font-family: 'EB Garamond', 'New York', Georgia, serif;
+  font-weight: 500;
+  font-size: clamp(1.4rem, 2.2vw, 1.75rem);
+  line-height: 1.15;
+  letter-spacing: -0.015em;
+  color: var(--vesper-compline);
+  margin: 0 0 0.2rem;
+}
+
+.loct-card__sub {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: rgba(26, 22, 18, 0.55);
+  margin: 0 0 1rem;
+}
+
+.loct-card__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 1.1rem;
+}
+
+.loct-card__copy {
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  color: rgba(26, 22, 18, 0.72);
+  margin: 0 0 1.4rem;
+  /* Truncate so all cards keep parallel height. */
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.loct-card__quote {
+  position: relative;
+  margin: 0 0 1.5rem;
+  padding: 1rem 1.1rem 0.9rem;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.45);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  border-left: 2px solid var(--vesper-gold);
+}
+
+.loct-card__quote-text {
+  font-family: 'EB Garamond', 'New York', Georgia, serif;
+  font-style: italic;
+  font-size: 0.9375rem;
+  line-height: 1.5;
+  color: rgba(26, 22, 18, 0.78);
+  margin: 0 0 0.4rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.loct-card__quote-cite {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  color: var(--vesper-gold);
+}
+
+.loct-card__actions {
+  margin-top: auto;
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+.loct-card__cta {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+/* ─── 3. Closer ─────────────────────────────────────────────────────── */
+
+.loct-closer {
+  padding: clamp(3rem, 6vw, 5rem) 0 clamp(4rem, 8vw, 6rem);
+}
+
+.loct-closer__inner {
+  display: flex;
+  justify-content: center;
+}
+
+.loct-closer__pane {
+  text-align: center;
+  max-width: 38rem;
+  padding: clamp(2rem, 4vw, 3rem);
+  border-radius: 36px;
+  background: var(--frost-tint-card);
+  -webkit-backdrop-filter: var(--frost-blur-card);
+  backdrop-filter: var(--frost-blur-card);
+  border: 1px solid var(--frost-border-card);
+  color: var(--frost-text);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.55),
+    0 24px 60px -22px rgba(26, 22, 18, 0.28);
+  isolation: isolate;
+}
+
+.loct-closer__eyebrow {
+  color: var(--vesper-peach);
+  margin-bottom: 0.85rem;
+}
+
+.loct-closer__title {
+  font-family: 'EB Garamond', 'New York', Georgia, serif;
+  font-weight: 500;
+  font-size: clamp(2rem, 4vw, 2.75rem);
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  color: var(--vesper-compline);
+  margin: 0 0 1rem;
+  text-wrap: balance;
+}
+
+.loct-closer__sub {
+  font-size: clamp(1rem, 1.3vw, 1.125rem);
+  line-height: 1.6;
+  color: rgba(26, 22, 18, 0.70);
+  margin: 0 auto 1.75rem;
+  max-width: 28rem;
+}
+
+.loct-closer__cta {
+  /* Inherit btn-primary from globals — just constrain width so it
+     doesn't span the whole pane. */
+  min-width: 220px;
+}
+
+/* ─── Dark theme ───────────────────────────────────────────────────── */
+
+html[data-reader-theme="dark"] .loct-hero__pane,
+html[data-reader-theme="dark"] .loct-card,
+html[data-reader-theme="dark"] .loct-closer__pane {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.10);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.12),
+    0 24px 60px -22px rgba(0, 0, 0, 0.55);
+}
+html[data-reader-theme="dark"] .loct-hero__title,
+html[data-reader-theme="dark"] .loct-grid__title,
+html[data-reader-theme="dark"] .loct-card__title,
+html[data-reader-theme="dark"] .loct-closer__title {
+  color: var(--vesper-parchment);
+}
+html[data-reader-theme="dark"] .loct-hero__sub,
+html[data-reader-theme="dark"] .loct-card__copy,
+html[data-reader-theme="dark"] .loct-closer__sub {
+  color: rgba(245, 240, 230, 0.78);
+}
+html[data-reader-theme="dark"] .loct-hero__chips,
+html[data-reader-theme="dark"] .loct-card__sub,
+html[data-reader-theme="dark"] .loct-card__year {
+  color: rgba(245, 240, 230, 0.55);
+}
+html[data-reader-theme="dark"] .loct-card__quote {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.08);
+  border-left-color: var(--vesper-gold);
+}
+html[data-reader-theme="dark"] .loct-card__quote-text {
+  color: rgba(245, 240, 230, 0.85);
+}

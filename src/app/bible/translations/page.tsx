@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { getAllTranslations } from '@/data/translations';
-import BreadcrumbNav from '@/components/BreadcrumbNav';
 import JsonLd from '@/components/JsonLd';
+import './translations.css';
 
 // ─── ISR ───
 // Cache pages for 24h; regenerate in background after that.
@@ -10,80 +10,124 @@ export const revalidate = 86400;
 
 export const metadata: Metadata = {
   title: 'Bible Translations | Learn of Christ',
-  description: 'Explore 8 major English Bible translations from different Christian traditions. Compare translations, learn their history, and choose the one that works best for your study.',
+  description:
+    'Explore eight English Bible translations from different Christian traditions. Compare wording, history, and choose the one that fits your study.',
   openGraph: {
     title: 'Bible Translations | Learn of Christ',
-    description: 'Explore 8 major English Bible translations from different Christian traditions.',
+    description: 'Explore eight English Bible translations from different Christian traditions.',
     type: 'website',
   },
 };
 
 export default function TranslationsPage() {
-  const translations = getAllTranslations();
+  const translations = [...getAllTranslations()].sort((a, b) =>
+    a.abbreviation.localeCompare(b.abbreviation),
+  );
 
   return (
-    <main className="min-h-screen bg-[var(--color-bg)]">
-      {/* Hero Section */}
-      <div className="frost-card border-b border-[color:var(--frost-border-card)]">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          <BreadcrumbNav items={[
-            { label: 'Home', href: '/' },
-            { label: 'Bible', href: '/bible' },
-            { label: 'Translations' },
-          ]} />
+    <main className="loct">
+      {/* ═══════════ Hero — closer-pane recipe over a sunset bloom ═══════════ */}
+      <section className="loct-hero">
+        {/* Sun circles, lifted from the home page closer. Warm peach +
+            gold radial blooms behind a heavy frosted pane. */}
+        <div className="loct-hero__sun" aria-hidden="true">
+          <span className="loct-hero__sun-ring loct-hero__sun-ring--4" />
+          <span className="loct-hero__sun-ring loct-hero__sun-ring--3" />
+          <span className="loct-hero__sun-ring loct-hero__sun-ring--2" />
+          <span className="loct-hero__sun-ring loct-hero__sun-ring--1" />
+          <span className="loct-hero__sun-core" />
+        </div>
 
-          <div className="mt-8">
-            <h1 className="font-sans text-3xl sm:text-4xl font-bold text-[color:var(--color-label)]">Bible Translations</h1>
-            <p className="mt-4 text-base text-[color:var(--color-secondary-label)] max-w-2xl">
-              Explore 8 major English Bible translations representing different Christian traditions, translation philosophies, and scholarly approaches. Each translation offers unique strengths for study, devotion, and contemplation.
+        <div className="loct-wrap loct-hero__inner">
+          <div className="loct-hero__pane">
+            <p className="loct-eyebrow">Translations</p>
+            <h1 className="loct-hero__title">
+              Read the Bible<br />in your voice.
+            </h1>
+            <p className="loct-hero__sub">
+              Eight English translations from across Christian tradition —
+              the King James, the Berean Standard, the Douay-Rheims, the
+              World English. Pick one to read; pick another to compare.
             </p>
-            <div className="flex items-center gap-3 mt-4">
-              <span className="inline-block text-[0.75rem] font-medium px-3 py-1 rounded-full text-[color:var(--color-primary)]">
-                {translations.length} translations
-              </span>
+            <div className="loct-hero__chips">
+              <span className="loct-hero__chip">{translations.length} translations</span>
+              <span className="loct-hero__chip-sep" aria-hidden="true">·</span>
+              <span className="loct-hero__chip">All free, all online</span>
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
-      {/* Translations Grid */}
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {translations.map((t) => (
-            <div key={t.id} className="frost-card shadow-sm hover:shadow-md transition-shadow duration-200">
-              {/* Header */}
-              <div className="flex items-center gap-3 mb-3">
-                <span className="inline-block text-[0.8125rem] font-bold px-3 py-1 rounded-full text-[color:var(--color-primary)]">
-                  {t.abbreviation}
-                </span>
-                <span className="text-[0.8125rem] text-[color:var(--color-secondary-label)]">{t.year}</span>
-              </div>
+      {/* ═══════════ Grid — frost cards in alphabetical order ═══════════ */}
+      <section className="loct-grid-section">
+        <div className="loct-wrap">
+          <p className="loct-eyebrow loct-grid__eyebrow">All translations · A → Z</p>
+          <h2 className="loct-grid__title">Choose how you&rsquo;ll read.</h2>
 
-              <h2 className="font-sans text-lg font-semibold text-[color:var(--color-label)] mb-1">{t.name}</h2>
-              <p className="text-[0.8125rem] text-[color:var(--color-secondary-label)] mb-3">{t.fullName}</p>
+          <div className="loct-grid">
+            {translations.map((t) => (
+              <article key={t.id} className="loct-card">
+                <div className="loct-card__head">
+                  <span className="loct-card__abbr">{t.abbreviation}</span>
+                  <span className="loct-card__year">{t.year}</span>
+                </div>
+                <h3 className="loct-card__title">{t.name}</h3>
+                <p className="loct-card__sub">{t.fullName}</p>
 
-              {/* Badges */}
-              <div className="flex flex-wrap gap-2 mb-4">
-                <span className="text-[0.75rem] font-medium px-2.5 py-0.5 rounded-full frost-chip text-[color:var(--frost-text)]">{t.tradition}</span>
-                <span className="text-[0.75rem] font-medium px-2.5 py-0.5 rounded-full frost-chip text-[color:var(--frost-text)]">{t.type}</span>
-              </div>
+                <div className="loct-card__meta">
+                  <span className="frost-chip">{t.tradition}</span>
+                  <span className="frost-chip">{t.type}</span>
+                </div>
 
-              {/* Description */}
-              <p className="text-[0.8125rem] text-[color:var(--frost-text-soft)] leading-relaxed mb-6 line-clamp-3">{t.description}</p>
+                <p className="loct-card__copy">{t.description}</p>
 
-              {/* Actions */}
-              <div className="flex gap-3">
-                <Link href={t.readLink} className="flex-1 text-center text-[0.8125rem] font-medium px-4 py-2 rounded-lg frost-pill text-white">
-                  Read Now
-                </Link>
-                <Link href={`/bible/translations/${t.id}`} className="flex-1 text-center text-[0.8125rem] font-medium px-4 py-2 rounded-lg frost-pill text-[color:var(--frost-text-soft)] border border-[color:var(--frost-border-chip)]">
-                  Learn More
-                </Link>
-              </div>
-            </div>
-          ))}
+                {/* Sample verse — pull quote in italic serif. */}
+                {t.sampleVerse && (
+                  <blockquote className="loct-card__quote">
+                    <p className="loct-card__quote-text">
+                      &ldquo;{t.sampleVerse.text}&rdquo;
+                    </p>
+                    <footer className="loct-card__quote-cite">
+                      &mdash; {t.sampleVerse.reference}
+                    </footer>
+                  </blockquote>
+                )}
+
+                <div className="loct-card__actions">
+                  <Link href={t.readLink} className="btn-primary loct-card__cta">
+                    Read it
+                  </Link>
+                  <Link
+                    href={`/bible/translations/${t.id}`}
+                    className="btn-outline loct-card__cta"
+                  >
+                    Learn more
+                  </Link>
+                </div>
+              </article>
+            ))}
+          </div>
         </div>
-      </div>
+      </section>
+
+      {/* ═══════════ Closer — quiet CTA back to the Bible ═══════════ */}
+      <section className="loct-closer">
+        <div className="loct-wrap loct-closer__inner">
+          <div className="loct-closer__pane">
+            <p className="loct-eyebrow loct-closer__eyebrow">Begin</p>
+            <h2 className="loct-closer__title">
+              Open the Bible in any of them.
+            </h2>
+            <p className="loct-closer__sub">
+              Switch translations at the top of every chapter. Your study
+              guide stays the same; the words change.
+            </p>
+            <Link href="/bible" className="btn-primary loct-closer__cta">
+              Open the Bible
+            </Link>
+          </div>
+        </div>
+      </section>
 
       {/* Schema.org */}
       <JsonLd
@@ -91,7 +135,8 @@ export default function TranslationsPage() {
           '@context': 'https://schema.org',
           '@type': 'CollectionPage',
           name: 'Bible Translations',
-          description: 'A collection of 8 major English Bible translations from different Christian traditions.',
+          description:
+            'Eight major English Bible translations from different Christian traditions.',
           url: 'https://learnofchrist.com/bible/translations',
           mainEntity: {
             '@type': 'ItemList',
