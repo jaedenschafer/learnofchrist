@@ -347,6 +347,18 @@ export default async function StudyChapterPage({ params }: ChapterPageProps) {
   const nextChapter = chapter < book_obj.chapters ? chapter + 1 : null;
   const isGenesisOne = book === 'genesis' && chapter === 1;
 
+  // Related-content navigation. Surfaces 4 nearby chapters from the same book
+  // (the prev/next pair plus two more, skipping out-of-range ones) plus the
+  // deuterocanonical pillar when relevant. Both helps the reader and gives
+  // Google additional internal-link signals for ranking.
+  const isDeuterocanonical = book_obj.testament === 'apocrypha' || book_obj.testament === 'orthodox';
+  const nearbyChapters: Array<{ ch: number; label: string }> = [];
+  for (const offset of [-2, -1, 1, 2]) {
+    const ch = chapter + offset;
+    if (ch < 1 || ch > book_obj.chapters || ch === chapter) continue;
+    nearbyChapters.push({ ch, label: `${book_obj.name} ${ch}` });
+  }
+
   // Article-level dates: the site shipped chapter content in waves through
   // March/April 2026; we use a stable launch date as datePublished and the
   // current date as dateModified (chapter data files are edited regularly
@@ -519,6 +531,89 @@ export default async function StudyChapterPage({ params }: ChapterPageProps) {
           previousUrl={previousChapter ? `/study/${book}/${previousChapter}` : undefined}
           nextUrl={nextChapter ? `/study/${book}/${nextChapter}` : undefined}
         />
+
+        {/* Related study guides — gives every chapter page a constellation
+            of internal links beyond just prev/next. Helps both users
+            (more discoverable) and Google (richer link graph for ranking).
+            Renders as a discrete <nav> with descriptive anchor text. */}
+        <nav
+          aria-label="More study guides"
+          className="related-nav mt-12 pt-8 border-t border-[color:var(--color-separator)]"
+        >
+          <h2 className="text-[0.875rem] uppercase tracking-wider font-semibold text-[color:var(--color-tertiary-label)] mb-4">
+            More to study
+          </h2>
+          <div className="grid sm:grid-cols-2 gap-3">
+            <Link
+              href={`/study/${book}`}
+              className="frost-card block hover:shadow-md transition-shadow no-underline"
+            >
+              <p className="text-[0.6875rem] uppercase tracking-wider text-[color:var(--color-tertiary-label)] mb-1">
+                Browse the book
+              </p>
+              <p className="text-base font-semibold text-[color:var(--color-label)]">
+                All of {book_obj.name} ({book_obj.chapters} chapters)
+              </p>
+            </Link>
+            {nearbyChapters.length > 0 && (
+              <div className="frost-card">
+                <p className="text-[0.6875rem] uppercase tracking-wider text-[color:var(--color-tertiary-label)] mb-2">
+                  Nearby chapters
+                </p>
+                <ul className="flex flex-wrap gap-2">
+                  {nearbyChapters.map((c) => (
+                    <li key={c.ch}>
+                      <Link
+                        href={`/study/${book}/${c.ch}`}
+                        className="inline-block px-3 h-8 leading-8 rounded-full bg-[color:var(--color-surface)] border border-[color:var(--color-separator)] text-[0.8125rem] font-medium text-[color:var(--color-label)] hover:border-[color:var(--color-primary)] hover:text-[color:var(--color-primary)] transition-colors no-underline"
+                      >
+                        {c.label}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+            {isDeuterocanonical && (
+              <Link
+                href="/study/deuterocanonical-books"
+                className="frost-card block hover:shadow-md transition-shadow no-underline sm:col-span-2"
+              >
+                <p className="text-[0.6875rem] uppercase tracking-wider text-[color:var(--color-tertiary-label)] mb-1">
+                  Part of a collection
+                </p>
+                <p className="text-base font-semibold text-[color:var(--color-label)]">
+                  The Deuterocanonical Books — Tobit, Maccabees, Wisdom & more
+                </p>
+                <p className="text-[0.8125rem] text-[color:var(--color-secondary-label)] mt-1">
+                  All eleven books between the Testaments, with chapter-by-chapter study guides.
+                </p>
+              </Link>
+            )}
+            <Link
+              href="/study"
+              className="frost-card block hover:shadow-md transition-shadow no-underline"
+            >
+              <p className="text-[0.6875rem] uppercase tracking-wider text-[color:var(--color-tertiary-label)] mb-1">
+                Every book
+              </p>
+              <p className="text-base font-semibold text-[color:var(--color-label)]">
+                Browse all study guides
+              </p>
+            </Link>
+            <Link
+              href={`/bible/${book}/${chapter}`}
+              className="frost-card block hover:shadow-md transition-shadow no-underline"
+            >
+              <p className="text-[0.6875rem] uppercase tracking-wider text-[color:var(--color-tertiary-label)] mb-1">
+                Read the chapter
+              </p>
+              <p className="text-base font-semibold text-[color:var(--color-label)]">
+                {book_obj.name} {chapter} — full text
+              </p>
+            </Link>
+          </div>
+        </nav>
       </div>
     </div>
   );

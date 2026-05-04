@@ -774,6 +774,25 @@ export async function getAllArtworkSlugs(): Promise<Array<{ slug: string }>> {
   return data ?? [];
 }
 
+/** Slug + image_url pairs for every published artwork. Used by the
+ *  art sitemap to emit Google Image-sitemap `<image:image>` entries so
+ *  Google Image search learns which images live on which pages. */
+export async function getAllArtworkSlugsWithImages(): Promise<
+  Array<{ slug: string; image_url: string | null; title: string | null }>
+> {
+  const { data, error } = await supabaseServer
+    .from('artworks')
+    .select('slug, image_url, title')
+    .eq('status', 'published')
+    .eq('moderation_status', 'approved');
+
+  if (error) {
+    console.error('Error fetching artwork slugs+images:', error);
+    return [];
+  }
+  return data ?? [];
+}
+
 /** Paginated list of all published artworks for the /art index page. */
 export async function getArtworksBrowse(limit = 60): Promise<ArtworkWithArtist[]> {
   const { data, error } = await supabaseServer

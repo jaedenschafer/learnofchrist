@@ -59,17 +59,66 @@ export default async function ArtworkPage({ params }: PageProps) {
 
   const primaryRef = art.scripture_refs.find((r) => r.is_primary) ?? art.scripture_refs[0];
 
+  // SEO-rich alt text: title + artist + scripture reference. Used both for
+  // the visible <img alt> and the schema's `description` field. Google Image
+  // Search uses alt text as the strongest signal for what the image depicts.
+  const altText = [
+    art.title,
+    art.artist ? `by ${art.artist.name}` : null,
+    primaryRef ? `depicting ${primaryRef.book_name} ${primaryRef.chapter}${primaryRef.verse_start ? `:${primaryRef.verse_start}` : ''}` : null,
+  ]
+    .filter(Boolean)
+    .join(' ');
+
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'VisualArtwork',
     name: art.title,
-    artist: art.artist ? { '@type': 'Person', name: art.artist.name } : undefined,
+    description:
+      art.description ||
+      `${art.title}${art.artist ? ` by ${art.artist.name}` : ''}${primaryRef ? `, depicting ${primaryRef.book_name} ${primaryRef.chapter}` : ''}.`,
+    artist: art.artist
+      ? {
+          '@type': 'Person',
+          name: art.artist.name,
+          url: `https://learnofchrist.com/art/artist/${art.artist.slug}`,
+        }
+      : undefined,
+    creator: art.artist
+      ? { '@type': 'Person', name: art.artist.name }
+      : undefined,
     dateCreated: art.year?.toString(),
     artMedium: art.medium ?? undefined,
     artform: art.medium ?? undefined,
-    image: art.image_url,
+    inLanguage: 'en',
+    // ImageObject nested inside `image` gives Google Image Search a richer
+    // signal than a bare URL string — width/height + caption + license.
+    image: {
+      '@type': 'ImageObject',
+      url: art.image_url,
+      contentUrl: art.image_url,
+      width: art.width ?? undefined,
+      height: art.height ?? undefined,
+      caption: altText,
+      license: 'https://creativecommons.org/publicdomain/mark/1.0/',
+      acquireLicensePage: 'https://creativecommons.org/publicdomain/mark/1.0/',
+      creditText: art.artist ? art.artist.name : undefined,
+    },
     url: `https://learnofchrist.com/art/artwork/${art.slug}`,
     license: 'https://creativecommons.org/publicdomain/mark/1.0/',
+    isAccessibleForFree: true,
+    // Link the artwork back to the chapter(s) it depicts — gives Google a
+    // bidirectional graph between the art page and the study guide page,
+    // which boosts both for queries like "[book] [chapter] art".
+    subjectOf: art.scripture_refs.length > 0 ? art.scripture_refs.map((r) => ({
+      '@type': 'CreativeWork',
+      name: `${r.book_name} ${r.chapter}${r.verse_start ? `:${r.verse_start}` : ''}`,
+      url: `https://learnofchrist.com/study/${r.book_slug}/${r.chapter}`,
+    })) : undefined,
+    about: art.scripture_refs.length > 0 ? art.scripture_refs.map((r) => ({
+      '@type': 'Thing',
+      name: `${r.book_name} ${r.chapter}${r.verse_start ? `:${r.verse_start}` : ''}`,
+    })) : undefined,
   };
 
   return (
@@ -140,7 +189,7 @@ export default async function ArtworkPage({ params }: PageProps) {
               src={art.thumbnail_800_url || art.image_url}
               width={art.width || 1200}
               height={art.height || 900}
-              alt={art.title}
+              alt={altText}
               loading="eager"
               decoding="async"
               fetchPriority="high"

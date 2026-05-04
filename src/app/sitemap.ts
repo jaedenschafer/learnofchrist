@@ -6,7 +6,11 @@ import { blogPosts } from '@/data/blog-posts';
 import { studyPlans } from '@/data/study-plans';
 import { verseExplanations } from '@/data/verse-explanations';
 import { translations } from '@/data/translations';
-import { getAllArtistSlugs, getAllArtworkSlugs } from '@/lib/supabase';
+import {
+  getAllArtistSlugs,
+  getAllArtworkSlugs,
+  getAllArtworkSlugsWithImages,
+} from '@/lib/supabase';
 
 const BASE_URL = 'https://learnofchrist.com';
 
@@ -177,7 +181,7 @@ async function artEntries(): Promise<MetadataRoute.Sitemap> {
 
   const [artists, artworks] = await Promise.all([
     getAllArtistSlugs(),
-    getAllArtworkSlugs(),
+    getAllArtworkSlugsWithImages(),
   ]);
 
   for (const a of artists) {
@@ -189,12 +193,18 @@ async function artEntries(): Promise<MetadataRoute.Sitemap> {
     });
   }
 
+  // Each artwork detail page gets an entry, AND emits a Google Image-sitemap
+  // `<image:image>` companion via the `images` field — Next.js renders this
+  // automatically into the standard image-extension XML so Google Image
+  // Search learns which image lives on which page. This is the channel that
+  // gets the painting itself ranked, separate from the page text.
   for (const w of artworks) {
     entries.push({
       url: `${BASE_URL}/art/artwork/${w.slug}`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.6,
+      ...(w.image_url ? { images: [w.image_url] } : {}),
     });
   }
 
