@@ -177,16 +177,30 @@ html[data-reader-theme="dark"] .rich-study .kjv-note .kjv-note-close:hover {
    range header on top, then the verses indented behind a thin oxblood
    rule. The rule keeps biblical text feeling cordoned (a "pause" in the
    prose) without interrupting the reading flow with a card. */
+/* Scripture block — lightly crumpled white-page card. Rounded frosted
+   glass with very faint, soft creases painted in via layered radial
+   highlights; no drop shadow so it sits flush in the page rhythm. */
 .rich-study .scripture {
   position: relative;
   margin: 1.75rem 0 1.5rem;
-  padding: 0.15rem 0.5rem 0.25rem 1.4rem;
-  border-left: 2px solid var(--wine, #7A2F3D);
+  padding: 1.4rem 1.6rem 1.5rem;
+  border-radius: 22px;
+  background:
+    /* Faint diagonal crease highlights — keep them very subtle so the
+       page reads as paper, not a graphic. */
+    radial-gradient(ellipse 60% 40% at 18% 22%, rgba(255, 255, 255, 0.65), transparent 70%),
+    radial-gradient(ellipse 55% 38% at 82% 78%, rgba(255, 255, 255, 0.55), transparent 70%),
+    radial-gradient(ellipse 35% 25% at 65% 30%, rgba(255, 250, 240, 0.45), transparent 75%),
+    rgba(255, 252, 246, 0.78);
+  -webkit-backdrop-filter: blur(18px) saturate(140%);
+  backdrop-filter: blur(18px) saturate(140%);
+  border: 1px solid rgba(255, 255, 255, 0.7);
   font-family: 'EB Garamond', 'Cormorant Garamond', 'New York', Georgia, serif;
   line-height: 1.55;
   color: #1C1B18;
   font-style: normal;
   letter-spacing: 0;
+  isolation: isolate;
 }
 
 .rich-study .scripture-range {
