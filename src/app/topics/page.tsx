@@ -30,7 +30,7 @@ export default function TopicsPage() {
 
         <div className="cta-banner mt-12">
           <h2 className="font-serif text-2xl sm:text-3xl font-bold mb-3">Deepen Your Understanding</h2>
-          <p className="text-sm text-cream/60 max-w-md mx-auto">
+          <p className="text-sm opacity-60 max-w-md mx-auto">
             Each topic includes key verses, cross-references, and study questions to explore throughout Scripture.
           </p>
         </div>

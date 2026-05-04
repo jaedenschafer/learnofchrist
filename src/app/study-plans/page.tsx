@@ -56,7 +56,7 @@ export default function StudyPlansPage() {
 
         <div className="cta-banner mt-10">
           <h2 className="font-serif text-2xl font-bold mb-3">Not sure which plan?</h2>
-          <p className="text-sm text-cream/55 max-w-sm mx-auto mb-6">
+          <p className="text-sm opacity-55 max-w-sm mx-auto mb-6">
             Start with the &ldquo;Who Is Jesus?&rdquo; plan for a focused 7-day introduction, or dive into the Gospel of John for a deeper 21-day journey.
           </p>
           <Link href="/bible" className="btn-primary">Explore the Bible</Link>

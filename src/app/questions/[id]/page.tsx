@@ -155,11 +155,11 @@ export default async function QuestionPage({ params }: QuestionPageProps) {
 
             {/* CTA Banner */}
             <div className="cta-banner">
-              <h2 className="text-lg font-bold text-white mb-1">Have More Questions?</h2>
-              <p className="text-xs text-white/60 mb-3">Explore more answers to common questions about Jesus and the Christian faith.</p>
-              <div className="flex gap-2">
-                <Link href="/questions" className="inline-block px-5 py-2.5 bg-white text-[#1D1D1F] text-sm font-medium rounded-full hover:opacity-90 transition-opacity">All Questions</Link>
-                <Link href="/bible" className="inline-block px-5 py-2.5 bg-[color:var(--vesper-gold)] text-white text-sm font-medium rounded-full hover:opacity-90 transition-opacity">Study the Bible</Link>
+              <h2 className="text-lg font-bold mb-1">Have More Questions?</h2>
+              <p className="text-xs opacity-70 mb-3">Explore more answers to common questions about Jesus and the Christian faith.</p>
+              <div className="flex gap-2 justify-center">
+                <Link href="/questions" className="btn-secondary">All Questions</Link>
+                <Link href="/bible" className="btn-primary">Study the Bible</Link>
               </div>
             </div>
           </div>

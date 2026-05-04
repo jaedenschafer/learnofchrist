@@ -43,7 +43,7 @@ export default function FamilyPage() {
 
         <div className="cta-banner">
           <h2 className="font-serif text-2xl font-bold mb-3">Start Your Family&apos;s Journey</h2>
-          <p className="text-sm text-cream/55 max-w-sm mx-auto mb-6">
+          <p className="text-sm opacity-55 max-w-sm mx-auto mb-6">
             Strengthen your family&apos;s bond and spiritual foundation together.
           </p>
           <Link href="/study-plans" className="btn-primary">Explore Study Plans</Link>

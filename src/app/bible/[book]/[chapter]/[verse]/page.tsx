@@ -207,7 +207,7 @@ export default async function VersePage({ params }: VersePageProps) {
           {/* Read Full Chapter CTA */}
           <div className="cta-banner">
             <h2 className="font-serif text-xl sm:text-2xl font-bold mb-3">Read the Full Chapter</h2>
-            <p className="text-base text-cream/60 max-w-md mx-auto mb-5">
+            <p className="text-base opacity-60 max-w-md mx-auto mb-5">
               Read {book_obj.name} {chapter} in KJV, ASV, or WEB with study guide and key themes.
             </p>
             <Link href={`/bible/${book}/${chapter}`} className="btn-primary">
