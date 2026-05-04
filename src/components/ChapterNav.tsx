@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import './ChapterNav.css';
 
 interface ChapterNavProps {
   bookName: string;
@@ -8,41 +9,61 @@ interface ChapterNavProps {
   nextUrl?: string;
 }
 
-export default function ChapterNav({ bookName, currentChapter, totalChapters, previousUrl, nextUrl }: ChapterNavProps) {
+/**
+ * Chapter pager rendered at the bottom of every study chapter (and bible
+ * reader). Closes the page with an ornament + prev/next/center signature
+ * so the page reads like a printed book section break, not a stranded
+ * column of text.
+ */
+export default function ChapterNav({
+  bookName,
+  currentChapter,
+  totalChapters,
+  previousUrl,
+  nextUrl,
+}: ChapterNavProps) {
   return (
-    <div className="mt-6 bg-[color:var(--color-surface)] rounded-2xl p-4 flex items-center justify-between gap-3">
-      <div className="flex-1">
+    <nav className="chapter-pager" aria-label="Chapter navigation">
+      <div className="chapter-pager__row">
         {previousUrl ? (
-          <Link href={previousUrl} className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-xl text-[0.8125rem] font-medium text-[color:var(--color-primary)] hover: transition-colors active:scale-95">
-            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M15 19l-7-7 7-7" /></svg>
-            Prev
+          <Link href={previousUrl} className="chapter-pager__btn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M15 18l-6-6 6-6" />
+            </svg>
+            <span>Previous</span>
           </Link>
         ) : (
-          <span className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-xl text-[0.8125rem] font-medium text-[color:var(--color-tertiary-label)]">
-            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M15 19l-7-7 7-7" /></svg>
-            Prev
+          <span className="chapter-pager__btn chapter-pager__btn--disabled" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M15 18l-6-6 6-6" />
+            </svg>
+            <span>Previous</span>
           </span>
         )}
-      </div>
 
-      <div className="text-center">
-        <p className="text-[0.8125rem] font-semibold text-[color:var(--color-label)]">{bookName}</p>
-        <p className="text-[0.6875rem] text-[color:var(--color-tertiary-label)]">{currentChapter} of {totalChapters}</p>
-      </div>
+        <div className="chapter-pager__center">
+          <p className="chapter-pager__book">{bookName}</p>
+          <p className="chapter-pager__count">
+            Chapter {currentChapter} of {totalChapters}
+          </p>
+        </div>
 
-      <div className="flex-1 flex justify-end">
         {nextUrl ? (
-          <Link href={nextUrl} className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-xl text-[0.8125rem] font-medium text-[color:var(--color-primary)] hover: transition-colors active:scale-95">
-            Next
-            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" /></svg>
+          <Link href={nextUrl} className="chapter-pager__btn chapter-pager__btn--next">
+            <span>Next</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+            </svg>
           </Link>
         ) : (
-          <span className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-xl text-[0.8125rem] font-medium text-[color:var(--color-tertiary-label)]">
-            Next
-            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" /></svg>
+          <span className="chapter-pager__btn chapter-pager__btn--next chapter-pager__btn--disabled" aria-hidden="true">
+            <span>Next</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+            </svg>
           </span>
         )}
       </div>
-    </div>
+    </nav>
   );
 }

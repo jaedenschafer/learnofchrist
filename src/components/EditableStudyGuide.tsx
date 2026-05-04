@@ -488,8 +488,11 @@ function ToolbarStyles() {
         cursor: not-allowed;
       }
       .admin-edit-toolbar__btn--primary {
-        background: #007aff;
-        color: #fff;
+        background: #C8964A;
+        color: #1A1612;
+      }
+      .admin-edit-toolbar__btn--primary:hover {
+        background: #d4a45e;
       }
       .admin-edit-toolbar__btn--ghost {
         background: rgba(255, 255, 255, 0.1);

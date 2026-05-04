@@ -68,14 +68,19 @@
 }
 
 .rich-study h2.section .ref {
-  display: block;
+  display: inline-block;
   font-family: var(--font-sans);
-  color: var(--sub);
-  font-size: 12px;
-  font-weight: 500;
-  letter-spacing: 0.08em;
+  color: var(--wine, #7A2F3D);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
   text-transform: uppercase;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.55rem;
+  padding: 0.18rem 0.55rem;
+  border: 1px solid rgba(122, 47, 61, 0.18);
+  border-radius: 999px;
+  background: rgba(122, 47, 61, 0.04);
+  text-decoration: none;
 }
 
 .rich-study p { margin: 0 0 1.5rem; }
@@ -94,12 +99,14 @@
   color: var(--ink);
 }
 .rich-study .tap-hint {
-  font-size: 14px;
-  color: #6E6E73;
+  font-size: 13.5px;
+  color: var(--sub, #6B5F4F);
   font-weight: 500;
   font-style: italic;
-  margin-top: -0.5rem;
+  margin-top: -0.25rem;
   margin-bottom: 1rem;
+  padding-left: 0.85rem;
+  border-left: 2px solid rgba(200, 150, 74, 0.35);
 }
 .rich-study .kjv-note {
   position: relative;
@@ -164,56 +171,49 @@ html[data-reader-theme="dark"] .rich-study .kjv-note .kjv-note-close:hover {
   user-select: none;
 }
 
-/* ── Scripture "Bible-page" blocks ── */
+/* ── Scripture blocks ──
+   Reworked from the heavy white-card "Bible page" treatment to a softer
+   left-rule passage. Each scripture block now carries a small caps verse
+   range header on top, then the verses indented behind a thin oxblood
+   rule. The rule keeps biblical text feeling cordoned (a "pause" in the
+   prose) without interrupting the reading flow with a card. */
 .rich-study .scripture {
-  background-color: #FFFFFF;
-  background-image:
-    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='260' height='260'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' seed='7'/><feColorMatrix values='0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.055 0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>"),
-    linear-gradient(118deg,
-      transparent 0%, transparent 26%,
-      rgba(0,0,0,0.022) 29%, rgba(255,255,255,0.6) 30.5%,
-      rgba(0,0,0,0.018) 32%, transparent 35%,
-      transparent 61%, rgba(0,0,0,0.015) 64%,
-      rgba(255,255,255,0.5) 65.5%, rgba(0,0,0,0.012) 67%,
-      transparent 70%),
-    linear-gradient(-48deg,
-      transparent 0%, transparent 20%,
-      rgba(0,0,0,0.02) 22%, rgba(255,255,255,0.55) 23.5%,
-      rgba(0,0,0,0.015) 25%, transparent 28%,
-      transparent 72%, rgba(0,0,0,0.017) 75%,
-      transparent 78%),
-    radial-gradient(ellipse 40% 30% at 8% 92%, rgba(0,0,0,0.035) 0%, transparent 60%),
-    radial-gradient(ellipse 35% 25% at 94% 6%, rgba(0,0,0,0.03) 0%, transparent 60%),
-    radial-gradient(ellipse 130% 100% at center, transparent 65%, rgba(40,30,15,0.05) 100%);
-  border: 1px solid #ECE8E0;
-  border-radius: 2px;
-  padding: 1.75rem 1.9rem 1.6rem;
+  position: relative;
+  margin: 1.75rem 0 1.5rem;
+  padding: 0.15rem 0.5rem 0.25rem 1.4rem;
+  border-left: 2px solid var(--wine, #7A2F3D);
   font-family: 'EB Garamond', 'Cormorant Garamond', 'New York', Georgia, serif;
-  /* Inherits font-size from .rich-study so verses scale with the rest of the
-     chapter when the reader changes their font preference. */
   line-height: 1.55;
   color: #1C1B18;
   font-style: normal;
   letter-spacing: 0;
-  box-shadow:
-    0 1px 2px rgba(0,0,0,0.04),
-    0 12px 28px -14px rgba(30,25,15,0.2),
-    0 22px 40px -28px rgba(30,25,15,0.22);
-  position: relative;
 }
 
+.rich-study .scripture-range {
+  font-family: var(--font-sans);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--wine, #7A2F3D);
+  margin: 0 0 0.55rem;
+  font-style: normal;
+}
+
+.rich-study .scripture-body { margin: 0; }
 .rich-study .scripture p { margin: 0; }
 
 .rich-study .scripture .v {
   display: inline;
   font-weight: 700;
-  color: #A42C20;
+  color: var(--wine, #7A2F3D);
   font-style: normal;
+  font-variant-numeric: tabular-nums;
   font-family: 'EB Garamond', 'New York', Georgia, serif;
-  font-size: 0.7em;
+  font-size: 0.78em;
   vertical-align: super;
-  margin-right: 0.2em;
-  margin-left: 0.2em;
+  margin-right: 0.22em;
+  margin-left: 0.22em;
   letter-spacing: 0;
 }
 .rich-study .scripture .v:first-child { margin-left: 0; }
@@ -234,20 +234,20 @@ html[data-reading-mode="verse"] .rich-study .scripture .verse-line {
 }
 
 /* Verse-section wrapper. Scripture flows naturally — no sticky behavior, so
-   commentary text never scrolls behind the verse box. */
+   commentary text never scrolls behind the verse passage. */
 .rich-study .verse-section {
   position: relative;
-  margin: 1.5rem 0 2rem;
+  margin: 1.25rem 0 1.75rem;
 }
 .rich-study .verse-section .scripture {
   position: relative;
-  margin: 0 0 1.5rem;
+  margin: 0 0 1.25rem;
 }
 
 /* Scripture-side editorial marks (Christ / Hebrew / Greek themes).
-   Replaced the colored highlighter backgrounds with a quiet light-blue
-   underline so the marks feel less like a marketing flourish and don't
-   compete with user-applied highlights from the selection popup. */
+   Warm-gold underline so the marks live inside the same palette as the
+   verse numbers, scripture rule, and Christ Connection bloom. The cool
+   blue used to read as foreign on the cream parchment. */
 .rich-study .scripture mark {
   background-color: transparent;
   background-image: none !important;
@@ -256,11 +256,15 @@ html[data-reading-mode="verse"] .rich-study .scripture .verse-line {
   margin: 0;
   font-weight: inherit;
   text-decoration: underline;
-  text-decoration-color: rgba(120, 170, 220, 0.85);
+  text-decoration-color: rgba(200, 150, 74, 0.85);
   text-decoration-thickness: 2px;
   text-underline-offset: 3px;
   text-decoration-skip-ink: auto;
+  cursor: pointer;
   transition: text-decoration-color 0.2s ease;
+}
+.rich-study .scripture mark:hover {
+  text-decoration-color: var(--gold, #C8964A);
 }
 
 /* The reveal animation is gone — keep these no-op rules so any leftover
@@ -398,6 +402,21 @@ html.js .rich-study .scripture.visible mark {
     inset 0 1px 0 rgba(255, 255, 255, 0.55),
     0 24px 50px -22px rgba(26, 22, 18, 0.28);
 }
+/* Christ Connection eyebrow with leading cross glyph. The glyph is the
+   single thing that distinguishes Christ Connection cards from
+   Hebrew/Greek callouts at a glance. */
+.rich-study .christ .christ-head {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin-bottom: 0.85rem;
+}
+.rich-study .christ .christ-glyph {
+  width: 14px;
+  height: 14px;
+  color: var(--gold, #C8964A);
+  flex-shrink: 0;
+}
 .rich-study .christ .title {
   font-family: var(--font-sans);
   color: var(--gold);
@@ -405,14 +424,18 @@ html.js .rich-study .scripture.visible mark {
   font-size: 11px;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  display: block;
-  margin-bottom: 0.85rem;
+  display: inline-block;
+  margin-bottom: 0;
+  line-height: 1;
 }
 /* Christ + Carry boxes inherit body font-size so they scale with the chapter. */
 .rich-study .christ,
 .rich-study .christ p { line-height: 1.7; }
 .rich-study .christ > :last-child { margin-bottom: 0; }
 
+/* Carry — a thought to sit with. No card. Soft sage rule on the left and
+   an italic body so it reads as a felt aside, distinct from Christ
+   Connection's elevated bloom card. */
 .rich-study .carry {
   border-left: 3px solid var(--sage);
   padding: 0.1rem 0 0.1rem 1.25rem;
@@ -432,6 +455,87 @@ html.js .rich-study .scripture.visible mark {
   text-transform: uppercase;
   color: var(--sage);
   margin-bottom: 0.45rem;
+}
+
+/* ── Section ornament ── centered hairline + small gold cross glyph
+   rendered between sections. Skipped before the first section. */
+.rich-study .section-ornament {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.85rem;
+  margin: 3.25rem auto 0.75rem;
+  max-width: 16rem;
+  user-select: none;
+}
+.rich-study .section-ornament__rule {
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent 0%,
+    rgba(200, 150, 74, 0.35) 50%,
+    transparent 100%
+  );
+}
+.rich-study .section-ornament__rule:first-child {
+  background: linear-gradient(
+    to right,
+    transparent 0%,
+    rgba(200, 150, 74, 0.35) 100%
+  );
+}
+.rich-study .section-ornament__rule:last-child {
+  background: linear-gradient(
+    to left,
+    transparent 0%,
+    rgba(200, 150, 74, 0.35) 100%
+  );
+}
+.rich-study .section-ornament__glyph {
+  width: 14px;
+  height: 14px;
+  color: var(--gold, #C8964A);
+  opacity: 0.85;
+  flex-shrink: 0;
+}
+
+/* ── Chapter closing colophon ── small caps signature flanked by hairlines.
+   Sits at the very end of the article, above the chapter pager. Gives
+   every chapter a printed-page closer instead of falling off a cliff. */
+.rich-study .chapter-colophon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin: 3rem auto 0;
+  max-width: 32rem;
+  user-select: none;
+}
+.rich-study .chapter-colophon__rule {
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent 0%,
+    rgba(0, 0, 0, 0.12) 100%
+  );
+}
+.rich-study .chapter-colophon__rule:last-child {
+  background: linear-gradient(
+    to left,
+    transparent 0%,
+    rgba(0, 0, 0, 0.12) 100%
+  );
+}
+.rich-study .chapter-colophon__sig {
+  font-family: var(--font-sans);
+  font-size: 10.5px;
+  font-weight: 600;
+  color: var(--sub, #6B5F4F);
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  white-space: nowrap;
 }
 
 @media (max-width: 640px) {
@@ -947,7 +1051,7 @@ html.js .rich-study .scripture.visible mark {
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
-  padding: 0.45rem 0.9rem 0.45rem 0.7rem;
+  padding: 0.5rem 1rem 0.5rem 0.8rem;
   border-radius: 999px;
   font-family: var(--font-sans);
   font-size: 13px;
@@ -957,18 +1061,25 @@ html.js .rich-study .scripture.visible mark {
   border: 1px solid transparent;
   font-style: normal;
 }
+/* Warm oxblood pill — matches the verse-rule and verse-number palette,
+   replacing the iOS blue that didn't belong on cream parchment. */
 .share-btn-pill {
-  background: #007AFF;
+  background: var(--vesper-compline, #1A1612);
   color: #fff;
-  box-shadow: 0 1px 2px rgba(0, 122, 255, 0.2), 0 4px 12px rgba(0, 122, 255, 0.18);
+  box-shadow:
+    0 1px 2px rgba(26, 22, 18, 0.18),
+    0 6px 16px -6px rgba(26, 22, 18, 0.28);
 }
-.share-btn-pill:hover { background: #0062CC; transform: translateY(-1px); }
+.share-btn-pill:hover {
+  background: #2A241D;
+  transform: translateY(-1px);
+}
 .share-btn-ghost {
-  background: rgba(0, 122, 255, 0.07);
-  color: #007AFF;
-  border-color: rgba(0, 122, 255, 0.18);
+  background: rgba(122, 47, 61, 0.06);
+  color: var(--wine, #7A2F3D);
+  border-color: rgba(122, 47, 61, 0.20);
 }
-.share-btn-ghost:hover { background: rgba(0, 122, 255, 0.12); }
+.share-btn-ghost:hover { background: rgba(122, 47, 61, 0.12); }
 .share-btn-pill svg, .share-btn-ghost svg { width: 14px; height: 14px; }
 
 .share-btn-icon {
@@ -984,7 +1095,10 @@ html.js .rich-study .scripture.visible mark {
   justify-content: center;
   transition: background 0.15s, color 0.15s;
 }
-.share-btn-icon:hover { background: rgba(0, 122, 255, 0.12); color: #007AFF; }
+.share-btn-icon:hover {
+  background: rgba(122, 47, 61, 0.10);
+  color: var(--wine, #7A2F3D);
+}
 .share-btn-icon svg { width: 14px; height: 14px; }
 
 /* Day-header share icon (sits next to the <h2 class="section">) */

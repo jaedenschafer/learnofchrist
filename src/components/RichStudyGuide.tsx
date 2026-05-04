@@ -82,6 +82,15 @@ const ScriptureCtx = createContext<ScriptureCtxValue>({
   versesByChapter: {},
 });
 
+/* ─── Chapter meta (book name etc.) ───────────────────────────────────── */
+// Lets nested blocks (scripture range header, ornament closer) read the
+// chapter's identity without prop-drilling. Set once at render time.
+
+const ChapterMetaCtx = createContext<{ bookName: string; chapter: number }>({
+  bookName: '',
+  chapter: 0,
+});
+
 /* ─── Resource numbering ──────────────────────────────────────────────── */
 // Resources are auto-numbered in the order they appear in `chapter.resources`.
 // Inline references (via `hr()` spans or `[res:id]` placeholders in HTML) look
@@ -144,6 +153,28 @@ function AuthoredHtml({
   );
 }
 
+/** Compute a human-readable verse range from the verse-line list.
+ *  Examples: [1,2,3] → "1–3"; [1,3,4] → "1, 3–4"; [5,7] → "5, 7". */
+function formatVerseRange(numbers: number[]): string {
+  if (numbers.length === 0) return '';
+  const sorted = [...new Set(numbers)].sort((a, b) => a - b);
+  const groups: Array<[number, number]> = [];
+  let start = sorted[0];
+  let prev = sorted[0];
+  for (let i = 1; i < sorted.length; i++) {
+    const n = sorted[i];
+    if (n === prev + 1) {
+      prev = n;
+    } else {
+      groups.push([start, prev]);
+      start = n;
+      prev = n;
+    }
+  }
+  groups.push([start, prev]);
+  return groups.map(([a, b]) => (a === b ? `${a}` : `${a}–${b}`)).join(', ');
+}
+
 function ScriptureBlock({
   chapter,
   lines,
@@ -152,14 +183,19 @@ function ScriptureBlock({
   lines: VerseLine[];
 }) {
   const { isKjv, versesByChapter } = useContext(ScriptureCtx);
+  const { bookName } = useContext(ChapterMetaCtx);
+  const verseRangeLabel = `${bookName} ${chapter}:${formatVerseRange(lines.map((l) => l.number))}`;
 
   if (isKjv) {
     return (
-      <p className="scripture" data-chapter={chapter}>
-        {lines.map((line, i) => (
-          <RenderVerseLine key={`${line.number}-${i}`} line={line} />
-        ))}
-      </p>
+      <div className="scripture" data-chapter={chapter}>
+        <p className="scripture-range" aria-hidden="true">{verseRangeLabel}</p>
+        <p className="scripture-body">
+          {lines.map((line, i) => (
+            <RenderVerseLine key={`${line.number}-${i}`} line={line} />
+          ))}
+        </p>
+      </div>
     );
   }
 
@@ -172,23 +208,29 @@ function ScriptureBlock({
   if (matched.length === 0) {
     // Verses not loaded yet — keep the KJV original so the page doesn't blank.
     return (
-      <p className="scripture" data-chapter={chapter}>
-        {lines.map((line, i) => (
-          <RenderVerseLine key={`${line.number}-${i}`} line={line} />
-        ))}
-      </p>
+      <div className="scripture" data-chapter={chapter}>
+        <p className="scripture-range" aria-hidden="true">{verseRangeLabel}</p>
+        <p className="scripture-body">
+          {lines.map((line, i) => (
+            <RenderVerseLine key={`${line.number}-${i}`} line={line} />
+          ))}
+        </p>
+      </div>
     );
   }
 
   return (
-    <p className="scripture" data-chapter={chapter}>
-      {matched.map((v) => (
-        <span key={v.verse_number} className="verse-line">
-          <span className="v">{v.verse_number}</span>
-          {cleanVerseText(v.text)}{' '}
-        </span>
-      ))}
-    </p>
+    <div className="scripture" data-chapter={chapter}>
+      <p className="scripture-range" aria-hidden="true">{verseRangeLabel}</p>
+      <p className="scripture-body">
+        {matched.map((v) => (
+          <span key={v.verse_number} className="verse-line">
+            <span className="v">{v.verse_number}</span>
+            {cleanVerseText(v.text)}{' '}
+          </span>
+        ))}
+      </p>
+    </div>
   );
 }
 
@@ -464,6 +506,7 @@ export default function RichStudyGuide({
       }}
     >
      <ResourceCtx.Provider value={resourceMap}>
+      <ChapterMetaCtx.Provider value={{ bookName: content.bookName, chapter: content.chapter }}>
       <article className="rich-study">
         <HighlightController
           bookSlug={content.bookSlug}
@@ -535,6 +578,7 @@ export default function RichStudyGuide({
             section={section}
             studyId={studyId}
             artworks={artworks}
+            isFirst={i === 0}
           />
         ))}
 
@@ -560,7 +604,10 @@ export default function RichStudyGuide({
         {content.resources && content.resources.length > 0 && (
           <FurtherStudy resources={content.resources} />
         )}
+
+        <ChapterClosingOrnament bookName={content.bookName} chapter={content.chapter} />
       </article>
+      </ChapterMetaCtx.Provider>
      </ResourceCtx.Provider>
     </ScriptureCtx.Provider>
   );
@@ -597,14 +644,46 @@ function FurtherStudy({ resources }: { resources: ResourceLink[] }) {
   );
 }
 
+/* ─── Section ornament ─────────────────────────────────────────────────
+ *  Centered hairline + small gold cross glyph rendered between sections
+ *  so the page reads like a printed-book section break. Skipped before
+ *  the first section (where the chapter intro already sets the rhythm). */
+function SectionOrnament() {
+  return (
+    <div className="section-ornament" aria-hidden="true">
+      <span className="section-ornament__rule" />
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="section-ornament__glyph">
+        <path strokeLinecap="round" d="M12 4v16M5 12h14" />
+      </svg>
+      <span className="section-ornament__rule" />
+    </div>
+  );
+}
+
+/* ─── Chapter closing ornament ─────────────────────────────────────────
+ *  Sits at the very end of the article, above the chapter pager. Gives
+ *  every chapter a printed-page colophon: hairline rule + small caps
+ *  chapter sig + hairline rule. */
+function ChapterClosingOrnament({ bookName, chapter }: { bookName: string; chapter: number }) {
+  return (
+    <div className="chapter-colophon" aria-hidden="true">
+      <span className="chapter-colophon__rule" />
+      <span className="chapter-colophon__sig">{bookName} · Chapter {chapter}</span>
+      <span className="chapter-colophon__rule" />
+    </div>
+  );
+}
+
 function RenderSection({
   section,
   studyId,
   artworks,
+  isFirst,
 }: {
   section: RichSection;
   studyId: string;
   artworks: ArtworkWithArtist[];
+  isFirst: boolean;
 }) {
   // A "verse-section" wraps every consecutive block until the next section/divider.
   // Genesis 1's pattern: <section className="verse-section"> contains a scripture
@@ -626,6 +705,7 @@ function RenderSection({
 
   return (
     <>
+      {!isFirst && <SectionOrnament />}
       {(section.ref || section.title) && (
         <h2 className="section">
           {section.ref && <span className="ref">{section.ref}</span>}
@@ -697,7 +777,20 @@ function RenderBlock({
     case 'christ':
       return (
         <div className="christ" id={block.id}>
-          <AuthoredHtml className="title" html={block.title} />
+          <div className="christ-head">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              aria-hidden="true"
+              className="christ-glyph"
+            >
+              <path d="M12 3v18M7 9h10" />
+            </svg>
+            <AuthoredHtml className="title" html={block.title} />
+          </div>
           <AuthoredHtml html={block.html} />
         </div>
       );

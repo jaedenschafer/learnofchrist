@@ -10,21 +10,21 @@
 }
 .resource-ref sup {
   font-size: 0.62em;
-  font-weight: 600;
-  color: var(--resource-blue, #2f6fd6);
+  font-weight: 700;
+  color: var(--resource-ink, #7A2F3D);
   letter-spacing: 0.02em;
   padding: 0 1px;
   transition: color 120ms ease;
 }
 .resource-ref:hover sup,
 .resource-ref:focus-visible sup {
-  color: var(--resource-blue-dark, #1e4fa3);
+  color: var(--resource-ink-dark, #5a2330);
   text-decoration: underline;
   text-underline-offset: 0.18em;
   text-decoration-thickness: 1px;
 }
 .resource-ref:focus-visible {
-  outline: 2px solid var(--resource-blue, #2f6fd6);
+  outline: 2px solid var(--resource-ink, #7A2F3D);
   outline-offset: 2px;
   border-radius: 3px;
 }
@@ -34,19 +34,19 @@
  *  one-line muted description below. No icons, no cards, no chrome. */
 
 .further-study {
-  margin: 3rem auto 2rem;
+  margin: 2.5rem auto 1.75rem;
   padding: 1.25rem 1.25rem 1.5rem;
   max-width: 42rem;
   border-top: 1px solid var(--rule-soft, rgba(0, 0, 0, 0.10));
 }
 .further-study h2 {
-  font-family: var(--serif, Georgia, 'Times New Roman', serif);
-  font-size: 0.78rem;
-  font-weight: 600;
-  letter-spacing: 0.16em;
+  font-family: var(--font-sans, Georgia, 'Times New Roman', serif);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
   text-transform: uppercase;
   margin: 0 0 0.95rem;
-  color: var(--ink-soft, #6b6157);
+  color: var(--resource-ink, #7A2F3D);
 }
 
 .further-study-list {
@@ -74,13 +74,13 @@
   animation: fs-target-flash 1700ms ease-out;
 }
 @keyframes fs-target-flash {
-  0%   { background: var(--resource-blue-tint, #eaf1fc); }
+  0%   { background: var(--resource-ink-tint, #f5e8eb); }
   100% { background: transparent; }
 }
 
 .fs-num {
-  color: var(--resource-blue, #2f6fd6);
-  font-weight: 600;
+  color: var(--resource-ink, #7A2F3D);
+  font-weight: 700;
   font-variant-numeric: tabular-nums;
   text-align: right;
   font-size: 0.92rem;
@@ -96,7 +96,7 @@
 }
 
 .fs-link {
-  color: var(--resource-blue, #2f6fd6);
+  color: var(--resource-ink, #7A2F3D);
   font-weight: 500;
   text-decoration: none;
 }
@@ -146,10 +146,10 @@
 
 /* Dark mode. */
 @media (prefers-color-scheme: dark) {
-  .resource-ref sup { color: #6da4ff; }
-  .resource-ref:hover sup { color: #9cc1ff; }
-  .fs-num { color: #6da4ff; }
-  .fs-link { color: #6da4ff; }
+  .resource-ref sup { color: #E0A4B0; }
+  .resource-ref:hover sup { color: #f0bdc6; }
+  .fs-num { color: #E0A4B0; }
+  .fs-link { color: #E0A4B0; }
   .fs-link:hover .fs-label,
-  .fs-link:focus-visible .fs-label { color: #b8d2ff; }
+  .fs-link:focus-visible .fs-label { color: #f0bdc6; }
 }

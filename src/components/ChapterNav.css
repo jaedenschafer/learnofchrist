@@ -1,0 +1,158 @@
+/* ── Chapter pager ──
+   Sits at the very bottom of every study chapter and Bible reader. Warm
+   palette (cream surface, oxblood ink) so it lives in the same world as
+   the verse rule and Christ Connection bloom — no Bootstrap blue.
+   Buttons are 44px tall on mobile to clear iOS HIG touch targets. */
+
+.chapter-pager {
+  margin: 1.75rem 0 0;
+  padding: 1.25rem 1.25rem;
+  background: rgba(232, 222, 205, 0.18);
+  border-radius: 18px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.chapter-pager__row {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 0.85rem;
+}
+
+.chapter-pager__center {
+  text-align: center;
+  min-width: 0;
+}
+.chapter-pager__book {
+  font-family: 'New York', 'Iowan Old Style', Georgia, serif;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #1A1612;
+  margin: 0;
+  letter-spacing: -0.005em;
+}
+.chapter-pager__count {
+  font-family: var(--font-sans);
+  font-size: 0.66rem;
+  font-weight: 600;
+  color: #6B5F4F;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  margin: 0.18rem 0 0;
+  white-space: nowrap;
+}
+
+.chapter-pager__btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.45rem;
+  min-height: 44px;
+  padding: 0.55rem 0.95rem;
+  border-radius: 999px;
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  color: var(--wine, #7A2F3D);
+  background: transparent;
+  border: 1px solid rgba(122, 47, 61, 0.18);
+  text-decoration: none;
+  transition: background 0.15s ease, border-color 0.15s ease, transform 0.1s ease;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.chapter-pager__btn:hover {
+  background: rgba(122, 47, 61, 0.07);
+  border-color: rgba(122, 47, 61, 0.32);
+}
+.chapter-pager__btn:active { transform: scale(0.97); }
+
+.chapter-pager__btn--next {
+  justify-content: flex-end;
+  justify-self: end;
+}
+.chapter-pager__btn:not(.chapter-pager__btn--next) {
+  justify-self: start;
+}
+
+.chapter-pager__btn svg {
+  width: 14px;
+  height: 14px;
+}
+
+.chapter-pager__btn--disabled {
+  color: rgba(0, 0, 0, 0.30);
+  border-color: rgba(0, 0, 0, 0.06);
+  background: transparent;
+  cursor: default;
+  pointer-events: none;
+}
+.chapter-pager__btn--disabled:hover {
+  background: transparent;
+  border-color: rgba(0, 0, 0, 0.06);
+}
+
+/* Mobile — collapse arrows-only state, keep center signature visible. */
+@media (max-width: 540px) {
+  .chapter-pager {
+    padding: 1rem 0.85rem;
+  }
+  .chapter-pager__row {
+    gap: 0.5rem;
+  }
+  .chapter-pager__btn {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.8rem;
+  }
+  .chapter-pager__btn span {
+    display: none;
+  }
+  .chapter-pager__btn svg {
+    width: 18px;
+    height: 18px;
+  }
+  .chapter-pager__book {
+    font-size: 0.9rem;
+  }
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  .chapter-pager {
+    background: rgba(255, 255, 255, 0.04);
+    border-color: rgba(255, 255, 255, 0.06);
+  }
+  .chapter-pager__book { color: #F5F2EC; }
+  .chapter-pager__count { color: #B8AE9F; }
+  .chapter-pager__btn {
+    color: #E0A4B0;
+    border-color: rgba(224, 164, 176, 0.22);
+  }
+  .chapter-pager__btn:hover {
+    background: rgba(224, 164, 176, 0.08);
+    border-color: rgba(224, 164, 176, 0.4);
+  }
+  .chapter-pager__btn--disabled {
+    color: rgba(255, 255, 255, 0.22);
+    border-color: rgba(255, 255, 255, 0.06);
+  }
+}
+
+/* Reader theme override (light parchment on dark / dark on dark via
+   data-reader-theme on <html>). Keep parity with the rest of the
+   chapter reader's dark mode. */
+html[data-reader-theme="dark"] .chapter-pager {
+  background: rgba(255, 255, 255, 0.04);
+  border-color: rgba(255, 255, 255, 0.06);
+}
+html[data-reader-theme="dark"] .chapter-pager__book { color: #F5F2EC; }
+html[data-reader-theme="dark"] .chapter-pager__count { color: #B8AE9F; }
+html[data-reader-theme="dark"] .chapter-pager__btn {
+  color: #E0A4B0;
+  border-color: rgba(224, 164, 176, 0.22);
+}
+html[data-reader-theme="dark"] .chapter-pager__btn:hover {
+  background: rgba(224, 164, 176, 0.08);
+  border-color: rgba(224, 164, 176, 0.4);
+}
