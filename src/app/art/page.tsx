@@ -69,10 +69,10 @@ const SHOWCASE_ROWS = [
   {
     title: '19th-century Bible illustrators',
     subtitle:
-      "Gustave Doré's 241 wood engravings, James Tissot's Brooklyn watercolors, Schnorr von Carolsfeld's German Picture Bible — the popular illustrated Bibles that shaped modern visual imagination.",
+      "Gustave Doré's 241 wood engravings, Schnorr von Carolsfeld's German Picture Bible — the popular illustrated Bibles that shaped modern visual imagination.",
     kicker: 'Style',
-    sources: ['dore', 'tissot', 'schnorr'],
-    seeAllHref: '/art/browse?artist=gustave-dore&artist=james-tissot&artist=julius-schnorr-von-carolsfeld&era=modern',
+    sources: ['dore', 'schnorr'],
+    seeAllHref: '/art/browse?artist=gustave-dore&artist=julius-schnorr-von-carolsfeld&era=modern',
   },
   {
     title: 'From the great museums',
@@ -81,6 +81,47 @@ const SHOWCASE_ROWS = [
     kicker: 'Source',
     sources: ['met_openaccess', 'rijksmuseum'],
     seeAllHref: '/art/browse?sort=popular',
+  },
+  /* ── Five additional themed rows added below ── */
+  {
+    title: "Caravaggio's chiaroscuro",
+    subtitle:
+      'Tenebrist drama from the painter who taught the Baroque how to use light. The Calling of Saint Matthew, the Conversion of Saul, the Supper at Emmaus.',
+    kicker: 'Artist',
+    sources: ['caravaggio'],
+    seeAllHref: '/art/artist/caravaggio',
+  },
+  {
+    title: "Rembrandt's gospel scenes",
+    subtitle:
+      "The Return of the Prodigal Son, Christ in the Storm on the Sea of Galilee, Belshazzar's Feast — Rembrandt's tender, light-soaked biblical paintings.",
+    kicker: 'Artist',
+    sources: ['rembrandt'],
+    seeAllHref: '/art/artist/rembrandt-van-rijn',
+  },
+  {
+    title: "Doré's Bible engravings",
+    subtitle:
+      'Two hundred and forty-one wood engravings published in 1866, the most widely reproduced visual Bible of the modern era.',
+    kicker: 'Artist',
+    sources: ['dore'],
+    seeAllHref: '/art/artist/gustave-dore',
+  },
+  {
+    title: 'The Italian Trecento',
+    subtitle:
+      'Giotto and Duccio at the dawn of Renaissance painting — gold-ground panels that taught Europe how to render sacred figures with weight, gesture, and inner life.',
+    kicker: 'Era',
+    sources: ['giotto', 'duccio'],
+    seeAllHref: '/art/browse?artist=giotto-di-bondone&artist=duccio-di-buoninsegna&era=medieval',
+  },
+  {
+    title: 'Madonnas of the Renaissance',
+    subtitle:
+      'Raphael, Fra Angelico, Bellini, Botticelli — the painters who gave Western Christianity its enduring image of the Virgin and Child.',
+    kicker: 'Theme',
+    sources: ['raphael', 'fra-angelico', 'bellini', 'botticelli', 'lippi'],
+    seeAllHref: '/art/browse?artist=raphael-sanzio&artist=fra-angelico&artist=giovanni-bellini&artist=sandro-botticelli&artist=fra-filippo-lippi',
   },
 ] as const;
 
@@ -106,31 +147,58 @@ const PULL_QUOTES = [
 ];
 
 export default async function ArtShowcasePage() {
+  // Tissot gets a dedicated top row (350+ Brooklyn Museum watercolors —
+  // a featured collection in its own right, not lumped in with other
+  // illustrators).
   const [
     booksWithArt,
     heroArtwork,
     featuredArtist,
+    tissot,
     renaissance,
     devotional,
     romantic,
     icons,
     illustrators,
     museums,
+    caravaggio,
+    rembrandt,
+    dore,
+    trecento,
+    madonnas,
     manuscripts,
   ] = await Promise.all([
     getBooksWithArt(),
     getFeaturedHeroArtwork(),
     getFeaturedArtistShowcase(),
+    getArtworksBySources(['tissot'], 24),
     getArtworksBySources(SHOWCASE_ROWS[0].sources as unknown as string[], 18),
     getArtworksBySources(SHOWCASE_ROWS[1].sources as unknown as string[], 18),
     getArtworksBySources(SHOWCASE_ROWS[2].sources as unknown as string[], 18),
     getArtworksBySources(SHOWCASE_ROWS[3].sources as unknown as string[], 18),
     getArtworksBySources(SHOWCASE_ROWS[4].sources as unknown as string[], 18),
     getArtworksBySources(SHOWCASE_ROWS[5].sources as unknown as string[], 18),
+    getArtworksBySources(SHOWCASE_ROWS[6].sources as unknown as string[], 18),
+    getArtworksBySources(SHOWCASE_ROWS[7].sources as unknown as string[], 18),
+    getArtworksBySources(SHOWCASE_ROWS[8].sources as unknown as string[], 18),
+    getArtworksBySources(SHOWCASE_ROWS[9].sources as unknown as string[], 18),
+    getArtworksBySources(SHOWCASE_ROWS[10].sources as unknown as string[], 18),
     getManuscriptArtworks(18),
   ]);
 
-  const rowData = [renaissance, devotional, romantic, icons, illustrators, museums];
+  const rowData = [
+    renaissance,
+    devotional,
+    romantic,
+    icons,
+    illustrators,
+    museums,
+    caravaggio,
+    rembrandt,
+    dore,
+    trecento,
+    madonnas,
+  ];
 
   // Pull a representative dominant_color from each row's leading artwork
   // so the kicker gets a tiny color dot that signatures the section.
@@ -148,6 +216,22 @@ export default async function ArtShowcasePage() {
         <BreadcrumbNav items={[{ label: 'Art', href: '#' }]} />
 
         <ArtFilterBar totalCount={approxTotal} bookCount={booksWithArt.length} />
+
+        {/* Tissot top row — leads the showcase. James Tissot's 350+
+            Brooklyn Museum watercolors are arguably the most-reproduced
+            biblical paintings of the modern era and deserve a dedicated
+            band above the broader style rows. */}
+        {tissot.length > 0 && (
+          <ArtRowCarousel
+            title="James Tissot · The Life of Christ"
+            subtitle="Three hundred and sixty-five gouache-on-board paintings completed between 1886 and 1894 — Tissot's pilgrimage to the Holy Land turned into a visual gospel."
+            kicker="Featured"
+            seeAllHref="/art/artist/james-tissot"
+            artworks={tissot}
+            priorityFirst={!heroArtwork}
+            accentColor={tissot.find((w) => !!w.dominant_color)?.dominant_color ?? null}
+          />
+        )}
 
         {/* Featured artist — magazine-style mosaic above the style rows. */}
         {featuredArtist && (

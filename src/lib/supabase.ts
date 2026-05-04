@@ -459,16 +459,29 @@ export async function getManuscriptArtworks(limit: number): Promise<ArtworkWithA
 
 /**
  * Pick one "hero-worthy" artwork for the cinematic hero on /art.
- * Deterministic daily rotation: same artwork all day, different the next.
- * Pool: well-known masters with description + pre-rendered 800px thumb,
- * skipping manuscript folios (they don't read as a hero image).
+ *
+ * Curated pool of ~40 striking paintings. Daily deterministic rotation:
+ * same artwork all day, different the next. Aggressive exclusions on
+ * manuscript folios, marginal psalter art, and icons — the user wants
+ * famous paintings, not text-heavy parchment.
  */
 export async function getFeaturedHeroArtwork(): Promise<ArtworkWithArtist | null> {
+  // Source allowlist — only sources known to ship full-painting works.
+  // Dropped `theophanes`, `gap_fill`, and museum/manuscript catch-alls
+  // because they leak marginal psalter art and codex pages into the pool.
   const HERO_SOURCES = [
     'caravaggio', 'rembrandt', 'michelangelo', 'raphael', 'rubens',
-    'fra-angelico', 'tissot', 'bloch', 'bouguereau', 'blake',
-    'gap_fill', // includes Hicks Peaceable Kingdom, Holman Hunt Light of the World
+    'fra-angelico', 'tissot', 'bloch', 'bouguereau', 'blake', 'dore',
   ];
+
+  // Tag exclusions — anything that looks like a manuscript, icon, folio,
+  // marginal illustration, or codex page is out.
+  const EXCLUDE_TAGS = ['manuscript-page', 'folio', 'icon', 'marginal', 'psalter', 'codex'];
+
+  // Title-substring exclusions — last-line defense against artworks that
+  // didn't get tagged correctly (e.g. "Khludov Psalter, fol. 67r").
+  const EXCLUDE_TITLE_PATTERNS = /\b(?:psalter|folio|fol\.|codex|miniature|illuminated|marginalia|page \d+|f\.\s*\d+r?)\b/i;
+
   const { data, error } = await supabaseServer
     .from('artworks')
     .select(`
@@ -485,19 +498,27 @@ export async function getFeaturedHeroArtwork(): Promise<ArtworkWithArtist | null
     .not('thumbnail_800_url', 'is', null)
     .not('description', 'is', null)
     .order('scripture_ref_count', { ascending: false })
-    .limit(80);
+    .limit(120);
 
   if (error || !data || data.length === 0) {
     console.error('Error fetching hero artwork:', error);
     return null;
   }
 
-  // Filter out manuscript-page tags client-side (Postgres .not('tags','cs','{...}')
-  // is awkward and overfetching here is cheap).
   type Raw = Artwork & { artist: Artist | Artist[] | null };
-  const pool = (data as Raw[]).filter(
-    (a) => !(a.tags?.includes('manuscript-page') ?? false),
-  );
+
+  // Apply tag + title filters client-side, then cap at the 40 most
+  // scripture-referenced survivors. That gives a stable, well-known pool
+  // that rotates daily.
+  const pool = (data as Raw[])
+    .filter((a) => {
+      const tags = a.tags ?? [];
+      if (EXCLUDE_TAGS.some((t) => tags.includes(t))) return false;
+      if (EXCLUDE_TITLE_PATTERNS.test(a.title)) return false;
+      return true;
+    })
+    .slice(0, 40);
+
   if (pool.length === 0) return null;
 
   // Deterministic daily rotation — same hero all day, refresh next day.

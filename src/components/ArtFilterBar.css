@@ -1,6 +1,6 @@
 /* Compact filter bar shown above the showcase carousels on /art.
-   Airbnb-style: one slim pill row, no sea of bubbles. The full
-   faceted-search UI lives behind the "All filters" link → /art/browse. */
+   Mirrors the navbar's floating-pill recipe so the page reads as one
+   liquid-glass material. */
 
 .art-filter-bar {
   margin: 1.25rem 0 2.5rem;
@@ -9,24 +9,27 @@
 .art-filter-bar__row {
   display: flex;
   align-items: stretch;
-  gap: 0;
-  padding: 0.375rem;
-  /* Vesper Frost — uses shared tokens so it reads as part of the
-     same material as every other surface on the site. */
-  background: var(--frost-tint-card);
-  -webkit-backdrop-filter: var(--frost-blur-card);
-  backdrop-filter: var(--frost-blur-card);
-  border: 1px solid var(--frost-border-card);
+  gap: 0.25rem;
+  /* Mostly-opaque parchment cream pill — same recipe as .site-nav__bar
+     so the bar reads as a sibling of the navbar, not a competing UI. */
+  background: rgba(245, 240, 230, 0.92);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  backdrop-filter: blur(20px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.55);
   border-radius: 999px;
-  box-shadow: var(--frost-shadow);
-  color: var(--frost-text);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.7),
+    0 10px 32px -10px rgba(26, 22, 18, 0.20);
+  color: var(--vesper-compline);
+  padding: 0.375rem;
+  height: 56px;
 }
 
 .art-filter-bar__field {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  padding: 0.625rem 1rem;
+  padding: 0 1.25rem;
   position: relative;
   cursor: pointer;
   border-radius: 999px;
@@ -35,17 +38,17 @@
 }
 
 .art-filter-bar__field:hover {
-  background: rgba(0, 0, 0, 0.04);
+  background: rgba(26, 22, 18, 0.04);
 }
 
 .art-filter-bar__field + .art-filter-bar__field::before {
   content: '';
   position: absolute;
   left: 0;
-  top: 18%;
-  bottom: 18%;
+  top: 22%;
+  bottom: 22%;
   width: 1px;
-  background: rgba(0, 0, 0, 0.08);
+  background: rgba(26, 22, 18, 0.08);
 }
 .art-filter-bar__field:hover + .art-filter-bar__field::before,
 .art-filter-bar__field + .art-filter-bar__field:hover::before {
@@ -60,9 +63,9 @@
 }
 
 .art-filter-bar__label {
-  font-size: 0.6875rem;
-  font-weight: 600;
-  letter-spacing: 0.06em;
+  font-size: 0.6125rem;
+  font-weight: 700;
+  letter-spacing: 0.10em;
   text-transform: uppercase;
   color: var(--color-tertiary-label);
 }
@@ -79,7 +82,7 @@
   background: transparent;
   font-size: 0.9375rem;
   font-family: inherit;
-  color: var(--color-label);
+  color: var(--vesper-compline);
   padding: 0;
   outline: none;
 }
@@ -87,49 +90,69 @@
   color: var(--color-tertiary-label);
 }
 
-/* Select fields — kicker label + native select that's styled flush */
+/* Select fields — kicker label above the value, native chevron is
+   hidden, our own chevron is painted inline so it always sits to the
+   right of the value (used to drift right of the kicker on long
+   labels — that bug is gone). */
 .art-filter-bar__field--select {
   flex-direction: column;
   align-items: flex-start;
-  gap: 0.0625rem;
-  padding: 0.5rem 1.125rem;
+  gap: 0;
+  padding: 0.375rem 1rem 0.375rem 1.25rem;
+}
+.art-filter-bar__field--select::after {
+  content: '';
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  width: 10px;
+  height: 6px;
+  margin-top: 1px;          /* nudge optical-center down to match value */
+  background-color: currentColor;
+  color: var(--color-tertiary-label);
+  -webkit-mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8' fill='none' stroke='%23000' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M1 1l5 5 5-5'/></svg>") no-repeat center / contain;
+          mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8' fill='none' stroke='%23000' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M1 1l5 5 5-5'/></svg>") no-repeat center / contain;
+  pointer-events: none;
 }
 .art-filter-bar__field--select select {
   appearance: none;
+  -webkit-appearance: none;
   border: none;
   background: transparent;
   font-size: 0.875rem;
-  font-weight: 500;
+  font-weight: 600;
   font-family: inherit;
-  color: var(--color-label);
-  padding: 0;
+  color: var(--vesper-compline);
+  padding: 0 1.5rem 0 0;     /* room for the painted chevron */
   cursor: pointer;
   outline: none;
-  /* Hide the native arrow — the field itself looks like a pill */
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8' fill='none' stroke='%23999'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='1.6' d='M1 1l5 5 5-5'/></svg>");
-  background-repeat: no-repeat;
-  background-position: right 0 center;
-  padding-right: 1.125rem;
 }
 
-/* "All filters" CTA — the only colored pill in the bar */
+/* "All filters" CTA — frost pill matching the .btn-primary recipe so the
+   bar holds together as one piece of glass instead of a black button on
+   cream. */
 .art-filter-bar__all {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  padding: 0.625rem 1.125rem;
-  background: var(--color-label, #1D1D1F);
-  color: var(--color-surface, #fff);
+  padding: 0 1.25rem;
+  height: 100%;
+  background: var(--frost-tint);
+  -webkit-backdrop-filter: var(--frost-blur);
+  backdrop-filter: var(--frost-blur);
+  border: 1px solid var(--frost-border);
+  color: var(--vesper-compline);
   border-radius: 999px;
-  font-size: 0.875rem;
+  font-size: 0.8125rem;
   font-weight: 600;
   text-decoration: none;
   flex-shrink: 0;
-  transition: opacity 0.15s ease, transform 0.15s ease;
-  margin-left: 0.375rem;
+  margin-left: 0.25rem;
+  transition: background 0.15s ease, transform 0.15s ease;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.45);
 }
 .art-filter-bar__all:hover {
-  opacity: 0.85;
+  background: var(--frost-tint-hover);
   transform: translateY(-1px);
 }
 .art-filter-bar__all svg {
@@ -140,7 +163,7 @@
 
 .art-filter-bar__meta {
   margin: 0.625rem 0 0;
-  padding: 0 0.5rem;
+  padding: 0 1rem;
   text-align: right;
   font-size: 0.75rem;
   color: var(--color-tertiary-label);
@@ -151,22 +174,28 @@
 @media (max-width: 720px) {
   .art-filter-bar__row {
     flex-wrap: wrap;
-    border-radius: 18px;
+    border-radius: 24px;
     padding: 0.5rem;
     gap: 0.25rem;
+    height: auto;
   }
   .art-filter-bar__field--search {
     width: 100%;
-    border-radius: 14px;
-    background: rgba(0, 0, 0, 0.03);
+    border-radius: 18px;
+    background: rgba(26, 22, 18, 0.04);
+    padding: 0.65rem 1rem;
   }
   .art-filter-bar__field--select {
     flex: 1 1 calc(50% - 4rem);
-    background: rgba(0, 0, 0, 0.03);
-    border-radius: 14px;
+    background: rgba(26, 22, 18, 0.04);
+    border-radius: 18px;
     flex-direction: row;
     align-items: center;
     gap: 0.5rem;
+    padding: 0.6rem 2rem 0.6rem 1rem;
+  }
+  .art-filter-bar__field--select::after {
+    right: 0.85rem;
   }
   .art-filter-bar__field--select .art-filter-bar__label {
     display: none;
@@ -190,19 +219,28 @@
 
 /* Dark mode */
 html[data-reader-theme="dark"] .art-filter-bar__row {
-  background: var(--color-surface, #1c1c1e);
-  border-color: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.10);
+  color: var(--vesper-parchment);
   box-shadow:
-    0 1px 2px rgba(0, 0, 0, 0.3),
-    0 8px 24px rgba(0, 0, 0, 0.4);
+    inset 0 1px 0 rgba(255, 255, 255, 0.10),
+    0 10px 32px -10px rgba(0, 0, 0, 0.55);
 }
 html[data-reader-theme="dark"] .art-filter-bar__field:hover {
   background: rgba(255, 255, 255, 0.06);
 }
 html[data-reader-theme="dark"] .art-filter-bar__field + .art-filter-bar__field::before {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.10);
+}
+html[data-reader-theme="dark"] .art-filter-bar__field--search input,
+html[data-reader-theme="dark"] .art-filter-bar__field--select select {
+  color: var(--vesper-parchment);
 }
 html[data-reader-theme="dark"] .art-filter-bar__all {
-  background: #fff;
-  color: #1c1c1e;
+  background: rgba(255, 255, 255, 0.10);
+  color: var(--vesper-parchment);
+  border-color: rgba(255, 255, 255, 0.15);
+}
+html[data-reader-theme="dark"] .art-filter-bar__all:hover {
+  background: rgba(255, 255, 255, 0.16);
 }
