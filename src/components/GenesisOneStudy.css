@@ -200,17 +200,20 @@ html[data-reader-theme="dark"] .rich-study .kjv-note .kjv-note-close:hover {
 
 /* Paper grain — repeating SVG fractal noise tile. Sits at z-index 0
    under the scripture text. mix-blend-mode multiply darkens the bumps
-   (tan fibers) and leaves the bright spots paper-coloured. */
+   (tan fibers) and leaves the bright spots paper-coloured.
+
+   Heavier alpha + lower baseFrequency than a typical noise overlay so
+   the texture reads as visible paper fiber, not subliminal grain. */
 .rich-study .scripture::before {
   content: '';
   position: absolute;
   inset: 0;
   z-index: 0;
   pointer-events: none;
-  background-image: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220' viewBox='0 0 220 220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.45  0 0 0 0 0.36  0 0 0 0 0.26  0 0 0 0.18 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
-  background-size: 220px 220px;
+  background-image: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='320' height='320' viewBox='0 0 320 320'%3E%3Cfilter id='n' x='0' y='0' width='100%25' height='100%25'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch' seed='7'/%3E%3CfeColorMatrix values='0 0 0 0 0.40  0 0 0 0 0.30  0 0 0 0 0.18  0 0 0 0.55 0'/%3E%3C/filter%3E%3Crect width='320' height='320' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 320px 320px;
   background-repeat: repeat;
-  opacity: 0.55;
+  opacity: 0.85;
   mix-blend-mode: multiply;
   border-radius: inherit;
 }
