@@ -4,12 +4,18 @@ import {
   getArtworksBySources,
   getManuscriptArtworks,
   getBooksWithArt,
+  getArtistsWithArt,
   getFeaturedHeroArtwork,
   getFeaturedArtistShowcase,
+  getFilteredArtworks,
+  decodeCursor,
+  encodeCursor,
+  type ArtSort,
 } from '@/lib/supabase';
 import BreadcrumbNav from '@/components/BreadcrumbNav';
 import ArtRowCarousel from '@/components/ArtRowCarousel';
 import ArtFilterBar from '@/components/ArtFilterBar';
+import ArtCard from '@/components/ArtCard';
 import ArtShowcaseHero from '@/components/ArtShowcaseHero';
 import ArtFeaturedArtist from '@/components/ArtFeaturedArtist';
 
@@ -32,6 +38,12 @@ export const metadata: Metadata = {
   },
 };
 
+const VALID_SORTS: ArtSort[] = [
+  'recent', 'oldest', 'az', 'za', 'year_asc', 'year_desc', 'popular', 'relevance',
+];
+
+const RESULTS_PAGE_SIZE = 48;
+
 const SHOWCASE_ROWS = [
   {
     title: 'Renaissance & Baroque masters',
@@ -39,7 +51,7 @@ const SHOWCASE_ROWS = [
       'Caravaggio, Michelangelo, Raphael, Rembrandt, Rubens, Fra Angelico — the painters who shaped Western religious imagery.',
     kicker: 'Style',
     sources: ['caravaggio', 'michelangelo', 'raphael', 'rembrandt', 'rubens', 'fra-angelico', 'giotto', 'duccio'],
-    seeAllHref: '/art/browse?era=renaissance&era=baroque&era=medieval&sort=year_asc',
+    seeAllHref: '/art?era=renaissance&era=baroque&era=medieval&sort=year_asc',
   },
   {
     title: 'Devotional realism',
@@ -48,7 +60,7 @@ const SHOWCASE_ROWS = [
     kicker: 'Style',
     sources: ['bloch', 'hofmann', 'bouguereau', 'plockhorst'],
     seeAllHref:
-      '/art/browse?artist=carl-bloch&artist=heinrich-hofmann&artist=william-adolphe-bouguereau&artist=bernhard-plockhorst',
+      '/art?artist=carl-bloch&artist=heinrich-hofmann&artist=william-adolphe-bouguereau&artist=bernhard-plockhorst',
   },
   {
     title: 'Romantic & visionary',
@@ -56,7 +68,7 @@ const SHOWCASE_ROWS = [
       "William Blake's apocalyptic visions, Edward Hicks's Peaceable Kingdoms, Holman Hunt's Pre-Raphaelite light.",
     kicker: 'Style',
     sources: ['blake', 'gap_fill'],
-    seeAllHref: '/art/browse?artist=william-blake&artist=edward-hicks&artist=william-holman-hunt&artist=george-frederic-watts&artist=thomas-cole',
+    seeAllHref: '/art?artist=william-blake&artist=edward-hicks&artist=william-holman-hunt&artist=george-frederic-watts&artist=thomas-cole',
   },
   {
     title: 'Russian & Byzantine icons',
@@ -64,7 +76,7 @@ const SHOWCASE_ROWS = [
       'Andrei Rublev and Theophanes the Greek, plus the marginal psalters that survived the Iconoclast Controversy.',
     kicker: 'Style',
     sources: ['rublev', 'theophanes'],
-    seeAllHref: '/art/browse?artist=andrei-rublev&artist=theophanes-the-greek&artist=khludov-master',
+    seeAllHref: '/art?artist=andrei-rublev&artist=theophanes-the-greek&artist=khludov-master',
   },
   {
     title: '19th-century Bible illustrators',
@@ -72,7 +84,7 @@ const SHOWCASE_ROWS = [
       "Gustave Doré's 241 wood engravings, Schnorr von Carolsfeld's German Picture Bible — the popular illustrated Bibles that shaped modern visual imagination.",
     kicker: 'Style',
     sources: ['dore', 'schnorr'],
-    seeAllHref: '/art/browse?artist=gustave-dore&artist=julius-schnorr-von-carolsfeld&era=modern',
+    seeAllHref: '/art?artist=gustave-dore&artist=julius-schnorr-von-carolsfeld&era=modern',
   },
   {
     title: 'From the great museums',
@@ -80,16 +92,15 @@ const SHOWCASE_ROWS = [
       'Public-domain works from the Metropolitan Museum and Rijksmuseum, including Renaissance Madonnas, Dutch genre scenes, and devotional prints.',
     kicker: 'Source',
     sources: ['met_openaccess', 'rijksmuseum'],
-    seeAllHref: '/art/browse?sort=popular',
+    seeAllHref: '/art?sort=popular',
   },
-  /* ── Five additional themed rows added below ── */
   {
     title: "Caravaggio's chiaroscuro",
     subtitle:
       'Tenebrist drama from the painter who taught the Baroque how to use light. The Calling of Saint Matthew, the Conversion of Saul, the Supper at Emmaus.',
     kicker: 'Artist',
     sources: ['caravaggio'],
-    seeAllHref: '/art/artist/caravaggio',
+    seeAllHref: '/art?artist=caravaggio',
   },
   {
     title: "Rembrandt's gospel scenes",
@@ -97,7 +108,7 @@ const SHOWCASE_ROWS = [
       "The Return of the Prodigal Son, Christ in the Storm on the Sea of Galilee, Belshazzar's Feast — Rembrandt's tender, light-soaked biblical paintings.",
     kicker: 'Artist',
     sources: ['rembrandt'],
-    seeAllHref: '/art/artist/rembrandt-van-rijn',
+    seeAllHref: '/art?artist=rembrandt-van-rijn',
   },
   {
     title: "Doré's Bible engravings",
@@ -105,7 +116,7 @@ const SHOWCASE_ROWS = [
       'Two hundred and forty-one wood engravings published in 1866, the most widely reproduced visual Bible of the modern era.',
     kicker: 'Artist',
     sources: ['dore'],
-    seeAllHref: '/art/artist/gustave-dore',
+    seeAllHref: '/art?artist=gustave-dore',
   },
   {
     title: 'The Italian Trecento',
@@ -113,7 +124,7 @@ const SHOWCASE_ROWS = [
       'Giotto and Duccio at the dawn of Renaissance painting — gold-ground panels that taught Europe how to render sacred figures with weight, gesture, and inner life.',
     kicker: 'Era',
     sources: ['giotto', 'duccio'],
-    seeAllHref: '/art/browse?artist=giotto-di-bondone&artist=duccio-di-buoninsegna&era=medieval',
+    seeAllHref: '/art?artist=giotto-di-bondone&artist=duccio-di-buoninsegna&era=medieval',
   },
   {
     title: 'Madonnas of the Renaissance',
@@ -121,16 +132,10 @@ const SHOWCASE_ROWS = [
       'Raphael, Fra Angelico, Bellini, Botticelli — the painters who gave Western Christianity its enduring image of the Virgin and Child.',
     kicker: 'Theme',
     sources: ['raphael', 'fra-angelico', 'bellini', 'botticelli', 'lippi'],
-    seeAllHref: '/art/browse?artist=raphael-sanzio&artist=fra-angelico&artist=giovanni-bellini&artist=sandro-botticelli&artist=fra-filippo-lippi',
+    seeAllHref: '/art?artist=raphael-sanzio&artist=fra-angelico&artist=giovanni-bellini&artist=sandro-botticelli&artist=fra-filippo-lippi',
   },
 ] as const;
 
-/**
- * Italic scripture pull-quotes that sit between major sections — a small
- * editorial moment that breaks up the rhythm and connects the art back to
- * the reason any of it exists. We rotate through them in sequence and
- * stop once we run out, leaving the remaining rows undivided.
- */
 const PULL_QUOTES = [
   {
     text: 'Behold, I make all things new.',
@@ -146,12 +151,145 @@ const PULL_QUOTES = [
   },
 ];
 
-export default async function ArtShowcasePage() {
-  // Tissot gets a dedicated top row (350+ Brooklyn Museum watercolors —
-  // a featured collection in its own right, not lumped in with other
-  // illustrators).
+function asStringArray(v: string | string[] | undefined): string[] {
+  if (v == null) return [];
+  if (Array.isArray(v)) return v.filter(Boolean);
+  return v.split(',').map((s) => s.trim()).filter(Boolean);
+}
+
+interface ArtPageProps {
+  searchParams: Promise<{
+    q?: string;
+    book?: string | string[];
+    artist?: string | string[];
+    era?: string | string[];
+    character?: string | string[];
+    theme?: string | string[];
+    testament?: string;
+    sort?: string;
+    cursor?: string;
+  }>;
+}
+
+export default async function ArtShowcasePage({ searchParams }: ArtPageProps) {
+  const params = await searchParams;
+  const q = (params.q || '').trim();
+  const bookFilter = asStringArray(params.book);
+  const artistFilter = asStringArray(params.artist);
+  const eraFilter = asStringArray(params.era);
+  const characterFilter = asStringArray(params.character);
+  const themeFilter = asStringArray(params.theme);
+  const testament =
+    params.testament === 'old' || params.testament === 'new' ? params.testament : null;
+  const sortRaw = (params.sort || 'recent').trim() as ArtSort;
+  let sort: ArtSort = VALID_SORTS.includes(sortRaw) ? sortRaw : 'recent';
+  if (q && !params.sort) sort = 'relevance';
+
+  const hasFilters = !!(
+    q ||
+    bookFilter.length || artistFilter.length || eraFilter.length ||
+    characterFilter.length || themeFilter.length ||
+    testament || (params.sort && sort !== 'recent')
+  );
+
+  // Always load the books + artists facets — used by the drawer for
+  // multi-select chips + by the showcase footer for "Browse by book".
+  const [booksWithArt, artistsWithArt] = await Promise.all([
+    getBooksWithArt(),
+    getArtistsWithArt(),
+  ]);
+
+  // ─── Filtered results path ─── replaces showcase rows when any filter
+  // is active. Same recipe as the old /art/browse page, just in-page.
+  if (hasFilters) {
+    const cursor = decodeCursor(params.cursor);
+    const result = await getFilteredArtworks({
+      q,
+      book: bookFilter,
+      artist: artistFilter,
+      era: eraFilter,
+      character: characterFilter,
+      theme: themeFilter,
+      testament,
+      sort,
+      limit: RESULTS_PAGE_SIZE,
+      cursor,
+    });
+    const { artworks, total, nextCursor } = result;
+    const remaining = Math.max(0, total - artworks.length);
+
+    // Build "Show more" href preserving every active filter.
+    const nextParams = new URLSearchParams();
+    if (q) nextParams.set('q', q);
+    for (const b of bookFilter) nextParams.append('book', b);
+    for (const a of artistFilter) nextParams.append('artist', a);
+    for (const e of eraFilter) nextParams.append('era', e);
+    for (const c of characterFilter) nextParams.append('character', c);
+    for (const t of themeFilter) nextParams.append('theme', t);
+    if (testament) nextParams.set('testament', testament);
+    if (sort !== 'recent' && !(q && sort === 'relevance')) nextParams.set('sort', sort);
+    if (nextCursor) nextParams.set('cursor', encodeCursor(nextCursor));
+    const loadMoreHref = nextCursor ? `/art?${nextParams.toString()}` : null;
+
+    return (
+      <div className="page-container">
+        <div className="max-w-6xl mx-auto">
+          <BreadcrumbNav items={[{ label: 'Art', href: '/art' }, { label: 'Filtered', href: '#' }]} />
+
+          <ArtFilterBar
+            totalCount={total}
+            bookCount={booksWithArt.length}
+            books={booksWithArt.map((b) => ({ slug: b.slug, name: b.name }))}
+            artists={artistsWithArt.map((a) => ({ slug: a.slug, name: a.name, count: a.count }))}
+            initialQuery={q}
+            initialBooks={bookFilter}
+            initialArtists={artistFilter}
+            initialEras={eraFilter}
+            initialCharacters={characterFilter}
+            initialThemes={themeFilter}
+            initialTestament={(testament ?? '') as '' | 'old' | 'new'}
+            initialSort={sort}
+          />
+
+          <section className="mt-2">
+            <h2 className="text-[1.125rem] font-semibold text-[color:var(--color-label)] mb-4 px-1">
+              {total.toLocaleString()} {total === 1 ? 'result' : 'results'}
+            </h2>
+            {artworks.length === 0 ? (
+              <div className="frost-card text-center py-16 px-4">
+                <p className="text-[color:var(--color-label)] font-medium mb-1">No artworks match these filters.</p>
+                <p className="text-[color:var(--color-secondary-label)] text-[0.9375rem]">
+                  Try removing a filter or{' '}
+                  <Link href="/art" className="text-[color:var(--color-primary)] hover:underline">
+                    clear all
+                  </Link>
+                  .
+                </p>
+              </div>
+            ) : (
+              <>
+                <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+                  {artworks.map((art, i) => (
+                    <ArtCard key={art.id} artwork={art} priority={i < 8} />
+                  ))}
+                </div>
+                {loadMoreHref && (
+                  <div className="mt-8 flex justify-center">
+                    <Link href={loadMoreHref} scroll={false} className="btn-primary">
+                      Show more ({remaining.toLocaleString()} remaining)
+                    </Link>
+                  </div>
+                )}
+              </>
+            )}
+          </section>
+        </div>
+      </div>
+    );
+  }
+
+  // ─── Default showcase path ─── no filters → editorial rotation.
   const [
-    booksWithArt,
     heroArtwork,
     featuredArtist,
     tissot,
@@ -168,7 +306,6 @@ export default async function ArtShowcasePage() {
     madonnas,
     manuscripts,
   ] = await Promise.all([
-    getBooksWithArt(),
     getFeaturedHeroArtwork(),
     getFeaturedArtistShowcase(),
     getArtworksBySources(['tissot'], 24),
@@ -187,25 +324,12 @@ export default async function ArtShowcasePage() {
   ]);
 
   const rowData = [
-    renaissance,
-    devotional,
-    romantic,
-    icons,
-    illustrators,
-    museums,
-    caravaggio,
-    rembrandt,
-    dore,
-    trecento,
-    madonnas,
+    renaissance, devotional, romantic, icons, illustrators, museums,
+    caravaggio, rembrandt, dore, trecento, madonnas,
   ];
-
-  // Pull a representative dominant_color from each row's leading artwork
-  // so the kicker gets a tiny color dot that signatures the section.
   const accentColors = rowData.map(
     (works) => works.find((w) => !!w.dominant_color)?.dominant_color ?? null,
   );
-
   const approxTotal = 7800;
 
   return (
@@ -215,12 +339,13 @@ export default async function ArtShowcasePage() {
       <div className="max-w-6xl mx-auto">
         <BreadcrumbNav items={[{ label: 'Art', href: '#' }]} />
 
-        <ArtFilterBar totalCount={approxTotal} bookCount={booksWithArt.length} />
+        <ArtFilterBar
+          totalCount={approxTotal}
+          bookCount={booksWithArt.length}
+          books={booksWithArt.map((b) => ({ slug: b.slug, name: b.name }))}
+          artists={artistsWithArt.map((a) => ({ slug: a.slug, name: a.name, count: a.count }))}
+        />
 
-        {/* Tissot top row — leads the showcase. James Tissot's 350+
-            Brooklyn Museum watercolors are arguably the most-reproduced
-            biblical paintings of the modern era and deserve a dedicated
-            band above the broader style rows. */}
         {tissot.length > 0 && (
           <ArtRowCarousel
             title="James Tissot · The Life of Christ"
@@ -233,7 +358,6 @@ export default async function ArtShowcasePage() {
           />
         )}
 
-        {/* Featured artist — magazine-style mosaic above the style rows. */}
         {featuredArtist && (
           <>
             <ArtFeaturedArtist artist={featuredArtist.artist} works={featuredArtist.works} />
@@ -250,11 +374,9 @@ export default async function ArtShowcasePage() {
                 kicker={row.kicker}
                 seeAllHref={row.seeAllHref}
                 artworks={rowData[i] ?? []}
-                priorityFirst={i === 0 && !heroArtwork}
+                priorityFirst={i === 0 && !heroArtwork && tissot.length === 0}
                 accentColor={accentColors[i]}
               />
-              {/* Drop a pull-quote every two rows for editorial cadence —
-                  but skip the last one so the manuscripts row sits clean. */}
               {(i === 1 || i === 3) && PULL_QUOTES[i === 1 ? 1 : 2] && (
                 <PullQuote {...PULL_QUOTES[i === 1 ? 1 : 2]} />
               )}
@@ -266,7 +388,7 @@ export default async function ArtShowcasePage() {
           title="Ancient Latin manuscripts"
           subtitle="Folios from the oldest surviving Bibles — the Codex Amiatinus (c. 700, Northumbria), the Vivian Bible (845, Tours), and the Stuttgart Psalter (c. 825, Saint-Germain-des-Prés). Most pages are parchment text; some are full-page illuminations."
           kicker="Source"
-          seeAllHref="/art/browse?era=early-christian&era=byzantine&era=medieval&sort=year_asc"
+          seeAllHref="/art?era=early-christian&era=byzantine&era=medieval&sort=year_asc"
           artworks={manuscripts}
         />
 
@@ -277,11 +399,7 @@ export default async function ArtShowcasePage() {
           </p>
           <div className="art-showcase-byBook__grid">
             {booksWithArt.map((b) => (
-              <Link
-                key={b.slug}
-                href={`/art/book/${b.slug}`}
-                className="art-showcase-byBook__chip"
-              >
+              <Link key={b.slug} href={`/art/book/${b.slug}`} className="art-showcase-byBook__chip">
                 {b.name}
               </Link>
             ))}
@@ -292,9 +410,6 @@ export default async function ArtShowcasePage() {
   );
 }
 
-/** Editorial italic pull-quote divider between sections.
- *  (`citation` not `ref` — `ref` is a reserved React prop name and would
- *   trigger React's ref-forwarding behavior instead of being passed through.) */
 function PullQuote({ text, citation }: { text: string; citation: string }) {
   return (
     <div className="art-pullquote" role="presentation">

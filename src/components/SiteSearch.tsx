@@ -125,7 +125,7 @@ export default function SiteSearch({ compact = false }: { compact?: boolean }) {
       } else if (q.trim()) {
         // No typeahead match — fall back to the art search results page.
         e.preventDefault();
-        router.push(`/art/browse?q=${encodeURIComponent(q.trim())}`);
+        router.push(`/art?q=${encodeURIComponent(q.trim())}`);
         setOpen(false);
       }
     } else if (e.key === 'Escape') {
