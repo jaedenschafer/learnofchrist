@@ -447,18 +447,42 @@
   text-align: center;
   max-width: 38rem;
   padding: clamp(2.25rem, 5vw, 3.5rem);
-  border-radius: 28px;
-  /* Heavier opacity so the pane reads as a clean cream square against
-     the peach + gold blob backdrop, the way the reference shot does. */
-  background: rgba(245, 240, 230, 0.96);
+  border-radius: 36px;
+  /* Translucent dark frost — same recipe as the home page's "What
+     should we study?" closer pane. The peach + gold blobs behind it
+     diffuse through the heavy backdrop blur, giving the pane a warm
+     sunset glow without losing contrast on the white text inside. */
+  background: rgba(26, 22, 18, 0.18);
   -webkit-backdrop-filter: blur(28px) saturate(180%);
   backdrop-filter: blur(28px) saturate(180%);
-  border: 1px solid rgba(255, 255, 255, 0.7);
-  color: var(--frost-text);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  color: #FFFFFF;
   box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.85),
-    0 32px 80px -24px rgba(26, 22, 18, 0.32);
+    inset 0 1px 0 rgba(255, 255, 255, 0.35),
+    0 28px 70px -22px rgba(26, 22, 18, 0.45);
   isolation: isolate;
+}
+
+/* Text inside the dark-frost pane needs to flip to white/peach. */
+.lop-closer__pane .lop-closer__title { color: #FFFFFF; }
+.lop-closer__pane .lop-closer__sub   { color: rgba(255, 255, 255, 0.78); }
+.lop-closer__pane .lop-eyebrow,
+.lop-closer__pane .lop-closer__eyebrow { color: var(--vesper-peach); }
+
+/* Re-context the frost tokens so buttons rendered inside the pane
+   (.btn-primary / .btn-outline / .btn-secondary) read as dark-context —
+   white text, translucent white frost — instead of the parchment-cream
+   light-context defaults. */
+.lop-closer__pane {
+  --frost-tint:         rgba(255, 255, 255, 0.16);
+  --frost-tint-card:    rgba(255, 255, 255, 0.18);
+  --frost-tint-hover:   rgba(255, 255, 255, 0.24);
+  --frost-tint-rail:    rgba(255, 255, 255, 0.10);
+  --frost-tint-strong:  rgba(255, 255, 255, 0.22);
+  --frost-border:       rgba(255, 255, 255, 0.20);
+  --frost-border-card:  rgba(255, 255, 255, 0.20);
+  --frost-text:         #FFFFFF;
+  --frost-text-soft:    rgba(255, 255, 255, 0.78);
 }
 
 .lop-closer__eyebrow {
