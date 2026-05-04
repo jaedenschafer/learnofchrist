@@ -705,19 +705,25 @@ html[data-reader-theme="dark"] .card-grouped-item:active { background-color: rgb
 }
 
 /* ─── Pills / Tags — Vesper Frost ─── */
+/* Category / metadata chip — Apple-style eyebrow tag. Smaller, all-caps,
+   wider tracking than a normal text pill so the label sits comfortably
+   inside the chip instead of pressing against the edges. */
 .pill {
   display: inline-flex;
   align-items: center;
-  padding: 0.3rem 0.85rem;
+  padding: 0.32rem 0.75rem;
   border-radius: 980px;
-  font-size: 0.8125rem;
-  font-weight: 600;
-  letter-spacing: 0.005em;
+  font-size: 0.625rem;             /* was 0.8125rem — 13px → 10px */
+  font-weight: 700;
+  letter-spacing: 0.12em;          /* was 0.005em — proper eyebrow tracking */
+  text-transform: uppercase;
+  line-height: 1;
+  white-space: nowrap;
   transition: background 0.2s ease;
   background: var(--frost-tint-strong);
   -webkit-backdrop-filter: var(--frost-blur-pill);
   backdrop-filter: var(--frost-blur-pill);
-  color: var(--frost-text);
+  color: var(--frost-text-soft);
   border: none;
 }
 /* The historic pill-gold and pill-sage variants pre-date the frost
@@ -1417,9 +1423,9 @@ html[data-reader-theme="dark"] .back-link:hover {
   display: grid;
   grid-template-columns: auto 1fr auto;
   align-items: center;
-  gap: 0.75rem;
-  padding: 0.75rem 0;
-  margin-bottom: 0.5rem;
+  gap: 0.6rem;
+  padding: 0.45rem 0 0.4rem;
+  margin-bottom: 0.25rem;
 }
 .study-topbar__chip {
   display: inline-flex;
@@ -1450,24 +1456,30 @@ html[data-reader-theme="dark"] .back-link:hover {
 }
 .study-topbar__title {
   font-family: var(--font-display);
-  font-size: 1rem;
+  font-size: 1.05rem;
   font-weight: 700;
   color: var(--color-label);
   margin: 0;
   letter-spacing: -0.01em;
-  line-height: 1.2;
+  line-height: 1.15;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
 .study-topbar__subtitle {
-  font-size: 0.6875rem;
+  font-size: 0.625rem;
   font-weight: 600;
   color: var(--color-tertiary-label);
-  margin: 0.1rem 0 0;
-  letter-spacing: 0.06em;
+  margin: 0.05rem 0 0;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
-  line-height: 1.2;
+  line-height: 1.1;
+}
+@media (max-width: 540px) {
+  /* Below 540px the testament eyebrow is just noise — the chapter title
+     already conveys context, and dropping it lets the bar fit on one
+     line without wrapping. */
+  .study-topbar__subtitle { display: none; }
 }
 .study-topbar__actions {
   position: relative;
@@ -1486,8 +1498,8 @@ html[data-reader-theme="dark"] .back-link:hover {
   padding-right: 0.25rem;
 }
 .study-topbar__icon-btn {
-  width: 36px;
-  height: 36px;
+  width: 40px;
+  height: 40px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -1502,6 +1514,11 @@ html[data-reader-theme="dark"] .back-link:hover {
 .study-topbar__icon-btn svg {
   width: 18px;
   height: 18px;
+}
+@media (max-width: 540px) {
+  /* iOS HIG / WCAG 2.1 minimum touch target — the 40px desktop size is
+     too tight on touch devices. */
+  .study-topbar__icon-btn { width: 44px; height: 44px; }
 }
 .study-topbar__menu {
   position: absolute;
