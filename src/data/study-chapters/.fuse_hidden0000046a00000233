@@ -1,0 +1,766 @@
+import { hp, hy, hg, t, verse, plain, type RichChapterContent } from './types';
+
+export const HEBREWS_12: RichChapterContent = {
+  bookSlug: 'hebrews',
+  bookName: 'Hebrews',
+  chapter: 12,
+
+  estimatedMinutes: { beginner: 10, intermediate: 17, deep: 27 },
+  intros: [
+    'Hebrews 12 moves from the hall of faith (chapter 11—the cloud of witnesses, those who ran before you) to your own race. You are not watching from the stands. You are in the middle of the track. The witnesses see you run. And you run looking unto Jesus, who endured the cross and is now seated at the right hand of God. This chapter teaches you what to lay aside, what to look toward, how to interpret God&apos;s discipline, and what it means to approach His holy throne.',
+    'The chapter builds to a moment of terrible clarity: &ldquo;our God is a consuming fire.&rdquo; But the verse that precedes it holds the whole thing together: You are receiving a kingdom that cannot be shaken. Fear, then, not because you are alone, but because you belong to the living God. The discipline, the shame, the cost of the race—all of it is happening inside a family where you are beloved.',
+  ],
+
+  opener: {
+    matchArtist: /tissot/i,
+    matchTitle: /witnesses|race|running/i,
+    caption: 'The Cloud of Witnesses — Hebrews 12',
+  },
+
+  sections: [
+    {
+      ref: 'Hebrews 12:1a',
+      title: 'The Cloud of Witnesses',
+      blocks: [
+        {
+          kind: 'scripture',
+          chapter: 12,
+          lines: [
+            {
+              number: 1,
+              spans: [
+                t('Wherefore seeing we also are '),
+                hg('compassed about with so great a cloud of witnesses', 'heb12-nephos-martyres'),
+                t(', let us lay aside every weight, and the sin which doth so easily beset us, and let us '),
+                hy('run with patience', 'heb12-agōn-hypomone'),
+                t(' the race that is set before us,'),
+              ],
+            },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'heb12-nephos-martyres',
+          html:
+            'You are never alone in your faith. The saints of the Old Testament—Abel, Enoch, Abraham, Moses, David, and all the others listed in chapter 11—surround you like a cloud. A <em>nephos</em>, a mist of people who have already run, who have already testified to the faithfulness of God. They are not dead weight. They are alive in the communion of saints. They see you. They know what it costs.',
+        },
+        {
+          kind: 'greek',
+          id: 'heb12-nephos',
+          title: 'Nephos — &ldquo;Cloud&rdquo;',
+          script: 'νέφος',
+          translit: '<strong>nephos</strong> · a multitude; a cloud; a mist',
+          description:
+            'A <em>nephos</em> fills the space between earth and heaven. The witnesses are not far away—they surround you in the present tense, witnesses to your faith, your perseverance, your steady running. You are watched and cheered on.',
+        },
+        {
+          kind: 'greek',
+          id: 'heb12-agōn-hypomone',
+          title: 'Agōn and Hypomone — &ldquo;the race&rdquo; &ldquo;with patience&rdquo;',
+          script: 'ἀγών · ὑπομονή',
+          translit: '<strong>agōn</strong> · contest, struggle, race · <strong>hypomone</strong> · patient endurance, steadfast perseverance',
+          description:
+            'The Christian life is a <em>agōn</em>—a real contest, a genuine struggle. It requires <em>hypomone</em>, not the passivity of waiting but the active steady determination to keep going. Running a race that never ends, with people watching who have already finished theirs.',
+        },
+        {
+          kind: 'christ',
+          id: 'heb12-christ-surrounded',
+          title: 'Christ Connection — Jesus Among the Witnesses',
+          html:
+            'Jesus is not merely the finisher of your faith—He Himself was surrounded by a cloud of witnesses to His own race. Abel&apos;s blood cried out to Him (Gen. 4:10). Abraham believed He would come (John 8:56). Moses endured, &ldquo;as seeing him who is invisible&rdquo; (Heb. 11:27)—seeing Jesus. Every witness in the chapter was looking toward Him. And now, His race finished, He watches you run toward Him.',
+        },
+        {
+          kind: 'carry',
+          html:
+            'You are not the first to struggle here. You are not the first to doubt, or fear, or question whether God is real. That cloud of witnesses has stood where you stand. They ran the race you are running. They did not have more faith than you; they had the same God. When you feel small and alone in the race, lift up your eyes. You are surrounded by a multitude. They have seen the faithfulness of God. And so will you.',
+        },
+        {
+          kind: 'reflection',
+          id: 'heb12-witnesses',
+          prompt:
+            'Who are the witnesses in your own life—the people who have run this race before you? Who is watching you now, and how does that change the way you run?',
+        },
+      ],
+    },
+
+    {
+      ref: 'Hebrews 12:1b–2a',
+      title: 'Lay Aside Every Weight',
+      blocks: [
+        {
+          kind: 'scripture',
+          chapter: 12,
+          lines: [
+            {
+              number: 1,
+              spans: [
+                t('let us '),
+                hg('lay aside every weight', 'heb12-apotithemi'),
+                t(', and the sin which doth so easily beset us,'),
+              ],
+            },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'heb12-apotithemi',
+          html:
+            'Not every weight is sin. A heavy backpack does not make you morally guilty—it simply slows you down. But an <em>ogkos</em>, a burdensome weight, has no place in a race. You cannot run if you are carrying your regrets, your resentments, your unfinished business, your fear of what people think. These things are not always evil, but they are obstacles. And then there is sin itself—<em>euperistate hamartia</em>, the sin that so easily entangles, the one that wraps around your ankles. Sin is not a weight you carry; it is a snare that catches you.',
+        },
+        {
+          kind: 'greek',
+          id: 'heb12-apotithemi-greek',
+          title: 'Apotithemi and Ogkos — &ldquo;Lay aside&rdquo; &ldquo;Weight&rdquo;',
+          script: 'ἀποτίθημι · ὄγκος',
+          translit: '<strong>apotithemi</strong> · to lay aside, to strip off, to put away · <strong>ogkos</strong> · a burden, a weight, encumbrance',
+          description:
+            '<em>Apotithemi</em> is a complete action—take off your clothes before the race, put down the burden you have been carrying. The <em>ogkos</em> is not evil in itself. It is simply extra. A runner&apos;s job is to strip away everything that is not forward motion.',
+        },
+        {
+          kind: 'carry',
+          html:
+            'What are you carrying right now that has nothing to do with the race? The grudge. The &ldquo;what if.&rdquo; The image you work so hard to maintain. The regret that keeps circling back. The sin you know is slowing you. None of these are permanent. You can lay them aside. Strip them off right now—not next week, not after one more lap. The race does not slow down for you to unpack.',
+        },
+        {
+          kind: 'reflection',
+          id: 'heb12-weight',
+          prompt: 'What weight or entangling sin have you been carrying? What would it feel like to lay it aside and run light?',
+        },
+      ],
+    },
+
+    {
+      ref: 'Hebrews 12:2',
+      title: 'Looking Unto Jesus the Author and Finisher',
+      blocks: [
+        {
+          kind: 'scripture',
+          chapter: 12,
+          lines: [
+            {
+              number: 2,
+              spans: [
+                t('Looking unto '),
+                hp('Jesus the author and finisher of our faith', 'heb12-archēgos-teleiōtēs'),
+                t('; who for the joy that was set before him endured the cross, despising the shame, and is set down at the right hand of the throne of God.'),
+              ],
+            },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'heb12-look',
+          html:
+            'The race has a focal point. You do not run by looking down at your feet or behind at the witnesses. You run by looking <em>unto Jesus</em>. Not to Christianity, not to your own faith, not to the finish line. <em>Unto Jesus.</em> He is the one who began your faith—He called you, He drew you, He gave you the capacity to believe. He is also the one who will complete it. Every doubt you have, He will resolve. Every question, He will answer. Every failure, He will redeem. He is both the starting point and the goal.',
+        },
+        {
+          kind: 'greek',
+          id: 'heb12-archēgos-teleiōtēs',
+          title: 'Archēgos and Teleiōtēs — &ldquo;Author and Finisher&rdquo;',
+          script: 'ἀρχηγός · τελειωτής',
+          translit: '<strong>archēgos</strong> · originator, pioneer, author, leader · <strong>teleiōtēs</strong> · one who brings to completion, finisher, perfector',
+          description:
+            'Jesus did not start your faith from the sidelines. He is the <em>archēgos</em>—the one who opens the way, the pioneer who has already gone through. He is the <em>teleiōtēs</em>—the one who crosses the finish line, who brings the race to its perfect end. He has done both. He will do both for you.',
+        },
+        {
+          kind: 'christ',
+          id: 'heb12-christ-author-finisher',
+          title: 'Christ Connection — The Alpha and Omega of Your Faith',
+          html:
+            'Jesus said, &ldquo;I am Alpha and Omega, the beginning and the ending&rdquo; (Rev. 1:8). Your faith is not your own achievement. From the moment it was sparked in you to the day it reaches its perfection before the throne of God, it is His work. He is writing the story. You are running it. And He has promised not only to complete it but to run it with you, watching from where He sits at the right hand of the throne.',
+        },
+        {
+          kind: 'carry',
+          html:
+            'You are not trying to perfect yourself. That is not your job. Your job is to look at Jesus and keep running. When you stumble, He catches you. When you doubt your faith is real, remember: He is the one who made it real. When you fear you will not finish, know that He has already finished for you. The race is not about becoming someone better. It is about becoming someone who belongs to Him.',
+        },
+        {
+          kind: 'reflection',
+          id: 'heb12-look-2',
+          prompt:
+            'What does it mean for you personally to &ldquo;look unto Jesus&rdquo? When you look away, what do you tend to look at instead? When will you look back?',
+        },
+      ],
+    },
+
+    {
+      ref: 'Hebrews 12:2b',
+      title: 'For the Joy Set Before Him',
+      blocks: [
+        {
+          kind: 'scripture',
+          chapter: 12,
+          lines: [
+            {
+              number: 2,
+              spans: [
+                t('who '),
+                hg('for the joy that was set before him endured the cross', 'heb12-chara'),
+                t(', despising the shame, and is set down at the right hand of the throne of God.'),
+              ],
+            },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'heb12-chara',
+          html:
+            'Jesus did not endure the cross because He enjoyed suffering. He endured it <em>for the joy that was set before Him</em>. He saw beyond the cross. He saw resurrection. He saw you in glory. He saw the Father&apos;s delight in His obedience. He saw the joy of redemption completed. And because He could see past the suffering to the joy, He despised the shame. The shame became nothing compared to what waited on the other side.',
+        },
+        {
+          kind: 'greek',
+          id: 'heb12-chara-greek',
+          title: 'Chara — &ldquo;Joy&rdquo;',
+          script: 'χαρά',
+          translit: '<strong>chara</strong> · joy, gladness, delight; a joy that is rooted in hope',
+          description:
+            'The joy Jesus saw was not a momentary pleasure. <em>Chara</em> is a deep, rooted joy—the kind that holds steady even in suffering, because it rests on something you know will come to pass. Jesus had <em>chara</em> about resurrection before the cross ever came.',
+        },
+        {
+          kind: 'carry',
+          html:
+            'You are running a hard race. There are parts of it that hurt. But beyond this present difficulty, there is a joy set for you too. Not a distant heaven you will finally reach after you die, but a joy you can taste now—the joy of obedience, of becoming like Him, of knowing you are His. When the race is hard, when you are tired, when the cost is visible and the reward is not—lift your eyes past the cross to the joy. That is how He did it. That is how you will too.',
+        },
+        {
+          kind: 'reflection',
+          id: 'heb12-joy',
+          prompt: 'What joy is set before you right now? Not someday—now? How can you let that joy carry you through what is hard?',
+        },
+      ],
+    },
+
+    {
+      ref: 'Hebrews 12:3–4',
+      title: 'Consider Him, Resist Unto Blood',
+      blocks: [
+        {
+          kind: 'scripture',
+          chapter: 12,
+          lines: [
+            {
+              number: 3,
+              spans: [
+                t('For '),
+                hg('consider him that endured such contradiction of sinners against himself', 'heb12-logizō'),
+                t(', lest ye be wearied and faint in your minds.'),
+              ],
+            },
+            {
+              number: 4,
+              spans: [
+                t('Ye have not yet resisted unto blood, striving against sin.'),
+              ],
+            },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'heb12-contradiction',
+          html:
+            'Jesus was contradicted. People who should have recognized Him rejected Him. People He loved tried to kill Him. He was mocked, insulted, accused, betrayed. And He <em>considered</em> it all, kept it all in mind, and did not faint. You think your suffering is unique. But the One you follow has already been through what you are facing—not exactly the same, but fundamentally the same: opposition, misunderstanding, rejection. He did not collapse under it. He is inviting you not to collapse under it either.',
+        },
+        {
+          kind: 'greek',
+          id: 'heb12-logizō',
+          title: 'Logizō and Antagonismos — &ldquo;Consider&rdquo; &ldquo;Contradiction&rdquo;',
+          script: 'λογίζομαι · ἀντιλογία',
+          translit: '<strong>logizō</strong> · to reckon, to consider, to think carefully · <strong>antagonismos</strong> · opposition, contradiction, hostility',
+          description:
+            'When you are tired and want to give up, do not run from the memory of what Jesus faced. Run <em>toward</em> it. Consider it carefully. Let His faithfulness in the face of opposition steady your own. The contradiction He endured was real. His perseverance was real. So is yours.',
+        },
+        {
+          kind: 'carry',
+          html:
+            'You have not yet been asked to die for your faith. Most of you have not been called to die at all. But some of you are dying slowly—to pride, to fear, to the need for approval. Jesus says: the cost you are paying is real, and it matters. And I have paid the cost ahead of you. I know what it tastes like. And I have walked through to the other side. So can you.',
+        },
+        {
+          kind: 'reflection',
+          id: 'heb12-resistance',
+          prompt:
+            'Where are you resisting sin? Where is the cost becoming visible? How does knowing that Jesus faced opposition help you stand?',
+        },
+      ],
+    },
+
+    {
+      ref: 'Hebrews 12:5–11',
+      title: 'The Chastening of a Loving Father',
+      blocks: [
+        {
+          kind: 'scripture',
+          chapter: 12,
+          lines: [
+            {
+              number: 5,
+              spans: [
+                t('And ye have forgotten the exhortation which speaketh unto you as unto children, My son, despise not thou '),
+                hg('the chastening of the Lord', 'heb12-paideia'),
+                t(', nor faint when thou art rebuked of him;'),
+              ],
+            },
+            {
+              number: 6,
+              spans: [
+                t('For whom the Lord loveth he chasteneth, and scourgeth every son whom he receiveth.'),
+              ],
+            },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'heb12-paideia',
+          html:
+            'There is a word you have probably forgotten—<em>paideia.</em> A father raising his son does not simply let him do whatever he wants. He teaches him. He corrects him. Sometimes the correction stings. But every sting comes from love. This echoes Proverbs 3:11–12[res:sefaria-proverbs-chastening]: "Whom the Lord loveth He chasteneth." God&apos;s discipline is the work of a Father who loves you too much to let you destroy yourself. When God corrects you—through failure, through circumstance, through the voice of wisdom—He is not punishing you for being bad. He is <em>raising</em> you to become like Him.',
+        },
+        {
+          kind: 'greek',
+          id: 'heb12-paideia-greek',
+          title: 'Paideia — &ldquo;Chastening&rdquo;',
+          script: 'παιδεία',
+          translit: '<strong>paideia</strong> · instruction, education, training, discipline, correction brought by a loving father',
+          description:
+            'In Greek thought, <em>paideia</em> was the shaping of a young person into an adult through education and discipline. Not punishment, but formation. God&apos;s <em>paideia</em> is meant to form you into the image of Christ.',
+        },
+
+        {
+          kind: 'scripture',
+          chapter: 12,
+          lines: [
+            {
+              number: 7,
+              spans: [
+                t('If ye '),
+                hg('endure chastening', 'heb12-discipline'),
+                t(', God dealeth with you as with sons; for what son is he whom the father chasteneth not?'),
+              ],
+            },
+            {
+              number: 8,
+              spans: [
+                t('But if ye be without chastisement, whereof all are partakers, then are ye bastards, and not sons.'),
+              ],
+            },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'heb12-sons',
+          html:
+            'This is hard to read. But hear it: if God never corrects you, if you have never felt His hand turning you back, it may be because you are not truly His child. A father who never disciplines his child does not love him—he simply does not care. The fact that you are being corrected, the fact that you are feeling the cost of your choices, may be the best evidence that you belong to Him.',
+        },
+
+        {
+          kind: 'scripture',
+          chapter: 12,
+          lines: [
+            {
+              number: 9,
+              spans: [
+                t('Furthermore we have had fathers of our flesh which corrected us, and we gave them reverence: shall we not much rather be in subjection unto the father of spirits, and live?'),
+              ],
+            },
+            {
+              number: 10,
+              spans: [
+                t('For they verily for a few days chastened us after their own pleasure; but he for our profit, that we might be partakers of his holiness.'),
+              ],
+            },
+            {
+              number: 11,
+              spans: [
+                t('Now '),
+                hg('no chastening for the present seemeth to be joyous, but grievous', 'heb12-lypē'),
+                t(': nevertheless afterward it yieldeth the peaceable fruit of righteousness unto them which are exercised thereby.'),
+              ],
+            },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'heb12-no-joy',
+          html:
+            'When the correction is happening, it does not feel good. It feels <em>lypē</em>—sorrowful, painful, heavy. Your earthly father corrected you, and sometimes it hurt, but you survived it. Your Father in heaven is correcting you with even more care, even more love. And unlike your earthly father, He is correcting you not for His own satisfaction but for your actual good—that you might become <em>holy</em> like Him.',
+        },
+        {
+          kind: 'greek',
+          id: 'heb12-lypē',
+          title: 'Lypē and Dikaiosynē — &ldquo;Grievous&rdquo; &ldquo;Righteousness&rdquo;',
+          script: 'λύπη · δικαιοσύνη',
+          translit: '<strong>lypē</strong> · sorrow, grief, pain, heaviness · <strong>dikaiosynē</strong> · righteousness, justice, right living',
+          description:
+            'The discipline hurts <em>now</em>. But it yields later—a crop of righteousness in those who have been trained by it. The pain of correction is temporary. The peace and righteousness it produces are eternal.',
+        },
+        {
+          kind: 'carry',
+          html:
+            'If you are being corrected, God is treating you as a child, not a slave. He is investing in you. The sting of that correction is proof of His love. Do not despise it. Do not run from it. Endure it, knowing that it is happening inside a relationship where you are deeply loved. The fruit will come later—the quiet peace of knowing you are becoming like Him.',
+        },
+        { kind: 'divider' },
+        {
+          kind: 'reflection',
+          id: 'heb12-discipline',
+          prompt:
+            'Where has God been correcting you lately? Have you resisted it or received it? What might become true in you if you let this correction run its course?',
+        },
+      ],
+    },
+
+    {
+      ref: 'Hebrews 12:12–14',
+      title: 'Lift Up Your Hands, Pursue Holiness',
+      blocks: [
+        {
+          kind: 'scripture',
+          chapter: 12,
+          lines: [
+            {
+              number: 12,
+              spans: [
+                t('Wherefore '),
+                hg('lift up the hands which hang down, and the feeble knees', 'heb12-anortheō'),
+                t(';'),
+              ],
+            },
+            {
+              number: 13,
+              spans: [
+                t('And make straight paths for your feet: lest that which is lame be turned out of the way; but let it rather be healed.'),
+              ],
+            },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'heb12-strength-again',
+          html:
+            'After the weight of discipline, you may feel like your hands are hanging down and your knees are weak. The author does not say &ldquo;wait until you feel strong.&rdquo; He says lift them <em>now</em>. When you are tired, tired, <em>tired</em>, you do not rest by collapsing. You rest by consciously putting down the weight and straightening up. Make your paths straight—clear away the obstacles so you do not stumble. Help the weak ones who are with you. The healing is coming, but it comes to those who keep walking.',
+        },
+        {
+          kind: 'greek',
+          id: 'heb12-anortheō',
+          title: 'Anortheō — &ldquo;Lift Up&rdquo;; Orthos — &ldquo;Straight&rdquo;',
+          script: 'ἀνορθόω · ὀρθός',
+          translit: '<strong>anortheō</strong> · to lift up, to straighten up, to raise again · <strong>orthos</strong> · straight, upright, correct',
+          description:
+            'The posture matters. Hands down is the posture of surrender. Hands up is the posture of prayer, of worship, of openness to God. Straighten your spine. That physical straightening is also spiritual. You are being called to a new posture—not defeated, but ready.',
+        },
+
+        {
+          kind: 'scripture',
+          chapter: 12,
+          lines: [
+            {
+              number: 14,
+              spans: [
+                t('Follow '),
+                hg('peace with all men, and holiness', 'heb12-eirēnē'),
+                t(', without which no man shall see the Lord:'),
+              ],
+            },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'heb12-holiness-prerequisite',
+          html:
+            'This verse cuts deep. &ldquo;Without holiness, no one will see the Lord.&rdquo; This does not mean you earn the right to see God through moral perfection. It means that sin, left unconfessed and unrepented, creates a barrier you cannot cross. Holiness is not a reward for the elite. It is the condition for approaching God. And you must pursue both peace and holiness—peace <em>with all people</em>, and holiness of your own life. You cannot be holy alone, and you cannot be at peace if you yourself are living in sin.',
+        },
+        {
+          kind: 'greek',
+          id: 'heb12-eirēnē',
+          title: 'Eirēnē and Hagiasmos — &ldquo;Peace&rdquo; &ldquo;Holiness&rdquo;',
+          script: 'εἰρήνη · ἁγιασμός',
+          translit: '<strong>eirēnē</strong> · peace, harmony, right relationship · <strong>hagiasmos</strong> · sanctification, holiness, being set apart for God',
+          description:
+            '<em>Eirēnē</em> is relational peace—with others, with yourself, with God. <em>Hagiasmos</em> is the process of becoming holy, of being separated from sin and set apart for God. You cannot have one without pursuing the other. A peaceable person who harbors hidden sin is not at peace. A holy person who refuses peace with others is not holy.',
+        },
+        {
+          kind: 'christ',
+          id: 'heb12-christ-holiness',
+          title: 'Christ Connection — The Holy One Who Makes Holy',
+          html:
+            'Jesus said, &ldquo;Blessed are the pure in heart, for they shall see God&rdquo; (Matt. 5:8). His entire work was to make a way for unholy people to become holy—not through their own striving, but through His death and resurrection. Paul wrote, &ldquo;He died for us… that… we might be presented before him in all their glory, without a single fault&rdquo; (Eph. 5:25–27). Your holiness is not your achievement. It is His gift. And He gives it to those who turn from sin and turn toward Him.',
+        },
+        {
+          kind: 'carry',
+          html:
+            'You cannot see God while you are holding onto sin, and you cannot hold onto sin while you are genuinely pursuing peace with others. The two pursuits demand honesty. They require you to name what is hidden, to confess what is broken, to let the barriers come down. This is not easy. But it is the price of actually seeing Him, actually knowing Him, actually living in His presence.',
+        },
+        {
+          kind: 'reflection',
+          id: 'heb12-holiness-peace',
+          prompt:
+            'Where do you need to pursue peace with someone you have been at odds with? Where do you need to pursue holiness, to turn from a hidden sin? Name one in each category and commit to it today.',
+        },
+      ],
+    },
+
+    {
+      ref: 'Hebrews 12:18–24',
+      title: 'You Have Come to Mount Sion',
+      blocks: [
+        {
+          kind: 'scripture',
+          chapter: 12,
+          lines: [
+            {
+              number: 18,
+              spans: [
+                t('For ye are not come unto the '),
+                hg('mount that might be touched', 'heb12-sinai-intro'),
+                t(', and that burned with fire, nor unto blackness, and darkness, and tempest,'),
+              ],
+            },
+            {
+              number: 19,
+              spans: [
+                t('And the sound of a trumpet, and the voice of words; which voice they that heard intreated that the word should not be spoken to them any more:'),
+              ],
+            },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'heb12-not-sinai',
+          html:
+            'The author is painting a contrast. Mount Sinai[res:sefaria-exodus19-sinai] was a terrible place. Fire. Darkness. A trumpet blast so loud it shook the mountain. Thunder. Lightning. An entire people terrified, asking Moses to speak to God for them because they could not bear the sound of God&apos;s voice. You are not there. You have not been called to that kind of fear.',
+        },
+        {
+          kind: 'commentary',
+          id: 'heb12-sinai-intro',
+          html:
+            'Mount Sinai represents the old covenant—a covenant of law that brings condemnation because humans cannot keep it. It is a place of fear, not love; of judgment, not grace. But you are no longer bound by that mountain.',
+        },
+
+        {
+          kind: 'scripture',
+          chapter: 12,
+          lines: [
+            {
+              number: 22,
+              spans: [
+                t('But ye are come unto '),
+                hp('mount Sion, and unto the city of the living God, the heavenly Jerusalem', 'heb12-sion'),
+                t(', and to an innumerable company of angels,'),
+              ],
+            },
+            {
+              number: 23,
+              spans: [
+                t('To the general assembly and church of the firstborn, which are written in heaven, and to God the Judge of all, and to the spirits of just men made perfect,'),
+              ],
+            },
+            {
+              number: 24,
+              spans: [
+                t('And to '),
+                hp('Jesus the mediator of the new covenant', 'heb12-mediator-intro'),
+                t(', and to the blood of sprinkling, that speaketh better things than that of '),
+                hy('Abel', 'heb12-abel-intro'),
+                t(';'),
+              ],
+            },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'heb12-sion-contrast',
+          html:
+            'Instead of fire and darkness, you have come to the city of the living God. Instead of terror, a feast. Instead of an isolated people listening from a distance, an <em>innumerable company</em>—angels, the church of the firstborn, the spirits of just people already made perfect. You are not alone. You are not afraid. You are home.',
+        },
+        {
+          kind: 'christ',
+          id: 'heb12-christ-mediator',
+          title: 'Christ Connection — The Mediator and the Better Blood',
+          html:
+            'Jesus is the mediator of the new covenant (Heb. 8:6). The old covenant was a contract written on stone that Israel could not keep. The new covenant is written on the heart. And Jesus, through His blood, has made it unbreakable. Abel&apos;s blood cried out for justice (Gen. 4:10). Jesus&apos; blood cries out for mercy. Where the first death asked &ldquo;Why?&rdquo;, Jesus&apos; death says &ldquo;Forgiven.&rdquo; His blood speaks better things than Abel&apos;s ever could.',
+        },
+        {
+          kind: 'commentary',
+          id: 'heb12-mediator-intro',
+          html:
+            'A mediator is someone who stands between two parties and brings them together. Jesus stands between you and the Father. He has made it possible for you to approach God, not through fear, but through grace.',
+        },
+        {
+          kind: 'commentary',
+          id: 'heb12-abel-intro',
+          html:
+            'Abel&apos;s blood was the first innocent blood shed, crying out for justice (Gen. 4:10). Jesus&apos; blood is the final innocent blood shed, speaking forgiveness over all who believe. The contrast is not accidental. One death demands payment. The other offers it.',
+        },
+        {
+          kind: 'carry',
+          html:
+            'You have been invited to a table, not a courtroom. You have been called into a family, not a contract. The God you are approaching is your judge, but He is also your Father. The barrier between you and Him is not fear—it is sin. And even that has been paid for. You can draw near. You are invited all the way in.',
+        },
+        {
+          kind: 'reflection',
+          id: 'heb12-sion',
+          prompt:
+            'How do you usually think about approaching God? With fear like at Sinai, or with joy like at Sion? What would change if you really believed you had been invited into a heavenly city, not a courtroom?',
+        },
+        {
+          kind: 'artwork',
+          matchTitle: /heavenly.*jerusalem|sion/i,
+          caption: 'Hebrews 12:22–24 · The Heavenly Jerusalem',
+        },
+      ],
+    },
+
+    {
+      ref: 'Hebrews 12:25–29',
+      title: 'A Kingdom Which Cannot Be Moved',
+      blocks: [
+        {
+          kind: 'scripture',
+          chapter: 12,
+          lines: [
+            {
+              number: 25,
+              spans: [
+                t('See that ye refuse not him that speaketh. For if they escaped not who refused him that spake on earth, much more shall not we escape, if we turn away from him that speaketh from heaven:'),
+              ],
+            },
+            {
+              number: 26,
+              spans: [
+                t('Whose voice then shook the earth: but now he hath promised, saying, Yet once more I shake not the earth only, but also heaven.'),
+              ],
+            },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'heb12-shake',
+          html:
+            'When God spoke from Sinai, the earth shook. But that shaking was partial—a warning, a sign of power. God is promising something larger: He will shake not only the earth but also the heavens. Everything unstable will be moved. Everything that can be shaken will be shaken. Only one thing will stand unmoved.',
+        },
+
+        {
+          kind: 'scripture',
+          chapter: 12,
+          lines: [
+            {
+              number: 27,
+              spans: [
+                t('And this word, Yet once more, signifieth the removing of those things that are shaken, as of things that are made, that those things which cannot be shaken may remain.'),
+              ],
+            },
+            {
+              number: 28,
+              spans: [
+                t('Wherefore we receiving a kingdom which cannot be moved, let us have grace, whereby we may serve God acceptably with reverence and '),
+                hg('godly fear', 'heb12-eulabeia'),
+                t(':'),
+              ],
+            },
+            {
+              number: 29,
+              spans: [
+                t('For '),
+                hg('our God is a consuming fire', 'heb12-fire-intro'),
+                t('.'),
+              ],
+            },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'heb12-asaleutos',
+          html:
+            'The kingdom you are receiving is not made by human hands. It is not subject to political change, economic collapse, or the shifting opinions of nations. It cannot be shaken. It is <em>asaleutos</em>—immovable, unshakeable, stable forever. Everything else—every empire, every system, every certainty the world promises—will eventually fall. Only God&apos;s kingdom remains.',
+        },
+        {
+          kind: 'greek',
+          id: 'heb12-asaleutos-2',
+          title: 'Asaleutos — &ldquo;Cannot Be Moved&rdquo;',
+          script: 'ἀσάλευτος',
+          translit: '<strong>asaleutos</strong> · immovable, unshakeable, unmoved by external forces',
+          description:
+            'In a world where everything shakes—your circumstances, your health, your relationships, your plans—you are being invited into something that does not. It is not a building that will crumble. It is not a promise that will be broken. It is a kingdom. And you belong to it.',
+        },
+        {
+          kind: 'greek',
+          id: 'heb12-eulabeia',
+          title: 'Eulabeia — &ldquo;Godly Fear&rdquo;',
+          script: 'εὐλάβεια',
+          translit: '<strong>eulabeia</strong> · careful reverence, piety, fear of God marked by carefulness and respect',
+          description:
+            'This fear is not the terror of Sinai. It is the respect you show to someone you love. The fear of breaking their heart. The fear of losing the relationship. The reverence that says: I take you seriously. I listen. I obey—not because I am afraid of punishment, but because I love you.',
+        },
+        {
+          kind: 'commentary',
+          id: 'heb12-fire-comment',
+          html:
+            'God is not a warm, fuzzy abstraction. God is fire—consuming, intense, pure, intolerant of sin[res:sefaria-psalm50-consuming-fire]. But He is <em>your</em> God, and you are in covenant with Him. The fire that consumes sin in others is the same fire that refines you. He is not distant. He is not tame. And He is yours.',
+        },
+        {
+          kind: 'commentary',
+          id: 'heb12-fire-intro',
+          html:
+            'A consuming fire is both terrifying and purifying. It destroys what is false and refines what is true. If you belong to God, you have nothing to fear from this fire—it is working for you, not against you, burning away everything that hinders your faith.',
+        },
+        {
+          kind: 'christ',
+          id: 'heb12-christ-kingdom',
+          title: 'Christ Connection — Seated at the Right Hand of the Throne',
+          html:
+            'Jesus, who endured the cross and was seated at the right hand of God, is now ruling an unshakeable kingdom. Everything His kingdom touches is forever. Everything He saves is safe. You are not holding on to Him by your own strength—He is holding onto you. And His grip does not falter when the world shakes.',
+        },
+        {
+          kind: 'carry',
+          html:
+            'The world will shake. Governments will fall. Plans will fail. Certainties will crumble. Do not put your confidence in them. You have been invited into a kingdom that stands forever. You are not afraid because you are weak. You are afraid—in the good way, with respect—because you belong to the living God. And His kingdom cannot be moved. Build your life on that. Everything else is secondary.',
+        },
+        { kind: 'divider' },
+        {
+          kind: 'reflection',
+          id: 'heb12-unshakeable',
+          prompt:
+            'What in your life feels shaky right now? How would it change if you truly believed you belonged to a kingdom that cannot be moved? What would you stop worrying about? What would you start doing?',
+        },
+        {
+          kind: 'artwork',
+          matchTitle: /throne|consuming|fire|unshakeable/i,
+          caption: 'Hebrews 12:28–29 · God on His Throne',
+        },
+      ],
+    },
+  ],
+
+  bottomShare: {
+    label: 'Share Hebrews 12',
+    quote:
+      'Wherefore seeing we also are compassed about with so great a cloud of witnesses, let us lay aside every weight, and the sin which doth so easily beset us, and let us run with patience the race that is set before us, Looking unto Jesus the author and finisher of our faith… Wherefore we receiving a kingdom which cannot be moved, let us have grace, whereby we may serve God acceptably with reverence and godly fear: For our God is a consuming fire.',
+    snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
+    ref: 'Hebrews 12 · Study Guide',
+  },
+
+  resources: [
+    {
+      id: 'sefaria-proverbs-chastening',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Proverbs 3:11–12 — "Whom the Lord Loveth He Chasteneth"',
+      url: 'https://www.sefaria.org/Proverbs.3.11-12',
+      description: 'OT foundation for divine chastening as evidence of sonship—the basis of Hebrews 12:5–11 on God&apos;s fatherly discipline.',
+    },
+    {
+      id: 'sefaria-exodus19-sinai',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 19 — Mount Sinai and the Trembling Mountain',
+      url: 'https://www.sefaria.org/Exodus.19',
+      description: 'The thundering, trembling, shaking mountain where Israel received the Law—contrasted with the spiritual Mount Sion in Hebrews 12:18–24.',
+    },
+    {
+      id: 'sefaria-psalm50-consuming-fire',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 50 — The God of Glory and Consuming Fire',
+      url: 'https://www.sefaria.org/Psalms.50',
+      description: 'The psalm echoed in Hebrews 12:29: God as a consuming fire receiving worship from those whose hearts belong to Him.',
+    },
+  ],
+
+  hasHebrew: false,
+};

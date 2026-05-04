@@ -1,0 +1,110 @@
+import Link from 'next/link';
+
+// ─── ISR ───
+// Cache pages for 24h; regenerate in background after that.
+export const revalidate = 86400;
+
+export const metadata = {
+  title: 'About - Learn of Christ',
+  description: 'Learn about our mission to help people deepen their understanding of Jesus Christ through scripture study.',
+};
+
+export default function AboutPage() {
+  return (
+    <div className="page-container">
+      <div className="max-w-3xl mx-auto">
+        <div className="page-header">
+          <h1>About Learn of Christ</h1>
+          <div className="section-divider mt-3"></div>
+          <p>Our mission is to help you develop a deeper, more meaningful relationship with Jesus Christ through Scripture.</p>
+        </div>
+
+        <div className="space-y-3">
+          {/* Mission */}
+          <div className="card">
+            <h2 className="font-sans text-base font-semibold text-navy mb-3">Our Mission</h2>
+            <p className="text-sm text-navy/55 leading-relaxed mb-3">
+              At Learn of Christ, we believe that understanding Jesus Christ is the foundation of a vibrant spiritual life. Our mission is to provide accessible, biblically-grounded resources for individuals and families.
+            </p>
+            <p className="text-sm text-navy/55 leading-relaxed">
+              We present Scripture with clarity, reverence, and depth &mdash; helping people see how every passage points to Jesus Christ and reveals God&apos;s redemptive plan.
+            </p>
+          </div>
+
+          {/* Core Values */}
+          <div className="px-1 mt-6 mb-2">
+            <p className="section-header">Core Values</p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            {[
+              { title: 'Biblical Fidelity', desc: 'Presenting Scripture accurately and faithfully, allowing God\'s Word to speak for itself.', color: 'frost-chip text-[color:var(--vesper-gold)]' },
+              { title: 'Accessibility', desc: 'Resources that are easy to understand for people of all backgrounds and ages.', color: 'frost-chip text-[color:var(--vesper-gold)]' },
+              { title: 'Christ-Centered', desc: 'Every resource points to Jesus as the center of Scripture and the hope of the Gospel.', color: 'frost-chip text-[color:var(--vesper-peach)]' },
+              { title: 'Transformative', desc: 'Helping people apply Biblical truths that lead to genuine spiritual transformation.', color: 'frost-chip text-[color:var(--vesper-gold)]' },
+            ].map((value) => (
+              <div key={value.title} className="card">
+                <div className={`feature-icon ${value.color} mb-3`}>
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
+                </div>
+                <h3 className="font-sans text-sm font-semibold text-navy mb-1">{value.title}</h3>
+                <p className="text-xs text-navy/50 leading-relaxed">{value.desc}</p>
+              </div>
+            ))}
+          </div>
+
+          {/* What We Offer */}
+          <div className="px-1 mt-6 mb-2">
+            <p className="section-header">What We Offer</p>
+          </div>
+          <div className="card-grouped">
+            {[
+              { title: 'Chapter-by-Chapter Study Guides', desc: 'Detailed explorations of every chapter with key themes and study questions.', icon: 'frost-chip text-[color:var(--vesper-gold)]' },
+              { title: 'Structured Study Plans', desc: 'Reading plans to help you engage with Scripture consistently.', icon: 'frost-chip text-[color:var(--vesper-peach)]' },
+              { title: 'Topical Resources', desc: 'Explore biblical themes with key verses and cross-references.', icon: 'frost-chip text-[color:var(--vesper-gold)]' },
+              { title: 'Questions and Answers', desc: 'Biblical answers to common questions about Jesus and faith.', icon: 'frost-chip text-[color:var(--vesper-peach)]' },
+              { title: 'Family Resources', desc: 'Tools for families to study Scripture together.', icon: 'frost-chip text-[color:var(--vesper-gold)]' },
+            ].map((item) => (
+              <div key={item.title} className="card-grouped-item flex items-center gap-3">
+                <div className={`w-9 h-9 rounded-xl ${item.icon} flex items-center justify-center flex-shrink-0`}>
+                  <svg className="w-4.5 h-4.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" /></svg>
+                </div>
+                <div>
+                  <h3 className="font-sans text-sm font-semibold text-navy">{item.title}</h3>
+                  <p className="text-xs text-navy/45 mt-0.5">{item.desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {/* Commitment */}
+          <div className="card bg-gold/[0.04] mt-4">
+            <h2 className="font-sans text-base font-semibold text-navy mb-3">Our Commitment</h2>
+            <div className="space-y-2.5">
+              {[
+                'All resources are free and available to anyone.',
+                'We respect all Christian traditions while remaining faithful to Biblical truths.',
+                'We continuously improve resources based on your feedback.',
+                'Your privacy is important — we never share personal information.',
+              ].map((item, i) => (
+                <div key={i} className="flex gap-2.5 items-start">
+                  <svg className="w-4 h-4 text-gold flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" /></svg>
+                  <p className="text-sm text-navy/55">{item}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        {/* CTA */}
+        <div className="mt-10 text-center">
+          <h2 className="font-serif text-2xl font-bold text-navy mb-3">Ready to Begin?</h2>
+          <p className="text-sm text-navy/45 mb-6">Start your journey to a deeper understanding of Jesus Christ.</p>
+          <div className="flex flex-col sm:flex-row gap-3 justify-center">
+            <Link href="/bible" className="btn-primary">Explore the Bible</Link>
+            <Link href="/study-plans" className="btn-secondary">View Study Plans</Link>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}

@@ -1,0 +1,45 @@
+'use client';
+
+import { useEffect } from 'react';
+import Link from 'next/link';
+
+export default function BibleError({
+  error,
+  reset,
+}: {
+  error: Error & { digest?: string };
+  reset: () => void;
+}) {
+  useEffect(() => {
+    // eslint-disable-next-line no-console
+    console.error('[bible error]', error);
+  }, [error]);
+
+  return (
+    <div className="page-container">
+      <div className="max-w-lg mx-auto text-center py-20">
+        <h1 className="text-2xl sm:text-3xl font-bold text-[color:var(--color-label)] tracking-tight mb-3">
+          Unable to load this chapter
+        </h1>
+        <p className="text-[0.9375rem] text-[color:var(--color-secondary-label)] leading-relaxed mb-6">
+          Something went wrong loading the Bible text. You can try again, or
+          jump to a different chapter.
+        </p>
+        <div className="flex flex-col sm:flex-row gap-2.5 justify-center">
+          <button
+            onClick={reset}
+            className="inline-flex items-center justify-center gap-1.5 px-5 h-11 rounded-full bg-[color:var(--frost-tint)] text-white text-[0.9375rem] font-semibold hover:opacity-90 active:scale-[0.98] transition-all"
+          >
+            Try again
+          </button>
+          <Link
+            href="/bible"
+            className="btn-outline inline-flex items-center justify-center gap-1.5 px-5 h-11 rounded-full text-[0.9375rem] font-semibold active:scale-[0.98] transition-all"
+          >
+            Browse books
+          </Link>
+        </div>
+      </div>
+    </div>
+  );
+}

@@ -208,7 +208,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                       href={`#${slugify(section.heading)}`}
                       className="flex items-center gap-3 text-sm text-[color:var(--color-secondary-label)] hover:text-[color:var(--color-primary)] transition-colors group"
                     >
-                      <span className="w-6 h-6 rounded-full bg-[var(--color-bg)] text-[0.6875rem] font-semibold text-[color:var(--color-secondary-label)] group-hover:bg-[color:var(--vesper-gold)]/10 group-hover:text-[color:var(--color-primary)] flex items-center justify-center flex-shrink-0 transition-colors">
+                      <span className="w-6 h-6 rounded-full bg-[var(--color-bg)] text-[0.6875rem] font-semibold text-[color:var(--color-secondary-label)] group-hover: group-hover:text-[color:var(--color-primary)] flex items-center justify-center flex-shrink-0 transition-colors">
                         {i + 1}
                       </span>
                       <span className="leading-snug">{section.heading}</span>
@@ -274,7 +274,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
               {post.keyVerses.map((verse, i) => (
                 <div
                   key={i}
-                  className="bg-[color:var(--vesper-gold)]/[0.04] border-l-[3px] border-[color:var(--vesper-gold)]/40 rounded-r-xl p-4"
+                  className="frost-card border-l-[3px] border-[color:var(--vesper-gold)]/40 rounded-r-xl p-4"
                 >
                   <p className="font-serif text-sm text-[color:var(--color-label)]/75 leading-relaxed italic mb-1">
                     &ldquo;{verse.text}&rdquo;

@@ -1,0 +1,45 @@
+'use client';
+
+import { useEffect } from 'react';
+import Link from 'next/link';
+
+export default function StudyError({
+  error,
+  reset,
+}: {
+  error: Error & { digest?: string };
+  reset: () => void;
+}) {
+  useEffect(() => {
+    // eslint-disable-next-line no-console
+    console.error('[study error]', error);
+  }, [error]);
+
+  return (
+    <div className="page-container">
+      <div className="max-w-lg mx-auto text-center py-20">
+        <h1 className="text-2xl sm:text-3xl font-bold text-[color:var(--color-label)] tracking-tight mb-3">
+          Unable to load this study guide
+        </h1>
+        <p className="text-[0.9375rem] text-[color:var(--color-secondary-label)] leading-relaxed mb-6">
+          Something went wrong loading the study content. You can try again, or
+          pick a different guide.
+        </p>
+        <div className="flex flex-col sm:flex-row gap-2.5 justify-center">
+          <button
+            onClick={reset}
+            className="inline-flex items-center justify-center gap-1.5 px-5 h-11 rounded-full bg-[color:var(--vesper-gold)] text-white text-[0.9375rem] font-semibold hover:bg-[#3634A3] active:scale-[0.98] transition-all"
+          >
+            Try again
+          </button>
+          <Link
+            href="/study"
+            className="btn-outline inline-flex items-center justify-center gap-1.5 px-5 h-11 rounded-full text-[0.9375rem] font-semibold active:scale-[0.98] transition-all"
+          >
+            All guides
+          </Link>
+        </div>
+      </div>
+    </div>
+  );
+}

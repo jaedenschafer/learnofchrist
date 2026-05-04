@@ -1,0 +1,542 @@
+import { hp, hy, hg, t, verse, type RichChapterContent } from './types';
+
+/**
+ * Galatians 1 — The Gospel Is Not Negotiable
+ *
+ * Paul opens with fire. The Galatians have been seduced away from the gospel
+ * by false teachers who insist that faith in Christ must be supplemented with
+ * works of the law. Paul is astounded—not merely disappointed, but genuinely
+ * scandalized. The gospel is not a human opinion to be revised. It is a divine
+ * revelation, received directly from the risen Christ.
+ *
+ * Paul&apos;s entire authority rests on a single claim: his encounter with Jesus
+ * was real, unmediated, and transformative. He was not trained by the apostles;
+ * he was radically converted by Christ Himself. From persecutor to apostle—not
+ * through human promotion, but through direct resurrection power.
+ */
+export const GALATIANS_1: RichChapterContent = {
+  bookSlug: 'galatians',
+  bookName: 'Galatians',
+  chapter: 1,
+
+  estimatedMinutes: { beginner: 8, intermediate: 14, deep: 19 },
+  intros: [
+    'Galatians is Paul&apos;s most urgent letter. The Galatian churches have been influenced by false teachers—later called "Judaizers"—who insist that faith in Christ is not enough. Works of the law, especially circumcision, are also required for salvation. Paul considers this a betrayal of the gospel itself. This is not a small dispute over practice. This is a head-on collision over the very heart of redemption.',
+    'Notice the severity of Paul&apos;s tone: "I marvel that ye are so soon removed from him that called you." He opens not with thanksgiving but with astonishment and concern. The letter is a defense of his apostolic authority and a passionate call to remember what the gospel truly is: Christ gave Himself for our sins. Period. No additions. No supplements. No works required beyond faith.',
+    'Paul grounds his authority not in the Jerusalem apostles (though he will address them carefully in chapter 2) but in a direct encounter with the risen Christ. Before he was an apostle, Paul was a persecutor—"beyond measure" he wasted the church. But when God revealed His Son in Paul, everything reversed. The man who came breathing murder became a messenger of grace. This transformation is not theoretical proof but historical evidence of what Christ can do.',
+  ],
+
+  opener: {
+    matchTitle: /paul|apostle|gospel|galatia/i,
+    caption: 'The Whole Chapter at a Glance',
+  },
+
+  sections: [
+    /* ─── Galatians 1:1–5 — Paul: An Apostle Not of Men ───────────────────── */
+    {
+      ref: 'Galatians 1:1–5',
+      title: 'An Apostle Not of Men',
+      blocks: [
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
+            verse(
+              1,
+              hp('Paul, an apostle, (not of men, neither by man, but by Jesus Christ, and God the Father, who raised him from the dead;)', 'gal1-apostle'),
+            ),
+            verse(
+              2,
+              t('And all the brethren which are with me, unto the churches of Galatia:'),
+            ),
+            verse(
+              3,
+              t('Grace be to you and peace from God the Father, and from our Lord Jesus Christ,'),
+            ),
+            verse(
+              4,
+              t('Who gave himself for our sins, that he might deliver us from this '),
+              hy('present evil world', 'gal1-kosmos'),
+              t(', according to the will of God and our Father:'),
+            ),
+            verse(
+              5,
+              t('To whom be glory for ever and ever. Amen.'),
+            ),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'gal1-apostle',
+          html:
+            'In the earliest letters, Paul often introduces himself simply: "Paul, an apostle[res:perseus-apostolos-lexicon]." Here, he makes a militant clarification: not of men, neither by man[res:bibleodyssey-apostle]. His authority does not flow from the Jerusalem church or from any human ordination. It comes directly from Jesus Christ and from God the Father. This is not arrogance. It is a legal brief. False teachers have whispered that Paul is inferior to the real apostles in Jerusalem—that he is a second-tier messenger, a Johnny-come-lately. Paul cuts that off immediately. His commission came from the highest possible source.',
+        },
+        {
+          kind: 'greek',
+          id: 'gal1-apostolos',
+          title: 'Apostolos — "Apostle"',
+          script: 'ἀπόστολος',
+          translit: '<strong>apostolos</strong> · one sent forth; a messenger; an envoy',
+          description:
+            'An apostle is not merely a teacher or pastor. An apostle is someone <em>sent</em> with authority—a personal representative of the one who sent him. Paul&apos;s claim is that he was sent directly by Jesus and the Father.',
+        },
+        {
+          kind: 'commentary',
+          id: 'gal1-who-gave',
+          html:
+            '"Who gave himself for our sins." This is the gospel in a sentence. Not Christ teaching, though He did. Not Christ healing, though He did. Christ <em>giving Himself</em>—a self-sacrifice, a self-offering, for the specific purpose of removing sin. One person, one act, one sufficiency.',
+        },
+        {
+          kind: 'greek',
+          id: 'gal1-kosmos',
+          title: 'Kosmos — "World"; "Age"; "System"',
+          script: 'κόσμος',
+          translit: '<strong>kosmos</strong> · the world; the system of values opposed to God; the present age',
+          description:
+            'Paul does not say Christ delivered us from the <em>earth</em> (kosmos as physical planet) but from this <em>present evil world</em> (kosmos as the spiritual system currently ruling). We are still on earth. But Christ has extracted us from the grip of the age that opposes Him.',
+        },
+        {
+          kind: 'christ',
+          id: 'gal1-christ-gave',
+          title: 'Christ Connection — The Self-Gift of Christ',
+          html:
+            'Paul introduces the letter with the gospel&apos;s core: Christ gave Himself. This self-gift is the answer to every false gospel. Works cannot improve it. Obedience cannot supplement it. Law cannot be added to it. The Galatians are tempted to believe a gospel of Christ <em>plus</em> something. Paul will spend this entire letter reminding them: it is Christ alone. See also 2 Corinthians 4:6, where Paul connects this same work of deliverance to the light shining in human hearts through the face of Jesus Christ.',
+        },
+        {
+          kind: 'carry',
+          html:
+            'Every false gospel in your own life whispers the same lie the Judaizers were selling: "Faith in Jesus is not quite enough. You also need your moral performance, your reputation, your good works, your perfect choices to secure your standing." Watch how Paul answers: Christ gave Himself <em>for your sins</em>. Not for your potential. Not for your future obedience. For your actual sins. The work is complete. The payment is finished. Anything you add to that is not faith; it is distrust disguised as diligence.',
+        },
+        {
+          kind: 'reflection',
+          id: 'gal1-sufficiency',
+          prompt:
+            'What do you find yourself wanting to add to faith in Christ to feel truly secure before God? What would change if you actually believed His self-gift was sufficient?',
+        },
+      ],
+    },
+
+    /* ─── Galatians 1:6–10 — Removed Unto Another Gospel ────────────────────── */
+    {
+      ref: 'Galatians 1:6–10',
+      title: 'Removed Unto Another Gospel',
+      blocks: [
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
+            verse(
+              6,
+              t('I marvel that ye are so soon removed from him that called you into the grace of Christ unto '),
+              hy('another gospel', 'gal1-heteros'),
+              t(':'),
+            ),
+            verse(
+              7,
+              t('Which is not another; but there be some that '),
+              hg('trouble you, and would pervert the gospel of Christ', 'gal1-pervert'),
+              t('.'),
+            ),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'gal1-marvel',
+          html:
+            'Paul&apos;s opening emotion is not anger but astonishment. "I marvel." In Greek, <em>thaumazō</em>—a word that suggests bewilderment, genuine surprise, even wonder. Paul is genuinely shocked at the speed of the Galatians&apos; defection. They were only converted a few years before. How can they so quickly abandon the gospel they received? This is not a patient teacher gently correcting. This is a pastor genuinely scandalized by the drift he is seeing.',
+        },
+        {
+          kind: 'greek',
+          id: 'gal1-heteros',
+          title: 'Heteros Gospel — "Another" of a Different Kind',
+          script: 'ἕτερος',
+          translit: '<strong>heteros</strong> · another of a different kind (not allos, "another of the same kind")',
+          description:
+            'Paul uses <em>heteros</em>, not <em>allos</em>. The false gospel is not merely a variant but a <em>fundamentally different</em> message. It replaces the foundation. This is why Paul will call it "not even a gospel" in verse 7.',
+        },
+        {
+          kind: 'commentary',
+          id: 'gal1-pervert',
+          html:
+            '"Which is not another; but there be some that trouble you, and would pervert the gospel of Christ." Paul&apos;s phrase is cutting: the false gospel is not even a gospel at all. It is a distortion, a corruption. The teachers claim to be refining the message, supplementing it, making it complete. Paul calls it by its true name: perversion.',
+        },
+        {
+          kind: 'greek',
+          id: 'gal1-methistemi',
+          title: 'Methistēmi — "Remove"; "Abandon"; "Defect"',
+          script: 'μεθίστημι',
+          translit: '<strong>methistēmi</strong> · to remove; to change sides; to defect from loyalty',
+          description:
+            'The Galatians have not merely disagreed with Paul&apos;s theology. They have switched allegiance. They have removed themselves from the One who called them—Christ—to a different foundation.',
+        },
+
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
+            verse(
+              8,
+              t('But though we, or an angel from heaven, preach any other gospel unto you than that which we have preached unto you, '),
+              hg('let him be accursed', 'gal1-anathema'),
+              t('.'),
+            ),
+            verse(
+              9,
+              t('As we said before, so say I now again, If any man preach any other gospel unto you than that ye have received, let him be accursed.'),
+            ),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'gal1-legalisms',
+          html:
+            'Paul repeats the curse twice—once in verse 8, once in verse 9. The repetition is not for emphasis alone; it is a sealing. This is not negotiable. Not even Paul himself—not even an angel from heaven—could preach a different gospel. If anyone does, including Paul if he were to reverse himself, that person is "accursed," <em>anathema</em>.',
+        },
+        {
+          kind: 'greek',
+          id: 'gal1-anathema',
+          title: 'Anathema — "Accursed"; "Set Apart for Destruction"',
+          script: 'ἀνάθεμα',
+          translit: '<strong>anathema</strong> · a person or thing devoted to destruction; accursed; under God&apos;s judgment',
+          description:
+            'This is the severest word Paul can use. The false teachers are not merely mistaken. They are under a curse. They have severed themselves from salvation. This is Paul&apos;s way of saying: there is no middle ground here, no ecumenical softness. The gospel is worth a curse to those who deny it.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
+            verse(
+              10,
+              t('For do I now persuade men, or God? or do I seek to please men? for if I yet pleased men, I should not be the servant of Christ.'),
+            ),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'gal1-servant-devotion',
+          html:
+            'Paul is not trying to win a popularity contest. If he were still trying to please men, he would not be taking this stand. The very vehemence of his language—the anathema, the repetition, the absolute refusal to negotiate—proves his allegiance is to Christ alone, not to human approval.',
+        },
+        {
+          kind: 'christ',
+          id: 'gal1-christ-sole',
+          title: 'Christ Connection — Christ as the Sole Standard',
+          html:
+            'Paul establishes a principle that echoes through all his ministry: loyalty to Christ and loyalty to God are not negotiable positions that can be compromised for the sake of peace or approval. Later, Paul will write to Timothy: "If we deny him, he also will deny us" (2 Tim. 2:12). The gospel of Christ Himself is the watershed. Everything divides on it.',
+        },
+        {
+          kind: 'carry',
+          html:
+            'You will face pressure to soften the gospel. Not to deny Christ explicitly, but to supplement Him, to make Him <em>more acceptable</em> by adding layers of works, rules, performance, or social approval. Paul&apos;s standard is stark: your allegiance is either to pleasing men or to serving Christ. You cannot genuinely do both. You can appear to do both for a season, but under real pressure—when the costs are real—you will choose one. Choose before the pressure comes. Decide now who you are trying to please.',
+        },
+        {
+          kind: 'reflection',
+          id: 'gal1-allegiance',
+          prompt:
+            'In what area are you tempted to please people at the expense of serving Christ? What would it cost you to refuse?',
+        },
+        {
+          kind: 'divider',
+        },
+      ],
+    },
+
+    /* ─── Galatians 1:11–14 — Not Received of Man, But by Revelation ────────── */
+    {
+      ref: 'Galatians 1:11–14',
+      title: 'Not Received of Man, But by Revelation',
+      blocks: [
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
+            verse(
+              11,
+              t('But I certify you, brethren, that the gospel which was preached of me is '),
+              hp('not after man', 'gal1-not-human'),
+              t('.'),
+            ),
+            verse(
+              12,
+              t('For I neither received it of man, neither was I taught it, but by the '),
+              hy('revelation of Jesus Christ', 'gal1-apokalypsis'),
+              t('.'),
+            ),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'gal1-not-human',
+          html:
+            'Paul is addressing a specific challenge: the false teachers have suggested that Paul&apos;s gospel is secondhand—filtered through human interpretation, taught to him by the Jerusalem apostles, and therefore inferior to their own "pure" version. Paul responds: my gospel is not "after man." It did not come through human channels. It came directly.',
+        },
+        {
+          kind: 'greek',
+          id: 'gal1-apokalypsis',
+          title: 'Apokalypsis — "Revelation"; "Unveiling"; "Disclosure"',
+          script: 'ἀποκάλυψις',
+          translit: '<strong>apokalypsis</strong> · an unveiling; a disclosure; a revelation from God (not human discovery)',
+          description:
+            'The gospel was not Paul&apos;s invention, not his research, not his theological reasoning. It was unveiled to him. <em>Apokalypsis</em> is a divine action, not a human achievement. God pulled back the veil and showed Paul the gospel.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
+            verse(
+              13,
+              t('For ye have heard of my conversation in time past in the Jews&apos; religion, how that beyond measure I '),
+              hg('persecuted the church of God, and wasted it', 'gal1-persecuted'),
+              t(':'),
+            ),
+            verse(
+              14,
+              t('And profited in the Jews&apos; religion above many my equals in mine own nation, being more exceedingly zealous of the traditions of my fathers.'),
+            ),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'gal1-persecuted',
+          html:
+            'Paul is reminding the Galatians of a well-known historical fact: he was not always their advocate. He was their enemy. He did not gradually drift toward faith in Christ while serving in the church. He was <em>persecuting</em> it, wasting it, trying to destroy it. This is not a shameful detail Paul hides. He broadcasts it. Why? Because it proves the gospel is not his invention. If he had invented it, he would have promoted himself from the beginning. Instead, he was the gospel&apos;s fiercest opponent. Something other than his own ambition turned him around.',
+        },
+        {
+          kind: 'carry',
+          html:
+            'Your own skepticism—any honest doubt you bring to faith—cannot disqualify you from encountering Christ. Paul came as the gospel&apos;s greatest enemy. He had theology, zeal, authority, community backing—everything that convinced him he was right and the believers were wrong. None of that prevented Christ from meeting him. Christ doesn&apos;t wait for you to become good enough or smart enough or ready enough. He breaks in. He unveils Himself. He converts you. Your past opposition is not a barrier to that revelation; it is sometimes the very condition that makes it real.',
+        },
+        {
+          kind: 'reflection',
+          id: 'gal1-revelation',
+          prompt:
+            'Where has Christ unveiled Himself to you in ways that contradicted your own plans or convictions? What changed when you saw?',
+        },
+      ],
+    },
+
+    /* ─── Galatians 1:15–17 — Separated and Called by Grace ───────────────────── */
+    {
+      ref: 'Galatians 1:15–17',
+      title: 'Separated and Called by Grace',
+      blocks: [
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
+            verse(
+              15,
+              t('But when it pleased God, who '),
+              hg('separated me from my mother&apos;s womb', 'gal1-aphorizō'),
+              t(', and called me by his grace,'),
+            ),
+            verse(
+              16,
+              t('To reveal his Son in me, that I might preach him among the heathen; immediately I conferred not with flesh and blood:'),
+            ),
+            verse(
+              17,
+              t('Neither went I up to Jerusalem to them which were apostles before me; but I went into Arabia, and returned again unto Damascus.'),
+            ),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'gal1-when-pleased',
+          html:
+            '"When it pleased God"—Paul is tracing his conversion back not to his own choice but to God&apos;s pleasure, God&apos;s timing, God&apos;s action. This is not fatalism but grace. Everything flows from what pleased God, not what suited Paul&apos;s plans.',
+        },
+        {
+          kind: 'greek',
+          id: 'gal1-aphorizō',
+          title: 'Aphorizō — "Set Apart"; "Separate"; "Mark Off"',
+          script: 'ἀφορίζω',
+          translit: '<strong>aphorizō</strong> · to separate; to set apart; to mark off as distinct (the same word used in Jeremiah of calling prophets)',
+          description:
+            'Paul connects his calling to Jeremiah&apos;s: "Before I formed thee in the belly I knew thee; and before thou camest forth out of the womb I sanctified thee" (Jer. 1:5). Paul is claiming that God had marked him for service from his very formation. His calling was not afterthought; it was foreknown and foreordained.',
+        },
+        {
+          kind: 'commentary',
+          id: 'gal1-reveal-in-me',
+          html:
+            '"To reveal his Son in me." Not <em>to me</em> (though that happened), but <em>in me</em>. This is not information transmitted. This is a <em>presence</em> established. Christ was not revealed merely as an external fact Paul learned, but as a living reality now dwelling in him. This is the heart of Paul&apos;s entire theology: "I am crucified with Christ: nevertheless I live; yet not I, but Christ liveth in me" (2:20).',
+        },
+        {
+          kind: 'christ',
+          id: 'gal1-christ-revealed',
+          title: 'Christ Connection — Christ Revealed Within',
+          html:
+            'The revelation of the Son is not intellectual doctrine but personal presence. Paul sees Christ in glory (Acts 9:3–5), but the deepest work is what happens after: Christ <em>in</em> him, so thoroughly that Paul&apos;s own life becomes an expression of Christ&apos;s life. This is what it means to be born again—not merely to know <em>about</em> Christ, but to have Christ revealed within, living through you. See 2 Corinthians 4:6, where Paul again connects this work to the light of God&apos;s glory shining "in the face of Jesus Christ."',
+        },
+        {
+          kind: 'commentary',
+          id: 'gal1-no-conference',
+          html:
+            '"Immediately I conferred not with flesh and blood." Paul could have traveled to Jerusalem, spent time with Peter and James, attended a seminar on apostolic practice, submitted himself to the established church structure. Instead, he went to Arabia. He was alone with Christ. This is not rebellious independence. This is the proper order: encounter Christ first, <em>then</em> work out the implications with others.',
+        },
+        {
+          kind: 'carry',
+          html:
+            'Your first allegiance is not to other believers, not to a church tradition, not to the approval of established leaders. Your first allegiance is to Christ revealed in you. This does not mean you should be a lone wolf or a spiritual freelancer. But it means you should test everything against your own encounter with Christ, not merely against inherited patterns or institutional endorsement.',
+        },
+        {
+          kind: 'reflection',
+          id: 'gal1-encounter',
+          prompt:
+            'How has Christ been revealed not just <em>to</em> you but <em>in</em> you? How has His presence changed the way you live and move and make decisions?',
+        },
+      ],
+    },
+
+    /* ─── Galatians 1:18–20 — Three Years Before Jerusalem ───────────────────── */
+    {
+      ref: 'Galatians 1:18–20',
+      title: 'Three Years Before Jerusalem',
+      blocks: [
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
+            verse(
+              18,
+              t('Then after three years I went up to Jerusalem to see Peter, and abode with him fifteen days.'),
+            ),
+            verse(
+              19,
+              t('But other of the apostles saw I none, save James the Lord&apos;s brother.'),
+            ),
+            verse(
+              20,
+              t('Now the things which I write unto you, behold, God is my record, I lie not.'),
+            ),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'gal1-three-years',
+          html:
+            'Paul waited <em>three years</em> before he went to Jerusalem. This was not laziness or isolation. This was the time he needed to consolidate his understanding of the gospel in his own relationship with Christ. When he finally did travel to Jerusalem, it was not as a student seeking instruction, but as a brother visiting a peer. He saw Peter and James, but the text emphasizes: he did not see the other apostles. This is Paul&apos;s way of establishing that his gospel did not come from the Jerusalem church—it came from Christ.',
+        },
+        {
+          kind: 'commentary',
+          id: 'gal1-god-record',
+          html:
+            'Paul invokes God as a witness to the truth of his account: "God is my record, I lie not." This is an oath. Paul is not being defensive; he is being legally precise. The false teachers have claimed that Paul&apos;s account of his conversion and his independent ministry is fabricated. Paul responds with a solemn appeal to God&apos;s judgment. If he is lying, God knows it.',
+        },
+        {
+          kind: 'carry',
+          html:
+            'There is a pattern in the spiritual life that Paul models here: encounter Christ directly, spend time in solitude and prayer to let that encounter settle into your bones, <em>then</em> connect with other believers to share and be sharpened. If you skip the first two and jump straight to the third, you can be easily swayed by voices louder or more authoritative than your own. Paul protected his gospel by protecting his solitude with Christ first.',
+        },
+        {
+          kind: 'reflection',
+          id: 'gal1-solitude',
+          prompt:
+            'How much time do you spend alone with Christ, away from other voices and opinions? What would change if you prioritized that solitude as fiercely as Paul did?',
+        },
+      ],
+    },
+
+    /* ─── Galatians 1:21–24 — The Persecutor Becomes the Preacher ──────────── */
+    {
+      ref: 'Galatians 1:21–24',
+      title: 'The Persecutor Becomes the Preacher',
+      blocks: [
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
+            verse(
+              21,
+              t('Afterwards I came into the regions of Syria and Cilicia;'),
+            ),
+            verse(
+              22,
+              t('And was unknown by face unto the churches of Judaea which were in Christ:'),
+            ),
+            verse(
+              23,
+              t('But they had heard only, That he which persecuted us in times past now '),
+              hg('preacheth the faith which once he destroyed', 'gal1-preacheth'),
+              t('.'),
+            ),
+            verse(
+              24,
+              t('And they glorified God in me.'),
+            ),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'gal1-preacheth',
+          html:
+            'The transformation is total. Paul was not a halfway persecutor—he was actively "breathing out slaughter" against the church. Now he is preaching faith. Not a reformed version of his old opposition. Not a synthesis. <em>Faith</em> itself—the very thing he once tried to destroy. This is not a career change. This is a complete inversion of direction.',
+        },
+        {
+          kind: 'commentary',
+          id: 'gal1-glorified',
+          html:
+            '"They glorified God in me." This is the fruit of Paul&apos;s transformation. The believers in Judaea did not know him personally. They only heard the news: the chief persecutor is now the chief preacher. And their response was not suspicion or grudging acceptance. They glorified God. They saw in Paul&apos;s reversal a clear, undeniable sign of God&apos;s power. Conversion that radical cannot be explained by human choice. It can only be explained by resurrection power.',
+        },
+        {
+          kind: 'christ',
+          id: 'gal1-resurrection-power',
+          title: 'Christ Connection — Resurrection Power Made Visible',
+          html:
+            'Paul&apos;s transformation is the resurrection in miniature. Just as Christ died and rose to a new kind of life, Paul died to his old self—his zealous opposition to the gospel—and rose to a new identity as the gospel&apos;s chief advocate. This is why Paul later writes, "I am crucified with Christ" (2:20). He has experienced a kind of death and resurrection. The power that did this—the only force in the universe powerful enough to turn a persecutor into a preacher—is the power of the risen Christ[res:sefaria-galatians-genesis-15].',
+        },
+        {
+          kind: 'carry',
+          html:
+            'You are not too far gone. You are not too entrenched in your own way. You are not too convinced of your own correctness. Paul was all of those things—and in a moment, on a road to Damascus, he was turned completely around. The power that did that is still alive, still moving, still capable of confronting human certainty and breaking it open. Whatever you thought you were so sure about, whatever direction you were running in with full confidence—Christ is not impressed by any of it. He is patient, but He is also sovereign. He can stop you in an instant if He chooses to.',
+        },
+        {
+          kind: 'reflection',
+          id: 'gal1-conversion',
+          prompt:
+            'Where have you experienced a radical turnaround—a moment when Christ changed your conviction or direction? How did it feel to be proven wrong by a power greater than yourself?',
+        },
+        {
+          kind: 'divider',
+        },
+      ],
+    },
+  ],
+
+  bottomShare: {
+    label: 'Share Galatians 1',
+    quote:
+      'Christ gave Himself for our sins, that He might deliver us from this present evil world. The gospel is complete in Him alone. Paul&apos;s authority comes not from men but from the risen Christ who transformed him from persecutor to apostle.',
+    snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
+    ref: 'Galatians 1 · Study Guide',
+  },
+
+  resources: [
+    {
+      id: 'bibleodyssey-apostle',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Apostle—Authority in Early Christianity',
+      url: 'https://www.bibleodyssey.org/dictionary/apostle/',
+      description: 'Open-access SBL entry on apostolic authority and the contested claim to be sent directly by the risen Christ, as Paul asserts in Galatians.',
+    },
+    {
+      id: 'sefaria-galatians-genesis-15',
+      kind: 'archive',
+      source: 'Sefaria',
+      label: 'Genesis 15:6—Abraham Believed God',
+      url: 'https://www.sefaria.org/Genesis.15.6',
+      description: 'OT quotation source for Paul&apos;s doctrine of justification by faith in Galatians 3; the same moment Paul references to overturn the Judaizer position.',
+    },
+    {
+      id: 'perseus-apostolos-lexicon',
+      kind: 'lexicon',
+      source: 'Perseus Scaife Digital Library',
+      label: 'Apostolos—Greek Lexicon Entry',
+      url: 'https://scaife.perseus.org/',
+      description: 'Classical and Koine Greek lexical analysis of apoṡtolos, the foundational term for Paul&apos;s claim of direct commission in verse 1.',
+    },
+  ],
+
+  hasHebrew: false,
+};

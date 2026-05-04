@@ -117,7 +117,7 @@ export default async function VersePage({ params }: VersePageProps) {
         </div>
 
         {/* Translation Switcher note */}
-        <div className="card mb-4 bg-sage/[0.04] !py-3">
+        <div className="card mb-4 !py-3">
           <div className="flex items-center justify-between">
             <p className="text-sm text-navy/50">
               Read this verse in context with translation switching:
@@ -146,7 +146,7 @@ export default async function VersePage({ params }: VersePageProps) {
           </div>
 
           {/* Original Language */}
-          <div className="card bg-navy/[0.02]">
+          <div className="card">
             <h2 className="font-sans text-lg font-semibold text-navy mb-3">Original Language Insight</h2>
             <p className="text-base text-navy/70 leading-[1.8]">{explanation.originalLanguage}</p>
           </div>
@@ -158,7 +158,7 @@ export default async function VersePage({ params }: VersePageProps) {
               <div className="space-y-3">
                 {explanation.crossReferences.map((ref, i) => (
                   <Link key={i} href={ref.link} className="block group">
-                    <div className="bg-gold/[0.04] border-l-[3px] border-gold/30 rounded-r-xl p-4 group-hover:border-gold/50 transition-colors">
+                    <div className="frost-card border-l-[3px] border-gold/30 rounded-r-xl p-4 group-hover:border-gold/50 transition-colors">
                       <p className="font-serif text-base text-navy/70 leading-relaxed italic mb-1">
                         &ldquo;{ref.text}&rdquo;
                       </p>
@@ -171,7 +171,7 @@ export default async function VersePage({ params }: VersePageProps) {
           )}
 
           {/* Application */}
-          <div className="card bg-sage/[0.06]">
+          <div className="card">
             <h2 className="font-sans text-lg font-semibold text-navy mb-3">Application</h2>
             <p className="text-base text-navy/70 leading-[1.8]">{explanation.application}</p>
           </div>

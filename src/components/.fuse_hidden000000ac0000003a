@@ -1,0 +1,98 @@
+'use client';
+
+import { useMemo, useState } from 'react';
+import Link from 'next/link';
+import SearchBar from '@/components/SearchBar';
+
+interface QuestionLite {
+  id: string;
+  question: string;
+  excerpt: string;
+  category: string;
+}
+
+interface Props {
+  questions: QuestionLite[];
+  categoryColors: Record<string, string>;
+}
+
+export default function QuestionsBrowser({ questions, categoryColors }: Props) {
+  const [query, setQuery] = useState('');
+  const [activeCategory, setActiveCategory] = useState<string | null>(null);
+
+  const categories = useMemo(
+    () => Array.from(new Set(questions.map((q) => q.category))),
+    [questions],
+  );
+
+  const filtered = useMemo(() => {
+    const q = query.trim().toLowerCase();
+    return questions.filter((entry) => {
+      if (activeCategory && entry.category !== activeCategory) return false;
+      if (!q) return true;
+      return (
+        entry.question.toLowerCase().includes(q) ||
+        entry.excerpt.toLowerCase().includes(q)
+      );
+    });
+  }, [questions, query, activeCategory]);
+
+  return (
+    <>
+      <div className="max-w-md mx-auto mb-6">
+        <SearchBar
+          placeholder="Search questions..."
+          onSearch={setQuery}
+          onChange={setQuery}
+        />
+      </div>
+
+      <div className="flex flex-wrap gap-2 justify-center mb-8">
+        <button
+          type="button"
+          onClick={() => setActiveCategory(null)}
+          className={`pill ${activeCategory === null ? 'bg-navy text-cream' : 'bg-gray-50 text-gray-600'}`}
+        >
+          All
+        </button>
+        {categories.map((category) => {
+          const isActive = activeCategory === category;
+          const baseColor = categoryColors[category] || 'bg-gray-50 text-gray-600';
+          return (
+            <button
+              key={category}
+              type="button"
+              onClick={() => setActiveCategory(isActive ? null : category)}
+              className={`pill ${isActive ? 'bg-navy text-cream' : baseColor}`}
+              aria-pressed={isActive}
+            >
+              {category}
+            </button>
+          );
+        })}
+      </div>
+
+      <div className="card-grouped">
+        {filtered.map((question) => (
+          <Link
+            key={question.id}
+            href={`/questions/${question.id}`}
+            className="card-grouped-item flex items-center gap-3 group"
+          >
+            <div className="w-9 h-9 rounded-full bg-gold/10 flex items-center justify-center flex-shrink-0">
+              <svg className="w-4 h-4 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+            </div>
+            <div className="flex-1 min-w-0">
+              <h3 className="font-sans text-sm font-semibold text-navy group-hover:text-gold transition-colors">{question.question}</h3>
+              <p className="text-xs text-navy/40 mt-0.5 truncate">{question.excerpt}</p>
+            </div>
+            <svg className="w-4 h-4 text-navy/20 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
+          </Link>
+        ))}
+        {filtered.length === 0 && (
+          <p className="text-sm text-navy/45 text-center py-6">No questions match.</p>
+        )}
+      </div>
+    </>
+  );
+}

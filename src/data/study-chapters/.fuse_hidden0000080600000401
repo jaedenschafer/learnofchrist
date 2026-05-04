@@ -1,0 +1,204 @@
+import { hp, hy, hg, t, plain, verse, type RichChapterContent } from './types';
+
+/**
+ * Proverbs 7 — The Seduction of Sin
+ *
+ * Here is narrative. The chapter tells the story of a young man who lacks
+ * discernment, walking down a street at dusk and encountering the strange
+ * woman. She speaks, she caresses, she makes promises of secret delight. And
+ * he follows her. "As an ox goeth to the slaughter, or as a fool to the
+ * correction of the stocks." The chapter is brutally honest about the power of
+ * seduction and the blindness of those drawn into it.
+ */
+export const PROVERBS_7: RichChapterContent = {
+  bookSlug: 'proverbs',
+  bookName: 'Proverbs',
+  chapter: 7,
+
+  estimatedMinutes: { beginner: 1, intermediate: 5, deep: 6 },
+  intros: [
+    'The seventh chapter of Proverbs tells a story. It is not a sermon or an abstract principle but a narrative of seduction, of a young man walking into the arms of destruction with his eyes wide open yet seeing nothing. The chapter is written almost as a drama—you are invited to observe from a distance, to see the seduction unfold, to learn by witnessing what happens when someone yields to the call of the strange woman.',
+    'What makes the narrative powerful is that it does not minimize the appeal. The woman speaks sweetly, she makes promises, she flatters. She makes the wrong way seem right, the forbidden seem safe, the path to ruin seem the path to delight. And the young man, "lacking understanding," follows. The chapter asks: Will you be like him? Or will you see, before you step into the trap, where it leads?',
+  ],
+
+  sections: [
+    {
+      ref: 'Proverbs 7:1–27',
+      title: 'The Path to Seduction',
+      blocks: [
+        {
+          kind: 'scripture',
+          chapter: 7,
+          lines: [
+            plain(1, 'My son, keep my words, and lay up my commandments with thee.'),
+            plain(2, 'Keep my commandments, and live; and my law as the apple of thine eye.'),
+            plain(3, 'Bind them upon thy fingers, write them upon the table of thine heart.'),
+            plain(4, 'Say unto wisdom, Thou art my sister; and call understanding thy kinswoman;'),
+            plain(5, 'That they may keep thee from the strange woman, from the stranger which flattereth with her words.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov7-frame',
+          html: 'The father&apos;s opening plea is urgent: keep my words as the apple of your eye, close your heart where they are written, call wisdom your sister, call understanding your family. This framing—before the story begins—is the lifeline. Grab it.[res:british-museum-amenemope]',
+        },
+        {
+          kind: 'hebrew',
+          id: 'prov7-woman-strange',
+          title: 'Ishshah Nokriyyah — "Strange Woman"',
+          script: 'אִשָּׁה נׇכְרִיָּה',
+          translit: '<strong>Ishshah nokriyyah</strong> · foreign or strange woman; adulteress',
+          description: 'The "strange woman" (also translated "foreign woman") represents temptation from outside the covenant community. She is not merely seductive; she is a threat to the covenant itself.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 7,
+          lines: [
+            plain(6, 'For at the window of my house I looked through my casement,'),
+            plain(7, 'And beheld among the simple ones, I discerned among the youths, a young man void of understanding,'),
+            plain(8, 'Passing through the street near her corner; and he went the way to her house,'),
+            plain(9, 'In the twilight, in the evening, in the black and dark night:'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov7-watching',
+          html: 'The father is watching from his window. He sees a young man walking toward her house at dusk. The darkness itself is complicit. He lacks understanding—he doesn&apos;t see the danger even as he walks toward it.[res:sefaria-proverbs-7]',
+        },
+        {
+          kind: 'scripture',
+          chapter: 7,
+          lines: [
+            plain(10, 'And, behold, there met him a woman with the attire of an harlot, and subtil of heart.'),
+            plain(11, '(She is loud and stubborn; her feet abide not in her house:'),
+            plain(12, 'Now is she without, now in the streets, and lieth in wait at every corner.)'),
+            plain(13, 'So she caught him, and kissed him, and with an impudent face said unto him,'),
+            plain(14, 'I have peace offerings with me; this day have I payed my vows.'),
+            plain(15, 'Therefore came I forth to meet thee, diligently to seek thy face, and I have found thee.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov7-approach',
+          html: 'She meets him. She is dressed for it, her heart is calculated. She is loud, restless, never at home—always hunting. She catches him, kisses him. Her words are a lie wrapped in piety: "I have vows to keep, and you are the answer to my prayers." She acts as though she&apos;s been seeking him, that this is serendipity. It is calculation masquerading as fate.[res:cambridge-up-proverbs-wisdom]',
+        },
+        {
+          kind: 'scripture',
+          chapter: 7,
+          lines: [
+            plain(16, 'I have decked my bed with coverings of tapestry, with carved works, with fine linen of Egypt.'),
+            plain(17, 'I have perfumed my bed with myrrh, aloes, and cinnamon.'),
+            plain(18, 'Come, let us take our fill of love until the morning: let us solace ourselves with loves.'),
+            plain(19, 'For the goodman is not at home, he is gone a long journey:'),
+            plain(20, 'He hath taken a bag of money with him, and will come home at the day appointed.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov7-bed-prepared',
+          html: 'She has prepared the bed. It is draped, carved, perfumed. Everything speaks of luxury, of care taken just for him. She offers to take their fill of love until morning. She assures him the husband is gone, will be gone for days. There is no one to see. No one to know. Every objection is answered before he can voice it.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 7,
+          lines: [
+            plain(21, 'With her much fair speech she caused him to yield: with the flattering of her lips she forced him.'),
+            plain(22, 'He goeth after her straightway, as an ox goeth to the slaughter, or as a fool to the correction of the stocks;'),
+            plain(23, 'Till a dart strike through his liver; as a bird hasteth to the snare, and knoweth not that it is for his life.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov7-trap-closes',
+          html: 'He yields. Her words are many and fair, her lips are flattering. Notice the trap does not close with violence—it closes with seduction. He walks toward it willingly. The ox doesn&apos;t resist. The bird doesn&apos;t struggle. He doesn&apos;t understand that this path ends in the snare, in the dart through his liver. His blindness is complete.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 7,
+          lines: [
+            plain(24, 'Hearken unto me therefore, O ye children, and attend to the words of my mouth.'),
+            plain(25, 'Let not thine heart decline to her ways, go not astray in her paths.'),
+            plain(26, 'For she hath cast down many wounded: yea, many strong men have been slain by her.'),
+            plain(27, 'Her house is the way to hell, going down to the chambers of death.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov7-warning-home',
+          html: 'The father pulls back from the story to speak directly to his sons: Listen. This is not a tale. Many have been slain by her. Strong men. She is not a person. She is a path to death itself. And her house is not a destination. It is the way to hell.',
+        },
+        {
+          kind: 'commentary',
+          id: 'prov7-simple-young',
+          html: 'The young man is described as "void of understanding." He is not stupid in the abstract, but he lacks the discernment that comes from being rooted in God&apos;s word. He walks at twilight, in the darkness, when discernment is hard to come by. He puts himself in the place where temptation waits. He is not the victim of circumstance, but of his own lack of vigilance.',
+        },
+        {
+          kind: 'commentary',
+          id: 'prov7-woman-words',
+          html: 'The strange woman speaks with flattery and false intimacy. She claims to have been seeking him, that she is delighted to have found him. She speaks of her bed, decked with fine coverings and perfume, and of taking their fill of love. She assures him that her husband is away, that they will not be discovered. Every word is calculated to make the wrong way seem safe, to make transgression seem like intimacy.',
+        },
+        {
+          kind: 'commentary',
+          id: 'prov7-ox-slaughter',
+          html: 'The comparison is devastating: "as an ox goeth to the slaughter." The ox does not know that it walks toward death. It is led by the nose, step by step, toward the very thing that will destroy it. The young man is compared to this beast, walking in blindness toward his own undoing. His eyes are not opened until the dart strikes his liver, until it is far too late.',
+        },
+        {
+          kind: 'commentary',
+          id: 'prov7-chambers-death',
+          html: 'The final claim is absolute: "Her house is the way to hell." Not merely sorrow, not merely regret, but the way to death itself. The woman is not merely a temptation or a pleasure. She is a path to destruction. And those who follow her are legion—"she hath cast down many wounded: yea, many strong men have been slain by her."',
+        },
+        {
+          kind: 'carry',
+          html: 'The wisdom of Proverbs is to see this narrative, to recognize it in your own life before you have stepped so far that you cannot turn back. It is not merely to prohibit temptation but to ask: Where am I walking? At what hour? In what darkness? Who am I allowing to speak to my heart? The simple answer is to keep God&apos;s commandments so close that they are the apple of your eye, to make wisdom your sister and understanding your kinswoman. Then you will not be the young man in the story.',
+        },
+        {
+          kind: 'christ',
+          id: 'prov7-christ',
+          title: 'Christ Connection — Wisdom Calling in the Streets',
+          html:
+            'The strange woman speaks sweetly and draws the young man into destruction. But elsewhere in Proverbs, Wisdom herself cries out in the streets, calling the simple to life and understanding (Prov. 8:1–11). And Paul reveals who that Wisdom is: Jesus Christ, "the wisdom of God" (1 Cor. 1:24). Where the seductress promises pleasure and delivers death, the true Bridegroom wins back the unfaithful—"husbands, love your wives, even as Christ also loved the church, and gave himself for it" (Eph. 5:25). The voice that calls you away from destruction is His.',
+        },
+        {
+          kind: 'reflection',
+          id: 'prov7-seduction-story',
+          prompt: 'Where in your own life is this drama unfolding? What temptation is being made to seem sweet and safe? What would wisdom say about where that path truly leads?',
+        },
+      ],
+    },
+  ],
+
+  bottomShare: {
+    quote: 'He goeth after her straightway, as an ox goeth to the slaughter...Till a dart strike through his liver. Her house is the way to hell, going down to the chambers of death.',
+    snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
+    ref: 'Proverbs 7 · Study Guide',
+  },
+
+    resources: [
+    {
+      id: 'sefaria-proverbs-7',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Proverbs 7',
+      url: 'https://www.sefaria.org/Proverbs.7',
+      description: 'Sefaria open-access source text and translations for Proverbs 7.',
+    },
+    {
+      id: 'british-museum-amenemope',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Egyptian Instruction of Amenemope',
+      url: 'https://www.britishmuseum.org/',
+      description: 'ANE parallel to Proverbs 22:17–23:11 — Egypt&apos;s wisdom literature parallel to biblical instruction.',
+    },
+    {
+      id: 'cambridge-up-proverbs-wisdom',
+      kind: 'study',
+      source: 'Cambridge UP',
+      label: 'Proverbs and Ancient Near Eastern Wisdom',
+      url: 'https://www.cambridge.org/',
+      description: 'Scholarly analysis of Proverbs within ANE wisdom tradition.',
+    },
+  ],
+
+  hasHebrew: false,
+};
