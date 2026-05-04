@@ -144,12 +144,13 @@
   }
 }
 
-/* Dark mode. */
-@media (prefers-color-scheme: dark) {
-  .resource-ref sup { color: #E0A4B0; }
-  .resource-ref:hover sup { color: #f0bdc6; }
-  .fs-num { color: #E0A4B0; }
-  .fs-link { color: #E0A4B0; }
-  .fs-link:hover .fs-label,
-  .fs-link:focus-visible .fs-label { color: #f0bdc6; }
-}
+/* Dark mode is driven by data-reader-theme on <html>, not the OS preference.
+   The site lets users pick their reader theme independently, so don't add a
+   prefers-color-scheme block here — it would bleach light text on the warm
+   cream palette for users whose system is dark by default. */
+html[data-reader-theme="dark"] .resource-ref sup { color: #E0A4B0; }
+html[data-reader-theme="dark"] .resource-ref:hover sup { color: #f0bdc6; }
+html[data-reader-theme="dark"] .fs-num { color: #E0A4B0; }
+html[data-reader-theme="dark"] .fs-link { color: #E0A4B0; }
+html[data-reader-theme="dark"] .fs-link:hover .fs-label,
+html[data-reader-theme="dark"] .fs-link:focus-visible .fs-label { color: #f0bdc6; }

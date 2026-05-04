@@ -117,31 +117,11 @@
   }
 }
 
-/* Dark mode */
-@media (prefers-color-scheme: dark) {
-  .chapter-pager {
-    background: rgba(255, 255, 255, 0.04);
-    border-color: rgba(255, 255, 255, 0.06);
-  }
-  .chapter-pager__book { color: #F5F2EC; }
-  .chapter-pager__count { color: #B8AE9F; }
-  .chapter-pager__btn {
-    color: #E0A4B0;
-    border-color: rgba(224, 164, 176, 0.22);
-  }
-  .chapter-pager__btn:hover {
-    background: rgba(224, 164, 176, 0.08);
-    border-color: rgba(224, 164, 176, 0.4);
-  }
-  .chapter-pager__btn--disabled {
-    color: rgba(255, 255, 255, 0.22);
-    border-color: rgba(255, 255, 255, 0.06);
-  }
-}
-
-/* Reader theme override (light parchment on dark / dark on dark via
-   data-reader-theme on <html>). Keep parity with the rest of the
-   chapter reader's dark mode. */
+/* Dark mode is driven by data-reader-theme on <html>, not by the OS-level
+   prefers-color-scheme — the site lets users pick their reader theme
+   independently of system preferences. Don't add a prefers-color-scheme
+   block here; it would override the user's explicit choice and bleach
+   the warm palette on machines that ship dark by default. */
 html[data-reader-theme="dark"] .chapter-pager {
   background: rgba(255, 255, 255, 0.04);
   border-color: rgba(255, 255, 255, 0.06);
