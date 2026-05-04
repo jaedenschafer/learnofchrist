@@ -1153,17 +1153,25 @@ html[data-reader-theme="dark"] {
 }
 
 .loc-plan-card__icon {
+  /* Now wraps a hand-built SVG glyph (PlanGlyph) instead of an emoji.
+     The frame stays the same so the card layout is unchanged; the glyph
+     inside picks up the gold accent via currentColor. */
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 14px;
+  width: 48px;
+  height: 48px;
+  border-radius: 16px;
   background: rgba(255, 255, 255, 0.14);
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
-  font-size: 1.4rem;
-  margin-bottom: 0.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: var(--vesper-peach);
+  margin-bottom: 0.65rem;
+}
+.loc-plan-card__icon svg {
+  width: 28px;
+  height: 28px;
 }
 
 .loc-plan-card__meta {

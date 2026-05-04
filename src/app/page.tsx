@@ -30,6 +30,83 @@ const IMG = {
   closer:  'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=2400&q=85',
 };
 
+// ─── Plan glyphs ──────────────────────────────────────────────────────
+// Hand-built monoline SVGs in the same family as the site logo —
+// symmetrical, geometric, single-stroke at currentColor. Replaces the
+// emoji icons that shipped in the original study-plans data file.
+function PlanGlyph({ id }: { id: string }) {
+  const common = {
+    viewBox: '0 0 32 32',
+    width: 26,
+    height: 26,
+    fill: 'none',
+    stroke: 'currentColor',
+    strokeWidth: 1.4,
+    strokeLinecap: 'round' as const,
+    strokeLinejoin: 'round' as const,
+    'aria-hidden': true,
+  };
+
+  switch (id) {
+    case 'gospel-of-john': {
+      // Sunburst — "the light shineth in darkness." Eight evenly spaced
+      // rays around a centered circle. Reads as light/Logos.
+      const rays = [];
+      for (let i = 0; i < 8; i++) {
+        const a = (i * Math.PI) / 4;
+        const x1 = 16 + Math.cos(a) * 10;
+        const y1 = 16 + Math.sin(a) * 10;
+        const x2 = 16 + Math.cos(a) * 13.5;
+        const y2 = 16 + Math.sin(a) * 13.5;
+        rays.push(<path key={i} d={`M${x1.toFixed(2)} ${y1.toFixed(2)} L${x2.toFixed(2)} ${y2.toFixed(2)}`} />);
+      }
+      return (
+        <svg {...common}>
+          <circle cx="16" cy="16" r="6" />
+          {rays}
+        </svg>
+      );
+    }
+    case 'genesis-foundations': {
+      // Tree of life — symmetrical canopy on a centered trunk. Eden,
+      // creation, the foundations of the story.
+      return (
+        <svg {...common}>
+          <circle cx="16" cy="12" r="8" />
+          <path d="M16 20v8" />
+          <path d="M16 20c-3-1.5-4.5-3.5-4.5-6M16 20c3-1.5 4.5-3.5 4.5-6" />
+          <path d="M11 28h10" />
+        </svg>
+      );
+    }
+    case 'who-is-jesus': {
+      // Latin cross within a halo — geometric, balanced, evokes the
+      // chi-rho monogram without the script complexity.
+      return (
+        <svg {...common}>
+          <circle cx="16" cy="16" r="10" />
+          <path d="M16 7v18" />
+          <path d="M10 14h12" />
+        </svg>
+      );
+    }
+    case 'psalms-of-comfort': {
+      // Lyre — David's harp. Curved frame with three strings, plus a
+      // crossbar at the top. Symmetric about the vertical axis.
+      return (
+        <svg {...common}>
+          <path d="M9 6c-2 6-2 12 0 18M23 6c2 6 2 12 0 18" />
+          <path d="M9 6h14" />
+          <path d="M13 7v15M16 7v16M19 7v15" />
+          <path d="M9 24h14" />
+        </svg>
+      );
+    }
+    default:
+      return null;
+  }
+}
+
 export default async function Home() {
   const blogPosts = getAllBlogPosts().slice(0, 4);
   const studyPlans = getAllStudyPlans();
@@ -134,7 +211,7 @@ export default async function Home() {
               className="loc-plan-card"
             >
               <span className="loc-plan-card__icon" aria-hidden="true">
-                {plan.icon}
+                <PlanGlyph id={plan.id} />
               </span>
               <span className="loc-plan-card__meta">
                 <span className="loc-plan-card__duration">
