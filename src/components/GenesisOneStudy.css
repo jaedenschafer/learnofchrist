@@ -1935,22 +1935,33 @@ html[data-reader-theme="dark"] .page-container .pill.bg-\[\#5856D6\]\/\[0\.08\] 
    Progress bar + resume banner + dashboard
    ───────────────────────────────────────────── */
 
-/* Thin sticky progress bar anchored under the navbar */
+/* Thin progress bar — sits directly under the floating nav pill, matching
+   the pill's width. Used to be a full-width bar at top: 48px that the nav
+   visually sat on top of; now it lines up with the pill's horizontal
+   extent so it reads as the pill's underline. */
 .chapter-progress {
   position: fixed;
-  top: 48px;
-  left: 0;
-  right: 0;
+  /* Nav pill: top = clamp(0.5rem, 1vw, 1rem), height = 56px. Sit a few
+     pixels below it so the bar is clearly *attached* to the pill rather
+     than crashing into its frosted edge. */
+  top: calc(clamp(0.5rem, 1vw, 1rem) + 56px + 4px);
+  /* Match the nav's outer gutters so the progress bar's edges align with
+     the pill's edges. */
+  left: clamp(0.75rem, 2vw, 1.5rem);
+  right: clamp(0.75rem, 2vw, 1.5rem);
   height: 3px;
-  background: rgba(0, 0, 0, 0.05);
-  z-index: 45;
+  background: rgba(0, 0, 0, 0.06);
+  border-radius: 999px;
+  overflow: hidden;
+  /* Below .site-nav (z-index: 50) so the nav's shadow layers cleanly. */
+  z-index: 49;
   pointer-events: none;
 }
 .chapter-progress-fill {
   position: absolute;
   left: 0; top: 0; bottom: 0;
   background: linear-gradient(90deg, #007AFF, #5856D6);
-  border-radius: 0 2px 2px 0;
+  border-radius: 999px;
   transition: width 0.16s ease-out;
 }
 .chapter-progress-notch {
@@ -2387,5 +2398,6 @@ html[data-reader-theme="dark"] .progress-dash-book-bar {
   .progress-dash-stat-num { font-size: 26px; }
   .progress-dash-recent { grid-template-columns: 1fr; }
   .progress-dash-books { grid-template-columns: 1fr; }
-  .chapter-progress { top: 48px; }
+  /* Mobile override is no longer needed — the base .chapter-progress
+     rule already pins under the floating nav pill via clamp() math. */
 }
