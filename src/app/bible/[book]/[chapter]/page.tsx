@@ -2,18 +2,19 @@ import Link from 'next/link';
 import dynamic from 'next/dynamic';
 import type { Metadata } from 'next';
 import { getAllBooks, getBookByName } from '@/data/books';
-import BreadcrumbNav from '@/components/BreadcrumbNav';
 import ChapterNav from '@/components/ChapterNav';
 import VerseDisplay from '@/components/VerseDisplay';
 import JsonLd from '@/components/JsonLd';
 import StudyBanner from '@/components/StudyBanner';
+import StudyTopBar from '@/components/StudyTopBar';
 import { getVerses } from '@/lib/supabase';
 import { verseExplanations } from '@/data/verse-explanations';
 
-// The filters bar is a client-side control strip — keep it out of the initial
-// HTML payload so the verse list paints sooner.
-const ReadingFilters = dynamic(() => import('@/components/ReadingFilters'), {
-  loading: () => <div className="h-12" aria-hidden="true" />,
+// Use the same translation pill the study guide uses, so /bible and /study
+// share one toolbar component. estimatedMinutes is omitted, so the depth
+// section of the dropdown doesn't render — just the translation list.
+const StudyFilters = dynamic(() => import('@/components/StudyFilters'), {
+  loading: () => <div className="h-9 w-20" aria-hidden="true" />,
 });
 
 // ─── ISR ───
@@ -135,23 +136,24 @@ export default async function ChapterReadingPage({ params }: ChapterPageProps) {
     <div className="page-container">
       <JsonLd data={jsonLd} />
       <div className="max-w-3xl mx-auto">
-        <BreadcrumbNav items={[
-          { label: 'Bible', href: '/bible' },
-          { label: book_obj.name, href: `/bible/${book}` },
-          { label: `Chapter ${chapter}`, href: '#' },
-        ]} />
-
-        <div className="bg-[color:var(--color-surface)] rounded-3xl p-6 mb-4">
-          <span className="pill text-[color:var(--color-primary)] mb-2 inline-block">{book_obj.name}</span>
-          <h1 className="text-3xl sm:text-4xl font-bold text-[color:var(--color-label)] mb-2">Chapter {chapter}</h1>
-          <p className="text-base text-[color:var(--color-secondary-label)]">
-            {hasVerses
-              ? `${initialVerses.length} verses — switch translations with the toolbar below.`
-              : 'Read this chapter in multiple translations.'}
-          </p>
-        </div>
-
-        <ReadingFilters />
+        {/* Same toolbar component as the study guide page — back button,
+            book + chapter title, headphones placeholder, and the more
+            menu (theme, font size, sections). The translation pill rides
+            inline next to the icons. estimatedMinutes is intentionally
+            not passed so the dropdown only shows the Translation list. */}
+        <StudyTopBar
+          bookSlug={book}
+          bookName={book_obj.name}
+          chapter={chapter}
+          testamentLabel={
+            book_obj.testament === 'apocrypha'
+              ? 'Apocrypha'
+              : book_obj.testament === 'new'
+                ? 'New Testament'
+                : 'Old Testament'
+          }
+          inlineFilters={<StudyFilters inline />}
+        />
 
         <div className="space-y-4 mt-4">
           {hasVerses && (
