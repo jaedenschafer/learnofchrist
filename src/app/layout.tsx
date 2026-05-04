@@ -8,6 +8,7 @@ import { StudyLevelProvider } from '@/lib/StudyLevelContext';
 import { DenominationProvider } from '@/lib/DenominationContext';
 import { ReadingPrefsProvider } from '@/lib/ReadingPrefsContext';
 import ReadingPrefsSync from '@/components/ReadingPrefsSync';
+import LopCloserReveal from '@/components/LopCloserReveal';
 
 export const viewport: Viewport = {
   themeColor: [
@@ -94,6 +95,7 @@ export default async function RootLayout({
             <DenominationProvider>
               <ReadingPrefsProvider>
                 <ReadingPrefsSync />
+                <LopCloserReveal />
                 <Navbar />
                 <main className="flex-grow">
                   {children}
