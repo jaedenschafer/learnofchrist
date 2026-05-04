@@ -354,22 +354,27 @@
   position: relative;
   isolation: isolate;
   overflow: hidden;
-  /* Warm peach base — same palette as the home-page closer, wider span. */
-  background:
-    radial-gradient(ellipse at 50% 100%, color-mix(in srgb, var(--vesper-peach) 30%, var(--vesper-parchment)) 0%, var(--vesper-parchment) 75%),
-    var(--vesper-parchment);
+  /* Saturated peach/orange base — deeper than the parchment cream so
+     the lighter overlapping circles read clearly against it. Mirrors
+     the reference screenshot's bold orange field. */
+  background: linear-gradient(
+    180deg,
+    color-mix(in srgb, var(--vesper-peach) 78%, white) 0%,
+    color-mix(in srgb, var(--vesper-peach) 88%, var(--vesper-gold) 12%) 100%
+  );
   padding: clamp(3.5rem, 8vw, 6.5rem) 0 clamp(4.5rem, 10vw, 7.5rem);
   margin-top: clamp(2rem, 5vw, 4rem);
 }
 
-/* Three overlapping organic blobs behind the pane — modeled on the
-   reference screenshot's abstract bowl-shaped curves but tuned to the
-   Vesper warm-earth palette. Blobs sit in -1 z so the pane reads on top.
+/* Two overlapping solid-color circles behind the pane — modeled on the
+   reference screenshot's bold abstract curves rather than soft blurred
+   blobs. Hard radius = 50% so the circle silhouettes show clearly;
+   each circle is a single peach tint that's lighter than the base
+   field, so the overlap creates the bowl-curve effect from the shot.
 
-   Blobs DRIFT IN from far off-screen when the closer enters the
-   viewport. The reveal class is toggled by <LopCloserReveal /> in the
-   root layout via IntersectionObserver. Long ease-out cubic-bezier so
-   the motion reads as smooth and intentional, not sudden. */
+   Both DRIFT IN from off-screen when the closer enters the viewport.
+   The reveal class is toggled by <LopCloserReveal /> in the root
+   layout via IntersectionObserver. */
 .lop-closer::before,
 .lop-closer::after {
   content: '';
@@ -377,7 +382,6 @@
   border-radius: 50%;
   z-index: -1;
   pointer-events: none;
-  filter: blur(2px);
   opacity: 0;
   transition:
     transform 1.4s cubic-bezier(0.16, 0.9, 0.25, 1),
@@ -385,37 +389,25 @@
   will-change: transform, opacity;
 }
 .lop-closer::before {
-  /* Big right blob — peach. Resting position pulls in from off-canvas
-     to the right; starts further out + slightly down. */
-  width: 90vmin;
-  height: 90vmin;
-  right: -20vmin;
-  top: -25vmin;
-  transform: translate3d(60vmin, 25vmin, 0) scale(0.9);
-  background: radial-gradient(
-    circle at 35% 35%,
-    color-mix(in srgb, var(--vesper-peach) 70%, transparent) 0%,
-    color-mix(in srgb, var(--vesper-peach) 38%, transparent) 45%,
-    transparent 75%
-  );
-  /* Stagger right blob slightly later than left so they cross each
-     other instead of arriving in lockstep. */
+  /* Big right-top circle — lighter peach. Drifts in from off-canvas
+     to the right + further down. */
+  width: 130vmin;
+  height: 130vmin;
+  right: -55vmin;
+  top: -65vmin;
+  transform: translate3d(70vmin, 30vmin, 0);
+  background: color-mix(in srgb, var(--vesper-peach) 40%, white);
   transition-delay: 0.05s;
 }
 .lop-closer::after {
-  /* Big left blob — gold. Resting position drifts in from bottom-left
-     corner; starts further down + further left. */
-  width: 75vmin;
-  height: 75vmin;
-  left: -15vmin;
-  bottom: -25vmin;
-  transform: translate3d(-50vmin, 30vmin, 0) scale(0.9);
-  background: radial-gradient(
-    circle at 60% 50%,
-    color-mix(in srgb, var(--vesper-gold) 55%, transparent) 0%,
-    color-mix(in srgb, var(--vesper-gold) 28%, transparent) 50%,
-    transparent 75%
-  );
+  /* Bottom-left circle — lightest peach, larger and lower so the two
+     overlap in the center to form the bowl curve. */
+  width: 105vmin;
+  height: 105vmin;
+  left: -38vmin;
+  bottom: -50vmin;
+  transform: translate3d(-55vmin, 40vmin, 0);
+  background: color-mix(in srgb, var(--vesper-peach) 22%, white);
 }
 
 /* When the section enters the viewport, blobs glide to their resting
@@ -447,42 +439,20 @@
   text-align: center;
   max-width: 38rem;
   padding: clamp(2.25rem, 5vw, 3.5rem);
-  border-radius: 36px;
-  /* Translucent dark frost — same recipe as the home page's "What
-     should we study?" closer pane. The peach + gold blobs behind it
-     diffuse through the heavy backdrop blur, giving the pane a warm
-     sunset glow without losing contrast on the white text inside. */
-  background: rgba(26, 22, 18, 0.18);
-  -webkit-backdrop-filter: blur(28px) saturate(180%);
-  backdrop-filter: blur(28px) saturate(180%);
-  border: 1px solid rgba(255, 255, 255, 0.28);
-  color: #FFFFFF;
+  border-radius: 28px;
+  /* Clear frosted glass — neutral translucent cream, not warm-gold.
+     Heavy backdrop-blur takes the peach circles behind it down to a
+     soft luminous haze the way the reference screenshot's white pane
+     does. Text stays Compline so it reads sharp on cream. */
+  background: rgba(255, 253, 248, 0.62);
+  -webkit-backdrop-filter: blur(40px) saturate(150%);
+  backdrop-filter: blur(40px) saturate(150%);
+  border: 1px solid rgba(255, 255, 255, 0.65);
+  color: var(--vesper-compline);
   box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.35),
-    0 28px 70px -22px rgba(26, 22, 18, 0.45);
+    inset 0 1px 0 rgba(255, 255, 255, 0.85),
+    0 32px 80px -24px rgba(26, 22, 18, 0.20);
   isolation: isolate;
-}
-
-/* Text inside the dark-frost pane needs to flip to white/peach. */
-.lop-closer__pane .lop-closer__title { color: #FFFFFF; }
-.lop-closer__pane .lop-closer__sub   { color: rgba(255, 255, 255, 0.78); }
-.lop-closer__pane .lop-eyebrow,
-.lop-closer__pane .lop-closer__eyebrow { color: var(--vesper-peach); }
-
-/* Re-context the frost tokens so buttons rendered inside the pane
-   (.btn-primary / .btn-outline / .btn-secondary) read as dark-context —
-   white text, translucent white frost — instead of the parchment-cream
-   light-context defaults. */
-.lop-closer__pane {
-  --frost-tint:         rgba(255, 255, 255, 0.16);
-  --frost-tint-card:    rgba(255, 255, 255, 0.18);
-  --frost-tint-hover:   rgba(255, 255, 255, 0.24);
-  --frost-tint-rail:    rgba(255, 255, 255, 0.10);
-  --frost-tint-strong:  rgba(255, 255, 255, 0.22);
-  --frost-border:       rgba(255, 255, 255, 0.20);
-  --frost-border-card:  rgba(255, 255, 255, 0.20);
-  --frost-text:         #FFFFFF;
-  --frost-text-soft:    rgba(255, 255, 255, 0.78);
 }
 
 .lop-closer__eyebrow {
