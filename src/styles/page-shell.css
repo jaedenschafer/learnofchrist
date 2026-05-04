@@ -354,29 +354,30 @@
   position: relative;
   isolation: isolate;
   overflow: hidden;
-  /* Bold saturated peach-orange base, top-to-bottom gradient. Same
-     warm sunset family as the rest of the site, just pushed toward
-     orange so the lighter overlapping circles silhouette clearly. */
+  /* Bold saturated peach-orange base. The lighter circles silhouette
+     against this. */
   background: linear-gradient(
     175deg,
     #EE8A48 0%,
     #F09752 45%,
     #F4A968 100%
   );
-  padding: clamp(3.5rem, 8vw, 6.5rem) 0 clamp(4.5rem, 10vw, 7.5rem);
+  padding: clamp(4rem, 10vw, 8rem) 0 clamp(5rem, 12vw, 9rem);
   margin-top: clamp(2rem, 5vw, 4rem);
+  min-height: 70vh;
 }
 
-/* Two overlapping circles with their own internal radial gradients —
-   each circle has a slightly darker side (toward the base orange) and
-   a lighter side (toward the cream side), so the silhouettes feel
-   round and volumetric instead of flat sticker shapes.
+/* Three overlapping circles — modeled exactly on the reference shot.
+   Each circle is sized + positioned so a meaningful arc is visible
+   ON-CANVAS, not just a faint edge bleed. Internal radial-gradients
+   give each circle volume so they feel like spheres lit from one side
+   instead of flat decals.
 
-   Both DRIFT IN from off-screen when the closer enters the viewport.
-   The reveal class is toggled by <LopCloserReveal /> in the root
-   layout via IntersectionObserver. */
+   All three DRIFT IN from off-screen when the closer enters the
+   viewport (class added by <LopCloserReveal /> via IntersectionObserver). */
 .lop-closer::before,
-.lop-closer::after {
+.lop-closer::after,
+.lop-closer__inner::before {
   content: '';
   position: absolute;
   border-radius: 50%;
@@ -388,42 +389,68 @@
     opacity 1.1s cubic-bezier(0.16, 0.9, 0.25, 1);
   will-change: transform, opacity;
 }
+
+/* ── Top-right circle — biggest, slightly-lighter peach. Most of it
+   sits on-canvas so the bowl-curve at its bottom edge is visible
+   crossing the section. */
 .lop-closer::before {
-  /* Upper-right circle — medium peach with internal gradient. Drifts
-     in from off-canvas to the right + further down. */
-  width: 130vmin;
-  height: 130vmin;
-  right: -55vmin;
-  top: -65vmin;
-  transform: translate3d(70vmin, 30vmin, 0);
+  width: 95vmin;
+  height: 95vmin;
+  right: -10vmin;
+  top: -45vmin;
+  transform: translate3d(60vmin, -20vmin, 0);
   background: radial-gradient(
-    circle at 32% 38%,
-    #FBB987 0%,
-    #F8AB76 55%,
-    #F39E68 100%
+    circle at 50% 60%,
+    #FBB280 0%,
+    #F7A06A 60%,
+    #F39660 100%
   );
   transition-delay: 0.05s;
 }
+
+/* ── Bottom-left circle — lightest peach, large, anchors the lower
+   half of the section the way the reference shot's bottom bowl does. */
 .lop-closer::after {
-  /* Lower-left circle — lighter peach with internal gradient, larger
-     so the two circles overlap in the center to form the bowl curve. */
+  width: 90vmin;
+  height: 90vmin;
+  left: -20vmin;
+  bottom: -45vmin;
+  transform: translate3d(-55vmin, 35vmin, 0);
+  background: radial-gradient(
+    circle at 65% 30%,
+    #FFD4B0 0%,
+    #FDC299 55%,
+    #FAB084 100%
+  );
+}
+
+/* ── Middle bowl — medium peach circle that bridges the top and
+   bottom circles, creating the third visible arc in the reference. */
+.lop-closer__inner {
+  position: relative;
+}
+.lop-closer__inner::before {
   width: 110vmin;
   height: 110vmin;
-  left: -40vmin;
-  bottom: -52vmin;
-  transform: translate3d(-55vmin, 40vmin, 0);
+  /* Anchored to the right side of the section, slightly below center,
+     so it sweeps across the middle from right → left. */
+  right: -45vmin;
+  top: 10vmin;
+  transform: translate3d(50vmin, 30vmin, 0);
   background: radial-gradient(
-    circle at 60% 42%,
-    #FFD4B5 0%,
-    #FCC3A0 55%,
-    #F9B187 100%
+    circle at 25% 35%,
+    #FAC399 0%,
+    #F7B07F 55%,
+    #F4A26D 100%
   );
+  transition-delay: 0.1s;
 }
 
 /* When the section enters the viewport, blobs glide to their resting
    positions. Class added by LopCloserReveal (IntersectionObserver). */
 .lop-closer.is-revealed::before,
-.lop-closer.is-revealed::after {
+.lop-closer.is-revealed::after,
+.lop-closer.is-revealed .lop-closer__inner::before {
   transform: translate3d(0, 0, 0) scale(1);
   opacity: 1;
 }
@@ -432,7 +459,8 @@
    immediately with no transition. */
 @media (prefers-reduced-motion: reduce) {
   .lop-closer::before,
-  .lop-closer::after {
+  .lop-closer::after,
+  .lop-closer .lop-closer__inner::before {
     transform: translate3d(0, 0, 0) scale(1);
     opacity: 1;
     transition: none;
