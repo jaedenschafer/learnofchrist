@@ -67,8 +67,12 @@
   margin: 3rem 0 1.25rem;
 }
 
+/* Section-ref label ("CREATION DAY 1 · Genesis 1:3-5"). Plain wine
+   eyebrow now — the pill border + tinted background read as a chip
+   stamped onto the page; just letting the small caps stand on their
+   own keeps the rhythm calm. */
 .rich-study h2.section .ref {
-  display: inline-block;
+  display: block;
   font-family: var(--font-sans);
   color: var(--wine, #7A2F3D);
   font-size: 11px;
@@ -76,10 +80,6 @@
   letter-spacing: 0.16em;
   text-transform: uppercase;
   margin-bottom: 0.55rem;
-  padding: 0.18rem 0.55rem;
-  border: 1px solid rgba(122, 47, 61, 0.18);
-  border-radius: 999px;
-  background: rgba(122, 47, 61, 0.04);
   text-decoration: none;
 }
 
@@ -187,8 +187,8 @@ html[data-reader-theme="dark"] .rich-study .kjv-note .kjv-note-close:hover {
   margin: 1.75rem 0 1.5rem;
   padding: 1.45rem 1.65rem 1.55rem;
   border-radius: 22px;
-  background-color: #FBF7EE;
-  border: 1px solid rgba(170, 150, 120, 0.18);
+  background-color: #FFFCF4;
+  border: 1px solid rgba(170, 150, 120, 0.14);
   font-family: 'EB Garamond', 'Cormorant Garamond', 'New York', Georgia, serif;
   line-height: 1.55;
   color: #1C1B18;
@@ -199,15 +199,10 @@ html[data-reader-theme="dark"] .rich-study .kjv-note .kjv-note-close:hover {
 }
 
 /* Paper grain — Unsplash photo of a crumpled white textile, hotlinked
-   from the Unsplash CDN with their URL params doing the optimization:
-     auto=format     → WebP for modern browsers, JPG fallback
-     auto=compress   → Unsplash's adaptive quality
-     q=60            → ~60% quality (visually fine for a texture)
-     w=720           → 720px tile, plenty for retina at scripture-block size
-     fit=crop        → square-ish crop so the tile reads as paper, not fabric folds
-   Result is a ~25-40KB image that the browser caches long-term (the
-   photo ID is content-addressable). mix-blend-mode multiply lets the
-   warm cream paper-base show through. */
+   from the Unsplash CDN with their URL params doing the optimization.
+   No extra highlight/shadow overlays on top — the photo's own creases
+   are the texture; layering more radial gradients was distorting the
+   paper into uneven bright/dark patches. */
 .rich-study .scripture::before {
   content: '';
   position: absolute;
@@ -218,30 +213,11 @@ html[data-reader-theme="dark"] .rich-study .kjv-note .kjv-note-close:hover {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  opacity: 0.55;
-  mix-blend-mode: multiply;
-  border-radius: inherit;
-}
-
-/* Crease highlights and shadows — asymmetric ellipses that suggest the
-   paper has been folded once and smoothed. Sits over the noise so the
-   highlights read on top of the grain. */
-.rich-study .scripture::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  z-index: 0;
-  pointer-events: none;
-  background:
-    /* highlights — light catching ridges */
-    radial-gradient(ellipse 32% 14% at 22% 16%, rgba(255, 255, 255, 0.85), transparent 70%),
-    radial-gradient(ellipse 24% 10% at 72% 10%, rgba(255, 255, 255, 0.70), transparent 75%),
-    radial-gradient(ellipse 30% 14% at 80% 72%, rgba(255, 255, 255, 0.62), transparent 70%),
-    radial-gradient(ellipse 20%  9% at 14% 80%, rgba(255, 255, 255, 0.55), transparent 75%),
-    /* shadows — soft sepia in the valleys */
-    radial-gradient(ellipse 36% 16% at 50% 40%, rgba(140, 110, 70, 0.16), transparent 75%),
-    radial-gradient(ellipse 26% 12% at 30% 64%, rgba(140, 110, 70, 0.12), transparent 75%),
-    radial-gradient(ellipse 22% 10% at 88% 32%, rgba(140, 110, 70, 0.10), transparent 75%);
+  /* Lower opacity + screen blend = a brighter, lighter texture.
+     screen lightens only — the photo's bumps brighten the cream base
+     instead of darkening it like multiply did. */
+  opacity: 0.45;
+  mix-blend-mode: soft-light;
   border-radius: inherit;
 }
 
