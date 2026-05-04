@@ -16,6 +16,10 @@ export const GENESIS_15: RichChapterContent = {
   chapter: 15,
 
   estimatedMinutes: { beginner: 7, intermediate: 11, deep: 15 },
+  opener: {
+    matchTitle: /Abram Receives the Promise/i,
+    caption: 'Genesis 15',
+  },
   intros: [
     'Abram has left his homeland. He has been promised an heir and a land so vast it cannot be counted. But he is childless, and his adopted servant will inherit everything. The chapter opens with God saying something personal, something almost breathed: "Fear not, Abram: I am thy shield, and thy exceeding great reward." And then Abram does something simple - he believes God - and God counts that belief [res:bibleodyssey-abraham-covenant] as righteousness. That single verse has shaped the entire Christian understanding of how we stand before God.',
     'But Abram asks for proof. He needs to see how the promise holds. So God takes him through a ceremony ancient shepherds knew well: the covenant of pieces. Abram cuts animals in half and lays them out. God fills the air with smoke and fire, and then does something no other god in the ancient world ever does - He passes alone between the pieces. In every covenant you make with a human, both parties walk the path. But here, God walks both paths. God binds Himself so completely to keep His word that if He fails, let Him be torn in pieces like the animals. And then God speaks a prophecy: Abram&apos;s descendants will be enslaved for 400 years, but they will come out with great substance. The chapter ends not with celebration, but with trust.',

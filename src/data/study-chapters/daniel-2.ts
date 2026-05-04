@@ -17,6 +17,10 @@ export const DANIEL_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 5 },
+  opener: {
+    matchTitle: /Susannah and the Elders/i,
+    caption: 'Daniel 2',
+  },
   intros: [
     'In the second year of his reign, Nebuchadnezzar dreams a dream that troubles his spirit and robs him of sleep. He summons all his magicians, astrologers, and sorcerers, demanding they tell him the dream and its interpretation. They reply that no man can reveal the king&apos;s secret except the gods. The king grows furious and decrees that all the wise men shall be slain.',
     'When the commandment goes out to slay the wise men of Babylon, Daniel and his companions are sought out. But Daniel asks for time and makes known to the king that there is a God in heaven who reveals secrets. He seeks his companions, and together they pray. And in the night, the secret is revealed to Daniel in a vision. The stone cut without hands becomes the image of all that is yet to unfold—a kingdom that cannot be shaken, that stands forever.',

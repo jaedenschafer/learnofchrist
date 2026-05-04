@@ -17,6 +17,10 @@ export const DANIEL_6: RichChapterContent = {
   chapter: 6,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+  opener: {
+    matchTitle: /Daniel in the Lion/i,
+    caption: 'Daniel 6',
+  },
   intros: [
     'Darius the Mede decides to set up one hundred and twenty princes over the kingdom, and over these princes three presidents. Daniel is one of the three presidents. He is so distinguished and faithful that the king thinks to set him over the whole realm. But the other presidents and the princes are moved with envy. They seek to find occasion against Daniel, but they can find none. He is faithful. No error or fault is found in him. So they devise a plot. They come before the king and ask him to make a firm decree: whoever shall ask a petition of any God or man for thirty days, save of the king, shall be cast into the den of lions.',
     'Darius signs the writing and the decree. And Daniel, knowing that the writing is signed, goes into his house and prays three times a day toward Jerusalem, as he has done all his life. His enemies watch him pray and bring him before the king. Daniel is cast into the den of lions. But the king says to him, "Thy God whom thou servest continually, he will deliver thee."',

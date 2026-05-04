@@ -15,6 +15,10 @@ export const EPHESIANS_4: RichChapterContent = {
   chapter: 4,
 
   estimatedMinutes: { beginner: 6, intermediate: 15, deep: 20 },
+  opener: {
+    matchTitle: /The Calling of Saint/i,
+    caption: 'Ephesians 4',
+  },
   intros: [
     'After three chapters of doctrine—of how believers are chosen, made alive, reconciled to God and each other—Paul now turns to how believers should live. He begins with an appeal: "I therefore, the prisoner of the Lord, beseech you that ye walk worthy of the vocation wherewith ye are called." The gospel is not merely believed; it is lived.',
     'Ephesians 4 unfolds Paul&apos;s vision of community. One body. One Spirit. One Lord. One faith. One baptism. One God. Then comes the counterintuitive claim: this unity is enacted through diversity. Christ has given different gifts to different members so that the whole body is built up, each part contributing its strength.',

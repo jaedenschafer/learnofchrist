@@ -16,6 +16,10 @@ export const JEREMIAH_31: RichChapterContent = {
   chapter: 31,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 6 },
+  opener: {
+    matchTitle: /Jeremiah/i,
+    caption: 'Jeremiah 31',
+  },
   intros: [
     'Jeremiah 31 is the voice of mercy breaking through judgment. The prophet has spent chapters announcing the collapse of Judah, the exile of the people, the destruction of the Temple. But now God turns the prophet&apos;s gaze toward restoration. "I have loved thee with an everlasting love," God says to Israel. This is not a new love kindled after judgment has purged the people. This is the same love that upheld Israel through the wilderness, the love that chose Abraham and promised David a throne. That love has never ceased, even in exile.',
     'The new covenant Jeremiah announces is revolutionary. The old covenant was written on stone, carried in the ark, visible, external. The new covenant will be written on hearts, internalized, making the need for external law obsolete. "They shall all know me, from the least of them unto the greatest of them." This is a covenant of restoration not through legal observance alone, but through the transformation of human desire itself.',

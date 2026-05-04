@@ -19,6 +19,10 @@ export const JEREMIAH_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 3, intermediate: 6, deep: 8 },
+  opener: {
+    matchTitle: /The Prophet Jeremiah/i,
+    caption: 'Jeremiah 1',
+  },
   intros: [
     'The book of Jeremiah opens not with narrative but with autobiography. God speaks directly to the man He has chosen, and speaks to him of eternity. "Before I formed thee in the belly I knew thee." This is not knowledge of a future event—a mother becoming pregnant with a particular child. This is knowledge that transcends time itself. It is the knowledge of the eternal. In this moment, a young man learns that his life was not accidental, not circumstantial, not the product of human ambition alone. It was known. It was named. It was ordained.',
     'What follows is the work God has called Jeremiah to do: "A prophet unto the nations." Not a comfortable calling. Not an easy one. To be a prophet is to speak God&apos;s word in a world that does not want to hear it. Jeremiah will spend his life proclaiming judgment, calling Israel to repentance, facing rejection and anger. Yet the chapter ends not with doom but with protection: "I am with thee to deliver thee." God does not call Jeremiah alone. The God who knew him before the world was will walk with him through every trial.',

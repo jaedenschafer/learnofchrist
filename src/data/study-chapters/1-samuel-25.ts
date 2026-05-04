@@ -19,6 +19,10 @@ export const SAMUEL_1_25: RichChapterContent = {
   chapter: 25,
 
   estimatedMinutes: { beginner: 10, intermediate: 19, deep: 23 },
+  opener: {
+    matchTitle: /David and Abigail/i,
+    caption: '1 Samuel 25',
+  },
   intros: [
     'Samuel is dead. The prophet who anointed Saul, who spoke God&apos;s word fearlessly, who shaped the very soul of Israel — he is gone. All Israel gathers to mourn him. But his death does not end the story. The office remains. The word remains. And in the wilderness, a young man who has learned from the prophets must learn something harder: that waiting for vindication is not the same as taking it yourself.',
     'This is the story of a fool and a wise woman, of anger tested and restrained, of a man learning to trust that the Lord fights His own battles. It is a chapter about the difference between being right and being righteous, between the victory we seize and the victory God wins on our behalf.',

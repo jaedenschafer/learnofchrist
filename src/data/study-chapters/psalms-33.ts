@@ -16,6 +16,10 @@ export const PSALMS_33: RichChapterContent = {
   chapter: 33,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 5 },
+  opener: {
+    matchTitle: /David Playing the Flute/i,
+    caption: 'Psalms 33',
+  },
   intros: [
     'Psalm 33 is a song of exultation in God&apos;s creative power and His ongoing care for His people. The psalm calls for praise[res:sefaria-psalms-33]—singing, playing instruments, shouting for joy—and then explains why such praise is appropriate: God has made all things by His word. His eye is upon all who fear Him. His counsel stands forever. To understand God as Creator and Sustainer is to understand why praise is the only appropriate response.',
   ],

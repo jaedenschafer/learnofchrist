@@ -10,6 +10,10 @@ export const JOSHUA_5: RichChapterContent = {
   chapter: 5,
 
   estimatedMinutes: { beginner: 6, intermediate: 10, deep: 12 },
+  opener: {
+    matchTitle: /Joshua and the Captain/i,
+    caption: 'Joshua 5',
+  },
   intros: [
     'Joshua 5 is where Israel pauses before the conquest of Canaan. The Jordan is crossed, the wilderness is behind, and the enemy kings&apos; hearts have already melted in fear. But God does not lead them straight to battle. Instead, He asks for circumcision — the covenant sign restored before any sword is drawn. Only after the people are healed and the Passover is kept does Israel eat the fruit of the land. Worship comes before warfare. The covenant comes before conquest.',
     'Three mysteries mark this chapter. First, a whole generation is circumcised in enemy territory — an act of stunning vulnerability that only faith can explain. Second, the manna that fed them for forty years stops the moment they taste Canaan&apos;s harvest — God&apos;s provision changes form but never quality. Third, a man with a drawn sword appears to Joshua, receives Joshua&apos;s worship, and claims to be the Captain of the Lord&apos;s host. He speaks like God, receives worship like God, and commands like God. He is almost certainly a pre-incarnate appearance of Christ Himself.',

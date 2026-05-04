@@ -18,6 +18,10 @@ export const KINGS_2_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 7, intermediate: 15, deep: 22 },
+  opener: {
+    matchTitle: /Elijah/i,
+    caption: '2 Kings 2',
+  },
   intros: [
     "Elijah&apos;s time has come. The Lord is about to take him to heaven, and he knows it. But Elisha, his apprentice and heir, will not let him go. Three times Elijah tells Elisha to stay behind — at Gilgal, at Bethel, at Jericho. Three times Elisha refuses. &quot;As the Lord liveth, and as thy soul liveth, I will not leave thee.&quot; The bond between master and student is unbreakable.",
     "What follows is a portrait of spiritual succession. As they approach the Jordan, Elijah takes his mantle — the garment that has become the symbol of the prophetic office — and uses it to part the waters. They cross on dry ground. And then, in a moment of cosmic drama, a chariot of fire and horses of fire separate them, and Elijah is taken up in a whirlwind. But he does not leave Elisha empty-handed. The mantle falls. Elisha picks it up. And when he returns to the Jordan and strikes the waters with that same garment, the waters part again. The mantle works. The office has passed. The succession is confirmed.",

@@ -17,6 +17,10 @@ export const EXODUS_34: RichChapterContent = {
   chapter: 34,
 
   estimatedMinutes: { beginner: 9, intermediate: 14, deep: 18 },
+  opener: {
+    matchTitle: /Moses Brings the New/i,
+    caption: 'Exodus 34',
+  },
   intros: [
     'Exodus 34 opens after catastrophe. The people have broken covenant at the golden calf — they have made and worshiped an idol while Moses is still on Sinai receiving God&apos;s law. The tablets are shattered. The agreement is broken. But instead of withdrawing, God does something stunning: He comes down and renews the covenant on fresh tablets. He reveals His name more fully than ever — not as judge, but as merciful and gracious, longsuffering and abundant in goodness and truth. It is the same God, but the same people now encounter Him through failure, and through forgiveness.',
     'The chapter ends with Moses descending the mountain, his face radiant from standing in God&apos;s presence. The people are afraid to come near him, so he wears a veil except when he speaks to God. Paul will unpack this veil image in 2 Corinthians 3 — in Christ, the veil is removed, and we are transformed from glory to glory. Exodus 34 is a story about what happens when a broken people meet an unbroken God.',

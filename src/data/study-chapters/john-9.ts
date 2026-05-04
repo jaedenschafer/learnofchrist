@@ -17,6 +17,10 @@ export const JOHN_9: RichChapterContent = {
   chapter: 9,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+  opener: {
+    matchTitle: /Healing of the Blind/i,
+    caption: 'John 9',
+  },
   intros: [
     'As Jesus walks, He sees a man blind from birth. Immediately His disciples assume blame: "Who sinned?" They operate within a framework of cause and effect, punishment and desert. But Jesus corrects them. "Neither hath this man sinned, nor his parents." Blindness is not a judgment. It is an opportunity. "But that the works of God should be made manifest in him." The blind man&apos;s condition exists so that God&apos;s power can be revealed through healing.',
     'Jesus makes clay and anoints the blind man&apos;s eyes, then sends him to wash in the pool of Siloam. In that moment of washing, sight is given. The blind man sees. He returns to his neighbors, his parents, the authorities. But his healing becomes controversial. It happened on the Sabbath. The Pharisees debate whether Jesus is from God. The man&apos;s testimony is simple and unshakeable: "Whereas I was blind, now I see." He knows nothing of theology or law. He knows only that he sees. That knowledge, that encounter with transformation, cannot be argued away.',

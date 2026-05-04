@@ -20,6 +20,10 @@ export const KINGS_2_6: RichChapterContent = {
   chapter: 6,
 
   estimatedMinutes: { beginner: 8, intermediate: 16, deep: 21 },
+  opener: {
+    matchTitle: /A Famine in Samaria/i,
+    caption: '2 Kings 6',
+  },
   intros: [
     'The sons of the prophets gather before Elisha with a humble request: their dwelling place has grown too small. Let them go to the Jordan and cut timber to build a larger compound. Elisha agrees — and as one man fells a beam, an axe-head slips into the water. "Alas, master! for it was borrowed," he cries. In this small moment lies a profound truth: God&apos;s providence extends to borrowed tools, to the details that weigh on an honest heart.',
     'But borrowed axes are not the only crisis facing Elisha. The king of Syria wages a war whose outcome seems foreordained — Syrian armies advance, and only Elisha&apos;s word stands between Israel and ambush. Yet when the Syrians come to capture the prophet at Dothan, Elisha&apos;s servant awakens to a vision of fire: "the mountain was full of horses and chariots of fire round about Elisha." The visible world is small. The invisible world is vast beyond measure.',

@@ -16,6 +16,10 @@ export const GENESIS_29: RichChapterContent = {
   chapter: 29,
 
   estimatedMinutes: { beginner: 10, intermediate: 16, deep: 22 },
+  opener: {
+    matchTitle: /Jacob and Rachel at/i,
+    caption: 'Genesis 29',
+  },
   intros: [
     'Jacob flees Canaan after stealing Esau&apos;s blessing. He travels east to find his mother&apos;s family, and at a well he meets a woman who will change everything. Genesis 29 is a betrothal type-scene - a pattern repeated in Scripture when a foreigner meets his bride at a well. Isaac met Rebekah the same way. Moses will meet Zipporah at a well. But Jacob&apos;s story carries an edge the others don&apos;t: the man who tricked his father and brother is about to be tricked in the dark, and the woman he doesn&apos;t love will become the mother of the line of Christ.',
     'The chapter moves between two loves and two labors. Jacob loves Rachel so much the seven years feel like days. Rachel loves him. Laban gives Jacob Leah instead - the older daughter, "tender eyed," passed over. Jacob serves seven more years for Rachel. But by then Leah has borne four sons, each name a word carved into her heartbreak: "the LORD has looked on my affliction," "the LORD has heard that I was hated," [res:bibleodyssey-jacob-israel] "now my husband will be joined to me," and finally, "now I will praise the LORD." God&apos;s pattern in Scripture: He chooses what the world overlooks. The unloved becomes the line of the King.',

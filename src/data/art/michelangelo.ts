@@ -12,6 +12,8 @@
 // typology as pagan foreshadowings of the Messiah; we anchor them to
 // Isaiah 11 (the shoot from Jesse) as a Messianic referent.
 
+import type { TopicSlug } from './topics';
+
 export type MichelangeloPlate = {
   externalId: string;
   title: string;
@@ -24,6 +26,9 @@ export type MichelangeloPlate = {
   verseEnd?: number;
   sceneSlug?: string;
   description?: string;
+  /** Optional thematic topics. Used by the artwork resolver to fall
+   *  back from chapter-specific matches to topic-overlap matches. */
+  topicTags?: TopicSlug[];
 };
 
 export const MICHELANGELO_PLATES: MichelangeloPlate[] = [
@@ -38,7 +43,7 @@ export const MICHELANGELO_PLATES: MichelangeloPlate[] = [
     chapter: 1,
     verseStart: 3,
     verseEnd: 5,
-    sceneSlug: 'creation',
+    sceneSlug: 'creation', topicTags: ['creation', 'sovereignty', 'glory'],
     description: "Sistine Chapel ceiling, first Genesis panel over the altar. God thrusts upward against the darkness of the waste.",
   },
   {
@@ -51,7 +56,7 @@ export const MICHELANGELO_PLATES: MichelangeloPlate[] = [
     chapter: 1,
     verseStart: 11,
     verseEnd: 16,
-    sceneSlug: 'creation',
+    sceneSlug: 'creation', topicTags: ['creation', 'sovereignty', 'glory'],
     description: "Sistine Chapel ceiling. God shown twice in one panel: right arm pointing to the sun, left arm flung back toward the moon; on the left, he calls the green earth into being.",
   },
   {
@@ -64,7 +69,7 @@ export const MICHELANGELO_PLATES: MichelangeloPlate[] = [
     chapter: 1,
     verseStart: 9,
     verseEnd: 10,
-    sceneSlug: 'creation',
+    sceneSlug: 'creation', topicTags: ['creation', 'sovereignty', 'glory'],
     description: "Sistine Chapel ceiling. God hovers over the face of the deep, cupping his hands to gather the dry land.",
   },
   {
@@ -76,7 +81,7 @@ export const MICHELANGELO_PLATES: MichelangeloPlate[] = [
     bookSlug: 'genesis',
     chapter: 2,
     verseStart: 7,
-    sceneSlug: 'creation',
+    sceneSlug: 'creation', topicTags: ['creation', 'sovereignty', 'glory'],
     description: "Sistine Chapel ceiling. The most reproduced image in Western art: God reaches from his mantle of angels and the Father's finger almost — not quite — touches Adam's.",
   },
   {
@@ -89,7 +94,7 @@ export const MICHELANGELO_PLATES: MichelangeloPlate[] = [
     chapter: 2,
     verseStart: 21,
     verseEnd: 22,
-    sceneSlug: 'creation',
+    sceneSlug: 'creation', topicTags: ['creation', 'sovereignty', 'glory'],
     description: "Sistine Chapel ceiling, central panel. Eve rises from Adam's side at the word of the Lord.",
   },
   {
@@ -102,7 +107,7 @@ export const MICHELANGELO_PLATES: MichelangeloPlate[] = [
     chapter: 3,
     verseStart: 6,
     verseEnd: 24,
-    sceneSlug: 'fall',
+    sceneSlug: 'fall', topicTags: ['fall-and-curse', 'sin', 'pride'],
     description: "Sistine Chapel ceiling. A single panel splits the story: on the left Eve takes the fruit from the serpent; on the right, the angel's sword drives Adam and Eve out of paradise.",
   },
   {
@@ -114,7 +119,7 @@ export const MICHELANGELO_PLATES: MichelangeloPlate[] = [
     bookSlug: 'genesis',
     chapter: 8,
     verseStart: 20,
-    sceneSlug: 'flood',
+    sceneSlug: 'flood', topicTags: ['judgment', 'wrath', 'covenant', 'deliverance'],
     description: "Sistine Chapel ceiling. Noah and his family offer burnt offerings on the altar after the waters recede.",
   },
   {
@@ -127,7 +132,7 @@ export const MICHELANGELO_PLATES: MichelangeloPlate[] = [
     chapter: 7,
     verseStart: 17,
     verseEnd: 24,
-    sceneSlug: 'flood',
+    sceneSlug: 'flood', topicTags: ['judgment', 'wrath', 'covenant', 'deliverance'],
     description: "Sistine Chapel ceiling. A crowd scrambles onto a rock as the flood rises; the ark floats in the background.",
   },
   {
@@ -140,7 +145,7 @@ export const MICHELANGELO_PLATES: MichelangeloPlate[] = [
     chapter: 9,
     verseStart: 20,
     verseEnd: 23,
-    sceneSlug: 'flood',
+    sceneSlug: 'flood', topicTags: ['judgment', 'wrath', 'covenant', 'deliverance'],
     description: "Sistine Chapel ceiling, the panel nearest the entrance. Noah lies naked; Shem and Japheth walk backward to cover him while Ham mocks.",
   },
 
@@ -155,7 +160,7 @@ export const MICHELANGELO_PLATES: MichelangeloPlate[] = [
     chapter: 2,
     verseStart: 1,
     verseEnd: 10,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
     description: "Sistine Chapel ceiling, over the altar. Jonah arches backward from his throne, the great fish behind him — traditionally read as a type of Christ's three days in the tomb.",
   },
   {
@@ -168,7 +173,7 @@ export const MICHELANGELO_PLATES: MichelangeloPlate[] = [
     chapter: 1,
     verseStart: 4,
     verseEnd: 10,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
     description: "Sistine Chapel ceiling. Jeremiah broods, chin on hand — a meditation on the fall of Jerusalem; Michelangelo gave the weeping prophet his own face.",
   },
   {
@@ -180,7 +185,7 @@ export const MICHELANGELO_PLATES: MichelangeloPlate[] = [
     bookSlug: 'ezekiel',
     chapter: 1,
     verseStart: 1,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
     description: "Sistine Chapel ceiling. Ezekiel twists in his seat to confront the attending angel — a prophet caught mid-vision.",
   },
   {
@@ -193,7 +198,7 @@ export const MICHELANGELO_PLATES: MichelangeloPlate[] = [
     chapter: 7,
     verseStart: 13,
     verseEnd: 14,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
     description: "Sistine Chapel ceiling. Daniel transcribes from one book onto another, a putto supporting the weight of his scroll.",
   },
   {
@@ -205,7 +210,7 @@ export const MICHELANGELO_PLATES: MichelangeloPlate[] = [
     bookSlug: 'isaiah',
     chapter: 7,
     verseStart: 14,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
     description: "Sistine Chapel ceiling. Isaiah turns from his book as an angel behind him speaks — the prophet of 'a virgin shall conceive.'",
   },
   {
@@ -217,7 +222,7 @@ export const MICHELANGELO_PLATES: MichelangeloPlate[] = [
     bookSlug: 'joel',
     chapter: 2,
     verseStart: 28,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
     description: "Sistine Chapel ceiling. Joel unrolls his scroll — the prophet Peter quotes at Pentecost.",
   },
   {
@@ -229,7 +234,7 @@ export const MICHELANGELO_PLATES: MichelangeloPlate[] = [
     bookSlug: 'zechariah',
     chapter: 9,
     verseStart: 9,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
     description: "Sistine Chapel ceiling, over the entrance — the first figure Michelangelo painted. Zechariah peers into a heavy book: the prophet of the king coming on a donkey.",
   },
 
@@ -244,7 +249,7 @@ export const MICHELANGELO_PLATES: MichelangeloPlate[] = [
     chapter: 11,
     verseStart: 1,
     verseEnd: 2,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
     description: "Sistine Chapel ceiling. A gentile sibyl, shown twisting gracefully to replace her heavy book — counted in medieval tradition among the pagan foreshadowers of the Messiah.",
   },
   {
@@ -257,7 +262,7 @@ export const MICHELANGELO_PLATES: MichelangeloPlate[] = [
     chapter: 11,
     verseStart: 1,
     verseEnd: 2,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
     description: "Sistine Chapel ceiling. The Persian Sibyl, veiled, holds her book close and reads — the oldest of the five, her vision hidden.",
   },
   {
@@ -270,7 +275,7 @@ export const MICHELANGELO_PLATES: MichelangeloPlate[] = [
     chapter: 11,
     verseStart: 1,
     verseEnd: 2,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
     description: "Sistine Chapel ceiling. The Cumaean Sibyl of Virgil's fourth Eclogue — her massive frame bent over a book, read medievally as a prophecy of Christ's coming.",
   },
   {
@@ -283,7 +288,7 @@ export const MICHELANGELO_PLATES: MichelangeloPlate[] = [
     chapter: 11,
     verseStart: 1,
     verseEnd: 2,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
     description: "Sistine Chapel ceiling. A young sibyl turns to thumb through her prophecies, a putto lighting a lamp behind her.",
   },
   {
@@ -296,7 +301,7 @@ export const MICHELANGELO_PLATES: MichelangeloPlate[] = [
     chapter: 11,
     verseStart: 1,
     verseEnd: 2,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
     description: "Sistine Chapel ceiling. The Delphic Sibyl turns, scroll unrolled in her hand, wind pulling at her cloak.",
   },
 
@@ -311,7 +316,7 @@ export const MICHELANGELO_PLATES: MichelangeloPlate[] = [
     chapter: 17,
     verseStart: 48,
     verseEnd: 51,
-    sceneSlug: 'david',
+    sceneSlug: 'david', topicTags: ['kingship', 'shepherd', 'repentance'],
     description: "Sistine Chapel corner pendentive over the entrance. The young David straddles the fallen giant to deliver the killing blow.",
   },
   {
@@ -324,7 +329,7 @@ export const MICHELANGELO_PLATES: MichelangeloPlate[] = [
     chapter: 13,
     verseStart: 6,
     verseEnd: 10,
-    sceneSlug: 'deliverance',
+    sceneSlug: 'deliverance', topicTags: ['deliverance', 'protection'],
     description: "Sistine Chapel corner pendentive over the entrance. Judith's servant carries the head on a platter; the decapitated general lies beyond the curtain.",
   },
   {
@@ -337,7 +342,7 @@ export const MICHELANGELO_PLATES: MichelangeloPlate[] = [
     chapter: 7,
     verseStart: 9,
     verseEnd: 10,
-    sceneSlug: 'deliverance',
+    sceneSlug: 'deliverance', topicTags: ['deliverance', 'protection'],
     description: "Sistine Chapel corner pendentive over the altar. Haman crucified on his own gallows while Esther and Mordecai speak with the king.",
   },
   {
@@ -350,7 +355,7 @@ export const MICHELANGELO_PLATES: MichelangeloPlate[] = [
     chapter: 21,
     verseStart: 6,
     verseEnd: 9,
-    sceneSlug: 'exodus',
+    sceneSlug: 'exodus', topicTags: ['deliverance', 'sovereignty', 'judgment'],
     description: "Sistine Chapel corner pendentive over the altar. Moses lifts the bronze serpent on a pole; those bitten who look on it live — the image Christ invokes in John 3.",
   },
 
@@ -365,7 +370,7 @@ export const MICHELANGELO_PLATES: MichelangeloPlate[] = [
     chapter: 25,
     verseStart: 31,
     verseEnd: 46,
-    sceneSlug: 'judgment',
+    sceneSlug: 'judgment', topicTags: ['judgment', 'wrath', 'second-coming'],
     description: "Sistine Chapel altar wall. Christ enthroned at the center, the saved rising on the left, the damned falling on the right; Michelangelo's own flayed skin held by Saint Bartholomew.",
   },
 
@@ -380,7 +385,7 @@ export const MICHELANGELO_PLATES: MichelangeloPlate[] = [
     chapter: 9,
     verseStart: 3,
     verseEnd: 9,
-    sceneSlug: 'apostles',
+    sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
     description: "Pauline Chapel, Vatican. Saul is struck from his horse by the light from heaven; Christ descends from a sunburst above.",
   },
   {
@@ -393,7 +398,7 @@ export const MICHELANGELO_PLATES: MichelangeloPlate[] = [
     chapter: 21,
     verseStart: 18,
     verseEnd: 19,
-    sceneSlug: 'apostles',
+    sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
     description: "Pauline Chapel, Vatican — Michelangelo's final painting. Peter is nailed to the upside-down cross; his head turns toward the viewer with unnerving directness.",
   },
 
@@ -407,7 +412,7 @@ export const MICHELANGELO_PLATES: MichelangeloPlate[] = [
     bookSlug: 'luke',
     chapter: 2,
     verseStart: 7,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: "Michelangelo's only surviving finished panel painting. Mary, seated on the ground, turns to receive the Christ child from Joseph; John the Baptist watches from the wall. Uffizi, Florence.",
   },
 ];

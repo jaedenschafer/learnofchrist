@@ -16,6 +16,10 @@ export const ISAIAH_7: RichChapterContent = {
   chapter: 7,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+  opener: {
+    matchTitle: /Isaiah/i,
+    caption: 'Isaiah 7',
+  },
   intros: [
     'The kingdom of Judah is in crisis. King Ahaz looks out from Jerusalem and sees enemies gathering. To the north, Israel and Syria have allied against him, threatening his throne. Ahaz is gripped by fear—his heart shakes as the trees of the forest shake in the wind. In this moment, God sends Isaiah with a message not of military strategy but of trust: "Take heed, and be quiet; fear not, neither be fainthearted." God will not allow the plotters to succeed. Their plan will come to nothing.',
     'But Ahaz refuses to trust. So God offers a sign—not a sign that Ahaz chooses, but a sign that God Himself gives. The sign is extraordinary: "Behold, a virgin shall conceive, and bear a son, and shall call his name Immanuel." For Ahaz, this sign concerns the near future—a promise that judgment will fall on his enemies and his kingdom will survive. But Isaiah&apos;s word stretches far beyond Ahaz&apos;s immediate crisis. Matthew later identifies this sign with Jesus, the virgin-born Son, the final Immanuel, God with us.',

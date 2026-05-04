@@ -15,6 +15,10 @@ export const PSALMS_75: RichChapterContent = {
   chapter: 75,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+  opener: {
+    matchTitle: /Daniel/i,
+    caption: 'Psalms 75',
+  },
   intros: [
     'Psalm 75 is a psalm of God&apos;s judgment, structured as God speaking in the first person. "I have set the pillars of it." God declares His sovereignty over the judgment of the earth. He will not allow the wicked to triumph indefinitely. He will humble the pride of the wicked and exalt the righteous.',
     'The central image is the cup—the cup of God&apos;s wrath. In Scripture, the cup is often used to represent destiny, one&apos;s portion, what one must drink. And God says: I have a cup of judgment. The wicked must drink it. Every drop of the bitter wine, they must drink. It is their portion, the consequence of their rebellion against God.',

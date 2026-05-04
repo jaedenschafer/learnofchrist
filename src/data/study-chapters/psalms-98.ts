@@ -16,6 +16,10 @@ export const PSALMS_98: RichChapterContent = {
   chapter: 98,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 3 },
+  opener: {
+    matchTitle: /The Proclamation/i,
+    caption: 'Psalms 98',
+  },
   intros: [
     'Psalm 98 echoes Psalm 96: O sing unto the Lord a new song. But here the focus is more specific. What has the Lord done? He has done marvellous things. He has gotten Himself the victory. His right hand and His holy arm have accomplished salvation. Not through human power or human cleverness, but through God&apos;s own action. And all creation is invited to witness and rejoice.',
     'The psalm moves from God&apos;s salvation to the universal response: all the earth, the seas, the fields, the trees—all creation is invited to rejoice. This is an eschatological vision, a vision of the day when all creation will recognize and celebrate God&apos;s righteous rule.',

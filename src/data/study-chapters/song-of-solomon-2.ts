@@ -17,6 +17,10 @@ export const SONG_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 1, intermediate: 5, deep: 7 },
+  opener: {
+    matchTitle: /The Rest of the/i,
+    caption: 'Song of Solomon 2',
+  },
   intros: [
     'The Bride continues her self-description. She is a flower—not the rarest or most expensive flower, but a flower nonetheless. Sharon is a plain, ordinary; a lily of the valleys is simple, unpretentious. And she asserts her beauty in these simple terms. She does not need to be exotic to be lovely. And then the great affirmation: "My beloved is mine, and I am his." The relationship is mutual. She possesses him as he possesses her. There is equality, reciprocity, a belonging that goes both directions.',
     'The Song then moves into a section of spring beauty. The beloved invites the bride to arise and come away. The time of singing has come. The fig trees are budding. The flowers appear. The birds sing. It is a vision of paradise, of a world made new by the presence of love. But it is not merely romantic escape. The beloved calls her to arise, to move, to be active. And there is also a note of caution: "Take us the foxes, the little foxes, that spoil the vines: for our vines have tender grapes." Even in paradise, there are threats. Even in love, vigilance is required.',

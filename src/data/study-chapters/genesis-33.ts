@@ -15,6 +15,10 @@ export const GENESIS_33: RichChapterContent = {
   chapter: 33,
 
   estimatedMinutes: { beginner: 5, intermediate: 9, deep: 13 },
+  opener: {
+    matchTitle: /Esau Reconciles with Jacob/i,
+    caption: 'Genesis 33',
+  },
   intros: [
     'Jacob has crossed the Jabbok. He has wrestled all night with God and been renamed Israel - "you have struggled with God, and have prevailed." But the dread that has haunted him for twenty years is about to arrive in person. Esau is coming. Four hundred men at his side.',
     'What happens next is the most stunning moment in Jacob&apos;s long story of scheming and scrambling. In a single chapter, two brothers who should have blood between them embrace instead. The older brother runs to the younger like a father in a parable. The deceiver finds himself on the receiving end of mercy. [res:bibleodyssey-jacob-israel] And in the space where murder could have been, Jacob names his God: "I have seen thy face, as though I had seen the face of God." To meet your brother face to face - with all the wrong between you - is the same thing as meeting God face to face.',

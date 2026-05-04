@@ -6,6 +6,10 @@ export const FIRST_PETER_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 7, intermediate: 10, deep: 17 },
+  opener: {
+    matchTitle: /Christ in Limbo/i,
+    caption: '1 Peter 3',
+  },
   intros: [
     'First Peter addresses suffering Christians scattered across Roman provinces, now turning to social relationships within the church and household. Peter&apos;s vision is revolutionary: Christ&apos;s suffering transforms all of life—wives and husbands, servants and masters, community members—into places where the gospel becomes visible. The structure moves from household relationships (vv. 1–7) to community witness (vv. 8–12) to the bedrock foundation: Christ&apos;s own suffering and descent into the realm of the dead (vv. 14–22). In each setting, believers are called to &ldquo;always being prepared to make a defense&rdquo; for the hope that lives in them.',
     'The chapter opens with the apostle&apos;s counsel to wives and husbands—a passage that requires careful reading. Peter is speaking into the concrete realities of first-century household life, where women and slaves had no legal voice. His radical move is not to demand immediate social overthrow but to infuse submission with new meaning: submission becomes a place of power, where silent testimony and holy character win hearts more effectively than words. The complementary instruction to husbands—to live with them &ldquo;in an understanding way&rdquo;—reveals a mutual regard that honored women as fellow heirs of God&apos;s grace.',

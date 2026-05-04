@@ -16,6 +16,10 @@ export const EXODUS_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 7, intermediate: 12, deep: 14 },
+  opener: {
+    matchTitle: /Moses Laid Amid the/i,
+    caption: 'Exodus 2',
+  },
   intros: [
     'Exodus 1 ended in suffocation: Pharaoh enslaved Israel, made their lives bitter, tried to murder their sons. Exodus 2 opens not with a plague or a sign, but with a birth - a son hidden, a basket placed in the river, a royal daughter&apos;s hand drawing him out. God&apos;s rescue of Israel does not begin with thunder. It begins with a mother&apos;s faithfulness and a baby breathing.',
     'Moses grows up inside the very power that is crushing his people. He learns Egypt&apos;s wisdom, walks Pharaoh&apos;s halls, and then one day he sees an Egyptian beating a Hebrew. What he does in that moment - killing the oppressor - reveals a man caught between two worlds, belonging fully to neither. He flees to Midian, and there begins 40 years of obscurity. God&apos;s great deliverers are often hidden for decades before they are ever known.',

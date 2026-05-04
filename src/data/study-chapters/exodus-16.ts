@@ -16,6 +16,10 @@ export const EXODUS_16: RichChapterContent = {
   chapter: 16,
 
   estimatedMinutes: { beginner: 10, intermediate: 19, deep: 22 },
+  opener: {
+    matchTitle: /Manna in the Wilderness/i,
+    caption: 'Exodus 16',
+  },
   intros: [
     'After crossing the Red Sea, Israel stands in the wilderness of Sin. There is no bread, no crops, no visible source of food. And like people in every age, they panic. "Would God had let us die in Egypt," they tell Moses, "where we sat by the fleshpots and ate bread to the full." Three days they have been thirsty. Now they are hungry. They have seen a pillar of cloud and a pillar of fire. They have seen the sea split and the armies of Egypt drowned. But the moment their stomachs speak, they forget it all.',
     'This chapter is about what God teaches through hunger — not the pain of it, but the rhythm underneath it. Each morning brings just enough. Each day demands trust. No hoarding. No planning ahead that forgets to pray. The Sabbath arrives not as a law imposed from above but as the natural shape of how provision works: six days of gathering, one day of rest. The manna is the first food of the free — and every time Israel eats it, they are practicing the kind of faith God will ask of them for the next forty years.',

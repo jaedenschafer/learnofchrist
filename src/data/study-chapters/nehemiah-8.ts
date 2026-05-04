@@ -19,6 +19,10 @@ export const NEHEMIAH_8: RichChapterContent = {
   chapter: 8,
 
   estimatedMinutes: { beginner: 8, intermediate: 13, deep: 17 },
+  opener: {
+    matchTitle: /Ezra Reads the Law/i,
+    caption: 'Nehemiah 8',
+  },
   intros: [
     'The wall is complete. The enemies have scattered. The people of Jerusalem have accomplished the impossible — they have rebuilt the walls of their city in just fifty-two days, while hostile nations watched and opposed. But now something more important must happen. The wall protects the body of the city. What protects the soul? What binds the people together, not with mortar and stone, but with covenant?',
     'In Nehemiah 8, the people gather at the Water Gate — a public gathering, a deliberate assembly. They ask Ezra the scribe to bring the book of the law of Moses. And for the first time since the exile, they hear it read aloud, publicly, with careful explanation so that all can understand. This is not a hidden revelation for the learned alone. This is the word of God made accessible to every man, woman, and child. And when they hear it, they weep. The response is so moving that the leaders must console them: this day is holy unto the Lord. Do not mourn. Rejoice. The joy of the Lord is your strength.',

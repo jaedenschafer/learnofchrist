@@ -17,6 +17,10 @@ export const ISAIAH_35: RichChapterContent = {
   chapter: 35,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 6 },
+  opener: {
+    matchTitle: /The Course of Empire/i,
+    caption: 'Isaiah 35',
+  },
   intros: [
     'After the desolation of Edom comes the restoration of Zion. The wilderness will become glad. The desert will bloom as the rose. The weak will be strengthened. The blind will see. The deaf will hear. The lame will leap. The dumb will sing. This is not a chapter of judgment but of healing. Not a chapter of destruction but of restoration. Isaiah brings the reader from the vision of judgment (chapter 34) to the vision of healing (chapter 35), and this healing is explicitly connected to Christ&apos;s ministry in the New Testament. When Jesus is asked if He is the Messiah, He points to these very verses as the sign of His identity.',
   ],

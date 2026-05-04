@@ -16,6 +16,10 @@ export const GENESIS_14: RichChapterContent = {
   chapter: 14,
 
   estimatedMinutes: { beginner: 7, intermediate: 12, deep: 15 },
+  opener: {
+    matchTitle: /Abram Blessed by Melchizedek/i,
+    caption: 'Genesis 14',
+  },
   intros: [
     'Genesis 14 is packed tighter than almost any other chapter in Scripture. It contains the first recorded battle in the Bible, the first rescue, and the first appearance of a priest. It contains the first tithe ever given, the first appearance of bread and wine as a blessing, and a man who will become one of the most mysterious figures in Scripture: Melchizedek, king of Salem, priest of the Most High God.',
     'But underneath the crowded action is a pattern that runs through the entire Bible: a test of faithfulness, a rescue by faith, and then a choice about payment. The world offers Abram wealth; he turns it away. A king who has no law tries to reward him; Abram will take no reward except [res:bibleodyssey-abraham-covenant] the one God gives him. The chapter asks: what will you sell your soul for? And Abram&apos;s answer becomes a kind of prayer.',

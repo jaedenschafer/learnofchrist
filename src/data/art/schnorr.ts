@@ -3,6 +3,8 @@
 // missed 236-240 because of an underscore-vs-space URL-encoding quirk in the
 // HEAD-check; the files are present and this file lists all 240.
 
+import type { TopicSlug } from './topics';
+
 export type SchnorrPlate = {
   externalId: string;
   title: string;
@@ -13,6 +15,9 @@ export type SchnorrPlate = {
   verseStart: number;
   verseEnd: number;
   sceneSlug: string;
+  /** Optional thematic topics. Used by the artwork resolver to fall
+   *  back from chapter-specific matches to topic-overlap matches. */
+  topicTags?: TopicSlug[];
 };
 
 export const SCHNORR_PLATES: SchnorrPlate[] = [
@@ -25,7 +30,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 1,
     verseStart: 3,
     verseEnd: 5,
-    sceneSlug: 'creation',
+    sceneSlug: 'creation', topicTags: ['creation', 'sovereignty', 'glory'],
   },
   {
     externalId: 'schnorr-002-second-day-of-creation-waters-divided',
@@ -36,7 +41,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 1,
     verseStart: 6,
     verseEnd: 8,
-    sceneSlug: 'creation',
+    sceneSlug: 'creation', topicTags: ['creation', 'sovereignty', 'glory'],
   },
   {
     externalId: 'schnorr-003-third-day-of-creation-land-sea-and-plants',
@@ -47,7 +52,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 1,
     verseStart: 9,
     verseEnd: 13,
-    sceneSlug: 'creation',
+    sceneSlug: 'creation', topicTags: ['creation', 'sovereignty', 'glory'],
   },
   {
     externalId: 'schnorr-004-fourth-day-of-creation-sun-moon-and-stars',
@@ -58,7 +63,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 1,
     verseStart: 14,
     verseEnd: 19,
-    sceneSlug: 'creation',
+    sceneSlug: 'creation', topicTags: ['creation', 'sovereignty', 'glory'],
   },
   {
     externalId: 'schnorr-005-fifth-day-of-creation-fish-and-birds',
@@ -69,7 +74,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 1,
     verseStart: 20,
     verseEnd: 23,
-    sceneSlug: 'creation',
+    sceneSlug: 'creation', topicTags: ['creation', 'sovereignty', 'glory'],
   },
   {
     externalId: 'schnorr-006-sixth-day-of-creation-land-animals-and-man',
@@ -80,7 +85,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 1,
     verseStart: 24,
     verseEnd: 31,
-    sceneSlug: 'creation',
+    sceneSlug: 'creation', topicTags: ['creation', 'sovereignty', 'glory'],
   },
   {
     externalId: 'schnorr-007-the-sabbath-god-rests',
@@ -91,7 +96,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 2,
     verseStart: 1,
     verseEnd: 3,
-    sceneSlug: 'creation',
+    sceneSlug: 'creation', topicTags: ['creation', 'sovereignty', 'glory'],
   },
   {
     externalId: 'schnorr-008-the-fall-of-man',
@@ -102,7 +107,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 3,
     verseStart: 1,
     verseEnd: 6,
-    sceneSlug: 'fall',
+    sceneSlug: 'fall', topicTags: ['fall-and-curse', 'sin', 'pride'],
   },
   {
     externalId: 'schnorr-009-adam-and-eve-hide-from-the-lord',
@@ -113,7 +118,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 3,
     verseStart: 8,
     verseEnd: 10,
-    sceneSlug: 'fall',
+    sceneSlug: 'fall', topicTags: ['fall-and-curse', 'sin', 'pride'],
   },
   {
     externalId: 'schnorr-010-expulsion-from-paradise',
@@ -124,7 +129,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 3,
     verseStart: 23,
     verseEnd: 24,
-    sceneSlug: 'fall',
+    sceneSlug: 'fall', topicTags: ['fall-and-curse', 'sin', 'pride'],
   },
   {
     externalId: 'schnorr-011-adam-and-eve-after-the-fall',
@@ -135,7 +140,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 3,
     verseStart: 16,
     verseEnd: 24,
-    sceneSlug: 'fall',
+    sceneSlug: 'fall', topicTags: ['fall-and-curse', 'sin', 'pride'],
   },
   {
     externalId: 'schnorr-012-the-offerings-of-cain-and-abel',
@@ -146,7 +151,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 4,
     verseStart: 3,
     verseEnd: 5,
-    sceneSlug: 'fall',
+    sceneSlug: 'fall', topicTags: ['fall-and-curse', 'sin', 'pride'],
   },
   {
     externalId: 'schnorr-013-cain-slays-abel',
@@ -157,7 +162,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 4,
     verseStart: 8,
     verseEnd: 8,
-    sceneSlug: 'fall',
+    sceneSlug: 'fall', topicTags: ['fall-and-curse', 'sin', 'pride'],
   },
   {
     externalId: 'schnorr-014-the-wandering-of-the-cainites',
@@ -168,7 +173,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 4,
     verseStart: 16,
     verseEnd: 24,
-    sceneSlug: 'fall',
+    sceneSlug: 'fall', topicTags: ['fall-and-curse', 'sin', 'pride'],
   },
   {
     externalId: 'schnorr-015-the-sons-of-god-and-the-daughters-of-men',
@@ -179,7 +184,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 6,
     verseStart: 1,
     verseEnd: 4,
-    sceneSlug: 'fall',
+    sceneSlug: 'fall', topicTags: ['fall-and-curse', 'sin', 'pride'],
   },
   {
     externalId: 'schnorr-016-announcement-of-the-flood-and-building-of-the-ark',
@@ -190,7 +195,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 6,
     verseStart: 13,
     verseEnd: 22,
-    sceneSlug: 'flood',
+    sceneSlug: 'flood', topicTags: ['judgment', 'wrath', 'covenant', 'deliverance'],
   },
   {
     externalId: 'schnorr-017-the-flood',
@@ -201,7 +206,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 7,
     verseStart: 11,
     verseEnd: 24,
-    sceneSlug: 'flood',
+    sceneSlug: 'flood', topicTags: ['judgment', 'wrath', 'covenant', 'deliverance'],
   },
   {
     externalId: 'schnorr-018-coming-out-of-the-ark',
@@ -212,7 +217,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 8,
     verseStart: 15,
     verseEnd: 19,
-    sceneSlug: 'flood',
+    sceneSlug: 'flood', topicTags: ['judgment', 'wrath', 'covenant', 'deliverance'],
   },
   {
     externalId: 'schnorr-019-noah-s-thank-offering',
@@ -223,7 +228,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 8,
     verseStart: 20,
     verseEnd: 22,
-    sceneSlug: 'flood',
+    sceneSlug: 'flood', topicTags: ['judgment', 'wrath', 'covenant', 'deliverance'],
   },
   {
     externalId: 'schnorr-020-the-cursing-of-ham',
@@ -234,7 +239,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 9,
     verseStart: 20,
     verseEnd: 27,
-    sceneSlug: 'flood',
+    sceneSlug: 'flood', topicTags: ['judgment', 'wrath', 'covenant', 'deliverance'],
   },
   {
     externalId: 'schnorr-021-the-tower-of-babel',
@@ -245,7 +250,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 11,
     verseStart: 1,
     verseEnd: 9,
-    sceneSlug: 'babel',
+    sceneSlug: 'babel', topicTags: ['pride', 'judgment'],
   },
   {
     externalId: 'schnorr-022-abram-receives-the-promise-father-of-nations',
@@ -256,7 +261,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 15,
     verseStart: 1,
     verseEnd: 6,
-    sceneSlug: 'abraham',
+    sceneSlug: 'abraham', topicTags: ['faithfulness', 'covenant', 'sacrifice'],
   },
   {
     externalId: 'schnorr-023-abram-receives-the-promise-a-son-shall-be-born',
@@ -267,7 +272,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 18,
     verseStart: 9,
     verseEnd: 15,
-    sceneSlug: 'abraham',
+    sceneSlug: 'abraham', topicTags: ['faithfulness', 'covenant', 'sacrifice'],
   },
   {
     externalId: 'schnorr-024-abram-beholds-the-promised-land',
@@ -278,7 +283,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 13,
     verseStart: 14,
     verseEnd: 17,
-    sceneSlug: 'abraham',
+    sceneSlug: 'abraham', topicTags: ['faithfulness', 'covenant', 'sacrifice'],
   },
   {
     externalId: 'schnorr-025-abram-blessed-by-melchizedek',
@@ -289,7 +294,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 14,
     verseStart: 18,
     verseEnd: 20,
-    sceneSlug: 'abraham',
+    sceneSlug: 'abraham', topicTags: ['faithfulness', 'covenant', 'sacrifice'],
   },
   {
     externalId: 'schnorr-026-lot-flees-from-sodom',
@@ -300,7 +305,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 19,
     verseStart: 15,
     verseEnd: 26,
-    sceneSlug: 'abraham',
+    sceneSlug: 'abraham', topicTags: ['faithfulness', 'covenant', 'sacrifice'],
   },
   {
     externalId: 'schnorr-027-the-expulsion-of-hagar-and-ishmael',
@@ -311,7 +316,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 21,
     verseStart: 9,
     verseEnd: 21,
-    sceneSlug: 'abraham',
+    sceneSlug: 'abraham', topicTags: ['faithfulness', 'covenant', 'sacrifice'],
   },
   {
     externalId: 'schnorr-028-the-sacrifice-of-isaac',
@@ -322,7 +327,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 22,
     verseStart: 1,
     verseEnd: 14,
-    sceneSlug: 'abraham',
+    sceneSlug: 'abraham', topicTags: ['faithfulness', 'covenant', 'sacrifice'],
   },
   {
     externalId: 'schnorr-029-eliezer-seeks-a-wife-for-isaac',
@@ -333,7 +338,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 24,
     verseStart: 10,
     verseEnd: 27,
-    sceneSlug: 'patriarchs',
+    sceneSlug: 'patriarchs', topicTags: ['covenant', 'faithfulness', 'family'],
   },
   {
     externalId: 'schnorr-030-rebekah-beholds-isaac-from-afar',
@@ -344,7 +349,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 24,
     verseStart: 62,
     verseEnd: 67,
-    sceneSlug: 'patriarchs',
+    sceneSlug: 'patriarchs', topicTags: ['covenant', 'faithfulness', 'family'],
   },
   {
     externalId: 'schnorr-031-isaac-blesses-jacob-before-esau',
@@ -355,7 +360,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 27,
     verseStart: 18,
     verseEnd: 29,
-    sceneSlug: 'patriarchs',
+    sceneSlug: 'patriarchs', topicTags: ['covenant', 'faithfulness', 'family'],
   },
   {
     externalId: 'schnorr-032-jacob-s-dream-of-the-heavenly-ladder',
@@ -366,7 +371,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 28,
     verseStart: 10,
     verseEnd: 17,
-    sceneSlug: 'patriarchs',
+    sceneSlug: 'patriarchs', topicTags: ['covenant', 'faithfulness', 'family'],
   },
   {
     externalId: 'schnorr-033-jacob-and-rachel-at-the-well',
@@ -377,7 +382,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 29,
     verseStart: 1,
     verseEnd: 12,
-    sceneSlug: 'patriarchs',
+    sceneSlug: 'patriarchs', topicTags: ['covenant', 'faithfulness', 'family'],
   },
   {
     externalId: 'schnorr-034-jacob-serves-for-rachel',
@@ -388,7 +393,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 29,
     verseStart: 15,
     verseEnd: 30,
-    sceneSlug: 'patriarchs',
+    sceneSlug: 'patriarchs', topicTags: ['covenant', 'faithfulness', 'family'],
   },
   {
     externalId: 'schnorr-035-jacob-s-flight',
@@ -399,7 +404,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 31,
     verseStart: 17,
     verseEnd: 21,
-    sceneSlug: 'patriarchs',
+    sceneSlug: 'patriarchs', topicTags: ['covenant', 'faithfulness', 'family'],
   },
   {
     externalId: 'schnorr-036-jacob-wrestles-with-the-angel',
@@ -410,7 +415,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 32,
     verseStart: 22,
     verseEnd: 30,
-    sceneSlug: 'patriarchs',
+    sceneSlug: 'patriarchs', topicTags: ['covenant', 'faithfulness', 'family'],
   },
   {
     externalId: 'schnorr-037-esau-reconciles-with-jacob',
@@ -421,7 +426,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 33,
     verseStart: 1,
     verseEnd: 11,
-    sceneSlug: 'patriarchs',
+    sceneSlug: 'patriarchs', topicTags: ['covenant', 'faithfulness', 'family'],
   },
   {
     externalId: 'schnorr-038-joseph-sold-by-his-brothers',
@@ -432,7 +437,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 37,
     verseStart: 23,
     verseEnd: 28,
-    sceneSlug: 'joseph',
+    sceneSlug: 'joseph', topicTags: ['providence', 'forgiveness', 'suffering', 'leadership'],
   },
   {
     externalId: 'schnorr-039-joseph-and-potiphar-s-wife',
@@ -443,7 +448,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 39,
     verseStart: 7,
     verseEnd: 20,
-    sceneSlug: 'joseph',
+    sceneSlug: 'joseph', topicTags: ['providence', 'forgiveness', 'suffering', 'leadership'],
   },
   {
     externalId: 'schnorr-040-joseph-interprets-pharaoh-s-dreams',
@@ -454,7 +459,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 41,
     verseStart: 14,
     verseEnd: 36,
-    sceneSlug: 'joseph',
+    sceneSlug: 'joseph', topicTags: ['providence', 'forgiveness', 'suffering', 'leadership'],
   },
   {
     externalId: 'schnorr-041-joseph-s-exaltation',
@@ -465,7 +470,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 41,
     verseStart: 37,
     verseEnd: 45,
-    sceneSlug: 'joseph',
+    sceneSlug: 'joseph', topicTags: ['providence', 'forgiveness', 'suffering', 'leadership'],
   },
   {
     externalId: 'schnorr-042-joseph-makes-himself-known-to-his-brothers',
@@ -476,7 +481,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 45,
     verseStart: 1,
     verseEnd: 15,
-    sceneSlug: 'joseph',
+    sceneSlug: 'joseph', topicTags: ['providence', 'forgiveness', 'suffering', 'leadership'],
   },
   {
     externalId: 'schnorr-043-israel-s-entry-into-egypt',
@@ -487,7 +492,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 46,
     verseStart: 5,
     verseEnd: 27,
-    sceneSlug: 'joseph',
+    sceneSlug: 'joseph', topicTags: ['providence', 'forgiveness', 'suffering', 'leadership'],
   },
   {
     externalId: 'schnorr-044-oppression-of-the-israelites-in-egypt',
@@ -498,7 +503,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 1,
     verseStart: 8,
     verseEnd: 14,
-    sceneSlug: 'exodus',
+    sceneSlug: 'exodus', topicTags: ['deliverance', 'sovereignty', 'judgment'],
   },
   {
     externalId: 'schnorr-045-finding-of-moses',
@@ -509,7 +514,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 2,
     verseStart: 1,
     verseEnd: 10,
-    sceneSlug: 'exodus',
+    sceneSlug: 'exodus', topicTags: ['deliverance', 'sovereignty', 'judgment'],
   },
   {
     externalId: 'schnorr-046-moses-slays-the-egyptian',
@@ -520,7 +525,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 2,
     verseStart: 11,
     verseEnd: 15,
-    sceneSlug: 'exodus',
+    sceneSlug: 'exodus', topicTags: ['deliverance', 'sovereignty', 'judgment'],
   },
   {
     externalId: 'schnorr-047-moses-called-to-lead-israel',
@@ -531,7 +536,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 3,
     verseStart: 1,
     verseEnd: 12,
-    sceneSlug: 'moses',
+    sceneSlug: 'moses', topicTags: ['calling', 'leadership', 'covenant'],
   },
   {
     externalId: 'schnorr-048-moses-demands-israel-s-release-from-pharaoh',
@@ -542,7 +547,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 5,
     verseStart: 1,
     verseEnd: 9,
-    sceneSlug: 'moses',
+    sceneSlug: 'moses', topicTags: ['calling', 'leadership', 'covenant'],
   },
   {
     externalId: 'schnorr-049-the-institution-of-the-passover',
@@ -553,7 +558,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 12,
     verseStart: 1,
     verseEnd: 14,
-    sceneSlug: 'moses',
+    sceneSlug: 'moses', topicTags: ['calling', 'leadership', 'covenant'],
   },
   {
     externalId: 'schnorr-050-death-of-the-firstborn-and-the-exodus',
@@ -564,7 +569,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 12,
     verseStart: 29,
     verseEnd: 42,
-    sceneSlug: 'exodus',
+    sceneSlug: 'exodus', topicTags: ['deliverance', 'sovereignty', 'judgment'],
   },
   {
     externalId: 'schnorr-051-israel-s-deliverance-and-egypt-s-destruction-at-the-red-sea',
@@ -575,7 +580,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 14,
     verseStart: 21,
     verseEnd: 31,
-    sceneSlug: 'exodus',
+    sceneSlug: 'exodus', topicTags: ['deliverance', 'sovereignty', 'judgment'],
   },
   {
     externalId: 'schnorr-052-manna-in-the-wilderness',
@@ -586,7 +591,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 16,
     verseStart: 11,
     verseEnd: 18,
-    sceneSlug: 'moses',
+    sceneSlug: 'moses', topicTags: ['calling', 'leadership', 'covenant'],
   },
   {
     externalId: 'schnorr-053-moses-prays-during-the-battle-with-amalek',
@@ -597,7 +602,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 17,
     verseStart: 8,
     verseEnd: 13,
-    sceneSlug: 'moses',
+    sceneSlug: 'moses', topicTags: ['calling', 'leadership', 'covenant'],
   },
   {
     externalId: 'schnorr-054-moses-receives-the-tablets-of-the-law',
@@ -608,7 +613,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 19,
     verseStart: 16,
     verseEnd: 25,
-    sceneSlug: 'moses',
+    sceneSlug: 'moses', topicTags: ['calling', 'leadership', 'covenant'],
   },
   {
     externalId: 'schnorr-055-moses-breaks-the-tablets',
@@ -619,7 +624,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 32,
     verseStart: 15,
     verseEnd: 20,
-    sceneSlug: 'moses',
+    sceneSlug: 'moses', topicTags: ['calling', 'leadership', 'covenant'],
   },
   {
     externalId: 'schnorr-056-moses-punishes-the-idolatry-of-the-people',
@@ -630,7 +635,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 32,
     verseStart: 25,
     verseEnd: 29,
-    sceneSlug: 'moses',
+    sceneSlug: 'moses', topicTags: ['calling', 'leadership', 'covenant'],
   },
   {
     externalId: 'schnorr-057-moses-brings-the-new-tablets-to-israel',
@@ -641,7 +646,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 34,
     verseStart: 27,
     verseEnd: 35,
-    sceneSlug: 'moses',
+    sceneSlug: 'moses', topicTags: ['calling', 'leadership', 'covenant'],
   },
   {
     externalId: 'schnorr-058-the-spies-of-canaan',
@@ -652,7 +657,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 13,
     verseStart: 17,
     verseEnd: 33,
-    sceneSlug: 'moses',
+    sceneSlug: 'moses', topicTags: ['calling', 'leadership', 'covenant'],
   },
   {
     externalId: 'schnorr-059-the-punishment-of-korah',
@@ -663,7 +668,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 16,
     verseStart: 28,
     verseEnd: 35,
-    sceneSlug: 'moses',
+    sceneSlug: 'moses', topicTags: ['calling', 'leadership', 'covenant'],
   },
   {
     externalId: 'schnorr-060-aaron-s-rod-that-budded',
@@ -674,7 +679,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 17,
     verseStart: 1,
     verseEnd: 11,
-    sceneSlug: 'moses',
+    sceneSlug: 'moses', topicTags: ['calling', 'leadership', 'covenant'],
   },
   {
     externalId: 'schnorr-061-the-brazen-serpent',
@@ -685,7 +690,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 21,
     verseStart: 4,
     verseEnd: 9,
-    sceneSlug: 'moses',
+    sceneSlug: 'moses', topicTags: ['calling', 'leadership', 'covenant'],
   },
   {
     externalId: 'schnorr-062-the-angel-of-the-lord-meets-balaam',
@@ -696,7 +701,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 22,
     verseStart: 21,
     verseEnd: 35,
-    sceneSlug: 'moses',
+    sceneSlug: 'moses', topicTags: ['calling', 'leadership', 'covenant'],
   },
   {
     externalId: 'schnorr-063-joshua-consecrated-as-successor-to-moses',
@@ -707,7 +712,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 31,
     verseStart: 7,
     verseEnd: 8,
-    sceneSlug: 'moses',
+    sceneSlug: 'moses', topicTags: ['calling', 'leadership', 'covenant'],
   },
   {
     externalId: 'schnorr-064-the-lord-shows-moses-the-promised-land',
@@ -718,7 +723,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 34,
     verseStart: 1,
     verseEnd: 8,
-    sceneSlug: 'moses',
+    sceneSlug: 'moses', topicTags: ['calling', 'leadership', 'covenant'],
   },
   {
     externalId: 'schnorr-065-death-of-moses',
@@ -729,7 +734,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 34,
     verseStart: 5,
     verseEnd: 12,
-    sceneSlug: 'moses',
+    sceneSlug: 'moses', topicTags: ['calling', 'leadership', 'covenant'],
   },
   {
     externalId: 'schnorr-066-rahab-hides-the-spies',
@@ -740,7 +745,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 2,
     verseStart: 1,
     verseEnd: 21,
-    sceneSlug: 'conquest',
+    sceneSlug: 'conquest', topicTags: ['leadership', 'sovereignty', 'protection'],
   },
   {
     externalId: 'schnorr-067-israel-crosses-the-jordan',
@@ -751,7 +756,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 3,
     verseStart: 14,
     verseEnd: 17,
-    sceneSlug: 'conquest',
+    sceneSlug: 'conquest', topicTags: ['leadership', 'sovereignty', 'protection'],
   },
   {
     externalId: 'schnorr-068-joshua-and-the-captain-of-the-host-of-the-lord',
@@ -762,7 +767,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 5,
     verseStart: 13,
     verseEnd: 15,
-    sceneSlug: 'conquest',
+    sceneSlug: 'conquest', topicTags: ['leadership', 'sovereignty', 'protection'],
   },
   {
     externalId: 'schnorr-069-the-fall-of-jericho',
@@ -773,7 +778,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 6,
     verseStart: 15,
     verseEnd: 21,
-    sceneSlug: 'conquest',
+    sceneSlug: 'conquest', topicTags: ['leadership', 'sovereignty', 'protection'],
   },
   {
     externalId: 'schnorr-070-the-conquest-of-ai',
@@ -784,7 +789,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 8,
     verseStart: 1,
     verseEnd: 29,
-    sceneSlug: 'conquest',
+    sceneSlug: 'conquest', topicTags: ['leadership', 'sovereignty', 'protection'],
   },
   {
     externalId: 'schnorr-071-joshua-s-victory-over-the-amorites',
@@ -795,7 +800,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 10,
     verseStart: 12,
     verseEnd: 14,
-    sceneSlug: 'conquest',
+    sceneSlug: 'conquest', topicTags: ['leadership', 'sovereignty', 'protection'],
   },
   {
     externalId: 'schnorr-072-joshua-captures-five-kings-at-makkedah',
@@ -806,7 +811,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 10,
     verseStart: 16,
     verseEnd: 27,
-    sceneSlug: 'conquest',
+    sceneSlug: 'conquest', topicTags: ['leadership', 'sovereignty', 'protection'],
   },
   {
     externalId: 'schnorr-073-the-division-of-the-promised-land',
@@ -817,7 +822,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 14,
     verseStart: 1,
     verseEnd: 5,
-    sceneSlug: 'conquest',
+    sceneSlug: 'conquest', topicTags: ['leadership', 'sovereignty', 'protection'],
   },
   {
     externalId: 'schnorr-074-sisera-slain-by-jael',
@@ -828,7 +833,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 4,
     verseStart: 17,
     verseEnd: 22,
-    sceneSlug: 'judges',
+    sceneSlug: 'judges', topicTags: ['deliverance', 'leadership', 'sin'],
   },
   {
     externalId: 'schnorr-075-gideon-s-call',
@@ -839,7 +844,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 6,
     verseStart: 11,
     verseEnd: 24,
-    sceneSlug: 'judges',
+    sceneSlug: 'judges', topicTags: ['deliverance', 'leadership', 'sin'],
   },
   {
     externalId: 'schnorr-076-gideon-s-victory-over-the-midianites',
@@ -850,7 +855,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 7,
     verseStart: 16,
     verseEnd: 22,
-    sceneSlug: 'judges',
+    sceneSlug: 'judges', topicTags: ['deliverance', 'leadership', 'sin'],
   },
   {
     externalId: 'schnorr-077-abimelech-s-death',
@@ -861,7 +866,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 9,
     verseStart: 50,
     verseEnd: 57,
-    sceneSlug: 'judges',
+    sceneSlug: 'judges', topicTags: ['deliverance', 'leadership', 'sin'],
   },
   {
     externalId: 'schnorr-078-jephthah-and-his-daughter',
@@ -872,7 +877,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 11,
     verseStart: 29,
     verseEnd: 40,
-    sceneSlug: 'judges',
+    sceneSlug: 'judges', topicTags: ['deliverance', 'leadership', 'sin'],
   },
   {
     externalId: 'schnorr-079-samson-slays-the-lion',
@@ -883,7 +888,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 14,
     verseStart: 5,
     verseEnd: 9,
-    sceneSlug: 'judges',
+    sceneSlug: 'judges', topicTags: ['deliverance', 'leadership', 'sin'],
   },
   {
     externalId: 'schnorr-080-samson-slays-a-thousand-philistines-with-a-jawbone',
@@ -894,7 +899,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 15,
     verseStart: 14,
     verseEnd: 17,
-    sceneSlug: 'judges',
+    sceneSlug: 'judges', topicTags: ['deliverance', 'leadership', 'sin'],
   },
   {
     externalId: 'schnorr-081-samson-s-fall',
@@ -905,7 +910,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 16,
     verseStart: 16,
     verseEnd: 21,
-    sceneSlug: 'judges',
+    sceneSlug: 'judges', topicTags: ['deliverance', 'leadership', 'sin'],
   },
   {
     externalId: 'schnorr-082-samson-s-revenge-and-death',
@@ -916,7 +921,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 16,
     verseStart: 23,
     verseEnd: 31,
-    sceneSlug: 'judges',
+    sceneSlug: 'judges', topicTags: ['deliverance', 'leadership', 'sin'],
   },
   {
     externalId: 'schnorr-083-the-tribe-of-benjamin-rebuilt',
@@ -927,7 +932,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 21,
     verseStart: 15,
     verseEnd: 24,
-    sceneSlug: 'judges',
+    sceneSlug: 'judges', topicTags: ['deliverance', 'leadership', 'sin'],
   },
   {
     externalId: 'schnorr-084-ruth-goes-with-naomi-to-bethlehem',
@@ -938,7 +943,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 1,
     verseStart: 14,
     verseEnd: 22,
-    sceneSlug: 'judges',
+    sceneSlug: 'judges', topicTags: ['deliverance', 'leadership', 'sin'],
   },
   {
     externalId: 'schnorr-085-ruth-in-the-field-of-boaz',
@@ -949,7 +954,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 2,
     verseStart: 2,
     verseEnd: 17,
-    sceneSlug: 'judges',
+    sceneSlug: 'judges', topicTags: ['deliverance', 'leadership', 'sin'],
   },
   {
     externalId: 'schnorr-086-hannah-s-prayer',
@@ -960,7 +965,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 1,
     verseStart: 9,
     verseEnd: 18,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
   {
     externalId: 'schnorr-087-the-lord-reveals-eli-s-fate-to-samuel',
@@ -971,7 +976,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 3,
     verseStart: 1,
     verseEnd: 18,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
   {
     externalId: 'schnorr-088-death-of-eli',
@@ -982,7 +987,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 4,
     verseStart: 12,
     verseEnd: 18,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
   {
     externalId: 'schnorr-089-samuel-anoints-saul-as-king',
@@ -993,7 +998,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 10,
     verseStart: 1,
     verseEnd: 8,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
   {
     externalId: 'schnorr-090-saul-rejected-by-god-for-disobedience',
@@ -1004,7 +1009,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 15,
     verseStart: 22,
     verseEnd: 28,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
   {
     externalId: 'schnorr-091-david-s-first-anointing',
@@ -1015,7 +1020,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 16,
     verseStart: 1,
     verseEnd: 13,
-    sceneSlug: 'david',
+    sceneSlug: 'david', topicTags: ['kingship', 'shepherd', 'repentance'],
   },
   {
     externalId: 'schnorr-092-david-overcomes-goliath',
@@ -1026,7 +1031,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 17,
     verseStart: 41,
     verseEnd: 51,
-    sceneSlug: 'david',
+    sceneSlug: 'david', topicTags: ['kingship', 'shepherd', 'repentance'],
   },
   {
     externalId: 'schnorr-093-saul-tries-to-kill-david',
@@ -1037,7 +1042,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 19,
     verseStart: 8,
     verseEnd: 10,
-    sceneSlug: 'david',
+    sceneSlug: 'david', topicTags: ['kingship', 'shepherd', 'repentance'],
   },
   {
     externalId: 'schnorr-094-jonathan-and-david-s-friendship',
@@ -1048,7 +1053,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 20,
     verseStart: 35,
     verseEnd: 42,
-    sceneSlug: 'david',
+    sceneSlug: 'david', topicTags: ['kingship', 'shepherd', 'repentance'],
   },
   {
     externalId: 'schnorr-095-david-spares-saul-in-the-cave',
@@ -1059,7 +1064,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 24,
     verseStart: 1,
     verseEnd: 15,
-    sceneSlug: 'david',
+    sceneSlug: 'david', topicTags: ['kingship', 'shepherd', 'repentance'],
   },
   {
     externalId: 'schnorr-096-david-and-abigail',
@@ -1070,7 +1075,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 25,
     verseStart: 18,
     verseEnd: 35,
-    sceneSlug: 'david',
+    sceneSlug: 'david', topicTags: ['kingship', 'shepherd', 'repentance'],
   },
   {
     externalId: 'schnorr-097-saul-at-the-witch-of-endor',
@@ -1081,7 +1086,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 28,
     verseStart: 7,
     verseEnd: 20,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
   {
     externalId: 'schnorr-098-death-of-saul',
@@ -1092,7 +1097,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 31,
     verseStart: 1,
     verseEnd: 6,
-    sceneSlug: 'david',
+    sceneSlug: 'david', topicTags: ['kingship', 'shepherd', 'repentance'],
   },
   {
     externalId: 'schnorr-099-david-becomes-king-over-judah',
@@ -1103,7 +1108,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 2,
     verseStart: 1,
     verseEnd: 7,
-    sceneSlug: 'david',
+    sceneSlug: 'david', topicTags: ['kingship', 'shepherd', 'repentance'],
   },
   {
     externalId: 'schnorr-100-david-despised-by-michal',
@@ -1114,7 +1119,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 6,
     verseStart: 16,
     verseEnd: 23,
-    sceneSlug: 'david',
+    sceneSlug: 'david', topicTags: ['kingship', 'shepherd', 'repentance'],
   },
   {
     externalId: 'schnorr-101-david-sees-bathsheba-from-the-roof',
@@ -1125,7 +1130,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 11,
     verseStart: 2,
     verseEnd: 5,
-    sceneSlug: 'david',
+    sceneSlug: 'david', topicTags: ['kingship', 'shepherd', 'repentance'],
   },
   {
     externalId: 'schnorr-102-nathan-s-rebuke-of-david',
@@ -1136,7 +1141,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 12,
     verseStart: 1,
     verseEnd: 14,
-    sceneSlug: 'david',
+    sceneSlug: 'david', topicTags: ['kingship', 'shepherd', 'repentance'],
   },
   {
     externalId: 'schnorr-103-the-death-of-david-and-bathsheba-s-child',
@@ -1147,7 +1152,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 12,
     verseStart: 15,
     verseEnd: 23,
-    sceneSlug: 'david',
+    sceneSlug: 'david', topicTags: ['kingship', 'shepherd', 'repentance'],
   },
   {
     externalId: 'schnorr-104-david-cursed-by-shimei',
@@ -1158,7 +1163,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 16,
     verseStart: 5,
     verseEnd: 13,
-    sceneSlug: 'david',
+    sceneSlug: 'david', topicTags: ['kingship', 'shepherd', 'repentance'],
   },
   {
     externalId: 'schnorr-105-absalom-s-death',
@@ -1169,7 +1174,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 18,
     verseStart: 9,
     verseEnd: 17,
-    sceneSlug: 'david',
+    sceneSlug: 'david', topicTags: ['kingship', 'shepherd', 'repentance'],
   },
   {
     externalId: 'schnorr-106-david-and-his-mighty-men',
@@ -1180,7 +1185,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 23,
     verseStart: 8,
     verseEnd: 17,
-    sceneSlug: 'david',
+    sceneSlug: 'david', topicTags: ['kingship', 'shepherd', 'repentance'],
   },
   {
     externalId: 'schnorr-107-david-s-census-punished-by-pestilence',
@@ -1191,7 +1196,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 24,
     verseStart: 10,
     verseEnd: 17,
-    sceneSlug: 'david',
+    sceneSlug: 'david', topicTags: ['kingship', 'shepherd', 'repentance'],
   },
   {
     externalId: 'schnorr-108-david-has-solomon-anointed-king',
@@ -1202,7 +1207,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 1,
     verseStart: 32,
     verseEnd: 40,
-    sceneSlug: 'david',
+    sceneSlug: 'david', topicTags: ['kingship', 'shepherd', 'repentance'],
   },
   {
     externalId: 'schnorr-109-solomon-s-judgment',
@@ -1213,7 +1218,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 3,
     verseStart: 16,
     verseEnd: 28,
-    sceneSlug: 'solomon',
+    sceneSlug: 'solomon', topicTags: ['wisdom', 'kingship', 'worship'],
   },
   {
     externalId: 'schnorr-110-solomon-builds-the-temple',
@@ -1224,7 +1229,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 6,
     verseStart: 1,
     verseEnd: 14,
-    sceneSlug: 'solomon',
+    sceneSlug: 'solomon', topicTags: ['wisdom', 'kingship', 'worship'],
   },
   {
     externalId: 'schnorr-111-the-queen-of-sheba-visits-solomon',
@@ -1235,7 +1240,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 10,
     verseStart: 1,
     verseEnd: 13,
-    sceneSlug: 'solomon',
+    sceneSlug: 'solomon', topicTags: ['wisdom', 'kingship', 'worship'],
   },
   {
     externalId: 'schnorr-112-solomon-falls-into-idolatry',
@@ -1246,7 +1251,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 11,
     verseStart: 1,
     verseEnd: 13,
-    sceneSlug: 'solomon',
+    sceneSlug: 'solomon', topicTags: ['wisdom', 'kingship', 'worship'],
   },
   {
     externalId: 'schnorr-113-the-kingdom-divided-under-rehoboam-and-jeroboam',
@@ -1257,7 +1262,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 12,
     verseStart: 1,
     verseEnd: 24,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
   {
     externalId: 'schnorr-114-elijah-fed-by-the-ravens',
@@ -1268,7 +1273,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 17,
     verseStart: 2,
     verseEnd: 6,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
   {
     externalId: 'schnorr-115-the-widow-s-son-raised-to-life',
@@ -1279,7 +1284,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 17,
     verseStart: 17,
     verseEnd: 24,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
   {
     externalId: 'schnorr-116-elijah-slays-the-prophets-of-baal',
@@ -1290,7 +1295,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 18,
     verseStart: 20,
     verseEnd: 40,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
   {
     externalId: 'schnorr-117-the-lord-appears-to-elijah-on-horeb',
@@ -1301,7 +1306,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 19,
     verseStart: 9,
     verseEnd: 18,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
   {
     externalId: 'schnorr-118-ahab-s-end',
@@ -1312,7 +1317,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 22,
     verseStart: 29,
     verseEnd: 38,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
   {
     externalId: 'schnorr-119-elijah-s-ascension-into-heaven',
@@ -1323,7 +1328,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 2,
     verseStart: 9,
     verseEnd: 12,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
   {
     externalId: 'schnorr-120-elisha-raises-the-shunammite-s-son',
@@ -1334,7 +1339,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 4,
     verseStart: 32,
     verseEnd: 37,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
   {
     externalId: 'schnorr-121-the-end-of-jezebel',
@@ -1345,7 +1350,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 9,
     verseStart: 30,
     verseEnd: 37,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
   {
     externalId: 'schnorr-122-sennacherib-s-power-broken-at-hezekiah-s-prayer',
@@ -1356,7 +1361,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 19,
     verseStart: 14,
     verseEnd: 37,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
   {
     externalId: 'schnorr-123-josiah-hears-the-word-from-the-book-of-the-law',
@@ -1367,7 +1372,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 22,
     verseStart: 8,
     verseEnd: 20,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
   {
     externalId: 'schnorr-124-destruction-of-jerusalem-and-exile-to-babylon',
@@ -1378,7 +1383,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 25,
     verseStart: 1,
     verseEnd: 21,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
   {
     externalId: 'schnorr-125-return-from-the-babylonian-captivity',
@@ -1389,7 +1394,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 1,
     verseStart: 1,
     verseEnd: 11,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
   {
     externalId: 'schnorr-126-the-founding-of-the-new-temple-in-jerusalem',
@@ -1400,7 +1405,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 3,
     verseStart: 8,
     verseEnd: 13,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
   {
     externalId: 'schnorr-127-building-and-defending-the-new-city-walls',
@@ -1411,7 +1416,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 4,
     verseStart: 6,
     verseEnd: 23,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
   {
     externalId: 'schnorr-128-the-people-s-repentance',
@@ -1422,7 +1427,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 9,
     verseStart: 1,
     verseEnd: 3,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
   {
     externalId: 'schnorr-129-esther-chosen-queen-by-ahasuerus',
@@ -1433,7 +1438,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 2,
     verseStart: 15,
     verseEnd: 18,
-    sceneSlug: 'wisdom',
+    sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
   {
     externalId: 'schnorr-130-mordecai-raised-to-high-honor',
@@ -1444,7 +1449,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 6,
     verseStart: 6,
     verseEnd: 11,
-    sceneSlug: 'wisdom',
+    sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
   {
     externalId: 'schnorr-131-job-s-patience-in-trials',
@@ -1455,7 +1460,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 1,
     verseStart: 13,
     verseEnd: 22,
-    sceneSlug: 'suffering',
+    sceneSlug: 'suffering', topicTags: ['suffering', 'lament', 'hope'],
   },
   {
     externalId: 'schnorr-132-job-and-his-friends',
@@ -1466,7 +1471,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 2,
     verseStart: 11,
     verseEnd: 13,
-    sceneSlug: 'suffering',
+    sceneSlug: 'suffering', topicTags: ['suffering', 'lament', 'hope'],
   },
   {
     externalId: 'schnorr-133-job-s-new-prosperity',
@@ -1477,7 +1482,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 42,
     verseStart: 10,
     verseEnd: 17,
-    sceneSlug: 'suffering',
+    sceneSlug: 'suffering', topicTags: ['suffering', 'lament', 'hope'],
   },
   {
     externalId: 'schnorr-134-david-the-psalmist-adoration',
@@ -1488,7 +1493,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 8,
     verseStart: 1,
     verseEnd: 9,
-    sceneSlug: 'wisdom',
+    sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
   {
     externalId: 'schnorr-135-david-the-psalmist-repentance',
@@ -1499,7 +1504,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 51,
     verseStart: 1,
     verseEnd: 19,
-    sceneSlug: 'wisdom',
+    sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
   {
     externalId: 'schnorr-136-david-the-psalmist-petition',
@@ -1510,7 +1515,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 22,
     verseStart: 1,
     verseEnd: 21,
-    sceneSlug: 'wisdom',
+    sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
   {
     externalId: 'schnorr-137-david-the-psalmist-praise-and-thanksgiving',
@@ -1521,7 +1526,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 103,
     verseStart: 1,
     verseEnd: 22,
-    sceneSlug: 'wisdom',
+    sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
   {
     externalId: 'schnorr-138-the-rest-of-the-beloved-under-the-shadow-of-her-friend',
@@ -1532,7 +1537,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 2,
     verseStart: 3,
     verseEnd: 6,
-    sceneSlug: 'wisdom',
+    sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
   {
     externalId: 'schnorr-139-the-prophet-isaiah',
@@ -1543,7 +1548,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 6,
     verseStart: 1,
     verseEnd: 8,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
   {
     externalId: 'schnorr-140-the-prophet-jeremiah',
@@ -1554,7 +1559,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 1,
     verseStart: 4,
     verseEnd: 10,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
   {
     externalId: 'schnorr-141-jeremiah-s-lamentation',
@@ -1565,7 +1570,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 1,
     verseStart: 1,
     verseEnd: 22,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
   {
     externalId: 'schnorr-142-the-prophet-ezekiel',
@@ -1576,7 +1581,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 1,
     verseStart: 1,
     verseEnd: 28,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
   {
     externalId: 'schnorr-143-the-prophet-daniel',
@@ -1587,7 +1592,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 6,
     verseStart: 10,
     verseEnd: 23,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
   {
     externalId: 'schnorr-144-judith-beheads-holofernes',
@@ -1598,7 +1603,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 13,
     verseStart: 1,
     verseEnd: 10,
-    sceneSlug: 'deliverance',
+    sceneSlug: 'deliverance', topicTags: ['deliverance', 'protection'],
   },
   {
     externalId: 'schnorr-145-judith-returns-unharmed-to-her-people',
@@ -1609,7 +1614,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 13,
     verseStart: 11,
     verseEnd: 20,
-    sceneSlug: 'deliverance',
+    sceneSlug: 'deliverance', topicTags: ['deliverance', 'protection'],
   },
   {
     externalId: 'schnorr-146-the-prayer-of-tobias-and-sarah',
@@ -1620,7 +1625,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 8,
     verseStart: 4,
     verseEnd: 9,
-    sceneSlug: 'wisdom',
+    sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
   {
     externalId: 'schnorr-147-tobias-and-sarah-found-in-the-morning',
@@ -1631,7 +1636,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 8,
     verseStart: 9,
     verseEnd: 18,
-    sceneSlug: 'wisdom',
+    sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
   {
     externalId: 'schnorr-148-the-praise-of-wisdom-and-fear-of-god',
@@ -1642,7 +1647,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 1,
     verseStart: 1,
     verseEnd: 20,
-    sceneSlug: 'wisdom',
+    sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
   {
     externalId: 'schnorr-149-the-praise-of-good-upbringing',
@@ -1653,7 +1658,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 30,
     verseStart: 1,
     verseEnd: 13,
-    sceneSlug: 'wisdom',
+    sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
   {
     externalId: 'schnorr-150-antiochus-persecutes-faithful-israelites',
@@ -1664,7 +1669,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 1,
     verseStart: 41,
     verseEnd: 64,
-    sceneSlug: 'deliverance',
+    sceneSlug: 'deliverance', topicTags: ['deliverance', 'protection'],
   },
   {
     externalId: 'schnorr-151-the-priest-mattathias-flees-with-his-own',
@@ -1675,7 +1680,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 2,
     verseStart: 15,
     verseEnd: 28,
-    sceneSlug: 'deliverance',
+    sceneSlug: 'deliverance', topicTags: ['deliverance', 'protection'],
   },
   {
     externalId: 'schnorr-152-judas-maccabeus-defeats-the-enemy-and-cleanses-the-temple',
@@ -1686,7 +1691,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 4,
     verseStart: 36,
     verseEnd: 59,
-    sceneSlug: 'deliverance',
+    sceneSlug: 'deliverance', topicTags: ['deliverance', 'protection'],
   },
   {
     externalId: 'schnorr-153-simon-chosen-ruler-and-high-priest',
@@ -1697,7 +1702,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 14,
     verseStart: 25,
     verseEnd: 49,
-    sceneSlug: 'deliverance',
+    sceneSlug: 'deliverance', topicTags: ['deliverance', 'protection'],
   },
   {
     externalId: 'schnorr-154-the-temple-treasure-protected-from-heliodorus',
@@ -1708,7 +1713,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 3,
     verseStart: 22,
     verseEnd: 34,
-    sceneSlug: 'deliverance',
+    sceneSlug: 'deliverance', topicTags: ['deliverance', 'protection'],
   },
   {
     externalId: 'schnorr-155-martyrdom-of-the-seven-brothers-and-their-mother',
@@ -1719,7 +1724,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 7,
     verseStart: 1,
     verseEnd: 42,
-    sceneSlug: 'deliverance',
+    sceneSlug: 'deliverance', topicTags: ['deliverance', 'protection'],
   },
   {
     externalId: 'schnorr-156-an-angel-of-the-lord-leads-israel-against-the-enemy',
@@ -1730,7 +1735,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 11,
     verseStart: 6,
     verseEnd: 15,
-    sceneSlug: 'deliverance',
+    sceneSlug: 'deliverance', topicTags: ['deliverance', 'protection'],
   },
   {
     externalId: 'schnorr-157-judas-maccabeus-s-vision',
@@ -1741,7 +1746,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 15,
     verseStart: 11,
     verseEnd: 16,
-    sceneSlug: 'deliverance',
+    sceneSlug: 'deliverance', topicTags: ['deliverance', 'protection'],
   },
   {
     externalId: 'schnorr-158-susanna-and-the-two-elders',
@@ -1752,7 +1757,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 13,
     verseStart: 1,
     verseEnd: 27,
-    sceneSlug: 'wisdom',
+    sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
   {
     externalId: 'schnorr-159-daniel-delivers-susanna-from-death',
@@ -1763,7 +1768,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 13,
     verseStart: 45,
     verseEnd: 64,
-    sceneSlug: 'wisdom',
+    sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
   {
     externalId: 'schnorr-160-daniel-in-the-lions-den-and-habakkuk',
@@ -1774,7 +1779,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 14,
     verseStart: 23,
     verseEnd: 42,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
   {
     externalId: 'schnorr-161-the-angel-gabriel-announces-the-birth-of-john-to-zacharias',
@@ -1785,7 +1790,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 1,
     verseStart: 5,
     verseEnd: 25,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'schnorr-162-the-annunciation',
@@ -1796,7 +1801,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 1,
     verseStart: 26,
     verseEnd: 38,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'schnorr-163-the-visitation',
@@ -1807,7 +1812,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 1,
     verseStart: 39,
     verseEnd: 56,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'schnorr-164-the-birth-of-john-the-baptist',
@@ -1818,7 +1823,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 1,
     verseStart: 57,
     verseEnd: 66,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'schnorr-165-the-angels-announce-the-birth-of-christ-to-the-shepherds',
@@ -1829,7 +1834,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 2,
     verseStart: 8,
     verseEnd: 14,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'schnorr-166-christ-s-nativity',
@@ -1840,7 +1845,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 2,
     verseStart: 1,
     verseEnd: 7,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'schnorr-167-the-shepherds-as-first-heralds-of-the-gospel',
@@ -1851,7 +1856,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 2,
     verseStart: 15,
     verseEnd: 20,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'schnorr-168-christ-s-presentation-in-the-temple-and-simeon-s-prophecy',
@@ -1862,7 +1867,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 2,
     verseStart: 22,
     verseEnd: 35,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'schnorr-169-adoration-of-the-magi',
@@ -1873,7 +1878,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 2,
     verseStart: 1,
     verseEnd: 12,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'schnorr-170-joseph-commanded-to-flee-to-egypt',
@@ -1884,7 +1889,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 2,
     verseStart: 13,
     verseEnd: 15,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'schnorr-171-the-flight-into-egypt',
@@ -1895,7 +1900,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 2,
     verseStart: 13,
     verseEnd: 15,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'schnorr-172-the-massacre-of-the-innocents-at-bethlehem',
@@ -1906,7 +1911,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 2,
     verseStart: 16,
     verseEnd: 18,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'schnorr-173-jesus-at-twelve-among-the-doctors-in-the-temple',
@@ -1917,7 +1922,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 2,
     verseStart: 41,
     verseEnd: 52,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'schnorr-174-john-the-baptist-preaching-in-the-wilderness',
@@ -1928,7 +1933,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 3,
     verseStart: 1,
     verseEnd: 12,
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
   },
   {
     externalId: 'schnorr-175-the-baptism-of-christ',
@@ -1939,7 +1944,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 3,
     verseStart: 13,
     verseEnd: 17,
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
   },
   {
     externalId: 'schnorr-176-the-temptation-of-christ',
@@ -1950,7 +1955,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 4,
     verseStart: 1,
     verseEnd: 11,
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
   },
   {
     externalId: 'schnorr-177-john-the-baptist-s-testimony-of-christ',
@@ -1961,7 +1966,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 1,
     verseStart: 19,
     verseEnd: 34,
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
   },
   {
     externalId: 'schnorr-178-christ-s-first-disciples',
@@ -1972,7 +1977,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 1,
     verseStart: 35,
     verseEnd: 51,
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
   },
   {
     externalId: 'schnorr-179-the-wedding-at-cana',
@@ -1983,7 +1988,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 2,
     verseStart: 1,
     verseEnd: 11,
-    sceneSlug: 'miracles',
+    sceneSlug: 'miracles', topicTags: ['compassion', 'glory', 'sovereignty'],
   },
   {
     externalId: 'schnorr-180-jesus-cleanses-the-temple',
@@ -1994,7 +1999,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 2,
     verseStart: 13,
     verseEnd: 22,
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
   },
   {
     externalId: 'schnorr-181-christ-s-discourse-with-nicodemus',
@@ -2005,7 +2010,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 3,
     verseStart: 1,
     verseEnd: 21,
-    sceneSlug: 'teaching',
+    sceneSlug: 'teaching', topicTags: ['wisdom', 'witness'],
   },
   {
     externalId: 'schnorr-182-jesus-and-the-samaritan-woman',
@@ -2016,7 +2021,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 4,
     verseStart: 5,
     verseEnd: 26,
-    sceneSlug: 'teaching',
+    sceneSlug: 'teaching', topicTags: ['wisdom', 'witness'],
   },
   {
     externalId: 'schnorr-183-the-healing-of-the-paralytic',
@@ -2027,7 +2032,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 2,
     verseStart: 1,
     verseEnd: 12,
-    sceneSlug: 'miracles',
+    sceneSlug: 'miracles', topicTags: ['compassion', 'glory', 'sovereignty'],
   },
   {
     externalId: 'schnorr-184-the-raising-of-jairus-s-daughter',
@@ -2038,7 +2043,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 5,
     verseStart: 35,
     verseEnd: 43,
-    sceneSlug: 'miracles',
+    sceneSlug: 'miracles', topicTags: ['compassion', 'glory', 'sovereignty'],
   },
   {
     externalId: 'schnorr-185-two-blind-men-call-on-jesus',
@@ -2049,7 +2054,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 9,
     verseStart: 27,
     verseEnd: 31,
-    sceneSlug: 'miracles',
+    sceneSlug: 'miracles', topicTags: ['compassion', 'glory', 'sovereignty'],
   },
   {
     externalId: 'schnorr-186-the-sermon-on-the-mount',
@@ -2060,7 +2065,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 5,
     verseStart: 1,
     verseEnd: 12,
-    sceneSlug: 'teaching',
+    sceneSlug: 'teaching', topicTags: ['wisdom', 'witness'],
   },
   {
     externalId: 'schnorr-187-the-beheading-of-john-the-baptist',
@@ -2071,7 +2076,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 6,
     verseStart: 21,
     verseEnd: 29,
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
   },
   {
     externalId: 'schnorr-188-the-raising-of-the-young-man-at-nain',
@@ -2082,7 +2087,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 7,
     verseStart: 11,
     verseEnd: 17,
-    sceneSlug: 'miracles',
+    sceneSlug: 'miracles', topicTags: ['compassion', 'glory', 'sovereignty'],
   },
   {
     externalId: 'schnorr-189-jesus-and-the-sinful-woman',
@@ -2093,7 +2098,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 7,
     verseStart: 36,
     verseEnd: 50,
-    sceneSlug: 'teaching',
+    sceneSlug: 'teaching', topicTags: ['wisdom', 'witness'],
   },
   {
     externalId: 'schnorr-190-jesus-asleep-during-the-storm',
@@ -2104,7 +2109,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 4,
     verseStart: 35,
     verseEnd: 41,
-    sceneSlug: 'miracles',
+    sceneSlug: 'miracles', topicTags: ['compassion', 'glory', 'sovereignty'],
   },
   {
     externalId: 'schnorr-191-jesus-casts-out-devils',
@@ -2115,7 +2120,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 5,
     verseStart: 1,
     verseEnd: 20,
-    sceneSlug: 'miracles',
+    sceneSlug: 'miracles', topicTags: ['compassion', 'glory', 'sovereignty'],
   },
   {
     externalId: 'schnorr-192-the-sending-of-the-twelve-apostles',
@@ -2126,7 +2131,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 10,
     verseStart: 1,
     verseEnd: 15,
-    sceneSlug: 'apostles',
+    sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
   },
   {
     externalId: 'schnorr-193-the-miraculous-feeding-of-the-multitude',
@@ -2137,7 +2142,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 14,
     verseStart: 13,
     verseEnd: 21,
-    sceneSlug: 'miracles',
+    sceneSlug: 'miracles', topicTags: ['compassion', 'glory', 'sovereignty'],
   },
   {
     externalId: 'schnorr-194-jesus-rescues-the-sinking-peter',
@@ -2148,7 +2153,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 14,
     verseStart: 22,
     verseEnd: 33,
-    sceneSlug: 'miracles',
+    sceneSlug: 'miracles', topicTags: ['compassion', 'glory', 'sovereignty'],
   },
   {
     externalId: 'schnorr-195-the-transfiguration-of-jesus',
@@ -2159,7 +2164,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 17,
     verseStart: 1,
     verseEnd: 8,
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
   },
   {
     externalId: 'schnorr-196-jesus-in-the-house-of-martha',
@@ -2170,7 +2175,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 10,
     verseStart: 38,
     verseEnd: 42,
-    sceneSlug: 'teaching',
+    sceneSlug: 'teaching', topicTags: ['wisdom', 'witness'],
   },
   {
     externalId: 'schnorr-197-the-parable-of-the-good-samaritan',
@@ -2181,7 +2186,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 10,
     verseStart: 25,
     verseEnd: 37,
-    sceneSlug: 'parables',
+    sceneSlug: 'parables', topicTags: ['wisdom', 'kingship'],
   },
   {
     externalId: 'schnorr-198-the-parable-of-the-prodigal-son',
@@ -2192,7 +2197,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 15,
     verseStart: 11,
     verseEnd: 32,
-    sceneSlug: 'parables',
+    sceneSlug: 'parables', topicTags: ['wisdom', 'kingship'],
   },
   {
     externalId: 'schnorr-199-the-parable-of-the-rich-man-and-lazarus',
@@ -2203,7 +2208,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 16,
     verseStart: 19,
     verseEnd: 31,
-    sceneSlug: 'parables',
+    sceneSlug: 'parables', topicTags: ['wisdom', 'kingship'],
   },
   {
     externalId: 'schnorr-200-the-parable-of-the-pharisee-and-the-publican',
@@ -2214,7 +2219,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 18,
     verseStart: 9,
     verseEnd: 14,
-    sceneSlug: 'parables',
+    sceneSlug: 'parables', topicTags: ['wisdom', 'kingship'],
   },
   {
     externalId: 'schnorr-201-the-woman-taken-in-adultery-before-christ',
@@ -2225,7 +2230,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 8,
     verseStart: 1,
     verseEnd: 11,
-    sceneSlug: 'teaching',
+    sceneSlug: 'teaching', topicTags: ['wisdom', 'witness'],
   },
   {
     externalId: 'schnorr-202-the-raising-of-lazarus',
@@ -2236,7 +2241,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 11,
     verseStart: 38,
     verseEnd: 44,
-    sceneSlug: 'miracles',
+    sceneSlug: 'miracles', topicTags: ['compassion', 'glory', 'sovereignty'],
   },
   {
     externalId: 'schnorr-203-jesus-calls-the-children-to-him',
@@ -2247,7 +2252,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 10,
     verseStart: 13,
     verseEnd: 16,
-    sceneSlug: 'teaching',
+    sceneSlug: 'teaching', topicTags: ['wisdom', 'witness'],
   },
   {
     externalId: 'schnorr-204-mary-of-bethany-anoints-jesus-for-his-burial',
@@ -2258,7 +2263,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 12,
     verseStart: 1,
     verseEnd: 8,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'schnorr-205-entry-of-jesus-into-jerusalem',
@@ -2269,7 +2274,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 21,
     verseStart: 1,
     verseEnd: 11,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'schnorr-206-the-washing-of-feet',
@@ -2280,7 +2285,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 13,
     verseStart: 1,
     verseEnd: 17,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'schnorr-207-the-institution-of-the-last-supper',
@@ -2291,7 +2296,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 26,
     verseStart: 26,
     verseEnd: 29,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'schnorr-208-the-agony-in-gethsemane',
@@ -2302,7 +2307,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 26,
     verseStart: 36,
     verseEnd: 46,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'schnorr-209-the-arrest-of-jesus',
@@ -2313,7 +2318,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 26,
     verseStart: 47,
     verseEnd: 56,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'schnorr-210-jesus-before-caiaphas',
@@ -2324,7 +2329,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 26,
     verseStart: 57,
     verseEnd: 68,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'schnorr-211-peter-denies-jesus',
@@ -2335,7 +2340,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 26,
     verseStart: 69,
     verseEnd: 75,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'schnorr-212-jesus-crowned-with-thorns-scourged-and-mocked',
@@ -2346,7 +2351,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 27,
     verseStart: 27,
     verseEnd: 31,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'schnorr-213-the-people-demand-jesus-s-blood-of-pilate',
@@ -2357,7 +2362,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 27,
     verseStart: 15,
     verseEnd: 26,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'schnorr-214-the-end-of-the-traitor-judas-iscariot',
@@ -2368,7 +2373,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 27,
     verseStart: 3,
     verseEnd: 10,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'schnorr-215-the-carrying-of-the-cross',
@@ -2379,7 +2384,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 19,
     verseStart: 16,
     verseEnd: 17,
-    sceneSlug: 'crucifixion',
+    sceneSlug: 'crucifixion', topicTags: ['cross', 'sacrifice', 'suffering'],
   },
   {
     externalId: 'schnorr-216-jesus-s-death-on-the-cross',
@@ -2390,7 +2395,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 27,
     verseStart: 45,
     verseEnd: 54,
-    sceneSlug: 'crucifixion',
+    sceneSlug: 'crucifixion', topicTags: ['cross', 'sacrifice', 'suffering'],
   },
   {
     externalId: 'schnorr-217-the-entombment',
@@ -2401,7 +2406,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 19,
     verseStart: 38,
     verseEnd: 42,
-    sceneSlug: 'crucifixion',
+    sceneSlug: 'crucifixion', topicTags: ['cross', 'sacrifice', 'suffering'],
   },
   {
     externalId: 'schnorr-218-the-resurrection-of-jesus',
@@ -2412,7 +2417,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 28,
     verseStart: 1,
     verseEnd: 10,
-    sceneSlug: 'redemption',
+    sceneSlug: 'redemption', topicTags: ['mercy', 'forgiveness', 'cross'],
   },
   {
     externalId: 'schnorr-219-the-women-at-jesus-s-tomb',
@@ -2423,7 +2428,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 16,
     verseStart: 1,
     verseEnd: 8,
-    sceneSlug: 'redemption',
+    sceneSlug: 'redemption', topicTags: ['mercy', 'forgiveness', 'cross'],
   },
   {
     externalId: 'schnorr-220-mary-magdalene-seeks-the-lord',
@@ -2434,7 +2439,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 20,
     verseStart: 1,
     verseEnd: 13,
-    sceneSlug: 'redemption',
+    sceneSlug: 'redemption', topicTags: ['mercy', 'forgiveness', 'cross'],
   },
   {
     externalId: 'schnorr-221-the-risen-savior-appears-to-mary-magdalene',
@@ -2445,7 +2450,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 20,
     verseStart: 14,
     verseEnd: 18,
-    sceneSlug: 'redemption',
+    sceneSlug: 'redemption', topicTags: ['mercy', 'forgiveness', 'cross'],
   },
   {
     externalId: 'schnorr-222-jesus-appears-to-two-disciples-on-the-road-to-emmaus',
@@ -2456,7 +2461,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 24,
     verseStart: 13,
     verseEnd: 35,
-    sceneSlug: 'redemption',
+    sceneSlug: 'redemption', topicTags: ['mercy', 'forgiveness', 'cross'],
   },
   {
     externalId: 'schnorr-223-jesus-appears-to-the-assembled-disciples',
@@ -2467,7 +2472,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 20,
     verseStart: 19,
     verseEnd: 29,
-    sceneSlug: 'redemption',
+    sceneSlug: 'redemption', topicTags: ['mercy', 'forgiveness', 'cross'],
   },
   {
     externalId: 'schnorr-224-the-risen-savior-appears-at-the-sea-of-galilee',
@@ -2478,7 +2483,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 21,
     verseStart: 1,
     verseEnd: 14,
-    sceneSlug: 'redemption',
+    sceneSlug: 'redemption', topicTags: ['mercy', 'forgiveness', 'cross'],
   },
   {
     externalId: 'schnorr-225-the-ascension-of-jesus',
@@ -2489,7 +2494,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 1,
     verseStart: 6,
     verseEnd: 11,
-    sceneSlug: 'ascension',
+    sceneSlug: 'ascension', topicTags: ['kingship', 'resurrection'],
   },
   {
     externalId: 'schnorr-226-the-outpouring-of-the-holy-spirit',
@@ -2500,7 +2505,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 2,
     verseStart: 1,
     verseEnd: 13,
-    sceneSlug: 'apostles',
+    sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
   },
   {
     externalId: 'schnorr-227-the-healing-of-the-lame-man',
@@ -2511,7 +2516,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 3,
     verseStart: 1,
     verseEnd: 11,
-    sceneSlug: 'apostles',
+    sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
   },
   {
     externalId: 'schnorr-228-the-stoning-of-stephen',
@@ -2522,7 +2527,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 7,
     verseStart: 54,
     verseEnd: 60,
-    sceneSlug: 'apostles',
+    sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
   },
   {
     externalId: 'schnorr-229-the-conversion-of-the-ethiopian-eunuch',
@@ -2533,7 +2538,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 8,
     verseStart: 26,
     verseEnd: 40,
-    sceneSlug: 'apostles',
+    sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
   },
   {
     externalId: 'schnorr-230-saul-s-conversion',
@@ -2544,7 +2549,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 9,
     verseStart: 1,
     verseEnd: 19,
-    sceneSlug: 'apostles',
+    sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
   },
   {
     externalId: 'schnorr-231-what-god-has-cleansed-is-not-common',
@@ -2555,7 +2560,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 10,
     verseStart: 9,
     verseEnd: 16,
-    sceneSlug: 'apostles',
+    sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
   },
   {
     externalId: 'schnorr-232-paul-and-barnabas-at-lystra',
@@ -2566,7 +2571,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 14,
     verseStart: 8,
     verseEnd: 20,
-    sceneSlug: 'apostles',
+    sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
   },
   {
     externalId: 'schnorr-233-paul-preaches-at-the-areopagus-in-athens',
@@ -2577,7 +2582,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 17,
     verseStart: 16,
     verseEnd: 34,
-    sceneSlug: 'apostles',
+    sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
   },
   {
     externalId: 'schnorr-234-paul-takes-leave-of-the-ephesians',
@@ -2588,7 +2593,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 20,
     verseStart: 17,
     verseEnd: 38,
-    sceneSlug: 'apostles',
+    sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
   },
   {
     externalId: 'schnorr-235-paul-s-arrival-at-rome',
@@ -2599,7 +2604,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 28,
     verseStart: 11,
     verseEnd: 31,
-    sceneSlug: 'apostles',
+    sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
   },
   {
     externalId: 'schnorr-236-vision-of-the-seven-candlesticks',
@@ -2610,7 +2615,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 1,
     verseStart: 12,
     verseEnd: 20,
-    sceneSlug: 'apocalypse',
+    sceneSlug: 'apocalypse', topicTags: ['second-coming', 'new-creation', 'judgment'],
   },
   {
     externalId: 'schnorr-237-four-horsemen-of-the-apocalypse',
@@ -2621,7 +2626,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 6,
     verseStart: 1,
     verseEnd: 8,
-    sceneSlug: 'apocalypse',
+    sceneSlug: 'apocalypse', topicTags: ['second-coming', 'new-creation', 'judgment'],
   },
   {
     externalId: 'schnorr-238-opening-of-the-seventh-seal',
@@ -2632,7 +2637,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 8,
     verseStart: 1,
     verseEnd: 5,
-    sceneSlug: 'apocalypse',
+    sceneSlug: 'apocalypse', topicTags: ['second-coming', 'new-creation', 'judgment'],
   },
   {
     externalId: 'schnorr-239-michael-and-the-dragon',
@@ -2643,7 +2648,7 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 12,
     verseStart: 7,
     verseEnd: 9,
-    sceneSlug: 'apocalypse',
+    sceneSlug: 'apocalypse', topicTags: ['second-coming', 'new-creation', 'judgment'],
   },
   {
     externalId: 'schnorr-240-new-jerusalem',
@@ -2654,6 +2659,6 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 21,
     verseStart: 1,
     verseEnd: 4,
-    sceneSlug: 'apocalypse',
+    sceneSlug: 'apocalypse', topicTags: ['second-coming', 'new-creation', 'judgment'],
   },
 ];

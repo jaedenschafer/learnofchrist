@@ -16,6 +16,10 @@ export const PSALMS_38: RichChapterContent = {
   chapter: 38,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 6 },
+  opener: {
+    matchTitle: /Tickhill Psalter Psalm/i,
+    caption: 'Psalms 38',
+  },
   intros: [
     'Psalm 38 is a psalm of raw distress, spoken by a man whose body and soul are in agony. David is sore troubled, his loins are filled with a burning sensation, his flesh has no soundness in it. The suffering is both physical and spiritual. Yet unlike Psalm 36, where the cause lies in the transgression of the wicked, David here points his finger at himself. "For I will declare mine iniquity; I am sorry for my sin." This is not the cry of an innocent victim. This is the cry of a penitent.',
     'And in this confession lies the beginning of healing. David does not deny his guilt or shift blame. He does not explain his way out of accountability. Instead, he names it, mourns it, and calls upon God for mercy. The path from sin to restoration passes through the narrow gate of true acknowledgment. Without it, no restoration is possible. With it, even profound suffering can become the occasion of drawing near to God.',

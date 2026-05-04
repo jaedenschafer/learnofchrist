@@ -17,6 +17,10 @@ export const GENESIS_41: RichChapterContent = {
   chapter: 41,
 
   estimatedMinutes: { beginner: 14, intermediate: 23, deep: 29 },
+  opener: {
+    matchTitle: /Joseph Interprets Pharaoh/i,
+    caption: 'Genesis 41',
+  },
   intros: [
     'Genesis 41 opens with Pharaoh alone with his dreams. Two centuries before Egypt&apos;s wise men will decode the mysteries of their own temples, they stand mute before these seven cows and seven ears of grain [res:met-museum-egypt]. Nothing in the wisdom of Egypt can read what God is saying. The magicians fail. And in the dungeon, still thirteen years from home, Joseph waits without knowing that a dream is about to change everything.',
     'Pay close attention to Joseph&apos;s first words when he stands before Pharaoh: "It is not in me." At the moment of his exaltation, when he could finally take credit - when Pharaoh himself is asking, when the kingdom is desperate - Joseph&apos;s first act is to deflect the credit away from himself [res:sefaria-genesis-41]. Even his freedom is not about Joseph. It is about God. That refusal to seize power for himself sets up everything that follows in Joseph&apos;s story: a man lifted up not by his own hands, but by the God who has been with him in the pit, the prison, and now the palace.',

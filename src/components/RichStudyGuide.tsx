@@ -576,7 +576,14 @@ export default function RichStudyGuide({
         )}
 
         {opener && (
-          <InlineArtwork artwork={opener} caption={content.opener?.caption ?? ''} />
+          <InlineArtwork
+            artwork={opener}
+            caption={
+              content.opener?.themed
+                ? `${(content.opener.caption ?? '').replace(/\s*\(themed\)\s*$/i, '')} (themed)`
+                : (content.opener?.caption ?? '')
+            }
+          />
         )}
 
         {opener && <div className="divider">· · ·</div>}
@@ -818,7 +825,14 @@ function RenderBlock({
         block.artworkSlug,
       );
       if (!a) return null;
-      return <InlineArtwork artwork={a} caption={block.caption} />;
+      // Tier B fallbacks render with "(themed)" appended so the caption
+      // signals the painting is thematically related, not depicting the
+      // verse directly. The server-side sanitizer sets `themed: true`
+      // when the resolved plate came from the topical pool.
+      const caption = block.themed
+        ? `${block.caption.replace(/\s*\(themed\)\s*$/i, '')} (themed)`
+        : block.caption;
+      return <InlineArtwork artwork={a} caption={caption} />;
     }
 
     case 'divider':

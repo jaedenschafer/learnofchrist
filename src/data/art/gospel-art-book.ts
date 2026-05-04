@@ -19,6 +19,8 @@
  * (91 plates, 30 artists)
  */
 
+import type { TopicSlug } from './topics';
+
 export type GospelArtBookArtist = {
   slug: string;
   name: string;
@@ -52,6 +54,9 @@ export type GospelArtBookPlate = {
   width: number | null;
   height: number | null;
   refs: GospelArtBookRef[];
+  /** Optional thematic topics. Used by the artwork resolver to fall
+   *  back from chapter-specific matches to topic-overlap matches. */
+  topicTags?: TopicSlug[];
 };
 
 export const GOSPEL_ART_BOOK_ARTISTS: GospelArtBookArtist[] = [
@@ -340,7 +345,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'Young Jesus, wearing a white robe, points to the scriptures while teaching five elders who have gathered around to listen in the temple.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset ab8563d6bf71f5fc940b8fc299018d764fed41b6.',
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     width: 1920,
     height: 1415,
     refs: [
@@ -364,7 +369,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'Jesus Christ in a white robe, walking along the banks of the sea and calling out to a group of fishermen, who are pulling their nets into their boat.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset c1fdfb8db64e4d34cf2b90dd51d83dd6b2ee641e.',
-    sceneSlug: 'apostles',
+    sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
     width: 1920,
     height: 1665,
     refs: [
@@ -394,7 +399,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'Young Jesus standing next to Joseph in the carpenter’s shop, working with tools on the wood while Joseph supervises.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset 8c0475f953014bb0ee38a28db87f7327a24144ee.',
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     width: 1920,
     height: 1371,
     refs: [
@@ -418,7 +423,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'Christ rubbing clay into the eyes of a blind man who is kneeling before Him while a group of people look on to see what will happen.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset cf7a7bce829870fb7f123371c55b59805b4c4754.',
-    sceneSlug: 'miracles',
+    sceneSlug: 'miracles', topicTags: ['compassion', 'glory', 'sovereignty'],
     width: 1920,
     height: 2446,
     refs: [
@@ -442,7 +447,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A painting by Robert T. Barrett depicting Christ in a white robe, surrounded by curious onlookers, healing a man’s hand.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset e227fe5c48c2e4ac2ee9d4553c5f0ad77cce6d25.',
-    sceneSlug: 'miracles',
+    sceneSlug: 'miracles', topicTags: ['compassion', 'glory', 'sovereignty'],
     width: 800,
     height: 1037,
     refs: [
@@ -466,7 +471,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A panoramic scale painting of Christ in white robes, laying His hands on the head of one of His Apostles while the other eleven stand on either side.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset 94ad9711c67b272e1b6634b0ffdc39796f081c7c.',
-    sceneSlug: 'apostles',
+    sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
     width: 3840,
     height: 1666,
     refs: [
@@ -502,7 +507,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A painting by Robert T. Barrett depicting Christ in white and red robes, standing on the water and reaching out to Peter, who is sinking.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset 7beb022b0201edb8ef36e8cd0495fe84662b9d75.',
-    sceneSlug: 'miracles',
+    sceneSlug: 'miracles', topicTags: ['compassion', 'glory', 'sovereignty'],
     width: 1920,
     height: 1501,
     refs: [
@@ -532,7 +537,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'Christ sitting on a stone wall with His arm around a boy while five other children gather around.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset 224a22b78a5e684a27207bbf29e60862dd2e55c3.',
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
     width: 3840,
     height: 3442,
     refs: [
@@ -562,7 +567,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A painting by David Lindsley showing Christ sitting in the home of Mary and Martha, counseling with them.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset 197ca5396b7590e37bb5a4aa6679ab08964527b9.',
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
     width: 1920,
     height: 2545,
     refs: [
@@ -586,7 +591,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A white statue of the Savior standing in front of a deep blue and purple depiction of the heavens painted on the wall.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset 79db72fdbc5691b382b58b18f2b36b0e64524d9c.',
-    sceneSlug: 'resurrection',
+    sceneSlug: 'resurrection', topicTags: ['resurrection', 'hope', 'new-creation'],
     width: 1920,
     height: 1490,
     refs: [
@@ -610,7 +615,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A painting by Sidney King showing a large throng of people going down into a river to be baptized.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset 5a979a326ee432c192220903e9c48b5332409a34.',
-    sceneSlug: 'ascension',
+    sceneSlug: 'ascension', topicTags: ['kingship', 'resurrection'],
     width: 1920,
     height: 1472,
     refs: [
@@ -634,7 +639,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A painting by Kamille Corry of Christ surrounded by His Apostles, talking with Peter and pointing down to a basket of fish.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset e1049900b67d33d0ad6573bcd5ed9679471d9e09.',
-    sceneSlug: 'apostles',
+    sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
     width: 3840,
     height: 2491,
     refs: [
@@ -658,7 +663,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A painting by James Tissot showing 5,000 people on a hill being fed by Christ’s Apostles from baskets of food.',
     license: 'public_domain',
     licenseNote: 'Public domain via Gospel Art Book, Intellectual Reserve, Inc. Asset a76bac279450b7c40b06a4c5954f352df0085e58.',
-    sceneSlug: 'miracles',
+    sceneSlug: 'miracles', topicTags: ['compassion', 'glory', 'sovereignty'],
     width: 3840,
     height: 2639,
     refs: [
@@ -682,7 +687,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A painting by Walter Rane showing five women with lit lamps and five without, begging for help.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset b85d881e3b4f0029eece0e64ae08dff471a11237.',
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
     width: 3840,
     height: 2221,
     refs: [
@@ -706,7 +711,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A painting by Robert T. Barrett of Joseph walking in front of a donkey that is carrying Mary and the Christ child as they flee Jerusalem at night.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset 4cffa12e0d18bf3888f6e4ddbb5cee8361539c52.',
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     width: 1600,
     height: 2076,
     refs: [
@@ -730,7 +735,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A painting by Harry Anderson showing Christ in white robes, standing in the midst of His Apostles on a road outside of Jerusalem.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset 9c32aa032d796b11aa5879c3c7617e14b066d87f.',
-    sceneSlug: 'ascension',
+    sceneSlug: 'ascension', topicTags: ['kingship', 'resurrection'],
     width: 1920,
     height: 1178,
     refs: [
@@ -760,7 +765,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A painting by Walter Rane showing Christ and His Apostles sitting around a table, partaking of the Last Supper by candlelight.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset 08e12942edd1eb30d5b73fc9093f730802916a70.',
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
     width: 3840,
     height: 2379,
     refs: [
@@ -796,7 +801,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'Christ in a white robe, holding the hand of a young girl whom He has just raised from the dead while her parents look on.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset 424dc983fcd09ca127eb6c17324ef3cfea67d905.',
-    sceneSlug: 'miracles',
+    sceneSlug: 'miracles', topicTags: ['compassion', 'glory', 'sovereignty'],
     width: 1920,
     height: 2919,
     refs: [
@@ -832,7 +837,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A detail of a painting by Harry Anderson showing Christ with His arm around a young boy with whom He is talking.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset 1fd5e1792f6b5c53f576187992f19faddeec79e2.',
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
     width: 800,
     height: 1034,
     refs: [
@@ -856,7 +861,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'Christ in a white robe, kneeling near a large olive tree, with hands clasped, looking upward.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset e32f5821c733134b9c72a16e0ef6617ace5d9d6f.',
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
     width: 3840,
     height: 4220,
     refs: [
@@ -886,7 +891,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'The resurrected Jesus Christ stands before His Apostles and stretches out His hands to show them the wounds.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset d0f28b0da1a93cc7519c83d7f9d2d6cd4e0777b6.',
-    sceneSlug: 'resurrection',
+    sceneSlug: 'resurrection', topicTags: ['resurrection', 'hope', 'new-creation'],
     width: 1920,
     height: 2071,
     refs: [
@@ -916,7 +921,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A young Jesus sitting in the temple, talking to the elders, who are gathered around listening and talking among themselves.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset 656ad751c874985a87a9de1a2dbcf8c4e84a64df.',
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     width: 1920,
     height: 1196,
     refs: [
@@ -940,7 +945,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'Christ in white robes with a yellow sash, kneeling to wash the feet of one of His Apostles while the other eleven sit around the table.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset 5dd13429814877171e73770124984c8d2b580f0b.',
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
     width: 1920,
     height: 1281,
     refs: [
@@ -964,7 +969,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'Young Jesus in white robes, standing next to His mother, Mary, and putting His arm around her while Joseph looks on in the background.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset f5151be5f63571bd3b6c399aea4f302ff0fc6344.',
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
     width: 1600,
     height: 2450,
     refs: [
@@ -1000,7 +1005,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A depiction by Paul Gustave Doré of Christ standing between two of His disciples on the road to Emmaus.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset d655e396a3ff9fcb8f6ae584f336254020972131.',
-    sceneSlug: 'resurrection',
+    sceneSlug: 'resurrection', topicTags: ['resurrection', 'hope', 'new-creation'],
     width: 1280,
     height: 857,
     refs: [
@@ -1024,7 +1029,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'Christ in red and white robes, knocking on a plain wooden door with a small window showing warm light inside.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset 342168c6cfe8a02a338c16f7f47fcf73f5b8db2d.',
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
     width: 1920,
     height: 2871,
     refs: [
@@ -1048,7 +1053,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A portrait of Christ in a red robe against a gray background, looking out toward the viewer.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset 74e791bd621264588bd00e0cc2fa0573435582fd.',
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
     width: 3840,
     height: 5593,
     refs: [
@@ -1072,7 +1077,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A painting by Del Parson showing John the Baptist in a brown robe talking to a group of people.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset 91392c29683ba00251fe1d215cb2624d875fc569.',
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
     width: 1920,
     height: 2583,
     refs: [
@@ -1108,7 +1113,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'John the Baptist holding onto the wrist of Jesus Christ, whom he has just immersed in the waters of the River Jordan that surround them.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset 568a6804bbb4767549793eab4d73ab2f4ed251e5.',
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
     width: 1280,
     height: 1625,
     refs: [
@@ -1138,7 +1143,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'Christ in white robes, sitting on the edge of a stone well, talking to a woman who sits on the ground next to a water jug, listening to His words.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset b01ff2f9ec4935557d58442b7443064b24f15a0c.',
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
     width: 1920,
     height: 1596,
     refs: [
@@ -1162,7 +1167,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A painting by Del Parson of Christ sitting in the home of Mary and Martha, with the two women sitting and standing nearby.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset 635a5353043f00de6ab382ff272aff30517ebe6c.',
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
     width: 1920,
     height: 2811,
     refs: [
@@ -1186,7 +1191,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'Jesus in white robes, sitting on a hillside by the sea, surrounded by a large group of people who are listening to His teachings.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset 31eb3e774ec45f7733e1d8168584084e745406c5.',
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
     width: 1920,
     height: 1139,
     refs: [
@@ -1210,7 +1215,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'Jesus wearing white and red robes, with arms outstretched, standing near His Apostles on a ship that is being tossed on large waves.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset 5c4cb06e9147af91efbb1caa77a03dcc2375e29d.',
-    sceneSlug: 'miracles',
+    sceneSlug: 'miracles', topicTags: ['compassion', 'glory', 'sovereignty'],
     width: 1920,
     height: 2886,
     refs: [
@@ -1246,7 +1251,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A painting by James Tissot showing Christ approaching a group of 10 lepers, who are kneeling on the ground, begging for assistance.',
     license: 'public_domain',
     licenseNote: 'Public domain via Gospel Art Book, Intellectual Reserve, Inc. Asset 6c15bebbc69e04b88f33620e070dd46d73009686.',
-    sceneSlug: 'miracles',
+    sceneSlug: 'miracles', topicTags: ['compassion', 'glory', 'sovereignty'],
     width: 1920,
     height: 1262,
     refs: [
@@ -1270,7 +1275,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A painting of the shepherds listening to an angel announce the birth of Christ.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset f5886ab716f3cef03e948ee405cb0afadca02a10.',
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     width: 1920,
     height: 2716,
     refs: [
@@ -1294,7 +1299,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A painting by John Scott showing Mary in a blue robe, sitting on a rock wall and looking up at the angel Gabriel, who stands near her.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset 478780d23a8a4bac475b343341ab060f94b9d224.',
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     width: 3840,
     height: 2456,
     refs: [
@@ -1324,7 +1329,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A painting by Harry Anderson of two angels in white robes pointing toward the heavens while Christ’s Apostles stand around looking up.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset b54b00f6477654f9d2d478e83d2f897b7983d415.',
-    sceneSlug: 'ascension',
+    sceneSlug: 'ascension', topicTags: ['kingship', 'resurrection'],
     width: 3840,
     height: 2758,
     refs: [
@@ -1348,7 +1353,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A painting by Ted Henninger showing the Savior standing in a crowd of soldiers, illuminated by torchlight, with Judas’s hand on His shoulder.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset a586d9c92db5e73ea9d9a0d7718163238c08a8dd.',
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
     width: 1920,
     height: 1270,
     refs: [
@@ -1390,7 +1395,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'Jesus Christ hanging on the cross between two thieves while groups of onlookers, including Roman soldiers, stand nearby.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset 43dad9fe4816d056f5e22d1350187887265d34d0.',
-    sceneSlug: 'crucifixion',
+    sceneSlug: 'crucifixion', topicTags: ['cross', 'sacrifice', 'suffering'],
     width: 3840,
     height: 3411,
     refs: [
@@ -1438,7 +1443,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'Three women watch an angel in white clothing rolling the stone away from the tomb while Roman soldiers look on in fear.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset 893d4ab8741069a74fdfe4ea1b6212d66a191888.',
-    sceneSlug: 'resurrection',
+    sceneSlug: 'resurrection', topicTags: ['resurrection', 'hope', 'new-creation'],
     width: 1920,
     height: 1260,
     refs: [
@@ -1468,7 +1473,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A painting by Del Parson showing the good Samaritan giving the injured man on the road something to drink.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset 8ba875bbf1058726b4fc4af3fabbca27b1913dfc.',
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
     width: 500,
     height: 318,
     refs: [
@@ -1492,7 +1497,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A painting by John Scott showing Christ standing in judgment while people in clothing from all time periods stand around Him.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset bb81bb815efda12b824372a3184d110e6e824e76.',
-    sceneSlug: 'apocalypse',
+    sceneSlug: 'apocalypse', topicTags: ['second-coming', 'new-creation', 'judgment'],
     width: 1280,
     height: 1111,
     refs: [
@@ -1516,7 +1521,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A black and white drawing of Mary and Joseph at Christ’s birth.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset f006e0d3d631489e8ce36fecbb6cce231f9ff850.',
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     width: 1920,
     height: 2495,
     refs: [
@@ -1540,7 +1545,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A painting by Clark Kelley Price showing a father embracing his son, who is wearing rags, on the road outside of the family’s home.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset a2bbb5734352c97e56f6b538cd2a693d501aa85d.',
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
     width: 1920,
     height: 2960,
     refs: [
@@ -1564,7 +1569,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A painting by Harry Anderson showing Christ in white robes and a red sash, standing on a cloud with His arms outstretched.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset a5a8f8f08cbd31aa30b3abbebc0245f25fb5c72b.',
-    sceneSlug: 'resurrection',
+    sceneSlug: 'resurrection', topicTags: ['resurrection', 'hope', 'new-creation'],
     width: 1920,
     height: 2872,
     refs: [
@@ -1588,7 +1593,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A painting by Joseph Brickey showing Mary and Joseph and a donkey walking through a sunny field past a small shepherd and his flock.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset 97605485b9a34a226983177701324fa6c3592120.',
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     width: 3840,
     height: 2518,
     refs: [
@@ -1612,7 +1617,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'Jesus Christ in white robes and a red sash, standing on a cloud in the air, surrounded by thousands of angels blowing trumpets.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset a824e2d796036346a7d663cf48aef69807c05400.',
-    sceneSlug: 'apocalypse',
+    sceneSlug: 'apocalypse', topicTags: ['second-coming', 'new-creation', 'judgment'],
     width: 3840,
     height: 4698,
     refs: [
@@ -1636,7 +1641,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'Christ in red and blue robes, sitting on a large rock and teaching, while a large group of people sit around Him listening to His words.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset ca6877424dbe873aca9ff483e075ccad81a0d257.',
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
     width: 3840,
     height: 4190,
     refs: [
@@ -1660,7 +1665,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A painting by George Soper of a sower scattering seeds from a green pouch slung over his shoulder.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset 2160d0ec9008a9cddd9b26baf9d1a8330c361a7c.',
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
     width: 1920,
     height: 2680,
     refs: [
@@ -1684,7 +1689,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A painting by James Tissot showing Mary Magdalene and Mary the mother of Jesus standing outside of Christ’s tomb.',
     license: 'public_domain',
     licenseNote: 'Public domain via Gospel Art Book, Intellectual Reserve, Inc. Asset 749b3ecbca3469198b46060cdad192bd28860b91.',
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
     width: 1920,
     height: 2856,
     refs: [
@@ -1708,7 +1713,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'Christ in a white robe, riding a white donkey through a stone archway while a crowd waves palm fronds and lays red and yellow cloths in His path.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset 369125355e962ccc569d249ca4e1e4a64ede2885.',
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
     width: 3840,
     height: 3315,
     refs: [
@@ -1750,7 +1755,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A painting by James Tissot showing Zacchaeus in a yellow robe lying in the branches of a large tree and looking down at Christ and His followers.',
     license: 'public_domain',
     licenseNote: 'Public domain via Gospel Art Book, Intellectual Reserve, Inc. Asset 174fef0ee894da3a512cde71ec6a7b4243e25bee.',
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
     width: 1280,
     height: 907,
     refs: [
@@ -1774,7 +1779,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A painting by Del Parson showing Abraham and his son Isaac walking with a pack animal that is loaded with wood.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset ccabdc313a837a9e0537b157912f31eb67cb17b8.',
-    sceneSlug: 'abraham',
+    sceneSlug: 'abraham', topicTags: ['faithfulness', 'covenant', 'sacrifice'],
     width: 1920,
     height: 2460,
     refs: [
@@ -1798,7 +1803,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A painting by Lowell Bruce Bennett showing Adam and Eve in yellow clothing walking among trees, with a tiger lying in the grass behind them.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset 1623179e38c588b97de4c6ea9c77c156ec962db2.',
-    sceneSlug: 'creation',
+    sceneSlug: 'creation', topicTags: ['creation', 'sovereignty', 'glory'],
     width: 1920,
     height: 1774,
     refs: [
@@ -1822,7 +1827,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A painting by Del Parson showing Adam and Eve kneeling next to an altar of stone in the midst of some green trees.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset 67525074bf4b5964e41c181f0db4aae28bfed805.',
-    sceneSlug: 'creation',
+    sceneSlug: 'creation', topicTags: ['creation', 'sovereignty', 'glory'],
     width: 1920,
     height: 2918,
     refs: [
@@ -1846,7 +1851,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A painting by Del Parson showing Adam and Eve sitting on the ground, talking and reading to five of their children, who surround them.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset 93cf1a2b8c30472131ad9539fa7943ce7e7ab0b3.',
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
     width: 1920,
     height: 1186,
     refs: [
@@ -1870,7 +1875,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A painting by Del Parson showing an angel stopping the hand of the priest who is raising a knife to sacrifice Abraham.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset b46d1fddb7494fe2e063953bdca74271f38de4e8.',
-    sceneSlug: 'abraham',
+    sceneSlug: 'abraham', topicTags: ['faithfulness', 'covenant', 'sacrifice'],
     width: 1920,
     height: 2975,
     refs: [
@@ -1894,7 +1899,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A painting by Harry Anderson showing Samuel as a boy sitting up in bed and looking out the window where a bright light is shining.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset 0fa1384951cc0f3e3e2a02bd43f25c4f2c2f86bc.',
-    sceneSlug: 'david',
+    sceneSlug: 'david', topicTags: ['kingship', 'shepherd', 'repentance'],
     width: 1920,
     height: 1273,
     refs: [
@@ -1918,7 +1923,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A painting by Harry Anderson showing Noah standing on a stack of lumber with his arms raised, warning the people who stand around him laughing.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset 8742114c9fe74882f89f3023b1fdf461bc59907f.',
-    sceneSlug: 'flood',
+    sceneSlug: 'flood', topicTags: ['judgment', 'wrath', 'covenant', 'deliverance'],
     width: 1920,
     height: 1372,
     refs: [
@@ -1942,7 +1947,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A painting by Stanley Galli showing various animals in the land and the sea, including a whale, an elephant, and a giraffe.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset 46fd540222aac74955ea881c576811ec39be413e.',
-    sceneSlug: 'creation',
+    sceneSlug: 'creation', topicTags: ['creation', 'sovereignty', 'glory'],
     width: 1920,
     height: 3028,
     refs: [
@@ -1966,7 +1971,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A painting by Grant Romney Clawson showing David kneeling before King Nebuchadnezzar on his throne, interpreting the figure from his dream.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset 834d6fd59a754a4110c5465db12ba5dd6aa2c519.',
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
     width: 1920,
     height: 1500,
     refs: [
@@ -1990,7 +1995,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A painting by Del Parson showing Daniel and his friends refusing the meat and wine being offered to them.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset 36bd52b0913d3ba3df57b0a9b98a5cd34c831202.',
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
     width: 1920,
     height: 2826,
     refs: [
@@ -2014,7 +2019,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A painting by Clark Kelley Price of Daniel in the lions’ den surrounded, looking up to the light coming in from the open entrance above.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset 850c3faf9ed39b2193c9280a929f73469094982c.',
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
     width: 1920,
     height: 1470,
     refs: [
@@ -2038,7 +2043,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A drawing by Ted Henninger showing a young David attacking the giant, well-armored Goliath with a small sling.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset 91a96141d4471eac93f6d58e7d6db42cd6fd4192.',
-    sceneSlug: 'david',
+    sceneSlug: 'david', topicTags: ['kingship', 'shepherd', 'repentance'],
     width: 1920,
     height: 2377,
     refs: [
@@ -2062,7 +2067,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A painting by Jerry Harston showing Elijah standing before a fire-engulfed altar with arms extended while the priests of Baal stand back.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset 16ff5679f7d89bd0306573a5bfb98e674d60bc9a.',
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
     width: 1920,
     height: 1398,
     refs: [
@@ -2086,7 +2091,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A painting by Del Parson showing Enoch surrounded by the people of his city on a large cloud being raised into the air.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset 46d0e9f3be2677f5d47c66ea3c32414e182fba2e.',
-    sceneSlug: 'creation',
+    sceneSlug: 'creation', topicTags: ['creation', 'sovereignty', 'glory'],
     width: 1920,
     height: 2401,
     refs: [
@@ -2116,7 +2121,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A painting by Paul Mann depicting the disobedience of Elisha’s servant Gehazi, who received money and clothing from Naaman.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset f0321debd54daba490684bccd2520cd66f891288.',
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
     width: 1920,
     height: 2782,
     refs: [
@@ -2140,7 +2145,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A painting by Daniel A. Lewis depicting Gideon’s army at nighttime walking up a hill, blowing horns and holding small lamps.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset 41fab0942abbacea7d86a2e5ad61ea8913ef5ee8.',
-    sceneSlug: 'judges',
+    sceneSlug: 'judges', topicTags: ['deliverance', 'leadership', 'sin'],
     width: 1920,
     height: 2278,
     refs: [
@@ -2164,7 +2169,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A painting by Robert T. Barrett showing Hannah and her young son, Samuel, standing before Eli.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset a645f5f3993c3a5d80589796e810549f959e3b2a.',
-    sceneSlug: 'david',
+    sceneSlug: 'david', topicTags: ['kingship', 'shepherd', 'repentance'],
     width: 1920,
     height: 2935,
     refs: [
@@ -2188,7 +2193,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'Two men observing the prophet Isaiah, who is writing on a long scroll while envisioning the Nativity scene.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset 75578c17fc349ebe9ac379f6a55792d377e7867a.',
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
     width: 3840,
     height: 2520,
     refs: [
@@ -2212,7 +2217,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A painting by Harry Anderson of an elderly Jacob placing his hand on the head of one of his sons, who kneels before him, while the other sons look on.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset d2e59a7288fd97276274976ed993094a979371b3.',
-    sceneSlug: 'patriarchs',
+    sceneSlug: 'patriarchs', topicTags: ['covenant', 'faithfulness', 'family'],
     width: 3840,
     height: 2477,
     refs: [
@@ -2236,7 +2241,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A painting by Robert T. Barrett showing Jonah in a ragged red robe lying on a beach with the silhouette of a whale seen in the distance.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset b1fb8b7649168e6b0aec7799b1cadf3dfe944018.',
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
     width: 3840,
     height: 2934,
     refs: [
@@ -2260,7 +2265,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A painting showing Jonah on a beach, soaking wet, with the fin of a whale in the background.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset 4a9024e330ef8831933bdcb193c528c3f5111249.',
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
     width: 1920,
     height: 1440,
     refs: [
@@ -2284,7 +2289,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A painting by Ted Henninger showing Joseph of Egypt surrounded by his brothers, smiling and showing forgiveness toward them.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset 078d2d9242b3e18b5375d33964d12b2d267e9aa2.',
-    sceneSlug: 'patriarchs',
+    sceneSlug: 'patriarchs', topicTags: ['covenant', 'faithfulness', 'family'],
     width: 1920,
     height: 2862,
     refs: [
@@ -2308,7 +2313,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A painting by Ted Henninger of Joseph of Egypt being restrained by two of his brothers while being sold into slavery.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset 2a5bb8591793556210ab6edf242e85878e021b8c.',
-    sceneSlug: 'patriarchs',
+    sceneSlug: 'patriarchs', topicTags: ['covenant', 'faithfulness', 'family'],
     width: 1920,
     height: 1379,
     refs: [
@@ -2332,7 +2337,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A painting by Del Parson showing Joseph trying to step away from Potiphar’s wife, who is holding onto his robe.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset def21e91825e771098627b32a30ddf8268350a98.',
-    sceneSlug: 'patriarchs',
+    sceneSlug: 'patriarchs', topicTags: ['covenant', 'faithfulness', 'family'],
     width: 1920,
     height: 2828,
     refs: [
@@ -2356,7 +2361,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A painting by Del Parson depicting Joseph of Egypt in prison, interpreting the dreams of the butler and the baker, who sit near him.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset 02de834bf2695fb3906a8b7bbb4afbb7ab728975.',
-    sceneSlug: 'patriarchs',
+    sceneSlug: 'patriarchs', topicTags: ['covenant', 'faithfulness', 'family'],
     width: 1920,
     height: 2419,
     refs: [
@@ -2380,7 +2385,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A painting by Frank Adams showing Joshua and his men wearing armor, carrying spears, and blowing horns around the walls of Jericho.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset 1d5d28b48c2cce0d75d656c3682b04ced05e3c57.',
-    sceneSlug: 'conquest',
+    sceneSlug: 'conquest', topicTags: ['leadership', 'sovereignty', 'protection'],
     width: 1920,
     height: 2776,
     refs: [
@@ -2404,7 +2409,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A painting by Harry Anderson showing Moses with his hands on Aaron’s head inside of the tabernacle.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset 4d29ac5357ea43f8cd6e6ea52787f940139fcb2b.',
-    sceneSlug: 'exodus',
+    sceneSlug: 'exodus', topicTags: ['deliverance', 'sovereignty', 'judgment'],
     width: 3840,
     height: 2515,
     refs: [
@@ -2434,7 +2439,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A painting by Darrell Thomas of white-haired Moses placing his hands on the head of Joshua, who kneels before him.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset faa97cae7b30696c854d9dc54101ad8a768b21d7.',
-    sceneSlug: 'exodus',
+    sceneSlug: 'exodus', topicTags: ['deliverance', 'sovereignty', 'judgment'],
     width: 1920,
     height: 2905,
     refs: [
@@ -2458,7 +2463,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A painting by Robert T. Barrett of Moses holding a staff and stretching out his arm while the Red Sea parts and a storm rages behind him.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset 5e9264f55bca3e727fa7b0aedf81b39defaab4cb.',
-    sceneSlug: 'exodus',
+    sceneSlug: 'exodus', topicTags: ['deliverance', 'sovereignty', 'judgment'],
     width: 3840,
     height: 3576,
     refs: [
@@ -2482,7 +2487,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A painting by Judith Mehr of Moses standing before the children of Israel, pointing toward a large brass serpent on a pole.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset e4d489d9f0d13fb89fe43727792594f46751a33f.',
-    sceneSlug: 'exodus',
+    sceneSlug: 'exodus', topicTags: ['deliverance', 'sovereignty', 'judgment'],
     width: 1920,
     height: 2885,
     refs: [
@@ -2512,7 +2517,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A painting by Jerry Thompson showing Moses with his sandals off, falling backward near a large burning bush.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset f68211f6a9f35efe937d728689f5b45464ba5268.',
-    sceneSlug: 'exodus',
+    sceneSlug: 'exodus', topicTags: ['deliverance', 'sovereignty', 'judgment'],
     width: 1920,
     height: 1442,
     refs: [
@@ -2542,7 +2547,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A painting by Jerry Harston of Moses with a long white beard, holding a staff and two stone tablets.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset 1717b4abbd9b0264497cd9a7e8b1446193e75f69.',
-    sceneSlug: 'exodus',
+    sceneSlug: 'exodus', topicTags: ['deliverance', 'sovereignty', 'judgment'],
     width: 1920,
     height: 1541,
     refs: [
@@ -2566,7 +2571,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A painting by George Soper showing the daughter of Pharaoh and several other women encountering the baby Moses among the bulrushes.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset bd42392114446b8d4c9b478492ac649cbd1a0997.',
-    sceneSlug: 'exodus',
+    sceneSlug: 'exodus', topicTags: ['deliverance', 'sovereignty', 'judgment'],
     width: 1920,
     height: 2752,
     refs: [
@@ -2590,7 +2595,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A painting by Clark Kelley Price of Noah standing on the ark while the animals walk up a ramp to board the ship and a storm brews in the background.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset ce9b865d0ed9ae9369122ac13944f07fc70c5c5f.',
-    sceneSlug: 'flood',
+    sceneSlug: 'flood', topicTags: ['judgment', 'wrath', 'covenant', 'deliverance'],
     width: 1920,
     height: 1426,
     refs: [
@@ -2614,7 +2619,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A painting by James Tissot showing the biblical Samson pulling down the pillars of the temple while the building crumbles all around.',
     license: 'public_domain',
     licenseNote: 'Public domain via Gospel Art Book, Intellectual Reserve, Inc. Asset cfe0c8bdea8de57b2dc6cb034b9bded6e4dc2402.',
-    sceneSlug: 'judges',
+    sceneSlug: 'judges', topicTags: ['deliverance', 'leadership', 'sin'],
     width: 3840,
     height: 2352,
     refs: [
@@ -2638,7 +2643,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A depiction of the temple that would have been used anciently, built of stone, with arches and pillars.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset 5b0481de96fa7e08786c3b059f9cfa258857e283.',
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
     width: 3840,
     height: 4063,
     refs: [
@@ -2674,7 +2679,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A view of a part of the earth from space, with the moon seen in the distance.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset 723716cb7ec5f79d52a56aea78c235ce2006b903.',
-    sceneSlug: 'creation',
+    sceneSlug: 'creation', topicTags: ['creation', 'sovereignty', 'glory'],
     width: 1600,
     height: 2037,
     refs: [
@@ -2698,7 +2703,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A panoramic painting by Grant Romney Clawson showing the beauty of the Garden of Eden, with a waterfall, large trees, and white birds.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset 62321966b50bc66a19fcc6cff584a45fee1eb9ea.',
-    sceneSlug: 'creation',
+    sceneSlug: 'creation', topicTags: ['creation', 'sovereignty', 'glory'],
     width: 1920,
     height: 547,
     refs: [
@@ -2722,7 +2727,7 @@ export const GOSPEL_ART_BOOK_PLATES: GospelArtBookPlate[] = [
     altText: 'A painting by William Maughan of Shadrach, Meshach, Abednego, and the Lord in a hot furnace, with the soldiers at the entrance falling backward.',
     license: 'licensed',
     licenseNote: 'Licensed from Intellectual Reserve, Inc. via Gospel Art Book. Asset 53a6fcbb43da5fdb352d4e6e4c5e0f04a01bf1a0.',
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
     width: 1920,
     height: 2626,
     refs: [

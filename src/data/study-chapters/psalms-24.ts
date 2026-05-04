@@ -17,6 +17,10 @@ export const PSALMS_24: RichChapterContent = {
   chapter: 24,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+  opener: {
+    matchTitle: /The Ascension/i,
+    caption: 'Psalms 24',
+  },
   intros: [
     'Psalm 24 moves in three distinct movements: first, the affirmation of God&apos;s ownership of all creation; second, the question of who may approach Him; and third, the triumphal entrance of the King of Glory. The psalm teaches both the complete sovereignty of God and the exacting holiness required to dwell in His presence. Yet it ends not in exclusion but in triumph—the gates themselves are commanded to lift up their heads and make way.',
   ],

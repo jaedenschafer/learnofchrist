@@ -19,6 +19,10 @@ export const MATTHEW_12: RichChapterContent = {
   chapter: 12,
 
   estimatedMinutes: { beginner: 2, intermediate: 6, deep: 8 },
+  opener: {
+    matchTitle: /Jesus Heals a Mute/i,
+    caption: 'Matthew 12',
+  },
   intros: [
     'The conflict between Jesus and the Pharisees intensifies over the Sabbath. The law forbids work on the Sabbath day, yet Jesus heals on the Sabbath. He walks through the grain fields and His disciples pluck heads of grain to eat. "Behold, thy disciples do that which is not lawful to do upon the sabbath day." The Pharisees are scandalized. But Jesus responds: "The Son of man is Lord even of the sabbath day." He claims authority over the very law that governs Israel&apos;s relationship with God.',
     'Jesus heals a man with a withered hand and casts out a demon, making the man both to see and to speak. The crowds ask in amazement "Is not this the son of David?" Yet the Pharisees attribute His power to Beelzebub, the prince of demons. This provokes Jesus&apos; strongest rebuke: "Whosoever speaketh a word against the Son of man, it shall be forgiven him: but whosoever speaketh against the Holy Ghost, it shall not be forgiven him." The Spirit&apos;s testimony cannot be rejected without consequences.',

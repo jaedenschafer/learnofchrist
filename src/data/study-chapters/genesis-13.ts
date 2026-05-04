@@ -13,6 +13,10 @@ export const GENESIS_13: RichChapterContent = {
   chapter: 13,
 
   estimatedMinutes: { beginner: 6, intermediate: 9, deep: 12 },
+  opener: {
+    matchTitle: /Abram Beholds the Promised/i,
+    caption: 'Genesis 13',
+  },
   intros: [
     'Genesis 13 is a chapter about what we choose with our eyes and what we choose by faith. Abram and Lot have grown too rich to share the same pastures; their herdsmen quarrel over water and grazing. In any other story, the older man and the promise-bearer would claim the best land for himself. Abram does the opposite. He offers Lot first choice - an act of deference so complete it foreshadows the one who "made himself of no reputation." Lot\'s eyes see what looks like Eden. But the text whispers: it is toward Sodom.',
     'The chapter turns on a single Hebrew phrase, *nasa\' eynayim* - "to lift up the eyes." Lot lifts his eyes toward the well-watered plain. Then God tells Abram to lift his eyes too, and look in every direction, and promise him all he can see. What Lot chose by sight, Abram receives [res:bibleodyssey-abraham-covenant] by promise. What Lot saw as beautiful, God says is destined for judgment. The same gaze. Different destinations.',

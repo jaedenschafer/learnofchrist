@@ -15,6 +15,10 @@ export const JEREMIAH_52: RichChapterContent = {
   chapter: 52,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+  opener: {
+    matchTitle: /The Flight of the/i,
+    caption: 'Jeremiah 52',
+  },
   intros: [
     'Jeremiah 52 is the final chapter of the book, and it reads like an epilogue to everything that has come before. It narrates the fall of Jerusalem in historical detail—the siege, the breach of the walls, the burning of the temple, the carrying away of the people into exile. Every word of judgment that Jeremiah spoke now finds its fulfillment. The prophet&apos;s vindication is complete.',
     'Yet the chapter does not end in total darkness. In the final verses, we read that Jehoiachin, the exiled king, is released from prison and given a place of honor in the court of the king of Babylon. He is allowed to wear clothes other than prison garb. He is given an allowance. He eats regularly at the king&apos;s table. It is a small light—not restoration to the throne, not freedom to return home, but a sign that hope does not die even in exile. God remembers His king and His people.',

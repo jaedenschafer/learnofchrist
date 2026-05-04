@@ -18,6 +18,8 @@
  * the /art surface can cluster art across artists.
  */
 
+import type { TopicSlug } from './topics';
+
 export interface DoreEngraving {
   /** External id for idempotent upsert. Stable across re-runs. */
   externalId: string;
@@ -32,6 +34,9 @@ export interface DoreEngraving {
   sceneSlug?: string;
   /** Optional short caption, rendered under the art on /art pages. */
   description?: string;
+  /** Optional thematic topics. Used by the artwork resolver to fall
+   *  back from chapter-specific matches to topic-overlap matches. */
+  topicTags?: TopicSlug[];
 }
 
 export const DORE_ENGRAVINGS: DoreEngraving[] = [
@@ -45,7 +50,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 1,
     verseStart: 3,
     verseEnd: 3,
-    sceneSlug: 'creation',
+    sceneSlug: 'creation', topicTags: ['creation', 'sovereignty', 'glory'],
     description: '"And God said, Let there be light: and there was light."',
   },
   {
@@ -57,7 +62,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 2,
     verseStart: 21,
     verseEnd: 22,
-    sceneSlug: 'creation',
+    sceneSlug: 'creation', topicTags: ['creation', 'sovereignty', 'glory'],
   },
   {
     externalId: 'dore-adam-and-eve-driven-out-of-eden',
@@ -68,7 +73,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 3,
     verseStart: 23,
     verseEnd: 24,
-    sceneSlug: 'fall',
+    sceneSlug: 'fall', topicTags: ['fall-and-curse', 'sin', 'pride'],
   },
   {
     externalId: 'dore-cain-slays-abel',
@@ -79,7 +84,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 4,
     verseStart: 8,
     verseEnd: 8,
-    sceneSlug: 'fall',
+    sceneSlug: 'fall', topicTags: ['fall-and-curse', 'sin', 'pride'],
   },
   {
     externalId: 'dore-the-deluge',
@@ -90,7 +95,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 7,
     verseStart: 21,
     verseEnd: 23,
-    sceneSlug: 'flood',
+    sceneSlug: 'flood', topicTags: ['judgment', 'wrath', 'covenant', 'deliverance'],
   },
   {
     externalId: 'dore-dove-from-ark',
@@ -101,7 +106,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 8,
     verseStart: 8,
     verseEnd: 12,
-    sceneSlug: 'flood',
+    sceneSlug: 'flood', topicTags: ['judgment', 'wrath', 'covenant', 'deliverance'],
   },
   {
     externalId: 'dore-tower-of-babel',
@@ -112,7 +117,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 11,
     verseStart: 1,
     verseEnd: 9,
-    sceneSlug: 'babel',
+    sceneSlug: 'babel', topicTags: ['pride', 'judgment'],
   },
   {
     externalId: 'dore-abraham-entertains-three-angels',
@@ -123,7 +128,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 18,
     verseStart: 1,
     verseEnd: 8,
-    sceneSlug: 'abraham',
+    sceneSlug: 'abraham', topicTags: ['faithfulness', 'covenant', 'sacrifice'],
   },
   {
     externalId: 'dore-lot-flees-sodom',
@@ -134,7 +139,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 19,
     verseStart: 24,
     verseEnd: 28,
-    sceneSlug: 'judgment',
+    sceneSlug: 'judgment', topicTags: ['judgment', 'wrath', 'second-coming'],
   },
   {
     externalId: 'dore-abrahams-sacrifice',
@@ -145,7 +150,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 22,
     verseStart: 9,
     verseEnd: 13,
-    sceneSlug: 'abraham',
+    sceneSlug: 'abraham', topicTags: ['faithfulness', 'covenant', 'sacrifice'],
   },
   {
     externalId: 'dore-rebekah-at-the-well',
@@ -156,7 +161,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 24,
     verseStart: 15,
     verseEnd: 20,
-    sceneSlug: 'patriarchs',
+    sceneSlug: 'patriarchs', topicTags: ['covenant', 'faithfulness', 'family'],
   },
   {
     externalId: 'dore-jacobs-ladder',
@@ -167,7 +172,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 28,
     verseStart: 12,
     verseEnd: 15,
-    sceneSlug: 'patriarchs',
+    sceneSlug: 'patriarchs', topicTags: ['covenant', 'faithfulness', 'family'],
   },
   {
     externalId: 'dore-jacob-wrestling-with-the-angel',
@@ -178,7 +183,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 32,
     verseStart: 24,
     verseEnd: 30,
-    sceneSlug: 'patriarchs',
+    sceneSlug: 'patriarchs', topicTags: ['covenant', 'faithfulness', 'family'],
   },
   {
     externalId: 'dore-joseph-sold',
@@ -189,7 +194,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 37,
     verseStart: 23,
     verseEnd: 28,
-    sceneSlug: 'joseph',
+    sceneSlug: 'joseph', topicTags: ['providence', 'forgiveness', 'suffering', 'leadership'],
   },
   {
     externalId: 'dore-joseph-interpreting-pharaohs-dream',
@@ -200,7 +205,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 41,
     verseStart: 14,
     verseEnd: 36,
-    sceneSlug: 'joseph',
+    sceneSlug: 'joseph', topicTags: ['providence', 'forgiveness', 'suffering', 'leadership'],
   },
   {
     externalId: 'dore-joseph-makes-himself-known',
@@ -211,7 +216,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 45,
     verseStart: 1,
     verseEnd: 15,
-    sceneSlug: 'joseph',
+    sceneSlug: 'joseph', topicTags: ['providence', 'forgiveness', 'suffering', 'leadership'],
   },
 
   // ===== EXODUS =====
@@ -224,7 +229,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 2,
     verseStart: 3,
     verseEnd: 6,
-    sceneSlug: 'moses',
+    sceneSlug: 'moses', topicTags: ['calling', 'leadership', 'covenant'],
   },
   {
     externalId: 'dore-moses-and-aaron-before-pharaoh',
@@ -235,7 +240,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 7,
     verseStart: 10,
     verseEnd: 13,
-    sceneSlug: 'moses',
+    sceneSlug: 'moses', topicTags: ['calling', 'leadership', 'covenant'],
   },
   {
     externalId: 'dore-ninth-plague',
@@ -246,7 +251,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 10,
     verseStart: 21,
     verseEnd: 23,
-    sceneSlug: 'exodus',
+    sceneSlug: 'exodus', topicTags: ['deliverance', 'sovereignty', 'judgment'],
   },
   {
     externalId: 'dore-crossing-the-red-sea',
@@ -257,7 +262,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 14,
     verseStart: 27,
     verseEnd: 28,
-    sceneSlug: 'exodus',
+    sceneSlug: 'exodus', topicTags: ['deliverance', 'sovereignty', 'judgment'],
   },
   {
     externalId: 'dore-moses-striking-the-rock',
@@ -268,7 +273,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 17,
     verseStart: 5,
     verseEnd: 6,
-    sceneSlug: 'moses',
+    sceneSlug: 'moses', topicTags: ['calling', 'leadership', 'covenant'],
   },
   {
     externalId: 'dore-giving-of-the-law',
@@ -279,7 +284,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 19,
     verseStart: 16,
     verseEnd: 20,
-    sceneSlug: 'moses',
+    sceneSlug: 'moses', topicTags: ['calling', 'leadership', 'covenant'],
   },
   {
     externalId: 'dore-moses-breaks-tables',
@@ -290,7 +295,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 32,
     verseStart: 19,
     verseEnd: 20,
-    sceneSlug: 'moses',
+    sceneSlug: 'moses', topicTags: ['calling', 'leadership', 'covenant'],
   },
 
   // ===== JOSHUA =====
@@ -303,7 +308,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 6,
     verseStart: 20,
     verseEnd: 20,
-    sceneSlug: 'conquest',
+    sceneSlug: 'conquest', topicTags: ['leadership', 'sovereignty', 'protection'],
   },
   {
     externalId: 'dore-joshua-spares-rahab',
@@ -314,7 +319,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 2,
     verseStart: 1,
     verseEnd: 21,
-    sceneSlug: 'conquest',
+    sceneSlug: 'conquest', topicTags: ['leadership', 'sovereignty', 'protection'],
   },
   {
     externalId: 'dore-joshua-commanding-the-sun',
@@ -325,7 +330,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 10,
     verseStart: 12,
     verseEnd: 13,
-    sceneSlug: 'conquest',
+    sceneSlug: 'conquest', topicTags: ['leadership', 'sovereignty', 'protection'],
   },
 
   // ===== JUDGES =====
@@ -338,7 +343,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 4,
     verseStart: 21,
     verseEnd: 21,
-    sceneSlug: 'judges',
+    sceneSlug: 'judges', topicTags: ['deliverance', 'leadership', 'sin'],
   },
   {
     externalId: 'dore-gideon-300',
@@ -349,7 +354,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 7,
     verseStart: 5,
     verseEnd: 7,
-    sceneSlug: 'judges',
+    sceneSlug: 'judges', topicTags: ['deliverance', 'leadership', 'sin'],
   },
   {
     externalId: 'dore-samson-slaying-the-lion',
@@ -360,7 +365,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 14,
     verseStart: 5,
     verseEnd: 6,
-    sceneSlug: 'judges',
+    sceneSlug: 'judges', topicTags: ['deliverance', 'leadership', 'sin'],
   },
   {
     externalId: 'dore-samson-delilah',
@@ -371,7 +376,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 16,
     verseStart: 17,
     verseEnd: 19,
-    sceneSlug: 'judges',
+    sceneSlug: 'judges', topicTags: ['deliverance', 'leadership', 'sin'],
   },
   {
     externalId: 'dore-death-of-samson',
@@ -382,7 +387,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 16,
     verseStart: 29,
     verseEnd: 30,
-    sceneSlug: 'judges',
+    sceneSlug: 'judges', topicTags: ['deliverance', 'leadership', 'sin'],
   },
 
   // ===== RUTH =====
@@ -395,7 +400,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 1,
     verseStart: 14,
     verseEnd: 18,
-    sceneSlug: 'redemption',
+    sceneSlug: 'redemption', topicTags: ['mercy', 'forgiveness', 'cross'],
   },
   {
     externalId: 'dore-ruth-and-boaz',
@@ -406,7 +411,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 2,
     verseStart: 8,
     verseEnd: 16,
-    sceneSlug: 'redemption',
+    sceneSlug: 'redemption', topicTags: ['mercy', 'forgiveness', 'cross'],
   },
 
   // ===== 1 SAMUEL =====
@@ -419,7 +424,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 10,
     verseStart: 1,
     verseEnd: 1,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
   {
     externalId: 'dore-david-slays-goliath',
@@ -430,7 +435,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 17,
     verseStart: 49,
     verseEnd: 51,
-    sceneSlug: 'david',
+    sceneSlug: 'david', topicTags: ['kingship', 'shepherd', 'repentance'],
   },
   {
     externalId: 'dore-witch-of-endor',
@@ -441,7 +446,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 28,
     verseStart: 7,
     verseEnd: 19,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
 
   // ===== 2 SAMUEL =====
@@ -454,7 +459,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 18,
     verseStart: 9,
     verseEnd: 15,
-    sceneSlug: 'david',
+    sceneSlug: 'david', topicTags: ['kingship', 'shepherd', 'repentance'],
   },
 
   // ===== 1 KINGS =====
@@ -467,7 +472,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 3,
     verseStart: 24,
     verseEnd: 28,
-    sceneSlug: 'wisdom',
+    sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
   {
     externalId: 'dore-queen-of-sheba',
@@ -478,7 +483,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 10,
     verseStart: 1,
     verseEnd: 10,
-    sceneSlug: 'solomon',
+    sceneSlug: 'solomon', topicTags: ['wisdom', 'kingship', 'worship'],
   },
   {
     externalId: 'dore-elijah-raises-widow-son',
@@ -489,7 +494,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 17,
     verseStart: 17,
     verseEnd: 24,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
   {
     externalId: 'dore-prophets-of-baal',
@@ -500,7 +505,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 18,
     verseStart: 38,
     verseEnd: 40,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
 
   // ===== 2 KINGS =====
@@ -513,7 +518,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 2,
     verseStart: 11,
     verseEnd: 12,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
 
   // ===== ESTHER =====
@@ -526,7 +531,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 5,
     verseStart: 1,
     verseEnd: 3,
-    sceneSlug: 'deliverance',
+    sceneSlug: 'deliverance', topicTags: ['deliverance', 'protection'],
   },
   {
     externalId: 'dore-esther-accuses-haman',
@@ -537,7 +542,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 7,
     verseStart: 6,
     verseEnd: 10,
-    sceneSlug: 'deliverance',
+    sceneSlug: 'deliverance', topicTags: ['deliverance', 'protection'],
   },
 
   // ===== JOB =====
@@ -550,7 +555,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 1,
     verseStart: 14,
     verseEnd: 19,
-    sceneSlug: 'suffering',
+    sceneSlug: 'suffering', topicTags: ['suffering', 'lament', 'hope'],
   },
 
   // ===== ISAIAH =====
@@ -563,7 +568,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 6,
     verseStart: 1,
     verseEnd: 8,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
 
   // ===== EZEKIEL =====
@@ -576,7 +581,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 37,
     verseStart: 1,
     verseEnd: 14,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
 
   // ===== DANIEL =====
@@ -589,7 +594,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 3,
     verseStart: 19,
     verseEnd: 27,
-    sceneSlug: 'deliverance',
+    sceneSlug: 'deliverance', topicTags: ['deliverance', 'protection'],
   },
   {
     externalId: 'dore-daniel-in-the-lions-den',
@@ -600,7 +605,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 6,
     verseStart: 16,
     verseEnd: 23,
-    sceneSlug: 'deliverance',
+    sceneSlug: 'deliverance', topicTags: ['deliverance', 'protection'],
   },
 
   // ===== JONAH =====
@@ -613,7 +618,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 2,
     verseStart: 10,
     verseEnd: 10,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
 
   // ===== MATTHEW =====
@@ -626,7 +631,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 2,
     verseStart: 13,
     verseEnd: 14,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'dore-sermon-on-the-mount',
@@ -637,7 +642,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 5,
     verseStart: 1,
     verseEnd: 12,
-    sceneSlug: 'teaching',
+    sceneSlug: 'teaching', topicTags: ['wisdom', 'witness'],
   },
   {
     externalId: 'dore-jesus-walking-on-the-sea',
@@ -648,7 +653,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 14,
     verseStart: 25,
     verseEnd: 33,
-    sceneSlug: 'miracles',
+    sceneSlug: 'miracles', topicTags: ['compassion', 'glory', 'sovereignty'],
   },
   {
     externalId: 'dore-transfiguration',
@@ -659,7 +664,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 17,
     verseStart: 1,
     verseEnd: 8,
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
   },
   {
     externalId: 'dore-entry-into-jerusalem',
@@ -670,7 +675,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 21,
     verseStart: 6,
     verseEnd: 11,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'dore-agony-in-the-garden',
@@ -681,7 +686,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 26,
     verseStart: 36,
     verseEnd: 46,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'dore-the-judas-kiss',
@@ -692,7 +697,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 26,
     verseStart: 47,
     verseEnd: 50,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'dore-crucifixion',
@@ -703,7 +708,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 27,
     verseStart: 33,
     verseEnd: 50,
-    sceneSlug: 'crucifixion',
+    sceneSlug: 'crucifixion', topicTags: ['cross', 'sacrifice', 'suffering'],
   },
 
   // ===== MARK =====
@@ -716,7 +721,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 4,
     verseStart: 37,
     verseEnd: 41,
-    sceneSlug: 'miracles',
+    sceneSlug: 'miracles', topicTags: ['compassion', 'glory', 'sovereignty'],
   },
   {
     externalId: 'dore-raising-of-jairus-daughter',
@@ -727,7 +732,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 5,
     verseStart: 41,
     verseEnd: 42,
-    sceneSlug: 'miracles',
+    sceneSlug: 'miracles', topicTags: ['compassion', 'glory', 'sovereignty'],
   },
   {
     externalId: 'dore-dead-christ',
@@ -738,7 +743,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 15,
     verseStart: 44,
     verseEnd: 47,
-    sceneSlug: 'crucifixion',
+    sceneSlug: 'crucifixion', topicTags: ['cross', 'sacrifice', 'suffering'],
   },
 
   // ===== LUKE =====
@@ -751,7 +756,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 1,
     verseStart: 26,
     verseEnd: 38,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'dore-nativity',
@@ -762,7 +767,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 2,
     verseStart: 6,
     verseEnd: 14,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'dore-jesus-in-the-temple',
@@ -773,7 +778,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 2,
     verseStart: 46,
     verseEnd: 47,
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
   },
   {
     externalId: 'dore-lazarus-rich-man',
@@ -784,7 +789,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 16,
     verseStart: 19,
     verseEnd: 31,
-    sceneSlug: 'parables',
+    sceneSlug: 'parables', topicTags: ['wisdom', 'kingship'],
   },
   {
     externalId: 'dore-prodigal-son',
@@ -795,7 +800,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 15,
     verseStart: 20,
     verseEnd: 24,
-    sceneSlug: 'parables',
+    sceneSlug: 'parables', topicTags: ['wisdom', 'kingship'],
   },
   {
     externalId: 'dore-last-supper',
@@ -806,7 +811,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 22,
     verseStart: 14,
     verseEnd: 20,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'dore-arrival-at-calvary',
@@ -817,7 +822,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 23,
     verseStart: 26,
     verseEnd: 33,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
 
   // ===== JOHN =====
@@ -830,7 +835,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 2,
     verseStart: 1,
     verseEnd: 11,
-    sceneSlug: 'miracles',
+    sceneSlug: 'miracles', topicTags: ['compassion', 'glory', 'sovereignty'],
   },
   {
     externalId: 'dore-christ-presented-to-people',
@@ -841,7 +846,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 19,
     verseStart: 4,
     verseEnd: 6,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'dore-jesus-nailed-to-cross',
@@ -852,7 +857,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 19,
     verseStart: 17,
     verseEnd: 18,
-    sceneSlug: 'crucifixion',
+    sceneSlug: 'crucifixion', topicTags: ['cross', 'sacrifice', 'suffering'],
   },
 
   // ===== ACTS =====
@@ -865,7 +870,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 1,
     verseStart: 9,
     verseEnd: 11,
-    sceneSlug: 'ascension',
+    sceneSlug: 'ascension', topicTags: ['kingship', 'resurrection'],
   },
   {
     externalId: 'dore-death-of-stephen',
@@ -876,7 +881,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 7,
     verseStart: 54,
     verseEnd: 60,
-    sceneSlug: 'apostles',
+    sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
   },
   {
     externalId: 'dore-paul-preaching-thessalonians',
@@ -887,7 +892,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 17,
     verseStart: 1,
     verseEnd: 9,
-    sceneSlug: 'apostles',
+    sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
   },
   {
     externalId: 'dore-paul-after-arrest',
@@ -898,7 +903,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 22,
     verseStart: 1,
     verseEnd: 21,
-    sceneSlug: 'apostles',
+    sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
   },
 
   // ===== REVELATION =====
@@ -911,7 +916,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 6,
     verseStart: 7,
     verseEnd: 8,
-    sceneSlug: 'apocalypse',
+    sceneSlug: 'apocalypse', topicTags: ['second-coming', 'new-creation', 'judgment'],
   },
   {
     externalId: 'dore-death-pale-horse',
@@ -922,7 +927,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 6,
     verseStart: 7,
     verseEnd: 8,
-    sceneSlug: 'apocalypse',
+    sceneSlug: 'apocalypse', topicTags: ['second-coming', 'new-creation', 'judgment'],
   },
   {
     externalId: 'dore-babylon-fallen',
@@ -933,7 +938,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 18,
     verseStart: 1,
     verseEnd: 3,
-    sceneSlug: 'apocalypse',
+    sceneSlug: 'apocalypse', topicTags: ['second-coming', 'new-creation', 'judgment'],
   },
   {
     externalId: 'dore-new-jerusalem',
@@ -944,7 +949,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 21,
     verseStart: 1,
     verseEnd: 4,
-    sceneSlug: 'apocalypse',
+    sceneSlug: 'apocalypse', topicTags: ['second-coming', 'new-creation', 'judgment'],
   },
   // ===== EXPANDED DORÉ BIBLE: ADDITIONAL NUMBERED PLATES =====
   // ===== GENESIS (expanded) =====
@@ -957,7 +962,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 4,
     verseStart: 3,
     verseEnd: 5,
-    sceneSlug: 'fall',
+    sceneSlug: 'fall', topicTags: ['fall-and-curse', 'sin', 'pride'],
   },
   {
     externalId: 'dore-great-flood',
@@ -968,7 +973,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 7,
     verseStart: 17,
     verseEnd: 20,
-    sceneSlug: 'flood',
+    sceneSlug: 'flood', topicTags: ['judgment', 'wrath', 'covenant', 'deliverance'],
   },
   {
     externalId: 'dore-noah-curses-ham',
@@ -979,7 +984,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 9,
     verseStart: 20,
     verseEnd: 27,
-    sceneSlug: 'flood',
+    sceneSlug: 'flood', topicTags: ['judgment', 'wrath', 'covenant', 'deliverance'],
   },
   {
     externalId: 'dore-abraham-to-canaan',
@@ -990,7 +995,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 12,
     verseStart: 1,
     verseEnd: 9,
-    sceneSlug: 'abraham',
+    sceneSlug: 'abraham', topicTags: ['faithfulness', 'covenant', 'sacrifice'],
   },
   {
     externalId: 'dore-hagar-ishmael-sent-away',
@@ -1001,7 +1006,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 21,
     verseStart: 9,
     verseEnd: 14,
-    sceneSlug: 'abraham',
+    sceneSlug: 'abraham', topicTags: ['faithfulness', 'covenant', 'sacrifice'],
   },
   {
     externalId: 'dore-hagar-ishmael-wilderness',
@@ -1012,7 +1017,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 21,
     verseStart: 15,
     verseEnd: 19,
-    sceneSlug: 'abraham',
+    sceneSlug: 'abraham', topicTags: ['faithfulness', 'covenant', 'sacrifice'],
   },
   {
     externalId: 'dore-burial-of-sarah',
@@ -1023,7 +1028,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 23,
     verseStart: 1,
     verseEnd: 20,
-    sceneSlug: 'patriarchs',
+    sceneSlug: 'patriarchs', topicTags: ['covenant', 'faithfulness', 'family'],
   },
   {
     externalId: 'dore-meeting-isaac-rebekah',
@@ -1034,7 +1039,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 24,
     verseStart: 62,
     verseEnd: 67,
-    sceneSlug: 'patriarchs',
+    sceneSlug: 'patriarchs', topicTags: ['covenant', 'faithfulness', 'family'],
   },
   {
     externalId: 'dore-isaac-blesses-jacob',
@@ -1045,7 +1050,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 27,
     verseStart: 18,
     verseEnd: 29,
-    sceneSlug: 'patriarchs',
+    sceneSlug: 'patriarchs', topicTags: ['covenant', 'faithfulness', 'family'],
   },
   {
     externalId: 'dore-jacob-meets-rachel',
@@ -1056,7 +1061,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 29,
     verseStart: 9,
     verseEnd: 11,
-    sceneSlug: 'patriarchs',
+    sceneSlug: 'patriarchs', topicTags: ['covenant', 'faithfulness', 'family'],
   },
   {
     externalId: 'dore-jacob-prays-protection',
@@ -1067,7 +1072,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 32,
     verseStart: 9,
     verseEnd: 12,
-    sceneSlug: 'patriarchs',
+    sceneSlug: 'patriarchs', topicTags: ['covenant', 'faithfulness', 'family'],
   },
   {
     externalId: 'dore-jacob-esau-meet',
@@ -1078,7 +1083,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 33,
     verseStart: 1,
     verseEnd: 4,
-    sceneSlug: 'patriarchs',
+    sceneSlug: 'patriarchs', topicTags: ['covenant', 'faithfulness', 'family'],
   },
   {
     externalId: 'dore-jacob-goes-to-egypt',
@@ -1089,7 +1094,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 46,
     verseStart: 1,
     verseEnd: 7,
-    sceneSlug: 'joseph',
+    sceneSlug: 'joseph', topicTags: ['providence', 'forgiveness', 'suffering', 'leadership'],
   },
 
   // ===== EXODUS (expanded) =====
@@ -1102,7 +1107,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 2,
     verseStart: 3,
     verseEnd: 3,
-    sceneSlug: 'moses',
+    sceneSlug: 'moses', topicTags: ['calling', 'leadership', 'covenant'],
   },
   {
     externalId: 'dore-fifth-plague',
@@ -1113,7 +1118,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 9,
     verseStart: 1,
     verseEnd: 7,
-    sceneSlug: 'exodus',
+    sceneSlug: 'exodus', topicTags: ['deliverance', 'sovereignty', 'judgment'],
   },
   {
     externalId: 'dore-firstborn-slain',
@@ -1124,7 +1129,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 12,
     verseStart: 29,
     verseEnd: 30,
-    sceneSlug: 'exodus',
+    sceneSlug: 'exodus', topicTags: ['deliverance', 'sovereignty', 'judgment'],
   },
   {
     externalId: 'dore-egyptians-ask-moses-depart',
@@ -1135,7 +1140,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 12,
     verseStart: 31,
     verseEnd: 33,
-    sceneSlug: 'exodus',
+    sceneSlug: 'exodus', topicTags: ['deliverance', 'sovereignty', 'judgment'],
   },
   {
     externalId: 'dore-moses-comes-down-sinai',
@@ -1146,7 +1151,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 34,
     verseStart: 29,
     verseEnd: 35,
-    sceneSlug: 'moses',
+    sceneSlug: 'moses', topicTags: ['calling', 'leadership', 'covenant'],
   },
 
   // ===== NUMBERS =====
@@ -1159,7 +1164,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 16,
     verseStart: 23,
     verseEnd: 33,
-    sceneSlug: 'judgment',
+    sceneSlug: 'judgment', topicTags: ['judgment', 'wrath', 'second-coming'],
   },
   {
     externalId: 'dore-spies-return',
@@ -1170,7 +1175,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 13,
     verseStart: 17,
     verseEnd: 33,
-    sceneSlug: 'moses',
+    sceneSlug: 'moses', topicTags: ['calling', 'leadership', 'covenant'],
   },
   {
     externalId: 'dore-bronze-serpent',
@@ -1181,7 +1186,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 21,
     verseStart: 4,
     verseEnd: 9,
-    sceneSlug: 'moses',
+    sceneSlug: 'moses', topicTags: ['calling', 'leadership', 'covenant'],
   },
   {
     externalId: 'dore-angel-appears-balaam',
@@ -1192,7 +1197,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 22,
     verseStart: 22,
     verseEnd: 35,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
 
   // ===== JOSHUA (expanded) =====
@@ -1205,7 +1210,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 3,
     verseStart: 14,
     verseEnd: 17,
-    sceneSlug: 'conquest',
+    sceneSlug: 'conquest', topicTags: ['leadership', 'sovereignty', 'protection'],
   },
 
   // ===== JUDGES (expanded) =====
@@ -1218,7 +1223,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 2,
     verseStart: 1,
     verseEnd: 5,
-    sceneSlug: 'judges',
+    sceneSlug: 'judges', topicTags: ['deliverance', 'leadership', 'sin'],
   },
 
   // ===== JOSHUA (expanded) =====
@@ -1231,7 +1236,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 7,
     verseStart: 22,
     verseEnd: 26,
-    sceneSlug: 'judgment',
+    sceneSlug: 'judgment', topicTags: ['judgment', 'wrath', 'second-coming'],
   },
   {
     externalId: 'dore-joshua-burns-ai',
@@ -1242,7 +1247,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 8,
     verseStart: 19,
     verseEnd: 28,
-    sceneSlug: 'conquest',
+    sceneSlug: 'conquest', topicTags: ['leadership', 'sovereignty', 'protection'],
   },
   {
     externalId: 'dore-amorites-destroyed',
@@ -1253,7 +1258,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 10,
     verseStart: 9,
     verseEnd: 11,
-    sceneSlug: 'conquest',
+    sceneSlug: 'conquest', topicTags: ['leadership', 'sovereignty', 'protection'],
   },
 
   // ===== JUDGES (expanded) =====
@@ -1266,7 +1271,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 7,
     verseStart: 19,
     verseEnd: 22,
-    sceneSlug: 'judges',
+    sceneSlug: 'judges', topicTags: ['deliverance', 'leadership', 'sin'],
   },
   {
     externalId: 'dore-death-gideon-sons',
@@ -1277,7 +1282,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 9,
     verseStart: 1,
     verseEnd: 6,
-    sceneSlug: 'judges',
+    sceneSlug: 'judges', topicTags: ['deliverance', 'leadership', 'sin'],
   },
   {
     externalId: 'dore-death-abimelech',
@@ -1288,7 +1293,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 9,
     verseStart: 50,
     verseEnd: 54,
-    sceneSlug: 'judges',
+    sceneSlug: 'judges', topicTags: ['deliverance', 'leadership', 'sin'],
   },
   {
     externalId: 'dore-jephthah-daughter-meet',
@@ -1299,7 +1304,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 11,
     verseStart: 34,
     verseEnd: 35,
-    sceneSlug: 'judges',
+    sceneSlug: 'judges', topicTags: ['deliverance', 'leadership', 'sin'],
   },
   {
     externalId: 'dore-women-mourn-jephthah',
@@ -1310,7 +1315,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 11,
     verseStart: 37,
     verseEnd: 40,
-    sceneSlug: 'judges',
+    sceneSlug: 'judges', topicTags: ['deliverance', 'leadership', 'sin'],
   },
   {
     externalId: 'dore-samson-jawbone',
@@ -1321,7 +1326,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 15,
     verseStart: 14,
     verseEnd: 16,
-    sceneSlug: 'judges',
+    sceneSlug: 'judges', topicTags: ['deliverance', 'leadership', 'sin'],
   },
   {
     externalId: 'dore-samson-gates-gaza',
@@ -1332,7 +1337,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 16,
     verseStart: 1,
     verseEnd: 3,
-    sceneSlug: 'judges',
+    sceneSlug: 'judges', topicTags: ['deliverance', 'leadership', 'sin'],
   },
   {
     externalId: 'dore-levite-finds-corpse',
@@ -1343,7 +1348,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 19,
     verseStart: 26,
     verseEnd: 28,
-    sceneSlug: 'judgment',
+    sceneSlug: 'judgment', topicTags: ['judgment', 'wrath', 'second-coming'],
   },
   {
     externalId: 'dore-levite-carries-body',
@@ -1354,7 +1359,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 19,
     verseStart: 29,
     verseEnd: 29,
-    sceneSlug: 'judgment',
+    sceneSlug: 'judgment', topicTags: ['judgment', 'wrath', 'second-coming'],
   },
   {
     externalId: 'dore-benjaminites-virgins',
@@ -1365,7 +1370,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 21,
     verseStart: 16,
     verseEnd: 23,
-    sceneSlug: 'judgment',
+    sceneSlug: 'judgment', topicTags: ['judgment', 'wrath', 'second-coming'],
   },
 
   // ===== 1 SAMUEL (expanded) =====
@@ -1378,7 +1383,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 6,
     verseStart: 13,
     verseEnd: 15,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
   {
     externalId: 'dore-death-of-agag',
@@ -1389,7 +1394,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 15,
     verseStart: 32,
     verseEnd: 33,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
   {
     externalId: 'dore-saul-attempts-kill-david',
@@ -1400,7 +1405,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 19,
     verseStart: 9,
     verseEnd: 10,
-    sceneSlug: 'david',
+    sceneSlug: 'david', topicTags: ['kingship', 'shepherd', 'repentance'],
   },
   {
     externalId: 'dore-david-escapes-window',
@@ -1411,7 +1416,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 19,
     verseStart: 11,
     verseEnd: 12,
-    sceneSlug: 'david',
+    sceneSlug: 'david', topicTags: ['kingship', 'shepherd', 'repentance'],
   },
   {
     externalId: 'dore-david-and-jonathan',
@@ -1422,7 +1427,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 20,
     verseStart: 41,
     verseEnd: 42,
-    sceneSlug: 'david',
+    sceneSlug: 'david', topicTags: ['kingship', 'shepherd', 'repentance'],
   },
   {
     externalId: 'dore-david-spared-saul',
@@ -1433,7 +1438,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 24,
     verseStart: 8,
     verseEnd: 22,
-    sceneSlug: 'david',
+    sceneSlug: 'david', topicTags: ['kingship', 'shepherd', 'repentance'],
   },
   {
     externalId: 'dore-death-of-saul',
@@ -1444,7 +1449,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 31,
     verseStart: 1,
     verseEnd: 6,
-    sceneSlug: 'david',
+    sceneSlug: 'david', topicTags: ['kingship', 'shepherd', 'repentance'],
   },
   {
     externalId: 'dore-jabesh-recover-saul',
@@ -1455,7 +1460,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 31,
     verseStart: 11,
     verseEnd: 13,
-    sceneSlug: 'david',
+    sceneSlug: 'david', topicTags: ['kingship', 'shepherd', 'repentance'],
   },
 
   // ===== 2 SAMUEL (expanded) =====
@@ -1468,7 +1473,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 2,
     verseStart: 12,
     verseEnd: 17,
-    sceneSlug: 'david',
+    sceneSlug: 'david', topicTags: ['kingship', 'shepherd', 'repentance'],
   },
   {
     externalId: 'dore-david-attacks-ammonites',
@@ -1479,7 +1484,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 10,
     verseStart: 13,
     verseEnd: 19,
-    sceneSlug: 'david',
+    sceneSlug: 'david', topicTags: ['kingship', 'shepherd', 'repentance'],
   },
   {
     externalId: 'dore-david-mourns-absalom',
@@ -1490,7 +1495,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 18,
     verseStart: 33,
     verseEnd: 33,
-    sceneSlug: 'david',
+    sceneSlug: 'david', topicTags: ['kingship', 'shepherd', 'repentance'],
   },
   {
     externalId: 'dore-rizpah',
@@ -1501,7 +1506,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 21,
     verseStart: 10,
     verseEnd: 14,
-    sceneSlug: 'david',
+    sceneSlug: 'david', topicTags: ['kingship', 'shepherd', 'repentance'],
   },
   {
     externalId: 'dore-abishai-saves-david',
@@ -1512,7 +1517,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 21,
     verseStart: 15,
     verseEnd: 17,
-    sceneSlug: 'david',
+    sceneSlug: 'david', topicTags: ['kingship', 'shepherd', 'repentance'],
   },
 
   // ===== 1 KINGS (expanded) =====
@@ -1525,7 +1530,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 5,
     verseStart: 1,
     verseEnd: 12,
-    sceneSlug: 'solomon',
+    sceneSlug: 'solomon', topicTags: ['wisdom', 'kingship', 'worship'],
   },
   {
     externalId: 'dore-solomon-old-age',
@@ -1536,7 +1541,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 11,
     verseStart: 1,
     verseEnd: 13,
-    sceneSlug: 'solomon',
+    sceneSlug: 'solomon', topicTags: ['wisdom', 'kingship', 'worship'],
   },
   {
     externalId: 'dore-disobedient-prophet',
@@ -1547,7 +1552,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 13,
     verseStart: 20,
     verseEnd: 26,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
   {
     externalId: 'dore-elijah-angel',
@@ -1558,7 +1563,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 19,
     verseStart: 5,
     verseEnd: 8,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
   {
     externalId: 'dore-slaughter-syrians',
@@ -1569,7 +1574,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 20,
     verseStart: 26,
     verseEnd: 30,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
   {
     externalId: 'dore-death-of-ahab',
@@ -1580,7 +1585,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 22,
     verseStart: 34,
     verseEnd: 37,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
 
   // ===== 2 KINGS (expanded) =====
@@ -1593,7 +1598,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 1,
     verseStart: 9,
     verseEnd: 15,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
   {
     externalId: 'dore-children-bears',
@@ -1604,7 +1609,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 2,
     verseStart: 23,
     verseEnd: 25,
-    sceneSlug: 'judgment',
+    sceneSlug: 'judgment', topicTags: ['judgment', 'wrath', 'second-coming'],
   },
   {
     externalId: 'dore-famine-samaria',
@@ -1615,7 +1620,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 6,
     verseStart: 24,
     verseEnd: 31,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
   {
     externalId: 'dore-death-jezebel',
@@ -1626,7 +1631,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 9,
     verseStart: 30,
     verseEnd: 37,
-    sceneSlug: 'judgment',
+    sceneSlug: 'judgment', topicTags: ['judgment', 'wrath', 'second-coming'],
   },
   {
     externalId: 'dore-jehu-jezebel-remains',
@@ -1637,7 +1642,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 9,
     verseStart: 34,
     verseEnd: 37,
-    sceneSlug: 'judgment',
+    sceneSlug: 'judgment', topicTags: ['judgment', 'wrath', 'second-coming'],
   },
   {
     externalId: 'dore-death-athaliah',
@@ -1648,7 +1653,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 11,
     verseStart: 13,
     verseEnd: 16,
-    sceneSlug: 'judgment',
+    sceneSlug: 'judgment', topicTags: ['judgment', 'wrath', 'second-coming'],
   },
   {
     externalId: 'dore-lions-samaria',
@@ -1659,7 +1664,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 17,
     verseStart: 24,
     verseEnd: 26,
-    sceneSlug: 'judgment',
+    sceneSlug: 'judgment', topicTags: ['judgment', 'wrath', 'second-coming'],
   },
   {
     externalId: 'dore-sennacherib-destroyed',
@@ -1670,7 +1675,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 19,
     verseStart: 35,
     verseEnd: 36,
-    sceneSlug: 'deliverance',
+    sceneSlug: 'deliverance', topicTags: ['deliverance', 'protection'],
   },
   {
     externalId: 'dore-zedekiah-sons',
@@ -1681,7 +1686,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 25,
     verseStart: 6,
     verseEnd: 7,
-    sceneSlug: 'judgment',
+    sceneSlug: 'judgment', topicTags: ['judgment', 'wrath', 'second-coming'],
   },
 
   // ===== 2 CHRONICLES =====
@@ -1694,7 +1699,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 20,
     verseStart: 22,
     verseEnd: 24,
-    sceneSlug: 'deliverance',
+    sceneSlug: 'deliverance', topicTags: ['deliverance', 'protection'],
   },
 
   // ===== EZRA =====
@@ -1707,7 +1712,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 1,
     verseStart: 7,
     verseEnd: 11,
-    sceneSlug: 'deliverance',
+    sceneSlug: 'deliverance', topicTags: ['deliverance', 'protection'],
   },
   {
     externalId: 'dore-rebuilding-temple',
@@ -1718,7 +1723,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 3,
     verseStart: 8,
     verseEnd: 13,
-    sceneSlug: 'deliverance',
+    sceneSlug: 'deliverance', topicTags: ['deliverance', 'protection'],
   },
   {
     externalId: 'dore-artaxerxes-freedom',
@@ -1729,7 +1734,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 7,
     verseStart: 11,
     verseEnd: 28,
-    sceneSlug: 'deliverance',
+    sceneSlug: 'deliverance', topicTags: ['deliverance', 'protection'],
   },
   {
     externalId: 'dore-ezra-prayer',
@@ -1740,7 +1745,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 9,
     verseStart: 5,
     verseEnd: 15,
-    sceneSlug: 'deliverance',
+    sceneSlug: 'deliverance', topicTags: ['deliverance', 'protection'],
   },
 
   // ===== NEHEMIAH =====
@@ -1753,7 +1758,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 2,
     verseStart: 11,
     verseEnd: 16,
-    sceneSlug: 'deliverance',
+    sceneSlug: 'deliverance', topicTags: ['deliverance', 'protection'],
   },
   {
     externalId: 'dore-ezra-reads-law',
@@ -1764,7 +1769,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 8,
     verseStart: 1,
     verseEnd: 8,
-    sceneSlug: 'teaching',
+    sceneSlug: 'teaching', topicTags: ['wisdom', 'witness'],
   },
 
   // ===== TOBIT =====
@@ -1777,7 +1782,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 5,
     verseStart: 4,
     verseEnd: 17,
-    sceneSlug: 'deliverance',
+    sceneSlug: 'deliverance', topicTags: ['deliverance', 'protection'],
   },
   {
     externalId: 'dore-raphael-tobit-family',
@@ -1788,7 +1793,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 12,
     verseStart: 11,
     verseEnd: 22,
-    sceneSlug: 'deliverance',
+    sceneSlug: 'deliverance', topicTags: ['deliverance', 'protection'],
   },
 
   // ===== JUDITH =====
@@ -1801,7 +1806,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 13,
     verseStart: 1,
     verseEnd: 10,
-    sceneSlug: 'deliverance',
+    sceneSlug: 'deliverance', topicTags: ['deliverance', 'protection'],
   },
   {
     externalId: 'dore-judith-shows-head',
@@ -1812,7 +1817,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 13,
     verseStart: 15,
     verseEnd: 20,
-    sceneSlug: 'deliverance',
+    sceneSlug: 'deliverance', topicTags: ['deliverance', 'protection'],
   },
 
   // ===== ESTHER (expanded) =====
@@ -1825,7 +1830,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 1,
     verseStart: 10,
     verseEnd: 12,
-    sceneSlug: 'deliverance',
+    sceneSlug: 'deliverance', topicTags: ['deliverance', 'protection'],
   },
   {
     externalId: 'dore-triumph-mordecai',
@@ -1836,7 +1841,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 6,
     verseStart: 10,
     verseEnd: 11,
-    sceneSlug: 'deliverance',
+    sceneSlug: 'deliverance', topicTags: ['deliverance', 'protection'],
   },
 
   // ===== JOB (expanded) =====
@@ -1849,7 +1854,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 2,
     verseStart: 11,
     verseEnd: 13,
-    sceneSlug: 'suffering',
+    sceneSlug: 'suffering', topicTags: ['suffering', 'lament', 'hope'],
   },
 
   // ===== ISAIAH (expanded) =====
@@ -1862,7 +1867,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 13,
     verseStart: 19,
     verseEnd: 22,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
   {
     externalId: 'dore-destruction-of-leviathan',
@@ -1873,7 +1878,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 27,
     verseStart: 1,
     verseEnd: 1,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
 
   // ===== JEREMIAH =====
@@ -1886,7 +1891,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 1,
     verseStart: 1,
     verseEnd: 10,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
 
   // ===== LAMENTATIONS =====
@@ -1899,7 +1904,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 1,
     verseStart: 1,
     verseEnd: 11,
-    sceneSlug: 'judgment',
+    sceneSlug: 'judgment', topicTags: ['judgment', 'wrath', 'second-coming'],
   },
 
   // ===== EZEKIEL (expanded) =====
@@ -1912,7 +1917,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 1,
     verseStart: 1,
     verseEnd: 28,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
 
   // ===== DANIEL (expanded) =====
@@ -1925,7 +1930,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 1,
     verseStart: 3,
     verseEnd: 8,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
   {
     externalId: 'dore-writing-on-wall',
@@ -1936,7 +1941,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 5,
     verseStart: 17,
     verseEnd: 28,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
   {
     externalId: 'dore-four-beasts',
@@ -1947,7 +1952,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 7,
     verseStart: 1,
     verseEnd: 14,
-    sceneSlug: 'apocalypse',
+    sceneSlug: 'apocalypse', topicTags: ['second-coming', 'new-creation', 'judgment'],
   },
 
   // ===== AMOS =====
@@ -1960,7 +1965,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 1,
     verseStart: 1,
     verseEnd: 2,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
 
   // ===== JONAH (expanded) =====
@@ -1973,7 +1978,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 3,
     verseStart: 1,
     verseEnd: 10,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
 
   // ===== MICAH =====
@@ -1986,7 +1991,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 1,
     verseStart: 1,
     verseEnd: 16,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
 
   // ===== ZECHARIAH =====
@@ -1999,7 +2004,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 6,
     verseStart: 1,
     verseEnd: 8,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
 
   // ===== 1 MACCABEES =====
@@ -2012,7 +2017,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 2,
     verseStart: 23,
     verseEnd: 25,
-    sceneSlug: 'deliverance',
+    sceneSlug: 'deliverance', topicTags: ['deliverance', 'protection'],
   },
   {
     externalId: 'dore-judas-pursues-timotheus',
@@ -2023,7 +2028,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 5,
     verseStart: 37,
     verseEnd: 44,
-    sceneSlug: 'deliverance',
+    sceneSlug: 'deliverance', topicTags: ['deliverance', 'protection'],
   },
   {
     externalId: 'dore-death-of-eleazar',
@@ -2034,7 +2039,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 6,
     verseStart: 43,
     verseEnd: 46,
-    sceneSlug: 'deliverance',
+    sceneSlug: 'deliverance', topicTags: ['deliverance', 'protection'],
   },
   {
     externalId: 'dore-judas-before-nicanor',
@@ -2045,7 +2050,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 7,
     verseStart: 39,
     verseEnd: 47,
-    sceneSlug: 'deliverance',
+    sceneSlug: 'deliverance', topicTags: ['deliverance', 'protection'],
   },
   {
     externalId: 'dore-jonathan-dagon',
@@ -2056,7 +2061,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 10,
     verseStart: 83,
     verseEnd: 85,
-    sceneSlug: 'deliverance',
+    sceneSlug: 'deliverance', topicTags: ['deliverance', 'protection'],
   },
 
   // ===== 2 MACCABEES =====
@@ -2069,7 +2074,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 3,
     verseStart: 24,
     verseEnd: 28,
-    sceneSlug: 'deliverance',
+    sceneSlug: 'deliverance', topicTags: ['deliverance', 'protection'],
   },
   {
     externalId: 'dore-army-in-heavens',
@@ -2080,7 +2085,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 5,
     verseStart: 2,
     verseEnd: 4,
-    sceneSlug: 'apocalypse',
+    sceneSlug: 'apocalypse', topicTags: ['second-coming', 'new-creation', 'judgment'],
   },
   {
     externalId: 'dore-martyrdom-eleazar',
@@ -2091,7 +2096,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 6,
     verseStart: 18,
     verseEnd: 31,
-    sceneSlug: 'suffering',
+    sceneSlug: 'suffering', topicTags: ['suffering', 'lament', 'hope'],
   },
   {
     externalId: 'dore-courage-of-mother',
@@ -2102,7 +2107,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 7,
     verseStart: 20,
     verseEnd: 29,
-    sceneSlug: 'suffering',
+    sceneSlug: 'suffering', topicTags: ['suffering', 'lament', 'hope'],
   },
   {
     externalId: 'dore-punishment-antiochus',
@@ -2113,7 +2118,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 9,
     verseStart: 5,
     verseEnd: 12,
-    sceneSlug: 'judgment',
+    sceneSlug: 'judgment', topicTags: ['judgment', 'wrath', 'second-coming'],
   },
   {
     externalId: 'dore-angel-delivers-israel',
@@ -2124,7 +2129,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 11,
     verseStart: 6,
     verseEnd: 10,
-    sceneSlug: 'deliverance',
+    sceneSlug: 'deliverance', topicTags: ['deliverance', 'protection'],
   },
   // ===== Topup: fill remaining gaps from Doré's English Bible numbered series =====
   {
@@ -2136,7 +2141,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 7,
     verseStart: 17,
     verseEnd: 24,
-    sceneSlug: 'flood',
+    sceneSlug: 'flood', topicTags: ['judgment', 'wrath', 'covenant', 'deliverance'],
   },
   {
     externalId: 'dore-plague-jerusalem',
@@ -2147,7 +2152,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 24,
     verseStart: 15,
     verseEnd: 17,
-    sceneSlug: 'judgment',
+    sceneSlug: 'judgment', topicTags: ['judgment', 'wrath', 'second-coming'],
   },
   {
     externalId: 'dore-susanna-bath',
@@ -2158,7 +2163,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 13,
     verseStart: 15,
     verseEnd: 27,
-    sceneSlug: 'deliverance',
+    sceneSlug: 'deliverance', topicTags: ['deliverance', 'protection'],
   },
   {
     externalId: 'dore-susanna-justified',
@@ -2169,7 +2174,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 13,
     verseStart: 45,
     verseEnd: 62,
-    sceneSlug: 'deliverance',
+    sceneSlug: 'deliverance', topicTags: ['deliverance', 'protection'],
   },
   {
     externalId: 'dore-daniel-priests-of-bel',
@@ -2180,7 +2185,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 14,
     verseStart: 11,
     verseEnd: 22,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
   {
     externalId: 'dore-matthias-refugees',
@@ -2191,7 +2196,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 2,
     verseStart: 27,
     verseEnd: 30,
-    sceneSlug: 'deliverance',
+    sceneSlug: 'deliverance', topicTags: ['deliverance', 'protection'],
   },
   {
     externalId: 'dore-baruch',
@@ -2202,7 +2207,7 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     chapter: 1,
     verseStart: 1,
     verseEnd: 14,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
 ];
 

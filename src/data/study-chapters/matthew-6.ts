@@ -20,6 +20,10 @@ export const MATTHEW_6: RichChapterContent = {
   chapter: 6,
 
   estimatedMinutes: { beginner: 2, intermediate: 6, deep: 8 },
+  opener: {
+    matchTitle: /The Lord/i,
+    caption: 'Matthew 6',
+  },
   intros: [
     'Jesus teaches His disciples about the hidden character of kingdom righteousness. The Pharisees "sound a trumpet before thee" when they give alms, so that they might be seen of men. They pray standing in the synagogues and in the corners of the streets, making themselves visible. Jesus cuts through this hypocrisy: "Verily I say unto you, They have their reward." They have what they sought—human praise. But there is a far greater reward: the approval of the Father who sees in secret.',
     'Jesus teaches that true righteousness is hidden, interior, and motivated by love of God rather than by the desire for approval. Fasting, prayer, giving—all the disciplines of the spiritual life—are meant to be between the soul and God. Not broadcast. Not for show. And then Jesus teaches them to pray. Not with the empty repetitions of the heathen, not with flowery words designed to impress. But with simplicity and directness, child-like honesty before the Father.',

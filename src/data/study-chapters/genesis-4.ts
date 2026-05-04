@@ -16,6 +16,10 @@ export const GENESIS_4: RichChapterContent = {
   chapter: 4,
 
   estimatedMinutes: { beginner: 8, intermediate: 13, deep: 17 },
+  opener: {
+    matchTitle: /Cain Leads Abel to/i,
+    caption: 'Genesis 4',
+  },
   intros: [
     'Genesis 4 opens with two brothers and two offerings. God looks with favor on one and not the other. In that moment of rejection, Cain faces a choice - he can accept the boundary God has drawn, or cross it. He crosses it. The result is the first murder, the first human death, the first blood crying from the ground. The chapter is dark.',
     'But read carefully. Inside this story of Cain&apos;s line - murderers, polygamists, the arrogant builder Lamech - God has placed another line. Seth is born to replace Abel. And the chapter closes with a single sentence that transforms everything: &ldquo;then began men to call upon the name of the LORD.&rdquo; In the very chapter that shows the worst humans can do to each other, God opens the first door to worship. Hebrews will later return to Abel[res:intertextual-cain-abel-heb11], holding his faith up as a model for all believers who come after.',

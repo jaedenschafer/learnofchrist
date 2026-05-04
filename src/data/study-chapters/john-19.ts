@@ -17,6 +17,10 @@ export const JOHN_19: RichChapterContent = {
   chapter: 19,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 6 },
+  opener: {
+    matchTitle: /It Is Finished/i,
+    caption: 'John 19',
+  },
   intros: [
     'Pilate brings Jesus out to the crowd, crowned with thorns, wearing a purple robe, his body scarred from the scourging. "Behold the man." Pilate says it as one might point to a spectacle, hoping perhaps that such a broken figure will move the crowd to pity. But they cry: "Crucify him, crucify him!" And so Jesus is led to Golgotha, carrying His cross to the place of the skull.',
     'Crucified between two thieves, Jesus is offered sour wine. A title is placed over His head: "Jesus of Nazareth, the King of the Jews." The soldiers divide His garments by casting lots. Jesus looks at His mother and says to the disciple John: "Woman, behold thy son!" and to John: "Behold thy mother!" Even in agony, He provides. Then: "I thirst." A sponge soaked in vinegar is raised to His lips. And finally: "It is finished." His work is complete. His mission is fulfilled. His head bows. He gives up His spirit. The veil has been torn. The way to the Father is open.',

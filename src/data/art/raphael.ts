@@ -13,6 +13,8 @@
 //
 // All plates verified on Wikimedia Commons.
 
+import type { TopicSlug } from './topics';
+
 export type RaphaelPlate = {
   externalId: string;
   title: string;
@@ -25,6 +27,9 @@ export type RaphaelPlate = {
   verseEnd?: number;
   sceneSlug?: string;
   description?: string;
+  /** Optional thematic topics. Used by the artwork resolver to fall
+   *  back from chapter-specific matches to topic-overlap matches. */
+  topicTags?: TopicSlug[];
 };
 
 export const RAPHAEL_PLATES: RaphaelPlate[] = [
@@ -38,7 +43,7 @@ export const RAPHAEL_PLATES: RaphaelPlate[] = [
     bookSlug: 'luke',
     chapter: 1,
     verseStart: 27,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: "Joseph places the ring on Mary's finger before the Temple, his miraculously flowering rod in the other hand. Pinacoteca di Brera, Milan.",
   },
   {
@@ -51,7 +56,7 @@ export const RAPHAEL_PLATES: RaphaelPlate[] = [
     chapter: 1,
     verseStart: 46,
     verseEnd: 55,
-    sceneSlug: 'redemption',
+    sceneSlug: 'redemption', topicTags: ['mercy', 'forgiveness', 'cross'],
     description: "Apostles around the empty tomb below; Christ crowning his mother in glory above. Pinacoteca Vaticana.",
   },
 
@@ -65,7 +70,7 @@ export const RAPHAEL_PLATES: RaphaelPlate[] = [
     bookSlug: 'luke',
     chapter: 2,
     verseStart: 7,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: "Mary steadies the Christ child as he reaches for a small cross held by the young John the Baptist. Kunsthistorisches Museum, Vienna.",
   },
   {
@@ -77,7 +82,7 @@ export const RAPHAEL_PLATES: RaphaelPlate[] = [
     bookSlug: 'luke',
     chapter: 2,
     verseStart: 7,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: "John the Baptist offers the small goldfinch — a traditional emblem of the Passion — to the Christ child. Uffizi, Florence.",
   },
   {
@@ -89,7 +94,7 @@ export const RAPHAEL_PLATES: RaphaelPlate[] = [
     bookSlug: 'luke',
     chapter: 2,
     verseStart: 7,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: "The third of Raphael's pyramidal Florentine Madonnas: Mary in a meadow with the infant Christ and the young Baptist. Musée du Louvre.",
   },
   {
@@ -102,7 +107,7 @@ export const RAPHAEL_PLATES: RaphaelPlate[] = [
     chapter: 19,
     verseStart: 40,
     verseEnd: 42,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
     description: "The body of Christ is carried to the tomb; Mary faints into the arms of the women behind. Commissioned by Atalanta Baglioni in memory of her murdered son. Galleria Borghese, Rome.",
   },
 
@@ -117,7 +122,7 @@ export const RAPHAEL_PLATES: RaphaelPlate[] = [
     chapter: 8,
     verseStart: 10,
     verseEnd: 11,
-    sceneSlug: 'teaching',
+    sceneSlug: 'teaching', topicTags: ['wisdom', 'witness'],
     description: "Stanza della Segnatura. The Eucharist on the altar is flanked by theologians on earth and the saints and patriarchs of heaven — a vision of the Church ordered around the sacrament.",
   },
   {
@@ -130,7 +135,7 @@ export const RAPHAEL_PLATES: RaphaelPlate[] = [
     chapter: 3,
     verseStart: 24,
     verseEnd: 30,
-    sceneSlug: 'deliverance',
+    sceneSlug: 'deliverance', topicTags: ['deliverance', 'protection'],
     description: "Stanza di Eliodoro. The Seleucid Heliodorus is struck down by a heavenly rider and two angels as he attempts to loot the Temple treasury in Jerusalem.",
   },
   {
@@ -143,7 +148,7 @@ export const RAPHAEL_PLATES: RaphaelPlate[] = [
     chapter: 8,
     verseStart: 10,
     verseEnd: 11,
-    sceneSlug: 'teaching',
+    sceneSlug: 'teaching', topicTags: ['wisdom', 'witness'],
     description: "Stanza di Eliodoro. Blood drips from the consecrated host into the corporal as the doubting priest of Bolsena celebrates Mass before Pope Julius II.",
   },
   {
@@ -156,7 +161,7 @@ export const RAPHAEL_PLATES: RaphaelPlate[] = [
     chapter: 12,
     verseStart: 6,
     verseEnd: 11,
-    sceneSlug: 'apostles',
+    sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
     description: "Stanza di Eliodoro. Three scenes in one lunette: the angel wakes Peter in the cell; they walk out past the sleeping soldiers; the guards rouse on the stairs. A breakthrough image of nocturnal light.",
   },
 
@@ -170,7 +175,7 @@ export const RAPHAEL_PLATES: RaphaelPlate[] = [
     bookSlug: 'isaiah',
     chapter: 7,
     verseStart: 14,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
     description: "Basilica of Sant'Agostino, Rome. A monumental seated Isaiah flanked by two putti, directly inspired by the Sistine ceiling prophets he had watched Michelangelo paint.",
   },
   {
@@ -183,7 +188,7 @@ export const RAPHAEL_PLATES: RaphaelPlate[] = [
     chapter: 11,
     verseStart: 1,
     verseEnd: 2,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
     description: "Chigi Chapel, Santa Maria della Pace, Rome. Four gentile sibyls receive their prophecies from angels, paired with prophets in the spandrels above.",
   },
 
@@ -198,7 +203,7 @@ export const RAPHAEL_PLATES: RaphaelPlate[] = [
     chapter: 1,
     verseStart: 4,
     verseEnd: 14,
-    sceneSlug: 'visions',
+    sceneSlug: 'visions', topicTags: ['glory', 'second-coming', 'judgment'],
     description: "God the Father borne on a chariot of the four living creatures — the lion, ox, eagle, and man of the opening vision. Palazzo Pitti, Florence.",
   },
 
@@ -213,7 +218,7 @@ export const RAPHAEL_PLATES: RaphaelPlate[] = [
     chapter: 5,
     verseStart: 4,
     verseEnd: 11,
-    sceneSlug: 'miracles',
+    sceneSlug: 'miracles', topicTags: ['compassion', 'glory', 'sovereignty'],
     description: "Sistine tapestry cartoon. Peter falls to his knees before Christ as the nets break with the catch and James and John haul in the second boat. Victoria and Albert Museum, London.",
   },
   {
@@ -226,7 +231,7 @@ export const RAPHAEL_PLATES: RaphaelPlate[] = [
     chapter: 21,
     verseStart: 15,
     verseEnd: 17,
-    sceneSlug: 'resurrection',
+    sceneSlug: 'resurrection', topicTags: ['resurrection', 'hope', 'new-creation'],
     description: "Sistine tapestry cartoon. The risen Christ hands Peter the keys and charges him, 'Feed my sheep.' Victoria and Albert Museum, London.",
   },
   {
@@ -239,7 +244,7 @@ export const RAPHAEL_PLATES: RaphaelPlate[] = [
     chapter: 3,
     verseStart: 1,
     verseEnd: 10,
-    sceneSlug: 'apostles',
+    sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
     description: "Sistine tapestry cartoon. Peter and John heal the beggar at the Beautiful Gate of the Temple, set in Raphael's imagined Solomonic colonnade. Victoria and Albert Museum, London.",
   },
   {
@@ -252,7 +257,7 @@ export const RAPHAEL_PLATES: RaphaelPlate[] = [
     chapter: 5,
     verseStart: 1,
     verseEnd: 10,
-    sceneSlug: 'apostles',
+    sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
     description: "Sistine tapestry cartoon. Ananias falls dead at the feet of the apostles for lying about the price of his field. Victoria and Albert Museum, London.",
   },
   {
@@ -265,7 +270,7 @@ export const RAPHAEL_PLATES: RaphaelPlate[] = [
     chapter: 13,
     verseStart: 9,
     verseEnd: 12,
-    sceneSlug: 'apostles',
+    sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
     description: "Sistine tapestry cartoon. Paul strikes the sorcerer Elymas blind before the proconsul Sergius Paulus at Paphos. Victoria and Albert Museum, London.",
   },
   {
@@ -278,7 +283,7 @@ export const RAPHAEL_PLATES: RaphaelPlate[] = [
     chapter: 14,
     verseStart: 11,
     verseEnd: 18,
-    sceneSlug: 'apostles',
+    sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
     description: "Sistine tapestry cartoon. The people of Lystra prepare a bull for sacrifice to Paul and Barnabas, whom they mistake for Hermes and Zeus, while the apostles tear their tunics in horror. Victoria and Albert Museum, London.",
   },
   {
@@ -291,7 +296,7 @@ export const RAPHAEL_PLATES: RaphaelPlate[] = [
     chapter: 17,
     verseStart: 22,
     verseEnd: 34,
-    sceneSlug: 'apostles',
+    sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
     description: "Sistine tapestry cartoon. Paul on the Areopagus proclaims the 'unknown God' to the Athenians, Dionysius and Damaris turning toward him in belief. Victoria and Albert Museum, London.",
   },
 
@@ -305,7 +310,7 @@ export const RAPHAEL_PLATES: RaphaelPlate[] = [
     bookSlug: 'genesis',
     chapter: 8,
     verseStart: 20,
-    sceneSlug: 'flood',
+    sceneSlug: 'flood', topicTags: ['judgment', 'wrath', 'covenant', 'deliverance'],
     description: "One of 48 small narrative panels from 'Raphael's Bible' in the Vatican Palace loggia — designed by Raphael and executed by his workshop. Noah offers the first burnt offerings on dry ground.",
   },
 
@@ -319,7 +324,7 @@ export const RAPHAEL_PLATES: RaphaelPlate[] = [
     bookSlug: 'luke',
     chapter: 2,
     verseStart: 7,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: "A tondo: Mary seated on the ground in a landscape, Christ and John sharing the reed cross between them. National Gallery of Art, Washington.",
   },
   {
@@ -331,7 +336,7 @@ export const RAPHAEL_PLATES: RaphaelPlate[] = [
     bookSlug: 'luke',
     chapter: 1,
     verseStart: 48,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: "Mary and Child enthroned on clouds above a landscape with a meteor — commissioned by Sigismondo de' Conti in gratitude for surviving a lightning strike on his house at Foligno. Pinacoteca Vaticana.",
   },
   {
@@ -343,7 +348,7 @@ export const RAPHAEL_PLATES: RaphaelPlate[] = [
     bookSlug: 'luke',
     chapter: 2,
     verseStart: 7,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: "Mary, barefoot on the clouds, steps toward the viewer carrying the Christ child, flanked by Saint Sixtus and Saint Barbara and the two famous cherubs at the parapet. Gemäldegalerie Alte Meister, Dresden.",
   },
   {
@@ -355,7 +360,7 @@ export const RAPHAEL_PLATES: RaphaelPlate[] = [
     bookSlug: 'luke',
     chapter: 2,
     verseStart: 7,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: "A tondo: Mary presses her cheek against the Christ child in her lap as the young John the Baptist looks on, hands folded in prayer. Palazzo Pitti, Florence.",
   },
 
@@ -370,7 +375,7 @@ export const RAPHAEL_PLATES: RaphaelPlate[] = [
     chapter: 12,
     verseStart: 7,
     verseEnd: 9,
-    sceneSlug: 'apocalypse',
+    sceneSlug: 'apocalypse', topicTags: ['second-coming', 'new-creation', 'judgment'],
     description: "The archangel plants his foot on the dragon's back, sword raised — painted for François I of France as a diplomatic gift. Musée du Louvre.",
   },
   {
@@ -383,7 +388,7 @@ export const RAPHAEL_PLATES: RaphaelPlate[] = [
     chapter: 17,
     verseStart: 1,
     verseEnd: 9,
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
     description: "Raphael's last painting, finished posthumously by his pupils. Christ transfigured above with Moses and Elijah; the disciples below struggling to heal the demoniac boy. Pinacoteca Vaticana.",
   },
 ];

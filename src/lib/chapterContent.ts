@@ -71,7 +71,16 @@ export type SerializedBlock =
   | { kind: 'christ'; id: string; title: string; html: string }
   | { kind: 'carry'; html: string }
   | { kind: 'reflection'; id: string; prompt: string }
-  | { kind: 'artwork'; matchTitle?: SerializedRegExp | null; matchArtist?: SerializedRegExp | null; caption: string }
+  | {
+      kind: 'artwork';
+      matchTitle?: SerializedRegExp | null;
+      matchArtist?: SerializedRegExp | null;
+      artworkSlug?: string;
+      caption: string;
+      topical?: boolean;
+      topicMatch?: string | string[];
+      themed?: boolean;
+    }
   | { kind: 'divider' };
 
 export interface SerializedRichSection {
@@ -87,7 +96,16 @@ export interface SerializedRichChapterContent {
   intros: string[];
   tapHint?: string | null;
   showKjvNote?: boolean;
-  opener?: { matchTitle?: SerializedRegExp | null; matchArtist?: SerializedRegExp | null; caption: string } | null;
+  opener?: {
+    matchTitle?: SerializedRegExp | null;
+    matchArtist?: SerializedRegExp | null;
+    artworkSlug?: string;
+    caption: string;
+    topical?: boolean;
+    topicMatch?: string | string[];
+    themed?: boolean;
+  } | null;
+  topicTags?: string[];
   sections: SerializedRichSection[];
   bottomShare?: { quote: string; snippet: string; ref: string; label?: string } | null;
   hasHebrew?: boolean;
@@ -106,7 +124,11 @@ export function hydrateRich(s: SerializedRichChapterContent): RichChapterContent
       ? {
           matchTitle: deserializeRegExp(s.opener.matchTitle),
           matchArtist: deserializeRegExp(s.opener.matchArtist),
+          artworkSlug: s.opener.artworkSlug,
           caption: s.opener.caption,
+          topical: s.opener.topical,
+          topicMatch: s.opener.topicMatch,
+          themed: s.opener.themed,
         }
       : undefined,
     sections: (s.sections ?? []).map((sec) => ({
@@ -116,6 +138,7 @@ export function hydrateRich(s: SerializedRichChapterContent): RichChapterContent
     })),
     bottomShare: s.bottomShare ?? undefined,
     hasHebrew: s.hasHebrew,
+    topicTags: s.topicTags,
   };
 }
 
@@ -125,7 +148,11 @@ function hydrateBlock(b: SerializedBlock): Block {
       kind: 'artwork',
       matchTitle: deserializeRegExp(b.matchTitle),
       matchArtist: deserializeRegExp(b.matchArtist),
+      artworkSlug: b.artworkSlug,
       caption: b.caption,
+      topical: b.topical,
+      topicMatch: b.topicMatch,
+      themed: b.themed,
     };
   }
   return b as Block;
@@ -144,7 +171,11 @@ export function dehydrateRich(c: RichChapterContent): SerializedRichChapterConte
       ? {
           matchTitle: serializeRegExp(c.opener.matchTitle),
           matchArtist: serializeRegExp(c.opener.matchArtist),
+          artworkSlug: c.opener.artworkSlug,
           caption: c.opener.caption,
+          topical: c.opener.topical,
+          topicMatch: c.opener.topicMatch,
+          themed: c.opener.themed,
         }
       : undefined,
     sections: c.sections.map((sec) => ({
@@ -154,6 +185,7 @@ export function dehydrateRich(c: RichChapterContent): SerializedRichChapterConte
     })),
     bottomShare: c.bottomShare,
     hasHebrew: c.hasHebrew,
+    topicTags: c.topicTags,
   };
 }
 
@@ -163,7 +195,11 @@ function dehydrateBlock(b: Block): SerializedBlock {
       kind: 'artwork',
       matchTitle: serializeRegExp(b.matchTitle),
       matchArtist: serializeRegExp(b.matchArtist),
+      artworkSlug: b.artworkSlug,
       caption: b.caption,
+      topical: b.topical,
+      topicMatch: b.topicMatch,
+      themed: b.themed,
     };
   }
   return b as SerializedBlock;

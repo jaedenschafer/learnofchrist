@@ -8,6 +8,8 @@
 // late Salome canvases, and the Naples/Malta/Sicily late works.
 // All plates verified on Wikimedia Commons.
 
+import type { TopicSlug } from './topics';
+
 export type CaravaggioPlate = {
   externalId: string;
   title: string;
@@ -20,6 +22,9 @@ export type CaravaggioPlate = {
   verseEnd?: number;
   sceneSlug?: string;
   description?: string;
+  /** Optional thematic topics. Used by the artwork resolver to fall
+   *  back from chapter-specific matches to topic-overlap matches. */
+  topicTags?: TopicSlug[];
 };
 
 export const CARAVAGGIO_PLATES: CaravaggioPlate[] = [
@@ -34,7 +39,7 @@ export const CARAVAGGIO_PLATES: CaravaggioPlate[] = [
     chapter: 22,
     verseStart: 10,
     verseEnd: 13,
-    sceneSlug: 'sacrifice',
+    sceneSlug: 'sacrifice', topicTags: ['sacrifice', 'priest', 'covenant'],
     description: "The knife is raised; the angel seizes Abraham's wrist and points to the ram caught in the thicket. Uffizi, Florence.",
   },
   {
@@ -46,7 +51,7 @@ export const CARAVAGGIO_PLATES: CaravaggioPlate[] = [
     bookSlug: '1-samuel',
     chapter: 17,
     verseStart: 51,
-    sceneSlug: 'david',
+    sceneSlug: 'david', topicTags: ['kingship', 'shepherd', 'repentance'],
     description: "Early David with the slain giant at his feet — Caravaggio's first treatment of the theme. Museo del Prado, Madrid.",
   },
   {
@@ -58,7 +63,7 @@ export const CARAVAGGIO_PLATES: CaravaggioPlate[] = [
     bookSlug: '1-samuel',
     chapter: 17,
     verseStart: 51,
-    sceneSlug: 'david',
+    sceneSlug: 'david', topicTags: ['kingship', 'shepherd', 'repentance'],
     description: "Caravaggio's last David: the severed head is widely read as his own self-portrait, offered as a plea for papal pardon. Galleria Borghese, Rome.",
   },
   {
@@ -71,7 +76,7 @@ export const CARAVAGGIO_PLATES: CaravaggioPlate[] = [
     chapter: 13,
     verseStart: 6,
     verseEnd: 10,
-    sceneSlug: 'deliverance',
+    sceneSlug: 'deliverance', topicTags: ['deliverance', 'protection'],
     description: 'The young widow of Bethulia saws through the Assyrian general\'s neck while her servant waits with the sack. Galleria Nazionale d\'Arte Antica, Rome.',
   },
 
@@ -86,7 +91,7 @@ export const CARAVAGGIO_PLATES: CaravaggioPlate[] = [
     chapter: 2,
     verseStart: 13,
     verseEnd: 15,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: "An angel stands between the sleeping Joseph and the Madonna, playing a motet on the violin. Galleria Doria Pamphilj, Rome.",
   },
   {
@@ -99,7 +104,7 @@ export const CARAVAGGIO_PLATES: CaravaggioPlate[] = [
     chapter: 2,
     verseStart: 15,
     verseEnd: 20,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: 'Mary cradles the newborn on the straw as the shepherds crowd the stable door. Museo Regionale, Messina.',
   },
   {
@@ -111,7 +116,7 @@ export const CARAVAGGIO_PLATES: CaravaggioPlate[] = [
     bookSlug: 'luke',
     chapter: 1,
     verseStart: 42,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: 'Two barefoot pilgrims — a mud-caked peasant and his wife — kneel at the Virgin\'s doorway in a Roman street. Sant\'Agostino, Rome.',
   },
   {
@@ -123,7 +128,7 @@ export const CARAVAGGIO_PLATES: CaravaggioPlate[] = [
     bookSlug: 'luke',
     chapter: 1,
     verseStart: 48,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: 'The enthroned Madonna and Child receive the rosary from St Dominic, who distributes it to the crowd below. Kunsthistorisches Museum, Vienna.',
   },
   {
@@ -135,7 +140,7 @@ export const CARAVAGGIO_PLATES: CaravaggioPlate[] = [
     bookSlug: 'luke',
     chapter: 1,
     verseStart: 80,
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
     description: 'The young Baptist in the wilderness, embracing a ram — one of several versions Caravaggio painted of the figure. Musei Capitolini, Rome.',
   },
 
@@ -150,7 +155,7 @@ export const CARAVAGGIO_PLATES: CaravaggioPlate[] = [
     chapter: 7,
     verseStart: 37,
     verseEnd: 38,
-    sceneSlug: 'redemption',
+    sceneSlug: 'redemption', topicTags: ['mercy', 'forgiveness', 'cross'],
     description: 'Magdalene has dropped her jewels to the floor and sits alone, head bowed, a tear on her cheek — her conversion captured as a private, silent moment. Galleria Doria Pamphilj, Rome.',
   },
   {
@@ -163,7 +168,7 @@ export const CARAVAGGIO_PLATES: CaravaggioPlate[] = [
     chapter: 10,
     verseStart: 38,
     verseEnd: 42,
-    sceneSlug: 'teaching',
+    sceneSlug: 'teaching', topicTags: ['wisdom', 'witness'],
     description: 'Martha counts her arguments off on her fingers while Mary listens, turning toward the light from a window off-canvas. Detroit Institute of Arts.',
   },
 
@@ -177,7 +182,7 @@ export const CARAVAGGIO_PLATES: CaravaggioPlate[] = [
     bookSlug: 'matthew',
     chapter: 9,
     verseStart: 9,
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
     description: "Christ enters the tax collectors' room, a shaft of light behind him; Matthew points to himself — 'Who, me?' San Luigi dei Francesi, Rome.",
   },
   {
@@ -189,7 +194,7 @@ export const CARAVAGGIO_PLATES: CaravaggioPlate[] = [
     bookSlug: 'matthew',
     chapter: 1,
     verseStart: 1,
-    sceneSlug: 'teaching',
+    sceneSlug: 'teaching', topicTags: ['wisdom', 'witness'],
     description: 'The second version of the altarpiece: Matthew turns mid-writing as the angel counts the names of Christ\'s genealogy on his fingers. San Luigi dei Francesi, Rome.',
   },
   {
@@ -202,7 +207,7 @@ export const CARAVAGGIO_PLATES: CaravaggioPlate[] = [
     chapter: 28,
     verseStart: 19,
     verseEnd: 20,
-    sceneSlug: 'apostles',
+    sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
     description: "The apostle falls at the altar while the executioner raises his sword; a shocked boy screams from the right. Caravaggio paints himself into the crowd. San Luigi dei Francesi, Rome.",
   },
 
@@ -217,7 +222,7 @@ export const CARAVAGGIO_PLATES: CaravaggioPlate[] = [
     chapter: 9,
     verseStart: 3,
     verseEnd: 4,
-    sceneSlug: 'apostles',
+    sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
     description: 'Saul lies on the ground, arms outstretched, blinded by the light from heaven; the horse fills most of the canvas. Santa Maria del Popolo, Rome.',
   },
   {
@@ -230,7 +235,7 @@ export const CARAVAGGIO_PLATES: CaravaggioPlate[] = [
     chapter: 21,
     verseStart: 18,
     verseEnd: 19,
-    sceneSlug: 'apostles',
+    sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
     description: "Three laborers strain to raise the upside-down cross — an old peasant Peter watches the nail in his hand, not the sky. Santa Maria del Popolo, Rome.",
   },
 
@@ -245,7 +250,7 @@ export const CARAVAGGIO_PLATES: CaravaggioPlate[] = [
     chapter: 26,
     verseStart: 48,
     verseEnd: 50,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
     description: "Judas seizes Christ's shoulder to deliver the kiss while the soldiers close in; Caravaggio holds the lantern at the far right. National Gallery of Ireland, Dublin.",
   },
   {
@@ -258,7 +263,7 @@ export const CARAVAGGIO_PLATES: CaravaggioPlate[] = [
     chapter: 26,
     verseStart: 69,
     verseEnd: 75,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
     description: "The servant girl and the soldier both point at Peter; Peter's face contorts as he denies his Lord. One of Caravaggio's last paintings. Metropolitan Museum, New York.",
   },
   {
@@ -270,7 +275,7 @@ export const CARAVAGGIO_PLATES: CaravaggioPlate[] = [
     bookSlug: 'john',
     chapter: 19,
     verseStart: 1,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
     description: "Christ bound to the column while three tormentors set to the scourging. Museo di Capodimonte, Naples.",
   },
   {
@@ -282,7 +287,7 @@ export const CARAVAGGIO_PLATES: CaravaggioPlate[] = [
     bookSlug: 'john',
     chapter: 19,
     verseStart: 1,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
     description: "A tighter, half-length composition of the scourging — Christ's body twisted against the pillar. Musée des Beaux-Arts, Rouen.",
   },
   {
@@ -294,7 +299,7 @@ export const CARAVAGGIO_PLATES: CaravaggioPlate[] = [
     bookSlug: 'matthew',
     chapter: 27,
     verseStart: 29,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
     description: "Two soldiers press the crown of thorns into Christ's head with reed staves while Pilate looks on in a fur-trimmed robe. Kunsthistorisches Museum, Vienna.",
   },
   {
@@ -306,7 +311,7 @@ export const CARAVAGGIO_PLATES: CaravaggioPlate[] = [
     bookSlug: 'john',
     chapter: 19,
     verseStart: 5,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
     description: "Pilate presents the scourged Christ to the crowd — 'Behold the man.' Palazzo Bianco, Genoa.",
   },
   {
@@ -319,7 +324,7 @@ export const CARAVAGGIO_PLATES: CaravaggioPlate[] = [
     chapter: 19,
     verseStart: 40,
     verseEnd: 42,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
     description: "Nicodemus lowers Christ's body onto the stone slab of the tomb, his heels planted on the edge of the grave. Pinacoteca Vaticana.",
   },
 
@@ -334,7 +339,7 @@ export const CARAVAGGIO_PLATES: CaravaggioPlate[] = [
     chapter: 24,
     verseStart: 30,
     verseEnd: 31,
-    sceneSlug: 'resurrection',
+    sceneSlug: 'resurrection', topicTags: ['resurrection', 'hope', 'new-creation'],
     description: "The breaking of bread: a clean-shaven risen Christ blesses the loaf as the two disciples recognize him. National Gallery, London.",
   },
   {
@@ -347,7 +352,7 @@ export const CARAVAGGIO_PLATES: CaravaggioPlate[] = [
     chapter: 24,
     verseStart: 30,
     verseEnd: 31,
-    sceneSlug: 'resurrection',
+    sceneSlug: 'resurrection', topicTags: ['resurrection', 'hope', 'new-creation'],
     description: "A darker, quieter second version — painted while Caravaggio was on the run after killing a man in Rome. Pinacoteca di Brera, Milan.",
   },
   {
@@ -360,7 +365,7 @@ export const CARAVAGGIO_PLATES: CaravaggioPlate[] = [
     chapter: 20,
     verseStart: 27,
     verseEnd: 28,
-    sceneSlug: 'resurrection',
+    sceneSlug: 'resurrection', topicTags: ['resurrection', 'hope', 'new-creation'],
     description: "Thomas sticks his finger into the wound in Christ's side while the risen Lord guides his hand. Sanssouci, Potsdam.",
   },
   {
@@ -373,7 +378,7 @@ export const CARAVAGGIO_PLATES: CaravaggioPlate[] = [
     chapter: 11,
     verseStart: 43,
     verseEnd: 44,
-    sceneSlug: 'miracles',
+    sceneSlug: 'miracles', topicTags: ['compassion', 'glory', 'sovereignty'],
     description: "Lazarus is pulled from the tomb; his body stretches across the canvas, one hand still limp, the other already reaching toward the light. Museo Regionale, Messina.",
   },
 
@@ -388,7 +393,7 @@ export const CARAVAGGIO_PLATES: CaravaggioPlate[] = [
     chapter: 1,
     verseStart: 26,
     verseEnd: 38,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: 'Gabriel descends on a cloud, lily in hand, to announce to the kneeling Mary. Musée des Beaux-Arts, Nancy.',
   },
 
@@ -403,7 +408,7 @@ export const CARAVAGGIO_PLATES: CaravaggioPlate[] = [
     chapter: 6,
     verseStart: 27,
     verseEnd: 28,
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
     description: "Caravaggio's largest canvas and the only one he signed — in the Baptist's own blood. St John's Co-Cathedral, Valletta.",
   },
   {
@@ -416,7 +421,7 @@ export const CARAVAGGIO_PLATES: CaravaggioPlate[] = [
     chapter: 6,
     verseStart: 25,
     verseEnd: 28,
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
     description: "Salome turns her face away as the executioner holds the platter; an old woman mourns beside her. National Gallery, London.",
   },
   {
@@ -429,7 +434,7 @@ export const CARAVAGGIO_PLATES: CaravaggioPlate[] = [
     chapter: 6,
     verseStart: 25,
     verseEnd: 28,
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
     description: "A second, late Salome — possibly sent ahead as a gift pleading for Caravaggio's pardon before his death. Palacio Real, Madrid.",
   },
 
@@ -444,7 +449,7 @@ export const CARAVAGGIO_PLATES: CaravaggioPlate[] = [
     chapter: 25,
     verseStart: 35,
     verseEnd: 36,
-    sceneSlug: 'teaching',
+    sceneSlug: 'teaching', topicTags: ['wisdom', 'witness'],
     description: "All seven corporal works of mercy compressed into a single Neapolitan alleyway by night. Pio Monte della Misericordia, Naples.",
   },
 ];

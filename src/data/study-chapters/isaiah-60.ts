@@ -16,6 +16,10 @@ export const ISAIAH_60: RichChapterContent = {
   chapter: 60,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 5 },
+  opener: {
+    matchTitle: /The Light of the/i,
+    caption: 'Isaiah 60',
+  },
   intros: [
     'Isaiah 60 is a hymn of restoration and glory. After the separation and darkness of Isaiah 59, light breaks forth. Zion is awakened to her true condition: the glory of the Lord has risen upon her. What was dark is now radiant. What was forsaken is now sought. The Gentiles stream to her light. Kings and nations bring their wealth to God\'s temple. And beneath all this restoration is a single reality: Christ is the Light of the world, and those who belong to Him are light-bearers to the nations.',
   ],

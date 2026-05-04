@@ -9,6 +9,10 @@ export const MALACHI_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+  opener: {
+    matchTitle: /Malachi/i,
+    caption: 'Malachi 3',
+  },
   intros: [
     'Malachi 3 opens with a promise: "Behold, I will send my messenger, and the Lord, whom ye seek, shall suddenly come to his temple." John the Baptist is the messenger; Christ is the Lord. But before His coming is a question about tithes and offerings: "Will a man rob God? Yet ye have robbed me. In tithes and offerings." The chapter calls Israel to return to faithful giving and to prepare for the Lord&apos;s coming. Stewardship and worship are inseparable.',
   ],

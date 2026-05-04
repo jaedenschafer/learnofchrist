@@ -16,6 +16,10 @@ export const ISAIAH_11: RichChapterContent = {
   chapter: 11,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 6 },
+  opener: {
+    matchTitle: /Sibyls and Prophets/i,
+    caption: 'Isaiah 11',
+  },
   intros: [
     'From the stump of Jesse—from what appears to be dead wood—a rod shall come forth. A branch shall grow. This is the language of resurrection, of new life emerging from what seemed finished. Upon this Branch the Spirit of the Lord shall rest. Not for a season, not temporarily, but as the permanent anointing that equips Him for His work. Isaiah describes the Spirit as sevenfold: the spirit of wisdom and understanding, the spirit of counsel and might, the spirit of knowledge and of the fear of the Lord. These are not seven different spirits, but seven dimensions of the one Spirit of God resting upon the Messiah.',
     'And from His anointing flows a reign of perfect righteousness. He shall judge the poor with righteousness and reprove with equity for the meek of the earth. The instruments of death will be beaten into instruments of life. The wolf and the lamb shall feed together. The lion shall eat straw like the ox. And the earth shall be full of the knowledge of the Lord as the waters cover the sea. This is not merely a return to the Garden of Eden, but a transformation of all creation into a place of peace and righteousness.',

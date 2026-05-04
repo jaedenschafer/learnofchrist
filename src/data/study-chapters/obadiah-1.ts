@@ -6,6 +6,10 @@ export const OBADIAH_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+  opener: {
+    matchTitle: /The Prophet Obadiah/i,
+    caption: 'Obadiah 1',
+  },
   intros: [
     'Obadiah is the shortest book of the Old Testament — a single chapter of 21 verses. Yet it contains a sweeping vision of God\'s judgment on Edom and the ultimate establishment of God\'s kingdom. Edom had done violence to Jacob and stood at the crossroads rejoicing when Jerusalem fell. Now Edom itself will be brought low.',
     'The book opens with judgment and closes with salvation: "And the kingdom shall be the Lord\'s." This is the arc of all Scripture — human pride brought low, God\'s kingdom established, His rule made manifest over all the earth. Edom represents the pride of those who think they can escape God\'s judgment by exalting themselves. They cannot.',

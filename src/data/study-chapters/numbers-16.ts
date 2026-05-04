@@ -20,6 +20,10 @@ export const NUMBERS_16: RichChapterContent = {
   chapter: 16,
 
   estimatedMinutes: { beginner: 11, intermediate: 19, deep: 24 },
+  opener: {
+    matchTitle: /The Punishment of Korah/i,
+    caption: 'Numbers 16',
+  },
   intros: [
     'Numbers 16 opens with an explosion of pride. Korah, a Levite who is Moses&apos; own cousin, stands up with two Reubenite chieftains — Dathan and Abiram — and 250 princes of the congregation. Their charge is simple and vicious: Moses and Aaron have gone too far. "All the congregation are holy, every one of them, and the Lord is among them: wherefore then lift ye up yourselves above the congregation of the Lord?" It is the language of flattery wrapped around a fist. They are not asking for inclusion. They are asking for the priesthood that God has already given to Aaron.',
     'What follows is a test so stark that the very earth opens to swallow the rebels — and so terrible that the next day the people cry out that Moses and Aaron have "killed the people of the Lord." A plague breaks out. And it is Aaron — the one accused of self-exaltation — who runs into the midst of the dead and the dying with a censor and incense in his hands, standing between God&apos;s wrath and the congregation, and the plague stops. The chapter turns a rebellion into a memorial: the bronze censers of the men who died are hammered into a covering for the altar, a permanent warning that not everyone can draw near to God.',

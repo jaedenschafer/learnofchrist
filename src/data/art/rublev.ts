@@ -5,6 +5,8 @@
 // (c. 1405). All works are in the public domain and verified on
 // Wikimedia Commons.
 
+import type { TopicSlug } from './topics';
+
 export type RublevIcon = {
   externalId: string;
   title: string;
@@ -17,6 +19,9 @@ export type RublevIcon = {
   verseEnd?: number;
   sceneSlug?: string;
   description?: string;
+  /** Optional thematic topics. Used by the artwork resolver to fall
+   *  back from chapter-specific matches to topic-overlap matches. */
+  topicTags?: TopicSlug[];
 };
 
 export const RUBLEV_ICONS: RublevIcon[] = [
@@ -30,7 +35,7 @@ export const RUBLEV_ICONS: RublevIcon[] = [
     chapter: 18,
     verseStart: 1,
     verseEnd: 15,
-    sceneSlug: 'abraham',
+    sceneSlug: 'abraham', topicTags: ['faithfulness', 'covenant', 'sacrifice'],
     description: 'Three visitors at the oak of Mamre, painted c. 1411–1425 for the Trinity Cathedral at Sergiev Posad.',
   },
   {
@@ -43,7 +48,7 @@ export const RUBLEV_ICONS: RublevIcon[] = [
     chapter: 1,
     verseStart: 26,
     verseEnd: 38,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'rublev-annunciation-sergiev-posad',
@@ -55,7 +60,7 @@ export const RUBLEV_ICONS: RublevIcon[] = [
     chapter: 1,
     verseStart: 26,
     verseEnd: 38,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'rublev-nativity',
@@ -67,7 +72,7 @@ export const RUBLEV_ICONS: RublevIcon[] = [
     chapter: 2,
     verseStart: 6,
     verseEnd: 14,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'rublev-presentation',
@@ -79,7 +84,7 @@ export const RUBLEV_ICONS: RublevIcon[] = [
     chapter: 2,
     verseStart: 22,
     verseEnd: 38,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'rublev-baptism',
@@ -91,7 +96,7 @@ export const RUBLEV_ICONS: RublevIcon[] = [
     chapter: 3,
     verseStart: 13,
     verseEnd: 17,
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
   },
   {
     externalId: 'rublev-transfiguration',
@@ -103,7 +108,7 @@ export const RUBLEV_ICONS: RublevIcon[] = [
     chapter: 17,
     verseStart: 1,
     verseEnd: 9,
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
   },
   {
     externalId: 'rublev-resurrection-of-lazarus',
@@ -115,7 +120,7 @@ export const RUBLEV_ICONS: RublevIcon[] = [
     chapter: 11,
     verseStart: 38,
     verseEnd: 44,
-    sceneSlug: 'miracles',
+    sceneSlug: 'miracles', topicTags: ['compassion', 'glory', 'sovereignty'],
   },
   {
     externalId: 'rublev-entry-into-jerusalem',
@@ -127,7 +132,7 @@ export const RUBLEV_ICONS: RublevIcon[] = [
     chapter: 21,
     verseStart: 1,
     verseEnd: 11,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'rublev-ascension',
@@ -139,7 +144,7 @@ export const RUBLEV_ICONS: RublevIcon[] = [
     chapter: 1,
     verseStart: 9,
     verseEnd: 11,
-    sceneSlug: 'ascension',
+    sceneSlug: 'ascension', topicTags: ['kingship', 'resurrection'],
   },
   {
     externalId: 'rublev-saviour-of-zvenigorod',
@@ -151,7 +156,7 @@ export const RUBLEV_ICONS: RublevIcon[] = [
     chapter: 14,
     verseStart: 6,
     verseEnd: 9,
-    sceneSlug: 'teaching',
+    sceneSlug: 'teaching', topicTags: ['wisdom', 'witness'],
   },
   {
     externalId: 'rublev-vladimirskaya',
@@ -163,6 +168,6 @@ export const RUBLEV_ICONS: RublevIcon[] = [
     chapter: 2,
     verseStart: 16,
     verseEnd: 19,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
 ];

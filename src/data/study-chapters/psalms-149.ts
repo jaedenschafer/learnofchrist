@@ -18,6 +18,10 @@ export const PSALMS_149: RichChapterContent = {
   chapter: 149,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+  opener: {
+    matchTitle: /Stuttgart Psalter folio v/i,
+    caption: 'Psalms 149',
+  },
   intros: [
     'Psalm 149 is the second to last psalm in the Psalter. It brings the voice of personal joy and celebration to the cosmic praise of Psalm 148. The saints—those called apart, made holy by God—are summoned to sing a new song. This is not a song of lament or complaint. This is a song of joy, of celebration, of gladness. The psalmist invites the redeemed to rejoice publicly, to celebrate aloud, to be joyful in their king. The final two psalms (149 and 150) form a crescendo of pure praise, in which the entire book moves toward its conclusion.',
   ],

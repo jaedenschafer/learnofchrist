@@ -95,6 +95,19 @@ export type Block =
       matchArtist?: RegExp;
       artworkSlug?: string;
       caption: string;
+      /** When true, this slot is filled from the topical fallback pool
+       *  (chapter-level `topicTags` + per-block `topicMatch`) rather than
+       *  the chapter-specific artwork pool. The renderer marks the result
+       *  as themed so the caption reads "(themed)". Use this in chapters
+       *  with no scene-specific artwork available. */
+      topical?: boolean;
+      /** Optional explicit topic(s) the resolver should prefer for this
+       *  slot. If omitted, the chapter's `topicTags` are used in order. */
+      topicMatch?: string | string[];
+      /** Set by the server-side resolver — true when the matched plate
+       *  came from the topical pool and the caption should append
+       *  "(themed)". Authors do NOT set this directly. */
+      themed?: boolean;
       minLevel?: StudyLevel;
     }
   | { kind: 'divider'; minLevel?: StudyLevel };
@@ -185,6 +198,13 @@ export interface RichChapterContent {
     matchArtist?: RegExp;
     artworkSlug?: string;
     caption: string;
+    /** When true, the opener is filled from the topical fallback pool
+     *  rather than the chapter-specific artwork pool. */
+    topical?: boolean;
+    /** Optional explicit topic(s) for the opener slot. */
+    topicMatch?: string | string[];
+    /** Server-set marker; do not set in chapter data. */
+    themed?: boolean;
   };
 
   /** Body sections of the study guide. */
@@ -216,6 +236,20 @@ export interface RichChapterContent {
    *  control surfaces these so users see "Quick · 4m" for the actual chapter
    *  in front of them, not just the global label. */
   estimatedMinutes?: EstimatedMinutes;
+
+  /** Thematic topics the chapter is about. Author-ordered by salience —
+   *  the first topic should be the chapter's dominant theme.
+   *
+   *  Used by the artwork resolver: when there is no chapter-specific plate
+   *  in the catalog, the resolver scores plates by topic overlap (see
+   *  src/data/art/topics.ts) and renders the best matches with a "(themed)"
+   *  caption suffix so users understand the painting is thematically
+   *  related, not depicting the verse directly.
+   *
+   *  Vocabulary is the `TopicSlug` union from `src/data/art/topics.ts`.
+   *  Authors should pick 2–4 topics per chapter; more than that dilutes
+   *  the matching signal. */
+  topicTags?: string[];
 }
 
 /* ─── Research resources ──────────────────────────────────────────────── */

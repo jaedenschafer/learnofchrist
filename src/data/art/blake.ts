@@ -8,6 +8,8 @@
 // passages (Elohim Creating Adam, The Ancient of Days, Nebuchadnezzar,
 // the Great Red Dragon, etc.).
 
+import type { TopicSlug } from './topics';
+
 export type BlakePlate = {
   externalId: string;
   title: string;
@@ -20,6 +22,9 @@ export type BlakePlate = {
   verseEnd?: number;
   sceneSlug?: string;
   description?: string;
+  /** Optional thematic topics. Used by the artwork resolver to fall
+   *  back from chapter-specific matches to topic-overlap matches. */
+  topicTags?: TopicSlug[];
 };
 
 export const BLAKE_PLATES: BlakePlate[] = [
@@ -34,7 +39,7 @@ export const BLAKE_PLATES: BlakePlate[] = [
     chapter: 1,
     verseStart: 1,
     verseEnd: 5,
-    sceneSlug: 'suffering',
+    sceneSlug: 'suffering', topicTags: ['suffering', 'lament', 'hope'],
   },
   {
     externalId: 'blake-job-02-satan-before-the-throne',
@@ -46,7 +51,7 @@ export const BLAKE_PLATES: BlakePlate[] = [
     chapter: 1,
     verseStart: 6,
     verseEnd: 12,
-    sceneSlug: 'suffering',
+    sceneSlug: 'suffering', topicTags: ['suffering', 'lament', 'hope'],
   },
   {
     externalId: 'blake-job-03-destruction-of-jobs-sons-and-daughters',
@@ -58,7 +63,7 @@ export const BLAKE_PLATES: BlakePlate[] = [
     chapter: 1,
     verseStart: 13,
     verseEnd: 19,
-    sceneSlug: 'suffering',
+    sceneSlug: 'suffering', topicTags: ['suffering', 'lament', 'hope'],
   },
   {
     externalId: 'blake-job-04-messengers-tell-job-of-misfortunes',
@@ -70,7 +75,7 @@ export const BLAKE_PLATES: BlakePlate[] = [
     chapter: 1,
     verseStart: 14,
     verseEnd: 22,
-    sceneSlug: 'suffering',
+    sceneSlug: 'suffering', topicTags: ['suffering', 'lament', 'hope'],
   },
   {
     externalId: 'blake-job-05-satan-going-forth-and-jobs-charity',
@@ -82,7 +87,7 @@ export const BLAKE_PLATES: BlakePlate[] = [
     chapter: 2,
     verseStart: 1,
     verseEnd: 7,
-    sceneSlug: 'suffering',
+    sceneSlug: 'suffering', topicTags: ['suffering', 'lament', 'hope'],
   },
   {
     externalId: 'blake-job-06-satan-smiting-job-with-boils',
@@ -94,7 +99,7 @@ export const BLAKE_PLATES: BlakePlate[] = [
     chapter: 2,
     verseStart: 7,
     verseEnd: 10,
-    sceneSlug: 'suffering',
+    sceneSlug: 'suffering', topicTags: ['suffering', 'lament', 'hope'],
   },
   {
     externalId: 'blake-job-07-jobs-comforters',
@@ -106,7 +111,7 @@ export const BLAKE_PLATES: BlakePlate[] = [
     chapter: 2,
     verseStart: 11,
     verseEnd: 13,
-    sceneSlug: 'suffering',
+    sceneSlug: 'suffering', topicTags: ['suffering', 'lament', 'hope'],
   },
   {
     externalId: 'blake-job-08-jobs-despair',
@@ -118,7 +123,7 @@ export const BLAKE_PLATES: BlakePlate[] = [
     chapter: 3,
     verseStart: 1,
     verseEnd: 11,
-    sceneSlug: 'suffering',
+    sceneSlug: 'suffering', topicTags: ['suffering', 'lament', 'hope'],
   },
   {
     externalId: 'blake-job-09-vision-of-eliphaz',
@@ -130,7 +135,7 @@ export const BLAKE_PLATES: BlakePlate[] = [
     chapter: 4,
     verseStart: 12,
     verseEnd: 21,
-    sceneSlug: 'suffering',
+    sceneSlug: 'suffering', topicTags: ['suffering', 'lament', 'hope'],
   },
   {
     externalId: 'blake-job-10-job-rebuked-by-his-friends',
@@ -142,7 +147,7 @@ export const BLAKE_PLATES: BlakePlate[] = [
     chapter: 11,
     verseStart: 1,
     verseEnd: 20,
-    sceneSlug: 'suffering',
+    sceneSlug: 'suffering', topicTags: ['suffering', 'lament', 'hope'],
   },
   {
     externalId: 'blake-job-11-jobs-evil-dreams',
@@ -154,7 +159,7 @@ export const BLAKE_PLATES: BlakePlate[] = [
     chapter: 7,
     verseStart: 13,
     verseEnd: 16,
-    sceneSlug: 'suffering',
+    sceneSlug: 'suffering', topicTags: ['suffering', 'lament', 'hope'],
   },
   {
     externalId: 'blake-job-12-wrath-of-elihu',
@@ -166,7 +171,7 @@ export const BLAKE_PLATES: BlakePlate[] = [
     chapter: 32,
     verseStart: 1,
     verseEnd: 6,
-    sceneSlug: 'suffering',
+    sceneSlug: 'suffering', topicTags: ['suffering', 'lament', 'hope'],
   },
   {
     externalId: 'blake-job-13-lord-answering-out-of-the-whirlwind',
@@ -178,7 +183,7 @@ export const BLAKE_PLATES: BlakePlate[] = [
     chapter: 38,
     verseStart: 1,
     verseEnd: 3,
-    sceneSlug: 'suffering',
+    sceneSlug: 'suffering', topicTags: ['suffering', 'lament', 'hope'],
   },
   {
     externalId: 'blake-job-14-when-the-morning-stars-sang-together',
@@ -190,7 +195,7 @@ export const BLAKE_PLATES: BlakePlate[] = [
     chapter: 38,
     verseStart: 4,
     verseEnd: 7,
-    sceneSlug: 'creation',
+    sceneSlug: 'creation', topicTags: ['creation', 'sovereignty', 'glory'],
   },
   {
     externalId: 'blake-job-15-behemoth-and-leviathan',
@@ -202,7 +207,7 @@ export const BLAKE_PLATES: BlakePlate[] = [
     chapter: 40,
     verseStart: 15,
     verseEnd: 24,
-    sceneSlug: 'creation',
+    sceneSlug: 'creation', topicTags: ['creation', 'sovereignty', 'glory'],
   },
   {
     externalId: 'blake-job-16-fall-of-satan',
@@ -214,7 +219,7 @@ export const BLAKE_PLATES: BlakePlate[] = [
     chapter: 40,
     verseStart: 6,
     verseEnd: 14,
-    sceneSlug: 'suffering',
+    sceneSlug: 'suffering', topicTags: ['suffering', 'lament', 'hope'],
   },
   {
     externalId: 'blake-job-17-vision-of-christ',
@@ -226,7 +231,7 @@ export const BLAKE_PLATES: BlakePlate[] = [
     chapter: 42,
     verseStart: 5,
     verseEnd: 6,
-    sceneSlug: 'suffering',
+    sceneSlug: 'suffering', topicTags: ['suffering', 'lament', 'hope'],
   },
   {
     externalId: 'blake-job-18-jobs-sacrifice',
@@ -238,7 +243,7 @@ export const BLAKE_PLATES: BlakePlate[] = [
     chapter: 42,
     verseStart: 7,
     verseEnd: 10,
-    sceneSlug: 'suffering',
+    sceneSlug: 'suffering', topicTags: ['suffering', 'lament', 'hope'],
   },
   {
     externalId: 'blake-job-19-every-one-gave-him-a-piece-of-money',
@@ -250,7 +255,7 @@ export const BLAKE_PLATES: BlakePlate[] = [
     chapter: 42,
     verseStart: 11,
     verseEnd: 11,
-    sceneSlug: 'suffering',
+    sceneSlug: 'suffering', topicTags: ['suffering', 'lament', 'hope'],
   },
   {
     externalId: 'blake-job-20-job-and-his-daughters',
@@ -262,7 +267,7 @@ export const BLAKE_PLATES: BlakePlate[] = [
     chapter: 42,
     verseStart: 13,
     verseEnd: 15,
-    sceneSlug: 'suffering',
+    sceneSlug: 'suffering', topicTags: ['suffering', 'lament', 'hope'],
   },
   {
     externalId: 'blake-job-21-job-and-family-restored',
@@ -274,7 +279,7 @@ export const BLAKE_PLATES: BlakePlate[] = [
     chapter: 42,
     verseStart: 12,
     verseEnd: 17,
-    sceneSlug: 'suffering',
+    sceneSlug: 'suffering', topicTags: ['suffering', 'lament', 'hope'],
   },
 
   // ===== Standalone biblical paintings and color prints =====
@@ -288,7 +293,7 @@ export const BLAKE_PLATES: BlakePlate[] = [
     chapter: 2,
     verseStart: 7,
     verseEnd: 7,
-    sceneSlug: 'creation',
+    sceneSlug: 'creation', topicTags: ['creation', 'sovereignty', 'glory'],
   },
   {
     externalId: 'blake-ancient-of-days',
@@ -300,7 +305,7 @@ export const BLAKE_PLATES: BlakePlate[] = [
     chapter: 8,
     verseStart: 27,
     verseEnd: 31,
-    sceneSlug: 'creation',
+    sceneSlug: 'creation', topicTags: ['creation', 'sovereignty', 'glory'],
   },
   {
     externalId: 'blake-adam-naming-the-beasts',
@@ -312,7 +317,7 @@ export const BLAKE_PLATES: BlakePlate[] = [
     chapter: 2,
     verseStart: 19,
     verseEnd: 20,
-    sceneSlug: 'creation',
+    sceneSlug: 'creation', topicTags: ['creation', 'sovereignty', 'glory'],
   },
   {
     externalId: 'blake-eve-naming-the-birds',
@@ -324,7 +329,7 @@ export const BLAKE_PLATES: BlakePlate[] = [
     chapter: 2,
     verseStart: 19,
     verseEnd: 23,
-    sceneSlug: 'creation',
+    sceneSlug: 'creation', topicTags: ['creation', 'sovereignty', 'glory'],
   },
   {
     externalId: 'blake-god-judging-adam',
@@ -336,7 +341,7 @@ export const BLAKE_PLATES: BlakePlate[] = [
     chapter: 3,
     verseStart: 14,
     verseEnd: 19,
-    sceneSlug: 'fall',
+    sceneSlug: 'fall', topicTags: ['fall-and-curse', 'sin', 'pride'],
   },
   {
     externalId: 'blake-jacobs-ladder',
@@ -348,7 +353,7 @@ export const BLAKE_PLATES: BlakePlate[] = [
     chapter: 28,
     verseStart: 10,
     verseEnd: 19,
-    sceneSlug: 'patriarchs',
+    sceneSlug: 'patriarchs', topicTags: ['covenant', 'faithfulness', 'family'],
   },
   {
     externalId: 'blake-judgement-of-solomon',
@@ -360,7 +365,7 @@ export const BLAKE_PLATES: BlakePlate[] = [
     chapter: 3,
     verseStart: 16,
     verseEnd: 28,
-    sceneSlug: 'wisdom',
+    sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
   {
     externalId: 'blake-nebuchadnezzar',
@@ -372,7 +377,7 @@ export const BLAKE_PLATES: BlakePlate[] = [
     chapter: 4,
     verseStart: 28,
     verseEnd: 33,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
   {
     externalId: 'blake-virgin-and-child-in-egypt',
@@ -384,7 +389,7 @@ export const BLAKE_PLATES: BlakePlate[] = [
     chapter: 2,
     verseStart: 13,
     verseEnd: 15,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'blake-christ-child-asleep-on-the-cross',
@@ -396,7 +401,7 @@ export const BLAKE_PLATES: BlakePlate[] = [
     chapter: 2,
     verseStart: 11,
     verseEnd: 11,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'blake-christ-blessing',
@@ -408,7 +413,7 @@ export const BLAKE_PLATES: BlakePlate[] = [
     chapter: 19,
     verseStart: 13,
     verseEnd: 15,
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
   },
   {
     externalId: 'blake-christs-entry-into-jerusalem',
@@ -420,7 +425,7 @@ export const BLAKE_PLATES: BlakePlate[] = [
     chapter: 21,
     verseStart: 1,
     verseEnd: 11,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'blake-the-entombment',
@@ -432,7 +437,7 @@ export const BLAKE_PLATES: BlakePlate[] = [
     chapter: 27,
     verseStart: 57,
     verseEnd: 61,
-    sceneSlug: 'crucifixion',
+    sceneSlug: 'crucifixion', topicTags: ['cross', 'sacrifice', 'suffering'],
   },
   {
     externalId: 'blake-christ-in-the-sepulchre',
@@ -444,7 +449,7 @@ export const BLAKE_PLATES: BlakePlate[] = [
     chapter: 27,
     verseStart: 62,
     verseEnd: 66,
-    sceneSlug: 'crucifixion',
+    sceneSlug: 'crucifixion', topicTags: ['cross', 'sacrifice', 'suffering'],
   },
   {
     externalId: 'blake-three-maries-at-the-sepulchre',
@@ -456,7 +461,7 @@ export const BLAKE_PLATES: BlakePlate[] = [
     chapter: 20,
     verseStart: 11,
     verseEnd: 18,
-    sceneSlug: 'resurrection',
+    sceneSlug: 'resurrection', topicTags: ['resurrection', 'hope', 'new-creation'],
   },
   {
     externalId: 'blake-angel-of-the-revelation',
@@ -468,7 +473,7 @@ export const BLAKE_PLATES: BlakePlate[] = [
     chapter: 10,
     verseStart: 1,
     verseEnd: 7,
-    sceneSlug: 'apocalypse',
+    sceneSlug: 'apocalypse', topicTags: ['second-coming', 'new-creation', 'judgment'],
   },
   {
     externalId: 'blake-great-red-dragon',
@@ -480,7 +485,7 @@ export const BLAKE_PLATES: BlakePlate[] = [
     chapter: 12,
     verseStart: 1,
     verseEnd: 4,
-    sceneSlug: 'apocalypse',
+    sceneSlug: 'apocalypse', topicTags: ['second-coming', 'new-creation', 'judgment'],
   },
   {
     externalId: 'blake-number-of-the-beast',
@@ -492,6 +497,6 @@ export const BLAKE_PLATES: BlakePlate[] = [
     chapter: 13,
     verseStart: 16,
     verseEnd: 18,
-    sceneSlug: 'apocalypse',
+    sceneSlug: 'apocalypse', topicTags: ['second-coming', 'new-creation', 'judgment'],
   },
 ];

@@ -15,6 +15,10 @@ export const PSALMS_69: RichChapterContent = {
   chapter: 69,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
+  opener: {
+    matchTitle: /Jonah Prefiguring the Resurrection/i,
+    caption: 'Psalms 69',
+  },
   intros: [
     'Psalm 69 is a psalm of acute distress. The psalmist is drowning[res:bible-odyssey-depths-psalms], literally and metaphorically. "The waters are come in unto my soul." He is mocked and despised. His eyes fail from weeping. His zeal for God&apos;s house has consumed him, yet that zeal has brought him only reproach. He suffers not because he is wicked, but because he is righteous—because he cares about God&apos;s honor more than his own comfort.',
     'The New Testament quotes this psalm more than any other, applying it to Christ. John 2 records Jesus cleansing the temple and His disciples remembering: "The zeal of thine house hath eaten me up." Psalm 69:21—"They gave me also gall for my meat; and in my thirst they gave me vinegar to drink"—is fulfilled at the Cross. This psalm teaches that innocent suffering is real, and that God sees it, and that such suffering, when united to Christ, becomes redemptive.',

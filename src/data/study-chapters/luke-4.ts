@@ -19,6 +19,10 @@ export const LUKE_4: RichChapterContent = {
   chapter: 4,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+  opener: {
+    matchTitle: /All the City Was/i,
+    caption: 'Luke 4',
+  },
   intros: [
     'Being full of the Holy Ghost, Jesus is led by the Spirit into the wilderness. For forty days He is tempted by the devil, fasting all that time. Like Moses and Elijah before Him, Jesus spends forty days in the wilderness in communion with God. But Jesus faces the tempter. The devil offers all the world&apos;s kingdoms if Jesus will worship him. But Jesus resists. He knows who He is. He knows what He has come to do.',
     'When the testing is complete, the Spirit leads Jesus back to Galilee. He enters the synagogue in Nazareth, His childhood home. He stands to read. The scroll of the prophet Isaiah is given to Him. He unrolls it and finds the place written: "The Spirit of the Lord is upon me, because he hath anointed me to preach the gospel to the poor." And He says: "This day is this scripture fulfilled in your ears."',

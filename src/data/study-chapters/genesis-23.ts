@@ -15,6 +15,10 @@ export const GENESIS_23: RichChapterContent = {
   chapter: 23,
 
   estimatedMinutes: { beginner: 5, intermediate: 8, deep: 11 },
+  opener: {
+    matchTitle: /The Burial of Sarah/i,
+    caption: 'Genesis 23',
+  },
   intros: [
     'Genesis 23 opens with an absence. Sarah is gone. She lived 127 years - long enough to see her son born when she was barren, long enough to watch her husband receive promises of nations as descendants. And now Abraham must bury her. The chapter moves slowly through the rituals of grief and negotiation, showing us what faith looks like in the shadow of death.',
     'The irony is sharp and quietly faithful. God has promised Abraham the land - Canaan flowing with milk and honey, theirs as an everlasting possession. Yet when Abraham needs ground to bury his wife, he cannot simply take it. He is, as he himself says, a "stranger and a sojourner" (v. 4) - a foreigner buying a grave in a land that is not yet his. The chapter\'s real story is about a man who has believed for so long in a promise that he can bury his wife [res:bibleodyssey-sarah-covenant-line] in faith, knowing death is not the end. Hebrews 11 will make this explicit: Abraham held the promise so firmly that he died still looking forward to a resurrection in the very land where he was now planting his dead.',

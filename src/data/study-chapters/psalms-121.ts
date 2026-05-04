@@ -16,6 +16,10 @@ export const PSALMS_121: RichChapterContent = {
   chapter: 121,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 3 },
+  opener: {
+    matchTitle: /Psalter of Eleanor of/i,
+    caption: 'Psalms 121',
+  },
   intros: [
     'As pilgrims climb toward Jerusalem, the hills rise before them. It is a moment of vulnerability—the ascent is long, the way ahead uncertain. But the psalmist&apos;s gaze lifts upward: "I will lift up mine eyes unto the hills, from whence cometh my help." The hills are not merely obstacles. They remind the pilgrim of the One who made them. My help comes not from the strength of my legs or the resources in my pack, but from the Lord who created heaven and earth. The Keeper of the climbers is the Maker of the mountains.',
   ],

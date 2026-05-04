@@ -8,6 +8,8 @@
 // Infancy, Ministry, Passion, Resurrection appearances, and Life of the
 // Virgin. All plates verified on Wikimedia Commons.
 
+import type { TopicSlug } from './topics';
+
 export type DuccioPlate = {
   externalId: string;
   title: string;
@@ -20,6 +22,9 @@ export type DuccioPlate = {
   verseEnd?: number;
   sceneSlug?: string;
   description?: string;
+  /** Optional thematic topics. Used by the artwork resolver to fall
+   *  back from chapter-specific matches to topic-overlap matches. */
+  topicTags?: TopicSlug[];
 };
 
 export const DUCCIO_PLATES: DuccioPlate[] = [
@@ -33,7 +38,7 @@ export const DUCCIO_PLATES: DuccioPlate[] = [
     bookSlug: 'luke',
     chapter: 1,
     verseStart: 42,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: "Central front panel. The Virgin and Child enthroned among ranks of saints and angels — the altarpiece's signature image, carried in procession to the cathedral on 9 June 1311.",
   },
 
@@ -48,7 +53,7 @@ export const DUCCIO_PLATES: DuccioPlate[] = [
     chapter: 1,
     verseStart: 26,
     verseEnd: 38,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: 'Predella, front. Gabriel announces to Mary that she will conceive the Son of God.',
   },
   {
@@ -60,7 +65,7 @@ export const DUCCIO_PLATES: DuccioPlate[] = [
     bookSlug: 'isaiah',
     chapter: 7,
     verseStart: 14,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
     description: "Predella prophet panel — Isaiah holds his scroll of virgin-birth prophecy.",
   },
   {
@@ -73,7 +78,7 @@ export const DUCCIO_PLATES: DuccioPlate[] = [
     chapter: 2,
     verseStart: 1,
     verseEnd: 20,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: 'Predella, front. The newborn Christ, Mary reclining, angels announcing to shepherds.',
   },
   {
@@ -85,7 +90,7 @@ export const DUCCIO_PLATES: DuccioPlate[] = [
     bookSlug: 'ezekiel',
     chapter: 44,
     verseStart: 2,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
     description: "Predella prophet panel — Ezekiel's closed-gate prophecy, read as a type of the Virgin.",
   },
   {
@@ -98,7 +103,7 @@ export const DUCCIO_PLATES: DuccioPlate[] = [
     chapter: 2,
     verseStart: 1,
     verseEnd: 12,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: 'Predella, front. The three Magi offer their gifts.',
   },
   {
@@ -110,7 +115,7 @@ export const DUCCIO_PLATES: DuccioPlate[] = [
     bookSlug: 'proverbs',
     chapter: 8,
     verseStart: 22,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
     description: 'Predella prophet panel — Solomon.',
   },
   {
@@ -123,7 +128,7 @@ export const DUCCIO_PLATES: DuccioPlate[] = [
     chapter: 2,
     verseStart: 22,
     verseEnd: 40,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: 'Predella, front. Simeon takes the Christ child in his arms.',
   },
   {
@@ -135,7 +140,7 @@ export const DUCCIO_PLATES: DuccioPlate[] = [
     bookSlug: 'malachi',
     chapter: 3,
     verseStart: 1,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
     description: 'Predella prophet panel — Malachi, who foretells the Lord coming to his temple.',
   },
   {
@@ -148,7 +153,7 @@ export const DUCCIO_PLATES: DuccioPlate[] = [
     chapter: 2,
     verseStart: 16,
     verseEnd: 18,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: "Predella, front. Herod's soldiers strike down the Bethlehem boys.",
   },
   {
@@ -160,7 +165,7 @@ export const DUCCIO_PLATES: DuccioPlate[] = [
     bookSlug: 'jeremiah',
     chapter: 31,
     verseStart: 15,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
     description: "Predella prophet panel — Jeremiah's Rachel-weeping prophecy, linked to the Innocents.",
   },
   {
@@ -173,7 +178,7 @@ export const DUCCIO_PLATES: DuccioPlate[] = [
     chapter: 2,
     verseStart: 13,
     verseEnd: 15,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: 'Predella, front. Mary, the infant, and Joseph flee to Egypt.',
   },
   {
@@ -185,7 +190,7 @@ export const DUCCIO_PLATES: DuccioPlate[] = [
     bookSlug: 'hosea',
     chapter: 11,
     verseStart: 1,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
     description: "Predella prophet panel — Hosea: \"Out of Egypt have I called my son.\"",
   },
   {
@@ -198,7 +203,7 @@ export const DUCCIO_PLATES: DuccioPlate[] = [
     chapter: 2,
     verseStart: 41,
     verseEnd: 52,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: 'Predella, front. The twelve-year-old Jesus in the temple with the teachers.',
   },
 
@@ -213,7 +218,7 @@ export const DUCCIO_PLATES: DuccioPlate[] = [
     chapter: 4,
     verseStart: 8,
     verseEnd: 11,
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
     description: "Predella, back. The Devil offers Christ the kingdoms of the world (Frick Collection).",
   },
   {
@@ -226,7 +231,7 @@ export const DUCCIO_PLATES: DuccioPlate[] = [
     chapter: 4,
     verseStart: 5,
     verseEnd: 7,
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
     description: 'Predella, back. The second temptation: cast thyself down.',
   },
   {
@@ -239,7 +244,7 @@ export const DUCCIO_PLATES: DuccioPlate[] = [
     chapter: 4,
     verseStart: 18,
     verseEnd: 22,
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
     description: "Predella, back. Christ calls the fisherman brothers by the Sea of Galilee (National Gallery of Art, Washington).",
   },
   {
@@ -252,7 +257,7 @@ export const DUCCIO_PLATES: DuccioPlate[] = [
     chapter: 2,
     verseStart: 1,
     verseEnd: 11,
-    sceneSlug: 'miracles',
+    sceneSlug: 'miracles', topicTags: ['compassion', 'glory', 'sovereignty'],
     description: 'Predella, back. Water turned to wine.',
   },
   {
@@ -265,7 +270,7 @@ export const DUCCIO_PLATES: DuccioPlate[] = [
     chapter: 4,
     verseStart: 5,
     verseEnd: 42,
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
     description: 'Predella, back. The well at Sychar.',
   },
   {
@@ -278,7 +283,7 @@ export const DUCCIO_PLATES: DuccioPlate[] = [
     chapter: 9,
     verseStart: 1,
     verseEnd: 12,
-    sceneSlug: 'miracles',
+    sceneSlug: 'miracles', topicTags: ['compassion', 'glory', 'sovereignty'],
     description: 'Predella, back. Christ heals the man born blind at the pool of Siloam.',
   },
   {
@@ -291,7 +296,7 @@ export const DUCCIO_PLATES: DuccioPlate[] = [
     chapter: 17,
     verseStart: 1,
     verseEnd: 8,
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
     description: 'Predella, back. Christ transfigured between Moses and Elijah before Peter, James, and John.',
   },
   {
@@ -304,7 +309,7 @@ export const DUCCIO_PLATES: DuccioPlate[] = [
     chapter: 11,
     verseStart: 1,
     verseEnd: 44,
-    sceneSlug: 'miracles',
+    sceneSlug: 'miracles', topicTags: ['compassion', 'glory', 'sovereignty'],
     description: 'Predella, back. Lazarus emerges bound in graveclothes (Kimbell Art Museum).',
   },
 
@@ -318,7 +323,7 @@ export const DUCCIO_PLATES: DuccioPlate[] = [
     bookSlug: 'luke',
     chapter: 1,
     verseStart: 48,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: 'Top front. An angel brings Mary a palm and tells her she will soon be with her Son.',
   },
   {
@@ -331,7 +336,7 @@ export const DUCCIO_PLATES: DuccioPlate[] = [
     chapter: 14,
     verseStart: 1,
     verseEnd: 31,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
     description: 'Top front. Christ addresses the twelve at the Farewell Discourse.',
   },
   {
@@ -343,7 +348,7 @@ export const DUCCIO_PLATES: DuccioPlate[] = [
     bookSlug: 'luke',
     chapter: 1,
     verseStart: 48,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: "Top front. The Dormition: Christ receives Mary's soul as the apostles keep watch.",
   },
   {
@@ -355,7 +360,7 @@ export const DUCCIO_PLATES: DuccioPlate[] = [
     bookSlug: 'luke',
     chapter: 1,
     verseStart: 48,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: 'Top front. The apostles carry the bier.',
   },
   {
@@ -367,7 +372,7 @@ export const DUCCIO_PLATES: DuccioPlate[] = [
     bookSlug: 'revelation',
     chapter: 12,
     verseStart: 1,
-    sceneSlug: 'judgment',
+    sceneSlug: 'judgment', topicTags: ['judgment', 'wrath', 'second-coming'],
     description: 'Top front. Christ crowns his mother in glory — medieval reading of the Woman Clothed with the Sun.',
   },
 
@@ -382,7 +387,7 @@ export const DUCCIO_PLATES: DuccioPlate[] = [
     chapter: 21,
     verseStart: 1,
     verseEnd: 11,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
     description: 'Back side. The procession down the Mount of Olives; children cut palm branches from trees.',
   },
   {
@@ -395,7 +400,7 @@ export const DUCCIO_PLATES: DuccioPlate[] = [
     chapter: 13,
     verseStart: 1,
     verseEnd: 17,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
     description: 'Back side. Christ kneels before Peter.',
   },
   {
@@ -408,7 +413,7 @@ export const DUCCIO_PLATES: DuccioPlate[] = [
     chapter: 26,
     verseStart: 17,
     verseEnd: 30,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
     description: 'Back side. The Twelve reclining at the Passover table.',
   },
   {
@@ -421,7 +426,7 @@ export const DUCCIO_PLATES: DuccioPlate[] = [
     chapter: 26,
     verseStart: 14,
     verseEnd: 16,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
     description: 'Back side. Judas receives the thirty pieces of silver.',
   },
   {
@@ -434,7 +439,7 @@ export const DUCCIO_PLATES: DuccioPlate[] = [
     chapter: 26,
     verseStart: 36,
     verseEnd: 46,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
     description: 'Back side. Christ prays alone while the disciples sleep.',
   },
   {
@@ -447,7 +452,7 @@ export const DUCCIO_PLATES: DuccioPlate[] = [
     chapter: 26,
     verseStart: 47,
     verseEnd: 56,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
     description: "Back side. Judas' kiss; Peter strikes off Malchus' ear.",
   },
   {
@@ -460,7 +465,7 @@ export const DUCCIO_PLATES: DuccioPlate[] = [
     chapter: 18,
     verseStart: 13,
     verseEnd: 27,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
     description: "Back side. Two storeys: Annas questions Christ above; Peter warms himself below as the maid accuses him.",
   },
   {
@@ -473,7 +478,7 @@ export const DUCCIO_PLATES: DuccioPlate[] = [
     chapter: 26,
     verseStart: 57,
     verseEnd: 68,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
     description: "Back side. Caiaphas rends his robes at the charge of blasphemy.",
   },
   {
@@ -486,7 +491,7 @@ export const DUCCIO_PLATES: DuccioPlate[] = [
     chapter: 26,
     verseStart: 67,
     verseEnd: 68,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
     description: 'Back side. The blindfolding and striking after the Sanhedrin trial.',
   },
   {
@@ -499,7 +504,7 @@ export const DUCCIO_PLATES: DuccioPlate[] = [
     chapter: 18,
     verseStart: 28,
     verseEnd: 32,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
     description: 'Back side. The priests bring Christ to Pilate at dawn.',
   },
   {
@@ -512,7 +517,7 @@ export const DUCCIO_PLATES: DuccioPlate[] = [
     chapter: 18,
     verseStart: 33,
     verseEnd: 38,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
     description: 'Back side. "Art thou the King of the Jews?"',
   },
   {
@@ -525,7 +530,7 @@ export const DUCCIO_PLATES: DuccioPlate[] = [
     chapter: 23,
     verseStart: 6,
     verseEnd: 12,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
     description: 'Back side. Pilate sends Christ to Herod, who questions him in vain.',
   },
   {
@@ -538,7 +543,7 @@ export const DUCCIO_PLATES: DuccioPlate[] = [
     chapter: 19,
     verseStart: 1,
     verseEnd: 16,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
     description: "Back side. Herod returns Christ to Pilate for sentencing.",
   },
   {
@@ -550,7 +555,7 @@ export const DUCCIO_PLATES: DuccioPlate[] = [
     bookSlug: 'matthew',
     chapter: 27,
     verseStart: 26,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
     description: 'Back side. Christ scourged at the column.',
   },
   {
@@ -563,7 +568,7 @@ export const DUCCIO_PLATES: DuccioPlate[] = [
     chapter: 27,
     verseStart: 27,
     verseEnd: 31,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
     description: "Back side. Soldiers force the crown of thorns on Christ's head.",
   },
   {
@@ -576,7 +581,7 @@ export const DUCCIO_PLATES: DuccioPlate[] = [
     chapter: 27,
     verseStart: 24,
     verseEnd: 25,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
     description: 'Back side. "I am innocent of the blood of this just person."',
   },
   {
@@ -589,7 +594,7 @@ export const DUCCIO_PLATES: DuccioPlate[] = [
     chapter: 23,
     verseStart: 26,
     verseEnd: 32,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
     description: "Back side. Christ carrying the cross, the soldiers and mourners following.",
   },
   {
@@ -602,7 +607,7 @@ export const DUCCIO_PLATES: DuccioPlate[] = [
     chapter: 27,
     verseStart: 33,
     verseEnd: 56,
-    sceneSlug: 'crucifixion',
+    sceneSlug: 'crucifixion', topicTags: ['cross', 'sacrifice', 'suffering'],
     description: "Back side, central large panel. The two thieves flanking Christ; Mary and the beloved disciple at the foot.",
   },
   {
@@ -615,7 +620,7 @@ export const DUCCIO_PLATES: DuccioPlate[] = [
     chapter: 19,
     verseStart: 38,
     verseEnd: 42,
-    sceneSlug: 'crucifixion',
+    sceneSlug: 'crucifixion', topicTags: ['cross', 'sacrifice', 'suffering'],
     description: "Back side. Joseph of Arimathea lowers Christ from the cross into Mary's arms.",
   },
   {
@@ -628,7 +633,7 @@ export const DUCCIO_PLATES: DuccioPlate[] = [
     chapter: 27,
     verseStart: 57,
     verseEnd: 61,
-    sceneSlug: 'crucifixion',
+    sceneSlug: 'crucifixion', topicTags: ['cross', 'sacrifice', 'suffering'],
     description: 'Back side. The body laid in the rock-cut tomb.',
   },
   {
@@ -641,7 +646,7 @@ export const DUCCIO_PLATES: DuccioPlate[] = [
     chapter: 3,
     verseStart: 18,
     verseEnd: 22,
-    sceneSlug: 'redemption',
+    sceneSlug: 'redemption', topicTags: ['mercy', 'forgiveness', 'cross'],
     description: 'Back side. The risen Christ pulls Adam from the shattered gates of hell.',
   },
 
@@ -656,7 +661,7 @@ export const DUCCIO_PLATES: DuccioPlate[] = [
     chapter: 16,
     verseStart: 1,
     verseEnd: 8,
-    sceneSlug: 'resurrection',
+    sceneSlug: 'resurrection', topicTags: ['resurrection', 'hope', 'new-creation'],
     description: "Back side. An angel at the empty tomb tells the women, \"He is risen.\"",
   },
   {
@@ -669,7 +674,7 @@ export const DUCCIO_PLATES: DuccioPlate[] = [
     chapter: 20,
     verseStart: 11,
     verseEnd: 18,
-    sceneSlug: 'resurrection',
+    sceneSlug: 'resurrection', topicTags: ['resurrection', 'hope', 'new-creation'],
     description: 'Back side. The risen Christ appears to Mary Magdalene in the garden.',
   },
   {
@@ -682,7 +687,7 @@ export const DUCCIO_PLATES: DuccioPlate[] = [
     chapter: 24,
     verseStart: 13,
     verseEnd: 35,
-    sceneSlug: 'resurrection',
+    sceneSlug: 'resurrection', topicTags: ['resurrection', 'hope', 'new-creation'],
     description: 'Back side. Christ walks with two disciples toward Emmaus.',
   },
   {
@@ -695,7 +700,7 @@ export const DUCCIO_PLATES: DuccioPlate[] = [
     chapter: 20,
     verseStart: 19,
     verseEnd: 23,
-    sceneSlug: 'resurrection',
+    sceneSlug: 'resurrection', topicTags: ['resurrection', 'hope', 'new-creation'],
     description: 'Back side. "Peace be unto you."',
   },
   {
@@ -708,7 +713,7 @@ export const DUCCIO_PLATES: DuccioPlate[] = [
     chapter: 20,
     verseStart: 24,
     verseEnd: 29,
-    sceneSlug: 'resurrection',
+    sceneSlug: 'resurrection', topicTags: ['resurrection', 'hope', 'new-creation'],
     description: "Back side. Thomas places his hand in Christ's side.",
   },
   {
@@ -721,7 +726,7 @@ export const DUCCIO_PLATES: DuccioPlate[] = [
     chapter: 21,
     verseStart: 1,
     verseEnd: 14,
-    sceneSlug: 'resurrection',
+    sceneSlug: 'resurrection', topicTags: ['resurrection', 'hope', 'new-creation'],
     description: 'Back side. The miraculous draught of fish; Peter leaps into the water.',
   },
   {
@@ -734,7 +739,7 @@ export const DUCCIO_PLATES: DuccioPlate[] = [
     chapter: 28,
     verseStart: 16,
     verseEnd: 20,
-    sceneSlug: 'resurrection',
+    sceneSlug: 'resurrection', topicTags: ['resurrection', 'hope', 'new-creation'],
     description: 'Back side. The Great Commission.',
   },
   {
@@ -747,7 +752,7 @@ export const DUCCIO_PLATES: DuccioPlate[] = [
     chapter: 24,
     verseStart: 36,
     verseEnd: 49,
-    sceneSlug: 'resurrection',
+    sceneSlug: 'resurrection', topicTags: ['resurrection', 'hope', 'new-creation'],
     description: "Back side. The risen Christ eats broiled fish among them.",
   },
   {
@@ -760,7 +765,7 @@ export const DUCCIO_PLATES: DuccioPlate[] = [
     chapter: 2,
     verseStart: 1,
     verseEnd: 13,
-    sceneSlug: 'apostles',
+    sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
     description: 'Back side. Tongues of fire descend on Mary and the apostles.',
   },
 ];

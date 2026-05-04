@@ -9,6 +9,10 @@ export const ZECHARIAH_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 5 },
+  opener: {
+    matchTitle: /The Prophet Zechariah/i,
+    caption: 'Zechariah 1',
+  },
   intros: [
     'Zechariah opens with an urgent call: "Turn ye unto me, saith the Lord of hosts, and I will turn unto you." The prophet is summoning Israel to return from exile, not just physically to Jerusalem, but spiritually to God. The book then unfolds a series of eight night visions, beginning with a man riding among myrtle trees, a vision rich with symbolism of God&apos;s protection and the gathering of His people.',
   ],

@@ -20,6 +20,10 @@ export const ACTS_17: RichChapterContent = {
   chapter: 17,
 
   estimatedMinutes: { beginner: 9, intermediate: 13, deep: 17 },
+  opener: {
+    matchTitle: /Paul Preaches at the/i,
+    caption: 'Acts 17',
+  },
   intros: [
     'Paul travels through three cities in Acts 17, and each city becomes a lesson in how the gospel meets different kinds of resistance. In Thessalonica, the Jews oppose him and drag him before the rulers. In Berea, believers search the scriptures daily to verify what Paul proclaims. In Athens, philosophers mock him in the marketplace, and he stands on Mars Hill[res:bibleodyssey-areopagus] to speak to a city built on human wisdom.',
     'The pattern is consistent: the gospel is preached, opposition arises, some believe. But what changes from city to city is the nature of the opposition and the kind of belief that follows. Thessalonica sees theological sedition. Berea sees noble discernment. Athens sees philosophers torn between mockery and genuine inquiry. By the end of the chapter, the unknown God is known, at least to some—Dionysius, Damaris, and others who heard and believed.',

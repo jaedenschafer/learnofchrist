@@ -17,6 +17,10 @@ export const MATTHEW_28: RichChapterContent = {
   chapter: 28,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+  opener: {
+    matchTitle: /Apparition of Jesus to/i,
+    caption: 'Matthew 28',
+  },
   intros: [
     'In the end of the sabbath, as it begins to dawn toward the first day of the week, Mary Magdalene and the other Mary come to see the sepulchre. Behold, there is a great earthquake. An angel of the Lord descends from heaven, rolls away the stone from the sepulchre, and sits upon it. His countenance is like lightning; his raiment white as snow. The angel speaks to the women: "Fear not ye: for I know that ye seek Jesus, which was crucified. He is not here: for he is risen, as he said."',
     'The angel tells them to go quickly and tell His disciples: "He is risen from the dead; and, behold, he goeth before you into Galilee; there shall ye see him." As the women depart with fear and great joy, Jesus Himself meets them, saying "All hail!" They come and hold Him by the feet and worship Him. Jesus says: "Go tell my brethren that they go into Galilee, and there shall they see me." Then, on a mountain in Galilee, Jesus meets the eleven disciples and gives them the Great Commission.',

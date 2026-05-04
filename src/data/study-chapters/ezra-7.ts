@@ -18,6 +18,10 @@ export const EZRA_7: RichChapterContent = {
   chapter: 7,
 
   estimatedMinutes: { beginner: 7, intermediate: 14, deep: 18 },
+  opener: {
+    matchTitle: /Artaxerxes Grants Freedom to/i,
+    caption: 'Ezra 7',
+  },
   intros: [
     'The book of Ezra opens with a return from exile. Cyrus frees the captives, the Temple foundation is laid, and opposition arises. Then comes silence. Decades pass. The work stalls. The walls remain broken, and the community struggles to hold its identity in a foreign land.',
     'Into this silence steps Ezra — a man shaped not by military conquest or political ambition, but by the Word of God. He is "a ready scribe in the law of Moses." And in his arrival, we see a principle that runs through Scripture: God raises up those who have "prepared their hearts." The king&apos;s heart is turned. Supplies are granted. The Law of God is given authority to judge. And through one man&apos;s covenant with the Word, a nation finds its footing again.',

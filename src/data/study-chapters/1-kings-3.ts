@@ -19,6 +19,10 @@ export const KINGS_1_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 7, intermediate: 17, deep: 23 },
+  opener: {
+    matchTitle: /Solomon/i,
+    caption: '1 Kings 3',
+  },
   intros: [
     'Solomon inherits the throne of his father David at a moment of both promise and peril. Israel is secure, but young. Solomon himself is described as "but a little child" — not unprepared, but newly anointed, aware of the magnitude of the burden he carries. The chapter opens with a political marriage to Pharaoh&apos;s daughter and the building of the temple — the immediate work of a new king. But then Solomon travels to Gibeon, to the great high place, to offer sacrifice. And there, in a dream, he encounters the living God.',
     'What happens next defines Solomon&apos;s reign and establishes him as the pattern of the wise ruler. God offers him a blank check — "Ask what I shall give thee." In that moment, Solomon reveals his heart. He asks not for power, not for victory, not for treasure, but for understanding — an "hearing heart" that can discern between good and evil. God is so pleased by this request that He gives Solomon far more than he asked: not only surpassing wisdom, but riches, honor, and peace besides. And the chapter ends not with abstract wisdom, but with wisdom made visible — in the judgment of two women and the living child, where the truth is revealed not by evidence or law, but by the yearning of a mother&apos;s bowels.',

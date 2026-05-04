@@ -20,6 +20,10 @@ export const MATTHEW_9: RichChapterContent = {
   chapter: 9,
 
   estimatedMinutes: { beginner: 2, intermediate: 6, deep: 7 },
+  opener: {
+    matchTitle: /The Blind of Capernaum/i,
+    caption: 'Matthew 9',
+  },
   intros: [
     'Jesus continues His ministry of healing and calling. A paralytic is brought to Him on a bed. "And Jesus seeing their faith said unto the sick of the palsy; Son, be of good cheer; thy sins be forgiven thee." This provokes an immediate response from the scribes: to forgive sins is to blaspheme. Only God forgives sins. But Jesus shows His authority: "Arise, and take up thy bed, and go unto thine house." The man who could not walk now carries his own bed. The paralysis is not merely physical. It is spiritual. And Jesus addresses both.',
     'Then comes the calling of Matthew, a tax collector—a man despised, considered a traitor to Israel for working for Rome. Jesus says "Follow me." Matthew leaves everything and follows. He hosts a dinner where Jesus eats with tax collectors and sinners. The Pharisees are scandalized: "Why eateth your Master with publicans and sinners?" Jesus answers: "I am not come to call the righteous, but sinners to repentance." He does not come for those who think they have no need. He comes for the lost, the excluded, the broken.',

@@ -300,6 +300,101 @@ export async function getArtworksForChapter(
 }
 
 /**
+ * Topic-tag prefix used inside the existing `artworks.tags` column to store
+ * thematic topics. The ingester writes `topic:<slug>` for each topicTag on
+ * a catalog plate; the resolver below filters with `tags @> ARRAY['topic:..']`.
+ */
+const TOPIC_TAG_PREFIX = 'topic:';
+
+/** Encode a topic slug as a row-level tag value. */
+export function encodeTopicTag(topic: string): string {
+  return `${TOPIC_TAG_PREFIX}${topic}`;
+}
+
+/** True iff a `tags` array entry is a topic tag (not 'manuscript-page' etc.). */
+export function isTopicTag(tag: string): boolean {
+  return tag.startsWith(TOPIC_TAG_PREFIX);
+}
+
+/**
+ * Fetch the topical-fallback artwork pool for a chapter — published,
+ * painted (non-manuscript), tagged with at least one of the chapter's
+ * topic tags, and excluding any artworks already in `excludeIds`
+ * (typically the chapter-specific pool, so the same plate doesn't appear
+ * twice).
+ *
+ * Results are ranked by topic-overlap score: plates that hit the
+ * earliest-listed (most-salient) topics in `chapterTopicTags` get the
+ * highest score. Within ties, ordering is left to the database (recently
+ * added wins, which roughly correlates with curated quality).
+ *
+ * Used by the chapter-page sanitizer to fill `kind: 'artwork'` blocks
+ * marked `topical: true` (or `opener` blocks marked the same), and to
+ * top up coverage when a chapter has fewer than `targetCount` images
+ * declared. The matched plate carries an implicit "themed" caption so
+ * the user sees that the painting is thematically related, not depicting
+ * the verse directly.
+ */
+export async function getTopicalArtworksForChapter(
+  chapterTopicTags: string[],
+  opts: {
+    excludeIds?: Set<string>;
+    limit?: number;
+    /** When true, include manuscripts. Default false — themed slots
+     *  should be paintings, not parchment folios. */
+    includeManuscripts?: boolean;
+  } = {},
+): Promise<ArtworkWithArtist[]> {
+  if (!chapterTopicTags?.length) return [];
+  const limit = opts.limit ?? 6;
+  const exclude = opts.excludeIds ?? new Set<string>();
+  const tagValues = chapterTopicTags.map(encodeTopicTag);
+
+  const { data, error } = await supabaseServer
+    .from('artworks')
+    .select(`
+      id, slug, title, artist_id, year, medium, source, source_url,
+      external_id, image_url, thumbnail_url,
+      thumbnail_256_url, thumbnail_800_url, dominant_color,
+      width, height,
+      license, license_note, description, status, tags,
+      artist:artists ( id, slug, name, birth_year, death_year, nationality, bio, wikipedia_url )
+    `)
+    .eq('status', 'published')
+    .eq('moderation_status', 'approved')
+    .overlaps('tags', tagValues)
+    .limit(80);
+
+  if (error) {
+    console.error('Error fetching topical artworks:', error);
+    return [];
+  }
+
+  // Score by topic-overlap: earlier-listed chapter tags weigh more
+  // (chapter authors order topicTags by salience). Plates matching
+  // the chapter's primary topic outrank plates matching only its
+  // secondary topic.
+  type Row = Artwork & { artist: Artist | Artist[] | null };
+  const scored: Array<{ score: number; art: ArtworkWithArtist }> = [];
+  for (const raw of (data ?? []) as Row[]) {
+    if (exclude.has(raw.id)) continue;
+    const isManuscript = raw.tags?.includes('manuscript-page') ?? false;
+    if (isManuscript && !opts.includeManuscripts) continue;
+    let score = 0;
+    for (let i = 0; i < chapterTopicTags.length; i++) {
+      if (raw.tags?.includes(encodeTopicTag(chapterTopicTags[i]))) {
+        score += Math.max(1, 10 - i);
+      }
+    }
+    if (score === 0) continue;
+    scored.push({ score, art: { ...raw, artist: unwrap(raw.artist) } });
+  }
+
+  scored.sort((a, b) => b.score - a.score);
+  return scored.slice(0, limit).map((s) => s.art);
+}
+
+/**
  * Fetch all published artworks associated with any chapter of a book.
  * Grouped by chapter so /art/book/[slug] can render chapter-by-chapter.
  */

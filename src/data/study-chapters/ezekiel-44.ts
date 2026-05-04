@@ -15,6 +15,10 @@ export const EZEKIEL_44: RichChapterContent = {
   chapter: 44,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+  opener: {
+    matchTitle: /Ezekiel/i,
+    caption: 'Ezekiel 44',
+  },
   intros: [
     'The gate through which God&apos;s glory entered will remain shut forever. This is a powerful symbol. What God has sanctified cannot be profaned by common traffic. The threshold of God&apos;s dwelling place is inviolable. And the priesthood of the renewed temple will be limited to the house of Zadok—those who remained faithful when others corrupted the sanctuary.',
     'This raises a difficult question: What of those who were unfaithful? What of the priests and leaders who failed? Ezekiel&apos;s answer is unsparing. They will not minister at the altar. They will not enter the holy place. They will perform only the service of the gates. Faithful service is rewarded. Unfaithfulness has consequences. Yet even in this judgment, there is mercy. The unfaithful are not destroyed. They are simply restricted from the closest approach to the holy. There is still a place for them in the renewed community.',

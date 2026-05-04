@@ -21,6 +21,10 @@ export const NUMBERS_17: RichChapterContent = {
   chapter: 17,
 
   estimatedMinutes: { beginner: 5, intermediate: 7, deep: 9 },
+  opener: {
+    matchTitle: /Aaron/i,
+    caption: 'Numbers 17',
+  },
   intros: [
     'Korah\'s rebellion has just ended — the ground opens and swallows the rebels whole. Fourteen thousand more Israelites die from plague. The people are terrified. They cry out to Moses and Aaron: "Behold, we die, we perish, we all perish... shall we be consumed with dying?" The priesthood itself is under question. Who has the authority from God to lead? Who speaks for Him?',
     'God settles it in a way no argument could. Twelve rods — one from each tribe leader — are laid in the tabernacle overnight. In the morning, one rod alone has not only sprouted but budded, blossomed, and borne fruit. Aaron\'s rod. Dead wood made to produce life. The text is sparse, almost quiet after the violence of rebellion, but what it shows is unmistakable: death giving way to life, God\'s choice made visible, and a token kept in the ark itself — a permanent sign.',

@@ -16,6 +16,10 @@ export const JOHN_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 3, intermediate: 7, deep: 10 },
+  opener: {
+    matchTitle: /Nathaniel Under the Fig/i,
+    caption: 'John 1',
+  },
   intros: [
     'The gospel according to John opens not with the birth of Jesus, but with the nature of the Word. In the beginning, before creation, before time itself, the Word existed with God and as God. This Word is not a concept or a message. It is a Person—eternal, divine, active in all creation. "All things were made by him; and without him was not any thing made that was made." The light shines in darkness, and the darkness comprehends it not.',
     'John the Baptist appears as a witness to this Word made flesh. "Behold the Lamb of God, which taketh away the sin of the world." In the Jordan, the heavens open, the Spirit descends, and a voice bears witness: this is the Son of God. From the Baptist and his disciples, word spreads. Men come and follow. They call Jesus "Master," "Rabbi," "King of Israel." But Jesus speaks of something greater still: the angels ascending and descending upon the Son of man. The threshold between heaven and earth is collapsing.',

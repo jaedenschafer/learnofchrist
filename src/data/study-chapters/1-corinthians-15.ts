@@ -18,6 +18,10 @@ export const FIRST_CORINTHIANS_15: RichChapterContent = {
   chapter: 15,
 
   estimatedMinutes: { beginner: 11, intermediate: 24, deep: 30 },
+  opener: {
+    matchTitle: /The Body of the/i,
+    caption: '1 Corinthians 15',
+  },
   intros: [
     'First Corinthians 15 begins where Romans ends: "There is therefore now no condemnation to them which are in Christ Jesus" (Rom. 8:1). But some Corinthians have embraced Greek dualism and concluded that the body is inherently evil, unworthy of resurrection. Only the soul matters. Paul vigorously rejects this error. The resurrection is not spiritual fantasy—it is historical fact. Christ died. Christ was buried. Christ rose. And His rising is not anomalous. It is the beginning of a new creation.',
     'Paul does not think the body is a problem to escape but a creation to redeem. The resurrection is not the soul&apos;s ascent to heaven. It is the body&apos;s transformation from decay to incorruption, from mortality to life eternal. You will not be disembodied forever. You will be raised. The dead will be raised. All things will be subdued under Christ, and then Christ Himself will be subdued to the Father, so that God may be all in all.',

@@ -20,6 +20,10 @@ export const KINGS_1_13: RichChapterContent = {
   chapter: 13,
 
   estimatedMinutes: { beginner: 7, intermediate: 14, deep: 19 },
+  opener: {
+    matchTitle: /The Disobedient Prophet Is/i,
+    caption: '1 Kings 13',
+  },
   intros: [
     'Jeroboam has set up altars of his own making at Bethel and Dan, turning Israel away from the house of the Lord. He has made priests from the lowest of the people, not from the tribe of Levi, and appointed his own holy days. But God is not silent. Into this moment of idolatry comes a man of God, unnamed and unknown, sent from Judah by the word of the Lord. What he says will echo across three centuries—a prophecy so specific that it will reshape history itself.',
     'Yet this chapter is not merely about prophecy. It is about obedience, deception, and the inexplicable ways of God&apos;s judgment. The man of God is given a command: eat no bread, drink no water, take no reward, and return by a different way. But when an old prophet lies to him, claiming divine authority, the man of God breaks his vow. The consequences are swift and terrible—and strangely merciful. In this story, we face questions that have no easy answers: How do we test the spirits? What do we do when even those who claim to speak for God mislead us? And what does God&apos;s judgment mean when it falls on the faithful?',

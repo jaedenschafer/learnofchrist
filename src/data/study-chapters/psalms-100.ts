@@ -17,6 +17,10 @@ export const PSALMS_100: RichChapterContent = {
   chapter: 100,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+  opener: {
+    matchTitle: /Harley Psalter fol r/i,
+    caption: 'Psalms 100',
+  },
   intros: [
     'Psalm 100 is the psalmist&apos;s final word—the conclusion and summary of all that has come before. It is a psalm of pure thanksgiving and joy. Make a joyful noise. Serve with gladness. Come before His presence with singing. Come into His gates with thanksgiving. All creation is invited. All peoples. The language is simple, the emotion is clear, the message is undeniable: the Lord is good. His mercy is everlasting. His truth endures to all generations.',
     'This is not complicated theology. It is not the cry of the suffering or the lament of the abandoned. It is the song of those who have journeyed through all the complex emotions of the psalter and arrived at a simple, profound truth: the Lord is good. And that goodness is the foundation upon which all gratitude rests.',

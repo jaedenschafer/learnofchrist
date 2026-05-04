@@ -13,6 +13,10 @@ export const JONAH_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
+  opener: {
+    matchTitle: /Jonah Preaches to the/i,
+    caption: 'Jonah 3',
+  },
   intros: [
     'Having been delivered from the fish, Jonah receives the same call a second time: "Arise, go unto Nineveh." This time he rises. He obeys. He goes into the great city and proclaims the coming judgment. What happens next is astonishing: Nineveh believes. From the king on his throne to the common beggar in the street, from the people to their cattle, all turn away from their wickedness. They fast, they put on sackcloth, they turn toward the God they do not yet know.',
     'What Jonah witnesses in Nineveh is a mass repentance, a city-wide turning. And God, seeing their turning, withholds the judgment He threatened. The fundamental rule of God&apos;s mercy is now visible: those who turn from evil shall live. Those who repent shall be spared.',

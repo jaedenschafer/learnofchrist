@@ -17,6 +17,10 @@ export const EZEKIEL_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 5 },
+  opener: {
+    matchTitle: /The Prophet Ezekiel/i,
+    caption: 'Ezekiel 1',
+  },
   intros: [
     'The book of Ezekiel opens with a moment of rupture. Ezekiel is among the exiles by the Chebar River when heaven opens and he sees visions of God. What he witnesses is not gentle or easily grasped. It is terrible and beautiful — a throne borne by creatures whose very complexity suggests that God&apos;s nature cannot be captured in simple forms. The four faces point in all directions at once: man, lion, ox, eagle. Each face sees what the others cannot. Straight lines do not constrain these creatures. They move together, powered by a spirit within the wheels, each wheel within a wheel, suggesting infinite complexity and perfect coordination. This is the God who meets Ezekiel in exile.',
   ],

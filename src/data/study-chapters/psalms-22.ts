@@ -17,6 +17,10 @@ export const PSALMS_22: RichChapterContent = {
   chapter: 22,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+  opener: {
+    matchTitle: /David the Psalmist Petition/i,
+    caption: 'Psalms 22',
+  },
   intros: [
     'Psalm 22 begins where human speech can barely go. A cry of abandonment. A prayer prayed in the depths. Yet embedded within this lament are some of the Bible&apos;s most explicit prophecies concerning Christ&apos;s passion and death. The piercing of His hands and feet, the division of His garments by lot, the mocking of those who pass by—all are foretold here with precision that could not be invented. What makes this psalm extraordinary is that it does not end in darkness. It ends in light, in the proclamation of redemption to the nations, in praise.',
   ],

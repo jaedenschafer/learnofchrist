@@ -15,6 +15,10 @@ export const JAMES_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 8, intermediate: 12, deep: 19 },
+  opener: {
+    matchTitle: /Saint James the Just/i,
+    caption: 'James 1',
+  },
   intros: [
     'James writes to believers scattered abroad, facing trials and opposition. His letter is pastoral and direct—he speaks not as a theorist but as one who knows the life of a faith community under pressure. Where does real joy come from when circumstances threaten? Not from the absence of hardship, but from the confidence that God is refining something precious in the fire.',
     'He turns next to the source of all good: the Father of lights, unchanging, utterly generous. This God does not tempt us toward evil. Instead, He invites us to ask for wisdom, to receive His word with gladness, and to become not just hearers but doers—people whose faith shows up in how they treat the broken. Pure religion, James will say, is visiting the fatherless and widows and keeping yourself unstained. That is faith made visible.',

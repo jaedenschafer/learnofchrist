@@ -12,6 +12,8 @@
 // 73 curated plates spanning Old and New Testaments
 // All filenames verified against Wikimedia Commons
 
+import type { TopicSlug } from './topics';
+
 export type RembrandtPlate = {
   externalId: string;
   title: string;
@@ -24,6 +26,9 @@ export type RembrandtPlate = {
   verseEnd: number;
   sceneSlug: string;
   description?: string;
+  /** Optional thematic topics. Used by the artwork resolver to fall
+   *  back from chapter-specific matches to topic-overlap matches. */
+  topicTags?: TopicSlug[];
 };
 
 export const REMBRANDT_PLATES: RembrandtPlate[] = [
@@ -37,7 +42,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 22,
     verseStart: 10,
     verseEnd: 13,
-    sceneSlug: 'sacrifice',
+    sceneSlug: 'sacrifice', topicTags: ['sacrifice', 'priest', 'covenant'],
     description: 'Rembrandt\'s most celebrated Old Testament work depicting Abraham\'s supreme act of obedience.',
   },
   {
@@ -50,7 +55,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 48,
     verseStart: 14,
     verseEnd: 20,
-    sceneSlug: 'patriarchs',
+    sceneSlug: 'patriarchs', topicTags: ['covenant', 'faithfulness', 'family'],
   },
   {
     externalId: 'rembrandt-belshazzar-feast',
@@ -62,7 +67,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 5,
     verseStart: 5,
     verseEnd: 28,
-    sceneSlug: 'judgment',
+    sceneSlug: 'judgment', topicTags: ['judgment', 'wrath', 'second-coming'],
     description: 'The handwriting on the wall appears at Belshazzar\'s feast with dramatic chiaroscuro.',
   },
   {
@@ -75,7 +80,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 16,
     verseStart: 23,
     verseEnd: 23,
-    sceneSlug: 'monarchy',
+    sceneSlug: 'monarchy', topicTags: ['kingship', 'leadership', 'sin'],
   },
   {
     externalId: 'rembrandt-bathsheba-receiving-letter',
@@ -87,7 +92,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 11,
     verseStart: 4,
     verseEnd: 5,
-    sceneSlug: 'monarchy',
+    sceneSlug: 'monarchy', topicTags: ['kingship', 'leadership', 'sin'],
   },
   {
     externalId: 'rembrandt-samson-delilah',
@@ -99,7 +104,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 16,
     verseStart: 4,
     verseEnd: 20,
-    sceneSlug: 'judges',
+    sceneSlug: 'judges', topicTags: ['deliverance', 'leadership', 'sin'],
     description: 'The betrayal moment as Delilah signals to the Philistines while Samson sleeps.',
   },
   {
@@ -112,7 +117,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 16,
     verseStart: 21,
     verseEnd: 21,
-    sceneSlug: 'judges',
+    sceneSlug: 'judges', topicTags: ['deliverance', 'leadership', 'sin'],
   },
   {
     externalId: 'rembrandt-susanna-elders',
@@ -148,7 +153,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 37,
     verseStart: 5,
     verseEnd: 11,
-    sceneSlug: 'patriarchs',
+    sceneSlug: 'patriarchs', topicTags: ['covenant', 'faithfulness', 'family'],
   },
   {
     externalId: 'rembrandt-prophetess-anna',
@@ -160,7 +165,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 2,
     verseStart: 36,
     verseEnd: 38,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'rembrandt-sacrifice-manoah',
@@ -172,7 +177,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 13,
     verseStart: 19,
     verseEnd: 23,
-    sceneSlug: 'judges',
+    sceneSlug: 'judges', topicTags: ['deliverance', 'leadership', 'sin'],
   },
   {
     externalId: 'rembrandt-balaam-ass',
@@ -184,7 +189,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 22,
     verseStart: 27,
     verseEnd: 35,
-    sceneSlug: 'wilderness',
+    sceneSlug: 'wilderness', topicTags: ['provision', 'doubt', 'protection'],
   },
   {
     externalId: 'rembrandt-abraham-three-angels',
@@ -196,7 +201,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 18,
     verseStart: 1,
     verseEnd: 15,
-    sceneSlug: 'patriarchs',
+    sceneSlug: 'patriarchs', topicTags: ['covenant', 'faithfulness', 'family'],
   },
   {
     externalId: 'rembrandt-moses-tablets',
@@ -208,7 +213,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 32,
     verseStart: 19,
     verseEnd: 19,
-    sceneSlug: 'covenant',
+    sceneSlug: 'covenant', topicTags: ['covenant', 'faithfulness', 'sacrifice'],
   },
   {
     externalId: 'rembrandt-haman-esther',
@@ -220,7 +225,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 7,
     verseStart: 7,
     verseEnd: 10,
-    sceneSlug: 'providence',
+    sceneSlug: 'providence', topicTags: ['sovereignty', 'faithfulness', 'provision'],
   },
   {
     externalId: 'rembrandt-joseph-accused',
@@ -232,7 +237,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 39,
     verseStart: 7,
     verseEnd: 18,
-    sceneSlug: 'patriarchs',
+    sceneSlug: 'patriarchs', topicTags: ['covenant', 'faithfulness', 'family'],
   },
   {
     externalId: 'rembrandt-vision-daniel',
@@ -244,7 +249,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 7,
     verseStart: 2,
     verseEnd: 14,
-    sceneSlug: 'visions',
+    sceneSlug: 'visions', topicTags: ['glory', 'second-coming', 'judgment'],
   },
   {
     externalId: 'rembrandt-jacob-rachel',
@@ -256,7 +261,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 29,
     verseStart: 11,
     verseEnd: 12,
-    sceneSlug: 'patriarchs',
+    sceneSlug: 'patriarchs', topicTags: ['covenant', 'faithfulness', 'family'],
   },
   {
     externalId: 'rembrandt-prophet-hosea',
@@ -268,7 +273,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 1,
     verseStart: 2,
     verseEnd: 3,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
   {
     externalId: 'rembrandt-elijah-ravens',
@@ -280,7 +285,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 17,
     verseStart: 4,
     verseEnd: 6,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
   {
     externalId: 'rembrandt-judah-tamar',
@@ -292,7 +297,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 38,
     verseStart: 15,
     verseEnd: 26,
-    sceneSlug: 'patriarchs',
+    sceneSlug: 'patriarchs', topicTags: ['covenant', 'faithfulness', 'family'],
   },
   {
     externalId: 'rembrandt-return-prodigal-son',
@@ -304,7 +309,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 15,
     verseStart: 20,
     verseEnd: 24,
-    sceneSlug: 'redemption',
+    sceneSlug: 'redemption', topicTags: ['mercy', 'forgiveness', 'cross'],
     description: 'Rembrandt\'s final masterpiece: the aging father embraces his wayward son in unconditional forgiveness.',
   },
   {
@@ -317,7 +322,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 8,
     verseStart: 22,
     verseEnd: 25,
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
     description: 'The only Rembrandt seascape, showing Christ calming the disciples\' fears during a tempest.',
   },
   {
@@ -330,7 +335,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 24,
     verseStart: 30,
     verseEnd: 31,
-    sceneSlug: 'resurrection',
+    sceneSlug: 'resurrection', topicTags: ['resurrection', 'hope', 'new-creation'],
   },
   {
     externalId: 'rembrandt-descent-cross',
@@ -342,7 +347,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 23,
     verseStart: 50,
     verseEnd: 56,
-    sceneSlug: 'crucifixion',
+    sceneSlug: 'crucifixion', topicTags: ['cross', 'sacrifice', 'suffering'],
   },
   {
     externalId: 'rembrandt-raising-cross',
@@ -354,7 +359,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 27,
     verseStart: 32,
     verseEnd: 35,
-    sceneSlug: 'crucifixion',
+    sceneSlug: 'crucifixion', topicTags: ['cross', 'sacrifice', 'suffering'],
   },
   {
     externalId: 'rembrandt-christ-preaching-hundred-guilder',
@@ -366,7 +371,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 19,
     verseStart: 1,
     verseEnd: 30,
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
     description: 'One of the most celebrated etchings, showing Christ teaching a multitude of poor and sick.',
   },
   {
@@ -379,7 +384,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 11,
     verseStart: 43,
     verseEnd: 44,
-    sceneSlug: 'miracles',
+    sceneSlug: 'miracles', topicTags: ['compassion', 'glory', 'sovereignty'],
   },
   {
     externalId: 'rembrandt-three-crosses',
@@ -391,7 +396,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 23,
     verseStart: 33,
     verseEnd: 47,
-    sceneSlug: 'crucifixion',
+    sceneSlug: 'crucifixion', topicTags: ['cross', 'sacrifice', 'suffering'],
     description: 'A revolutionary etching showing the darkening sky and spiritual drama of Golgotha.',
   },
   {
@@ -404,7 +409,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 2,
     verseStart: 8,
     verseEnd: 20,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'rembrandt-presentation-temple',
@@ -416,7 +421,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 2,
     verseStart: 22,
     verseEnd: 38,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'rembrandt-good-samaritan',
@@ -428,7 +433,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 10,
     verseStart: 33,
     verseEnd: 35,
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
   },
   {
     externalId: 'rembrandt-agony-garden',
@@ -440,7 +445,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 26,
     verseStart: 36,
     verseEnd: 46,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'rembrandt-christ-before-pilate',
@@ -452,7 +457,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 27,
     verseStart: 11,
     verseEnd: 14,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'rembrandt-ecce-homo',
@@ -464,7 +469,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 19,
     verseStart: 5,
     verseEnd: 5,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'rembrandt-crucifixion',
@@ -476,7 +481,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 27,
     verseStart: 33,
     verseEnd: 56,
-    sceneSlug: 'crucifixion',
+    sceneSlug: 'crucifixion', topicTags: ['cross', 'sacrifice', 'suffering'],
   },
   {
     externalId: 'rembrandt-christ-preaching-multitude',
@@ -488,7 +493,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 5,
     verseStart: 1,
     verseEnd: 12,
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
   },
   {
     externalId: 'rembrandt-flight-egypt',
@@ -500,7 +505,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 2,
     verseStart: 13,
     verseEnd: 15,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'rembrandt-holy-family',
@@ -512,7 +517,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 1,
     verseStart: 18,
     verseEnd: 25,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'rembrandt-risen-christ-magdalene',
@@ -524,7 +529,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 20,
     verseStart: 11,
     verseEnd: 18,
-    sceneSlug: 'resurrection',
+    sceneSlug: 'resurrection', topicTags: ['resurrection', 'hope', 'new-creation'],
   },
   {
     externalId: 'rembrandt-road-emmaus',
@@ -536,7 +541,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 24,
     verseStart: 13,
     verseEnd: 35,
-    sceneSlug: 'resurrection',
+    sceneSlug: 'resurrection', topicTags: ['resurrection', 'hope', 'new-creation'],
   },
   {
     externalId: 'rembrandt-incredulity-thomas',
@@ -548,7 +553,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 20,
     verseStart: 24,
     verseEnd: 29,
-    sceneSlug: 'resurrection',
+    sceneSlug: 'resurrection', topicTags: ['resurrection', 'hope', 'new-creation'],
   },
   {
     externalId: 'rembrandt-christ-woman-samaria',
@@ -560,7 +565,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 4,
     verseStart: 7,
     verseEnd: 42,
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
   },
   {
     externalId: 'rembrandt-christ-woman-adultery',
@@ -572,7 +577,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 8,
     verseStart: 3,
     verseEnd: 11,
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
   },
   {
     externalId: 'rembrandt-denial-peter',
@@ -584,7 +589,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 22,
     verseStart: 54,
     verseEnd: 62,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'rembrandt-pentecost',
@@ -596,7 +601,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 2,
     verseStart: 1,
     verseEnd: 4,
-    sceneSlug: 'apostles',
+    sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
   },
   {
     externalId: 'rembrandt-last-supper',
@@ -608,7 +613,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 26,
     verseStart: 26,
     verseEnd: 29,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'rembrandt-baptism-eunuch',
@@ -620,7 +625,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 8,
     verseStart: 36,
     verseEnd: 39,
-    sceneSlug: 'apostles',
+    sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
   },
   {
     externalId: 'rembrandt-peter-freed-angel',
@@ -632,7 +637,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 12,
     verseStart: 7,
     verseEnd: 11,
-    sceneSlug: 'apostles',
+    sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
   },
   {
     externalId: 'rembrandt-conversion-paul',
@@ -644,7 +649,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 9,
     verseStart: 3,
     verseEnd: 8,
-    sceneSlug: 'apostles',
+    sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
   },
   {
     externalId: 'rembrandt-ascension',
@@ -656,7 +661,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 1,
     verseStart: 9,
     verseEnd: 11,
-    sceneSlug: 'ascension',
+    sceneSlug: 'ascension', topicTags: ['kingship', 'resurrection'],
   },
 
   // ===== 2026-04-20 top-up =====
@@ -670,7 +675,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 7,
     verseStart: 54,
     verseEnd: 60,
-    sceneSlug: 'apostles',
+    sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
     description: "Rembrandt's first signed and dated painting, made at nineteen in Leiden. The first martyr kneels under the stones as Saul guards the coats. Musée des Beaux-Arts de Lyon.",
   },
   {
@@ -683,7 +688,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 2,
     verseStart: 25,
     verseEnd: 32,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: "Left unfinished at Rembrandt's death. The blind old priest cradles the Child in the dark: 'Now lettest thou thy servant depart in peace.' Nationalmuseum, Stockholm.",
   },
   {
@@ -696,7 +701,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 21,
     verseStart: 9,
     verseEnd: 21,
-    sceneSlug: 'abraham',
+    sceneSlug: 'abraham', topicTags: ['faithfulness', 'covenant', 'sacrifice'],
     description: "Sarah watches from the door as Abraham dismisses the Egyptian servant and her son with a loaf of bread and a water-skin. Cleveland Museum of Art.",
   },
   {
@@ -709,7 +714,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 2,
     verseStart: 11,
     verseEnd: 14,
-    sceneSlug: 'suffering',
+    sceneSlug: 'suffering', topicTags: ['suffering', 'lament', 'hope'],
     description: "The blind Tobit sits by the fire while his wife Anna stands over him with the kid goat she has earned — the moment that sets in motion the whole story. National Gallery, London.",
   },
   {
@@ -722,7 +727,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 6,
     verseStart: 10,
     verseEnd: 11,
-    sceneSlug: 'deliverance',
+    sceneSlug: 'deliverance', topicTags: ['deliverance', 'protection'],
     description: "Haman is compelled to lead Mordecai through the city on the king's horse, proclaiming: 'Thus shall it be done unto the man whom the king delighteth to honour.' National Gallery of Art, Washington.",
   },
   {
@@ -735,7 +740,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 14,
     verseStart: 1,
     verseEnd: 22,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
     description: "From the deuterocanonical Bel and the Dragon (Daniel 14). Daniel stands before king Cyrus and the idol Bel, whose offerings the priests secretly devour by night. J. Paul Getty Museum, Los Angeles.",
   },
   {
@@ -748,7 +753,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 1,
     verseStart: 12,
     verseEnd: 14,
-    sceneSlug: 'apostles',
+    sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
     description: "An early Leiden-period masterpiece. Paul sits in the cell with a quill, a book on his lap, and a sword at his side — writing from chains. Staatsgalerie Stuttgart.",
   },
   {
@@ -761,7 +766,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 15,
     verseStart: 22,
     verseEnd: 28,
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
     description: "The Gentile mother at Christ's feet: 'Yet the dogs eat of the crumbs which fall from their master's table.' Rijksmuseum, Amsterdam.",
   },
   {
@@ -774,7 +779,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 20,
     verseStart: 14,
     verseEnd: 18,
-    sceneSlug: 'resurrection',
+    sceneSlug: 'resurrection', topicTags: ['resurrection', 'hope', 'new-creation'],
     description: "The risen Christ, mistaken for the gardener, turns to the Magdalene: 'Touch me not; for I am not yet ascended to my Father.'",
   },
   {
@@ -787,7 +792,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 2,
     verseStart: 13,
     verseEnd: 15,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: "A nocturnal landscape: the Holy Family around a small fire, utterly lost in the darkness of a vast wooded hillside. National Gallery of Ireland, Dublin.",
   },
   {
@@ -800,7 +805,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 22,
     verseStart: 15,
     verseEnd: 22,
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
     description: "The Pharisees hand Christ the coin: 'Render therefore unto Caesar the things which are Caesar's; and unto God the things that are God's.'",
   },
   {
@@ -813,7 +818,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 1,
     verseStart: 29,
     verseEnd: 31,
-    sceneSlug: 'miracles',
+    sceneSlug: 'miracles', topicTags: ['compassion', 'glory', 'sovereignty'],
     description: "Christ takes the sick woman by the hand and lifts her up out of fever — one of the first miracles of the Capernaum ministry.",
   },
   {
@@ -826,7 +831,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 10,
     verseStart: 38,
     verseEnd: 42,
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
     description: "Mary sits at Christ's feet; Martha protests that her sister has left her to serve alone. 'Mary hath chosen that good part, which shall not be taken away from her.'",
   },
   {
@@ -839,7 +844,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 12,
     verseStart: 15,
     verseEnd: 21,
-    sceneSlug: 'suffering',
+    sceneSlug: 'suffering', topicTags: ['suffering', 'lament', 'hope'],
     description: "Raphael reveals himself at last — 'I am Raphael, one of the seven holy angels' — and ascends. The family falls to the ground in astonishment. Musée du Louvre, Paris.",
   },
   {
@@ -852,7 +857,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 2,
     verseStart: 21,
     verseEnd: 21,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: "The naming and circumcision of Jesus staged inside the Bethlehem stable, with the shepherds still present — Rembrandt's distinctive reading of Luke 2:21.",
   },
   {
@@ -865,7 +870,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 2,
     verseStart: 21,
     verseEnd: 21,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: "Late canvas version, with the rite staged in the Temple courtyard at a low angle. National Gallery of Art, Washington.",
   },
   {
@@ -878,7 +883,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 32,
     verseStart: 24,
     verseEnd: 30,
-    sceneSlug: 'patriarchs',
+    sceneSlug: 'patriarchs', topicTags: ['covenant', 'faithfulness', 'family'],
     description: "At the ford of the Jabbok the stranger grips Jacob as the dawn breaks. 'I will not let thee go, except thou bless me.' Gemäldegalerie, Berlin.",
   },
   {
@@ -891,7 +896,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 27,
     verseStart: 3,
     verseEnd: 5,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
     description: "Judas hurls the silver onto the floor of the Temple and convulses at the feet of the priests — an early Leiden panel praised by Constantijn Huygens. Private collection (Mulgrave Castle).",
   },
   {
@@ -904,7 +909,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 2,
     verseStart: 13,
     verseEnd: 15,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: "Mary reads by the fire; the infant Christ sleeps in his cradle as angels descend in a stream of light. State Hermitage Museum, Saint Petersburg.",
   },
   {
@@ -917,7 +922,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 11,
     verseStart: 28,
     verseEnd: 30,
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
     description: "One of Rembrandt's oil studies taken from a Jewish model in Amsterdam — the departure from idealized Renaissance Christs that runs through his later biblical work. Philadelphia Museum of Art.",
   },
   {
@@ -930,7 +935,7 @@ export const REMBRANDT_PLATES: RembrandtPlate[] = [
     chapter: 1,
     verseStart: 16,
     verseEnd: 17,
-    sceneSlug: 'deliverance',
+    sceneSlug: 'deliverance', topicTags: ['deliverance', 'protection'],
     description: "The two widows on the road out of Moab: 'Whither thou goest, I will go; and where thou lodgest, I will lodge: thy people shall be my people, and thy God my God.' Museum Boijmans Van Beuningen, Rotterdam.",
   }
 ];

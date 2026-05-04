@@ -6,6 +6,10 @@ export const JOSHUA_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 7, intermediate: 11, deep: 17 },
+  opener: {
+    matchTitle: /Israel Crosses the Jordan/i,
+    caption: 'Joshua 3',
+  },
   intros: [
     'Joshua 3 is the story of Israel crossing the Jordan River — the final barrier between the wilderness and the promised land. The Jordan runs at flood stage. The priests carry the ark of God. When their feet touch the water, the river stops entirely. The priests stand on dry ground in the middle of the riverbed while all Israel crosses over. It is the second great sign of God&apos;s presence that defines a generation: the Red Sea for those who left Egypt, the Jordan for those who will inherit Canaan.',
     'The passage is built on a pattern that runs through all of Scripture: the people must follow the ark (the manifest presence of God), keep their distance from it in reverence, and obey without seeing the outcome in advance. God does not explain the miracle. He asks for faith first — then the waters part.',

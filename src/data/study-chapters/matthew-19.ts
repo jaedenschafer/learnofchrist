@@ -16,6 +16,10 @@ export const MATTHEW_19: RichChapterContent = {
   chapter: 19,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 5 },
+  opener: {
+    matchTitle: /The Pharisees Question Jesus/i,
+    caption: 'Matthew 19',
+  },
   intros: [
     'Jesus journeys to Judea, and crowds follow. He teaches about marriage and divorce, declaring that God joins a man and woman together, and what He has joined, no human should separate. Children are brought to Jesus for blessing. The disciples try to turn them away, but Jesus welcomes them, saying the kingdom of heaven belongs to such as these.',
     'A young man approaches Jesus, kneeling respectfully. He has kept the commandments from his youth. What more does he lack? Jesus sees into his heart and identifies what binds him: his wealth. "If thou wilt be perfect, go and sell that thou hast, and give to the poor... and come and follow me." The young man goes away grieved. He cannot let go. The chapter closes with the somber reminder: many are called, but how few are chosen?',

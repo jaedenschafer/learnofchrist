@@ -18,6 +18,10 @@ export const JOB_11: RichChapterContent = {
   chapter: 11,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 6 },
+  opener: {
+    matchTitle: /Job Rebuked by His/i,
+    caption: 'Job 11',
+  },
   intros: [
     'Job has finished speaking, and now Zophar rises to respond. Of the three friends, Zophar is perhaps the most severe. Where Eliphaz was grandfatherly and Bildad conventional, Zophar is harsh. He begins with an accusation: "Should thy lies make men hold their peace?" He is not asking this as a question. He is asserting that Job has been lying, that Job has been deceiving both his friends and himself.',
     'Zophar then claims access to truth that Job lacks. "Canst thou by searching find out God?" he asks—implying that Job cannot, but that Zophar can, or that he understands what Job does not. Zophar speaks as a man utterly certain of his theology, utterly certain that he knows the mind of God. And his certainty is itself a form of cruelty. He leaves no room for mystery, no room for the possibility that he might be wrong, no room for the genuine wrestling with faith that Job is engaged in. He offers Job only condemnation and a demand for repentance.',

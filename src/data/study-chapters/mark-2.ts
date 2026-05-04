@@ -19,6 +19,10 @@ export const MARK_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 3, intermediate: 7, deep: 9 },
+  opener: {
+    matchTitle: /The Healing of the/i,
+    caption: 'Mark 2',
+  },
   intros: [
     'Mark 2 presents a series of confrontations between Jesus and the religious establishment. Each reveals a deeper truth about who Jesus is and what the kingdom of God means. A paralyzed man is brought before Him—not by the wealthy or the connected, but by friends who tear open a roof to access Jesus. Jesus looks at this scene and sees something the scribes cannot see: the faith that moved men to such extraordinary action. He forgives the man&apos;s sins. Immediately, the scribes whisper their objection. Only God can forgive sins. But Jesus answers them with a question and a demonstration.',
     'Throughout the chapter, the themes deepen. Jesus calls Levi, a tax collector—a man despised by the righteous as a traitor to Israel. He eats in Levi&apos;s house with other publicans and sinners. When questioned, Jesus responds: "They that are whole have no need of the physician; but they that are sick. I came not to call the righteous, but sinners to repentance." The chapter ends with the Sabbath controversy: men plucking grain on the Sabbath, and Jesus declaring that the Sabbath was made for humanity, not humanity for the Sabbath. The old law is being interpreted anew.',

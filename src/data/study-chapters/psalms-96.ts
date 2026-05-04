@@ -17,6 +17,10 @@ export const PSALMS_96: RichChapterContent = {
   chapter: 96,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 3 },
+  opener: {
+    matchTitle: /Sing unto the Lord/i,
+    caption: 'Psalms 96',
+  },
   intros: [
     'Psalm 96 celebrates the universality of God&apos;s salvation. It is not enough that Israel worships God. The psalmist&apos;s vision expands to include all peoples. "O sing unto the Lord, all the earth." "Declare his glory among the heathen." God&apos;s wonders are to be made known to every nation. The God of Israel is the God of all the earth.',
     'This is a vision of a world where God&apos;s glory is recognized everywhere. Where all peoples know His works. Where all nations bow before Him. Not through conquest or force, but through the declaration of His glory, the proclamation of His salvation, the witness of His power and His goodness.',

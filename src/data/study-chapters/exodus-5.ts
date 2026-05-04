@@ -13,6 +13,10 @@ export const EXODUS_5: RichChapterContent = {
   chapter: 5,
 
   estimatedMinutes: { beginner: 6, intermediate: 10, deep: 12 },
+  opener: {
+    matchTitle: /Moses Demands Israel/i,
+    caption: 'Exodus 5',
+  },
   intros: [
     'Exodus 5 is the moment deliverance is announced—and everything gets worse. Moses and Aaron stand before Pharaoh with a direct command from the Lord: "Let my people go, that they may hold a feast unto me in the wilderness." Pharaoh responds with a single question that echoes through the centuries: "Who is the LORD, that I should obey his voice?"',
     'What follows is immediate punishment. The taskmasters increase the burden. Israel must gather straw for their own bricks—impossible labor with an unchanged quota. The people turn against Moses. Moses turns against God, crying out in the desert: "Wherefore hast thou so evil entreated this people?" The pattern is complete: deliverance announced, suffering increased, the deliverer abandoned, the deliverer questioning God. This pattern is not unique to Israel at the brick kilns. It will appear again, nearly identical, at a cross outside Jerusalem.',

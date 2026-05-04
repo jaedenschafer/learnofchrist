@@ -6,6 +6,10 @@ export const REVELATION_20: RichChapterContent = {
   chapter: 20,
 
   estimatedMinutes: { beginner: 6, intermediate: 9, deep: 14 },
+  opener: {
+    matchTitle: /Last Judgment/i,
+    caption: 'Revelation 20',
+  },
   intros: [
     'An angel descends with a great chain. The dragon — the old serpent, the devil, Satan — is bound for a thousand years and cast into the bottomless pit. The faithful who died for their witness to Jesus live and reign with Christ. This is the first resurrection. For a thousand years they rule with Him as priests of God and of Christ.',
     'After the thousand years, Satan is loosed for a little season. He gathers Gog and Magog for one final assault. Fire from heaven devours them. The devil is cast into the lake of fire and brimstone forever. Then the last courtroom: the great white throne. The dead are judged. The Book of Life is opened. Whoever is not found written in it is cast into the lake of fire — the second death.',

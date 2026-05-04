@@ -12,6 +12,8 @@
 // Argenti panels, and the Chapel of Nicholas V.
 // All plates verified on Wikimedia Commons.
 
+import type { TopicSlug } from './topics';
+
 export type FraAngelicoPlate = {
   externalId: string;
   title: string;
@@ -24,6 +26,9 @@ export type FraAngelicoPlate = {
   verseEnd?: number;
   sceneSlug?: string;
   description?: string;
+  /** Optional thematic topics. Used by the artwork resolver to fall
+   *  back from chapter-specific matches to topic-overlap matches. */
+  topicTags?: TopicSlug[];
 };
 
 export const FRA_ANGELICO_PLATES: FraAngelicoPlate[] = [
@@ -38,7 +43,7 @@ export const FRA_ANGELICO_PLATES: FraAngelicoPlate[] = [
     chapter: 1,
     verseStart: 26,
     verseEnd: 38,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: "Gabriel kneels under a loggia before Mary; at left, Adam and Eve are driven from Eden — the Fall and its reversal held in one frame. Museo Nacional del Prado, Madrid.",
   },
   {
@@ -51,7 +56,7 @@ export const FRA_ANGELICO_PLATES: FraAngelicoPlate[] = [
     chapter: 1,
     verseStart: 26,
     verseEnd: 38,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: "Originally for the high altar of San Domenico, Cortona. Gabriel's words cross the panel in gold script: 'The Holy Ghost shall come upon thee.' Museo Diocesano, Cortona.",
   },
   {
@@ -64,7 +69,7 @@ export const FRA_ANGELICO_PLATES: FraAngelicoPlate[] = [
     chapter: 1,
     verseStart: 26,
     verseEnd: 38,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: "The fresco at the head of the dormitory stairs — the first image the friars saw each morning on the way to their cells. Convent of San Marco, Florence.",
   },
   {
@@ -77,7 +82,7 @@ export const FRA_ANGELICO_PLATES: FraAngelicoPlate[] = [
     chapter: 1,
     verseStart: 26,
     verseEnd: 38,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: "Cell 3. A stripped-down second Annunciation — Peter Martyr watches from the side as Gabriel and Mary meet. Convent of San Marco, Florence.",
   },
 
@@ -91,7 +96,7 @@ export const FRA_ANGELICO_PLATES: FraAngelicoPlate[] = [
     bookSlug: 'luke',
     chapter: 2,
     verseStart: 7,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: "Cell 5. Mary and Joseph kneel in adoration before the Child in the manger. Convent of San Marco, Florence.",
   },
   {
@@ -104,7 +109,7 @@ export const FRA_ANGELICO_PLATES: FraAngelicoPlate[] = [
     chapter: 2,
     verseStart: 22,
     verseEnd: 38,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: "Cell 10. Simeon takes the child in his arms: 'Now lettest thou thy servant depart in peace.' Convent of San Marco, Florence.",
   },
   {
@@ -117,7 +122,7 @@ export const FRA_ANGELICO_PLATES: FraAngelicoPlate[] = [
     chapter: 3,
     verseStart: 13,
     verseEnd: 17,
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
     description: "San Marco cell fresco. John pours water from a shallow bowl; the Spirit descends as a dove. Convent of San Marco, Florence.",
   },
   {
@@ -130,7 +135,7 @@ export const FRA_ANGELICO_PLATES: FraAngelicoPlate[] = [
     chapter: 5,
     verseStart: 1,
     verseEnd: 12,
-    sceneSlug: 'teaching',
+    sceneSlug: 'teaching', topicTags: ['wisdom', 'witness'],
     description: "San Marco cell fresco. Christ teaches the Beatitudes seated on the slope; the disciples attend in a semicircle. Convent of San Marco, Florence.",
   },
   {
@@ -143,7 +148,7 @@ export const FRA_ANGELICO_PLATES: FraAngelicoPlate[] = [
     chapter: 17,
     verseStart: 1,
     verseEnd: 8,
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
     description: "Cell 6. Christ stands on Tabor in a mandorla of light with Moses and Elijah flanking him; the three apostles crouch below. Convent of San Marco, Florence.",
   },
 
@@ -158,7 +163,7 @@ export const FRA_ANGELICO_PLATES: FraAngelicoPlate[] = [
     chapter: 22,
     verseStart: 39,
     verseEnd: 46,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
     description: "Christ kneels in Gethsemane while the apostles sleep — Mary and Martha sit reading in an adjacent cloister, the contemplative life paired with the prayer of Christ. Convent of San Marco, Florence.",
   },
   {
@@ -171,7 +176,7 @@ export const FRA_ANGELICO_PLATES: FraAngelicoPlate[] = [
     chapter: 26,
     verseStart: 47,
     verseEnd: 56,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
     description: "From the Armadio degli Argenti, the thirty-five-panel cycle painted for the reliquary cupboard of Santissima Annunziata. Judas leans to kiss Christ; Peter cuts off the ear of Malchus. Museo di San Marco, Florence.",
   },
   {
@@ -184,7 +189,7 @@ export const FRA_ANGELICO_PLATES: FraAngelicoPlate[] = [
     chapter: 13,
     verseStart: 4,
     verseEnd: 17,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
     description: "From the Armadio degli Argenti. Christ kneels with the basin before Peter, who recoils: 'Lord, dost thou wash my feet?' Museo di San Marco, Florence.",
   },
   {
@@ -197,7 +202,7 @@ export const FRA_ANGELICO_PLATES: FraAngelicoPlate[] = [
     chapter: 27,
     verseStart: 11,
     verseEnd: 26,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
     description: "From the Armadio degli Argenti. Pilate, enthroned, washes his hands while Christ stands bound. Museo di San Marco, Florence.",
   },
   {
@@ -210,7 +215,7 @@ export const FRA_ANGELICO_PLATES: FraAngelicoPlate[] = [
     chapter: 27,
     verseStart: 27,
     verseEnd: 31,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
     description: "Cell 7. Christ sits blindfolded and crowned with thorns, the instruments of his mocking — a hand, a spitting mouth, a stick — floating in the void around him. A radical emblem rather than a narrative. Convent of San Marco, Florence.",
   },
   {
@@ -223,7 +228,7 @@ export const FRA_ANGELICO_PLATES: FraAngelicoPlate[] = [
     chapter: 19,
     verseStart: 17,
     verseEnd: 18,
-    sceneSlug: 'crucifixion',
+    sceneSlug: 'crucifixion', topicTags: ['cross', 'sacrifice', 'suffering'],
     description: "Cell 36. The body of Christ is stretched on the wood at the edge of Golgotha while a soldier drives the nail. Convent of San Marco, Florence.",
   },
   {
@@ -236,7 +241,7 @@ export const FRA_ANGELICO_PLATES: FraAngelicoPlate[] = [
     chapter: 19,
     verseStart: 25,
     verseEnd: 30,
-    sceneSlug: 'crucifixion',
+    sceneSlug: 'crucifixion', topicTags: ['cross', 'sacrifice', 'suffering'],
     description: "Chapter House fresco at San Marco. Christ on the cross between the two thieves, flanked by a congregation of twenty saints and patriarchs — the universal Church at the foot of the cross. Convent of San Marco, Florence.",
   },
   {
@@ -249,7 +254,7 @@ export const FRA_ANGELICO_PLATES: FraAngelicoPlate[] = [
     chapter: 19,
     verseStart: 25,
     verseEnd: 30,
-    sceneSlug: 'crucifixion',
+    sceneSlug: 'crucifixion', topicTags: ['cross', 'sacrifice', 'suffering'],
     description: "Repeated at the head of the stairs and through the dormitory corridors. Saint Dominic clutches the base of the cross — the Dominican icon of contemplative prayer. Convent of San Marco, Florence.",
   },
   {
@@ -262,7 +267,7 @@ export const FRA_ANGELICO_PLATES: FraAngelicoPlate[] = [
     chapter: 19,
     verseStart: 38,
     verseEnd: 42,
-    sceneSlug: 'crucifixion',
+    sceneSlug: 'crucifixion', topicTags: ['cross', 'sacrifice', 'suffering'],
     description: "Altarpiece for the sacristy of Santa Trinita, Florence — begun by Lorenzo Monaco and finished by Fra Angelico after Monaco's death. The body is lowered by ladders; the Magdalene kneels at the feet. Museo di San Marco, Florence.",
   },
   {
@@ -275,7 +280,7 @@ export const FRA_ANGELICO_PLATES: FraAngelicoPlate[] = [
     chapter: 19,
     verseStart: 38,
     verseEnd: 42,
-    sceneSlug: 'crucifixion',
+    sceneSlug: 'crucifixion', topicTags: ['cross', 'sacrifice', 'suffering'],
     description: "The body of Christ laid across Mary's lap; the Magdalene weeps at his feet while the disciples mourn.",
   },
   {
@@ -288,7 +293,7 @@ export const FRA_ANGELICO_PLATES: FraAngelicoPlate[] = [
     chapter: 27,
     verseStart: 57,
     verseEnd: 61,
-    sceneSlug: 'crucifixion',
+    sceneSlug: 'crucifixion', topicTags: ['cross', 'sacrifice', 'suffering'],
     description: "Panel from the predella of the Santa Trinita Deposition (or a closely related altarpiece). Joseph and Nicodemus lower the body into the sepulchre.",
   },
 
@@ -303,7 +308,7 @@ export const FRA_ANGELICO_PLATES: FraAngelicoPlate[] = [
     chapter: 28,
     verseStart: 1,
     verseEnd: 7,
-    sceneSlug: 'resurrection',
+    sceneSlug: 'resurrection', topicTags: ['resurrection', 'hope', 'new-creation'],
     description: "Cell 8. The women arrive at the empty tomb; the angel points upward, where the risen Christ hovers in a mandorla. Convent of San Marco, Florence.",
   },
   {
@@ -316,7 +321,7 @@ export const FRA_ANGELICO_PLATES: FraAngelicoPlate[] = [
     chapter: 3,
     verseStart: 18,
     verseEnd: 20,
-    sceneSlug: 'redemption',
+    sceneSlug: 'redemption', topicTags: ['mercy', 'forgiveness', 'cross'],
     description: "Cell 31. Christ strides into the pit to lead out Adam, Eve, and the prophets — the Harrowing of Hell, with a demon crushed beneath the shattered door. Convent of San Marco, Florence.",
   },
   {
@@ -329,7 +334,7 @@ export const FRA_ANGELICO_PLATES: FraAngelicoPlate[] = [
     chapter: 26,
     verseStart: 26,
     verseEnd: 29,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
     description: "Cell 35. A eucharistic treatment of the Last Supper — Christ passes the host to each kneeling apostle in turn. Convent of San Marco, Florence.",
   },
 
@@ -343,7 +348,7 @@ export const FRA_ANGELICO_PLATES: FraAngelicoPlate[] = [
     bookSlug: 'luke',
     chapter: 2,
     verseStart: 22,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: "Earliest surviving altarpiece, painted for the high altar of San Domenico, Fiesole (c.1423–1424). Reworked a century later by Lorenzo di Credi with a new landscape background. National Gallery, London.",
   },
   {
@@ -355,7 +360,7 @@ export const FRA_ANGELICO_PLATES: FraAngelicoPlate[] = [
     bookSlug: 'luke',
     chapter: 1,
     verseStart: 42,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: "Commissioned by the Florentine linen-weavers' guild; the marble frame is by Lorenzo Ghiberti. A vast Madonna and Child with twelve musical angels. Museo di San Marco, Florence.",
   },
   {
@@ -368,7 +373,7 @@ export const FRA_ANGELICO_PLATES: FraAngelicoPlate[] = [
     chapter: 1,
     verseStart: 26,
     verseEnd: 38,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: "Polyptych for San Domenico, Perugia. Detail of the Angel of the Annunciation from the gable panels. Galleria Nazionale dell'Umbria, Perugia.",
   },
   {
@@ -380,7 +385,7 @@ export const FRA_ANGELICO_PLATES: FraAngelicoPlate[] = [
     bookSlug: 'revelation',
     chapter: 12,
     verseStart: 1,
-    sceneSlug: 'redemption',
+    sceneSlug: 'redemption', topicTags: ['mercy', 'forgiveness', 'cross'],
     description: "Originally for the high altar of San Domenico, Fiesole. Christ crowns the Virgin on a step pyramid of clouds, surrounded by saints and angels. Musée du Louvre, Paris.",
   },
   {
@@ -392,7 +397,7 @@ export const FRA_ANGELICO_PLATES: FraAngelicoPlate[] = [
     bookSlug: 'revelation',
     chapter: 12,
     verseStart: 1,
-    sceneSlug: 'redemption',
+    sceneSlug: 'redemption', topicTags: ['mercy', 'forgiveness', 'cross'],
     description: "Cell 9. A stripped-down fresco Coronation: Christ crowns Mary above six Dominican witnesses. Convent of San Marco, Florence.",
   },
   {
@@ -405,7 +410,7 @@ export const FRA_ANGELICO_PLATES: FraAngelicoPlate[] = [
     chapter: 1,
     verseStart: 46,
     verseEnd: 55,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: "Mary seated on the ground (the iconography of humility) holding the Child. The gold ground still reads the Virgin as Queen even as the pose reads her as handmaid.",
   },
   {
@@ -417,7 +422,7 @@ export const FRA_ANGELICO_PLATES: FraAngelicoPlate[] = [
     bookSlug: 'luke',
     chapter: 1,
     verseStart: 42,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: "The 'Madonna delle Ombre' — the corridor fresco at San Marco in which the cast shadows of the painted pilasters reach across the Virgin's throne. A landmark moment in the Renaissance study of light.",
   },
 
@@ -431,7 +436,7 @@ export const FRA_ANGELICO_PLATES: FraAngelicoPlate[] = [
     bookSlug: 'luke',
     chapter: 2,
     verseStart: 7,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: "From the Armadio degli Argenti. The shed opens to show Mary, Joseph, the ox and ass, and the naked Child on the ground. Museo di San Marco, Florence.",
   },
   {
@@ -444,7 +449,7 @@ export const FRA_ANGELICO_PLATES: FraAngelicoPlate[] = [
     chapter: 2,
     verseStart: 16,
     verseEnd: 18,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: "From the Armadio degli Argenti. Herod's soldiers carry out the slaughter in front of his throne. Museo di San Marco, Florence.",
   },
   {
@@ -457,7 +462,7 @@ export const FRA_ANGELICO_PLATES: FraAngelicoPlate[] = [
     chapter: 2,
     verseStart: 13,
     verseEnd: 15,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: "From the Armadio degli Argenti. Mary rides with the Child; Joseph walks ahead leading the donkey across the landscape. Museo di San Marco, Florence.",
   },
 
@@ -472,7 +477,7 @@ export const FRA_ANGELICO_PLATES: FraAngelicoPlate[] = [
     chapter: 25,
     verseStart: 31,
     verseEnd: 46,
-    sceneSlug: 'judgment',
+    sceneSlug: 'judgment', topicTags: ['judgment', 'wrath', 'second-coming'],
     description: "A long horizontal altarpiece for Santa Maria degli Angeli, Florence. Christ in glory at the centre; the saved dance in a Paradise of flowers at the left, the damned drag one another into Hell at the right. Museo di San Marco, Florence.",
   },
 
@@ -486,7 +491,7 @@ export const FRA_ANGELICO_PLATES: FraAngelicoPlate[] = [
     bookSlug: 'acts',
     chapter: 6,
     verseStart: 8,
-    sceneSlug: 'apostles',
+    sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
     description: "From the Chapel of Nicholas V in the Vatican Palace — the late fresco cycle on the deacon-martyrs Stephen and Lawrence, painted for Pope Nicholas V. Lawrence is bound to the gridiron over the coals.",
   },
 ];

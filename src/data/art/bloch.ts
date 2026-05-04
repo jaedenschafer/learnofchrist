@@ -3,6 +3,8 @@
 // Frederiksborg Castle (1865–1879). All works here are in the public domain
 // and verified on Wikimedia Commons.
 
+import type { TopicSlug } from './topics';
+
 export type BlochPainting = {
   externalId: string;
   title: string;
@@ -15,6 +17,9 @@ export type BlochPainting = {
   verseEnd?: number;
   sceneSlug?: string;
   description?: string;
+  /** Optional thematic topics. Used by the artwork resolver to fall
+   *  back from chapter-specific matches to topic-overlap matches. */
+  topicTags?: TopicSlug[];
 };
 
 export const BLOCH_PAINTINGS: BlochPainting[] = [
@@ -28,7 +33,7 @@ export const BLOCH_PAINTINGS: BlochPainting[] = [
     chapter: 1,
     verseStart: 26,
     verseEnd: 38,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'bloch-meeting-mary-elisabeth',
@@ -40,7 +45,7 @@ export const BLOCH_PAINTINGS: BlochPainting[] = [
     chapter: 1,
     verseStart: 39,
     verseEnd: 56,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'bloch-shepherds-and-the-angel',
@@ -52,7 +57,7 @@ export const BLOCH_PAINTINGS: BlochPainting[] = [
     chapter: 2,
     verseStart: 8,
     verseEnd: 14,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'bloch-adoration-of-the-shepherds',
@@ -64,7 +69,7 @@ export const BLOCH_PAINTINGS: BlochPainting[] = [
     chapter: 2,
     verseStart: 15,
     verseEnd: 20,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'bloch-jesus-in-the-temple',
@@ -76,7 +81,7 @@ export const BLOCH_PAINTINGS: BlochPainting[] = [
     chapter: 2,
     verseStart: 41,
     verseEnd: 52,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'bloch-baptism-of-christ',
@@ -88,7 +93,7 @@ export const BLOCH_PAINTINGS: BlochPainting[] = [
     chapter: 3,
     verseStart: 13,
     verseEnd: 17,
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
   },
   {
     externalId: 'bloch-jesus-tempted',
@@ -100,7 +105,7 @@ export const BLOCH_PAINTINGS: BlochPainting[] = [
     chapter: 4,
     verseStart: 1,
     verseEnd: 11,
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
   },
   {
     externalId: 'bloch-wedding-at-cana',
@@ -112,7 +117,7 @@ export const BLOCH_PAINTINGS: BlochPainting[] = [
     chapter: 2,
     verseStart: 1,
     verseEnd: 11,
-    sceneSlug: 'miracles',
+    sceneSlug: 'miracles', topicTags: ['compassion', 'glory', 'sovereignty'],
   },
   {
     externalId: 'bloch-sermon-on-the-mount',
@@ -124,7 +129,7 @@ export const BLOCH_PAINTINGS: BlochPainting[] = [
     chapter: 5,
     verseStart: 1,
     verseEnd: 12,
-    sceneSlug: 'teaching',
+    sceneSlug: 'teaching', topicTags: ['wisdom', 'witness'],
   },
   {
     externalId: 'bloch-woman-at-the-well',
@@ -136,7 +141,7 @@ export const BLOCH_PAINTINGS: BlochPainting[] = [
     chapter: 4,
     verseStart: 5,
     verseEnd: 26,
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
   },
   {
     externalId: 'bloch-healing-blind-man',
@@ -148,7 +153,7 @@ export const BLOCH_PAINTINGS: BlochPainting[] = [
     chapter: 9,
     verseStart: 1,
     verseEnd: 12,
-    sceneSlug: 'miracles',
+    sceneSlug: 'miracles', topicTags: ['compassion', 'glory', 'sovereignty'],
   },
   {
     externalId: 'bloch-suffer-the-children',
@@ -160,7 +165,7 @@ export const BLOCH_PAINTINGS: BlochPainting[] = [
     chapter: 10,
     verseStart: 13,
     verseEnd: 16,
-    sceneSlug: 'teaching',
+    sceneSlug: 'teaching', topicTags: ['wisdom', 'witness'],
   },
   {
     externalId: 'bloch-jairus-daughter',
@@ -172,7 +177,7 @@ export const BLOCH_PAINTINGS: BlochPainting[] = [
     chapter: 5,
     verseStart: 21,
     verseEnd: 43,
-    sceneSlug: 'miracles',
+    sceneSlug: 'miracles', topicTags: ['compassion', 'glory', 'sovereignty'],
   },
   {
     externalId: 'bloch-raising-of-lazarus',
@@ -184,7 +189,7 @@ export const BLOCH_PAINTINGS: BlochPainting[] = [
     chapter: 11,
     verseStart: 38,
     verseEnd: 44,
-    sceneSlug: 'miracles',
+    sceneSlug: 'miracles', topicTags: ['compassion', 'glory', 'sovereignty'],
   },
   {
     externalId: 'bloch-transfiguration',
@@ -196,7 +201,7 @@ export const BLOCH_PAINTINGS: BlochPainting[] = [
     chapter: 17,
     verseStart: 1,
     verseEnd: 9,
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
   },
   {
     externalId: 'bloch-casting-out-money-changers',
@@ -208,7 +213,7 @@ export const BLOCH_PAINTINGS: BlochPainting[] = [
     chapter: 2,
     verseStart: 13,
     verseEnd: 22,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'bloch-last-supper',
@@ -220,7 +225,7 @@ export const BLOCH_PAINTINGS: BlochPainting[] = [
     chapter: 26,
     verseStart: 17,
     verseEnd: 30,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'bloch-christ-in-gethsemane',
@@ -232,7 +237,7 @@ export const BLOCH_PAINTINGS: BlochPainting[] = [
     chapter: 26,
     verseStart: 36,
     verseEnd: 46,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'bloch-mocking-of-christ',
@@ -244,7 +249,7 @@ export const BLOCH_PAINTINGS: BlochPainting[] = [
     chapter: 27,
     verseStart: 27,
     verseEnd: 31,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'bloch-crown-of-thorns',
@@ -256,7 +261,7 @@ export const BLOCH_PAINTINGS: BlochPainting[] = [
     chapter: 19,
     verseStart: 1,
     verseEnd: 5,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'bloch-christ-at-the-cross',
@@ -268,7 +273,7 @@ export const BLOCH_PAINTINGS: BlochPainting[] = [
     chapter: 19,
     verseStart: 17,
     verseEnd: 30,
-    sceneSlug: 'crucifixion',
+    sceneSlug: 'crucifixion', topicTags: ['cross', 'sacrifice', 'suffering'],
   },
   {
     externalId: 'bloch-descent-from-the-cross',
@@ -280,7 +285,7 @@ export const BLOCH_PAINTINGS: BlochPainting[] = [
     chapter: 19,
     verseStart: 38,
     verseEnd: 42,
-    sceneSlug: 'crucifixion',
+    sceneSlug: 'crucifixion', topicTags: ['cross', 'sacrifice', 'suffering'],
   },
   {
     externalId: 'bloch-burial',
@@ -292,7 +297,7 @@ export const BLOCH_PAINTINGS: BlochPainting[] = [
     chapter: 27,
     verseStart: 57,
     verseEnd: 61,
-    sceneSlug: 'crucifixion',
+    sceneSlug: 'crucifixion', topicTags: ['cross', 'sacrifice', 'suffering'],
   },
   {
     externalId: 'bloch-resurrection-of-christ',
@@ -304,7 +309,7 @@ export const BLOCH_PAINTINGS: BlochPainting[] = [
     chapter: 28,
     verseStart: 1,
     verseEnd: 10,
-    sceneSlug: 'resurrection',
+    sceneSlug: 'resurrection', topicTags: ['resurrection', 'hope', 'new-creation'],
   },
   {
     externalId: 'bloch-doubting-thomas',
@@ -316,7 +321,7 @@ export const BLOCH_PAINTINGS: BlochPainting[] = [
     chapter: 20,
     verseStart: 24,
     verseEnd: 29,
-    sceneSlug: 'resurrection',
+    sceneSlug: 'resurrection', topicTags: ['resurrection', 'hope', 'new-creation'],
   },
   {
     externalId: 'bloch-supper-at-emmaus',
@@ -328,7 +333,7 @@ export const BLOCH_PAINTINGS: BlochPainting[] = [
     chapter: 24,
     verseStart: 28,
     verseEnd: 35,
-    sceneSlug: 'resurrection',
+    sceneSlug: 'resurrection', topicTags: ['resurrection', 'hope', 'new-creation'],
   },
   {
     externalId: 'bloch-road-to-emmaus',
@@ -340,7 +345,7 @@ export const BLOCH_PAINTINGS: BlochPainting[] = [
     chapter: 24,
     verseStart: 13,
     verseEnd: 27,
-    sceneSlug: 'resurrection',
+    sceneSlug: 'resurrection', topicTags: ['resurrection', 'hope', 'new-creation'],
   },
   {
     externalId: 'bloch-christ-healing-the-sick',
@@ -352,7 +357,7 @@ export const BLOCH_PAINTINGS: BlochPainting[] = [
     chapter: 4,
     verseStart: 23,
     verseEnd: 25,
-    sceneSlug: 'miracles',
+    sceneSlug: 'miracles', topicTags: ['compassion', 'glory', 'sovereignty'],
   },
   {
     externalId: 'bloch-christ-the-consolator',
@@ -364,6 +369,6 @@ export const BLOCH_PAINTINGS: BlochPainting[] = [
     chapter: 11,
     verseStart: 28,
     verseEnd: 30,
-    sceneSlug: 'teaching',
+    sceneSlug: 'teaching', topicTags: ['wisdom', 'witness'],
   },
 ];

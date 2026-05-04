@@ -15,6 +15,10 @@ export const GENESIS_18: RichChapterContent = {
   chapter: 18,
 
   estimatedMinutes: { beginner: 7, intermediate: 11, deep: 15 },
+  opener: {
+    matchTitle: /Abraham and the Three/i,
+    caption: 'Genesis 18',
+  },
   intros: [
     'Genesis 18 has two halves that echo each other. In the first, Abraham sits at the door of his tent at noon and sees three men walking toward him. He does not know who they are. He runs to meet them and offers them water, shade, and bread - the hospitality of a desert nomad toward strangers. They accept, and one of them speaks the promise Abraham has been waiting for: within a year, Sarah will have a son.',
     'In the second half, the strangers rise to go. Abraham walks with them toward Sodom. And then, at the turning point of the chapter, the Lord says something stunning: "Shall I hide from Abraham that thing which I do?" What follows is not judgment first, but disclosure. Abraham learns what is about to happen to Sodom and Gerar, and he begins to pray - to bargain, even - for the city. He starts at fifty righteous souls and works his way down [res:bibleodyssey-abraham-covenant] to ten, and the Lord listens to him each time. Hospitality in the first half has become intercession in the second.',

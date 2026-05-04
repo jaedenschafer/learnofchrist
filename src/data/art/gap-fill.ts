@@ -12,6 +12,8 @@
 // `source = 'gap_fill'` groups them so this batch can be moderated as a
 // unit; each entry still has its own artist record.
 
+import type { TopicSlug } from './topics';
+
 export type GapFillItem = {
   externalId: string;
   title: string;
@@ -31,6 +33,9 @@ export type GapFillItem = {
   verseEnd?: number;
   sceneSlug?: string;
   description?: string;
+  /** Optional thematic topics. Used by the artwork resolver to fall
+   *  back from chapter-specific matches to topic-overlap matches. */
+  topicTags?: TopicSlug[];
 };
 
 export const GAP_FILL_ITEMS: GapFillItem[] = [
@@ -46,7 +51,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistWikipediaUrl: 'https://en.wikipedia.org/wiki/Chludov_Psalter',
     wikimediaFile: 'Chludov david.jpg',
     year: 850, medium: 'Tempera on parchment',
-    bookSlug: 'psalms', chapter: 1, verseStart: 1, verseEnd: 6, sceneSlug: 'wisdom',
+    bookSlug: 'psalms', chapter: 1, verseStart: 1, verseEnd: 6, sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
   {
     externalId: 'khludov-rivers-of-babylon',
@@ -54,7 +59,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'khludov-master', artistName: 'Master of the Khludov Psalter',
     wikimediaFile: 'Chludov - Rivers of Babylon (cropped).jpg',
     year: 850, medium: 'Tempera on parchment',
-    bookSlug: 'psalms', chapter: 137, verseStart: 1, verseEnd: 4, sceneSlug: 'suffering',
+    bookSlug: 'psalms', chapter: 137, verseStart: 1, verseEnd: 4, sceneSlug: 'suffering', topicTags: ['suffering', 'lament', 'hope'],
   },
   {
     externalId: 'khludov-unicorn',
@@ -62,7 +67,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'khludov-master', artistName: 'Master of the Khludov Psalter',
     wikimediaFile: 'Chludov unicorn.jpg',
     year: 850, medium: 'Tempera on parchment',
-    bookSlug: 'psalms', chapter: 22, verseStart: 21, verseEnd: 21, sceneSlug: 'suffering',
+    bookSlug: 'psalms', chapter: 22, verseStart: 21, verseEnd: 21, sceneSlug: 'suffering', topicTags: ['suffering', 'lament', 'hope'],
   },
   {
     externalId: 'khludov-assembly',
@@ -70,7 +75,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'khludov-master', artistName: 'Master of the Khludov Psalter',
     wikimediaFile: 'Chludov sobor.jpg',
     year: 850, medium: 'Tempera on parchment',
-    bookSlug: 'psalms', chapter: 95, verseStart: 1, verseEnd: 7, sceneSlug: 'wisdom',
+    bookSlug: 'psalms', chapter: 95, verseStart: 1, verseEnd: 7, sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
   {
     externalId: 'khludov-ascension',
@@ -78,7 +83,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'khludov-master', artistName: 'Master of the Khludov Psalter',
     wikimediaFile: 'Chludov Ascension.jpg',
     year: 850, medium: 'Tempera on parchment',
-    bookSlug: 'psalms', chapter: 24, verseStart: 7, verseEnd: 10, sceneSlug: 'ascension',
+    bookSlug: 'psalms', chapter: 24, verseStart: 7, verseEnd: 10, sceneSlug: 'ascension', topicTags: ['kingship', 'resurrection'],
   },
   {
     externalId: 'khludov-jonah',
@@ -86,7 +91,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'khludov-master', artistName: 'Master of the Khludov Psalter',
     wikimediaFile: 'Chludov jonah.jpg',
     year: 850, medium: 'Tempera on parchment',
-    bookSlug: 'psalms', chapter: 69, verseStart: 1, verseEnd: 3, sceneSlug: 'deliverance',
+    bookSlug: 'psalms', chapter: 69, verseStart: 1, verseEnd: 3, sceneSlug: 'deliverance', topicTags: ['deliverance', 'protection'],
   },
   {
     externalId: 'khludov-proclamation',
@@ -94,7 +99,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'khludov-master', artistName: 'Master of the Khludov Psalter',
     wikimediaFile: 'Chludov proclamation.jpg',
     year: 850, medium: 'Tempera on parchment',
-    bookSlug: 'psalms', chapter: 98, verseStart: 1, verseEnd: 4, sceneSlug: 'wisdom',
+    bookSlug: 'psalms', chapter: 98, verseStart: 1, verseEnd: 4, sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
   {
     externalId: 'khludov-miriams-song',
@@ -102,7 +107,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'khludov-master', artistName: 'Master of the Khludov Psalter',
     wikimediaFile: 'Chludov Miriam.jpg',
     year: 850, medium: 'Tempera on parchment',
-    bookSlug: 'psalms', chapter: 68, verseStart: 24, verseEnd: 27, sceneSlug: 'wisdom',
+    bookSlug: 'psalms', chapter: 68, verseStart: 24, verseEnd: 27, sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
   {
     externalId: 'khludov-red-sea',
@@ -110,7 +115,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'khludov-master', artistName: 'Master of the Khludov Psalter',
     wikimediaFile: 'Chludov red sea.jpg',
     year: 850, medium: 'Tempera on parchment',
-    bookSlug: 'psalms', chapter: 78, verseStart: 12, verseEnd: 16, sceneSlug: 'deliverance',
+    bookSlug: 'psalms', chapter: 78, verseStart: 12, verseEnd: 16, sceneSlug: 'deliverance', topicTags: ['deliverance', 'protection'],
   },
   {
     externalId: 'khludov-fiery-furnace',
@@ -118,7 +123,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'khludov-master', artistName: 'Master of the Khludov Psalter',
     wikimediaFile: 'Chludov Fiery furnace.jpg',
     year: 850, medium: 'Tempera on parchment',
-    bookSlug: 'psalms', chapter: 66, verseStart: 10, verseEnd: 12, sceneSlug: 'deliverance',
+    bookSlug: 'psalms', chapter: 66, verseStart: 10, verseEnd: 12, sceneSlug: 'deliverance', topicTags: ['deliverance', 'protection'],
   },
   {
     externalId: 'khludov-charity',
@@ -126,7 +131,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'khludov-master', artistName: 'Master of the Khludov Psalter',
     wikimediaFile: 'Chludov charity.jpg',
     year: 850, medium: 'Tempera on parchment',
-    bookSlug: 'psalms', chapter: 41, verseStart: 1, verseEnd: 3, sceneSlug: 'wisdom',
+    bookSlug: 'psalms', chapter: 41, verseStart: 1, verseEnd: 3, sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
   {
     externalId: 'khludov-angel-of-protection',
@@ -134,7 +139,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'khludov-master', artistName: 'Master of the Khludov Psalter',
     wikimediaFile: 'Chludov angel.jpg',
     year: 850, medium: 'Tempera on parchment',
-    bookSlug: 'psalms', chapter: 91, verseStart: 11, verseEnd: 12, sceneSlug: 'deliverance',
+    bookSlug: 'psalms', chapter: 91, verseStart: 11, verseEnd: 12, sceneSlug: 'deliverance', topicTags: ['deliverance', 'protection'],
   },
   {
     externalId: 'khludov-daniel',
@@ -142,7 +147,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'khludov-master', artistName: 'Master of the Khludov Psalter',
     wikimediaFile: 'ChludovDaniil.jpg',
     year: 850, medium: 'Tempera on parchment',
-    bookSlug: 'psalms', chapter: 75, verseStart: 7, verseEnd: 10, sceneSlug: 'wisdom',
+    bookSlug: 'psalms', chapter: 75, verseStart: 7, verseEnd: 10, sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
   {
     externalId: 'khludov-crucifixion-iconoclasts',
@@ -150,7 +155,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'khludov-master', artistName: 'Master of the Khludov Psalter',
     wikimediaFile: 'Crucifixion with iconoclasts, Chludov Psalter, folio 67r.jpg',
     year: 850, medium: 'Tempera on parchment',
-    bookSlug: 'psalms', chapter: 68, verseStart: 21, verseEnd: 23, sceneSlug: 'crucifixion',
+    bookSlug: 'psalms', chapter: 68, verseStart: 21, verseEnd: 23, sceneSlug: 'crucifixion', topicTags: ['cross', 'sacrifice', 'suffering'],
     description: 'The mocking of Christ at Calvary paired with iconoclasts whitewashing an icon of Christ — one of the most famous polemical images of the Iconoclast Controversy.',
   },
 
@@ -165,7 +170,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistWikipediaUrl: 'https://en.wikipedia.org/wiki/Utrecht_Psalter',
     wikimediaFile: 'Utrechts-Psalter PSALM-46 lyres.jpg',
     year: 825, medium: 'Pen drawing on parchment',
-    bookSlug: 'psalms', chapter: 46, verseStart: 1, verseEnd: 11, sceneSlug: 'wisdom',
+    bookSlug: 'psalms', chapter: 46, verseStart: 1, verseEnd: 11, sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
   {
     externalId: 'utrecht-psalter-psalm-48',
@@ -173,7 +178,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'utrecht-psalter-master', artistName: 'Master of the Utrecht Psalter',
     wikimediaFile: 'Utrechts-Psalter PSALM-48 psaltery.jpg',
     year: 825, medium: 'Pen drawing on parchment',
-    bookSlug: 'psalms', chapter: 48, verseStart: 1, verseEnd: 14, sceneSlug: 'wisdom',
+    bookSlug: 'psalms', chapter: 48, verseStart: 1, verseEnd: 14, sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
   {
     externalId: 'utrecht-psalter-psalm-67',
@@ -181,7 +186,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'utrecht-psalter-master', artistName: 'Master of the Utrecht Psalter',
     wikimediaFile: 'Utrechts-Psalter PSALM-67 instruments.jpg',
     year: 825, medium: 'Pen drawing on parchment',
-    bookSlug: 'psalms', chapter: 67, verseStart: 1, verseEnd: 7, sceneSlug: 'wisdom',
+    bookSlug: 'psalms', chapter: 67, verseStart: 1, verseEnd: 7, sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
   {
     externalId: 'utrecht-psalter-psalm-70',
@@ -189,7 +194,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'utrecht-psalter-master', artistName: 'Master of the Utrecht Psalter',
     wikimediaFile: 'Utrechts-Psalter PSALM-70 cithara and harp intruments of psaltery.jpg',
     year: 825, medium: 'Pen drawing on parchment',
-    bookSlug: 'psalms', chapter: 70, verseStart: 1, verseEnd: 5, sceneSlug: 'wisdom',
+    bookSlug: 'psalms', chapter: 70, verseStart: 1, verseEnd: 5, sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
   {
     externalId: 'utrecht-psalter-psalm-80',
@@ -197,7 +202,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'utrecht-psalter-master', artistName: 'Master of the Utrecht Psalter',
     wikimediaFile: 'Utrechts-Psalter PSALM-80 horns.jpg',
     year: 825, medium: 'Pen drawing on parchment',
-    bookSlug: 'psalms', chapter: 80, verseStart: 1, verseEnd: 19, sceneSlug: 'wisdom',
+    bookSlug: 'psalms', chapter: 80, verseStart: 1, verseEnd: 19, sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
   {
     externalId: 'utrecht-psalter-psalm-92',
@@ -205,7 +210,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'utrecht-psalter-master', artistName: 'Master of the Utrecht Psalter',
     wikimediaFile: 'Utrechts-Psalter PSALM-92 trumpet1.jpg',
     year: 825, medium: 'Pen drawing on parchment',
-    bookSlug: 'psalms', chapter: 92, verseStart: 1, verseEnd: 15, sceneSlug: 'wisdom',
+    bookSlug: 'psalms', chapter: 92, verseStart: 1, verseEnd: 15, sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
   {
     externalId: 'utrecht-psalter-psalm-107',
@@ -213,7 +218,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'utrecht-psalter-master', artistName: 'Master of the Utrecht Psalter',
     wikimediaFile: 'Utrechts-Psalter PSALM-107 psaltery and cithara.jpg',
     year: 825, medium: 'Pen drawing on parchment',
-    bookSlug: 'psalms', chapter: 107, verseStart: 1, verseEnd: 43, sceneSlug: 'wisdom',
+    bookSlug: 'psalms', chapter: 107, verseStart: 1, verseEnd: 43, sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
   {
     externalId: 'utrecht-psalter-psalm-134',
@@ -221,7 +226,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'utrecht-psalter-master', artistName: 'Master of the Utrecht Psalter',
     wikimediaFile: 'Utrechts-Psalter PSALM-134 lyre.jpg',
     year: 825, medium: 'Pen drawing on parchment',
-    bookSlug: 'psalms', chapter: 134, verseStart: 1, verseEnd: 3, sceneSlug: 'wisdom',
+    bookSlug: 'psalms', chapter: 134, verseStart: 1, verseEnd: 3, sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
   {
     externalId: 'utrecht-psalter-psalm-143',
@@ -229,7 +234,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'utrecht-psalter-master', artistName: 'Master of the Utrecht Psalter',
     wikimediaFile: 'Utrechts-Psalter PSALM-143 psalterio or lyre.jpg',
     year: 825, medium: 'Pen drawing on parchment',
-    bookSlug: 'psalms', chapter: 143, verseStart: 1, verseEnd: 12, sceneSlug: 'wisdom',
+    bookSlug: 'psalms', chapter: 143, verseStart: 1, verseEnd: 12, sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
   {
     externalId: 'utrecht-psalter-psalm-145',
@@ -237,7 +242,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'utrecht-psalter-master', artistName: 'Master of the Utrecht Psalter',
     wikimediaFile: 'Utrechts-Psalter PSALM-145-PSALM-146 cythara and lyre.jpg',
     year: 825, medium: 'Pen drawing on parchment',
-    bookSlug: 'psalms', chapter: 145, verseStart: 1, verseEnd: 21, sceneSlug: 'wisdom',
+    bookSlug: 'psalms', chapter: 145, verseStart: 1, verseEnd: 21, sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
   {
     externalId: 'utrecht-psalter-psalm-150',
@@ -245,7 +250,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'utrecht-psalter-master', artistName: 'Master of the Utrecht Psalter',
     wikimediaFile: 'Utrechts-Psalter PSALM-149-PSALM-150 organ.jpg',
     year: 825, medium: 'Pen drawing on parchment',
-    bookSlug: 'psalms', chapter: 150, verseStart: 1, verseEnd: 6, sceneSlug: 'wisdom',
+    bookSlug: 'psalms', chapter: 150, verseStart: 1, verseEnd: 6, sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
   {
     externalId: 'utrecht-psalter-psalm-91',
@@ -253,7 +258,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'utrecht-psalter-master', artistName: 'Master of the Utrecht Psalter',
     wikimediaFile: 'Utrechts-Psalter PSALM-91 harp and cythara.jpg',
     year: 825, medium: 'Pen drawing on parchment',
-    bookSlug: 'psalms', chapter: 91, verseStart: 1, verseEnd: 16, sceneSlug: 'deliverance',
+    bookSlug: 'psalms', chapter: 91, verseStart: 1, verseEnd: 16, sceneSlug: 'deliverance', topicTags: ['deliverance', 'protection'],
   },
 
   // ───────── MICHELANGELO — Sistine Chapel prophets ─────────
@@ -269,7 +274,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistWikipediaUrl: 'https://en.wikipedia.org/wiki/Michelangelo',
     wikimediaFile: "'Isaiah Sistine Chapel ceiling' by Michelangelo JBU36.jpg",
     year: 1509, medium: 'Fresco',
-    bookSlug: 'isaiah', chapter: 6, verseStart: 1, verseEnd: 8, sceneSlug: 'prophets',
+    bookSlug: 'isaiah', chapter: 6, verseStart: 1, verseEnd: 8, sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
   {
     externalId: 'michelangelo-sistine-ezekiel',
@@ -277,7 +282,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'michelangelo-buonarroti', artistName: 'Michelangelo Buonarroti',
     wikimediaFile: 'Michelangelo - Sistine Chapel - Ezekiel, detail - 1510.jpg',
     year: 1510, medium: 'Fresco',
-    bookSlug: 'ezekiel', chapter: 1, verseStart: 1, verseEnd: 28, sceneSlug: 'prophets',
+    bookSlug: 'ezekiel', chapter: 1, verseStart: 1, verseEnd: 28, sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
   {
     externalId: 'michelangelo-sistine-daniel',
@@ -285,7 +290,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'michelangelo-buonarroti', artistName: 'Michelangelo Buonarroti',
     wikimediaFile: 'Daniel SistineChapel.jpg',
     year: 1511, medium: 'Fresco',
-    bookSlug: 'daniel', chapter: 7, verseStart: 1, verseEnd: 14, sceneSlug: 'prophets',
+    bookSlug: 'daniel', chapter: 7, verseStart: 1, verseEnd: 14, sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
   {
     externalId: 'michelangelo-sistine-jonah',
@@ -293,7 +298,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'michelangelo-buonarroti', artistName: 'Michelangelo Buonarroti',
     wikimediaFile: 'Sistine jonah.jpg',
     year: 1512, medium: 'Fresco',
-    bookSlug: 'jonah', chapter: 2, verseStart: 1, verseEnd: 10, sceneSlug: 'deliverance',
+    bookSlug: 'jonah', chapter: 2, verseStart: 1, verseEnd: 10, sceneSlug: 'deliverance', topicTags: ['deliverance', 'protection'],
   },
   {
     externalId: 'michelangelo-sistine-zechariah',
@@ -301,7 +306,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'michelangelo-buonarroti', artistName: 'Michelangelo Buonarroti',
     wikimediaFile: 'Zacharias (Michelangelo).jpg',
     year: 1509, medium: 'Fresco',
-    bookSlug: 'zechariah', chapter: 1, verseStart: 1, verseEnd: 6, sceneSlug: 'prophets',
+    bookSlug: 'zechariah', chapter: 1, verseStart: 1, verseEnd: 6, sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
   {
     externalId: 'michelangelo-sistine-joel',
@@ -309,7 +314,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'michelangelo-buonarroti', artistName: 'Michelangelo Buonarroti',
     wikimediaFile: 'Joel (Michelangelo).jpg',
     year: 1509, medium: 'Fresco',
-    bookSlug: 'joel', chapter: 2, verseStart: 28, verseEnd: 32, sceneSlug: 'prophets',
+    bookSlug: 'joel', chapter: 2, verseStart: 28, verseEnd: 32, sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
 
   // ───────── FLORENCE BAPTISTERY — Lorenzo Ghiberti et al. ─────────
@@ -323,7 +328,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistWikipediaUrl: 'https://en.wikipedia.org/wiki/Florence_Baptistery',
     wikimediaFile: 'FlorenceBaptistery Habakkuk.png',
     year: 1452, medium: 'Bronze relief',
-    bookSlug: 'habakkuk', chapter: 3, verseStart: 17, verseEnd: 19, sceneSlug: 'prophets',
+    bookSlug: 'habakkuk', chapter: 3, verseStart: 17, verseEnd: 19, sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
   {
     externalId: 'florence-baptistery-zephaniah',
@@ -332,7 +337,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistName: 'Master of the Florence Baptistery (Ghiberti workshop)',
     wikimediaFile: 'FlorenceBaptistery Zephaniah.png',
     year: 1452, medium: 'Bronze relief',
-    bookSlug: 'zephaniah', chapter: 3, verseStart: 14, verseEnd: 17, sceneSlug: 'prophets',
+    bookSlug: 'zephaniah', chapter: 3, verseStart: 14, verseEnd: 17, sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
   {
     externalId: 'florence-baptistery-haggai',
@@ -341,7 +346,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistName: 'Master of the Florence Baptistery (Ghiberti workshop)',
     wikimediaFile: 'FlorenceBaptistery Haggai.png',
     year: 1452, medium: 'Bronze relief',
-    bookSlug: 'haggai', chapter: 1, verseStart: 1, verseEnd: 11, sceneSlug: 'prophets',
+    bookSlug: 'haggai', chapter: 1, verseStart: 1, verseEnd: 11, sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
   {
     externalId: 'florence-baptistery-malachi',
@@ -350,7 +355,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistName: 'Master of the Florence Baptistery (Ghiberti workshop)',
     wikimediaFile: 'FlorenceBaptistery Malachi.png',
     year: 1452, medium: 'Bronze relief',
-    bookSlug: 'malachi', chapter: 3, verseStart: 1, verseEnd: 6, sceneSlug: 'prophets',
+    bookSlug: 'malachi', chapter: 3, verseStart: 1, verseEnd: 6, sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
 
   // ───────── RUSSIAN PROPHET ICONS ─────────
@@ -363,7 +368,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistBio: 'Anonymous Russian Orthodox iconographers responsible for the standard prophet portrait icons used in the iconostasis tradition.',
     wikimediaFile: 'Obadiah (Овдий).jpg',
     year: 1700, medium: 'Tempera on panel',
-    bookSlug: 'obadiah', chapter: 1, verseStart: 1, verseEnd: 21, sceneSlug: 'prophets',
+    bookSlug: 'obadiah', chapter: 1, verseStart: 1, verseEnd: 21, sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
   {
     externalId: 'russian-icon-nahum',
@@ -371,7 +376,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'russian-icon-master', artistName: 'Master of the Russian Prophet Icons',
     wikimediaFile: 'Nahum-prophet.jpg',
     year: 1700, medium: 'Tempera on panel',
-    bookSlug: 'nahum', chapter: 1, verseStart: 1, verseEnd: 15, sceneSlug: 'prophets',
+    bookSlug: 'nahum', chapter: 1, verseStart: 1, verseEnd: 15, sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
 
   // ───────── WILLIAM HOLMAN HUNT — Pre-Raphaelite ─────────
@@ -386,7 +391,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistWikipediaUrl: 'https://en.wikipedia.org/wiki/William_Holman_Hunt',
     wikimediaFile: 'William Holman Hunt - The Scapegoat.jpg',
     year: 1856, medium: 'Oil on canvas',
-    bookSlug: 'leviticus', chapter: 16, verseStart: 20, verseEnd: 22, sceneSlug: 'deliverance',
+    bookSlug: 'leviticus', chapter: 16, verseStart: 20, verseEnd: 22, sceneSlug: 'deliverance', topicTags: ['deliverance', 'protection'],
   },
   {
     externalId: 'holman-hunt-consecration-of-aaron',
@@ -394,7 +399,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'william-holman-hunt', artistName: 'William Holman Hunt',
     wikimediaFile: 'Holman Consecration of Aaron and His Sons.jpg',
     year: 1864, medium: 'Oil on canvas',
-    bookSlug: 'leviticus', chapter: 8, verseStart: 1, verseEnd: 36, sceneSlug: 'wisdom',
+    bookSlug: 'leviticus', chapter: 8, verseStart: 1, verseEnd: 36, sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
 
   // ───────── VALENTIN DE BOULOGNE ─────────
@@ -409,7 +414,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistWikipediaUrl: 'https://en.wikipedia.org/wiki/Valentin_de_Boulogne',
     wikimediaFile: 'Valentin de Boulogne - Saint Paul Writing His Epistles - BF.1991.4 - Museum of Fine Arts.jpg',
     year: 1620, medium: 'Oil on canvas',
-    bookSlug: '2-corinthians', chapter: 4, verseStart: 7, verseEnd: 12, sceneSlug: 'apostles',
+    bookSlug: '2-corinthians', chapter: 4, verseStart: 7, verseEnd: 12, sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
   },
 
   // ───────── HANS MEMLING — Saint John Altarpiece ─────────
@@ -424,7 +429,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistWikipediaUrl: 'https://en.wikipedia.org/wiki/Hans_Memling',
     wikimediaFile: 'St John Altarpiece by Memling (c. 1479) — right wing (30970533506).jpg',
     year: 1479, medium: 'Oil on panel',
-    bookSlug: 'revelation', chapter: 1, verseStart: 9, verseEnd: 11, sceneSlug: 'apocalypse',
+    bookSlug: 'revelation', chapter: 1, verseStart: 9, verseEnd: 11, sceneSlug: 'apocalypse', topicTags: ['second-coming', 'new-creation', 'judgment'],
   },
 
   // ───────── KING SOLOMON IN OLD AGE — for Ecclesiastes ─────────
@@ -436,7 +441,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistBio: 'Anonymous late-19th-century engraving of Solomon as the Preacher of Ecclesiastes.',
     wikimediaFile: 'Colorized King Solomon in Old Age.png',
     year: 1880, medium: 'Engraving (colorized)',
-    bookSlug: 'ecclesiastes', chapter: 1, verseStart: 1, verseEnd: 11, sceneSlug: 'wisdom',
+    bookSlug: 'ecclesiastes', chapter: 1, verseStart: 1, verseEnd: 11, sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
 
   // ───────── VITTORE CARPACCIO — Stoning of Saint Stephen ─────────
@@ -451,7 +456,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistWikipediaUrl: 'https://en.wikipedia.org/wiki/Vittore_Carpaccio',
     wikimediaFile: 'Vittore Carpaccio 084.jpg',
     year: 1520, medium: 'Oil on canvas',
-    bookSlug: 'acts', chapter: 7, verseStart: 54, verseEnd: 60, sceneSlug: 'apostles',
+    bookSlug: 'acts', chapter: 7, verseStart: 54, verseEnd: 60, sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
   },
 
   // ───────── HANS BURGKMAIR — Apocalypse cycle ─────────
@@ -466,7 +471,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistWikipediaUrl: 'https://en.wikipedia.org/wiki/Hans_Burgkmair',
     wikimediaFile: 'Burgkmair whore babylon color.jpg',
     year: 1523, medium: 'Woodcut (colored)',
-    bookSlug: 'revelation', chapter: 17, verseStart: 1, verseEnd: 18, sceneSlug: 'apocalypse',
+    bookSlug: 'revelation', chapter: 17, verseStart: 1, verseEnd: 18, sceneSlug: 'apocalypse', topicTags: ['second-coming', 'new-creation', 'judgment'],
   },
 
   // ───────── EL GRECO — Saint Jude Thaddeus (epistle author) ─────────
@@ -481,7 +486,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistWikipediaUrl: 'https://en.wikipedia.org/wiki/El_Greco',
     wikimediaFile: 'El Greco - St. Jude Thaddeus - Google Art Project.jpg',
     year: 1612, medium: 'Oil on canvas',
-    bookSlug: 'jude', chapter: 1, verseStart: 1, verseEnd: 4, sceneSlug: 'apostles',
+    bookSlug: 'jude', chapter: 1, verseStart: 1, verseEnd: 4, sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
   },
 
   // ───────── SAINT JAMES THE JUST (epistle author) ─────────
@@ -493,7 +498,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistBio: 'Byzantine and Eastern Orthodox iconographic portrait of James the Just, brother of Jesus and traditional author of the Epistle of James.',
     wikimediaFile: 'Saint James the Just.jpg',
     year: 1500, medium: 'Tempera on panel',
-    bookSlug: 'james', chapter: 1, verseStart: 1, verseEnd: 8, sceneSlug: 'apostles',
+    bookSlug: 'james', chapter: 1, verseStart: 1, verseEnd: 8, sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
   },
 
   // ───────── HANS BALDUNG — Saint John on Patmos ─────────
@@ -509,7 +514,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistWikipediaUrl: 'https://en.wikipedia.org/wiki/Hans_Baldung',
     wikimediaFile: 'Hans Baldung - St John at Patmos - WGA01203.jpg',
     year: 1511, medium: 'Oil on panel',
-    bookSlug: '1-john', chapter: 1, verseStart: 1, verseEnd: 4, sceneSlug: 'apostles',
+    bookSlug: '1-john', chapter: 1, verseStart: 1, verseEnd: 4, sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
   },
 
   // ───────── CARAVAGGIO — Conversion of Saint Paul ─────────
@@ -527,7 +532,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistWikipediaUrl: 'https://en.wikipedia.org/wiki/Caravaggio',
     wikimediaFile: 'Conversion on the Way to Damascus-Caravaggio (c.1600-1).jpg',
     year: 1601, medium: 'Oil on canvas',
-    bookSlug: 'galatians', chapter: 1, verseStart: 13, verseEnd: 16, sceneSlug: 'apostles',
+    bookSlug: 'galatians', chapter: 1, verseStart: 13, verseEnd: 16, sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
     description: "Caravaggio's iconic painting of Saul knocked from his horse on the Damascus road — Paul's own account is in Galatians 1:13–16.",
   },
 
@@ -545,7 +550,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistWikipediaUrl: 'https://en.wikipedia.org/wiki/Peter_Paul_Rubens',
     wikimediaFile: "Peter Paul Rubens - Christ's Charge to Peter.jpg",
     year: 1616, medium: 'Oil on panel',
-    bookSlug: '2-peter', chapter: 1, verseStart: 12, verseEnd: 18, sceneSlug: 'apostles',
+    bookSlug: '2-peter', chapter: 1, verseStart: 12, verseEnd: 18, sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
   },
 
   // ═════════════════════════════════════════════════════════════════════
@@ -573,7 +578,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     wikimediaFile: "Theodore Psalter page 011v. Ps.11.4-6 David at Lord's throne.jpg",
     year: 1066, medium: 'Tempera on parchment',
     // Septuagint Ps 11 = Hebrew/English Ps 12
-    bookSlug: 'psalms', chapter: 12, verseStart: 4, verseEnd: 6, sceneSlug: 'wisdom',
+    bookSlug: 'psalms', chapter: 12, verseStart: 4, verseEnd: 6, sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
   {
     externalId: 'theodore-psalter-baptism',
@@ -582,7 +587,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     wikimediaFile: 'Theodore Psalter page 099r Ps 76.17 Baptism of Christ.jpg',
     year: 1066, medium: 'Tempera on parchment',
     // Septuagint 76 = Hebrew 77
-    bookSlug: 'psalms', chapter: 77, verseStart: 16, verseEnd: 19, sceneSlug: 'ministry',
+    bookSlug: 'psalms', chapter: 77, verseStart: 16, verseEnd: 19, sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
   },
   {
     externalId: 'theodore-psalter-moses-aaron',
@@ -590,7 +595,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'theodore-of-caesarea', artistName: 'Theodore of Caesarea',
     wikimediaFile: 'Theodore Psalter page 099v. Ps.76.21 - Moses and Aaron.jpg',
     year: 1066, medium: 'Tempera on parchment',
-    bookSlug: 'psalms', chapter: 77, verseStart: 20, verseEnd: 20, sceneSlug: 'wisdom',
+    bookSlug: 'psalms', chapter: 77, verseStart: 20, verseEnd: 20, sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
   {
     externalId: 'theodore-psalter-anointing-of-david-78',
@@ -598,7 +603,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'theodore-of-caesarea', artistName: 'Theodore of Caesarea',
     wikimediaFile: 'Theodore Psalter page 106r. Ps.77.68 annoing of David.jpg',
     year: 1066, medium: 'Tempera on parchment',
-    bookSlug: 'psalms', chapter: 78, verseStart: 70, verseEnd: 72, sceneSlug: 'wisdom',
+    bookSlug: 'psalms', chapter: 78, verseStart: 70, verseEnd: 72, sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
   {
     externalId: 'theodore-psalter-anointing-of-david-89',
@@ -606,7 +611,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'theodore-of-caesarea', artistName: 'Theodore of Caesarea',
     wikimediaFile: 'Theodore Psalter page 118v.Ps.88.21 Annoing of David.jpg',
     year: 1066, medium: 'Tempera on parchment',
-    bookSlug: 'psalms', chapter: 89, verseStart: 20, verseEnd: 21, sceneSlug: 'wisdom',
+    bookSlug: 'psalms', chapter: 89, verseStart: 20, verseEnd: 21, sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
   {
     externalId: 'theodore-psalter-ps-95',
@@ -614,7 +619,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'theodore-of-caesarea', artistName: 'Theodore of Caesarea',
     wikimediaFile: 'Theodore Psalter page 127r. Ps.94.1.jpg',
     year: 1066, medium: 'Tempera on parchment',
-    bookSlug: 'psalms', chapter: 96, verseStart: 1, verseEnd: 1, sceneSlug: 'wisdom',
+    bookSlug: 'psalms', chapter: 96, verseStart: 1, verseEnd: 1, sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
   {
     externalId: 'theodore-psalter-ps-102',
@@ -622,7 +627,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'theodore-of-caesarea', artistName: 'Theodore of Caesarea',
     wikimediaFile: 'Theodore Psalter page 134r. Ps. 101.7.jpg',
     year: 1066, medium: 'Tempera on parchment',
-    bookSlug: 'psalms', chapter: 102, verseStart: 6, verseEnd: 7, sceneSlug: 'suffering',
+    bookSlug: 'psalms', chapter: 102, verseStart: 6, verseEnd: 7, sceneSlug: 'suffering', topicTags: ['suffering', 'lament', 'hope'],
   },
   {
     externalId: 'theodore-psalter-praising-148',
@@ -630,7 +635,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'theodore-of-caesarea', artistName: 'Theodore of Caesarea',
     wikimediaFile: 'Theodore Psalter - Praising singing, ps 148. 5-14.jpg',
     year: 1066, medium: 'Tempera on parchment',
-    bookSlug: 'psalms', chapter: 148, verseStart: 5, verseEnd: 14, sceneSlug: 'wisdom',
+    bookSlug: 'psalms', chapter: 148, verseStart: 5, verseEnd: 14, sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
   {
     externalId: 'theodore-psalter-david-killing-goliath',
@@ -640,7 +645,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     year: 1066, medium: 'Tempera on parchment',
     // Septuagint Ps 151 narrates 1 Sam 17 (David and Goliath); no Hebrew
     // psalm equivalent. Tag to the underlying narrative in 1 Samuel.
-    bookSlug: '1-samuel', chapter: 17, verseStart: 49, verseEnd: 51, sceneSlug: 'david',
+    bookSlug: '1-samuel', chapter: 17, verseStart: 49, verseEnd: 51, sceneSlug: 'david', topicTags: ['kingship', 'shepherd', 'repentance'],
   },
   {
     externalId: 'theodore-psalter-samuel-and-david',
@@ -648,7 +653,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'theodore-of-caesarea', artistName: 'Theodore of Caesarea',
     wikimediaFile: 'Theodore Psalter page 190r Samuel and David.jpg',
     year: 1066, medium: 'Tempera on parchment',
-    bookSlug: '1-samuel', chapter: 16, verseStart: 11, verseEnd: 13, sceneSlug: 'david',
+    bookSlug: '1-samuel', chapter: 16, verseStart: 11, verseEnd: 13, sceneSlug: 'david', topicTags: ['kingship', 'shepherd', 'repentance'],
   },
   {
     externalId: 'theodore-psalter-ps-27',
@@ -657,7 +662,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     wikimediaFile: 'Theodore Psalter, Pslam 26, 1066.jpg',
     year: 1066, medium: 'Tempera on parchment',
     // Septuagint Ps 26 = Hebrew Ps 27
-    bookSlug: 'psalms', chapter: 27, verseStart: 1, verseEnd: 6, sceneSlug: 'wisdom',
+    bookSlug: 'psalms', chapter: 27, verseStart: 1, verseEnd: 6, sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
   {
     externalId: 'theodore-psalter-angel-david',
@@ -665,7 +670,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'theodore-of-caesarea', artistName: 'Theodore of Caesarea',
     wikimediaFile: 'Angel approaching David, call to be king, Theodore Psalter.jpg',
     year: 1066, medium: 'Tempera on parchment',
-    bookSlug: 'psalms', chapter: 89, verseStart: 19, verseEnd: 20, sceneSlug: 'david',
+    bookSlug: 'psalms', chapter: 89, verseStart: 19, verseEnd: 20, sceneSlug: 'david', topicTags: ['kingship', 'shepherd', 'repentance'],
   },
   {
     externalId: 'theodore-psalter-david-flute',
@@ -673,7 +678,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'theodore-of-caesarea', artistName: 'Theodore of Caesarea',
     wikimediaFile: 'David playing flute, Theodore Psalter.jpg',
     year: 1066, medium: 'Tempera on parchment',
-    bookSlug: 'psalms', chapter: 33, verseStart: 1, verseEnd: 3, sceneSlug: 'wisdom',
+    bookSlug: 'psalms', chapter: 33, verseStart: 1, verseEnd: 3, sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
   {
     externalId: 'theodore-psalter-fol-137r',
@@ -681,7 +686,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'theodore-of-caesarea', artistName: 'Theodore of Caesarea',
     wikimediaFile: 'TheodorePsalter 137r 1.png',
     year: 1066, medium: 'Tempera on parchment',
-    bookSlug: 'psalms', chapter: 105, verseStart: 1, verseEnd: 5, sceneSlug: 'wisdom',
+    bookSlug: 'psalms', chapter: 105, verseStart: 1, verseEnd: 5, sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
 
   // ───────── STUTTGART PSALTER (Carolingian, c.825) ─────────
@@ -698,7 +703,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistWikipediaUrl: 'https://en.wikipedia.org/wiki/Stuttgart_Psalter',
     wikimediaFile: 'Stuttgarter Psalter f2r.jpg',
     year: 825, medium: 'Tempera on parchment',
-    bookSlug: 'psalms', chapter: 1, verseStart: 1, verseEnd: 6, sceneSlug: 'wisdom',
+    bookSlug: 'psalms', chapter: 1, verseStart: 1, verseEnd: 6, sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
   {
     externalId: 'stuttgart-psalter-folio-7v',
@@ -707,7 +712,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     wikimediaFile: 'StuttgartPsalter 7v detail.jpg',
     year: 825, medium: 'Tempera on parchment',
     // f.7v area is Psalm 6 (Domine ne in furore)
-    bookSlug: 'psalms', chapter: 6, verseStart: 1, verseEnd: 10, sceneSlug: 'suffering',
+    bookSlug: 'psalms', chapter: 6, verseStart: 1, verseEnd: 10, sceneSlug: 'suffering', topicTags: ['suffering', 'lament', 'hope'],
   },
   {
     externalId: 'stuttgart-psalter-folio-42v',
@@ -716,7 +721,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     wikimediaFile: 'Stuttgart Psalter 42v detail.jpg',
     year: 825, medium: 'Tempera on parchment',
     // f.42v area is approximately Psalm 37 (Hebrew) / 36 (Vulgate)
-    bookSlug: 'psalms', chapter: 37, verseStart: 1, verseEnd: 11, sceneSlug: 'wisdom',
+    bookSlug: 'psalms', chapter: 37, verseStart: 1, verseEnd: 11, sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
   {
     externalId: 'stuttgart-psalter-folio-97v',
@@ -725,7 +730,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     wikimediaFile: 'Stuttgarter Psalter - Cod.bibl.fol.23 97v.jpg',
     year: 825, medium: 'Tempera on parchment',
     // f.97v area is approximately Psalm 81 (Hebrew) / 80 (Vulgate)
-    bookSlug: 'psalms', chapter: 81, verseStart: 1, verseEnd: 7, sceneSlug: 'wisdom',
+    bookSlug: 'psalms', chapter: 81, verseStart: 1, verseEnd: 7, sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
   {
     externalId: 'stuttgart-psalter-folio-163v',
@@ -734,7 +739,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     wikimediaFile: 'Stuttgarter Psalter - Cod.bibl.fol.23, folio 163v.jpg',
     year: 825, medium: 'Tempera on parchment',
     // f.163v is in the late-psalter trumpet/Buisine cluster
-    bookSlug: 'psalms', chapter: 149, verseStart: 1, verseEnd: 9, sceneSlug: 'wisdom',
+    bookSlug: 'psalms', chapter: 149, verseStart: 1, verseEnd: 9, sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
 
   // ───────── HARLEY PSALTER (BL Harley MS 603, English copy of Utrecht, 10th c.) ─────────
@@ -748,7 +753,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistWikipediaUrl: 'https://en.wikipedia.org/wiki/Harley_Psalter',
     wikimediaFile: 'Harley Psalter - BL Harley 603 psalm 108 f55v.jpg',
     year: 1010, medium: 'Pen drawing on parchment',
-    bookSlug: 'psalms', chapter: 109, verseStart: 1, verseEnd: 6, sceneSlug: 'suffering',
+    bookSlug: 'psalms', chapter: 109, verseStart: 1, verseEnd: 6, sceneSlug: 'suffering', topicTags: ['suffering', 'lament', 'hope'],
     // Note: Vulgate Ps 108 = Hebrew Ps 109
   },
   {
@@ -757,7 +762,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'harley-603-master', artistName: 'Master of the Harley Psalter',
     wikimediaFile: 'Harley ms 603 f002r.jpg',
     year: 1010, medium: 'Pen drawing on parchment',
-    bookSlug: 'psalms', chapter: 1, verseStart: 1, verseEnd: 6, sceneSlug: 'wisdom',
+    bookSlug: 'psalms', chapter: 1, verseStart: 1, verseEnd: 6, sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
   {
     externalId: 'harley-603-folio-24v-instruments',
@@ -766,7 +771,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     wikimediaFile: 'Harley Psalter folio 24v instruments.jpg',
     year: 1010, medium: 'Pen drawing on parchment',
     // f.24v area corresponds approximately to Psalm 42-43 (Hebrew)
-    bookSlug: 'psalms', chapter: 43, verseStart: 1, verseEnd: 5, sceneSlug: 'wisdom',
+    bookSlug: 'psalms', chapter: 43, verseStart: 1, verseEnd: 5, sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
   {
     externalId: 'harley-603-folio-50r',
@@ -775,7 +780,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     wikimediaFile: 'Harley ms 603 f050r.jpg',
     year: 1010, medium: 'Pen drawing on parchment',
     // f.50r area corresponds approximately to Psalm 100 (Hebrew)
-    bookSlug: 'psalms', chapter: 100, verseStart: 1, verseEnd: 5, sceneSlug: 'wisdom',
+    bookSlug: 'psalms', chapter: 100, verseStart: 1, verseEnd: 5, sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
   {
     externalId: 'harley-603-folio-50v',
@@ -783,7 +788,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'harley-603-master', artistName: 'Master of the Harley Psalter',
     wikimediaFile: 'Harley ms 603 f050v.jpg',
     year: 1010, medium: 'Pen drawing on parchment',
-    bookSlug: 'psalms', chapter: 101, verseStart: 1, verseEnd: 8, sceneSlug: 'wisdom',
+    bookSlug: 'psalms', chapter: 101, verseStart: 1, verseEnd: 8, sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
   {
     externalId: 'harley-603-folio-70r',
@@ -792,7 +797,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     wikimediaFile: 'Harley ms 603 f070r.jpg',
     year: 1010, medium: 'Pen drawing on parchment',
     // f.70r area corresponds approximately to Psalm 140-141 (Hebrew)
-    bookSlug: 'psalms', chapter: 141, verseStart: 1, verseEnd: 10, sceneSlug: 'suffering',
+    bookSlug: 'psalms', chapter: 141, verseStart: 1, verseEnd: 10, sceneSlug: 'suffering', topicTags: ['suffering', 'lament', 'hope'],
   },
 
   // ───────── BOSWORTH PSALTER (BL Add MS 37517, 10th c.) ─────────
@@ -807,7 +812,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     wikimediaFile: 'Bosworth Psalter - British Library Add MS 37517 f33r (Quid Gloriaris).jpg',
     year: 990, medium: 'Tempera on parchment',
     // "Quid gloriaris" = Vulgate Ps 51 = Hebrew Ps 52
-    bookSlug: 'psalms', chapter: 52, verseStart: 1, verseEnd: 9, sceneSlug: 'wisdom',
+    bookSlug: 'psalms', chapter: 52, verseStart: 1, verseEnd: 9, sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
 
   // ───────── SAINT LOUIS PSALTER (Paris, c.1255) ─────────
@@ -823,7 +828,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     year: 1260, medium: 'Tempera and gold on parchment',
     // f.30v of the Saint Louis Psalter is in the prefatory cycle showing
     // Old Testament narrative scenes — typical placement is Genesis stories.
-    bookSlug: 'genesis', chapter: 22, verseStart: 1, verseEnd: 14, sceneSlug: 'abraham',
+    bookSlug: 'genesis', chapter: 22, verseStart: 1, verseEnd: 14, sceneSlug: 'abraham', topicTags: ['faithfulness', 'covenant', 'sacrifice'],
   },
 
   // ───────── BL STOWE 2 PSALTER ─────────
@@ -835,7 +840,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistNationality: 'English (Anglo-Saxon)',
     wikimediaFile: 'PsalterBLStowe2Folio56rInitialQ.jpg',
     year: 1050, medium: 'Tempera on parchment',
-    bookSlug: 'psalms', chapter: 52, verseStart: 1, verseEnd: 9, sceneSlug: 'wisdom',
+    bookSlug: 'psalms', chapter: 52, verseStart: 1, verseEnd: 9, sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
 
   // ───────── VITAE IMPERATORUM CHOIR PSALTER (Cleveland Museum) ─────────
@@ -849,7 +854,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistBio: '15th-century Lombard illuminator named for the manuscript of Suetonius\'s Vitae Imperatorum he illustrated; this Beatus Vir initial opens a choir psalter.',
     wikimediaFile: 'Master of the \'Vitae Imperatorum\' - Initial "B" (eatus Vir) from a Choir Psalter - 2011.50 - Cleveland Museum of Art.tif',
     year: 1450, medium: 'Tempera and gold on parchment',
-    bookSlug: 'psalms', chapter: 1, verseStart: 1, verseEnd: 3, sceneSlug: 'wisdom',
+    bookSlug: 'psalms', chapter: 1, verseStart: 1, verseEnd: 3, sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
 
   // ───────── VESPASIAN PSALTER (8th c. Anglo-Saxon) ─────────
@@ -864,7 +869,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     wikimediaFile: 'VespasianPsalterFolio30VDavidWthMusicians.jpg',
     year: 730, medium: 'Tempera on parchment',
     // The David & Musicians frontispiece introduces the entire Psalter — tag to Ps 1
-    bookSlug: 'psalms', chapter: 33, verseStart: 1, verseEnd: 5, sceneSlug: 'wisdom',
+    bookSlug: 'psalms', chapter: 33, verseStart: 1, verseEnd: 5, sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
 
   // ───────── BRISTOL PSALTER ─────────
@@ -879,7 +884,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     wikimediaFile: 'Chaldean soldiers with Hebrew captives.jpg',
     year: 1070, medium: 'Tempera on parchment',
     // Iconographic referent: Psalm 137 (the Babylonian captivity)
-    bookSlug: 'psalms', chapter: 137, verseStart: 1, verseEnd: 9, sceneSlug: 'suffering',
+    bookSlug: 'psalms', chapter: 137, verseStart: 1, verseEnd: 9, sceneSlug: 'suffering', topicTags: ['suffering', 'lament', 'hope'],
   },
 
   // ───────── REMBRANDT — Saul and David ─────────
@@ -895,7 +900,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistWikipediaUrl: 'https://en.wikipedia.org/wiki/Rembrandt',
     wikimediaFile: 'Saul and David by Rembrandt Mauritshuis 621.jpg',
     year: 1655, medium: 'Oil on canvas',
-    bookSlug: '1-samuel', chapter: 16, verseStart: 14, verseEnd: 23, sceneSlug: 'david',
+    bookSlug: '1-samuel', chapter: 16, verseStart: 14, verseEnd: 23, sceneSlug: 'david', topicTags: ['kingship', 'shepherd', 'repentance'],
   },
 
   // ───────── DAVID DANCING BEFORE THE ARK (Rijksmuseum print) ─────────
@@ -909,7 +914,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistBio: 'Anonymous 17th-century Dutch print after a Wierix-school composition of David dancing before the Ark.',
     wikimediaFile: 'David speelt op zijn harp en danst voor de Ark van het Verbond, RP-P-OB-116.025.jpg',
     year: 1640, medium: 'Engraving',
-    bookSlug: '1-chronicles', chapter: 15, verseStart: 25, verseEnd: 29, sceneSlug: 'david',
+    bookSlug: '1-chronicles', chapter: 15, verseStart: 25, verseEnd: 29, sceneSlug: 'david', topicTags: ['kingship', 'shepherd', 'repentance'],
   },
 
   // ───────── PSALM 23 — generic Good Shepherd / Sheep ─────────
@@ -920,7 +925,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistName: 'Anonymous (19th-century engraver)',
     wikimediaFile: 'The Lord is my Good Shepherd.jpg',
     year: 1880, medium: 'Engraving',
-    bookSlug: 'psalms', chapter: 23, verseStart: 1, verseEnd: 6, sceneSlug: 'wisdom',
+    bookSlug: 'psalms', chapter: 23, verseStart: 1, verseEnd: 6, sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
 
   // ═════════════════════════════════════════════════════════════════════
@@ -936,7 +941,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistName: 'Anonymous (devotional engraver)',
     wikimediaFile: 'Onesimus and Philemon.jpg',
     year: 1880, medium: 'Engraving',
-    bookSlug: 'philemon', chapter: 1, verseStart: 8, verseEnd: 21, sceneSlug: 'apostles',
+    bookSlug: 'philemon', chapter: 1, verseStart: 8, verseEnd: 21, sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
   },
   {
     externalId: 'paul-and-onesimus-in-prison',
@@ -944,7 +949,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'anonymous-engraver', artistName: 'Anonymous (devotional engraver)',
     wikimediaFile: 'St Paul and Onesimus in prison.jpg',
     year: 1880, medium: 'Engraving',
-    bookSlug: 'philemon', chapter: 1, verseStart: 9, verseEnd: 16, sceneSlug: 'apostles',
+    bookSlug: 'philemon', chapter: 1, verseStart: 9, verseEnd: 16, sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
   },
   {
     externalId: 'menologion-onesimus',
@@ -956,7 +961,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistWikipediaUrl: 'https://en.wikipedia.org/wiki/Menologion_of_Basil_II',
     wikimediaFile: 'Onesimus of Byzantium (Menologion of Basil II).jpg',
     year: 1000, medium: 'Tempera on parchment',
-    bookSlug: 'philemon', chapter: 1, verseStart: 10, verseEnd: 13, sceneSlug: 'apostles',
+    bookSlug: 'philemon', chapter: 1, verseStart: 10, verseEnd: 13, sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
   },
 
   // ───────── 1 TIMOTHY ─────────
@@ -967,7 +972,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistName: 'Anonymous (Byzantine icon tradition)',
     wikimediaFile: 'Saint Timothy.jpg',
     year: 1500, medium: 'Tempera on panel',
-    bookSlug: '1-timothy', chapter: 1, verseStart: 1, verseEnd: 5, sceneSlug: 'apostles',
+    bookSlug: '1-timothy', chapter: 1, verseStart: 1, verseEnd: 5, sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
   },
   // ───────── 2 TIMOTHY ─────────
   {
@@ -977,7 +982,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistName: 'Anonymous (Byzantine icon tradition)',
     wikimediaFile: 'Saint Timothy the Apostle.jpg',
     year: 1500, medium: 'Tempera on panel',
-    bookSlug: '2-timothy', chapter: 1, verseStart: 1, verseEnd: 7, sceneSlug: 'apostles',
+    bookSlug: '2-timothy', chapter: 1, verseStart: 1, verseEnd: 7, sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
   },
 
   // ───────── TITUS ─────────
@@ -988,7 +993,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistName: 'Anonymous (Met Open Access)',
     wikimediaFile: 'St. Titus, Bishop Met DP890793.jpg',
     year: 1500, medium: 'Engraving',
-    bookSlug: 'titus', chapter: 1, verseStart: 1, verseEnd: 9, sceneSlug: 'apostles',
+    bookSlug: 'titus', chapter: 1, verseStart: 1, verseEnd: 9, sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
   },
   {
     externalId: 'fresco-saint-titos',
@@ -997,7 +1002,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistName: 'Anonymous (Byzantine icon tradition)',
     wikimediaFile: 'Fresco of Saint Titos.jpg',
     year: 1500, medium: 'Fresco',
-    bookSlug: 'titus', chapter: 1, verseStart: 5, verseEnd: 9, sceneSlug: 'apostles',
+    bookSlug: 'titus', chapter: 1, verseStart: 5, verseEnd: 9, sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
   },
 
   // ───────── 1 THESSALONIANS — Parousia / Second Coming ─────────
@@ -1012,7 +1017,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistWikipediaUrl: 'https://en.wikipedia.org/wiki/Fra_Angelico',
     wikimediaFile: 'Fra Angelico 009.jpg',
     year: 1432, medium: 'Tempera on panel',
-    bookSlug: '1-thessalonians', chapter: 4, verseStart: 13, verseEnd: 18, sceneSlug: 'apocalypse',
+    bookSlug: '1-thessalonians', chapter: 4, verseStart: 13, verseEnd: 18, sceneSlug: 'apocalypse', topicTags: ['second-coming', 'new-creation', 'judgment'],
   },
   {
     externalId: 'walters-w540-second-coming',
@@ -1023,7 +1028,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistBio: 'Anonymous Byzantine illuminator responsible for Walters Manuscript W.540, a Gospel Book.',
     wikimediaFile: 'Gospel Book, Second Coming of Christ, Walters Manuscript W.540, fol. 14v.jpg',
     year: 1100, medium: 'Tempera on parchment',
-    bookSlug: '1-thessalonians', chapter: 5, verseStart: 1, verseEnd: 11, sceneSlug: 'apocalypse',
+    bookSlug: '1-thessalonians', chapter: 5, verseStart: 1, verseEnd: 11, sceneSlug: 'apocalypse', topicTags: ['second-coming', 'new-creation', 'judgment'],
   },
 
   // ───────── 2 THESSALONIANS — Day of the Lord / Last Judgment ─────────
@@ -1038,7 +1043,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistWikipediaUrl: 'https://en.wikipedia.org/wiki/John_Martin_(painter)',
     wikimediaFile: 'John Martin - The Last Judgement - Google Art Project.jpg',
     year: 1853, medium: 'Oil on canvas',
-    bookSlug: '2-thessalonians', chapter: 1, verseStart: 7, verseEnd: 10, sceneSlug: 'apocalypse',
+    bookSlug: '2-thessalonians', chapter: 1, verseStart: 7, verseEnd: 10, sceneSlug: 'apocalypse', topicTags: ['second-coming', 'new-creation', 'judgment'],
   },
 
   // ───────── COLOSSIANS — Christ Pantokrator (Col 1:15-20 hymn) ─────────
@@ -1049,7 +1054,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistName: 'Anonymous (Byzantine icon tradition)',
     wikimediaFile: 'Icon with Christ Pantokrator MET DP268289.jpg',
     year: 1300, medium: 'Tempera on panel with gold ground',
-    bookSlug: 'colossians', chapter: 1, verseStart: 15, verseEnd: 20, sceneSlug: 'teaching',
+    bookSlug: 'colossians', chapter: 1, verseStart: 15, verseEnd: 20, sceneSlug: 'teaching', topicTags: ['wisdom', 'witness'],
     description: 'The Pantokrator ("ruler of all") icon visualizes the Colossian hymn — Christ as the image of the invisible God in whom all things hold together.',
   },
 
@@ -1064,7 +1069,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistBio: 'Greek icon painter of the Cretan school, active in Crete and Venice.',
     wikimediaFile: 'Saint Apostle and Evangelist John the Theologian. Icon of the Cretan school. 1449 - 1450. Andreas Ritsos.jpg',
     year: 1450, medium: 'Tempera on panel',
-    bookSlug: '1-john', chapter: 1, verseStart: 1, verseEnd: 4, sceneSlug: 'apostles',
+    bookSlug: '1-john', chapter: 1, verseStart: 1, verseEnd: 4, sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
   },
 
   // ───────── 2 JOHN ─────────
@@ -1075,7 +1080,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistName: 'Anonymous (Russian icon tradition)',
     wikimediaFile: 'Holy Apostle and Evangelist John the Theologian in silence. Icon. Russia, 1770s.jpg',
     year: 1775, medium: 'Tempera on panel',
-    bookSlug: '2-john', chapter: 1, verseStart: 1, verseEnd: 13, sceneSlug: 'apostles',
+    bookSlug: '2-john', chapter: 1, verseStart: 1, verseEnd: 13, sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
   },
 
   // ───────── 3 JOHN ─────────
@@ -1086,7 +1091,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistName: 'Anonymous (Greek icon tradition)',
     wikimediaFile: 'The Death of the Holy Apostle and Evangelist John the Theologian. Icon. Greece.jpg',
     year: 1600, medium: 'Tempera on panel',
-    bookSlug: '3-john', chapter: 1, verseStart: 13, verseEnd: 14, sceneSlug: 'apostles',
+    bookSlug: '3-john', chapter: 1, verseStart: 13, verseEnd: 14, sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
   },
 
   // ───────── PENITENTIAL PSALMS / DAVID REPENTANT ─────────
@@ -1102,7 +1107,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistWikipediaUrl: 'https://en.wikipedia.org/wiki/Jean_Fouquet',
     wikimediaFile: 'David kneeling in penitence - Hours of Etienne Chevalier (c.1452-1460) - BL Add MS 37421.jpg',
     year: 1455, medium: 'Tempera and gold on parchment',
-    bookSlug: 'psalms', chapter: 51, verseStart: 1, verseEnd: 12, sceneSlug: 'wisdom',
+    bookSlug: 'psalms', chapter: 51, verseStart: 1, verseEnd: 12, sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
   // Psalm 38
   {
@@ -1115,7 +1120,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistWikipediaUrl: 'https://en.wikipedia.org/wiki/Tickhill_Psalter',
     wikimediaFile: 'Tickhill.Psalm38.jpg',
     year: 1310, medium: 'Tempera and gold on parchment',
-    bookSlug: 'psalms', chapter: 38, verseStart: 1, verseEnd: 22, sceneSlug: 'suffering',
+    bookSlug: 'psalms', chapter: 38, verseStart: 1, verseEnd: 22, sceneSlug: 'suffering', topicTags: ['suffering', 'lament', 'hope'],
   },
   // Psalm 130 (De Profundis)
   {
@@ -1125,7 +1130,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     wikimediaFile: 'Harley ms 603 f067v.jpg',
     year: 1010, medium: 'Pen drawing on parchment',
     // Vulgate Ps 129 = Hebrew Ps 130
-    bookSlug: 'psalms', chapter: 130, verseStart: 1, verseEnd: 8, sceneSlug: 'suffering',
+    bookSlug: 'psalms', chapter: 130, verseStart: 1, verseEnd: 8, sceneSlug: 'suffering', topicTags: ['suffering', 'lament', 'hope'],
   },
   // Psalter of Eleanor of Aquitaine — late psalter folio
   {
@@ -1138,7 +1143,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     wikimediaFile: 'Psalter of Eleanor of Aquitaine (ca. 1185) - KB 76 F 13, folium 148r.jpg',
     year: 1185, medium: 'Tempera and gold on parchment',
     // f.148r is in the late-psalter range
-    bookSlug: 'psalms', chapter: 121, verseStart: 1, verseEnd: 8, sceneSlug: 'wisdom',
+    bookSlug: 'psalms', chapter: 121, verseStart: 1, verseEnd: 8, sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
 
   // ───────── HANS MEMLING — Bathsheba (2 Samuel 11) ─────────
@@ -1149,7 +1154,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistName: 'Hans Memling',
     wikimediaFile: 'Hans Memling - Bathsheba - WGA14921.jpg',
     year: 1485, medium: 'Oil on panel',
-    bookSlug: '2-samuel', chapter: 11, verseStart: 2, verseEnd: 5, sceneSlug: 'david',
+    bookSlug: '2-samuel', chapter: 11, verseStart: 2, verseEnd: 5, sceneSlug: 'david', topicTags: ['kingship', 'shepherd', 'repentance'],
   },
 
   // ═════════════════════════════════════════════════════════════════════
@@ -1169,7 +1174,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistWikipediaUrl: 'https://en.wikipedia.org/wiki/Edward_Hicks',
     wikimediaFile: 'Edward Hicks - Peaceable Kingdom.jpg',
     year: 1834, medium: 'Oil on canvas',
-    bookSlug: 'isaiah', chapter: 11, verseStart: 6, verseEnd: 9, sceneSlug: 'wisdom',
+    bookSlug: 'isaiah', chapter: 11, verseStart: 6, verseEnd: 9, sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
   {
     externalId: 'botticelli-mystic-nativity-isaiah',
@@ -1182,7 +1187,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistWikipediaUrl: 'https://en.wikipedia.org/wiki/Sandro_Botticelli',
     wikimediaFile: 'Mystic Nativity, Sandro Botticelli.jpg',
     year: 1500, medium: 'Tempera on canvas',
-    bookSlug: 'isaiah', chapter: 9, verseStart: 6, verseEnd: 7, sceneSlug: 'nativity',
+    bookSlug: 'isaiah', chapter: 9, verseStart: 6, verseEnd: 7, sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: 'Botticelli\'s late apocalyptic Nativity visualizes Isaiah 9:6 — "for unto us a child is born".',
   },
   {
@@ -1196,7 +1201,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistWikipediaUrl: 'https://en.wikipedia.org/wiki/Bartolom%C3%A9_Esteban_Murillo',
     wikimediaFile: 'Bartolomé Esteban Perez Murillo - Immaculate Conception - WGA16380.jpg',
     year: 1670, medium: 'Oil on canvas',
-    bookSlug: 'isaiah', chapter: 7, verseStart: 14, verseEnd: 14, sceneSlug: 'nativity',
+    bookSlug: 'isaiah', chapter: 7, verseStart: 14, verseEnd: 14, sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'holman-hunt-light-of-the-world',
@@ -1205,7 +1210,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistName: 'William Holman Hunt',
     wikimediaFile: 'Hunt, William Homan - The Light of the World - 1853-54.jpg',
     year: 1854, medium: 'Oil on canvas',
-    bookSlug: 'isaiah', chapter: 60, verseStart: 1, verseEnd: 3, sceneSlug: 'apocalypse',
+    bookSlug: 'isaiah', chapter: 60, verseStart: 1, verseEnd: 3, sceneSlug: 'apocalypse', topicTags: ['second-coming', 'new-creation', 'judgment'],
     description: 'Holman Hunt\'s allegory of Christ knocking — "Arise, shine; for thy light is come" (Isaiah 60:1) and Revelation 3:20.',
   },
   {
@@ -1215,7 +1220,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     wikimediaFile: 'William Holman Hunt - The Triumph of the Innocents - Google Art Project.jpg',
     year: 1885, medium: 'Oil on canvas',
     // Jeremiah 31:15 "Rachel weeping for her children" — quoted in Matt 2:18
-    bookSlug: 'jeremiah', chapter: 31, verseStart: 15, verseEnd: 17, sceneSlug: 'suffering',
+    bookSlug: 'jeremiah', chapter: 31, verseStart: 15, verseEnd: 17, sceneSlug: 'suffering', topicTags: ['suffering', 'lament', 'hope'],
   },
 
   // ───────── JEREMIAH / LAMENTATIONS ─────────
@@ -1226,7 +1231,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistName: 'Rembrandt van Rijn',
     wikimediaFile: 'Rembrandt - Jeremiah Lamenting the Destruction of Jerusalem - WGA19091.jpg',
     year: 1630, medium: 'Oil on panel',
-    bookSlug: 'lamentations', chapter: 1, verseStart: 1, verseEnd: 12, sceneSlug: 'suffering',
+    bookSlug: 'lamentations', chapter: 1, verseStart: 1, verseEnd: 12, sceneSlug: 'suffering', topicTags: ['suffering', 'lament', 'hope'],
   },
   {
     externalId: 'tissot-flight-of-prisoners',
@@ -1236,7 +1241,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     wikimediaFile: 'Tissot The Flight of the Prisoners.jpg',
     year: 1896, medium: 'Gouache on board',
     // Jeremiah 52 — the Babylonian deportation
-    bookSlug: 'jeremiah', chapter: 52, verseStart: 12, verseEnd: 30, sceneSlug: 'suffering',
+    bookSlug: 'jeremiah', chapter: 52, verseStart: 12, verseEnd: 30, sceneSlug: 'suffering', topicTags: ['suffering', 'lament', 'hope'],
   },
   {
     externalId: 'tissot-dead-bodies-carried-away',
@@ -1244,7 +1249,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'james-tissot', artistName: 'James Tissot',
     wikimediaFile: 'Tissot The Dead Bodies Carried Away.jpg',
     year: 1896, medium: 'Gouache on board',
-    bookSlug: 'lamentations', chapter: 2, verseStart: 20, verseEnd: 22, sceneSlug: 'suffering',
+    bookSlug: 'lamentations', chapter: 2, verseStart: 20, verseEnd: 22, sceneSlug: 'suffering', topicTags: ['suffering', 'lament', 'hope'],
   },
 
   // ───────── EZEKIEL ─────────
@@ -1255,7 +1260,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistName: 'Anonymous (19th-c. devotional engraver)',
     wikimediaFile: "Ezekiel's vision of dry bones.jpg",
     year: 1880, medium: 'Engraving',
-    bookSlug: 'ezekiel', chapter: 37, verseStart: 1, verseEnd: 14, sceneSlug: 'apocalypse',
+    bookSlug: 'ezekiel', chapter: 37, verseStart: 1, verseEnd: 14, sceneSlug: 'apocalypse', topicTags: ['second-coming', 'new-creation', 'judgment'],
   },
   {
     externalId: 'collantes-vision-of-ezekiel',
@@ -1268,7 +1273,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistWikipediaUrl: 'https://en.wikipedia.org/wiki/Francisco_Collantes',
     wikimediaFile: 'Collantes, Francisco - The Vision of Ezekiel - 1630.jpg',
     year: 1630, medium: 'Oil on canvas',
-    bookSlug: 'ezekiel', chapter: 37, verseStart: 1, verseEnd: 14, sceneSlug: 'apocalypse',
+    bookSlug: 'ezekiel', chapter: 37, verseStart: 1, verseEnd: 14, sceneSlug: 'apocalypse', topicTags: ['second-coming', 'new-creation', 'judgment'],
   },
   {
     externalId: 'blunck-vision-of-ezekiel',
@@ -1280,7 +1285,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistBio: 'Danish-German history painter associated with the Düsseldorf school.',
     wikimediaFile: 'Ditlev Blunck - The Vision of the Prophet Ezekiel - KMS200 - Statens Museum for Kunst.jpg',
     year: 1845, medium: 'Oil on canvas',
-    bookSlug: 'ezekiel', chapter: 1, verseStart: 1, verseEnd: 28, sceneSlug: 'prophets',
+    bookSlug: 'ezekiel', chapter: 1, verseStart: 1, verseEnd: 28, sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
   {
     externalId: 'tissot-ezekiel-portrait',
@@ -1288,7 +1293,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'james-tissot', artistName: 'James Tissot',
     wikimediaFile: 'Tissot Ezekiel.jpg',
     year: 1896, medium: 'Gouache on board',
-    bookSlug: 'ezekiel', chapter: 2, verseStart: 1, verseEnd: 8, sceneSlug: 'prophets',
+    bookSlug: 'ezekiel', chapter: 2, verseStart: 1, verseEnd: 8, sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
 
   // ───────── TISSOT MINOR PROPHET PORTRAITS — fill thinly-covered books ─────────
@@ -1298,7 +1303,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'james-tissot', artistName: 'James Tissot',
     wikimediaFile: 'Hosea by James Tissot (cropped).jpg',
     year: 1896, medium: 'Gouache on board',
-    bookSlug: 'hosea', chapter: 1, verseStart: 1, verseEnd: 11, sceneSlug: 'prophets',
+    bookSlug: 'hosea', chapter: 1, verseStart: 1, verseEnd: 11, sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
   {
     externalId: 'tissot-joel-portrait',
@@ -1306,7 +1311,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'james-tissot', artistName: 'James Tissot',
     wikimediaFile: 'Tissot Joel.jpg',
     year: 1896, medium: 'Gouache on board',
-    bookSlug: 'joel', chapter: 1, verseStart: 1, verseEnd: 20, sceneSlug: 'prophets',
+    bookSlug: 'joel', chapter: 1, verseStart: 1, verseEnd: 20, sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
   {
     externalId: 'tissot-amos-portrait',
@@ -1314,7 +1319,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'james-tissot', artistName: 'James Tissot',
     wikimediaFile: 'Tissot Amos.jpg',
     year: 1896, medium: 'Gouache on board',
-    bookSlug: 'amos', chapter: 5, verseStart: 21, verseEnd: 24, sceneSlug: 'prophets',
+    bookSlug: 'amos', chapter: 5, verseStart: 21, verseEnd: 24, sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
   {
     externalId: 'tissot-micah-portrait',
@@ -1322,7 +1327,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'james-tissot', artistName: 'James Tissot',
     wikimediaFile: 'Tissot Micah.jpg',
     year: 1896, medium: 'Gouache on board',
-    bookSlug: 'micah', chapter: 6, verseStart: 6, verseEnd: 8, sceneSlug: 'prophets',
+    bookSlug: 'micah', chapter: 6, verseStart: 6, verseEnd: 8, sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
   },
 
   // ───────── OT NARRATIVE — Tissot chapters not yet in DB ─────────
@@ -1332,7 +1337,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'james-tissot', artistName: 'James Tissot',
     wikimediaFile: 'Tissot Nathan Rebukes David.jpg',
     year: 1896, medium: 'Gouache on board',
-    bookSlug: '2-samuel', chapter: 12, verseStart: 1, verseEnd: 14, sceneSlug: 'david',
+    bookSlug: '2-samuel', chapter: 12, verseStart: 1, verseEnd: 14, sceneSlug: 'david', topicTags: ['kingship', 'shepherd', 'repentance'],
   },
   {
     externalId: 'tissot-jephthahs-daughter',
@@ -1340,7 +1345,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'james-tissot', artistName: 'James Tissot',
     wikimediaFile: "Tissot Jephthah's Daughter.jpg",
     year: 1896, medium: 'Gouache on board',
-    bookSlug: 'judges', chapter: 11, verseStart: 29, verseEnd: 40, sceneSlug: 'judges',
+    bookSlug: 'judges', chapter: 11, verseStart: 29, verseEnd: 40, sceneSlug: 'judges', topicTags: ['deliverance', 'leadership', 'sin'],
   },
 
   // ───────── MARC CHAGALL — Israelites Pass the Jordan (Joshua 3) ─────────
@@ -1355,7 +1360,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistWikipediaUrl: 'https://en.wikipedia.org/wiki/Marc_Chagall',
     wikimediaFile: 'Marc Chagall - Les Israélites passent le Jourdain.jpg',
     year: 1956, medium: 'Etching',
-    bookSlug: 'joshua', chapter: 3, verseStart: 14, verseEnd: 17, sceneSlug: 'conquest',
+    bookSlug: 'joshua', chapter: 3, verseStart: 14, verseEnd: 17, sceneSlug: 'conquest', topicTags: ['leadership', 'sovereignty', 'protection'],
   },
 
   // ───────── EL GRECO — Pentecost (Acts 2) ─────────
@@ -1366,7 +1371,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistName: 'El Greco (Doménikos Theotokópoulos)',
     wikimediaFile: 'Pentecostés (El Greco, c. 1600) Prado.jpg',
     year: 1600, medium: 'Oil on canvas',
-    bookSlug: 'acts', chapter: 2, verseStart: 1, verseEnd: 13, sceneSlug: 'apostles',
+    bookSlug: 'acts', chapter: 2, verseStart: 1, verseEnd: 13, sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
   },
 
   // ───────── FILIPPO MAZZOLA — Dead Christ (Hebrews 9 priesthood) ─────────
@@ -1380,7 +1385,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistBio: 'Italian Renaissance painter of the Parma school; father of Parmigianino.',
     wikimediaFile: 'Filippo Mazzola - The Dead Christ Supported by Angels - Walters 371056.jpg',
     year: 1495, medium: 'Tempera and oil on panel',
-    bookSlug: 'hebrews', chapter: 9, verseStart: 11, verseEnd: 14, sceneSlug: 'crucifixion',
+    bookSlug: 'hebrews', chapter: 9, verseStart: 11, verseEnd: 14, sceneSlug: 'crucifixion', topicTags: ['cross', 'sacrifice', 'suffering'],
     description: 'The Man of Sorrows iconography — Christ as the high priest who entered the heavenly sanctuary by his own blood (Hebrews 9:11-14).',
   },
 
@@ -1392,7 +1397,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     wikimediaFile: 'Brooklyn Museum - The Prophecy of the Destruction of the Temple (La prédication de la ruine du Temple) - James Tissot.jpg',
     year: 1890, medium: 'Gouache on board',
     // Mark 13 (Olivet discourse) — and Mark 13 is not yet covered (Mark is ~69%)
-    bookSlug: 'mark', chapter: 13, verseStart: 1, verseEnd: 8, sceneSlug: 'passion',
+    bookSlug: 'mark', chapter: 13, verseStart: 1, verseEnd: 8, sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'tissot-chaldees-destroy-brazen-sea',
@@ -1401,7 +1406,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     wikimediaFile: 'Tissot The Chaldees Destroy the Brazen Sea.jpg',
     year: 1896, medium: 'Gouache on board',
     // 2 Kings 25:13-17 — Babylonian destruction of Solomon's bronze temple fittings
-    bookSlug: '2-kings', chapter: 25, verseStart: 13, verseEnd: 17, sceneSlug: 'suffering',
+    bookSlug: '2-kings', chapter: 25, verseStart: 13, verseEnd: 17, sceneSlug: 'suffering', topicTags: ['suffering', 'lament', 'hope'],
   },
 
   // ═════════════════════════════════════════════════════════════════════
@@ -1420,7 +1425,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'james-tissot', artistName: 'James Tissot',
     wikimediaFile: 'Tissot The Cup Found.jpg',
     year: 1896, medium: 'Gouache on board',
-    bookSlug: 'genesis', chapter: 44, verseStart: 1, verseEnd: 17, sceneSlug: 'joseph',
+    bookSlug: 'genesis', chapter: 44, verseStart: 1, verseEnd: 17, sceneSlug: 'joseph', topicTags: ['providence', 'forgiveness', 'suffering', 'leadership'],
   },
   {
     externalId: 'tissot-pharaohs-daughter-receives-mother',
@@ -1430,7 +1435,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     year: 1896, medium: 'Gouache on board',
     // Tagged to Exodus 6 (the next narrative beat after Moses' rescue,
     // where the Lord renews his promise to Moses)
-    bookSlug: 'exodus', chapter: 6, verseStart: 2, verseEnd: 8, sceneSlug: 'exodus',
+    bookSlug: 'exodus', chapter: 6, verseStart: 2, verseEnd: 8, sceneSlug: 'exodus', topicTags: ['deliverance', 'sovereignty', 'judgment'],
   },
   {
     externalId: 'tissot-plague-of-flies',
@@ -1438,7 +1443,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'james-tissot', artistName: 'James Tissot',
     wikimediaFile: 'Tissot The Plague of Flies.jpg',
     year: 1896, medium: 'Gouache on board',
-    bookSlug: 'exodus', chapter: 8, verseStart: 20, verseEnd: 32, sceneSlug: 'exodus',
+    bookSlug: 'exodus', chapter: 8, verseStart: 20, verseEnd: 32, sceneSlug: 'exodus', topicTags: ['deliverance', 'sovereignty', 'judgment'],
   },
   {
     externalId: 'tissot-songs-of-joy',
@@ -1446,7 +1451,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'james-tissot', artistName: 'James Tissot',
     wikimediaFile: 'Tissot The Songs of Joy.jpg',
     year: 1896, medium: 'Gouache on board',
-    bookSlug: 'exodus', chapter: 15, verseStart: 1, verseEnd: 21, sceneSlug: 'deliverance',
+    bookSlug: 'exodus', chapter: 15, verseStart: 1, verseEnd: 21, sceneSlug: 'deliverance', topicTags: ['deliverance', 'protection'],
   },
   // Leviticus depth — moves Lev from 2 → 4 chapters
   {
@@ -1455,7 +1460,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'james-tissot', artistName: 'James Tissot',
     wikimediaFile: 'Tissot The Fire of Atonement.jpg',
     year: 1896, medium: 'Gouache on board',
-    bookSlug: 'leviticus', chapter: 9, verseStart: 22, verseEnd: 24, sceneSlug: 'wisdom',
+    bookSlug: 'leviticus', chapter: 9, verseStart: 22, verseEnd: 24, sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
   {
     externalId: 'tissot-two-priests-destroyed',
@@ -1463,7 +1468,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'james-tissot', artistName: 'James Tissot',
     wikimediaFile: 'Tissot The Two Priests Are Destroyed.jpg',
     year: 1896, medium: 'Gouache on board',
-    bookSlug: 'leviticus', chapter: 10, verseStart: 1, verseEnd: 7, sceneSlug: 'judgment',
+    bookSlug: 'leviticus', chapter: 10, verseStart: 1, verseEnd: 7, sceneSlug: 'judgment', topicTags: ['judgment', 'wrath', 'second-coming'],
   },
   // Numbers — 5 entries hitting bare chapters
   {
@@ -1473,7 +1478,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     wikimediaFile: 'Tissot The Gathering of the Manna.jpg',
     year: 1896, medium: 'Gouache on board',
     // Re-tagged to Numbers 11 (manna craving) since Exodus 16 already covered
-    bookSlug: 'numbers', chapter: 11, verseStart: 4, verseEnd: 9, sceneSlug: 'wisdom',
+    bookSlug: 'numbers', chapter: 11, verseStart: 4, verseEnd: 9, sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
   {
     externalId: 'tissot-miriam-shut-out',
@@ -1481,7 +1486,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'james-tissot', artistName: 'James Tissot',
     wikimediaFile: 'Tissot Miriam Shut Out from the Camp.jpg',
     year: 1896, medium: 'Gouache on board',
-    bookSlug: 'numbers', chapter: 12, verseStart: 9, verseEnd: 16, sceneSlug: 'judgment',
+    bookSlug: 'numbers', chapter: 12, verseStart: 9, verseEnd: 16, sceneSlug: 'judgment', topicTags: ['judgment', 'wrath', 'second-coming'],
   },
   {
     externalId: 'tissot-sabbath-breaker-stoned',
@@ -1489,7 +1494,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'james-tissot', artistName: 'James Tissot',
     wikimediaFile: 'Tissot The Sabbath-Breaker Stoned.jpg',
     year: 1896, medium: 'Gouache on board',
-    bookSlug: 'numbers', chapter: 15, verseStart: 32, verseEnd: 36, sceneSlug: 'judgment',
+    bookSlug: 'numbers', chapter: 15, verseStart: 32, verseEnd: 36, sceneSlug: 'judgment', topicTags: ['judgment', 'wrath', 'second-coming'],
   },
   {
     externalId: 'tissot-moses-smites-rock',
@@ -1497,7 +1502,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'james-tissot', artistName: 'James Tissot',
     wikimediaFile: 'Tissot Moses Smites the Rock in the Desert.jpg',
     year: 1896, medium: 'Gouache on board',
-    bookSlug: 'numbers', chapter: 20, verseStart: 1, verseEnd: 13, sceneSlug: 'exodus',
+    bookSlug: 'numbers', chapter: 20, verseStart: 1, verseEnd: 13, sceneSlug: 'exodus', topicTags: ['deliverance', 'sovereignty', 'judgment'],
   },
   {
     externalId: 'tissot-balaams-oracle',
@@ -1506,7 +1511,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     wikimediaFile: 'Tissot Balaam and the Ass.jpg',
     year: 1896, medium: 'Gouache on board',
     // Re-tagged to Numbers 23 (oracle) since Numbers 22 (donkey) already covered
-    bookSlug: 'numbers', chapter: 23, verseStart: 7, verseEnd: 12, sceneSlug: 'wisdom',
+    bookSlug: 'numbers', chapter: 23, verseStart: 7, verseEnd: 12, sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
   {
     externalId: 'tissot-exodus-itinerary',
@@ -1515,7 +1520,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     wikimediaFile: 'Tissot The Exodus.jpg',
     year: 1896, medium: 'Gouache on board',
     // Re-tagged to Numbers 33 (itinerary list) since Exodus 12 covered
-    bookSlug: 'numbers', chapter: 33, verseStart: 1, verseEnd: 15, sceneSlug: 'exodus',
+    bookSlug: 'numbers', chapter: 33, verseStart: 1, verseEnd: 15, sceneSlug: 'exodus', topicTags: ['deliverance', 'sovereignty', 'judgment'],
   },
   // Deuteronomy — 3 entries (Deut was 2/34 covered)
   {
@@ -1525,7 +1530,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     wikimediaFile: 'Tissot The Grapes of Canaan.jpg',
     year: 1896, medium: 'Gouache on board',
     // Re-tagged to Deuteronomy 1 (spies recalled) since Numbers 13 covered
-    bookSlug: 'deuteronomy', chapter: 1, verseStart: 19, verseEnd: 28, sceneSlug: 'wisdom',
+    bookSlug: 'deuteronomy', chapter: 1, verseStart: 19, verseEnd: 28, sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
   {
     externalId: 'tissot-ten-commandments-deut5',
@@ -1534,7 +1539,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     wikimediaFile: 'Tissot Moses and the Ten Commandments.jpg',
     year: 1896, medium: 'Gouache on board',
     // Re-tagged to Deut 5 (Decalogue restated) since Exodus 20 covered
-    bookSlug: 'deuteronomy', chapter: 5, verseStart: 1, verseEnd: 22, sceneSlug: 'wisdom',
+    bookSlug: 'deuteronomy', chapter: 5, verseStart: 1, verseEnd: 22, sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
   {
     externalId: 'tissot-golden-calf-deut9',
@@ -1543,7 +1548,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     wikimediaFile: 'Tissot The Golden Calf.jpg',
     year: 1896, medium: 'Gouache on board',
     // Re-tagged to Deut 9 (Moses recalls golden calf) since Exodus 32 covered
-    bookSlug: 'deuteronomy', chapter: 9, verseStart: 7, verseEnd: 21, sceneSlug: 'judgment',
+    bookSlug: 'deuteronomy', chapter: 9, verseStart: 7, verseEnd: 21, sceneSlug: 'judgment', topicTags: ['judgment', 'wrath', 'second-coming'],
   },
 
   // ───────── HISTORICAL BOOKS ─────────
@@ -1553,7 +1558,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'james-tissot', artistName: 'James Tissot',
     wikimediaFile: 'Tissot The Conquest of the Amorites.jpg',
     year: 1896, medium: 'Gouache on board',
-    bookSlug: 'joshua', chapter: 12, verseStart: 1, verseEnd: 24, sceneSlug: 'conquest',
+    bookSlug: 'joshua', chapter: 12, verseStart: 1, verseEnd: 24, sceneSlug: 'conquest', topicTags: ['leadership', 'sovereignty', 'protection'],
   },
   {
     externalId: 'tissot-deborah-song',
@@ -1561,7 +1566,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'james-tissot', artistName: 'James Tissot',
     wikimediaFile: 'Tissot Deborah Beneath the Palm Tree.jpg',
     year: 1896, medium: 'Gouache on board',
-    bookSlug: 'judges', chapter: 5, verseStart: 1, verseEnd: 12, sceneSlug: 'judges',
+    bookSlug: 'judges', chapter: 5, verseStart: 1, verseEnd: 12, sceneSlug: 'judges', topicTags: ['deliverance', 'leadership', 'sin'],
   },
 
   // ───────── WISDOM ─────────
@@ -1572,7 +1577,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     wikimediaFile: 'Tissot The Wisdom of Solomon.jpg',
     year: 1896, medium: 'Gouache on board',
     // Re-tagged to Eccl 12 (the Preacher's conclusion) since 1 Kings 3 covered
-    bookSlug: 'ecclesiastes', chapter: 12, verseStart: 9, verseEnd: 14, sceneSlug: 'wisdom',
+    bookSlug: 'ecclesiastes', chapter: 12, verseStart: 9, verseEnd: 14, sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
 
   // ───────── PSALMS — Pharaoh's pursuit recalled in Psalm 106 ─────────
@@ -1582,7 +1587,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'james-tissot', artistName: 'James Tissot',
     wikimediaFile: 'Tissot Pharaoh Pursues the Israelites.jpg',
     year: 1896, medium: 'Gouache on board',
-    bookSlug: 'psalms', chapter: 106, verseStart: 9, verseEnd: 12, sceneSlug: 'deliverance',
+    bookSlug: 'psalms', chapter: 106, verseStart: 9, verseEnd: 12, sceneSlug: 'deliverance', topicTags: ['deliverance', 'protection'],
   },
 
   // ───────── NEW TESTAMENT (gap-aware tagging) ─────────
@@ -1599,7 +1604,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     year: 1618, medium: 'Oil on canvas',
     // Tagged to Colossians 3:1-2 ("set your affection on things above") — the
     // Pauline gloss on Mary's choosing the better part. Luke 10 already covered.
-    bookSlug: 'colossians', chapter: 3, verseStart: 1, verseEnd: 4, sceneSlug: 'teaching',
+    bookSlug: 'colossians', chapter: 3, verseStart: 1, verseEnd: 4, sceneSlug: 'teaching', topicTags: ['wisdom', 'witness'],
   },
   {
     externalId: 'watts-hope-rom5',
@@ -1613,7 +1618,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     wikimediaFile: 'George Frederick Watts - Hope - B2011.32 - Yale Center for British Art.jpg',
     year: 1886, medium: 'Oil on canvas',
     // Tagged to Romans 5:3-5 ("hope maketh not ashamed")
-    bookSlug: 'romans', chapter: 5, verseStart: 3, verseEnd: 5, sceneSlug: 'wisdom',
+    bookSlug: 'romans', chapter: 5, verseStart: 3, verseEnd: 5, sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
   {
     externalId: 'caravaggio-isaac-uffizi-james2',
@@ -1625,7 +1630,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     // Tagged to James 2:21 ("was not Abraham our father justified by works,
     // when he had offered Isaac his son upon the altar?"). James 2 was bare
     // — James 1 only one chapter covered.
-    bookSlug: 'james', chapter: 2, verseStart: 14, verseEnd: 26, sceneSlug: 'wisdom',
+    bookSlug: 'james', chapter: 2, verseStart: 14, verseEnd: 26, sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
   {
     externalId: 'holbein-dead-christ-1cor15',
@@ -1640,7 +1645,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     year: 1521, medium: 'Oil on panel',
     // Tagged to 1 Corinthians 15:3-4 (Christ died, was buried, rose again)
     // — 1 Cor 15 was bare. 1 Cor only had 1/16 chapters covered.
-    bookSlug: '1-corinthians', chapter: 15, verseStart: 3, verseEnd: 8, sceneSlug: 'crucifixion',
+    bookSlug: '1-corinthians', chapter: 15, verseStart: 3, verseEnd: 8, sceneSlug: 'crucifixion', topicTags: ['cross', 'sacrifice', 'suffering'],
   },
   {
     externalId: 'botticelli-annunciation-uffizi-gal4',
@@ -1650,7 +1655,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     year: 1481, medium: 'Tempera on panel',
     // Tagged to Galatians 4:4 ("when the fulness of the time was come, God
     // sent forth his Son, made of a woman"). Galatians 4 was bare.
-    bookSlug: 'galatians', chapter: 4, verseStart: 4, verseEnd: 7, sceneSlug: 'nativity',
+    bookSlug: 'galatians', chapter: 4, verseStart: 4, verseEnd: 7, sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
 
   // ═════════════════════════════════════════════════════════════════════
@@ -1674,7 +1679,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistWikipediaUrl: 'https://en.wikipedia.org/wiki/Thomas_Cole',
     wikimediaFile: 'Thomas Cole - The Voyage of Life Childhood, 1842 (National Gallery of Art).jpg',
     year: 1842, medium: 'Oil on canvas',
-    bookSlug: '2-corinthians', chapter: 5, verseStart: 6, verseEnd: 9, sceneSlug: 'wisdom',
+    bookSlug: '2-corinthians', chapter: 5, verseStart: 6, verseEnd: 9, sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
     description: 'Cole\'s allegory of the soul\'s journey — paired with Paul\'s "we walk by faith, not by sight" (2 Cor 5:7).',
   },
   {
@@ -1683,7 +1688,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'thomas-cole', artistName: 'Thomas Cole',
     wikimediaFile: 'Thomas Cole - The Ages of Life - Youth - WGA05140.jpg',
     year: 1842, medium: 'Oil on canvas',
-    bookSlug: 'ecclesiastes', chapter: 11, verseStart: 9, verseEnd: 10, sceneSlug: 'wisdom',
+    bookSlug: 'ecclesiastes', chapter: 11, verseStart: 9, verseEnd: 10, sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
   {
     externalId: 'cole-voyage-manhood-2tim4',
@@ -1691,7 +1696,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'thomas-cole', artistName: 'Thomas Cole',
     wikimediaFile: 'Thomas Cole - The Voyage of Life Manhood, 1842 (National Gallery of Art).jpg',
     year: 1842, medium: 'Oil on canvas',
-    bookSlug: '2-timothy', chapter: 4, verseStart: 6, verseEnd: 8, sceneSlug: 'apostles',
+    bookSlug: '2-timothy', chapter: 4, verseStart: 6, verseEnd: 8, sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
     description: 'Manhood at the storm — paired with Paul\'s "I have fought a good fight, I have finished my course".',
   },
   {
@@ -1700,7 +1705,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'thomas-cole', artistName: 'Thomas Cole',
     wikimediaFile: 'Thomas Cole - The Voyage of Life Old Age, 1842 (National Gallery of Art).jpg',
     year: 1842, medium: 'Oil on canvas',
-    bookSlug: 'ecclesiastes', chapter: 3, verseStart: 1, verseEnd: 8, sceneSlug: 'wisdom',
+    bookSlug: 'ecclesiastes', chapter: 3, verseStart: 1, verseEnd: 8, sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
   },
 
   // ───────── COLE — Course of Empire cycle (1836) ─────────
@@ -1710,7 +1715,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'thomas-cole', artistName: 'Thomas Cole',
     wikimediaFile: 'Cole Thomas The Course of Empire The Arcadian or Pastoral State 1836.jpg',
     year: 1836, medium: 'Oil on canvas',
-    bookSlug: 'isaiah', chapter: 35, verseStart: 1, verseEnd: 10, sceneSlug: 'wisdom',
+    bookSlug: 'isaiah', chapter: 35, verseStart: 1, verseEnd: 10, sceneSlug: 'wisdom', topicTags: ['wisdom', 'righteousness'],
     description: '"The desert shall rejoice, and blossom as the rose" (Isaiah 35:1) — Cole\'s Arcadian state visualizes the prophesied pastoral peace.',
   },
   {
@@ -1719,7 +1724,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'thomas-cole', artistName: 'Thomas Cole',
     wikimediaFile: 'Cole Thomas The Course of Empire Destruction 1836.jpg',
     year: 1836, medium: 'Oil on canvas',
-    bookSlug: '2-peter', chapter: 3, verseStart: 10, verseEnd: 13, sceneSlug: 'apocalypse',
+    bookSlug: '2-peter', chapter: 3, verseStart: 10, verseEnd: 13, sceneSlug: 'apocalypse', topicTags: ['second-coming', 'new-creation', 'judgment'],
     description: '"The elements shall melt with fervent heat" (2 Pet 3:10) — Cole\'s burning city visualizes the Petrine conflagration.',
   },
   {
@@ -1728,7 +1733,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'thomas-cole', artistName: 'Thomas Cole',
     wikimediaFile: 'Thomas Cole - The Garden of Eden (1828).jpg',
     year: 1828, medium: 'Oil on canvas',
-    bookSlug: 'hebrews', chapter: 4, verseStart: 1, verseEnd: 11, sceneSlug: 'creation',
+    bookSlug: 'hebrews', chapter: 4, verseStart: 1, verseEnd: 11, sceneSlug: 'creation', topicTags: ['creation', 'sovereignty', 'glory'],
     description: 'Cole\'s pre-fall paradise — paired with Hebrews 4 on the rest that remains for the people of God.',
   },
 
@@ -1739,7 +1744,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'el-greco', artistName: 'El Greco (Doménikos Theotokópoulos)',
     wikimediaFile: 'The Disrobing of Christ - El Greco.jpg',
     year: 1579, medium: 'Oil on canvas',
-    bookSlug: '1-peter', chapter: 2, verseStart: 21, verseEnd: 25, sceneSlug: 'passion',
+    bookSlug: '1-peter', chapter: 2, verseStart: 21, verseEnd: 25, sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
     description: 'El Greco\'s composition for Toledo Cathedral — paired with 1 Peter 2:21-25 ("Christ also suffered for us, leaving us an example").',
   },
   {
@@ -1753,7 +1758,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistWikipediaUrl: 'https://en.wikipedia.org/wiki/Tintoretto',
     wikimediaFile: 'Tintoretto Christ washing feet Ontario.jpg',
     year: 1547, medium: 'Oil on canvas',
-    bookSlug: '1-peter', chapter: 5, verseStart: 5, verseEnd: 7, sceneSlug: 'passion',
+    bookSlug: '1-peter', chapter: 5, verseStart: 5, verseEnd: 7, sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
     description: 'Tintoretto\'s footwashing — paired with 1 Peter 5:5 ("be clothed with humility").',
   },
   {
@@ -1763,7 +1768,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistName: 'Anonymous (Russian icon tradition)',
     wikimediaFile: 'Icon of Pentecost (18th c., Russia. Priv.coll.).jpg',
     year: 1750, medium: 'Tempera on panel',
-    bookSlug: '1-corinthians', chapter: 12, verseStart: 4, verseEnd: 11, sceneSlug: 'apostles',
+    bookSlug: '1-corinthians', chapter: 12, verseStart: 4, verseEnd: 11, sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
     description: 'Pentecost paired with 1 Cor 12 — the Spirit distributing gifts to each as he wills.',
   },
   {
@@ -1772,7 +1777,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'peter-paul-rubens', artistName: 'Peter Paul Rubens',
     wikimediaFile: 'Peter Paul Rubens - Ausgießung des Heiligen Geistes - 999 - Bavarian State Painting Collections.jpg',
     year: 1620, medium: 'Oil on panel',
-    bookSlug: 'galatians', chapter: 5, verseStart: 22, verseEnd: 25, sceneSlug: 'apostles',
+    bookSlug: 'galatians', chapter: 5, verseStart: 22, verseEnd: 25, sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
     description: 'Rubens\' Pentecost — paired with Galatians 5:22-25 (the fruit of the Spirit).',
   },
   {
@@ -1782,7 +1787,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistName: 'Caravaggio (Michelangelo Merisi)',
     wikimediaFile: 'Caravaggio, Michelangelo Merisi da - The Calling of Saint Matthew - 1599-1600 (hi res).jpg',
     year: 1600, medium: 'Oil on canvas',
-    bookSlug: 'ephesians', chapter: 4, verseStart: 1, verseEnd: 6, sceneSlug: 'apostles',
+    bookSlug: 'ephesians', chapter: 4, verseStart: 1, verseEnd: 6, sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
     description: 'Caravaggio\'s vocation scene — paired with Ephesians 4:1 ("walk worthy of the vocation wherewith ye are called").',
   },
   {
@@ -1791,7 +1796,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'william-holman-hunt', artistName: 'William Holman Hunt',
     wikimediaFile: 'William Holman Hunt - The Hireling Shepherd.jpg',
     year: 1851, medium: 'Oil on canvas',
-    bookSlug: 'jeremiah', chapter: 23, verseStart: 1, verseEnd: 4, sceneSlug: 'judgment',
+    bookSlug: 'jeremiah', chapter: 23, verseStart: 1, verseEnd: 4, sceneSlug: 'judgment', topicTags: ['judgment', 'wrath', 'second-coming'],
     description: 'Holman Hunt\'s pastoral satire — paired with Jeremiah 23:1-4 ("Woe be unto the pastors that destroy and scatter the sheep").',
   },
 
@@ -1802,7 +1807,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistSlug: 'james-tissot', artistName: 'James Tissot',
     wikimediaFile: 'Tissot Michal Watching David from a Window.jpg',
     year: 1896, medium: 'Gouache on board',
-    bookSlug: 'psalms', chapter: 59, verseStart: 1, verseEnd: 5, sceneSlug: 'david',
+    bookSlug: 'psalms', chapter: 59, verseStart: 1, verseEnd: 5, sceneSlug: 'david', topicTags: ['kingship', 'shepherd', 'repentance'],
     description: 'David\'s escape through Michal\'s window (1 Sam 19) — recalled in the superscription of Psalm 59 ("when Saul sent, and they watched the house to kill him").',
   },
   {
@@ -1816,7 +1821,7 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     artistWikipediaUrl: 'https://en.wikipedia.org/wiki/Artemisia_Gentileschi',
     wikimediaFile: 'Artemisia Gentileschi - Judith Beheading Holofernes - WGA8563.jpg',
     year: 1620, medium: 'Oil on canvas',
-    bookSlug: 'judith', chapter: 8, verseStart: 9, verseEnd: 36, sceneSlug: 'deliverance',
+    bookSlug: 'judith', chapter: 8, verseStart: 9, verseEnd: 36, sceneSlug: 'deliverance', topicTags: ['deliverance', 'protection'],
     description: 'Gentileschi\'s Judith — paired with Judith 8 (the chapter where she resolves to act on her plan).',
   },
 ];

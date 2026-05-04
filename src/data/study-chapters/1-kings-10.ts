@@ -18,6 +18,10 @@ export const KINGS_1_10: RichChapterContent = {
   chapter: 10,
 
   estimatedMinutes: { beginner: 4, intermediate: 13, deep: 18 },
+  opener: {
+    matchTitle: /The Queen of Sheba/i,
+    caption: '1 Kings 10',
+  },
   intros: [
     'The wealth and wisdom of Solomon have become legendary. Kings and queens across the world speak of him, and the report reaches the ears of the Queen of Sheba. She is a seeker — not content with hearsay, she determines to come herself and test Solomon with hard questions. This chapter records her journey, her amazement at what she finds, and her acknowledgment that the God of Israel has been faithful to His king. Yet as the chapter unfolds, beneath the descriptions of gold and ivory and abundance, there is also a shadow: the weight of 666 talents, the horses brought from Egypt, the accumulation that can become a curse. Solomon is at the height of his power, yet the very tools of his greatness are the instruments of Israel\'s future ruin.',
     'The Queen of Sheba will become a figure in the teaching of Jesus himself. When the Lord speaks of the last judgment, He will say: "The queen of the south shall rise up in the judgment with this generation, and shall condemn it: for she came from the uttermost parts of the earth to hear the wisdom of Solomon" (Matthew 12:42). She came to listen. She came to learn. She came because she heard. And in her coming, we see the nations drawn to wisdom, drawn to knowledge of the God who dwells in the light. That pattern — the Gentile seeker drawn by report, by word, by testimony — will echo throughout the New Testament and into our own time.',

@@ -17,6 +17,10 @@ export const ROMANS_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 7, intermediate: 15, deep: 21 },
+  opener: {
+    matchTitle: /St Paul Dictating at/i,
+    caption: 'Romans 1',
+  },
   intros: [
     'Romans is Paul&apos;s most carefully built letter. He writes to a church he has never met, in the capital of the empire, with a single goal: to show how God&apos;s righteousness comes through faith in Christ, not through the works of the law. He begins by announcing the gospel—not as a new invention, but as the fulfillment of everything the prophets promised.',
     'Yet Paul knows that before anyone can understand grace, they must see the condition they are saved from. Romans 1 is his diagnosis of humanity as it stands without Christ. He shows us how men and women everywhere have enough light—God visible in creation—to turn toward Him. But instead they have turned away, suppressing the truth, replacing God with idols, and spiraling into darkness. The wrath revealed in Romans 1 is not arbitrary punishment. It is the inevitable consequence of refusing the only One worth honoring.',

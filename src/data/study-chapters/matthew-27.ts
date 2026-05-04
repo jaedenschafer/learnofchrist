@@ -16,6 +16,10 @@ export const MATTHEW_27: RichChapterContent = {
   chapter: 27,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+  opener: {
+    matchTitle: /Jesus Before Pilate First/i,
+    caption: 'Matthew 27',
+  },
   intros: [
     'When morning comes, the chief priests and elders of the people take counsel against Jesus to put Him to death. They bind Him, lead Him away, and deliver Him to Pontius Pilate, the Roman governor. Pilate asks: "Art thou the King of the Jews?" Jesus says: "Thou sayest." Yet He answers little else. Pilate perceives He is being delivered for envy.',
     'The crowd demands the release of Barabbas, a notorious prisoner, and the crucifixion of Jesus. Pilate washes his hands, declaring himself innocent of the blood. But he yields to the crowd. Jesus is scourged and led away to be crucified. At Golgotha, He is offered wine mingled with gall. He refuses. He is crucified between two thieves. The darkness falls. The veil of the temple is torn in two. An earthquake. The centurion and those with him, seeing the earthquake and all that is done, say: "Truly this was the Son of God."',

@@ -3,6 +3,8 @@
 // composition. All works are in the public domain and verified on
 // Wikimedia Commons.
 
+import type { TopicSlug } from './topics';
+
 export type BouguereauPainting = {
   externalId: string;
   title: string;
@@ -15,6 +17,9 @@ export type BouguereauPainting = {
   verseEnd?: number;
   sceneSlug?: string;
   description?: string;
+  /** Optional thematic topics. Used by the artwork resolver to fall
+   *  back from chapter-specific matches to topic-overlap matches. */
+  topicTags?: TopicSlug[];
 };
 
 export const BOUGUEREAU_PAINTINGS: BouguereauPainting[] = [
@@ -28,7 +33,7 @@ export const BOUGUEREAU_PAINTINGS: BouguereauPainting[] = [
     chapter: 1,
     verseStart: 26,
     verseEnd: 38,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'bouguereau-visitation',
@@ -40,7 +45,7 @@ export const BOUGUEREAU_PAINTINGS: BouguereauPainting[] = [
     chapter: 1,
     verseStart: 39,
     verseEnd: 56,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'bouguereau-adoration-of-the-shepherds',
@@ -52,7 +57,7 @@ export const BOUGUEREAU_PAINTINGS: BouguereauPainting[] = [
     chapter: 2,
     verseStart: 8,
     verseEnd: 20,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'bouguereau-song-of-the-angels',
@@ -64,7 +69,7 @@ export const BOUGUEREAU_PAINTINGS: BouguereauPainting[] = [
     chapter: 2,
     verseStart: 13,
     verseEnd: 14,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'bouguereau-adoration-of-the-magi',
@@ -76,7 +81,7 @@ export const BOUGUEREAU_PAINTINGS: BouguereauPainting[] = [
     chapter: 2,
     verseStart: 1,
     verseEnd: 12,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'bouguereau-flight-into-egypt',
@@ -88,7 +93,7 @@ export const BOUGUEREAU_PAINTINGS: BouguereauPainting[] = [
     chapter: 2,
     verseStart: 13,
     verseEnd: 15,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'bouguereau-holy-family',
@@ -100,7 +105,7 @@ export const BOUGUEREAU_PAINTINGS: BouguereauPainting[] = [
     chapter: 2,
     verseStart: 39,
     verseEnd: 40,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'bouguereau-virgin-and-child',
@@ -112,7 +117,7 @@ export const BOUGUEREAU_PAINTINGS: BouguereauPainting[] = [
     chapter: 2,
     verseStart: 16,
     verseEnd: 19,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'bouguereau-virgin-with-angels',
@@ -124,7 +129,7 @@ export const BOUGUEREAU_PAINTINGS: BouguereauPainting[] = [
     chapter: 1,
     verseStart: 46,
     verseEnd: 55,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'bouguereau-virgin-and-lamb',
@@ -136,7 +141,7 @@ export const BOUGUEREAU_PAINTINGS: BouguereauPainting[] = [
     chapter: 1,
     verseStart: 29,
     verseEnd: 29,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'bouguereau-virgin-of-the-lilies',
@@ -148,7 +153,7 @@ export const BOUGUEREAU_PAINTINGS: BouguereauPainting[] = [
     chapter: 2,
     verseStart: 7,
     verseEnd: 7,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'bouguereau-flagellation',
@@ -160,7 +165,7 @@ export const BOUGUEREAU_PAINTINGS: BouguereauPainting[] = [
     chapter: 27,
     verseStart: 26,
     verseEnd: 26,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'bouguereau-compassion',
@@ -172,7 +177,7 @@ export const BOUGUEREAU_PAINTINGS: BouguereauPainting[] = [
     chapter: 19,
     verseStart: 28,
     verseEnd: 30,
-    sceneSlug: 'crucifixion',
+    sceneSlug: 'crucifixion', topicTags: ['cross', 'sacrifice', 'suffering'],
   },
   {
     externalId: 'bouguereau-pieta',
@@ -184,7 +189,7 @@ export const BOUGUEREAU_PAINTINGS: BouguereauPainting[] = [
     chapter: 19,
     verseStart: 38,
     verseEnd: 42,
-    sceneSlug: 'crucifixion',
+    sceneSlug: 'crucifixion', topicTags: ['cross', 'sacrifice', 'suffering'],
   },
   {
     externalId: 'bouguereau-holy-women-at-the-tomb',
@@ -196,7 +201,7 @@ export const BOUGUEREAU_PAINTINGS: BouguereauPainting[] = [
     chapter: 16,
     verseStart: 1,
     verseEnd: 8,
-    sceneSlug: 'resurrection',
+    sceneSlug: 'resurrection', topicTags: ['resurrection', 'hope', 'new-creation'],
   },
   {
     externalId: 'bouguereau-tobias-saying-goodbye',
@@ -208,7 +213,7 @@ export const BOUGUEREAU_PAINTINGS: BouguereauPainting[] = [
     chapter: 5,
     verseStart: 17,
     verseEnd: 22,
-    sceneSlug: 'patriarchs',
+    sceneSlug: 'patriarchs', topicTags: ['covenant', 'faithfulness', 'family'],
   },
   {
     externalId: 'bouguereau-return-of-tobias',
@@ -220,7 +225,7 @@ export const BOUGUEREAU_PAINTINGS: BouguereauPainting[] = [
     chapter: 11,
     verseStart: 9,
     verseEnd: 17,
-    sceneSlug: 'patriarchs',
+    sceneSlug: 'patriarchs', topicTags: ['covenant', 'faithfulness', 'family'],
   },
   {
     externalId: 'bouguereau-jews-in-captivity',
@@ -232,6 +237,6 @@ export const BOUGUEREAU_PAINTINGS: BouguereauPainting[] = [
     chapter: 137,
     verseStart: 1,
     verseEnd: 6,
-    sceneSlug: 'suffering',
+    sceneSlug: 'suffering', topicTags: ['suffering', 'lament', 'hope'],
   },
 ];

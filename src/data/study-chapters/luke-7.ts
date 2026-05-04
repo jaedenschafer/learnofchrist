@@ -19,6 +19,10 @@ export const LUKE_7: RichChapterContent = {
   chapter: 7,
 
   estimatedMinutes: { beginner: 1, intermediate: 5, deep: 6 },
+  opener: {
+    matchTitle: /The Resurrection of the/i,
+    caption: 'Luke 7',
+  },
   intros: [
     'A centurion, a commander of Roman soldiers, hears of Jesus. His beloved servant is sick and close to death. He sends elders of the Jews to Jesus, asking Him to come and heal the servant. Jesus sets out. When He is not far from the house, the centurion sends friends to say: "Lord, trouble not thyself: for I am not worthy that thou shouldest enter under my roof." The centurion understands authority. "For I also am a man set under authority, having under me soldiers... and I say unto one, Go, and he goeth."',
     'Jesus hears this and marvels. He says to those following Him: "I say unto you, I have not found so great faith, no, not in Israel." The faith of a pagan soldier exceeds the faith of those in Israel. The friends return to the house and find the servant whole. Meanwhile, Jesus comes to the city of Nain. A widow meets Him, carrying her only son to the grave. Jesus is moved with compassion. "Weep not," He says. He touches the bier. The young man sits up and speaks.',

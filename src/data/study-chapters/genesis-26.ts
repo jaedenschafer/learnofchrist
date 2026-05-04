@@ -17,6 +17,10 @@ export const GENESIS_26: RichChapterContent = {
   chapter: 26,
 
   estimatedMinutes: { beginner: 9, intermediate: 14, deep: 18 },
+  opener: {
+    matchTitle: /Abimelech bespiedt Isaak en/i,
+    caption: 'Genesis 26',
+  },
   intros: [
     'Genesis 26 is Isaac\'s chapter - the only long narrative told mostly through his eyes. There is no Abraham to overshadow it, no Jacob to steal the story yet. And it is quieter than both: a chapter about staying when you would rather flee, and about digging again wells that others have filled in. A famine comes to the land. God appears to Isaac and tells him: do not go down to Egypt. Stay here. And so Isaac stays. He builds, he plants, he prospers - and when others tear down what he has built, he builds it again.',
     'The pattern repeats: Isaac sows, God multiplies it a hundredfold. Isaac digs a well, the Philistines stop it up. Isaac moves and digs another. Three wells in a row - Esek, Sitnah, Rehoboth - each one [res:bibleodyssey-jacob-israel] a small refusal to be driven away. Then comes rest: a covenant with Abimelech, the promise of God restated, a well that stays open. But the chapter ends not with victory but with grief: Esau marries foreign women, and Isaac and Rebekah\'s hearts are heavy. The reward of faithfulness is not always the happiness of your children.',

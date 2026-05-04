@@ -18,6 +18,10 @@ export const KINGS_1_18: RichChapterContent = {
   chapter: 18,
 
   estimatedMinutes: { beginner: 3, intermediate: 13, deep: 17 },
+  opener: {
+    matchTitle: /Elijah Slays the Prophets/i,
+    caption: '1 Kings 18',
+  },
   intros: [
     'Three years of drought have gripped Israel. The land is barren. The people starve. And Elijah, hidden in the wilderness, receives a word from the Lord: "Go, shew thyself unto Ahab; I will send rain upon the earth." The prophet has been silent for years. Now he comes forward.',
     'But his appearance is not a simple announcement. It is a summoning. Ahab seeks Elijah everywhere—everywhere except where he truly is. When they finally meet, the king calls him the "troubler of Israel." Elijah&apos;s response is sharp: not he, but Ahab and his house have troubled Israel by forsaking the commandments of the Lord. And Elijah proposes a test. On Mount Carmel, let the prophets of Baal call upon their god, and let the Lord call upon His. The god who answers by fire is God.',

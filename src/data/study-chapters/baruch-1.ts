@@ -16,6 +16,10 @@ export const BARUCH_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 6, intermediate: 13, deep: 19 },
+  opener: {
+    matchTitle: /Baruch/i,
+    caption: 'Baruch 1',
+  },
   intros: [
     'Baruch was Jeremiah&apos;s scribe—the one who wrote down the prophet&apos;s words and walked with him through the fall of Jerusalem. Now, five years after the city burned and the people were carried to Babylon, Baruch composes a letter. It is not his voice alone, but the voice of the exiled community itself. He gathers their confessions, their prayers, their lament—and reads them aloud to those who have been torn from home.',
     'Baruch 1 records a moment of collective reckoning. The exiles stand in Babylon, in the fifth year of captivity, and hear their own words read back to them: "We have sinned against the Lord our God, and shame is come upon us." Yet this confession is not despair. It is the first step toward restoration. In speaking sin aloud, in naming what they have done, they make possible what had seemed impossible: a path back to God.',

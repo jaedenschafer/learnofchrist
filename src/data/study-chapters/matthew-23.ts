@@ -16,6 +16,10 @@ export const MATTHEW_23: RichChapterContent = {
   chapter: 23,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+  opener: {
+    matchTitle: /Woe unto You Scribes/i,
+    caption: 'Matthew 23',
+  },
   intros: [
     'Jesus speaks to the crowds and His disciples about the scribes and Pharisees. He does not attack them personally but critiques their teachings and actions. They sit in the seat of Moses—they claim authority based on the law—yet they do not live by what they teach. They make broad their phylacteries and enlarge the borders of their garments. They love the uppermost rooms at feasts and the chief seats in the synagogues.',
     'Then Jesus pronounces a series of woes, seven in total, each beginning with "Woe unto you, scribes and Pharisees, hypocrites." The word hypocrite means actor—one who plays a role. They appear righteous outwardly but are full of hypocrisy and iniquity within. The chapter culminates in Jesus&apos; lament over Jerusalem: His grief over a city that has rejected Him and will kill the messengers He sends.',

@@ -19,6 +19,10 @@ export const HEBREWS_9: RichChapterContent = {
   chapter: 9,
 
   estimatedMinutes: { beginner: 12, intermediate: 18, deep: 40 },
+  opener: {
+    matchTitle: /The Dead Christ Supported/i,
+    caption: 'Hebrews 9',
+  },
   intros: [
     'Hebrews 9 walks you through the tabernacle piece by piece—the candlestick, the table with its shewbread, the altar of incense, the ark of the covenant with the mercy seat and the cherubim. For readers unfamiliar with Exodus, this is your guided tour. But for all readers, this is a lesson in shadows and substance. Every object in that sanctuary pointed to something in Christ. Every priestly action foreshadowed what He would do once and for all.',
     'The key is the contrast between repetition and completion. The old system repeated every year because it never finished anything. The High Priest had to come back. The offerings had to come again. The way into God&apos;s presence was never finally opened. But Christ came once. He offered Himself once. He entered heaven once. And it was done. Not &quot;to be continued.&quot; Not &quot;to be repeated.&quot; Finished. The old covenant made you a participant in an endless cycle. The new covenant makes you a participant in Christ&apos;s eternal rest.',

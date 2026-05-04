@@ -3,6 +3,8 @@
 // "The Good Shepherd", and "Guardian Angel". All works are in the public
 // domain and verified on Wikimedia Commons.
 
+import type { TopicSlug } from './topics';
+
 export type PlockhorstPainting = {
   externalId: string;
   title: string;
@@ -15,6 +17,9 @@ export type PlockhorstPainting = {
   verseEnd?: number;
   sceneSlug?: string;
   description?: string;
+  /** Optional thematic topics. Used by the artwork resolver to fall
+   *  back from chapter-specific matches to topic-overlap matches. */
+  topicTags?: TopicSlug[];
 };
 
 export const PLOCKHORST_PAINTINGS: PlockhorstPainting[] = [
@@ -28,7 +33,7 @@ export const PLOCKHORST_PAINTINGS: PlockhorstPainting[] = [
     chapter: 10,
     verseStart: 13,
     verseEnd: 16,
-    sceneSlug: 'teaching',
+    sceneSlug: 'teaching', topicTags: ['wisdom', 'witness'],
   },
   {
     externalId: 'plockhorst-good-shepherd',
@@ -40,7 +45,7 @@ export const PLOCKHORST_PAINTINGS: PlockhorstPainting[] = [
     chapter: 10,
     verseStart: 11,
     verseEnd: 16,
-    sceneSlug: 'teaching',
+    sceneSlug: 'teaching', topicTags: ['wisdom', 'witness'],
   },
   {
     externalId: 'plockhorst-guardian-angel',
@@ -52,7 +57,7 @@ export const PLOCKHORST_PAINTINGS: PlockhorstPainting[] = [
     chapter: 91,
     verseStart: 11,
     verseEnd: 12,
-    sceneSlug: 'deliverance',
+    sceneSlug: 'deliverance', topicTags: ['deliverance', 'protection'],
   },
   {
     externalId: 'plockhorst-victory-over-the-grave',
@@ -64,7 +69,7 @@ export const PLOCKHORST_PAINTINGS: PlockhorstPainting[] = [
     chapter: 28,
     verseStart: 1,
     verseEnd: 7,
-    sceneSlug: 'resurrection',
+    sceneSlug: 'resurrection', topicTags: ['resurrection', 'hope', 'new-creation'],
   },
   {
     externalId: 'plockhorst-immanuelkirche-altarpiece',
@@ -76,6 +81,6 @@ export const PLOCKHORST_PAINTINGS: PlockhorstPainting[] = [
     chapter: 11,
     verseStart: 28,
     verseEnd: 30,
-    sceneSlug: 'teaching',
+    sceneSlug: 'teaching', topicTags: ['wisdom', 'witness'],
   },
 ];

@@ -16,6 +16,10 @@ export const EZEKIEL_37: RichChapterContent = {
   chapter: 37,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
+  opener: {
+    matchTitle: /Ezekiel/i,
+    caption: 'Ezekiel 37',
+  },
   intros: [
     'The vision begins in death. Ezekiel is set down in a valley of dry bones—not merely a graveyard, but a place of absolute desolation. The bones are so old and scattered that they seem to have no connection to life. They are the bones of a destroyed people, a nation beyond hope of restoration. And God asks Ezekiel: "Son of man, can these bones live?" The question is not rhetorical. It is the fundamental question of faith: Is anything too dead for God to resurrect?',
     'What follows is the most literal description of resurrection in Scripture. Bones come together. Sinews bind them. Flesh grows on them. Skin covers them. But they are still dead—still bodies without breath. Until Ezekiel is commanded to prophesy to the wind, to call the breath of life from the four winds of heaven. And the breath enters them, and they live. They stand up. They are an exceeding great army. This is not metaphor. This is how resurrection works: first the reassembly, then the breath of life, then living again.',

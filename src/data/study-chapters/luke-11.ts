@@ -20,6 +20,10 @@ export const LUKE_11: RichChapterContent = {
   chapter: 11,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 6 },
+  opener: {
+    matchTitle: /A Woman Cries Out/i,
+    caption: 'Luke 11',
+  },
   intros: [
     'Jesus is praying in a certain place. When He finishes, one of His disciples says: "Lord, teach us to pray, as John also taught his disciples." Jesus says to them: "When ye pray, say, Our Father which art in heaven, Hallowed be thy name. Thy kingdom come. Thy will be done, as in heaven, so in earth. Give us day by day our daily bread. And forgive us our sins; for we also forgive every one that is indebted to us. And lead us not into temptation; but deliver us from evil."',
     'Then Jesus teaches about prayer. "Ask, and it shall be given you; seek, and ye shall find; knock, and it shall be opened unto you. For every one that asketh receiveth; and he that seeketh findeth; and to him that knocketh it shall be opened." A man brings his dumb son, possessed by a dumb devil. When the devil is cast out, the dumb man speaks. But the people marvel. Some say Jesus casts out demons by Beelzebub. Jesus rebukes them. His authority comes from God, not from Satan.',

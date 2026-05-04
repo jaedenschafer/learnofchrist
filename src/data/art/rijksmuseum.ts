@@ -15,6 +15,8 @@
 // to return HTTP 200 at time of ingest. Scripture anchors are assigned by
 // title-keyword regex against the curated English and Dutch titles.
 
+import type { TopicSlug } from './topics';
+
 export type RijksmuseumArtist = {
   slug: string;
   name: string;
@@ -132,6 +134,9 @@ export type RijksmuseumPlate = {
   verseEnd?: number;
   sceneSlug?: string;
   description?: string;
+  /** Optional thematic topics. Used by the artwork resolver to fall
+   *  back from chapter-specific matches to topic-overlap matches. */
+  topicTags?: TopicSlug[];
 };
 
 export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
@@ -146,7 +151,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'lucas-van-leyden',
     bookSlug: 'exodus',
     chapter: 32,
-    sceneSlug: 'judgment',
+    sceneSlug: 'judgment', topicTags: ['judgment', 'wrath', 'second-coming'],
   },
   {
     externalId: 'lucas-van-leyden-de-opstanding',
@@ -157,7 +162,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'lucas-van-leyden',
     bookSlug: 'matthew',
     chapter: 28,
-    sceneSlug: 'resurrection',
+    sceneSlug: 'resurrection', topicTags: ['resurrection', 'hope', 'new-creation'],
   },
   {
     externalId: 'lucas-van-leyden-adam-en-eva-treuren-over-de-dode-abel',
@@ -168,7 +173,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'lucas-van-leyden',
     bookSlug: 'genesis',
     chapter: 3,
-    sceneSlug: 'creation',
+    sceneSlug: 'creation', topicTags: ['creation', 'sovereignty', 'glory'],
   },
   {
     externalId: 'lucas-van-leyden-de-zondeval',
@@ -179,7 +184,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'lucas-van-leyden',
     bookSlug: 'genesis',
     chapter: 3,
-    sceneSlug: 'creation',
+    sceneSlug: 'creation', topicTags: ['creation', 'sovereignty', 'glory'],
   },
   {
     externalId: 'lucas-van-leyden-de-afgoderij-van-salomo',
@@ -190,7 +195,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'lucas-van-leyden',
     bookSlug: '1-kings',
     chapter: 3,
-    sceneSlug: 'monarchy',
+    sceneSlug: 'monarchy', topicTags: ['kingship', 'leadership', 'sin'],
   },
   {
     externalId: 'lucas-van-leyden-de-verzoeking-van-christus',
@@ -201,7 +206,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'lucas-van-leyden',
     bookSlug: 'matthew',
     chapter: 4,
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
   },
   {
     externalId: 'lucas-van-leyden-de-zondeval-2',
@@ -212,7 +217,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'lucas-van-leyden',
     bookSlug: 'genesis',
     chapter: 3,
-    sceneSlug: 'creation',
+    sceneSlug: 'creation', topicTags: ['creation', 'sovereignty', 'glory'],
   },
   {
     externalId: 'lucas-van-leyden-abraham-en-isaak',
@@ -223,7 +228,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'lucas-van-leyden',
     bookSlug: 'genesis',
     chapter: 22,
-    sceneSlug: 'sacrifice',
+    sceneSlug: 'sacrifice', topicTags: ['sacrifice', 'priest', 'covenant'],
   },
   {
     externalId: 'lucas-van-leyden-izebel-en-koning-achab',
@@ -234,7 +239,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'lucas-van-leyden',
     bookSlug: '1-kings',
     chapter: 21,
-    sceneSlug: 'judgment',
+    sceneSlug: 'judgment', topicTags: ['judgment', 'wrath', 'second-coming'],
   },
   {
     externalId: 'lucas-van-leyden-salome-met-het-hoofd-van-johannes-de-doper',
@@ -256,7 +261,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'lucas-van-leyden',
     bookSlug: 'genesis',
     chapter: 3,
-    sceneSlug: 'creation',
+    sceneSlug: 'creation', topicTags: ['creation', 'sovereignty', 'glory'],
   },
   {
     externalId: 'lucas-van-leyden-simson-en-delila',
@@ -267,7 +272,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'lucas-van-leyden',
     bookSlug: 'judges',
     chapter: 16,
-    sceneSlug: 'judgment',
+    sceneSlug: 'judgment', topicTags: ['judgment', 'wrath', 'second-coming'],
   },
   {
     externalId: 'lucas-van-leyden-de-afgoderij-van-salomo-2',
@@ -278,7 +283,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'lucas-van-leyden',
     bookSlug: '1-kings',
     chapter: 3,
-    sceneSlug: 'monarchy',
+    sceneSlug: 'monarchy', topicTags: ['kingship', 'leadership', 'sin'],
   },
   {
     externalId: 'lucas-van-leyden-salome-met-het-hoofd-van-johannes-de-doper-2',
@@ -300,7 +305,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'lucas-van-leyden',
     bookSlug: '1-kings',
     chapter: 3,
-    sceneSlug: 'monarchy',
+    sceneSlug: 'monarchy', topicTags: ['kingship', 'leadership', 'sin'],
   },
 
   // ===== Jan Saenredam (7) =====
@@ -313,7 +318,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'jan-saenredam',
     bookSlug: 'luke',
     chapter: 2,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'jan-saenredam-judith',
@@ -324,7 +329,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'jan-saenredam',
     bookSlug: 'judith',
     chapter: 13,
-    sceneSlug: 'deliverance',
+    sceneSlug: 'deliverance', topicTags: ['deliverance', 'protection'],
   },
   {
     externalId: 'jan-saenredam-aanbidding-door-de-herders-middelste-blad',
@@ -335,7 +340,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'jan-saenredam',
     bookSlug: 'luke',
     chapter: 2,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'jan-saenredam-aanbidding-door-de-herders-rechter-blad',
@@ -346,7 +351,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'jan-saenredam',
     bookSlug: 'luke',
     chapter: 2,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'jan-saenredam-aanbidding-door-de-herders-middelste-blad-2',
@@ -357,7 +362,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'jan-saenredam',
     bookSlug: 'luke',
     chapter: 2,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'jan-saenredam-aanbidding-door-de-herders-rechter-blad-2',
@@ -368,7 +373,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'jan-saenredam',
     bookSlug: 'luke',
     chapter: 2,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'jan-saenredam-verloren-zoon-als-varkenshoeder',
@@ -379,7 +384,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'jan-saenredam',
     bookSlug: 'luke',
     chapter: 15,
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
   },
 
   // ===== Pieter Lastman (1) =====
@@ -393,7 +398,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'pieter-lastman',
     bookSlug: 'genesis',
     chapter: 22,
-    sceneSlug: 'sacrifice',
+    sceneSlug: 'sacrifice', topicTags: ['sacrifice', 'priest', 'covenant'],
   },
 
   // ===== Ferdinand Bol (9) =====
@@ -407,7 +412,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'ferdinand-bol',
     bookSlug: '1-kings',
     chapter: 3,
-    sceneSlug: 'monarchy',
+    sceneSlug: 'monarchy', topicTags: ['kingship', 'leadership', 'sin'],
   },
   {
     externalId: 'ferdinand-bol-pharoahs-daughter-discovers-moses-in-the-rush-basket',
@@ -419,7 +424,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'ferdinand-bol',
     bookSlug: 'exodus',
     chapter: 2,
-    sceneSlug: 'deliverance',
+    sceneSlug: 'deliverance', topicTags: ['deliverance', 'protection'],
   },
   {
     externalId: 'ferdinand-bol-hagar-and-the-angel-at-the-well-on-the-way-to-shur',
@@ -431,7 +436,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'ferdinand-bol',
     bookSlug: 'genesis',
     chapter: 21,
-    sceneSlug: 'family',
+    sceneSlug: 'family', topicTags: ['family', 'faithfulness'],
   },
   {
     externalId: 'ferdinand-bol-engel-verlaat-de-familie-van-tobit',
@@ -442,7 +447,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'ferdinand-bol',
     bookSlug: 'tobit',
     chapter: 6,
-    sceneSlug: 'providence',
+    sceneSlug: 'providence', topicTags: ['sovereignty', 'faithfulness', 'provision'],
   },
   {
     externalId: 'ferdinand-bol-christ-appearing-to-mary-magdalene-as-a-gardener-noli-me-tangere',
@@ -454,7 +459,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'ferdinand-bol',
     bookSlug: 'john',
     chapter: 20,
-    sceneSlug: 'resurrection',
+    sceneSlug: 'resurrection', topicTags: ['resurrection', 'hope', 'new-creation'],
   },
   {
     externalId: 'ferdinand-bol-moses-descending-from-mount-sinai-with-the-ten-commandments',
@@ -466,7 +471,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'ferdinand-bol',
     bookSlug: 'exodus',
     chapter: 32,
-    sceneSlug: 'covenant',
+    sceneSlug: 'covenant', topicTags: ['covenant', 'faithfulness', 'sacrifice'],
   },
   {
     externalId: 'ferdinand-bol-offer-van-gideon',
@@ -477,7 +482,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'ferdinand-bol',
     bookSlug: 'judges',
     chapter: 7,
-    sceneSlug: 'deliverance',
+    sceneSlug: 'deliverance', topicTags: ['deliverance', 'protection'],
   },
   {
     externalId: 'ferdinand-bol-offer-van-gideon-2',
@@ -488,7 +493,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'ferdinand-bol',
     bookSlug: 'judges',
     chapter: 7,
-    sceneSlug: 'deliverance',
+    sceneSlug: 'deliverance', topicTags: ['deliverance', 'protection'],
   },
   {
     externalId: 'ferdinand-bol-offer-van-abraham',
@@ -499,7 +504,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'ferdinand-bol',
     bookSlug: 'genesis',
     chapter: 22,
-    sceneSlug: 'sacrifice',
+    sceneSlug: 'sacrifice', topicTags: ['sacrifice', 'priest', 'covenant'],
   },
 
   // ===== Aert de Gelder (2) =====
@@ -513,7 +518,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'aert-de-gelder',
     bookSlug: 'job',
     chapter: 1,
-    sceneSlug: 'suffering',
+    sceneSlug: 'suffering', topicTags: ['suffering', 'lament', 'hope'],
   },
   {
     externalId: 'aert-de-gelder-the-arrest-of-christ',
@@ -525,7 +530,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'aert-de-gelder',
     bookSlug: 'matthew',
     chapter: 26,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
 
   // ===== Maarten van Heemskerck (7) =====
@@ -539,7 +544,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'maarten-van-heemskerck',
     bookSlug: 'judges',
     chapter: 16,
-    sceneSlug: 'judgment',
+    sceneSlug: 'judgment', topicTags: ['judgment', 'wrath', 'second-coming'],
   },
   {
     externalId: 'maarten-van-heemskerck-triumph-over-death-samson-carrying-the-gate-of-gaza-hercules-slaying-the-centaur',
@@ -551,7 +556,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'maarten-van-heemskerck',
     bookSlug: 'judges',
     chapter: 16,
-    sceneSlug: 'judgment',
+    sceneSlug: 'judgment', topicTags: ['judgment', 'wrath', 'second-coming'],
   },
   {
     externalId: 'maarten-van-heemskerck-triumph-over-evil-samson-rending-the-lion-pluto-and-cerberus',
@@ -563,7 +568,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'maarten-van-heemskerck',
     bookSlug: 'judges',
     chapter: 16,
-    sceneSlug: 'judgment',
+    sceneSlug: 'judgment', topicTags: ['judgment', 'wrath', 'second-coming'],
   },
   {
     externalId: 'maarten-van-heemskerck-aanklagers-van-daniel-worden-in-de-leeuwenkuil-geworpen',
@@ -574,7 +579,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'maarten-van-heemskerck',
     bookSlug: 'daniel',
     chapter: 6,
-    sceneSlug: 'providence',
+    sceneSlug: 'providence', topicTags: ['sovereignty', 'faithfulness', 'provision'],
   },
   {
     externalId: 'maarten-van-heemskerck-doop-van-christus',
@@ -585,7 +590,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'maarten-van-heemskerck',
     bookSlug: 'matthew',
     chapter: 3,
-    sceneSlug: 'baptism',
+    sceneSlug: 'baptism', topicTags: ['witness', 'humility', 'calling'],
   },
   {
     externalId: 'maarten-van-heemskerck-triumph-over-evil-samson-rending-the-lion-pluto-and-cerberus-2',
@@ -597,7 +602,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'maarten-van-heemskerck',
     bookSlug: 'judges',
     chapter: 16,
-    sceneSlug: 'judgment',
+    sceneSlug: 'judgment', topicTags: ['judgment', 'wrath', 'second-coming'],
   },
   {
     externalId: 'maarten-van-heemskerck-triumph-over-death-samson-carrying-the-gate-of-gaza-hercules-slaying-the-centaur-2',
@@ -609,7 +614,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'maarten-van-heemskerck',
     bookSlug: 'judges',
     chapter: 16,
-    sceneSlug: 'judgment',
+    sceneSlug: 'judgment', topicTags: ['judgment', 'wrath', 'second-coming'],
   },
 
   // ===== Adriaen Collaert (26) =====
@@ -622,7 +627,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'adriaen-collaert',
     bookSlug: 'matthew',
     chapter: 3,
-    sceneSlug: 'baptism',
+    sceneSlug: 'baptism', topicTags: ['witness', 'humility', 'calling'],
   },
   {
     externalId: 'adriaen-collaert-gebeurtenissen-uit-het-leven-van-kain-en-abel',
@@ -633,7 +638,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'adriaen-collaert',
     bookSlug: 'genesis',
     chapter: 4,
-    sceneSlug: 'family',
+    sceneSlug: 'family', topicTags: ['family', 'faithfulness'],
   },
   {
     externalId: 'adriaen-collaert-gebeurtenissen-uit-het-leven-van-noach',
@@ -644,7 +649,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'adriaen-collaert',
     bookSlug: 'genesis',
     chapter: 7,
-    sceneSlug: 'judgment',
+    sceneSlug: 'judgment', topicTags: ['judgment', 'wrath', 'second-coming'],
   },
   {
     externalId: 'adriaen-collaert-gebeurtenissen-uit-het-leven-van-lot',
@@ -655,7 +660,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'adriaen-collaert',
     bookSlug: 'genesis',
     chapter: 19,
-    sceneSlug: 'judgment',
+    sceneSlug: 'judgment', topicTags: ['judgment', 'wrath', 'second-coming'],
   },
   {
     externalId: 'adriaen-collaert-elisa-profeteert-voor-de-koningen-van-israel-juda-en-edom',
@@ -666,7 +671,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'adriaen-collaert',
     bookSlug: '2-kings',
     chapter: 2,
-    sceneSlug: 'providence',
+    sceneSlug: 'providence', topicTags: ['sovereignty', 'faithfulness', 'provision'],
   },
   {
     externalId: 'adriaen-collaert-mozes-met-de-tien-geboden',
@@ -677,7 +682,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'adriaen-collaert',
     bookSlug: 'exodus',
     chapter: 32,
-    sceneSlug: 'covenant',
+    sceneSlug: 'covenant', topicTags: ['covenant', 'faithfulness', 'sacrifice'],
   },
   {
     externalId: 'adriaen-collaert-voetwassing',
@@ -688,7 +693,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'adriaen-collaert',
     bookSlug: 'john',
     chapter: 13,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'adriaen-collaert-judaskus-en-arrestatie-van-christus',
@@ -699,7 +704,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'adriaen-collaert',
     bookSlug: 'matthew',
     chapter: 26,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'adriaen-collaert-ecce-homo',
@@ -710,7 +715,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'adriaen-collaert',
     bookSlug: 'john',
     chapter: 19,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'adriaen-collaert-kruisdraging',
@@ -721,7 +726,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'adriaen-collaert',
     bookSlug: 'matthew',
     chapter: 27,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'adriaen-collaert-graflegging-van-christus',
@@ -732,7 +737,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'adriaen-collaert',
     bookSlug: 'matthew',
     chapter: 27,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'adriaen-collaert-aankondiging-van-de-geboorte-van-christus-aan-de-herders',
@@ -743,7 +748,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'adriaen-collaert',
     bookSlug: 'luke',
     chapter: 2,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'adriaen-collaert-aanbidding-door-de-herders',
@@ -754,7 +759,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'adriaen-collaert',
     bookSlug: 'luke',
     chapter: 2,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'adriaen-collaert-kindermoord',
@@ -765,7 +770,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'adriaen-collaert',
     bookSlug: 'matthew',
     chapter: 2,
-    sceneSlug: 'judgment',
+    sceneSlug: 'judgment', topicTags: ['judgment', 'wrath', 'second-coming'],
   },
   {
     externalId: 'adriaen-collaert-doop-van-christus',
@@ -776,7 +781,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'adriaen-collaert',
     bookSlug: 'matthew',
     chapter: 3,
-    sceneSlug: 'baptism',
+    sceneSlug: 'baptism', topicTags: ['witness', 'humility', 'calling'],
   },
   {
     externalId: 'adriaen-collaert-bruiloft-te-kana',
@@ -787,7 +792,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'adriaen-collaert',
     bookSlug: 'john',
     chapter: 2,
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
   },
   {
     externalId: 'adriaen-collaert-bergrede',
@@ -798,7 +803,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'adriaen-collaert',
     bookSlug: 'matthew',
     chapter: 5,
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
   },
   {
     externalId: 'adriaen-collaert-maria-magdalena-zalft-de-voeten-van-christus',
@@ -809,7 +814,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'adriaen-collaert',
     bookSlug: 'luke',
     chapter: 7,
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
   },
   {
     externalId: 'adriaen-collaert-christus-en-de-overspelige-vrouw',
@@ -820,7 +825,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'adriaen-collaert',
     bookSlug: 'john',
     chapter: 8,
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
   },
   {
     externalId: 'adriaen-collaert-opstanding',
@@ -831,7 +836,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'adriaen-collaert',
     bookSlug: 'matthew',
     chapter: 28,
-    sceneSlug: 'resurrection',
+    sceneSlug: 'resurrection', topicTags: ['resurrection', 'hope', 'new-creation'],
   },
   {
     externalId: 'adriaen-collaert-christus-in-het-hof-van-olijven',
@@ -842,7 +847,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'adriaen-collaert',
     bookSlug: 'matthew',
     chapter: 26,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'adriaen-collaert-kruisdraging-met-de-h-veronica',
@@ -853,7 +858,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'adriaen-collaert',
     bookSlug: 'matthew',
     chapter: 27,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'adriaen-collaert-kruisafneming',
@@ -864,7 +869,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'adriaen-collaert',
     bookSlug: 'john',
     chapter: 19,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'adriaen-collaert-verzoeking-van-christus',
@@ -875,7 +880,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'adriaen-collaert',
     bookSlug: 'matthew',
     chapter: 4,
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
   },
   {
     externalId: 'adriaen-collaert-intocht-in-jeruzalem',
@@ -886,7 +891,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'adriaen-collaert',
     bookSlug: 'matthew',
     chapter: 21,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'adriaen-collaert-christus-terug-bij-pilatus',
@@ -897,7 +902,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'adriaen-collaert',
     bookSlug: 'john',
     chapter: 19,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
 
   // ===== Crispijn van de Passe (41) =====
@@ -910,7 +915,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'crispijn-van-de-passe',
     bookSlug: 'jonah',
     chapter: 2,
-    sceneSlug: 'providence',
+    sceneSlug: 'providence', topicTags: ['sovereignty', 'faithfulness', 'provision'],
   },
   {
     externalId: 'crispijn-van-de-passe-geschiedenis-van-jona-2',
@@ -921,7 +926,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'crispijn-van-de-passe',
     bookSlug: 'jonah',
     chapter: 2,
-    sceneSlug: 'providence',
+    sceneSlug: 'providence', topicTags: ['sovereignty', 'faithfulness', 'provision'],
   },
   {
     externalId: 'crispijn-van-de-passe-geschiedenis-van-jona-3',
@@ -932,7 +937,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'crispijn-van-de-passe',
     bookSlug: 'jonah',
     chapter: 2,
-    sceneSlug: 'providence',
+    sceneSlug: 'providence', topicTags: ['sovereignty', 'faithfulness', 'provision'],
   },
   {
     externalId: 'crispijn-van-de-passe-jona-zit-onder-de-wonderboom',
@@ -943,7 +948,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'crispijn-van-de-passe',
     bookSlug: 'jonah',
     chapter: 2,
-    sceneSlug: 'providence',
+    sceneSlug: 'providence', topicTags: ['sovereignty', 'faithfulness', 'provision'],
   },
   {
     externalId: 'crispijn-van-de-passe-annunciatie',
@@ -954,7 +959,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'crispijn-van-de-passe',
     bookSlug: 'luke',
     chapter: 1,
-    sceneSlug: 'annunciation',
+    sceneSlug: 'annunciation', topicTags: ['incarnation', 'calling'],
   },
   {
     externalId: 'crispijn-van-de-passe-aanbidding-door-de-koningen',
@@ -965,7 +970,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'crispijn-van-de-passe',
     bookSlug: 'matthew',
     chapter: 2,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'crispijn-van-de-passe-rest-on-the-flight-into-egypt',
@@ -977,7 +982,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'crispijn-van-de-passe',
     bookSlug: 'matthew',
     chapter: 2,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'crispijn-van-de-passe-annunciatie-maagd-maria',
@@ -988,7 +993,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'crispijn-van-de-passe',
     bookSlug: 'luke',
     chapter: 1,
-    sceneSlug: 'annunciation',
+    sceneSlug: 'annunciation', topicTags: ['incarnation', 'calling'],
   },
   {
     externalId: 'crispijn-van-de-passe-annunciatie-engel-gabriel',
@@ -999,7 +1004,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'crispijn-van-de-passe',
     bookSlug: 'luke',
     chapter: 1,
-    sceneSlug: 'annunciation',
+    sceneSlug: 'annunciation', topicTags: ['incarnation', 'calling'],
   },
   {
     externalId: 'crispijn-van-de-passe-laatste-avondmaal',
@@ -1010,7 +1015,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'crispijn-van-de-passe',
     bookSlug: 'matthew',
     chapter: 26,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'crispijn-van-de-passe-christus-voor-pilatus',
@@ -1021,7 +1026,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'crispijn-van-de-passe',
     bookSlug: 'john',
     chapter: 19,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'crispijn-van-de-passe-kruisdraging',
@@ -1032,7 +1037,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'crispijn-van-de-passe',
     bookSlug: 'matthew',
     chapter: 27,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'crispijn-van-de-passe-mozes-en-de-koperen-slang',
@@ -1043,7 +1048,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'crispijn-van-de-passe',
     bookSlug: 'numbers',
     chapter: 21,
-    sceneSlug: 'wilderness',
+    sceneSlug: 'wilderness', topicTags: ['provision', 'doubt', 'protection'],
   },
   {
     externalId: 'crispijn-van-de-passe-landschappen-met-scenes-uit-de-gelijkenis-van-de-barmhartige-samaritaan',
@@ -1054,7 +1059,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'crispijn-van-de-passe',
     bookSlug: 'luke',
     chapter: 10,
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
   },
   {
     externalId: 'crispijn-van-de-passe-landschappen-met-scenes-uit-de-gelijkenis-van-de-barmhartige-samaritaan-2',
@@ -1065,7 +1070,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'crispijn-van-de-passe',
     bookSlug: 'luke',
     chapter: 10,
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
   },
   {
     externalId: 'crispijn-van-de-passe-landschappen-met-scenes-uit-de-gelijkenis-van-de-barmhartige-samaritaan-3',
@@ -1076,7 +1081,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'crispijn-van-de-passe',
     bookSlug: 'luke',
     chapter: 10,
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
   },
   {
     externalId: 'crispijn-van-de-passe-de-barmhartige-samaritaan-zet-de-gewonde-reiziger-bij-een-herberg-af',
@@ -1087,7 +1092,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'crispijn-van-de-passe',
     bookSlug: 'luke',
     chapter: 10,
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
   },
   {
     externalId: 'crispijn-van-de-passe-expulsion-from-paradise',
@@ -1099,7 +1104,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'crispijn-van-de-passe',
     bookSlug: 'genesis',
     chapter: 3,
-    sceneSlug: 'creation',
+    sceneSlug: 'creation', topicTags: ['creation', 'sovereignty', 'glory'],
   },
   {
     externalId: 'crispijn-van-de-passe-kain-bouwt-de-stad-henoch',
@@ -1110,7 +1115,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'crispijn-van-de-passe',
     bookSlug: 'genesis',
     chapter: 4,
-    sceneSlug: 'family',
+    sceneSlug: 'family', topicTags: ['family', 'faithfulness'],
   },
   {
     externalId: 'crispijn-van-de-passe-god-draagt-noach-op-de-ark-te-bouwen',
@@ -1121,7 +1126,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'crispijn-van-de-passe',
     bookSlug: 'genesis',
     chapter: 7,
-    sceneSlug: 'judgment',
+    sceneSlug: 'judgment', topicTags: ['judgment', 'wrath', 'second-coming'],
   },
   {
     externalId: 'crispijn-van-de-passe-noach-gaat-met-zijn-familie-en-de-dieren-aan-boord-van-de-ark',
@@ -1132,7 +1137,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'crispijn-van-de-passe',
     bookSlug: 'genesis',
     chapter: 7,
-    sceneSlug: 'judgment',
+    sceneSlug: 'judgment', topicTags: ['judgment', 'wrath', 'second-coming'],
   },
   {
     externalId: 'crispijn-van-de-passe-de-aarde-na-de-zondvloed',
@@ -1143,7 +1148,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'crispijn-van-de-passe',
     bookSlug: 'genesis',
     chapter: 7,
-    sceneSlug: 'judgment',
+    sceneSlug: 'judgment', topicTags: ['judgment', 'wrath', 'second-coming'],
   },
   {
     externalId: 'crispijn-van-de-passe-abraham-en-hagar',
@@ -1154,7 +1159,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'crispijn-van-de-passe',
     bookSlug: 'genesis',
     chapter: 21,
-    sceneSlug: 'family',
+    sceneSlug: 'family', topicTags: ['family', 'faithfulness'],
   },
   {
     externalId: 'crispijn-van-de-passe-de-vernietiging-van-sodom-en-gomorra',
@@ -1165,7 +1170,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'crispijn-van-de-passe',
     bookSlug: 'genesis',
     chapter: 19,
-    sceneSlug: 'judgment',
+    sceneSlug: 'judgment', topicTags: ['judgment', 'wrath', 'second-coming'],
   },
   {
     externalId: 'crispijn-van-de-passe-offer-van-abraham',
@@ -1176,7 +1181,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'crispijn-van-de-passe',
     bookSlug: 'genesis',
     chapter: 22,
-    sceneSlug: 'sacrifice',
+    sceneSlug: 'sacrifice', topicTags: ['sacrifice', 'priest', 'covenant'],
   },
   {
     externalId: 'crispijn-van-de-passe-de-ontmoeting-van-isaak-en-rebekka',
@@ -1187,7 +1192,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'crispijn-van-de-passe',
     bookSlug: 'genesis',
     chapter: 24,
-    sceneSlug: 'family',
+    sceneSlug: 'family', topicTags: ['family', 'faithfulness'],
   },
   {
     externalId: 'crispijn-van-de-passe-abimelech-bespiedt-isaak-en-rebekka',
@@ -1198,7 +1203,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'crispijn-van-de-passe',
     bookSlug: 'genesis',
     chapter: 26,
-    sceneSlug: 'family',
+    sceneSlug: 'family', topicTags: ['family', 'faithfulness'],
   },
   {
     externalId: 'crispijn-van-de-passe-isaak-zegent-jakob',
@@ -1209,7 +1214,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'crispijn-van-de-passe',
     bookSlug: 'genesis',
     chapter: 27,
-    sceneSlug: 'patriarchs',
+    sceneSlug: 'patriarchs', topicTags: ['covenant', 'faithfulness', 'family'],
   },
   {
     externalId: 'crispijn-van-de-passe-de-ontmoeting-van-jakob-en-rachel-bij-de-waterput',
@@ -1220,7 +1225,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'crispijn-van-de-passe',
     bookSlug: 'genesis',
     chapter: 29,
-    sceneSlug: 'family',
+    sceneSlug: 'family', topicTags: ['family', 'faithfulness'],
   },
   {
     externalId: 'crispijn-van-de-passe-elia-gevoed-door-raven',
@@ -1231,7 +1236,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'crispijn-van-de-passe',
     bookSlug: '1-kings',
     chapter: 17,
-    sceneSlug: 'providence',
+    sceneSlug: 'providence', topicTags: ['sovereignty', 'faithfulness', 'provision'],
   },
   {
     externalId: 'crispijn-van-de-passe-geschiedenis-van-adam-en-eva',
@@ -1242,7 +1247,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'crispijn-van-de-passe',
     bookSlug: 'genesis',
     chapter: 3,
-    sceneSlug: 'creation',
+    sceneSlug: 'creation', topicTags: ['creation', 'sovereignty', 'glory'],
   },
   {
     externalId: 'crispijn-van-de-passe-geschiedenis-van-adam-en-eva-2',
@@ -1253,7 +1258,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'crispijn-van-de-passe',
     bookSlug: 'genesis',
     chapter: 3,
-    sceneSlug: 'creation',
+    sceneSlug: 'creation', topicTags: ['creation', 'sovereignty', 'glory'],
   },
   {
     externalId: 'crispijn-van-de-passe-geschiedenis-van-adam-en-eva-3',
@@ -1264,7 +1269,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'crispijn-van-de-passe',
     bookSlug: 'genesis',
     chapter: 3,
-    sceneSlug: 'creation',
+    sceneSlug: 'creation', topicTags: ['creation', 'sovereignty', 'glory'],
   },
   {
     externalId: 'crispijn-van-de-passe-geschiedenis-van-adam-en-eva-4',
@@ -1275,7 +1280,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'crispijn-van-de-passe',
     bookSlug: 'genesis',
     chapter: 3,
-    sceneSlug: 'creation',
+    sceneSlug: 'creation', topicTags: ['creation', 'sovereignty', 'glory'],
   },
   {
     externalId: 'crispijn-van-de-passe-geschiedenis-van-adam-en-eva-5',
@@ -1286,7 +1291,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'crispijn-van-de-passe',
     bookSlug: 'genesis',
     chapter: 3,
-    sceneSlug: 'creation',
+    sceneSlug: 'creation', topicTags: ['creation', 'sovereignty', 'glory'],
   },
   {
     externalId: 'crispijn-van-de-passe-expulsion-from-paradise-2',
@@ -1298,7 +1303,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'crispijn-van-de-passe',
     bookSlug: 'genesis',
     chapter: 3,
-    sceneSlug: 'creation',
+    sceneSlug: 'creation', topicTags: ['creation', 'sovereignty', 'glory'],
   },
   {
     externalId: 'crispijn-van-de-passe-geschiedenis-van-jona-4',
@@ -1309,7 +1314,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'crispijn-van-de-passe',
     bookSlug: 'jonah',
     chapter: 2,
-    sceneSlug: 'providence',
+    sceneSlug: 'providence', topicTags: ['sovereignty', 'faithfulness', 'provision'],
   },
   {
     externalId: 'crispijn-van-de-passe-jona-wordt-door-de-zeelieden-overboord-gegooid',
@@ -1320,7 +1325,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'crispijn-van-de-passe',
     bookSlug: 'jonah',
     chapter: 2,
-    sceneSlug: 'providence',
+    sceneSlug: 'providence', topicTags: ['sovereignty', 'faithfulness', 'provision'],
   },
   {
     externalId: 'crispijn-van-de-passe-geschiedenis-van-jona-5',
@@ -1331,7 +1336,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'crispijn-van-de-passe',
     bookSlug: 'jonah',
     chapter: 2,
-    sceneSlug: 'providence',
+    sceneSlug: 'providence', topicTags: ['sovereignty', 'faithfulness', 'provision'],
   },
   {
     externalId: 'crispijn-van-de-passe-geschiedenis-van-jona-6',
@@ -1342,7 +1347,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'crispijn-van-de-passe',
     bookSlug: 'jonah',
     chapter: 2,
-    sceneSlug: 'providence',
+    sceneSlug: 'providence', topicTags: ['sovereignty', 'faithfulness', 'provision'],
   },
   {
     externalId: 'crispijn-van-de-passe-geschiedenis-van-jona-7',
@@ -1353,7 +1358,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'crispijn-van-de-passe',
     bookSlug: 'jonah',
     chapter: 2,
-    sceneSlug: 'providence',
+    sceneSlug: 'providence', topicTags: ['sovereignty', 'faithfulness', 'provision'],
   },
 
   // ===== Jan Luyken (14) =====
@@ -1366,7 +1371,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'jan-luyken',
     bookSlug: 'matthew',
     chapter: 27,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'jan-luyken-doop-van-de-kamerling',
@@ -1388,7 +1393,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'jan-luyken',
     bookSlug: 'genesis',
     chapter: 7,
-    sceneSlug: 'judgment',
+    sceneSlug: 'judgment', topicTags: ['judgment', 'wrath', 'second-coming'],
   },
   {
     externalId: 'jan-luyken-mozes-staande-bij-de-ark-des-verbonds',
@@ -1399,7 +1404,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'jan-luyken',
     bookSlug: 'exodus',
     chapter: 25,
-    sceneSlug: 'covenant',
+    sceneSlug: 'covenant', topicTags: ['covenant', 'faithfulness', 'sacrifice'],
   },
   {
     externalId: 'jan-luyken-bouw-van-de-ark-van-noach',
@@ -1410,7 +1415,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'jan-luyken',
     bookSlug: 'genesis',
     chapter: 7,
-    sceneSlug: 'judgment',
+    sceneSlug: 'judgment', topicTags: ['judgment', 'wrath', 'second-coming'],
   },
   {
     externalId: 'jan-luyken-kruisiging-van-christus',
@@ -1421,7 +1426,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'jan-luyken',
     bookSlug: 'matthew',
     chapter: 27,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'jan-luyken-ark-des-verbonds',
@@ -1432,7 +1437,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'jan-luyken',
     bookSlug: 'exodus',
     chapter: 25,
-    sceneSlug: 'covenant',
+    sceneSlug: 'covenant', topicTags: ['covenant', 'faithfulness', 'sacrifice'],
   },
   {
     externalId: 'jan-luyken-ark-des-verbonds-2',
@@ -1443,7 +1448,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'jan-luyken',
     bookSlug: 'exodus',
     chapter: 25,
-    sceneSlug: 'covenant',
+    sceneSlug: 'covenant', topicTags: ['covenant', 'faithfulness', 'sacrifice'],
   },
   {
     externalId: 'jan-luyken-de-bergrede',
@@ -1454,7 +1459,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'jan-luyken',
     bookSlug: 'matthew',
     chapter: 5,
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
   },
   {
     externalId: 'jan-luyken-kruisdraging',
@@ -1465,7 +1470,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'jan-luyken',
     bookSlug: 'matthew',
     chapter: 27,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'jan-luyken-opstanding-van-christus',
@@ -1476,7 +1481,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'jan-luyken',
     bookSlug: 'matthew',
     chapter: 28,
-    sceneSlug: 'resurrection',
+    sceneSlug: 'resurrection', topicTags: ['resurrection', 'hope', 'new-creation'],
   },
   {
     externalId: 'jan-luyken-opstanding-van-christus-2',
@@ -1487,7 +1492,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'jan-luyken',
     bookSlug: 'matthew',
     chapter: 28,
-    sceneSlug: 'resurrection',
+    sceneSlug: 'resurrection', topicTags: ['resurrection', 'hope', 'new-creation'],
   },
   {
     externalId: 'jan-luyken-aanbidding-door-de-herders',
@@ -1498,7 +1503,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'jan-luyken',
     bookSlug: 'luke',
     chapter: 2,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'jan-luyken-titelpagina-voor-a-hondorffius-de-tien-geboden-des-heeren-1685',
@@ -1509,7 +1514,7 @@ export const RIJKSMUSEUM_PLATES: RijksmuseumPlate[] = [
     creatorSlug: 'jan-luyken',
     bookSlug: 'exodus',
     chapter: 32,
-    sceneSlug: 'covenant',
+    sceneSlug: 'covenant', topicTags: ['covenant', 'faithfulness', 'sacrifice'],
   },
 
 ];

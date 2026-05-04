@@ -9,6 +9,10 @@ export const ZECHARIAH_9: RichChapterContent = {
   chapter: 9,
 
   estimatedMinutes: { beginner: 1, intermediate: 2, deep: 4 },
+  opener: {
+    matchTitle: /The Prophet Zechariah/i,
+    caption: 'Zechariah 9',
+  },
   intros: [
     'Zechariah 9 contains one of the most direct messianic prophecies in the Old Testament. After a vision of God&apos;s judgment on surrounding nations, the prophet announces: "Rejoice greatly, O daughter of Zion...thy King cometh unto thee...lowly, and riding upon an ass." This verse is quoted in Matthew 21:5 as Christ enters Jerusalem on Palm Sunday. The king is coming—not on a war horse but on a beast of burden, embodying humility and peace.',
   ],

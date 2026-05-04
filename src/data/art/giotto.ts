@@ -9,6 +9,8 @@
 // devotional tradition — they have no direct canonical referent, so we
 // anchor them to Luke 1 / Matthew 1 where the canonical narrative picks up.
 
+import type { TopicSlug } from './topics';
+
 export type GiottoPlate = {
   externalId: string;
   title: string;
@@ -21,6 +23,9 @@ export type GiottoPlate = {
   verseEnd?: number;
   sceneSlug?: string;
   description?: string;
+  /** Optional thematic topics. Used by the artwork resolver to fall
+   *  back from chapter-specific matches to topic-overlap matches. */
+  topicTags?: TopicSlug[];
 };
 
 export const GIOTTO_PLATES: GiottoPlate[] = [
@@ -34,7 +39,7 @@ export const GIOTTO_PLATES: GiottoPlate[] = [
     bookSlug: 'luke',
     chapter: 1,
     verseStart: 27,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: "Scrovegni Chapel, scene 1. Joachim — Mary's father in the Protoevangelium of James — is turned away from the Temple because he and Anna are childless.",
   },
   {
@@ -46,7 +51,7 @@ export const GIOTTO_PLATES: GiottoPlate[] = [
     bookSlug: 'luke',
     chapter: 1,
     verseStart: 27,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: 'Scrovegni Chapel, scene 2. Joachim, disgraced, retreats into the wilderness to live among shepherds.',
   },
   {
@@ -58,7 +63,7 @@ export const GIOTTO_PLATES: GiottoPlate[] = [
     bookSlug: 'luke',
     chapter: 1,
     verseStart: 27,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: "Scrovegni Chapel, scene 3. An angel tells Anna that she will bear a child — the future mother of the Lord.",
   },
   {
@@ -70,7 +75,7 @@ export const GIOTTO_PLATES: GiottoPlate[] = [
     bookSlug: 'luke',
     chapter: 1,
     verseStart: 27,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: "Scrovegni Chapel, scene 4. Joachim's offering is accepted: fire descends from heaven.",
   },
   {
@@ -82,7 +87,7 @@ export const GIOTTO_PLATES: GiottoPlate[] = [
     bookSlug: 'luke',
     chapter: 1,
     verseStart: 27,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: 'Scrovegni Chapel, scene 5. An angel tells Joachim in a dream to return home to Anna.',
   },
   {
@@ -94,7 +99,7 @@ export const GIOTTO_PLATES: GiottoPlate[] = [
     bookSlug: 'luke',
     chapter: 1,
     verseStart: 27,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: "Scrovegni Chapel, scene 6. Joachim and Anna embrace at Jerusalem's Golden Gate — a medieval symbol of Mary's conception.",
   },
 
@@ -108,7 +113,7 @@ export const GIOTTO_PLATES: GiottoPlate[] = [
     bookSlug: 'luke',
     chapter: 1,
     verseStart: 27,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: 'Scrovegni Chapel, scene 7. Anna cradles the newborn Mary while attendants wash the infant.',
   },
   {
@@ -120,7 +125,7 @@ export const GIOTTO_PLATES: GiottoPlate[] = [
     bookSlug: 'luke',
     chapter: 1,
     verseStart: 27,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: 'Scrovegni Chapel, scene 8. The child Mary climbs the Temple steps to be dedicated, according to the Protoevangelium.',
   },
   {
@@ -132,7 +137,7 @@ export const GIOTTO_PLATES: GiottoPlate[] = [
     bookSlug: 'matthew',
     chapter: 1,
     verseStart: 18,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: "Scrovegni Chapel, scene 9. Suitors bring rods to the high priest — the miraculous selection of Mary's husband.",
   },
   {
@@ -144,7 +149,7 @@ export const GIOTTO_PLATES: GiottoPlate[] = [
     bookSlug: 'matthew',
     chapter: 1,
     verseStart: 18,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: "Scrovegni Chapel, scene 10. The suitors kneel in prayer, awaiting the Lord's sign through the rods.",
   },
   {
@@ -156,7 +161,7 @@ export const GIOTTO_PLATES: GiottoPlate[] = [
     bookSlug: 'matthew',
     chapter: 1,
     verseStart: 18,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: 'Scrovegni Chapel, scene 11. Joseph, whose rod has flowered, is wed to Mary before the high priest.',
   },
   {
@@ -168,7 +173,7 @@ export const GIOTTO_PLATES: GiottoPlate[] = [
     bookSlug: 'matthew',
     chapter: 1,
     verseStart: 18,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: "Scrovegni Chapel, scene 12. Mary and her attendants process to Joseph's house.",
   },
 
@@ -183,7 +188,7 @@ export const GIOTTO_PLATES: GiottoPlate[] = [
     chapter: 1,
     verseStart: 26,
     verseEnd: 27,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: "Scrovegni Chapel, scene 13. The triangular lunette above the chancel arch: God the Father commissions Gabriel's mission to Nazareth.",
   },
   {
@@ -196,7 +201,7 @@ export const GIOTTO_PLATES: GiottoPlate[] = [
     chapter: 1,
     verseStart: 28,
     verseEnd: 33,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: 'Scrovegni Chapel, scene 14. Left panel of the chancel-arch Annunciation: Gabriel kneels.',
   },
   {
@@ -209,7 +214,7 @@ export const GIOTTO_PLATES: GiottoPlate[] = [
     chapter: 1,
     verseStart: 34,
     verseEnd: 38,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: "Scrovegni Chapel, scene 15. Right panel: Mary answers, \"Be it unto me according to thy word.\"",
   },
   {
@@ -222,7 +227,7 @@ export const GIOTTO_PLATES: GiottoPlate[] = [
     chapter: 1,
     verseStart: 39,
     verseEnd: 56,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: "Scrovegni Chapel, scene 16. Mary greets her cousin Elizabeth — the Magnificat's setting.",
   },
   {
@@ -235,7 +240,7 @@ export const GIOTTO_PLATES: GiottoPlate[] = [
     chapter: 2,
     verseStart: 1,
     verseEnd: 20,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: 'Scrovegni Chapel, scene 17. Mary lays the newborn Christ in the manger as shepherds receive the angelic announcement.',
   },
   {
@@ -248,7 +253,7 @@ export const GIOTTO_PLATES: GiottoPlate[] = [
     chapter: 2,
     verseStart: 1,
     verseEnd: 12,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: "Scrovegni Chapel, scene 18. The star of Bethlehem — Giotto's famous comet-like representation — hangs over the stable.",
   },
   {
@@ -261,7 +266,7 @@ export const GIOTTO_PLATES: GiottoPlate[] = [
     chapter: 2,
     verseStart: 22,
     verseEnd: 40,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: "Scrovegni Chapel, scene 19. Simeon receives the Christ child; Anna the prophetess stands behind Mary.",
   },
   {
@@ -274,7 +279,7 @@ export const GIOTTO_PLATES: GiottoPlate[] = [
     chapter: 2,
     verseStart: 13,
     verseEnd: 15,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: "Scrovegni Chapel, scene 20. Mary on the donkey with the infant Jesus; Joseph leads the way out of Herod's reach.",
   },
   {
@@ -287,7 +292,7 @@ export const GIOTTO_PLATES: GiottoPlate[] = [
     chapter: 2,
     verseStart: 16,
     verseEnd: 18,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: "Scrovegni Chapel, scene 21. Herod's soldiers carry out the killing of the Bethlehem boys; mothers wail.",
   },
   {
@@ -300,7 +305,7 @@ export const GIOTTO_PLATES: GiottoPlate[] = [
     chapter: 2,
     verseStart: 41,
     verseEnd: 52,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: 'Scrovegni Chapel, scene 22. The twelve-year-old Jesus astonishes the teachers in the Temple.',
   },
 
@@ -315,7 +320,7 @@ export const GIOTTO_PLATES: GiottoPlate[] = [
     chapter: 3,
     verseStart: 13,
     verseEnd: 17,
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
     description: 'Scrovegni Chapel, scene 23. John baptizes Jesus in the Jordan as the Spirit descends.',
   },
   {
@@ -328,7 +333,7 @@ export const GIOTTO_PLATES: GiottoPlate[] = [
     chapter: 2,
     verseStart: 1,
     verseEnd: 11,
-    sceneSlug: 'miracles',
+    sceneSlug: 'miracles', topicTags: ['compassion', 'glory', 'sovereignty'],
     description: "Scrovegni Chapel, scene 24. Water into wine — Christ's first sign.",
   },
   {
@@ -341,7 +346,7 @@ export const GIOTTO_PLATES: GiottoPlate[] = [
     chapter: 11,
     verseStart: 1,
     verseEnd: 44,
-    sceneSlug: 'miracles',
+    sceneSlug: 'miracles', topicTags: ['compassion', 'glory', 'sovereignty'],
     description: "Scrovegni Chapel, scene 25. Lazarus, bound in graveclothes, emerges from the tomb at Jesus' word.",
   },
   {
@@ -354,7 +359,7 @@ export const GIOTTO_PLATES: GiottoPlate[] = [
     chapter: 21,
     verseStart: 1,
     verseEnd: 11,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
     description: 'Scrovegni Chapel, scene 26. The Palm Sunday procession through the city gate.',
   },
   {
@@ -367,7 +372,7 @@ export const GIOTTO_PLATES: GiottoPlate[] = [
     chapter: 21,
     verseStart: 12,
     verseEnd: 17,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
     description: 'Scrovegni Chapel, scene 27. Christ drives the traders from the Temple court.',
   },
 
@@ -382,7 +387,7 @@ export const GIOTTO_PLATES: GiottoPlate[] = [
     chapter: 26,
     verseStart: 14,
     verseEnd: 16,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
     description: 'Scrovegni Chapel, scene 28. The thirty pieces of silver; Satan whispers at Judas\' shoulder.',
   },
   {
@@ -395,7 +400,7 @@ export const GIOTTO_PLATES: GiottoPlate[] = [
     chapter: 26,
     verseStart: 17,
     verseEnd: 30,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
     description: 'Scrovegni Chapel, scene 29. Christ and the Twelve at the Passover table; the Beloved Disciple leans on his breast.',
   },
   {
@@ -408,7 +413,7 @@ export const GIOTTO_PLATES: GiottoPlate[] = [
     chapter: 13,
     verseStart: 1,
     verseEnd: 17,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
     description: "Scrovegni Chapel, scene 30. Christ kneels before Peter to wash his feet — \"Ye also ought to wash one another's feet.\"",
   },
   {
@@ -421,7 +426,7 @@ export const GIOTTO_PLATES: GiottoPlate[] = [
     chapter: 26,
     verseStart: 47,
     verseEnd: 56,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
     description: "Scrovegni Chapel, scene 31 — perhaps the cycle's most famous panel. Judas' yellow mantle envelops Christ as their eyes lock.",
   },
   {
@@ -434,7 +439,7 @@ export const GIOTTO_PLATES: GiottoPlate[] = [
     chapter: 26,
     verseStart: 57,
     verseEnd: 68,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
     description: 'Scrovegni Chapel, scene 32. Caiaphas tears his robes at the charge of blasphemy.',
   },
   {
@@ -447,7 +452,7 @@ export const GIOTTO_PLATES: GiottoPlate[] = [
     chapter: 27,
     verseStart: 26,
     verseEnd: 31,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
     description: 'Scrovegni Chapel, scene 33. Christ scourged and mocked before Pilate.',
   },
   {
@@ -460,7 +465,7 @@ export const GIOTTO_PLATES: GiottoPlate[] = [
     chapter: 23,
     verseStart: 26,
     verseEnd: 32,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
     description: "Scrovegni Chapel, scene 34. Christ carries the cross; Mary is held back by women.",
   },
   {
@@ -473,7 +478,7 @@ export const GIOTTO_PLATES: GiottoPlate[] = [
     chapter: 27,
     verseStart: 33,
     verseEnd: 56,
-    sceneSlug: 'crucifixion',
+    sceneSlug: 'crucifixion', topicTags: ['cross', 'sacrifice', 'suffering'],
     description: 'Scrovegni Chapel, scene 35. Angels wheel around the cross; Mary collapses below.',
   },
   {
@@ -486,7 +491,7 @@ export const GIOTTO_PLATES: GiottoPlate[] = [
     chapter: 19,
     verseStart: 38,
     verseEnd: 42,
-    sceneSlug: 'crucifixion',
+    sceneSlug: 'crucifixion', topicTags: ['cross', 'sacrifice', 'suffering'],
     description: "Scrovegni Chapel, scene 36 — one of Giotto's supreme achievements. Angels tear their hair in grief above Christ's body.",
   },
 
@@ -501,7 +506,7 @@ export const GIOTTO_PLATES: GiottoPlate[] = [
     chapter: 20,
     verseStart: 1,
     verseEnd: 18,
-    sceneSlug: 'resurrection',
+    sceneSlug: 'resurrection', topicTags: ['resurrection', 'hope', 'new-creation'],
     description: 'Scrovegni Chapel, scene 37. The risen Christ tells Mary Magdalene, "Touch me not."',
   },
   {
@@ -514,7 +519,7 @@ export const GIOTTO_PLATES: GiottoPlate[] = [
     chapter: 1,
     verseStart: 6,
     verseEnd: 11,
-    sceneSlug: 'ascension',
+    sceneSlug: 'ascension', topicTags: ['kingship', 'resurrection'],
     description: 'Scrovegni Chapel, scene 38. Christ rises; angels address the watching disciples.',
   },
   {
@@ -527,7 +532,7 @@ export const GIOTTO_PLATES: GiottoPlate[] = [
     chapter: 2,
     verseStart: 1,
     verseEnd: 13,
-    sceneSlug: 'apostles',
+    sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
     description: 'Scrovegni Chapel, scene 39. Tongues of fire over the gathered apostles on Pentecost.',
   },
 
@@ -542,7 +547,7 @@ export const GIOTTO_PLATES: GiottoPlate[] = [
     chapter: 20,
     verseStart: 11,
     verseEnd: 15,
-    sceneSlug: 'judgment',
+    sceneSlug: 'judgment', topicTags: ['judgment', 'wrath', 'second-coming'],
     description: "Scrovegni Chapel, west wall — the cycle's culmination. Christ enthroned in a mandorla, angels rolling up the heavens, blessed and damned below.",
   },
 ];

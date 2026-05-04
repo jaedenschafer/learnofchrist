@@ -16,6 +16,10 @@ export const GENESIS_24: RichChapterContent = {
   chapter: 24,
 
   estimatedMinutes: { beginner: 13, intermediate: 18, deep: 22 },
+  opener: {
+    matchTitle: /Abraham/i,
+    caption: 'Genesis 24',
+  },
   intros: [
     'Abraham is old. His son Isaac still has no wife. In the ancient Near East, this is a crisis - the line of the promise dies with him. But Abraham does not panic. He calls his oldest servant, the man who manages everything he owns, and sends him on a journey to find a wife for Isaac among Abraham\'s own people, far to the east in Mesopotamia. The servant must swear an oath: go, find a wife, bring her back.',
     'What follows is a chapter of divine providence so tender and particular that every detail feels chosen. A prayer at a well. A young woman who answers the prayer before the prayer is even finished. Water enough for ten camels - backbreaking work done by one girl with a pitcher. A family who blesses her and lets her go. And at the end, Isaac meeting Rebekah in the evening field, the two of them alone together for the first time.',

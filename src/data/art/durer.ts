@@ -7,6 +7,8 @@
 //   - Large (Great) Passion (12, 1497–1511)
 //   - Life of the Virgin (20, 1503–1511)
 
+import type { TopicSlug } from './topics';
+
 export type DurerPlate = {
   externalId: string;
   title: string;
@@ -19,6 +21,9 @@ export type DurerPlate = {
   verseEnd: number;
   sceneSlug: string;
   description?: string;
+  /** Optional thematic topics. Used by the artwork resolver to fall
+   *  back from chapter-specific matches to topic-overlap matches. */
+  topicTags?: TopicSlug[];
 };
 
 export const DURER_PLATES: DurerPlate[] = [
@@ -32,7 +37,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 1,
     verseStart: 1,
     verseEnd: 3,
-    sceneSlug: 'apocalypse',
+    sceneSlug: 'apocalypse', topicTags: ['second-coming', 'new-creation', 'judgment'],
     description: 'Frontispiece of Dürer’s Apocalypse cycle, published 1498 in Nuremberg.',
   },
   {
@@ -45,7 +50,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 1,
     verseStart: 9,
     verseEnd: 9,
-    sceneSlug: 'apostles',
+    sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
     description: 'Traditional martyrdom of John the Evangelist under Domitian.',
   },
   {
@@ -58,7 +63,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 1,
     verseStart: 10,
     verseEnd: 20,
-    sceneSlug: 'apocalypse',
+    sceneSlug: 'apocalypse', topicTags: ['second-coming', 'new-creation', 'judgment'],
   },
   {
     externalId: 'durer-saint-john-before-god',
@@ -70,7 +75,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 4,
     verseStart: 1,
     verseEnd: 11,
-    sceneSlug: 'apocalypse',
+    sceneSlug: 'apocalypse', topicTags: ['second-coming', 'new-creation', 'judgment'],
   },
   {
     externalId: 'durer-four-horsemen',
@@ -82,7 +87,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 6,
     verseStart: 1,
     verseEnd: 8,
-    sceneSlug: 'apocalypse',
+    sceneSlug: 'apocalypse', topicTags: ['second-coming', 'new-creation', 'judgment'],
   },
   {
     externalId: 'durer-opening-of-sixth-seal',
@@ -94,7 +99,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 6,
     verseStart: 12,
     verseEnd: 17,
-    sceneSlug: 'apocalypse',
+    sceneSlug: 'apocalypse', topicTags: ['second-coming', 'new-creation', 'judgment'],
   },
   {
     externalId: 'durer-four-angels-holding-winds',
@@ -106,7 +111,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 7,
     verseStart: 1,
     verseEnd: 3,
-    sceneSlug: 'apocalypse',
+    sceneSlug: 'apocalypse', topicTags: ['second-coming', 'new-creation', 'judgment'],
   },
   {
     externalId: 'durer-seven-trumpets',
@@ -118,7 +123,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 8,
     verseStart: 1,
     verseEnd: 13,
-    sceneSlug: 'apocalypse',
+    sceneSlug: 'apocalypse', topicTags: ['second-coming', 'new-creation', 'judgment'],
   },
   {
     externalId: 'durer-four-avenging-angels',
@@ -130,7 +135,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 9,
     verseStart: 13,
     verseEnd: 19,
-    sceneSlug: 'apocalypse',
+    sceneSlug: 'apocalypse', topicTags: ['second-coming', 'new-creation', 'judgment'],
   },
   {
     externalId: 'durer-saint-john-eating-book',
@@ -142,7 +147,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 10,
     verseStart: 8,
     verseEnd: 11,
-    sceneSlug: 'apocalypse',
+    sceneSlug: 'apocalypse', topicTags: ['second-coming', 'new-creation', 'judgment'],
   },
   {
     externalId: 'durer-woman-of-the-apocalypse',
@@ -154,7 +159,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 12,
     verseStart: 1,
     verseEnd: 6,
-    sceneSlug: 'apocalypse',
+    sceneSlug: 'apocalypse', topicTags: ['second-coming', 'new-creation', 'judgment'],
   },
   {
     externalId: 'durer-saint-michael-dragon',
@@ -166,7 +171,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 12,
     verseStart: 7,
     verseEnd: 9,
-    sceneSlug: 'apocalypse',
+    sceneSlug: 'apocalypse', topicTags: ['second-coming', 'new-creation', 'judgment'],
   },
   {
     externalId: 'durer-beast-with-lambs-horns',
@@ -178,7 +183,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 13,
     verseStart: 11,
     verseEnd: 18,
-    sceneSlug: 'apocalypse',
+    sceneSlug: 'apocalypse', topicTags: ['second-coming', 'new-creation', 'judgment'],
   },
   {
     externalId: 'durer-adoration-of-the-lamb',
@@ -190,7 +195,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 14,
     verseStart: 1,
     verseEnd: 5,
-    sceneSlug: 'apocalypse',
+    sceneSlug: 'apocalypse', topicTags: ['second-coming', 'new-creation', 'judgment'],
   },
   {
     externalId: 'durer-whore-of-babylon',
@@ -202,7 +207,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 17,
     verseStart: 1,
     verseEnd: 6,
-    sceneSlug: 'apocalypse',
+    sceneSlug: 'apocalypse', topicTags: ['second-coming', 'new-creation', 'judgment'],
   },
   {
     externalId: 'durer-angel-with-key',
@@ -214,7 +219,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 20,
     verseStart: 1,
     verseEnd: 3,
-    sceneSlug: 'apocalypse',
+    sceneSlug: 'apocalypse', topicTags: ['second-coming', 'new-creation', 'judgment'],
   },
   {
     externalId: 'durer-sp-frontispiece',
@@ -226,7 +231,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 53,
     verseStart: 3,
     verseEnd: 5,
-    sceneSlug: 'suffering',
+    sceneSlug: 'suffering', topicTags: ['suffering', 'lament', 'hope'],
     description: 'Frontispiece of Dürer’s Small Passion cycle, published 1511 in Nuremberg.',
   },
   {
@@ -239,7 +244,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 3,
     verseStart: 1,
     verseEnd: 7,
-    sceneSlug: 'fall',
+    sceneSlug: 'fall', topicTags: ['fall-and-curse', 'sin', 'pride'],
   },
   {
     externalId: 'durer-sp-expulsion',
@@ -251,7 +256,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 3,
     verseStart: 22,
     verseEnd: 24,
-    sceneSlug: 'fall',
+    sceneSlug: 'fall', topicTags: ['fall-and-curse', 'sin', 'pride'],
   },
   {
     externalId: 'durer-sp-annunciation',
@@ -263,7 +268,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 1,
     verseStart: 26,
     verseEnd: 38,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'durer-sp-nativity',
@@ -275,7 +280,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 2,
     verseStart: 8,
     verseEnd: 20,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'durer-sp-christ-farewell',
@@ -287,7 +292,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 13,
     verseStart: 1,
     verseEnd: 3,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'durer-sp-entry-jerusalem',
@@ -299,7 +304,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 21,
     verseStart: 1,
     verseEnd: 11,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'durer-sp-merchants-temple',
@@ -311,7 +316,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 21,
     verseStart: 12,
     verseEnd: 13,
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
   },
   {
     externalId: 'durer-sp-last-supper',
@@ -323,7 +328,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 26,
     verseStart: 17,
     verseEnd: 30,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'durer-sp-washing-feet',
@@ -335,7 +340,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 13,
     verseStart: 1,
     verseEnd: 17,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'durer-sp-agony-garden',
@@ -347,7 +352,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 26,
     verseStart: 36,
     verseEnd: 46,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'durer-sp-betrayal',
@@ -359,7 +364,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 26,
     verseStart: 47,
     verseEnd: 56,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'durer-sp-before-annas',
@@ -371,7 +376,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 18,
     verseStart: 12,
     verseEnd: 14,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'durer-sp-before-caiaphas',
@@ -383,7 +388,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 26,
     verseStart: 57,
     verseEnd: 68,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'durer-sp-mocked',
@@ -395,7 +400,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 26,
     verseStart: 67,
     verseEnd: 68,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'durer-sp-before-pilate',
@@ -407,7 +412,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 27,
     verseStart: 11,
     verseEnd: 14,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'durer-sp-before-herod',
@@ -419,7 +424,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 23,
     verseStart: 6,
     verseEnd: 12,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'durer-sp-flagellation',
@@ -431,7 +436,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 27,
     verseStart: 26,
     verseEnd: 26,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'durer-sp-crowning-thorns',
@@ -443,7 +448,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 27,
     verseStart: 27,
     verseEnd: 30,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'durer-sp-ecce-homo',
@@ -455,7 +460,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 19,
     verseStart: 5,
     verseEnd: 5,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'durer-sp-pilate-washes',
@@ -467,7 +472,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 27,
     verseStart: 24,
     verseEnd: 24,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'durer-sp-carrying-cross',
@@ -479,7 +484,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 27,
     verseStart: 31,
     verseEnd: 32,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'durer-sp-veronica',
@@ -491,7 +496,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 23,
     verseStart: 27,
     verseEnd: 27,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
     description: 'Non-canonical tradition of Veronica wiping Christ’s face — Dürer places her between Peter and Paul.',
   },
   {
@@ -504,7 +509,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 15,
     verseStart: 24,
     verseEnd: 24,
-    sceneSlug: 'crucifixion',
+    sceneSlug: 'crucifixion', topicTags: ['cross', 'sacrifice', 'suffering'],
   },
   {
     externalId: 'durer-sp-crucifixion',
@@ -516,7 +521,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 27,
     verseStart: 33,
     verseEnd: 56,
-    sceneSlug: 'crucifixion',
+    sceneSlug: 'crucifixion', topicTags: ['cross', 'sacrifice', 'suffering'],
   },
   {
     externalId: 'durer-sp-christ-limbo',
@@ -528,7 +533,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 3,
     verseStart: 18,
     verseEnd: 20,
-    sceneSlug: 'redemption',
+    sceneSlug: 'redemption', topicTags: ['mercy', 'forgiveness', 'cross'],
   },
   {
     externalId: 'durer-sp-descent',
@@ -540,7 +545,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 19,
     verseStart: 38,
     verseEnd: 40,
-    sceneSlug: 'crucifixion',
+    sceneSlug: 'crucifixion', topicTags: ['cross', 'sacrifice', 'suffering'],
   },
   {
     externalId: 'durer-sp-lamentation',
@@ -552,7 +557,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 19,
     verseStart: 40,
     verseEnd: 40,
-    sceneSlug: 'crucifixion',
+    sceneSlug: 'crucifixion', topicTags: ['cross', 'sacrifice', 'suffering'],
   },
   {
     externalId: 'durer-sp-deposition',
@@ -564,7 +569,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 27,
     verseStart: 59,
     verseEnd: 61,
-    sceneSlug: 'crucifixion',
+    sceneSlug: 'crucifixion', topicTags: ['cross', 'sacrifice', 'suffering'],
   },
   {
     externalId: 'durer-sp-resurrection',
@@ -576,7 +581,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 28,
     verseStart: 1,
     verseEnd: 10,
-    sceneSlug: 'redemption',
+    sceneSlug: 'redemption', topicTags: ['mercy', 'forgiveness', 'cross'],
   },
   {
     externalId: 'durer-sp-appears-mother',
@@ -588,7 +593,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 24,
     verseStart: 1,
     verseEnd: 12,
-    sceneSlug: 'redemption',
+    sceneSlug: 'redemption', topicTags: ['mercy', 'forgiveness', 'cross'],
     description: 'Post-resurrection apparition to Mary — a medieval devotional tradition not in the canonical Gospels.',
   },
   {
@@ -601,7 +606,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 20,
     verseStart: 11,
     verseEnd: 18,
-    sceneSlug: 'redemption',
+    sceneSlug: 'redemption', topicTags: ['mercy', 'forgiveness', 'cross'],
   },
   {
     externalId: 'durer-sp-emmaus',
@@ -613,7 +618,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 24,
     verseStart: 13,
     verseEnd: 35,
-    sceneSlug: 'redemption',
+    sceneSlug: 'redemption', topicTags: ['mercy', 'forgiveness', 'cross'],
   },
   {
     externalId: 'durer-sp-doubting-thomas',
@@ -625,7 +630,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 20,
     verseStart: 24,
     verseEnd: 29,
-    sceneSlug: 'redemption',
+    sceneSlug: 'redemption', topicTags: ['mercy', 'forgiveness', 'cross'],
   },
   {
     externalId: 'durer-sp-ascension',
@@ -637,7 +642,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 24,
     verseStart: 50,
     verseEnd: 53,
-    sceneSlug: 'ascension',
+    sceneSlug: 'ascension', topicTags: ['kingship', 'resurrection'],
   },
   {
     externalId: 'durer-sp-pentecost',
@@ -649,7 +654,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 2,
     verseStart: 1,
     verseEnd: 4,
-    sceneSlug: 'apostles',
+    sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
   },
   {
     externalId: 'durer-sp-last-judgment',
@@ -661,7 +666,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 25,
     verseStart: 31,
     verseEnd: 46,
-    sceneSlug: 'judgment',
+    sceneSlug: 'judgment', topicTags: ['judgment', 'wrath', 'second-coming'],
   },
   {
     externalId: 'durer-lp-frontispiece',
@@ -673,7 +678,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 53,
     verseStart: 3,
     verseEnd: 5,
-    sceneSlug: 'suffering',
+    sceneSlug: 'suffering', topicTags: ['suffering', 'lament', 'hope'],
     description: 'Frontispiece of Dürer’s Great (Large) Passion cycle, published 1511 in Nuremberg.',
   },
   {
@@ -686,7 +691,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 26,
     verseStart: 17,
     verseEnd: 30,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'durer-lp-agony-garden',
@@ -698,7 +703,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 26,
     verseStart: 36,
     verseEnd: 46,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'durer-lp-betrayal',
@@ -710,7 +715,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 26,
     verseStart: 47,
     verseEnd: 56,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'durer-lp-flagellation',
@@ -722,7 +727,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 27,
     verseStart: 26,
     verseEnd: 26,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'durer-lp-ecce-homo',
@@ -734,7 +739,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 19,
     verseStart: 5,
     verseEnd: 5,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'durer-lp-carrying-cross',
@@ -746,7 +751,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 27,
     verseStart: 31,
     verseEnd: 32,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'durer-lp-crucifixion',
@@ -758,7 +763,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 27,
     verseStart: 33,
     verseEnd: 56,
-    sceneSlug: 'crucifixion',
+    sceneSlug: 'crucifixion', topicTags: ['cross', 'sacrifice', 'suffering'],
   },
   {
     externalId: 'durer-lp-lamentation',
@@ -770,7 +775,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 19,
     verseStart: 40,
     verseEnd: 40,
-    sceneSlug: 'crucifixion',
+    sceneSlug: 'crucifixion', topicTags: ['cross', 'sacrifice', 'suffering'],
   },
   {
     externalId: 'durer-lp-deposition',
@@ -782,7 +787,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 27,
     verseStart: 59,
     verseEnd: 61,
-    sceneSlug: 'crucifixion',
+    sceneSlug: 'crucifixion', topicTags: ['cross', 'sacrifice', 'suffering'],
   },
   {
     externalId: 'durer-lp-christ-limbo',
@@ -794,7 +799,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 3,
     verseStart: 18,
     verseEnd: 20,
-    sceneSlug: 'redemption',
+    sceneSlug: 'redemption', topicTags: ['mercy', 'forgiveness', 'cross'],
   },
   {
     externalId: 'durer-lp-resurrection',
@@ -806,7 +811,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 28,
     verseStart: 1,
     verseEnd: 10,
-    sceneSlug: 'redemption',
+    sceneSlug: 'redemption', topicTags: ['mercy', 'forgiveness', 'cross'],
   },
   {
     externalId: 'durer-vir-frontispiece',
@@ -818,7 +823,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 12,
     verseStart: 1,
     verseEnd: 1,
-    sceneSlug: 'apocalypse',
+    sceneSlug: 'apocalypse', topicTags: ['second-coming', 'new-creation', 'judgment'],
     description: 'Frontispiece to the Life of the Virgin — Mary as the Woman Clothed with the Sun of Revelation 12.',
   },
   {
@@ -831,7 +836,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 1,
     verseStart: 26,
     verseEnd: 38,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: 'Apocryphal — Mary’s father Joachim is turned away from the temple (Protoevangelium of James).',
   },
   {
@@ -844,7 +849,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 1,
     verseStart: 26,
     verseEnd: 38,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: 'Apocryphal — an angel promises Joachim a daughter.',
   },
   {
@@ -857,7 +862,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 1,
     verseStart: 26,
     verseEnd: 38,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: 'Apocryphal — Mary’s parents embrace outside Jerusalem.',
   },
   {
@@ -870,7 +875,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 1,
     verseStart: 26,
     verseEnd: 38,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: 'Apocryphal nativity of Mary from the Protoevangelium of James.',
   },
   {
@@ -883,7 +888,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 1,
     verseStart: 26,
     verseEnd: 38,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: 'Apocryphal — three-year-old Mary dedicated to temple service.',
   },
   {
@@ -896,7 +901,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 1,
     verseStart: 18,
     verseEnd: 18,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'durer-vir-annunciation',
@@ -908,7 +913,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 1,
     verseStart: 26,
     verseEnd: 38,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'durer-vir-visitation',
@@ -920,7 +925,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 1,
     verseStart: 39,
     verseEnd: 56,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'durer-vir-nativity',
@@ -932,7 +937,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 2,
     verseStart: 1,
     verseEnd: 20,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'durer-vir-circumcision',
@@ -944,7 +949,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 2,
     verseStart: 21,
     verseEnd: 21,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'durer-vir-presentation-christ',
@@ -956,7 +961,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 2,
     verseStart: 22,
     verseEnd: 38,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'durer-vir-adoration-magi',
@@ -968,7 +973,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 2,
     verseStart: 1,
     verseEnd: 12,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'durer-vir-flight-egypt',
@@ -980,7 +985,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 2,
     verseStart: 13,
     verseEnd: 15,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'durer-vir-rest-flight',
@@ -992,7 +997,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 2,
     verseStart: 13,
     verseEnd: 15,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'durer-vir-doctors',
@@ -1004,7 +1009,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 2,
     verseStart: 41,
     verseEnd: 52,
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
   },
   {
     externalId: 'durer-vir-farewell',
@@ -1016,7 +1021,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 13,
     verseStart: 1,
     verseEnd: 3,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'durer-vir-death-virgin',
@@ -1028,7 +1033,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 1,
     verseStart: 14,
     verseEnd: 14,
-    sceneSlug: 'apostles',
+    sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
     description: 'Apocryphal dormition of Mary, traditionally shown with the apostles.',
   },
   {
@@ -1041,7 +1046,7 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 12,
     verseStart: 1,
     verseEnd: 1,
-    sceneSlug: 'apocalypse',
+    sceneSlug: 'apocalypse', topicTags: ['second-coming', 'new-creation', 'judgment'],
     description: 'Mary crowned in heaven — conflated in Catholic tradition with the Woman of Revelation 12.',
   },
   {
@@ -1054,6 +1059,6 @@ export const DURER_PLATES: DurerPlate[] = [
     chapter: 1,
     verseStart: 42,
     verseEnd: 48,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   }
 ];

@@ -17,6 +17,10 @@ export const PSALMS_134: RichChapterContent = {
   chapter: 134,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+  opener: {
+    matchTitle: /Utrecht Psalter Psalm/i,
+    caption: 'Psalms 134',
+  },
   intros: [
     'Psalm 134 brings the fifteen Songs of Ascents to a close with a vision of night-watchers in the house of the Lord, standing in the darkness, lifting their hands in blessing. While others sleep, these servants keep vigil. They stand in the sanctuary through the long night, their hands raised in praise and adoration. The psalm is brief—only three verses—but its image endures: faith expressed not when it is easy and surrounded by support, but when it is costly, when darkness prevails, when few others are watching. Yet from the darkness comes blessing. The night-watch becomes the occasion for the most intimate communion with God.',
   ],

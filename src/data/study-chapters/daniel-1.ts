@@ -17,6 +17,10 @@ export const DANIEL_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+  opener: {
+    matchTitle: /Daniel among the Exiles/i,
+    caption: 'Daniel 1',
+  },
   intros: [
     'In the third year of the reign of Jehoiakim king of Judah, Nebuchadnezzar king of Babylon comes to Jerusalem and lays siege to it. The Lord gives Jehoiakim into his hand. Nebuchadnezzar carries away the vessels of the house of God into the land of Shinar. And he commands his chief eunuch to bring certain of the children of Israel—of the king&apos;s seed and of the nobles—those in whom was no blemish, but well favored, skillful in wisdom, and cunning in knowledge. These captives are to be taught the learning and the tongue of the Chaldeans, and given a daily provision of the king&apos;s meat and wine.',
     'Among these captives is a young man named Daniel, and with him three companions: Hananiah, Mishael, and Azariah. The chief of the eunuchs gives them new names—Belteshazzar, Shadrach, Meshach, and Abednego. But Daniel purposed in his heart that he would not defile himself with the portion of the king&apos;s meat, nor with the wine which he drank. This is not a moment of rebellion. This is the beginning of a lifetime of faithfulness in a pagan kingdom, where the temptation to compromise will be constant and subtle.',

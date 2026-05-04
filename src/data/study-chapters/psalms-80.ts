@@ -15,6 +15,10 @@ export const PSALMS_80: RichChapterContent = {
   chapter: 80,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+  opener: {
+    matchTitle: /Utrecht Psalter Psalm/i,
+    caption: 'Psalms 80',
+  },
   intros: [
     'Psalm 80 is built around a repeated refrain: "Turn us again, O God of hosts, cause thy face to shine; and we shall be saved." This refrain appears three times, each time structured identically. The repetition is not monotony. It is the rhythm of desperate prayer, the circling back again and again to the one plea that matters. The psalmist is not asking for many things. He is asking for one thing: that God&apos;s face would shine.',
     'The image draws from the ancient blessing spoken by the priests of Israel: "The Lord bless thee, and keep thee: The Lord make his face to shine upon thee, and be gracious unto thee." But now that blessing seems to have been withdrawn. God&apos;s face is hidden. And without it, the people cannot be saved. The psalm teaches us what the psalmist has learned: we do not need many good things. We need God&apos;s face shining upon us.',

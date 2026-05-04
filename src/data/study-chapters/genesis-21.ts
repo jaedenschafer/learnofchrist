@@ -20,6 +20,10 @@ export const GENESIS_21: RichChapterContent = {
   chapter: 21,
 
   estimatedMinutes: { beginner: 8, intermediate: 12, deep: 16 },
+  opener: {
+    matchTitle: /The Expulsion of Hagar/i,
+    caption: 'Genesis 21',
+  },
   intros: [
     'The long-promised son finally arrives. Sarah, who has been barren for nearly a century, gives birth. The child&apos;s name is <em>Isaac</em> - <em>Yitzchak</em> in Hebrew - which means &ldquo;he laughs.&rdquo; Sarah had laughed in disbelief when God first promised him (Gen. 18:12); now she laughs again, but this time in joy (Gen. 21:6). The son born of faith, born of God&apos;s covenant word when all biology said no, is here.',
     'But Genesis 21 is not a clean happy ending. At Isaac&apos;s weaning feast, Sarah sees Ishmael, the son Abraham had made with Hagar, and she demands that both mother and boy be cast out. Abraham is distressed - he loves Ishmael - but God tells him to listen to Sarah. Two sons cannot inherit the same promise. The line of flesh (Ishmael, born of Abraham&apos;s attempt to fulfill the covenant by human means) and the line of faith (Isaac, born when it was physically impossible) must be separated. The division is painful for everyone, and the text does not hide that pain.',

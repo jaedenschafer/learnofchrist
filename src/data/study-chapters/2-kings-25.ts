@@ -18,6 +18,10 @@ export const KINGS_2_25: RichChapterContent = {
   chapter: 25,
 
   estimatedMinutes: { beginner: 3, intermediate: 9, deep: 13 },
+  opener: {
+    matchTitle: /Destruction of Jerusalem and/i,
+    caption: '2 Kings 25',
+  },
   intros: [
     'The kingdom of Judah has been in freefall. Zedekiah sits on the throne, but he is a puppet king under Babylonian authority, caught between his own desire for independence and the prophet Jeremiah&apos;s insistent warning: submit to Babylon, or face annihilation. Zedekiah chooses rebellion.',
     'In the ninth year of his reign, Nebuchadnezzar arrives at the gates. The siege lasts two years. The famine becomes so severe that the people of Jerusalem have nothing left to eat. And when the city finally falls — the king flees, the walls are torn down, the temple is burned to ash. The priests and the officers are executed. The people are carried away into exile.',

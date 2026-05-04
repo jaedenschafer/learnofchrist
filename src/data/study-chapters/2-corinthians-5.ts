@@ -15,6 +15,10 @@ export const SECOND_CORINTHIANS_5: RichChapterContent = {
   chapter: 5,
 
   estimatedMinutes: { beginner: 8, intermediate: 16, deep: 19 },
+  opener: {
+    matchTitle: /The Voyage of Life/i,
+    caption: '2 Corinthians 5',
+  },
   intros: [
     'Paul has been describing the present sufferings and afflictions of the believer. Now he lifts the gaze to what lies beyond—the resurrection body waiting in the heavens, eternal and not made with human hands. But this future hope is not an escape hatch. Instead, it awakens the believer to the urgency of now. We groan, yes. We are dying daily. But we are being renewed. We are being transformed from glory to glory. And we are entrusted with a message the world desperately needs to hear.',
     'Two great themes run through this chapter—the body waiting for us, and the ministry of reconciliation calling us. Both are rooted in Christ&apos;s great exchange: He became sin that we might become His righteousness. Everything that follows flows from that. We are new creatures. We are ambassadors. We speak on behalf of a King whose work of reconciliation is already accomplished.',

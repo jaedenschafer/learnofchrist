@@ -17,6 +17,10 @@ export const ACTS_12: RichChapterContent = {
   chapter: 12,
 
   estimatedMinutes: { beginner: 6, intermediate: 14, deep: 20 },
+  opener: {
+    matchTitle: /Saint Peter Freed by/i,
+    caption: 'Acts 12',
+  },
   intros: [
     'Acts 12 opens with a king and closes with a kingdom. Herod Agrippa I, the political power of Jerusalem, moves against the church with violence. He kills James, the brother of John—the first apostle to give his life for the name of Christ. Then he arrests Peter, planning the same fate. But the night before Peter&apos;s execution, something happens that no earthly power can stop: a prayer-answering God breaks the chains and walks Peter past the guards as though they are shadows.',
     'The chapter does not end with Peter&apos;s escape, though. It ends with Herod sitting in his royal robes, accepting worship as a god, and being struck down by an angel. He is eaten by worms. His body, like his authority, decays. And then comes the one sentence that holds the whole chapter together: &ldquo;But the word of God grew and multiplied.&rdquo; Persecution arrests James. Imprisonment releases Peter. Royal pride judges itself. But the word—the gospel itself—cannot be touched. It keeps growing.',

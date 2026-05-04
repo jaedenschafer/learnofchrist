@@ -16,6 +16,10 @@ export const MATTHEW_18: RichChapterContent = {
   chapter: 18,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+  opener: {
+    matchTitle: /Two or Three Gathered/i,
+    caption: 'Matthew 18',
+  },
   intros: [
     'The disciples argue about who is greatest in the kingdom of heaven. Jesus responds by calling a child to stand among them: "Except ye be converted, and become as little children, ye cannot enter into the kingdom of heaven." Greatness in God&apos;s kingdom is measured not by status but by humility, by becoming small, dependent, and open. Jesus places a child in the center—the child, whom the world considers insignificant, becomes the model of the kingdom.',
     'Through parables and teachings, Jesus instructs His disciples about care for the lost, the power of united prayer, and—most crucially—forgiveness. The kingdom is not about judgment and exclusion but about seeking the lost sheep, about binding and loosing, about forgiving again and again. Forgiveness is not a transaction; it is the fruit of having been forgiven ourselves.',

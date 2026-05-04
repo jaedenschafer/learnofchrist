@@ -4,6 +4,8 @@
 // and Christ in the Temple). All works are in the public domain and
 // verified on Wikimedia Commons.
 
+import type { TopicSlug } from './topics';
+
 export type HofmannPainting = {
   externalId: string;
   title: string;
@@ -16,6 +18,9 @@ export type HofmannPainting = {
   verseEnd?: number;
   sceneSlug?: string;
   description?: string;
+  /** Optional thematic topics. Used by the artwork resolver to fall
+   *  back from chapter-specific matches to topic-overlap matches. */
+  topicTags?: TopicSlug[];
 };
 
 export const HOFMANN_PAINTINGS: HofmannPainting[] = [
@@ -29,7 +34,7 @@ export const HOFMANN_PAINTINGS: HofmannPainting[] = [
     chapter: 2,
     verseStart: 41,
     verseEnd: 52,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'hofmann-visit-of-the-magi',
@@ -41,7 +46,7 @@ export const HOFMANN_PAINTINGS: HofmannPainting[] = [
     chapter: 2,
     verseStart: 1,
     verseEnd: 12,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'hofmann-christ-and-rich-young-ruler',
@@ -53,7 +58,7 @@ export const HOFMANN_PAINTINGS: HofmannPainting[] = [
     chapter: 10,
     verseStart: 17,
     verseEnd: 22,
-    sceneSlug: 'teaching',
+    sceneSlug: 'teaching', topicTags: ['wisdom', 'witness'],
   },
   {
     externalId: 'hofmann-christ-in-gethsemane',
@@ -65,7 +70,7 @@ export const HOFMANN_PAINTINGS: HofmannPainting[] = [
     chapter: 26,
     verseStart: 36,
     verseEnd: 46,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
     description: "One of the most reproduced devotional images of the 19th century.",
   },
   {
@@ -78,7 +83,7 @@ export const HOFMANN_PAINTINGS: HofmannPainting[] = [
     chapter: 26,
     verseStart: 47,
     verseEnd: 56,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
   },
   {
     externalId: 'hofmann-head-of-christ',
@@ -90,7 +95,7 @@ export const HOFMANN_PAINTINGS: HofmannPainting[] = [
     chapter: 14,
     verseStart: 6,
     verseEnd: 6,
-    sceneSlug: 'teaching',
+    sceneSlug: 'teaching', topicTags: ['wisdom', 'witness'],
   },
   {
     externalId: 'hofmann-jesus-christ-portrait',
@@ -102,6 +107,6 @@ export const HOFMANN_PAINTINGS: HofmannPainting[] = [
     chapter: 8,
     verseStart: 12,
     verseEnd: 12,
-    sceneSlug: 'teaching',
+    sceneSlug: 'teaching', topicTags: ['wisdom', 'witness'],
   },
 ];

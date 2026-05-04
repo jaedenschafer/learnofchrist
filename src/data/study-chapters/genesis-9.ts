@@ -15,6 +15,10 @@ export const GENESIS_9: RichChapterContent = {
   chapter: 9,
 
   estimatedMinutes: { beginner: 8, intermediate: 14, deep: 17 },
+  opener: {
+    matchTitle: /The Cursing of Ham/i,
+    caption: 'Genesis 9',
+  },
   intros: [
     'Noah steps out of the ark to a silent world. One family, eight souls, and the command to begin again. God speaks to him the way He spoke to Adam: be fruitful, multiply, fill the earth. It is Genesis 1 all over again - except for one thing. The flood that was supposed to wash creation clean did not wash humanity clean. Sin got on the ark.',
     'Read this chapter twice and you will see it. The first half is covenant - God drawing a line, making a promise, hanging His bow in the sky as a sign that judgment will not come again by water. But by verse 18, as soon as the ink dries on the covenant, Noah plants, drinks, gets drunk, and everything East of Eden is back. The new world inherited the old problem. Only a different kind of Flood, on a different hill, two thousand years later, would fix that.',

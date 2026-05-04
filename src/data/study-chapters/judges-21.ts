@@ -19,6 +19,10 @@ export const JUDGES_21: RichChapterContent = {
   chapter: 21,
 
   estimatedMinutes: { beginner: 6, intermediate: 9, deep: 12 },
+  opener: {
+    matchTitle: /The Tribe of Benjamin/i,
+    caption: 'Judges 21',
+  },
   intros: [
     'Judges 21 is the final chapter of the book, and it reads as a tragedy. The men of Israel had sworn at Mizpeh that none of them would give his daughter unto Benjamin to wife. But when they learned that Benjamin was nearly extinct — cut off from Israel because of the depravity at Gibeah — they repented. Yet every attempt to undo the damage through human wisdom produced only horror: the massacre of Jabesh-gilead, the orchestrated abduction of daughters from Shiloh. Two wrongs, compounded into something worse.',
     'The chapter closes with the same refrain it opened with: "In those days there was no king in Israel: every man did that which was right in his own eyes." It is the refrain of the entire book, repeated like a funeral bell. This is exactly why Israel will later demand a king (1 Samuel 8). The ground is prepared for the monarchy — and for those of us who read beyond Israel\'s kings, the ground is prepared for Christ, the King whose rule alone produces wisdom.',

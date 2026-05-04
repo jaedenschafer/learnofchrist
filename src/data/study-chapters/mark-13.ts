@@ -18,6 +18,10 @@ export const MARK_13: RichChapterContent = {
   chapter: 13,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 6 },
+  opener: {
+    matchTitle: /The Prophecy of the/i,
+    caption: 'Mark 13',
+  },
   intros: [
     'Jesus and His disciples leave the temple. One of the disciples marvels at its magnificence: "Master, see what manner of stones and what buildings are here!" Jesus responds: "Seest thou these great buildings? there shall not be left one stone upon another, that shall not be thrown down." The temple, symbol of God&apos;s presence on earth, is destined for destruction. This is shocking. Peter, James, John, and Andrew ask: "Tell us, when shall these things be? and what shall be the sign when all these things shall be fulfilled?"',
     'Jesus teaches the Olivet Discourse—a prophecy about the end times. False Christs will come. There will be wars and rumors of wars, famines, earthquakes in diverse places. The gospel will be preached to all nations before the end. Then the Son of Man will come in clouds with great power and glory. He will gather His elect from the four winds. But no one knows the day or hour—not the angels, not the Son, but only the Father. Therefore: watch. Be ready. Keep awake. The chapter emphasizes vigilance, readiness, confidence in Jesus&apos; words which will not pass away.',

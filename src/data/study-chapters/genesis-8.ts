@@ -11,6 +11,10 @@ export const GENESIS_8: RichChapterContent = {
   chapter: 8,
 
   estimatedMinutes: { beginner: 6, intermediate: 10, deep: 13 },
+  opener: {
+    matchTitle: /The Dove Returns to/i,
+    caption: 'Genesis 8',
+  },
   intros: [
     'Genesis 7 is all weight-five weeks of rain, the waters rising, everything breathing creature dying in the flood. Genesis 8 opens with a single sentence that turns the entire narrative: <em>"God remembered Noah."</em> Not that God had forgotten, but that He stopped the judgment. The one person He was keeping alive, the one ark, the one family-God&apos;s covenant memory reaches down through the deep waters, and suddenly the flood is not endless. Genesis 8 is the moment judgment becomes mercy, and it will be the hinge on which the whole Bible turns.',
     'The chapter follows Noah through the long unbecoming: the ark rests on Ararat, Noah sends out a raven and then a dove, the waters recede, the earth dries, God tells him to come out. And when Noah steps onto the new world, the first thing he does is build an altar. God smells the sweet savour of the sacrifice and makes a vow: Never again will He curse the ground for humanity&apos;s sake. The flood was judgment for sin. What comes after the flood is grace-the promise that judgment will not have the last word.',

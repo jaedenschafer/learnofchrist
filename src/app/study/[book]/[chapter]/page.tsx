@@ -8,7 +8,11 @@ import { resolveChapterOverride, dehydrateRich } from '@/lib/chapterContent';
 import { isAdminSession } from '@/lib/isAdmin';
 import ChapterNav from '@/components/ChapterNav';
 import EditableStudyGuide from '@/components/EditableStudyGuide';
-import { getVerses, getArtworksForChapter } from '@/lib/supabase';
+import {
+  getVerses,
+  getArtworksForChapter,
+  getTopicalArtworksForChapter,
+} from '@/lib/supabase';
 import ChapterArtStrip from '@/components/ChapterArtStrip';
 import JsonLd from '@/components/JsonLd';
 import StudyTopBar from '@/components/StudyTopBar';
@@ -145,44 +149,177 @@ export default async function StudyChapterPage({ params }: ChapterPageProps) {
   //      We resolve the match here, write back `artworkSlug` and drop
   //      the RegExp, leaving the client to look up the artwork from
   //      its `artworks` prop by slug.
+  // Topical fallback pool. Fetched lazily when a chapter has any block
+  // (or opener) marked `topical: true`, OR when the chapter has fewer
+  // resolved chapter-specific images than the soft minimum and topicTags
+  // are declared. Empty pool means the chapter doesn't use topic tagging.
+  let topicalPool: typeof chapterArtworks | null = null;
+  async function ensureTopicalPool(): Promise<typeof chapterArtworks> {
+    if (topicalPool) return topicalPool;
+    const tags = richContent?.topicTags ?? [];
+    if (!tags.length) {
+      topicalPool = [];
+      return topicalPool;
+    }
+    const exclude = new Set(chapterArtworks.map((a) => a.id));
+    topicalPool = await getTopicalArtworksForChapter(tags, {
+      excludeIds: exclude,
+      limit: 8,
+    });
+    return topicalPool;
+  }
+
   const inlineArtSlugs = new Set<string>();
-  function resolveArtwork(
-    matchTitle: RegExp | undefined,
-    matchArtist: RegExp | undefined,
-  ): string | undefined {
-    for (const a of chapterArtworks) {
-      const matchesTitle = !matchTitle || matchTitle.test(a.title);
-      const matchesArtist = !matchArtist || matchArtist.test(a.artist?.name ?? '');
-      if (matchesTitle && matchesArtist) {
-        inlineArtSlugs.add(a.id);
-        return a.slug;
+  /** Picks a plate from the topical pool. Skips slugs already used by
+   *  earlier topical blocks in the same chapter so we don't render the
+   *  same painting twice. */
+  function pickFromTopicalPool(
+    pool: typeof chapterArtworks,
+    blockTopicMatch: string | string[] | undefined,
+  ): typeof chapterArtworks[number] | undefined {
+    const wanted =
+      blockTopicMatch == null
+        ? null
+        : Array.isArray(blockTopicMatch)
+          ? blockTopicMatch
+          : [blockTopicMatch];
+    for (const a of pool) {
+      if (inlineArtSlugs.has(a.id)) continue;
+      // If the block specifies a topicMatch, require the plate to carry
+      // at least one matching `topic:<slug>` tag.
+      if (wanted) {
+        const ok = wanted.some((t) => a.tags?.includes(`topic:${t}`));
+        if (!ok) continue;
       }
+      return a;
     }
     return undefined;
   }
 
+  function resolveChapterSpecific(
+    matchTitle: RegExp | undefined,
+    matchArtist: RegExp | undefined,
+    artworkSlug: string | undefined,
+  ): typeof chapterArtworks[number] | undefined {
+    if (artworkSlug) {
+      return chapterArtworks.find((a) => a.slug === artworkSlug);
+    }
+    if (!matchTitle && !matchArtist) return undefined;
+    return chapterArtworks.find((a) => {
+      const matchesTitle = !matchTitle || matchTitle.test(a.title);
+      const matchesArtist = !matchArtist || matchArtist.test(a.artist?.name ?? '');
+      return matchesTitle && matchesArtist;
+    });
+  }
+
   let safeRichContent = richContent;
   if (richContent) {
-    const sanitizedSections = richContent.sections.map((section) => ({
-      ...section,
-      blocks: section.blocks.map((block) => {
-        if (block.kind !== 'artwork') return block;
-        const slug =
-          block.artworkSlug ?? resolveArtwork(block.matchTitle, block.matchArtist);
-        // Drop matchTitle / matchArtist from what we ship to the client.
-        return {
-          kind: 'artwork' as const,
-          caption: block.caption,
-          artworkSlug: slug,
-        };
-      }),
-    }));
+    const sanitizedSections = await Promise.all(
+      richContent.sections.map(async (section) => ({
+        ...section,
+        blocks: await Promise.all(
+          section.blocks.map(async (block) => {
+            if (block.kind !== 'artwork') return block;
+
+            // Tier B: explicit topical slot — pull from topic pool.
+            if (block.topical) {
+              const pool = await ensureTopicalPool();
+              const a = pickFromTopicalPool(pool, block.topicMatch);
+              if (a) inlineArtSlugs.add(a.id);
+              return {
+                kind: 'artwork' as const,
+                caption: block.caption,
+                artworkSlug: a?.slug,
+                themed: !!a,
+              };
+            }
+
+            // Tier A: chapter-specific match.
+            const a = resolveChapterSpecific(
+              block.matchTitle,
+              block.matchArtist,
+              block.artworkSlug,
+            );
+            if (a) {
+              inlineArtSlugs.add(a.id);
+              return {
+                kind: 'artwork' as const,
+                caption: block.caption,
+                artworkSlug: a.slug,
+                themed: false,
+              };
+            }
+
+            // Tier A miss → silent fall-through to topical pool when
+            // the chapter has topicTags declared. Caption gets "(themed)".
+            if (richContent.topicTags?.length) {
+              const pool = await ensureTopicalPool();
+              const fb = pickFromTopicalPool(pool, block.topicMatch);
+              if (fb) {
+                inlineArtSlugs.add(fb.id);
+                return {
+                  kind: 'artwork' as const,
+                  caption: block.caption,
+                  artworkSlug: fb.slug,
+                  themed: true,
+                };
+              }
+            }
+
+            // Nothing resolved — emit a placeholder block the renderer
+            // will skip.
+            return {
+              kind: 'artwork' as const,
+              caption: block.caption,
+              artworkSlug: undefined,
+              themed: false,
+            };
+          }),
+        ),
+      })),
+    );
+
     let sanitizedOpener = richContent.opener;
     if (sanitizedOpener) {
-      const slug =
-        sanitizedOpener.artworkSlug ??
-        resolveArtwork(sanitizedOpener.matchTitle, sanitizedOpener.matchArtist);
-      sanitizedOpener = { caption: sanitizedOpener.caption, artworkSlug: slug };
+      if (sanitizedOpener.topical) {
+        const pool = await ensureTopicalPool();
+        const a = pickFromTopicalPool(pool, sanitizedOpener.topicMatch);
+        if (a) inlineArtSlugs.add(a.id);
+        sanitizedOpener = {
+          caption: sanitizedOpener.caption,
+          artworkSlug: a?.slug,
+          themed: !!a,
+        };
+      } else {
+        const a = resolveChapterSpecific(
+          sanitizedOpener.matchTitle,
+          sanitizedOpener.matchArtist,
+          sanitizedOpener.artworkSlug,
+        );
+        if (a) {
+          inlineArtSlugs.add(a.id);
+          sanitizedOpener = {
+            caption: sanitizedOpener.caption,
+            artworkSlug: a.slug,
+            themed: false,
+          };
+        } else if (richContent.topicTags?.length) {
+          const pool = await ensureTopicalPool();
+          const fb = pickFromTopicalPool(pool, sanitizedOpener.topicMatch);
+          if (fb) inlineArtSlugs.add(fb.id);
+          sanitizedOpener = {
+            caption: sanitizedOpener.caption,
+            artworkSlug: fb?.slug,
+            themed: !!fb,
+          };
+        } else {
+          sanitizedOpener = {
+            caption: sanitizedOpener.caption,
+            artworkSlug: undefined,
+            themed: false,
+          };
+        }
+      }
     }
     safeRichContent = {
       ...richContent,
@@ -190,6 +327,16 @@ export default async function StudyChapterPage({ params }: ChapterPageProps) {
       opener: sanitizedOpener,
     };
   }
+
+  // The renderer looks up `artworkSlug` against the `artworks` prop. When
+  // a block resolved to a topical-pool plate, that plate is NOT in
+  // chapterArtworks, so we merge the topical pool in before passing to
+  // RichStudyGuide. Topical plates only appear in the rich-content slots
+  // they were resolved into; they're filtered out of the art carousel
+  // strip below since they aren't chapter-specific.
+  const richArtworks = topicalPool
+    ? [...chapterArtworks, ...topicalPool]
+    : chapterArtworks;
 
   const stripArtworks =
     inlineArtSlugs.size > 0
@@ -352,7 +499,7 @@ export default async function StudyChapterPage({ params }: ChapterPageProps) {
               isHandAuthored={handAuthored}
             >
               {safeRichContent && (
-                <RichStudyGuide content={safeRichContent} artworks={chapterArtworks} />
+                <RichStudyGuide content={safeRichContent} artworks={richArtworks} />
               )}
             </EditableStudyGuide>
           )}

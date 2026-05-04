@@ -15,6 +15,10 @@ export const LAMENTATIONS_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 6 },
+  opener: {
+    matchTitle: /The Dead Bodies Carried/i,
+    caption: 'Lamentations 2',
+  },
   intros: [
     'Lamentations 2 shifts focus from Jerusalem&apos;s voice to God&apos;s role in the destruction. The chapter is unflinching in its attribution: it is God who has destroyed Jerusalem. "How hath the Lord covered the daughter of Zion with a cloud in his anger, and cast down from heaven unto the earth the beauty of Israel!" God does not merely allow the destruction. God actively brings it about. The temple He inhabited is profaned. His altar is cast down. His people are scattered.',
     'The chapter is difficult because it holds two truths together: God is righteous in His judgment, and the destruction is unbearable in its totality. There is no refuge. The prophets have no vision from the Lord. The priests have no knowledge of His will. The people are left in absolute desolation. Yet even in this darkness, the poet calls to the reader to bring their tears and their cries to God. "Arise, cry out in the night: pour out thine heart like water before the face of the Lord."',

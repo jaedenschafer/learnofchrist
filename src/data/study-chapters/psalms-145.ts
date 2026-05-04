@@ -17,6 +17,10 @@ export const PSALMS_145: RichChapterContent = {
   chapter: 145,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+  opener: {
+    matchTitle: /Utrecht Psalter Psalm/i,
+    caption: 'Psalms 145',
+  },
   intros: [
     'Psalm 145 is unique: it is the only alphabetic acrostic psalm attributed to David. An acrostic psalm works through the Hebrew alphabet systematically, beginning each verse with the next letter in sequence. This form creates a sense of completeness—from aleph to tav, from the beginning to the end, God&apos;s praise is complete. And what makes this psalm remarkable is what is said about God: His greatness is unsearchable. His kingdom is an everlasting kingdom. His dominion endures throughout all generations. Yet He is gracious, compassionate, slow to anger, and great in mercy. He is near to all who call upon Him in truth. The acrostic form is not mere literary device. It teaches: God&apos;s character, from beginning to end, is worthy of complete and comprehensive praise.',
   ],

@@ -18,6 +18,10 @@ export const EZRA_9: RichChapterContent = {
   chapter: 9,
 
   estimatedMinutes: { beginner: 8, intermediate: 18, deep: 23 },
+  opener: {
+    matchTitle: /Ezra Kneels in Prayer/i,
+    caption: 'Ezra 9',
+  },
   intros: [
     'Ezra 9 opens not with celebration, but with crisis. The exiles have returned. The temple foundation is laid. Worship is being restored. And then, in a devastating report, the princes come to Ezra with word that the people have done the very thing they were commanded not to do: they have intermarried with the surrounding nations — Canaanites, Hittites, Perizzites, Jebusites, Amorites, Egyptians. The problem is not biological. It is spiritual. To marry into these peoples is to invite their gods, their practices, their ways into the heart of the returning remnant.',
     'Ezra&apos;s response is extraordinary. He does not storm into the temple with condemnation. He tears his garments and pulls out his hair — he performs the outward signs of a man in a state of total anguish. Then he gathers all those who trembled at God&apos;s word and waits until the evening sacrifice. And when that moment comes, he does not speak for the people — he falls to his knees and speaks *with* them, confessing their sin as his own: "I am ashamed and blush to lift up my face to thee, my God." The intercessor does not stand apart. He stands with his people in their trespass. And in that prayer, which stretches across the rest of the chapter, he holds together two things: the absolute justice of God — "thou art righteous" — and the impossible mercy of God — the image of a nail fixed in the holy place, holding the remnant when everything else would scatter.',

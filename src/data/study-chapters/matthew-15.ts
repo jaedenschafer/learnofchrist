@@ -17,6 +17,10 @@ export const MATTHEW_15: RichChapterContent = {
   chapter: 15,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 5 },
+  opener: {
+    matchTitle: /Jesus Heals the Blind/i,
+    caption: 'Matthew 15',
+  },
   intros: [
     'The scribes and Pharisees come from Jerusalem to challenge Jesus about His disciples, who eat bread with unwashed hands, violating the traditions of the elders. Jesus responds not by defending His disciples&apos; behavior, but by exposing the deeper issue: the Pharisees have made tradition a substitute for God&apos;s commandment. Their oral laws have become more binding than the written Word.',
     'In the middle of Matthew 15, a Canaanite woman—a Gentile, an outsider—comes to Jesus crying for mercy. Her daughter is grievously vexed by a demon. Jesus&apos; initial silence and the disciples&apos; dismissal seem harsh. But the woman persists, and her faith is rewarded. The lesson shifts: the kingdom of God is not reserved for the sons of Israel alone. Even a despised outsider can find grace when she comes with desperate faith.',

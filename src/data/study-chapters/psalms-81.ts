@@ -15,6 +15,10 @@ export const PSALMS_81: RichChapterContent = {
   chapter: 81,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+  opener: {
+    matchTitle: /Stuttgart Psalter folio v/i,
+    caption: 'Psalms 81',
+  },
   intros: [
     'Psalm 81 opens with a call to joyful celebration. "Sing aloud unto God our strength." Yet as the psalm unfolds, it becomes clear that this joy is not mere emotion. It is grounded in remembrance—remembrance of the Exodus, of God&apos;s deliverance, of His faithfulness. And then comes one of the most striking invitations in all of Scripture: "Open thy mouth wide, and I will fill it." God is not a miser. He does not portion out His abundance reluctantly. He invites His people to ask boldly, to open themselves fully, to expect that He will exceed their expectations.',
     'Yet the psalm also contains God&apos;s lament. Israel did not listen. "But my people would not hearken to my voice." God offers abundance, but His people choose their own paths. The psalm thus becomes both a promise and a warning—a promise that if we open our mouths to God, He will fill them, and a warning that if we turn away from His voice, we forfeit the blessings He is eager to give.',

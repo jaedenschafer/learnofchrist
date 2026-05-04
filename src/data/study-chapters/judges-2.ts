@@ -14,6 +14,10 @@ export const JUDGES_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 7, intermediate: 10, deep: 13 },
+  opener: {
+    matchTitle: /An Angel Appears to/i,
+    caption: 'Judges 2',
+  },
   intros: [
     'Judges 2 stands at a hinge moment. Joshua is dead. The generation that witnessed the exodus and conquest has passed. A new generation has arisen, and the text delivers a chilling diagnosis: they did not know the Lord or the works He did. In their ignorance, they forsook Him. The chapter reveals both the judgment that followed their disobedience and the mercy that was still available — the pattern of the judges cycle that will sustain the nation for the next four centuries.',
     'An angel of the Lord comes to Bochim (the place of weeping) to announce what God will no longer do: drive out the remaining nations. Why? Not as mere punishment, but as a covenant test. God uses the very enemies Israel was called to displace as a means to prove whether they will keep the way of the Lord. This chapter is Genesis 3 played at the national level — the Fall of Israel&apos;s first generation after promise.',

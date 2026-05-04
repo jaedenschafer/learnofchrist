@@ -14,6 +14,11 @@ export const ROMANS_8: RichChapterContent = {
   chapter: 8,
 
   estimatedMinutes: { beginner: 9, intermediate: 19, deep: 25 },
+  opener: {
+    matchTitle: /Martydom of Saint Sebastian/i,
+    caption: 'Romans 8',
+  },
+  topicTags: ['hope', 'love', 'suffering', 'new-creation', 'mercy'],
   intros: [
     'Romans 7 ends in despair: "O wretched man that I am! who shall deliver me from the body of this death?" Romans 8 opens with the answer: "There is therefore now no condemnation to them which are in Christ Jesus." Paul does not pretend the struggle has ceased. The flesh still wars against the Spirit. But the verdict has changed. Christ has absorbed the condemnation that was rightfully yours.',
     'What follows is the hymn of the redeemed. The Spirit leads. Suffering becomes co-heir status. The whole creation groans, waiting for redemption. Even when you cannot pray, the Spirit prays for you. All things—even the worst things—are working toward good for those who love God. And at the end, Paul stands on a cliff and shouts into the void: "Nothing can separate you from the love of God, which is in Christ Jesus our Lord."',

@@ -12,6 +12,10 @@ export const JOSHUA_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 8, intermediate: 14, deep: 17 },
+  opener: {
+    matchTitle: /Rahab Hides the Spies/i,
+    caption: 'Joshua 2',
+  },
   intros: [
     'Joshua 2 opens with two spies crossing into enemy territory, and ends with a prostitute risking everything to hide them. Before Israel lands a single blow, God has already placed a rescuer inside the walls of Jericho. Rahab is a Canaanite woman, a harlot by profession, utterly outside the covenant. Yet she sees what the kings of Canaan cannot: the Lord is God.',
     'The chapter is a study in faith moving faster than evidence. Rahab has not yet seen Israel&apos;s army. She has only heard rumors of the Red Sea and Egypt, events decades old. Yet her conviction is unshakeable — "the Lord your God, he is God in heaven above, and in earth beneath." And that faith, coupled with her willingness to act, becomes the hinge on which the conquest turns. A scarlet cord in the window will mark the one house that survives when Jericho falls.',

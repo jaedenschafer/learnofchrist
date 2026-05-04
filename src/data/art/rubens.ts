@@ -11,6 +11,8 @@
 // subjects spanning his full career.
 // All plates verified on Wikimedia Commons.
 
+import type { TopicSlug } from './topics';
+
 export type RubensPlate = {
   externalId: string;
   title: string;
@@ -23,6 +25,9 @@ export type RubensPlate = {
   verseEnd?: number;
   sceneSlug?: string;
   description?: string;
+  /** Optional thematic topics. Used by the artwork resolver to fall
+   *  back from chapter-specific matches to topic-overlap matches. */
+  topicTags?: TopicSlug[];
 };
 
 export const RUBENS_PLATES: RubensPlate[] = [
@@ -37,7 +42,7 @@ export const RUBENS_PLATES: RubensPlate[] = [
     chapter: 3,
     verseStart: 23,
     verseEnd: 24,
-    sceneSlug: 'fall',
+    sceneSlug: 'fall', topicTags: ['fall-and-curse', 'sin', 'pride'],
     description: "Adam and Eve driven from paradise by the angel with the flaming sword. Collaborative work with Jan Brueghel the Younger.",
   },
   {
@@ -49,7 +54,7 @@ export const RUBENS_PLATES: RubensPlate[] = [
     bookSlug: 'genesis',
     chapter: 4,
     verseStart: 8,
-    sceneSlug: 'fall',
+    sceneSlug: 'fall', topicTags: ['fall-and-curse', 'sin', 'pride'],
     description: "Cain raises a jawbone over his brother, his body twisted with violence — the first murder, committed within sight of the smoking altars of the offerings. Courtauld Gallery, London.",
   },
   {
@@ -62,7 +67,7 @@ export const RUBENS_PLATES: RubensPlate[] = [
     chapter: 14,
     verseStart: 17,
     verseEnd: 20,
-    sceneSlug: 'abraham',
+    sceneSlug: 'abraham', topicTags: ['faithfulness', 'covenant', 'sacrifice'],
     description: "The priest-king of Salem brings out bread and wine and blesses Abraham — a typological prefiguration of the Eucharist. Modello for one of the Eucharist tapestries commissioned by Isabella Clara Eugenia for the Descalzas Reales in Madrid. National Gallery of Art, Washington.",
   },
   {
@@ -75,7 +80,7 @@ export const RUBENS_PLATES: RubensPlate[] = [
     chapter: 19,
     verseStart: 30,
     verseEnd: 38,
-    sceneSlug: 'abraham',
+    sceneSlug: 'abraham', topicTags: ['faithfulness', 'covenant', 'sacrifice'],
     description: "Lot and his daughters in the rock grotto near Zoar after the destruction of Sodom. Staatliches Museum Schwerin.",
   },
   {
@@ -88,7 +93,7 @@ export const RUBENS_PLATES: RubensPlate[] = [
     chapter: 22,
     verseStart: 10,
     verseEnd: 13,
-    sceneSlug: 'abraham',
+    sceneSlug: 'abraham', topicTags: ['faithfulness', 'covenant', 'sacrifice'],
     description: "The angel seizes Abraham's arm as the ram waits in the thicket — the climactic moment on Mount Moriah.",
   },
   {
@@ -101,7 +106,7 @@ export const RUBENS_PLATES: RubensPlate[] = [
     chapter: 21,
     verseStart: 6,
     verseEnd: 9,
-    sceneSlug: 'moses',
+    sceneSlug: 'moses', topicTags: ['calling', 'leadership', 'covenant'],
     description: "Moses lifts up the bronze serpent so that the Israelites bitten by the fiery serpents may look on it and live — read by John 3:14 as a type of the crucifixion. National Gallery, London.",
   },
   {
@@ -113,7 +118,7 @@ export const RUBENS_PLATES: RubensPlate[] = [
     bookSlug: 'judges',
     chapter: 16,
     verseStart: 19,
-    sceneSlug: 'judges',
+    sceneSlug: 'judges', topicTags: ['deliverance', 'leadership', 'sin'],
     description: "Samson asleep in Delilah's lap as a barber cuts the locks that held his strength; Philistine soldiers crowd at the doorway. National Gallery, London.",
   },
   {
@@ -126,7 +131,7 @@ export const RUBENS_PLATES: RubensPlate[] = [
     chapter: 13,
     verseStart: 6,
     verseEnd: 10,
-    sceneSlug: 'deliverance',
+    sceneSlug: 'deliverance', topicTags: ['deliverance', 'protection'],
     description: "The widow of Bethulia holds up the severed head of the Assyrian general; her maid waits with the sack. Herzog Anton Ulrich-Museum, Braunschweig.",
   },
   {
@@ -139,7 +144,7 @@ export const RUBENS_PLATES: RubensPlate[] = [
     chapter: 10,
     verseStart: 1,
     verseEnd: 10,
-    sceneSlug: 'solomon',
+    sceneSlug: 'solomon', topicTags: ['wisdom', 'kingship', 'worship'],
     description: "The Queen of Sheba arrives in Jerusalem to test Solomon with hard questions and sees that his wisdom and his house are greater than the report she had heard.",
   },
   {
@@ -152,7 +157,7 @@ export const RUBENS_PLATES: RubensPlate[] = [
     chapter: 19,
     verseStart: 5,
     verseEnd: 8,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
     description: "Fleeing Jezebel, Elijah collapses beneath the juniper tree; an angel wakes him and sets bread and a cruse of water at his head. Modello for a Eucharist tapestry. National Gallery of Art, Washington.",
   },
   {
@@ -165,7 +170,7 @@ export const RUBENS_PLATES: RubensPlate[] = [
     chapter: 6,
     verseStart: 16,
     verseEnd: 23,
-    sceneSlug: 'prophets',
+    sceneSlug: 'prophets', topicTags: ['calling', 'witness', 'judgment', 'messianic-prophecy'],
     description: "Daniel prays through the night surrounded by nine life-size lions — Rubens worked from live lions he saw in the menagerie of the archdukes in Brussels. National Gallery of Art, Washington.",
   },
   {
@@ -178,7 +183,7 @@ export const RUBENS_PLATES: RubensPlate[] = [
     chapter: 13,
     verseStart: 19,
     verseEnd: 27,
-    sceneSlug: 'deliverance',
+    sceneSlug: 'deliverance', topicTags: ['deliverance', 'protection'],
     description: "From the deuterocanonical Susanna (Daniel 13). The two elders ambush Susanna in her garden; she refuses their demand and will be vindicated by Daniel's cross-examination. Real Academia de Bellas Artes de San Fernando, Madrid.",
   },
 
@@ -193,7 +198,7 @@ export const RUBENS_PLATES: RubensPlate[] = [
     chapter: 1,
     verseStart: 26,
     verseEnd: 38,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: "Gabriel descends to Mary at her prayer desk; the Spirit as dove hovers above. Kunsthistorisches Museum, Vienna.",
   },
   {
@@ -206,7 +211,7 @@ export const RUBENS_PLATES: RubensPlate[] = [
     chapter: 1,
     verseStart: 39,
     verseEnd: 56,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: "Right wing of the Descent from the Cross triptych. Mary meets Elizabeth on the steps; the unborn Baptist leaps in his mother's womb. Antwerp Cathedral.",
   },
   {
@@ -219,7 +224,7 @@ export const RUBENS_PLATES: RubensPlate[] = [
     chapter: 2,
     verseStart: 15,
     verseEnd: 20,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: "Shepherds kneel around the manger; a radiant Child lights the faces. Saint Paul's Church, Antwerp.",
   },
   {
@@ -232,7 +237,7 @@ export const RUBENS_PLATES: RubensPlate[] = [
     chapter: 2,
     verseStart: 1,
     verseEnd: 12,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: "Painted for the Abbey of Saint Michael, Antwerp. The three kings present their gifts in a swirl of drapery, horses, and exotic costume. Koninklijk Museum voor Schone Kunsten, Antwerp.",
   },
   {
@@ -244,7 +249,7 @@ export const RUBENS_PLATES: RubensPlate[] = [
     bookSlug: 'matthew',
     chapter: 2,
     verseStart: 11,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: "Earlier version commissioned for the Antwerp town hall, later gifted to Spain. Museo del Prado, Madrid.",
   },
   {
@@ -257,7 +262,7 @@ export const RUBENS_PLATES: RubensPlate[] = [
     chapter: 2,
     verseStart: 16,
     verseEnd: 18,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: "Herod's soldiers tear infants from their mothers' arms in Bethlehem. Art Gallery of Ontario, Toronto (1612 version; a second canvas hangs in the Alte Pinakothek, Munich).",
   },
   {
@@ -270,7 +275,7 @@ export const RUBENS_PLATES: RubensPlate[] = [
     chapter: 2,
     verseStart: 13,
     verseEnd: 15,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: "Joseph leads the donkey by night through a moonlit landscape as Mary cradles the sleeping Child.",
   },
   {
@@ -283,7 +288,7 @@ export const RUBENS_PLATES: RubensPlate[] = [
     chapter: 2,
     verseStart: 19,
     verseEnd: 23,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
     description: "Joseph, Mary, and the young Jesus return from Egypt after Herod's death. Wadsworth Atheneum, Hartford.",
   },
 
@@ -298,7 +303,7 @@ export const RUBENS_PLATES: RubensPlate[] = [
     chapter: 17,
     verseStart: 1,
     verseEnd: 8,
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
     description: "Christ rises in light between Moses and Elijah while Peter, James, and John fall back on Mount Tabor. Musée des Beaux-Arts de Nancy.",
   },
   {
@@ -311,7 +316,7 @@ export const RUBENS_PLATES: RubensPlate[] = [
     chapter: 22,
     verseStart: 15,
     verseEnd: 22,
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
     description: "The Pharisees hand Christ the denarius; he returns the answer 'Render unto Caesar.' Fine Arts Museums of San Francisco.",
   },
   {
@@ -324,7 +329,7 @@ export const RUBENS_PLATES: RubensPlate[] = [
     chapter: 7,
     verseStart: 36,
     verseEnd: 50,
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
     description: "The penitent woman kneels at Christ's feet with the alabaster jar as Simon looks on in disapproval. State Hermitage Museum, Saint Petersburg.",
   },
   {
@@ -337,7 +342,7 @@ export const RUBENS_PLATES: RubensPlate[] = [
     chapter: 5,
     verseStart: 1,
     verseEnd: 11,
-    sceneSlug: 'miracles',
+    sceneSlug: 'miracles', topicTags: ['compassion', 'glory', 'sovereignty'],
     description: "Central panel of the triptych for the fishmongers' chapel at Our Lady's Church, Mechelen. Peter kneels before Christ as the nets strain with fish.",
   },
   {
@@ -350,7 +355,7 @@ export const RUBENS_PLATES: RubensPlate[] = [
     chapter: 11,
     verseStart: 38,
     verseEnd: 44,
-    sceneSlug: 'miracles',
+    sceneSlug: 'miracles', topicTags: ['compassion', 'glory', 'sovereignty'],
     description: "Lazarus rises from the tomb, still wrapped in his grave-clothes; Martha and Mary look on.",
   },
 
@@ -365,7 +370,7 @@ export const RUBENS_PLATES: RubensPlate[] = [
     chapter: 26,
     verseStart: 26,
     verseEnd: 29,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
     description: "Christ institutes the Eucharist; Judas turns outward with the firelight on his face. Pinacoteca di Brera, Milan.",
   },
   {
@@ -377,7 +382,7 @@ export const RUBENS_PLATES: RubensPlate[] = [
     bookSlug: 'john',
     chapter: 19,
     verseStart: 5,
-    sceneSlug: 'passion',
+    sceneSlug: 'passion', topicTags: ['suffering', 'cross', 'sacrifice'],
     description: "Pilate presents the scourged Christ to the crowd: 'Behold the man.'",
   },
   {
@@ -390,7 +395,7 @@ export const RUBENS_PLATES: RubensPlate[] = [
     chapter: 19,
     verseStart: 17,
     verseEnd: 22,
-    sceneSlug: 'crucifixion',
+    sceneSlug: 'crucifixion', topicTags: ['cross', 'sacrifice', 'suffering'],
     description: "Central triptych panel, Antwerp Cathedral. Soldiers heave the cross upright by rope and pulley; Christ's body strains diagonally across the composition.",
   },
   {
@@ -403,7 +408,7 @@ export const RUBENS_PLATES: RubensPlate[] = [
     chapter: 19,
     verseStart: 17,
     verseEnd: 30,
-    sceneSlug: 'crucifixion',
+    sceneSlug: 'crucifixion', topicTags: ['cross', 'sacrifice', 'suffering'],
     description: "Christ alone on the cross against a darkening sky.",
   },
   {
@@ -416,7 +421,7 @@ export const RUBENS_PLATES: RubensPlate[] = [
     chapter: 23,
     verseStart: 32,
     verseEnd: 43,
-    sceneSlug: 'crucifixion',
+    sceneSlug: 'crucifixion', topicTags: ['cross', 'sacrifice', 'suffering'],
     description: "The good thief, to Christ's right, turns toward him in the moment of the promise 'Today you will be with me in paradise.' Koninklijk Museum voor Schone Kunsten, Antwerp.",
   },
   {
@@ -429,7 +434,7 @@ export const RUBENS_PLATES: RubensPlate[] = [
     chapter: 19,
     verseStart: 31,
     verseEnd: 37,
-    sceneSlug: 'crucifixion',
+    sceneSlug: 'crucifixion', topicTags: ['cross', 'sacrifice', 'suffering'],
     description: "Longinus thrusts the spear into Christ's side; blood and water flow. Painted for the Recollects in Antwerp; now Koninklijk Museum voor Schone Kunsten, Antwerp.",
   },
   {
@@ -442,7 +447,7 @@ export const RUBENS_PLATES: RubensPlate[] = [
     chapter: 19,
     verseStart: 38,
     verseEnd: 42,
-    sceneSlug: 'crucifixion',
+    sceneSlug: 'crucifixion', topicTags: ['cross', 'sacrifice', 'suffering'],
     description: "Central triptych panel, Antwerp Cathedral. The body of Christ is lowered along a white shroud by John, Joseph of Arimathea, and Nicodemus while the Marys wait below.",
   },
 
@@ -457,7 +462,7 @@ export const RUBENS_PLATES: RubensPlate[] = [
     chapter: 28,
     verseStart: 1,
     verseEnd: 8,
-    sceneSlug: 'resurrection',
+    sceneSlug: 'resurrection', topicTags: ['resurrection', 'hope', 'new-creation'],
     description: "Christ rises from the tomb holding the banner of victory, the soldiers fallen beneath him. Antwerp Cathedral.",
   },
   {
@@ -470,7 +475,7 @@ export const RUBENS_PLATES: RubensPlate[] = [
     chapter: 6,
     verseStart: 9,
     verseEnd: 10,
-    sceneSlug: 'resurrection',
+    sceneSlug: 'resurrection', topicTags: ['resurrection', 'hope', 'new-creation'],
     description: "The risen Christ stands on a globe with the cross-staff, treading down the serpent, death, and a skeleton — a visualization of Paul's 'death no longer has dominion over him.' Musée des Beaux-Arts, Grenoble.",
   },
   {
@@ -482,7 +487,7 @@ export const RUBENS_PLATES: RubensPlate[] = [
     bookSlug: 'revelation',
     chapter: 12,
     verseStart: 1,
-    sceneSlug: 'redemption',
+    sceneSlug: 'redemption', topicTags: ['mercy', 'forgiveness', 'cross'],
     description: "The Virgin rises on a cloud of angels while the apostles crowd the empty tomb below. Kunsthistorisches Museum, Vienna — related to the high altar Assumption of Antwerp Cathedral.",
   },
 
@@ -497,7 +502,7 @@ export const RUBENS_PLATES: RubensPlate[] = [
     chapter: 9,
     verseStart: 3,
     verseEnd: 9,
-    sceneSlug: 'apostles',
+    sceneSlug: 'apostles', topicTags: ['witness', 'mission', 'unity'],
     description: "Saul is thrown from his horse on the road to Damascus in a great flash of light; the risen Christ appears in the clouds. LIECHTENSTEIN. The Princely Collections, Vienna.",
   },
 ];

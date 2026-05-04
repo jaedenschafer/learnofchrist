@@ -14,6 +14,10 @@ export const JOSHUA_10: RichChapterContent = {
   chapter: 10,
 
   estimatedMinutes: { beginner: 12, intermediate: 18, deep: 22 },
+  opener: {
+    matchTitle: /Joshua/i,
+    caption: 'Joshua 10',
+  },
   intros: [
     'Joshua 10 opens with five Amorite kings — Adoni-zedek of Jerusalem, plus the kings of Hebron, Jarmuth, Lachish[res:iaa-lachish-siege], and Eglon — joining forces against Gibeon because Gibeon made peace with Joshua. They are terrified. Gibeon is a great city, a royal city, and its men are mighty. If Gibeon allies with Israel, the southern highlands will crumble under Israelite control. They attack to break the alliance.',
     'But Gibeon cries out to Joshua at Gilgal. And Joshua, trusting the word of the Lord, marches all night with his army. What follows is the most audacious moment in Israel&apos;s early conquest: the Lord discomfits the Amorite armies with a great slaughter, pursues them with hailstones, and when the day grows short and the victory is not yet complete, Joshua prays aloud — and the sun stands still. For nearly a whole day, the normal cycle of earth breaks. And when it is over, five kings are hanged from trees, and Israel controls the south.',

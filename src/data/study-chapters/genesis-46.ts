@@ -19,6 +19,10 @@ export const GENESIS_46: RichChapterContent = {
   chapter: 46,
 
   estimatedMinutes: { beginner: 6, intermediate: 12, deep: 15 },
+  opener: {
+    matchTitle: /Israel/i,
+    caption: 'Genesis 46',
+  },
   intros: [
     'Israel is old. He has lived 130 years, seen Joseph alive against every expectation, buried Isaac at Mamre, and now stands at the edge of a choice: travel south to Egypt, the land of bondage, or stay in Canaan, the land of promise [res:met-museum-egypt]. He chooses to go. But before he steps across the southern border into Egypt, he stops at Beersheba - the place where Abraham once dug a well, the southern boundary of the promised land - to offer sacrifice to the God of his fathers.',
     'God appears to him there, in visions of the night [res:sefaria-genesis-46]. And God says something that will define Israel&apos;s entire sojourn in Egypt: "I am God, the God of thy father. Fear not to go down into Egypt, for I will there make of thee a great nation. I will go down with thee... and I will also surely bring thee up again" [res:bibleodyssey-joseph-egypt]. Two movements - down and up - framing exile itself as the space where God walks with His people.',

@@ -15,6 +15,10 @@ export const SECOND_TIMOTHY_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 10, intermediate: 16, deep: 23 },
+  opener: {
+    matchTitle: /Saint Timothy the Apostle/i,
+    caption: '2 Timothy 1',
+  },
   intros: [
     'Paul writes his final letter. He is in chains, awaiting execution. Rome does not recognize Christian faith as legitimate religion. The emperor is hostile. Believers are turning away from Paul for fear of association. Yet Paul does not rage or despair. He turns to Timothy with a clear-eyed encouragement. The gospel does not promise comfort in this age. It promises power to endure, love to sustain, and a mind kept clear by God&apos;s Spirit.',
     'Timothy is young. He is in a city hostile to the gospel. Pressure mounts to compromise. Paul&apos;s word is not "avoid danger" but "be strong in the grace that is in Christ Jesus." Not immunity from suffering. Not escape from the conflict. But strength, love, and clarity to face it.',

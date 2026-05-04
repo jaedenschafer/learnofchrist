@@ -20,6 +20,10 @@ export const ACTS_10: RichChapterContent = {
   chapter: 10,
 
   estimatedMinutes: { beginner: 8, intermediate: 17, deep: 22 },
+  opener: {
+    matchTitle: /What God Has Cleansed/i,
+    caption: 'Acts 10',
+  },
   intros: [
     'For eight chapters, the gospel has been spreading through Jerusalem and Judea. Peter heals the lame beggar. Stephen is martyred. Philip baptizes the Ethiopian eunuch on the road. But a question hangs in the air: Is this good news for Jews alone, or for all people? Jesus had said the disciples would be witnesses in Jerusalem, in all Judea and Samaria, and to the uttermost parts of the earth. Peter has moved slowly toward Samaria. Now he must move toward Rome. And his first step is to cross a boundary so deep that it takes a vision from heaven—not once, but twice—to shake him loose from it.',
     'The law of Moses divided the world into clean and unclean, Jew and Gentile, those who belonged to God and those who did not. A faithful Jew did not eat with a Gentile. Did not enter a Gentile house. This was not cruelty—it was obedience, identity, the mark of a chosen people. Peter kept these laws with his whole heart. But now the Spirit is going to unmake them. Not by erasing the law, but by fulfilling it. The sheet descending from heaven is the gospel made visible: no one is outside the reach of God&apos;s love. No category is final. No person is unclean.',

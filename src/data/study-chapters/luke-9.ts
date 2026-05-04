@@ -19,6 +19,10 @@ export const LUKE_9: RichChapterContent = {
   chapter: 9,
 
   estimatedMinutes: { beginner: 1, intermediate: 5, deep: 6 },
+  opener: {
+    matchTitle: /Jesus Traveling/i,
+    caption: 'Luke 9',
+  },
   intros: [
     'Jesus calls the twelve and gives them power and authority over all demons and to cure diseases. He sends them forth to preach the kingdom of God and to heal. They depart and go through every village, preaching the gospel and healing everywhere. Herod hears of all that is done. He is perplexed. John he had beheaded, but who is this man of whom he hears such things? When the apostles return, they tell Jesus all that they have done. Jesus takes them and withdraws privately to a city called Bethsaida. But the multitude knows where He is. They follow Him. He welcomes them and speaks to them of the kingdom of God and heals those who have need of healing.',
     'As the day wanes, the twelve come to Jesus: "Send the multitude away, that they may go into the towns and country round about, and lodge, and get victuals: for we are here in a desert place." But Jesus says: "Give ye them to eat." They have but five loaves and two fishes. Jesus blesses them and breaks them. All eat and are filled. Twelve baskets of fragments remain. And it comes to pass as Jesus is praying alone, His disciples are with Him. He asks them: "Whom say the people that I am?" They answer. Jesus says: "But whom say ye that I am?" Peter answers: "The Christ of God."',

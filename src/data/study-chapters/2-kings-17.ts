@@ -18,6 +18,10 @@ export const KINGS_2_17: RichChapterContent = {
   chapter: 17,
 
   estimatedMinutes: { beginner: 4, intermediate: 10, deep: 16 },
+  opener: {
+    matchTitle: /Foreign Nations Are Slain/i,
+    caption: '2 Kings 17',
+  },
   intros: [
     'The fall of Israel is the end of a story. It is not a sudden tragedy, but the final chapter of a long refusal. For generations, the prophets of the Lord came to the Northern Kingdom, calling them to turn from idolatry and injustice. But the people "hardened their necks like to the neck of their fathers, that did not believe in the Lord their God." They rejected His statutes, made molten calves, planted groves, and worshipped "all the host of heaven." They passed their children through the fire. They sold themselves to do evil.',
     'Now, in the reign of Hoshea, king of Assyria comes. He comes with armies. He comes with patience. He lays siege to Samaria for three years. And when it falls, Israel is no more — not as a people, not as a kingdom, not in the land the Lord gave them. They are carried away to Assyria, scattered in the cities of exile. The land is repopulated with foreigners. And those foreigners, afraid of the Lord&apos;s power, will create a halfway faith — they fear the Lord, but they serve their own gods. This chapter is the judgment that had been written all along. It is also the seed of a new story: the Samaritans. And in that seed lies the promise that even the broken and scattered will one day meet the One who came to offer living water to them too.',

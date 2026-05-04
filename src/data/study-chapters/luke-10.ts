@@ -19,6 +19,10 @@ export const LUKE_10: RichChapterContent = {
   chapter: 10,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+  opener: {
+    matchTitle: /The Scribe Stood to/i,
+    caption: 'Luke 10',
+  },
   intros: [
     'Jesus appoints seventy others and sends them two by two before His face into every city and place whither He Himself will come. He says to them: "The harvest truly is great, but the labourers are few: pray ye therefore the Lord of the harvest, that he would send forth labourers into his harvest." They are sent as lambs among wolves. They carry no purse, no scrip, no shoes. They are to salute no man by the way. Into whatever house they enter, they are to say: "Peace be to this house." If a son of peace be there, their peace shall rest on him. If not, it shall turn to them again.',
     'The seventy return with joy. "Even the devils are subject unto us through thy name." Jesus says: "I beheld Satan as lightning fall from heaven. Behold, I give unto you power to tread on serpents and scorpions, and over all the power of the enemy: and nothing shall by any means hurt you."',

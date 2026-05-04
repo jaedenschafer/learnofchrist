@@ -17,6 +17,10 @@ export const PSALMS_137: RichChapterContent = {
   chapter: 137,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 4 },
+  opener: {
+    matchTitle: /Jews in Captivity/i,
+    caption: 'Psalms 137',
+  },
   intros: [
     'Psalm 137 is traditionally read as a prayer of the Israelites during the Babylonian captivity, written after the fall of Jerusalem in 586 BC. It is a psalm of grief, homesickness, and rage. Yet it is also a psalm about faithfulness—a refusal to forget, to betray, or to compromise conviction even in exile. The psalmist sits by the rivers of Babylon, far from the temple, far from home. Captors demand songs. But the psalmist refuses to sing joy while heart-broken, refusing to turn sacred memory into entertainment for oppressors. Instead, the psalm offers something rarer: the honest, unfiltered cry of the exiled soul.',
   ],

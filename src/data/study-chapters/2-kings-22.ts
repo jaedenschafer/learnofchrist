@@ -19,6 +19,10 @@ export const KINGS_2_22: RichChapterContent = {
   chapter: 22,
 
   estimatedMinutes: { beginner: 6, intermediate: 12, deep: 16 },
+  opener: {
+    matchTitle: /Josiah Hears the Word/i,
+    caption: '2 Kings 22',
+  },
   intros: [
     'Josiah became king at eight years old. The text tells us he did right in the sight of the Lord and turned not aside to the right hand or to the left — a portrait of a child-king who chose obedience. But for decades, the Temple had fallen into disrepair. The Book of the Law — the sacred scroll that had been the anchor of Israel&apos;s covenant with the Lord — had been lost, buried perhaps intentionally, perhaps through neglect. The people had drifted. The Word had been forgotten.',
     'In the eighteenth year of his reign, Josiah sends the scribe Shaphan to the high priest Hilkiah with a simple instruction: gather the silver that has been brought into the Temple and use it to pay the workers who are repairing the sanctuary. But in that work of restoration, something far greater is discovered. The high priest speaks a sentence that will shake the kingdom: "I have found the Book of the Law in the house of the Lord."',

@@ -13,6 +13,10 @@ export const ZEPHANIAH_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+  opener: {
+    matchTitle: /The Prophet Zephaniah/i,
+    caption: 'Zephaniah 3',
+  },
   intros: [
     'The final chapter moves from judgment to restoration. God will gather the outcast, will restore them, will make them a name and praise. And then—in words of extraordinary tenderness—God Himself is described as rejoicing over His people with joy, resting in His love, joyfully singing.',
     'This is the ultimate reversal. At the beginning of the book, we heard of God&apos;s wrath and the terrible Day of the Lord. At the end, we hear of God rejoicing. The passage from judgment to mercy, from wrath to joy, is accomplished through the turning of God&apos;s people to Him.',

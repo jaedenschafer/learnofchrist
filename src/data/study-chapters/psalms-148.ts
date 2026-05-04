@@ -17,6 +17,10 @@ export const PSALMS_148: RichChapterContent = {
   chapter: 148,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 4 },
+  opener: {
+    matchTitle: /Praise the Lord/i,
+    caption: 'Psalms 148',
+  },
   intros: [
     'Psalm 148 is perhaps the most cosmic of all the psalms. It begins in heaven—with angels and celestial bodies—and works its way down to earth, calling every creature, every object, every force to praise. The sun and moon praise. The heavens and waters above the heavens praise. Mountains and hills, trees and cedars praise. Beasts and cattle, creeping things and flying fowl praise. Kings and judges, old and young praise. The psalm refuses to separate the heavenly from the earthly, the divine from the natural. All creation—seen and unseen, living and not living—is invited into the chorus of praise. And the reason: "His name alone is excellent; his glory is above the earth and heaven."',
   ],

@@ -18,6 +18,10 @@ export const KINGS_1_5: RichChapterContent = {
   chapter: 5,
 
   estimatedMinutes: { beginner: 5, intermediate: 9, deep: 12 },
+  opener: {
+    matchTitle: /Cedars Are Cut Down/i,
+    caption: '1 Kings 5',
+  },
   intros: [
     'The promise made to David in 2 Samuel 7 is now coming to pass. Solomon has consolidated his throne, and he looks toward the work his father could not finish. "Thou knowest," Solomon reminds Hiram, "that David my father could not build an house unto the name of the Lord his God for the wars which were about him on every side, until the Lord put them under the soles of his feet." But now — now the Lord has given Solomon rest. The wars are over. The sword is sheathed. And in this peace, the true work can begin.',
     'Solomon turns to Hiram of Tyre, the same king who had been his father&apos;s friend. Hiram is renowned for his wisdom, his craftsmen, and the cedar of Lebanon — the finest timber in the ancient world. Together, king and craftsman, Israelite and Tyrian, will gather the resources to build. This chapter shows us the partnership of peace: how the gathering of nations, the coordination of labor, and the provision of gifts forge not merely a building, but a testimony to the power of covenant.',

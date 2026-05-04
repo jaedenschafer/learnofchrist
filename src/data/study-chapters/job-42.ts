@@ -15,6 +15,10 @@ export const JOB_42: RichChapterContent = {
   chapter: 42,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+  opener: {
+    matchTitle: /Job/i,
+    caption: 'Job 42',
+  },
   intros: [
     'After all of Job&apos;s struggle, after the speeches of his friends, after Elihu&apos;s counsel, after God&apos;s revelation, Job at last understands. He has moved from hearing about God to seeing God. He repents—not of specific sins, but of his fundamental stance toward God. And in that repentance, everything is restored. The book ends not with explanation but with restoration, with grace, with the reversal that only God can accomplish.',
   ],

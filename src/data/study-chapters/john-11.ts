@@ -17,6 +17,10 @@ export const JOHN_11: RichChapterContent = {
   chapter: 11,
 
   estimatedMinutes: { beginner: 2, intermediate: 6, deep: 7 },
+  opener: {
+    matchTitle: /Lazarus/i,
+    caption: 'John 11',
+  },
   intros: [
     'Lazarus falls ill in Bethany. His sisters Mary and Martha send for Jesus: "Lord, behold, he whom thou lovest is sick." But Jesus does not hasten. He remains where He is two more days. "This sickness is not unto death, but for the glory of God, that the Son of God might be glorified thereby." When Jesus finally comes to Bethany, Lazarus has been in the tomb four days. Martha approaches Jesus with a mixture of faith and reproach: "Lord, if thou hadst been here, my brother had not died. But I know, that even now, whatsoever thou wilt ask of God, God will give it thee."',
     'Jesus says: "I am the resurrection, and the life: he that believeth in me, though he were dead, yet shall he live." Martha confesses: "Yea, Lord: I believe that thou art the Christ, the Son of God." Jesus asks to be taken to the tomb. And there, confronted by death itself—a stench, a finality, a darkness—Jesus weeps. In that moment, His love and His sorrow converge. Then He speaks the word: "Lazarus, come forth." And the dead man emerges from the darkness, still bound in grave clothes, walking into life.',

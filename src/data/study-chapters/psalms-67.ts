@@ -18,6 +18,10 @@ export const PSALMS_67: RichChapterContent = {
   chapter: 67,
 
   estimatedMinutes: { beginner: 3, intermediate: 6, deep: 8 },
+  opener: {
+    matchTitle: /Utrecht Psalter Psalm/i,
+    caption: 'Psalms 67',
+  },
   intros: [
     'Psalm 67 is a short psalm of great scope. It begins with a prayer—"God be merciful unto us, and bless us"—but the prayer is not self-contained. It looks immediately outward: "that thy way may be known upon earth, thy saving health among all nations." The blessing requested is not for the comfort or advantage of God\'s people, but for a purpose that extends beyond them. God\'s mercy toward Israel is meant to become visible to the world as a witness to His character and His salvation.',
     'The psalm is set to the tune of a vinedresser\'s song—a working song, the kind sung in the fields and vineyards of ancient Israel. This setting suggests that the message of the psalm is not confined to the sanctuary, but is meant to be carried into the rhythms of ordinary work. In going about our daily labor, we are to remember that we are blessed not for ourselves alone, but so that through us God\'s way might become known to all people.',

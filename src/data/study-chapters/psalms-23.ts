@@ -17,6 +17,11 @@ export const PSALMS_23: RichChapterContent = {
   chapter: 23,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+  opener: {
+    matchTitle: /The Lord is my/i,
+    caption: 'Psalms 23',
+  },
+  topicTags: ['shepherd', 'protection', 'hope', 'compassion'],
   intros: [
     'Psalm 23 is perhaps the most beloved psalm in all of Scripture. Its six verses contain a theology of comfort that has sustained believers through every kind of darkness. The psalmist begins in absolute trust: "I shall not want." Not might not want, not usually want—shall not want. This is the confidence of one who knows that his shepherd is faithful. And as the psalm unfolds, it moves through every human circumstance: sustenance, rest, guidance, and the final fear—the shadow of death itself. Yet even in that final valley, the shepherd is present.',
   ],

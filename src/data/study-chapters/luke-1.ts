@@ -17,6 +17,10 @@ export const LUKE_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+  opener: {
+    matchTitle: /The Annunciation/i,
+    caption: 'Luke 1',
+  },
   intros: [
     'In the days of Herod, king of Judaea, there was a certain priest named Zacharias, whose wife was Elisabeth. Both were righteous before God, yet childless and old. While Zacharias burns incense in the temple, an angel appears: Gabriel, the messenger of God. Fear grips him. But the angel speaks: "Thy prayer is heard; and thy wife Elisabeth shall bear thee a son, and thou shalt call his name John."',
     'Six months later, Gabriel visits a young virgin in Nazareth. Her name is Mary. The angel greets her with words that pierce eternity: "Hail, thou that art highly favoured; the Lord is with thee." Mary is troubled. The angel continues: "Thou shalt conceive in thy womb, and bring forth a son, and shalt call his name Jesus." She will bear the Son of God. Two promises, two births, one unfolding purpose.',

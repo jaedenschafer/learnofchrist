@@ -21,6 +21,10 @@ export const GENESIS_45: RichChapterContent = {
   chapter: 45,
 
   estimatedMinutes: { beginner: 8, intermediate: 14, deep: 17 },
+  opener: {
+    matchTitle: /Joseph Makes Himself Known/i,
+    caption: 'Genesis 45',
+  },
   intros: [
     'For thirteen years Joseph has been working in Egypt - first as a slave in Potiphar&apos;s house, then imprisoned on a false charge, finally raised to power second only to Pharaoh [res:met-museum-egypt]. His brothers sold him when he was seventeen. They have never seen him since. Now they stand before him, not knowing who he is, and the moment Joseph has been waiting for breaks through all his restraint. He cannot contain it anymore.',
     'What follows is one of the most tender scenes in Scripture [res:sefaria-genesis-45]. A man weeping so loudly that a palace full of guards hears him. A forgiver who speaks first, not to accuse but to release the guilt [res:bibleodyssey-joseph-egypt]. A solemn insistence that what looks like the brothers&apos; cruelty is actually the work of God&apos;s hand. And an embrace so complete that it echoes through the rest of the Bible.',

@@ -13,6 +13,10 @@ export const EXODUS_6: RichChapterContent = {
   chapter: 6,
 
   estimatedMinutes: { beginner: 8, intermediate: 13, deep: 16 },
+  opener: {
+    matchTitle: /Pharaoh/i,
+    caption: 'Exodus 6',
+  },
   intros: [
     'Exodus 6 opens with God standing before Moses in the wilderness. Moses has just returned from his first failed mission — he confronted Pharaoh with God&apos;s demand, Pharaoh hardened his heart, and the work of the people got worse. Moses is discouraged. The people are discouraged. And here, in the quiet moment after collapse, God does not offer a new plan. He offers a name.',
     'The text pivots in verse 3. El Shaddai — the God Almighty who walked with Abraham — now reveals Himself as Yahweh, "the Lord" (from the verb "to be"). This is the hinge of the entire exodus story. God does not argue or explain. He simply stands and repeats His promise in seven "I will" statements, each one a separate act of deliverance. I will bring you out. I will rid you of bondage. I will redeem you. I will take you to me for a people. I will be to you a God. I will bring you in. I will give it to you for a heritage. The genealogy that follows traces the bloodline of the one who will carry this promise forward.',

@@ -24,6 +24,10 @@ export const KINGS_1_21: RichChapterContent = {
   chapter: 21,
 
   estimatedMinutes: { beginner: 7, intermediate: 13, deep: 17 },
+  opener: {
+    matchTitle: /Izebel en koning Achab/i,
+    caption: '1 Kings 21',
+  },
   intros: [
     'There is a moment in every person&apos;s life when they want something that is not theirs. A possession, a role, a place in another&apos;s life. The tenth commandment forbids coveting—not because desire itself is sinful, but because coveting, unchecked, breeds lies, theft, and murder. Ahab, the king of Israel, encounters such a moment. And what begins as a simple, reasonable request becomes a cascade of injustice.',
     'Naboth the Jezreelite owns a vineyard near Ahab&apos;s palace in Jezreel. Ahab wants it for a garden of herbs. He offers compensation—a better vineyard, or money. It seems fair. But Naboth refuses on principle: the vineyard is his family&apos;s inheritance, given by the Lord under Mosaic law. It is not for sale. Ahab sulks. He cannot accept refusal. And Jezebel, his Phoenician queen, knows how to solve problems that cannot be solved through honest means. What follows is judicial murder dressed in religious form—a perversion of the very law that protects the innocent.',

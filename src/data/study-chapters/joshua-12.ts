@@ -15,6 +15,10 @@ export const JOSHUA_12: RichChapterContent = {
   chapter: 12,
 
   estimatedMinutes: { beginner: 4, intermediate: 9, deep: 13 },
+  opener: {
+    matchTitle: /The Conquest of the/i,
+    caption: 'Joshua 12',
+  },
   intros: [
     'Joshua 12 is a victory roll-call. The chapter divides neatly into two halves: kings east of the Jordan River (defeated under Moses) and kings west of the Jordan (defeated under Joshua). It&apos;s less narrative and more bookkeeping—but don&apos;t mistake a list for mere record-keeping. Each name on this list was a fortified power, a god-king ruling over a walled city. Each represents a human stronghold that could not stand against the Lord.',
     'The structure matters: the eastern victories belonged to the generation before Joshua—under Moses, the people defeated Sihon and Og, and received their inheritance on the east side of the Jordan. Now Joshua crosses over and defeats 31 more kings on the west side. Same God. Different leaders. One unstoppable pattern. For the first-time reader, this chapter might seem repetitive. But read it aloud, and you hear the drumbeat of conquest[res:bibleodyssey-conquest-complete], the weight of prayer answered, and the ache of territories reclaimed.',

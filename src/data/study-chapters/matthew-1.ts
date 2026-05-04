@@ -18,6 +18,10 @@ export const MATTHEW_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+  opener: {
+    matchTitle: /The Inspiration of Saint/i,
+    caption: 'Matthew 1',
+  },
   intros: [
     'The Gospel of Matthew begins not with a scene or story, but with genealogy. "The book of the generation of Jesus Christ, the son of David, the son of Abraham." Matthew is telling us who Jesus is by showing us where He comes from. He is the descendant of Abraham, the father of believers. He is the son of David, the king of Israel. The messianic promise that has echoed through centuries of Israel&apos;s history finds its fulfillment in this child.',
     'Within the genealogy is a secret that Matthew wants us to notice. Four women are named: Tamar, who bore Judah&apos;s child through cunning; Rahab, a harlot who believed in the God of Israel; Ruth, a foreigner who claimed a place in God&apos;s people; and Bathsheba, whose son was born from David&apos;s sin. God does not work through the righteous alone. He works through the broken, the outsiders, the daughters of scandal. And He is working through them toward a purpose that is pure.',

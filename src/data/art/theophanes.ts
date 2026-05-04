@@ -5,6 +5,8 @@
 // Annunciation Cathedral in Moscow. All works here are in the public
 // domain and verified on Wikimedia Commons.
 
+import type { TopicSlug } from './topics';
+
 export type TheophanesIcon = {
   externalId: string;
   title: string;
@@ -17,6 +19,9 @@ export type TheophanesIcon = {
   verseEnd?: number;
   sceneSlug?: string;
   description?: string;
+  /** Optional thematic topics. Used by the artwork resolver to fall
+   *  back from chapter-specific matches to topic-overlap matches. */
+  topicTags?: TopicSlug[];
 };
 
 export const THEOPHANES_ICONS: TheophanesIcon[] = [
@@ -30,7 +35,7 @@ export const THEOPHANES_ICONS: TheophanesIcon[] = [
     chapter: 2,
     verseStart: 16,
     verseEnd: 19,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'theophanes-don-mother-of-god-wga',
@@ -42,7 +47,7 @@ export const THEOPHANES_ICONS: TheophanesIcon[] = [
     chapter: 2,
     verseStart: 16,
     verseEnd: 19,
-    sceneSlug: 'nativity',
+    sceneSlug: 'nativity', topicTags: ['incarnation', 'humility', 'hope'],
   },
   {
     externalId: 'theophanes-transfiguration',
@@ -54,7 +59,7 @@ export const THEOPHANES_ICONS: TheophanesIcon[] = [
     chapter: 17,
     verseStart: 1,
     verseEnd: 9,
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
   },
   {
     externalId: 'theophanes-hospitality-of-abraham',
@@ -66,7 +71,7 @@ export const THEOPHANES_ICONS: TheophanesIcon[] = [
     chapter: 18,
     verseStart: 1,
     verseEnd: 15,
-    sceneSlug: 'abraham',
+    sceneSlug: 'abraham', topicTags: ['faithfulness', 'covenant', 'sacrifice'],
   },
   {
     externalId: 'theophanes-stylites',
@@ -78,7 +83,7 @@ export const THEOPHANES_ICONS: TheophanesIcon[] = [
     chapter: 11,
     verseStart: 35,
     verseEnd: 40,
-    sceneSlug: 'suffering',
+    sceneSlug: 'suffering', topicTags: ['suffering', 'lament', 'hope'],
   },
   {
     externalId: 'theophanes-patriarch-abel',
@@ -90,7 +95,7 @@ export const THEOPHANES_ICONS: TheophanesIcon[] = [
     chapter: 4,
     verseStart: 1,
     verseEnd: 8,
-    sceneSlug: 'fall',
+    sceneSlug: 'fall', topicTags: ['fall-and-curse', 'sin', 'pride'],
   },
   {
     externalId: 'theophanes-archangel-michael',
@@ -102,7 +107,7 @@ export const THEOPHANES_ICONS: TheophanesIcon[] = [
     chapter: 12,
     verseStart: 7,
     verseEnd: 9,
-    sceneSlug: 'apocalypse',
+    sceneSlug: 'apocalypse', topicTags: ['second-coming', 'new-creation', 'judgment'],
   },
   {
     externalId: 'theophanes-forerunner',
@@ -114,6 +119,6 @@ export const THEOPHANES_ICONS: TheophanesIcon[] = [
     chapter: 1,
     verseStart: 19,
     verseEnd: 28,
-    sceneSlug: 'ministry',
+    sceneSlug: 'ministry', topicTags: ['compassion', 'mission', 'witness'],
   },
 ];

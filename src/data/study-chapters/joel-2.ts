@@ -6,6 +6,10 @@ export const JOEL_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 6 },
+  opener: {
+    matchTitle: /The Prophet Joel/i,
+    caption: 'Joel 2',
+  },
   intros: [
     'Joel 2 moves from the locust plague to the Day of the Lord itself — when God will judge all the earth. "The day of the Lord is great and very terrible: and who can abide it?" Yet even in this judgment, there is a call to repentance and a promise of salvation.',
     'The chapter contains the famous passage: "I will pour out my spirit upon all flesh" — quoted at Pentecost in Acts 2:17. Even in judgment, God promises His Spirit. "Whosoever shall call upon the name of the Lord shall be delivered." Salvation is offered to all who call upon God.',

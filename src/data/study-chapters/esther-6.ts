@@ -25,6 +25,10 @@ export const ESTHER_6: RichChapterContent = {
   chapter: 6,
 
   estimatedMinutes: { beginner: 5, intermediate: 9, deep: 12 },
+  opener: {
+    matchTitle: /Mordecai Raised to High/i,
+    caption: 'Esther 6',
+  },
   intros: [
     'That night — the night before the second banquet, the night after Haman has ordered the gallows built — the king cannot sleep. A sleepless night is a small thing, a trivial detail. But in the economy of God, a sleepless king becomes the hinge upon which all of history turns.',
     'The king calls for the book of records to be read. As his servants read, they come upon an old entry: Mordecai, the Jew, had uncovered a conspiracy against the king. His life was saved because of Mordecai&apos;s loyalty. And nothing has been done to honor him. The king asks: what reward has been given? Nothing. And as he is still pondering this, Haman appears.',

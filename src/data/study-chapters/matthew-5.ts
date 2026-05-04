@@ -21,6 +21,10 @@ export const MATTHEW_5: RichChapterContent = {
   chapter: 5,
 
   estimatedMinutes: { beginner: 2, intermediate: 6, deep: 7 },
+  opener: {
+    matchTitle: /Jesus Teaches the People/i,
+    caption: 'Matthew 5',
+  },
   intros: [
     'Jesus goes up into a mountain and sits down to teach. In the ancient world, sitting is the posture of authority and teaching. His disciples gather around Him. The crowds follow. And He opens His mouth and teaches—not the scribal debates of the law, not the elaborate Pharisaic interpretations, but something new. Something that will reset every assumption about who is blessed, who matters, who belongs to the kingdom.',
     'The Beatitudes begin the Sermon on the Mount, and they are a reversal of all worldly values. Blessed are the poor in spirit. Blessed are those who mourn. Blessed are the meek. Blessed are those who hunger and thirst for righteousness. In the world&apos;s account, these are not blessed. These are pitied or despised. But Jesus says they are blessed—not because suffering is good, but because these are the ones God has always made room for. These are the ones who will inherit the kingdom.',

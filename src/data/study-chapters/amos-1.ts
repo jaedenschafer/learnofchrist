@@ -6,6 +6,10 @@ export const AMOS_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
+  opener: {
+    matchTitle: /The Prophet Amos/i,
+    caption: 'Amos 1',
+  },
   intros: [
     'Amos is a shepherd from Tekoa, not a professional prophet. Yet God calls him to prophesy. The opening statement echoes like a drum: "The Lord roars out of Zion, and utters his voice from Jerusalem; and the habitations of the shepherds shall mourn, and the top of Carmel shall wither."',
     'Amos announces a series of burdens against the nations around Israel — Damascus, Gaza, Tyre, Edom, Ammon, Moab. Each announcement follows the pattern: "For three transgressions, and for four, I will not turn away the punishment thereof." The refrain is relentless. God&apos;s patience has limits. His judgment is sure.',

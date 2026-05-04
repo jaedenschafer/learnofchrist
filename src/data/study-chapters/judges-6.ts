@@ -12,6 +12,10 @@ export const JUDGES_6: RichChapterContent = {
   chapter: 6,
 
   estimatedMinutes: { beginner: 10, intermediate: 15, deep: 18 },
+  opener: {
+    matchTitle: /Gideon/i,
+    caption: 'Judges 6',
+  },
   intros: [
     'Israel has sinned and fallen into the pattern the book of Judges repeats like a drum: they do evil, God gives them over to enemies, they cry out, God sends a deliverer, the cycle breaks for a time, then begins again. Now Midian has crushed them for seven years. Crops disappear. The people hide in caves. And then God sends an angel to a man named Gideon — and tells him something that will haunt and define him: he is a mighty man of valor.',
     'The word comes to a man threshing wheat in secret, afraid of his own people, the least in his father&apos;s house. God does not call the brave into bravery. He calls the hidden and terrified, and He calls them by what they are not yet. Gideon asks for signs — not once but three times — and God gives them. He tears down his father&apos;s altar to Baal. He builds an altar to the Lord. And in his trembling faithfulness, he becomes the hewer who will break Israel&apos;s chains.',
