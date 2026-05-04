@@ -354,23 +354,23 @@
   position: relative;
   isolation: isolate;
   overflow: hidden;
-  /* Saturated peach/orange base — deeper than the parchment cream so
-     the lighter overlapping circles read clearly against it. Mirrors
-     the reference screenshot's bold orange field. */
+  /* Bold saturated peach-orange base, top-to-bottom gradient. Same
+     warm sunset family as the rest of the site, just pushed toward
+     orange so the lighter overlapping circles silhouette clearly. */
   background: linear-gradient(
-    180deg,
-    color-mix(in srgb, var(--vesper-peach) 78%, white) 0%,
-    color-mix(in srgb, var(--vesper-peach) 88%, var(--vesper-gold) 12%) 100%
+    175deg,
+    #EE8A48 0%,
+    #F09752 45%,
+    #F4A968 100%
   );
   padding: clamp(3.5rem, 8vw, 6.5rem) 0 clamp(4.5rem, 10vw, 7.5rem);
   margin-top: clamp(2rem, 5vw, 4rem);
 }
 
-/* Two overlapping solid-color circles behind the pane — modeled on the
-   reference screenshot's bold abstract curves rather than soft blurred
-   blobs. Hard radius = 50% so the circle silhouettes show clearly;
-   each circle is a single peach tint that's lighter than the base
-   field, so the overlap creates the bowl-curve effect from the shot.
+/* Two overlapping circles with their own internal radial gradients —
+   each circle has a slightly darker side (toward the base orange) and
+   a lighter side (toward the cream side), so the silhouettes feel
+   round and volumetric instead of flat sticker shapes.
 
    Both DRIFT IN from off-screen when the closer enters the viewport.
    The reveal class is toggled by <LopCloserReveal /> in the root
@@ -389,25 +389,35 @@
   will-change: transform, opacity;
 }
 .lop-closer::before {
-  /* Big right-top circle — lighter peach. Drifts in from off-canvas
-     to the right + further down. */
+  /* Upper-right circle — medium peach with internal gradient. Drifts
+     in from off-canvas to the right + further down. */
   width: 130vmin;
   height: 130vmin;
   right: -55vmin;
   top: -65vmin;
   transform: translate3d(70vmin, 30vmin, 0);
-  background: color-mix(in srgb, var(--vesper-peach) 40%, white);
+  background: radial-gradient(
+    circle at 32% 38%,
+    #FBB987 0%,
+    #F8AB76 55%,
+    #F39E68 100%
+  );
   transition-delay: 0.05s;
 }
 .lop-closer::after {
-  /* Bottom-left circle — lightest peach, larger and lower so the two
-     overlap in the center to form the bowl curve. */
-  width: 105vmin;
-  height: 105vmin;
-  left: -38vmin;
-  bottom: -50vmin;
+  /* Lower-left circle — lighter peach with internal gradient, larger
+     so the two circles overlap in the center to form the bowl curve. */
+  width: 110vmin;
+  height: 110vmin;
+  left: -40vmin;
+  bottom: -52vmin;
   transform: translate3d(-55vmin, 40vmin, 0);
-  background: color-mix(in srgb, var(--vesper-peach) 22%, white);
+  background: radial-gradient(
+    circle at 60% 42%,
+    #FFD4B5 0%,
+    #FCC3A0 55%,
+    #F9B187 100%
+  );
 }
 
 /* When the section enters the viewport, blobs glide to their resting
