@@ -52,14 +52,6 @@ export const GENESIS_20: RichChapterContent = {
       url: 'https://www.penn.museum/collections/west-asia/',
       description: 'Archaeological evidence from ancient Gerar and its kings, illuminating the political and cultural context of Abraham&apos;s sojourn.',
     },
-    {
-      id: 'bibleodyssey-abraham-covenant',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Abraham and the Covenant',
-      url: 'https://www.bibleodyssey.org/articles/abraham-sarah/',
-      description: 'SBL article on Abraham&apos;s struggles with faith, God&apos;s faithfulness despite human failure, and the protection of Sarah.',
-    },
   ],
 
   sections: [

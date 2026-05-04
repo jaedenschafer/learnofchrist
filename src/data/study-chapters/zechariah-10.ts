@@ -138,14 +138,6 @@ export const ZECHARIAH_10: RichChapterContent = {
       url: 'https://intertextual.bible/search?query=zechariah+peter',
       description: 'The connection between Zechariah&apos;s cornerstone imagery and Peter&apos;s declaration that Christ is the chief corner stone, precious and elect.',
     },
-    {
-      id: 'bibleodyssey-zechariah-strength-gathering',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Divine Strength and the Gathering of God&apos;s People',
-      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-zechariah/',
-      description: 'Study of God&apos;s strengthening of His people and the promise of gathering the scattered remnant into one redeemed community.',
-    },
   ],
 
   hasHebrew: true,

@@ -486,7 +486,7 @@ export const REVELATION_4: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Isaiah 6:1–4 ↔ Revelation 4:8–11',
-      url: 'https://intertextual.bible/text/isaiah-6.1/revelation-4.8',
+      url: 'https://intertextual.bible/search?q=Isaiah+6+1+Revelation+4+8',
       description: 'Side-by-side comparison of Isaiah&apos;s seraph vision and John&apos;s throne-room hymn.',
     },
   ],

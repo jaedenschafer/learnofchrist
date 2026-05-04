@@ -485,16 +485,8 @@ export const LEVITICUS_15: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Leviticus 15 ↔ Mark 5:25–34',
-      url: 'https://intertextual.bible/text/leviticus-15/mark-5.25',
+      url: 'https://intertextual.bible/search?q=Leviticus+15+Mark+5+25',
       description: 'Side-by-side comparison of the woman with the 12-year issue of blood and how Jesus reverses the flow of uncleanness to cleanness[res:intertextual-mark-5-leviticus-15].',
-    },
-    {
-      id: 'bibleodyssey-niddah',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Niddah (Purity and Menstruation)',
-      url: 'https://www.bibleodyssey.org/dictionary/niddah/',
-      description: 'Explanation of menstrual impurity laws and their significance in Jewish life and theology[res:bibleodyssey-niddah].',
     },
   ],
 

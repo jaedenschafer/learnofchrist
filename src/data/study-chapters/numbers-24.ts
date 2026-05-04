@@ -494,7 +494,7 @@ export const NUMBERS_24: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Numbers 24:17 — Star and Scepter',
-      url: 'https://intertextual.bible/text/numbers-24.17',
+      url: 'https://intertextual.bible/search?q=Numbers+24+17',
       description: 'Messianic prophecy linking the Star and Scepter to Christ, with intertextual connections throughout the New Testament.',
     },
     {

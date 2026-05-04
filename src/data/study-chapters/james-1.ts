@@ -457,7 +457,7 @@ export const JAMES_1: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'James 1:5 ↔ Proverbs 2:6 (Wisdom)',
-      url: 'https://intertextual.bible/text/proverbs-2.6/james-1.5',
+      url: 'https://intertextual.bible/search?q=Proverbs+2+6+James+1+5',
       description: 'Side-by-side comparison showing how James echoes the OT call to seek wisdom from God.',
     },
   ],

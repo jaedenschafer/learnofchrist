@@ -510,7 +510,7 @@ export const NUMBERS_31: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Balaam&apos;s End (Numbers 31:8)',
-      url: 'https://intertextual.bible/text/numbers-31.8',
+      url: 'https://intertextual.bible/search?q=Numbers+31+8',
       description: 'The death of Balaam at the end of the Midian war as the completion of judgment on the false prophet.',
     },
     {

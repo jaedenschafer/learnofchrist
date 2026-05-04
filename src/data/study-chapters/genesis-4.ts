@@ -47,16 +47,8 @@ export const GENESIS_4: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Cain and Abel in Hebrews 11:4',
-      url: 'https://intertextual.bible/text/genesis-4.4/hebrews-11.4',
+      url: 'https://intertextual.bible/search?q=Genesis+4+4+Hebrews+11+4',
       description: 'Shows how Hebrews reframes Abel&apos;s faith and sacrifice in the larger arc of redemption.',
-    },
-    {
-      id: 'bibleodyssey-cain-abel',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Cain and Abel',
-      url: 'https://www.bibleodyssey.org/dictionary/cain-abel/',
-      description: 'SBL entry on the first brothers and the origins of sacrifice, murder, and intercession.',
     },
   ],
 

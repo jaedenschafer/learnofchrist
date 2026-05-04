@@ -39,14 +39,6 @@ export const DEUTERONOMY_25: RichChapterContent = {
       description: 'Open-access source text and rabbinic commentary on corporal punishment [res:sefaria-deuteronomy-25], levirate marriage, just weights, and Amalekite enmity.',
     },
     {
-      id: 'levirate-marriage-yibum-ancient-practice-bible-odyssey',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Levirate Marriage and Perpetuating Family Name',
-      url: 'https://www.bibleodyssey.org/topical-article/marriage/',
-      description: 'Explores the practice of a brother marrying a widow to preserve [res:levirate-marriage-yibum-ancient-practice-bible-odyssey] the deceased&apos;s name and inheritance, illustrated in Ruth and Onan&apos;s refusal.',
-    },
-    {
       id: 'just-weights-measures-ancient-commerce-law',
       kind: 'archaeology',
       source: 'Israel Museum',

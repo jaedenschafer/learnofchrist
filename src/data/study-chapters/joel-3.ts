@@ -34,14 +34,6 @@ export const JOEL_3: RichChapterContent = {
       description: 'Primary sources on the final judgment of nations and God&apos;s promise of salvation for His people.',
     },
     {
-      id: 'bibleodyssey-valley-decision',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'The Valley of Decision — Final Judgment',
-      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-joel/',
-      description: 'Study of eschatological judgment and God&apos;s separation of the nations in the day of the Lord.',
-    },
-    {
       id: 'sefaria-joel-3-v1',
       kind: 'study',
       source: 'Sefaria',

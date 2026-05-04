@@ -350,14 +350,6 @@ export const LEVITICUS_3: RichChapterContent = {
 
   resources: [
     {
-      id: 'sbl-peace-offering',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Peace Offerings and Communion in Ancient Israel',
-      url: 'https://www.bibleodyssey.org/en/passages/article/peace-offerings-in-ancient-israel',
-      description: 'Study of shelamim offerings, their role in covenant renewal, and the theology of God\'s table fellowship with His people.',
-    },
-    {
       id: 'sefaria-fat-blood-covenant',
       kind: 'archive',
       source: 'Sefaria',
@@ -370,7 +362,7 @@ export const LEVITICUS_3: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Matthew 26:28 — The New Covenant in Blood',
-      url: 'https://intertextual.logos.com/',
+      url: 'https://intertextual.bible/',
       description: 'Cross-references linking the peace offering\'s blood covenant to Christ\'s Eucharistic language and the new covenant meal.',
     },
   ],

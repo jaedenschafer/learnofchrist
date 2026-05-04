@@ -196,14 +196,6 @@ export const MATTHEW_10: RichChapterContent = {
 
   resources: [
     {
-      id: 'bibleodyssey-apostles',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'The Twelve Apostles',
-      url: 'https://www.bibleodyssey.org/dictionary/apostles/',
-      description: 'Overview of the apostolic calling and the twelve Jesus selected as His core missionary team.',
-    },
-    {
       id: 'sefaria-psalms-23',
       kind: 'study',
       source: 'Sefaria',

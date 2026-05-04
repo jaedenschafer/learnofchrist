@@ -34,28 +34,12 @@ export const FIRST_ESDRAS_8: RichChapterContent = {
 
   resources: [
     {
-      id: 'sefaria-1-esdras-8-9',
-      kind: 'study',
-      source: 'Sefaria',
-      label: '1 Esdras 8-9 — Dedication and Covenant',
-      url: 'https://www.sefaria.org/I_Esdras.8',
-      description: 'Second Temple dedication and Festival of Sukkot under Zerubbabel.',
-    },
-    {
       id: 'bible-odyssey-temple-dedication',
       kind: 'study',
       source: 'Bible Odyssey (SBL)',
       label: 'Temple Dedication Ceremonies',
       url: 'https://www.bibleodyssey.org/dictionary/temple/',
       description: 'Religious ceremonies and community gathering for sacred space restoration.',
-    },
-    {
-      id: 'sefaria-1-esdras-8',
-      kind: 'study',
-      source: 'Sefaria',
-      label: '1 Esdras 8 — Hebrew + classical Jewish commentary',
-      url: 'https://www.sefaria.org/I_Esdras.8',
-      description: 'The Hebrew text of 1 Esdras 8 alongside Rashi, Ibn Ezra, and other classical commentators.',
     },
 
   ],

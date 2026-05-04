@@ -173,7 +173,7 @@ export const MATTHEW_21: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Parable of the Vineyard and Tenants — Gospel Parallels',
-      url: 'https://intertextual.bible/text/matthew-21.33',
+      url: 'https://intertextual.bible/search?q=Matthew+21+33',
       description: 'Comparison of the allegorical vineyard parable across Matthew, Mark, and Luke.',
     },
     {

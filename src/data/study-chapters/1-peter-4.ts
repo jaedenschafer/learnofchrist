@@ -608,7 +608,7 @@ export const FIRST_PETER_4: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Matthew 25:31–46 ↔ 1 Peter 4:10 (Stewardship)',
-      url: 'https://intertextual.bible/text/matthew-25.31/1-peter-4.10',
+      url: 'https://intertextual.bible/search?q=Matthew+25+31+1+Peter+4+10',
       description: 'Cross-reference: Jesus&apos; teaching on using gifts for others echoed in Peter&apos;s call to stewardship.',
     },
   ],

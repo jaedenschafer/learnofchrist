@@ -47,14 +47,6 @@ export const DEUTERONOMY_13: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/prophet/',
       description: 'Theological entry on how to discern true from false prophets and the biblical test of authentic divine revelation.',
     },
-    {
-      id: 'cherem-devoted-destruction-ancient-israel',
-      kind: 'archaeology',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Cherem — Covenant Violation and Total Destruction',
-      url: 'https://www.bibleodyssey.org/topical-article/idolatry/',
-      description: 'Explores the practice of cherem in ancient Israel where covenant-breaking communities were destroyed entirely, reflecting the theological boundary between faithfulness and apostasy.',
-    },
   ],
 
   sections: [

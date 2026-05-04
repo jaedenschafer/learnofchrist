@@ -109,14 +109,6 @@ export const PSALMS_43: RichChapterContent = {
       description: 'Prayer for deliverance with medieval Jewish exegesis.',
     },
     {
-      id: 'bible-odyssey-vindication-prayer',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Prayer for Vindication',
-      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
-      description: 'Psalms asking God to judge fairly and prove[res:bible-odyssey-vindication-prayer] innocence.',
-    },
-    {
       id: 'bibleodyssey-korah-singers',
       kind: 'study',
       source: 'Bible Odyssey (SBL)',

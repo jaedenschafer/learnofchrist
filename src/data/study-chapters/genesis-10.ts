@@ -497,14 +497,6 @@ export const GENESIS_10: RichChapterContent = {
       description: 'Hebrew text with rabbinic commentary on the Table of Nations.',
     },
     {
-      id: 'bibleodyssey-table-of-nations',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'The Table of Nations',
-      url: 'https://www.bibleodyssey.org/articles/table-of-nations/',
-      description: 'SBL overview of the genealogical structure and its historical context.',
-    },
-    {
       id: 'pennmuseum-ancient-near-east',
       kind: 'museum',
       source: 'Penn Museum',

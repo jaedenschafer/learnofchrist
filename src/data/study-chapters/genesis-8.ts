@@ -41,7 +41,7 @@ export const GENESIS_8: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Noah\'s Covenant traced through Scripture',
-      url: 'https://intertextual.bible/concepts/noahic-covenant',
+      url: 'https://intertextual.bible/',
       description: 'Shows how God\'s vow after the flood echoes forward through OT and NT.',
     },
     {

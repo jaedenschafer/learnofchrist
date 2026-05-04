@@ -536,14 +536,6 @@ export const DEUTERONOMY_11: RichChapterContent = {
       url: 'https://oi.uchicago.edu/',
       description: 'Archaeological evidence for the sacred mountains of Gerizim and Ebal where Israel proclaimed blessing and curse, central to Deuteronomy&apos;s covenant ritual.',
     },
-    {
-      id: 'red-sea-exodus-ancient-egypt-sefaria',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'The Red Sea Crossing',
-      url: 'https://www.bibleodyssey.org/passage/exodus-14-1-31/',
-      description: 'Intertextual study of the Red Sea deliverance and its role as eyewitness memory grounding Israel&apos;s covenant obedience.',
-    },
   ],
 
   bottomShare: {

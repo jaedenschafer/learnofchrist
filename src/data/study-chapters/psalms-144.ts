@@ -197,7 +197,7 @@ export const PSALMS_144: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Psalm 144 ↔ New Testament',
-      url: 'https://intertextual.bible/text/psalms-144',
+      url: 'https://intertextual.bible/search?q=Psalms+144',
       description: 'New Testament writers cite or echo Psalm 144 in shaping their proclamation of Christ.',
     },
 

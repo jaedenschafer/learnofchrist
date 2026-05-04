@@ -51,14 +51,6 @@ export const REVELATION_19: RichChapterContent = {
       url: 'https://www.sefaria.org/Isaiah.34',
       description: 'Apocalyptic vision of judgment — the Rider on the white horse comes in righteousness and vengeance.',
     },
-    {
-      id: 'bibleodyssey-marriage-lamb',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Marriage of the Lamb Symbolism',
-      url: 'https://www.bibleodyssey.org/dictionary/marriage-supper-of-the-lamb/',
-      description: 'The wedding feast imagery in Jewish and Christian eschatology.',
-    },
   ],
 
   sections: [

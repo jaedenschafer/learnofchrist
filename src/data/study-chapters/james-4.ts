@@ -680,7 +680,7 @@ export const JAMES_4: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Romans 12:19 ↔ James 4:11–12 (Vengeance)',
-      url: 'https://intertextual.bible/text/romans-12.19/james-4.12',
+      url: 'https://intertextual.bible/search?q=Romans+12+19+James+4+12',
       description: 'Cross-reference showing how James echoes Paul on leaving judgment to God.',
     },
   ],

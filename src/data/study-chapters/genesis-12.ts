@@ -55,14 +55,6 @@ export const GENESIS_12: RichChapterContent = {
       url: 'https://www.penn.museum/collections/west-asia/',
       description: 'Ancient Near Eastern documents illuminating the customs and laws of Abraham\'s world.',
     },
-    {
-      id: 'bibleodyssey-abraham-covenant',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Abraham and the Covenant',
-      url: 'https://www.bibleodyssey.org/articles/abraham-sarah/',
-      description: 'SBL overview of Abraham\'s faith, the threefold promise, and God\'s plan of redemption.',
-    },
   ],
 
   sections: [

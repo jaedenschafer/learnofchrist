@@ -125,7 +125,7 @@ export const MALACHI_4: RichChapterContent = {
       kind: 'study',
       source: 'Sefaria',
       label: 'Malachi 4 · Texts & Translations',
-      url: 'https://www.sefaria.org/Malachi.4',
+      url: 'https://www.sefaria.org/Malachi',
       description: 'Primary sources on the Sun of Righteousness, the promise of Elijah&apos;s return, and the closing vision of the Old Testament.',
     },
     {
@@ -135,14 +135,6 @@ export const MALACHI_4: RichChapterContent = {
       label: 'Malachi 4:5–6 → Matthew 11:14 — Elijah Has Come (John the Baptist)',
       url: 'https://intertextual.bible/search?query=malachi+matthew+elijah',
       description: 'The explicit fulfillment of Malachi&apos;s promise of Elijah&apos;s return in John the Baptist, as Christ identifies John as the Elijah who was to come before His own ministry.',
-    },
-    {
-      id: 'bibleodyssey-malachi-sun-healing',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'The Sun of Righteousness and the Healing of Nations',
-      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-malachi/',
-      description: 'Study of Christ as the Sun of Righteousness, bringing healing and light to all who fear God, and His redemptive purpose for humanity.',
     },
   ],
 

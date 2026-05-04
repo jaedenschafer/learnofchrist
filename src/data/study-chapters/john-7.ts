@@ -181,14 +181,6 @@ export const JOHN_7: RichChapterContent = {
 
   resources: [
     {
-      id: 'bible-odyssey-tabernacles',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Feast of Tabernacles (Sukkot)',
-      url: 'https://www.bibleodyssey.org/dictionary/feast-tabernacles/',
-      description: 'Open-access SBL entry on the seven-day festival, its rituals, and its significance in first-century Jewish practice.',
-    },
-    {
       id: 'sefaria-sukkot',
       kind: 'study',
       source: 'Sefaria',
@@ -201,7 +193,7 @@ export const JOHN_7: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Isaiah 55:1 ↔ John 7:37',
-      url: 'https://intertextual.bible/text/isaiah-55.1/john-7.37',
+      url: 'https://intertextual.bible/search?q=Isaiah+55+1+John+7+37',
       description: 'How Jesus&apos; promise of living water echoes the Old Testament invitation to drink.',
     },
   ],

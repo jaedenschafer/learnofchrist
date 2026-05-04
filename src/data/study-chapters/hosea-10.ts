@@ -34,14 +34,6 @@ export const HOSEA_10: RichChapterContent = {
       description: 'Primary sources on Israel&apos;s false worship and the call to break new ground and seek righteousness.',
     },
     {
-      id: 'bibleodyssey-break-fallow',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Breaking Fallow Ground — Repentance in Hosea',
-      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-hosea/',
-      description: 'Study of the metaphor of breaking fallow ground as a call to spiritual renewal and return to God.',
-    },
-    {
       id: 'sefaria-hosea-10-v1',
       kind: 'study',
       source: 'Sefaria',

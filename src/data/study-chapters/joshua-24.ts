@@ -562,14 +562,6 @@ export const JOSHUA_24: RichChapterContent = {
 
   resources: [
     {
-      id: 'bibleodyssey-shechem-covenant',
-      kind: 'study',
-      source: 'Bible Odyssey',
-      label: 'The Covenant Renewal at Shechem',
-      url: 'https://www.bibleodyssey.org/passages/main-passage/joshua-24',
-      description: 'Joshua&apos;s final covenant renewal ceremony at Shechem, where he calls Israel to choose whom they will serve.',
-    },
-    {
       id: 'sefaria-choose-this-day',
       kind: 'study',
       source: 'Sefaria',

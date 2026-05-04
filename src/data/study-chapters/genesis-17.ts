@@ -492,14 +492,6 @@ export const GENESIS_17: RichChapterContent = {
       url: 'https://www.penn.museum/collections/west-asia/',
       description: 'Ancient Near Eastern covenant rituals and naming practices illuminating Abraham&apos;s world.',
     },
-    {
-      id: 'bibleodyssey-abraham-covenant',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Abraham and the Covenant',
-      url: 'https://www.bibleodyssey.org/articles/abraham-sarah/',
-      description: 'SBL article on the Abrahamic covenant, the promise of Isaac, and God&apos;s covenant sign.',
-    },
   ],
 
   hasHebrew: true,

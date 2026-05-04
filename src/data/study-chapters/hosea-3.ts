@@ -43,14 +43,6 @@ export const HOSEA_3: RichChapterContent = {
       description: 'Rabbinic and classical sources on Hosea&apos;s redemption of Gomer as a parable of God&apos;s redemptive love.',
     },
     {
-      id: 'bibleodyssey-hosea-redemption',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Hosea&apos;s Redemption Narrative',
-      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-hosea/',
-      description: 'Theological exploration of redemption through Hosea&apos;s act of buying back his unfaithful wife.',
-    },
-    {
       id: 'sefaria-hosea-3-v1',
       kind: 'study',
       source: 'Sefaria',

@@ -184,14 +184,6 @@ export const HABAKKUK_3: RichChapterContent = {
       description: 'Primary sources on Habakkuk&apos;s prayer and the culmination of his faith: joy in God regardless of circumstance.',
     },
     {
-      id: 'bibleodyssey-habakkuk-hope',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Faith Triumphing — From Complaint to Worship',
-      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-habakkuk/',
-      description: 'Study of Habakkuk&apos;s transformation from doubt to trust, and the joy that emerges from faith in God.',
-    },
-    {
       id: 'intertextual-habakkuk-3-john-16',
       kind: 'study',
       source: 'Intertextual Bible',

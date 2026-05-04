@@ -51,14 +51,6 @@ export const EZRA_3: RichChapterContent = {
       url: 'https://www.sefaria.org/Ezra.3',
       description: 'The Hebrew text of Ezra 3 alongside Rashi, Ibn Ezra, and other classical commentators.',
     },
-    {
-      id: 'bibleodyssey-ezra-overview-3',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Ezra — SBL Overview',
-      url: 'https://www.bibleodyssey.org/articles/ezra/',
-      description: 'Open-access SBL essay on the historical and literary setting of Ezra.',
-    },
 
   ],
 

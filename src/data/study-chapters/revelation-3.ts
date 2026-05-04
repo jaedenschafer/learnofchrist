@@ -461,14 +461,6 @@ export const REVELATION_3: RichChapterContent = {
       url: 'https://topostext.org/place/383108SLaod',
       description: 'Topographic and archaeological context of Laodicea, the lukewarm church on the trade route.',
     },
-    {
-      id: 'bibleodyssey-philadelphia-church',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Philadelphia — The Faithful Church',
-      url: 'https://www.bibleodyssey.org/dictionary/philadelphia-revelation/',
-      description: 'SBL study on the fourth Asian church — the faithful remnant with an open door.',
-    },
   ],
 
   hasHebrew: false,

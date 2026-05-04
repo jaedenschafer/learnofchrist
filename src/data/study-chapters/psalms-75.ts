@@ -144,14 +144,6 @@ export const PSALMS_75: RichChapterContent = {
       description: 'Judgment psalm with divine declaration, Jewish commentary.',
     },
     {
-      id: 'bible-odyssey-judgment-theme',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'God&apos;s Judgment & Equity',
-      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
-      description: 'Psalms on God as impartial judge rewarding and punishing.',
-    },
-    {
       id: 'bibleodyssey-asaph',
       kind: 'study',
       source: 'Bible Odyssey (SBL)',

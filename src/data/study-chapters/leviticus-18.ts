@@ -517,7 +517,7 @@ export const LEVITICUS_18: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Jesus on Lust and Desire — Matthew 5:27–32',
-      url: 'https://intertextalbible.com',
+      url: 'https://intertextual.bible/',
       description: 'Connections between Leviticus 18&apos;s sexual design and Jesus&apos;s deepening of the law in the Sermon on the Mount.',
     },
   ],

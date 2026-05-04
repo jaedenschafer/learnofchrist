@@ -182,14 +182,6 @@ export const PSALMS_48: RichChapterContent = {
       description: 'Song of Zion with trust in God with Jewish commentary.',
     },
     {
-      id: 'bible-odyssey-zion-hymns',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Hymns of Zion',
-      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
-      description: 'Praise psalms glorifying Jerusalem and God&apos;s protection.',
-    },
-    {
       id: 'bibleodyssey-korah-singers',
       kind: 'study',
       source: 'Bible Odyssey (SBL)',

@@ -133,16 +133,8 @@ export const PSALMS_31: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Psalm 31 in Luke 23 & Acts 7',
-      url: 'https://intertextual.bible/text/psalm-31',
+      url: 'https://intertextual.bible/search?q=Psalm+31',
       description: 'Psalm 31 language in Jesus&apos; death and Stephen[res:intertextual-psalms-31-nt]&apos;s martyrdom.',
-    },
-    {
-      id: 'bible-odyssey-trust-distress',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Trust in Distress',
-      url: 'https://www.bibleodyssey.org/dictionary/lament-psalms/',
-      description: 'Psalms moving from lament to affirmation[res:bible-odyssey-trust-distress] of trust.',
     },
   ],
 

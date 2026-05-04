@@ -126,14 +126,6 @@ export const FOURTH_MACCABEES_7: RichChapterContent = {
 
   resources: [
     {
-      id: 'sefaria-4-macc-7-martyrs',
-      kind: 'study',
-      source: 'Sefaria',
-      label: '4 Maccabees 7 — Martyrdom Accounts',
-      url: 'https://www.sefaria.org/IV_Maccabees.7',
-      description: 'Jewish martyrs under Antiochus IV and Stoic endurance (martyr 3).',
-    },
-    {
       id: 'iaa-antiochus',
       kind: 'archaeology',
       source: 'Israel Antiquities Authority',

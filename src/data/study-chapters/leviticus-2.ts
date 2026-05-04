@@ -432,14 +432,6 @@ export const LEVITICUS_2: RichChapterContent = {
 
   resources: [
     {
-      id: 'sbl-grain-offering-theology',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Grain Offerings and Covenant Symbolism',
-      url: 'https://www.bibleodyssey.org/en/passages/article/grain-offerings-in-ancient-israel',
-      description: 'Study of minchah offerings, their theological significance, and symbolism of flour, oil, frankincense, and salt in ancient Israelite worship.',
-    },
-    {
       id: 'sefaria-leaven-honey',
       kind: 'archive',
       source: 'Sefaria',
@@ -452,7 +444,7 @@ export const LEVITICUS_2: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'John 6:35 — Jesus as the Bread of Life',
-      url: 'https://intertextual.logos.com/',
+      url: 'https://intertextual.bible/',
       description: 'Cross-references between Levitical grain offerings and Jesus\'s identification as bread of life, connecting sacrifice and sustenance.',
     },
   ],

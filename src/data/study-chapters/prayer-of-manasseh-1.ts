@@ -469,7 +469,7 @@ export const PRAYER_OF_MANASSEH_1: RichChapterContent = {
       kind: 'archive',
       source: 'Intertextual Bible',
       label: 'Prayer of Manasseh ↔ 2 Chronicles 33',
-      url: 'https://intertextual.bible/text/prayer-of-manasseh/ii-chronicles-33',
+      url: 'https://intertextual.bible/search?q=Prayer+Of+Manasseh+Ii+Chronicles+33',
       description: 'Parallel passages: narrative and prayer accounts of Manasseh&apos;s restoration.',
     },
   ],

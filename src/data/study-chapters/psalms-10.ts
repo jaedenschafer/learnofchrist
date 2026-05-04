@@ -185,22 +185,6 @@ export const PSALMS_10: RichChapterContent = {
       url: 'https://www.sefaria.org/Psalms.10',
       description: 'Lament about the wicked with medieval Jewish interpretation.',
     },
-    {
-      id: 'bible-odyssey-justice-psalms',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Justice & God&apos;s Judgment',
-      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
-      description: 'Psalms calling for God to judge the wicked and defend the poor.',
-    },
-    {
-      id: 'bibleodyssey-psalter-laments',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Laments in the Psalter',
-      url: 'https://www.bibleodyssey.org/articles/laments/',
-      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
-    },
 
   ],
 

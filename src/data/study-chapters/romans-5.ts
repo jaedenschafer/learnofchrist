@@ -552,7 +552,7 @@ export const ROMANS_5: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Romans 5:14 — Type of Him That Was to Come',
-      url: 'https://intertextual.bible/text/romans-5.14',
+      url: 'https://intertextual.bible/search?q=Romans+5+14',
       description: 'Adam as type and typology: how the first disobedient man foreshadows (and is reversed by) the obedient Christ.',
     },
     {
@@ -562,14 +562,6 @@ export const ROMANS_5: RichChapterContent = {
       label: 'Logizomai — Reckon, Impute, Account',
       url: 'https://www.logeion.uchicago.edu/logizomai',
       description: 'Complete Greek lexical entry for the verb of imputation: how God reckons righteousness and our sins are credited to Christ.',
-    },
-    {
-      id: 'second-adam-christology',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Jesus as the Second Adam',
-      url: 'https://www.bibleodyssey.org/passages/romans/romans-5/',
-      description: 'Open-access exploration of second-Adam Christology: how Paul uses typology to reframe Christ as the inverse of Adam&apos;s disobedience.',
     },
   ],
 

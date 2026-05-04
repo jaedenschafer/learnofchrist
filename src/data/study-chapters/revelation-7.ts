@@ -504,14 +504,6 @@ export const REVELATION_7: RichChapterContent = {
       url: 'https://www.sefaria.org/Zechariah.14',
       description: 'Apocalyptic climax with all nations gathering, echoed in the multitude that no man could number.',
     },
-    {
-      id: 'bibleodyssey-144000',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: '144,000 — Symbolic Numbers in Revelation',
-      url: 'https://www.bibleodyssey.org/dictionary/one-hundred-forty-four-thousand/',
-      description: 'Study of numerical symbolism in apocalyptic literature — the sealed and the great multitude.',
-    },
   ],
 
   hasHebrew: false,

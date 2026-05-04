@@ -175,14 +175,6 @@ export const MATTHEW_24: RichChapterContent = {
 
   resources: [
     {
-      id: 'bibleodyssey-false-messiahs',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'False Messiahs and Prophets in the Last Days',
-      url: 'https://www.bibleodyssey.org/dictionary/false-messiahs/',
-      description: 'Overview of eschatological deception and the proliferation of false messiahs in Jewish and Christian expectation.',
-    },
-    {
       id: 'sefaria-isaiah-13-cosmic-signs',
       kind: 'study',
       source: 'Sefaria',
@@ -195,7 +187,7 @@ export const MATTHEW_24: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'The Olivet Discourse — Gospel Parallels',
-      url: 'https://intertextual.bible/text/matthew-24.1',
+      url: 'https://intertextual.bible/search?q=Matthew+24+1',
       description: 'Comparison of Jesus&apos; end-times teaching across Matthew, Mark, and Luke, highlighting unique Matthean emphases.',
     },
   ],

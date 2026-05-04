@@ -1256,7 +1256,7 @@ export const HEBREWS_11: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Genesis Patriarchs — Cross-References',
-      url: 'https://intertextualconnections.com/genesis-patriarchs/',
+      url: 'https://intertextual.bible/',
       description: 'Traces Abraham, Isaac, Jacob, and Joseph typologically across OT and NT, the fathers of faith who journeyed by promise unseen.',
     },
     {

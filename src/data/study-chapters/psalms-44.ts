@@ -190,14 +190,6 @@ export const PSALMS_44: RichChapterContent = {
       description: 'Communal lament despite God&apos;s past help, Jewish commentary.',
     },
     {
-      id: 'bible-odyssey-communal-lament',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Communal Lament & Suffering',
-      url: 'https://www.bibleodyssey.org/dictionary/lament-psalms/',
-      description: 'Corporate psalms on national defeat and collective suffering.',
-    },
-    {
       id: 'bibleodyssey-korah-singers',
       kind: 'study',
       source: 'Bible Odyssey (SBL)',

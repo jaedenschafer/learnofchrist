@@ -182,14 +182,6 @@ export const PSALMS_65: RichChapterContent = {
       description: 'Harvest hymn with Jewish medieval interpretation.',
     },
     {
-      id: 'bible-odyssey-harvest-psalms',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Agricultural & Fertility Psalms',
-      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
-      description: 'Psalms celebrating harvest, rain, and God&apos;s provision.',
-    },
-    {
       id: 'bibleodyssey-hymns-praise',
       kind: 'study',
       source: 'Bible Odyssey (SBL)',

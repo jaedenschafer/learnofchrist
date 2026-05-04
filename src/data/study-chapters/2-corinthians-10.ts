@@ -573,30 +573,6 @@ export const SECOND_CORINTHIANS_10: RichChapterContent = {
   },
 
   resources: [
-    {
-      id: 'bibleodyssey-armor-god',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'The Armor of God',
-      url: 'https://www.bibleodyssey.org/dictionary/armor-of-god/',
-      description: 'Open-access SBL entry on spiritual weapons and defensive armor in Ephesians 6, paralleling Paul&apos;s language of warfare in 2 Corinthians 10.',
-    },
-    {
-      id: 'cambridge-strongholds-thought',
-      kind: 'study',
-      source: 'Cambridge UP',
-      label: 'Spiritual Strongholds and Captive Thoughts',
-      url: 'https://www.cambridge.org/core/services/aop-cambridge-core/content/view/strongholds_in_2_corinthians',
-      description: 'Scholarly exploration of how ancient rhetoric and theology intersect in Paul&apos;s demolition of intellectual strongholds.',
-    },
-    {
-      id: 'sefaria-2-corinthians-10',
-      kind: 'study',
-      source: 'Sefaria',
-      label: '2 Corinthians 10 — Hebrew + classical Jewish commentary',
-      url: 'https://www.sefaria.org/II_Corinthians.10',
-      description: 'The Hebrew text of 2 Corinthians 10 alongside Rashi, Ibn Ezra, and other classical commentators.',
-    },
 
   ],
 

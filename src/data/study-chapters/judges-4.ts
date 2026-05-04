@@ -594,14 +594,6 @@ export const JUDGES_4: RichChapterContent = {
 
   resources: [
     {
-      id: 'bibleodyssey-deborah-barak',
-      kind: 'study',
-      source: 'Bible Odyssey',
-      label: 'Deborah, Barak, and Jael: Unlikely Deliverers',
-      url: 'https://www.bibleodyssey.org/passages/main-passage/judges-4',
-      description: 'The prophetess, the hesitant commander, and the tent-dwelling woman who together defeat Sisera and Jabin&apos;s iron chariots.',
-    },
-    {
       id: 'sefaria-women-judges-leaders',
       kind: 'study',
       source: 'Sefaria',

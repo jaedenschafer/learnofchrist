@@ -207,19 +207,11 @@ export const MATTHEW_14: RichChapterContent = {
 
   resources: [
     {
-      id: 'bibleodyssey-herod-death',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Herod and the Execution of John the Baptist',
-      url: 'https://www.bibleodyssey.org/dictionary/herod-the-great/',
-      description: 'Historical and theological context for Herod&apos;s rule and his role in John the Baptist&apos;s execution.',
-    },
-    {
       id: 'intertextual-feeding-5000',
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Feeding of the Five Thousand — Synoptic Parallels',
-      url: 'https://intertextual.bible/text/matthew-14.13',
+      url: 'https://intertextual.bible/search?q=Matthew+14+13',
       description: 'Comparison of the feeding miracle across Matthew, Mark, Luke, and John with interpretative variations.',
     },
     {
@@ -227,7 +219,7 @@ export const MATTHEW_14: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Peter Walking on Water — Synoptic Parallels',
-      url: 'https://intertextual.bible/text/matthew-14.28',
+      url: 'https://intertextual.bible/search?q=Matthew+14+28',
       description: 'Parallel accounts of Peter&apos;s attempt to walk on water and his cry for salvation across the Gospels.',
     },
   ],

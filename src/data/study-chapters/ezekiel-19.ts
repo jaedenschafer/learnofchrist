@@ -145,14 +145,6 @@ export const EZEKIEL_19: RichChapterContent = {
       description: 'Cuneiform and archaeological evidence of Babylon under Nebuchadnezzar.',
     },
     {
-      id: 'bibleodyssey-ezekiel',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Ezekiel',
-      url: 'https://www.bibleodyssey.org/passages/main-articles/ezekiel/',
-      description: 'Peer-reviewed SBL entry on the prophet Ezekiel and the Babylonian exile.',
-    },
-    {
       id: 'sefaria-ezekiel-19',
       kind: 'study',
       source: 'Sefaria',

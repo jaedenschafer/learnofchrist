@@ -57,7 +57,7 @@ export const SAMUEL_2_7: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'The Davidic Covenant and Messiah',
-      url: 'https://intertextual.bible/text/psalm-89-messiah',
+      url: 'https://intertextual.bible/search?q=Psalm+89+Messiah',
       description: 'How the Davidic covenant prefigures Jesus as the ultimate heir to David&apos;s throne.',
     },
   ],

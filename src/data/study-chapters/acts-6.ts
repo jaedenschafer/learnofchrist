@@ -509,14 +509,6 @@ export const ACTS_6: RichChapterContent = {
       description: 'Limestone inscription from Jerusalem synagogue of freedmen, dated to Second Temple period — the artifact Acts 6:9 may reference.',
     },
     {
-      id: 'deacon-ordination-early-church',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Deacon',
-      url: 'https://www.bibleodyssey.org/dictionary/deacon/',
-      description: 'Open-access SBL entry on the seven-deacon model and ordination in the early church through laying on of hands.',
-    },
-    {
       id: 'angel-face-second-temple',
       kind: 'manuscript',
       source: 'Dead Sea Scrolls Foundation',

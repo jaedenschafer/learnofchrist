@@ -495,14 +495,6 @@ export const LEVITICUS_4: RichChapterContent = {
 
   resources: [
     {
-      id: 'sbl-sin-offering-atonement',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'The Sin Offering and Unintentional Transgression',
-      url: 'https://www.bibleodyssey.org/en/passages/article/sin-offerings-in-ancient-israel',
-      description: 'Study of chatat offerings, graduated penalties by social status, and the theology of atonement for hidden and unintentional sin.',
-    },
-    {
       id: 'sefaria-chatat-graduated',
       kind: 'archive',
       source: 'Sefaria',
@@ -515,7 +507,7 @@ export const LEVITICUS_4: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Hebrews 13:11-13 — Christ as the Sin Offering',
-      url: 'https://intertextual.logos.com/',
+      url: 'https://intertextual.bible/',
       description: 'Cross-references between Levitical sin offerings burned outside the camp and Christ\'s suffering outside the gate as the ultimate atonement.',
     },
   ],

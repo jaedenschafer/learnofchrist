@@ -377,7 +377,7 @@ export const LEVITICUS_17: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Leviticus 17:11 ↔ 1 Peter 1:18–19',
-      url: 'https://intertextual.bible/text/leviticus-17/1-peter-1.18',
+      url: 'https://intertextual.bible/search?q=Leviticus+17+1+Peter+1+18',
       description: 'Connection between Israel&apos;s blood atonement and redemption through the blood of Christ[res:intertextual-1-peter-1-leviticus-17].',
     },
   ],

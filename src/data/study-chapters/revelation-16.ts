@@ -634,7 +634,7 @@ export const REVELATION_16: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Exodus Plagues ↔ Revelation 16 Bowls',
-      url: 'https://intertextual.bible/text/exodus-7/revelation-16.1',
+      url: 'https://intertextual.bible/search?q=Exodus+7+Revelation+16+1',
       description: 'Parallel structure of redemptive and final plagues — the recapitulation of judgment.',
     },
   ],

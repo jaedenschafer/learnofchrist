@@ -32,14 +32,6 @@ export const DEUTERONOMY_33: RichChapterContent = {
       description: 'Open-access source text and rabbinic commentary on Moses&apos; tribal blessings [res:sefaria-deuteronomy-33], the Lord as protector, and the chosen people&apos;s hope.',
     },
     {
-      id: 'blessing-tribes-territorial-destiny-bible-odyssey',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Tribal Blessings and Territorial Destiny',
-      url: 'https://www.bibleodyssey.org/topical-article/tribes-of-israel/',
-      description: 'Explores how the blessing on each tribe [res:blessing-tribes-territorial-destiny-bible-odyssey] affirms its place in Israel and distinct function within the covenant community.',
-    },
-    {
       id: 'biblical-poetry-blessing-form-ancient-israel',
       kind: 'study',
       source: 'Intertextual Bible',

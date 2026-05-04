@@ -153,14 +153,6 @@ export const NAHUM_2: RichChapterContent = {
       description: 'Primary sources on the vivid depiction of Nineveh&apos;s siege and the destruction of the violent city.',
     },
     {
-      id: 'bibleodyssey-nahum-judgment-execution',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'God&apos;s Judgment Executed',
-      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-nahum/',
-      description: 'Study of the fulfillment of divine judgment and the complete fall of the mighty city.',
-    },
-    {
       id: 'iaa-nineveh-archaeology-excavation',
       kind: 'archaeology',
       source: 'Israel Antiquities Authority',

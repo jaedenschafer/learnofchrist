@@ -496,14 +496,6 @@ export const JUDGES_14: RichChapterContent = {
 
   resources: [
     {
-      id: 'bibleodyssey-samson-delilah',
-      kind: 'study',
-      source: 'Bible Odyssey',
-      label: 'Samson and the Philistines',
-      url: 'https://www.bibleodyssey.org/passages/main-stories/samson',
-      description: 'The tale of riddles, marriages, and conflict with Israel&apos;s oppressors.',
-    },
-    {
       id: 'sefaria-riddle-honey',
       kind: 'study',
       source: 'Sefaria',

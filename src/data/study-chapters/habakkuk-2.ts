@@ -148,14 +148,6 @@ export const HABAKKUK_2: RichChapterContent = {
       url: 'https://intertextual.bible/search?query=habakkuk+romans',
       description: 'The foundational verse on justification by faith, quoted directly by Paul as the heart of the gospel.',
     },
-    {
-      id: 'bibleodyssey-habakkuk-vision',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'The Vision and God&apos;s Faithfulness',
-      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-habakkuk/',
-      description: 'Study of Habakkuk&apos;s transformation from complaint to trust in God&apos;s final victory.',
-    },
   ],
 
   hasHebrew: true,

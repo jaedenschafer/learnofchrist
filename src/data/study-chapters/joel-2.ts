@@ -37,7 +37,7 @@ export const JOEL_2: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Joel 2:28-32 ↔ Acts 2:17-21 — Pentecost Promise',
-      url: 'https://intertextual.bible/text/joel-2.28/acts-2.17',
+      url: 'https://intertextual.bible/search?q=Joel+2+28+Acts+2+17',
       description: 'Intertextual connection showing how Joel&apos;s prophecy of God pouring out His Spirit is fulfilled at Pentecost.',
     },
     {

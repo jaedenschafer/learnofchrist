@@ -41,14 +41,6 @@ export const DEUTERONOMY_32: RichChapterContent = {
       description: 'Open-access source text and rabbinic commentary on the Song of Moses, the Lord&apos;s justice, and Israel&apos;s covenant unfaithfulness.',
     },
     {
-      id: 'song-moses-covenant-lawsuit-witness-bible-odyssey',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'The Song as Covenant Lawsuit and Witness',
-      url: 'https://www.bibleodyssey.org/topical-article/song/',
-      description: 'Theological analysis of how the Song functions as a covenant [res:song-moses-covenant-lawsuit-witness-bible-odyssey] lawsuit against Israel, calling God as witness to inevitable judgment and restoration.',
-    },
-    {
       id: 'ancient-near-east-treaty-songs-witness-function',
       kind: 'archaeology',
       source: 'Oriental Institute',

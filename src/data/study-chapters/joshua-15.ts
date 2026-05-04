@@ -453,14 +453,6 @@ export const JOSHUA_15: RichChapterContent = {
       description: 'Archaeological evidence of the cities and boundaries of Judah&apos;s tribal inheritance, including the Jebusites in Jerusalem.',
     },
     {
-      id: 'bibleodyssey-judah-inheritance',
-      kind: 'study',
-      source: 'Bible Odyssey',
-      label: 'Judah&apos;s Inheritance and Jerusalem&apos;s Delayed Conquest',
-      url: 'https://www.bibleodyssey.org/passages/main-passage/joshua-15',
-      description: 'The extensive territory allotted to Judah, with the peculiar detail that the Jebusites remained in Jerusalem until David&apos;s later conquest.',
-    },
-    {
       id: 'intertextual-jebusites-david',
       kind: 'study',
       source: 'Intertextual Bible',

@@ -626,13 +626,5 @@ export const PHILIPPIANS_1: RichChapterContent = {
       url: 'https://scaife.perseus.org/lexica/lsj/δοῦλος/',
       description: 'Greek lexicon entry exploring the semantic range of doulos from servile bondage to willing submission in Christ.',
     },
-    {
-      id: 'praetorian-guard-sbl',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Praetorian Guard',
-      url: 'https://www.bibleodyssey.org/dictionary/praetorian-guard/',
-      description: 'Open-access entry on the imperial household guard to whom Paul&apos;s bonds made Christ manifest according to Philippians 1:13.',
-    },
   ],
 };

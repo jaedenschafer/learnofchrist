@@ -600,14 +600,6 @@ export const NUMBERS_33: RichChapterContent = {
       description: 'Complete Hebrew and English text with classical rabbinical commentary on the wilderness itinerary.',
     },
     {
-      id: 'wilderness-itinerary-archaeological',
-      kind: 'archaeology',
-      source: 'Bible Odyssey',
-      label: 'The Exodus Route & Wilderness Stages',
-      url: 'https://www.bibleodyssey.org/passages/related-articles/exodus-route/',
-      description: 'Archaeological perspectives on the possible routes and historical geography of the forty-two-stage wilderness journey.',
-    },
-    {
       id: 'hebrews-13-wilderness-promise',
       kind: 'study',
       source: 'Intertextual Bible',

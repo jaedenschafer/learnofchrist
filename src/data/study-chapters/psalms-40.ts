@@ -173,16 +173,8 @@ export const PSALMS_40: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Psalm 40 in Hebrews 10',
-      url: 'https://intertextual.bible/text/psalm-40',
+      url: 'https://intertextual.bible/search?q=Psalm+40',
       description: 'Hebrews applies Psalm 40 to Christ&apos;s obedience and body.',
-    },
-    {
-      id: 'bible-odyssey-obedience-psalms',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Obedience Over Sacrifice',
-      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
-      description: 'Psalms valuing heart obedience above ritual offerings.',
     },
   ],
 

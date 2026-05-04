@@ -390,14 +390,6 @@ export const LEVITICUS_5: RichChapterContent = {
 
   resources: [
     {
-      id: 'sbl-graduated-offerings-poverty',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Graduated Offerings and God\'s Grace to the Poor',
-      url: 'https://www.bibleodyssey.org/en/passages/article/offerings-for-the-poor',
-      description: 'Study of scaled offerings based on economic status, showing how God\'s law accommodates the poor and provides equal access to atonement.',
-    },
-    {
       id: 'sefaria-asham-trespass',
       kind: 'archive',
       source: 'Sefaria',
@@ -410,7 +402,7 @@ export const LEVITICUS_5: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Isaiah 53:10 — The Messiah as Asham',
-      url: 'https://intertextual.logos.com/',
+      url: 'https://intertextual.bible/',
       description: 'Cross-references linking the trespass offering to prophetic identification of the Messiah as the asham for our transgressions.',
     },
   ],

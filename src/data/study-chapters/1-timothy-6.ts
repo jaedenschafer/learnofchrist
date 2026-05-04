@@ -606,27 +606,11 @@ export const FIRST_TIMOTHY_6: RichChapterContent = {
 
   resources: [
     {
-      id: 'sefaria-1tim-6',
-      kind: 'study',
-      source: 'Sefaria',
-      label: '1 Timothy 6',
-      url: 'https://www.sefaria.org/1%20Timothy.6',
-      description: 'Multiple translations and commentary on contentment, wealth, and the doxology to Christ the King.',
-    },
-    {
-      id: 'bibleodyssey-wealth',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Wealth and Possessions in Early Christianity',
-      url: 'https://www.bibleodyssey.org/dictionary/riches/',
-      description: 'Historical and ethical perspective on the challenges of wealth and the call to generosity in the early church.',
-    },
-    {
       id: 'intertextual-psalm24-1tim6',
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Psalm 24:10 ↔ 1 Timothy 6:15',
-      url: 'https://intertextual.bible/text/psalm-24.10/1-timothy-6.15',
+      url: 'https://intertextual.bible/search?q=Psalm+24+10+1+Timothy+6+15',
       description: 'Paul&apos;s doxology echoes the psalmist&apos;s vision of the King of glory—demonstrating Christ&apos;s eternal kingship.',
     },
   ],

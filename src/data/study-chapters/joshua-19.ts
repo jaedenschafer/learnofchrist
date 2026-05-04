@@ -632,14 +632,6 @@ export const JOSHUA_19: RichChapterContent = {
 
   resources: [
     {
-      id: 'bibleodyssey-remaining-tribes',
-      kind: 'study',
-      source: 'Bible Odyssey',
-      label: 'The Final Tribal Allocations (Zebulun through Simeon)',
-      url: 'https://www.bibleodyssey.org/passages/main-passage/joshua-19',
-      description: 'The territories allotted to the remaining northern and southern tribes, completing the distribution of the promised land.',
-    },
-    {
       id: 'sefaria-tribe-unique-territory',
       kind: 'study',
       source: 'Sefaria',

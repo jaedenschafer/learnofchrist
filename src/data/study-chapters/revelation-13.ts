@@ -50,14 +50,6 @@ export const REVELATION_13: RichChapterContent = {
       url: 'https://www.ntgabc.com',
       description: 'Early Greek witnesses (Codex Sinaiticus, etc.) showing textual variants for the number of the beast.',
     },
-    {
-      id: 'bibleodyssey-666-number',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: '666 — Gematria and Symbolic Numbers',
-      url: 'https://www.bibleodyssey.org/dictionary/666/',
-      description: 'Study of numerical symbolism in apocalyptic literature and Jewish gematria.',
-    },
   ],
 
   sections: [

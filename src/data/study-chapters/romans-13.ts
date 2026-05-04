@@ -619,28 +619,12 @@ export const ROMANS_13: RichChapterContent = {
       description: 'The Torah root of the love commandment that Paul quotes and fulfills through Christ.',
     },
     {
-      id: 'theoi-pliny-trajan-letters',
-      kind: 'archive',
-      source: 'Theoi Classical Texts',
-      label: 'Pliny the Younger, Letters Book 10',
-      url: 'https://www.theoi.com/Text/PlinyYounger.html',
-      description: 'First-century Roman official&apos;s correspondence with Emperor Trajan on Christians and civic authority.',
-    },
-    {
       id: 'sefaria-greek-hupotasso',
       kind: 'study',
       source: 'Sefaria',
       label: 'Hupotassō — Submit, Obey',
       url: 'https://www.sefaria.org/texts',
       description: 'Etymology and usage of the Greek word Paul uses for submission to authority.',
-    },
-    {
-      id: 'theoi-tacitus-annals-early-christians',
-      kind: 'archive',
-      source: 'Theoi Classical Texts',
-      label: 'Tacitus on Christians under Nero',
-      url: 'https://www.theoi.com/Text/TacitusAnnals.html',
-      description: 'Roman historian&apos;s account of early Christian persecution under imperial rule.',
     },
   ],
 

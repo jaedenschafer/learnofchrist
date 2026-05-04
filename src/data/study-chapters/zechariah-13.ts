@@ -137,14 +137,6 @@ export const ZECHARIAH_13: RichChapterContent = {
       url: 'https://intertextual.bible/search?query=zechariah+matthew',
       description: 'The fulfillment of Zechariah&apos;s prophecy when Christ quotes the verse Himself, predicting His own crucifixion and the scattering of the disciples in Gethsemane and at the Cross.',
     },
-    {
-      id: 'bibleodyssey-zechariah-fountain-refining',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'The Fountain Opened and the Refining of the Remnant',
-      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-zechariah/',
-      description: 'Study of the fountain of cleansing in Jerusalem and the refining of the remnant through the striking of the Shepherd.',
-    },
   ],
 
   hasHebrew: true,

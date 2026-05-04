@@ -874,22 +874,6 @@ export const ROMANS_8: RichChapterContent = {
 
   resources: [
     {
-      id: 'cambridge-roman-adoption',
-      kind: 'study',
-      source: 'Cambridge University Press',
-      label: 'Roman Legal Adoption',
-      url: 'https://www.cambridge.org/core/books/legal-status-of-adopted-children-in-roman-law/',
-      description: 'Scholarly treatment of Roman adoption law and the full inheritance rights conferred on adopted sons in first-century legal practice.',
-    },
-    {
-      id: 'sefaria-abba-aramaic',
-      kind: 'lexicon',
-      source: 'Sefaria & SBL',
-      label: 'Abba — Aramaic Father',
-      url: 'https://www.sbl-site.org/learning/biblical-languages.aspx',
-      description: 'Lexical and linguistic resource on the Aramaic term <em>Abba</em> used by Jesus and Paul as the intimate address to God the Father.',
-    },
-    {
       id: 'sefaria-psalm-44-hebrew',
       kind: 'archive',
       source: 'Sefaria',

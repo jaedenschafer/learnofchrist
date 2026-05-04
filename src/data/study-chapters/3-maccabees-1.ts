@@ -434,14 +434,6 @@ export const THIRD_MACCABEES_1: RichChapterContent = {
 
   resources: [
     {
-      id: 'sefaria-3-macc-1',
-      kind: 'study',
-      source: 'Sefaria',
-      label: '3 Maccabees 1',
-      url: 'https://www.sefaria.org/III_Maccabees.1',
-      description: 'Persecution of Alexandrian Jews under Ptolemy IV and divine deliverance.',
-    },
-    {
       id: 'israel-museum-ptolemaic',
       kind: 'museum',
       source: 'Israel Museum',

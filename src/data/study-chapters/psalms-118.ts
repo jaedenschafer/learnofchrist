@@ -156,7 +156,7 @@ export const PSALMS_118: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Psalm 118:26 in Matthew 21:9 (triumphal entry)',
-      url: 'https://intertextual.bible/text/psalm-118/matthew-21.9',
+      url: 'https://intertextual.bible/search?q=Psalm+118+Matthew+21+9',
       description: 'New Testament connection showing how this Psalm is quoted or referenced.',
     },
   ],

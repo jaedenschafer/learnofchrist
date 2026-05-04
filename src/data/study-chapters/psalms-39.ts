@@ -170,22 +170,6 @@ export const PSALMS_39: RichChapterContent = {
       url: 'https://www.sefaria.org/Psalms.39',
       description: 'Meditation on mortality with medieval Jewish interpretation.',
     },
-    {
-      id: 'bible-odyssey-brevity-life',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Brevity & Transience of Life',
-      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
-      description: 'Psalms meditating on human mortality and life&apos;s fleeting[res:bible-odyssey-brevity-life] nature.',
-    },
-    {
-      id: 'bibleodyssey-psalter-laments',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Laments in the Psalter',
-      url: 'https://www.bibleodyssey.org/articles/laments/',
-      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
-    },
 
   ],
 

@@ -212,16 +212,8 @@ export const PSALMS_2: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Psalm 2 in Acts 4, Hebrews 1, Revelation',
-      url: 'https://intertextual.bible/text/psalm-2',
+      url: 'https://intertextual.bible/search?q=Psalm+2',
       description: 'Shows how the NT applies Psalm 2 to Christ&apos;s anointing and rule.',
-    },
-    {
-      id: 'bible-odyssey-royal-psalms',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Royal Psalms',
-      url: 'https://www.bibleodyssey.org/dictionary/royal-psalms/',
-      description: 'Explains the genre and theological role of psalms celebrating an anointed king.',
     },
   ],
 

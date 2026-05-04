@@ -94,14 +94,6 @@ export const JEREMIAH_38: RichChapterContent = {
     ref: 'Jeremiah 38 · Study Guide',
   },  resources: [
     {
-      id: 'bibleodyssey-jeremiah',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Jeremiah',
-      url: 'https://www.bibleodyssey.org/passages/main-articles/jeremiah/',
-      description: 'Peer-reviewed SBL entry on the prophet Jeremiah and his historical context.',
-    },
-    {
       id: 'lachish-letters',
       kind: 'archaeology',
       source: 'Israel Museum',

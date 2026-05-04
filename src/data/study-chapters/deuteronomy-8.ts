@@ -508,14 +508,6 @@ export const DEUTERONOMY_8: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/manna/',
       description: 'Scholarly entry on the miraculous bread from heaven and its role as a sign of God&apos;s provision and dependence in the wilderness.',
     },
-    {
-      id: 'jesus-temptation-wilderness-matthew-4',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Jesus&apos; Wilderness Temptation',
-      url: 'https://www.bibleodyssey.org/passage/matthew-4-1-11/',
-      description: 'Intertextual connection to Matthew 4:4, where Jesus quotes Deuteronomy 8:3 during His own wilderness testing, echoing Israel&apos;s forty-year trial.',
-    },
   ],
 
   hasHebrew: true,

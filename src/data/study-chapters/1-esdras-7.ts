@@ -48,14 +48,6 @@ export const FIRST_ESDRAS_7: RichChapterContent = {
       url: 'https://www.antiquities.org.il/',
       description: 'Archaeological evidence of Nehemiah&apos;s wall and Hellenistic-era gates.',
     },
-    {
-      id: 'sefaria-1-esdras-7',
-      kind: 'study',
-      source: 'Sefaria',
-      label: '1 Esdras 7 — Hebrew + classical Jewish commentary',
-      url: 'https://www.sefaria.org/I_Esdras.7',
-      description: 'The Hebrew text of 1 Esdras 7 alongside Rashi, Ibn Ezra, and other classical commentators.',
-    },
 
   ],
 

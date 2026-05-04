@@ -34,14 +34,6 @@ export const HOSEA_14: RichChapterContent = {
       description: 'Primary sources on Israel&apos;s call to return and God&apos;s promise of healing and free, covenant love.',
     },
     {
-      id: 'bibleodyssey-hosea-restoration',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Restoration & Healing in Hosea',
-      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-hosea/',
-      description: 'Thematic study of how Hosea&apos;s book moves from judgment to restoration and God&apos;s free, covenant love.',
-    },
-    {
       id: 'sefaria-hosea-14-v1',
       kind: 'study',
       source: 'Sefaria',

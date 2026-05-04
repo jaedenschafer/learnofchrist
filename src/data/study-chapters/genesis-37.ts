@@ -49,14 +49,6 @@ export const GENESIS_37: RichChapterContent = {
       url: 'https://www.metmuseum.org/art/metpublications/Egypt_and_the_Ancient_Near_East',
       description: 'Museum collections and scholarly essays on Egyptian civilization, trade, and social structures during the patriarchal period.',
     },
-    {
-      id: 'bibleodyssey-joseph-egypt',
-      kind: 'study',
-      source: 'Bible Odyssey',
-      label: 'Joseph: From Slave to Sovereign',
-      url: 'https://www.bibleodyssey.org/en/passages/related-articles/Joseph',
-      description: 'Theological and narrative analysis of Joseph&apos;s journey from pit to palace and his role as prefigurement of Christ.',
-    },
   ],
 
   sections: [

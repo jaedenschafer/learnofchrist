@@ -599,28 +599,12 @@ export const SECOND_ESDRAS_5: RichChapterContent = {
 
   resources: [
     {
-      id: 'sefaria-2-esdras-5-vision',
-      kind: 'study',
-      source: 'Sefaria',
-      label: '2 Esdras 5 — Visionary Dialogue',
-      url: 'https://www.sefaria.org/II_Esdras.5',
-      description: 'Ezra&apos;s dialogues on theodicy and divine justice (vision 3).',
-    },
-    {
       id: 'bible-odyssey-theodicy',
       kind: 'study',
       source: 'Bible Odyssey (SBL)',
       label: 'Theodicy in Late Judaism',
       url: 'https://www.bibleodyssey.org/dictionary/evil/',
       description: 'Problem of evil and divine justice in postexilic Jewish thought.',
-    },
-    {
-      id: 'sefaria-2-esdras-5',
-      kind: 'study',
-      source: 'Sefaria',
-      label: '2 Esdras 5 — Hebrew + classical Jewish commentary',
-      url: 'https://www.sefaria.org/II_Esdras.5',
-      description: 'The Hebrew text of 2 Esdras 5 alongside Rashi, Ibn Ezra, and other classical commentators.',
     },
 
   ],

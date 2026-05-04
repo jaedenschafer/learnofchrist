@@ -142,14 +142,6 @@ export const JONAH_4: RichChapterContent = {
       description: 'Primary sources on Jonah&apos;s anger and God&apos;s final question about mercy toward the repentant.',
     },
     {
-      id: 'bibleodyssey-gods-mercy',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'God&apos;s Mercy and Human Resistance',
-      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-jonah/',
-      description: 'Study of the tension between human judgment and God&apos;s compassion for the repentant.',
-    },
-    {
       id: 'sefaria-jonah-4-v1',
       kind: 'study',
       source: 'Sefaria',

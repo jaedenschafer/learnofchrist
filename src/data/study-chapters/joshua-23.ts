@@ -442,14 +442,6 @@ export const JOSHUA_23: RichChapterContent = {
 
   resources: [
     {
-      id: 'bibleodyssey-joshua-farewell',
-      kind: 'study',
-      source: 'Bible Odyssey',
-      label: 'Joshua&apos;s Farewell Covenant Address',
-      url: 'https://www.bibleodyssey.org/passages/main-passage/joshua-23',
-      description: 'Joshua&apos;s final words to Israel, reminding them of God&apos;s faithfulness and warning them of the consequences of covenant-breaking.',
-    },
-    {
       id: 'sefaria-covenant-faithfulness-warning',
       kind: 'study',
       source: 'Sefaria',

@@ -53,14 +53,6 @@ export const NEHEMIAH_10: RichChapterContent = {
       url: 'https://www.sefaria.org/Nehemiah.10',
       description: 'The Hebrew text of Nehemiah 10 alongside Rashi, Ibn Ezra, and other classical commentators.',
     },
-    {
-      id: 'bibleodyssey-nehemiah-overview-10',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Nehemiah — SBL Overview',
-      url: 'https://www.bibleodyssey.org/articles/nehemiah/',
-      description: 'Open-access SBL essay on the historical and literary setting of Nehemiah.',
-    },
 
   ],
 

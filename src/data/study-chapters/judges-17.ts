@@ -441,14 +441,6 @@ export const JUDGES_17: RichChapterContent = {
       description: 'The Hebrew text of Micah&apos;s shrine, hired Levite, and the spiritual chaos of "no king in Israel."',
     },
     {
-      id: 'bibleodyssey-judges-epilogue',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'The Epilogue of Judges (chs. 17–21)',
-      url: 'https://www.bibleodyssey.org/articles/judges/',
-      description: 'SBL overview of Judges 17–21 as a deliberate portrait of Israel without a king.',
-    },
-    {
       id: 'sefaria-judges-17-v1',
       kind: 'study',
       source: 'Sefaria',

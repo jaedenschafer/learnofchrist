@@ -169,7 +169,7 @@ export const MATTHEW_18: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Parable of the Unforgiving Servant — Matthew Only',
-      url: 'https://intertextual.bible/text/matthew-18.23',
+      url: 'https://intertextual.bible/search?q=Matthew+18+23',
       description: 'Unique Matthean parable on forgiveness, without parallel in other Gospel accounts.',
     },
     {

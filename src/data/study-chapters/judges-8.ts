@@ -715,14 +715,6 @@ export const JUDGES_8: RichChapterContent = {
 
   resources: [
     {
-      id: 'bibleodyssey-gideon-ephraim',
-      kind: 'study',
-      source: 'Bible Odyssey',
-      label: 'Gideon&apos;s Conflict with Ephraim',
-      url: 'https://www.bibleodyssey.org/passages/main-stories/judges',
-      description: 'Tribal tensions and reconciliation narratives in early Israel.',
-    },
-    {
       id: 'sefaria-idolatry-gideon',
       kind: 'study',
       source: 'Sefaria',

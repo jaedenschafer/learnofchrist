@@ -84,7 +84,7 @@ export const JEREMIAH_47: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Jeremiah 31 ↔ Hebrews 8:8–12',
-      url: 'https://intertextual.bible/text/jeremiah-31/hebrews-8',
+      url: 'https://intertextual.bible/search?q=Jeremiah+31+Hebrews+8',
       description: 'Side-by-side comparison of the new covenant promise in Jeremiah quoted in Hebrews.',
     },
     {

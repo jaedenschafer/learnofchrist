@@ -789,14 +789,6 @@ export const EXODUS_29: RichChapterContent = {
 
   resources: [
     {
-      id: 'priestly-ordination',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Priestly Ordination',
-      url: 'https://www.bibleodyssey.org/dictionary/priest/',
-      description: 'Ritual of consecration and theology.',
-    },
-    {
       id: 'priesthood-text',
       kind: 'study',
       source: 'Sefaria',

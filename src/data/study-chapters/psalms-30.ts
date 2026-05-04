@@ -130,22 +130,6 @@ export const PSALMS_30: RichChapterContent = {
       url: 'https://www.sefaria.org/Psalms.30',
       description: 'Thanksgiving for healing[res:sefaria-psalms-30] with medieval Jewish interpretation.',
     },
-    {
-      id: 'bible-odyssey-healing-thanksgiving',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Healing & Restoration Psalms',
-      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
-      description: 'Psalms celebrating God&apos;s healing and restoration from death.',
-    },
-    {
-      id: 'bibleodyssey-psalter-laments',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Laments in the Psalter',
-      url: 'https://www.bibleodyssey.org/articles/laments/',
-      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
-    },
 
   ],
 

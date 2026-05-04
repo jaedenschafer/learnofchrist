@@ -175,19 +175,11 @@ export const MATTHEW_28: RichChapterContent = {
 
   resources: [
     {
-      id: 'bibleodyssey-resurrection',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'The Resurrection of Jesus',
-      url: 'https://www.bibleodyssey.org/dictionary/resurrection-of-jesus/',
-      description: 'Theological analysis of the resurrection as physical, historical event and the vindication of Jesus&apos; claims and redemptive work.',
-    },
-    {
       id: 'intertextual-great-commission',
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'The Great Commission — Gospel Parallels',
-      url: 'https://intertextual.bible/text/matthew-28.19',
+      url: 'https://intertextual.bible/search?q=Matthew+28+19',
       description: 'Comparison of the Great Commission across Matthew, Mark, Luke, and John, with implications for Christian mission and discipleship.',
     },
     {

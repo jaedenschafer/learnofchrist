@@ -424,7 +424,7 @@ export const NUMBERS_21: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Numbers 21:9 ↔ John 3:14–15',
-      url: 'https://intertextual.bible/text/numbers-21.9/john-3.14',
+      url: 'https://intertextual.bible/search?q=Numbers+21+9+John+3+14',
       description: 'Jesus cites the lifted serpent as a type of His own crucifixion and the salvation available through faith.',
     },
     {

@@ -26,14 +26,6 @@ export const DEUTERONOMY_18: RichChapterContent = {
       description: 'Open-access source text and rabbinic commentary on Levitical support [res:sefaria-deuteronomy-18], divination prohibitions, and the promise of a future prophet.',
     },
     {
-      id: 'levitical-priesthood-support-ancient-israel-bible-odyssey',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Levitical Priesthood and Tithe Support',
-      url: 'https://www.bibleodyssey.org/topical-article/levite/',
-      description: 'Theological overview of how the tribe of Levi was set apart [res:levitical-priesthood-support-ancient-israel-bible-odyssey] for priesthood and sustained by community tithes and offerings.',
-    },
-    {
       id: 'prophet-like-moses-messianic-promise-intertextual',
       kind: 'study',
       source: 'Intertextual Bible',

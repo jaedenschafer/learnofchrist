@@ -50,14 +50,6 @@ export const GENESIS_14: RichChapterContent = {
       url: 'https://www.penn.museum/collections/west-asia/',
       description: 'Ancient Near Eastern records illuminating the political conflicts, vassal systems, and tribute practices of Abraham&apos;s time.',
     },
-    {
-      id: 'bibleodyssey-abraham-covenant',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Abraham and the Covenant',
-      url: 'https://www.bibleodyssey.org/articles/abraham-sarah/',
-      description: 'SBL article on Abraham&apos;s faith, his refusal to be bound by worldly wealth, and his covenant with the Most High God.',
-    },
   ],
 
   sections: [

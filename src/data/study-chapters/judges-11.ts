@@ -363,14 +363,6 @@ export const JUDGES_11: RichChapterContent = {
 
   resources: [
     {
-      id: 'bibleodyssey-jephthah-vow',
-      kind: 'study',
-      source: 'Bible Odyssey',
-      label: 'Jephthah and His Vow',
-      url: 'https://www.bibleodyssey.org/passages/main-stories/jephthah',
-      description: 'The tragedy of rash vows and their irreversible consequences.',
-    },
-    {
       id: 'sefaria-jephthah-ammonites',
       kind: 'study',
       source: 'Sefaria',

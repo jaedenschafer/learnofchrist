@@ -34,14 +34,6 @@ export const HOSEA_7: RichChapterContent = {
       description: 'Primary sources on Israel&apos;s half-hearted faith and confusion of trusting in nations instead of God.',
     },
     {
-      id: 'bibleodyssey-hosea-imagery',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Prophetic Imagery in Hosea',
-      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-hosea/',
-      description: 'Study of Hosea&apos;s use of vivid metaphors like "a cake not turned" to describe spiritual unfaithfulness.',
-    },
-    {
       id: 'sefaria-hosea-7-v1',
       kind: 'study',
       source: 'Sefaria',

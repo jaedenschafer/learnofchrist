@@ -155,14 +155,6 @@ export const MICAH_3: RichChapterContent = {
       description: 'Primary sources on Micah&apos;s indictment of corrupt rulers and false prophets, and the promise of ruin for Jerusalem built on injustice.',
     },
     {
-      id: 'bibleodyssey-micah-prophecy',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'The Prophetic Voice — Truth against Corruption',
-      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-micah/',
-      description: 'Study of the prophet&apos;s courageous stance against both civic and religious corruption, and the cost of speaking truth.',
-    },
-    {
       id: 'intertextual-micah-3-revelation',
       kind: 'study',
       source: 'Intertextual Bible',

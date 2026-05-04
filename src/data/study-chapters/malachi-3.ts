@@ -133,14 +133,6 @@ export const MALACHI_3: RichChapterContent = {
       url: 'https://intertextual.bible/search?query=malachi+matthew',
       description: 'The fulfillment of Malachi&apos;s prophecy in John the Baptist as the messenger who prepares the way before Christ, as explicitly identified by Jesus in Matthew.',
     },
-    {
-      id: 'bibleodyssey-malachi-tithe-refining',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'The Refining of the Priesthood and Faithful Stewardship',
-      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-malachi/',
-      description: 'Study of Christ as the refiner coming to purify His people and the call to faithful giving as an expression of acknowledgment of God&apos;s ownership.',
-    },
   ],
 
   hasHebrew: true,

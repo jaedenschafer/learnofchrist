@@ -389,14 +389,6 @@ export const FIRST_ESDRAS_6: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/diaspora/',
       description: 'Conflict between diaspora returnees and local populations in Persian period.',
     },
-    {
-      id: 'sefaria-1-esdras-6',
-      kind: 'study',
-      source: 'Sefaria',
-      label: '1 Esdras 6 — Hebrew + classical Jewish commentary',
-      url: 'https://www.sefaria.org/I_Esdras.6',
-      description: 'The Hebrew text of 1 Esdras 6 alongside Rashi, Ibn Ezra, and other classical commentators.',
-    },
 
   ],
 

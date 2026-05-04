@@ -845,7 +845,7 @@ export const COLOSSIANS_3: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Colossians 3:18–4:1 ↔ Ephesians 5:21–6:9 (Household Codes)',
-      url: 'https://intertextual.bible/text/colossians-3.18/',
+      url: 'https://intertextual.bible/search?q=Colossians+3+18+',
       description: 'Parallel household instructions between Colossians and Ephesians, both reframing relationships through Christ&apos;s lordship.',
     },
     {

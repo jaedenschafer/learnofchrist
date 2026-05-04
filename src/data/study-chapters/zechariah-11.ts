@@ -144,14 +144,6 @@ export const ZECHARIAH_11: RichChapterContent = {
       url: 'https://intertextual.bible/search?query=zechariah+matthew',
       description: 'The explicit fulfillment of Zechariah&apos;s prophecy when Judas betrays Jesus for thirty pieces of silver, as recorded in Matthew&apos;s account of Christ&apos;s passion.',
     },
-    {
-      id: 'bibleodyssey-zechariah-shepherd-betrayal',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'The Shepherd&apos;s Rejection and Redemptive Sacrifice',
-      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-zechariah/',
-      description: 'Study of Zechariah&apos;s messianic prophecy of the rejected shepherd and Christ&apos;s redemptive sacrifice for His people.',
-    },
   ],
 
   hasHebrew: true,

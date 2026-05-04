@@ -140,14 +140,6 @@ export const JONAH_3: RichChapterContent = {
       description: 'Primary sources on Nineveh&apos;s repentance and God&apos;s merciful withdrawal of threatened judgment.',
     },
     {
-      id: 'bibleodyssey-jonah-repentance',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'The Power of Repentance — Jonah 3',
-      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-jonah/',
-      description: 'Study of Nineveh&apos;s response to Jonah&apos;s message and God&apos;s delight in repentance over judgment.',
-    },
-    {
       id: 'sefaria-jonah-3-v1',
       kind: 'study',
       source: 'Sefaria',

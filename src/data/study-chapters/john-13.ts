@@ -195,27 +195,11 @@ export const JOHN_13: RichChapterContent = {
 
   resources: [
     {
-      id: 'bible-odyssey-footwashing',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Foot-Washing in Biblical Context',
-      url: 'https://www.bibleodyssey.org/dictionary/footwashing/',
-      description: 'Open-access SBL resource on foot-washing as a household practice and its spiritual significance.',
-    },
-    {
-      id: 'bible-odyssey-last-supper',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Last Supper and the Eucharist',
-      url: 'https://www.bibleodyssey.org/dictionary/last-supper/',
-      description: 'SBL entry on the final meal with Jesus&apos; disciples and its ritual significance.',
-    },
-    {
       id: 'intertextual-love',
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Leviticus 19:18 ↔ John 13:34–35',
-      url: 'https://intertextual.bible/text/leviticus-19.18/john-13.34-35',
+      url: 'https://intertextual.bible/search?q=Leviticus+19+18+John+13+34+35',
       description: 'How Jesus&apos; new commandment both fulfills and transforms the love of neighbor.',
     },
   ],

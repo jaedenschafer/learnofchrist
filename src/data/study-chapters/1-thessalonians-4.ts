@@ -594,14 +594,6 @@ export const FIRST_THESSALONIANS_4: RichChapterContent = {
       url: 'https://www.sefaria.org/search?q=work%20provision%20dignity',
       description: 'The biblical vision of work not as punishment but as dignity—a way to provide for oneself and bear witness to the reality of one&apos;s faith.',
     },
-    {
-      id: 'sefaria-1-thessalonians-4',
-      kind: 'study',
-      source: 'Sefaria',
-      label: '1 Thessalonians 4 — Hebrew + classical Jewish commentary',
-      url: 'https://www.sefaria.org/I_Thessalonians.4',
-      description: 'The Hebrew text of 1 Thessalonians 4 alongside Rashi, Ibn Ezra, and other classical commentators.',
-    },
 
   ],
 

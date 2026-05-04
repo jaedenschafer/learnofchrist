@@ -676,14 +676,6 @@ export const EXODUS_34: RichChapterContent = {
       description: 'Hebrew text on covenant renewal.',
     },
     {
-      id: 'face-god',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Face of God',
-      url: 'https://www.bibleodyssey.org/dictionary/face/',
-      description: 'Theological meaning of seeing divine face.',
-    },
-    {
       id: 'sefaria-exodus-34',
       kind: 'study',
       source: 'Sefaria',

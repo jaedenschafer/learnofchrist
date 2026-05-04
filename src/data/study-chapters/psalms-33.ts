@@ -167,14 +167,6 @@ export const PSALMS_33: RichChapterContent = {
       description: 'Hymn of praise for God&apos;s creation with Jewish commentary.',
     },
     {
-      id: 'bible-odyssey-praise-structure',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Hymn Structure & Praise',
-      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
-      description: 'Structure of hymn[res:bible-odyssey-praise-structure]s: call to praise, reasons for praise, conclusion.',
-    },
-    {
       id: 'bibleodyssey-hymns-praise',
       kind: 'study',
       source: 'Bible Odyssey (SBL)',

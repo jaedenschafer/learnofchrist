@@ -140,14 +140,6 @@ export const MALACHI_2: RichChapterContent = {
       url: 'https://intertextual.bible/search?query=malachi+ephesians',
       description: 'The connection between Malachi&apos;s teaching on marital faithfulness witnessed by God and Paul&apos;s teaching on Christ&apos;s sacrificial love for the Church as the model of covenant marriage.',
     },
-    {
-      id: 'bibleodyssey-malachi-covenant-witness',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'God as Witness to Covenant Relationships',
-      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-malachi/',
-      description: 'Study of covenant faithfulness in the priesthood and marriage, with God as witness to all sacred relationships and obligations.',
-    },
   ],
 
   hasHebrew: true,

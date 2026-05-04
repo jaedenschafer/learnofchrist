@@ -607,7 +607,7 @@ export const ACTS_23: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Acts 23 & Sanhedrin Parallels',
-      url: 'https://www.intertextual.bible/text/acts-23',
+      url: 'https://intertextual.bible/search?q=Acts+23',
       description: 'Cross-textual intertextual connections showing how Acts 23&apos;s account of the Sanhedrin hearing relates to Old Testament and Second Temple Jewish sources.',
     },
   ],

@@ -167,14 +167,6 @@ export const NAHUM_1: RichChapterContent = {
       description: 'Primary sources on God&apos;s judgment of Nineveh and His protection of the oppressed.',
     },
     {
-      id: 'bibleodyssey-nahum-justice',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'God&apos;s Justice and Mercy',
-      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-nahum/',
-      description: 'Study of how the same God who judges the violent is a refuge for those who trust in Him.',
-    },
-    {
       id: 'british-museum-nineveh-archaeology',
       kind: 'archaeology',
       source: 'British Museum',

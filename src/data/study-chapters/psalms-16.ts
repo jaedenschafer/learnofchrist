@@ -164,16 +164,8 @@ export const PSALMS_16: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Psalm 16 in Acts 2 & 1 Corinthians 15',
-      url: 'https://intertextual.bible/text/psalm-16',
+      url: 'https://intertextual.bible/search?q=Psalm+16',
       description: 'Apostolic interpretation of Psalm 16 as prophecy of resurrection.',
-    },
-    {
-      id: 'bible-odyssey-inheritance-psalms',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Inheritance & Possession',
-      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
-      description: 'Psalms about God as inheritance and eternal possession.',
     },
   ],
 

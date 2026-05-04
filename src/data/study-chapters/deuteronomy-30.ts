@@ -34,14 +34,6 @@ export const DEUTERONOMY_30: RichChapterContent = {
       description: 'Open-access source text and rabbinic commentary on return from exile [res:sefaria-deuteronomy-30], circumcision of the heart, and restoration through repentance.',
     },
     {
-      id: 'return-repentance-teshuva-restoration-bible-odyssey',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Return, Repentance, and Restoration to the Land',
-      url: 'https://www.bibleodyssey.org/topical-article/repentance/',
-      description: 'Theological entry on how even exile is not final [res:return-repentance-teshuva-restoration-bible-odyssey]; God promises restoration to those who turn back with circumcised hearts.',
-    },
-    {
       id: 'word-heart-intertextual-jesus-incarnation',
       kind: 'study',
       source: 'Intertextual Bible',

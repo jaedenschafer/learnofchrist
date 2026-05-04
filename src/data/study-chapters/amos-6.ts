@@ -34,14 +34,6 @@ export const AMOS_6: RichChapterContent = {
       description: 'Primary sources on the danger of spiritual complacency and material ease in Israel&apos;s history.',
     },
     {
-      id: 'bibleodyssey-ease-zion',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'The Danger of Ease — Amos 6:1',
-      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-amos/',
-      description: 'Study of material prosperity as a spiritual danger when it distances people from seeking God.',
-    },
-    {
       id: 'sefaria-amos-6-v1',
       kind: 'study',
       source: 'Sefaria',

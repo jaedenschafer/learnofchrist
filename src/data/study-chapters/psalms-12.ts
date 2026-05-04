@@ -138,22 +138,6 @@ export const PSALMS_12: RichChapterContent = {
       url: 'https://www.sefaria.org/Psalms.12',
       description: 'Lament about false speech[res:sefaria-psalms-12] with medieval Jewish exegesis.',
     },
-    {
-      id: 'bible-odyssey-word-psalms',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Psalms of Speech & Truth',
-      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
-      description: 'Psalms about lies, false witness, flattery, and God&apos;s true word.',
-    },
-    {
-      id: 'bibleodyssey-psalter-laments',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Laments in the Psalter',
-      url: 'https://www.bibleodyssey.org/articles/laments/',
-      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
-    },
 
   ],
 

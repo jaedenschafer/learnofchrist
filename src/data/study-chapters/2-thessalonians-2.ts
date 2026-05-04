@@ -612,14 +612,6 @@ export const SECOND_THESSALONIANS_2: RichChapterContent = {
       url: 'https://www.sefaria.org/texts/Tanakh/Writings/Proverbs?lang=bi&p=Proverbs.14.6',
       description: 'Explores how a love for truth—not mere knowledge—becomes the guardian against deception and spiritual delusion.',
     },
-    {
-      id: 'bible-odyssey-election-grace',
-      kind: 'study',
-      source: 'Bible Odyssey',
-      label: 'Election and God&apos;s Saving Grace',
-      url: 'https://www.bibleodyssey.org/passage/topic/election-predestination',
-      description: 'Surveys the doctrine that God&apos;s choice of believers rests on sovereign grace before time began, not on foreseen virtue.',
-    },
   ],
 
 };

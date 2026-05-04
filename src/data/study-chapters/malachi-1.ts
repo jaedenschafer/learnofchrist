@@ -139,14 +139,6 @@ export const MALACHI_1: RichChapterContent = {
       url: 'https://intertextual.bible/search?query=malachi+luke',
       description: 'The fulfillment of Malachi&apos;s prophecy of universal worship and pure offering through Mary&apos;s proclamation of God&apos;s greatness and mercy across all nations in the Magnificat.',
     },
-    {
-      id: 'bibleodyssey-malachi-love-sacrifice',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'God&apos;s Love and the Pure Offering Across Nations',
-      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-malachi/',
-      description: 'Study of God&apos;s covenant love for Israel and the promise of pure worship offered to His name among all the Gentiles through the gospel.',
-    },
   ],
 
   hasHebrew: true,

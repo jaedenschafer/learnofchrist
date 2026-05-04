@@ -210,14 +210,6 @@ export const LUKE_2: RichChapterContent = {
 
   resources: [
     {
-      id: 'bible-odyssey-incarnation',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'The Incarnation',
-      url: 'https://www.bibleodyssey.org/dictionary/incarnation/',
-      description: 'Open-access entry on the doctrine of incarnation, examining how Jesus&apos; birth places the divine Word in human history and flesh.',
-    },
-    {
       id: 'sefaria-simeon',
       kind: 'study',
       source: 'Sefaria',
@@ -230,7 +222,7 @@ export const LUKE_2: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Jesus & "Father&apos;s Business" (OT ↔ NT)',
-      url: 'https://intertextual.bible/text/malachi-3/luke-2.49',
+      url: 'https://intertextual.bible/search?q=Malachi+3+Luke+2+49',
       description: 'Intertextual links showing how Jesus&apos; early awareness of His divine identity fulfills Old Testament messianic expectation.',
     },
   ],

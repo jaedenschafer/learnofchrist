@@ -502,14 +502,6 @@ export const HEBREWS_5: RichChapterContent = {
       url: 'https://www.sefaria.org/Psalms.110.4',
       description: 'The oath that establishes Christ as eternal priest, superseding Levitical priesthood.',
     },
-    {
-      id: 'bible-odyssey-melchisedec',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Melchisedec: Priest of the Most High God',
-      url: 'https://www.bibleodyssey.org/dictionary/melchizedek/',
-      description: 'Scholarly overview of the enigmatic priest-king and his typology in Hebrews.',
-    },
   ],
 
   hasHebrew: false,

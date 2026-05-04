@@ -493,14 +493,6 @@ export const NUMBERS_34: RichChapterContent = {
       description: 'Complete Hebrew and English text with classical rabbinic commentary on the boundaries and division of Canaan.',
     },
     {
-      id: 'canaan-geography-boundaries',
-      kind: 'archaeology',
-      source: 'Bible Odyssey',
-      label: 'Canaan Geography & Tribal Boundaries',
-      url: 'https://www.bibleodyssey.org/passages/related-articles/canaan-boundaries/',
-      description: 'Archaeological and geographical overview of ancient Canaan and how the tribal territories were distributed and measured.',
-    },
-    {
       id: 'caleb-inheritance-joshua',
       kind: 'study',
       source: 'Intertextual Bible',

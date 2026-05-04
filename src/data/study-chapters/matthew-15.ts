@@ -163,7 +163,7 @@ export const MATTHEW_15: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Canaanite Woman — Gospel Parallels',
-      url: 'https://intertextual.bible/text/matthew-15.21',
+      url: 'https://intertextual.bible/search?q=Matthew+15+21',
       description: 'Comparison of the Canaanite woman story across Matthew and Mark, with interpretative notes.',
     },
     {

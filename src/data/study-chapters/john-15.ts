@@ -214,7 +214,7 @@ export const JOHN_15: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Isaiah 5:1–7 ↔ John 15:1–8',
-      url: 'https://intertextual.bible/text/isaiah-5.1-7/john-15.1-8',
+      url: 'https://intertextual.bible/search?q=Isaiah+5+1+7+John+15+1+8',
       description: 'How Jesus fulfills and reinterprets the image of God&apos;s vineyard.',
     },
   ],

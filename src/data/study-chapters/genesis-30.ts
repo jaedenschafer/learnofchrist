@@ -49,14 +49,6 @@ export const GENESIS_30: RichChapterContent = {
       url: 'https://www.antiquities.org.il/Article/ArticleFull/1',
       description: 'Archaeological records of settlements and family structures in Iron Age Canaan.',
     },
-    {
-      id: 'bibleodyssey-jacob-israel',
-      kind: 'study',
-      source: 'Bible Odyssey',
-      label: 'Jacob &amp; Israel: Deception, Wrestling, &amp; Divine Naming',
-      url: 'https://www.bibleodyssey.org/en/passages/related-articles/Jacob-Israel',
-      description: 'Theological exploration of Jacob&apos;s role in covenant continuation and God&apos;s sovereign choice.',
-    },
   ],
 
   sections: [

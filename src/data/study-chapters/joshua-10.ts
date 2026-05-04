@@ -42,14 +42,6 @@ export const JOSHUA_10: RichChapterContent = {
       description: 'Archaeological evidence of Lachish and other southern Canaanite cities conquered during Joshua&apos;s southern campaign.',
     },
     {
-      id: 'bibleodyssey-joshua-sun-stood-still',
-      kind: 'study',
-      source: 'Bible Odyssey',
-      label: 'Joshua&apos;s Command and the Miracle of the Sun',
-      url: 'https://www.bibleodyssey.org/passages/main-passage/joshua-10-12-13',
-      description: 'Theological and historical interpretation of Joshua&apos;s prayer and the extraordinary event of the sun standing still during battle.',
-    },
-    {
       id: 'intertextual-enemies-under-feet',
       kind: 'study',
       source: 'Intertextual Bible',

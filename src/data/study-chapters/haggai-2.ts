@@ -195,14 +195,6 @@ export const HAGGAI_2: RichChapterContent = {
       url: 'https://intertextual.bible/search?query=haggai+john',
       description: 'The connection between Haggai&apos;s prophecy of the Desire of All Nations and John&apos;s revelation of Christ as the true glory dwelling among us.',
     },
-    {
-      id: 'bibleodyssey-haggai-messianic',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Messianic Hope and the Latter Glory',
-      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-haggai/',
-      description: 'Study of Haggai&apos;s prophetic vision of the Messiah as the fulfillment of human longing and the true source of God&apos;s glory.',
-    },
   ],
 
   hasHebrew: true,

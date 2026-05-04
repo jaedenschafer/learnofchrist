@@ -752,16 +752,8 @@ export const COLOSSIANS_2: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Colossians 2:14 — Blotting Out the Handwriting',
-      url: 'https://intertextual.bible/text/colossians-2.14/',
+      url: 'https://intertextual.bible/search?q=Colossians+2+14+',
       description: 'Christ&apos;s cross canceled the debt—the handwriting (chirograph) of ordinances against believers.',
-    },
-    {
-      id: 'gnosticism-sbl',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Gnosticism',
-      url: 'https://www.bibleodyssey.org/dictionary/gnosticism/',
-      description: 'Background on early Gnostic false teaching that threatened Colossae: secret knowledge, angelic mediation, and cosmic dualism.',
     },
   ],
 };

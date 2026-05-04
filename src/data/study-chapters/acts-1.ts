@@ -433,36 +433,12 @@ export const ACTS_1: RichChapterContent = {
 
   resources: [
     {
-      id: 'bibleodyssey-mount-of-olives',
-      kind: 'archaeology',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Mount of Olives',
-      url: 'https://www.bibleodyssey.org/places/mount-of-olives/',
-      description: 'Location east of Jerusalem where Jesus ascended and a sabbath day\'s journey away from the city.',
-    },
-    {
       id: 'bibleodyssey-ascension',
       kind: 'study',
       source: 'Bible Odyssey (SBL)',
       label: 'The Ascension',
       url: 'https://www.bibleodyssey.org/dictionary/ascension/',
       description: 'Theological entry examining the resurrection to heavenly exaltation and apostolic witness in Acts.',
-    },
-    {
-      id: 'bibleodyssey-upper-room',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'The Upper Room',
-      url: 'https://www.bibleodyssey.org/dictionary/upper-room/',
-      description: 'The gathering place in Jerusalem where the disciples waited and chose Matthias as the twelfth apostle.',
-    },
-    {
-      id: 'bibleodyssey-matthias',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Matthias',
-      url: 'https://www.bibleodyssey.org/people/matthias/',
-      description: 'The disciple chosen by lot to replace Judas and restore the apostolic college to twelve.',
     },
     {
       id: 'penn-museum-apostles-witness',
@@ -473,19 +449,11 @@ export const ACTS_1: RichChapterContent = {
       description: 'Archaeological context for the apostles&apos; testimony across the Mediterranean world in the first century.',
     },
     {
-      id: 'sefaria-luke-gospel',
-      kind: 'study',
-      source: 'Sefaria',
-      label: 'Luke&apos;s Gospel',
-      url: 'https://sefaria.org/Luke',
-      description: 'The Gospel of Luke in full text—the former treatise Luke mentions, providing narrative context for Acts&apos; continuation.',
-    },
-    {
       id: 'intertextual-luke-acts-continuity',
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Luke 1:1 ↔ Acts 1:1 — Gospel and Acts Continuity',
-      url: 'https://intertextual.bible/text/luke-1.1/acts-1.1',
+      url: 'https://intertextual.bible/search?q=Luke+1+1+Acts+1+1',
       description: 'Side-by-side comparison showing how Luke links his Gospel to Acts as a seamless two-part narrative.',
     },
   ],

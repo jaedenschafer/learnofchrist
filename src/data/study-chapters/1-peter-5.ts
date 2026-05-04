@@ -519,7 +519,7 @@ export const FIRST_PETER_5: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'John 21:15–17 ↔ 1 Peter 5:2 (Feed My Sheep)',
-      url: 'https://intertextual.bible/text/john-21.15/1-peter-5.2',
+      url: 'https://intertextual.bible/search?q=John+21+15+1+Peter+5+2',
       description: 'Cross-reference: Jesus&apos; commission to Peter to feed His flock echoed here.',
     },
   ],

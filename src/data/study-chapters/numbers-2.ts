@@ -504,14 +504,6 @@ export const NUMBERS_2: RichChapterContent = {
       description: 'Classical rabbinic and medieval commentaries on Israel&apos;s encampment layout, tribal positions, and the geometric arrangement around the tabernacle.',
     },
     {
-      id: 'bible-odyssey-tribal-standards',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Tribal Standards and Banners',
-      url: 'https://www.bibleodyssey.org/dictionary/standards/',
-      description: 'Explanation of the tribal standards (banners) used in the camp, their function, and symbolic meanings in Israelite organization.',
-    },
-    {
       id: 'sefaria-judah-lion',
       kind: 'study',
       source: 'Sefaria',

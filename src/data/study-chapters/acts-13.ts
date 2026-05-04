@@ -620,13 +620,5 @@ export const ACTS_13: RichChapterContent = {
       url: 'https://brill.com',
       description: 'Analysis of conflict between apostolic power and pagan sorcery, particularly Elymas the sorcerer\'s resistance to Paul\'s preaching.',
     },
-    {
-      id: 'theoi-divine-judgment-blindness',
-      kind: 'archive',
-      source: 'Theoi',
-      label: 'Divine Judgment and Blindness in Antiquity',
-      url: 'https://www.theoi.com',
-      description: 'Ancient sources on divine striking of blindness as judgment, paralleling Paul\'s blinding of Elymas in Acts 13:11.',
-    },
   ],
 };

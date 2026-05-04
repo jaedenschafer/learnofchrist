@@ -880,14 +880,6 @@ export const FIRST_CORINTHIANS_14: RichChapterContent = {
       description: 'Open-access Hebrew Scripture text showing the source Paul quotes at 1 Corinthians 14:21 — God&apos;s warning to Israel via foreign tongues.',
     },
     {
-      id: 'bibleodyssey-early-worship',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Worship Practices in the Early Church',
-      url: 'https://www.bibleodyssey.org/en/passages/Worship-in-the-Early-Church/',
-      description: 'Scholarly overview of how early churches ordered their gatherings — prophecy, tongues, teaching, and the principle of edification that Paul enforces.',
-    },
-    {
       id: 'theoi-glossolalia-ecstasy',
       kind: 'archive',
       source: 'Theoi Classical Texts &amp; Database',

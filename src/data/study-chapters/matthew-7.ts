@@ -183,16 +183,8 @@ export const MATTHEW_7: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Judge Not — OT Parallels',
-      url: 'https://intertextual.bible/text/matthew-7.1',
+      url: 'https://intertextual.bible/search?q=Matthew+7+1',
       description: 'Cross-references to Old Testament teachings on judgment and discernment that inform Jesus&apos; teaching on non-judgmentalism.',
-    },
-    {
-      id: 'bibleodyssey-golden-rule',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'The Golden Rule',
-      url: 'https://www.bibleodyssey.org/dictionary/golden-rule/',
-      description: 'Analysis of Matthew 7:12 as a summary of the entire law and prophets, and its parallels across religious traditions.',
     },
     {
       id: 'sefaria-psalms-40',

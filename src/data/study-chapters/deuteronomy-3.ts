@@ -58,14 +58,6 @@ export const DEUTERONOMY_3: RichChapterContent = {
       url: 'https://oi.uchicago.edu/',
       description: 'Archaeological research on the Iron Age kingdoms of Bashan, including fortified cities mentioned in Deuteronomy 3.',
     },
-    {
-      id: 'ogog-bedstead-ancient-giants-rephaim',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Giants — Rephaim, Anakim, Emim',
-      url: 'https://www.bibleodyssey.org/dictionary/giants/',
-      description: 'Open-access entry on the giants of Canaan and their role in ancient Near Eastern geography and conquest narratives.',
-    },
   ],
 
   sections: [

@@ -34,14 +34,6 @@ export const JUDGES_1: RichChapterContent = {
 
   resources: [
     {
-      id: 'bibleodyssey-judges-incomplete-conquest',
-      kind: 'study',
-      source: 'Bible Odyssey',
-      label: 'Judges 1: An Incomplete Conquest',
-      url: 'https://www.bibleodyssey.org/passages/main-passage/judges-1',
-      description: 'The opening of Judges shows Israel&apos;s failure to fully drive out the Canaanites, setting the pattern for the cycles of compromise in the book.',
-    },
-    {
       id: 'sefaria-canaanites-not-drive-out',
       kind: 'study',
       source: 'Sefaria',

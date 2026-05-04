@@ -582,14 +582,6 @@ export const BARUCH_4: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/jerusalem/',
       description: 'Feminine imagery applied to Jerusalem in exile and restoration tradition.',
     },
-    {
-      id: 'sefaria-baruch-4',
-      kind: 'study',
-      source: 'Sefaria',
-      label: 'Baruch 4 — Hebrew + classical Jewish commentary',
-      url: 'https://www.sefaria.org/Baruch.4',
-      description: 'The Hebrew text of Baruch 4 alongside Rashi, Ibn Ezra, and other classical commentators.',
-    },
 
   ],
 

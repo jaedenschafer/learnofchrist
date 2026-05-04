@@ -163,22 +163,6 @@ export const PSALMS_7: RichChapterContent = {
       url: 'https://www.sefaria.org/Psalms.7',
       description: 'Lament against false accusers[res:sefaria-psalms-7] with medieval Jewish exegesis.',
     },
-    {
-      id: 'bible-odyssey-lament-vindication',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Psalms of Vindication',
-      url: 'https://www.bibleodyssey.org/dictionary/lament-psalms/',
-      description: 'Psalms calling on God to prove innocence and defeat enemies.',
-    },
-    {
-      id: 'bibleodyssey-psalter-laments',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Laments in the Psalter',
-      url: 'https://www.bibleodyssey.org/articles/laments/',
-      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
-    },
 
   ],
 

@@ -166,14 +166,6 @@ export const MATTHEW_1: RichChapterContent = {
       url: 'https://www.sefaria.org/Ruth.4',
       description: 'Ruth becomes the great-grandmother of King David; Matthew traces Jesus through this line.',
     },
-    {
-      id: 'bibleodyssey-parthenos',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Parthenos (Virgin Birth)',
-      url: 'https://www.bibleodyssey.org/dictionary/virgin-birth/',
-      description: 'Academic entry on the virginal conception and the Greek word parthenos in Isaiah 7:14.',
-    },
   ],
 
   hasHebrew: true,

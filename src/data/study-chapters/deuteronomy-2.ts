@@ -53,16 +53,8 @@ export const DEUTERONOMY_2: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Numbers 20–21 ↔ Deuteronomy 2',
-      url: 'https://intertextual.bible/text/numbers-20/deuteronomy-2',
+      url: 'https://intertextual.bible/search?q=Numbers+20+Deuteronomy+2',
       description: 'Comparison of the Sihon story in Numbers and its recounting in Deuteronomy.',
-    },
-    {
-      id: 'heshbon-archaeology-penn',
-      kind: 'archaeology',
-      source: 'Penn Museum',
-      label: 'Heshbon Excavation',
-      url: 'https://www.penn.museum/sites/expedition/heshbon/',
-      description: 'Archaeological study of Heshbon, where Sihon was defeated, excavated by the American School of Oriental Research.',
     },
   ],
 

@@ -537,14 +537,6 @@ export const JUDGES_10: RichChapterContent = {
 
   resources: [
     {
-      id: 'bibleodyssey-tola-jair',
-      kind: 'study',
-      source: 'Bible Odyssey',
-      label: 'Tola and Jair: Minor Judges',
-      url: 'https://www.bibleodyssey.org/passages/main-stories/judges',
-      description: 'The succession of lesser-known judges and continuity of leadership.',
-    },
-    {
       id: 'sefaria-ammon-oppression',
       kind: 'study',
       source: 'Sefaria',

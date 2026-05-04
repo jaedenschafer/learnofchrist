@@ -34,14 +34,6 @@ export const AMOS_3: RichChapterContent = {
       description: 'Primary sources on covenant partnership with God and the role of prophets as revealers of God&apos;s secret counsel.',
     },
     {
-      id: 'bibleodyssey-walk-together',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Walking with God in Covenant',
-      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-amos/',
-      description: 'Study of Amos 3:3 as the foundation for covenant alignment between God and His people.',
-    },
-    {
       id: 'sefaria-amos-3-v1',
       kind: 'study',
       source: 'Sefaria',

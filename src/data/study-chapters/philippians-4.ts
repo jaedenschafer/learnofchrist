@@ -623,7 +623,7 @@ export const PHILIPPIANS_4: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Philippians 4:13 — I Can Do All Things Through Christ',
-      url: 'https://intertextual.bible/text/philippians-4.13/',
+      url: 'https://intertextual.bible/search?q=Philippians+4+13+',
       description: 'The context of Paul&apos;s declaration of strength through Christ, rooted in his experience of suffering and contentment.',
     },
     {

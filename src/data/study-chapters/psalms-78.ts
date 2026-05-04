@@ -165,7 +165,7 @@ export const PSALMS_78: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Psalm 78 in Hebrews 1',
-      url: 'https://intertextual.bible/text/psalm-78/hebrews-1',
+      url: 'https://intertextual.bible/search?q=Psalm+78+Hebrews+1',
       description: 'New Testament connection showing how this Psalm is quoted or referenced.',
     },
   ],

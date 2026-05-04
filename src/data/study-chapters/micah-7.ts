@@ -186,14 +186,6 @@ export const MICAH_7: RichChapterContent = {
       description: 'Primary sources on Micah&apos;s lament and hope, and God&apos;s radical forgiveness that casts sins into the depths of the sea.',
     },
     {
-      id: 'bibleodyssey-micah-forgiveness',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'God&apos;s Mercy and Complete Forgiveness',
-      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-micah/',
-      description: 'Study of the theme of forgiveness and restoration that concludes the book of Micah in hope.',
-    },
-    {
       id: 'intertextual-micah-7-hebrews-9',
       kind: 'study',
       source: 'Intertextual Bible',

@@ -153,14 +153,6 @@ export const HABAKKUK_1: RichChapterContent = {
       description: 'Primary sources on Habakkuk&apos;s complaint and God&apos;s answer through the rise of the Chaldeans.',
     },
     {
-      id: 'bibleodyssey-habakkuk-faith',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Faith in the Darkness — Habakkuk&apos;s Question',
-      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-habakkuk/',
-      description: 'Study of the prophet&apos;s struggle with injustice and the nature of faith that questions.',
-    },
-    {
       id: 'intertextual-habakkuk-1-psalm-13',
       kind: 'study',
       source: 'Intertextual Bible',

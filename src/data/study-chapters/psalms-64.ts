@@ -136,22 +136,6 @@ export const PSALMS_64: RichChapterContent = {
       url: 'https://www.sefaria.org/Psalms.64',
       description: 'Prayer against slanders[res:sefaria-psalms-64] with Jewish commentary.',
     },
-    {
-      id: 'bible-odyssey-slander-psalms',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Psalms Against Slander',
-      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
-      description: 'Prayers against false accusation[res:bible-odyssey-slander-psalms] and deceitful speech.',
-    },
-    {
-      id: 'bibleodyssey-psalter-laments',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Laments in the Psalter',
-      url: 'https://www.bibleodyssey.org/articles/laments/',
-      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
-    },
 
   ],
 

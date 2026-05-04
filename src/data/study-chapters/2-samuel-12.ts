@@ -58,7 +58,7 @@ export const SAMUEL_2_12: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'God&apos;s Promise of a Faithful Son',
-      url: 'https://intertextual.bible/text/2-samuel-7',
+      url: 'https://intertextual.bible/search?q=2+Samuel+7',
       description: 'God&apos;s promise that David&apos;s son will build the temple and his dynasty will be eternal.',
     },
   ],

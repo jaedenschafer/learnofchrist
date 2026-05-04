@@ -139,14 +139,6 @@ export const ZECHARIAH_2: RichChapterContent = {
       url: 'https://intertextual.bible/search?query=zechariah+john',
       description: 'The fulfillment of Zechariah&apos;s prophecy of God dwelling in the midst in Christ&apos;s incarnation and tabernacling with humanity.',
     },
-    {
-      id: 'bibleodyssey-zechariah-restoration',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'God&apos;s Presence and the Restored City',
-      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-zechariah/',
-      description: 'Study of God&apos;s covenant presence with His people and the abundance that exceeds all human measure.',
-    },
   ],
 
   hasHebrew: true,

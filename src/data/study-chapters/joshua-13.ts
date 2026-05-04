@@ -361,14 +361,6 @@ export const JOSHUA_13: RichChapterContent = {
 
   resources: [
     {
-      id: 'bibleodyssey-tribal-inheritance',
-      kind: 'study',
-      source: 'Bible Odyssey',
-      label: 'Tribal Inheritance[res:bibleodyssey-tribal-inheritance] and Land Allotment',
-      url: 'https://www.bibleodyssey.org/passages/main-passage/joshua-13',
-      description: 'The division of the promised land among the twelve tribes, establishing Israel&apos;s permanent settlement and tribal territories.',
-    },
-    {
       id: 'sefaria-levites-inheritance-lord',
       kind: 'study',
       source: 'Sefaria',

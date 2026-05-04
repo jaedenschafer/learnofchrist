@@ -151,16 +151,8 @@ export const PSALMS_68: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Psalm 68 in Ephesians & Hebrews',
-      url: 'https://intertextual.bible/text/psalm-68',
+      url: 'https://intertextual.bible/search?q=Psalm+68',
       description: 'NT applies Psalm 68 to Christ&apos;s ascension and captives freed.',
-    },
-    {
-      id: 'bible-odyssey-triumphal-psalms',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Triumphal & Procession Psalms',
-      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
-      description: 'Psalms celebrating victory procession[res:bible-odyssey-triumphal-psalms]s and God&apos;s exaltation.',
     },
   ],
 

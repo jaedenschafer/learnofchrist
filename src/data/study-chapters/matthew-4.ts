@@ -210,14 +210,6 @@ export const MATTHEW_4: RichChapterContent = {
       url: 'https://www.sefaria.org/Psalms.91',
       description: 'The psalm the tempter misquotes at the second temptation, with its true context of God&apos;s protection for the faithful.',
     },
-    {
-      id: 'bibleodyssey-temptation',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Temptation of Jesus',
-      url: 'https://www.bibleodyssey.org/dictionary/temptation-of-jesus/',
-      description: 'Scholarly analysis of the three temptations and their significance for understanding Jesus&apos; mission and identity.',
-    },
   ],
 
   hasHebrew: false,

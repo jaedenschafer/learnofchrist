@@ -509,22 +509,6 @@ export const BARUCH_1: RichChapterContent = {
       url: 'https://www.sefaria.org/Jeremiah.25',
       description: 'Canonical theme paralleling Baruch&apos;s exile narrative and restoration hope.',
     },
-    {
-      id: 'bible-odyssey-babylonian-exile',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Babylonian Exile and Diaspora',
-      url: 'https://www.bibleodyssey.org/dictionary/babylonian-exile/',
-      description: 'SBL entry on historical and theological context of Judean exile.',
-    },
-    {
-      id: 'sefaria-baruch-1',
-      kind: 'study',
-      source: 'Sefaria',
-      label: 'Baruch 1 — Hebrew + classical Jewish commentary',
-      url: 'https://www.sefaria.org/Baruch.1',
-      description: 'The Hebrew text of Baruch 1 alongside Rashi, Ibn Ezra, and other classical commentators.',
-    },
 
   ],
 

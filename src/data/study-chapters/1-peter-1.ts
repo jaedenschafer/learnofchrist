@@ -721,7 +721,7 @@ export const FIRST_PETER_1: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'John 1:1–3 ↔ 1 Peter 1:23 (The Living Word)',
-      url: 'https://intertextual.bible/text/john-1.1/1-peter-1.23',
+      url: 'https://intertextual.bible/search?q=John+1+1+1+Peter+1+23',
       description: 'Cross-reference linking Peter&apos;s incorruptible seed to John&apos;s eternal Logos.',
     },
   ],

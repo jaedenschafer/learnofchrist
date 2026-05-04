@@ -42,14 +42,6 @@ export const EXODUS_35: RichChapterContent = {
       description: 'Hebrew text on gifts collected for sanctuary.',
     },
     {
-      id: 'oil-incense',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Anointing Oil & Incense',
-      url: 'https://www.bibleodyssey.org/dictionary/anointing/',
-      description: 'Formulas and theological significance.',
-    },
-    {
       id: 'sefaria-exodus-35',
       kind: 'study',
       source: 'Sefaria',

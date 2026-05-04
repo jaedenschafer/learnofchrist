@@ -726,14 +726,6 @@ export const JUDGES_16: RichChapterContent = {
 
   resources: [
     {
-      id: 'bibleodyssey-samson-gaza',
-      kind: 'study',
-      source: 'Bible Odyssey',
-      label: 'Samson in Gaza',
-      url: 'https://www.bibleodyssey.org/passages/main-stories/samson',
-      description: 'Samson&apos;s exploits and his entanglement with Delilah.',
-    },
-    {
       id: 'sefaria-delilah-betrayal',
       kind: 'study',
       source: 'Sefaria',

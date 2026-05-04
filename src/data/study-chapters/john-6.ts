@@ -196,16 +196,8 @@ export const JOHN_6: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Exodus 16 ↔ John 6',
-      url: 'https://intertextual.bible/text/exodus-16/john-6',
+      url: 'https://intertextual.bible/search?q=Exodus+16+John+6',
       description: 'Intertextual parallel showing how Jesus replaces the manna as the true bread from heaven.',
-    },
-    {
-      id: 'bible-odyssey-feeding',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Feeding of the Five Thousand',
-      url: 'https://www.bibleodyssey.org/dictionary/feeding-five-thousand/',
-      description: 'Open-access SBL resource on the feeding miracle, its theological meaning, and parallel accounts.',
     },
   ],
 

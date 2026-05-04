@@ -234,14 +234,6 @@ export const MATTHEW_2: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/bethlehem/',
       description: 'Archaeological evidence for Bethlehem as a settlement in the first century and its significance in Matthew&apos;s gospel.',
     },
-    {
-      id: 'bibleodyssey-herod',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Herod the Great',
-      url: 'https://www.bibleodyssey.org/dictionary/herod-the-great/',
-      description: 'Historical and biblical context for King Herod, his reign, and the threat he posed to the newborn Jesus.',
-    },
   ],
 
   hasHebrew: false,

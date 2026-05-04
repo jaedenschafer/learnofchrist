@@ -371,7 +371,7 @@ export const FIRST_PETER_3: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Psalm 34:12–16 ↔ 1 Peter 3:10–12 (Sanctified Living)',
-      url: 'https://intertextual.bible/text/psalm-34.12/1-peter-3.10',
+      url: 'https://intertextual.bible/search?q=Psalm+34+12+1+Peter+3+10',
       description: 'Cross-reference linking Peter&apos;s call to righteous living with the psalmist&apos;s counsel.',
     },
     {

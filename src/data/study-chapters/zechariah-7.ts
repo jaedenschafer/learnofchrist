@@ -140,14 +140,6 @@ export const ZECHARIAH_7: RichChapterContent = {
       url: 'https://intertextual.bible/search?query=zechariah+matthew',
       description: 'The parallel between Zechariah&apos;s critique of hollow religious practice and Christ&apos;s condemnation of Pharisaic hypocrisy.',
     },
-    {
-      id: 'bibleodyssey-zechariah-justice',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'True Religion: Justice, Mercy, and Heart Transformation',
-      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-zechariah/',
-      description: 'Study of God&apos;s concern for justice and the primacy of the heart over external religious observance.',
-    },
   ],
 
   hasHebrew: true,

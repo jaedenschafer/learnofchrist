@@ -504,7 +504,7 @@ export const LEVITICUS_22: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'The Lamb Without Blemish — 1 Peter 1:19',
-      url: 'https://intertextalbible.com',
+      url: 'https://intertextual.bible/',
       description: 'Jesus as the perfect, unblemished sacrifice fulfilling the Old Testament tamim language.',
     },
   ],

@@ -55,7 +55,7 @@ export const LEVITICUS_13: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Leviticus 13 ↔ Mark 1:40–45, Matthew 8:1–4',
-      url: 'https://intertextual.bible/text/leviticus-13/mark-1.40',
+      url: 'https://intertextual.bible/search?q=Leviticus+13+Mark+1+40',
       description: 'Side-by-side comparison of the Levitical isolation law and Jesus&apos; healing and cleansing of the leper[res:intertextual-matthew-8-mark-1-leviticus-13].',
     },
   ],

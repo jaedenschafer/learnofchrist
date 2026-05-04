@@ -175,14 +175,6 @@ export const PSALMS_47: RichChapterContent = {
       description: 'Hymn of God&apos;s universal kingship with Jewish commentary.',
     },
     {
-      id: 'bible-odyssey-enthronement-psalms',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Enthronement Psalms',
-      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
-      description: 'Psalms celebrating God&apos;s eternal reign and coronation.',
-    },
-    {
       id: 'bibleodyssey-korah-singers',
       kind: 'study',
       source: 'Bible Odyssey (SBL)',

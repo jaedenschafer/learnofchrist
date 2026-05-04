@@ -185,7 +185,7 @@ export const PSALMS_102: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Psalm 102 in Hebrews 1:10–12',
-      url: 'https://intertextual.bible/text/psalm-102/hebrews-1.10',
+      url: 'https://intertextual.bible/search?q=Psalm+102+Hebrews+1+10',
       description: 'New Testament connection showing how this Psalm is quoted or referenced.',
     },
   ],

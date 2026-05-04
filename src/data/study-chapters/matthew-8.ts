@@ -205,14 +205,6 @@ export const MATTHEW_8: RichChapterContent = {
       url: 'https://www.antiquities.org.il/article-1068-en.html',
       description: 'Archaeological findings of first-century Capernaum, including houses and the centurion&apos;s garrison, contextualizing Matthew&apos;s narratives.',
     },
-    {
-      id: 'bibleodyssey-miracles',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Miracles in the Gospels',
-      url: 'https://www.bibleodyssey.org/dictionary/miracle/',
-      description: 'Overview of miracle narratives in the gospels, including healing miracles and their theological significance.',
-    },
   ],
 
   hasHebrew: false,

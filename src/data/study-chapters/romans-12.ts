@@ -776,14 +776,6 @@ export const ROMANS_12: RichChapterContent = {
       description: 'Hebrew Bible text and commentary on the image of heaping coals of fire on an enemy&apos;s head as a path to transformation.',
     },
     {
-      id: 'theoi-body-politic',
-      kind: 'archive',
-      source: 'Theoi Classical Texts',
-      label: 'Greco-Roman Body Politic',
-      url: 'https://www.theoi.com/',
-      description: 'Classical texts illustrating the metaphor of the body as a unified political organism — the foundation of Paul&apos;s image of many members one body.',
-    },
-    {
       id: 'sefaria-leviticus-sacrifice',
       kind: 'study',
       source: 'Sefaria',

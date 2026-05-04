@@ -287,14 +287,6 @@ export const RUTH_3: RichChapterContent = {
 
   resources: [
     {
-      id: 'bibleodyssey-ruth-threshing-floor',
-      kind: 'study',
-      source: 'Bible Odyssey',
-      label: 'Ruth at the Threshing Floor',
-      url: 'https://www.bibleodyssey.org/passages/main-stories/ruth',
-      description: 'The proposal scene and the customs of redemption and marriage in ancient Israel.',
-    },
-    {
       id: 'sefaria-goel-redeemer',
       kind: 'study',
       source: 'Sefaria',

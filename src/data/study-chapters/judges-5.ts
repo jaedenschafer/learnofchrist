@@ -574,14 +574,6 @@ export const JUDGES_5: RichChapterContent = {
 
   resources: [
     {
-      id: 'bibleodyssey-song-deborah',
-      kind: 'study',
-      source: 'Bible Odyssey',
-      label: 'The Song of Deborah: Victory in Verse',
-      url: 'https://www.bibleodyssey.org/passages/main-passage/judges-5',
-      description: 'The poetic account of Deborah&apos;s victory, celebrating the triumph over Sisera and the tribal response to the call to war.',
-    },
-    {
       id: 'sefaria-victory-song-ancient',
       kind: 'study',
       source: 'Sefaria',

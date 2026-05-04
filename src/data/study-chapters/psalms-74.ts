@@ -149,14 +149,6 @@ export const PSALMS_74: RichChapterContent = {
       description: 'Lament over temple destruction with Jewish commentary.',
     },
     {
-      id: 'bible-odyssey-temple-destruction',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Temple Destruction & Renewal',
-      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
-      description: 'Psalms grieving desecration[res:bible-odyssey-temple-destruction] of the sanctuary.',
-    },
-    {
       id: 'bibleodyssey-asaph',
       kind: 'study',
       source: 'Bible Odyssey (SBL)',

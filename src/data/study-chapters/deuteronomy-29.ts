@@ -37,14 +37,6 @@ export const DEUTERONOMY_29: RichChapterContent = {
       description: 'Open-access source text and rabbinic commentary on the covenant renewal assembly [res:sefaria-deuteronomy-29] where all Israel affirms the covenant with God.',
     },
     {
-      id: 'covenant-renewal-ceremony-ancient-practice-bible-odyssey',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Covenant Renewal and the Assembly',
-      url: 'https://www.bibleodyssey.org/topical-article/covenant/',
-      description: 'Explores the theological significance of periodic covenant renewal [res:covenant-renewal-ceremony-ancient-practice-bible-odyssey] where each generation recommits to the covenant made at Sinai.',
-    },
-    {
       id: 'idolatry-secret-roots-apostasy-hidden-heart',
       kind: 'study',
       source: 'Intertextual Bible',

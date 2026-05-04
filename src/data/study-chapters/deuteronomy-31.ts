@@ -31,14 +31,6 @@ export const DEUTERONOMY_31: RichChapterContent = {
       description: 'Open-access source text and rabbinic commentary on Joshua&apos;s commissioning, the Torah scroll [res:sefaria-deuteronomy-31], and triennial Torah reading mandate.',
     },
     {
-      id: 'joshua-successor-leadership-transition-bible-odyssey',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Joshua as Successor and Leadership Transition',
-      url: 'https://www.bibleodyssey.org/topical-article/joshua/',
-      description: 'Explores how Joshua is commissioned [res:joshua-successor-leadership-transition-bible-odyssey] as Moses&apos; successor to lead Israel into the promised land and fulfill covenant conquest.',
-    },
-    {
       id: 'torah-reading-cycle-covenant-memory-practice',
       kind: 'study',
       source: 'Intertextual Bible',

@@ -240,16 +240,8 @@ export const PSALMS_18: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Psalm 18 in the New Testament',
-      url: 'https://intertextual.bible/text/psalm-18',
+      url: 'https://intertextual.bible/search?q=Psalm+18',
       description: 'NT use of Psalm 18 language to describe Christ&apos;s victory[res:intertextual-psalms-18-nt].',
-    },
-    {
-      id: 'bible-odyssey-victory-psalms',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Psalms of Victory & Deliverance',
-      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
-      description: 'Psalms celebrating military victory and divine rescue[res:bible-odyssey-victory-psalms].',
     },
   ],
 

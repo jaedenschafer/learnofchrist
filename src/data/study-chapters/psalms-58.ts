@@ -137,22 +137,6 @@ export const PSALMS_58: RichChapterContent = {
       url: 'https://www.sefaria.org/Psalms.58',
       description: 'Prayer against unjust judges with Jewish commentary.',
     },
-    {
-      id: 'bible-odyssey-justice-theme',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Justice & Judgment',
-      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
-      description: 'Psalms demanding righteous judgment against corruption[res:bible-odyssey-justice-theme].',
-    },
-    {
-      id: 'bibleodyssey-psalter-laments',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Laments in the Psalter',
-      url: 'https://www.bibleodyssey.org/articles/laments/',
-      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
-    },
 
   ],
 

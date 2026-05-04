@@ -698,22 +698,6 @@ export const TITUS_3: RichChapterContent = {
 
   resources: [
     {
-      id: 'titus3-regeneration-sefaria',
-      kind: 'study',
-      source: 'Sefaria',
-      label: 'Titus 3 · Regeneration and Renewal',
-      url: 'https://www.sefaria.org/Titus.3',
-      description: 'A collection of classical and modern sources examining the doctrine of spiritual rebirth and the renewing work of the Holy Ghost in the believer&apos;s life.',
-    },
-    {
-      id: 'titus3-slavery-bible-odyssey',
-      kind: 'study',
-      source: 'Bible Odyssey',
-      label: 'Slavery, Manumission, and the Gospel',
-      url: 'https://www.bibleodyssey.org/passages/related-articles/what-does-the-bible-say-about-slavery',
-      description: 'An historical and theological study of Greco-Roman slavery practices and the early church&apos;s response to bondage as a metaphor and reality of human condition.',
-    },
-    {
       id: 'titus3-pastoral-letters-brill',
       kind: 'study',
       source: 'Brill',

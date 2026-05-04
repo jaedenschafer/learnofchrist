@@ -516,22 +516,6 @@ export const SECOND_CORINTHIANS_9: RichChapterContent = {
       url: 'https://intertextual.bible/text/psalm-112.9/2-corinthians-9.9',
       description: 'The righteous scattered abroad and gave to the poor; his righteousness remains forever—the foundation for Paul&apos;s vision of lasting generosity.',
     },
-    {
-      id: 'sefaria-2-corinthians-9',
-      kind: 'study',
-      source: 'Sefaria',
-      label: '2 Corinthians 9 — Full Text & Connections',
-      url: 'https://www.sefaria.org/2-Corinthians.9',
-      description: 'Open-access text with links to Old Testament passages on giving, thanksgiving, and God&apos;s abundance.',
-    },
-    {
-      id: 'bibleodyssey-cheerful-giver',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'The Cheerful Giver',
-      url: 'https://www.bibleodyssey.org/dictionary/cheerful-giver/',
-      description: 'SBL entry on hilaros—giving with joy rooted not in personal wealth but in trust in God&apos;s faithfulness.',
-    },
   ],
 
   hasHebrew: false,

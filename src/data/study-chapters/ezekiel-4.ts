@@ -109,19 +109,11 @@ export const EZEKIEL_4: RichChapterContent = {
       description: 'Cuneiform and archaeological evidence of Babylon under Nebuchadnezzar.',
     },
     {
-      id: 'bibleodyssey-ezekiel',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Ezekiel',
-      url: 'https://www.bibleodyssey.org/passages/main-articles/ezekiel/',
-      description: 'Peer-reviewed SBL entry on the prophet Ezekiel and the Babylonian exile.',
-    },
-    {
       id: 'ezekiel-revelation-intertextual',
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Ezekiel Temple Vision ↔ Revelation 21-22',
-      url: 'https://intertextual.bible/text/ezekiel-40/revelation-21',
+      url: 'https://intertextual.bible/search?q=Ezekiel+40+Revelation+21',
       description: 'Side-by-side comparison of Ezekiel&apos;s temple vision and John&apos;s new creation.',
     }
   ],

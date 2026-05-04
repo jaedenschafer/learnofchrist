@@ -41,14 +41,6 @@ export const DEUTERONOMY_20: RichChapterContent = {
       description: 'Open-access source text and rabbinic commentary on warfare protocols [res:sefaria-deuteronomy-20], exemptions from military service, and rules of siege.',
     },
     {
-      id: 'herem-holy-war-ancient-israel-conquest-bible-odyssey',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Holy War and the Conquest Narrative',
-      url: 'https://www.bibleodyssey.org/topical-article/holy-war/',
-      description: 'Theological examination of herem (devoted to destruction) [res:herem-holy-war-ancient-israel-conquest-bible-odyssey] warfare in the context of covenant conquest and divine judgment.',
-    },
-    {
       id: 'siege-warfare-ancient-near-east-archaeology',
       kind: 'archaeology',
       source: 'Oriental Institute',

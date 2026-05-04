@@ -34,14 +34,6 @@ export const AMOS_8: RichChapterContent = {
       description: 'Primary sources on the judgment of famine for God&apos;s word as the deepest spiritual deprivation.',
     },
     {
-      id: 'bibleodyssey-famine-word',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Famine of God&apos;s Word — Amos 8:11-12',
-      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-amos/',
-      description: 'Study of spiritual famine as the consequence of rejecting God&apos;s prophetic word.',
-    },
-    {
       id: 'sefaria-amos-8-v1',
       kind: 'study',
       source: 'Sefaria',

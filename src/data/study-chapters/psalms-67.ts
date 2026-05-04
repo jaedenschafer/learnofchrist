@@ -170,14 +170,6 @@ export const PSALMS_67: RichChapterContent = {
       description: 'Blessing hymn for all nations with Jewish commentary.',
     },
     {
-      id: 'bible-odyssey-mission-psalms',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Mission & Universal Praise',
-      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
-      description: 'Psalms on God&apos;s blessing extending to all nations.',
-    },
-    {
       id: 'bibleodyssey-hymns-praise',
       kind: 'study',
       source: 'Bible Odyssey (SBL)',

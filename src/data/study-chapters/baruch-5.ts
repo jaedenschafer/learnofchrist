@@ -44,14 +44,6 @@ export const BARUCH_5: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/diaspora/',
       description: 'Diaspora identity, hope, and community formation in exile literature.',
     },
-    {
-      id: 'sefaria-baruch-5',
-      kind: 'study',
-      source: 'Sefaria',
-      label: 'Baruch 5 — Hebrew + classical Jewish commentary',
-      url: 'https://www.sefaria.org/Baruch.5',
-      description: 'The Hebrew text of Baruch 5 alongside Rashi, Ibn Ezra, and other classical commentators.',
-    },
 
   ],
 

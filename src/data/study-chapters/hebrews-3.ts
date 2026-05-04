@@ -614,16 +614,8 @@ export const HEBREWS_3: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Exodus Wilderness — Unbelief and Rebellion',
-      url: 'https://intertextual.bible/text/exodus-14/hebrews-3.16-19',
+      url: 'https://intertextual.bible/search?q=Exodus+14+Hebrews+3+16+19',
       description: 'Cross-references the Exodus rebellion with Hebrews&apos; application to Christian perseverance.',
-    },
-    {
-      id: 'cambridge-hebrews-rest',
-      kind: 'study',
-      source: 'Cambridge UP',
-      label: 'Rest in Hebrews: Entry and Inheritance',
-      url: 'https://www.cambridge.org/core/books/hebrews/C5E1D0A7F2B8E9F1',
-      description: 'Scholarly treatment of the rest motif and its OT roots in Hebrews 3–4.',
     },
   ],
 

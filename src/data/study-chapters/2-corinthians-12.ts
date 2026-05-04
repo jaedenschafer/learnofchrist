@@ -51,16 +51,8 @@ export const SECOND_CORINTHIANS_12: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: '2 Corinthians 12:7–9 ↔ Galatians 4:13–14',
-      url: 'https://intertextual.bible/text/2-corinthians-12.7/galatians-4.13',
+      url: 'https://intertextual.bible/search?q=2+Corinthians+12+7+Galatians+4+13',
       description: 'Cross-reference showing how Paul&apos;s physical weakness becomes the occasion for believers to see Christ&apos;s strength working through him.',
-    },
-    {
-      id: 'sefaria-2-corinthians-12',
-      kind: 'study',
-      source: 'Sefaria',
-      label: '2 Corinthians 12 — Hebrew + classical Jewish commentary',
-      url: 'https://www.sefaria.org/II_Corinthians.12',
-      description: 'The Hebrew text of 2 Corinthians 12 alongside Rashi, Ibn Ezra, and other classical commentators.',
     },
 
   ],

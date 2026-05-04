@@ -81,19 +81,11 @@ export const JEREMIAH_36: RichChapterContent = {
     ref: 'Jeremiah 36 · Study Guide',
   },  resources: [
     {
-      id: 'bibleodyssey-jeremiah',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Jeremiah',
-      url: 'https://www.bibleodyssey.org/passages/main-articles/jeremiah/',
-      description: 'Peer-reviewed SBL entry on the prophet Jeremiah and his historical context.',
-    },
-    {
       id: 'jer31-hebrews-intertextual',
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Jeremiah 31 ↔ Hebrews 8:8–12',
-      url: 'https://intertextual.bible/text/jeremiah-31/hebrews-8',
+      url: 'https://intertextual.bible/search?q=Jeremiah+31+Hebrews+8',
       description: 'Side-by-side comparison of the new covenant promise in Jeremiah quoted in Hebrews.',
     },
     {

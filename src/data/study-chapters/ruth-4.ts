@@ -451,14 +451,6 @@ export const RUTH_4: RichChapterContent = {
 
   resources: [
     {
-      id: 'bibleodyssey-ruth-boaz-marry',
-      kind: 'study',
-      source: 'Bible Odyssey',
-      label: 'Ruth and Boaz Marry',
-      url: 'https://www.bibleodyssey.org/passages/main-stories/ruth',
-      description: 'The legal process, community witness, and the birth of Obed.',
-    },
-    {
       id: 'sefaria-david-genealogy',
       kind: 'study',
       source: 'Sefaria',

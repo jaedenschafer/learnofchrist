@@ -47,14 +47,6 @@ export const GENESIS_13: RichChapterContent = {
       url: 'https://www.penn.museum/collections/west-asia/',
       description: 'Ancient Near Eastern documents illuminating family customs, inheritance disputes, and pastoral economies in Abraham&apos;s world.',
     },
-    {
-      id: 'bibleodyssey-abraham-covenant',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Abraham and the Covenant',
-      url: 'https://www.bibleodyssey.org/articles/abraham-sarah/',
-      description: 'SBL article exploring Abraham&apos;s faith, trust in God&apos;s promise despite what his eyes see, and the foundations of the covenant.',
-    },
   ],
 
   sections: [

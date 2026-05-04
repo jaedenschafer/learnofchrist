@@ -169,14 +169,6 @@ export const LUKE_22: RichChapterContent = {
       url: 'https://www.sefaria.org/search?q=prayer%20submission%20suffering%20God%20will&tab=text',
       description: 'Sefaria texts on prayer, anguish, and submission to the divine will in Jewish spirituality.',
     },
-    {
-      id: 'bible-odyssey-judas',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Judas and Betrayal in the Gospel Narrative',
-      url: 'https://www.bibleodyssey.org/dictionary/judas-iscariot/',
-      description: 'Open-access entry on Judas, his role as an apostle, and the meaning of his betrayal.',
-    },
   ],
 
   hasHebrew: false,

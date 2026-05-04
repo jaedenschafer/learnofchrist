@@ -176,14 +176,6 @@ export const PSALMS_50: RichChapterContent = {
       description: 'Covenant lawsuit psalm with Jewish medieval interpretation.',
     },
     {
-      id: 'bible-odyssey-covenant-psalms',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Covenant & Judgment Psalms',
-      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
-      description: 'Psalms on God&apos;s covenantal lawsuit against false worship.',
-    },
-    {
       id: 'bibleodyssey-asaph',
       kind: 'study',
       source: 'Bible Odyssey (SBL)',

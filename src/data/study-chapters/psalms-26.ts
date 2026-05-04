@@ -145,22 +145,6 @@ export const PSALMS_26: RichChapterContent = {
       url: 'https://www.sefaria.org/Psalms.26',
       description: 'Psalm of innocence with medieval Jewish interpretation.',
     },
-    {
-      id: 'bible-odyssey-integrity-psalms',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Psalms of Integrity & Innocence',
-      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
-      description: 'Psalms asserting righteousness and calling God to witness.',
-    },
-    {
-      id: 'bibleodyssey-psalter-laments',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Laments in the Psalter',
-      url: 'https://www.bibleodyssey.org/articles/laments/',
-      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
-    },
 
   ],
 

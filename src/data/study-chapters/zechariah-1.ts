@@ -137,14 +137,6 @@ export const ZECHARIAH_1: RichChapterContent = {
       url: 'https://intertextual.bible/search?query=zechariah+revelation',
       description: 'The connection between Zechariah&apos;s vision of the horseman and John&apos;s vision of Christ returning on a white horse as the faithful and true witness.',
     },
-    {
-      id: 'bibleodyssey-zechariah-visions',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'The Night Visions and God&apos;s Faithfulness',
-      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-zechariah/',
-      description: 'Study of Zechariah&apos;s visionary prophecies and their message of God&apos;s continued care and covenant faithfulness toward His people.',
-    },
   ],
 
   hasHebrew: true,

@@ -174,14 +174,6 @@ export const PSALMS_49: RichChapterContent = {
       description: 'Wisdom psalm on the futility of wealth with Jewish commentary.',
     },
     {
-      id: 'bible-odyssey-wisdom-theme',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Wisdom Psalms',
-      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
-      description: 'Psalms teaching wisdom through reflection on life and conduct.',
-    },
-    {
       id: 'bibleodyssey-korah-singers',
       kind: 'study',
       source: 'Bible Odyssey (SBL)',

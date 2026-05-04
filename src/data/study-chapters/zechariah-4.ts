@@ -138,14 +138,6 @@ export const ZECHARIAH_4: RichChapterContent = {
       url: 'https://intertextual.bible/search?query=zechariah+luke',
       description: 'The connection between Zechariah&apos;s vision of Spirit-empowered work and Christ&apos;s declaration that the Spirit of the Lord rests upon Him.',
     },
-    {
-      id: 'bibleodyssey-zechariah-spirit',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'The Spirit of God Empowering Restoration',
-      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-zechariah/',
-      description: 'Study of the Holy Spirit as the source of spiritual power and the role of the Spirit in accomplishing God&apos;s purposes.',
-    },
   ],
 
   hasHebrew: true,

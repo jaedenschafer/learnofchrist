@@ -193,7 +193,7 @@ export const JOHN_18: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Psalm 85:10 ↔ John 18:37',
-      url: 'https://intertextual.bible/text/psalm-85.10/john-18.37',
+      url: 'https://intertextual.bible/search?q=Psalm+85+10+John+18+37',
       description: 'Jesus as the incarnate truth, fulfilling the Old Testament&apos;s vision of truth and righteousness.',
     },
   ],

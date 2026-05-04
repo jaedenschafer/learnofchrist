@@ -802,14 +802,6 @@ export const JUDGES_18: RichChapterContent = {
 
   resources: [
     {
-      id: 'bibleodyssey-dan-migration',
-      kind: 'study',
-      source: 'Bible Odyssey',
-      label: 'The Tribe of Dan&apos;s Migration',
-      url: 'https://www.bibleodyssey.org/passages/main-stories/judges',
-      description: 'The relocation of an entire tribe and territorial displacement.',
-    },
-    {
       id: 'sefaria-danites-idolatry',
       kind: 'study',
       source: 'Sefaria',

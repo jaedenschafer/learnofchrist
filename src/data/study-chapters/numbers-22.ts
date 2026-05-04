@@ -532,7 +532,7 @@ export const NUMBERS_22: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Numbers 22 ↔ Jude 11',
-      url: 'https://intertextual.bible/text/numbers-22/jude-11',
+      url: 'https://intertextual.bible/search?q=Numbers+22+Jude+11',
       description: 'Jude warns against following the way of Balaam, who ran greedily after error for reward.',
     },
   ],

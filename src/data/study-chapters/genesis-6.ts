@@ -419,13 +419,5 @@ export const GENESIS_6: RichChapterContent = {
       url: 'https://www.britishmuseum.org/collection/search?object=Atrahasis',
       description: 'Neo-Babylonian flood narrative showing parallels and contrasts with Genesis account.',
     },
-    {
-      id: 'bibleodyssey-flood-narratives',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Flood Narratives in the Ancient Near East',
-      url: 'https://www.bibleodyssey.org/articles/flood-narratives-ancient-near-east/',
-      description: 'SBL comparison of Genesis flood account with Mesopotamian parallels.',
-    },
   ],
 };

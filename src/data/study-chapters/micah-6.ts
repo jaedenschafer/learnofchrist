@@ -170,14 +170,6 @@ export const MICAH_6: RichChapterContent = {
       description: 'Primary sources on God&apos;s covenant lawsuit and the core moral requirements of justice, mercy, and humility.',
     },
     {
-      id: 'bibleodyssey-micah-moral-law',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'The Heart of the Law — Justice, Mercy, and Humility',
-      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-micah/',
-      description: 'Study of Micah&apos;s distillation of God&apos;s moral law and how it transcends external ritual.',
-    },
-    {
       id: 'intertextual-micah-6-matthew-23',
       kind: 'study',
       source: 'Intertextual Bible',

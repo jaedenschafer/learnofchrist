@@ -128,22 +128,6 @@ export const PSALMS_54: RichChapterContent = {
       url: 'https://www.sefaria.org/Psalms.54',
       description: 'Prayer for deliverance from enemies with Jewish commentary.',
     },
-    {
-      id: 'bible-odyssey-protection-prayer',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Prayer for Protection',
-      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
-      description: 'Prayers calling for rescue[res:bible-odyssey-protection-prayer] from adversaries and harm.',
-    },
-    {
-      id: 'bibleodyssey-psalter-laments',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Laments in the Psalter',
-      url: 'https://www.bibleodyssey.org/articles/laments/',
-      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
-    },
 
   ],
 

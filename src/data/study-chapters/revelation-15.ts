@@ -399,14 +399,6 @@ export const REVELATION_15: RichChapterContent = {
       url: 'https://www.sefaria.org/Psalms.113',
       description: 'Hymn of praise establishing God&apos;s exaltation — echoed in the saints&apos; worship before the seven plagues.',
     },
-    {
-      id: 'bibleodyssey-plagues-revelation',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'The Seven Last Plagues',
-      url: 'https://www.bibleodyssey.org/dictionary/last-plagues/',
-      description: 'Study connecting the Egyptian plagues and the final bowl judgments in Revelation.',
-    },
   ],
 
   hasHebrew: false,

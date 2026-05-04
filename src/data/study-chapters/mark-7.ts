@@ -244,14 +244,6 @@ export const MARK_7: RichChapterContent = {
       description: 'Torah texts on purity law that frame the Pharisaic tradition Jesus confronts.',
     },
     {
-      id: 'bible-odyssey-gentiles-covenant',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Gentiles & Covenant Community',
-      url: 'https://www.bibleodyssey.org/dictionary/gentiles/',
-      description: 'Open-access entry on Gentile status in first-century Judaism and the significance of Jesus healing a Gentile woman.',
-    },
-    {
       id: 'perseus-defiled',
       kind: 'lexicon',
       source: 'Perseus Scaife',

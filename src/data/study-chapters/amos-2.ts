@@ -34,14 +34,6 @@ export const AMOS_2: RichChapterContent = {
       description: 'Primary sources on Amos&apos;s prophetic indictment of Israel&apos;s social injustice and covenant violations.',
     },
     {
-      id: 'bibleodyssey-amos-justice',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Justice in Amos',
-      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-amos/',
-      description: 'Amos&apos;s prophetic demands for justice — feeding the hungry, care for the poor, integrity in commerce.',
-    },
-    {
       id: 'sefaria-amos-2-v1',
       kind: 'study',
       source: 'Sefaria',

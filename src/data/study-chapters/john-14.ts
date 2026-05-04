@@ -188,7 +188,7 @@ export const JOHN_14: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Exodus 33:18–23 ↔ John 14:9–10',
-      url: 'https://intertextual.bible/text/exodus-33.18-23/john-14.9-10',
+      url: 'https://intertextual.bible/search?q=Exodus+33+18+23+John+14+9+10',
       description: 'How Jesus fulfills the human longing to see God&apos;s face.',
     },
     {

@@ -198,22 +198,6 @@ export const PSALMS_9: RichChapterContent = {
       url: 'https://www.sefaria.org/Psalms.9',
       description: 'Acrostic psalm of thanksgiving for victory with Jewish commentary.',
     },
-    {
-      id: 'bible-odyssey-thanksgiving-psalms',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Thanksgiving Psalms',
-      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
-      description: 'Psalms sung after deliverance, celebrating God&apos;s rescue.',
-    },
-    {
-      id: 'bibleodyssey-psalter-laments',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Laments in the Psalter',
-      url: 'https://www.bibleodyssey.org/articles/laments/',
-      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
-    },
 
   ],
 

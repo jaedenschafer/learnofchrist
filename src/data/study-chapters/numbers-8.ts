@@ -190,14 +190,6 @@ export const NUMBERS_8: RichChapterContent = {
       description: 'Talmudic and rabbinic commentary on the Levite cleansing ritual, the laying on of hands ceremony, and the wave offering of the entire tribe[res:sefaria-wave-offering].',
     },
     {
-      id: 'bible-odyssey-menorah',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'The Menorah — Symbol of God&apos;s Light',
-      url: 'https://www.bibleodyssey.org/dictionary/menorah/',
-      description: 'Explanation of the seven-branched menorah, its construction, symbolism as the light of God&apos;s presence, and its significance in temple worship and Jewish tradition.',
-    },
-    {
       id: 'sefaria-wave-offering',
       kind: 'study',
       source: 'Sefaria',

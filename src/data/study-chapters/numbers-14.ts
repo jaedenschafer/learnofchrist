@@ -489,16 +489,8 @@ export const NUMBERS_14: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Numbers 14 ↔ Hebrews 3–4',
-      url: 'https://intertextual.bible/text/numbers-14/hebrews-3',
+      url: 'https://intertextual.bible/search?q=Numbers+14+Hebrews+3',
       description: 'Cross-references showing how Hebrews treats Israel&apos;s wilderness generation as a warning against hardening the heart toward the rest in Christ.',
-    },
-    {
-      id: 'bible-odyssey-wilderness-generation',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Wilderness Generation',
-      url: 'https://www.bibleodyssey.org/passages/related-articles/wilderness-generation/',
-      description: 'SBL overview of the forty-year wilderness period and its role as a testing ground for faith and obedience.',
     },
   ],
 };

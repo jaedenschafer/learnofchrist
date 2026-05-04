@@ -182,14 +182,6 @@ export const MARK_5: RichChapterContent = {
 
   resources: [
     {
-      id: 'bible-odyssey-demon-possession',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Demon Possession & Exorcism',
-      url: 'https://www.bibleodyssey.org/dictionary/demons/',
-      description: 'Open-access entry on demonic forces in first-century Jewish and Christian understanding and their relationship to illness and bondage.',
-    },
-    {
       id: 'sefaria-hemorrhage-purity',
       kind: 'study',
       source: 'Sefaria',
@@ -202,7 +194,7 @@ export const MARK_5: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Ezekiel 37 ↔ Mark 5:41 (Resurrection)',
-      url: 'https://intertextual.bible/text/ezekiel-37/mark-5.41',
+      url: 'https://intertextual.bible/search?q=Ezekiel+37+Mark+5+41',
       description: 'Intertextual link connecting Jesus&apos; raising of Jairus&apos; daughter to OT resurrection passages.',
     },
   ],

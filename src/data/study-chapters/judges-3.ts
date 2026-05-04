@@ -34,14 +34,6 @@ export const JUDGES_3: RichChapterContent = {
 
   resources: [
     {
-      id: 'bibleodyssey-othniel-ehud-shamgar',
-      kind: 'study',
-      source: 'Bible Odyssey',
-      label: 'The First Three Judges: Othniel, Ehud, and Shamgar',
-      url: 'https://www.bibleodyssey.org/passages/main-passage/judges-3',
-      description: 'The first deliverers God raised up: Othniel filled with the Spirit, Ehud the left-handed warrior, and Shamgar with an ox goad.',
-    },
-    {
       id: 'sefaria-spirit-lord-judges',
       kind: 'study',
       source: 'Sefaria',

@@ -152,19 +152,11 @@ export const PSALMS_20: RichChapterContent = {
       description: 'Intercession for the king with Jewish medieval interpretation.',
     },
     {
-      id: 'bible-odyssey-corporate-psalms',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Communal Petition Psalms',
-      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
-      description: 'Psalms of intercession[res:bible-odyssey-corporate-psalms] on behalf of the nation and leader.',
-    },
-    {
       id: 'intertextual-psalms-20-nt',
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Psalm 20 ↔ New Testament',
-      url: 'https://intertextual.bible/text/psalms-20',
+      url: 'https://intertextual.bible/search?q=Psalms+20',
       description: 'New Testament writers cite or echo Psalm 20 in shaping their proclamation of Christ.',
     },
 

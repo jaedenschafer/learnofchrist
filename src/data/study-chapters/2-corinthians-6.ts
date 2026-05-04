@@ -596,16 +596,8 @@ export const SECOND_CORINTHIANS_6: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Isaiah 49:8 ↔ 2 Corinthians 6:2',
-      url: 'https://intertextual.bible/text/isaiah-49.8/2-corinthians-6.2',
+      url: 'https://intertextual.bible/search?q=Isaiah+49+8+2+Corinthians+6+2',
       description: 'Side-by-side comparison of the servant passage Paul quotes: "now is the accepted time" and "day of salvation."',
-    },
-    {
-      id: 'bibleodyssey-unequal-yoke',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Unequal Yoking',
-      url: 'https://www.bibleodyssey.org/dictionary/unequal-yoke/',
-      description: 'Exploration of the agricultural image and its application to partnerships that compromise faith commitments.',
     },
   ],
 

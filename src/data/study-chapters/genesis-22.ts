@@ -492,13 +492,5 @@ export const GENESIS_22: RichChapterContent = {
       url: 'https://oi.uchicago.edu/',
       description: 'Archaeological and historical analysis of Mount Moriah, ancient temple sites, and the geography of Abraham&apos;s era.',
     },
-    {
-      id: 'bibleodyssey-abraham-isaac',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Isaac and Abraham&apos;s Covenant',
-      url: 'https://www.bibleodyssey.org/articles/abraham-sarah/',
-      description: 'SBL article on the Akedah, faith tested, God&apos;s substitution, and Christ as the fulfillment of the type.',
-    },
   ],
 };

@@ -823,7 +823,7 @@ export const NUMBERS_16: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Numbers 16 ↔ Jude 11',
-      url: 'https://intertextual.bible/text/numbers-16/jude-11',
+      url: 'https://intertextual.bible/search?q=Numbers+16+Jude+11',
       description: 'Cross-reference showing how Jude applies Korah&apos;s rebellion as a warning of presumption and rebellion against authority.',
     },
     {

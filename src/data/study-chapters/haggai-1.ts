@@ -160,14 +160,6 @@ export const HAGGAI_1: RichChapterContent = {
       url: 'https://intertextual.bible/search?query=haggai+matthew',
       description: 'The connection between Haggai&apos;s call to prioritize God&apos;s house and Christ&apos;s teaching to seek first God&apos;s kingdom.',
     },
-    {
-      id: 'bibleodyssey-haggai-priorities',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Priorities and the Rebuilt Temple',
-      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-haggai/',
-      description: 'Study of misaligned priorities, the consequences of neglecting God&apos;s work, and the restoration through obedience.',
-    },
   ],
 
   hasHebrew: true,

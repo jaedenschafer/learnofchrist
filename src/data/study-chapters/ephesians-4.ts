@@ -686,14 +686,6 @@ export const EPHESIANS_4: RichChapterContent = {
       description: 'Explores the dichotomy in Ephesians 4:17 between walking as a believer in Christ and walking in the empty patterns of those without Christ&apos;s transformation.',
     },
     {
-      id: 'sefaria-romans-6-identity',
-      kind: 'study',
-      source: 'Sefaria',
-      label: 'Romans 6 — Putting Off the Old Self',
-      url: 'https://www.sefaria.org/Romans.6',
-      description: 'Paul&apos;s foundational teaching that believers have died to the old self through baptism into Christ&apos;s death and resurrection.',
-    },
-    {
       id: 'bibleodyssey-forgiveness-grace',
       kind: 'study',
       source: 'Bible Odyssey (SBL)',
@@ -716,14 +708,6 @@ export const EPHESIANS_4: RichChapterContent = {
       label: 'Unity and Diversity of Gifts',
       url: 'https://www.intertextual.org/reader/Ephesians-4',
       description: 'Traces how one Spirit distributes diverse gifts to build up the one body of Christ.',
-    },
-    {
-      id: 'bibleodyssey-gifts',
-      kind: 'study',
-      source: 'Bible Odyssey',
-      label: 'Spiritual Gifts in Paul',
-      url: 'https://www.bibleodyssey.org/passage/topic/spiritual-gifts',
-      description: 'Surveys how Paul understands spiritual gifts as manifestations of the Spirit given for the common good.',
     },
   ],
 };

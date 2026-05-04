@@ -156,14 +156,6 @@ export const MICAH_2: RichChapterContent = {
       description: 'Primary sources on the judgment of those who oppress the poor and God&apos;s promise to gather His remnant.',
     },
     {
-      id: 'bibleodyssey-micah-justice',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Justice and Mercy — Micah&apos;s Vision',
-      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-micah/',
-      description: 'Study of Micah&apos;s call for justice toward the oppressed and God&apos;s covenant faithfulness to His people.',
-    },
-    {
       id: 'intertextual-micah-2-exodus',
       kind: 'study',
       source: 'Intertextual Bible',

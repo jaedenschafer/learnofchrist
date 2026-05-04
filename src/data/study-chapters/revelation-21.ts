@@ -530,7 +530,7 @@ export const REVELATION_21: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Genesis 2–3 ↔ Revelation 21–22',
-      url: 'https://intertextual.bible/text/genesis-2/revelation-21.1',
+      url: 'https://intertextual.bible/search?q=Genesis+2+Revelation+21+1',
       description: 'The garden returning — from Eden lost to Eden restored as the new Jerusalem.',
     },
   ],

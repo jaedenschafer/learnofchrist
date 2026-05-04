@@ -165,19 +165,11 @@ export const LUKE_3: RichChapterContent = {
 
   resources: [
     {
-      id: 'bible-odyssey-prophecy',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Prophecy & the Prophetic Office',
-      url: 'https://www.bibleodyssey.org/dictionary/prophecy/',
-      description: 'Open-access entry on biblical prophecy and how God&apos;s word comes upon the prophets, examining John&apos;s prophetic role and calling.',
-    },
-    {
       id: 'intertextual-adam-christ',
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Adam & Christ Typology (OT ↔ NT)',
-      url: 'https://intertextual.bible/text/genesis-1/luke-3.38',
+      url: 'https://intertextual.bible/search?q=Genesis+1+Luke+3+38',
       description: 'Intertextual links showing how Jesus as the second Adam reverses Adam&apos;s fall and restores humanity&apos;s original relationship with God.',
     },
     {

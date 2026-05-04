@@ -314,16 +314,8 @@ export const NUMBERS_19: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Numbers 19 ↔ Hebrews 9:13–14',
-      url: 'https://intertextual.bible/text/numbers-19/hebrews-9.13',
+      url: 'https://intertextual.bible/search?q=Numbers+19+Hebrews+9+13',
       description: 'Hebrews applies the red heifer ashes to show how Christ&apos;s blood purifies the conscience from dead works.',
-    },
-    {
-      id: 'bible-odyssey-red-heifer',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Red Heifer (Para Adom)',
-      url: 'https://www.bibleodyssey.org/dictionary/red-heifer/',
-      description: 'SBL entry on the red heifer ritual with historical and theological context for purification.',
     },
   ],
 };

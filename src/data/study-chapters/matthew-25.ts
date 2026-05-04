@@ -189,16 +189,8 @@ export const MATTHEW_25: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'The Parable of the Talents — Gospel Parallels',
-      url: 'https://intertextual.bible/text/matthew-25.14',
+      url: 'https://intertextual.bible/search?q=Matthew+25+14',
       description: 'Comparison of the talents parable across Matthew and Luke, with implications for stewardship and accountability.',
-    },
-    {
-      id: 'bibleodyssey-sheep-goats',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'The Sheep and the Goats — Jesus&apos; Judgment of Nations',
-      url: 'https://www.bibleodyssey.org/dictionary/judgment-of-the-nations/',
-      description: 'Analysis of Jesus&apos; eschatological judgment focused on care for the vulnerable and marginalized.',
     },
     {
       id: 'sefaria-isaiah-58-justice',

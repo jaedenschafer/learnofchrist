@@ -139,14 +139,6 @@ export const ZECHARIAH_3: RichChapterContent = {
       url: 'https://intertextual.bible/search?query=zechariah+romans',
       description: 'The parallel between Joshua&apos;s filthy garments being replaced and Paul&apos;s doctrine of imputed righteousness through Christ.',
     },
-    {
-      id: 'bibleodyssey-zechariah-messianic',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'The Messianic Branch and Redemption',
-      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-zechariah/',
-      description: 'Study of Zechariah&apos;s messianic prophecies, the cleansing of sin, and the coming servant who restores all things.',
-    },
   ],
 
   hasHebrew: true,

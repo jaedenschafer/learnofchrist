@@ -127,14 +127,6 @@ export const LAMENTATIONS_1: RichChapterContent = {
     ref: 'Lamentations 1 · Study Guide',
   },  resources: [
     {
-      id: 'bibleodyssey-lament',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Lament Genre in the Ancient Near East',
-      url: 'https://www.bibleodyssey.org/dictionary/lament/',
-      description: 'SBL entry on lament poetry in ANE literature, including parallels to Lamentations.',
-    },
-    {
       id: 'sumerian-lamentations',
       kind: 'museum',
       source: 'British Museum',

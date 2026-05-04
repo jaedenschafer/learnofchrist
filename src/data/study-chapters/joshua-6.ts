@@ -58,7 +58,7 @@ export const JOSHUA_6: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Faith and the Walls (Joshua 6 and Hebrews 11)',
-      url: 'https://intertextual.bible/text/joshua-6/hebrews-11.30',
+      url: 'https://intertextual.bible/search?q=Joshua+6+Hebrews+11+30',
       description: 'Connection between Joshua 6 and Hebrews 11:30, which cites the fall of Jericho as an example of faith.',
     },
   ],

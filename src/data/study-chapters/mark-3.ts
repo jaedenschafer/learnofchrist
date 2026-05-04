@@ -245,14 +245,6 @@ export const MARK_3: RichChapterContent = {
       description: 'Museum artifacts from first-century Galilean synagogues and domestic life, grounding the setting of Mark&apos;s miracles.',
     },
     {
-      id: 'bible-odyssey-apostles',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Apostles & Disciples',
-      url: 'https://www.bibleodyssey.org/dictionary/apostles/',
-      description: 'Open-access entry on the calling and role of the Twelve as witnesses and leaders in the early Jesus movement.',
-    },
-    {
       id: 'perseus-blasphemia',
       kind: 'lexicon',
       source: 'Perseus Scaife',

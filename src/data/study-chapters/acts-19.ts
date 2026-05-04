@@ -821,28 +821,12 @@ export const ACTS_19: RichChapterContent = {
       description: 'Frieze fragments and sculptural remains from one of the Seven Wonders, held in the Greek & Roman Antiquities collection.',
     },
     {
-      id: 'theoi-ephesia-grammata',
-      kind: 'manuscript',
-      source: 'Theoi Classical Texts',
-      label: 'Ephesia Grammata — Magical Inscriptions',
-      url: 'https://www.theoi.com/Text/',
-      description: 'Papyri and inscriptions documenting the real Ephesian magical formulae (abracadabra-like texts) that dominated the city&apos;s spiritual commerce.',
-    },
-    {
       id: 'ascsa-ephesus-theater',
       kind: 'archaeology',
       source: 'ASCSA',
       label: 'Ephesus Theater Excavations',
       url: 'https://agora.ascsa.net/',
       description: 'Ongoing Austrian Archaeological Institute investigations of the theater where Demetrius&apos;s riot took place — Acts 19:29.',
-    },
-    {
-      id: 'bibleodyssey-silversmith',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Silversmith Trade in Ephesus',
-      url: 'https://www.bibleodyssey.org/dictionary/silversmith/',
-      description: 'SBL study entry on the Greek silversmith craft and the shrine-making economy that collapsed when believers rejected Diana idolatry.',
     },
   ],
 

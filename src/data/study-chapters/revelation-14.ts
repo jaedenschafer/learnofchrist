@@ -726,14 +726,6 @@ export const REVELATION_14: RichChapterContent = {
       url: 'https://www.sefaria.org/Psalms.2',
       description: 'Royal psalm establishing the Messiah&apos;s rule over the nations — echoed in the Lamb on Mount Sion.',
     },
-    {
-      id: 'bibleodyssey-harvest-judgment',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Harvest and Judgment Imagery',
-      url: 'https://www.bibleodyssey.org/dictionary/harvest/',
-      description: 'Study of harvest symbolism in apocalyptic judgment and final separation of the righteous.',
-    },
   ],
 
   hasHebrew: false,

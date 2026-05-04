@@ -55,14 +55,6 @@ export const GENESIS_21: RichChapterContent = {
       url: 'https://www.penn.museum/collections/west-asia/',
       description: 'Ancient Near Eastern documents on family inheritance, the status of sons born to servants, and covenant relationships.',
     },
-    {
-      id: 'bibleodyssey-abraham-covenant',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Abraham and the Covenant',
-      url: 'https://www.bibleodyssey.org/articles/abraham-sarah/',
-      description: 'SBL article on the promise fulfilled in Isaac, the covenant line, and God&apos;s hearing of the rejected.',
-    },
   ],
 
   sections: [

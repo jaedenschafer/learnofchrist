@@ -771,22 +771,6 @@ export const SECOND_TIMOTHY_3: RichChapterContent = {
       url: 'https://www.perseus.tufts.edu/hopper/resolveform?type=exact&lookup=theopneustos&lang=greek',
       description: 'Greek lexicon entry for theopneustos showing its origin and use in early Christian theology of Scripture.',
     },
-    {
-      id: 'sefaria-2tim-3',
-      kind: 'study',
-      source: 'Sefaria',
-      label: '2 Timothy 3',
-      url: 'https://www.sefaria.org/2%20Timothy.3',
-      description: 'Multiple translations and commentary on perilous times, false doctrine, and the inspiration of Scripture.',
-    },
-    {
-      id: 'bibleodyssey-inspiration-scripture',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'The Inspiration and Authority of Scripture',
-      url: 'https://www.bibleodyssey.org/dictionary/inspiration-scripture/',
-      description: 'Historical and theological perspective on how early Christians understood the divine origin and authority of Scripture.',
-    },
   ],
 
   hasHebrew: false,

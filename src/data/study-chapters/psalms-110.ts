@@ -138,7 +138,7 @@ export const PSALMS_110: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Psalm 110 in Hebrews 1:13, 5:6, 7:17',
-      url: 'https://intertextual.bible/text/psalm-110/hebrews-1.13',
+      url: 'https://intertextual.bible/search?q=Psalm+110+Hebrews+1+13',
       description: 'New Testament connection showing how this Psalm is quoted or referenced.',
     },
   ],

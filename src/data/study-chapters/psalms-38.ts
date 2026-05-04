@@ -170,22 +170,6 @@ export const PSALMS_38: RichChapterContent = {
       url: 'https://www.sefaria.org/Psalms.38',
       description: 'Lament of sickness with confession, Jewish commentary.',
     },
-    {
-      id: 'bible-odyssey-suffering-lament',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Suffering & Lament',
-      url: 'https://www.bibleodyssey.org/dictionary/lament-psalms/',
-      description: 'Psalms expressing pain, isolation, and shame.',
-    },
-    {
-      id: 'bibleodyssey-psalter-laments',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Laments in the Psalter',
-      url: 'https://www.bibleodyssey.org/articles/laments/',
-      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
-    },
 
   ],
 

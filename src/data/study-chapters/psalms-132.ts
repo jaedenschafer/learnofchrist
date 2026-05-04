@@ -130,7 +130,7 @@ export const PSALMS_132: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Psalm 132 ↔ New Testament',
-      url: 'https://intertextual.bible/text/psalms-132',
+      url: 'https://intertextual.bible/search?q=Psalms+132',
       description: 'New Testament writers cite or echo Psalm 132 in shaping their proclamation of Christ.',
     },
 

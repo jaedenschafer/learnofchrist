@@ -502,14 +502,6 @@ export const GENESIS_15: RichChapterContent = {
       url: 'https://www.penn.museum/collections/west-asia/',
       description: 'Ancient Near Eastern covenant documents and treaties illuminating the binding customs of Abraham&apos;s world.',
     },
-    {
-      id: 'bibleodyssey-abraham-covenant',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Abraham and the Covenant',
-      url: 'https://www.bibleodyssey.org/articles/abraham-sarah/',
-      description: 'SBL article on Abraham&apos;s faith, God&apos;s covenant promise, and the foundation of justification by faith.',
-    },
   ],
 
   hasHebrew: true,

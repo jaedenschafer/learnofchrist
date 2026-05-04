@@ -257,14 +257,6 @@ export const JOSHUA_16: RichChapterContent = {
 
   resources: [
     {
-      id: 'bibleodyssey-joseph-ephraim-manasseh',
-      kind: 'study',
-      source: 'Bible Odyssey',
-      label: 'Joseph&apos;s Tribes: Ephraim and Manasseh',
-      url: 'https://www.bibleodyssey.org/passages/main-passage/joshua-16-17',
-      description: 'The inheritance of Joseph&apos;s two tribes in the central highlands, with the tragic incomplete conquest of Gezer.',
-    },
-    {
       id: 'iaa-gezer-canaanites',
       kind: 'archaeology',
       source: 'Israel Antiquities Authority',

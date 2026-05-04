@@ -166,7 +166,7 @@ export const MATTHEW_17: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Transfiguration — Gospel Parallels',
-      url: 'https://intertextual.bible/text/matthew-17.1',
+      url: 'https://intertextual.bible/search?q=Matthew+17+1',
       description: 'Comparison of the transfiguration account across Matthew, Mark, and Luke with interpretative variations.',
     },
     {
@@ -176,14 +176,6 @@ export const MATTHEW_17: RichChapterContent = {
       label: 'Exodus 34:29 — Moses on Mount Sinai',
       url: 'https://www.sefaria.org/Exodus.34.29',
       description: 'Old Testament parallel to Jesus&apos; transfiguration, where Moses&apos; face shines after encountering God.',
-    },
-    {
-      id: 'bibleodyssey-demon-possession',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Demon Possession in the Gospels',
-      url: 'https://www.bibleodyssey.org/dictionary/demon-possession/',
-      description: 'First-century understanding of demonic affliction and Jesus&apos; power over spiritual forces.',
     },
   ],
 

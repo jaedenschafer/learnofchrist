@@ -648,7 +648,7 @@ export const LEVITICUS_14: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Leviticus 14:2–3 ↔ Matthew 8:4',
-      url: 'https://intertextual.bible/text/leviticus-14/matthew-8.4',
+      url: 'https://intertextual.bible/search?q=Leviticus+14+Matthew+8+4',
       description: 'Side-by-side comparison showing Jesus healing lepers and commanding them to go to the priest as Leviticus prescribes[res:intertextual-matthew-8-leviticus-14].',
     },
     {

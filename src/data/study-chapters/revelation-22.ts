@@ -538,7 +538,7 @@ export const REVELATION_22: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Genesis–Revelation: The Garden Restoration Arc',
-      url: 'https://www.intertextual.bible/passages/genesis-2-revelation-22',
+      url: 'https://intertextual.bible/',
       description:
         'Cross-reference linking the garden of Genesis 2, humanity&apos;s expulsion in Genesis 3, and the final restoration of the tree and river of life in Revelation 22; the complete redemption arc.',
     },

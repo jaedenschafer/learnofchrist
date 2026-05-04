@@ -172,16 +172,8 @@ export const PSALMS_22: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Psalm 22 in Matthew 27 & Mark 15',
-      url: 'https://intertextual.bible/text/psalm-22',
+      url: 'https://intertextual.bible/search?q=Psalm+22',
       description: 'Gospel narrative weaves Psalm 22 into the crucifixion account.',
-    },
-    {
-      id: 'bible-odyssey-passion-psalms',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Psalms of Abandonment & Vindication',
-      url: 'https://www.bibleodyssey.org/dictionary/lament-psalms/',
-      description: 'Psalms on suffering, death, and faith in resurrection.',
     },
   ],
 

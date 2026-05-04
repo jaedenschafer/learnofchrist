@@ -344,30 +344,6 @@ export const FOURTH_MACCABEES_16: RichChapterContent = {
   ],
 
   resources: [
-    {
-      id: 'sefaria-4-macc-16-atonement',
-      kind: 'study',
-      source: 'Sefaria',
-      label: '4 Maccabees 16 — Atonement Through Suffering',
-      url: 'https://www.sefaria.org/IV_Maccabees.16',
-      description: 'Martyrdom theology and substitutionary suffering (section 16).',
-    },
-    {
-      id: 'bible-odyssey-martyrdom',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Jewish Martyrdom and Atonement',
-      url: 'https://www.bibleodyssey.org/dictionary/martyrdom/',
-      description: 'Martyrdom traditions and redemptive suffering theology in Judaism.',
-    },
-    {
-      id: 'perseus-logismos',
-      kind: 'lexicon',
-      source: 'Perseus Digital Library',
-      label: 'Logismos — Rational Deliberation',
-      url: 'https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0057:entry=logi%2Fsmos',
-      description: 'Greek philosophical term: reason controlling passion, central to 4 Maccabees.',
-    },
   ],
 
   bottomShare: {

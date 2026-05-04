@@ -34,14 +34,6 @@ export const AMOS_7: RichChapterContent = {
       description: 'Primary sources on Amos&apos;s visions of judgment and the plumbline as God&apos;s standard for measuring His people.',
     },
     {
-      id: 'bibleodyssey-plumbline',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'The Plumbline Vision — Amos 7:7-9',
-      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-amos/',
-      description: 'Study of the plumbline as a metaphor for God&apos;s standard and judgment among His covenant people.',
-    },
-    {
       id: 'sefaria-amos-7-v1',
       kind: 'study',
       source: 'Sefaria',

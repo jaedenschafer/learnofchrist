@@ -142,16 +142,8 @@ export const PSALMS_14: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Psalm 14 in Romans 3',
-      url: 'https://intertextual.bible/text/psalm-14',
+      url: 'https://intertextual.bible/search?q=Psalm+14',
       description: 'Paul quotes Psalm 14 to show universal human sinfulness.',
-    },
-    {
-      id: 'bible-odyssey-fool-psalms',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'The Fool in Wisdom Psalms',
-      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
-      description: 'Biblical concept of the fool who denies God.',
     },
   ],
 

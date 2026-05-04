@@ -655,22 +655,6 @@ export const FIRST_CORINTHIANS_4: RichChapterContent = {
       description: 'Liddell-Scott-Jones entry for oikonomos with classical usage, etymology, and semantic range across Greek sources.',
     },
     {
-      id: 'bibleodyssey-patronage-honor',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Patronage and Honor Culture',
-      url: 'https://www.bibleodyssey.org/guide/patronage/',
-      description: 'Guide to Greco-Roman patronage networks and honor culture, explaining the social stakes of the Corinthian factionalism Paul addresses.',
-    },
-    {
-      id: 'theoi-roman-triumph',
-      kind: 'archaeology',
-      source: 'Theoi Classical Database',
-      label: 'Roman Triumph Imagery',
-      url: 'https://www.theoi.com/Cult/RomanTriumph.html',
-      description: 'Theoi entry on the Roman triumphal procession, illuminating Paul&apos;s spectacle imagery in 1 Corinthians 4:9.',
-    },
-    {
       id: 'ascsa-corinthian-society',
       kind: 'archaeology',
       source: 'American School of Classical Studies',

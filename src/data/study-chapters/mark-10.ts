@@ -181,19 +181,11 @@ export const MARK_10: RichChapterContent = {
 
   resources: [
     {
-      id: 'bible-odyssey-riches-kingdom',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Wealth in the Kingdom of God',
-      url: 'https://www.bibleodyssey.org/dictionary/wealth-riches/',
-      description: 'Open-access entry exploring how Jesus redefines wealth and possessions in relation to the kingdom, contrasting worldly economics with divine values.',
-    },
-    {
       id: 'intertextual-ransom-servant',
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Ransom & Servant (Isaiah 52-53 ↔ Mark 10)',
-      url: 'https://intertextual.bible/text/isaiah-52/mark-10.45',
+      url: 'https://intertextual.bible/search?q=Isaiah+52+Mark+10+45',
       description: 'Intertextual links showing how Jesus understood His death as the fulfillment of the Suffering Servant passage, giving His life as a ransom.',
     },
     {

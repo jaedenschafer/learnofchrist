@@ -169,27 +169,11 @@ export const JOHN_12: RichChapterContent = {
 
   resources: [
     {
-      id: 'bible-odyssey-triumphal-entry',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Triumphal Entry',
-      url: 'https://www.bibleodyssey.org/dictionary/triumphal-entry/',
-      description: 'Open-access SBL resource on Jesus&apos; entry into Jerusalem and its messianic significance.',
-    },
-    {
-      id: 'bible-odyssey-mary-martha',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Mary, Martha, and Anointing',
-      url: 'https://www.bibleodyssey.org/dictionary/mary-martha/',
-      description: 'SBL entry on the sisters of Lazarus and Mary&apos;s act of anointing Jesus.',
-    },
-    {
       id: 'intertextual-entry',
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Zechariah 9:9 ↔ John 12:12–13',
-      url: 'https://intertextual.bible/text/zechariah-9.9/john-12.12-13',
+      url: 'https://intertextual.bible/search?q=Zechariah+9+9+John+12+12+13',
       description: 'How Jesus fulfills the prophecy of the king coming humbly on a donkey.',
     },
   ],

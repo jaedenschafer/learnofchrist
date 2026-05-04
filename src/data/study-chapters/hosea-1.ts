@@ -43,14 +43,6 @@ export const HOSEA_1: RichChapterContent = {
       description: 'Primary sources and rabbinic commentary on Hosea&apos;s marriage command and the naming of his children.',
     },
     {
-      id: 'bibleodyssey-hosea-marriage',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Hosea — Prophet & Marriage Symbolism',
-      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-hosea/',
-      description: 'Overview of Hosea&apos;s prophetic marriage as a lived parable of covenant unfaithfulness and restoration.',
-    },
-    {
       id: 'iaa-samaria-archaeology',
       kind: 'archaeology',
       source: 'Israel Antiquities Authority',

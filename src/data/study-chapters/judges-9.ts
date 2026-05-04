@@ -617,14 +617,6 @@ export const JUDGES_9: RichChapterContent = {
 
   resources: [
     {
-      id: 'bibleodyssey-abimelech-usurper',
-      kind: 'study',
-      source: 'Bible Odyssey',
-      label: 'Abimelech the Usurper',
-      url: 'https://www.bibleodyssey.org/passages/main-stories/judges',
-      description: 'The tragedy of illegitimate power and the consequences of Gideon&apos;s multiple wives.',
-    },
-    {
       id: 'sefaria-women-judges-jotham',
       kind: 'study',
       source: 'Sefaria',

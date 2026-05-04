@@ -686,14 +686,6 @@ export const ACTS_20: RichChapterContent = {
       url: 'https://agora.ascsa.net/',
       description: 'Ongoing excavations of the Miletus harbor and theater complex where Paul&apos;s farewell to the Ephesian elders likely took place.',
     },
-    {
-      id: 'sefaria-acts-20',
-      kind: 'study',
-      source: 'Sefaria',
-      label: 'Acts 20 — Hebrew + classical Jewish commentary',
-      url: 'https://www.sefaria.org/Acts.20',
-      description: 'The Hebrew text of Acts 20 alongside Rashi, Ibn Ezra, and other classical commentators.',
-    },
 
   ],
 

@@ -524,14 +524,6 @@ export const ROMANS_6: RichChapterContent = {
       url: 'https://www.blueletterbible.org/lexicon/g907/kjv/',
       description: 'Complete Greek lexical entry for baptizō with cognates, classical usage, and New Testament citations.',
     },
-    {
-      id: 'sefaria-romans-6',
-      kind: 'study',
-      source: 'Sefaria',
-      label: 'Romans 6 — Hebrew + classical Jewish commentary',
-      url: 'https://www.sefaria.org/Romans.6',
-      description: 'The Hebrew text of Romans 6 alongside Rashi, Ibn Ezra, and other classical commentators.',
-    },
 
   ],
 

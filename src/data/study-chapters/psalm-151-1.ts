@@ -459,14 +459,6 @@ export const PSALM_151_1: RichChapterContent = {
       description: 'David&apos;s anointing as king; parallel to Psalm 151&apos;s self-designation as shepherd.',
     },
     {
-      id: 'bible-odyssey-greek-psalms',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Greek Psalmody and the Septuagint',
-      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
-      description: 'SBL guide to Septuagintal psalms and additional psalmic traditions.',
-    },
-    {
       id: 'bibleodyssey-psalm-151-overview-1',
       kind: 'study',
       source: 'Bible Odyssey (SBL)',

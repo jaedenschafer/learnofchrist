@@ -185,7 +185,7 @@ export const LUKE_5: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Table Fellowship & Covenant (OT ↔ NT)',
-      url: 'https://intertextual.bible/text/psalms-23/luke-5.29',
+      url: 'https://intertextual.bible/search?q=Psalms+23+Luke+5+29',
       description: 'Intertextual links showing how Jesus&apos; eating with sinners fulfills Old Testament images of God&apos;s hospitable covenant and restoration.',
     },
     {

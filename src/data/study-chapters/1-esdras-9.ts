@@ -50,14 +50,6 @@ export const FIRST_ESDRAS_9: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/ezra/',
       description: 'Postexilic identity, marriage practices, and community boundaries in diaspora.',
     },
-    {
-      id: 'sefaria-1-esdras-9',
-      kind: 'study',
-      source: 'Sefaria',
-      label: '1 Esdras 9 — Hebrew + classical Jewish commentary',
-      url: 'https://www.sefaria.org/I_Esdras.9',
-      description: 'The Hebrew text of 1 Esdras 9 alongside Rashi, Ibn Ezra, and other classical commentators.',
-    },
 
   ],
 

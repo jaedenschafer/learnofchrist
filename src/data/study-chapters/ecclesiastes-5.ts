@@ -205,14 +205,6 @@ export const ECCLESIASTES_5: RichChapterContent = {
       url: 'https://www.britishmuseum.org/',
       description: 'Mesopotamian wisdom texts paralleling Ecclesiastes&apos; quest for meaning under existential circularity.',
     },
-    {
-      id: 'theoi-stoic-epicurean',
-      kind: 'archive',
-      source: 'Theoi Classical Texts',
-      label: 'Stoic and Epicurean Philosophy',
-      url: 'https://www.theoi.com/',
-      description: 'Hellenistic philosophical parallels to Ecclesiastes on pleasure, virtue, and the good life.',
-    },
   ],
 
   hasHebrew: true,

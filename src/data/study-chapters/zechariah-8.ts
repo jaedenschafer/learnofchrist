@@ -138,14 +138,6 @@ export const ZECHARIAH_8: RichChapterContent = {
       url: 'https://intertextual.bible/search?query=zechariah+ephesians',
       description: 'The connection between Zechariah&apos;s call to speak truth and Paul&apos;s teaching on speaking truth in love as the foundation of community unity.',
     },
-    {
-      id: 'bibleodyssey-zechariah-peace-restoration',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Shalom and the Restoration of God&apos;s People',
-      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-zechariah/',
-      description: 'Study of peace and truth as the foundation of community wholeness and the promise of God&apos;s restoration.',
-    },
   ],
 
   hasHebrew: true,

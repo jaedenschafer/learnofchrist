@@ -27,14 +27,6 @@ export const DEUTERONOMY_26: RichChapterContent = {
       description: 'Open-access source text and rabbinic commentary on firstfruits offering [res:sefaria-deuteronomy-26], tithe declaration, and the recitation of covenant history.',
     },
     {
-      id: 'firstfruits-offering-thanksgiving-covenant-bible-odyssey',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Firstfruits Offering and Thanksgiving',
-      url: 'https://www.bibleodyssey.org/topical-article/first-fruits/',
-      description: 'Theological overview of how the firstfruits offering acknowledges God as source [res:firstfruits-offering-thanksgiving-covenant-bible-odyssey] of harvest and renews gratitude for deliverance from Egypt.',
-    },
-    {
       id: 'creed-confession-ancient-israel-identity-memory',
       kind: 'study',
       source: 'Intertextual Bible',

@@ -181,16 +181,8 @@ export const MATTHEW_20: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'The Laborers in the Vineyard — Matthew Only',
-      url: 'https://intertextual.bible/text/matthew-20.1',
+      url: 'https://intertextual.bible/search?q=Matthew+20+1',
       description: 'Unique Matthean parable on grace, fairness, and the inversion of worldly economics.',
-    },
-    {
-      id: 'bibleodyssey-passion-predictions',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Jesus&apos; Passion Predictions',
-      url: 'https://www.bibleodyssey.org/dictionary/passion-of-christ/',
-      description: 'Overview of Jesus&apos; multiple predictions of His suffering, death, and resurrection.',
     },
     {
       id: 'sefaria-isaiah-53',

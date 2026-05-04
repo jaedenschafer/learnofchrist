@@ -561,14 +561,6 @@ export const SECOND_THESSALONIANS_3: RichChapterContent = {
       url: 'https://www.sefaria.org/texts/Tanakh/Writings/Proverbs?lang=bi&p=Proverbs.22.29',
       description: 'Examines how Paul&apos;s willingness to support himself through labor became a model of humble dignity for all believers.',
     },
-    {
-      id: 'bible-odyssey-peace-christ',
-      kind: 'study',
-      source: 'Bible Odyssey',
-      label: 'The Peace of Christ that Surpasses Understanding',
-      url: 'https://www.bibleodyssey.org/passage/topic/peace-shalom',
-      description: 'Surveys how Christ Himself is the peace of believers, available always and by all means in every circumstance.',
-    },
   ],
 
 };

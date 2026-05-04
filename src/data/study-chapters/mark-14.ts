@@ -187,7 +187,7 @@ export const MARK_14: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Passover & the Eucharist',
-      url: 'https://intertextual.bible/text/exodus-12/mark-14.22',
+      url: 'https://intertextual.bible/search?q=Exodus+12+Mark+14+22',
       description: 'Intertextual links showing how Jesus transformed the Passover meal into a new covenant meal commemorating His death.',
     },
     {
@@ -197,14 +197,6 @@ export const MARK_14: RichChapterContent = {
       label: 'Gethsemane & Jesus\' Agony',
       url: 'https://www.bibleodyssey.org/dictionary/gethsemane/',
       description: 'Open-access entry on the garden prayer and Jesus\' human struggle with His coming death, revealing His genuine humanity and willing submission.',
-    },
-    {
-      id: 'sefaria-peter-confession',
-      kind: 'study',
-      source: 'Sefaria',
-      label: 'Peter&apos;s Denial & Restoration',
-      url: 'https://www.sefaria.org/Mishnah/Sanhedrin/7.5?lang=bi',
-      description: 'Jewish legal context on oath-taking and denial, illuminating Peter&apos;s triple denial and later restoration in John 21.',
     },
   ],
 

@@ -207,7 +207,7 @@ export const JOHN_19: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Zechariah 12:10 ↔ John 19:34–37',
-      url: 'https://intertextual.bible/text/zechariah-12.10/john-19.34-37',
+      url: 'https://intertextual.bible/search?q=Zechariah+12+10+John+19+34+37',
       description: 'The pierced Messiah prophecy and its fulfillment at Jesus&apos; crucifixion.',
     },
     {

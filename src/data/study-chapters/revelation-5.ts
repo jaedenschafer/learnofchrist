@@ -505,7 +505,7 @@ export const REVELATION_5: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Isaiah 53:7 ↔ Revelation 5:6',
-      url: 'https://intertextual.bible/text/isaiah-53.7/revelation-5.6',
+      url: 'https://intertextual.bible/search?q=Isaiah+53+7+Revelation+5+6',
       description: 'The Lamb image: silent servant in Isaiah connected to John&apos;s Lamb in the throne room.',
     },
   ],

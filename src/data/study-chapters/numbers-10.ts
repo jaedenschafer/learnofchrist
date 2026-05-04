@@ -368,14 +368,6 @@ export const NUMBERS_10: RichChapterContent = {
       description: 'Rabbinic and Talmudic commentary on the significance of the silver trumpets, their different blasts, the order of march, and the timing of Israel&apos;s first departure from Sinai.',
     },
     {
-      id: 'bible-odyssey-ark-movement',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'The Ark of the Covenant — God&apos;s Traveling Presence',
-      url: 'https://www.bibleodyssey.org/dictionary/ark-of-the-covenant/',
-      description: 'Overview of the ark as the symbol of God&apos;s presence during the wilderness journey, its role in the order of march, and its significance in Israel&apos;s spiritual warfare and pilgrimage toward Canaan.',
-    },
-    {
       id: 'sefaria-rise-up-prayer',
       kind: 'study',
       source: 'Sefaria',

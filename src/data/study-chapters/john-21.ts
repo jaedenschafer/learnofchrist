@@ -193,7 +193,7 @@ export const JOHN_21: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Psalm 23 + Ezekiel 34 ↔ John 21:15–17',
-      url: 'https://intertextual.bible/text/ezekiel-34/john-21.15-17',
+      url: 'https://intertextual.bible/search?q=Ezekiel+34+John+21+15+17',
       description: 'Peter as shepherd, commissioned by Christ, echoing the Old Testament language of pastoral care.',
     },
     {

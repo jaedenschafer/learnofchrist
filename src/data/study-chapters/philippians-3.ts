@@ -596,7 +596,7 @@ export const PHILIPPIANS_3: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Philippians 3:20 — Politeuma (Our Citizenship)',
-      url: 'https://intertextual.bible/text/philippians-3.20/',
+      url: 'https://intertextual.bible/search?q=Philippians+3+20+',
       description: 'Paul&apos;s declaration that believers&apos; citizenship—politeuma—is in heaven, not Rome: a radical political theology.',
     },
     {

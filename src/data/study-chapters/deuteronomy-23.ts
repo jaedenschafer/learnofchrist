@@ -26,14 +26,6 @@ export const DEUTERONOMY_23: RichChapterContent = {
       description: 'Open-access source text and rabbinic commentary on who may enter the assembly [res:qahal-assembly-membership-boundaries-bible-odyssey] of the Lord, vows, and camp purity.',
     },
     {
-      id: 'qahal-assembly-membership-boundaries-bible-odyssey',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'The Qahal (Assembly) and Covenant Membership',
-      url: 'https://www.bibleodyssey.org/topical-article/congregation/',
-      description: 'Explores who could participate in Israel&apos;s covenant assembly and how genealogy, ritual purity, and conduct determined inclusion or exclusion.',
-    },
-    {
       id: 'vows-oaths-ancient-israel-binding-speech',
       kind: 'lexicon',
       source: 'Sefaria',

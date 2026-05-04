@@ -288,14 +288,6 @@ export const PSALMS_119: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+119',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
-    {
-      id: 'bibleodyssey-wisdom-psalms',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Wisdom Psalms',
-      url: 'https://www.bibleodyssey.org/articles/wisdom-psalms/',
-      description: 'SBL overview of the wisdom-psalm subgenre and its meditation on Torah and the righteous life.',
-    },
 
   ],
 

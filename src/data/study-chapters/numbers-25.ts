@@ -470,7 +470,7 @@ export const NUMBERS_25: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Numbers 25 ↔ Hebrews 7',
-      url: 'https://intertextual.bible/text/numbers-25/hebrews-7',
+      url: 'https://intertextual.bible/search?q=Numbers+25+Hebrews+7',
       description: 'Contrast between Phinehas&apos;s covenant priesthood and Christ&apos;s eternal priesthood in the order of Melchizedek.',
     },
   ],

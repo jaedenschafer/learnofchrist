@@ -422,14 +422,6 @@ export const FIRST_ESDRAS_5: RichChapterContent = {
       url: 'https://www.imj.org.il/',
       description: 'Artifacts from Babylonian Jewish communities and diaspora material culture.',
     },
-    {
-      id: 'sefaria-1-esdras-5',
-      kind: 'study',
-      source: 'Sefaria',
-      label: '1 Esdras 5 — Hebrew + classical Jewish commentary',
-      url: 'https://www.sefaria.org/I_Esdras.5',
-      description: 'The Hebrew text of 1 Esdras 5 alongside Rashi, Ibn Ezra, and other classical commentators.',
-    },
 
   ],
 

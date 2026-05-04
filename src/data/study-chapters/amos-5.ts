@@ -33,14 +33,6 @@ export const AMOS_5: RichChapterContent = {
       description: 'Primary sources on God&apos;s preference for justice and righteousness over religious ritual.',
     },
     {
-      id: 'bibleodyssey-judgment-streams',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Judgment and Righteousness',
-      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-amos/',
-      description: 'Amos 5:24 as the prophetic call to pursue social justice and moral integrity.',
-    },
-    {
       id: 'sefaria-amos-5-v1',
       kind: 'study',
       source: 'Sefaria',

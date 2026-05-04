@@ -43,14 +43,6 @@ export const HOSEA_2: RichChapterContent = {
       description: 'Primary sources and rabbinic commentary on God&apos;s pursuit and covenant renewal with Israel.',
     },
     {
-      id: 'bibleodyssey-covenant-renewal',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Covenant Renewal in Hosea',
-      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-hosea/',
-      description: 'Thematic study of how God pursues unfaithful Israel and restores the covenant relationship.',
-    },
-    {
       id: 'sefaria-hosea-2-v1',
       kind: 'study',
       source: 'Sefaria',

@@ -208,7 +208,7 @@ export const JOHN_10: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Psalm 23 + Ezekiel 34 ↔ John 10',
-      url: 'https://intertextual.bible/text/psalm-23/john-10',
+      url: 'https://intertextual.bible/search?q=Psalm+23+John+10',
       description: 'How Jesus fulfills the Old Testament image of the good shepherd.',
     },
   ],

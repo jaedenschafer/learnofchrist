@@ -930,30 +930,6 @@ export const SECOND_CORINTHIANS_11: RichChapterContent = {
   },
 
   resources: [
-    {
-      id: 'bibleodyssey-false-apostles',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'False Apostles and Teachers',
-      url: 'https://www.bibleodyssey.org/dictionary/false-teachers/',
-      description: 'Open-access SBL entry on the rhetoric and tactics of false teachers that Paul confronts throughout his epistles.',
-    },
-    {
-      id: 'cambridge-apostolic-suffering',
-      kind: 'study',
-      source: 'Cambridge UP',
-      label: 'Apostolic Suffering and Credentials',
-      url: 'https://www.cambridge.org/core/services/aop-cambridge-core/content/view/apostolic_suffering_2corinthians_11',
-      description: 'Scholarly analysis of how Paul reframes suffering as apostolic proof, inverting Greco-Roman standards of authority and status.',
-    },
-    {
-      id: 'sefaria-2-corinthians-11',
-      kind: 'study',
-      source: 'Sefaria',
-      label: '2 Corinthians 11 — Hebrew + classical Jewish commentary',
-      url: 'https://www.sefaria.org/II_Corinthians.11',
-      description: 'The Hebrew text of 2 Corinthians 11 alongside Rashi, Ibn Ezra, and other classical commentators.',
-    },
 
   ],
 

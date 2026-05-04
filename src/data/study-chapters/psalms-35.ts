@@ -116,22 +116,6 @@ export const PSALMS_35: RichChapterContent = {
       url: 'https://www.sefaria.org/Psalms.35',
       description: 'Prayer against enemies with medieval Jewish exegesis.',
     },
-    {
-      id: 'bible-odyssey-enemy-psalms',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Psalms Against Enemies',
-      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
-      description: 'Psalms calling on God to defeat[res:bible-odyssey-enemy-psalms] and shame adversaries.',
-    },
-    {
-      id: 'bibleodyssey-psalter-laments',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Laments in the Psalter',
-      url: 'https://www.bibleodyssey.org/articles/laments/',
-      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
-    },
 
   ],
 

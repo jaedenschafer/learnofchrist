@@ -36,22 +36,6 @@ export const ESTHER_10: RichChapterContent = {
 
   resources: [
     {
-      id: 'theoi-herodotus',
-      kind: 'archive',
-      source: 'Theoi Classical Texts',
-      label: 'Herodotus on Xerxes I',
-      url: 'https://www.theoi.com/Text/HerodotusHistories.html',
-      description: 'Herodotus accounts of Xerxes, Persian court intrigues, and royal authority.',
-    },
-    {
-      id: 'sefaria-megillah',
-      kind: 'study',
-      source: 'Sefaria',
-      label: 'Megillat Esther',
-      url: 'https://www.sefaria.org/Megillat_Esther',
-      description: 'Sefaria Hebrew text with medieval commentary on the Esther scroll.',
-    },
-    {
       id: 'sefaria-esther-10',
       kind: 'study',
       source: 'Sefaria',

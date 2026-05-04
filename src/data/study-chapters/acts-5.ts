@@ -458,14 +458,6 @@ export const ACTS_5: RichChapterContent = {
       description: 'Scholarly exploration of the signs and wonders performed by the apostles, their theological significance, and impact on early witness.',
     },
     {
-      id: 'theoi-healing-miracles-context',
-      kind: 'archive',
-      source: 'Theoi',
-      label: 'Greco-Roman Healing and Miracles',
-      url: 'https://www.theoi.com',
-      description: 'Ancient sources on miraculous healing practices, shadows, and divine intervention in Greco-Roman contexts paralleling apostolic signs.',
-    },
-    {
       id: 'sefaria-exodus-judgment',
       kind: 'study',
       source: 'Sefaria',

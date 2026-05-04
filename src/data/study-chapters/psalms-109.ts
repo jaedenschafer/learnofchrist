@@ -153,7 +153,7 @@ export const PSALMS_109: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Psalm 109 in Acts 1:20 (Judas replacement)',
-      url: 'https://intertextual.bible/text/psalm-109/acts-1.20',
+      url: 'https://intertextual.bible/search?q=Psalm+109+Acts+1+20',
       description: 'New Testament connection showing how this Psalm is quoted or referenced.',
     },
   ],

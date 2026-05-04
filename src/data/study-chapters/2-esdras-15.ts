@@ -607,28 +607,12 @@ export const SECOND_ESDRAS_15: RichChapterContent = {
 
   resources: [
     {
-      id: 'sefaria-2-esdras-15-messiah',
-      kind: 'study',
-      source: 'Sefaria',
-      label: '2 Esdras 15 — Messianic Visions',
-      url: 'https://www.sefaria.org/II_Esdras.15',
-      description: 'Final messianic and eschatological visions (vision 8).',
-    },
-    {
       id: 'bible-odyssey-messiah',
       kind: 'study',
       source: 'Bible Odyssey (SBL)',
       label: 'Messianic Expectations in Second Temple Judaism',
       url: 'https://www.bibleodyssey.org/dictionary/messiah/',
       description: 'Diverse messianic hopes and expectations in late Jewish eschatology.',
-    },
-    {
-      id: 'theoi-apocalyptic-vision',
-      kind: 'study',
-      source: 'Theoi Classical Texts',
-      label: 'Apocalyptic Vision in Hellenistic Religions',
-      url: 'https://www.theoi.com/',
-      description: 'Vision literature and apocalypticism in Hellenistic religious thought.',
     },
   ],
 

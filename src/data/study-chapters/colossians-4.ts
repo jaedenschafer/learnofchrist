@@ -575,7 +575,7 @@ export const COLOSSIANS_4: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Onesimus (Colossians 4:9 ↔ Philemon)',
-      url: 'https://intertextual.bible/text/colossians-4.9/',
+      url: 'https://intertextual.bible/search?q=Colossians+4+9+',
       description: 'The runaway slave Onesimus, now beloved brother, sent with Tychicus—the letter to Philemon expands his story.',
     },
     {

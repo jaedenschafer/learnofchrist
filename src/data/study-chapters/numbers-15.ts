@@ -485,14 +485,6 @@ export const NUMBERS_15: RichChapterContent = {
       description: 'Hebrew text and translations with classical commentary on offerings, defiant sin, and the law of tzitzit.',
     },
     {
-      id: 'bible-odyssey-tzitzit',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Tzitzit (Fringes)',
-      url: 'https://www.bibleodyssey.org/dictionary/tzitzit/',
-      description: 'SBL entry on fringes with cultural context and discussion of blue dye and the covenant meaning of tassels.',
-    },
-    {
       id: 'sefaria-high-hand-sin',
       kind: 'study',
       source: 'Sefaria',

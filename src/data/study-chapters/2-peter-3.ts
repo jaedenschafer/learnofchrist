@@ -682,7 +682,7 @@ export const SECOND_PETER_3: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Revelation 21:1–4 ↔ 2 Peter 3:13 (New Heavens and Earth)',
-      url: 'https://intertextual.bible/text/revelation-21.1/2-peter-3.13',
+      url: 'https://intertextual.bible/search?q=Revelation+21+1+2+Peter+3+13',
       description: 'Cross-reference linking Peter&apos;s promise of renewal to John&apos;s vision of the redeemed cosmos.',
     },
     {

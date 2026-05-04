@@ -21,14 +21,6 @@ export const DEUTERONOMY_17: RichChapterContent = {
       description: 'Open-access source text and rabbinic commentary on kingship, judicial courts, and the law a king must study [res:sefaria-deuteronomy-17].',
     },
     {
-      id: 'kingship-ancient-israel-torah-requirements-bible-odyssey',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Kingship in Israel and Torah Limitations',
-      url: 'https://www.bibleodyssey.org/topical-article/king/',
-      description: 'Explores the unique limitation that Israel&apos;s king must study and obey Torah, unlike monarchs [res:kingship-ancient-israel-torah-requirements-bible-odyssey] in surrounding nations.',
-    },
-    {
       id: 'judge-and-priest-ancient-near-east-authority',
       kind: 'archaeology',
       source: 'Orient Institute',

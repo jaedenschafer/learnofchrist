@@ -118,14 +118,6 @@ export const PSALMS_29: RichChapterContent = {
       description: 'Hymn on God&apos;s power in storm with Jewish commentary.',
     },
     {
-      id: 'bible-odyssey-theophany-psalms',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Theophany & God&apos;s Power',
-      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
-      description: 'Psalms depicting God appearing in storm, earthquake, and fire.',
-    },
-    {
       id: 'bibleodyssey-hymns-praise',
       kind: 'study',
       source: 'Bible Odyssey (SBL)',

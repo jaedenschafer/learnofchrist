@@ -52,14 +52,6 @@ export const REVELATION_11: RichChapterContent = {
       url: 'https://www.sefaria.org/I_Kings.17-18',
       description: 'Elijah&apos;s prophetic works as typology for the two witnesses — shutting rain, calling fire.',
     },
-    {
-      id: 'bibleodyssey-two-witnesses',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'The Two Witnesses — Revelation 11',
-      url: 'https://www.bibleodyssey.org/dictionary/two-witnesses/',
-      description: 'Study of Elijah and Moses typology in the final prophetic testimony before Christ&apos;s return.',
-    },
   ],
 
   sections: [

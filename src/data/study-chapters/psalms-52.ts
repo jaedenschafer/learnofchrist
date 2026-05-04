@@ -136,22 +136,6 @@ export const PSALMS_52: RichChapterContent = {
       url: 'https://www.sefaria.org/Psalms.52',
       description: 'Denunciation of the wicked with Jewish commentary.',
     },
-    {
-      id: 'bible-odyssey-denunciation',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Denunciation & Warning',
-      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
-      description: 'Psalms condemning wickedness[res:bible-odyssey-denunciation] and warning of judgment.',
-    },
-    {
-      id: 'bibleodyssey-psalter-laments',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Laments in the Psalter',
-      url: 'https://www.bibleodyssey.org/articles/laments/',
-      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
-    },
 
   ],
 

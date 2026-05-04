@@ -48,14 +48,6 @@ export const DEUTERONOMY_19: RichChapterContent = {
       description: 'Open-access source text and rabbinic commentary on cities of refuge, the role of the avenger of blood, and fair witness testimony.',
     },
     {
-      id: 'cities-of-refuge-ancient-israel-law-bible-odyssey',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Cities of Refuge and Justice Systems',
-      url: 'https://www.bibleodyssey.org/topical-article/city-of-refuge/',
-      description: 'Explores how Israel&apos;s system of refuge cities provided mercy for accidental killings [res:cities-of-refuge-ancient-israel-law-bible-odyssey] while protecting intentional murderers from blood revenge.',
-    },
-    {
       id: 'witness-testimony-ancient-law-two-witnesses',
       kind: 'lexicon',
       source: 'Sefaria',

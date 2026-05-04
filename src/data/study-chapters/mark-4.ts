@@ -264,7 +264,7 @@ export const MARK_4: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Psalm 35:3 ↔ Mark 4:40 (Faith & Deliverance)',
-      url: 'https://intertextual.bible/text/psalms-35.3/mark-4.40',
+      url: 'https://intertextual.bible/search?q=Psalms+35+3+Mark+4+40',
       description: 'Intertextual link showing how Mark echoes psalms of trust and divine protection in the storm narrative.',
     },
   ],

@@ -409,14 +409,6 @@ export const JUDGES_2: RichChapterContent = {
 
   resources: [
     {
-      id: 'bibleodyssey-judges-cycle',
-      kind: 'study',
-      source: 'Bible Odyssey',
-      label: 'The Cycle of Judges: Forgetting and Deliverance',
-      url: 'https://www.bibleodyssey.org/passages/main-passage/judges-2',
-      description: 'The establishment of the recurring cycle in Judges: apostasy, oppression, repentance, and deliverance through a judge.',
-    },
-    {
       id: 'sefaria-generation-knew-not-lord',
       kind: 'study',
       source: 'Sefaria',

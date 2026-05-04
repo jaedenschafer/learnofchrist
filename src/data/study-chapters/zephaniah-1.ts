@@ -156,14 +156,6 @@ export const ZEPHANIAH_1: RichChapterContent = {
       description: 'Primary sources on the announcement of the Day of the Lord and the call to judgment and repentance.',
     },
     {
-      id: 'bibleodyssey-zephaniah-day-lord',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'The Day of the Lord — Judgment and Warning',
-      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-zephaniah/',
-      description: 'Study of the Day of the Lord theme and the urgency of repentance before final judgment.',
-    },
-    {
       id: 'intertextual-zephaniah-1-2peter-3',
       kind: 'study',
       source: 'Intertextual Bible',

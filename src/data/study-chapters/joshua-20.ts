@@ -355,14 +355,6 @@ export const JOSHUA_20: RichChapterContent = {
 
   resources: [
     {
-      id: 'bibleodyssey-cities-refuge',
-      kind: 'study',
-      source: 'Bible Odyssey',
-      label: 'The Six Cities of Refuge',
-      url: 'https://www.bibleodyssey.org/passages/main-passage/joshua-20',
-      description: 'The establishment of six Levitical cities as sanctuaries for those who committed unintentional manslaughter, providing protection and justice.',
-    },
-    {
       id: 'sefaria-high-priest-death',
       kind: 'study',
       source: 'Sefaria',

@@ -553,14 +553,6 @@ export const FIRST_TIMOTHY_1: RichChapterContent = {
 
   resources: [
     {
-      id: 'sefaria-1tim-1',
-      kind: 'study',
-      source: 'Sefaria',
-      label: '1 Timothy 1',
-      url: 'https://www.sefaria.org/1%20Timothy.1',
-      description: 'Open-access multiple translations and Jewish/Christian commentary on the chapter.',
-    },
-    {
       id: 'perseus-soter',
       kind: 'lexicon',
       source: 'Perseus Scaife',

@@ -543,7 +543,7 @@ export const ROMANS_4: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Genesis 15:6 ↔ Romans 4:3',
-      url: 'https://intertextual.bible/text/genesis-15.6/romans-4.3',
+      url: 'https://intertextual.bible/search?q=Genesis+15+6+Romans+4+3',
       description: 'Side-by-side comparison of the Hebrew original and Paul&apos;s Greek citation, showing how the imputation language carries forward.',
     },
     {

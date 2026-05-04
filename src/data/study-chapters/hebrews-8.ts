@@ -526,7 +526,7 @@ export const HEBREWS_8: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Jeremiah 31 ↔ Hebrews 8:8–12',
-      url: 'https://intertextual.bible/text/jeremiah-31.31-34/hebrews-8.8',
+      url: 'https://intertextual.bible/search?q=Jeremiah+31+31+34+Hebrews+8+8',
       description: 'Full-text comparison showing how Hebrews applies Jeremiah&apos;s prophecy to Christ.',
     },
     {

@@ -645,14 +645,6 @@ export const FIRST_JOHN_4: RichChapterContent = {
       url: 'https://scaife.perseus.org/lexicon/entry/greek-lsj-πνεῦμα/1',
       description: 'Greek lexicon entry for pneuma (spirit), central to John&apos;s discussion of testing spirits and the Holy Spirit&apos;s indwelling presence.',
     },
-    {
-      id: 'bibleodyssey-incarnation',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Incarnation',
-      url: 'https://www.bibleodyssey.org/dictionary/incarnation/',
-      description: 'Open-access SBL entry on the incarnation, explaining how Christ&apos;s becoming flesh is the foundational test of true faith in John&apos;s epistle.',
-    },
   ],
 
   hasHebrew: false,

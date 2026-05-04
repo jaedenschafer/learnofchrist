@@ -51,14 +51,6 @@ export const GENESIS_24: RichChapterContent = {
       url: 'https://www.penn.museum/collections/west-asia/',
       description: 'Ancient Near Eastern documents on betrothal, servant missions, and matrimonial customs in Abraham&apos;s era.',
     },
-    {
-      id: 'bibleodyssey-rebekah-isaac',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Isaac and Rebekah: The Covenant Bride',
-      url: 'https://www.bibleodyssey.org/articles/isaac-rebekah/',
-      description: 'SBL article on divine providence, Rebekah&apos;s journey, and the relationship as a type of Christ and the Church.',
-    },
   ],
 
   sections: [

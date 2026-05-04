@@ -219,14 +219,6 @@ export const PSALMS_66: RichChapterContent = {
       description: 'Communal hymn of praise with Jewish commentary.',
     },
     {
-      id: 'bible-odyssey-corporate-praise',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Communal Praise Psalms',
-      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
-      description: 'Psalms calling all people to join in praise to God.',
-    },
-    {
       id: 'bibleodyssey-hymns-praise',
       kind: 'study',
       source: 'Bible Odyssey (SBL)',

@@ -581,14 +581,6 @@ export const ACTS_11: RichChapterContent = {
 
   resources: [
     {
-      id: 'bibleodyssey-christianoi',
-      kind: 'lexicon',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Christianoi — The Name Christian',
-      url: 'https://www.bibleodyssey.org/dictionary/christianoi/',
-      description: 'SBL entry on the Greek term Christianoi and its first appearance in Antioch, covering etymology and historical significance.',
-    },
-    {
       id: 'ascsa-antioch-orontes',
       kind: 'archaeology',
       source: 'ASCSA',

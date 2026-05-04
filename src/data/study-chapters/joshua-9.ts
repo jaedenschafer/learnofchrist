@@ -37,14 +37,6 @@ export const JOSHUA_9: RichChapterContent = {
 
   resources: [
     {
-      id: 'bibleodyssey-gibeon-deception',
-      kind: 'study',
-      source: 'Bible Odyssey',
-      label: 'The Gibeonite Deception and Treaty',
-      url: 'https://www.bibleodyssey.org/passages/main-passage/joshua-9',
-      description: 'Analysis of the Gibeonites&apos; cunning deception and Joshua&apos;s failure to seek the Lord&apos;s counsel before making a covenant.',
-    },
-    {
       id: 'sefaria-oath-covenant-binding',
       kind: 'study',
       source: 'Sefaria',

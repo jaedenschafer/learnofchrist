@@ -121,14 +121,6 @@ export const EZEKIEL_32: RichChapterContent = {
     ref: 'Ezekiel 32 · Study Guide',
   },  resources: [
     {
-      id: 'bibleodyssey-ezekiel',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Ezekiel',
-      url: 'https://www.bibleodyssey.org/passages/main-articles/ezekiel/',
-      description: 'Peer-reviewed SBL entry on the prophet Ezekiel and the Babylonian exile.',
-    },
-    {
       id: 'gog-magog-bibleodyssey',
       kind: 'study',
       source: 'Bible Odyssey (SBL)',

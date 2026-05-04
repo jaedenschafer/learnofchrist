@@ -142,16 +142,8 @@ export const PSALMS_27: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Psalm 27 in Peter[res:intertextual-psalms-27-nt] & Persecution',
-      url: 'https://intertextual.bible/text/psalm-27',
+      url: 'https://intertextual.bible/search?q=Psalm+27',
       description: 'Peter echoes Psalm 27 language in his epistles.',
-    },
-    {
-      id: 'bible-odyssey-temple-desire',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Longing for God&apos;s House',
-      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
-      description: 'Psalms expressing yearning for God&apos;s presence in worship[res:bible-odyssey-temple-desire].',
     },
   ],
 

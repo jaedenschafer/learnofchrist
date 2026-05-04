@@ -131,14 +131,6 @@ export const ZECHARIAH_6: RichChapterContent = {
       url: 'https://intertextual.bible/search?query=zechariah+hebrews',
       description: 'The connection between Zechariah&apos;s vision of the BRANCH as priest-king and Hebrews&apos; declaration that Christ is a high priest after the order of Melchizedek.',
     },
-    {
-      id: 'bibleodyssey-zechariah-messianic-fulfillment',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'The BRANCH: Messianic King and Priest',
-      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-zechariah/',
-      description: 'Study of Zechariah&apos;s culminating messianic vision where the offices of priest and king are united in the BRANCH.',
-    },
   ],
 
   hasHebrew: true,

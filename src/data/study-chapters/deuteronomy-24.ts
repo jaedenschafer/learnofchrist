@@ -27,14 +27,6 @@ export const DEUTERONOMY_24: RichChapterContent = {
       description: 'Open-access source text and rabbinic commentary on divorce, pledges, wages of hired servants, and redemption for the vulnerable.',
     },
     {
-      id: 'divorce-remarriage-ancient-israel-law-bible-odyssey',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Divorce and Remarriage in Ancient Israel',
-      url: 'https://www.bibleodyssey.org/topical-article/divorce/',
-      description: 'Theological overview of Deuteronomy&apos;s divorce provisions [res:sefaria-deuteronomy-24] and how Jesus reinterprets [res:divorce-remarriage-ancient-israel-law-bible-odyssey] them toward redemptive fidelity in Matthew 19.',
-    },
-    {
       id: 'widow-orphan-alien-protection-biblical-law',
       kind: 'lexicon',
       source: 'Sefaria',

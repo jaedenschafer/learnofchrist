@@ -166,14 +166,6 @@ export const MICAH_5: RichChapterContent = {
       url: 'https://intertextual.bible/search?query=micah+matthew',
       description: 'Direct fulfillment of Micah&apos;s prophecy in the birth of Christ in Bethlehem, cited by Matthew to the wise men.',
     },
-    {
-      id: 'bibleodyssey-micah-messiah',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'The Coming Messiah — Shepherd and Ruler',
-      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-micah/',
-      description: 'Study of the Messianic imagery and the eternal nature of the Ruler who comes from the least expected place.',
-    },
   ],
 
   hasHebrew: true,

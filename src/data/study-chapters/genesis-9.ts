@@ -46,16 +46,8 @@ export const GENESIS_9: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'The Rainbow Covenant (Genesis 9:13-17)',
-      url: 'https://intertextual.bible/text/genesis-9.13',
+      url: 'https://intertextual.bible/search?q=Genesis+9+13',
       description: 'Traces the rainbow symbol and covenant theme through Scripture.',
-    },
-    {
-      id: 'bibleodyssey-noahide-covenant',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'The Noahic Covenant',
-      url: 'https://www.bibleodyssey.org/dictionary/noahic-covenant/',
-      description: 'SBL entry on God\'s post-flood covenant and its role in biblical theology.',
     },
   ],
 

@@ -1012,14 +1012,6 @@ export const COLOSSIANS_1: RichChapterContent = {
 
   resources: [
     {
-      id: 'christ-hymn-colossians-sbl',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Christ Hymn (Colossians)',
-      url: 'https://www.bibleodyssey.org/dictionary/christ-hymn/',
-      description: 'Scholarly entry on the Christ-hymn in Colossians 1:15–20, an early Christian confession of Christ&apos;s cosmic supremacy.',
-    },
-    {
       id: 'eikon-scaife',
       kind: 'lexicon',
       source: 'Perseus Scaife',

@@ -34,14 +34,6 @@ export const HOSEA_9: RichChapterContent = {
       description: 'Primary sources on judgment, exile, and the appointed days of God&apos;s visitation upon Israel.',
     },
     {
-      id: 'bibleodyssey-visitation',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'The Days of Visitation in Scripture',
-      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-hosea/',
-      description: 'Study of the theological theme of God&apos;s appointed times of judgment and redemption in biblical history.',
-    },
-    {
       id: 'sefaria-hosea-9-v1',
       kind: 'study',
       source: 'Sefaria',

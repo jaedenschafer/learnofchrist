@@ -495,14 +495,6 @@ export const ACTS_27: RichChapterContent = {
 
   resources: [
     {
-      id: 'mediterranean-sailing-seasons',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Mediterranean Sailing Seasons & Maritime Trade',
-      url: 'https://www.bibleodyssey.org/dictionary/mediterranean-sea/',
-      description: 'Scholarly entry on Mediterranean navigation routes, seasonal wind patterns, and the autumn sailing calendar Paul and the centurion encountered.',
-    },
-    {
       id: 'euroclydon-wind-direction',
       kind: 'archaeology',
       source: 'Oxford Classical Dictionary Online',
@@ -511,19 +503,11 @@ export const ACTS_27: RichChapterContent = {
       description: 'Detailed study of ancient Mediterranean wind nomenclature and the specific northeast gale system known as the Euroclydon.',
     },
     {
-      id: 'alexandria-grain-ships',
-      kind: 'study',
-      source: 'Classical World (Cambridge)',
-      label: 'Alexandrian Grain Vessels & Roman Maritime Trade',
-      url: 'https://www.cambridge.org/core/journals/classical-world',
-      description: 'Scholarly analysis of large grain freighters operated by Alexandria&apos;s merchants, carrying Egyptian staples to Rome via Mediterranean routes.',
-    },
-    {
       id: 'adriatic-boundaries-antiquity',
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Adriatic Sea Geography & Ancient Naming',
-      url: 'https://intertextual.bible/text/acts-27.27',
+      url: 'https://intertextual.bible/search?q=Acts+27+27',
       description: 'Geographical reference clarifying the Adriatic Sea boundary in Acts 27:27, distinguishing Roman-era naming conventions from modern terminology.',
     },
   ],

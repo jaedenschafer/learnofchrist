@@ -637,14 +637,6 @@ export const FIRST_CORINTHIANS_3: RichChapterContent = {
       description: 'The psalmist&apos;s declaration that God knows all human schemes are vain, echoed in Paul&apos;s rebuke of worldly wisdom.',
     },
     {
-      id: 'ascsa-corinth-temple',
-      kind: 'archaeology',
-      source: 'ASCSA',
-      label: 'Corinth Temple Archaeology',
-      url: 'https://www.ascsa.net/projects/corinth/',
-      description: 'Excavation and architectural evidence of temple structures in Roman Corinth, illuminating the temple metaphor Paul employs.',
-    },
-    {
       id: 'perseus-naos-lexicon',
       kind: 'lexicon',
       source: 'Perseus Scaife',

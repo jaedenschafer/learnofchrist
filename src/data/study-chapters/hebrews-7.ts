@@ -633,22 +633,6 @@ export const HEBREWS_7: RichChapterContent = {
       url: 'https://www.sefaria.org/Genesis.14.18-20',
       description: 'The OT account of Melchisedec; Hebrews 7 builds its entire Christology on this passage.',
     },
-    {
-      id: 'sbl-melchisedec-research',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Melchizedek: Priest without Genealogy',
-      url: 'https://www.bibleodyssey.org/dictionary/melchizedek/',
-      description: 'SBL scholarly entry unpacking the Jewish understanding of Melchisedec and typological interpretation.',
-    },
-    {
-      id: 'dead-sea-scrolls-11q13',
-      kind: 'manuscript',
-      source: 'Dead Sea Scrolls Foundation',
-      label: '11Q13 (Melchizedek Text)',
-      url: 'https://www.deadseascrolls.org.il/docs/melchizedek',
-      description: 'Qumran text on Melchisedec eschatology; evidence of Jewish expectations about this priestly figure.',
-    },
   ],
 
   hasHebrew: true,

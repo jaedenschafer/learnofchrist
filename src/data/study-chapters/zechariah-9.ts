@@ -129,14 +129,6 @@ export const ZECHARIAH_9: RichChapterContent = {
       url: 'https://intertextual.bible/search?query=zechariah+matthew',
       description: 'The fulfillment of Zechariah&apos;s prophecy when Christ rides into Jerusalem on a donkey on Palm Sunday, as described in Matthew&apos;s gospel.',
     },
-    {
-      id: 'bibleodyssey-zechariah-messiah',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'The Coming King: Humility and Justice',
-      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-zechariah/',
-      description: 'Study of Zechariah&apos;s messianic vision of a humble, righteous king who comes in peace rather than conquest.',
-    },
   ],
 
   hasHebrew: true,

@@ -343,14 +343,6 @@ export const JOSHUA_17: RichChapterContent = {
 
   resources: [
     {
-      id: 'bibleodyssey-manasseh-joseph-west',
-      kind: 'study',
-      source: 'Bible Odyssey',
-      label: 'Manasseh&apos;s Inheritance West of Jordan',
-      url: 'https://www.bibleodyssey.org/passages/main-passage/joshua-17',
-      description: 'The inheritance of the tribe of Manasseh, with the detail that despite their military strength, they did not fully drive out the Canaanites.',
-    },
-    {
       id: 'sefaria-possession-work-faith',
       kind: 'study',
       source: 'Sefaria',

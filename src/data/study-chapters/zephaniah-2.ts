@@ -175,14 +175,6 @@ export const ZEPHANIAH_2: RichChapterContent = {
       url: 'https://intertextual.bible/search?query=zephaniah+matthew',
       description: 'The connection between Zephaniah&apos;s call to meekness and Christ&apos;s teaching that the meek shall inherit the earth.',
     },
-    {
-      id: 'bibleodyssey-zephaniah-humility',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Humility and Meekness as Survival',
-      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-zephaniah/',
-      description: 'Study of meekness as humble dependence on God and the contrast between the proud and the righteous remnant.',
-    },
   ],
 
   hasHebrew: true,

@@ -134,14 +134,6 @@ export const ZECHARIAH_5: RichChapterContent = {
       url: 'https://intertextual.bible/search?query=zechariah+galatians',
       description: 'The connection between Zechariah&apos;s curse of the scroll and Paul&apos;s declaration that Christ redeemed us from the curse of the law.',
     },
-    {
-      id: 'bibleodyssey-zechariah-cleansing',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Divine Judgment and the Cleansing of Sin',
-      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-zechariah/',
-      description: 'Study of Zechariah&apos;s visions of God&apos;s judgment on wickedness and the removal of corruption from the land.',
-    },
   ],
 
   hasHebrew: true,

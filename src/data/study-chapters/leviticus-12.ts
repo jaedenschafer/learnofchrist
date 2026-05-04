@@ -236,7 +236,7 @@ export const LEVITICUS_12: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Leviticus 12 ↔ Luke 2:22–24',
-      url: 'https://intertextual.bible/text/leviticus-12/luke-2.22',
+      url: 'https://intertextual.bible/search?q=Leviticus+12+Luke+2+22',
       description: 'Side-by-side comparison of the law and Mary&apos;s obedience in presenting Jesus at the temple with the poor woman&apos;s offering[res:intertextual-luke-2-leviticus-12].',
     },
     {

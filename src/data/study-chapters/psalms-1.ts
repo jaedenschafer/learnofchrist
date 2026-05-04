@@ -154,7 +154,7 @@ export const PSALMS_1: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Psalm 1 in the NT',
-      url: 'https://intertextual.bible/text/psalm-1',
+      url: 'https://intertextual.bible/search?q=Psalm+1',
       description: 'Traces allusions to Psalm 1 throughout the New Testament, especially Matthew 5-7.',
     },
     {

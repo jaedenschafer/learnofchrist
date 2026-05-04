@@ -167,14 +167,6 @@ export const MATTHEW_23: RichChapterContent = {
       description: 'Overview of Pharisaic practices and Jesus&apos; condemnation of their outward piety without inner transformation.',
     },
     {
-      id: 'sefaria-matthew-23-woes',
-      kind: 'study',
-      source: 'Sefaria',
-      label: 'Seven Woes of Matthew 23 — Literary Structure',
-      url: 'https://www.sefaria.org/Matthew.23',
-      description: 'Analysis of the seven-fold woe structure and Jesus&apos; prophetic confrontation of religious leadership.',
-    },
-    {
       id: 'bibleodyssey-jerusalem-destruction',
       kind: 'study',
       source: 'Bible Odyssey (SBL)',

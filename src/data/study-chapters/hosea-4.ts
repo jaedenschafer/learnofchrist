@@ -43,14 +43,6 @@ export const HOSEA_4: RichChapterContent = {
       description: 'Primary sources on the knowledge of God as the central theme in Israel&apos;s covenant relationship.',
     },
     {
-      id: 'bibleodyssey-knowledge-of-god',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Knowledge of God in Hosea',
-      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-hosea/',
-      description: 'Exploration of the Hebrew concept of knowing God as intimate relationship rather than intellectual assent.',
-    },
-    {
       id: 'sefaria-hosea-4-v1',
       kind: 'study',
       source: 'Sefaria',

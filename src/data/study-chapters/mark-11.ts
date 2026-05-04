@@ -159,7 +159,7 @@ export const MARK_11: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Temple Cleansing (Isaiah 56 ↔ Mark 11)',
-      url: 'https://intertextual.bible/text/isaiah-56/mark-11.17',
+      url: 'https://intertextual.bible/search?q=Isaiah+56+Mark+11+17',
       description: 'Intertextual links showing how Jesus fulfills the prophetic vision of the temple as a house of prayer for all nations.',
     },
     {
@@ -169,14 +169,6 @@ export const MARK_11: RichChapterContent = {
       label: 'Faith in God',
       url: 'https://www.bibleodyssey.org/dictionary/faith/',
       description: 'Open-access entry exploring the nature of faith and trust in God, central to Jesus&apos; teaching on mountain-moving prayer.',
-    },
-    {
-      id: 'sefaria-john-baptism',
-      kind: 'study',
-      source: 'Sefaria',
-      label: 'John&apos;s Baptism & Repentance',
-      url: 'https://www.sefaria.org/Mishnah/Yoma/3.3?lang=bi',
-      description: 'Jewish sources on ritual purification and repentance, contextualizing John&apos;s baptism as a renewal movement within Judaism.',
     },
   ],
 

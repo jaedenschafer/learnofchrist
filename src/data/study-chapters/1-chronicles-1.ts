@@ -46,14 +46,6 @@ export const CHRONICLES_1_1: RichChapterContent = {
       description: 'The Hebrew text of the genealogy from Adam through Israel with Rashi and other classical commentators.',
     },
     {
-      id: 'bibleodyssey-genealogies',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Genealogies in the Hebrew Bible',
-      url: 'https://www.bibleodyssey.org/articles/genealogies/',
-      description: 'SBL essay on the function and theology of biblical genealogies as covenantal memory.',
-    },
-    {
       id: 'sefaria-1-chronicles-1-v1',
       kind: 'study',
       source: 'Sefaria',

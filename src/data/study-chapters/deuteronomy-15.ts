@@ -38,14 +38,6 @@ export const DEUTERONOMY_15: RichChapterContent = {
       description: 'Open-access source text and rabbinic commentary on the Jubilee year [res:sefaria-deuteronomy-15], debt release, and concern for the poor.',
     },
     {
-      id: 'jubilee-debt-forgiveness-bible-odyssey',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Jubilee, Debt Release, and Economic Justice',
-      url: 'https://www.bibleodyssey.org/topical-article/jubilee/',
-      description: 'Explores the theological vision of periodic debt forgiveness [res:jubilee-debt-forgiveness-bible-odyssey] and its function in maintaining covenant community equity.',
-    },
-    {
       id: 'hebrew-servants-manumission-ancient-law',
       kind: 'lexicon',
       source: 'Sefaria',

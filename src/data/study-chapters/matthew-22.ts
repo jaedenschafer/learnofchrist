@@ -181,7 +181,7 @@ export const MATTHEW_22: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Parable of the Wedding Feast — Matthew Only',
-      url: 'https://intertextual.bible/text/matthew-22.1',
+      url: 'https://intertextual.bible/search?q=Matthew+22+1',
       description: 'Unique Matthean parable on rejection of the kingdom invitation and inclusion of the unexpected.',
     },
     {

@@ -447,14 +447,6 @@ export const JOSHUA_3: RichChapterContent = {
 
   resources: [
     {
-      id: 'bibleodyssey-jordan-crossing',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Jordan Crossing and Covenant',
-      url: 'https://www.bibleodyssey.org/passages/joshua/crossing-jordan/',
-      description: 'SBL study on the Jordan crossing as a renewal of covenant and parallel to the Red Sea miracle.',
-    },
-    {
       id: 'iaa-jordan-valley',
       kind: 'archaeology',
       source: 'Israel Antiquities Authority',
@@ -467,7 +459,7 @@ export const JOSHUA_3: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Joshua&apos;s Rest and Hebrews 4',
-      url: 'https://intertextual.bible/text/joshua-3/hebrews-4.8',
+      url: 'https://intertextual.bible/search?q=Joshua+3+Hebrews+4+8',
       description: 'Connection between Joshua leading Israel into rest and the rest that remains for believers in Hebrews.',
     },
   ],

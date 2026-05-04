@@ -604,14 +604,6 @@ export const SECOND_CORINTHIANS_1: RichChapterContent = {
       description: 'Full text of Isaiah 65 with Rabbinic and Medieval Jewish commentary on God&apos;s promises of renewal — theological background for Paul&apos;s "Yea and Amen" theology.',
     },
     {
-      id: 'theoi-homer-arraban',
-      kind: 'archive',
-      source: 'Theoi Classical Texts',
-      label: 'Arrabōn in Ancient Greek Commerce',
-      url: 'https://www.theoi.com/Library.html',
-      description: 'Theoi collection of classical texts documenting arrabōn (earnest, down payment) in ancient Greek commercial law and maritime contracts.',
-    },
-    {
       id: 'topostext-asia-minor-sites',
       kind: 'archaeology',
       source: 'ToposText',

@@ -887,7 +887,7 @@ export const HEBREWS_10: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Habakkuk 2:4 Cross-Reference — "The Just Shall Live by Faith"',
-      url: 'https://intertextualconnections.com/habakkuk-2-4/',
+      url: 'https://intertextual.bible/',
       description: 'Traces OT prophecy of faith-righteousness quoted by Paul and Hebrews as the gospel&apos;s foundation.',
     },
     {

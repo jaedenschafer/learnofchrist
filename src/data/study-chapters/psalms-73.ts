@@ -145,14 +145,6 @@ export const PSALMS_73: RichChapterContent = {
       description: 'Wisdom psalm on theodicy with Jewish commentary.',
     },
     {
-      id: 'bible-odyssey-theodicy-wisdom',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Theodicy in Wisdom',
-      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
-      description: 'Wisdom reflection on why the wicked thrive and faith persists.',
-    },
-    {
       id: 'bibleodyssey-asaph',
       kind: 'study',
       source: 'Bible Odyssey (SBL)',

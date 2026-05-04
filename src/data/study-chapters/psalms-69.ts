@@ -147,16 +147,8 @@ export const PSALMS_69: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Psalm 69 in John, Romans, Acts',
-      url: 'https://intertextual.bible/text/psalm-69',
+      url: 'https://intertextual.bible/search?q=Psalm+69',
       description: 'NT applies Psalm 69 to Christ&apos;s suffering and vindication.',
-    },
-    {
-      id: 'bible-odyssey-depths-psalms',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Psalms in Deep Waters',
-      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
-      description: 'Psalms of drowning, overwhelming distress, and rescue.',
     },
   ],
 

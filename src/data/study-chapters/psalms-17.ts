@@ -175,22 +175,6 @@ export const PSALMS_17: RichChapterContent = {
       url: 'https://www.sefaria.org/Psalms.17',
       description: 'Prayer for protection with Jewish commentary on vindication.',
     },
-    {
-      id: 'bible-odyssey-justice-prayer',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Psalms of Justice & Protection',
-      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
-      description: 'Prayers for God to defend the innocent and punish the wicked.',
-    },
-    {
-      id: 'bibleodyssey-psalter-laments',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Laments in the Psalter',
-      url: 'https://www.bibleodyssey.org/articles/laments/',
-      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
-    },
 
   ],
 

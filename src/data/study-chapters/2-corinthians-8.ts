@@ -649,28 +649,12 @@ export const SECOND_CORINTHIANS_8: RichChapterContent = {
 
   resources: [
     {
-      id: 'bibleodyssey-generosity',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Generosity and Giving',
-      url: 'https://www.bibleodyssey.org/dictionary/generosity/',
-      description: 'SBL article on generosity as a spiritual gift rooted in grace, exemplified by Christ and the Macedonian churches.',
-    },
-    {
       id: 'intertextual-exodus-manna',
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Exodus 16:18 ↔ 2 Corinthians 8:15',
-      url: 'https://intertextual.bible/text/exodus-16.18/2-corinthians-8.15',
+      url: 'https://intertextual.bible/search?q=Exodus+16+18+2+Corinthians+8+15',
       description: 'Connection between the manna principle and Paul&apos;s vision of church equality: God&apos;s supply is sufficient for all.',
-    },
-    {
-      id: 'sefaria-2-corinthians-8',
-      kind: 'study',
-      source: 'Sefaria',
-      label: '2 Corinthians 8 — Full Text & Connections',
-      url: 'https://www.sefaria.org/2-Corinthians.8',
-      description: 'Open-access text with references to poverty, wealth, self-sacrifice, and the Macedonian model of giving.',
     },
   ],
 

@@ -409,7 +409,7 @@ export const NUMBERS_30: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Numbers 30 ↔ Ecclesiastes 5:4–5',
-      url: 'https://intertextual.bible/text/numbers-30/ecclesiastes-5.4',
+      url: 'https://intertextual.bible/search?q=Numbers+30+Ecclesiastes+5+4',
       description: 'Ecclesiastes echoes Numbers on the seriousness of vows and the danger of breaking them before God.',
     },
   ],

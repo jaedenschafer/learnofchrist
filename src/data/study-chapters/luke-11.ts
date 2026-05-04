@@ -162,14 +162,6 @@ export const LUKE_11: RichChapterContent = {
       description: 'Sefaria texts on Jewish prayer forms and the Kaddish, showing the OT context for Jesus&apos; prayer instruction.',
     },
     {
-      id: 'bible-odyssey-pharisee',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Pharisees: History and Beliefs',
-      url: 'https://www.bibleodyssey.org/dictionary/pharisee/',
-      description: 'Open-access entry on the Pharisees, their practices, and their conflicts with Jesus.',
-    },
-    {
       id: 'perseus-hypocrisy',
       kind: 'lexicon',
       source: 'Perseus Scaife',

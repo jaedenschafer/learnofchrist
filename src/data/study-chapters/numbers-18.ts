@@ -744,7 +744,7 @@ export const NUMBERS_18: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Numbers 18:31 ↔ 1 Corinthians 9:13–14',
-      url: 'https://intertextual.bible/text/numbers-18/1-corinthians-9.13',
+      url: 'https://intertextual.bible/search?q=Numbers+18+1+Corinthians+9+13',
       description: 'Paul cites Numbers 18 to establish that those who preach the gospel should live by the gospel.',
     },
     {
@@ -752,7 +752,7 @@ export const NUMBERS_18: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Numbers 18 ↔ Hebrews 7',
-      url: 'https://intertextual.bible/text/numbers-18/hebrews-7',
+      url: 'https://intertextual.bible/search?q=Numbers+18+Hebrews+7',
       description: 'Hebrews contrasts the Levitical priesthood with Jesus as the High Priest in the order of Melchizedek.',
     },
   ],

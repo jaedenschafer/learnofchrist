@@ -425,30 +425,6 @@ export const FOURTH_MACCABEES_2: RichChapterContent = {
   ],
 
   resources: [
-    {
-      id: 'sefaria-4-macc-2',
-      kind: 'study',
-      source: 'Sefaria',
-      label: '4 Maccabees 2',
-      url: 'https://www.sefaria.org/IV_Maccabees.2',
-      description: 'Stoic philosophy applied to Torah obedience and rational virtue (section 2).',
-    },
-    {
-      id: 'theoi-stoic-reason',
-      kind: 'study',
-      source: 'Theoi Classical Texts',
-      label: 'Stoic Philosophy: Reason and Virtue',
-      url: 'https://www.theoi.com/',
-      description: 'Hellenistic Stoic concepts of reason controlling passion and emotion.',
-    },
-    {
-      id: 'sefaria-4-maccabees-2',
-      kind: 'study',
-      source: 'Sefaria',
-      label: '4 Maccabees 2 — Hebrew + classical Jewish commentary',
-      url: 'https://www.sefaria.org/IV_Maccabees.2',
-      description: 'The Hebrew text of 4 Maccabees 2 alongside Rashi, Ibn Ezra, and other classical commentators.',
-    },
 
   ],
 

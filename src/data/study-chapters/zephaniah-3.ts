@@ -183,14 +183,6 @@ export const ZEPHANIAH_3: RichChapterContent = {
       description: 'Primary sources on the restoration of the remnant and God&apos;s rejoicing over His redeemed people.',
     },
     {
-      id: 'bibleodyssey-zephaniah-restoration',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Restoration of the Remnant and Divine Joy',
-      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-zephaniah/',
-      description: 'Study of the restoration theme in Zephaniah and the transformation from judgment to mercy and celebration.',
-    },
-    {
       id: 'intertextual-zephaniah-3-luke-15',
       kind: 'study',
       source: 'Intertextual Bible',

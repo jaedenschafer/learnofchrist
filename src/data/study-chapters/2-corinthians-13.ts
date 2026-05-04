@@ -609,30 +609,6 @@ export const SECOND_CORINTHIANS_13: RichChapterContent = {
   },
 
   resources: [
-    {
-      id: 'sefaria-2corinthians-1314',
-      kind: 'study',
-      source: 'Sefaria',
-      label: 'The Apostolic Benediction',
-      url: 'https://sefaria.org/2_Corinthians.13.14',
-      description: 'Multi-version scholarly commentary on the trinitarian formula that closes 2 Corinthians, with textual parallels across Paul&apos;s writings.',
-    },
-    {
-      id: 'cambridge-examine-yourselves',
-      kind: 'study',
-      source: 'Cambridge UP',
-      label: 'Self-Examination and Apostolic Authority',
-      url: 'https://www.cambridge.org/core/services/aop-cambridge-core/content/view/self_examination_2corinthians',
-      description: 'Scholarly treatment of dokimazo (testing) throughout Paul&apos;s epistles and the paradox of weakness as proof of apostolic authenticity.',
-    },
-    {
-      id: 'sefaria-2-corinthians-13',
-      kind: 'study',
-      source: 'Sefaria',
-      label: '2 Corinthians 13 — Hebrew + classical Jewish commentary',
-      url: 'https://www.sefaria.org/II_Corinthians.13',
-      description: 'The Hebrew text of 2 Corinthians 13 alongside Rashi, Ibn Ezra, and other classical commentators.',
-    },
 
   ],
 

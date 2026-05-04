@@ -201,7 +201,7 @@ export const JOHN_16: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Psalm 27:1 ↔ John 16:33',
-      url: 'https://intertextual.bible/text/psalm-27.1/john-16.33',
+      url: 'https://intertextual.bible/search?q=Psalm+27+1+John+16+33',
       description: 'Jesus&apos; victory echoing the psalmist&apos;s trust in God&apos;s power over all opposition.',
     },
   ],

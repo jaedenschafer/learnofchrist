@@ -38,28 +38,12 @@ export const CHRONICLES_1_3: RichChapterContent = {
 
   resources: [
     {
-      id: 'bibleodyssey-levites',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Levites and Levitical Cities',
-      url: 'https://www.bibleodyssey.org/dictionary/levite/',
-      description: 'SBL study entry on Levite origins, roles, and tribal allotments.',
-    },
-    {
       id: 'sefaria-1-chronicles-3',
       kind: 'study',
       source: 'Sefaria',
       label: '1 Chronicles 3 — Hebrew + classical Jewish commentary',
       url: 'https://www.sefaria.org/I_Chronicles.3',
       description: 'The Hebrew text of 1 Chronicles 3 alongside Rashi, Ibn Ezra, and other classical commentators.',
-    },
-    {
-      id: 'bibleodyssey-1-chronicles-overview-3',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: '1 Chronicles — SBL Overview',
-      url: 'https://www.bibleodyssey.org/articles/1-chronicles/',
-      description: 'Open-access SBL essay on the historical and literary setting of 1 Chronicles.',
     },
 
   ],

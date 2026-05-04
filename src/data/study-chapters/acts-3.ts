@@ -514,22 +514,6 @@ export const ACTS_3: RichChapterContent = {
 
   resources: [
     {
-      id: 'bibleodyssey-beautygate',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Beautiful Gate',
-      url: 'https://www.bibleodyssey.org/people/all/beautiful-gate/',
-      description: 'SBL open-access entry on the gate at the temple precinct, likely the Nicanor Gate, where the lame man was placed.',
-    },
-    {
-      id: 'bibleodyssey-solomons-porch',
-      kind: 'archaeology',
-      source: 'Bible Odyssey (SBL)',
-      label: "Solomon's Portico",
-      url: 'https://www.bibleodyssey.org/places/all/solomons-porch/',
-      description: 'SBL archaeological entry on the covered portico surrounding the outer court of the Second Temple.',
-    },
-    {
       id: 'sefaria-deuteronomy-18',
       kind: 'study',
       source: 'Sefaria',
@@ -554,19 +538,11 @@ export const ACTS_3: RichChapterContent = {
       description: 'Numismatic and archaeological evidence for the temple worship system and pilgrimage economy in first-century Jerusalem.',
     },
     {
-      id: 'theoi-healing-ancient-greece',
-      kind: 'archive',
-      source: 'Theoi Classical Texts',
-      label: 'Healing in Ancient Greek and Jewish Contexts',
-      url: 'https://www.theoi.com/',
-      description: 'Comparative study of miraculous healing narratives in Greco-Roman and Jewish literature as backdrop to apostolic signs.',
-    },
-    {
       id: 'intertextual-genesis-covenant',
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Genesis 12:3 ↔ Acts 3:25 — Covenant Blessing',
-      url: 'https://intertextual.bible/text/genesis-12.3/acts-3.25',
+      url: 'https://intertextual.bible/search?q=Genesis+12+3+Acts+3+25',
       description: 'Cross-reference showing how Peter applies the Abrahamic covenant promise of blessing all nations to the risen Jesus.',
     },
   ],

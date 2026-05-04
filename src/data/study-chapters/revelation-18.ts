@@ -491,7 +491,7 @@ export const REVELATION_18: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Jeremiah 50:8 ↔ Revelation 18:4',
-      url: 'https://intertextual.bible/text/jeremiah-50.8/revelation-18.4',
+      url: 'https://intertextual.bible/search?q=Jeremiah+50+8+Revelation+18+4',
       description: 'Parallel call to flee Babylon — the prophetic template across centuries.',
     },
   ],

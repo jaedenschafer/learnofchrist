@@ -39,14 +39,6 @@ export const JOSHUA_11: RichChapterContent = {
       description: 'Archaeological evidence of the destruction of Hazor and the northern Canaanite cities during Joshua&apos;s campaign.',
     },
     {
-      id: 'bibleodyssey-merom-waters',
-      kind: 'study',
-      source: 'Bible Odyssey',
-      label: 'The Waters of Merom and Victory Over the North',
-      url: 'https://www.bibleodyssey.org/passages/main-passage/joshua-11-1-9',
-      description: 'The battle at Merom where Joshua defeats Jabin&apos;s coalition and refuses to adopt Canaanite war technology.',
-    },
-    {
       id: 'intertextual-rest-hebrews-4',
       kind: 'study',
       source: 'Intertextual Bible',

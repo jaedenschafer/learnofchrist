@@ -137,7 +137,7 @@ export const PSALMS_23: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Psalm 23 in John 10 & 1 Peter 5',
-      url: 'https://intertextual.bible/text/psalm-23',
+      url: 'https://intertextual.bible/search?q=Psalm+23',
       description: 'Shepherd imagery applied to Christ and church leaders.',
     },
     {

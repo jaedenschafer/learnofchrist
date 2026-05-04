@@ -319,28 +319,12 @@ export const FIRST_ESDRAS_4: RichChapterContent = {
 
   resources: [
     {
-      id: 'sefaria-1-esdras-3-4',
-      kind: 'study',
-      source: 'Sefaria',
-      label: '1 Esdras 3-4 — The Three Youths Contest',
-      url: 'https://www.sefaria.org/I_Esdras.3',
-      description: 'Unique Hellenistic narrative about truth, loyalty, and women in Esdras tradition.',
-    },
-    {
       id: 'topostext-zerubbabel',
       kind: 'archaeology',
       source: 'ToposText',
       label: 'Zerubbabel and Jerusalem Restoration',
       url: 'https://topostext.org/',
       description: 'Archaeological sites of Second Temple Jerusalem and temple reconstruction.',
-    },
-    {
-      id: 'sefaria-1-esdras-4',
-      kind: 'study',
-      source: 'Sefaria',
-      label: '1 Esdras 4 — Hebrew + classical Jewish commentary',
-      url: 'https://www.sefaria.org/I_Esdras.4',
-      description: 'The Hebrew text of 1 Esdras 4 alongside Rashi, Ibn Ezra, and other classical commentators.',
     },
 
   ],

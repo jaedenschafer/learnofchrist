@@ -434,14 +434,6 @@ export const LEVITICUS_9: RichChapterContent = {
 
   resources: [
     {
-      id: 'sbl-eighth-day-resurrection',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'The Eighth Day and Resurrection Symbolism',
-      url: 'https://www.bibleodyssey.org/en/passages/article/resurrection-and-the-eighth-day',
-      description: 'Study of the eighth day as a symbol of resurrection and the completion of priestly consecration through divine fire.',
-    },
-    {
       id: 'sefaria-eighth-day-covenant',
       kind: 'archive',
       source: 'Sefaria',
@@ -454,7 +446,7 @@ export const LEVITICUS_9: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Acts 2:3 — Fire from Heaven at Pentecost',
-      url: 'https://intertextual.logos.com/',
+      url: 'https://intertextual.bible/',
       description: 'Cross-references linking the fire that consumes the Levitical offering to the Pentecost fire and the Spirit\'s authentication.',
     },
   ],

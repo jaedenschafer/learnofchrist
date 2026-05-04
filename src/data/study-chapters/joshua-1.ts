@@ -459,14 +459,6 @@ export const JOSHUA_1: RichChapterContent = {
 
   resources: [
     {
-      id: 'bibleodyssey-joshua-succession',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Joshua and Succession',
-      url: 'https://www.bibleodyssey.org/passages/joshua/',
-      description: 'Overview of Joshua and the themes of leadership transition and covenant renewal in the promised land.',
-    },
-    {
       id: 'sefaria-moses-death',
       kind: 'study',
       source: 'Sefaria',

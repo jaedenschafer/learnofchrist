@@ -181,7 +181,7 @@ export const PSALMS_89: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Psalm 89 messianic promise in Hebrews',
-      url: 'https://intertextual.bible/text/psalm-89/hebrews-1',
+      url: 'https://intertextual.bible/search?q=Psalm+89+Hebrews+1',
       description: 'New Testament connection showing how this Psalm is quoted or referenced.',
     },
   ],

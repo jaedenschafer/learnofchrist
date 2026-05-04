@@ -52,14 +52,6 @@ export const NEHEMIAH_12: RichChapterContent = {
       url: 'https://www.sefaria.org/Nehemiah.12',
       description: 'The Hebrew text of Nehemiah 12 alongside Rashi, Ibn Ezra, and other classical commentators.',
     },
-    {
-      id: 'bibleodyssey-nehemiah-overview-12',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Nehemiah — SBL Overview',
-      url: 'https://www.bibleodyssey.org/articles/nehemiah/',
-      description: 'Open-access SBL essay on the historical and literary setting of Nehemiah.',
-    },
 
   ],
 

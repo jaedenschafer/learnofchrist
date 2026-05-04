@@ -447,7 +447,7 @@ export const LEVITICUS_21: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'The Perfect High Priest — Hebrews 7',
-      url: 'https://intertextalbible.com',
+      url: 'https://intertextual.bible/',
       description: 'Jesus as the unblemished, eternal High Priest who fulfills the priestly order.',
     },
   ],

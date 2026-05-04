@@ -457,14 +457,6 @@ export const JOSHUA_14: RichChapterContent = {
 
   resources: [
     {
-      id: 'bibleodyssey-caleb-giants',
-      kind: 'study',
-      source: 'Bible Odyssey',
-      label: 'Caleb and the Anakim Giants of Hebron',
-      url: 'https://www.bibleodyssey.org/passages/main-passage/joshua-14',
-      description: 'Caleb&apos;s request for the mountain of Hebron despite his age, demonstrating unwavering faith and wholehearted devotion to God.',
-    },
-    {
       id: 'sefaria-faith-45-years',
       kind: 'study',
       source: 'Sefaria',

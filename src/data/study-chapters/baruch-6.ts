@@ -518,22 +518,6 @@ export const BARUCH_6: RichChapterContent = {
       url: 'https://www.sefaria.org/Jeremiah.10',
       description: 'Canonical polemic against idolatry; Baruch 6 (Letter of Jeremiah) parallels.',
     },
-    {
-      id: 'perseus-eidolon',
-      kind: 'lexicon',
-      source: 'Perseus Digital Library',
-      label: 'Eidolon — Greek Idol/Image',
-      url: 'https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0057:entry=ei%29dw%2Flon',
-      description: 'Greek lexicon of eidolon (idol, image) in religious syncretism context.',
-    },
-    {
-      id: 'bible-odyssey-idolatry',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Idolatry and Monotheism in the Bible',
-      url: 'https://www.bibleodyssey.org/dictionary/idolatry/',
-      description: 'Biblical polemic against idolatry and syncretism in exile periods.',
-    },
   ],
 
   bottomShare: {

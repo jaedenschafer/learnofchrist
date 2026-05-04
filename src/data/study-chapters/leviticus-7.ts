@@ -593,14 +593,6 @@ export const LEVITICUS_7: RichChapterContent = {
 
   resources: [
     {
-      id: 'sbl-priestly-portions',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Priestly Portions and Sustenance in Offerings',
-      url: 'https://www.bibleodyssey.org/en/passages/article/priests-and-offerings',
-      description: 'Study of how priests were sustained through wave and heave portions, and the theology of providing for those who minister.',
-    },
-    {
       id: 'sefaria-todah-thanksgiving',
       kind: 'archive',
       source: 'Sefaria',
@@ -613,7 +605,7 @@ export const LEVITICUS_7: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'From Todah to Eucharistia — Thanksgiving Meal',
-      url: 'https://intertextual.logos.com/',
+      url: 'https://intertextual.bible/',
       description: 'Cross-references linking the todah sacrifice to the Greek eucharistia and the Christian Eucharist.',
     },
   ],

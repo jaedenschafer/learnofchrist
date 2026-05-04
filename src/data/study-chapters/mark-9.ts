@@ -191,7 +191,7 @@ export const MARK_9: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Moses & Elijah in Mark',
-      url: 'https://intertextual.bible/text/deuteronomy-18/mark-9.4',
+      url: 'https://intertextual.bible/search?q=Deuteronomy+18+Mark+9+4',
       description: 'Intertextual links showing how the law (Moses) and prophecy (Elijah) are fulfilled and transformed in Jesus.',
     },
     {
@@ -201,14 +201,6 @@ export const MARK_9: RichChapterContent = {
       label: 'Exodus 24: Cloud & Divine Presence',
       url: 'https://www.sefaria.org/Exodus.24.15-18?lang=bi',
       description: 'Torah account of the cloud of God&apos;s presence at Sinai, illuminating the symbolism of the cloud at the transfiguration.',
-    },
-    {
-      id: 'bible-odyssey-childhood-ancient',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Childhood in the First Century',
-      url: 'https://www.bibleodyssey.org/dictionary/children-childhood/',
-      description: 'Open-access entry on the social position of children in ancient Mediterranean culture, showing why Jesus&apos; elevation of the child was radical.',
     },
   ],
 

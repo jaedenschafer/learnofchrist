@@ -49,14 +49,6 @@ export const GENESIS_23: RichChapterContent = {
       url: 'https://www.antiquities.org.il/en/',
       description: 'Archaeological and historical records of ancient Hebron, the burial cave, and Abraham&apos;s connection to the land.',
     },
-    {
-      id: 'bibleodyssey-sarah-covenant-line',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Sarah and the Covenant Promise',
-      url: 'https://www.bibleodyssey.org/articles/abraham-sarah/',
-      description: 'SBL article on Sarah&apos;s role in the covenant, her death, and Abraham&apos;s faith in the resurrection.',
-    },
   ],
 
   sections: [

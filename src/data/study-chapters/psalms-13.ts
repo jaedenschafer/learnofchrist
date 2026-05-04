@@ -143,22 +143,6 @@ export const PSALMS_13: RichChapterContent = {
       url: 'https://www.sefaria.org/Psalms.13',
       description: 'Short lament with turn to praise[res:bible-odyssey-lament-structure], Jewish commentary.',
     },
-    {
-      id: 'bible-odyssey-lament-structure',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Structure of Lament',
-      url: 'https://www.bibleodyssey.org/dictionary/lament-psalms/',
-      description: 'How psalms move from complaint to petition to praise.',
-    },
-    {
-      id: 'bibleodyssey-psalter-laments',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Laments in the Psalter',
-      url: 'https://www.bibleodyssey.org/articles/laments/',
-      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
-    },
 
   ],
 

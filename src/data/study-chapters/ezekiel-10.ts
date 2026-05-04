@@ -106,14 +106,6 @@ export const EZEKIEL_10: RichChapterContent = {
     ref: 'Ezekiel 10 · Study Guide',
   },  resources: [
     {
-      id: 'bibleodyssey-ezekiel',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Ezekiel',
-      url: 'https://www.bibleodyssey.org/passages/main-articles/ezekiel/',
-      description: 'Peer-reviewed SBL entry on the prophet Ezekiel and the Babylonian exile.',
-    },
-    {
       id: 'sefaria-ezekiel',
       kind: 'study',
       source: 'Sefaria',

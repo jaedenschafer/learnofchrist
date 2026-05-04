@@ -453,7 +453,7 @@ export const NUMBERS_23: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Numbers 23 ↔ Romans 4:20–21',
-      url: 'https://intertextual.bible/text/numbers-23/romans-4.20',
+      url: 'https://intertextual.bible/search?q=Numbers+23+Romans+4+20',
       description: 'Connection between Balaam&apos;s declaration that God cannot lie and Paul&s theology of faith in God&apos;s promises.',
     },
   ],

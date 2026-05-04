@@ -733,7 +733,7 @@ export const LEVITICUS_26: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'The Covenant Pattern — Deuteronomy 28',
-      url: 'https://intertextalbible.com',
+      url: 'https://intertextual.bible/',
       description: 'Parallels between Leviticus 26 and Deuteronomy 28 on the blessings and curses of the covenant.',
     },
   ],

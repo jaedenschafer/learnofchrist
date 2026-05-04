@@ -169,14 +169,6 @@ export const ECCLESIASTES_12: RichChapterContent = {
       description: 'The Hebrew text of Qohelet&apos;s closing chapter alongside Rashi, Ibn Ezra, and other classical commentators.',
     },
     {
-      id: 'bibleodyssey-qohelet-wisdom',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Ecclesiastes (Qohelet) and ANE Wisdom',
-      url: 'https://www.bibleodyssey.org/articles/ecclesiastes/',
-      description: 'SBL essay placing Qohelet&apos;s meditation on aging and judgment within the broader ANE wisdom tradition.',
-    },
-    {
       id: 'sefaria-ecclesiastes-12-v1',
       kind: 'study',
       source: 'Sefaria',

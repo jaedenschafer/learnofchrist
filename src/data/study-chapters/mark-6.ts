@@ -244,14 +244,6 @@ export const MARK_6: RichChapterContent = {
       url: 'https://www.sefaria.org/Exodus.16?lang=bi',
       description: 'OT precedent for God&apos;s provision to those traveling with minimal resources.',
     },
-    {
-      id: 'bible-odyssey-feeding-miracle',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Feeding the Five Thousand',
-      url: 'https://www.bibleodyssey.org/dictionary/jesus-feeding-the-5000/',
-      description: 'Open-access entry on Jesus&apos; miraculous feeding miracle and its significance.',
-    },
   ],
 
   hasHebrew: false,

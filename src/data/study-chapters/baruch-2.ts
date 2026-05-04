@@ -40,14 +40,6 @@ export const BARUCH_2: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/covenant/',
       description: 'Liturgical confession and restoration of covenant relationship.',
     },
-    {
-      id: 'sefaria-baruch-2',
-      kind: 'study',
-      source: 'Sefaria',
-      label: 'Baruch 2 — Hebrew + classical Jewish commentary',
-      url: 'https://www.sefaria.org/Baruch.2',
-      description: 'The Hebrew text of Baruch 2 alongside Rashi, Ibn Ezra, and other classical commentators.',
-    },
 
   ],
 

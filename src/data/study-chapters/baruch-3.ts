@@ -580,14 +580,6 @@ html: 'The chapter opens not with doctrine but with the cry of a wounded soul. T
       url: 'https://www.bibleodyssey.org/dictionary/wisdom/',
       description: 'SBL guide to wisdom themes in Deuterocanonical and Apocryphal books.',
     },
-    {
-      id: 'sefaria-baruch-3',
-      kind: 'study',
-      source: 'Sefaria',
-      label: 'Baruch 3 — Hebrew + classical Jewish commentary',
-      url: 'https://www.sefaria.org/Baruch.3',
-      description: 'The Hebrew text of Baruch 3 alongside Rashi, Ibn Ezra, and other classical commentators.',
-    },
 
   ],
 

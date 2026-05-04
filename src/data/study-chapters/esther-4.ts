@@ -44,14 +44,6 @@ export const ESTHER_4: RichChapterContent = {
 
   resources: [
     {
-      id: 'theoi-herodotus',
-      kind: 'archive',
-      source: 'Theoi Classical Texts',
-      label: 'Herodotus on Xerxes I',
-      url: 'https://www.theoi.com/Text/HerodotusHistories.html',
-      description: 'Herodotus accounts of Xerxes, Persian court intrigues, and royal authority.',
-    },
-    {
       id: 'sefaria-esther-4',
       kind: 'study',
       source: 'Sefaria',

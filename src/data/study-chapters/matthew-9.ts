@@ -189,7 +189,7 @@ export const MATTHEW_9: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Paralytic Healing — Mark and Luke Parallels',
-      url: 'https://intertextual.bible/text/matthew-9.1',
+      url: 'https://intertextual.bible/search?q=Matthew+9+1',
       description: 'Comparison of Matthew&apos;s account with parallel accounts in Mark and Luke, showing variations in emphasis.',
     },
     {

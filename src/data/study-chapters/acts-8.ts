@@ -671,14 +671,6 @@ export const ACTS_8: RichChapterContent = {
 
   resources: [
     {
-      id: 'bibleodyssey-simonmagus',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Simon Magus',
-      url: 'https://www.bibleodyssey.org/dictionary/simon-magus/',
-      description: 'Open-access SBL entry on Simon the sorcerer and his role in Acts 8 and early Christian tradition.',
-    },
-    {
       id: 'deadseascrolls-isaiah',
       kind: 'manuscript',
       source: 'Israel Museum Dead Sea Scrolls Digital Library',
@@ -693,14 +685,6 @@ export const ACTS_8: RichChapterContent = {
       label: 'Sebaste Excavations (Samaria)',
       url: 'https://www.iaa.org.il/en/archaeology/excavations/sebaste-samaria',
       description: 'Archaeological excavations of ancient Samaria (Sebaste), revealing the urban context of Philip&apos;s mission in Acts 8.',
-    },
-    {
-      id: 'penn-kandake',
-      kind: 'archive',
-      source: 'Penn Museum Digital Collections',
-      label: 'Kandake: Nubian Rulers and Titles',
-      url: 'https://www.penn.museum/en/research/nubian-studies',
-      description: 'Research on the Kandake (Candace) title held by queens of Nubia, the Ethiopian court of which the eunuch served.',
     },
     {
       id: 'cambridge-persecution-scattering-gospel',

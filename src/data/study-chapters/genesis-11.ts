@@ -450,13 +450,5 @@ export const GENESIS_11: RichChapterContent = {
       url: 'https://www.britishmuseum.org/collection/search?object=ziggurat',
       description: 'Artifacts and context on the ziggurat towers of ancient Mesopotamia that informed the Babel account.',
     },
-    {
-      id: 'bibleodyssey-babel-tongues',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'The Tower of Babel',
-      url: 'https://www.bibleodyssey.org/dictionary/tower-babel/',
-      description: 'SBL entry on Babel and the scattering of languages in ancient Near Eastern context.',
-    },
   ],
 };

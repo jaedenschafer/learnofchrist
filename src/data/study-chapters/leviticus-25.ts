@@ -727,7 +727,7 @@ export const LEVITICUS_25: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Jesus Declares the Jubilee — Luke 4:18–19',
-      url: 'https://intertextalbible.com',
+      url: 'https://intertextual.bible/',
       description: 'Jesus&apos; announcement of Himself as the fulfillment of the Jubilee and kinsman-redeemer.',
     },
   ],

@@ -137,22 +137,6 @@ export const PSALMS_57: RichChapterContent = {
       url: 'https://www.sefaria.org/Psalms.57',
       description: 'Prayer for refuge with Jewish commentary.',
     },
-    {
-      id: 'bible-odyssey-refuge-psalms',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Psalms of Refuge',
-      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
-      description: 'Psalms seeking God as shelter from danger.',
-    },
-    {
-      id: 'bibleodyssey-psalter-laments',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Laments in the Psalter',
-      url: 'https://www.bibleodyssey.org/articles/laments/',
-      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
-    },
 
   ],
 

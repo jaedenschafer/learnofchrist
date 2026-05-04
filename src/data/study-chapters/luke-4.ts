@@ -223,16 +223,8 @@ export const LUKE_4: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Isaiah 61 Fulfillment (OT ↔ NT)',
-      url: 'https://intertextual.bible/text/isaiah-61/luke-4.18',
+      url: 'https://intertextual.bible/search?q=Isaiah+61+Luke+4+18',
       description: 'Intertextual links showing how Jesus fulfilled Isaiah&apos;s prophecy of the anointed servant sent to bring good news and liberation.',
-    },
-    {
-      id: 'bible-odyssey-miracle',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Miracle & Healing in the New Testament',
-      url: 'https://www.bibleodyssey.org/dictionary/miracle/',
-      description: 'Open-access entry on Jesus&apos; miracles as signs of God&apos;s kingdom breaking into the world, demonstrating authority over sickness and demons.',
     },
   ],
 

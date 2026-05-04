@@ -57,14 +57,6 @@ export const CHRONICLES_2_20: RichChapterContent = {
       url: 'https://www.sefaria.org/II_Chronicles.20',
       description: 'The Hebrew text of 2 Chronicles 20 alongside Rashi, Ibn Ezra, and other classical commentators.',
     },
-    {
-      id: 'bibleodyssey-2-chronicles-overview-20',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: '2 Chronicles — SBL Overview',
-      url: 'https://www.bibleodyssey.org/articles/2-chronicles/',
-      description: 'Open-access SBL essay on the historical and literary setting of 2 Chronicles.',
-    },
 
   ],
 

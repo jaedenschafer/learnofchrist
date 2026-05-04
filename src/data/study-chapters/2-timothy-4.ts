@@ -564,27 +564,11 @@ export const SECOND_TIMOTHY_4: RichChapterContent = {
 
   resources: [
     {
-      id: 'sefaria-2tim-4',
-      kind: 'study',
-      source: 'Sefaria',
-      label: '2 Timothy 4',
-      url: 'https://www.sefaria.org/2%20Timothy.4',
-      description: 'Multiple translations and commentary on the final charge, Paul&apos;s farewell, and the crown of righteousness.',
-    },
-    {
-      id: 'bibleodyssey-crown-righteousness',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'The Crown of Righteousness and Eternal Reward',
-      url: 'https://www.bibleodyssey.org/dictionary/crown-righteousness/',
-      description: 'Eschatological significance of the crown promised to those who love His appearing and endure faithfully.',
-    },
-    {
       id: 'intertextual-1corinthians9-2tim4',
       kind: 'study',
       source: 'Intertextual Bible',
       label: '1 Corinthians 9:24–27 ↔ 2 Timothy 4:7–8',
-      url: 'https://intertextual.bible/text/1-corinthians-9.24/2-timothy-4.7',
+      url: 'https://intertextual.bible/search?q=1+Corinthians+9+24+2+Timothy+4+7',
       description: 'Paul&apos;s use of athletic metaphor (fighting the good fight, finishing the race) echoed throughout his letters as central to the Christian life.',
     },
   ],

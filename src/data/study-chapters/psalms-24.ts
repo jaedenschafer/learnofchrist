@@ -145,16 +145,8 @@ export const PSALMS_24: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Psalm 24 in Ephesians & Ascension',
-      url: 'https://intertextual.bible/text/psalm-24',
+      url: 'https://intertextual.bible/search?q=Psalm+24',
       description: 'NT applies Psalm 24 to Christ&apos;s ascension and glory.',
-    },
-    {
-      id: 'bible-odyssey-ascension-psalms',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Enthronement & Ascent Psalms',
-      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
-      description: 'Psalms celebrating God&apos;s exaltation and cosmic rule.',
     },
   ],
 

@@ -536,14 +536,6 @@ export const FIRST_CORINTHIANS_8: RichChapterContent = {
 
   resources: [
     {
-      id: 'bibleodyssey-temple-commerce',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Temple Commerce and the Macellum',
-      url: 'https://www.bibleodyssey.org/explore/dictionary/marketplace/',
-      description: 'SBL reference on Greco-Roman meat markets and the macellum where sacrificed animals were sold to the public.',
-    },
-    {
       id: 'sefaria-deuteronomy-6-shema',
       kind: 'study',
       source: 'Sefaria',

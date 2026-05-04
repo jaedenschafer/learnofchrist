@@ -587,13 +587,5 @@ export const NUMBERS_35: RichChapterContent = {
       url: 'https://www.intertextual.org/texts/hebrews',
       description: 'How Hebrews applies Numbers 35&apos;s cities of refuge to Christ as the place of ultimate safety and refuge for believers.',
     },
-    {
-      id: 'biblical-law-refuge-cities',
-      kind: 'study',
-      source: 'Bible Odyssey',
-      label: 'Cities of Refuge in Ancient Israel',
-      url: 'https://www.bibleodyssey.org/passages/related-articles/cities-of-refuge/',
-      description: 'Historical and legal context for the six cities of refuge in ancient Israel and their significance in biblical law.',
-    },
   ],
 };

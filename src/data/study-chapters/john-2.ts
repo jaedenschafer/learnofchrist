@@ -198,14 +198,6 @@ export const JOHN_2: RichChapterContent = {
       description: 'Archaeological evidence and excavation data from the traditional site of Cana, including early Christian veneration and Byzantine church remains.',
     },
     {
-      id: 'bible-odyssey-temple',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Second Temple Judaism',
-      url: 'https://www.bibleodyssey.org/dictionary/second-temple/',
-      description: 'Open-access SBL resource on Temple structure, function, and religious practices in Jesus&apos; era.',
-    },
-    {
       id: 'iaa-temple-cleansing',
       kind: 'archaeology',
       source: 'Israel Antiquities Authority',

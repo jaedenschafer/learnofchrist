@@ -145,22 +145,6 @@ export const PSALMS_60: RichChapterContent = {
       url: 'https://www.sefaria.org/Psalms.60',
       description: 'Lament over military defeat with Jewish commentary.',
     },
-    {
-      id: 'bible-odyssey-national-lament',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'National Lament & Recovery',
-      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
-      description: 'Communal psalms on national disaster[res:bible-odyssey-national-lament] and divine restoration.',
-    },
-    {
-      id: 'bibleodyssey-psalter-laments',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Laments in the Psalter',
-      url: 'https://www.bibleodyssey.org/articles/laments/',
-      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
-    },
 
   ],
 

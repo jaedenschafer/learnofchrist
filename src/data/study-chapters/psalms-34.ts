@@ -123,16 +123,8 @@ export const PSALMS_34: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Psalm 34 in 1 Peter[res:intertextual-psalms-34-nt] 3 & 5',
-      url: 'https://intertextual.bible/text/psalm-34',
+      url: 'https://intertextual.bible/search?q=Psalm+34',
       description: 'Peter quotes Psalm 34 on fear of God and blessing.',
-    },
-    {
-      id: 'bible-odyssey-fear-lord',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Fear of the Lord',
-      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
-      description: 'Psalms on reverence for God as source of wisdom and blessing.',
     },
   ],
 

@@ -806,14 +806,6 @@ export const FIRST_THESSALONIANS_5: RichChapterContent = {
       url: 'https://www.sefaria.org/texts/Tanakh/Prophets/Isaiah?lang=bi&p=Isaiah.5.20',
       description: 'Examines the metaphysics of light and darkness in Jewish and Christian tradition as markers of divine versus demonic belonging.',
     },
-    {
-      id: 'bible-odyssey-salvation-doctrine',
-      kind: 'study',
-      source: 'Bible Odyssey',
-      label: 'Salvation in Paul&apos;s Letters',
-      url: 'https://www.bibleodyssey.org/passage/topic/paul-salvation',
-      description: 'Surveys how Paul understands salvation as deliverance from wrath and appointment to life through Christ&apos;s death.',
-    },
   ],
 
 };

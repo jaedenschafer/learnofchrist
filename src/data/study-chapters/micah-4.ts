@@ -164,14 +164,6 @@ export const MICAH_4: RichChapterContent = {
       url: 'https://intertextual.bible/search?query=micah+isaiah',
       description: 'The nearly identical vision in both prophets of swords transformed into plowshares and perpetual peace among nations.',
     },
-    {
-      id: 'bibleodyssey-micah-peace',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Messianic Peace and Redemption',
-      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-micah/',
-      description: 'Study of the future restoration vision and the transformation of war into peace through God&apos;s reign.',
-    },
   ],
 
   hasHebrew: true,

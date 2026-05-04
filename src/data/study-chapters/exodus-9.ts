@@ -554,14 +554,6 @@ export const EXODUS_9: RichChapterContent = {
 
   resources: [
     {
-      id: 'plague-animals',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Plague of Livestock',
-      url: 'https://www.bibleodyssey.org/dictionary/livestock/',
-      description: 'Study of the fifth plague and Israel&apos;s protection.',
-    },
-    {
       id: 'apis-bull',
       kind: 'archaeology',
       source: 'British Museum',

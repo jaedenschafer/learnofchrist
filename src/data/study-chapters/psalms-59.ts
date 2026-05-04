@@ -149,22 +149,6 @@ export const PSALMS_59: RichChapterContent = {
       url: 'https://www.sefaria.org/Psalms.59',
       description: 'Prayer against enemies with medieval Jewish exegesis.',
     },
-    {
-      id: 'bible-odyssey-night-guard',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Night Vigilance & Prayer',
-      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
-      description: 'Psalms of night watch and protection from nocturnal threats.',
-    },
-    {
-      id: 'bibleodyssey-psalter-laments',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Laments in the Psalter',
-      url: 'https://www.bibleodyssey.org/articles/laments/',
-      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
-    },
 
   ],
 

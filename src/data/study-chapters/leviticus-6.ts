@@ -542,14 +542,6 @@ export const LEVITICUS_6: RichChapterContent = {
 
   resources: [
     {
-      id: 'sbl-perpetual-fire-priesthood',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'The Perpetual Fire and Priestly Intercession',
-      url: 'https://www.bibleodyssey.org/en/passages/article/priesthood-and-intercession',
-      description: 'Study of the continuously burning altar fire as symbol of ceaseless priestly intercession and God\'s unending presence.',
-    },
-    {
       id: 'sefaria-aish-tamid',
       kind: 'archive',
       source: 'Sefaria',
@@ -562,7 +554,7 @@ export const LEVITICUS_6: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Hebrews 7:25 — Jesus\' Unceasing Intercession',
-      url: 'https://intertextual.logos.com/',
+      url: 'https://intertextual.bible/',
       description: 'Connection between the perpetual priestly fire and Christ\'s eternal intercession for the saints.',
     },
   ],

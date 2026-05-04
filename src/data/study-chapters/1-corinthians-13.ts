@@ -490,14 +490,6 @@ export const FIRST_CORINTHIANS_13: RichChapterContent = {
       url: 'https://www.metmuseum.org/art/collection?q=bronze%20mirror%20Roman',
       description: 'Collection of polished bronze mirrors from the Roman period — actual artifacts matching Paul&apos;s image of seeing &quot;through a glass, darkly&quot; at 1 Corinthians 13:12.',
     },
-    {
-      id: 'theoi-four-loves',
-      kind: 'study',
-      source: 'Theoi Classical Texts &amp; Database',
-      label: 'The Four Greek Love Words: Agapē, Philos, Storge, Eros',
-      url: 'https://www.theoi.com/',
-      description: 'Comprehensive reference for classical and New Testament distinctions among the four forms of love in ancient Greek philosophy and Scripture.',
-    },
   ],
 
   hasHebrew: false,

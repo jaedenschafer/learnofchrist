@@ -395,14 +395,6 @@ export const JUDGES_12: RichChapterContent = {
 
   resources: [
     {
-      id: 'bibleodyssey-ephraim-tribal-war',
-      kind: 'study',
-      source: 'Bible Odyssey',
-      label: 'Ephraim&apos;s Civil Conflict',
-      url: 'https://www.bibleodyssey.org/passages/main-stories/judges',
-      description: 'Tribal warfare and the breakdown of unity among Israel&apos;s tribes.',
-    },
-    {
       id: 'sefaria-shibboleth-identity',
       kind: 'study',
       source: 'Sefaria',

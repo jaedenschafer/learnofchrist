@@ -165,22 +165,6 @@ export const PSALMS_25: RichChapterContent = {
       url: 'https://www.sefaria.org/Psalms.25',
       description: 'Acrostic lament with petition for guidance, Jewish commentary.',
     },
-    {
-      id: 'bible-odyssey-guidance-psalms',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Psalms of Guidance & Path',
-      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
-      description: 'Psalms seeking God&apos;s direction and teaching.',
-    },
-    {
-      id: 'bibleodyssey-psalter-laments',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Laments in the Psalter',
-      url: 'https://www.bibleodyssey.org/articles/laments/',
-      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
-    },
 
   ],
 

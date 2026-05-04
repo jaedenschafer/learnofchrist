@@ -600,7 +600,7 @@ export const ACTS_10: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Acts 2:1–4 ↔ Acts 10:44–46',
-      url: 'https://intertextual.bible/text/acts-2.1-4/acts-10.44-46',
+      url: 'https://intertextual.bible/search?q=Acts+2+1+4+Acts+10+44+46',
       description: 'Side-by-side comparison of the Jewish Pentecost and the Gentile Pentecost—the same Spirit falling on both.',
     },
     {
@@ -618,14 +618,6 @@ export const ACTS_10: RichChapterContent = {
       label: 'Roman Military Arms and Equipment',
       url: 'https://www.metmuseum.org',
       description: 'Museum collection of Roman military artifacts and equipment illustrating the rank and authority of Roman centurions like Cornelius.',
-    },
-    {
-      id: 'theoi-visions-divine-voices',
-      kind: 'archive',
-      source: 'Theoi',
-      label: 'Divine Visions and Heavenly Voices',
-      url: 'https://www.theoi.com',
-      description: 'Ancient sources on visionary experiences and divine voices, paralleling Peter\'s sheet vision and the voice calling him to eat unclean things.',
     },
   ],
 

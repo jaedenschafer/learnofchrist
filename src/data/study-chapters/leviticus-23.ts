@@ -733,7 +733,7 @@ export const LEVITICUS_23: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Christ Crucified and Risen — The Feast Calendar',
-      url: 'https://intertextalbible.com',
+      url: 'https://intertextual.bible/',
       description: 'How Jesus&apos; death and resurrection fulfill the prophetic symbolism of the appointed feasts.',
     },
   ],

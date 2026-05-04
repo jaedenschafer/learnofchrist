@@ -37,14 +37,6 @@ export const SAMUEL_1_4: RichChapterContent = {
 
   resources: [
     {
-      id: 'bible-odyssey-ark',
-      kind: 'study',
-      source: 'Bible Odyssey/SBL',
-      label: 'Capture of the Ark',
-      url: 'https://www.bibleodyssey.org/dictionary/ark-of-the-covenant/',
-      description: 'The loss of the ark to the Philistines during Israel&apos;s crisis in the Iron Age.',
-    },
-    {
       id: 'iaa-philistine',
       kind: 'archaeology',
       source: 'Israel Antiquities Authority',

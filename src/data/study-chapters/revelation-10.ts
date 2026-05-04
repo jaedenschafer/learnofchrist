@@ -466,16 +466,8 @@ export const REVELATION_10: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Ezekiel 3:1–3 ↔ Revelation 10:9–10',
-      url: 'https://intertextual.bible/text/ezekiel-3.1/revelation-10.9',
+      url: 'https://intertextual.bible/search?q=Ezekiel+3+1+Revelation+10+9',
       description: 'Parallel visions of prophetic commissioning — sweet in mouth, working inwardly.',
-    },
-    {
-      id: 'bibleodyssey-prophetic-witness',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'The Prophetic Word — Witness in Revelation',
-      url: 'https://www.bibleodyssey.org/dictionary/prophecy/',
-      description: 'Study of prophetic calling and witness in apocalyptic literature.',
     },
   ],
 

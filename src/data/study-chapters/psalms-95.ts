@@ -168,7 +168,7 @@ export const PSALMS_95: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Psalm 95 in Hebrews 3:7–4:10',
-      url: 'https://intertextual.bible/text/psalm-95/hebrews-3.7',
+      url: 'https://intertextual.bible/search?q=Psalm+95+Hebrews+3+7',
       description: 'New Testament connection showing how this Psalm is quoted or referenced.',
     },
   ],

@@ -718,27 +718,11 @@ export const FIRST_TIMOTHY_4: RichChapterContent = {
 
   resources: [
     {
-      id: 'sefaria-1tim-4',
-      kind: 'study',
-      source: 'Sefaria',
-      label: '1 Timothy 4',
-      url: 'https://www.sefaria.org/1%20Timothy.4',
-      description: 'Multiple translations and commentary on godliness, false teaching, and Timothy&apos;s charge to persevere.',
-    },
-    {
-      id: 'bibleodyssey-false-doctrine',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'False Teaching in Early Christianity',
-      url: 'https://www.bibleodyssey.org/dictionary/false-teaching/',
-      description: 'Historical overview of the gnostic and ascetic errors Paul addresses in the pastoral epistles.',
-    },
-    {
       id: 'intertextual-joshua1-1tim4',
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Joshua 1:8 ↔ 1 Timothy 4:15',
-      url: 'https://intertextual.bible/text/joshua-1.8/1-timothy-4.15',
+      url: 'https://intertextual.bible/search?q=Joshua+1+8+1+Timothy+4+15',
       description: 'Side-by-side meditation on the theme of meditating on divine truth to ensure success and perseverance.',
     },
   ],

@@ -189,16 +189,8 @@ export const JOHN_20: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Isaiah 26:19 ↔ John 20:9–10',
-      url: 'https://intertextual.bible/text/isaiah-26.19/john-20.9-10',
+      url: 'https://intertextual.bible/search?q=Isaiah+26+19+John+20+9+10',
       description: 'The resurrection as fulfillment of Old Testament hope for bodily resurrection and return to life.',
-    },
-    {
-      id: 'bible-odyssey-resurrection',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Resurrection of Jesus',
-      url: 'https://www.bibleodyssey.org/dictionary/resurrection-jesus/',
-      description: 'Open-access SBL resource on Jesus&apos; resurrection and its theological significance in early Christian faith.',
     },
   ],
 

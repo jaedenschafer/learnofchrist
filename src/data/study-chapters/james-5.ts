@@ -424,7 +424,7 @@ export const JAMES_5: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: '1 Kings 17:1 ↔ James 5:17 (Elijah&apos;s Prayer)',
-      url: 'https://intertextual.bible/text/1-kings-17.1/james-5.17',
+      url: 'https://intertextual.bible/search?q=1+Kings+17+1+James+5+17',
       description: 'Cross-reference showing James cites Elijah as example of prayer that changes reality.',
     },
     {

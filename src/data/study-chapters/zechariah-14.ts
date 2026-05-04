@@ -138,14 +138,6 @@ export const ZECHARIAH_14: RichChapterContent = {
       url: 'https://intertextual.bible/search?query=zechariah+acts',
       description: 'The fulfillment of Zechariah&apos;s prophecy of God&apos;s feet standing on the Mount of Olives in Christ&apos;s ascension and His promised return to the same location.',
     },
-    {
-      id: 'bibleodyssey-zechariah-kingdom-holiness',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'The Kingdom of God and Universal Holiness',
-      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-zechariah/',
-      description: 'Study of Zechariah&apos;s vision of Christ&apos;s eschatological return, universal judgment, and the establishment of God&apos;s eternal kingdom in which all things are consecrated to Him.',
-    },
   ],
 
   hasHebrew: true,

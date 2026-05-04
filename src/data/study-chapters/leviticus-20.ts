@@ -556,7 +556,7 @@ export const LEVITICUS_20: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Spiritual Warfare and the Demonic — Ephesians 6:12',
-      url: 'https://intertextalbible.com',
+      url: 'https://intertextual.bible/',
       description: 'Paul&apos;s teaching on spiritual powers and the connection to prohibitions against spiritism.',
     },
   ],

@@ -429,14 +429,6 @@ export const NUMBERS_32: RichChapterContent = {
       description: 'Complete Hebrew and English text with classical rabbinic commentary on the tribal settlement east of Jordan.',
     },
     {
-      id: 'gilead-geography-settlement',
-      kind: 'archaeology',
-      source: 'Bible Odyssey',
-      label: 'Gilead & Transjordanian Settlement',
-      url: 'https://www.bibleodyssey.org/passages/related-articles/gilead/',
-      description: 'Archaeological overview of Iron Age settlement patterns in Gilead and the territory settled by Reuben, Gad, and Manasseh.',
-    },
-    {
       id: 'joshua-covenant-fulfillment',
       kind: 'study',
       source: 'Intertextual Bible',

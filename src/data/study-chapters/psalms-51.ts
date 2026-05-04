@@ -180,16 +180,8 @@ export const PSALMS_51: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Psalm 51 in Romans 3 & Hebrews',
-      url: 'https://intertextual.bible/text/psalm-51',
+      url: 'https://intertextual.bible/search?q=Psalm+51',
       description: 'NT quotes Psalm 51 on human sinfulness[res:intertextual-psalms-51-nt] and cleansing.',
-    },
-    {
-      id: 'bible-odyssey-penitential',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Penitential Psalms',
-      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
-      description: 'The seven penitential psalms expressing contrition and grace.',
     },
   ],
 

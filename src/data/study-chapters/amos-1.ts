@@ -33,14 +33,6 @@ export const AMOS_1: RichChapterContent = {
       description: 'Primary sources on the prophet Amos and God&apos;s judgment against the surrounding nations for covenant violations.',
     },
     {
-      id: 'bibleodyssey-amos-shepherd',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Amos the Shepherd Prophet',
-      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-amos/',
-      description: 'Biography and context of Amos from Tekoa, an unlikely prophet called to confront injustice and judgment.',
-    },
-    {
       id: 'sefaria-amos-1-v1',
       kind: 'study',
       source: 'Sefaria',

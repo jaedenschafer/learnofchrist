@@ -143,14 +143,6 @@ export const MICAH_1: RichChapterContent = {
       url: 'https://intertextual.bible/search?query=micah+matthew',
       description: 'Connection between Micah&apos;s prophecy of the ruler from Bethlehem and Christ&apos;s birth narrative.',
     },
-    {
-      id: 'bibleodyssey-micah-judgment',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'God&apos;s Judgment and the Covenant',
-      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-micah/',
-      description: 'Study of judgment as the result of covenant breaking and the structure of Micah&apos;s prophetic message.',
-    },
   ],
 
   hasHebrew: true,

@@ -372,22 +372,6 @@ export const SECOND_THESSALONIANS_1: RichChapterContent = {
       url: 'https://www.intertextual.org/reader/2-Thessalonians-1?verse=5',
       description: 'Traces how Paul reframes persecution as evidence of God&apos;s work rather than a sign of failure or abandonment.',
     },
-    {
-      id: 'sefaria-christ-glorified-believers',
-      kind: 'study',
-      source: 'Sefaria',
-      label: 'Christ&apos;s Glory Radiant in Saints',
-      url: 'https://www.sefaria.org/Ephesians.3.21?lang=bi',
-      description: 'Explores how Christ&apos;s glorification becomes visible through believers as vessels of His radiance and light.',
-    },
-    {
-      id: 'bible-odyssey-union-christ',
-      kind: 'study',
-      source: 'Bible Odyssey',
-      label: 'Union with Christ in Paul',
-      url: 'https://www.bibleodyssey.org/passage/topic/union-with-christ',
-      description: 'Surveys the New Testament doctrine of mutual indwelling where Christ is glorified in believers and believers are glorified in Him.',
-    },
   ],
 
 };

@@ -134,22 +134,6 @@ export const PSALMS_61: RichChapterContent = {
       url: 'https://www.sefaria.org/Psalms.61',
       description: 'Prayer for the king with Jewish medieval commentary.',
     },
-    {
-      id: 'bible-odyssey-royal-intercession',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Royal Intercession Psalms',
-      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
-      description: 'Prayers on behalf of the monarch[res:bible-odyssey-royal-intercession] and his reign.',
-    },
-    {
-      id: 'bibleodyssey-psalter-laments',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Laments in the Psalter',
-      url: 'https://www.bibleodyssey.org/articles/laments/',
-      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
-    },
 
   ],
 

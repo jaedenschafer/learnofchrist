@@ -30,14 +30,6 @@ export const DEUTERONOMY_22: RichChapterContent = {
       description: 'Open-access source text and rabbinic commentary on sexual ethics [res:sefaria-deuteronomy-22], adultery, rape, forbidden unions, and holiness distinctions.',
     },
     {
-      id: 'sexual-ethics-covenant-boundaries-bible-odyssey',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Sexual Ethics and Covenant Boundaries in Deuteronomy',
-      url: 'https://www.bibleodyssey.org/topical-article/sexuality/',
-      description: 'Theological entry on how sexual purity laws protect [res:sexual-ethics-covenant-boundaries-bible-odyssey] covenant family stability and distinguish Israel&apos;s practice from Canaanite fertility religions.',
-    },
-    {
       id: 'marriage-divorce-ancient-near-east-law',
       kind: 'archaeology',
       source: 'Penn Museum',

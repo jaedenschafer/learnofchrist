@@ -148,16 +148,8 @@ export const PSALMS_8: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Psalm 8 in Hebrews 2 & Ephesians 1',
-      url: 'https://intertextual.bible/text/psalm-8',
+      url: 'https://intertextual.bible/search?q=Psalm+8',
       description: 'Shows how the NT applies Psalm 8 to Christ&apos;s exaltation and rule.',
-    },
-    {
-      id: 'bible-odyssey-creation-psalms',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Creation Psalms',
-      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
-      description: 'Hymns celebrating God&apos;s creation and humanity&apos;s place in it.',
     },
   ],
 

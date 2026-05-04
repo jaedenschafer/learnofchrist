@@ -428,14 +428,6 @@ export const JEREMIAH_23: RichChapterContent = {
     },
   ],  resources: [
     {
-      id: 'bibleodyssey-jeremiah',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Jeremiah',
-      url: 'https://www.bibleodyssey.org/passages/main-articles/jeremiah/',
-      description: 'Peer-reviewed SBL entry on the prophet Jeremiah and his historical context.',
-    },
-    {
       id: 'sefaria-jeremiah',
       kind: 'study',
       source: 'Sefaria',

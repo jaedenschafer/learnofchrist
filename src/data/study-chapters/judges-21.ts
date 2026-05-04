@@ -381,14 +381,6 @@ export const JUDGES_21: RichChapterContent = {
       description: 'The Hebrew text of Israel&apos;s grief over Benjamin and the awkward path to preserving the tribe.',
     },
     {
-      id: 'bibleodyssey-shiloh',
-      kind: 'archaeology',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Shiloh',
-      url: 'https://www.bibleodyssey.org/places/related-articles/shiloh/',
-      description: 'SBL entry on Shiloh, the central sanctuary where the daughters dance and Benjamin finds wives.',
-    },
-    {
       id: 'sefaria-judges-21-v1',
       kind: 'study',
       source: 'Sefaria',

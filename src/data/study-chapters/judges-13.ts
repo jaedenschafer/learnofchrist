@@ -488,14 +488,6 @@ export const JUDGES_13: RichChapterContent = {
 
   resources: [
     {
-      id: 'bibleodyssey-samson-birth',
-      kind: 'study',
-      source: 'Bible Odyssey',
-      label: 'Samson&apos;s Birth and Dedication',
-      url: 'https://www.bibleodyssey.org/passages/main-stories/samson',
-      description: 'Nazirite[res:sefaria-nazirite-judges] vows and the angel&apos;s announcement of a deliverer.',
-    },
-    {
       id: 'sefaria-nazirite-judges',
       kind: 'study',
       source: 'Sefaria',

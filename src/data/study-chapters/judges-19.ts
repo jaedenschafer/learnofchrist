@@ -237,14 +237,6 @@ export const JUDGES_19: RichChapterContent = {
 
   resources: [
     {
-      id: 'bibleodyssey-levite-concubine',
-      kind: 'study',
-      source: 'Bible Odyssey',
-      label: 'The Levite and His Concubine',
-      url: 'https://www.bibleodyssey.org/passages/main-stories/judges',
-      description: 'One of scripture&apos;s darkest narratives of hospitality betrayed.',
-    },
-    {
       id: 'sefaria-gibeah-sin',
       kind: 'study',
       source: 'Sefaria',

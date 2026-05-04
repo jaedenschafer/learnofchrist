@@ -197,14 +197,6 @@ export const MATTHEW_13: RichChapterContent = {
 
   resources: [
     {
-      id: 'bibleodyssey-parables',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Jesus&apos; Parables',
-      url: 'https://www.bibleodyssey.org/dictionary/parables-of-jesus/',
-      description: 'Overview of Jesus&apos; parable teaching method and the parables specific to Matthew 13.',
-    },
-    {
       id: 'sefaria-daniel-2-44',
       kind: 'study',
       source: 'Sefaria',
@@ -217,7 +209,7 @@ export const MATTHEW_13: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Parable of the Sower — Synoptic Parallels',
-      url: 'https://intertextual.bible/text/matthew-13.1',
+      url: 'https://intertextual.bible/search?q=Matthew+13+1',
       description: 'Comparison of the Sower parable across Matthew, Mark, and Luke with their interpretative differences.',
     },
   ],

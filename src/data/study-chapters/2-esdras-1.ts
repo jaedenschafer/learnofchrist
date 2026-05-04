@@ -769,30 +769,6 @@ export const SECOND_ESDRAS_1: RichChapterContent = {
   ],
 
   resources: [
-    {
-      id: 'sefaria-2-esdras-1',
-      kind: 'study',
-      source: 'Sefaria',
-      label: '2 Esdras 1',
-      url: 'https://www.sefaria.org/II_Esdras.1',
-      description: 'Introduction to Ezra&apos;s visions and apocalyptic eschatology.',
-    },
-    {
-      id: 'bible-odyssey-apocalyptic',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Apocalyptic Literature and Eschatology',
-      url: 'https://www.bibleodyssey.org/dictionary/apocalyptic/',
-      description: 'Apocalyptic traditions in Second Temple Judaism and visionary literature.',
-    },
-    {
-      id: 'sefaria-2-esdras-1-v1',
-      kind: 'study',
-      source: 'Sefaria',
-      label: '2 Esdras 1 — Hebrew + classical Jewish commentary',
-      url: 'https://www.sefaria.org/II_Esdras.1',
-      description: 'The Hebrew text of 2 Esdras 1 alongside Rashi, Ibn Ezra, and other classical commentators.',
-    },
 
   ],
 

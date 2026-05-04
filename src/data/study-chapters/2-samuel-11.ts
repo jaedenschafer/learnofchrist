@@ -62,7 +62,7 @@ export const SAMUEL_2_11: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'David&apos;s Repentance (Psalm 51)',
-      url: 'https://intertextual.bible/text/psalm-51',
+      url: 'https://intertextual.bible/search?q=Psalm+51',
       description: 'The psalm of repentance traditionally attributed to David after the Bathsheba incident.',
     },
   ],

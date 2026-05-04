@@ -152,16 +152,8 @@ export const PSALMS_72: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Psalm 72 & Messianic Kingdom',
-      url: 'https://intertextual.bible/text/psalm-72',
+      url: 'https://intertextual.bible/search?q=Psalm+72',
       description: 'Applied to Christ&apos;s just reign and universal dominion.',
-    },
-    {
-      id: 'bible-odyssey-messiah-psalms',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Messianic Psalms',
-      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
-      description: 'Royal psalms with eschatological[res:bible-odyssey-messiah-psalms] implications.',
     },
   ],
 

@@ -193,7 +193,7 @@ export const LUKE_6: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Enemy Love & Compassion (OT ↔ NT)',
-      url: 'https://intertextual.bible/text/deuteronomy-32/luke-6.27',
+      url: 'https://intertextual.bible/search?q=Deuteronomy+32+Luke+6+27',
       description: 'Intertextual links showing how Jesus&apos; command to love enemies fulfills and radicalizes Old Testament laws of justice and compassion.',
     },
   ],

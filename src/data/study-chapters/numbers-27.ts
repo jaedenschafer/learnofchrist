@@ -442,7 +442,7 @@ export const NUMBERS_27: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Joshua&apos;s Commissioning ↔ Deuteronomy 34',
-      url: 'https://intertextual.bible/text/numbers-27/deuteronomy-34',
+      url: 'https://intertextual.bible/search?q=Numbers+27+Deuteronomy+34',
       description: 'Joshua&apos;s appointment by Moses as the bridge to the promised land, foreshadowing Jesus as the true Joshua.',
     },
   ],

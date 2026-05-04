@@ -298,14 +298,6 @@ export const NUMBERS_36: RichChapterContent = {
       description: 'Complete Hebrew and English text with classical rabbinic commentary on the daughters of Zelophehad and tribal inheritance.',
     },
     {
-      id: 'zelophehad-daughters-law',
-      kind: 'study',
-      source: 'Bible Odyssey',
-      label: 'Zelophehad&apos;s Daughters & Women&apos;s Inheritance Rights',
-      url: 'https://www.bibleodyssey.org/passages/related-articles/zelophehad-daughters/',
-      description: 'Historical context for women&apos;s inheritance rights in ancient Israel through the story of Zelophehad&apos;s daughters.',
-    },
-    {
       id: 'numbers-to-joshua-threshold',
       kind: 'study',
       source: 'Intertextual Bible',

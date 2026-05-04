@@ -33,14 +33,6 @@ export const JOEL_1: RichChapterContent = {
       description: 'Primary sources on the locust plague as metaphor for judgment and call to national repentance.',
     },
     {
-      id: 'bibleodyssey-joel-locust',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'The Locust Plague in Joel',
-      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-joel/',
-      description: 'Study of locusts as harbingers of the day of the Lord and God&apos;s call to spiritual awakening.',
-    },
-    {
       id: 'sefaria-joel-1-v1',
       kind: 'study',
       source: 'Sefaria',

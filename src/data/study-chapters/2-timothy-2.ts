@@ -671,14 +671,6 @@ export const SECOND_TIMOTHY_2: RichChapterContent = {
 
   resources: [
     {
-      id: 'sefaria-2tim-2',
-      kind: 'study',
-      source: 'Sefaria',
-      label: '2 Timothy 2',
-      url: 'https://www.sefaria.org/2%20Timothy.2',
-      description: 'Multiple translations and commentary on rightly dividing Scripture, suffering, and endurance in faith.',
-    },
-    {
       id: 'intf-rightly-dividing',
       kind: 'study',
       source: 'INTF',
@@ -691,7 +683,7 @@ export const SECOND_TIMOTHY_2: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: '2 Samuel 2 ↔ 2 Timothy 2:3–4',
-      url: 'https://intertextual.bible/text/2-samuel-2/2-timothy-2.3',
+      url: 'https://intertextual.bible/search?q=2+Samuel+2+2+Timothy+2+3',
       description: 'Paul&apos;s soldier metaphor echoes Scripture&apos;s depiction of the Christian as enduring hardship like a soldier devoted to his commander.',
     },
   ],

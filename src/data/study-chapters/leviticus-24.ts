@@ -466,7 +466,7 @@ export const LEVITICUS_24: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Law and Mercy Meet — John 8:3–11',
-      url: 'https://intertextalbible.com',
+      url: 'https://intertextual.bible/',
       description: 'Jesus&apos; response to the woman caught in adultery and the tension between judgment and grace.',
     },
   ],

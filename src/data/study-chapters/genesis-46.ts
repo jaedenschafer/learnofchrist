@@ -53,14 +53,6 @@ export const GENESIS_46: RichChapterContent = {
       url: 'https://www.metmuseum.org/art/collection?department=Egyptian%20Art',
       description: 'Egyptian artifacts and cultural context for understanding the world of Joseph and later Genesis figures.',
     },
-    {
-      id: 'bibleodyssey-joseph-egypt',
-      kind: 'study',
-      source: 'Bible Odyssey',
-      label: 'Joseph and Egypt - Bible Odyssey',
-      url: 'https://www.bibleodyssey.org/en/passages/related-articles/joseph-and-egypt',
-      description: 'Scholarly essays on Joseph&apos;s time in Egypt and its historical and theological significance.',
-    },
   ],
 
   sections: [

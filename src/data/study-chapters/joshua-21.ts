@@ -325,14 +325,6 @@ export const JOSHUA_21: RichChapterContent = {
 
   resources: [
     {
-      id: 'bibleodyssey-levite-cities',
-      kind: 'study',
-      source: 'Bible Odyssey',
-      label: 'The Levite Cities[res:bibleodyssey-levite-cities] and Their Distribution',
-      url: 'https://www.bibleodyssey.org/passages/main-passage/joshua-21',
-      description: 'The allocation of 48 Levitical cities throughout Israel&apos;s territory, ensuring the priesthood was dispersed to serve all the tribes.',
-    },
-    {
       id: 'sefaria-levites-scattered-priesthood',
       kind: 'study',
       source: 'Sefaria',

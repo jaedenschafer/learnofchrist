@@ -49,14 +49,6 @@ export const GENESIS_50: RichChapterContent = {
       url: 'https://www.metmuseum.org/art/metpublications/Egyptian_Art_in_the_Age_of_the_Pyramids',
       description: 'Artifacts and scholarship on Egyptian funeral practices, embalming, and mourning customs during the period Joseph served Pharaoh.',
     },
-    {
-      id: 'bibleodyssey-joseph-egypt',
-      kind: 'study',
-      source: 'Bible Odyssey',
-      label: 'Joseph in Egypt',
-      url: 'https://www.bibleodyssey.org/stories/joseph-in-egypt',
-      description: 'Interactive study materials on Joseph&apos;s rise, his family&apos;s settlement, and the closing of the Genesis narrative with faith and covenant.',
-    },
   ],
 
   sections: [

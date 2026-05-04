@@ -198,7 +198,7 @@ export const LUKE_1: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Gabriel & Annunciation (OT ↔ NT)',
-      url: 'https://intertextual.bible/text/daniel-9/luke-1.26',
+      url: 'https://intertextual.bible/search?q=Daniel+9+Luke+1+26',
       description: 'Intertextual links showing how Gabriel&apos;s message to Mary fulfills and parallels Old Testament angelic announcements and messianic promise.',
     },
     {
@@ -208,14 +208,6 @@ export const LUKE_1: RichChapterContent = {
       label: 'Magnificat & Hannah&apos;s Song',
       url: 'https://www.sefaria.org/I_Samuel.2.1-10?lang=bi',
       description: 'Torah and Writings parallels to Mary&apos;s Magnificat, showing how her prayer echoes Hannah&apos;s rejoicing and the reversal of the lowly.',
-    },
-    {
-      id: 'bible-odyssey-john-baptist',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'John the Baptist as Forerunner',
-      url: 'https://www.bibleodyssey.org/dictionary/john-baptist/',
-      description: 'Open-access entry on John&apos;s role as the forerunner to Jesus, fulfilling Old Testament prophecy and preparing the way for the Messiah.',
     },
   ],
 

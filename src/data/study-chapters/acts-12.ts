@@ -487,27 +487,11 @@ export const ACTS_12: RichChapterContent = {
       description: 'Open-access entry on Herod Agrippa I from Josephus Antiquities 19, the primary ancient source documenting his reign and death.',
     },
     {
-      id: 'bibleodyssey-caesarea',
-      kind: 'archaeology',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Caesarea Maritima',
-      url: 'https://www.bibleodyssey.org/places/caesarea-maritima/',
-      description: 'Archaeological and historical overview of Caesarea Maritima, where Herod was acclaimed and struck down by divine judgment.',
-    },
-    {
-      id: 'bibleodyssey-john-mark',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'John Mark',
-      url: 'https://www.bibleodyssey.org/people/mark/',
-      description: 'Profile of John Mark (John whose surname was Mark), whose mother Mary hosted the Jerusalem church during Peter&apos;s imprisonment.',
-    },
-    {
       id: 'intertextual-passover-deliverance',
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Passover Deliverance Patterns',
-      url: 'https://intertextual.bible/text/acts-12/',
+      url: 'https://intertextual.bible/search?q=Acts+12+',
       description: 'Cross-references showing how Peter&apos;s angel-led release from chains echoes exodus and resurrection liberation themes.',
     },
     {
@@ -525,14 +509,6 @@ export const ACTS_12: RichChapterContent = {
       label: 'Exodus and Passover Deliverance',
       url: 'https://sefaria.org/Exodus.12',
       description: 'Exodus 12 and rabbinic commentary on the Passover narrative, echoed in Peter\'s miraculous prison release during the Passover season.',
-    },
-    {
-      id: 'theoi-angelic-rescue-deliverance',
-      kind: 'archive',
-      source: 'Theoi',
-      label: 'Divine Rescue and Angelic Deliverance',
-      url: 'https://www.theoi.com',
-      description: 'Ancient sources documenting miraculous deliveries and divine intervention, paralleling Peter\'s angelic liberation from chains.',
     },
   ],
 

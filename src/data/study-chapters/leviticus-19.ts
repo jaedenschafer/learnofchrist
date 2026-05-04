@@ -637,7 +637,7 @@ export const LEVITICUS_19: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Jesus on the Greatest Commandments — Matthew 22:37–40',
-      url: 'https://intertextalbible.com',
+      url: 'https://intertextual.bible/',
       description: 'Jesus&apos; identification of love of God and neighbor as the core of all law and prophets.',
     },
     {

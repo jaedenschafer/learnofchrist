@@ -34,27 +34,11 @@ export const TITUS_2: RichChapterContent = {
 
   resources: [
     {
-      id: 'sefaria-titus-2',
-      kind: 'study',
-      source: 'Sefaria',
-      label: 'Titus 2',
-      url: 'https://www.sefaria.org/Titus.2',
-      description: 'Multiple translations and commentary on sound doctrine, household roles, and the blessed hope of Christ&apos;s appearing.',
-    },
-    {
-      id: 'bibleodyssey-incarnation-grace',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'The Incarnation and the Grace of God',
-      url: 'https://www.bibleodyssey.org/dictionary/incarnation/',
-      description: 'Theological reflection on how the appearing of grace in Christ teaches believers to live soberly, righteously, and godly.',
-    },
-    {
       id: 'intertextual-1john3-titus2',
       kind: 'study',
       source: 'Intertextual Bible',
       label: '1 John 3:2–3 ↔ Titus 2:13–14',
-      url: 'https://intertextual.bible/text/1-john-3.2/titus-2.13',
+      url: 'https://intertextual.bible/search?q=1+John+3+2+Titus+2+13',
       description: 'Parallel teaching on how the hope of Christ&apos;s appearing motivates purification and zealous good works.',
     },
   ],

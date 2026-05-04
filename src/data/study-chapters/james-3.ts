@@ -589,7 +589,7 @@ export const JAMES_3: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Matthew 12:34 ↔ James 3:6 (Out of the Abundance)',
-      url: 'https://intertextual.bible/text/matthew-12.34/james-3.6',
+      url: 'https://intertextual.bible/search?q=Matthew+12+34+James+3+6',
       description: 'Cross-reference showing Jesus&apos; teaching on the tongue as window to the heart.',
     },
   ],

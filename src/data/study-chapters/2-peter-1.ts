@@ -495,7 +495,7 @@ export const SECOND_PETER_1: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Exodus 34:5–6 ↔ 2 Peter 1:5–7 (Divine Nature)',
-      url: 'https://intertextual.bible/text/exodus-34.5/2-peter-1.5',
+      url: 'https://intertextual.bible/search?q=Exodus+34+5+2+Peter+1+5',
       description: 'Cross-reference: Peter&apos;s call to partake of divine nature echoes God&apos;s nature revealed in Exodus.',
     },
     {

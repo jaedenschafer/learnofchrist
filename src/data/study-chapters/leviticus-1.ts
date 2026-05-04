@@ -372,14 +372,6 @@ export const LEVITICUS_1: RichChapterContent = {
 
   resources: [
     {
-      id: 'sbl-sacrificial-system',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'The Sacrificial System in Ancient Israel',
-      url: 'https://www.bibleodyssey.org/en/passages/article/the-sacrificial-system-in-ancient-israel',
-      description: 'Comprehensive overview of burnt offerings, their function in Israelite worship, and theological significance in covenant access.',
-    },
-    {
       id: 'sefaria-olah-midrash',
       kind: 'archive',
       source: 'Sefaria',
@@ -392,7 +384,7 @@ export const LEVITICUS_1: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Hebrews 10:5-10 and Psalm 40 — Christ as Olah',
-      url: 'https://intertextual.logos.com/',
+      url: 'https://intertextual.bible/',
       description: 'Cross-references and analysis of how the New Testament reads Levitical burnt offerings as fulfilled in Christ\'s once-for-all sacrifice.',
     },
   ],

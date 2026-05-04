@@ -399,14 +399,6 @@ export const EXODUS_31: RichChapterContent = {
       description: 'Hebrew text on seventh day as covenant sign.',
     },
     {
-      id: 'stone-tablets',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Tablets of Stone',
-      url: 'https://www.bibleodyssey.org/dictionary/tablets/',
-      description: 'The stone tablets and God&apos;s writing.',
-    },
-    {
       id: 'sefaria-exodus-31',
       kind: 'study',
       source: 'Sefaria',

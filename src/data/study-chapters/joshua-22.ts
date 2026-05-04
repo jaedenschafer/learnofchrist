@@ -549,14 +549,6 @@ export const JOSHUA_22: RichChapterContent = {
       description: 'The Hebrew text of the Trans-Jordan tribes&apos; altar of witness and the threat of civil war averted.',
     },
     {
-      id: 'bibleodyssey-tribal-territories',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Tribal Territories of Israel',
-      url: 'https://www.bibleodyssey.org/articles/the-tribal-territories-of-israel/',
-      description: 'SBL article mapping the inheritance and the meaning of the eastern tribes&apos; settlement beyond the Jordan.',
-    },
-    {
       id: 'sefaria-joshua-22-v1',
       kind: 'study',
       source: 'Sefaria',

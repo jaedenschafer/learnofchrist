@@ -183,7 +183,7 @@ export const MATTHEW_5: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Beatitudes — OT Parallels',
-      url: 'https://intertextual.bible/text/matthew-5.3',
+      url: 'https://intertextual.bible/search?q=Matthew+5+3',
       description: 'Cross-references to Old Testament blessings and psalms that inform the beatitudes&apos; structure and meaning.',
     },
     {
@@ -193,14 +193,6 @@ export const MATTHEW_5: RichChapterContent = {
       label: 'Leviticus 19:18 — Love Your Neighbor',
       url: 'https://www.sefaria.org/Leviticus.19.18',
       description: 'The commandment Jesus cites as the second great commandment, foundational to kingdom ethics.',
-    },
-    {
-      id: 'bibleodyssey-sermon-mount',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Sermon on the Mount',
-      url: 'https://www.bibleodyssey.org/dictionary/sermon-on-the-mount/',
-      description: 'Scholarly overview of the sermon&apos;s structure, audience, and theological significance in Matthew&apos;s gospel.',
     },
   ],
 

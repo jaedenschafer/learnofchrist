@@ -611,19 +611,11 @@ export const SECOND_CORINTHIANS_5: RichChapterContent = {
 
   resources: [
     {
-      id: 'bibleodyssey-new-creation',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'New Creation and New Creature in Paul',
-      url: 'https://www.bibleodyssey.org/dictionary/newcreature/',
-      description: 'Scholarly entry on what it means to be a new creature in Christ and the complete remaking promised to believers.',
-    },
-    {
       id: 'intertextual-isaiah-53-great-exchange',
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Isaiah 53:5–6 ↔ 2 Corinthians 5:21 (The Great Exchange)',
-      url: 'https://intertextual.bible/text/isaiah-53/2-corinthians-5.21/',
+      url: 'https://intertextual.bible/search?q=Isaiah+53+2+Corinthians+5+21+',
       description: 'Side-by-side comparison of the suffering servant bearing sin and Paul&apos;s gospel of the great exchange—Christ&apos;s righteousness for our sins.',
     },
     {

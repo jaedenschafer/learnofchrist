@@ -148,22 +148,6 @@ export const LAMENTATIONS_5: RichChapterContent = {
     ref: 'Lamentations 5 · Study Guide',
   },  resources: [
     {
-      id: 'bibleodyssey-lament',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Lament Genre in the Ancient Near East',
-      url: 'https://www.bibleodyssey.org/dictionary/lament/',
-      description: 'SBL entry on lament poetry in ANE literature, including parallels to Lamentations.',
-    },
-    {
-      id: 'jerusalem-destruction-archaeology',
-      kind: 'archaeology',
-      source: 'Israel Museum / IAA',
-      label: 'Jerusalem Destruction (587 BCE)',
-      url: 'https://www.imj.org.il/en/exhibitions/destruction-jerusalem-587',
-      description: 'Archaeological evidence of Jerusalem&apos;s destruction by Nebuchadnezzar&apos;s forces.',
-    },
-    {
       id: 'sefaria-lamentations-5',
       kind: 'study',
       source: 'Sefaria',

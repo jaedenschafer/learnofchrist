@@ -943,14 +943,6 @@ export const PHILIPPIANS_2: RichChapterContent = {
 
   resources: [
     {
-      id: 'christ-hymn-sbl',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Christ Hymn',
-      url: 'https://www.bibleodyssey.org/dictionary/christ-hymn/',
-      description: 'Scholarly entry on the early Christian hymn in Philippians 2:6–11, examining its Christological claims and liturgical context.',
-    },
-    {
       id: 'isaiah-45-23-sefaria',
       kind: 'archive',
       source: 'Sefaria',

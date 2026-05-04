@@ -572,7 +572,7 @@ export const NUMBERS_20: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Numbers 20 ↔ 1 Corinthians 10:4',
-      url: 'https://intertextual.bible/text/numbers-20/1-corinthians-10.4',
+      url: 'https://intertextual.bible/search?q=Numbers+20+1+Corinthians+10+4',
       description: 'Paul identifies the rock in the wilderness as Christ, linking the water that flowed to the spiritual sustenance in Jesus.',
     },
     {

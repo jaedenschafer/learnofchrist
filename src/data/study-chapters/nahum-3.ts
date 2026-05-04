@@ -182,14 +182,6 @@ export const NAHUM_3: RichChapterContent = {
       description: 'Primary sources on the condemnation of Nineveh and the lesson from the fall of No-Amon.',
     },
     {
-      id: 'bibleodyssey-nahum-finality',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'The Finality of Judgment',
-      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-nahum/',
-      description: 'Study of the absolute nature of God&apos;s judgment on those built on violence and exploitation.',
-    },
-    {
       id: 'intertextual-nahum-3-revelation-18',
       kind: 'study',
       source: 'Intertextual Bible',

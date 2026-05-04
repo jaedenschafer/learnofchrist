@@ -171,7 +171,7 @@ export const MARK_12: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Cornerstone (Psalm 118 ↔ Mark 12)',
-      url: 'https://intertextual.bible/text/psalms-118/mark-12.10',
+      url: 'https://intertextual.bible/search?q=Psalms+118+Mark+12+10',
       description: 'Intertextual links showing how Jesus fulfilled the psalm of the rejected stone becoming the foundation.',
     },
     {

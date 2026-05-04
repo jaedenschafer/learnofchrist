@@ -451,14 +451,6 @@ export const NUMBERS_1: RichChapterContent = {
       description: 'Community-curated interpretations and medieval commentaries on the first census, including tribal organization and military structure.',
     },
     {
-      id: 'bible-odyssey-tribes-israel',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Tribes of Israel',
-      url: 'https://www.bibleodyssey.org/dictionary/tribes-of-israel/',
-      description: 'Overview of the twelve tribes, their territories, genealogies, and their role in the wilderness camp and settlement.',
-    },
-    {
       id: 'sefaria-levites-service',
       kind: 'study',
       source: 'Sefaria',

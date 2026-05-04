@@ -457,14 +457,6 @@ export const JUDGES_15: RichChapterContent = {
 
   resources: [
     {
-      id: 'bibleodyssey-samson-foxes-vengeance',
-      kind: 'study',
-      source: 'Bible Odyssey',
-      label: 'Samson&apos;s Revenge',
-      url: 'https://www.bibleodyssey.org/passages/main-stories/samson',
-      description: 'The burning of the Philistine fields and escalating conflict.',
-    },
-    {
       id: 'sefaria-samson-jawbone',
       kind: 'study',
       source: 'Sefaria',

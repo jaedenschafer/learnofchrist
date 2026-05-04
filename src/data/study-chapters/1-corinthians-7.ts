@@ -619,14 +619,6 @@ export const FIRST_CORINTHIANS_7: RichChapterContent = {
       description: 'Jewish textual tradition on Adam and Eve&apos;s union — the foundation for Paul&apos;s theology of one flesh.',
     },
     {
-      id: 'theoi-greek-marriage',
-      kind: 'lexicon',
-      source: 'Theoi Classical Texts',
-      label: 'Greek Marriage Laws',
-      url: 'https://www.theoi.com/',
-      description: 'Greco-Roman marriage customs and legal requirements in Paul&apos;s world — context for his teaching on conjugal duty.',
-    },
-    {
       id: 'ascsa-corinthian-households',
       kind: 'archaeology',
       source: 'ASCSA',

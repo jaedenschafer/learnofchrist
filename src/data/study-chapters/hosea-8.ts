@@ -34,14 +34,6 @@ export const HOSEA_8: RichChapterContent = {
       description: 'Primary sources on Israel&apos;s broken covenant and the consequences of idolatry and political unfaithfulness.',
     },
     {
-      id: 'bibleodyssey-sow-reap',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Sow and Reap — Hosea 8:7',
-      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-hosea/',
-      description: 'Theological study of the law of sowing and reaping as natural consequence rather than imposed judgment.',
-    },
-    {
       id: 'sefaria-hosea-8-v1',
       kind: 'study',
       source: 'Sefaria',

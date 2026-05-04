@@ -473,14 +473,6 @@ export const ACTS_24: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/drusilla/',
       description: 'Open-access entry on Felix&apos;s wife, daughter of Herod Agrippa I, who heard Paul speak at Caesarea.',
     },
-    {
-      id: 'bibleodyssey-the-way',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'The Way',
-      url: 'https://www.bibleodyssey.org/dictionary/the-way/',
-      description: 'SBL lexicon entry on the early Christian self-designation Paul claims in his defence before Felix.',
-    },
   ],
 
   hasHebrew: false,

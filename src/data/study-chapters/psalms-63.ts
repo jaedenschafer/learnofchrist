@@ -149,22 +149,6 @@ export const PSALMS_63: RichChapterContent = {
       url: 'https://www.sefaria.org/Psalms.63',
       description: 'Desert meditation on God with Jewish medieval exegesis.',
     },
-    {
-      id: 'bible-odyssey-desert-psalms',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Desert & Wilderness Psalms',
-      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
-      description: 'Psalms from isolation in wilderness seeking God.',
-    },
-    {
-      id: 'bibleodyssey-psalter-laments',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Laments in the Psalter',
-      url: 'https://www.bibleodyssey.org/articles/laments/',
-      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
-    },
 
   ],
 

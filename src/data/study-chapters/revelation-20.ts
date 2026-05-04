@@ -450,14 +450,6 @@ export const REVELATION_20: RichChapterContent = {
       url: 'https://www.sefaria.org/Isaiah.2.2',
       description: 'Eschatological vision of the kingdom established and all nations coming to the mountain.',
     },
-    {
-      id: 'bibleodyssey-book-of-life',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'The Book of Life',
-      url: 'https://www.bibleodyssey.org/dictionary/book-of-life/',
-      description: 'The metaphor of names written or blotted out — divine judgment and eternal security.',
-    },
   ],
 
 

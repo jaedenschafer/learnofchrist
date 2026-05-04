@@ -637,14 +637,6 @@ export const GENESIS_19: RichChapterContent = {
       url: 'https://www.britishmuseum.org/collections',
       description: 'Museum collections on ancient Near Eastern cities, urban destruction layers, and the geography of the Dead Sea region.',
     },
-    {
-      id: 'bibleodyssey-sodom-judgment',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Sodom and Gomorrah',
-      url: 'https://www.bibleodyssey.org/articles/sodom-gomorrah/',
-      description: 'SBL article on God&apos;s judgment, Lot&apos;s escape, and the pattern of mercy within divine judgment.',
-    },
   ],
 
   hasHebrew: true,

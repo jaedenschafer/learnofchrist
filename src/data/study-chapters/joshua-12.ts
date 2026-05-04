@@ -484,14 +484,6 @@ export const JOSHUA_12: RichChapterContent = {
       description: 'Historical and geographical mapping of the 31 kings defeated during the conquest, their territories, and their place in Canaanite politics.',
     },
     {
-      id: 'bibleodyssey-conquest-complete',
-      kind: 'study',
-      source: 'Bible Odyssey',
-      label: 'The Conquest Summarized: Moses to Joshua',
-      url: 'https://www.bibleodyssey.org/passages/main-passage/joshua-12',
-      description: 'Overview of Israel&apos;s victories under Moses and Joshua, integrating the eastern and western campaigns into a coherent history.',
-    },
-    {
       id: 'intertextual-strongholds-torn-down',
       kind: 'study',
       source: 'Intertextual Bible',

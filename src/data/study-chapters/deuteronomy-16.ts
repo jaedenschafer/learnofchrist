@@ -34,14 +34,6 @@ export const DEUTERONOMY_16: RichChapterContent = {
       description: 'Open-access source text and rabbinic commentary on the three pilgrimage festivals: Passover, Weeks, and Booths [res:sefaria-deuteronomy-16].',
     },
     {
-      id: 'passover-pilgrimage-festivals-bible-odyssey',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Passover and Pilgrimage Festivals',
-      url: 'https://www.bibleodyssey.org/topical-article/pilgrimage-festival/',
-      description: 'Theological overview of how the three festivals commemorate liberation [res:passover-pilgrimage-festivals-bible-odyssey], first fruits, and wilderness dwelling, renewing covenant memory.',
-    },
-    {
       id: 'sukkot-booths-archaeological-evidence',
       kind: 'archaeology',
       source: 'Israel Museum',

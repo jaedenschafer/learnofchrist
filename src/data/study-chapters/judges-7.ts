@@ -561,14 +561,6 @@ export const JUDGES_7: RichChapterContent = {
 
   resources: [
     {
-      id: 'bibleodyssey-midianites-defeat',
-      kind: 'study',
-      source: 'Bible Odyssey',
-      label: 'Midianites Defeated by Gideon',
-      url: 'https://www.bibleodyssey.org/passages/main-stories/gideon',
-      description: 'The strategy and divine victory at the spring of Harod against overwhelming numbers.',
-    },
-    {
       id: 'sefaria-trumpets-judges',
       kind: 'study',
       source: 'Sefaria',

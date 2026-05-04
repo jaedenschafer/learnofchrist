@@ -122,22 +122,6 @@ export const PSALMS_53: RichChapterContent = {
       url: 'https://www.sefaria.org/Psalms.53',
       description: 'Wisdom psalm on folly (variant of 14), Jewish commentary.',
     },
-    {
-      id: 'bible-odyssey-fool-theme',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'The Fool & Wisdom',
-      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
-      description: 'Biblical characterization of the fool who rejects God.',
-    },
-    {
-      id: 'bibleodyssey-psalter-laments',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Laments in the Psalter',
-      url: 'https://www.bibleodyssey.org/articles/laments/',
-      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
-    },
 
   ],
 

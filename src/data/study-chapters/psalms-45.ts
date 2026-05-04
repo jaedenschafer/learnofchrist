@@ -185,16 +185,8 @@ export const PSALMS_45: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Psalm 45 in Hebrews 1',
-      url: 'https://intertextual.bible/text/psalm-45',
+      url: 'https://intertextual.bible/search?q=Psalm+45',
       description: 'Hebrews applies Psalm 45 to Christ&apos;s divinity and throne.',
-    },
-    {
-      id: 'bible-odyssey-bride-imagery',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Bride Imagery & Covenant',
-      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
-      description: 'Marriage metaphor for God&apos;s covenant with his people.',
     },
   ],
 

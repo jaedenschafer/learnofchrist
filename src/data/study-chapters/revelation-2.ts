@@ -568,14 +568,6 @@ export const REVELATION_2: RichChapterContent = {
       url: 'https://www.penn.museum/collections/search-the-collections',
       description: 'Archaeological survey of ancient Pergamos/Pergamum, center of Caesar worship and Revelation&apos;s "Satan&apos;s seat."',
     },
-    {
-      id: 'biblOdyssey-seven-churches',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'The Seven Churches of Revelation',
-      url: 'https://www.bibleodyssey.org/dictionary/seven-churches-of-revelation/',
-      description: 'SBL study entry covering the historical, archaeological, and theological context of all seven Asian cities.',
-    },
   ],
 
   hasHebrew: false,

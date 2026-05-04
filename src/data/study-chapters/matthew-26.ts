@@ -179,7 +179,7 @@ export const MATTHEW_26: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'The Last Supper — Gospel Parallels',
-      url: 'https://intertextual.bible/text/matthew-26.26',
+      url: 'https://intertextual.bible/search?q=Matthew+26+26',
       description: 'Comparison of the Last Supper accounts across Matthew, Mark, Luke, and Paul, with theological implications for the covenant meal.',
     },
     {

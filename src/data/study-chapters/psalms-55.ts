@@ -178,22 +178,6 @@ export const PSALMS_55: RichChapterContent = {
       url: 'https://www.sefaria.org/Psalms.55',
       description: 'Lament with betrayal theme with Jewish commentary.',
     },
-    {
-      id: 'bible-odyssey-betrayal-lament',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Betrayal in Lament',
-      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
-      description: 'Psalms grieving treachery[res:bible-odyssey-betrayal-lament] by trusted companions.',
-    },
-    {
-      id: 'bibleodyssey-psalter-laments',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Laments in the Psalter',
-      url: 'https://www.bibleodyssey.org/articles/laments/',
-      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
-    },
 
   ],
 

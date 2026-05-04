@@ -520,14 +520,6 @@ export const REVELATION_12: RichChapterContent = {
       url: 'https://www.sefaria.org/Isaiah.7.14',
       description: 'OT prophecy of the woman and child — the virgin and the Immanuel.',
     },
-    {
-      id: 'theoi-dragon-mythology',
-      kind: 'study',
-      source: 'Theoi Classical Texts',
-      label: 'Dragon Typology in Ancient Mythology',
-      url: 'https://www.theoi.com',
-      description: 'Classical parallels to the dragon and birth-of-hero myths underlying apocalyptic imagery.',
-    },
   ],
 
 

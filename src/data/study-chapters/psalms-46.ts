@@ -178,14 +178,6 @@ export const PSALMS_46: RichChapterContent = {
       description: 'Song of Zion with confidence amid chaos, Jewish commentary.',
     },
     {
-      id: 'bible-odyssey-zion-psalms',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Zion & God&apos;s Holy City',
-      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
-      description: 'Psalms celebrating Jerusalem as God&apos;s chosen dwelling place.',
-    },
-    {
       id: 'bibleodyssey-korah-singers',
       kind: 'study',
       source: 'Bible Odyssey (SBL)',

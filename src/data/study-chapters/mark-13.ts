@@ -169,28 +169,12 @@ export const MARK_13: RichChapterContent = {
 
   resources: [
     {
-      id: 'bible-odyssey-eschatology',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'End Times & Eschatology',
-      url: 'https://www.bibleodyssey.org/dictionary/eschatology-eschaton/',
-      description: 'Open-access entry on Christian eschatology and Jesus&apos; teaching about the end times, the gospel&apos;s universal mission, and Christ&apos;s return.',
-    },
-    {
       id: 'intertextual-parousia',
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Parousia & Day of the Lord',
-      url: 'https://intertextual.bible/text/daniel-12/mark-13.32',
+      url: 'https://intertextual.bible/search?q=Daniel+12+Mark+13+32',
       description: 'Intertextual links showing how Jesus&apos; teaching on His return fulfills Old Testament prophecy about the day of the Lord.',
-    },
-    {
-      id: 'topostext-logoi-jesus',
-      kind: 'study',
-      source: 'ToposText',
-      label: 'Jesus&apos; Words as Eternal Truth',
-      url: 'https://topostext.org/work/Gospels%20of%20Mark',
-      description: 'Primary source analysis of sayings (logoi) attributed to Jesus in Mark, examining their enduring theological authority.',
     },
   ],
 

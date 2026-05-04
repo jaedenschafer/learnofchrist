@@ -491,14 +491,6 @@ export const RUTH_1: RichChapterContent = {
 
   resources: [
     {
-      id: 'bibleodyssey-ruth-naomi',
-      kind: 'study',
-      source: 'Bible Odyssey',
-      label: 'Ruth and Naomi&apos;s Journey',
-      url: 'https://www.bibleodyssey.org/passages/main-stories/ruth',
-      description: 'The famine, exile, and return that sets the stage for Ruth&apos;s faithfulness.',
-    },
-    {
       id: 'sefaria-ruth-moabitess',
       kind: 'study',
       source: 'Sefaria',

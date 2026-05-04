@@ -82,14 +82,6 @@ export const JEREMIAH_41: RichChapterContent = {
       description: 'Cuneiform tablet documenting the Babylonian assault on Jerusalem in 597 and 587 BCE.',
     },
     {
-      id: 'bibleodyssey-jeremiah',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Jeremiah',
-      url: 'https://www.bibleodyssey.org/passages/main-articles/jeremiah/',
-      description: 'Peer-reviewed SBL entry on the prophet Jeremiah and his historical context.',
-    },
-    {
       id: 'sefaria-jeremiah-41',
       kind: 'study',
       source: 'Sefaria',

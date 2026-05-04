@@ -503,14 +503,6 @@ export const EXODUS_3: RichChapterContent = {
 
   resources: [
     {
-      id: 'burning-bush',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Burning Bush',
-      url: 'https://www.bibleodyssey.org/dictionary/burning-bush/',
-      description: 'Study of the theophany and divine calling.',
-    },
-    {
       id: 'yhwh-name',
       kind: 'study',
       source: 'Sefaria',

@@ -116,22 +116,6 @@ export const PSALMS_15: RichChapterContent = {
       url: 'https://www.sefaria.org/Psalms.15',
       description: 'Entrance liturgy for the temple[res:bible-odyssey-temple-psalms][res:sefaria-psalms-15] with Jewish commentary.',
     },
-    {
-      id: 'bible-odyssey-temple-psalms',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Temple Entry & Liturgy',
-      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
-      description: 'Psalms for entering the temple and approaching God.',
-    },
-    {
-      id: 'bibleodyssey-psalter-laments',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Laments in the Psalter',
-      url: 'https://www.bibleodyssey.org/articles/laments/',
-      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
-    },
 
   ],
 

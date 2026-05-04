@@ -618,27 +618,11 @@ export const SECOND_TIMOTHY_1: RichChapterContent = {
 
   resources: [
     {
-      id: 'sefaria-2tim-1',
-      kind: 'study',
-      source: 'Sefaria',
-      label: '2 Timothy 1',
-      url: 'https://www.sefaria.org/2%20Timothy.1',
-      description: 'Multiple translations and commentary on courage, faithfulness, and the deposit of faith.',
-    },
-    {
-      id: 'bibleodyssey-pastoral-epistles',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'The Pastoral Epistles and Early Christian Leadership',
-      url: 'https://www.bibleodyssey.org/dictionary/pastoral-epistles/',
-      description: 'Historical overview of the pastoral letters and their guidance for church leadership and faithfulness.',
-    },
-    {
       id: 'intertextual-psalm23-2tim1',
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Psalm 23 ↔ 2 Timothy 1:12',
-      url: 'https://intertextual.bible/text/psalm-23/2-timothy-1.12',
+      url: 'https://intertextual.bible/search?q=Psalm+23+2+Timothy+1+12',
       description: 'Paul&apos;s confidence that Christ will keep his deposit echoes the psalmist&apos;s trust in God&apos;s shepherding care.',
     },
   ],

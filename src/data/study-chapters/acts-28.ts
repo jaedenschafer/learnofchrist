@@ -546,22 +546,6 @@ export const ACTS_28: RichChapterContent = {
       description: 'Official government museum and heritage organization documenting Malta&apos;s archaeology and St Paul&apos;s Bay tradition.',
     },
     {
-      id: 'theoi-dioskouroi',
-      kind: 'archive',
-      source: 'Theoi Classical Texts',
-      label: 'Dioskouroi (Castor and Pollux)',
-      url: 'https://www.theoi.com/Titan/Dioskouroi.html',
-      description: 'Classical mythology database entry on Castor and Pollux as divine protectors of sailors and ship figureheads.',
-    },
-    {
-      id: 'bibleodyssey-forum-appius',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Forum of Appius',
-      url: 'https://www.bibleodyssey.org/dictionary/forum-of-appius/',
-      description: 'Open-access SBL entry on the Forum of Appius as a meeting place on the Appian Way, thirty-three miles from Rome.',
-    },
-    {
       id: 'ascsa-roman-roads',
       kind: 'archaeology',
       source: 'ASCSA',

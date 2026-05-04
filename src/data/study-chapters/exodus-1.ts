@@ -480,14 +480,6 @@ export const EXODUS_1: RichChapterContent = {
       description: 'Artifacts and context on labor systems in Middle Kingdom and New Kingdom Egypt.',
     },
     {
-      id: 'hebrew-midwives',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Midwives (Hebrew)',
-      url: 'https://www.bibleodyssey.org/dictionary/midwives/',
-      description: 'Examination of the role and agency of Shiphrah and Puah.',
-    },
-    {
       id: 'sefaria-exodus-1',
       kind: 'study',
       source: 'Sefaria',

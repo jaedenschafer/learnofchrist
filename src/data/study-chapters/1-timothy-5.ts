@@ -595,14 +595,6 @@ export const FIRST_TIMOTHY_5: RichChapterContent = {
 
   resources: [
     {
-      id: 'sefaria-1tim-5',
-      kind: 'study',
-      source: 'Sefaria',
-      label: '1 Timothy 5',
-      url: 'https://www.sefaria.org/1%20Timothy.5',
-      description: 'Multiple translations and commentary on widows, elders, honor, and pastoral care.',
-    },
-    {
       id: 'bibleodyssey-widows',
       kind: 'study',
       source: 'Bible Odyssey (SBL)',
@@ -615,7 +607,7 @@ export const FIRST_TIMOTHY_5: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Deuteronomy 25:4 ↔ 1 Timothy 5:18',
-      url: 'https://intertextual.bible/text/deuteronomy-25.4/1-timothy-5.18',
+      url: 'https://intertextual.bible/search?q=Deuteronomy+25+4+1+Timothy+5+18',
       description: 'Paul&apos;s application of the law on muzzling oxen to the honor and support of those who labor in word and doctrine.',
     },
   ],

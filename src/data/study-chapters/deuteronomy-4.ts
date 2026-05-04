@@ -53,14 +53,6 @@ export const DEUTERONOMY_4: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/baal-peor/',
       description: 'Open-access entry on Israel&apos;s worship of Baal-Peor and God&apos;s judgment as a warning against idolatry.',
     },
-    {
-      id: 'cities-refuge-ancient-laws-sbl',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Cities of Refuge',
-      url: 'https://www.bibleodyssey.org/dictionary/city-of-refuge/',
-      description: 'Biblical and archaeological study of asylum cities in ancient Israel and their parallel in ANE law codes.',
-    },
   ],
 
   sections: [

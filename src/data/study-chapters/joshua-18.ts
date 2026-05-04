@@ -491,14 +491,6 @@ export const JOSHUA_18: RichChapterContent = {
 
   resources: [
     {
-      id: 'bibleodyssey-benjamin-territory',
-      kind: 'study',
-      source: 'Bible Odyssey',
-      label: 'Benjamin&apos;s Territory and Significance',
-      url: 'https://www.bibleodyssey.org/passages/main-passage/joshua-18',
-      description: 'The small but strategically important territory of Benjamin, including Jericho, Bethel, Gibeon, and the contested Jerusalem.',
-    },
-    {
       id: 'sefaria-benjamin-saul-paul',
       kind: 'study',
       source: 'Sefaria',

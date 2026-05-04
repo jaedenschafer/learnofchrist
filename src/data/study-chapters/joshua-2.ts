@@ -602,7 +602,7 @@ export const JOSHUA_2: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Rahab in Matthew 1 Genealogy',
-      url: 'https://intertextual.bible/text/joshua-2/matthew-1.5',
+      url: 'https://intertextual.bible/search?q=Joshua+2+Matthew+1+5',
       description: 'Connection between Rahab&apos;s salvation in Joshua and her place in the genealogy of Jesus in Matthew.',
     },
   ],

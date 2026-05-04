@@ -39,22 +39,6 @@ export const DEUTERONOMY_7: RichChapterContent = {
       url: 'https://www.sefaria.org/Deuteronomy.7',
       description: 'Hebrew commentaries on election grounded in covenant love, and the herem (devoted destruction) as judgment.',
     },
-    {
-      id: 'bible-odyssey-herem-devoted-destruction',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Herem (Devoted Destruction)',
-      url: 'https://www.bibleodyssey.org/dictionary/herem/',
-      description: 'SBL entry on herem as consecrated destruction in biblical covenant framework and ANE parallels.',
-    },
-    {
-      id: 'chosen-people-election-theology-biblical',
-      kind: 'study',
-      source: 'Sefaria',
-      label: 'Election and Covenant in Deuteronomy',
-      url: 'https://www.sefaria.org/topics/Chosen_People',
-      description: 'Open collection of texts exploring Israel&apos;s election as grounded in God&apos;s love, not merit.',
-    },
   ],
 
   sections: [

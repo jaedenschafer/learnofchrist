@@ -42,14 +42,6 @@ export const GENESIS_5: RichChapterContent = {
       description: 'Hebrew text with Rashi and medieval commentary on the genealogy and Enoch&apos;s translation.',
     },
     {
-      id: 'bibleodyssey-enoch-methuselah',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Enoch, Methuselah, and Jared',
-      url: 'https://www.bibleodyssey.org/dictionary/enoch-methuselah/',
-      description: 'SBL overview of the antediluvian patriarchs and their role as links between Eden and the flood.',
-    },
-    {
       id: 'intertextual-enoch-hebrews',
       kind: 'study',
       source: 'Intertextual Bible',

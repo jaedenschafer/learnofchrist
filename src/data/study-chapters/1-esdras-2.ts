@@ -512,30 +512,6 @@ export const FIRST_ESDRAS_2: RichChapterContent = {
   ],
 
   resources: [
-    {
-      id: 'sefaria-1-esdras-2',
-      kind: 'study',
-      source: 'Sefaria',
-      label: '1 Esdras 2 — Return and Temple Rebuilding',
-      url: 'https://www.sefaria.org/I_Esdras.2',
-      description: 'Return from exile and Second Temple construction under Zerubbabel.',
-    },
-    {
-      id: 'bible-odyssey-second-temple-period',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Second Temple Period: Reconstruction',
-      url: 'https://www.bibleodyssey.org/dictionary/second-temple/',
-      description: 'Temple rebuilding and Judean community restoration in Persian period.',
-    },
-    {
-      id: 'sefaria-1-esdras-2-v1',
-      kind: 'study',
-      source: 'Sefaria',
-      label: '1 Esdras 2 — Hebrew + classical Jewish commentary',
-      url: 'https://www.sefaria.org/I_Esdras.2',
-      description: 'The Hebrew text of 1 Esdras 2 alongside Rashi, Ibn Ezra, and other classical commentators.',
-    },
 
   ],
 

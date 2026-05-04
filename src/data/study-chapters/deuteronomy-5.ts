@@ -57,16 +57,8 @@ export const DEUTERONOMY_5: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Exodus 20 ↔ Deuteronomy 5',
-      url: 'https://intertextual.bible/text/exodus-20/deuteronomy-5',
+      url: 'https://intertextual.bible/search?q=Exodus+20+Deuteronomy+5',
       description: 'Side-by-side comparison of the original Ten Commandments (Exodus) and their restatement (Deuteronomy).',
-    },
-    {
-      id: 'decalogue-biblical-law-bible-odyssey',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Ten Commandments',
-      url: 'https://www.bibleodyssey.org/dictionary/the-ten-commandments/',
-      description: 'SBL study of the Decalogue in biblical and archaeological context.',
     },
   ],
 

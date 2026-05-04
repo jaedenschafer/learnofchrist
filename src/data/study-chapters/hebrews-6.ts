@@ -613,7 +613,7 @@ export const HEBREWS_6: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Psalm 110:4 ↔ Hebrews 6:17–20',
-      url: 'https://intertextual.bible/text/psalms-110.4/hebrews-6.17',
+      url: 'https://intertextual.bible/search?q=Psalms+110+4+Hebrews+6+17',
       description: 'God&apos;s immutable oath about the eternal priest connects Genesis, Psalms, and Christ.',
     },
     {

@@ -51,14 +51,6 @@ export const GENESIS_16: RichChapterContent = {
       url: 'https://www.penn.museum/collections/west-asia/',
       description: 'Ancient Near Eastern legal texts illuminating servant-surrogate customs and family arrangements in Abraham&apos;s world.',
     },
-    {
-      id: 'bibleodyssey-abraham-covenant',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Abraham and the Covenant',
-      url: 'https://www.bibleodyssey.org/articles/abraham-sarah/',
-      description: 'SBL article on Abraham&apos;s family, Hagar&apos;s vindication, and God&apos;s sight of those the world overlooks.',
-    },
   ],
 
   sections: [

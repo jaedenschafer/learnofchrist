@@ -36,14 +36,6 @@ export const EXODUS_32: RichChapterContent = {
 
   resources: [
     {
-      id: 'golden-calf',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Golden Calf Incident',
-      url: 'https://www.bibleodyssey.org/dictionary/golden-calf/',
-      description: 'Study of apostasy and significance.',
-    },
-    {
       id: 'apis-calf',
       kind: 'archaeology',
       source: 'British Museum',

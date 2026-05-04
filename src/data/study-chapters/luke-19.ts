@@ -160,14 +160,6 @@ export const LUKE_19: RichChapterContent = {
 
   resources: [
     {
-      id: 'bible-odyssey-zacchaeus',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Publicans and Collaboration in Roman Palestine',
-      url: 'https://www.bibleodyssey.org/dictionary/publican/',
-      description: 'Open-access entry on tax collectors and their social status in first-century Jewish society.',
-    },
-    {
       id: 'sefaria-seeking-god',
       kind: 'study',
       source: 'Sefaria',

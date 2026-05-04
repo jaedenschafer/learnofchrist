@@ -534,14 +534,6 @@ export const LEVITICUS_8: RichChapterContent = {
 
   resources: [
     {
-      id: 'sbl-priestly-anointing',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Priestly Consecration and the Anointing with Oil',
-      url: 'https://www.bibleodyssey.org/en/passages/article/priests-and-consecration',
-      description: 'Study of the mashach (anointing) ceremony, the role of oil in priesthood, and the symbolism of separation for holy service.',
-    },
-    {
       id: 'sefaria-mashach-anointing',
       kind: 'archive',
       source: 'Sefaria',
@@ -554,7 +546,7 @@ export const LEVITICUS_8: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Acts 10:38 — Jesus Anointed with the Holy Spirit',
-      url: 'https://intertextual.logos.com/',
+      url: 'https://intertextual.bible/',
       description: 'Connection between Old Testament priestly anointing and the anointing of Jesus with the Holy Spirit.',
     },
   ],

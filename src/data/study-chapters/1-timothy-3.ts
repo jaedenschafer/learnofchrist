@@ -665,14 +665,6 @@ export const FIRST_TIMOTHY_3: RichChapterContent = {
       description: 'Greek lexicon entry for episkopos (bishop/overseer), tracing its evolution in church structure and leadership.',
     },
     {
-      id: 'sefaria-1tim-3',
-      kind: 'study',
-      source: 'Sefaria',
-      label: '1 Timothy 3',
-      url: 'https://www.sefaria.org/1%20Timothy.3',
-      description: 'Multiple translations and commentary on church leadership qualifications and the mystery of godliness.',
-    },
-    {
       id: 'bibleodyssey-episcopal',
       kind: 'study',
       source: 'Bible Odyssey (SBL)',

@@ -538,14 +538,6 @@ export const FIRST_CORINTHIANS_2: RichChapterContent = {
       description: 'The Isaiah passage Paul quotes in 1 Corinthians 2:9 with full Hebrew and English, showing the original context of divine mystery and hiddenness.',
     },
     {
-      id: 'theoi-mystery-religions',
-      kind: 'lexicon',
-      source: 'Theoi Classical Religion',
-      label: 'Greek Mystery Religions',
-      url: 'https://www.theoi.com/Cult/MysteryReligions.html',
-      description: 'Background on Hellenistic mystery cults and their use of hiddenness and initiation — the context Paul confronts with the revealed mystery of Christ.',
-    },
-    {
       id: 'scaife-pneuma-sophia',
       kind: 'lexicon',
       source: 'Perseus Digital Library',

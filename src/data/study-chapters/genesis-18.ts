@@ -49,14 +49,6 @@ export const GENESIS_18: RichChapterContent = {
       url: 'https://www.penn.museum/collections/west-asia/',
       description: 'Ancient Near Eastern documents on hospitality customs, divine visitations, and covenant relationships.',
     },
-    {
-      id: 'bibleodyssey-abraham-covenant',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Abraham and the Covenant',
-      url: 'https://www.bibleodyssey.org/articles/abraham-sarah/',
-      description: 'SBL article on Abraham&apos;s role as intercessor and the promise of Isaac to Sarah.',
-    },
   ],
 
   sections: [

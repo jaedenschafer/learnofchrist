@@ -177,16 +177,8 @@ export const PSALMS_41: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Psalm 41 in John 13',
-      url: 'https://intertextual.bible/text/psalm-41',
+      url: 'https://intertextual.bible/search?q=Psalm+41',
       description: 'Jesus applies Psalm 41 to his betrayal by Judas.',
-    },
-    {
-      id: 'bible-odyssey-betrayal-psalms',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Betrayal & Treachery',
-      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
-      description: 'Psalms lamenting betrayal by friends and allies.',
     },
   ],
 

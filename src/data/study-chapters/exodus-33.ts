@@ -635,14 +635,6 @@ export const EXODUS_33: RichChapterContent = {
       description: 'Hebrew text on the vision and divine name.',
     },
     {
-      id: 'theophany',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Theophany & Divine Encounter',
-      url: 'https://www.bibleodyssey.org/dictionary/theophany/',
-      description: 'Study of God&apos;s self-revelation.',
-    },
-    {
       id: 'sefaria-exodus-33',
       kind: 'study',
       source: 'Sefaria',

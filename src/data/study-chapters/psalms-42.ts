@@ -162,14 +162,6 @@ export const PSALMS_42: RichChapterContent = {
       description: 'Lament with longing for God with Jewish commentary.',
     },
     {
-      id: 'bible-odyssey-thirsting-psalms',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Thirst for God',
-      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
-      description: 'Psalms expressing deep longing for God&apos;s presence.',
-    },
-    {
       id: 'bibleodyssey-korah-singers',
       kind: 'study',
       source: 'Bible Odyssey (SBL)',

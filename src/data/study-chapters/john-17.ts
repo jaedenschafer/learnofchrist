@@ -185,7 +185,7 @@ export const JOHN_17: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'John 17:24 — Love Before Foundation',
-      url: 'https://intertextual.bible/text/john-17.24',
+      url: 'https://intertextual.bible/search?q=John+17+24',
       description: 'Jesus&apos; affirmation of the Father&apos;s eternal love and its extension to believers.',
     },
     {

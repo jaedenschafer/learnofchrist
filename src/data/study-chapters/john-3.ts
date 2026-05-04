@@ -218,7 +218,7 @@ export const JOHN_3: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Numbers 21:8–9 ↔ John 3:14',
-      url: 'https://intertextual.bible/text/numbers-21.8-9/john-3.14',
+      url: 'https://intertextual.bible/search?q=Numbers+21+8+9+John+3+14',
       description: 'Side-by-side comparison of the brazen serpent and Jesus&apos; crucifixion as signs of healing and salvation.',
     },
   ],

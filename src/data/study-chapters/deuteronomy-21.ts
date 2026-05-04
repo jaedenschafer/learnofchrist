@@ -32,14 +32,6 @@ export const DEUTERONOMY_21: RichChapterContent = {
       description: 'Open-access source text and rabbinic commentary on unsolved murders, captive wives, rebellious sons, and the cursed tree.',
     },
     {
-      id: 'eglah-arufah-atonement-unsolved-murder-bible-odyssey',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Eglah Arufah and Community Atonement for Unsolved Murder',
-      url: 'https://www.bibleodyssey.org/topical-article/murder/',
-      description: 'Explores the ritual of the heifer&apos;s neck-breaking as a means of community atonement when a murderer [res:eglah-arufah-atonement-unsolved-murder-bible-odyssey] remains unknown.',
-    },
-    {
       id: 'family-law-ancient-israel-marriage-inheritance',
       kind: 'lexicon',
       source: 'Sefaria',

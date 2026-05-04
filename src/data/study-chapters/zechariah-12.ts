@@ -137,14 +137,6 @@ export const ZECHARIAH_12: RichChapterContent = {
       url: 'https://intertextual.bible/search?query=zechariah+john',
       description: 'The explicit fulfillment of Zechariah&apos;s prophecy of the pierced Messiah in Christ&apos;s crucifixion, when a Roman soldier pierced His side and those who saw it look upon Him whom they have pierced.',
     },
-    {
-      id: 'bibleodyssey-zechariah-messiah-repentance',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'The Pierced Messiah and the Spirit of Repentance',
-      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-zechariah/',
-      description: 'Study of Zechariah&apos;s vision of Israel&apos;s repentance through the piercing of the Messiah and the outpouring of grace upon Jerusalem.',
-    },
   ],
 
   hasHebrew: true,

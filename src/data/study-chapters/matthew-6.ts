@@ -189,7 +189,7 @@ export const MATTHEW_6: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Lord&apos;s Prayer — OT Parallels',
-      url: 'https://intertextual.bible/text/matthew-6.9',
+      url: 'https://intertextual.bible/search?q=Matthew+6+9',
       description: 'Cross-references showing how the Lord&apos;s Prayer draws on Old Testament prayers and the covenant tradition.',
     },
     {

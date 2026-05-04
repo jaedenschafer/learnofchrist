@@ -182,7 +182,7 @@ export const MARK_15: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Psalm 22 & the Crucifixion',
-      url: 'https://intertextual.bible/text/psalms-22/mark-15.34',
+      url: 'https://intertextual.bible/search?q=Psalms+22+Mark+15+34',
       description: 'Intertextual links showing how Jesus fulfilled Psalm 22, a psalm of suffering that describes the details of the crucifixion.',
     },
     {

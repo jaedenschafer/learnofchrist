@@ -222,7 +222,7 @@ export const JOHN_9: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Isaiah 42:7 ↔ John 9',
-      url: 'https://intertextual.bible/text/isaiah-42.7/john-9',
+      url: 'https://intertextual.bible/search?q=Isaiah+42+7+John+9',
       description: 'The messianic promise to open blind eyes fulfilled in Jesus&apos; healing.',
     },
   ],

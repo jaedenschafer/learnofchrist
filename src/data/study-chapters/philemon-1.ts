@@ -695,30 +695,6 @@ export const PHILEMON_1: RichChapterContent = {
   },
 
   resources: [
-    {
-      id: 'philemon-slavery-bible-odyssey',
-      kind: 'study',
-      source: 'Bible Odyssey',
-      label: 'Slavery and Manumission in the New Testament',
-      url: 'https://www.bibleodyssey.org/passages/related-articles/what-does-the-bible-say-about-slavery',
-      description: 'A comprehensive study of slavery practices in the Roman Empire and how the gospel of Christ challenged and transformed the master-slave relationship.',
-    },
-    {
-      id: 'philemon-onesimus-theoi',
-      kind: 'study',
-      source: 'Theoi',
-      label: 'Roman Law and Slavery · Philosophical Context',
-      url: 'https://www.theoi.com/',
-      description: 'An examination of the legal and cultural status of enslaved persons in the Greco-Roman world and the revolutionary implications of Christian brotherhood.',
-    },
-    {
-      id: 'philemon-substitution-sefaria',
-      kind: 'study',
-      source: 'Sefaria',
-      label: 'Philemon · Paul&apos;s Letter of Reconciliation',
-      url: 'https://www.sefaria.org/Philemon',
-      description: 'Classical and contemporary sources exploring the theology of substitution, reconciliation, and the gospel&apos;s power to unmake human hierarchies.',
-    },
   ],
 
   hasHebrew: false,

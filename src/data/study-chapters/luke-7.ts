@@ -163,7 +163,7 @@ export const LUKE_7: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Authority of God&apos;s Word (OT ↔ NT)',
-      url: 'https://intertextual.bible/text/isaiah-55/luke-7.7',
+      url: 'https://intertextual.bible/search?q=Isaiah+55+Luke+7+7',
       description: 'Intertextual links showing how Jesus&apos; word carries divine authority, fulfilling Old Testament prophecies about God&apos;s word accomplishing its purpose.',
     },
     {

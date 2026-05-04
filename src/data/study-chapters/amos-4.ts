@@ -34,14 +34,6 @@ export const AMOS_4: RichChapterContent = {
       description: 'Primary sources on Amos&apos;s call to repentance and God&apos;s coming judgment on the indulgent wealthy of Samaria.',
     },
     {
-      id: 'bibleodyssey-prepare-meet-god',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Prepare to Meet Your God',
-      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-amos/',
-      description: 'Thematic study of Amos 4:12 as a call to readiness and accountability before God.',
-    },
-    {
       id: 'sefaria-amos-4-v1',
       kind: 'study',
       source: 'Sefaria',

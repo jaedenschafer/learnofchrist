@@ -465,14 +465,6 @@ export const LEVITICUS_10: RichChapterContent = {
 
   resources: [
     {
-      id: 'sbl-holiness-divine-judgment',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Holiness and Divine Judgment in the Sanctuary',
-      url: 'https://www.bibleodyssey.org/en/passages/article/holiness-in-the-sanctuary',
-      description: 'Study of the death of Nadab and Abihu and the theology of God\'s consuming holiness and proper worship boundaries.',
-    },
-    {
       id: 'sefaria-strange-fire-judgment',
       kind: 'archive',
       source: 'Sefaria',
@@ -485,7 +477,7 @@ export const LEVITICUS_10: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Hebrews 12:28-29 — Our God is a Consuming Fire',
-      url: 'https://intertextual.logos.com/',
+      url: 'https://intertextual.bible/',
       description: 'Connection between the consuming fire in Leviticus and the holiness that requires appropriate reverence in worship.',
     },
   ],

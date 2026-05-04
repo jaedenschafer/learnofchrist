@@ -564,14 +564,6 @@ export const GALATIANS_4: RichChapterContent = {
       description: 'OT narratives of the bondmaid and the freewoman that Paul reads allegorically in Galatians 4:21–31 as types of the two covenants.',
     },
     {
-      id: 'bibleodyssey-adoption',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Huiothesia—Adoption into God&apos;s Family',
-      url: 'https://www.bibleodyssey.org/dictionary/adoption/',
-      description: 'SBL entry on the legal and theological meaning of adoption in the Greco-Roman world and its significance for Galatians 4:5.',
-    },
-    {
       id: 'perseus-abba-aramaic',
       kind: 'lexicon',
       source: 'Perseus Scaife Digital Library',

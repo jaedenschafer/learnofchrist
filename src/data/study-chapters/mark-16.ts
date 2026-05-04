@@ -217,7 +217,7 @@ export const MARK_16: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Great Commission & All Nations',
-      url: 'https://intertextual.bible/text/genesis-12/mark-16.15',
+      url: 'https://intertextual.bible/search?q=Genesis+12+Mark+16+15',
       description: 'Intertextual links showing how Jesus&apos; universal commission fulfills the promise to Abraham that all nations would be blessed.',
     },
     {

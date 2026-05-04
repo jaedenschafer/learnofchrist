@@ -182,22 +182,6 @@ export const PSALMS_37: RichChapterContent = {
       url: 'https://www.sefaria.org/Psalms.37',
       description: 'Long acrostic on trusting God amid injustice[res:bible-odyssey-theodicy-psalms], Jewish commentary.',
     },
-    {
-      id: 'bible-odyssey-theodicy-psalms',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Theodicy: Why the Wicked Prosper',
-      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
-      description: 'Psalms wrestling with injustice and God&apos;s delayed judgment.',
-    },
-    {
-      id: 'bibleodyssey-wisdom-psalms',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Wisdom Psalms',
-      url: 'https://www.bibleodyssey.org/articles/wisdom-psalms/',
-      description: 'SBL overview of the wisdom-psalm subgenre and its meditation on Torah and the righteous life.',
-    },
 
   ],
 

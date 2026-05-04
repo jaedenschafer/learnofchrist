@@ -52,14 +52,6 @@ export const CHRONICLES_1_2: RichChapterContent = {
       url: 'https://www.sefaria.org/I_Chronicles.2',
       description: 'The Hebrew text of 1 Chronicles 2 alongside Rashi, Ibn Ezra, and other classical commentators.',
     },
-    {
-      id: 'bibleodyssey-1-chronicles-overview-2',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: '1 Chronicles — SBL Overview',
-      url: 'https://www.bibleodyssey.org/articles/1-chronicles/',
-      description: 'Open-access SBL essay on the historical and literary setting of 1 Chronicles.',
-    },
 
   ],
 

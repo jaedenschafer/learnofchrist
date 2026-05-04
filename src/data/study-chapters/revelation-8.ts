@@ -431,7 +431,7 @@ export const REVELATION_8: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Exodus 7:17–21 ↔ Revelation 8:8–9',
-      url: 'https://intertextual.bible/text/exodus-7.17/revelation-8.8',
+      url: 'https://intertextual.bible/search?q=Exodus+7+17+Revelation+8+8',
       description: 'Water-to-blood plague: Exodus pattern repeated in John&apos;s apocalyptic sequence.',
     },
   ],

@@ -38,14 +38,6 @@ export const KINGS_1_18: RichChapterContent = {
 
   resources: [
     {
-      id: 'bible-odyssey-carmel-contest',
-      kind: 'study',
-      source: 'Bible Odyssey/SBL',
-      label: 'Elijah on Mount Carmel',
-      url: 'https://www.bibleodyssey.org/dictionary/mount-carmel/',
-      description: 'The dramatic contest between Elijah and Baal&apos;s prophets on Mount Carmel.',
-    },
-    {
       id: 'sefaria-baal-prophets',
       kind: 'study',
       source: 'Sefaria',

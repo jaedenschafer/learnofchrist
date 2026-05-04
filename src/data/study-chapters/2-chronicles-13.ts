@@ -55,14 +55,6 @@ export const CHRONICLES_2_13: RichChapterContent = {
       url: 'https://www.sefaria.org/II_Chronicles.13',
       description: 'The Hebrew text of 2 Chronicles 13 alongside Rashi, Ibn Ezra, and other classical commentators.',
     },
-    {
-      id: 'bibleodyssey-2-chronicles-overview-13',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: '2 Chronicles — SBL Overview',
-      url: 'https://www.bibleodyssey.org/articles/2-chronicles/',
-      description: 'Open-access SBL essay on the historical and literary setting of 2 Chronicles.',
-    },
 
   ],
 

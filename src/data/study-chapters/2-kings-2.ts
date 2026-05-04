@@ -49,7 +49,7 @@ export const KINGS_2_2: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Elijah&apos;s Translation ↔ Christ&apos;s Ascension',
-      url: 'https://intertextual.bible/text/2-kings-2',
+      url: 'https://intertextual.bible/search?q=2+Kings+2',
       description: 'Cross-references showing how Elijah&apos;s ascension prefigures Christ and informs Acts 1.',
     },
     {

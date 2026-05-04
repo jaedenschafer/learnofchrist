@@ -167,7 +167,7 @@ export const MATTHEW_16: RichChapterContent = {
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'Peter&apos;s Confession — Gospel Parallels',
-      url: 'https://intertextual.bible/text/matthew-16.16',
+      url: 'https://intertextual.bible/search?q=Matthew+16+16',
       description: 'Comparison of Peter&apos;s confession across Matthew, Mark, and Luke with theological differences.',
     },
     {

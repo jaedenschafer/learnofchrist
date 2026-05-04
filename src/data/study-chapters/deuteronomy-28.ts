@@ -50,14 +50,6 @@ export const DEUTERONOMY_28: RichChapterContent = {
       url: 'https://www.imj.org.il/',
       description: 'Archaeological and historical geography of the covenant ceremony location where Gerizim symbolizes blessing [res:mount-gerizim-blessing-mount-ebal-curse] and Ebal symbolizes curse.',
     },
-    {
-      id: 'covenant-consequences-reward-punishment-theology',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Covenant Consequences: Reward and Punishment',
-      url: 'https://www.bibleodyssey.org/topical-article/covenant/',
-      description: 'Theological exploration of how blessing and curse reveal the covenantal logic that obedience [res:covenant-consequences-reward-punishment-theology] leads to life while disobedience leads to judgment.',
-    },
   ],
 
   sections: [
