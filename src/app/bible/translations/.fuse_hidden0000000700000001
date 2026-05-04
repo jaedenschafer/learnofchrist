@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { getAllTranslations } from '@/data/translations';
 import JsonLd from '@/components/JsonLd';
-import '@/styles/page-shell.css';
+import './translations.css';
 
 // ─── ISR ───
 // Cache pages for 24h; regenerate in background after that.
@@ -27,79 +27,79 @@ export default function TranslationsPage() {
   return (
     <main className="loct">
       {/* ═══════════ Hero — closer-pane recipe over a sunset bloom ═══════════ */}
-      <section className="lop-hero">
+      <section className="loct-hero">
         {/* Sun circles, lifted from the home page closer. Warm peach +
             gold radial blooms behind a heavy frosted pane. */}
-        <div className="lop-hero__sun" aria-hidden="true">
-          <span className="lop-hero__sun-ring lop-hero__sun-ring--4" />
-          <span className="lop-hero__sun-ring lop-hero__sun-ring--3" />
-          <span className="lop-hero__sun-ring lop-hero__sun-ring--2" />
-          <span className="lop-hero__sun-ring lop-hero__sun-ring--1" />
-          <span className="lop-hero__sun-core" />
+        <div className="loct-hero__sun" aria-hidden="true">
+          <span className="loct-hero__sun-ring loct-hero__sun-ring--4" />
+          <span className="loct-hero__sun-ring loct-hero__sun-ring--3" />
+          <span className="loct-hero__sun-ring loct-hero__sun-ring--2" />
+          <span className="loct-hero__sun-ring loct-hero__sun-ring--1" />
+          <span className="loct-hero__sun-core" />
         </div>
 
-        <div className="lop-wrap lop-hero__inner">
-          <div className="lop-hero__pane">
-            <p className="lop-eyebrow">Translations</p>
-            <h1 className="lop-hero__title">
+        <div className="loct-wrap loct-hero__inner">
+          <div className="loct-hero__pane">
+            <p className="loct-eyebrow">Translations</p>
+            <h1 className="loct-hero__title">
               Read the Bible<br />in your voice.
             </h1>
-            <p className="lop-hero__sub">
+            <p className="loct-hero__sub">
               Eight English translations from across Christian tradition —
               the King James, the Berean Standard, the Douay-Rheims, the
               World English. Pick one to read; pick another to compare.
             </p>
-            <div className="lop-hero__chips">
-              <span className="lop-hero__chip">{translations.length} translations</span>
-              <span className="lop-hero__chip-sep" aria-hidden="true">·</span>
-              <span className="lop-hero__chip">All free, all online</span>
+            <div className="loct-hero__chips">
+              <span className="loct-hero__chip">{translations.length} translations</span>
+              <span className="loct-hero__chip-sep" aria-hidden="true">·</span>
+              <span className="loct-hero__chip">All free, all online</span>
             </div>
           </div>
         </div>
       </section>
 
       {/* ═══════════ Grid — frost cards in alphabetical order ═══════════ */}
-      <section className="lop-grid-section">
-        <div className="lop-wrap">
-          <p className="lop-eyebrow lop-grid__eyebrow">All translations · A → Z</p>
-          <h2 className="lop-grid__title">Choose how you&rsquo;ll read.</h2>
+      <section className="loct-grid-section">
+        <div className="loct-wrap">
+          <p className="loct-eyebrow loct-grid__eyebrow">All translations · A → Z</p>
+          <h2 className="loct-grid__title">Choose how you&rsquo;ll read.</h2>
 
-          <div className="lop-grid">
+          <div className="loct-grid">
             {translations.map((t) => (
-              <article key={t.id} className="lop-card">
-                <div className="lop-card__head">
-                  <span className="lop-card__abbr">{t.abbreviation}</span>
-                  <span className="lop-card__year">{t.year}</span>
+              <article key={t.id} className="loct-card">
+                <div className="loct-card__head">
+                  <span className="loct-card__abbr">{t.abbreviation}</span>
+                  <span className="loct-card__year">{t.year}</span>
                 </div>
-                <h3 className="lop-card__title">{t.name}</h3>
-                <p className="lop-card__sub">{t.fullName}</p>
+                <h3 className="loct-card__title">{t.name}</h3>
+                <p className="loct-card__sub">{t.fullName}</p>
 
-                <div className="lop-card__meta">
+                <div className="loct-card__meta">
                   <span className="frost-chip">{t.tradition}</span>
                   <span className="frost-chip">{t.type}</span>
                 </div>
 
-                <p className="lop-card__copy">{t.description}</p>
+                <p className="loct-card__copy">{t.description}</p>
 
                 {/* Sample verse — pull quote in italic serif. */}
                 {t.sampleVerse && (
-                  <blockquote className="lop-card__quote">
-                    <p className="lop-card__quote-text">
+                  <blockquote className="loct-card__quote">
+                    <p className="loct-card__quote-text">
                       &ldquo;{t.sampleVerse.text}&rdquo;
                     </p>
-                    <footer className="lop-card__quote-cite">
+                    <footer className="loct-card__quote-cite">
                       &mdash; {t.sampleVerse.reference}
                     </footer>
                   </blockquote>
                 )}
 
-                <div className="lop-card__actions">
-                  <Link href={t.readLink} className="btn-primary lop-card__cta">
+                <div className="loct-card__actions">
+                  <Link href={t.readLink} className="btn-primary loct-card__cta">
                     Read it
                   </Link>
                   <Link
                     href={`/bible/translations/${t.id}`}
-                    className="btn-outline lop-card__cta"
+                    className="btn-outline loct-card__cta"
                   >
                     Learn more
                   </Link>
@@ -111,18 +111,18 @@ export default function TranslationsPage() {
       </section>
 
       {/* ═══════════ Closer — quiet CTA back to the Bible ═══════════ */}
-      <section className="lop-closer">
-        <div className="lop-wrap lop-closer__inner">
-          <div className="lop-closer__pane">
-            <p className="lop-eyebrow lop-closer__eyebrow">Begin</p>
-            <h2 className="lop-closer__title">
+      <section className="loct-closer">
+        <div className="loct-wrap loct-closer__inner">
+          <div className="loct-closer__pane">
+            <p className="loct-eyebrow loct-closer__eyebrow">Begin</p>
+            <h2 className="loct-closer__title">
               Open the Bible in any of them.
             </h2>
-            <p className="lop-closer__sub">
+            <p className="loct-closer__sub">
               Switch translations at the top of every chapter. Your study
               guide stays the same; the words change.
             </p>
-            <Link href="/bible" className="btn-primary lop-closer__cta">
+            <Link href="/bible" className="btn-primary loct-closer__cta">
               Open the Bible
             </Link>
           </div>

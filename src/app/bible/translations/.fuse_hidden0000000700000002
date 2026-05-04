@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { getAllTranslations } from '@/data/translations';
 import JsonLd from '@/components/JsonLd';
-import '@/styles/page-shell.css';
+import './translations.css';
 
 // ─── ISR ───
 // Cache pages for 24h; regenerate in background after that.
