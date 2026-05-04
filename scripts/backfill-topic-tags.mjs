@@ -76,12 +76,52 @@ function parseCatalog(filePath, sourceSlug) {
   return out;
 }
 
+/**
+ * Maps the catalog filename slug → the `source` enum value used in the
+ * artworks table. Hyphenated catalog filenames map to underscored enum
+ * values for some sources; `met` rows live under `met_openaccess`.
+ *
+ * Sources missing from this map skip the backfill (typically because
+ * they don't ship as their own enum value — e.g. `dore` rows are
+ * actually stored as `gap_fill`).
+ */
+const SOURCE_MAP = {
+  blake: 'blake',
+  bloch: 'bloch',
+  bouguereau: 'bouguereau',
+  caravaggio: 'caravaggio',
+  dore: 'dore',
+  duccio: 'duccio',
+  durer: 'durer',
+  'fra-angelico': 'fra-angelico',
+  'gap-fill': 'gap_fill',
+  giotto: 'giotto',
+  'gospel-art-book': 'gospel_art_book',
+  hofmann: 'hofmann',
+  met: 'met_openaccess',
+  michelangelo: 'michelangelo',
+  plockhorst: 'plockhorst',
+  raphael: 'raphael',
+  rembrandt: 'rembrandt',
+  rijksmuseum: 'rijksmuseum',
+  rubens: 'rubens',
+  rublev: 'rublev',
+  schnorr: 'schnorr',
+  theophanes: 'theophanes',
+  tissot: 'tissot',
+};
+
 function loadAllCatalogs() {
   const all = [];
   for (const f of readdirSync(ART_DIR)) {
     if (!f.endsWith('.ts') || f === 'topics.ts') continue;
-    const slug = f.slice(0, -3);
-    all.push(...parseCatalog(resolve(ART_DIR, f), slug));
+    const fileSlug = f.slice(0, -3);
+    const dbSource = SOURCE_MAP[fileSlug];
+    if (!dbSource) {
+      console.warn(`(skipping ${f}: no SOURCE_MAP entry)`);
+      continue;
+    }
+    all.push(...parseCatalog(resolve(ART_DIR, f), dbSource));
   }
   return all;
 }
@@ -136,16 +176,19 @@ for (const [source, list] of bySource.entries()) {
   const PAGE = 80;
   for (let i = 0; i < list.length; i += PAGE) {
     const slice = list.slice(i, i + PAGE);
+    // The DB stores the catalog's externalId as the `slug` column;
+    // `external_id` holds the source filename (e.g. "Tissot Isaiah.jpg").
+    // Match on slug.
     const ids = slice.map((p) => encodeURIComponent(p.externalId)).join(',');
     const existing = await sbSelect(
-      `artworks?select=id,external_id,tags&source=eq.${encodeURIComponent(source)}` +
-        `&external_id=in.(${ids})`,
+      `artworks?select=id,slug,tags&source=eq.${encodeURIComponent(source)}` +
+        `&slug=in.(${ids})`,
     );
-    const byExt = new Map(existing.map((r) => [r.external_id, r]));
+    const bySlug = new Map(existing.map((r) => [r.slug, r]));
 
     const updates = [];
     for (const p of slice) {
-      const row = byExt.get(p.externalId);
+      const row = bySlug.get(p.externalId);
       if (!row) {
         totalSkipped++;
         continue;

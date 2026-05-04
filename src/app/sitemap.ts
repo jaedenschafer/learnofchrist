@@ -244,9 +244,14 @@ function contentEntries(): MetadataRoute.Sitemap {
   for (const post of blogPosts) {
     entries.push({
       url: `${BASE_URL}/blog/${post.id}`,
-      lastModified: new Date(),
+      // Use the blog post's actual publish date as lastModified — gives
+      // Google's crawl scheduler a real signal instead of always-now.
+      lastModified: new Date(post.date),
       changeFrequency: 'monthly',
-      priority: 0.6,
+      priority: 0.7,
+      // Image sitemap extension — blog hero images get a `<image:image>`
+      // companion entry so Google Image Search learns about them.
+      images: [post.image, ...post.sections.filter((s) => s.image).map((s) => s.image as string)],
     });
   }
 

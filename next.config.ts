@@ -33,6 +33,10 @@ const nextConfig: NextConfig = {
       { protocol: 'https', hostname: 'www.churchofjesuschrist.org' },
       // Supabase Storage bucket "art-thumbs" — pre-generated thumbs.
       { protocol: 'https', hostname: '*.supabase.co', pathname: '/storage/v1/object/public/**' },
+      // Blog post hero + section images use Unsplash. Allowing the optimizer
+      // to pull through means we get WebP/AVIF + responsive sizes instead of
+      // the raw Unsplash JPG (LCP and image-search win).
+      { protocol: 'https', hostname: 'images.unsplash.com' },
     ],
   },
 
