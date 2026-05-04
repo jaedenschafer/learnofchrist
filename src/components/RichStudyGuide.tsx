@@ -535,6 +535,15 @@ export default function RichStudyGuide({
           <StudyAudioPlayer />
         </div>
 
+        {/* Page-level H1 — required for SEO. Chapter pages were previously
+            jumping from <title> to <h2> with no h1, weakening Google's
+            understanding of the page's primary topic. Uses the existing
+            .rich-study h1.page-title style. */}
+        <h1 className="page-title">
+          {content.bookName} {content.chapter}
+        </h1>
+        <p className="subtitle">Study Guide · {content.bookName} chapter {content.chapter}</p>
+
         {/* Depth selector now lives in StudyFilters at the top of the page,
             paired with the translation pill. No prominent in-body control. */}
 

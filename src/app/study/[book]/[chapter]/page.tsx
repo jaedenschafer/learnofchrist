@@ -200,22 +200,54 @@ export default async function StudyChapterPage({ params }: ChapterPageProps) {
   const nextChapter = chapter < book_obj.chapters ? chapter + 1 : null;
   const isGenesisOne = book === 'genesis' && chapter === 1;
 
+  // Article-level dates: the site shipped chapter content in waves through
+  // March/April 2026; we use a stable launch date as datePublished and the
+  // current date as dateModified (chapter data files are edited regularly
+  // — Phase 1-4 long-scripture splits, Christ Connection authoring, etc.).
+  // Both dates make the page eligible for "Last updated" SERP indicators
+  // and Article rich results.
+  const PUBLISH_ISO = '2026-03-01T00:00:00Z';
+  const MODIFIED_ISO = new Date().toISOString();
+
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Article',
     headline: `${book_obj.name} Chapter ${chapter} — Bible Study Guide`,
     description: `Study ${book_obj.name} Chapter ${chapter} with commentary, key themes, and connection to Christ.`,
     url: `https://learnofchrist.com/study/${book}/${chapter}`,
+    datePublished: PUBLISH_ISO,
+    dateModified: MODIFIED_ISO,
+    inLanguage: 'en',
+    image: 'https://learnofchrist.com/og-image.png',
+    author: {
+      '@type': 'Organization',
+      name: 'Learn of Christ',
+      url: 'https://learnofchrist.com',
+    },
     publisher: {
       '@type': 'Organization',
       name: 'Learn of Christ',
       url: 'https://learnofchrist.com',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://learnofchrist.com/logo.png',
+      },
+    },
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': `https://learnofchrist.com/study/${book}/${chapter}`,
     },
     isPartOf: {
       '@type': 'Book',
       name: 'The Holy Bible',
       author: { '@type': 'Organization', name: 'Various Authors' },
     },
+    about: [
+      { '@type': 'Thing', name: book_obj.name },
+      { '@type': 'Thing', name: 'Bible' },
+      { '@type': 'Thing', name: 'Christianity' },
+      { '@type': 'Thing', name: 'Bible study' },
+    ],
     breadcrumb: {
       '@type': 'BreadcrumbList',
       itemListElement: [

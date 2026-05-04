@@ -39,6 +39,7 @@ function coreEntries(): MetadataRoute.Sitemap {
   const staticPages = [
     { path: '/bible', priority: 0.9, freq: 'weekly' as const },
     { path: '/study', priority: 0.9, freq: 'weekly' as const },
+    { path: '/study/deuterocanonical-books', priority: 0.85, freq: 'monthly' as const },
     { path: '/study-plans', priority: 0.7, freq: 'weekly' as const },
     { path: '/progress', priority: 0.5, freq: 'monthly' as const },
     { path: '/topics', priority: 0.7, freq: 'weekly' as const },
@@ -245,9 +246,15 @@ function contentEntries(): MetadataRoute.Sitemap {
 export default async function sitemap({
   id,
 }: {
-  id: Shard;
+  // Next.js 16 changed this signature — `id` arrives as a Promise that
+  // must be awaited. Without the await, the unresolved Promise object is
+  // compared against the switch cases, every case falls through to default,
+  // and the function returns []. That bug shipped silently for ~3 weeks
+  // and produced empty <urlset> sitemaps in production.
+  id: Promise<Shard>;
 }): Promise<MetadataRoute.Sitemap> {
-  switch (id) {
+  const resolvedId = await id;
+  switch (resolvedId) {
     case 'core':
       return coreEntries();
     case 'bible':
