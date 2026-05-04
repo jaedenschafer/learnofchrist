@@ -198,22 +198,27 @@ html[data-reader-theme="dark"] .rich-study .kjv-note .kjv-note-close:hover {
   overflow: hidden;
 }
 
-/* Paper grain — repeating SVG fractal noise tile. Sits at z-index 0
-   under the scripture text. mix-blend-mode multiply darkens the bumps
-   (tan fibers) and leaves the bright spots paper-coloured.
-
-   Heavier alpha + lower baseFrequency than a typical noise overlay so
-   the texture reads as visible paper fiber, not subliminal grain. */
+/* Paper grain — Unsplash photo of a crumpled white textile, hotlinked
+   from the Unsplash CDN with their URL params doing the optimization:
+     auto=format     → WebP for modern browsers, JPG fallback
+     auto=compress   → Unsplash's adaptive quality
+     q=60            → ~60% quality (visually fine for a texture)
+     w=720           → 720px tile, plenty for retina at scripture-block size
+     fit=crop        → square-ish crop so the tile reads as paper, not fabric folds
+   Result is a ~25-40KB image that the browser caches long-term (the
+   photo ID is content-addressable). mix-blend-mode multiply lets the
+   warm cream paper-base show through. */
 .rich-study .scripture::before {
   content: '';
   position: absolute;
   inset: 0;
   z-index: 0;
   pointer-events: none;
-  background-image: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='320' height='320' viewBox='0 0 320 320'%3E%3Cfilter id='n' x='0' y='0' width='100%25' height='100%25'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch' seed='7'/%3E%3CfeColorMatrix values='0 0 0 0 0.40  0 0 0 0 0.30  0 0 0 0 0.18  0 0 0 0.55 0'/%3E%3C/filter%3E%3Crect width='320' height='320' filter='url(%23n)'/%3E%3C/svg%3E");
-  background-size: 320px 320px;
-  background-repeat: repeat;
-  opacity: 0.85;
+  background-image: url('https://images.unsplash.com/photo-1586076100131-32505c71d0d2?auto=format&auto=compress&q=60&w=720&fit=crop');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.55;
   mix-blend-mode: multiply;
   border-radius: inherit;
 }
