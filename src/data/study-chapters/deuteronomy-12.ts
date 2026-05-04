@@ -16,6 +16,11 @@ export const DEUTERONOMY_12: RichChapterContent = {
   chapter: 12,
 
   estimatedMinutes: { beginner: 9, intermediate: 14, deep: 18 },
+  topicTags: ['covenant', 'faithfulness', 'leadership', 'love'],
+  opener: {
+    topical: true,
+    caption: 'Deuteronomy 12',
+  },
   intros: [
     'Deuteronomy 12 is a turning point. Israel is about to enter the Promised Land after forty years in the wilderness. Moses says: forget the high places and groves of the nations you are dispossessing. Do not worship God the way they worship their gods. Instead, seek the one place God will choose — bring your offerings, tithes, vows, and firstlings there. Eat before the Lord there, and rejoice with your household, the Levite, the stranger, the fatherless, and the widow.',
     'What looks like a law about geography is actually a law about authority. The Lord alone names how He is approached. Not human creativity. Not what feels right to each person. Not the practice of the nations. This chapter echoes across the New Testament: it foreshadows the temple in Jerusalem; it is ultimately fulfilled in Christ Himself, who tells the Samaritan woman that worship will no longer be tied to any mountain or city, but to Him, the true Temple.',

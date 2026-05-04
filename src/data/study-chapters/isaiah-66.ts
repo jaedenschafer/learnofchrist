@@ -17,6 +17,11 @@ export const ISAIAH_66: RichChapterContent = {
   chapter: 66,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+  topicTags: ['hope', 'deliverance', 'messianic-prophecy', 'new-creation'],
+  opener: {
+    topical: true,
+    caption: 'Isaiah 66',
+  },
   intros: [
     'Isaiah 66 is the culmination of the entire book. It begins with God\'s majesty: heaven is His throne, earth is His footstool. The temple will be destroyed and rebuilt. Nations will serve Israel. The Church will be born in a day. And yet, God\'s eye is on the humble and contrite, those who tremble at His word. The chapter ends with the vision of judgment: God will gather all nations and tongues to see His glory. All flesh will come to worship Him. But the wicked, those who rebel, will be judged. Their worm does not die. Their fire is not quenched. This is the final word: God\'s eternal kingdom, perfect justice, absolute judgment, and eternal mercy.',
   ],

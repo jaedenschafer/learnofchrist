@@ -16,6 +16,11 @@ export const PROVERBS_7: RichChapterContent = {
   chapter: 7,
 
   estimatedMinutes: { beginner: 1, intermediate: 5, deep: 6 },
+  topicTags: ['wisdom', 'righteousness', 'folly', 'integrity'],
+  opener: {
+    topical: true,
+    caption: 'Proverbs 7',
+  },
   intros: [
     'The seventh chapter of Proverbs tells a story. It is not a sermon or an abstract principle but a narrative of seduction, of a young man walking into the arms of destruction with his eyes wide open yet seeing nothing. The chapter is written almost as a drama—you are invited to observe from a distance, to see the seduction unfold, to learn by witnessing what happens when someone yields to the call of the strange woman.',
     'What makes the narrative powerful is that it does not minimize the appeal. The woman speaks sweetly, she makes promises, she flatters. She makes the wrong way seem right, the forbidden seem safe, the path to ruin seem the path to delight. And the young man, "lacking understanding," follows. The chapter asks: Will you be like him? Or will you see, before you step into the trap, where it leads?',

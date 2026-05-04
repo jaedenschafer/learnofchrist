@@ -16,6 +16,11 @@ export const ISAIAH_63: RichChapterContent = {
   chapter: 63,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+  topicTags: ['hope', 'deliverance', 'messianic-prophecy', 'new-creation'],
+  opener: {
+    topical: true,
+    caption: 'Isaiah 63',
+  },
   intros: [
     'Isaiah 63 opens with a vision of the Messiah returning in judgment. He comes from Edom, His garments stained with the blood of those He has judged. He treads the winepress alone—no one helps Him, because His judgment is His work alone. This is the answer to the question of justice: God will not leave injustice unpunished. The passage then shifts to prayer, remembering God\'s mercy in the past, His leadership through the wilderness, His Spirit given to His people. The prayer ends with a cry: God, where are You? Your people are suffering. Return and help us.',
   ],

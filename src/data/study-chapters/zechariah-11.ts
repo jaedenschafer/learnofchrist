@@ -9,6 +9,11 @@ export const ZECHARIAH_11: RichChapterContent = {
   chapter: 11,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+  topicTags: ['hope', 'messianic-prophecy', 'second-coming', 'kingship'],
+  opener: {
+    topical: true,
+    caption: 'Zechariah 11',
+  },
   intros: [
     'Zechariah 11 is one of the Bible&apos;s most explicitly messianic chapters, though it is clothed in parable and symbolic action. A shepherd comes to tend God&apos;s flock, but he is rejected. He is paid thirty pieces of silver—the price of a slave—and casts them into the temple treasury. Matthew 27:9 quotes this verse as fulfilled when Judas betrays Jesus for thirty pieces of silver. The chapter depicts the rejection of the Messiah and the consequences of that rejection.',
   ],

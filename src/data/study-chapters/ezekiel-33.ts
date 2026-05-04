@@ -15,6 +15,11 @@ export const EZEKIEL_33: RichChapterContent = {
   chapter: 33,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+  topicTags: ['judgment', 'glory', 'hope', 'second-coming'],
+  opener: {
+    topical: true,
+    caption: 'Ezekiel 33',
+  },
   intros: [
     'Ezekiel is reappointed as watchman over Israel. The role of a watchman is perilous. He stands on the walls and watches for danger—the approach of enemies, the fire that could consume the city. If he sees danger and does not warn, the blood of the people is on his hands. If he warns and they do not listen, then their blood is their own responsibility. This is a profound meditation on moral agency and responsibility—both the watchman&apos;s and the people&apos;s.',
     'But the central promise of this chapter transcends judgment. God tells Ezekiel: "As I live, saith the Lord God, I have no pleasure in the death of the wicked; but that the wicked turn from his way and live." The offer is perpetually open. Repent. Turn. And you will live. The God of Israel is not seeking vengeance. He is seeking the return of His people. Each moment holds the possibility of turning.',

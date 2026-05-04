@@ -20,6 +20,11 @@ export const CHRONICLES_1_18: RichChapterContent = {
   chapter: 18,
 
   estimatedMinutes: { beginner: 3, intermediate: 7, deep: 11 },
+  topicTags: ['kingship', 'worship', 'covenant', 'faithfulness'],
+  opener: {
+    topical: true,
+    caption: '1 Chronicles 18',
+  },
   intros: [
     'The first book of Chronicles presents David not as a man searching for a throne, but as a king consolidating a kingdom. He is anointed, established, building the house of God. And in chapter 18, the text turns to a series of military campaigns that expand Israel&apos;s dominion. Yet these wars are told with a remarkable theological framing: not as the conquest of a mighty king, but as the work of the Lord establishing His kingdom upon the earth.',
     'Each victory — over Philistines, Moab, Hadarezer, Syria, Edom — is met with the same refrain: "Thus the Lord preserved David whithersoever he went." The conquests gather treasure that will be dedicated to the Lord and used to build the temple. David reigns and executes judgment and justice. In this chapter, we see a kingdom that is not built on the strength of one man, but on God&apos;s faithfulness to extend David&apos;s rule. And behind that rule is a pattern: the kingdom expanding, nations coming into submission, their wealth flowing into the worship of God.',

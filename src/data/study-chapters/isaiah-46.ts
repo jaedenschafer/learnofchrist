@@ -17,6 +17,11 @@ export const ISAIAH_46: RichChapterContent = {
   chapter: 46,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+  topicTags: ['hope', 'deliverance', 'messianic-prophecy', 'new-creation'],
+  opener: {
+    topical: true,
+    caption: 'Isaiah 46',
+  },
   intros: [
     'Isaiah 46 returns to the comparison between idols and the God of Israel, but with a new emphasis. Idols are not merely false. They are burdensome. Those who carry them must bear their weight. By contrast, God carries His people. God does not demand strength from them. God does not require them to shoulder a burden. God bears the weight. "Even to your old age I am he; and even to hoar hairs will I carry you." This is the promise that speaks to the aging, the weary, the exhausted. You do not need to carry yourself. You do not need to prove yourself. God will carry you. This is the promise that sustains the exiled people and speaks to every reader facing the weight of life.',
   ],

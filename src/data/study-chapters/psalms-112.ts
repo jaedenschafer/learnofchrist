@@ -15,6 +15,11 @@ export const PSALMS_112: RichChapterContent = {
   chapter: 112,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+  topicTags: ['praise', 'lament', 'hope', 'protection'],
+  opener: {
+    topical: true,
+    caption: 'Psalms 112',
+  },
   intros: [
     'Psalm 112 is the companion to Psalm 111. Where Psalm 111 speaks of God&apos;s character and works, Psalm 112 describes the person who has internalized that character and made God&apos;s ways his own. This is not a promise of material wealth or perfect circumstances. It is a portrait of a person whose life has been shaped by fear of God—reverence, awe, obedience. And what does that shaping produce? Strength, integrity, generosity, courage, stability. The blessed man does not avoid difficulty, but he faces it with a heart fixed in trust.',
     'The psalm is also an acrostic in the original Hebrew, following directly after Psalm 111. Together they compose a meditation on fear of God and what it produces: first the fear itself, then the person transformed by that fear.',

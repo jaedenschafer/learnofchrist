@@ -14,6 +14,11 @@ export const EZEKIEL_39: RichChapterContent = {
   chapter: 39,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+  topicTags: ['judgment', 'glory', 'hope', 'second-coming'],
+  opener: {
+    topical: true,
+    caption: 'Ezekiel 39',
+  },
   intros: [
     'Gog is destroyed. His army falls on the mountains of Israel. The slain are so numerous that birds come to feast on the corpses, as a gruesome scavenging army. The weapons—spears, arrows, bows—are so abundant that Israel burns them as fuel for seven years. Seven years of heating their homes with the remnants of war. It is a strange and vivid image of how absolute the victory is, how complete the destruction of the enemy.',
     'Yet beneath the imagery of destruction lies the deepest promise. "I have poured out my spirit upon the house of Israel, saith the Lord God." The defeat of enemies is not the final word. The pouring out of the Spirit is. From this moment forward, Israel will know God in a new way. The Spirit will be upon them. They will be transformed. They will understand what it means to be God&apos;s people.',

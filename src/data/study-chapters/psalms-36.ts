@@ -16,6 +16,11 @@ export const PSALMS_36: RichChapterContent = {
   chapter: 36,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 6 },
+  topicTags: ['praise', 'lament', 'hope', 'protection'],
+  opener: {
+    topical: true,
+    caption: 'Psalms 36',
+  },
   intros: [
     'Psalm 36 opens with a dark vision of the human heart when it turns from God. The transgression of the wicked speaks within their heart, and they see no reason to fear God or seek His favor. They lie awake plotting evil, setting themselves on paths that are not good. Yet this is not the psalm&apos;s final word. David raises his eyes to heaven and sees there an altogether different reality: God&apos;s mercy reaches to the heavens, His faithfulness to the clouds. His righteousness[res:bible-odyssey-two-ways] is like the great mountains, His judgments like a great deep.',
     'But the most striking promise comes near the close: "For with thee is the fountain of life." Not a stream that may dry up, not a well that may fail, but a fountain—a source. In this fountain is light, and in that light, all things are seen truly. The psalm moves from the darkness of human transgression to the radiance of God&apos;s eternal provision. It is an invitation to drink.',

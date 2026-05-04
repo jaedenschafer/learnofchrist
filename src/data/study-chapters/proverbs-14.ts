@@ -15,6 +15,11 @@ export const PROVERBS_14: RichChapterContent = {
   chapter: 14,
 
   estimatedMinutes: { beginner: 1, intermediate: 5, deep: 7 },
+  topicTags: ['wisdom', 'righteousness', 'folly', 'integrity'],
+  opener: {
+    topical: true,
+    caption: 'Proverbs 14',
+  },
   intros: [
     'The fourteenth chapter returns to the central concern of Proverbs: the fear of the Lord as the fountain of life. It also widens the scope beyond the individual life to the life of nations and communities. The righteousness or unrighteousness of a people shapes the destiny of their land. No nation, however powerful militarily or economically, can long survive without the foundation of moral truth.',
     'The chapter maintains the form of pithy sayings while returning to foundational themes. It is a gathering place where personal wisdom and communal responsibility meet.',

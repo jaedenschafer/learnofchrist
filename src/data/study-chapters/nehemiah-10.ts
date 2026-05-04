@@ -18,6 +18,11 @@ export const NEHEMIAH_10: RichChapterContent = {
   chapter: 10,
 
   estimatedMinutes: { beginner: 6, intermediate: 11, deep: 16 },
+  topicTags: ['return', 'leadership', 'prayer', 'faithfulness'],
+  opener: {
+    topical: true,
+    caption: 'Nehemiah 10',
+  },
   intros: [
     'The wall is rebuilt. The gates are hung. The dedication has been celebrated. And now, in chapter 10, the people of Jerusalem stand to seal a covenant — not in secret, not in whispers, but openly, with witnesses, in writing, with the names of the signatories recorded for all generations to see.',
     'This chapter is dense with names, lists, and specific commitments. It is easy to rush through it, to see it as mere administrative record. But it is far more: it is a snapshot of a people who have learned, through seventy years of exile, what it costs to turn away from God, and what it takes to turn back.',

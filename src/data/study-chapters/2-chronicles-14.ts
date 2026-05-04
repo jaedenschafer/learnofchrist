@@ -20,6 +20,11 @@ export const CHRONICLES_2_14: RichChapterContent = {
   chapter: 14,
 
   estimatedMinutes: { beginner: 4, intermediate: 9, deep: 14 },
+  topicTags: ['kingship', 'worship', 'judgment', 'repentance'],
+  opener: {
+    topical: true,
+    caption: '2 Chronicles 14',
+  },
   intros: [
     'Abijah has died. His son Asa now reigns over Judah, and the young king brings with him a vision of reform. The land is filled with the altars and images of strange gods — the spiritual debris of centuries of drift. Asa does what the great reformer kings do: he tears down the high places, breaks the images, cuts down the groves, and commands Judah to seek the Lord God of their fathers. For ten years, the land knows rest. No war. No conflict. The kingdom grows quiet before him. It is as if God Himself is honoring this faithful king with peace.',
     'But peace on earth is never absolute. In the 15th year of Asa\'s reign, Zerah the Ethiopian comes against him with an army of a million men and 300 chariots. The numbers are overwhelming. Judah\'s forces are smaller. By every military calculus, Asa should be afraid. Instead, he does something remarkable: he cries unto the Lord. His prayer is not a bargaining prayer or a prayer of desperation dressed as faith. It is a prayer that cuts to the heart of covenant reliance: "It is nothing with thee to help, whether with many, or with them that have no power. Help us, O Lord our God; for we rest on thee, and in thy name we go against this multitude." The battle turns. The Ethiopians flee before Judah. The One whom Asa depends on proves sufficient. In this chapter, we see the whole arc of faith: reform, rest, reliance in crisis, and deliverance.',

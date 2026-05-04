@@ -15,6 +15,11 @@ export const JEREMIAH_28: RichChapterContent = {
   chapter: 28,
 
   estimatedMinutes: { beginner: 4, intermediate: 6, deep: 7 },
+  topicTags: ['lament', 'judgment', 'hope', 'calling'],
+  opener: {
+    topical: true,
+    caption: 'Jeremiah 28',
+  },
   intros: [
     'Hananiah the false prophet publicly breaks the wooden yoke from Jeremiah&apos;s neck, declaring that the Lord will break the yoke of Babylon and bring back the vessels of the temple and Jeconiah within two years. It is a dramatic, public contradiction of Jeremiah&apos;s message. The people who want to believe Hananiah&apos;s words of comfort see a prophecy more believable than Jeremiah&apos;s harsh words of judgment.',
     'Yet Jeremiah responds: "Hear now, Hananiah; The Lord hath not sent thee... thou hast caused this people to trust in a lie." The false prophet breaks a wooden yoke, and God&apos;s response is an iron yoke — a harder judgment. The judgment for lying about God&apos;s word is more severe than the judgment for disobedience.',

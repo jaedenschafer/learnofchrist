@@ -16,6 +16,11 @@ export const EXODUS_11: RichChapterContent = {
   chapter: 11,
 
   estimatedMinutes: { beginner: 5, intermediate: 9, deep: 11 },
+  topicTags: ['deliverance', 'sovereignty', 'calling', 'protection'],
+  opener: {
+    topical: true,
+    caption: 'Exodus 11',
+  },
   intros: [
     'God brings nine plagues on Egypt — water to blood, frogs, gnats, flies, livestock disease, boils, hail, locusts, darkness. Each one Pharaoh refuses to let Israel go. Each one he hardens his heart. In Exodus 11, God announces the plague that will break him: the death of every firstborn in Egypt.',
     'This is not a threat made in anger. This is a judgment made in mercy. God is not being cruel; He is being clear. This plague will fall on all of Egypt — priest and prisoner, master and servant, prince and pauper. But Israel will be spared. The hinge of Exodus 11 is a single question: on which side of the blood will you stand when the angel comes?',

@@ -6,6 +6,11 @@ export const PSALMS_61: RichChapterContent = {
   chapter: 61,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+  topicTags: ['praise', 'lament', 'hope', 'protection'],
+  opener: {
+    topical: true,
+    caption: 'Psalms 61',
+  },
   intros: [
     'David is at the end of the earth, far from his home, far from the house of God. His heart is overwhelmed. His strength is failing. And in this extremity, he cries out not for a comfortable refuge, but for a rock higher than himself. "Hear my cry, O God; attend unto my prayer. From the end of the earth will I cry unto thee, when my heart is overwhelmed: lead me to the rock that is higher than I."',
     'This is a prayer born of desperation transformed into faith. David is overwhelmed—the Hebrew suggests he is fainting, sinking, about to be overwhelmed by the waters of trouble. Yet in that moment of extremity, he sees what he truly needs: not a place to rest at his own level, but a rock higher than himself that he could never climb. Only God can lead him there. Only God can lift him to such a height. And that is where David asks to be taken.',

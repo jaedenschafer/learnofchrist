@@ -15,6 +15,11 @@ export const JEREMIAH_48: RichChapterContent = {
   chapter: 48,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
+  topicTags: ['lament', 'judgment', 'hope', 'calling'],
+  opener: {
+    topical: true,
+    caption: 'Jeremiah 48',
+  },
   intros: [
     'Moab was a neighbor of Israel, descended from Lot and sharing cultural and economic ties. Yet Moab often stood as an opponent. Now God speaks against Moab with words of judgment. Cities will be destroyed. The people will be put to shame. And the reason, in part, is expressed in verse 10: "Cursed be he that doeth the work of the Lord deceitfully, and cursed be he that keepeth back his sword from blood."',
     'This statement has troubled many readers. It seems to celebrate violence and bloodshed. But understood rightly, it speaks to a deeper principle: God demands wholehearted commitment. To do God&apos;s work deceitfully—half-heartedly, with reservations, with one eye on personal comfort—is to invite curse. To refrain from God&apos;s work out of fear or selfishness is likewise cursed. God calls for undivided hearts.',

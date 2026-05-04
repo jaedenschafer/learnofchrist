@@ -15,6 +15,11 @@ export const JEREMIAH_35: RichChapterContent = {
   chapter: 35,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 3 },
+  topicTags: ['lament', 'judgment', 'hope', 'calling'],
+  opener: {
+    topical: true,
+    caption: 'Jeremiah 35',
+  },
   intros: [
     'Jeremiah 35 uses an unexpected device to rebuke Israel: the faithfulness of the Rechabites. The Rechabites were a community led by Jonadab, a man who gave his descendants strict rules—they would not drink wine, not plant vineyards, not build houses, but would live as nomads in tents. This was not arbitrary. It was a covenant, a way of maintaining separation from the degrading influences of settled civilization.',
     'The prophet invites the Rechabites to drink wine, and they refuse. They honor their father&apos;s command across generations. And God uses this faithfulness as an indictment of Israel&apos;s unfaithfulness. For centuries, God has sent prophets calling Israel to keep covenant. Yet Israel has drifted further and further from obedience. The Rechabites&apos; loyalty to a human father stands in stark contrast to Israel&apos;s disloyalty to the divine Father.',

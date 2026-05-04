@@ -15,6 +15,11 @@ export const FIRST_CORINTHIANS_16: RichChapterContent = {
   chapter: 16,
 
   estimatedMinutes: { beginner: 8, intermediate: 16, deep: 24 },
+  topicTags: ['unity', 'love', 'witness', 'wisdom'],
+  opener: {
+    topical: true,
+    caption: '1 Corinthians 16',
+  },
   intros: [
     'Paul has answered every question the Corinthians sent him. He has corrected divisions, clarified the resurrection, untangled the limits of Christian freedom. Now comes the practical finale: a collection for the poor saints at Jerusalem, a travel schedule, the names of people the Corinthians should honor, and a warning wrapped in Aramaic that echoes in every Christian heart: Maranatha—the Lord comes.',
     'The chapter holds a deep truth. After all the theology, Paul gives time to money and logistics and the real humans who carry the gospel. Love is not an idea discussed in the abstract. Love is Stephanas bringing his whole household to serve Christ. It is remembering that Aquila and Priscilla risked their necks. It is laying aside coins each Sunday, not from compulsion but from joy. The flesh-and-blood church—the hands, the names, the recurring presence of the same people—is where faith lives.',

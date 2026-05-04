@@ -17,6 +17,11 @@ export const HEBREWS_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 8, intermediate: 12, deep: 23 },
+  topicTags: ['priest', 'sacrifice', 'faithfulness', 'hope'],
+  opener: {
+    topical: true,
+    caption: 'Hebrews 2',
+  },
   intros: [
     'Chapter 1 exalted the Son above the angels, proving His supremacy through Old Testament voices. Chapter 2 asks the harder question: if He is so far above us, what does He have to do with us? The answer is incarnation—the Son entered human flesh, human weakness, human death. Not to remain distant, but to become our brother and High Priest. He did not send someone else into suffering; He bore it Himself.',
     'The chapter weaves Psalm 8 throughout—"What is man, that thou art mindful of him?" That psalm speaks of human glory, now lost through sin. Jesus reclaimed it, not for Himself alone, but for all who follow Him through His suffering. He became lower than the angels for a season—vulnerable, tempted, mortal—and from that place of complete solidarity with us, He opened a way to glory.',

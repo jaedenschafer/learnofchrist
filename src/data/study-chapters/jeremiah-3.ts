@@ -19,6 +19,11 @@ export const JEREMIAH_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 6 },
+  topicTags: ['lament', 'judgment', 'hope', 'calling'],
+  opener: {
+    topical: true,
+    caption: 'Jeremiah 3',
+  },
   intros: [
     'Jeremiah 3 opens with a legal question followed by a declaration of love. God says, in effect: If a man divorces his wife because she has been unfaithful, and she goes to another man, and then wants to come back—can he take her back? The law says no. Once a woman has been with another man, she is forbidden to her first husband. This is the legal reality. Yet immediately after posing this question, God says something astonishing: "But thou hast played the harlot with many lovers; yet return again to me, saith the Lord."',
     'What follows is an outpouring of grace that transcends law. God calls Israel to return—not because the law permits it, but because He is willing to transcend law itself out of love. "I am married unto you." This covenant marriage is not dissolved by infidelity. It stands. And God offers not condemnation but restoration. Yet He also speaks to those who have returned: to Jerusalem (Judah) and her sister Israel. The call is for all to come home, to return to the God who will not let them go.',

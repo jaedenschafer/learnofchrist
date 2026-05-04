@@ -16,6 +16,11 @@ export const ISAIAH_12: RichChapterContent = {
   chapter: 12,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+  topicTags: ['judgment', 'calling', 'hope', 'sovereignty'],
+  opener: {
+    topical: true,
+    caption: 'Isaiah 12',
+  },
   intros: [
     'After the long sequence of warnings, judgments, and prophecies, Isaiah closes this first section of his prophecy with a song. Not the song of a secure people who have never suffered, but the song of those who have passed through judgment and emerged transformed. "In that day" Israel will sing a new song—a song of trust, of gratitude, of joy in God&apos;s salvation. The people have been angry with God, have turned away, have been corrected. But now they turn again and find in that turning a joy beyond anything they have known.',
     'The song speaks of drawing water from the wells of salvation. Salvation is not a one-time event but a continuous source of life and refreshment. Just as a person in a thirsty land goes repeatedly to a well to drink and to draw water, so the restored people go repeatedly to God, drawing from His salvation. They cry out and proclaim His works among the nations. They sing and cry out, "Great is the Holy One of Israel in the midst of thee." The song is one of both personal joy and corporate celebration—a joy that cannot be contained but must be shared, proclaimed, sung aloud.',

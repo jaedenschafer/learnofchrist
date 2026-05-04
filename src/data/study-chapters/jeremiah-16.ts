@@ -16,6 +16,11 @@ export const JEREMIAH_16: RichChapterContent = {
   chapter: 16,
 
   estimatedMinutes: { beginner: 6, intermediate: 10, deep: 13 },
+  topicTags: ['lament', 'judgment', 'hope', 'calling'],
+  opener: {
+    topical: true,
+    caption: 'Jeremiah 16',
+  },
   intros: [
     'Chapter 16 opens with a shocking command: Jeremiah is forbidden to marry. He cannot take a wife, cannot have sons and daughters "in this place." The Lord is explicit about the reason: those who are born here will die of grievous deaths, of famine, of sword. The normal blessings of life — family, children, the continuation of one&apos;s name — are denied to the prophet because he is called to be a sign. His very life, unmarried and barren, testifies to the coming judgment.',
     'Yet judgment is not the final word. In the darkness of exile, restoration glimmers. The people will be brought back. Their bones will be remembered. And in that restoration, a work of memory and return begins. The prophet who cannot marry, who cannot build a family, witnesses a God who gathers His exiled children and calls them home.',

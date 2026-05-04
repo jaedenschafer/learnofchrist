@@ -23,6 +23,11 @@ export const CHRONICLES_2_16: RichChapterContent = {
   chapter: 16,
 
   estimatedMinutes: { beginner: 5, intermediate: 10, deep: 14 },
+  topicTags: ['kingship', 'worship', 'judgment', 'repentance'],
+  opener: {
+    topical: true,
+    caption: '2 Chronicles 16',
+  },
   intros: [
     'For most of his reign, Asa has been a king of extraordinary faith. He tore down idols. He led Judah in covenant renewal. He cried out to the Lord against an overwhelming Ethiopian army, and the Lord delivered him with a mighty hand. But something shifts in his later years—a subtle, fatal shift from reliance on God to reliance on himself.',
     'When Baasha of Israel threatens Judah&apos;s northern border, Asa faces a choice. Does he cry out to the Lord as he once did? Instead, he descends into Judah&apos;s treasury, withdraws the silver and gold that belonged to God&apos;s house, and purchases an alliance with the pagan king of Syria. The move works—Baasha retreats. But it comes at a cost Asa cannot yet see.',

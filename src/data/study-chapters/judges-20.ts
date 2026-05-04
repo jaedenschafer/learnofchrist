@@ -6,6 +6,11 @@ export const JUDGES_20: RichChapterContent = {
   chapter: 20,
 
   estimatedMinutes: { beginner: 2, intermediate: 6, deep: 8 },
+  topicTags: ['deliverance', 'sin', 'leadership', 'mercy'],
+  opener: {
+    topical: true,
+    caption: 'Judges 20',
+  },
   intros: [
     'The horror at Gibeah has shattered Israel\'s fragile unity. Now all twelve tribes march as one — not to conquer an enemy, but to wage civil war against their own brother Benjamin. The violence that follows will nearly extinguish an entire tribe and mark the moral collapse of the judges era.',
     'Watch how God allows two crushing defeats before granting victory. Even righteous causes require humility. And witness the deepest wound: brothers fighting brothers in a war that leaves 65,000 dead. This is Israel\'s mirror of Cain and Abel — and only Christ can heal it.',

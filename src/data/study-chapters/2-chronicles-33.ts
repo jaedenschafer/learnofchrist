@@ -19,6 +19,11 @@ export const CHRONICLES_2_33: RichChapterContent = {
   chapter: 33,
 
   estimatedMinutes: { beginner: 5, intermediate: 11, deep: 16 },
+  topicTags: ['kingship', 'worship', 'judgment', 'repentance'],
+  opener: {
+    topical: true,
+    caption: '2 Chronicles 33',
+  },
   intros: [
     'The reign of Manasseh is the reign of a king at war with God. He ascends the throne at twelve years old, inheriting a kingdom his father Hezekiah had devoted to God. And immediately, Manasseh undoes everything. He rebuilds the high places his father destroyed. He makes groves and altars for Baal. He makes his own children pass through the fire — a practice so abhorrent that it will echo as a mark of his wickedness through all of Scripture. He consults mediums and wizards. He sets a carved image in the Temple itself, the place God promised to dwell forever. By every measure, Manasseh is the worst king Judah has ever had.',
     'But his story does not end in Judah. When God cannot reach him through prophets, God reaches him through captivity. Assyrian soldiers take Manasseh in thorns and chains to Babylon. And there — in darkness, in chains, far from his throne and his power — Manasseh meets God in a way he never could have in his palace. He humbles himself. He prays. And God hears.',

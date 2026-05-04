@@ -18,6 +18,11 @@ export const CHRONICLES_1_21: RichChapterContent = {
   chapter: 21,
 
   estimatedMinutes: { beginner: 6, intermediate: 15, deep: 21 },
+  topicTags: ['kingship', 'worship', 'covenant', 'faithfulness'],
+  opener: {
+    topical: true,
+    caption: '1 Chronicles 21',
+  },
   intros: [
     'The book of 1 Chronicles retells the history of Israel with a particular focus: the lineage of David, the promise to his house, and the centrality of worship at the temple. In this chapter, that focus narrows further. What begins as Satan&apos;s provocation — a temptation to pride in numbering the people — becomes the occasion for God to establish the very place where His house will stand. From the place of judgment, mercy springs. From the threshing floor where the angel stands with a drawn sword, there arises the site of eternal worship. This is the story of how God answers the hardest prayers.',
   ],

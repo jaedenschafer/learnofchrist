@@ -21,6 +21,11 @@ export const DEUTERONOMY_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 9, intermediate: 16, deep: 19 },
+  topicTags: ['covenant', 'faithfulness', 'leadership', 'love'],
+  opener: {
+    topical: true,
+    caption: 'Deuteronomy 3',
+  },
   intros: [
     'Deuteronomy 3 is Moses recounting the recent past — victories the people watched God win. Israel turned northward from Ammon into Bashan. Og, the last of the giants, came out to meet them at Edrei with his whole army. The Lord told Moses: "Fear him not." They struck him, his sons, and all his people. They took sixty fortified cities of Bashan — "fenced cities with high walls, gates, and bars, beside unwalled towns a great many." Cattle and spoil became Israel&apos;s.',
     'Then the text pauses to describe Og&apos;s bedstead. He was the last of the great giants, and his iron bedstead was nine cubits long and four cubits wide — over thirteen feet by six — evidence of a world before the flood when humans were different, stronger, larger. But even this last of the old giants fell before the people who trusted in the name of the Lord.',

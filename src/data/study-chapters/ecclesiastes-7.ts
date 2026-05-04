@@ -17,6 +17,11 @@ export const ECCLESIASTES_7: RichChapterContent = {
   chapter: 7,
 
   estimatedMinutes: { beginner: 1, intermediate: 6, deep: 7 },
+  topicTags: ['wisdom', 'suffering', 'sovereignty', 'providence'],
+  opener: {
+    topical: true,
+    caption: 'Ecclesiastes 7',
+  },
   intros: [
     'The Preacher now enters a series of paradoxes. Death is better than birth. Mourning is better than feasting. Sorrow is better than laughter. These statements seem to contradict the good counsel of earlier chapters, where he urged us to enjoy food and drink and the fruit of our labor. But the Preacher is not saying to despise life. He is saying that the deep things—the awareness of death, the sorrow of loss, the reality of suffering—these bring wisdom. A house of mourning teaches what a house of feasting cannot. The sight of tears teaches what laughter never will.',
     'And the Preacher adds: "Better is a good name than precious ointment." Reputation, character, the moral legacy of a life—these endure after we are gone. They outlast possessions. They survive us. The Preacher is directing us toward what truly matters, what truly lasts. And he notes that wickedness and folly can destroy a person as surely as money can. It is not merely excess in pleasure that we should avoid. It is excess in any direction. The wise person is the one who can hold opposites together: enjoy life, but remember death; seek joy, but honor sorrow; build your reputation, but do not trust in it.',

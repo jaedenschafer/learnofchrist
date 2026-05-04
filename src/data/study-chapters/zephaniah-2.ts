@@ -13,6 +13,11 @@ export const ZEPHANIAH_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+  topicTags: ['judgment', 'hope', 'humility', 'mercy'],
+  opener: {
+    topical: true,
+    caption: 'Zephaniah 2',
+  },
   intros: [
     'In the midst of the terrible words about the Day of the Lord, Zephaniah offers a call—not to despair, but to seek. "Seek ye the Lord, all ye meek of the earth." The word "meek" is key. It is not the strong who will survive, but the humble. Not those who trust in their own power, but those who have learned to depend on God.',
     'The call is urgent: "Seek the Lord...seek meekness, perhaps ye shall be hid in the day of the Lord&apos;s anger." Perhaps—there is no guarantee for those who refuse. But for those who turn, who seek, who become meek, there is hope. The meek shall inherit the earth.',

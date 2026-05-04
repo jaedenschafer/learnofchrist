@@ -14,6 +14,11 @@ export const PROVERBS_26: RichChapterContent = {
   chapter: 26,
 
   estimatedMinutes: { beginner: 1, intermediate: 2, deep: 2 },
+  topicTags: ['wisdom', 'righteousness', 'folly', 'integrity'],
+  opener: {
+    topical: true,
+    caption: 'Proverbs 26',
+  },
   intros: [
     'Proverbs 26 contains one of Scripture&apos;s most striking paradoxes: two back-to-back verses that seem to contradict each other. Do not answer a fool according to his folly (lest you become a fool). Yet answer a fool according to his folly (lest he think himself wise). The chapter teaches that wisdom is not a set of rules, but a discernment that knows the moment and the context. Sometimes silence is wisdom. Sometimes a reply is wisdom. The same fool may require different treatment depending on the occasion.',
   ],

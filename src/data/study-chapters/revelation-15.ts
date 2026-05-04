@@ -16,6 +16,11 @@ export const REVELATION_15: RichChapterContent = {
   chapter: 15,
 
   estimatedMinutes: { beginner: 4, intermediate: 9, deep: 12 },
+  topicTags: ['second-coming', 'judgment', 'new-creation', 'kingship'],
+  opener: {
+    topical: true,
+    caption: 'Revelation 15',
+  },
   intros: [
     'Revelation has spent fourteen chapters warning the world: repent. The seals broke, the trumpets sounded, the plagues fell, and still many hardened their hearts. Now, before the final judgment, John is shown a door that opens onto victory. He sees those who have chosen Christ—who have resisted the beast to the end—standing safe and singing. Their song is the duet of all Scripture: the song of God who freed His people (Moses) blended with the song of God who freed His people through sacrifice (the Lamb). Only after we see the victory does judgment fall.',
     'What you are about to read asks you a question: Where do you stand? With the victors on the sea of glass, harps in hand, singing the song of the Lamb? Or still outside, watching as the final bowls are poured? There is still time to choose.',

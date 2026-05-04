@@ -14,6 +14,11 @@ export const EZEKIEL_35: RichChapterContent = {
   chapter: 35,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+  topicTags: ['judgment', 'glory', 'hope', 'second-coming'],
+  opener: {
+    topical: true,
+    caption: 'Ezekiel 35',
+  },
   intros: [
     'While Israel lies in exile, the Edomites—descendants of Esau, Jacob&apos;s brother—have positioned themselves to attack and seize Israel&apos;s land. They are not simply opportunistic invaders. They carry ancient enmity, a grudge born of Jacob and Esau&apos;s struggle in the womb. And now, with Israel broken, they strike. But Ezekiel&apos;s word makes clear: God sees this. God remembers this. And God will not allow the cruelty of enemies to go unanswered.',
     'The prophecy against Edom is brief but fierce. Those who have sworn enmity against God&apos;s people will know that the Lord is God, and that His power reaches even to those who gloat over the fall of others. The message to exiled Israel is clear: your enemies think they have won. But God still judges. God still rules. Hope is not yet dead.',

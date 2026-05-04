@@ -19,6 +19,11 @@ export const NEHEMIAH_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 5, intermediate: 10, deep: 12 },
+  topicTags: ['return', 'leadership', 'prayer', 'faithfulness'],
+  opener: {
+    topical: true,
+    caption: 'Nehemiah 1',
+  },
   intros: [
     'The book of Nehemiah opens in exile. Seventy years have passed since Jerusalem fell to Babylon. The temple has been rebuilt under Zerubbabel, the people have returned to their homeland — and yet the city itself remains broken. Its walls lie in ruins. Its gates have been burned. To the ancient mind, a city without walls is defenseless, shamed, forgotten by both neighbors and God.',
     'Nehemiah is far from home, serving in the palace of the Persian king as cupbearer — a position of extraordinary trust. A cupbearer tastes the king&apos;s food and drink, standing in the inner chamber where few are permitted. He is the king&apos;s intimate, his shadow. And when Nehemiah learns what has become of Jerusalem, he does not seize the moment to ask for leave or resources. Instead, he sits down, weeps, mourns certain days, fasts, and prays. His response is not action but lamentation — and his prayer becomes one of the most intimate confessions in Scripture, a man standing before God on behalf of his people.',

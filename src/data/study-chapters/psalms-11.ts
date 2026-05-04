@@ -16,6 +16,11 @@ export const PSALMS_11: RichChapterContent = {
   chapter: 11,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+  topicTags: ['praise', 'lament', 'hope', 'protection'],
+  opener: {
+    topical: true,
+    caption: 'Psalms 11',
+  },
   intros: [
     'Psalm 11 is a psalm of resolve. David faces danger, and those around him offer counsel—flee, escape, run. They see the threat and assume the only rational response is to disappear. But David refuses. He will not flee. He will trust. This is not because the danger is not real. It is because he has looked toward heaven and found something more real than the threat: the presence and the sight of God.',
     'The psalm opens with a crisis and concludes with trust. It is brief—only nine verses—but in its brevity lies its power. Three simple facts: The Lord sits in the heavens. His eyes behold. His countenance looks upon the upright. These facts are enough.',

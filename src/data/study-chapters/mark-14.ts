@@ -21,6 +21,11 @@ export const MARK_14: RichChapterContent = {
   chapter: 14,
 
   estimatedMinutes: { beginner: 1, intermediate: 5, deep: 7 },
+  topicTags: ['cross', 'sacrifice', 'suffering', 'love'],
+  opener: {
+    topical: true,
+    caption: 'Mark 14',
+  },
   intros: [
     'Mark 14 begins with preparations for death. A woman comes to Jesus in Bethany and pours costly spikenard on His head. Some are indignant, saying the perfume should have been sold and the money given to the poor. But Jesus says: "She hath done what she could: she is come aforehand to anoint my body to the burying." She intuits what is coming. She honors Him in advance of His death. Her act of love is defensive preparation, an anointing for burial.',
     'Jesus keeps the Passover with His disciples. The meal that commemorates Israel&apos;s deliverance becomes the foundation of a new covenant. Taking bread, Jesus blesses, breaks it, and says: "This is my body." Taking the cup, He says: "This is my blood of the new testament, which is shed for many." The old Passover pointed to deliverance from Egypt. The new covenant, sealed in Christ&apos;s body and blood, points to deliverance from sin. Then Jesus goes to Gethsemane to pray. The agony intensifies. "Father, all things are possible unto thee; take away this cup from me: nevertheless not what I will, but what thou wilt." Three times He prays. Three times He finds the disciples asleep. Then the betrayal. Judas kisses Jesus. He is arrested. The disciples flee. Peter denies Him.',

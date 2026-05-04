@@ -14,6 +14,11 @@ export const PSALMS_49: RichChapterContent = {
   chapter: 49,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 6 },
+  topicTags: ['praise', 'lament', 'hope', 'protection'],
+  opener: {
+    topical: true,
+    caption: 'Psalms 49',
+  },
   intros: [
     'Psalm 49 is a meditation on mortality and redemption. The psalmist addresses "all inhabitants of the world, both low and high, rich and poor." He has something to tell them, a wisdom[res:bible-odyssey-wisdom-theme] he wishes them to hear. And his message is stark: the rich cannot use their wealth[res:sefaria-psalms-49] to buy immortality. They cannot redeem their brothers. They cannot give to God a ransom for themselves. In the face of death, all their riches are useless.',
     'Yet the psalm does not end in despair. There is One who can redeem what wealth cannot. There is One who can give what the rich cannot pay. The psalmist writes: "God will redeem my soul from the power of the grave: for he shall receive me." Only God can pay the price of redemption. Only God can offer what the human soul truly needs. In Christ, this promise finds its complete fulfillment. He is the ransom.',

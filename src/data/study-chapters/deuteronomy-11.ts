@@ -14,6 +14,11 @@ export const DEUTERONOMY_11: RichChapterContent = {
   chapter: 11,
 
   estimatedMinutes: { beginner: 9, intermediate: 14, deep: 18 },
+  topicTags: ['covenant', 'faithfulness', 'leadership', 'love'],
+  opener: {
+    topical: true,
+    caption: 'Deuteronomy 11',
+  },
   intros: [
     'Deuteronomy 11 opens with power: "You have seen with your own eyes." The present generation of Israel witnessed the plagues on Egypt, the parting of the Red Sea, the earth swallowing Dathan and Abiram. Moses is not asking them to believe a secondhand story. He is calling them to keep covenant with the God whose hand they watched move in history. Eyewitness faith is the strongest kind.',
     'The chapter then moves to land and rain. The Promised Land will not function like Egypt, where human effort and irrigation could sustain life. Canaan "drinks of the rain of heaven." The geography itself will teach Israel a lesson their parents needed to learn in the wilderness: you are dependent on God. Not on your own strength. Not on your systems. The land becomes a daily reminder of covenant.',

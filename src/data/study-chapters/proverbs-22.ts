@@ -15,6 +15,11 @@ export const PROVERBS_22: RichChapterContent = {
   chapter: 22,
 
   estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
+  topicTags: ['wisdom', 'righteousness', 'folly', 'integrity'],
+  opener: {
+    topical: true,
+    caption: 'Proverbs 22',
+  },
   intros: [
     'Proverbs 22 opens a new section—"the words of the wise"—and immediately establishes its scale of values. A good name, reputation, character—choose this over riches. Wealth fades, is lost, is stolen. But a good name, built slowly through consistent integrity, endures and opens doors riches cannot. The chapter also teaches the foundational principle of education: that how we form a child early shapes who they become. Training is not coercion. It is formation according to their nature.',
   ],

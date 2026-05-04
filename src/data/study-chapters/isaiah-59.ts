@@ -16,6 +16,11 @@ export const ISAIAH_59: RichChapterContent = {
   chapter: 59,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+  topicTags: ['hope', 'deliverance', 'messianic-prophecy', 'new-creation'],
+  opener: {
+    topical: true,
+    caption: 'Isaiah 59',
+  },
   intros: [
     'Isaiah 59 is a confession of sin and a promise of redemption. The people acknowledge that their iniquities have separated them from God. They describe in graphic language the extent of their wickedness: violence, lies, false testimony, weaving plots of destruction. There is no justice, no peace. Yet it is precisely in this darkness, when all seems lost, that the Redeemer appears. God Himself comes. He puts on righteousness as a breastplate, wears salvation as a helmet, and takes vengeance on His enemies. He comes not to destroy the penitent, but to redeem them.',
   ],

@@ -18,6 +18,11 @@ export const PSALMS_90: RichChapterContent = {
   chapter: 90,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+  topicTags: ['praise', 'lament', 'hope', 'protection'],
+  opener: {
+    topical: true,
+    caption: 'Psalms 90',
+  },
   intros: [
     'Psalm 90 is Moses&apos;s prayer, and it stands at the gateway to the Psalms of ascent. It is a prayer about human finitude and divine eternity. Moses has watched a generation pass away in the wilderness. He understands mortality. He understands the brevity of human life. And yet he also understands God&apos;s steadfastness across all generations. The psalm does not deny death. Instead, it finds meaning within the shadow of death—the meaning that comes from being known by God, sustained by God, used by God.',
   ],

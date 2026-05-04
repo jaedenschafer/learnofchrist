@@ -20,6 +20,11 @@ export const SAMUEL_1_22: RichChapterContent = {
   chapter: 22,
 
   estimatedMinutes: { beginner: 6, intermediate: 12, deep: 15 },
+  topicTags: ['kingship', 'leadership', 'calling', 'providence'],
+  opener: {
+    topical: true,
+    caption: '1 Samuel 22',
+  },
   intros: [
     'In 1 Samuel 22, David&apos;s flight deepens. He is no longer hiding alone in caves — he is gathering people. Everyone in distress, everyone crushed by debt, everyone discontented with Saul&apos;s rule, comes to him. In the cave of Adullam, a kingdom begins to form, not from the proud, but from the broken.',
     'But Saul, meanwhile, is consumed by a different kind of gathering. Wracked by paranoia, he calls his servants around him and speaks from the wound of his own rejection. He believes everyone has turned against him. And when he hears of David&apos;s presence at Nob, he strikes — not at David himself, but at the priests who showed David hospitality. The slaughter is total: 85 priests in one day, their families, their flocks, their city. All because Saul cannot bear to be forgotten.',

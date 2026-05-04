@@ -27,6 +27,11 @@ export const NUMBERS_28: RichChapterContent = {
   chapter: 28,
 
   estimatedMinutes: { beginner: 7, intermediate: 9, deep: 11 },
+  topicTags: ['provision', 'protection', 'leadership', 'doubt'],
+  opener: {
+    topical: true,
+    caption: 'Numbers 28',
+  },
   intros: [
     'Numbers 28 opens with God commanding Moses: "Command the children of Israel, and say unto them, My offering, and my bread for my sacrifices made by fire, for a sweet savour unto me, shall ye observe to offer unto me in their due season." The language is intimate. These are God&apos;s offerings. God&apos;s bread. God has set a table. Israel is commanded to bring to it.',
     'What follows is the schedule of public sacrifice. The daily lamb. The Sabbath doubling. The new moon. The feasts—Passover, Unleavened Bread, Pentecost, Trumpets, Atonement, Tabernacles. Each has an exact count: bulls, rams, lambs, grain, wine. The precision is not bureaucratic. It is the precision of a conversation partner who has said, "Here is exactly what I expect. Here is exactly how you will meet me." And the pattern is not a burden. It is a rhythm.',

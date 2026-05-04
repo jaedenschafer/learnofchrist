@@ -6,6 +6,11 @@ export const AMOS_7: RichChapterContent = {
   chapter: 7,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
+  topicTags: ['justice', 'judgment', 'righteousness', 'wrath'],
+  opener: {
+    topical: true,
+    caption: 'Amos 7',
+  },
   intros: [
     'Amos 7 contains a series of visions showing God\'s judgment on Israel. Locusts, fire, and finally a plumbline. Each vision shows the approaching judgment, yet the plumbline is the most significant. God is setting a plumbline in the midst of His people to measure them.',
     'The plumbline is a standard — a measure of straightness, of truth. Israel will be measured against God\'s standard and found wanting. Christ is revealed in the New Testament as this plumbline — the standard by which all things are measured.',

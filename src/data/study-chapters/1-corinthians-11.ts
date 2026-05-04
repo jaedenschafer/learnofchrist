@@ -15,6 +15,11 @@ export const FIRST_CORINTHIANS_11: RichChapterContent = {
   chapter: 11,
 
   estimatedMinutes: { beginner: 10, intermediate: 18, deep: 23 },
+  topicTags: ['unity', 'love', 'witness', 'wisdom'],
+  opener: {
+    topical: true,
+    caption: '1 Corinthians 11',
+  },
   intros: [
     '1 Corinthians 11 tackles two issues tearing apart the gathered church in Corinth. First, the question of head coverings in worship—who covers, who doesn&apos;t, and why it matters. Second, the abuse of the Lord&apos;s Supper itself, where selfishness and division have replaced remembrance. Paul&apos;s letter to the Corinthians is full of his corrections, but these two passages are among the most doctrinally dense and culturally complex in the New Testament. Both touch on the nature of headship, submission, and the body of Christ.',
     'Behind both issues lies a single problem: the church has forgotten what it is. It has stopped being a reflection of Christ&apos;s headship and covenant love, and has become, instead, a mirror of Corinth&apos;s appetite and pride. Paul must restore both the custom of the head coverings (a sign of created order and humble reflection) and the sacred weight of the meal (which proclaims the Lord&apos;s death until He comes). Both are about alignment—alignment with the Head, and alignment with one another in His body.',

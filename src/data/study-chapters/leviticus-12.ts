@@ -17,6 +17,11 @@ export const LEVITICUS_12: RichChapterContent = {
   chapter: 12,
 
   estimatedMinutes: { beginner: 4, intermediate: 5, deep: 7 },
+  topicTags: ['holiness', 'sacrifice', 'priest', 'worship'],
+  opener: {
+    topical: true,
+    caption: 'Leviticus 12',
+  },
   intros: [
     'Leviticus 12 names the period a woman observes after giving birth. The law is blunt and specific — seven days and forty for a son, fourteen and eighty for a daughter. Why the difference? The text does not explain. But childbirth itself is honored. The body that bleeds for new life enters a kind of priesthood.',
     'For eight centuries this law shaped Jewish life. Then Mary, carrying the Promise inside her, obeys it exactly. She enters the temple with her infant son, and brings the offering allowed for the poor — two birds instead of a lamb. The shadows meet the substance. The unblemished Lamb she is offering for has arrived in her arms.',

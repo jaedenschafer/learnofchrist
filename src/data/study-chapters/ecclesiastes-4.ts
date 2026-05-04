@@ -18,6 +18,11 @@ export const ECCLESIASTES_4: RichChapterContent = {
   chapter: 4,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 6 },
+  topicTags: ['wisdom', 'suffering', 'sovereignty', 'providence'],
+  opener: {
+    topical: true,
+    caption: 'Ecclesiastes 4',
+  },
   intros: [
     'Having established that life under the sun is vanity, that pleasure does not satisfy, that death renders all meaningless, the Preacher makes a surprising turn. He looks not at grand systems or personal ambitions, but at the simple fact of human connection. He observes the oppressed and sees tears. He sees envy and rivalry dividing people. And then he sees two people, working side by side, supporting each other, strengthened by companionship. In this small picture, he finds something that resists the tide of vanity.',
     'The observation is profound: you cannot remain completely, utterly alone. The pursuit of solitary satisfaction, the competition with others for status and wealth, these lead to greater emptiness. But the simple companionship—two people working together, falling and helping each other up, sharing warmth in the cold night—this has value. And if you add a third—a thread woven through both—a cord that is not quickly broken. The Preacher is not explicitly naming God, but he is hinting at a truth: we are made for connection, and that connection is itself a resistance to vanity.',

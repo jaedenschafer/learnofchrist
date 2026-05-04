@@ -21,6 +21,11 @@ export const FOURTH_MACCABEES_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 6, intermediate: 14, deep: 19 },
+  topicTags: ['suffering', 'wisdom', 'faithfulness', 'integrity'],
+  opener: {
+    topical: true,
+    caption: '4 Maccabees 1',
+  },
   intros: [
     'Devout reason—the mind trained by God&apos;s law—is master over the passions. This is the thesis 4 Maccabees sets out to prove. Not the triumph of reason over reason, nor the triumph of passion over passion, but the victory of the soul ordered by God&apos;s word over every appetite that wars against it.',
     'The author writing to Greek-speaking Jews in the first century knows they live in a world that worships appetite: the appetite for wealth, for pleasure, for revenge, for safety. They see powerful nations around them ordering their lives by what they desire, what they fear, what makes them rich. And the author says: No. There is a higher order. There is a law that teaches the four cardinal virtues—prudence, justice, courage, and self-control. There is a mind that, trained by this law and devoted to God, can stand before any temptation, any torture, any threat of death, and choose rightly.',

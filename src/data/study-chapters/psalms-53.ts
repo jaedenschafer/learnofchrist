@@ -6,6 +6,11 @@ export const PSALMS_53: RichChapterContent = {
   chapter: 53,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 5 },
+  topicTags: ['praise', 'lament', 'hope', 'protection'],
+  opener: {
+    topical: true,
+    caption: 'Psalms 53',
+  },
   intros: [
     'Psalm 53 is nearly identical to Psalm 14, yet with a subtle but significant difference. Where Psalm 14 opens "The Lord hath looked down from heaven," Psalm 53 opens simply with "The fool hath said in his heart, There is no God[res:bible-odyssey-fool-theme]." The change marks a shift from the particular covenant God of Israel to the universal God recognized by all peoples. The psalm speaks to a universal human condition: the denial of God, the refusal to acknowledge His existence, His wisdom, His moral order.',
     'In one sense, this denial is madness—folly[res:sefaria-psalms-53] so profound that it warrants the name "fool." But in another sense, it is not mere intellectual error. It is moral rebellion. The fool who denies God does so not because he has reasoned himself into atheism, but because he wishes to live free from moral accountability. If there is no God, then there is no higher order, no judgment, no standard. And so the psalm describes what follows: corruption, abominable works, none that doeth good.',

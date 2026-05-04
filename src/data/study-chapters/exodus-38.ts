@@ -12,6 +12,11 @@ export const EXODUS_38: RichChapterContent = {
   chapter: 38,
 
   estimatedMinutes: { beginner: 7, intermediate: 11, deep: 13 },
+  topicTags: ['covenant', 'holiness', 'worship', 'sacrifice'],
+  opener: {
+    topical: true,
+    caption: 'Exodus 38',
+  },
   intros: [
     'Exodus 38 records Bezalel and the craftsmen completing the bronze altar where sacrifices will be made, and the laver where priests will wash before approaching God. Every detail matters, and one detail stands out: the laver is made from the bronze mirrors of women who served at the door of the tabernacle. Vanity yields to cleansing. The chapter closes with an exact accounting of the gold, silver, and bronze used — not a random ledger, but a sign that every gift given to God is seen, known, and cherished.',
     'The material world has been transformed into a sanctuary. And the book-keeping matters too. God is building a house where the books are kept openly, where nothing given in faith is forgotten.',

@@ -14,6 +14,11 @@ export const JOB_34: RichChapterContent = {
   chapter: 34,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+  topicTags: ['suffering', 'hope', 'sovereignty', 'lament'],
+  opener: {
+    topical: true,
+    caption: 'Job 34',
+  },
   intros: [
     'In his second speech, Elihu argues for the absolute righteousness of God. Job has essentially accused God of injustice. Elihu will not have it. He insists that God cannot act unjustly—not because of arbitrary authority, but because God is the standard of justice itself. Whatever God does is, by definition, just.',
   ],

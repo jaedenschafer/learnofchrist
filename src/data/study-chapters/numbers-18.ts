@@ -12,6 +12,11 @@ export const NUMBERS_18: RichChapterContent = {
   chapter: 18,
 
   estimatedMinutes: { beginner: 9, intermediate: 17, deep: 20 },
+  topicTags: ['provision', 'protection', 'leadership', 'doubt'],
+  opener: {
+    topical: true,
+    caption: 'Numbers 18',
+  },
   intros: [
     `Numbers 18 answers a practical question: if the Levites own no land and the priests have no inheritance, who feeds them? The answer is God does. The chapter spells out the offerings that sustain the priesthood — what the priests bear (the iniquity of the sanctuary), what they receive (heave offerings, firstfruits, devoted things), and how the Levites are themselves sustained (by Israel's tithes), only to pass a "tithe of the tithe" back to the priests. It is a system of giving and re-giving, of those who serve being served in turn.`,
     `The underlying principle echoes through the New Testament. Paul quotes this chapter in 1 Corinthians 9:13–14: "They which minister about holy things live of the things of the temple… the Lord ordained that they which preach the gospel should live of the gospel." The principle of sustaining those dedicated to God's service is not burdensome; it is the created order. Jesus Himself is the fulfillment: the High Priest who stands in the order of Melchizedek (Hebrews 7), not of Levi, who offers Himself as both priest and sacrifice — and from Him flows all provision.`,

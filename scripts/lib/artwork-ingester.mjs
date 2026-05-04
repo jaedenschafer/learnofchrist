@@ -205,6 +205,16 @@ export class ArtworkIngester {
         continue;
       }
 
+      // Topic tags are stored in the existing `tags` text[] column with a
+      // `topic:` prefix (see src/lib/supabase.ts encodeTopicTag). The
+      // chapter-page resolver matches against these to fill themed
+      // fallback slots when no chapter-specific plate is available.
+      const topicTags = Array.isArray(normalized.topicTags)
+        ? normalized.topicTags.map((t) => `topic:${t}`)
+        : [];
+      const extraTags = Array.isArray(normalized.tags) ? normalized.tags : [];
+      const tags = [...extraTags, ...topicTags];
+
       verifiedArtworks.push({
         slug: normalized.external_id,
         title: normalized.title,
@@ -222,6 +232,7 @@ export class ArtworkIngester {
         license_note: normalized.license_note ?? null,
         description: normalized.description ?? null,
         status: 'published',
+        tags: tags.length ? tags : null,
         // moderation_status defaults to 'pending' (see migration 021)
       });
       refsByExternalId.set(normalized.external_id, normalized.scripture_refs || []);

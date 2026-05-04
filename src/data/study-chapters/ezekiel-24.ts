@@ -19,6 +19,11 @@ export const EZEKIEL_24: RichChapterContent = {
   chapter: 24,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+  topicTags: ['judgment', 'glory', 'hope', 'second-coming'],
+  opener: {
+    topical: true,
+    caption: 'Ezekiel 24',
+  },
   intros: [
     'Ezekiel 24 opens with a vision of a cauldron—Jerusalem—boiling on a fire. It is filled with the choicest meat and bones. The city has been fed with the best of what Israel could offer. But the cauldron itself is rusted and corrupted. No amount of heat will purify it. It must be emptied, poured out, burned. The corruption is not on the surface. It is structural, constitutional. Only destruction and total emptying can address it.',
     'Then God commands Ezekiel to do something that will shatter his heart. His wife—"the desire of thine eyes"—will die. And he must not mourn. In his personal grief, he becomes a sign to Israel. The people will lose their homes, their sanctuary, everything they love. And they will grieve without comfort. But even in this darkness, Ezekiel&apos;s prophecy points beyond judgment: when the messenger comes to tell him of Jerusalem&apos;s fall, his mouth will be opened again, and he will speak.',

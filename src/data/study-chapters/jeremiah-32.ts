@@ -15,6 +15,11 @@ export const JEREMIAH_32: RichChapterContent = {
   chapter: 32,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 5 },
+  topicTags: ['lament', 'judgment', 'hope', 'calling'],
+  opener: {
+    topical: true,
+    caption: 'Jeremiah 32',
+  },
   intros: [
     'The context of Jeremiah 32 is almost unimaginable. The Babylonian army surrounds Jerusalem. The city is starving. King Zedekiah has imprisoned Jeremiah for his unwelcome prophecies. And in this moment—when every rational sign points to collapse—God asks Jeremiah to do something that seems mad: buy land. Purchase property in Anathoth, the priest&apos;s city, the land of his inheritance. Buy it, seal the deed, store it as evidence for the future.',
     'This act is not an economic transaction. It is a statement of faith. It is God saying, through the prophet&apos;s own actions: I will restore what is lost. The land will again have owners. Families will again plant vineyards. Children will again play in the fields. Even in the face of destruction, the God of Israel speaks the language of restoration and renewal.',

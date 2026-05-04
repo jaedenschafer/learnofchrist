@@ -23,6 +23,11 @@ export const EZRA_4: RichChapterContent = {
   chapter: 4,
 
   estimatedMinutes: { beginner: 7, intermediate: 12, deep: 15 },
+  topicTags: ['return', 'worship', 'faithfulness', 'leadership'],
+  opener: {
+    topical: true,
+    caption: 'Ezra 4',
+  },
   intros: [
     'The return from exile is a moment of hope. The captives have been freed by King Cyrus, God&apos;s instrument. The temple&apos;s foundation has been laid. The work is beginning. And then, at the very threshold of restoration, opposition arrives.',
     'The adversaries of Judah and Benjamin come with an offer that looks like help: "Let us build with you, for we seek your God as ye do." But Zerubbabel and the elders see what lies beneath the offer — a yoking with those whose worship is mixed with idolatry, whose God is mingled with the gods of Assyria. They refuse. The response triggers years of opposition: letters, accusations, false histories, royal decrees that bring the work to a halt. The temple stands unfinished for years, the builders caught between two kingdoms.',

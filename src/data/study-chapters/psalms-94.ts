@@ -17,6 +17,11 @@ export const PSALMS_94: RichChapterContent = {
   chapter: 94,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 3 },
+  topicTags: ['praise', 'lament', 'hope', 'protection'],
+  opener: {
+    topical: true,
+    caption: 'Psalms 94',
+  },
   intros: [
     'Psalm 94 is the cry of those who suffer injustice. The psalmist sees the wicked prospering. He sees the weak being crushed. He sees the innocent being slain. And he cries out: How long? Where is God? Why does the God of justice not act? This is the prayer of the suffering and the oppressed—a prayer we must not silence, a prayer that has echoed through history.',
     'Yet the psalm also contains a profound affirmation: He that formed the eye, shall He not see? He that formed the ear, shall He not hear? The God who created all our senses cannot possibly be blind or deaf to injustice. God knows. God hears. And though His response may seem slow to us, His justice is certain.',

@@ -13,6 +13,11 @@ export const PROVERBS_20: RichChapterContent = {
   chapter: 20,
 
   estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
+  topicTags: ['wisdom', 'righteousness', 'folly', 'integrity'],
+  opener: {
+    topical: true,
+    caption: 'Proverbs 20',
+  },
   intros: [
     'Proverbs 20 warns against the false comfort of wine and celebrates the penetrating gaze of God. Wine mocks—it promises wisdom and delivers foolishness, promises rest and delivers chaos. Meanwhile, every person is convinced of the rightness of their own way. We are all experts in our own justification. But God sees past all of this. He ponders the hearts. He knows what we do not know of ourselves.',
   ],

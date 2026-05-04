@@ -17,6 +17,11 @@ export const JEREMIAH_12: RichChapterContent = {
   chapter: 12,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+  topicTags: ['lament', 'judgment', 'hope', 'calling'],
+  opener: {
+    topical: true,
+    caption: 'Jeremiah 12',
+  },
   intros: [
     'Jeremiah 12 is one of the rawest, most honest prayers in Scripture. Jeremiah does not ask God for comfort or strength. He asks God why He allows injustice. "Wherefore doth the way of the wicked prosper? wherefore are all they happy that deal very treacherously?" The wicked plant, yet they do not uproot. They grow in wealth and success, yet their hearts remain far from God. Meanwhile, Jeremiah himself, who speaks God&apos;s word, faces persecution. The injustice burns in him.',
     'Yet the interesting thing is that God does not rebuke Jeremiah for the question. He does not demand that Jeremiah trust blindly without asking. Instead, He acknowledges the question and calls Jeremiah to a deeper trust. "If thou hast run with the footmen, and they have wearied thee, then how canst thou contend with horses?" The message is not that the question is wrong, but that Jeremiah must prepare for something harder than he has yet faced. And Christ, who came as the perfectly righteous one, faced the ultimate unfairness: death on a cross.',

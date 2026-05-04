@@ -9,6 +9,11 @@ export const MALACHI_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+  topicTags: ['faithfulness', 'judgment', 'hope', 'love'],
+  opener: {
+    topical: true,
+    caption: 'Malachi 2',
+  },
   intros: [
     'Malachi 2 continues the indictment of the priests but broadens to the whole people. God rebukes unfaithfulness—in the temple, in marriage, in all covenants. The chapter opens with "Have we not all one father?" and reminds Israel of their covenant with each other and with God. It closes with a powerful statement about the marriage covenant: "The Lord hath been witness between thee and the wife of thy youth." Faithfulness in all relationships—sacred and domestic—is the test of true worship.',
   ],

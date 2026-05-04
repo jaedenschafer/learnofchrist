@@ -19,6 +19,11 @@ export const ESTHER_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 3, intermediate: 7, deep: 9 },
+  topicTags: ['providence', 'deliverance', 'faithfulness', 'fear'],
+  opener: {
+    topical: true,
+    caption: 'Esther 3',
+  },
   intros: [
     'The king&apos;s hand is on Haman the Agagite. He exalts him above all the princes and gives him position of power. All who sit in the king&apos;s gate bow and do reverence to Haman — such is the king&apos;s commandment. But one will not bow. Mordecai, the Jew, refuses. He will not bow to Haman. And in that refusal, a man of vast pride encounters an immovable will.',
     'Haman&apos;s anger is kindled, but it is not satisfied with the destruction of one man. Instead, he proposes to the king a plan of staggering ambition: the annihilation of an entire people. He casts lots — Pur — to determine the day. The lot falls on the twelfth month, Adar. He brings ten thousand talents of silver to buy the king&apos;s permission. The king grants it. And so the decree goes out from one end of the kingdom to the other: in one day, all Jews, great and small, children and women, are to be killed, and their goods are to be plundered. The stage is set for a catastrophe. Yet as we read, we know what Haman does not know: that there is a queen in the palace who is herself a Jew, and that her people will not be erased.',

@@ -14,6 +14,11 @@ export const JOB_31: RichChapterContent = {
   chapter: 31,
 
   estimatedMinutes: { beginner: 2, intermediate: 6, deep: 8 },
+  topicTags: ['suffering', 'hope', 'sovereignty', 'lament'],
+  opener: {
+    topical: true,
+    caption: 'Job 31',
+  },
   intros: [
     'In what may be the central statement of the entire book, Job declares his innocence. He does not claim sinlessness (no one is perfect), but he claims integrity—a life lived in alignment with his deepest values. He has not betrayed his conscience. He has not hidden evil. He challenges God: weigh me in a just balance, and you will find me innocent of the charges implied by my suffering.',
   ],

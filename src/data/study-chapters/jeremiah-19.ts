@@ -15,6 +15,11 @@ export const JEREMIAH_19: RichChapterContent = {
   chapter: 19,
 
   estimatedMinutes: { beginner: 5, intermediate: 8, deep: 10 },
+  topicTags: ['lament', 'judgment', 'hope', 'calling'],
+  opener: {
+    topical: true,
+    caption: 'Jeremiah 19',
+  },
   intros: [
     'Jeremiah is commanded to purchase a potter&apos;s bottle, to take the elders and priests with him to the valley of the Son of Hinnom, and there to break the bottle, declaring: "Thus saith the Lord of hosts; Even so will I break this people and this city, as one breaketh a potter&apos;s vessel, that cannot be made whole again." The action is as important as the word. The broken bottle speaks of a judgment that is total, irreversible. What is broken cannot be repaired.',
     'The valley of Hinnom is a place of particular desolation — it is where the people have burned their children to false gods. The judgment that comes upon them will fit their sin. The city will become a place of slaughter, so defiled that no one will be able to bury the dead. This is the language of total destruction, of a people brought to nothing.',

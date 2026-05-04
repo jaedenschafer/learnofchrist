@@ -15,6 +15,11 @@ export const ISAIAH_49: RichChapterContent = {
   chapter: 49,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 5 },
+  topicTags: ['hope', 'deliverance', 'messianic-prophecy', 'new-creation'],
+  opener: {
+    topical: true,
+    caption: 'Isaiah 49',
+  },
   intros: [
     'In chapter 49, the Servant of God speaks directly to the nations. His voice carries both humility and cosmic authority. The Lord has formed him from the womb to be a servant, yet his labor seems fruitless—the children of Israel do not appear to be restored. Yet the Lord promises something far greater: the Servant will be a light to the Gentiles, that His salvation may reach to the ends of the earth. Here is the turning point: God\'s plan extends beyond a single people. The Servant\'s mission encompasses all nations.',
   ],

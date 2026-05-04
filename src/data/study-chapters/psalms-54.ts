@@ -6,6 +6,11 @@ export const PSALMS_54: RichChapterContent = {
   chapter: 54,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+  topicTags: ['praise', 'lament', 'hope', 'protection'],
+  opener: {
+    topical: true,
+    caption: 'Psalms 54',
+  },
   intros: [
     'The Ziphites lived in the hills near Ziph, David&apos;s hometown. Twice they betrayed his location to Saul, hoping for reward. "There is David hiding himself with us in strong holds in the wood, in the hill of Hachilah, which is on the south of Jeshimon." These were his neighbors, his kinsmen, men who knew the land as he did. Yet they sold him to his enemy. The betrayal cut deep—not because it was unexpected, but because it came from those who should have stood with him.',
     'Psalm 54 is David&apos;s prayer in the midst of this betrayal. Remarkably, he does not curse the Ziphites. He does not raise his own sword in self-defense. Instead, he turns to God. "Behold, God is mine helper." This is the deep faith that distinguishes David throughout his life in hiding. He knows he is hunted. Yet he believes that God is his help, his shield, his defender.',

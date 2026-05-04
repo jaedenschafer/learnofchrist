@@ -15,6 +15,11 @@ export const ISAIAH_50: RichChapterContent = {
   chapter: 50,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+  topicTags: ['hope', 'deliverance', 'messianic-prophecy', 'new-creation'],
+  opener: {
+    topical: true,
+    caption: 'Isaiah 50',
+  },
   intros: [
     'Isaiah 50 reveals the Servant\'s willingness to suffer. His obedience is not theoretical or comfortable. It costs Him everything. Yet even in the midst of shame and spitting, the Servant does not hide His face. He will not be ashamed. His trust is in the Lord. The chapter opens with God defending Himself against the accusation that He has abandoned His people—He has not sold them, but they have sold themselves. The Servant\'s suffering is not arbitrary punishment, but a free choice to bear what others deserve.',
   ],

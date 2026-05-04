@@ -19,6 +19,11 @@ export const CHRONICLES_2_25: RichChapterContent = {
   chapter: 25,
 
   estimatedMinutes: { beginner: 4, intermediate: 14, deep: 18 },
+  topicTags: ['kingship', 'worship', 'judgment', 'repentance'],
+  opener: {
+    topical: true,
+    caption: '2 Chronicles 25',
+  },
   intros: [
     'Amaziah was 25 years old when he became king. His mother was Jehoaddan of Jerusalem, and he reigned 29 years. The text tells us immediately: "He did that which was right in the sight of the Lord, but not with a perfect heart." This opening line frames the entire chapter. Amaziah is not a villain. He is not a apostate. He is a man who does many right things — but whose heart is divided, whose motives are mixed, whose obedience is incomplete.',
     'When his kingdom was established, Amaziah executed the servants who had assassinated his father — but, following the law of Moses (Deuteronomy 24:16), he did not execute their children. He then gathered Judah, made captains, assembled 300,000 mighty men of war. He hired 100,000 soldiers from Israel for 100 talents of silver. But a man of God came to him with a rebuke. The Lord could not go with Israel, he said. If Amaziah would be strong, he must trust God alone, not foreign armies. Amaziah obeyed — he sent the hired men home. Then came his greatest victory: he defeated the Edomites in the Valley of Salt, killing 10,000 and casting another 10,000 from a cliff. But then he did the unthinkable. He brought home the gods of Seir and set them up to worship. The anger of the Lord was kindled. A prophet came and asked: "Why hast thou sought after the gods of the people, which could not deliver their own people out of thine hand?" Amaziah silenced him with a threat. The prophet left, saying only: "I know that God hath determined to destroy thee." What follows is military humiliation, loss of treasure, and finally conspiracy and death. Amaziah&apos;s kingdom did not end in conquest. It ended because a king&apos;s divided heart invited judgment.',

@@ -20,6 +20,11 @@ export const FIRST_ESDRAS_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 8, intermediate: 15, deep: 20 },
+  topicTags: ['return', 'worship', 'faithfulness', 'leadership'],
+  opener: {
+    topical: true,
+    caption: '1 Esdras 1',
+  },
   intros: [
     'Josiah inherits a kingdom where the law of God has been neglected. He undertakes a great reformation, and the discovery of the book of the Law becomes the catalyst for genuine revival. He cleanses the temple, tears down the idols, and calls the people to a feast of remembrance — a Passover kept with such care and expense that it will be remembered as the greatest since the days of Samuel the Prophet. For one shining moment, it seems the covenant might be renewed.',
     'But the very height of Josiah&apos;s reign marks its turning point. A military campaign against Egypt ends not in triumph but in death. Josiah falls at Megiddo — the same valley that will one day be called Armageddon, the gathering place of final conflict. And with him falls the spiritual center of the nation. His successors are appointed by foreign powers. Kings do evil and refuse to listen to the prophets. Within decades, Jerusalem is besieged, the temple is violated, and the people are marched into exile in Babylon. The great king&apos;s revival becomes a memory of what might have been — a warning that one generation&apos;s faithfulness cannot sustain a nation unless the next generation chooses faith anew.',

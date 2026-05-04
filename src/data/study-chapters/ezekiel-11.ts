@@ -15,6 +15,11 @@ export const EZEKIEL_11: RichChapterContent = {
   chapter: 11,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 5 },
+  topicTags: ['judgment', 'glory', 'hope', 'second-coming'],
+  opener: {
+    topical: true,
+    caption: 'Ezekiel 11',
+  },
   intros: [
     'After the glory has departed, after the judgment has been announced, after the prophet has embodied the siege and the destruction, God speaks something unexpected. He speaks not of further punishment but of transformation. He speaks of a new heart. The people Israel, resistant and rebellious, stiff-hearted and stubborn, will not remain that way. God Himself will act within them. He will remove the heart of stone — the hard, unyielding, incapable-of-love heart — and give them a heart of flesh, responsive and alive. This is not something Israel must earn. This is something God will do. The judgment remains, but it is not the final word. The final word is transformation. The final word is hope.',
   ],

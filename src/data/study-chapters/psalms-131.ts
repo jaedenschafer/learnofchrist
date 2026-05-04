@@ -15,6 +15,11 @@ export const PSALMS_131: RichChapterContent = {
   chapter: 131,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 3 },
+  topicTags: ['praise', 'lament', 'hope', 'protection'],
+  opener: {
+    topical: true,
+    caption: 'Psalms 131',
+  },
   intros: [
     'Psalm 131 is a meditation on one of the deepest spiritual transformations: the surrender of ambition, the laying down of the need to prove oneself, the quieting of a heart bent on achievement and status. The psalmist begins with negation: my heart is not haughty, my eyes are not lofty. I do not exercise myself in great matters. I have ceased striving. And in that cessation, something extraordinary happens. He becomes like a weaned child—content, at peace, resting in the arms of his mother. This is not regression. This is maturity—the wisdom of knowing when to stop striving and begin trusting.',
   ],

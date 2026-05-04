@@ -24,6 +24,11 @@ export const ESTHER_4: RichChapterContent = {
   chapter: 4,
 
   estimatedMinutes: { beginner: 6, intermediate: 12, deep: 16 },
+  topicTags: ['providence', 'deliverance', 'faithfulness', 'fear'],
+  opener: {
+    topical: true,
+    caption: 'Esther 4',
+  },
   intros: [
     'The book of Esther moves swiftly. In chapter 3, the king signed a decree—sealed with his signet ring—ordering the destruction of every Jew in his kingdom on a single day. The reason: Mordecai had refused to bow to Haman, the king&apos;s favorite, and Haman&apos;s pride demanded not merely Mordecai&apos;s death, but the death of an entire people. The decree went out. Letters were sent to every province. The date was set. And in this fourth chapter, two things happen: Mordecai grieves, and Esther discovers why she was ever queen.',
     'Throughout the book of Esther, God&apos;s name appears nowhere. Yet His presence is everywhere—in coincidence, in timing, in the turns of fate that seem random but are not. This chapter is where that providence becomes personal. Esther must choose whether to risk her life for her people. And in making that choice, she becomes a woman "for such a time as this."',

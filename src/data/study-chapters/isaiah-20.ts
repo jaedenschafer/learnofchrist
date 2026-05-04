@@ -15,6 +15,11 @@ export const ISAIAH_20: RichChapterContent = {
   chapter: 20,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+  topicTags: ['judgment', 'calling', 'hope', 'sovereignty'],
+  opener: {
+    topical: true,
+    caption: 'Isaiah 20',
+  },
   intros: [
     'Isaiah 20 contains one of the most extraordinary commands in Scripture: the prophet himself is ordered by the Lord to walk naked and barefoot as a sign and a portent against Egypt and Ethiopia. For three years—roughly the duration of a typical military campaign—Isaiah carries his body through the streets of Jerusalem bearing witness to the future captivity of the nations. This is not metaphorical prophecy. It is prophecy enacted in flesh and blood, in shame and vulnerability.',
     'The chapter reveals the nature of prophetic calling at its most radical. The prophet does not merely speak God&apos;s word; he becomes that word, inscribing it on his own body, embodying judgment and exile in his own flesh. It is an act of identification, of solidarity—the prophet bearing in his body the shame that others will bear in their captivity.',

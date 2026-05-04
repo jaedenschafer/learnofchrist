@@ -18,6 +18,11 @@ export const GENESIS_34: RichChapterContent = {
   chapter: 34,
 
   estimatedMinutes: { beginner: 7, intermediate: 10, deep: 13 },
+  topicTags: ['providence', 'covenant', 'faithfulness', 'family'],
+  opener: {
+    topical: true,
+    caption: 'Genesis 34',
+  },
   intros: [
     'Genesis 34 is a hard chapter. A young woman named Dinah goes out to see the daughters of the land, and Shechem, the prince of the country, sees her, takes her, and violates her. Then he wants to marry her. The text does not soften what happened - it uses a word that means rape - and we should not soften it either.',
     'What follows is a chapter of attempted negotiation, deception, and mass slaughter. Jacob remains silent while his daughter is violated. Her brothers trick an entire city into a covenant of circumcision, then on the third day while the men are weak from the ritual, Simeon and Levi massacre every male. [res:bibleodyssey-jacob-israel] The chapter ends with the brothers defending their violence. But Jacob curses them. The text does not approve what they did. We are meant to sit with the gravity of sexual violence and the way vengeance cycles compound suffering rather than heal it.',

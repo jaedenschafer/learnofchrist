@@ -22,6 +22,11 @@ export const CHRONICLES_2_24: RichChapterContent = {
   chapter: 24,
 
   estimatedMinutes: { beginner: 7, intermediate: 16, deep: 21 },
+  topicTags: ['kingship', 'worship', 'judgment', 'repentance'],
+  opener: {
+    topical: true,
+    caption: '2 Chronicles 24',
+  },
   intros: [
     'The story of Joash is a study in the power of influence and the tragedy of forgetting. A seven-year-old boy becomes king. He has no father to guide him. But he has Jehoiada, the high priest — a man of righteousness who becomes to him a spiritual father. Under Jehoiada&apos;s influence, Joash does what is right. He determines to repair the house of the Lord. He organizes a massive collection. He supervises the work with care and oversight. The temple is restored. And all is well.',
     'Then Jehoiada dies. He is 130 years old — one of the longest lives recorded in Scripture. And with his death, something breaks in Joash. The boy who was shaped by righteousness is now shaped by the princes of Judah. They turn his heart. He abandons the God who had sustained him. And when a prophet — the son of the man who raised him — speaks out against this apostasy, Joash has him killed. The chapter ends with invasion, disease, and assassination. The king who began with such promise becomes a cautionary tale: a kingdom can be restored, but only as long as the king&apos;s heart is turned toward God.',

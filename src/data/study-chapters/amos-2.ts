@@ -6,6 +6,11 @@ export const AMOS_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+  topicTags: ['justice', 'judgment', 'righteousness', 'wrath'],
+  opener: {
+    topical: true,
+    caption: 'Amos 2',
+  },
   intros: [
     'Amos 2 turns the sword inward. The burdens against the foreign nations continue — Moab, Judah — but the real confrontation comes with Israel herself. "Thus saith the Lord; For three transgressions of Israel, and for four, I will not turn away the punishment thereof." Israel herself will be judged.',
     'Amos describes Israel&apos;s sin in detail: selling the righteous for silver, the poor for a pair of shoes. Oppressing the meek. Taking pledges from the poor. Yet God had brought Israel up out of Egypt, raised up prophets, given them Nazirites. They have rejected all of it.',

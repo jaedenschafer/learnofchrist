@@ -18,6 +18,11 @@ export const EZEKIEL_25: RichChapterContent = {
   chapter: 25,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+  topicTags: ['judgment', 'glory', 'hope', 'second-coming'],
+  opener: {
+    topical: true,
+    caption: 'Ezekiel 25',
+  },
   intros: [
     'After pronouncing judgment on Israel, Ezekiel turns to the nations that surround her. Ammon gloated over Israel&apos;s destruction. Moab said that Israel is like all other nations, no longer special. Edom took vengeance on Judah. Philistia sought to destroy Israel completely. Each nation, in their own way, mocked or exploited Israel&apos;s weakness.',
     'God will judge each one. The refrain is repeated four times: they will know "that I am the Lord." God&apos;s justice is not limited to His covenant people. It extends to all nations. Those who exploit the weak, who gloat over another&apos;s ruin, who seek advantage through cruelty—these will be held accountable. God is Lord over all.',

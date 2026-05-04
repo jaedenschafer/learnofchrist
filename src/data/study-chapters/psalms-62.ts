@@ -6,6 +6,11 @@ export const PSALMS_62: RichChapterContent = {
   chapter: 62,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+  topicTags: ['praise', 'lament', 'hope', 'protection'],
+  opener: {
+    topical: true,
+    caption: 'Psalms 62',
+  },
   intros: [
     'Psalm 62 is a psalm of unwavering confidence in God alone. The psalmist opens with a simple, almost stubborn assertion: "Truly my soul waiteth upon God: from him cometh my salvation." In the face of enemies who counsel flight and doubt, David refuses to waver. He knows one truth: his salvation comes from God alone, not from any earthly alliance or human strength.',
     'The psalm moves through a series of affirmations. "He only is my rock and my salvation: he is my defence; I shall not be greatly moved." David has experienced enemies plotting against him, seeking to topple him like a tottering fence. Yet he remains unmoved, not because he is strong, but because he is founded upon the one who is infinitely strong.',

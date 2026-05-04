@@ -6,6 +6,11 @@ export const LUKE_20: RichChapterContent = {
   chapter: 20,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+  topicTags: ['compassion', 'mission', 'witness', 'humility'],
+  opener: {
+    topical: true,
+    caption: 'Luke 20',
+  },
   intros: [
     'In the temple, the chief priests and scribes challenge Jesus: "By what authority doest thou these things? and who gave thee this authority?" Jesus answers their question with a question about John&apos;s baptism. They cannot answer. Jesus speaks the parable of the wicked husbandmen. A man plants a vineyard, lets it out to husbandmen, and goes away. When harvest comes, he sends a servant to collect. The husbandmen beat the servant. He sends another—same treatment. He sends a third—they wound him. Finally, he sends his son: "It may be they will reverence him." But they say: "This is the heir: come, let us kill him." Jesus asks: "What therefore shall the lord of the vineyard do unto them?"',
     'The Sadducees, who say there is no resurrection, ask Jesus a trick question about a woman who marries seven brothers in succession. If there is resurrection, whose wife will she be? Jesus answers: "The children of this world marry, and are given in marriage: but they which shall be accounted worthy to obtain that world... neither marry, nor are given in marriage." Those in the resurrection are like angels, immortal, incorruptible.',

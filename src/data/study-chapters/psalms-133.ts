@@ -16,6 +16,11 @@ export const PSALMS_133: RichChapterContent = {
   chapter: 133,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+  topicTags: ['praise', 'lament', 'hope', 'protection'],
+  opener: {
+    topical: true,
+    caption: 'Psalms 133',
+  },
   intros: [
     'Psalm 133 is a short song, but its vision of unity is profound and moving. "Behold, how good and how pleasant it is for brethren to dwell together in unity!" The psalmist does not merely say that unity is good. He calls readers to behold it, to see it, to recognize it in all its beauty. There is a quality of wonder in the word "behold"—as though the psalmist has glimpsed something rare and precious. Brethren dwelling together in unity is not mundane. It is remarkable. It is beautiful. And it is compared to the most sacred and precious thing the psalmist knows: the anointing oil poured upon the high priest.',
   ],

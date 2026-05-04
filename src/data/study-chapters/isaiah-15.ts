@@ -16,6 +16,11 @@ export const ISAIAH_15: RichChapterContent = {
   chapter: 15,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+  topicTags: ['judgment', 'calling', 'hope', 'sovereignty'],
+  opener: {
+    topical: true,
+    caption: 'Isaiah 15',
+  },
   intros: [
     'The series of prophecies against the nations continues. Isaiah now turns his eye to Moab, a nation that dwells east of the Dead Sea, descended from Lot. The word is one of destruction: cities will be laid waste, people will flee in panic, mourning will cover the land. Yet the tone of Isaiah&apos;s prophecy is unlike simple condemnation. He does not exult in Moab&apos;s destruction. Rather, he weeps. "Therefore will I howl for Moab, and I will cry out for all Moab." The prophet grieves over the judgment that must fall.',
     'This is the paradox of prophecy—the bearer of bad news is not unmoved by the news. Isaiah speaks judgment, yes, but judgment filled with sorrow. This reflects something true about God Himself: He does not take pleasure in the death of the wicked. He does not exult in destruction. Rather, He grieves over it. When people turn from His way, when judgment must fall, the One who judges does so with a heavy heart. Even Christ, the perfect one, wept over Jerusalem, saying, "How often would I have gathered thy children together, even as a hen gathereth her chickens under her wings, and ye would not!" (Matthew 23:37).',

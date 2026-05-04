@@ -14,6 +14,11 @@ export const PROVERBS_16: RichChapterContent = {
   chapter: 16,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+  topicTags: ['wisdom', 'righteousness', 'folly', 'integrity'],
+  opener: {
+    topical: true,
+    caption: 'Proverbs 16',
+  },
   intros: [
     'Proverbs 16 opens with one of Scripture&apos;s most profound statements about human limitation and divine sovereignty: "A man&apos;s heart deviseth his way: but the Lord directeth his steps." Here is the tension that runs through all of Proverbs — the human responsibility to plan wisely, and the divine reality that transcends and redirects those plans. Solomon does not say the Lord overrides our plans by force. He says the Lord directs our steps — guides, shapes, orders the path we walk, often in ways we do not foresee.',
     'The chapter continues with themes of pride, justice, and trust. Pride precedes destruction, and a haughty spirit precedes a fall. The fear of the Lord is the beginning of wisdom. And the whole counsel of the chapter circles back to this truth: that the Lord sees, knows, and orders all things, and that human wisdom consists in learning to align our purposes with His.',

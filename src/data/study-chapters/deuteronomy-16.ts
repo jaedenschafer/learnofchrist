@@ -13,6 +13,11 @@ export const DEUTERONOMY_16: RichChapterContent = {
   chapter: 16,
 
   estimatedMinutes: { beginner: 9, intermediate: 13, deep: 17 },
+  topicTags: ['covenant', 'faithfulness', 'leadership', 'love'],
+  opener: {
+    topical: true,
+    caption: 'Deuteronomy 16',
+  },
   intros: [
     'Deuteronomy is Moses&apos; farewell address to Israel before they enter the land. He rehearses the law — not to add to it, but to imprint it on hearts. Here, in chapter 16, he restates the three pilgrimage feasts: Passover, Weeks, and Tabernacles. Not as optional religious observances, but as the rhythm through which a covenant people remember who saved them, who sustains them, and who will gather them at last.',
     'Each feast is laced with a command to remember, to rejoice, to include the vulnerable, to gather at the chosen place. And threading through all three runs a quiet revolutionary principle: justice. A people who celebrate God&apos;s deliverance must themselves be just. A people who eat unleavened bread must never be crooked. The feasts are not escape from the world; they are the training ground for how to live in it.',

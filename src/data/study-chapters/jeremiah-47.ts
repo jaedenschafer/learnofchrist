@@ -14,6 +14,11 @@ export const JEREMIAH_47: RichChapterContent = {
   chapter: 47,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 3 },
+  topicTags: ['lament', 'judgment', 'hope', 'calling'],
+  opener: {
+    topical: true,
+    caption: 'Jeremiah 47',
+  },
   intros: [
     'The burden against Philistia is brief but vivid. The Philistines have long been enemies of Israel—from the days of Samson and Goliath to the reign of David. Now their end is coming. Waters are rising from the north, and all resistance will be washed away. This is not a word of political analysis. This is a word of divine judgment. God has determined the fate of this hostile nation.',
     'The image is one of overwhelming flood, of a deluge that cannot be resisted. Cities cry out. People flee in panic. Parents abandon their children in their flight. All the defensive works, all the armor, all the weapons—nothing can stand against the advancing waters. This is what it means to oppose God&apos;s purposes.',

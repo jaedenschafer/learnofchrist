@@ -6,6 +6,11 @@ export const PSALMS_56: RichChapterContent = {
   chapter: 56,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+  topicTags: ['praise', 'lament', 'hope', 'protection'],
+  opener: {
+    topical: true,
+    caption: 'Psalms 56',
+  },
   intros: [
     'David came to Gath, the capital city of the Philistines, seeking refuge from Saul&apos;s wrath. But Gath was where he had slain Goliath years before. The moment he arrived, the servants of King Achish recognized him: "Is not this David the king of the land?" And David was seized with fear. Captured by enemies, facing execution, he had nowhere to turn. It was in this moment—utterly powerless, utterly vulnerable—that David cried out to God.',
     'Psalm 56 is his prayer in captivity, and it is one of the most intimate prayers in the Psalter. David does not pray with raw honesty about his fear, his tears, his wanderings. And God&apos;s response, as David understands it, is not immediate deliverance, but something deeper: God&apos;s knowledge of him, God&apos;s collection of his tears, God&apos;s tender accounting of his very existence. "Thou tellest my wanderings: put thou my tears into thy bottle: are they not in thy book?" God misses nothing. God forgets nothing. God cares.',

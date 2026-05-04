@@ -12,6 +12,11 @@ export const HAGGAI_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+  topicTags: ['worship', 'faithfulness', 'calling', 'hope'],
+  opener: {
+    topical: true,
+    caption: 'Haggai 2',
+  },
   intros: [
     'As the people rebuild the temple, some of the older ones weep, remembering the greater glory of Solomon&apos;s temple. This new temple will not be as magnificent. It will be smaller, poorer, less ornate. Yet Haggai speaks a word of encouragement: the glory of this latter house shall be greater than the former, because the Desire of All Nations—the Messiah—will come to it.',
     'The promise shifts focus from external splendor to spiritual significance. What matters is not the grandeur of the building, but the presence of God in it and through it. And the ultimate fulfillment is in Christ, who is Himself the true temple, the true Glory.',

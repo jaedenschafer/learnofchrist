@@ -16,6 +16,11 @@ export const ISAIAH_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 6 },
+  topicTags: ['judgment', 'calling', 'hope', 'sovereignty'],
+  opener: {
+    topical: true,
+    caption: 'Isaiah 1',
+  },
   intros: [
     'Isaiah stands at a threshold. The prophet is called to speak to a nation that has forgotten its God. Judah offers sacrifices and keeps its appointed feasts, yet their hands are full of blood. They have not ceased their evil; they have not learned to do well. The contradiction is stark — the outward forms of religion continue while the substance has rotted away. This is not a people ignorant of God&apos;s will. This is a people who know and actively turn away.',
     'But the prophet&apos;s message is not one of despair. Woven through the judgment is an invitation: "Come now, and let us reason together, saith the Lord: though your sins be as scarlet, they shall be as white as snow." God calls His people to turn, to listen, to return. The opening chapter of Isaiah establishes both the depth of human rebellion and the depths of God&apos;s willingness to forgive and restore.',

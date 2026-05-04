@@ -17,6 +17,11 @@ export const NEHEMIAH_7: RichChapterContent = {
   chapter: 7,
 
   estimatedMinutes: { beginner: 3, intermediate: 8, deep: 12 },
+  topicTags: ['return', 'leadership', 'prayer', 'faithfulness'],
+  opener: {
+    topical: true,
+    caption: 'Nehemiah 7',
+  },
   intros: [
     'The wall is now complete. The gates are set. But Nehemiah knows that brick and stone are not enough — a city needs faithful guardians, trustworthy leadership, and a people ordered by covenant. So he appoints his brother Hanani and Hananiah, the ruler of the palace, to oversee Jerusalem. Hananiah is described in a single phrase that captures his entire character: he "feared God above many." This is leadership at its root.',
     'Then Nehemiah discovers something remarkable — a register of the genealogy of those who came up at the first, the original returnees from exile in Babylon. This list, preserved from the days of Zerubbabel and Joshua, becomes the spine of the restored community. Forty-two thousand three hundred sixty souls, named and numbered. Their servants, their animals, their gifts to rebuild the temple. The restored people are not a faceless crowd — they are known. They are reckoned. They are called by name.',

@@ -16,6 +16,11 @@ export const ESTHER_8: RichChapterContent = {
   chapter: 8,
 
   estimatedMinutes: { beginner: 3, intermediate: 7, deep: 11 },
+  topicTags: ['providence', 'deliverance', 'faithfulness', 'fear'],
+  opener: {
+    topical: true,
+    caption: 'Esther 8',
+  },
   intros: [
     'In the previous chapter, Haman&apos;s plot was exposed — and in that same hour, the king hanged him on the gallows he had built for Mordecai. But the decree remains. The letters have been sealed throughout the empire, signed with the king&apos;s ring, promising death to every Jew on the thirteenth day of Adar. The king cannot reverse what he has written. He cannot take back his own signet.',
     'Yet there is a way. Esther, who has revealed her identity to the king and won his favor, now falls at his feet in tears. She beseeches him to revoke the letters of Haman&apos;s devise. And the king, who has already shown mercy to her and to her people, extends his scepter and calls her to speak. In his grace, he finds a way forward — a counter-decree, issued in his name, sealed with his ring, that will allow the Jews to gather and defend themselves. What was meant for their destruction becomes, through the king&apos;s second decree, an instrument of their deliverance.',

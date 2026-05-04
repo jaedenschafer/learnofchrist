@@ -15,6 +15,11 @@ export const ISAIAH_26: RichChapterContent = {
   chapter: 26,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+  topicTags: ['judgment', 'calling', 'hope', 'sovereignty'],
+  opener: {
+    topical: true,
+    caption: 'Isaiah 26',
+  },
   intros: [
     'Isaiah 26 deepens the themes of Isaiah 25 with a direct promise of resurrection. The prophet speaks of the dead who will be raised, who will dwell in the earth, and who will be part of the restoration when God purges the land of its inhabitants and makes atonement for sin. This is not metaphorical language about spiritual awakening. It is a direct assertion that those who have died will live again, that the grave will not hold them, and that the covenant God makes with His people transcends even death.',
     'The promise of resurrection was a revolutionary word in the context of ancient Israel and Christianity alike. It affirmed that God&apos;s purposes for His people extend beyond this present life, that what He begins in us continues in eternity. This is the hope that would sustain believers through persecution and trial.',

@@ -9,6 +9,11 @@ export const MALACHI_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+  topicTags: ['faithfulness', 'judgment', 'hope', 'love'],
+  opener: {
+    topical: true,
+    caption: 'Malachi 1',
+  },
   intros: [
     'Malachi, the final book of the Old Testament, opens with God declaring His love for Israel. But Israel questions it, asking, "Wherein hast thou loved us?" The prophet must remind them of God&apos;s covenant faithfulness. The chapter then turns to condemn the priests for offering defiled sacrifices—blind, sick, and lame animals—despising God&apos;s name. Yet even as judgment falls, a promise emerges: "From the rising of the sun even unto the going down of the same my name shall be great among the Gentiles."',
   ],

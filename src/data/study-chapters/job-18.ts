@@ -18,6 +18,11 @@ export const JOB_18: RichChapterContent = {
   chapter: 18,
 
   estimatedMinutes: { beginner: 3, intermediate: 6, deep: 9 },
+  topicTags: ['suffering', 'hope', 'sovereignty', 'lament'],
+  opener: {
+    topical: true,
+    caption: 'Job 18',
+  },
   intros: [
     'Bildad rises to speak a second time, and his words are even harder than before. He has heard Job&apos;s defense, and he is not convinced. In his view, the doctrine is simple and absolute: the wicked suffer, the righteous prosper. Job is suffering. Therefore, Job must be wicked. There is no other explanation. Bildad does not offer argument or negotiation. He offers only a terrible vision of what happens to wicked men—a vision designed to crush hope from Job&apos;s heart.',
     'The speech is constructed as a poetic description of the wicked man&apos;s inevitable doom. Light is put out. Memory is erased. Terror pursues him. His days are cut short. His name disappears from the earth. Every image is designed to say the same thing: this is what happens to you when you are wicked. Bildad speaks as though Job&apos;s suffering is not a mystery, not a test, not a temporary trial. It is a verdict. It is the final word. And yet Bildad does not understand that the final suffering—the greatest abandonment, the deepest darkness—will be borne by one who is not wicked at all, but perfectly innocent, and that through His darkness, the world will be redeemed.',

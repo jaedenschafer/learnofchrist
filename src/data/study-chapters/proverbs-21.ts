@@ -13,6 +13,11 @@ export const PROVERBS_21: RichChapterContent = {
   chapter: 21,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 3 },
+  topicTags: ['wisdom', 'righteousness', 'folly', 'integrity'],
+  opener: {
+    topical: true,
+    caption: 'Proverbs 21',
+  },
   intros: [
     'Proverbs 21 celebrates God&apos;s invisible hand in the corridors of power. The king believes himself sovereign, yet his heart rests in God&apos;s hand, directed like water through channels. And this sovereign God is a God of justice, particularly toward the poor. To stop your ears at their cry is to invite a day when your own cry goes unheard. What you withhold from others will be withheld from you.',
   ],

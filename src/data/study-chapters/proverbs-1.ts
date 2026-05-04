@@ -17,6 +17,11 @@ export const PROVERBS_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 2, intermediate: 7, deep: 10 },
+  topicTags: ['wisdom', 'righteousness', 'folly', 'integrity'],
+  opener: {
+    topical: true,
+    caption: 'Proverbs 1',
+  },
   intros: [
     'The book of Proverbs begins with a premise: that life is not random, but shaped by the choices we make about wisdom and understanding. The book claims to teach "the fear of the Lord"—not terror of punishment, but reverent recognition of God&apos;s supremacy—as the very foundation of knowledge. Without this fear, without this rootedness in the reality of God, knowledge itself becomes empty and even dangerous.',
     'Wisdom is personified in these opening verses not as an abstract principle but as a voice, calling in the marketplace, crying at the gates, reaching out to all who will hear. Her invitation is public and urgent. But her offer can be refused. And refusal, Proverbs insists, leads not merely to mere disadvantage but to judgment—to calamity that comes when the simple turn away from the call of wisdom and choose instead to walk with sinners.',

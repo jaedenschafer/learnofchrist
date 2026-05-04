@@ -13,6 +13,11 @@ export const PROVERBS_29: RichChapterContent = {
   chapter: 29,
 
   estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
+  topicTags: ['wisdom', 'righteousness', 'folly', 'integrity'],
+  opener: {
+    topical: true,
+    caption: 'Proverbs 29',
+  },
   intros: [
     'Proverbs 29 begins with a crisis: where there is no vision, the people perish. Without a sense of ultimate purpose, without a grasp of what life is for, people drift and decay. The chapter also teaches that the fear of man is a snare—a trap that catches and holds you. But fear the Lord, and you are free. You are liberated from the endless competition for others&apos; approval.',
   ],

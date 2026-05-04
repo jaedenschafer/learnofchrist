@@ -15,6 +15,11 @@ export const PSALMS_18: RichChapterContent = {
   chapter: 18,
 
   estimatedMinutes: { beginner: 1, intermediate: 6, deep: 6 },
+  topicTags: ['praise', 'lament', 'hope', 'protection'],
+  opener: {
+    topical: true,
+    caption: 'Psalms 18',
+  },
   intros: [
     'Psalm 18 is lengthy and expansive—the longest psalm to this point. It is a song of thanksgiving for deliverance, a recounting of God&apos;s power revealed through trial. David has faced death—the cords of death have wound around him, the floods of destruction have overwhelmed him. Yet God heard his cry. God reached down from heaven and pulled him out. The psalm does not minimize the darkness or the danger. It celebrates God&apos;s power revealed precisely in the midst of them.',
     'As David recounts God&apos;s deliverance, he moves from personal testimony to cosmic witness. The earth shook. The heavens were open. Lightning and hail fell. God rode upon a cherub. The voice of God thundered. All of creation is caught up in the drama of God saving David. This is not a minor matter. This is the breaking-through of heaven into earth.',

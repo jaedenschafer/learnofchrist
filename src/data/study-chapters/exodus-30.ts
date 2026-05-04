@@ -15,6 +15,11 @@ export const EXODUS_30: RichChapterContent = {
   chapter: 30,
 
   estimatedMinutes: { beginner: 9, intermediate: 15, deep: 18 },
+  topicTags: ['covenant', 'holiness', 'worship', 'sacrifice'],
+  opener: {
+    topical: true,
+    caption: 'Exodus 30',
+  },
   intros: [
     'Exodus 30 moves deeper into the tabernacle instructions with four precious items: the golden altar of incense, the atonement money, the bronze laver for washing, the holy anointing oil, and the sacred incense itself. Each is placed carefully and guarded carefully. The altar stands before the veil; the laver sits between the tent and the altar; the oil and incense are made to one exact formula, no substitute allowed.',
     'For readers who see Christ in the Old Testament types and patterns, this chapter is thick with it. The perpetual incense that rises from the altar becomes the prayers of the saints rising before God. The half-shekel ransom for every soul becomes a foreshadow of the ransom Jesus paid for all. The anointing oil, used to set apart priests and kings, points to the Anointed One Himself — the Messiah, the Christos.',

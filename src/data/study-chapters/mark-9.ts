@@ -20,6 +20,11 @@ export const MARK_9: RichChapterContent = {
   chapter: 9,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+  topicTags: ['ministry', 'witness', 'suffering', 'compassion'],
+  opener: {
+    topical: true,
+    caption: 'Mark 9',
+  },
   intros: [
     'Mark 9 opens with one of the most extraordinary moments in the gospel narrative. Six days after teaching on the cross, Jesus ascends a high mountain with Peter, James, and John. There He is transfigured. His garments become radiantly white. Elijah and Moses appear and speak with Him. The veil between heaven and earth seems to part. Peter, awed and confused, wishes to remain in this moment of glory. But a cloud shadows them, and a voice speaks: "This is my beloved Son: hear him." The vision fades. Coming down, they encounter a boy possessed with a spirit, violently convulsing. The disciples have tried to cast out the demon and failed. Jesus rebukes the spirit and casts it out.',
     'The chapter weaves together the theme of hidden glory and the cost of discipleship. Jesus foretells His death again—the second prediction. The disciples do not understand and are afraid to ask. When they arrive at a house in Capernaum, Jesus teaches them: "If any man desire to be first, the same shall be last of all, and servant of all." He takes a little child in His arms: "Whosoever shall receive one of such children in my name, receiveth me." The church is not built on power or prestige but on service to the vulnerable, the little, the overlooked.',

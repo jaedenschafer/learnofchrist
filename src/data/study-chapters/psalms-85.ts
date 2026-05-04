@@ -16,6 +16,11 @@ export const PSALMS_85: RichChapterContent = {
   chapter: 85,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+  topicTags: ['praise', 'lament', 'hope', 'protection'],
+  opener: {
+    topical: true,
+    caption: 'Psalms 85',
+  },
   intros: [
     'Psalm 85 is a song of the sons of Korah, and it depicts a people restored. The Lord had turned away His anger. He had brought back the captivity of Jacob. But the psalmist is not content with national restoration alone. He looks forward to something far greater: a redemption that satisfies not only justice but mercy, not only truth but peace. He waits for a word from God Himself—a word that will settle all things.',
   ],

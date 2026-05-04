@@ -16,6 +16,11 @@ export const PROVERBS_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 6 },
+  topicTags: ['wisdom', 'righteousness', 'folly', 'integrity'],
+  opener: {
+    topical: true,
+    caption: 'Proverbs 3',
+  },
   intros: [
     'The third chapter of Proverbs presents a vision of the flourishing life—not the life of ease, but the life of genuine trust. It begins with a call to submit your understanding completely to God. This is countercultural in any age, but especially in ours, where the celebration of individual reason and the distrust of any authority beyond oneself are taken as givens. Yet Proverbs insists that your own understanding, trusted too completely, is your undoing. Truth requires submission.',
     'But this submission is not blind or arbitrary. It is rooted in the character of God—in His faithfulness, His care, His willingness to correct those He loves. The chapter calls readers to honor God through how they use their resources, to recognize that the discipline that comes from God is a sign of love, not rejection, and to seek the way of peace above all else.',

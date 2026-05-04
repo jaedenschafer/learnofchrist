@@ -9,6 +9,11 @@ export const MALACHI_4: RichChapterContent = {
   chapter: 4,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+  topicTags: ['faithfulness', 'judgment', 'hope', 'love'],
+  opener: {
+    topical: true,
+    caption: 'Malachi 4',
+  },
   intros: [
     'Malachi closes with the final words of the Old Testament. Christ is promised as the Sun of Righteousness, rising with healing in His wings. And the prophet Elijah is promised to come before the great and dreadful day of the Lord—a promise fulfilled in John the Baptist. The book ends in hope: God has not abandoned His people. The Messiah is coming. The healing and redemption of all things awaits.',
   ],

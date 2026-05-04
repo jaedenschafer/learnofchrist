@@ -17,6 +17,11 @@ export const LAMENTATIONS_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 2, intermediate: 6, deep: 8 },
+  topicTags: ['lament', 'suffering', 'hope', 'mercy'],
+  opener: {
+    topical: true,
+    caption: 'Lamentations 3',
+  },
   intros: [
     'Lamentations 3 is the great turning point of the book. It is the longest chapter, employing a triple acrostic structure (three verses for each letter of the Hebrew alphabet). The voice that speaks is singular and personal: "I am the man that hath seen affliction by the rod of his wrath." This is not Jerusalem speaking in the abstract. This is an individual who has experienced the deepest darkness—a man beaten down, imprisoned, deprived of peace, robbed of hope.',
     'The first half of the chapter is a descent into despair. The speaker catalogs his suffering in meticulous detail. He is worn down, he says. He is like a stone thrown into a pit. His cries are unheeded. He is surrounded by darkness. He has forgotten what prosperity is. And then, at the very bottom of the abyss, something shifts. The speaker begins to remember. "Yet this I recall to my mind, therefore have I hope." From the depths, hope emerges—not from a change in circumstances, but from a remembrance of God&apos;s mercies that are "new every morning." This is the heart of faith: in the darkness, to remember that God is faithful.',

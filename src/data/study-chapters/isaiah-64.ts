@@ -17,6 +17,11 @@ export const ISAIAH_64: RichChapterContent = {
   chapter: 64,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+  topicTags: ['hope', 'deliverance', 'messianic-prophecy', 'new-creation'],
+  opener: {
+    topical: true,
+    caption: 'Isaiah 64',
+  },
   intros: [
     'Isaiah 64 is a prayer that oscillates between desperate longing for God\'s presence and profound humility about human sin. The people want God to come as He came at Sinai, with fire and power, to vindicate His name and His people. Yet they know they are unworthy. Their righteousness, at best, is like filthy rags. They are clay in the hands of a potter. They have no claim on God except His nature as Father and Creator. The chapter teaches a paradox: genuine confidence before God is rooted not in our righteousness, but in our acceptance of our unworthiness and God\'s grace.',
   ],

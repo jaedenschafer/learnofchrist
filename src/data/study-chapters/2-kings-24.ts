@@ -19,6 +19,11 @@ export const KINGS_2_24: RichChapterContent = {
   chapter: 24,
 
   estimatedMinutes: { beginner: 6, intermediate: 14, deep: 18 },
+  topicTags: ['kingship', 'judgment', 'sin', 'exile'],
+  opener: {
+    topical: true,
+    caption: '2 Kings 24',
+  },
   intros: [
     'By the twenty-fourth chapter of 2 Kings, the kingdom of Judah stands at the edge of an abyss. The reign of good King Josiah has ended. His sons have turned from the Law. Kings rise and fall in rapid succession — some seeking to hold the line against the rising Babylonian empire, others buckling under pressure. The prophet Jeremiah has been warning for decades that Jerusalem will fall, that the temple will be destroyed, that the people will be led into exile. No one believes him. Now the judgment that has been threatened comes to pass.',
     'This chapter is a precise fulfillment of prophecy. Every event — the three-year vassalage, the bands of judgment, the emptying of the city, the deportation of the craftsmen and the mighty — unfolds exactly as the Lord&apos;s servants the prophets have spoken. And in the middle of this catastrophe, two figures emerge whose names will echo through the ages: Daniel and Ezekiel, carried away into Babylon to bear witness in the darkness that the God of Israel has not abandoned His people.',

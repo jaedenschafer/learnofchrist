@@ -20,6 +20,11 @@ export const MARK_8: RichChapterContent = {
   chapter: 8,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+  topicTags: ['ministry', 'witness', 'suffering', 'compassion'],
+  opener: {
+    topical: true,
+    caption: 'Mark 8',
+  },
   intros: [
     'Mark 8 opens with a second feeding miracle, this time of four thousand. Jesus is moved with compassion for the crowds, noting they have been with Him three days and have nothing to eat. He takes seven loaves and gives thanks, breaks them, and distributes them. All eat and are satisfied. Then the Pharisees come and demand a sign from heaven. Jesus sighs deeply: "Why doth this generation seek after a sign?" No sign will be given to this faithless generation.',
     'Then comes the great turning point of Mark&apos;s gospel. Jesus is with His disciples, and He asks: "Whom do men say that I am?" After they recount various opinions, He asks: "But whom say ye that I am?" Peter answers: "Thou art the Christ." This is the confession upon which the church will be built. Yet immediately Jesus begins to teach them that the Son of Man must suffer, be rejected, killed, and rise again. Peter rebukes Him. Jesus responds with a harsh rebuke of his own: "Get thee behind me, Satan." Then He teaches the central paradox of the gospel: to follow is to deny yourself, take up your cross, and lose your life to save it.',

@@ -15,6 +15,11 @@ export const JEREMIAH_22: RichChapterContent = {
   chapter: 22,
 
   estimatedMinutes: { beginner: 5, intermediate: 8, deep: 9 },
+  topicTags: ['lament', 'judgment', 'hope', 'calling'],
+  opener: {
+    topical: true,
+    caption: 'Jeremiah 22',
+  },
   intros: [
     'Jeremiah goes to the house of the king and speaks judgment on the kings of Judah. They have built palaces with injustice, have not paid workers their wages, have built their houses on unjust gain. The judgment is specific: "Shallum" (another name for Jehoahaz) will be carried away in captivity and will not return. Coniah (Jehoiachin) is cursed: he will be "as a signet ring" that God pulls from His finger — rejected, removed, cast away.',
     'Yet even in the midst of judgment, the promise of a true king emerges. In chapter 23, Jeremiah will speak of "a righteous Branch" who will be called "The Lord Our Righteousness." The false kings will fall, but the true King is coming.',

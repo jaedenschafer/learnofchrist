@@ -44,6 +44,11 @@ export const NUMBERS_29: RichChapterContent = {
   chapter: 29,
 
   estimatedMinutes: { beginner: 10, intermediate: 15, deep: 21 },
+  topicTags: ['provision', 'protection', 'leadership', 'doubt'],
+  opener: {
+    topical: true,
+    caption: 'Numbers 29',
+  },
   intros: [
     'The liturgical calendar of ancient Israel reaches its climax in the seventh month. Three feasts crowd together in rapid succession—a season when the whole nation gathers before God to mark time, confess sin, and rejoice. Trumpets announce the beginning. Ten days later, on the Day of Atonement, the high priest enters the Holy of Holies alone—the only day of the year he does so. Then comes Tabernacles: seven days of living in booths, eating without houses, sleeping under the stars, remembering the wilderness journey and God\'s provision.',
     'Buried in the numbers of Tabernacles is a hidden pattern. The bulls offered during the feast decrease each day: 13, then 12, then 11, on down to 7. Total: 70 bulls. Seventy is the number of nations in the ancient world—the rabbis understood immediately that Israel\'s feast encompassed all peoples in God\'s accounting. And beyond the feast, in John\'s Gospel, Jesus stands at Tabernacles and cries: "If any man thirst, let him come unto me, and drink." The festivals point to Him. The decreasing sacrifice—multiple animals each day—points to the ONE who would come. Revelation says it plainly: "Thou wast slain, and hast redeemed us to God by thy blood out of every kindred, and tongue, and people, and nation."',

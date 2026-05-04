@@ -14,6 +14,11 @@ export const MICAH_4: RichChapterContent = {
   chapter: 4,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
+  topicTags: ['justice', 'judgment', 'hope', 'humility'],
+  opener: {
+    topical: true,
+    caption: 'Micah 4',
+  },
   intros: [
     'After the judgment and darkness of the earlier chapters, Micah lifts his eyes to a vision of what shall be in the latter days. The mountain of the Lord&apos;s house will be exalted above all other mountains. All nations will stream toward it, desiring to learn God&apos;s ways. The result is revolutionary: swords will become plowshares, spears will become pruning hooks, and nation will not lift up sword against nation anymore.',
     'This is not a vague spiritual vision. It is a concrete image of a transformed world where the tools of war become tools of cultivation, where the desire to destroy is replaced by the desire to build. And it rests on a single foundation: that God&apos;s law will go forth from Jerusalem, and His word from Zion.',

@@ -19,6 +19,11 @@ export const NEHEMIAH_6: RichChapterContent = {
   chapter: 6,
 
   estimatedMinutes: { beginner: 7, intermediate: 12, deep: 16 },
+  topicTags: ['return', 'leadership', 'prayer', 'faithfulness'],
+  opener: {
+    topical: true,
+    caption: 'Nehemiah 6',
+  },
   intros: [
     'The wall of Jerusalem is nearly complete. Nehemiah and the people have worked tirelessly, rebuilding what enemies had destroyed, refusing to be discouraged by ridicule, poverty, and exhaustion. But now, as the finishing approaches, opposition mounts. The enemies of Judah — Sanballat, Tobiah, Geshem the Arabian, and their allies — perceive that the wall cannot be stopped by mockery or force. So they change tactics. They will try deception, intimidation, false accusation, and hired prophecy. They will send messengers five times with the same lie: "Come, let us meet together," they say — but they think to do Nehemiah mischief.',
     'What follows is a masterclass in spiritual discernment and the refusal to be distracted. Nehemiah will not abandon his work. He will not fear the false accusations against him. He will recognize the hired prophet and refuse to run. And when the wall is finished on the 25th day of Elul — in just 52 days — even the heathen around Judah will recognize that "this work was wrought of our God." Here we see how the faithful are called to press forward in the face of opposition, and how Christ, the true Builder and Finisher of faith, exemplifies perfect focus on the Father&apos;s work.',

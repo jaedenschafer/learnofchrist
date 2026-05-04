@@ -16,6 +16,11 @@ export const PSALMS_128: RichChapterContent = {
   chapter: 128,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+  topicTags: ['praise', 'lament', 'hope', 'protection'],
+  opener: {
+    topical: true,
+    caption: 'Psalms 128',
+  },
   intros: [
     'Psalm 128 echoes Psalm 1 with its opening word—blessed—and returns to the fundamental promise: blessedness flows from fearing the Lord, from walking in His ways. But this blessing is not abstract or spiritual only. It is concrete, domestic, abundant. The blessed man eats the fruit of his own labor. His wife is fruitful. His children flourish. His family is prosperous, at peace. The fear of the Lord—a deep reverence, a submission of the whole self to God&apos;s authority—is the root from which all these blessings grow.',
   ],

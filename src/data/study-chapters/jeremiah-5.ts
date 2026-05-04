@@ -18,6 +18,11 @@ export const JEREMIAH_5: RichChapterContent = {
   chapter: 5,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 6 },
+  topicTags: ['lament', 'judgment', 'hope', 'calling'],
+  opener: {
+    topical: true,
+    caption: 'Jeremiah 5',
+  },
   intros: [
     'Jeremiah 5 presents one of the starkest condemnations of widespread moral failure in Scripture. God sends the prophet on a search: go through the streets of Jerusalem, look in the broad places, seek out a single person who executes judgment and seeks truth. Find me one righteous person. Not righteousness defined as perfection, but as someone who pursues justice and truth. And yet, the implication of the search is that it comes up empty. There is no such person.',
     'This is not exaggeration for rhetorical effect. This is a statement about the spiritual condition of an entire people. The rich have turned to oppression. The prophets lie. The priests rule by their own authority. The people have forsaken God and run after idols. Everyone, from the highest to the lowest, is implicated. Yet within this universal failure stands the promise: one man would come who did execute judgment and seek truth. One man would be found righteous. That man is Christ.',

@@ -20,6 +20,11 @@ export const CHRONICLES_2_26: RichChapterContent = {
   chapter: 26,
 
   estimatedMinutes: { beginner: 7, intermediate: 18, deep: 22 },
+  topicTags: ['kingship', 'worship', 'judgment', 'repentance'],
+  opener: {
+    topical: true,
+    caption: '2 Chronicles 26',
+  },
   intros: [
     'Uzziah is sixteen years old when he takes the throne — a boy stepping into the role of a man, following a father whose reign has ended. The beginning of his story is marked by a pattern that will recur throughout the Bible: "As long as he sought the Lord, God made him to prosper." For decades, Uzziah walks in this way. He seeks God. God blesses him. He is successful in war. His cities flourish. His army grows to enormous numbers. He even innovates in warfare, devising engines to cast arrows and stones from towers. His fame spreads to the borders of Egypt. He is a successful king, and success is intoxicating.',
     'But the chapter holds a turning point, marked by one of the most important words in Scripture: "But when he was strong, his heart was lifted up to his destruction." Strength itself becomes his undoing. The king, secure in his power and his accomplishments, forgets the very source of that power. He crosses a line — not in rebellion against God outwardly, but in presumption. He enters the temple to burn incense, a priestly act reserved for the sons of Aaron. The high priest confronts him. But Uzziah, angry, clenches his censer in his hand — and in that moment, leprosy breaks out on his forehead. The visible mark of God\'s judgment appears before the priests. The king is expelled, and he hastens out, understanding that the Lord has smitten him. He spends the rest of his life in isolation, a king no longer allowed in the temple, cut off from the worship of the people he ruled. In his death, they say: He is a leper. The chapter ends with a reference to Isaiah the prophet — the same Isaiah who, in the year that King Uzziah died, saw the Lord sitting upon a throne high and lifted up.',

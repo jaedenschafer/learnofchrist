@@ -16,6 +16,11 @@ export const ISAIAH_57: RichChapterContent = {
   chapter: 57,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+  topicTags: ['hope', 'deliverance', 'messianic-prophecy', 'new-creation'],
+  opener: {
+    topical: true,
+    caption: 'Isaiah 57',
+  },
   intros: [
     'Isaiah 57 continues the theme of division. There are two peoples: those who keep God\'s covenant and those who have turned aside. The righteous may die or be taken away, but they enter into peace. The wicked, however, have no peace. They are separated from God. The chapter is urgent in its call: repent and return. But it also contains God\'s great promise: He who is high and holy, dwelling in the place of everlasting height, also dwells with the humble and contrite. In Him, both majesty and mercy are one.',
   ],

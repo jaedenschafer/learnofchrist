@@ -18,6 +18,11 @@ export const JEREMIAH_8: RichChapterContent = {
   chapter: 8,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 6 },
+  topicTags: ['lament', 'judgment', 'hope', 'calling'],
+  opener: {
+    topical: true,
+    caption: 'Jeremiah 8',
+  },
   intros: [
     'Jeremiah 8 opens with a vision of desolation. The dead are removed from their graves and scattered before the sun and moon and stars. The bones are not allowed to rest. This is the final indignity—not even the peace of the grave is permitted. Yet the chapter then shifts to a medical image that is far more tender. Jeremiah asks: "Is there no balm in Gilead; is there no physician there? why then is not the health of the daughter of my people recovered?"',
     'The balm of Gilead was a precious medicinal substance, known throughout the ancient world for its healing properties. It was a sign of hope and restoration. Yet Jeremiah asks: why is this balm not being applied? Why does the wound not heal? The answer is implicit in the question: the people are not seeking the true physician. They are looking elsewhere, seeking false cures from false healers. And in doing so, they remain wounded, unforgiven, unhealed. Yet the question itself carries an invitation: if there is a balm, if there is a physician, then healing is possible—if the people will turn to the right source.',

@@ -19,6 +19,11 @@ export const EZRA_6: RichChapterContent = {
   chapter: 6,
 
   estimatedMinutes: { beginner: 7, intermediate: 13, deep: 18 },
+  topicTags: ['return', 'worship', 'faithfulness', 'leadership'],
+  opener: {
+    topical: true,
+    caption: 'Ezra 6',
+  },
   intros: [
     'The work of rebuilding has slowed. The enemies of Judah have lodged complaints with King Darius, claiming that no decree from Cyrus authorized the Jews to rebuild their temple. The construction stalls. But Darius, curious about the truth, orders a search through the archives in Babylon. There, in the house of the rolls, a scroll is found — the very decree of Cyrus, written on parchment, stored in a palace of the Medes.',
     'What Darius finds ignites more than compliance. He adds his own voice to Cyrus&apos;s. Not only does he affirm the original order; he funds the work from the royal treasury. He supplies beasts for the altar and flour, wine, and salt for the priests. And he pronounces a curse upon anyone foolish enough to alter his word: let timber be pulled from their house, and let them be hanged thereon.',

@@ -6,6 +6,11 @@ export const LEVITICUS_24: RichChapterContent = {
   chapter: 24,
 
   estimatedMinutes: { beginner: 7, intermediate: 12, deep: 15 },
+  topicTags: ['holiness', 'sacrifice', 'priest', 'worship'],
+  opener: {
+    topical: true,
+    caption: 'Leviticus 24',
+  },
   intros: [
     'Leviticus 24 sets two sacred practices before the priests and Israel: the burning of oil for light in the Holy Place, and twelve loaves of showbread set in two rows on the table. Both were meant to burn and nourish continually, witnesses to God&apos;s presence among His people.',
     'In the midst of these instructions, a man with a mixed heritage — an Egyptian father, an Israelite mother — blasphemes the Name. The chapter handles this incident plainly: the law speaks, the consequence is clear, and it is carried out. But woven through the same chapter is the principle that orders all justice: one law for all, and the measure of restitution is precisely the measure of harm. This is Israel&apos;s God — present in light and bread, jealous for His Name, and just.',

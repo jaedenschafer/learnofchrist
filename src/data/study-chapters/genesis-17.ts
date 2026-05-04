@@ -15,6 +15,11 @@ export const GENESIS_17: RichChapterContent = {
   chapter: 17,
 
   estimatedMinutes: { beginner: 7, intermediate: 10, deep: 14 },
+  topicTags: ['providence', 'covenant', 'faithfulness', 'family'],
+  opener: {
+    topical: true,
+    caption: 'Genesis 17',
+  },
   intros: [
     'Thirteen years have passed since Genesis 16. Ishmael is a young man now, and Abram has settled into life as his father - but not his heir of promise. Then God appears again, and the first thing He does is rename Abram. Not with a title or a new title, but with a name that will be his for the rest of his life. <em>Abram becomes Abraham. Sarai becomes Sarah.</em> In the Bible, a name change is always a signal: your identity is being remade. You are stepping into a story that is not yours alone anymore.',
     'The centerpiece of this chapter is a covenant sign written on the body itself - the sign of circumcision. It falls on the part of the body that carries the future generations forward. The covenant is not written in words or wax; it is written in flesh. It is generational by design. Every time Abraham looks at this sign, he will see [res:bibleodyssey-abraham-covenant] the proof that his line will never end, that God is the one keeping His word, and that his body - despite his age, despite the impossibility - is the tool God is using to make a nation.',

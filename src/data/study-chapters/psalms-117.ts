@@ -16,6 +16,11 @@ export const PSALMS_117: RichChapterContent = {
   chapter: 117,
 
   estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
+  topicTags: ['praise', 'lament', 'hope', 'protection'],
+  opener: {
+    topical: true,
+    caption: 'Psalms 117',
+  },
   intros: [
     'Psalm 117 is the shortest chapter in the entire Bible. It contains only two verses. Yet its impact is immense. It opens with a call to all nations, all peoples, to praise God. The reason: His merciful kindness is great toward us, and His truth endures forever. In these brief lines, the psalmist expresses a vision of universal salvation. God&apos;s mercy is not limited to Israel. His truth is not confined to one people. All nations are invited to praise Him.',
     'Paul quotes Psalm 117:1 in Romans 15:11 as evidence that the gospel was always meant to reach all nations. The psalmist&apos;s vision becomes the template for Christian mission: the good news of God&apos;s mercy and truth is for every people, every tongue, every nation.',

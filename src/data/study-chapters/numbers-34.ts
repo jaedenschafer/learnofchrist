@@ -23,6 +23,11 @@ export const NUMBERS_34: RichChapterContent = {
   chapter: 34,
 
   estimatedMinutes: { beginner: 7, intermediate: 12, deep: 16 },
+  topicTags: ['provision', 'protection', 'leadership', 'doubt'],
+  opener: {
+    topical: true,
+    caption: 'Numbers 34',
+  },
   intros: [
     'After forty years of wilderness, God stands Israel at the edge of Canaan and does something remarkable: He measures the land. Not to keep them out, but to mark the borders, name the territory, make the promise concrete. This is not an abstract assurance. This is a deed. These are the boundaries. This land is yours.',
     'The chapter reads like a surveyor&apos;s report—south border from the wilderness of Zin to the Salt Sea; west border the Mediterranean; north border to Hamath and Ziphron; east border back down the Jordan to the Salt Sea. One boundary traced in place names, in geography, in specificity. Then, after the borders are marked, come the names of the men who will divide it. Not by lottery, not by war, but by priestly assignment and tribal representation. Caleb, the one who followed wholly, is named first.',

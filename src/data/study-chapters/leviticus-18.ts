@@ -19,6 +19,11 @@ export const LEVITICUS_18: RichChapterContent = {
   chapter: 18,
 
   estimatedMinutes: { beginner: 8, intermediate: 12, deep: 16 },
+  topicTags: ['holiness', 'sacrifice', 'priest', 'worship'],
+  opener: {
+    topical: true,
+    caption: 'Leviticus 18',
+  },
   intros: [
     'Leviticus 18 is instruction on sexual relations — which ones are forbidden, why they matter, and what it costs a people when they are ignored. The chapter opens with a frame: do not live by Egyptian patterns, do not live by Canaanite patterns; live instead by the statutes and ordinances of the LORD. Then comes a long list of prohibited relationships, most of them incestuous, some extending to animals and to the practice of child sacrifice to Molech.',
     'The chapter is unsettling because it is so specific. But that specificity is the point. Sex is not a private matter of pure feeling; it has a shape, designed by God, with boundaries meant to protect what is most vulnerable — marriage, children, the integrity of family. The list is long because the stakes are high. And the warning at the end is stark: the land itself will eject a people who make these practices their way of life.',

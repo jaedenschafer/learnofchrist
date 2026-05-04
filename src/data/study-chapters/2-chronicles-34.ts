@@ -23,6 +23,11 @@ export const CHRONICLES_2_34: RichChapterContent = {
   chapter: 34,
 
   estimatedMinutes: { beginner: 11, intermediate: 20, deep: 25 },
+  topicTags: ['kingship', 'worship', 'judgment', 'repentance'],
+  opener: {
+    topical: true,
+    caption: '2 Chronicles 34',
+  },
   intros: [
     'Josiah ascended to the throne as a child — eight years old — yet from the beginning he did right in the sight of the Lord. But the Chronicler gives us something the parallel account in 2 Kings does not: a timeline of Josiah&apos;s spiritual growth. In his sixteenth year, while yet young, he began to seek after the God of David his father. Four years later, in his twelfth year of reigning (age twenty), he embarked on a systematic reformation that would sweep across the entire land — breaking down altars, smashing idols, burning groves, cleansing not just Judah and Jerusalem but the remnants of the northern kingdom itself.',
     'This is a king who did not wait for a book to tell him what was right. He sought God. He acted. He reformed. And then, six years into that work, while the Temple was being repaired, something extraordinary happened. The Book of the Law — the sacred scroll that had been lost — was discovered. The king heard it read, his heart broke, and he led his entire people into a covenant renewal. This is the story of seeking that opens the way to finding.',

@@ -19,6 +19,11 @@ export const CHRONICLES_1_10: RichChapterContent = {
   chapter: 10,
 
   estimatedMinutes: { beginner: 3, intermediate: 8, deep: 11 },
+  topicTags: ['kingship', 'worship', 'covenant', 'faithfulness'],
+  opener: {
+    topical: true,
+    caption: '1 Chronicles 10',
+  },
   intros: [
     'The genealogies are complete. The post-exile community has been established. The Chronicler has shown the people who returned to rebuild the house of God. Now he turns to the reason this new beginning was necessary: the fall of the old order under King Saul. This chapter parallels 1 Samuel 31 — the death of Israel&apos;s first king — but with a crucial difference. The Chronicler adds editorial commentary, framing Saul&apos;s death not as mere military disaster, but as theological judgment.',
     'Saul was rejected by God long before he fell at Gilboa. He consulted a medium, seeking knowledge of the future instead of seeking the Lord. He made himself the measure of his own kingship, trusting in his own counsel rather than God&apos;s. And when the judgment came — when the Philistines closed in and his sons fell — there was nowhere to turn. The king who would not listen to God could not save himself. His body was stripped and put to shame. Yet even in his humiliation, there were those who remembered his kindness: the men of Jabesh-gilead, the city he had once defended, risked their lives to give him burial. In the story of a king&apos;s fall, we see both the consequence of turning from God and the strange grace of being remembered by those we have served.',

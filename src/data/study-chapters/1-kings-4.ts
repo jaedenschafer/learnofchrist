@@ -24,6 +24,11 @@ export const KINGS_1_4: RichChapterContent = {
   chapter: 4,
 
   estimatedMinutes: { beginner: 5, intermediate: 12, deep: 16 },
+  topicTags: ['kingship', 'wisdom', 'sin', 'leadership'],
+  opener: {
+    topical: true,
+    caption: '1 Kings 4',
+  },
   intros: [
     'After Solomon&apos;s prayer in the temple and his dramatic public displays of wisdom — the judgment of the two mothers — the narrative pauses to show us the machinery of his kingdom. This is not mere administrative detail. It is a portrait of order, of abundance, of a nation brought into harmony under a single wise king. The officers are named, the territories are mapped, the daily provisions are enumerated in staggering quantities. And yet, as we read the chapter, a tension emerges. The chapter opens with Solomon established as king "over all Israel," and it closes with a description of his unsurpassed wisdom. Between these bookends lies a catalog of splendor — and a single, ominous line about horses.',
     'The people of Israel are described as "many, as the sand which is by the sea" — a quotation of the covenantal promise made to Abraham (Genesis 22:17; 32:12). The covenant promise is being fulfilled. Every man dwells safely "under his vine and under his fig tree" — language that will reappear in the prophetic vision of the messianic age (Micah 4:4; Zechariah 3:10). Solomon&apos;s reign is presented as an eschatological moment, a foretaste of the age to come. It is the golden age of Israel. And Solomon is its architect — a king of such wisdom that "his fame was in all nations round about."',

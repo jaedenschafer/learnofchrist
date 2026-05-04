@@ -6,6 +6,11 @@ export const PSALMS_64: RichChapterContent = {
   chapter: 64,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 5 },
+  topicTags: ['praise', 'lament', 'hope', 'protection'],
+  opener: {
+    topical: true,
+    caption: 'Psalms 64',
+  },
   intros: [
     'Psalm 64 is David&apos;s prayer when his enemies plot in secret against him. "Hear my voice, O God, in my prayer: preserve my life from fear of the enemy. Hide me from the secret counsel of the wicked, from the insurrection of the workers of iniquity." The wicked gather in darkness, plotting in whispers, scheming David&apos;s downfall without the light of day, without accountability.',
     'Yet David places his trust not in uncovering their plots or exposing their schemes, but in God&apos;s ability to judge and vindicate. "But God shall shoot at them with an arrow; suddenly shall they be wounded." God will act. God will see what the wicked do in darkness. And God will judge with perfect justice. The final words belong not to the conspirators, but to the righteous who trust in God.',

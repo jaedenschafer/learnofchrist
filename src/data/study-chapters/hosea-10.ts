@@ -6,6 +6,11 @@ export const HOSEA_10: RichChapterContent = {
   chapter: 10,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+  topicTags: ['faithfulness', 'mercy', 'sin', 'love'],
+  opener: {
+    topical: true,
+    caption: 'Hosea 10',
+  },
   intros: [
     'Hosea 10 opens with Israel as a luxuriant vine that has turned fruitful — but fruitful in evil. She has multiplied altars, yet those altars are not to God. She is split in heart, yet she will pay for it.',
     'The chapter contains the call to righteousness: "Sow to yourselves in righteousness, reap in mercy; break up your fallow ground: for it is time to seek the Lord." Even in judgment, God calls His people to return. He offers them a path back — not through external obedience alone, but through seeking His face.',

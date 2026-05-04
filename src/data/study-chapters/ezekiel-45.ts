@@ -15,6 +15,11 @@ export const EZEKIEL_45: RichChapterContent = {
   chapter: 45,
 
   estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
+  topicTags: ['judgment', 'glory', 'hope', 'second-coming'],
+  opener: {
+    topical: true,
+    caption: 'Ezekiel 45',
+  },
   intros: [
     'After the vision of the restored temple, Ezekiel now describes how the land of Israel will be allocated among the people. The distribution is not random or based on power and wealth. Instead, it is carefully ordered: a sacred portion for the temple and the priests, a portion for the prince, and then the land divided equally among the tribes. This is a vision of justice—every family has a place, every tribe has an inheritance, and the sacred is honored first.',
     'The standards for measurement are reformed. No more false weights and dishonest scales. The ephah (measure of grain) and the bath (measure of liquid) are standardized. Justice in commerce begins with honest measures. The economic order itself reflects the moral renewal that God is bringing about.',

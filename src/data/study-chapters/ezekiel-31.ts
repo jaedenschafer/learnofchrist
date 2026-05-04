@@ -15,6 +15,11 @@ export const EZEKIEL_31: RichChapterContent = {
   chapter: 31,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+  topicTags: ['judgment', 'glory', 'hope', 'second-coming'],
+  opener: {
+    topical: true,
+    caption: 'Ezekiel 31',
+  },
   intros: [
     'Pharaoh sits on his throne, commanding armies, controlling the flow of the Nile. He is mighty. His name is known. He has made himself great. But Ezekiel compares him not to a king, but to a tree — a magnificent cedar of Lebanon that stood in the garden of God itself, so tall and strong that all other trees envied it. Yet height and beauty and strength are not armor against pride. Pride, the prophet warns, is the fatal flaw in all earthly power.',
     'God says to Pharaoh: I will bring you down. Not because you lacked courage or cunning, but because you forgot that all height comes from me. The cedars of Lebanon will fall with you. The strangers will inherit your greatness. And all who knew you will be astonished at the swiftness of your ruin. The message is as timeless as it is stark: human grandeur, unanchored to God, is a tree destined to fall.',

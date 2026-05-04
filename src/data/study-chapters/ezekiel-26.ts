@@ -19,6 +19,11 @@ export const EZEKIEL_26: RichChapterContent = {
   chapter: 26,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+  topicTags: ['judgment', 'glory', 'hope', 'second-coming'],
+  opener: {
+    topical: true,
+    caption: 'Ezekiel 26',
+  },
   intros: [
     'Tyre was the New York City of the ancient world—a merchant metropolis, a center of trade and wealth, a symbol of human achievement and power. Ships from every nation brought goods to her markets. She was islands connected by causeway, seemingly impregnable. And Tyre believed in her own greatness. "I am of perfect beauty," she said. But God sees deeper. Pride is the prelude to destruction.',
     'Ezekiel prophesies the siege of Tyre by Nebuchadnezzar. The walls will be broken. The towers will fall. The city that brought treasure from all the earth will become like the top of a rock—bare, desolate, a place for fishermen to spread their nets. All who knew her will mourn. But the lamentation over Tyre is also an invitation to reader: what you build on human pride will fall.',

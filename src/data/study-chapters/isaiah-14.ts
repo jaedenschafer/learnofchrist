@@ -16,6 +16,11 @@ export const ISAIAH_14: RichChapterContent = {
   chapter: 14,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 6 },
+  topicTags: ['judgment', 'calling', 'hope', 'sovereignty'],
+  opener: {
+    topical: true,
+    caption: 'Isaiah 14',
+  },
   intros: [
     'Isaiah continues the theme of fallen power. After the prophecy of Babylon&apos;s fall, he utters a taunt song against the king of Babylon. But the language reaches beyond mere political prophecy to touch on a deeper reality—the fall of a being of light, a ruler who aspired to place his throne above the stars of God. This being, called "Lucifer" (meaning "shining one" or "morning star"), speaks of his intent to exalt himself, to make himself like the Most High. Yet his exaltation becomes his ruin. He is brought down to Sheol, the pit, to the depths.',
     'The passage has traditionally been read by believers as speaking not only of the king of Babylon but of the fall of Satan, the ancient enemy who sought to rival God. Luke 10:18 quotes Jesus saying, "I beheld Satan as lightning fall from heaven"—a reference that echoes Isaiah&apos;s description of the fall of the morning star. In this prophecy, we see the conviction that all rebellion against God, whether human or demonic, leads to destruction, and that God alone remains exalted, sovereign, unshaken.',

@@ -10,6 +10,11 @@ export const DEUTERONOMY_22: RichChapterContent = {
   chapter: 22,
 
   estimatedMinutes: { beginner: 8, intermediate: 12, deep: 15 },
+  topicTags: ['covenant', 'faithfulness', 'leadership', 'love'],
+  opener: {
+    topical: true,
+    caption: 'Deuteronomy 22',
+  },
   intros: [
     'Deuteronomy 22 is a chapter about what holiness looks like in the details of ordinary life. It begins with lost property and wandering animals, moves to the boundaries of creation — how God has separated things and made them distinct — and then settles into the hardest part: the laws that govern sexual desire and covenant, laws that treat the human body as something God cares about.',
     'The opening words set the tone: "Thou mayest not hide thyself." Responsibility is not optional; it is woven into what it means to live as God&apos;s people. But notice too how carefully these laws protect the vulnerable — the woman who could not cry out, the person whose reputation has been falsely attacked. God&apos;s law is detailed, and the details matter.',

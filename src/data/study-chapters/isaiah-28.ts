@@ -15,6 +15,11 @@ export const ISAIAH_28: RichChapterContent = {
   chapter: 28,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+  topicTags: ['judgment', 'calling', 'hope', 'sovereignty'],
+  opener: {
+    topical: true,
+    caption: 'Isaiah 28',
+  },
   intros: [
     'Isaiah 28 addresses the leaders and priests of Ephraim with harsh judgment for their pride and their drunkenness, their mocking of the prophet&apos;s simple message. Yet within the oracle of judgment lies a promise of foundation—a stone laid in Zion, tried and precious, a sure foundation. Those who believe in this stone will not be shaken. This is the image that sustains God&apos;s people through all ages: a foundation unmoved, a cornerstone tried and proven.',
     'The chapter teaches both judgment and grace: judgment for those who mock God&apos;s word and trust in false security, and grace for those who build their lives upon the cornerstone that God lays. Christ is that stone, and faith in Him is the only foundation that will not crumble.',

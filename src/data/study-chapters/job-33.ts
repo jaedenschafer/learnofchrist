@@ -14,6 +14,11 @@ export const JOB_33: RichChapterContent = {
   chapter: 33,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 7 },
+  topicTags: ['suffering', 'hope', 'sovereignty', 'lament'],
+  opener: {
+    topical: true,
+    caption: 'Job 33',
+  },
   intros: [
     'Elihu offers a radically different interpretation of Job&apos;s suffering. Rather than seeing it as punishment for sin, he frames it as God&apos;s way of speaking—through dreams, through the voice of conscience, through physical affliction. And he offers hope: there is a mediator available, one who can interpret God&apos;s voice and deliver the sufferer from the brink of death.',
   ],

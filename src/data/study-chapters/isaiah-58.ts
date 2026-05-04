@@ -16,6 +16,11 @@ export const ISAIAH_58: RichChapterContent = {
   chapter: 58,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+  topicTags: ['hope', 'deliverance', 'messianic-prophecy', 'new-creation'],
+  opener: {
+    topical: true,
+    caption: 'Isaiah 58',
+  },
   intros: [
     'Isaiah 58 is a rebuke dressed in the clothing of a call to righteousness. The people come to God with their fasts, their prayers, their religious observance. They expect God to notice and reward them. But God sees something else: they are cruel to their servants, they quarrel among themselves, they oppress the poor. Their religion is hollow because it is not connected to justice and mercy. God calls them to a different kind of fasting—one that feeds the hungry, clothes the naked, breaks the chains of oppression. This is the test of true faith: not what you do in the temple, but what you do in the world.',
   ],

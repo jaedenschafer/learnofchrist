@@ -17,6 +17,11 @@ export const PSALMS_140: RichChapterContent = {
   chapter: 140,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 4 },
+  topicTags: ['praise', 'lament', 'hope', 'protection'],
+  opener: {
+    topical: true,
+    caption: 'Psalms 140',
+  },
   intros: [
     'Psalm 140 is a psalm of David, offered in the face of active persecution. Evil men plot against him. They speak lies. They have hidden snares and traps in his path. This is not theoretical danger. This is a person under siege, facing organized opposition. Yet the psalmist does not despair. He prays. He brings his case before God. He trusts that the Lord sees the wicked, will judge them, and will preserve the righteous. The psalm offers not vengeance, but vindication—the confidence that God will ultimately defend those who call upon Him.',
   ],

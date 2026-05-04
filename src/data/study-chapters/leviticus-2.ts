@@ -11,6 +11,11 @@ export const LEVITICUS_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 5, intermediate: 12, deep: 15 },
+  topicTags: ['holiness', 'sacrifice', 'priest', 'worship'],
+  opener: {
+    topical: true,
+    caption: 'Leviticus 2',
+  },
   intros: [
     'After the burnt offering comes the grain offering — the minchah, a gift of fine flour, oil, and frankincense. It has no animal life, no blood. Where the burnt offering speaks of total surrender, the grain offering speaks of devotion of a different kind: the work of your hands, the fruits of the earth, the skilled labor of the harvest gathered and ground and presented with care.',
     'But this offering has very specific rules. No leaven, no honey — nothing that ferments or sweetens beyond the salt. And salt is not incidental. "All thy oblations thou shalt season with salt," Moses is told: the salt of God&apos;s covenant. This is the language of binding. This is an offering that tastes like covenant, like a bond that cannot break.',

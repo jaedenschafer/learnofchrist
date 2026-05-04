@@ -12,6 +12,11 @@ export const DEUTERONOMY_21: RichChapterContent = {
   chapter: 21,
 
   estimatedMinutes: { beginner: 8, intermediate: 13, deep: 17 },
+  topicTags: ['covenant', 'faithfulness', 'leadership', 'love'],
+  opener: {
+    topical: true,
+    caption: 'Deuteronomy 21',
+  },
   intros: [
     'Deuteronomy 21 presents five distinct civil laws drawn straight from the life of ancient Israel. At first they seem distant from us — rules about unsolved murders [res:sefaria-deuteronomy-21], captive women, firstborn inheritance, rebellious sons, and the bodies of the hanged. But each one carries a theological weight that echoes through Scripture and into the gospel itself.',
     'The laws show a God who cares about innocent blood, who protects the vulnerable in hard situations, who guards rights by law not preference, and who speaks a stern word to stubborn disobedience. And the final image — a body hanged on a tree — Paul will later seize as the very foundation of our redemption: Christ became the curse we deserved, hung on the tree.',

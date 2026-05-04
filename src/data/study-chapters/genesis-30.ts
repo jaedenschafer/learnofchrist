@@ -14,6 +14,11 @@ export const GENESIS_30: RichChapterContent = {
   chapter: 30,
 
   estimatedMinutes: { beginner: 10, intermediate: 16, deep: 22 },
+  topicTags: ['providence', 'covenant', 'faithfulness', 'family'],
+  opener: {
+    topical: true,
+    caption: 'Genesis 30',
+  },
   intros: [
     'Genesis 30 is the story of two sisters locked in a fertility competition. Rachel, the beloved wife, remains barren. Leah, the unwanted wife, keeps bearing sons. Rather than waiting on God, each sister finds a solution outside the covenant: they offer their handmaids to Jacob as surrogate wives. What follows is a catalog of eight more sons-Dan, Naphtali, Gad, Asher, Issachar, Zebulun, Dinah, and finally Joseph-born from four different mothers. The text reports this without comment. No sermon, no moral judgment. [res:bibleodyssey-jacob-israel] God is simply building His people out of a family that is messy, driven by envy, and utterly human.',
     'Then comes the mandrakes-a plant tied to ancient fertility folklore-and a marital negotiation so odd it sounds almost like a joke. But underneath the rivalries and the magical thinking is a deeper truth: God keeps His covenant not because the people who bear it are noble or patient, but because His word is inviolable. By the end, Jacob has won a new wage deal with Laban and begins to grow rich, not by magic rods but by selective breeding and God&apos;s favor. The chapter ends on the edge of Jacob&apos;s next trial: Laban&apos;s jealousy and the call to go home.',

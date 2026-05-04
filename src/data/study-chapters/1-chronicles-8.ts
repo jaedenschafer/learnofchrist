@@ -15,6 +15,11 @@ export const CHRONICLES_1_8: RichChapterContent = {
   chapter: 8,
 
   estimatedMinutes: { beginner: 4, intermediate: 8, deep: 12 },
+  topicTags: ['kingship', 'worship', 'covenant', 'faithfulness'],
+  opener: {
+    topical: true,
+    caption: '1 Chronicles 8',
+  },
   intros: [
     'The genealogies of 1 Chronicles can feel like an endless roll-call — names piling upon names, fathers and sons stretching back through time. But within them lies a pattern of grace. Benjamin was the youngest son of Jacob, born of Rachel on the road to Ephrath. His name means "son of the right hand" — a position of favor. Yet his tribe would be the smallest in Israel, a constant reminder that greatness in God&apos;s kingdom is not measured by size.',
     'Chapter 8 unfolds Benjamin&apos;s own genealogy, and midway through, the narrative reveals its true purpose: the line of Saul, Israel&apos;s first king. From Kish to Saul to Jonathan — and then, strikingly, to Mephibosheth, Jonathan&apos;s son. This genealogy is more than historical record. It is a testimony to covenant. When Saul&apos;s line should have ended in disgrace, when David became king and could have eliminated his rival&apos;s descendants, the line of Jonathan instead was preserved. God kept His promise to those bound by covenant, even across generations.',

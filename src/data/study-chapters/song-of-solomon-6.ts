@@ -16,6 +16,11 @@ export const SONG_6: RichChapterContent = {
   chapter: 6,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+  topicTags: ['love', 'family', 'faithfulness', 'humility'],
+  opener: {
+    topical: true,
+    caption: 'Song of Solomon 6',
+  },
   intros: [
     'The Song returns to its central theme: mutual possession and belonging. After the seeking, after the wounding, after the vulnerability, the Bride comes to a place of rest. She knows her identity. "I am my beloved&apos;s, and my beloved is mine: he feedeth among the lilies." She belongs to him. He belongs to her. This knowing gives her stability, her sense of self. She is not defined by what she lacks or what she fears, but by to whom she belongs.',
     'The Beloved continues to celebrate his bride. He calls her beautiful, unique, worthy of praise. He does not need to convince her anymore. She has chosen him, opened to him, sought him. Now there is a resting in each other. There is peace. The Bride does not question whether she is loved. She knows. And in knowing that she is loved, she finds her truest self.',

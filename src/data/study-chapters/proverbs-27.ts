@@ -14,6 +14,11 @@ export const PROVERBS_27: RichChapterContent = {
   chapter: 27,
 
   estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
+  topicTags: ['wisdom', 'righteousness', 'folly', 'integrity'],
+  opener: {
+    topical: true,
+    caption: 'Proverbs 27',
+  },
   intros: [
     'Proverbs 27 honors one of life&apos;s rarest gifts: a friend who loves you enough to tell you hard truth. Iron sharpens iron—one blade against another, friction creating keenness. So a friend, through honest challenge and loving confrontation, sharpens another. The wounds of a faithful friend are better than the kisses of an enemy. To be wounded by a friend is to be refined. To be flattered by an enemy is to be destroyed.',
   ],

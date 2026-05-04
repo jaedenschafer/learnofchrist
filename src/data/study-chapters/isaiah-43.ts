@@ -17,6 +17,11 @@ export const ISAIAH_43: RichChapterContent = {
   chapter: 43,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+  topicTags: ['hope', 'deliverance', 'messianic-prophecy', 'new-creation'],
+  opener: {
+    topical: true,
+    caption: 'Isaiah 43',
+  },
   intros: [
     'Isaiah 43 is one of the most intimate promises in Scripture. God says to the exiled people: Fear not. Why? Because I have redeemed you. You belong to Me. I know you by name. When you pass through the waters, I will be with you. When you walk through the fire, you will not be burned. You are Mine. You are precious in My sight. You are honored, and I love you. This is the promise of redemption—not distant, not formal, but intimate. God knows His people by name. God walks with them through every trial. God will not abandon them. They belong to the Holy One of Israel, their Saviour.',
   ],

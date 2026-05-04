@@ -16,6 +16,11 @@ export const JOHN_15: RichChapterContent = {
   chapter: 15,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 6 },
+  topicTags: ['incarnation', 'love', 'glory', 'witness'],
+  opener: {
+    topical: true,
+    caption: 'John 15',
+  },
   intros: [
     'Jesus speaks of Himself as the true vine. The Father is the husbandman, the vinedresser. Those who believe in Jesus are branches attached to Him. The vitality of the branch depends entirely on its connection to the vine. "Without me ye can do nothing." This is not pessimism but realism. Apart from Christ, spiritual fruit is impossible. Connection to Him is the source of all fruitfulness.',
     'To abide in Christ is to remain in His love, to keep His commandments, to love one another. Jesus reveals the deepest pattern of discipleship: "Greater love hath no man than this, that a man lay down his life for his friends." He calls His disciples friends, not servants. He shares with them all that He knows from the Father. And He lays down His life for them. The world will hate them because it hates Him. But they are not alone. The Spirit will be with them, empowering, comforting, strengthening.',

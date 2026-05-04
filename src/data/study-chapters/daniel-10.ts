@@ -16,6 +16,11 @@ export const DANIEL_10: RichChapterContent = {
   chapter: 10,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+  topicTags: ['faithfulness', 'sovereignty', 'second-coming', 'protection'],
+  opener: {
+    topical: true,
+    caption: 'Daniel 10',
+  },
   intros: [
     'In the third year of Cyrus king of Persia, a thing is revealed unto Daniel. The word is true, and the time appointed was long: and he understood the thing and had understanding of the vision. In those days, Daniel mourns for three weeks. He eats no pleasant bread. He drinks no wine. He touches no oil. He is waiting, praying, seeking understanding from God concerning what he has seen.',
     'And then, on the twenty-fourth day of the first month, as Daniel stands by the great river Hiddekel, a vision comes. He sees a man clothed in linen, whose loins are girded with fine gold of Uphaz. This man speaks to him: "Fear not, Daniel: for from the first day that thou didst set thine heart to understand...thy words were heard." But then he reveals something astounding: "The prince of the kingdom of Persia withstood me one and twenty days: but, lo, Michael, one of the chief princes, came to help me."',

@@ -12,6 +12,11 @@ export const DEUTERONOMY_27: RichChapterContent = {
   chapter: 27,
 
   estimatedMinutes: { beginner: 5, intermediate: 10, deep: 13 },
+  topicTags: ['covenant', 'faithfulness', 'leadership', 'love'],
+  opener: {
+    topical: true,
+    caption: 'Deuteronomy 27',
+  },
   intros: [
     'Deuteronomy 27 is Israel&apos;s covenant moment: standing at the edge of the Promised Land, about to cross the Jordan, the people are commanded to make a public, shouted acknowledgment of the law&apos;s deepest standards. They will engrave the law on stones and stand on two mountains — one for blessing, one for curse — while the Levites declare twelve curses aloud. Each curse is answered by a thundering "Amen" from the whole assembly. This is not private piety; it is communal witnessing.',
     'The twelve curses target the sins the law cares most about: secret idolatry, the dishonoring of parents, the perversion of justice for the vulnerable, secret violence, bribery that executes the innocent, and—finally—the curse that Paul would quote centuries later: the curse of not keeping "all things which are written in the book of the law." This chapter is where the law shows its face and its teeth.',

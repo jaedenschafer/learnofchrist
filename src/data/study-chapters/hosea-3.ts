@@ -15,6 +15,11 @@ export const HOSEA_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+  topicTags: ['faithfulness', 'mercy', 'sin', 'love'],
+  opener: {
+    topical: true,
+    caption: 'Hosea 3',
+  },
   intros: [
     'Hosea 3 returns to the narrative. Gomer has abandoned Hosea and gone back to her lovers. Hosea could reject her, divorce her, let her go. Instead, God commands him: "Go yet, love a woman beloved of her friend, yet an adulteress." Love her again. Buy her back. Take her home.',
     'This chapter contains some of the most stunning imagery in Scripture. Hosea purchases Gomer for fifteen shekels of silver and a homer and a half of barley. He buys her out of slavery — the slavery to her false lovers — and takes her home. The price is paid. The covenant is renewed. This is redemption made visible.',

@@ -17,6 +17,11 @@ export const PSALMS_21: RichChapterContent = {
   chapter: 21,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+  topicTags: ['praise', 'lament', 'hope', 'protection'],
+  opener: {
+    topical: true,
+    caption: 'Psalms 21',
+  },
   intros: [
     'Psalm 21 celebrates the strength of a king who has received his heart&apos;s desire from the Lord. This is not a king who trusts in his own arm, but one who rejoices in God&apos;s power working[res:bible-odyssey-kingship-psalms] through him. The psalmist shows us a vision of regal triumph rooted not in earthly conquest, but in the favor and blessing of God.',
   ],

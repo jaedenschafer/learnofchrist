@@ -14,6 +14,11 @@ export const PROVERBS_17: RichChapterContent = {
   chapter: 17,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+  topicTags: ['wisdom', 'righteousness', 'folly', 'integrity'],
+  opener: {
+    topical: true,
+    caption: 'Proverbs 17',
+  },
   intros: [
     'Proverbs 17 frames knowledge as an art of restraint. The man with knowledge does not pour out all he knows. He is measured, careful, aware that not every word deserves utterance. This is not ignorance masquerading as wisdom. This is wisdom knowing the power of silence. And in the same chapter, Solomon celebrates friendship—the one who loves at all times, not when circumstances demand it, not when benefit flows from it, but at all times. This is the constancy of love itself.',
   ],

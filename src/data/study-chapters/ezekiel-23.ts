@@ -18,6 +18,11 @@ export const EZEKIEL_23: RichChapterContent = {
   chapter: 23,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+  topicTags: ['judgment', 'glory', 'hope', 'second-coming'],
+  opener: {
+    topical: true,
+    caption: 'Ezekiel 23',
+  },
   intros: [
     'Ezekiel 23 is one of Scripture&apos;s most shocking chapters. It describes Israel through the image of two sisters who became harlots. Aholah (Samaria, the northern kingdom) played the harlot, and Assyria destroyed her. Aholibah (Jerusalem, the southern kingdom) watched this happen. And then—bewilderingly—Jerusalem did the same, chasing after her lovers with even greater recklessness.',
     'The language is crude and degrading by design. Ezekiel does not soften the accusation. Covenant-breaking is presented not as a policy mistake or a lapse of faith, but as infidelity of the deepest kind. The prophet forces the people to see themselves not through the lens of political excuse, but through the eyes of a betrayed God.',

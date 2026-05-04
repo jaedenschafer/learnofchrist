@@ -6,6 +6,11 @@ export const HOSEA_9: RichChapterContent = {
   chapter: 9,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+  topicTags: ['faithfulness', 'mercy', 'sin', 'love'],
+  opener: {
+    topical: true,
+    caption: 'Hosea 9',
+  },
   intros: [
     'Hosea 9 speaks of "the days of visitation" — the appointed times when God comes to judge. Israel has become like the days of Gibeah — a reference to the shameful days of the judges, when chaos reigned. Yet even now, God has not forgotten. He will remember and appoint a day.',
     'The chapter echoes with longing and judgment together. Israel will not celebrate the feast. She will eat unclean bread in the land of strangers. She will be scattered. Yet the God of Israel is still God. The days of visitation are His appointed times, and in those times, His purposes are being worked out.',

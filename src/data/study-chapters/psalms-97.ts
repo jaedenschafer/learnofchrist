@@ -15,6 +15,11 @@ export const PSALMS_97: RichChapterContent = {
   chapter: 97,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 3 },
+  topicTags: ['praise', 'lament', 'hope', 'protection'],
+  opener: {
+    topical: true,
+    caption: 'Psalms 97',
+  },
   intros: [
     'Psalm 97 opens with a powerful affirmation echoed throughout the Psalms: The Lord reigneth. And immediately, the proper response is named: Let the earth rejoice. When God reigns, creation itself is invited to celebrate. This is not the reign of a tyrant, but of a righteous God whose rule brings joy and goodness.',
     'The psalm acknowledges that God is clothed in darkness—mystery, hiddenness, transcendence. Yet from that darkness comes light. Righteousness and judgment are the foundation of His throne. And those who are righteous, those who have upright hearts, rejoice in His light. They are glad.',

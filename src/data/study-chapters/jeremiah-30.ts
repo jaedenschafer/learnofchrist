@@ -15,6 +15,11 @@ export const JEREMIAH_30: RichChapterContent = {
   chapter: 30,
 
   estimatedMinutes: { beginner: 5, intermediate: 8, deep: 9 },
+  topicTags: ['lament', 'judgment', 'hope', 'calling'],
+  opener: {
+    topical: true,
+    caption: 'Jeremiah 30',
+  },
   intros: [
     'After chapters of judgment and exile, Jeremiah 30 turns toward restoration. "Thus saith the Lord; I have seen thy affliction, and I know thy sorrow." God has not forgotten His people in exile. The day of trouble will end. "Out of trouble he shall be saved." Captivity will be reversed. "I will break his yoke from off thy neck, and will burst thy bonds, and strangers shall no more serve themselves of him."',
     'This is the hope that sustains the people through exile. The exile is not permanent. The yoke will be broken. The captives will return. Jacob (Israel) will return, and Jacob shall be in rest and at ease, and none shall make him afraid. From exile comes restoration. From judgment comes mercy. From the lowest point, redemption begins.',

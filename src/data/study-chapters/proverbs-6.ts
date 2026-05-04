@@ -16,6 +16,11 @@ export const PROVERBS_6: RichChapterContent = {
   chapter: 6,
 
   estimatedMinutes: { beginner: 1, intermediate: 5, deep: 6 },
+  topicTags: ['wisdom', 'righteousness', 'folly', 'integrity'],
+  opener: {
+    topical: true,
+    caption: 'Proverbs 6',
+  },
   intros: [
     'The sixth chapter of Proverbs uses an unusual rhetorical strategy: it teaches by analogy and by catalog. The sluggard is invited to go to the ant, to watch how the creature labors without command, stores without direction, prepares without being told. This is wisdom available to observation. Creation itself teaches. But there is no teacher who can wake the sluggard if the sluggard will not rise.',
     'The chapter then catalogs what God hates: a proud look, a lying tongue, hands that shed innocent blood, a heart that devises wicked imaginations, feet swift to mischief, and the false witness. Seven things altogether—six explicitly named, and a seventh implied in the one who sows discord among brethren. The list is not arbitrary. These are the ways by which human community is broken.',

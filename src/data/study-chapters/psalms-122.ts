@@ -15,6 +15,11 @@ export const PSALMS_122: RichChapterContent = {
   chapter: 122,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+  topicTags: ['praise', 'lament', 'hope', 'protection'],
+  opener: {
+    topical: true,
+    caption: 'Psalms 122',
+  },
   intros: [
     'The pilgrim journey has reached its destination. Psalm 122 is a hymn of arrival and belonging. "I was glad when they said unto me, Let us go into the house of the Lord." The gladness spoken of here is not mere pleasure. It is a deep satisfaction, a rightness, a sense of coming home. The psalmist stands within the gates of Jerusalem, the city built compactly together, and sees in it a symbol of unity—all the tribes gathering in one place, united in worship, bound together by the presence of God.',
   ],

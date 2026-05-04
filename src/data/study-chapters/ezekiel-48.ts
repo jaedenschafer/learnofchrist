@@ -15,6 +15,11 @@ export const EZEKIEL_48: RichChapterContent = {
   chapter: 48,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+  topicTags: ['judgment', 'glory', 'hope', 'second-coming'],
+  opener: {
+    topical: true,
+    caption: 'Ezekiel 48',
+  },
   intros: [
     'Ezekiel&apos;s vision closes not with abstract theology but with a new name. "Jehovah Shammah"—The Lord Is There. This is not merely a poetic title. It is the entire promise of God distilled into four words. God is no longer distant. He is not absent. He is present. He dwells in your midst. After exile and exile and the long dark night of separation, this is the word that carries the exiles through: God is there.',
     'The city is described with precise measurements, but the measurements matter less than the name. Everything in the vision—the temple, the land, the river, the priests, the just weights and measures—all of it leads to this: The Lord is there. This is the name Israel will carry into the future. This is the promise that will sustain them. And this is the promise that echoes forward to Revelation, where John hears: "Behold, the tabernacle of God is with men, and he will dwell with them." The promise never changes. The Lord is there.',

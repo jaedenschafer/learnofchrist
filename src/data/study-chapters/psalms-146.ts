@@ -17,6 +17,11 @@ export const PSALMS_146: RichChapterContent = {
   chapter: 146,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 4 },
+  topicTags: ['praise', 'lament', 'hope', 'protection'],
+  opener: {
+    topical: true,
+    caption: 'Psalms 146',
+  },
   intros: [
     'Psalm 146 opens the final collection of five psalms (146–150) that form a crescendo of praise. The psalm begins with a warning: "Put not your trust in princes, nor in the son of man, in whom there is no help." This is not cynicism about human nature, but realism about human limits. Princes die. Their plans come to nothing. But God—God remains. His compassion is eternal. And His particular care is for the vulnerable: the blind, the bowed down, the strangers, the fatherless, the widows. The psalm offers a vision of God as the defender of those whom earthly powers overlook or oppress.',
   ],

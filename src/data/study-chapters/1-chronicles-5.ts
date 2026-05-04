@@ -18,6 +18,11 @@ export const CHRONICLES_1_5: RichChapterContent = {
   chapter: 5,
 
   estimatedMinutes: { beginner: 6, intermediate: 13, deep: 18 },
+  topicTags: ['kingship', 'worship', 'covenant', 'faithfulness'],
+  opener: {
+    topical: true,
+    caption: '1 Chronicles 5',
+  },
   intros: [
     'The tribe of Reuben carries a name shadowed by failure. Jacob&apos;s firstborn, the one who should have inherited the double portion and the leadership of Israel, lost both birthright and blessing because he "defiled his father&apos;s bed" (Genesis 49:3–4). That ancient sin echoes into 1 Chronicles 5. The text begins by restating a truth that must have felt both shameful and explanatory to Israel: the birthright was not Reuben&apos;s. It went to Joseph. The rule — the scepter and chief ruler — went to Judah. And so Reuben is enrolled not as the head of tribes, but as one among them.',
     'Yet the chapter does not dwell in shame alone. The eastern tribes — Reuben, Gad, and half-Manasseh — emerge as formidable warriors. They numbered tens of thousands of men, skilled in bow and sword, "able to bear shield and sword." And when they cried to God in battle against the Hagarites, they were answered. They won decisively. They took spoil and dwelt securely in their lands.',

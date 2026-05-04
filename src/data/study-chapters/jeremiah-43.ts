@@ -15,6 +15,11 @@ export const JEREMIAH_43: RichChapterContent = {
   chapter: 43,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 3 },
+  topicTags: ['lament', 'judgment', 'hope', 'calling'],
+  opener: {
+    topical: true,
+    caption: 'Jeremiah 43',
+  },
   intros: [
     'Jeremiah 43 is a chapter of broken promises. The remnant said they would obey, whatever God commanded. God commanded them to stay. But fear speaks louder than promise. The leadership—Johanan and the captains—decides to flee to Egypt. They accuse Jeremiah of speaking falsely, of being instigated by Baruch his scribe to lead them astray. But the truth is simpler: they do not want to obey.',
     'And so they take Jeremiah with them to Egypt against his will. The prophet who has lived to proclaim God&apos;s word is now captive among those who refuse to hear it. The chapter ends in captivity, exile, and the consequences of human disobedience. It is a tragic conclusion to the story of the remnant—not because God has failed, but because the people have chosen to disbelieve.',

@@ -9,6 +9,11 @@ export const ZECHARIAH_7: RichChapterContent = {
   chapter: 7,
 
   estimatedMinutes: { beginner: 1, intermediate: 2, deep: 4 },
+  topicTags: ['hope', 'messianic-prophecy', 'second-coming', 'kingship'],
+  opener: {
+    topical: true,
+    caption: 'Zechariah 7',
+  },
   intros: [
     'After the visions, Zechariah turns to answer a question posed by the people returning from exile. Should they continue the fast that commemorated the destruction of Jerusalem? The prophet&apos;s answer redirects their focus from external ritual to internal righteousness. God does not require fasts disconnected from justice, mercy, and truth. The heart matters more than the calendar.',
   ],

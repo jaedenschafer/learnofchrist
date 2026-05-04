@@ -19,6 +19,11 @@ export const SAMUEL_1_30: RichChapterContent = {
   chapter: 30,
 
   estimatedMinutes: { beginner: 7, intermediate: 13, deep: 16 },
+  topicTags: ['kingship', 'leadership', 'calling', 'providence'],
+  opener: {
+    topical: true,
+    caption: '1 Samuel 30',
+  },
   intros: [
     'In this chapter, David faces his darkest hour as a fugitive. While he and his men have been away at war, the Amalekites have invaded the south, burned Ziklag, and taken everyone captive — wives, children, and possessions. When David returns and sees the smoking ruins, the people turn on him, speaking of stoning him. He has lost everything. He has become the object of his own people&apos;s rage.',
     'But in that moment of complete loss and abandonment, something shifts. "David encouraged himself in the Lord his God." This is the language of transformation. Not circumstance changing, but character changing. Not victory arriving, but strength arising from within because a man is anchored to God. What follows is one of the most extraordinary recoveries in all of Scripture — and a king&apos;s decision about how spoil should be divided that sets a precedent for Israel: those who stay behind to guard the camp share equally with those who go to battle. In this chapter, we see Christ the King recovering all that the enemy has stolen, and showing us the shape of His kingdom: no one left behind.',

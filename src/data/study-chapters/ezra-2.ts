@@ -17,6 +17,11 @@ export const EZRA_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 3, intermediate: 8, deep: 12 },
+  topicTags: ['return', 'worship', 'faithfulness', 'leadership'],
+  opener: {
+    topical: true,
+    caption: 'Ezra 2',
+  },
   intros: [
     'The book of Ezra opens with a remnant — the people of God returning home. Nebuchadnezzar had carried them away into Babylon, a judgment so complete that it seemed exile might be permanent. But the captivity did not destroy them. The genealogies held. The families remembered who they were. And when Cyrus the Persian decreed that the temple should be rebuilt, the children of Israel rose up to return.',
     'Ezra 2 is a list — nearly sixty verses of names and numbers. To the modern reader, it may seem tedious. But to those who returned, it was sacred. The names preserved identity. The numbers told the story: forty-two thousand, three hundred and sixty souls, who knew their genealogy and could claim their place in the covenant. And alongside them, the servants and maids, the singers, the porters, the priests. A whole people, restored by God&apos;s mercy, returning to rebuild what had been burned.',

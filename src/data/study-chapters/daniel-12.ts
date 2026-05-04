@@ -16,6 +16,11 @@ export const DANIEL_12: RichChapterContent = {
   chapter: 12,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+  topicTags: ['faithfulness', 'sovereignty', 'second-coming', 'protection'],
+  opener: {
+    topical: true,
+    caption: 'Daniel 12',
+  },
   intros: [
     'Michael stands up—the great prince which standeth for the children of thy people. And there shall be a time of trouble, such as never was since there was a nation even to that same time. It is a prophecy that speaks across the ages. Persecution will come. Trials will come. The righteous will suffer. But in that very time, "thy people shall be delivered, every one that shall be found written in the book."',
     'And then comes the promise of resurrection—not merely survival, but a transformation. "And many of them that sleep in the dust of the earth shall awake, some to everlasting life, and some to shame and everlasting contempt." The righteous shall shine as the stars forever and ever. And Daniel himself is told: "Go thy way till the end be: for thou shalt rest, and stand in thy lot at the end of the days." The story of Daniel does not end with him. It extends into a future he will not see, when the dead shall rise, when judgment comes, when the righteous inherit the kingdom prepared for them.',

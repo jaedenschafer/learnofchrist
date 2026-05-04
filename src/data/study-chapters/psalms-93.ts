@@ -17,6 +17,11 @@ export const PSALMS_93: RichChapterContent = {
   chapter: 93,
 
   estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
+  topicTags: ['praise', 'lament', 'hope', 'protection'],
+  opener: {
+    topical: true,
+    caption: 'Psalms 93',
+  },
   intros: [
     'Psalm 93 is one of the shortest psalms, yet it is among the most cosmic in its vision. In just five verses, it declares the absolute reign of God. The world is established and cannot be shaken. God is enthroned over the waters. His holiness and strength are unmatched. This is a psalm to be sung by those who understand that whatever chaos rages in this world, God is firmly in control.',
   ],

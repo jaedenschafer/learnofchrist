@@ -14,6 +14,11 @@ export const HOSEA_5: RichChapterContent = {
   chapter: 5,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
+  topicTags: ['faithfulness', 'mercy', 'sin', 'love'],
+  opener: {
+    topical: true,
+    caption: 'Hosea 5',
+  },
   intros: [
     'Hosea 5 addresses both the northern kingdom of Israel (Ephraim) and the southern kingdom of Judah. God brings a charge against priests, against the house of Israel, against the house of the king. The guilt is clear. They have played the harlot. They have played Judah against Ephraim. They have built their own kingdoms instead of seeking God.',
     'Yet even in judgment, God&apos;s voice carries a strange tenderness. "I will go and return to my place, till they acknowledge their offence, and seek my face." Discipline is not punishment but a call to return. God removes His presence so that His people, empty and lost, will realize they need Him.',

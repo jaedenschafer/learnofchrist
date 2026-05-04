@@ -14,6 +14,11 @@ export const JEREMIAH_41: RichChapterContent = {
   chapter: 41,
 
   estimatedMinutes: { beginner: 1, intermediate: 2, deep: 2 },
+  topicTags: ['lament', 'judgment', 'hope', 'calling'],
+  opener: {
+    topical: true,
+    caption: 'Jeremiah 41',
+  },
   intros: [
     'The restoration of the remnant is fragile, vulnerable to human violence. Ishmael, a descendant of David, resents that a non-royal figure has been appointed governor. He sees an opportunity and acts. He murders Gedaliah, kills many of those gathered, and throws the fragile community into panic once again. The civil order collapses. The remnant is scattered.',
     'This is the reality of the fallen world: even when God preserves a people, even when restoration begins, human sin and power-seeking can disrupt it. The remnant must learn to live not with the stability they wish for, but with the trust they are called to place in God alone. Human governors fail. But God&apos;s purposes endure.',

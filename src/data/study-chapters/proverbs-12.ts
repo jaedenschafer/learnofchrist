@@ -15,6 +15,11 @@ export const PROVERBS_12: RichChapterContent = {
   chapter: 12,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 6 },
+  topicTags: ['wisdom', 'righteousness', 'folly', 'integrity'],
+  opener: {
+    topical: true,
+    caption: 'Proverbs 12',
+  },
   intros: [
     'The twelfth chapter continues the collection of sayings, now focusing on the reach of righteousness—how it extends not only to human relationships but to all of creation. It emphasizes the power of truth-telling and the destructiveness of deceit. And it insists that righteousness is not confined to grand gestures, but shows itself in small kindnesses, in the care we give to those under our authority.',
     'One saying in particular stands out for its compassion: "A righteous man regardeth the life of his beast." This is a radical claim in the ancient world, where animals were often seen as mere property. But Proverbs sees that true righteousness extends to those who are defenseless, including the creatures we depend upon.',

@@ -15,6 +15,11 @@ export const SECOND_CORINTHIANS_6: RichChapterContent = {
   chapter: 6,
 
   estimatedMinutes: { beginner: 6, intermediate: 12, deep: 16 },
+  topicTags: ['suffering', 'compassion', 'witness', 'hope'],
+  opener: {
+    topical: true,
+    caption: '2 Corinthians 6',
+  },
   intros: [
     'Paul opens with urgency: you have received grace—a gift poured out at the cross, available now, yours to claim. But grace can be received and then lived as if nothing changed. The Corinthians know the good news. The question is: will they live it?',
     'To prove his sincerity, Paul catalogs his own suffering—not as boasting, but as evidence that authentic ministry flows from Christ, not from ease or acclaim. Then he turns to the thorniest question: who can you trust your soul to? The answer shapes everything.',

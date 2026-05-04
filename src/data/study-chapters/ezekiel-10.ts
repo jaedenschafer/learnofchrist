@@ -15,6 +15,11 @@ export const EZEKIEL_10: RichChapterContent = {
   chapter: 10,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 5 },
+  topicTags: ['judgment', 'glory', 'hope', 'second-coming'],
+  opener: {
+    topical: true,
+    caption: 'Ezekiel 10',
+  },
   intros: [
     'The vision of Ezekiel 1 showed the throne of God, surrounded by creatures and wheels, radiant with glory. Now, in chapter 10, that same glory leaves. The cherubim that bore the throne move. The wheels turn. The glory that has rested on Jerusalem since Solomon dedicated the temple — that glory departs. This is perhaps the most devastating moment in Ezekiel&apos;s visions. Not the judgment that falls on the people, but the departure of God from His own house. An ancient Hebrew phrase echoes through the Old Testament: "Ichabod — the glory is departed." It is spoken when the Ark is captured, when God&apos;s presence is no longer visibly with His people. Now Ezekiel witnesses the final departure. The God who came to dwell with Israel is leaving.',
   ],

@@ -18,6 +18,11 @@ export const LEVITICUS_5: RichChapterContent = {
   chapter: 5,
 
   estimatedMinutes: { beginner: 7, intermediate: 10, deep: 12 },
+  topicTags: ['holiness', 'sacrifice', 'priest', 'worship'],
+  opener: {
+    topical: true,
+    caption: 'Leviticus 5',
+  },
   intros: [
     'Leviticus 5 is about the sins we don&apos;t see coming — the ones we didn&apos;t know we committed. A person who stays silent when they could have testified. Someone who touches something unclean without realizing it. A careless oath made in a moment. These are not deliberate violations, but they carry a weight all the same, and the Law makes room for them.',
     '[res:sbl-graduated-offerings-poverty] What makes this chapter striking is the graduated system. A wealthy person brings a lamb; someone poorer brings two birds; the poorest brings flour. Same offering, different cost — the Law ensures that everyone, rich and poor, can afford to make things right. And then comes the trespass offering, *asham* in Hebrew, which adds a fifth on top of restitution. That principle — covering what we owe, plus more — will echo all the way to the cross.',

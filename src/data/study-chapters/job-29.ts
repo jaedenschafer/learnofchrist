@@ -14,6 +14,11 @@ export const JOB_29: RichChapterContent = {
   chapter: 29,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 6 },
+  topicTags: ['suffering', 'hope', 'sovereignty', 'lament'],
+  opener: {
+    topical: true,
+    caption: 'Job 29',
+  },
   intros: [
     'In a poignant reversal, Job recounts the days of his former glory. He was not merely wealthy—he was honored, respected, a man whose very presence brought comfort and justice to those around him. He was eyes to the blind, feet to the lame, a father to the poor. But those days are gone. This chapter is Job&apos;s lament for a life that was taken from him.',
   ],

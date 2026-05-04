@@ -16,6 +16,11 @@ export const ISAIAH_10: RichChapterContent = {
   chapter: 10,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 6 },
+  topicTags: ['judgment', 'calling', 'hope', 'sovereignty'],
+  opener: {
+    topical: true,
+    caption: 'Isaiah 10',
+  },
   intros: [
     'The scope of Isaiah&apos;s vision expands. He speaks not only of Judah&apos;s internal corruption and coming judgment, but of the international stage. God will use Assyria—a powerful empire—as the instrument of His judgment against the nations of the earth. Assyria will march forth as God&apos;s rod, His staff of indignation. Yet Assyria will not understand what it is doing. It will not recognize that it serves God&apos;s purposes. Assyria will see itself as conquering through its own strength and wisdom. And for this pride, for this refusal to acknowledge that it too is subject to God&apos;s authority, Assyria will be judged.',
     'Yet the vision does not end in the triumph of Assyria or the final destruction of Israel. A remnant shall return—the remnant of Jacob shall return unto the mighty God. Though Israel&apos;s people become as numerous as the sand of the sea, only a remnant will be saved. This remnant will be the vehicle of God&apos;s continued covenant purposes. In the midst of judgment, God preserves a people, a seed, a future.',

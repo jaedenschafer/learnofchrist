@@ -17,6 +17,11 @@ export const PSALMS_144: RichChapterContent = {
   chapter: 144,
 
   estimatedMinutes: { beginner: 1, intermediate: 5, deep: 5 },
+  topicTags: ['praise', 'lament', 'hope', 'protection'],
+  opener: {
+    topical: true,
+    caption: 'Psalms 144',
+  },
   intros: [
     'Psalm 144 is titled "of David." It begins as a praise of God for strength in battle and moves into meditation on human dignity and the brevity of human life. David praises God for training his hands and fingers for combat. He speaks of God as his tower, his refuge, his strength. But the prayer is not merely for victory. It is for the vindication of righteousness and the blessing of his people—that their sons might be like plants, their daughters like pillars, that their barns might be full, their flocks might multiply. The prayer balances military vigilance with hope for flourishing.',
   ],

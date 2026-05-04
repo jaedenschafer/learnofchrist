@@ -17,6 +17,11 @@ export const PSALMS_135: RichChapterContent = {
   chapter: 135,
 
   estimatedMinutes: { beginner: 1, intermediate: 5, deep: 6 },
+  topicTags: ['praise', 'lament', 'hope', 'protection'],
+  opener: {
+    topical: true,
+    caption: 'Psalms 135',
+  },
   intros: [
     'Psalm 135 is a song of praise built on contrast. It opens with a command: "Praise ye the Lord." But this is not praise directed to a vague deity. It is praise of "the Lord," the God who bears a name, who reveals Himself through history. The psalmist then turns to the reason for this praise: the Lord&apos;s mighty acts. In heaven and on earth, whatsoever He pleased, He has done. And the psalm uses this truth as a hammer to shatter the illusion of idolatry. The idols of the nations cannot speak, cannot see, cannot hear, cannot act. They are the work of human hands, fashioned from wood and stone, silver and gold. But the God of Israel is alive, present, and active.',
   ],

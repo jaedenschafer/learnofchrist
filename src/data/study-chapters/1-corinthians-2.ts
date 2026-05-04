@@ -15,6 +15,11 @@ export const FIRST_CORINTHIANS_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 7, intermediate: 13, deep: 20 },
+  topicTags: ['unity', 'love', 'witness', 'wisdom'],
+  opener: {
+    topical: true,
+    caption: '1 Corinthians 2',
+  },
   intros: [
     'When Paul arrived in Corinth, he came not as the eloquent orator the Greeks admired. He came in weakness, in fear, in trembling. This was no accident. It was strategy. Paul refused to let his own eloquence become the foundation of the Corinthians&apos; faith. If they believed because Paul was persuasive, their faith would rest on the sand of his personality. Instead, Paul preaches in the demonstration of the Spirit and power, so that faith rests on Christ alone.',
     'Behind the weakness of the preacher stands the power of the Spirit. The Spirit searches the deep things of God and reveals them to those who believe. No human wisdom, no matter how refined, can achieve this revelation. The Spirit alone can open the eyes of the blind to see Jesus Christ. And the Spirit brings believers to an astonishing place: union with Christ, so that you begin to have the mind of Christ Himself.',

@@ -14,6 +14,11 @@ export const ROMANS_10: RichChapterContent = {
   chapter: 10,
 
   estimatedMinutes: { beginner: 8, intermediate: 14, deep: 18 },
+  topicTags: ['mercy', 'faithfulness', 'hope', 'righteousness'],
+  opener: {
+    topical: true,
+    caption: 'Romans 10',
+  },
   intros: [
     'Romans 10 is the most direct gospel statement Paul ever wrote. After chapters of theology—justification by faith, the sovereignty of God, the mystery of Israel&apos;s stumbling—Paul pauses and distills salvation to its essence: confess with your mouth that Jesus is Lord, believe in your heart that God raised Him from the dead, and you will be saved. No complex doctrine. No ladder of spiritual achievement. A confession and a belief, spoken and held.',
     'But the chapter pulses with anguish. Paul&apos;s own people, Israel, have rejected this word. They have zeal for God, he says, but not according to knowledge. They seek to establish their own righteousness instead of submitting to God&apos;s. And this matters because salvation requires hearing—and hearing requires a preacher, and a preacher requires to be sent. The gospel chain is unbroken: sent, preaching, hearing, faith, salvation. Break one link and the others snap. Israel has broken the link of obedience.',

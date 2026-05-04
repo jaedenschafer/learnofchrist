@@ -13,6 +13,11 @@ export const ZEPHANIAH_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+  topicTags: ['judgment', 'hope', 'humility', 'mercy'],
+  opener: {
+    topical: true,
+    caption: 'Zephaniah 1',
+  },
   intros: [
     'Zephaniah speaks of a day appointed by God—the Day of the Lord. It is a day of terrible judgment, when God will sweep away everything from the face of the earth. He will consume beasts and birds, fish and the stumbling blocks—all will be removed. From the people of Judah, He will cut off those who serve idols, those who swear by false gods, those who have turned away.',
     'But the Day of the Lord is not presented as abstract or distant. It is near. It is imminent. And it is described with vivid detail and a sense of urgency. Those who are far off will hear the sound of the trumpet. Those who are complacent will be shaken from their indifference.',

@@ -9,6 +9,11 @@ export const ZECHARIAH_5: RichChapterContent = {
   chapter: 5,
 
   estimatedMinutes: { beginner: 1, intermediate: 2, deep: 4 },
+  topicTags: ['hope', 'messianic-prophecy', 'second-coming', 'kingship'],
+  opener: {
+    topical: true,
+    caption: 'Zechariah 5',
+  },
   intros: [
     'In the fifth and sixth visions, Zechariah sees wickedness being removed from the land. A flying scroll carries curses against thieves and liars, and a woman representing wickedness is carried away in a basket to a distant land. These visions assure Israel that God will cleanse the land of sin and that His restoration is not merely external but involves the removal of moral corruption.',
   ],

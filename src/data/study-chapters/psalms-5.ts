@@ -16,6 +16,11 @@ export const PSALMS_5: RichChapterContent = {
   chapter: 5,
 
   estimatedMinutes: { beginner: 2, intermediate: 7, deep: 8 },
+  topicTags: ['praise', 'lament', 'hope', 'protection'],
+  opener: {
+    topical: true,
+    caption: 'Psalms 5',
+  },
   intros: [
     'Psalm 5 is titled "A Meditation of David, which he prayed unto the Lord," and it is given as a morning prayer. The psalmist wakes and his first words are directed heavenward—"Give ear to my words, O Lord, consider my meditation." It is not a cry of distress, though there is urgency in the prayer. Rather, it is the voice of one who has learned that the first place to turn with both joy and struggle is to God. And the psalmist speaks to God as "my King, and my God"—both king and God, both sovereign and intimate.',
     'The movement of the psalm is one of orientation. The psalmist begins by crying out for God to hear. Then he affirms that his voice will be heard in the morning—that God listens for the prayers of the righteous. Then he makes his way—into God&apos;s house, drawn by the multitude of God&apos;s mercy, worshiping in fear and favor. And he concludes with the certainty that the righteous will be blessed, that the Lord will compass them with favor "as with a shield." The psalm is a journey inward—from the outer cry to the inner sanctuary, from fear to favor, from petition to assurance.',

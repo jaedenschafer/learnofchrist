@@ -20,6 +20,11 @@ export const LUKE_12: RichChapterContent = {
   chapter: 12,
 
   estimatedMinutes: { beginner: 1, intermediate: 5, deep: 7 },
+  topicTags: ['compassion', 'mission', 'witness', 'humility'],
+  opener: {
+    topical: true,
+    caption: 'Luke 12',
+  },
   intros: [
     'Jesus says to His disciples: "Beware ye of the leaven of the Pharisees, which is hypocrisy." Hypocrisy is a hidden thing, invisible on the surface. But it will be revealed. "For there is nothing covered, that shall not be revealed; neither hid, that shall not be known. Therefore whatsoever ye have spoken in darkness shall be heard in the light; and that which ye have spoken in the ear in closets shall be proclaimed upon the housetops." All hidden things will come into the light. All secret words will be made known.',
     'A man in the crowd says: "Master, speak to my brother, that he divide the inheritance with me." Jesus says: "Take heed, and beware of covetousness: for a man&apos;s life consisteth not in the abundance of the things which he possesseth." He speaks a parable of a rich man who thinks to build greater barns to hold his abundance. But God says to him: "Thou fool, this night thy soul shall be required of thee: then whose shall those things be which thou hast provided?" The man has gathered riches but is not rich toward God.',

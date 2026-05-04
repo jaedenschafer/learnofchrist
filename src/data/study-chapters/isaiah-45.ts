@@ -18,6 +18,11 @@ export const ISAIAH_45: RichChapterContent = {
   chapter: 45,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+  topicTags: ['hope', 'deliverance', 'messianic-prophecy', 'new-creation'],
+  opener: {
+    topical: true,
+    caption: 'Isaiah 45',
+  },
   intros: [
     'Isaiah 45 escalates the claim about God&apos;s uniqueness and power. Not only is there no other God, but ultimately every knee will bow to this God. Every tongue will swear to Him. This is not coercion. This is the inevitable recognition of truth. All the ends of the earth will look to God and be saved. The salvation is not limited to Israel. It is universal. All nations will come to know that God alone is God. This chapter sets the stage for the New Testament picture of Christ—the one before whom every knee will bow and every tongue will confess.',
   ],

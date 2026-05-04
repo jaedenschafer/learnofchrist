@@ -19,6 +19,11 @@ export const EZEKIEL_27: RichChapterContent = {
   chapter: 27,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+  topicTags: ['judgment', 'glory', 'hope', 'second-coming'],
+  opener: {
+    topical: true,
+    caption: 'Ezekiel 27',
+  },
   intros: [
     'Ezekiel 27 is the most extensive lamentation in the book. It focuses entirely on Tyre as a merchant vessel—beautiful, well-built, laden with treasures from every known nation. The prophet catalogs the exotic goods: purple fabrics, linen, emeralds, rubies, sapphires, coral, agate, silver, tin, iron. The specificity is overwhelming. This is not a generic attack on Tyre. It is a detailed, sorrowful farewell to a civilization built on commerce.',
     'The chapter ends with the image of the ship wrecked in the sea, sinking into the depths. Mariners will strip the wreckage. All who knew Tyre will weep, asking: who was like Tyre, trading across the seas? And the answer, implicit in the desolation, is: no one. And she is gone. The lamentation teaches a hard lesson: wealth is not security. Trade routes can be severed. Ships can sink. What is built will fall.',

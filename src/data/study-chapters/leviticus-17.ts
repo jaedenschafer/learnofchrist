@@ -15,6 +15,11 @@ export const LEVITICUS_17: RichChapterContent = {
   chapter: 17,
 
   estimatedMinutes: { beginner: 6, intermediate: 10, deep: 13 },
+  topicTags: ['holiness', 'sacrifice', 'priest', 'worship'],
+  opener: {
+    topical: true,
+    caption: 'Leviticus 17',
+  },
   intros: [
     'Leviticus 17 is where the Holiness Code begins — chapters 17 through 26, a ring-fenced section on how a people set apart for God actually live. It opens not with moral law or ceremonial detail, but with blood. One law: you cannot slaughter an animal at home. All animals must be brought to the tabernacle, to the priest, where the blood is caught and consecrated. No backyard butchering. No hunting on the side. The stakes are starkly theological: eat meat anywhere, and you are eating <em>nephesh</em> — the life force itself — without God&apos;s knowledge or permission.',
     'Behind the law lies a single, breath-stopping verse, verse 11: "the life of the flesh is in the blood... it is the blood that maketh an atonement for the soul." God Himself explains why blood matters. And then the whole New Testament is His answer to the consequence: what does a people do when God offers them the Blood that actually atones? When Jesus says, "Drink ye all of it" — He is calling them into the very thing Leviticus forbade, and inviting them into a covenant older than the law itself.',

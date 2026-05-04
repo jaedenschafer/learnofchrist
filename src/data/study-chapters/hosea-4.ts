@@ -15,6 +15,11 @@ export const HOSEA_4: RichChapterContent = {
   chapter: 4,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+  topicTags: ['faithfulness', 'mercy', 'sin', 'love'],
+  opener: {
+    topical: true,
+    caption: 'Hosea 4',
+  },
   intros: [
     'Hosea 4 opens with a legal charge. God brings a lawsuit against His people. Not for external violations alone, but for a deeper failure: they do not know Him. "My people are destroyed for lack of knowledge." This is the tragedy at the heart of Israel&apos;s unfaithfulness — not ignorance of law, but ignorance of God.',
     'The priests and prophets have become complicit in the destruction. They have multiplied transgression. They have forgotten the law of their God. And the people, having no knowledge of God, have become like cattle — wandering, without understanding, without guidance. The chapter calls Israel back, not to mere obedience, but to relationship.',

@@ -16,6 +16,11 @@ export const ISAIAH_62: RichChapterContent = {
   chapter: 62,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+  topicTags: ['hope', 'deliverance', 'messianic-prophecy', 'new-creation'],
+  opener: {
+    topical: true,
+    caption: 'Isaiah 62',
+  },
   intros: [
     'Isaiah 62 is the prophet\'s declaration of persistent intercession. He will not rest until Zion\'s righteousness shines forth. The metaphor shifts from a woman restored to a woman beloved. Zion is no longer a widow, a forsaken one. She is the wife of her Maker, called by a new name that speaks of her dignity and belonging. The passage echoes Isaiah 54\'s bridal imagery and looks forward to Revelation 19, where the Church is the Bride of the Lamb, prepared and adorned for the wedding feast.',
   ],

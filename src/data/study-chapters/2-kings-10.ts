@@ -25,6 +25,11 @@ export const KINGS_2_10: RichChapterContent = {
   chapter: 10,
 
   estimatedMinutes: { beginner: 5, intermediate: 12, deep: 17 },
+  topicTags: ['kingship', 'judgment', 'sin', 'exile'],
+  opener: {
+    topical: true,
+    caption: '2 Kings 10',
+  },
   intros: [
     'Jehu has been anointed by a prophet of Elisha to strike down the house of Ahab. His commission is explicit and terrible: avenge the blood spilled by Ahab and Jezebel. Ahab is already dead, killed in battle at Ramoth-gilead; but his dynasty lives on in seventy sons, a family grown fat on plunder and idolatry. Jehu wastes no time. He writes letters to the rulers and elders of Samaria—letters that read as a loyalty test: the recipients must choose between Jehu and their young princes. The response is immediate and terrified: "Two kings stood not before him: how then shall we stand?" Rather than raise up a new king, Samaria yields. What follows is a cascade of death: the seventy sons of Ahab lose their heads; the kinfolk of Ahaziah are hunted down; the house of Baal is stripped bare and destroyed. By the end of 2 Kings 10, Ahab&apos;s name is nearly erased from the earth.',
     'Yet Jehu&apos;s story is more complex than a simple tale of divine vengeance. His deception—using a false holy assembly to trap Baal&apos;s priests—is cunning, even cruel. His promise to serve Baal "much" is a ruse. The question haunting the chapter is not whether he succeeded, but whether success without wholeness of heart is truly faithfulness. By the end, the Lord has blessed him with four generations of descendants on the throne. But the kingdom has already begun to shrink. Hazael, king of Syria, cuts Israel short in all her coasts. Partial obedience brings partial blessing. The full picture will emerge only in Christ, whose zeal is pure and whose obedience is complete.',

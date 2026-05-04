@@ -19,6 +19,11 @@ export const JOB_20: RichChapterContent = {
   chapter: 20,
 
   estimatedMinutes: { beginner: 3, intermediate: 6, deep: 9 },
+  topicTags: ['suffering', 'hope', 'sovereignty', 'lament'],
+  opener: {
+    topical: true,
+    caption: 'Job 20',
+  },
   intros: [
     'Zophar is angered by Job&apos;s affirmation of a Redeemer and a future vindication. How dare Job speak of resurrection, of standing before God, of seeing God in the flesh? Zophar will hear none of this. He returns to the simple, brutal doctrine: the wicked prosper for a moment, then they are destroyed. Their joy is brief. Their triumph is short. And Zophar is certain that this doctrine applies to Job. Job is wicked. His prosperity will end. His suffering is the proof.',
     'Zophar&apos;s speech is constructed as a meditation on the brevity of wickedness. The wicked man swallows poison. He vomits it back up. His riches turn to ashes in his mouth. His days are few. His nights are terrible. Zophar speaks with the certainty of one who has never suffered, who has never watched the wicked flourish while the righteous languish, who has never had to wrestle with the apparent absence of God&apos;s justice. And yet even as Zophar speaks, he unknowingly points to the truth: there is a day of judgment, but it is not the day he thinks. It is the day when Christ returns, when the works of the flesh are exposed, when the innocent are vindicated and the wicked are judged.',

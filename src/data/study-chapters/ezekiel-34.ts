@@ -15,6 +15,11 @@ export const EZEKIEL_34: RichChapterContent = {
   chapter: 34,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 5 },
+  topicTags: ['judgment', 'glory', 'hope', 'second-coming'],
+  opener: {
+    topical: true,
+    caption: 'Ezekiel 34',
+  },
   intros: [
     'The prophets of Israel are shepherds—called to tend the flock of God&apos;s people. But Israel&apos;s actual shepherds—her kings, priests, and leaders—have become corrupt. They use their position for personal gain. They do not bind up the broken, do not seek the lost, do not strengthen the weak. Instead, they rule with harshness and selfishness. The sheep are scattered. The flock is neglected. God looks at this scene and His heart burns with anger and compassion in equal measure.',
     'But God does not simply condemn the bad shepherds and leave the flock without care. He promises to do the shepherding Himself. He will seek out His sheep. He will gather the scattered ones. And then He will "set up one shepherd over them, even my servant David, and he shall feed them." This is the promise of Christ—the Shepherd who will know His sheep by name, who will lead them to green pastures, who will lay down His life for them.',

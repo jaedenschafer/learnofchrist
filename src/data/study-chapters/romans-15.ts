@@ -17,6 +17,11 @@ export const ROMANS_15: RichChapterContent = {
   chapter: 15,
 
   estimatedMinutes: { beginner: 8, intermediate: 16, deep: 25 },
+  topicTags: ['mercy', 'faithfulness', 'hope', 'righteousness'],
+  opener: {
+    topical: true,
+    caption: 'Romans 15',
+  },
   intros: [
     'Romans 15 is where Paul brings his whole letter home to the body. For fourteen chapters he has unfolded the gospel: sin is universal, grace is free, faith justifies, the Spirit indwells and transforms. Now he names what that means when two people—one strong in conscience, one weak—live in the same house or the same church. The strong must bear the weak. Not with condescension, but with the mind of Christ, who pleased not Himself.',
     'The chapter is also Paul&apos;s farewell. He is about to leave Rome (or rather, he plans to, on his way from Jerusalem to Spain). The gift the churches are sending to the poor Jewish saints in Jerusalem is not just charity—it is visible proof that the gospel has broken the wall between Jew and Gentile. And it is backed by prayer. The whole enterprise—bearing each other, obeying the gospel, going to the ends of the earth—rests on the God of peace.',

@@ -17,6 +17,11 @@ export const PSALMS_32: RichChapterContent = {
   chapter: 32,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 5 },
+  topicTags: ['praise', 'lament', 'hope', 'protection'],
+  opener: {
+    topical: true,
+    caption: 'Psalms 32',
+  },
   intros: [
     'Psalm 32 is a song of grace. It begins with celebration and moves through confession to restoration. The psalmist teaches that blessedness comes not through perfection, but through the courageous admission of sin and the experience of forgiveness. There is relief in this psalm—the relief of one who has carried a burden and finally set it down, who has kept silence and finally spoken, who has withheld confession and finally come clean.',
   ],

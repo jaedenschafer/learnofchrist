@@ -18,6 +18,11 @@ export const DEUTERONOMY_8: RichChapterContent = {
   chapter: 8,
 
   estimatedMinutes: { beginner: 7, intermediate: 12, deep: 16 },
+  topicTags: ['covenant', 'faithfulness', 'leadership', 'love'],
+  opener: {
+    topical: true,
+    caption: 'Deuteronomy 8',
+  },
   intros: [
     'Deuteronomy 8 is Moses&apos; meditation on the meaning of forty years in the wilderness. He does not soft-pedal the hardship — hunger, thirst, the absence of home — but frames it entirely as God&apos;s deliberate pedagogy. A father chastens his son, and the Lord has chastened Israel.',
     'Yet the wilderness was also a school of trust. Manna was not bread they knew. Their clothes did not wear out. God provided what they could not provide for themselves. This is the lesson Jesus would stand up and repeat in His own wilderness: that a human being does not live by bread alone, but by every word proceeding from God&apos;s mouth.',

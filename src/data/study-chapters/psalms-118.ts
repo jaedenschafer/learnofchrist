@@ -17,6 +17,11 @@ export const PSALMS_118: RichChapterContent = {
   chapter: 118,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 6 },
+  topicTags: ['praise', 'lament', 'hope', 'protection'],
+  opener: {
+    topical: true,
+    caption: 'Psalms 118',
+  },
   intros: [
     'Psalm 118 is a song of thanksgiving, heard by ancient pilgrims approaching the temple, chanted by those who had passed through the deep waters of trouble and found themselves delivered on the other side. It opens not with complaint or fear, but with exhortation: "Give thanks unto the Lord; for he is good: because his mercy endureth for ever." The entire psalm is shaped by this conviction — that God&apos;s goodness is not conditional, not earned, not fleeting, but eternal. Again and again it returns to the refrain: His mercy endureth for ever.',
     'But the psalm is also realistic about the path to thanksgiving. The singer has been "pressed on every side," "the Lord chastened me sore," yet did not give him over unto death. And at the center of the psalm stands a peculiar image: the rejected stone. The builders cast it aside, deemed it worthless. Yet God elevated it to the head of the corner—the place of supreme importance. This paradox, rejected and elevated in the same breath, speaks directly to Christ.',

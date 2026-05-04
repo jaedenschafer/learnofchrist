@@ -16,6 +16,11 @@ export const SECOND_CORINTHIANS_9: RichChapterContent = {
   chapter: 9,
 
   estimatedMinutes: { beginner: 5, intermediate: 9, deep: 15 },
+  topicTags: ['suffering', 'compassion', 'witness', 'hope'],
+  opener: {
+    topical: true,
+    caption: '2 Corinthians 9',
+  },
   intros: [
     'In 2 Corinthians 8 and 9, Paul is writing about a collection for the Jerusalem church — saints facing poverty and hardship. The Corinthian church has promised to give. But now Paul circles back: not to demand it, but to remind them why generosity matters and how it works. The goal is not guilt. It is grace.',
     'This chapter holds one of Scripture&apos;s most misunderstood verses: "God loveth a cheerful giver." It is not about personality type or feeling obligated to smile. It is about the deep conviction that God is faithful, and because He is, we can give freely. Generosity is not a law imposed from outside. It is the overflow of a heart that has been transformed by undeserved kindness.',

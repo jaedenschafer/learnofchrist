@@ -22,6 +22,11 @@ export const NUMBERS_24: RichChapterContent = {
   chapter: 24,
 
   estimatedMinutes: { beginner: 7, intermediate: 13, deep: 14 },
+  topicTags: ['provision', 'protection', 'leadership', 'doubt'],
+  opener: {
+    topical: true,
+    caption: 'Numbers 24',
+  },
   intros: [
     'Balaam the sorcerer was hired to curse Israel. Three times he climbed a high place with the king of Moab, burned offerings, and positioned himself to pronounce destruction. Three times the Spirit of God came upon him instead, and blessing poured out of his mouth. He could not stop it. By the fourth oracle, he stops even trying to hide what is happening: &ldquo;Now I cannot curse, because the Spirit is with you.&rdquo;',
     'The third oracle is a picture of Israel&apos;s beauty and God&apos;s pleasure in her. But the fourth — the oracle that becomes one of the Old Testament&apos;s most famous Messianic seeds — arrives without any attempt at enchantment. The Spirit comes. Balaam sees, and the prophecy that bursts out speaks of a Star and a Scepter that shall rise out of Jacob. Centuries of Jewish tradition, Christian interpretation, the Dead Sea Scrolls, and Jesus&apos;s own followers all recognized what these words pointed to. This is the verse that made a rebel in 135 AD call himself Bar Kochba — the Son of the Star.',

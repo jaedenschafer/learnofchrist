@@ -17,6 +17,11 @@ export const ISAIAH_34: RichChapterContent = {
   chapter: 34,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 6 },
+  topicTags: ['judgment', 'calling', 'hope', 'sovereignty'],
+  opener: {
+    topical: true,
+    caption: 'Isaiah 34',
+  },
   intros: [
     'After the vision of the king and the city at rest comes a vision of judgment. Isaiah calls the nations to witness. The Lord will have judgment against all nations, and fury against all their armies. But the focus falls on Edom—the ancient enemy, the nation that has gloated over Israel&apos;s suffering. Upon Edom, the sword of God will fall. The land will burn. The streams will become pitch. Fire will consume the earth and all that is in it. This is not a chapter of comfort. This is a chapter of justice—the promise that those who oppose God and His people will face reckoning.',
   ],

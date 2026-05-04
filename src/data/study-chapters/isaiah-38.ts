@@ -16,6 +16,11 @@ export const ISAIAH_38: RichChapterContent = {
   chapter: 38,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+  topicTags: ['judgment', 'calling', 'hope', 'sovereignty'],
+  opener: {
+    topical: true,
+    caption: 'Isaiah 38',
+  },
   intros: [
     'Not all trials come from external enemies. Hezekiah now faces an internal enemy—sickness. Isaiah tells him he will die. But Hezekiah turns to the wall and prays to God. "I beseech thee, O Lord, remember now how I have walked before thee in truth and with a perfect heart, and have done that which is good in thy sight." God responds. His life will be extended by fifteen years. As a sign, the shadow on the sundial will move backward ten degrees—not forward, but backward. Time itself will reverse. The king will be healed. Death will be delayed. The Lord reverses the shadow.',
   ],

@@ -18,6 +18,11 @@ export const CHRONICLES_1_27: RichChapterContent = {
   chapter: 27,
 
   estimatedMinutes: { beginner: 2, intermediate: 7, deep: 10 },
+  topicTags: ['kingship', 'worship', 'covenant', 'faithfulness'],
+  opener: {
+    topical: true,
+    caption: '1 Chronicles 27',
+  },
   intros: [
     'The book of 1 Chronicles is a record of order and belonging. David is king, Israel is gathered, and now we see the full architecture of the kingdom — not the wars or the politics, but the administration. Chapter 27 is a census, not of people alone, but of roles, responsibilities, and the intricate web of service that holds a nation together.',
     'There are twelve divisions of the army, each numbering 24,000 men, each serving the king for one month of the year. There are princes representing each of the twelve tribes of Israel. There are treasurers and overseers — men appointed to manage vineyards, olive groves, herds of camels, flocks of sheep, and stores of oil. There are counsellors and companions to the king. And there is David at the center, a king who counts every part of his kingdom, who knows the names of those who serve, who has organized his realm with the care of a shepherd tending a flock. In this vast organization, we see a portrait of stewardship.',

@@ -16,6 +16,11 @@ export const ISAIAH_52: RichChapterContent = {
   chapter: 52,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+  topicTags: ['hope', 'deliverance', 'messianic-prophecy', 'new-creation'],
+  opener: {
+    topical: true,
+    caption: 'Isaiah 52',
+  },
   intros: [
     'Isaiah 52 begins with joy: shake off the dust, O captive Zion. The ransomed are returning with singing. But the chapter ends with a stark image. The Servant who brings good tidings will be despised and rejected. His form will be marred beyond any man\'s. Yet kings will shut their mouths at Him, for they shall see what they have not been told. This is the transition to Isaiah 53, the great Suffering Servant chapter. Here we see both the promise of redemption and the cost that redemption demands.',
   ],

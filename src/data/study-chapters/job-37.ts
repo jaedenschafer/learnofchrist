@@ -14,6 +14,11 @@ export const JOB_37: RichChapterContent = {
   chapter: 37,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 5 },
+  topicTags: ['suffering', 'hope', 'sovereignty', 'lament'],
+  opener: {
+    topical: true,
+    caption: 'Job 37',
+  },
   intros: [
     'Elihu&apos;s final speech moves from abstract theology to the natural world. He points to the storm, to thunder and snow and rain, to the intricate balance of nature. All of this, he argues, comes from God and reflects God&apos;s power and wisdom. The creation itself is a teacher. If Job would only stand still and listen, the works of God would instruct him.',
   ],

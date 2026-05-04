@@ -15,6 +15,11 @@ export const PSALMS_114: RichChapterContent = {
   chapter: 114,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+  topicTags: ['praise', 'lament', 'hope', 'protection'],
+  opener: {
+    topical: true,
+    caption: 'Psalms 114',
+  },
   intros: [
     'Psalm 114 is one of the shortest psalms, yet it contains one of the grandest visions. The exodus—the deliverance of Israel from Egypt—is presented as a cosmic event. Creation itself trembles and shifts in response to God&apos;s power. The sea does not gradually recede; it flees in fear. The earth trembles. The mountains and hills dance like young animals. This is not merely a historical narrative. It is a testimony to God&apos;s power over all creation. And if God can do this, what obstacle can stand before His people?',
     'The psalm was sung during the Jewish Passover celebration, recalling God&apos;s mighty acts in delivering the people. It reminds each generation: the God who parted the sea for our ancestors is the God we worship. His power has not diminished. What He has done, He can do again.',

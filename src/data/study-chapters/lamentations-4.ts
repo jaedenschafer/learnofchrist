@@ -15,6 +15,11 @@ export const LAMENTATIONS_4: RichChapterContent = {
   chapter: 4,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+  topicTags: ['lament', 'suffering', 'hope', 'mercy'],
+  opener: {
+    topical: true,
+    caption: 'Lamentations 4',
+  },
   intros: [
     'Lamentations 4 turns from the depths of despair to the concrete devastation of the siege. The metaphor of gold and its tarnishing opens the chapter. Jerusalem, which was like fine gold, has become dim and tarnished. The preciousness has been lost. And the cause is sin. "The stones of the sanctuary are poured out in the top of every street."',
     'The chapter describes the horrors of siege: mothers eating their own children, the young children crying for bread that no one can provide, the warriors weakened by hunger. It is unflinching in its realism. Yet even in this horror, there is a note of purification: the gold is tarnished, but it can be refined. The impurities are burned away. And in that burning, what remains is purer than before.',

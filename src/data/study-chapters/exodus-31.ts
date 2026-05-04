@@ -13,6 +13,11 @@ export const EXODUS_31: RichChapterContent = {
   chapter: 31,
 
   estimatedMinutes: { beginner: 5, intermediate: 9, deep: 12 },
+  topicTags: ['covenant', 'holiness', 'worship', 'sacrifice'],
+  opener: {
+    topical: true,
+    caption: 'Exodus 31',
+  },
   intros: [
     'Exodus 31 is the moment God raises up the artisans who will build His earthly dwelling — the tabernacle where His presence will dwell with Israel. Bezalel and Aholiab are named, and the text makes something very clear: their skill is not their own achievement. God Himself fills Bezalel with the Spirit to craft.',
     'This is the first explicit Spirit-filling in the entire Bible. Not a prophet receiving a word. Not a leader receiving courage. But an artist receiving the Spirit of God for the sake of beauty, precision, and the building of a place where heaven and earth meet. God cares that His house is made well.',

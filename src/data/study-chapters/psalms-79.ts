@@ -15,6 +15,11 @@ export const PSALMS_79: RichChapterContent = {
   chapter: 79,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+  topicTags: ['praise', 'lament', 'hope', 'protection'],
+  opener: {
+    topical: true,
+    caption: 'Psalms 79',
+  },
   intros: [
     'Psalm 79 is a psalm of communal lament born from the worst kind of violation. The heathen have come into Israel&apos;s inheritance. The holy temple has been defiled. The dead bodies of God&apos;s servants have been left unburied. The nation has become a reproach to its neighbors. All that was sacred has been desecrated, all that was holy has been profaned.',
     'Yet in the midst of this catastrophe, the psalmist does not curse God or turn away. Instead, he cries out to God precisely on the grounds that God&apos;s own name is at stake. How long will the nations taunt God&apos;s people? How long will enemies blaspheme God&apos;s name? The prayer is not primarily for the relief of the people, though that is included. It is for the vindication of God&apos;s name, for the restoration of what has been defiled, for the assertion of God&apos;s sovereignty over the nations that have come into His inheritance.',

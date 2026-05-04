@@ -6,6 +6,11 @@ export const PSALMS_55: RichChapterContent = {
   chapter: 55,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 6 },
+  topicTags: ['praise', 'lament', 'hope', 'protection'],
+  opener: {
+    topical: true,
+    caption: 'Psalms 55',
+  },
   intros: [
     'Psalm 55 is David&apos;s cry of anguish over the deepest kind of betrayal[res:sefaria-psalms-55]: betrayal by a friend. "It was not an enemy that reproached me...but it was thou, a man mine equal, my guide, and mine acquaintance." This is not the betrayal of a stranger, not even the betrayal of a rival. This is the betrayal of one who walked beside him, who was trusted, who was intimate. The wound cannot be overstated. "We took sweet counsel together," David remembers, "and walked unto the house of God in company."',
     'What makes this psalm remarkable is that David does not succumb to despair, though the anguish is real and articulate. "My heart is sore pained within me: and the terrors of death are fallen upon me. Fearfulness and trembling are come upon me, and horror hath overwhelmed me." Yet in the midst of this pain, David turns to prayer. "Cast thy burden upon the Lord; and he shall sustain thee." He invites others to join him in this surrender.',

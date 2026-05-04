@@ -17,6 +17,11 @@ export const PSALMS_35: RichChapterContent = {
   chapter: 35,
 
   estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
+  topicTags: ['praise', 'lament', 'hope', 'protection'],
+  opener: {
+    topical: true,
+    caption: 'Psalms 35',
+  },
   intros: [
     'Psalm 35 is a psalm of conflict and vindication. The psalmist faces enemies[res:sefaria-psalms-35] who have wronged him, who mock him, who heap false accusations upon him. He prays not that God destroy them, but that God arise as his defender, that God plead his cause, that his innocence be established. This prayer finds its deepest resonance in Christ, the Innocent One who faced false accusation and who now stands as Advocate for all who trust in Him.',
   ],

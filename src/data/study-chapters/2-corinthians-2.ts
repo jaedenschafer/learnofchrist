@@ -16,6 +16,11 @@ export const SECOND_CORINTHIANS_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 6, intermediate: 11, deep: 15 },
+  topicTags: ['suffering', 'compassion', 'witness', 'hope'],
+  opener: {
+    topical: true,
+    caption: '2 Corinthians 2',
+  },
   intros: [
     'Paul has written the Corinthians a severe letter about a man in discipline. The discipline has worked—the man has repented. Now Paul pivots from judgment to mercy. He does not want to pile on more sorrow. Instead, he calls the church to forgive, to comfort, to restore the man to fellowship. This is the heart of pastoral power: the ability to inflict pain when needed, and the greater ability to heal when the time has come.',
     'But 2 Corinthians 2 moves beyond one man&apos;s restoration. Paul turns to his own apostolic life and reveals something staggering: he and his team are the fragrance of Christ. Wherever they go, they release the scent of His knowledge. Yet that fragrance works differently in different hearts. To those who are being saved, it smells like life. To those who are perishing, it smells like death. The gospel is never neutral. And the weight of that responsibility drives Paul to a final charge: speak the word of God with integrity, not as many corrupt it for profit, but as one who stands before God Himself.',

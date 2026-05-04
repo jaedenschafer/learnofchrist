@@ -18,6 +18,11 @@ export const JEREMIAH_10: RichChapterContent = {
   chapter: 10,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 6 },
+  topicTags: ['lament', 'judgment', 'hope', 'calling'],
+  opener: {
+    topical: true,
+    caption: 'Jeremiah 10',
+  },
   intros: [
     'Jeremiah 10 draws one of the clearest lines in Scripture between the living God and dead idols. The prophet is scathing in his mockery of idolatry. The craftsman makes an idol: he cuts down a tree, he shapes it, he fastens it with nails and hammers so that it will not move. It is a thing of wood and metal, utterly inert, utterly powerless. Yet the people bow before it, speak to it, expect it to hear them and deliver them. This is brutishness. This is the height of foolishness.',
     'Against this picture of human foolishness stands the God of Israel: "The Lord is the true God, he is the living God, and an everlasting king." He is alive. He acts. He speaks. He sustains creation. To know Him is to know reality itself. To turn from Him is to turn from what is true and toward what is false. Yet the chapter ends not with judgment alone but with a prayer for restoration—even now, even in judgment, the door remains open for those who turn back.',

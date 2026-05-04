@@ -9,6 +9,11 @@ export const ZECHARIAH_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+  topicTags: ['hope', 'messianic-prophecy', 'second-coming', 'kingship'],
+  opener: {
+    topical: true,
+    caption: 'Zechariah 3',
+  },
   intros: [
     'In the third vision, Joshua the high priest stands before the angel of the Lord, clothed in filthy garments. Satan stands to accuse him, but the Lord rebukes the accuser. The filthy garments are stripped away and clean garments are placed upon Joshua. And with this cleansing comes a stunning promise: "Behold, I will bring forth my servant the BRANCH." A messianic hope emerges from the vision of restoration.',
   ],

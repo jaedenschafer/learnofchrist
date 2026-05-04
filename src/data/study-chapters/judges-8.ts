@@ -16,6 +16,11 @@ export const JUDGES_8: RichChapterContent = {
   chapter: 8,
 
   estimatedMinutes: { beginner: 9, intermediate: 15, deep: 19 },
+  topicTags: ['deliverance', 'sin', 'leadership', 'mercy'],
+  opener: {
+    topical: true,
+    caption: 'Judges 8',
+  },
   intros: [
     'Gideon stands at the peak of his influence. The Midianites are broken; the 300 have proven mightier than thousands. But the moment after great victory is when the human heart is most at risk — when pride creeps in, when the instruments of salvation become objects of worship, when a deliverer begins to move like a king.',
     'Judges 8 tells two stories at once. First, the completion of Gideon&apos;s military victory: he pursues the Midianite kings Zebah and Zalmunna to their final defeat. But alongside that triumph runs a darker current. Gideon&apos;s anger burns hotter. He makes threats he carries out. And when the people offer him a crown, he refuses it — yet then builds an ephod that becomes a snare. The chapter closes with Israel forgotten him immediately after his death, worshiping Baal[res:intertextual-judges-decline] again, and showing no gratitude to the man who delivered them. It is a portrait of how quickly we undo the work of God by turning the instruments of victory into idols.',

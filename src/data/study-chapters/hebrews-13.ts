@@ -18,6 +18,11 @@ export const HEBREWS_13: RichChapterContent = {
   chapter: 13,
 
   estimatedMinutes: { beginner: 4, intermediate: 11, deep: 20 },
+  topicTags: ['priest', 'sacrifice', 'faithfulness', 'hope'],
+  opener: {
+    topical: true,
+    caption: 'Hebrews 13',
+  },
   intros: [
     'Hebrews closes not with abstract theology but with living, breathing exhortations. Let brotherly love continue. Be hospitable. Remember those in bonds. Honor marriage. Be content. Refuse strange doctrines. And remember Jesus—the same yesterday, today, and forever. The letter&apos;s profound vision of Christ&apos;s supremacy must produce fruit in how you love others and how you endure hardship.',
     'The final chapter is a tapestry of practical Christian life held together by one thread: the unchanging person of Jesus Christ. In a world of constant flux, He is your stable center. Everything in this chapter—compassion, faithfulness, endurance, sacrifice—flows from resting in His eternal constancy.',

@@ -6,6 +6,11 @@ export const PSALMS_63: RichChapterContent = {
   chapter: 63,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+  topicTags: ['praise', 'lament', 'hope', 'protection'],
+  opener: {
+    topical: true,
+    caption: 'Psalms 63',
+  },
   intros: [
     'David is in the wilderness[res:bible-odyssey-desert-psalms] of Judah, far from the sanctuary, far from the normal rhythms of worship. He is a fugitive, hunted, homeless. And yet his deepest longing is not for physical comfort or safety, but for God. "O God, thou art my God; early will I seek thee: my soul thirsteth for thee, my flesh longeth for thee in a weary and thirsty land, where no water is." His thirst for God is more urgent, more real, than his physical need for water.',
     'Psalm 63 is one of the most intimate prayers in Scripture—the cry of a soul parched for the presence of God. "Because thy lovingkindness is better than life, my lips shall praise thee." Better than life itself—this is David&apos;s assessment of God&apos;s lovingkindness. And in that assessment, he finds satisfaction that no earthly circumstance can take away.',

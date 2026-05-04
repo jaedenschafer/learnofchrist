@@ -15,6 +15,11 @@ export const PSALMS_125: RichChapterContent = {
   chapter: 125,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 3 },
+  topicTags: ['praise', 'lament', 'hope', 'protection'],
+  opener: {
+    topical: true,
+    caption: 'Psalms 125',
+  },
   intros: [
     'Psalm 125 opens with a declaration that reverberates through the entire five-verse song: those who trust in the Lord shall be as Mount Zion—immovable, unmovable, firm, eternal. The psalmist stands on the temple mount and looks around at the mountains that ring Jerusalem. They are ancient. They are solid. They have stood through countless ages. And those who trust in the Lord, the psalmist declares, shall be as these mountains: not fragile, not temporary, not subject to being overthrown. They are as Zion itself—the place where God dwells, the unshakeable foundation.',
   ],

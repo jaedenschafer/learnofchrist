@@ -16,6 +16,11 @@ export const PROVERBS_10: RichChapterContent = {
   chapter: 10,
 
   estimatedMinutes: { beginner: 1, intermediate: 5, deep: 7 },
+  topicTags: ['wisdom', 'righteousness', 'folly', 'integrity'],
+  opener: {
+    topical: true,
+    caption: 'Proverbs 10',
+  },
   intros: [
     'With Proverbs 10, the form of the book changes. The extended narratives and personifications of Wisdom and Folly are set aside. Now we enter the realm of short, punchy sayings—the famous proverbs that people quote and live by. Each verse is generally a couplet, often built on stark contrasts: the righteous and the wicked, the wise and the fool, the diligent and the lazy. Each saying is a distilled observation about how the world works.',
     'The genius of these short sayings is that they force us to see connections we might otherwise miss. A verse about gathering in summer is not merely about agriculture. It is about foresight, about the difference between those who prepare and those who sleep through their opportunities. The proverbs invite us to see our own lives in these images.',

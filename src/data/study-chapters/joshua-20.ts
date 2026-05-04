@@ -21,6 +21,11 @@ export const JOSHUA_20: RichChapterContent = {
   chapter: 20,
 
   estimatedMinutes: { beginner: 6, intermediate: 10, deep: 14 },
+  topicTags: ['leadership', 'sovereignty', 'protection', 'faithfulness'],
+  opener: {
+    topical: true,
+    caption: 'Joshua 20',
+  },
   intros: [
     'Joshua 20 does something remarkable: it turns a law into a landscape. Decades earlier, at Sinai and at the border of Canaan, God commanded cities of refuge—places where the accidental killer could flee and live. Now, with the land finally divided among the tribes, Joshua makes it real. Six cities are named and set apart. The promise is kept.',
     'What makes this chapter pastoral is its distribution. The cities are spread north to south, east to west, so that every Israelite is within a day&apos;s journey of refuge. No one is far from help when the avenger of blood comes hunting. And remarkably, the refuge applies to the stranger too—the foreigner living among Israel. God&apos;s mercy has borders on a map, but not on kinship. For Hebrews reading this as a type of Christ, the picture is unmissable: Christ as our refuge, His death as the release, the gates of the city always open.',

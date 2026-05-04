@@ -9,6 +9,11 @@ export const ZECHARIAH_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 5 },
+  topicTags: ['hope', 'messianic-prophecy', 'second-coming', 'kingship'],
+  opener: {
+    topical: true,
+    caption: 'Zechariah 2',
+  },
   intros: [
     'In Zechariah&apos;s second vision, a man appears with a measuring line, ready to measure Jerusalem. But before the work can begin, the angel of the Lord interrupts with a stunning promise: Jerusalem will be so filled with people and blessing that it cannot be contained within walls. "Sing and rejoice, O daughter of Zion," the prophet is told, "for, lo, I come, and I will dwell in the midst of thee."',
   ],

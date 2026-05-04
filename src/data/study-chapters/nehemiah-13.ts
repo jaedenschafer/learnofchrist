@@ -20,6 +20,11 @@ export const NEHEMIAH_13: RichChapterContent = {
   chapter: 13,
 
   estimatedMinutes: { beginner: 4, intermediate: 11, deep: 16 },
+  topicTags: ['return', 'leadership', 'prayer', 'faithfulness'],
+  opener: {
+    topical: true,
+    caption: 'Nehemiah 13',
+  },
   intros: [
     'Nehemiah 13 is the final chapter of Nehemiah&apos;s record, and it reads not as a victory lap but as a return to battle. The great wall has been built, the dedication has been celebrated, the law has been publicly read. But time passes. Nehemiah returns to the Persian court in the 32nd year of Artaxerxes. And when he comes back to Jerusalem, he finds that what took immense effort to rebuild is unraveling under the weight of human carelessness and corruption.',
     'The chapter unfolds as a series of confrontations: a chamber in the temple has been given to an old enemy of the people; the Levites have not been paid and have scattered to their fields; merchants and foreign traders profane the Sabbath at the city gates; young Jews have married women of foreign nations, and their children have forgotten the language of their people. Each problem demands swift correction. Each correction comes at Nehemiah&apos;s own hand — he clears the chamber, he gathers the Levites, he closes the gates, he confronts the nobles and priests. But the work is not finished. The battles must be fought again. And three times in this chapter, Nehemiah prays a prayer that echoes the weary persistence of a leader who knows that human effort alone cannot sustain what God has begun: "Remember me, O my God, concerning this."',

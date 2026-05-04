@@ -13,6 +13,11 @@ export const MICAH_7: RichChapterContent = {
   chapter: 7,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+  topicTags: ['justice', 'judgment', 'hope', 'humility'],
+  opener: {
+    topical: true,
+    caption: 'Micah 7',
+  },
   intros: [
     'Micah begins chapter 7 in despair. There is no faithful man left. All seek their own gain. Brother deals treacherously with brother. None can be trusted. The faithful have disappeared from the earth. This is not abstract theological lamentation. This is a man who has looked at his society and seen it rot from the inside.',
     'But despair is not the final word. God is the final word. And God&apos;s character is revealed in an extraordinary question: "Who is a God like unto thee, that pardoneth iniquity?" God pardons. He does not merely overlook sin. He actively forgives it, casts it into the depths of the sea where it will never be found again. This is the hope that transcends the darkness.',

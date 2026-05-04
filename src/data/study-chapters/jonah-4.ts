@@ -14,6 +14,11 @@ export const JONAH_4: RichChapterContent = {
   chapter: 4,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+  topicTags: ['mercy', 'repentance', 'calling', 'compassion'],
+  opener: {
+    topical: true,
+    caption: 'Jonah 4',
+  },
   intros: [
     'Jonah preached. Nineveh repented. God spared the city. And Jonah is angry. Not grieved, not disappointed—angry. He wanted judgment. He wanted Nineveh destroyed. The God he serves has betrayed him by being exactly who He has always been: merciful, slow to anger, abounding in steadfast love. In Jonah&apos;s rage, we encounter a man who has obeyed God outwardly but whose heart has never turned.',
     'What follows is God&apos;s final lesson to His prophet. Through the parable of the gourd—a plant that grows in a day and dies in a day—God teaches Jonah the nature of his own love and shows him the vastness of God&apos;s pity for the lost. The book of Jonah ends with a question, not an answer. It invites the reader to stand with God.',

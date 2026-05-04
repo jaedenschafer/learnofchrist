@@ -19,6 +19,10 @@ export const JOB_14: RichChapterContent = {
   chapter: 14,
 
   estimatedMinutes: { beginner: 2, intermediate: 6, deep: 7 },
+  opener: {
+    topical: true,
+    caption: 'Job 14',
+  },
   topicTags: ['suffering', 'hope', 'lament', 'resurrection'],
   intros: [
     'Job now moves to a profound meditation on the human condition. "Man that is born of a woman is of few days, and full of trouble." This is not bitterness now, but a kind of wisdom. Job is acknowledging something universal: all humans are born into a condition of limitation and suffering. We are of few days—our time is brief. And those few days are full of trouble. We do not get to choose the conditions into which we are born. We are trapped in a condition of mortality and pain.',

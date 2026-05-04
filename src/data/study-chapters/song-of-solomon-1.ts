@@ -16,6 +16,11 @@ export const SONG_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 1, intermediate: 5, deep: 7 },
+  topicTags: ['love', 'family', 'faithfulness', 'humility'],
+  opener: {
+    topical: true,
+    caption: 'Song of Solomon 1',
+  },
   intros: [
     'The Song of Solomon is unique in Scripture. It does not mention God by name. It does not present itself as instruction or prophecy. It is simply a love song—or rather, a collection of love songs—between a bride and a bridegroom. It celebrates their desire for each other, their beauty, their intimacy. And it does so with a frankness about the body and sexuality that can surprise the modern reader. The Song affirms that the desire between a man and a woman is good, that the body is beautiful, that erotic love has a place within the covenant of marriage.',
     'The Bride opens with an urgent cry: "Let him kiss me with the kisses of his mouth." She is beside herself with desire. She does not introduce herself slowly. She does not wait. She expresses her longing directly, passionately. And she explains it: his love is better than wine. Wine gladdens the heart, brings joy. But his love—his presence, his affection, his body, his attention—surpasses all of these. The Christian tradition reads this opening cry as the cry of the Church toward Christ, the Bridegroom who is "altogether lovely" and whose love transcends all other goods.',

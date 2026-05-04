@@ -20,6 +20,11 @@ export const JOB_25: RichChapterContent = {
   chapter: 25,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+  topicTags: ['suffering', 'hope', 'sovereignty', 'lament'],
+  opener: {
+    topical: true,
+    caption: 'Job 25',
+  },
   intros: [
     'Bildad has been silent since Job 18. Now he speaks one final time. His speech is the shortest of all the speeches of the friends—just six verses. And yet these six verses pose the deepest question of the entire book: "How then can man be justified with God? or how can he be clean that is born of a woman?" Bildad is asking the fundamental theological question of the human condition: given that God is infinitely exalted, given that humans are finite and corrupt, how can any human being stand before God and be just? This question lies beneath all of Job&apos;s suffering. This is the scandal: Job cannot justify himself before God. No one can.',
     'But Bildad does not answer his own question. He simply asks it and stops. In a sense, Bildad has finally arrived at humility. He has abandoned the attempt to explain Job&apos;s suffering through doctrine. He has fallen silent before the mystery. But he does not know—and Job does—that the answer to his question has already been spoken. The Redeemer liveth. The Redeemer will stand at the latter day. And through the Redeemer, the one born of a woman will be justified, will be made clean, will be able to stand before God and see God and live.',

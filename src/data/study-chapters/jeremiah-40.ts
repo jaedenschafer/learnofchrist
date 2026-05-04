@@ -14,6 +14,11 @@ export const JEREMIAH_40: RichChapterContent = {
   chapter: 40,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 3 },
+  topicTags: ['lament', 'judgment', 'hope', 'calling'],
+  opener: {
+    topical: true,
+    caption: 'Jeremiah 40',
+  },
   intros: [
     'After the fall of Jerusalem, exile seems total. The powerful are taken to Babylon. The Temple is burned. The walls are broken. But God has preserved a promise: not all are exiled. A remnant remains. These are the poor of the land, those left behind in the chaos of war. And over this remnant, God raises a governor—Gedaliah—and sends Jeremiah to walk among them.',
     'The pattern is ancient. In Noah&apos;s flood, a remnant was saved. Through Joseph, a remnant of Israel came to Egypt and was preserved. In exile, a remnant will be the seed of restoration. God never entirely abandons His people. Always there is a faithful few, a small group through whom restoration can flow.',

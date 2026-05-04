@@ -6,6 +6,11 @@ export const PSALMS_58: RichChapterContent = {
   chapter: 58,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+  topicTags: ['praise', 'lament', 'hope', 'protection'],
+  opener: {
+    topical: true,
+    caption: 'Psalms 58',
+  },
   intros: [
     'Psalm 58 is one of the imprecatory psalms—prayers that call down judgment[res:sefaria-psalms-58] on enemies. It opens with a challenge to wicked judges: "Do ye indeed speak righteousness, O congregation? do ye judge uprightly, O ye sons of men?" These are not abstract enemies, but those who hold power and use it for injustice. They speak of righteousness while their hearts are full of violence. Their tongues work like serpents, spreading lies and poison.',
     'The psalmist calls upon God to break the teeth of the wicked, to scatter them, to melt them like water. The imagery is fierce, and it is meant to be. When human judges fail, when the powerful oppress the weak, when righteousness is trampled, the believer appeals to the ultimate Judge. And the psalm ends with assurance: God&apos;s justice is certain. "Verily there is a reward for the righteous: verily he is a God that judgeth in the earth."',

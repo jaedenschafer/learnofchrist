@@ -17,6 +17,11 @@ export const PSALMS_26: RichChapterContent = {
   chapter: 26,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 5 },
+  topicTags: ['praise', 'lament', 'hope', 'protection'],
+  opener: {
+    topical: true,
+    caption: 'Psalms 26',
+  },
   intros: [
     'Psalm 26 is a prayer of integrity spoken before God. "Judge me, O Lord; for I have walked in mine integrity." The psalmist is not claiming sinlessness, but rather that he has genuinely attempted to live according to God&apos;s ways, that his heart is turned toward righteousness[res:bible-odyssey-integrity-psalms]. He invites God&apos;s scrutiny. He asks to be tested. This is the confidence of one who has nothing to hide from God, though he knows he is not perfect.',
   ],

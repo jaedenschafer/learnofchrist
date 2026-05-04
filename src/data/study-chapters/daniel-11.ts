@@ -15,6 +15,11 @@ export const DANIEL_11: RichChapterContent = {
   chapter: 11,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+  topicTags: ['faithfulness', 'sovereignty', 'second-coming', 'protection'],
+  opener: {
+    topical: true,
+    caption: 'Daniel 11',
+  },
   intros: [
     'The angel continues to reveal to Daniel what is written in the scripture of truth. "Also I in the first year of Darius the Mede, even I, stood to confirm and to strengthen him." The angel speaks of the kingdoms that will arise: "Behold, there shall stand up yet three kings in Persia; and the fourth shall be far richer than they all." Then a mighty king of Greece shall arise and rule with great dominion, but his kingdom shall be broken and divided toward the four winds of heaven.',
     'What follows is an extraordinarily detailed prophecy of historical events—the wars between the Seleucid dynasty (the king of the north) and the Ptolemaic dynasty (the king of the south) that would dominate the ancient world after Alexander&apos;s death. Through 35 verses, the angel describes specific campaigns, alliances, treacheries, and the fate of nations. The prophecy testifies to God&apos;s complete foreknowledge. He does not merely guess at the future. He knows it with absolute certainty. All of history unfolds according to His purposes.',

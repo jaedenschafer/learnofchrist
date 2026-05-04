@@ -16,6 +16,11 @@ export const ROMANS_16: RichChapterContent = {
   chapter: 16,
 
   estimatedMinutes: { beginner: 6, intermediate: 14, deep: 20 },
+  topicTags: ['mercy', 'faithfulness', 'hope', 'righteousness'],
+  opener: {
+    topical: true,
+    caption: 'Romans 16',
+  },
   intros: [
     'The great epistle closes not with abstract doctrine but with people. Paul names them one by one: a deacon who carries the letter, a husband and wife who laid down their own necks, a woman who labored without counting the cost, leaders and workers both celebrated and forgotten. These are not names in a ledger. They are the gospel made visible — the invisible God working through visible hands, feet, voices, sacrifices.',
     'The chapter is a tapestry of remembrance. Someone remembered Epenetus as "the firstfruits of Achaia unto Christ." Someone noted that Priscilla and Aquila risked their necks for Paul&apos;s life. Someone saw Mary "bestow much labour" and decided it was worth recording. God&apos;s memory is not short. The gospel is not an idea transmitted by television. It is person to person, name to name, the kingdom of God made tangible in the communion of saints.',

@@ -17,6 +17,11 @@ export const PSALMS_147: RichChapterContent = {
   chapter: 147,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 4 },
+  topicTags: ['praise', 'lament', 'hope', 'protection'],
+  opener: {
+    topical: true,
+    caption: 'Psalms 147',
+  },
   intros: [
     'Psalm 147 is a meditation on God&apos;s dual greatness: His cosmic power and His personal compassion. The Lord gathers the outcasts of Israel. He heals the broken in heart and binds their wounds. Yet He also has all the stars in His knowledge—He calls them all by name. The psalm refuses to separate cosmic authority from personal care. The God who orders the stars knows the number of hairs on your head. He who brings forth the snow and scatters the frost cares for the broken, the rejected, the wounded. Both truths flow from the same God.',
   ],

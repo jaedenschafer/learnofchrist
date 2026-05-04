@@ -9,6 +9,11 @@ export const ZECHARIAH_10: RichChapterContent = {
   chapter: 10,
 
   estimatedMinutes: { beginner: 1, intermediate: 2, deep: 4 },
+  topicTags: ['hope', 'messianic-prophecy', 'second-coming', 'kingship'],
+  opener: {
+    topical: true,
+    caption: 'Zechariah 10',
+  },
   intros: [
     'Zechariah turns to the inner fortification of God&apos;s people. God will strengthen Judah, making them mighty in battle. From Judah will come the cornerstone, the nail, the battle bow—all the strength and stability needed to prevail. The imagery shifts between literal military confidence and spiritual strength. Christ is the cornerstone on whom all stands.',
   ],

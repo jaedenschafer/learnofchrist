@@ -14,6 +14,11 @@ export const PROVERBS_18: RichChapterContent = {
   chapter: 18,
 
   estimatedMinutes: { beginner: 1, intermediate: 2, deep: 4 },
+  topicTags: ['wisdom', 'righteousness', 'folly', 'integrity'],
+  opener: {
+    topical: true,
+    caption: 'Proverbs 18',
+  },
   intros: [
     'In Proverbs 18, Solomon reaches toward two of the deepest truths: that God&apos;s name is a strong tower of protection and refuge, and that there exists a friendship so profound it surpasses even the bond of blood kinship. These are not abstract theological statements. They are lived realities—the person who has fled into the refuge of God&apos;s name, and the person who has found a friend who stands nearer than a sibling ever could.',
   ],

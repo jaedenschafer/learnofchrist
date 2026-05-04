@@ -21,6 +21,11 @@ export const CHRONICLES_1_24: RichChapterContent = {
   chapter: 24,
 
   estimatedMinutes: { beginner: 5, intermediate: 8, deep: 12 },
+  topicTags: ['kingship', 'worship', 'covenant', 'faithfulness'],
+  opener: {
+    topical: true,
+    caption: '1 Chronicles 24',
+  },
   intros: [
     'The first book of Chronicles is a record written after the exile, a meditation on order and continuity. It traces the genealogy of Israel, the structure of worship, the organization of the temple — all the architectures of faith. In this chapter, David establishes something that will outlast him: the systematic division of the priesthood. Twenty-four courses, each serving in turn, each one week twice a year, in a pattern so stable that it will persist into the New Testament itself.',
     'Behind this organizational detail lies a story of lineage and loss. Nadab and Abihu, the sons of Aaron, died without children, leaving the priestly line to continue only through Eleazar and Ithamar. David does not simply assign them at random. He casts lots — invoking the sovereignty of God in the very mechanics of scheduling. The lots will determine order. God chooses through the casting of lots. And in one of these courses — the eighth, the course of Abijah — Zacharias, a priest, will be serving when an angel comes to tell him that his barren wife Elizabeth will bear a son named John, who will prepare the way for Jesus.',

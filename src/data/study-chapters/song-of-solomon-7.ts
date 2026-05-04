@@ -18,6 +18,11 @@ export const SONG_7: RichChapterContent = {
   chapter: 7,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+  topicTags: ['love', 'family', 'faithfulness', 'humility'],
+  opener: {
+    topical: true,
+    caption: 'Song of Solomon 7',
+  },
   intros: [
     'The Beloved moves through his bride&apos;s body with lingering attention. Each part is beautiful to him. Her feet are beautiful in her sandals. Her thighs are like jewels. Her navel is like a goblet. Her belly is like wheat surrounded by lilies. Her breasts are like twin fawns. Her neck is like an ivory tower. Her eyes are like pools. The enumeration is detailed, sensuous, affirming. He is not embarrassed by her body. He celebrates it. He desires her.',
     'And the Bride responds: "I am my beloved&apos;s, and his desire is toward me." She does not feel objectified by his desire. She feels chosen, wanted, affirmed. His desire for her is an expression of his love. And she responds by offering herself to him. "Let us go forth into the field...and there will I give thee my loves." She is not passive. She is active, willing, eager to give herself to him.',

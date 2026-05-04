@@ -13,6 +13,11 @@ export const LEVITICUS_20: RichChapterContent = {
   chapter: 20,
 
   estimatedMinutes: { beginner: 8, intermediate: 13, deep: 15 },
+  topicTags: ['holiness', 'sacrifice', 'priest', 'worship'],
+  opener: {
+    topical: true,
+    caption: 'Leviticus 20',
+  },
   intros: [
     'Leviticus 20 steps into what every Old Testament law carried underneath: the consequences. Chapter 18 names the sins — Molech worship, sexual immorality, mediums consulting the dead. Chapter 20 attaches the penalties. Most carry death. A theocratic Israel living under God&apos;s direct rule operates under a different justice system than the civic nations around it, or than the nations around us now. But the force of the penalties is meant to hammer home a single point: God takes sin seriously. It is not a private mistake. It is not a harmless detour. It is a life-or-death matter.',
     'Leviticus is hard because sin is hard. The chapter doesn&apos;t soften the consequences; it lets them stand. And for us, reading this from the side of the cross, there is a deeper weight underneath: Christ absorbed every penalty these deaths represent. "The wages of sin is death," Paul will later write, "but the gift of God is eternal life through Jesus Christ our Lord." That paradox — the gravity of sin met by the grace of the cross — frames how we read this chapter.',

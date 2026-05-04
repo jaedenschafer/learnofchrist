@@ -20,6 +20,11 @@ export const KINGS_2_12: RichChapterContent = {
   chapter: 12,
 
   estimatedMinutes: { beginner: 5, intermediate: 10, deep: 15 },
+  topicTags: ['kingship', 'judgment', 'sin', 'exile'],
+  opener: {
+    topical: true,
+    caption: '2 Kings 12',
+  },
   intros: [
     "The book of 2 Kings opens a new chapter in Judah&apos;s history. Jehu is on the throne of Israel, and in Jerusalem, a young boy named Joash has just been crowned king. He is only seven years old, but he is not alone. Beside him stands Jehoiada the priest — a man of wisdom and faithfulness who will shape the early years of Joash&apos;s reign.",
     "For the first time in a long while, a king of Judah &quot;does what is right in the sight of the Lord.&quot; But rightness in this kingdom is incomplete. The high places remain. The people still sacrifice and burn incense on unauthorized altars. And when Joash commands the priests to repair the breaches in the temple, they hesitate — the work does not progress. It takes a creative act of faith, a chest with a bored hole, to unlock the people&apos;s giving. Yet even this success masks a deeper problem. A king is only as faithful as his counselors make him. When Jehoiada dies, when the pressure of neighboring kingdoms grows, when gold becomes a tool of survival instead of a sign of God&apos;s provision — Joash will fall.",

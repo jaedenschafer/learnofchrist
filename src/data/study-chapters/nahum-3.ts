@@ -12,6 +12,11 @@ export const NAHUM_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+  topicTags: ['judgment', 'sovereignty', 'wrath', 'protection'],
+  opener: {
+    topical: true,
+    caption: 'Nahum 3',
+  },
   intros: [
     'The final chapter of Nahum opens with condemnation of the "bloody city." Nineveh is full of lies and prey. She makes profit from the exploitation of others. She is a harlot city, using seduction and violence to entrap others. And Nahum declares that no remedy exists for her plague. Her wound is incurable.',
     'To convince Nineveh that her fall is certain and irreversible, Nahum points to the example of No-Amon—the great Egyptian city. No-Amon was strong, was full of people, was surrounded by allies. Yet she fell. If the mighty No-Amon could fall, how much more will Nineveh? The lesson is clear: no city, no empire, no power is permanent. All fall before God&apos;s judgment.',

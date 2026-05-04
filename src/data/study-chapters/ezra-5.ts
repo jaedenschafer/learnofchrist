@@ -19,6 +19,11 @@ export const EZRA_5: RichChapterContent = {
   chapter: 5,
 
   estimatedMinutes: { beginner: 6, intermediate: 9, deep: 12 },
+  topicTags: ['return', 'worship', 'faithfulness', 'leadership'],
+  opener: {
+    topical: true,
+    caption: 'Ezra 5',
+  },
   intros: [
     'The work of rebuilding the temple had stopped. Years had passed since the foundation was laid, and the people of Judah had grown weary. They had returned from exile, yes, but the project seemed too large, too costly, too difficult. The work languished.',
     'And then the prophets Haggai and Zechariah stood up. They brought a word from God: the work must resume. Immediately, Zerubbabel and Jeshua rose up and began to build. But their building would not go unnoticed. An official of the Persian king came to them with hard questions: "Who gave you permission? Who authorized this?" And in that moment of opposition, the elders spoke a confession that cuts to the heart of everything: "We are the servants of the God of heaven and earth, and we build the house that was built many years ago." This chapter shows us the power of the prophetic word to move us, and the courage that comes from knowing whom we truly serve.',

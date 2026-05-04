@@ -13,6 +13,11 @@ export const HABAKKUK_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
+  topicTags: ['faithfulness', 'doubt', 'hope', 'sovereignty'],
+  opener: {
+    topical: true,
+    caption: 'Habakkuk 2',
+  },
   intros: [
     'Habakkuk takes his place on the watchtower to wait for God&apos;s answer to his complaint. And God speaks. The vision is written: the wicked will be punished, but "the just shall live by his faith." This single sentence, repeated in Romans 1:17, Galatians 3:11, and Hebrews 10:38, becomes the foundation of the doctrine of justification by faith.',
     'The key word is "faith"—not confidence in a better outcome, but trust in God&apos;s character and purpose even when circumstances seem to contradict it. The just one—the righteous person—lives not by sight or by circumstance, but by faith in the One who controls all circumstances.',

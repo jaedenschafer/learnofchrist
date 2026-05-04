@@ -19,6 +19,11 @@ export const EZEKIEL_17: RichChapterContent = {
   chapter: 17,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 5 },
+  topicTags: ['judgment', 'glory', 'hope', 'second-coming'],
+  opener: {
+    topical: true,
+    caption: 'Ezekiel 17',
+  },
   intros: [
     'Ezekiel 17 begins with a riddle—a parable of two eagles and a vine. On the surface it addresses Judah&apos;s political entanglements: they have made treaties with Babylon, only to look toward Egypt for deliverance. But the parable runs deeper. It describes a condition of spiritual infidelity—seeking salvation through human alliances rather than through God. The vine is not rooted deeply enough. It stretches its branches toward every power that promises security, and in doing so, it loses itself.',
     'The parable then pivots. God Himself will take a tender twig from the high cedar of Lebanon and plant it on Israel&apos;s mountain. This shall be the Branch—not dependent on the favor of great powers, but rooted in God&apos;s own faithfulness. Here is the Christ-figure: the One who will not divide His loyalty, whose trust is single and fixed.',

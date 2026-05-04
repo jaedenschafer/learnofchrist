@@ -15,6 +15,11 @@ export const ROMANS_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 7, intermediate: 14, deep: 18 },
+  topicTags: ['mercy', 'faithfulness', 'hope', 'righteousness'],
+  opener: {
+    topical: true,
+    caption: 'Romans 2',
+  },
   intros: [
     'Paul has exposed the human condition. The Gentiles suppress the truth, exchange God&apos;s glory for idols, and spiral into depravity. Perhaps the reader has nodded in agreement—yes, they are guilty, they deserve judgment. But Paul will not let you hide there. He turns the spotlight inward, pointing it directly at the judge. Do you condemn these things? Then in condemning them, you condemn yourself, for you do the same things. There is no safe distance from the dock. The same God who judges the pagan judges the insider, the one who possesses the law.',
     'In Romans 2, God&apos;s judgment becomes unavoidable and real. Ethnicity does not shield you. Religious status does not shield you. Possession of scripture does not shield you. Possession of the covenant sign—circumcision—does not shield you. God judges according to deeds, according to what you actually do. The law itself is not information. It is a mirror of God&apos;s own character. And true obedience is not outward compliance. True obedience is circumcision of the heart—a will, a spirit, an inmost being oriented toward God.',

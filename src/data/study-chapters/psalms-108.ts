@@ -16,6 +16,11 @@ export const PSALMS_108: RichChapterContent = {
   chapter: 108,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+  topicTags: ['praise', 'lament', 'hope', 'protection'],
+  opener: {
+    topical: true,
+    caption: 'Psalms 108',
+  },
   intros: [
     'Psalm 108 weaves together praise and petition. The psalmist begins with a vow of praise: his heart is fixed, his soul is awake, and he will sing God&apos;s praises openly, among the people and nations. But this is not praise disconnected from struggle. Immediately, he moves to prayer: "Give us help from trouble." He acknowledges that victory comes not from human strength but from God&apos;s power. The psalm presents a balance: we praise God for who He is, and we cry out to Him for what we need. Both are essential to the life of faith.',
     'This psalm echoes throughout the early Church. Paul quotes it in Romans 15:9 as evidence that God&apos;s salvation was always intended for all nations, not just Israel. The psalmist&apos;s vision—to praise God among all peoples—becomes the template for Christian mission.',

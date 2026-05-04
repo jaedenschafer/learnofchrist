@@ -17,6 +17,11 @@ export const ESTHER_9: RichChapterContent = {
   chapter: 9,
 
   estimatedMinutes: { beginner: 3, intermediate: 7, deep: 9 },
+  topicTags: ['providence', 'deliverance', 'faithfulness', 'fear'],
+  opener: {
+    topical: true,
+    caption: 'Esther 9',
+  },
   intros: [
     'The appointed day arrives. From the highest officials to the common people, fear of the Jews falls upon the empire. Mordecai, wielding the king&apos;s authority, is great in the king&apos;s house, and his fame spreads. The Jews, given the law and the hour, gather in every city to defend themselves — and they prevail. Their enemies expected to destroy them; instead, the oppressed become the hand of their own deliverance.',
     'But this chapter is not only a record of victory. It is the founding of a festival. The Jews in Shushan have two days to complete their defense, and when it is finished, they declare those days — the fourteenth and fifteenth of Adar — to be days of feasting and sending portions to one another, and gifts to the poor. The curse has become blessing; the day of fear has become a day of joy. And Mordecai writes an ordinance that this feast shall be observed by all the Jews, throughout all generations, forever. It will be called Purim — from the "pur," the lot that Haman cast.',

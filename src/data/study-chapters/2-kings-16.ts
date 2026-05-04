@@ -19,6 +19,11 @@ export const KINGS_2_16: RichChapterContent = {
   chapter: 16,
 
   estimatedMinutes: { beginner: 6, intermediate: 12, deep: 16 },
+  topicTags: ['kingship', 'judgment', 'sin', 'exile'],
+  opener: {
+    topical: true,
+    caption: '2 Kings 16',
+  },
   intros: [
     'Ahaz ascends the throne of Judah at the age of twenty, heir to a century of Davidic kingship. But where his father Jotham kept the law of the Lord, Ahaz walks in the way of the kings of Israel — and worse. He commits his son to the fire, adopts pagan altars, and when faced with invasion, does not call out to God but sends tribute to Assyria. In his desperation and compromise, we see a king who has forgotten the covenant, forgotten that the Lord is his shield and stronghold. Yet God does not abandon His people. Even as Ahaz refuses to listen, the prophet Isaiah is sent with an offer: ask for a sign, any sign, and I will show you that God is with you. Ahaz refuses the sign. He refuses to trust. But the sign is given anyway: a virgin shall conceive and bear a son, and His name shall be called Immanuel — God with us. In this chapter of darkness, we glimpse the Christ.',
   ],

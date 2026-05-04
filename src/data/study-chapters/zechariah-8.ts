@@ -9,6 +9,11 @@ export const ZECHARIAH_8: RichChapterContent = {
   chapter: 8,
 
   estimatedMinutes: { beginner: 1, intermediate: 2, deep: 4 },
+  topicTags: ['hope', 'messianic-prophecy', 'second-coming', 'kingship'],
+  opener: {
+    topical: true,
+    caption: 'Zechariah 8',
+  },
   intros: [
     'After calling Israel to turn from empty ritual and hardened hearts, Zechariah turns to promise. God has not abandoned Jerusalem. He will restore it, filling its streets with old men and women, boys and girls playing safely. Truth will flourish, commerce will prosper, and God&apos;s people will be a blessing to the nations. The chapter is one of hope—God&apos;s restoration is not distant but imminent.',
   ],

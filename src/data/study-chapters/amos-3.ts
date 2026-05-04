@@ -6,6 +6,11 @@ export const AMOS_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
+  topicTags: ['justice', 'judgment', 'righteousness', 'wrath'],
+  opener: {
+    topical: true,
+    caption: 'Amos 3',
+  },
   intros: [
     'Amos 3 begins with a fundamental question about knowledge and relationship. "Surely the Lord God will do nothing, but he revealeth his secret unto his servants the prophets." God does not act without revealing His purposes to His servants.',
     'The chapter contains the famous verse: "Can two walk together, except they be agreed?" This speaks to the foundation of all relationship with God — agreement, alignment, covenant. To walk with God requires that we be on the same path, pursuing the same purposes. This is the call Amos brings to Israel.',

@@ -16,6 +16,11 @@ export const PSALMS_39: RichChapterContent = {
   chapter: 39,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 6 },
+  topicTags: ['praise', 'lament', 'hope', 'protection'],
+  opener: {
+    topical: true,
+    caption: 'Psalms 39',
+  },
   intros: [
     'Psalm 39 begins with a resolve: David will keep silence, will guard his tongue, so that he does not sin through rash speech. He sees the wicked prospering and feels the pressure to speak, to protest, to justify. But he holds his tongue. Yet in that silence, something awakens in him—a deeper awareness. He begins to contemplate not the wicked&apos;s success, but the fundamental reality that has been staring him in the face all along: mortality. "Lord, make me to know mine end." Life is not endlessly long. It is a span. A measured thing. And what will he do with the days that remain?',
     'This is not morbid fear. This is clarity. The psalmist looks at the brevity of life—as a hand&apos;s breadth, as nothing—and instead of despairing, he asks God to make him wise. To show him that his days matter. That how he spends them matters. That the time he has, however little, is precious and should not be wasted on bitterness about what he cannot control.',
