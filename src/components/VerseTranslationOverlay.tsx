@@ -70,22 +70,58 @@ export default function VerseTranslationOverlay({
       if (!scripture) return null;
       const ch = parseInt(scripture.getAttribute('data-chapter') || '0', 10);
       if (!ch) return null;
-      // Find the .v marker closest to the click and parse its number.
-      const verseSpan = el.closest<HTMLElement>('.verse-line, .scripture-body');
-      // Inside .scripture-body, hop back up the DOM until we find a sibling .v
-      let v: HTMLElement | null = el;
-      while (v && v !== scripture) {
-        const prev = v.previousSibling as HTMLElement | null;
-        if (prev && prev.nodeType === 1 && prev.classList?.contains('v')) {
-          const n = parseInt(prev.textContent || '0', 10);
-          if (n) return { line: verseSpan ?? scripture, verseNumber: n, chapter: ch };
-        }
-        v = v.parentElement;
+
+      // Verse numbers render as <span class="v">N</span> inline-siblings
+      // of the verse text inside <p class="scripture-body">. To find which
+      // verse the user tapped, walk LEFT through the inline children of
+      // .scripture-body, starting from the ancestor of `el` that's a
+      // direct child of .scripture-body, collecting the most recent `.v`.
+      const body = scripture.querySelector<HTMLElement>('.scripture-body') ?? scripture;
+
+      // Find the inline ancestor that's a direct child of `body` (or the
+      // tapped element itself if it already is). Falls back to scripture.
+      let inline: HTMLElement | null = el;
+      while (inline && inline.parentElement !== body) {
+        if (inline === body) break;
+        inline = inline.parentElement;
       }
-      // Fallback: the first verse in the block.
-      const firstV = scripture.querySelector('.v');
-      const n = firstV ? parseInt(firstV.textContent || '0', 10) : 1;
-      return { line: scripture, verseNumber: n, chapter: ch };
+
+      // Fallback: tapped element isn't inside .scripture-body — return the
+      // block's first verse number.
+      const fallbackVerse = (): number => {
+        const firstV = scripture.querySelector('.v');
+        return firstV ? parseInt(firstV.textContent || '0', 10) || 1 : 1;
+      };
+
+      if (!inline || inline === body) {
+        return { line: scripture, verseNumber: fallbackVerse(), chapter: ch };
+      }
+
+      // Two rendering paths to support:
+      //  1. KJV path — .v is a direct child of .scripture-body, alongside
+      //     verse text spans. Walk LEFT through previousElementSibling.
+      //  2. Non-KJV path — each verse is a <span class="verse-line"> child
+      //     of .scripture-body, with the .v nested INSIDE that wrapper.
+      //     Look INSIDE the inline element first; the wrapper itself is
+      //     the verse line.
+      if (inline.classList.contains('v')) {
+        const n = parseInt(inline.textContent || '0', 10);
+        return { line: scripture, verseNumber: n || fallbackVerse(), chapter: ch };
+      }
+      const innerV = inline.querySelector<HTMLElement>(':scope > .v');
+      if (innerV) {
+        const n = parseInt(innerV.textContent || '0', 10);
+        if (n) return { line: inline, verseNumber: n, chapter: ch };
+      }
+      let cursor: Element | null = inline.previousElementSibling;
+      while (cursor) {
+        if (cursor.classList.contains('v')) {
+          const n = parseInt(cursor.textContent || '0', 10);
+          if (n) return { line: scripture, verseNumber: n, chapter: ch };
+        }
+        cursor = cursor.previousElementSibling;
+      }
+      return { line: scripture, verseNumber: fallbackVerse(), chapter: ch };
     }
 
     function startPress(e: TouchEvent) {

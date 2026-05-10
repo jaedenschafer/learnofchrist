@@ -78,6 +78,20 @@ export function getChristIndexForBook(book: BibleBook): ChristIndexBook {
     const rich = getRichChapter(slug, book.name, ch, legacy);
     if (!rich) continue;
 
+    // Skip empty-placeholder chapters. `getRichChapter` returns a stub
+    // ("a hand-written study guide for this chapter is on the way…") when
+    // both the rich and legacy registries are empty. Detect that stub by
+    // checking for zero `christ` blocks AND no curated index summary AND
+    // no underlying legacy content — surfacing the placeholder text in
+    // the index would be worse than leaving the chapter out.
+    const isCurated = isHandAuthoredChapter(slug, ch);
+    const hasChristBlock = rich.sections.some((s) =>
+      s.blocks.some((b) => b.kind === 'christ'),
+    );
+    if (!isCurated && !legacy && !hasChristBlock && !rich.christIndexSummary) {
+      continue;
+    }
+
     let summary = '';
     let title: string | undefined;
 
@@ -99,8 +113,12 @@ export function getChristIndexForBook(book: BibleBook): ChristIndexBook {
       }
     }
 
-    if (!summary && rich.intros.length > 0) {
-      summary = htmlToText(rich.intros[0]);
+    // For auto-ported chapters whose legacy text exists but produced no
+    // christ block (rare), fall back to the legacy christConnection
+    // directly — which is what the auto-port reads from anyway. Avoids
+    // ever surfacing the chapter intro paragraph as a "Christ summary."
+    if (!summary && legacy?.christConnection) {
+      summary = htmlToText(legacy.christConnection);
     }
 
     if (!summary) continue;

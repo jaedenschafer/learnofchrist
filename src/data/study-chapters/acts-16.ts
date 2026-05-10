@@ -1,4 +1,4 @@
-import { hp, hy, hg, t, plain, type RichChapterContent } from './types';
+import { hy, plain, t, verse, type RichChapterContent } from './types';
 
 /**
  * Acts 16 — Timothy Joins; The Gospel Crosses to Europe; Three Conversions
@@ -103,8 +103,11 @@ export const ACTS_16: RichChapterContent = {
             plain(6, 'Now when they had gone throughout Phrygia and the region of Galatia, and were forbidden of the Holy Ghost to preach the word in Asia,'),
             plain(7, 'After they were come to Mysia, they assayed to go into Bithynia: but the Spirit suffered them not.'),
             plain(8, 'And they passing by Mysia came down to Troas.'),
-            plain(9, hy('And a vision appeared to Paul in the night', 'acts16-vision') + '; There stood a man of '),
-            plain(9, 'Macedonia, and prayed him, saying, Come over into Macedonia, and help us.'),
+            verse(
+              9,
+              hy('And a vision appeared to Paul in the night', 'acts16-vision'),
+              t('; There stood a man of Macedonia, and prayed him, saying, Come over into Macedonia, and help us.'),
+            ),
             plain(10, 'And after he had seen the vision, immediately we endeavoured to go into Macedonia, assuredly gathering that the Lord had called us for to preach the gospel unto them.'),
           ],
         },

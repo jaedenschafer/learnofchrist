@@ -4,6 +4,36 @@ import Link from 'next/link';
 import type { CrossRef } from '@/data/study-chapters/types';
 import './CrossRefCard.css';
 
+/** Decode the small set of HTML entities that appear in author prose so
+ *  they don't render literally inside the card (snippets are plain text,
+ *  not innerHTML). */
+function decodeEntities(s: string): string {
+  return s
+    .replace(/&apos;/g, '’')
+    .replace(/&ldquo;/g, '“')
+    .replace(/&rdquo;/g, '”')
+    .replace(/&mdash;/g, '—')
+    .replace(/&ndash;/g, '–')
+    .replace(/&amp;/g, '&')
+    .replace(/&quot;/g, '"')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>');
+}
+
+/** Derive a canonical study-guide URL from a free-form reference label
+ *  like "John 1:1–3" or "1 Samuel 17:48–50". Returns null when the ref
+ *  doesn't parse cleanly so the card falls back to a static (non-link)
+ *  presentation rather than a broken link. */
+function deriveHrefFromRef(ref: string): string | null {
+  // Match "<Book name with optional leading digit> <chapter>[:<verse>]"
+  const m = ref.match(/^([1-3]?\s?[A-Za-z][A-Za-z'’\s]*?)\s+(\d+)(?::|$|\s)/);
+  if (!m) return null;
+  const book = m[1].trim().toLowerCase().replace(/['’]/g, '').replace(/\s+/g, '-');
+  const chapter = parseInt(m[2], 10);
+  if (!book || !chapter) return null;
+  return `/study/${book}/${chapter}`;
+}
+
 /**
  * Swipeable card rendered after a section's last block. Surfaces 3–5 places
  * elsewhere in Scripture where the same theme, image, or promise echoes.
@@ -51,19 +81,22 @@ export default function CrossRefCard({
         Where this echoes
       </p>
       <ul className="xref-card__row">
-        {refs.map((xref, i) => (
-          <li key={`${xref.ref}-${i}`} className="xref-card__item">
-            {xref.href ? (
-              <Link href={xref.href} className="xref-card__link">
-                <CrossRefBody xref={xref} />
-              </Link>
-            ) : (
-              <div className="xref-card__static">
-                <CrossRefBody xref={xref} />
-              </div>
-            )}
-          </li>
-        ))}
+        {refs.map((xref, i) => {
+          const href = xref.href ?? deriveHrefFromRef(xref.ref);
+          return (
+            <li key={`${xref.ref}-${i}`} className="xref-card__item">
+              {href ? (
+                <Link href={href} className="xref-card__link">
+                  <CrossRefBody xref={xref} />
+                </Link>
+              ) : (
+                <div className="xref-card__static">
+                  <CrossRefBody xref={xref} />
+                </div>
+              )}
+            </li>
+          );
+        })}
       </ul>
     </aside>
   );
@@ -72,9 +105,9 @@ export default function CrossRefCard({
 function CrossRefBody({ xref }: { xref: CrossRef }) {
   return (
     <>
-      <span className="xref-card__ref">{xref.ref}</span>
-      <span className="xref-card__snippet">{xref.snippet}</span>
-      {xref.note && <span className="xref-card__note">{xref.note}</span>}
+      <span className="xref-card__ref">{decodeEntities(xref.ref)}</span>
+      <span className="xref-card__snippet">{decodeEntities(xref.snippet)}</span>
+      {xref.note && <span className="xref-card__note">{decodeEntities(xref.note)}</span>}
     </>
   );
 }

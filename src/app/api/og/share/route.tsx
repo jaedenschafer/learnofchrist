@@ -175,18 +175,53 @@ export async function GET(req: NextRequest) {
             flexDirection: 'column',
             justifyContent: 'space-between',
             padding: `${PAD}px`,
-            background: artUrl
-              ? // When an artwork is supplied, gradient OVER the image so the
-                // text stays legible regardless of the painting's palette.
-                `linear-gradient(180deg, rgba(15,18,23,0.78) 0%, rgba(15,18,23,0.55) 35%, rgba(15,18,23,0.85) 100%), url("${artUrl}")`
+            // Base solid bg; image and gradient are layered below as absolute
+            // div siblings so satori doesn't have to parse multi-layer CSS
+            // (which it gets wrong on certain @vercel/og versions).
+            background: '#0F1217',
+            backgroundImage: artUrl
+              ? undefined
               : 'radial-gradient(ellipse 80% 60% at 50% 0%, rgba(242,194,101,0.18) 0%, transparent 60%), linear-gradient(180deg, #0F1217 0%, #131820 100%)',
-            backgroundSize: artUrl ? 'cover, cover' : 'auto, auto',
-            backgroundPosition: artUrl ? 'center, center' : 'center, center',
             position: 'relative',
             fontFamily: '"New York", "Iowan Old Style", Georgia, serif',
             color: '#FFFFFF',
           }}
         >
+          {/* Background artwork layer — absolute-positioned <img> rather
+              than CSS background-image, since satori handles single-image
+              layers more reliably than comma-layered backgrounds. */}
+          {artUrl && (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img
+              src={artUrl}
+              alt=""
+              style={{
+                position: 'absolute',
+                top: 0,
+                left: 0,
+                width: '100%',
+                height: '100%',
+                objectFit: 'cover',
+                objectPosition: 'center',
+              }}
+            />
+          )}
+          {/* Darkening gradient overlay — sits between art and text so the
+              verse stays legible against any palette. */}
+          {artUrl && (
+            <div
+              style={{
+                position: 'absolute',
+                top: 0,
+                left: 0,
+                width: '100%',
+                height: '100%',
+                background:
+                  'linear-gradient(180deg, rgba(15,18,23,0.78) 0%, rgba(15,18,23,0.55) 35%, rgba(15,18,23,0.85) 100%)',
+                display: 'flex',
+              }}
+            />
+          )}
           {/* Subtle decorative serif quote mark — hidden when art is the
               hero, so the painting reads cleanly. */}
           {!artUrl && (

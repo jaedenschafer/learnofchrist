@@ -27,11 +27,16 @@ export default function ShareMenu({
   onClose: () => void;
 }) {
   const [copied, setCopied] = useState<'link' | 'text' | null>(null);
-  const [nativeSupported, setNativeSupported] = useState(false);
+  // Lazy init detects navigator.share once at mount. ShareMenu is mounted
+  // dynamically via createPortal after a user click, so `navigator` is
+  // always defined here — but the typeof guard is kept as a belt-and-
+  // suspenders safety against any edge-case SSR run.
+  const [nativeSupported] = useState(
+    () => typeof navigator !== 'undefined' && 'share' in navigator,
+  );
   const [format, setFormat] = useState<ShareFormat>('landscape');
 
   useEffect(() => {
-    setNativeSupported(typeof navigator !== 'undefined' && 'share' in navigator);
     const onKey = (e: KeyboardEvent) => {
       if (e.key === 'Escape') onClose();
     };
