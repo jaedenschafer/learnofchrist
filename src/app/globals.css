@@ -464,14 +464,27 @@ html[data-reader-theme="dark"] .frost-light {
 .frost-circle--md { width: 38px; height: 38px; }
 .frost-circle--lg { width: 42px; height: 42px; }
 
-/* ── Frost CHIP — small rounded square (date "3 May") ─────────────────── */
+/* ── Frost CHIP — small text label / pill ─────────────────────────────
+   Default form is a text pill (uppercase tag like "LITERAL", "FORMAL
+   EQUIVALENCE", "Teaching"). Date-style usages (.loc-dash__date) compose
+   their own padding/sizing on top, so the base spacing here doesn't fight
+   them. */
 .frost-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.35rem 0.85rem;
   background: var(--frost-tint);
   -webkit-backdrop-filter: var(--frost-blur);
   backdrop-filter: var(--frost-blur);
   border: 1px solid var(--frost-border-chip);
-  border-radius: 14px;
+  border-radius: 999px;
   color: var(--frost-text);
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  line-height: 1;
+  white-space: nowrap;
 }
 
 /* ── Frost TABS — segmented control rail ──────────────────────────────── */
