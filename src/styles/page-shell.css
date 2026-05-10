@@ -127,8 +127,42 @@
   font-weight: 600;
   letter-spacing: 0.02em;
   color: rgba(26, 22, 18, 0.55);
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.lop-hero__chip {
+  display: inline-flex;
+  align-items: center;
+  letter-spacing: inherit;
+  white-space: nowrap;
 }
 .lop-hero__chip-sep { color: rgba(26, 22, 18, 0.30); }
+html[data-reader-theme="dark"] .lop-hero__chip-sep {
+  color: rgba(245, 240, 230, 0.30);
+}
+
+/* ─── Grid section — alias for .lop-section/.lop-section__title used on
+   /bible/translations and other A-Z list pages. Same recipe with the
+   eyebrow + title left-aligned for index-style pages. */
+.lop-grid-section {
+  padding: clamp(1.5rem, 4vw, 3rem) 0 clamp(2.5rem, 6vw, 4.5rem);
+}
+.lop-grid__eyebrow {
+  margin-bottom: 0.5rem;
+}
+.lop-grid__title {
+  font-family: 'EB Garamond', 'New York', Georgia, serif;
+  font-weight: 500;
+  font-size: clamp(1.75rem, 4vw, 2.75rem);
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  color: var(--vesper-compline);
+  margin: 0 0 clamp(1.5rem, 3vw, 2.25rem);
+  text-wrap: balance;
+}
+html[data-reader-theme="dark"] .lop-grid__title {
+  color: var(--vesper-parchment);
+}
 
 /* ─── 2. Section header (above grids) ──────────────────────────────── */
 
