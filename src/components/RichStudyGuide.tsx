@@ -29,9 +29,10 @@ import { getFallbackCrossRefs } from '@/data/study-chapters/cross-refs';
 // StudyFilters next to the translation switcher, so this import is gone.
 import { useTranslation } from '@/lib/TranslationContext';
 import { useStudyLevel } from '@/lib/StudyLevelContext';
+import { useAudience } from '@/lib/AudienceContext';
 import { fetchVersesClient, type Verse, type ArtworkWithArtist } from '@/lib/supabase';
 import {
-  filterContentByLevel,
+  filterContent,
   type RichChapterContent,
   type RichSection,
   type Block,
@@ -326,15 +327,17 @@ export default function RichStudyGuide({
 }: RichStudyGuideProps) {
   const { currentTranslation } = useTranslation();
   const { level: studyLevel } = useStudyLevel();
+  const { audience } = useAudience();
   const isKjv = currentTranslation === 'kjv';
 
-  // Filter the chapter to the active study level. Drops blocks above the
-  // level, strips dangling highlight anchors, removes empty sections, trims
-  // intros and bottomShare at Beginner. Pure function — re-runs only when
-  // content or level changes.
+  // Filter the chapter to the active audience and study level. Audience
+  // filtering runs first (strips `hideForYouth` blocks, applies
+  // `youthOverride`), then level filtering trims further. Kids audience is
+  // a no-op here — the page route picks KidsStudyGuide instead. Pure
+  // function — re-runs only when content / level / audience change.
   const content = useMemo(
-    () => filterContentByLevel(rawContent, studyLevel),
-    [rawContent, studyLevel],
+    () => filterContent(rawContent, studyLevel, audience),
+    [rawContent, studyLevel, audience],
   );
 
   const opener = content.opener

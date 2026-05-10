@@ -7,6 +7,7 @@ import {
   useStudyLevel,
   type StudyLevel,
 } from '@/lib/StudyLevelContext';
+import { AUDIENCES, useAudience } from '@/lib/AudienceContext';
 import type { EstimatedMinutes } from '@/data/study-chapters/types';
 import './StudyFilters.css';
 
@@ -62,7 +63,9 @@ export default function StudyFilters({
 }: StudyFiltersProps = {}) {
   const { currentTranslation, setTranslation, availableTranslations } = useTranslation();
   const { level, setLevel } = useStudyLevel();
+  const { audience, setAudience, locked: audienceLocked } = useAudience();
   const dd = useDropdown();
+  const isKids = audience === 'kids';
 
   // Sentinel scrolls out of view → dock the filter pill into the top nav.
   // Skipped in inline mode because the pill already lives inside the topbar.
@@ -82,6 +85,7 @@ export default function StudyFilters({
   }, [inline]);
 
   const activeMinutes = estimatedMinutes?.[level as StudyLevel];
+  const audienceMeta = AUDIENCES.find((a) => a.id === audience);
 
   // Frost-pill button — same recipe in both inline and standalone modes,
   // just different sizes. Open state inverts to a slightly heavier frost
@@ -103,11 +107,17 @@ export default function StudyFilters({
       <div ref={dd.ref} className="relative">
         <button
           onClick={() => dd.setOpen((o) => !o)}
-          aria-label="Translation and reading time"
+          aria-label="Audience, translation, and reading time"
           className={buttonClass}
         >
+          {audience !== 'adults' && audienceMeta && (
+            <>
+              <span>{audienceMeta.label}</span>
+              <span className={dd.open ? 'opacity-60' : 'text-[color:var(--color-tertiary-label)]'}>·</span>
+            </>
+          )}
           <span>{currentTranslation.toUpperCase()}</span>
-          {estimatedMinutes && activeMinutes !== undefined && (
+          {!isKids && estimatedMinutes && activeMinutes !== undefined && (
             <>
               <span className={dd.open ? 'opacity-60' : 'text-[color:var(--color-tertiary-label)]'}>·</span>
               <span>{activeMinutes}m</span>
@@ -125,6 +135,63 @@ export default function StudyFilters({
 
         {dd.open && (
           <div className="absolute right-0 top-full mt-1.5 z-50 bg-[color:var(--color-surface)] rounded-2xl shadow-[0_8px_40px_rgba(0,0,0,0.15)] border border-[color:var(--color-separator)] overflow-hidden animate-fade-in min-w-[260px]">
+            {/* ─── Audience section ───
+                Hidden when the account is locked to Kids (a parent set up
+                a child profile). For everyone else, three radios: Adults,
+                Youth, Kids. Picking Kids re-renders the page with the kids
+                guide and hides the Reading-time section below — kids
+                content is depth-uniform. */}
+            {!audienceLocked && (
+              <>
+                <div className="px-4 pt-3 pb-1">
+                  <p className="text-[0.625rem] font-bold uppercase tracking-[0.12em] text-[color:var(--color-tertiary-label)]">
+                    Reading for
+                  </p>
+                </div>
+                <div className="py-1">
+                  {AUDIENCES.map((opt) => {
+                    const active = opt.id === audience;
+                    return (
+                      <button
+                        key={opt.id}
+                        onClick={() => {
+                          setAudience(opt.id);
+                          // Stay open so the user can pick translation too.
+                        }}
+                        title={opt.description}
+                        className={`w-full text-left flex items-center gap-3 px-4 py-2 transition-colors ${
+                          active ? '' : 'hover:bg-[color:var(--color-fill-subtle)]'
+                        }`}
+                      >
+                        <div className="w-4 flex items-center justify-center flex-shrink-0">
+                          {active && (
+                            <svg className="w-4 h-4 text-[color:var(--color-primary)]" fill="currentColor" viewBox="0 0 24 24">
+                              <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                            </svg>
+                          )}
+                        </div>
+                        <span className="flex-1">
+                          <span
+                            className={`block text-[0.875rem] font-semibold leading-tight ${
+                              active
+                                ? 'text-[color:var(--color-primary)]'
+                                : 'text-[color:var(--color-label)]'
+                            }`}
+                          >
+                            {opt.label}
+                          </span>
+                          <span className="block text-[0.6875rem] text-[color:var(--color-tertiary-label)] leading-tight mt-0.5">
+                            {opt.description}
+                          </span>
+                        </span>
+                      </button>
+                    );
+                  })}
+                </div>
+                <div className="border-t border-[color:var(--color-separator)] mt-1" />
+              </>
+            )}
+
             {/* ─── Translation section ─── */}
             <div className="px-4 pt-3 pb-1">
               <p className="text-[0.625rem] font-bold uppercase tracking-[0.12em] text-[color:var(--color-tertiary-label)]">
@@ -169,8 +236,10 @@ export default function StudyFilters({
               })}
             </div>
 
-            {/* ─── Reading time section ─── */}
-            {estimatedMinutes && (
+            {/* ─── Reading time section ───
+                Hidden for Kids — the kids guide is short and depth-uniform,
+                so a Quick/Standard/Deep choice would be meaningless. */}
+            {estimatedMinutes && !isKids && (
               <>
                 <div className="border-t border-[color:var(--color-separator)] mt-1" />
                 <div className="px-4 pt-3 pb-1">

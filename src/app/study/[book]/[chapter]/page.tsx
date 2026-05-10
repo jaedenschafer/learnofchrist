@@ -4,6 +4,8 @@ import type { Metadata } from 'next';
 import { getAllBooks, getBookByName } from '@/data/books';
 import { getChapterContent } from '@/data/chapter-content';
 import { getRichChapter, isHandAuthoredChapter } from '@/data/study-chapters';
+import { getKidsChapter } from '@/data/kids-chapters';
+import type { KidsChapterContent, KidsBlock } from '@/data/kids-chapters/types';
 import { resolveChapterOverride, dehydrateRich } from '@/lib/chapterContent';
 import { isAdminSession } from '@/lib/isAdmin';
 import ChapterNav from '@/components/ChapterNav';
@@ -23,7 +25,7 @@ import StudyChapterShareLaunch from '@/components/StudyChapterShareLaunch';
 const StudyFilters = dynamic(() => import('@/components/StudyFilters'), {
   loading: () => <div className="h-12" aria-hidden="true" />,
 });
-const RichStudyGuide = dynamic(() => import('@/components/RichStudyGuide'), {
+const StudyGuideShell = dynamic(() => import('@/components/StudyGuideShell'), {
   loading: () => (
     <div className="py-16 text-center text-[color:var(--color-tertiary-label)]">
       Loading study guide…
@@ -338,6 +340,84 @@ export default async function StudyChapterPage({ params }: ChapterPageProps) {
     ? [...chapterArtworks, ...topicalPool]
     : chapterArtworks;
 
+  // ─── Kids audience variant ───
+  // When a kids chapter exists for this slot, we sanitize it the same way
+  // the rich content is sanitized: resolve any RegExp matchers into stable
+  // `artworkSlug` values so the client component never receives a non-
+  // serializable RegExp across the RSC boundary. The Audience picker on
+  // the client decides whether to render this variant or the adult one;
+  // we always send both so there's no flash on switch.
+  const rawKids = getKidsChapter(book, chapter);
+  let safeKids: KidsChapterContent | null = null;
+  if (rawKids) {
+    const sanitizedKidsSections = rawKids.sections.map((section) => ({
+      ...section,
+      blocks: section.blocks.map((block): KidsBlock => {
+        if (block.kind !== 'illustration') return block;
+        // Resolve illustration to slug. Mirror the adult resolver but
+        // simpler — kids guides don't use the topical fallback pool by
+        // default; if they do we honor it.
+        if (block.topical) {
+          const a = chapterArtworks.find((art) =>
+            block.topicMatch
+              ? (Array.isArray(block.topicMatch)
+                  ? block.topicMatch
+                  : [block.topicMatch]
+                ).some((tag) => art.tags?.includes(`topic:${tag}`))
+              : true,
+          );
+          return {
+            kind: 'illustration' as const,
+            caption: block.caption,
+            artworkSlug: a?.slug,
+            themed: !!a,
+          };
+        }
+        const found = block.artworkSlug
+          ? chapterArtworks.find((a) => a.slug === block.artworkSlug)
+          : chapterArtworks.find((a) => {
+              const t = !block.matchTitle || block.matchTitle.test(a.title);
+              const ar =
+                !block.matchArtist ||
+                block.matchArtist.test(a.artist?.name ?? '');
+              return t && ar;
+            });
+        return {
+          kind: 'illustration' as const,
+          caption: block.caption,
+          artworkSlug: found?.slug,
+          themed: false,
+        };
+      }),
+    }));
+
+    let sanitizedKidsOpener = rawKids.opener;
+    if (sanitizedKidsOpener) {
+      const found = sanitizedKidsOpener.artworkSlug
+        ? chapterArtworks.find((a) => a.slug === sanitizedKidsOpener!.artworkSlug)
+        : chapterArtworks.find((a) => {
+            const t =
+              !sanitizedKidsOpener!.matchTitle ||
+              sanitizedKidsOpener!.matchTitle.test(a.title);
+            const ar =
+              !sanitizedKidsOpener!.matchArtist ||
+              sanitizedKidsOpener!.matchArtist.test(a.artist?.name ?? '');
+            return t && ar;
+          });
+      sanitizedKidsOpener = {
+        caption: sanitizedKidsOpener.caption,
+        artworkSlug: found?.slug,
+        themed: false,
+      };
+    }
+
+    safeKids = {
+      ...rawKids,
+      sections: sanitizedKidsSections,
+      opener: sanitizedKidsOpener,
+    };
+  }
+
   const stripArtworks =
     inlineArtSlugs.size > 0
       ? chapterArtworks.filter((a) => !inlineArtSlugs.has(a.id))
@@ -511,7 +591,11 @@ export default async function StudyChapterPage({ params }: ChapterPageProps) {
               isHandAuthored={handAuthored}
             >
               {safeRichContent && (
-                <RichStudyGuide content={safeRichContent} artworks={richArtworks} />
+                <StudyGuideShell
+                  rich={safeRichContent}
+                  kids={safeKids}
+                  artworks={richArtworks}
+                />
               )}
             </EditableStudyGuide>
           )}

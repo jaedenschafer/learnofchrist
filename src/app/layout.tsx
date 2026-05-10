@@ -5,6 +5,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { TranslationProvider } from '@/lib/TranslationContext';
 import { StudyLevelProvider } from '@/lib/StudyLevelContext';
+import { AudienceProvider } from '@/lib/AudienceContext';
 import { DenominationProvider } from '@/lib/DenominationContext';
 import { ReadingPrefsProvider } from '@/lib/ReadingPrefsContext';
 import ReadingPrefsSync from '@/components/ReadingPrefsSync';
@@ -91,19 +92,21 @@ export default async function RootLayout({
           }}
         />
         <TranslationProvider>
-          <StudyLevelProvider>
-            <DenominationProvider>
-              <ReadingPrefsProvider>
-                <ReadingPrefsSync />
-                <LopCloserReveal />
-                <Navbar />
-                <main className="flex-grow">
-                  {children}
-                </main>
-                <Footer />
-              </ReadingPrefsProvider>
-            </DenominationProvider>
-          </StudyLevelProvider>
+          <AudienceProvider>
+            <StudyLevelProvider>
+              <DenominationProvider>
+                <ReadingPrefsProvider>
+                  <ReadingPrefsSync />
+                  <LopCloserReveal />
+                  <Navbar />
+                  <main className="flex-grow">
+                    {children}
+                  </main>
+                  <Footer />
+                </ReadingPrefsProvider>
+              </DenominationProvider>
+            </StudyLevelProvider>
+          </AudienceProvider>
         </TranslationProvider>
       </body>
     </html>

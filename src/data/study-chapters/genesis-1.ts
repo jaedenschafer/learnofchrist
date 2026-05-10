@@ -14,6 +14,18 @@ export const GENESIS_1: RichChapterContent = {
 
   estimatedMinutes: { beginner: 11, intermediate: 18, deep: 22 },
   topicTags: ['creation', 'sovereignty', 'glory', 'incarnation'],
+
+  // ─── Youth audience overrides ───
+  // Adult intros are paragraph-dense and reference ANE creation literature.
+  // Teens land better on a punchier opener that frames the same point in
+  // 2026 reader terms. Per-block youth Carry / Reflection overrides below.
+  youth: {
+    intros: [
+      "Every other ancient civilization started its story with violence — gods at war, humans built as slaves to work for them. Genesis doesn&apos;t. One God, no fight, no rivals. He speaks, and the world shows up. Then He makes you on purpose, in His own image, and calls everything good.",
+      'Once you&apos;ve seen Jesus, the chapter changes again. Every &ldquo;and God said&rdquo; is the voice that would later say &ldquo;follow me.&rdquo; The Light before the sun, the Image we&apos;re made in, the Rest at the end of the week — it&apos;s all already pointing at Him.',
+    ],
+  },
+
   intros: [
     'Genesis 1 tells how God brought the world into being over seven days. Days one through three form the spaces of creation - light, sky, land. Days four through six fill those spaces - sun and moon, fish and birds, animals and humans. Day seven, God rests. Each day follows the same pattern: God speaks, what He speaks comes to be, He calls it good.',
     'The chapter was written into a world full of other creation stories - Babylonian[res:enuma-elish-bm], Egyptian, Canaanite - with violent gods, cosmic battles, and humans made as slaves. Genesis answers them all[res:bibleodyssey-creation-stories]. One God. Creation by peaceful speech. Humans made in His image. And for the reader on this side of the cross, the fingerprints of Christ are already everywhere: the Word who speaks, the Light before the sun, the Image we are made after, the Rest we are invited into.',
@@ -211,12 +223,20 @@ export const GENESIS_1: RichChapterContent = {
           kind: 'carry',
           html:
             'Before God ever fills a life, He very often begins with a line - <em>this is not that.</em> A priestly kind of separation, the text calls it. Looking back, you can almost always see them in your own story: a season when something quietly got named, a difference that finally became clear, a space that gently opened. Every such line has been His work. The ones you may be sensing now are probably His too.',
+          youthOverride: {
+            html:
+              'Before God ever fills a life, He almost always starts by drawing a line — <em>this is not that.</em> Maybe it&apos;s the friend group you&apos;re finally outgrowing. The voice in your head that&apos;s not actually yours. The version of you that lives only on a screen. Day one of creation says God&apos;s first move in any new chapter is usually a separation. The lines you&apos;re sensing right now? Probably Him.',
+          },
         },
         {
           kind: 'reflection',
           id: 'day-1',
           prompt:
             'What is the first line God may be asking you to draw this week - work hours from family hours, scrolling from presence, noise from silence? Name it.',
+          youthOverride: {
+            prompt:
+              'What&apos;s one line God might be asking you to draw this week — phone from sleep, a friendship that pulls you down, the scroll from real conversation? Name it.',
+          },
         },
         {
           kind: 'artwork',
@@ -353,6 +373,10 @@ export const GENESIS_1: RichChapterContent = {
           kind: 'carry',
           html:
             'Your spreadsheet, your sermon, your painting, your business, the meal you cooked tonight, the homework you helped with - none of these compete with God. They are echoes of day three: the ground bringing forth what He first planted in it. Ordinary work, done with a seed He gave you, <em>is</em> spiritual. Whatever small good thing came out of you today was already the earth obeying Him.',
+          youthOverride: {
+            html:
+              'The essay you turned in. The drawing you posted. The team you showed up for. The little brother you made laugh. None of these compete with God — they&apos;re echoes of day three. The ground bringing forth what He first planted in it. Ordinary stuff, done with a seed He gave you, <em>is</em> spiritual. Whatever small good thing came out of you today was the earth obeying Him.',
+          },
         },
         { kind: 'divider' },
         {
@@ -445,6 +469,10 @@ export const GENESIS_1: RichChapterContent = {
           kind: 'carry',
           html:
             'Genesis demotes the sun and moon to lamps - and the things that keep taking over your life can be demoted too. The career that decides your mood. The phone that dictates where your attention goes. The person you can&apos;t imagine losing. The news cycle that pulls your whole day around. Pick one today and call it what Genesis calls the sun: a lamp. Useful, sometimes. Beautiful, sometimes. Not God. Jesus is the Light all of them were always pointing to - and only He belongs at the center of your sky.',
+          youthOverride: {
+            html:
+              'Genesis demotes the sun and moon to lamps — and the things that keep taking over your life can be demoted too. The number of likes that decides your mood. The group chat that has to be answered before you can sleep. The grade that determines whether the day was good. The person whose attention you keep performing for. Pick one and call it what Genesis calls the sun: a lamp. Useful, sometimes. Not God. Jesus is the actual Light, and only He belongs at the center of your sky.',
+          },
         },
         {
           kind: 'reflection',
