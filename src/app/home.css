@@ -2232,3 +2232,39 @@ html[data-reader-theme="dark"] .loc-resources {
 html[data-reader-theme="dark"] .loc-arches__caption {
   color: rgba(245, 240, 230, 0.55);
 }
+
+/* Closer ("Open the Word.") — sunset photo backdrop reads bright peach
+   in dark mode. Pull the veil deeper toward Cloister, mute the warm
+   halo, and tone the bloom rings so the section settles into the page
+   instead of glowing through it. */
+html[data-reader-theme="dark"] .loc-closer__veil {
+  background:
+    radial-gradient(ellipse 100% 80% at 50% 50%,
+      rgba(15, 18, 30, 0.78) 0%,
+      rgba(8, 10, 18, 0.94) 100%);
+}
+html[data-reader-theme="dark"] .loc-closer::after {
+  background: radial-gradient(ellipse 60% 50% at 50% 80%, rgba(214, 163, 87, 0.10), transparent 70%);
+}
+html[data-reader-theme="dark"] .loc-closer__sun-ring--1 {
+  background: radial-gradient(circle, rgba(214, 163, 87, 0.18), transparent 70%);
+}
+html[data-reader-theme="dark"] .loc-closer__sun-ring--2 {
+  background: radial-gradient(circle, rgba(214, 163, 87, 0.10), transparent 70%);
+}
+html[data-reader-theme="dark"] .loc-closer__sun-ring--3 {
+  background: radial-gradient(circle, rgba(232, 184, 148, 0.06), transparent 70%);
+}
+html[data-reader-theme="dark"] .loc-closer__sun-ring--4 {
+  background: radial-gradient(circle, rgba(214, 163, 87, 0.04), transparent 70%);
+}
+html[data-reader-theme="dark"] .loc-closer__sun-core {
+  background: radial-gradient(circle, rgba(214, 163, 87, 0.40), rgba(214, 163, 87, 0.10) 60%, transparent 75%);
+}
+html[data-reader-theme="dark"] .loc-closer__pane {
+  background: rgba(245, 240, 230, 0.06);
+  border-color: rgba(245, 240, 230, 0.10);
+  box-shadow:
+    inset 0 1px 0 rgba(245, 240, 230, 0.08),
+    0 24px 60px -22px rgba(0, 0, 0, 0.65);
+}
