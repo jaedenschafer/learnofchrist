@@ -19,9 +19,13 @@
 
 import type { KidsChapterContent } from './types';
 import { GENESIS_1_KIDS } from './genesis-1';
+import { JOHN_3_KIDS } from './john-3';
+import { PSALMS_23_KIDS } from './psalms-23';
 
 const KIDS_CHAPTERS: Record<string, KidsChapterContent> = {
   'genesis/1': GENESIS_1_KIDS,
+  'john/3': JOHN_3_KIDS,
+  'psalms/23': PSALMS_23_KIDS,
 };
 
 /** Look up a kids chapter. Returns null when no kids version has been
