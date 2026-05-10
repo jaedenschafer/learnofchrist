@@ -42,6 +42,11 @@ interface StudyFiltersProps {
   /** Render the pill bare (no docking wrapper). Used when StudyTopBar
    *  embeds the pill directly into the topbar actions row. */
   inline?: boolean;
+  /** True when a hand-authored kids chapter exists for the active
+   *  (book, chapter) pair. The Kids radio in the audience picker shows
+   *  a "(coming soon)" tag when this is false so families can see at a
+   *  glance whether the kids version is ready. */
+  kidsAvailable?: boolean;
 }
 
 /**
@@ -60,6 +65,7 @@ interface StudyFiltersProps {
 export default function StudyFilters({
   estimatedMinutes,
   inline = false,
+  kidsAvailable = false,
 }: StudyFiltersProps = {}) {
   const { currentTranslation, setTranslation, availableTranslations } = useTranslation();
   const { level, setLevel } = useStudyLevel();
@@ -151,6 +157,13 @@ export default function StudyFilters({
                 <div className="py-1">
                   {AUDIENCES.map((opt) => {
                     const active = opt.id === audience;
+                    // Only the Kids row carries a coming-soon hint, and only
+                    // when the page has signaled that no kids file exists for
+                    // this chapter. Selecting it is still allowed — the
+                    // shell falls back to adult content with a banner — but
+                    // the hint sets expectations up front.
+                    const showComingSoon =
+                      opt.id === 'kids' && !kidsAvailable;
                     return (
                       <button
                         key={opt.id}
@@ -179,6 +192,11 @@ export default function StudyFilters({
                             }`}
                           >
                             {opt.label}
+                            {showComingSoon && (
+                              <span className="ml-1.5 text-[0.625rem] font-semibold uppercase tracking-wider text-[color:var(--color-tertiary-label)]">
+                                · coming soon
+                              </span>
+                            )}
                           </span>
                           <span className="block text-[0.6875rem] text-[color:var(--color-tertiary-label)] leading-tight mt-0.5">
                             {opt.description}

@@ -4,7 +4,7 @@ import type { Metadata } from 'next';
 import { getAllBooks, getBookByName } from '@/data/books';
 import { getChapterContent } from '@/data/chapter-content';
 import { getRichChapter, isHandAuthoredChapter } from '@/data/study-chapters';
-import { getKidsChapter } from '@/data/kids-chapters';
+import { getKidsChapter, hasKidsChapter } from '@/data/kids-chapters';
 import type { KidsChapterContent, KidsBlock } from '@/data/kids-chapters/types';
 import { resolveChapterOverride, dehydrateRich } from '@/lib/chapterContent';
 import { isAdminSession } from '@/lib/isAdmin';
@@ -554,6 +554,7 @@ export default async function StudyChapterPage({ params }: ChapterPageProps) {
             <StudyFilters
               inline
               estimatedMinutes={richContent?.estimatedMinutes}
+              kidsAvailable={hasKidsChapter(book, chapter)}
             />
           }
           moreActions={

@@ -19,12 +19,20 @@
 
 import type { KidsChapterContent } from './types';
 import { GENESIS_1_KIDS } from './genesis-1';
+import { GENESIS_2_KIDS } from './genesis-2';
+import { DANIEL_6_KIDS } from './daniel-6';
 import { JOHN_3_KIDS } from './john-3';
+import { JONAH_1_KIDS } from './jonah-1';
+import { LUKE_2_KIDS } from './luke-2';
 import { PSALMS_23_KIDS } from './psalms-23';
 
 const KIDS_CHAPTERS: Record<string, KidsChapterContent> = {
   'genesis/1': GENESIS_1_KIDS,
+  'genesis/2': GENESIS_2_KIDS,
+  'daniel/6': DANIEL_6_KIDS,
   'john/3': JOHN_3_KIDS,
+  'jonah/1': JONAH_1_KIDS,
+  'luke/2': LUKE_2_KIDS,
   'psalms/23': PSALMS_23_KIDS,
 };
 
