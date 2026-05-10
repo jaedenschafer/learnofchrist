@@ -241,3 +241,12 @@ html[data-reader-theme="dark"] .art-drawer__foot {
   background: rgba(28, 26, 36, 0.96);
   border-top-color: rgba(255, 255, 255, 0.10);
 }
+html[data-reader-theme="dark"] .art-drawer__section-title {
+  color: rgba(245, 240, 230, 0.55);
+}
+html[data-reader-theme="dark"] .art-drawer__searchbox svg {
+  color: rgba(245, 240, 230, 0.45);
+}
+html[data-reader-theme="dark"] .art-drawer__searchbox input::placeholder {
+  color: rgba(245, 240, 230, 0.40);
+}

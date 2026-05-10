@@ -154,3 +154,17 @@ html[data-reader-theme="dark"] .fs-num { color: #E0A4B0; }
 html[data-reader-theme="dark"] .fs-link { color: #E0A4B0; }
 html[data-reader-theme="dark"] .fs-link:hover .fs-label,
 html[data-reader-theme="dark"] .fs-link:focus-visible .fs-label { color: #f0bdc6; }
+html[data-reader-theme="dark"] .fs-line { color: rgba(245, 240, 230, 0.85); }
+html[data-reader-theme="dark"] .fs-source,
+html[data-reader-theme="dark"] .fs-desc { color: rgba(245, 240, 230, 0.55); }
+html[data-reader-theme="dark"] .further-study {
+  border-top-color: rgba(245, 240, 230, 0.10);
+}
+html[data-reader-theme="dark"] .further-study h2 { color: #E0A4B0; }
+html[data-reader-theme="dark"] .fs-item:target {
+  animation-name: fs-target-flash-dark;
+}
+@keyframes fs-target-flash-dark {
+  0%   { background: rgba(224, 164, 176, 0.16); }
+  100% { background: transparent; }
+}
