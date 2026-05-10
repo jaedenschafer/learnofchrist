@@ -92,6 +92,10 @@ export const ACTS_16: RichChapterContent = {
           kind: 'carry',
           html:
             'Paul saw something in a young man and called him deeper. Timothy responded. Generations of churches would be shaped by their partnership—letters that are still read in every church on earth. Who in your life has called you to follow them into the work? And have you looked around to see the younger believers God is calling you to mentor? The gospel spreads not through heroes but through ordinary people saying to the next generation: Come. Follow. Help.',
+          youthOverride: {
+            html:
+              'Timothy is your age. He didn\'t apply for the job. An older believer noticed him, asked him to come along, and his life turned. Two of the most important letters in the New Testament were written TO him by name. Look around: who is the older Christian quietly inviting you in? Say yes. And start practicing now what it looks like to do the same thing for the kid two years younger than you who needs someone to invite them too.',
+          },
         },
         {
           kind: 'reflection',
@@ -232,6 +236,10 @@ export const ACTS_16: RichChapterContent = {
           kind: 'carry',
           html:
             'You may know the gospel story. You may have heard it a hundred times. But knowing is not the same as believing. Your heart may remain closed even as your ears are open. Lydia teaches you that belief is the work of God—a heart opened by the hand of the Spirit. But notice also: the moment her heart opened, she acted. She did not say, &ldquo;Let me think about this for a week.&rdquo; She moved. She was baptized. She opened her house. A closed heart is also a static heart. An open heart runs toward Christ.',
+          youthOverride: {
+            html:
+              'You may have heard the gospel a hundred times — youth group, summer camp, your parents\' car, that one teacher who slipped it in. Hearing isn\'t the same as believing. Lydia heard ONE sermon and her whole life moved that day. She didn\'t say "let me think about it for a semester." She got baptized and turned her house into the first church in Europe. The question isn\'t whether you know the story. It\'s whether you\'re still closed to the One in it.',
+          },
         },
         {
           kind: 'reflection',
@@ -339,6 +347,10 @@ export const ACTS_16: RichChapterContent = {
           kind: 'carry',
           html:
             'You may feel at times that following Jesus costs you—not your life, perhaps, but your comfort, your ease, your ability to fit in. Paul and Silas teach you that such cost is real. But they also teach you something else. They are in the stocks. They are beaten. They are alone in darkness. And they do not cry out in despair. They do not curse God. Instead, at midnight, something happens that will reshape everything.',
+          youthOverride: {
+            html:
+              'Following Jesus might not cost you your life. It will probably cost you the version of yourself that fit in. The friend group that needed you to laugh at the wrong joke. The party you used to be at. The post you would have written. Paul and Silas knew real cost — beaten, in stocks, in the dark. And the next thing the chapter records about them is a song. The cost is real. So is what comes after midnight.',
+          },
         },
         {
           kind: 'reflection',

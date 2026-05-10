@@ -105,11 +105,18 @@ export const GENESIS_22: RichChapterContent = {
           kind: 'carry',
           html:
             'God\'s first request is not easy, and the chapter does not pretend it is. When the thing you love most is asked of you-your child, your future, your promise, your dream-the only way forward is the simple word Abraham spoke: "Behold, here I am." You do not have to feel ready. You have to show up and be present to what God is asking. That willingness is where faith begins.',
+          youthOverride: {
+            html:
+              'God doesn\'t open easy. He opens with the thing that\'s actually yours — the dream you\'ve been sketching, the relationship you\'d trade anything to keep, the future you\'ve been quietly counting on. The only way forward is the same word Abraham said: "Here I am." You don\'t have to feel ready. You have to be present and honest about what He\'s asking. That\'s where faith starts — not in confidence, in availability.',
+          },
         },
         {
           kind: 'reflection',
           id: 'gen22-behold',
           prompt: 'What is the deepest thing you love right now? If God asked you for it, could you say "Behold, here I am"-not happily, but honestly, and ready to listen?',
+          youthOverride: {
+            prompt: 'What\'s the one thing you\'d be most afraid to hand back to God right now? Could you say "here I am" anyway?',
+          },
         },
       ],
     },

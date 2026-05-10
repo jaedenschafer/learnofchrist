@@ -185,6 +185,10 @@ export const ROMANS_8: RichChapterContent = {
           kind: 'carry',
           html:
             'What do you want most? Not secretly, but if you trace your time, your money, your energy—where are they going? That is where your phronēma faces. If it faces the flesh, even good flesh (health, rest, family), as your ultimate goal, you will find yourself increasingly empty. Reorient. Face the Spirit. Life follows.',
+          youthOverride: {
+            html:
+              'What do you actually want most? Not the answer you\'d give at church. Trace your screen time, your DMs, what you reach for first when you wake up — that\'s where your mind is facing. Even good things (grades, friends, the person you\'re hoping notices you) will hollow you out if they\'re your top thing. Turn your face the other way. Face the Spirit. Life follows the direction your face is set.',
+          },
         },
         {
           kind: 'reflection',

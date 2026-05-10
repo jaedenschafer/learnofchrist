@@ -459,6 +459,10 @@ export const ACTS_9: RichChapterContent = {
           kind: 'carry',
           html:
             'You may be waiting for someone to believe in you—to vouch for you, to bring you to the table, to tell your story so others will listen. Or you may be called to be that person for someone else. Barnabas&apos;s role in this story is small, but it is indispensable. He is the bridge between the persecutor and the persecuted. Be someone&apos;s Barnabas.',
+          youthOverride: {
+            html:
+              'There\'s usually one person in a room who decides whether the new kid gets to sit down. Whether the friend with the bad reputation gets a second look. Whether the quiet one in the corner gets pulled in. Barnabas is that person in this chapter. He brings Saul over even though everyone else still flinches at his name. You\'re going to spend your life either waiting for a Barnabas or being one. Be the one. The room is watching whoever moves first.',
+          },
         },
         {
           kind: 'reflection',

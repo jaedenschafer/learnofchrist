@@ -553,6 +553,10 @@ export const SAMUEL_1_17: RichChapterContent = {
           kind: 'carry',
           html:
             'You may find yourself in a situation where fear has settled so deeply that it looks like wisdom. Where soldiers have stood silent for forty days, and their silence has become the normal. And you may speak a truth, ask a question, suggest a possibility — and be met with anger from those who have accepted the fear. The anger does not mean you are wrong. It means you have said something they needed to hear but cannot yet believe.',
+          youthOverride: {
+            html:
+              'You walk into a room — a class, a friend group, a chat — where everyone has agreed to be afraid of something, and the silence has lasted long enough that breaking it makes you the problem. You say what you actually think. You ask the obvious question. And the people most invested in the silence get angry. Their anger doesn\'t mean you\'re wrong. It usually means you said the thing they needed to hear and couldn\'t yet believe.',
+          },
         },
 
         {
@@ -560,6 +564,10 @@ export const SAMUEL_1_17: RichChapterContent = {
           id: 'reflect-eliab',
           prompt:
             'When has someone accused you of pride or wrong motives when you were actually trying to do something right? How did you respond, and what did you learn?',
+          youthOverride: {
+            prompt:
+              'Think of a time someone in your circle assumed the worst about you when you were trying to do the right thing. What did that cost you? What kept you steady?',
+          },
         },
       ],
     },
