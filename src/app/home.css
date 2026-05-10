@@ -2060,3 +2060,159 @@ html[data-reader-theme="dark"] .loc-arch__tile {
     transition: none !important;
   }
 }
+
+/* ─── Dark mode overrides ───────────────────────────────────────────────
+   Many home-page rules hard-code Vesper light tokens (compline ink on
+   parchment surfaces) so they don't auto-swap when the user toggles dark
+   mode. This block remaps the affected text + surface treatments to the
+   dark palette. */
+
+html[data-reader-theme="dark"] .loc-showcase-card {
+  background: var(--loc-paper);
+  box-shadow: 0 -1px 0 0 rgba(245, 240, 230, 0.06) inset;
+}
+html[data-reader-theme="dark"] .loc-showcase-card + .loc-showcase-card {
+  box-shadow:
+    0 -8px 32px -12px rgba(0, 0, 0, 0.5),
+    0 -1px 0 0 rgba(245, 240, 230, 0.06) inset;
+}
+
+html[data-reader-theme="dark"] .loc-showcase-card__pager,
+html[data-reader-theme="dark"] .loc-showcase-card__num,
+html[data-reader-theme="dark"] .loc-showcase-card__pager-title,
+html[data-reader-theme="dark"] .loc-showcase-card__title {
+  color: var(--vesper-parchment);
+}
+html[data-reader-theme="dark"] .loc-showcase-card__num-divider,
+html[data-reader-theme="dark"] .loc-showcase-card__num-total {
+  color: rgba(245, 240, 230, 0.55);
+}
+html[data-reader-theme="dark"] .loc-showcase-card__body {
+  color: rgba(245, 240, 230, 0.72);
+}
+
+/* The right-side visual mock plate flips to a dark cloister tint with
+   gold-warmed gradients so the in-card mock reads on dark. */
+html[data-reader-theme="dark"] .loc-showcase-card__visual {
+  border-color: rgba(245, 240, 230, 0.10);
+  --frost-text:        var(--vesper-parchment);
+  --frost-text-soft:   rgba(245, 240, 230, 0.78);
+  --frost-text-muted:  rgba(245, 240, 230, 0.55);
+}
+html[data-reader-theme="dark"] .loc-showcase-card:nth-child(1) .loc-showcase-card__visual {
+  background:
+    radial-gradient(ellipse 70% 90% at 30% 10%, color-mix(in srgb, #D6A357 26%, transparent), transparent 70%),
+    linear-gradient(160deg, color-mix(in srgb, #E8B894 14%, #1F243B), #1F243B);
+}
+html[data-reader-theme="dark"] .loc-showcase-card:nth-child(2) .loc-showcase-card__visual {
+  background:
+    radial-gradient(ellipse 60% 80% at 80% 20%, color-mix(in srgb, var(--vesper-sky) 20%, transparent), transparent 70%),
+    linear-gradient(160deg, color-mix(in srgb, var(--vesper-sky) 10%, #1F243B), #1F243B);
+}
+html[data-reader-theme="dark"] .loc-showcase-card:nth-child(3) .loc-showcase-card__visual {
+  background:
+    radial-gradient(ellipse 70% 90% at 50% 0%, color-mix(in srgb, #D6A357 22%, transparent), transparent 70%),
+    linear-gradient(160deg, color-mix(in srgb, #D6A357 14%, #1F243B), #1F243B);
+}
+html[data-reader-theme="dark"] .loc-showcase-card:nth-child(4) .loc-showcase-card__visual {
+  background:
+    radial-gradient(ellipse 80% 90% at 20% 100%, color-mix(in srgb, #E8B894 22%, transparent), transparent 70%),
+    linear-gradient(160deg, color-mix(in srgb, #E8B894 12%, #1F243B), #1F243B);
+}
+
+/* Inline mock pieces inside the visual plate need to read on dark. */
+html[data-reader-theme="dark"] .loc-mock__hebrew {
+  background: rgba(245, 240, 230, 0.06);
+  border-color: rgba(245, 240, 230, 0.10);
+}
+html[data-reader-theme="dark"] .loc-mock__christ {
+  background: rgba(245, 240, 230, 0.04);
+  border-left-color: var(--vesper-gold);
+}
+html[data-reader-theme="dark"] .loc-mock__tab {
+  border-color: rgba(245, 240, 230, 0.12);
+  color: rgba(245, 240, 230, 0.78);
+}
+html[data-reader-theme="dark"] .loc-mock__tab.is-active {
+  background: var(--vesper-parchment);
+  color: var(--vesper-compline);
+  border-color: var(--vesper-parchment);
+}
+html[data-reader-theme="dark"] .loc-mock__depth-pill {
+  border-color: rgba(245, 240, 230, 0.12);
+  color: rgba(245, 240, 230, 0.78);
+}
+html[data-reader-theme="dark"] .loc-mock__depth-pill.is-active {
+  background: var(--vesper-parchment);
+  color: var(--vesper-compline);
+  border-color: var(--vesper-parchment);
+}
+html[data-reader-theme="dark"] .loc-mock__play {
+  background: var(--vesper-parchment);
+  color: var(--vesper-compline);
+}
+html[data-reader-theme="dark"] .loc-mock__note {
+  border-color: rgba(245, 240, 230, 0.12);
+}
+html[data-reader-theme="dark"] .loc-mock__audio-bar {
+  background: rgba(245, 240, 230, 0.12);
+}
+
+/* Blog section — the cream gradient + light glass cards need dark
+   counterparts. */
+html[data-reader-theme="dark"] .loc-blog {
+  background:
+    radial-gradient(ellipse 45% 30% at 15% 10%, color-mix(in srgb, #E8B894 14%, transparent), transparent 65%),
+    radial-gradient(ellipse 40% 28% at 85% 90%, color-mix(in srgb, #D6A357 12%, transparent), transparent 65%),
+    radial-gradient(ellipse 70% 50% at 50% 50%, rgba(31, 36, 59, 0.6), transparent 75%),
+    var(--loc-paper);
+}
+html[data-reader-theme="dark"] .loc-blog__title,
+html[data-reader-theme="dark"] .loc-blog-card__title {
+  color: var(--vesper-parchment);
+}
+html[data-reader-theme="dark"] .loc-blog__see-all {
+  color: rgba(245, 240, 230, 0.78);
+}
+html[data-reader-theme="dark"] .loc-blog__see-all:hover {
+  color: var(--vesper-parchment);
+}
+html[data-reader-theme="dark"] .loc-blog-card {
+  background: rgba(245, 240, 230, 0.06);
+  border-color: rgba(245, 240, 230, 0.10);
+  color: var(--vesper-parchment);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+}
+html[data-reader-theme="dark"] .loc-blog-card:hover {
+  background: rgba(245, 240, 230, 0.10);
+  border-color: rgba(245, 240, 230, 0.16);
+  box-shadow: 0 8px 24px -10px rgba(0, 0, 0, 0.6);
+}
+html[data-reader-theme="dark"] .loc-blog-card__excerpt {
+  color: rgba(245, 240, 230, 0.65);
+}
+
+/* Plans section — card titles and copy hardcoded compline. */
+html[data-reader-theme="dark"] .loc-plans__title,
+html[data-reader-theme="dark"] .loc-plan-card__title {
+  color: var(--vesper-parchment);
+}
+html[data-reader-theme="dark"] .loc-plans__lede,
+html[data-reader-theme="dark"] .loc-plan-card__copy {
+  color: rgba(245, 240, 230, 0.72);
+}
+
+/* Resources section title hardcoded compline. */
+html[data-reader-theme="dark"] .loc-resources__title {
+  color: var(--vesper-parchment);
+}
+html[data-reader-theme="dark"] .loc-resources__sub {
+  color: rgba(245, 240, 230, 0.72);
+}
+
+/* AppDashboard's "is-active" tab pill flipped white in dark; keep the
+   contrast against the dark frost rail. */
+html[data-reader-theme="dark"] .loc-dash__tab.is-active {
+  background: var(--vesper-parchment);
+  color: var(--vesper-compline);
+}

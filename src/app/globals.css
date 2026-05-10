@@ -310,6 +310,31 @@ body {
   --frost-shadow:       0 8px 24px -10px rgba(26, 22, 18, 0.16);
 }
 
+/* In dark reader theme, the body-default light-context frost tokens
+   above flip to a dark-tinted recipe so frost surfaces (.loc-btn,
+   .frost-card, .frost-pill, etc.) sitting on the parchment-context
+   body still read against a dark page. Sections that explicitly set
+   their own dark/light context (hero, dashboard, etc.) still win via
+   specificity. */
+html[data-reader-theme="dark"] body,
+html[data-reader-theme="dark"] .frost-light {
+  --frost-tint:         rgba(245, 240, 230, 0.08);
+  --frost-tint-card:    rgba(245, 240, 230, 0.10);
+  --frost-tint-strong:  rgba(245, 240, 230, 0.14);
+  --frost-tint-rail:    rgba(245, 240, 230, 0.06);
+  --frost-tint-hover:   rgba(245, 240, 230, 0.18);
+
+  --frost-text:         var(--vesper-parchment);
+  --frost-text-soft:    rgba(245, 240, 230, 0.78);
+  --frost-text-muted:   rgba(245, 240, 230, 0.55);
+
+  --frost-border-card:  rgba(245, 240, 230, 0.14);
+  --frost-border-chip:  rgba(245, 240, 230, 0.10);
+  --frost-border-rail:  rgba(245, 240, 230, 0.08);
+
+  --frost-shadow:       0 8px 24px -10px rgba(0, 0, 0, 0.6);
+}
+
 /* Dark context — explicit opt-in for sections that DO have a photo
    backdrop or dark veil (the home page hero, dashboard, mission, stats,
    stories, blog, closer all set this on their root). Reverts the body's
