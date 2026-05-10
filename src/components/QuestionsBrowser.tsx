@@ -51,13 +51,15 @@ export default function QuestionsBrowser({ questions, categoryColors }: Props) {
         <button
           type="button"
           onClick={() => setActiveCategory(null)}
-          className={`pill ${activeCategory === null ? 'bg-navy text-cream' : 'bg-gray-50 text-gray-600'}`}
+          className={`pill ${activeCategory === null ? 'bg-navy text-cream' : 'bg-[color:var(--color-fill-subtle)] text-[color:var(--color-secondary-label)]'}`}
         >
           All
         </button>
         {categories.map((category) => {
           const isActive = activeCategory === category;
-          const baseColor = categoryColors[category] || 'bg-gray-50 text-gray-600';
+          const baseColor =
+            categoryColors[category] ||
+            'bg-[color:var(--color-fill-subtle)] text-[color:var(--color-secondary-label)]';
           return (
             <button
               key={category}

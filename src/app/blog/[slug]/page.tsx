@@ -288,7 +288,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
             <span>{post.readTime}</span>
             <span
               className={`pill !py-0.5 !px-2.5 !text-[0.65rem] ${
-                categoryColors[post.category] || 'bg-gray-50 text-gray-600'
+                categoryColors[post.category] || 'bg-[color:var(--color-fill-subtle)] text-[color:var(--color-secondary-label)]'
               }`}
             >
               {post.category}
@@ -466,7 +466,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                       <div className="flex items-center gap-2 mb-1.5">
                         <span
                           className={`pill !py-0.5 !px-2 !text-[0.6rem] ${
-                            categoryColors[related.category] || 'bg-gray-50 text-gray-600'
+                            categoryColors[related.category] || 'bg-[color:var(--color-fill-subtle)] text-[color:var(--color-secondary-label)]'
                           }`}
                         >
                           {related.category}

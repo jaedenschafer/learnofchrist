@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useEffect, useRef, useState } from 'react';
 import { getSupabaseBrowserClient } from '@/lib/supabase/browser';
+import { useReadingPrefs } from '@/lib/ReadingPrefsContext';
 import type { User } from '@supabase/supabase-js';
 
 type Variant = 'desktop' | 'mobile';
@@ -20,6 +21,7 @@ export default function AuthButton({
   const [loaded, setLoaded] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const menuRef = useRef<HTMLDivElement | null>(null);
+  const { setTheme, isDark } = useReadingPrefs();
 
   useEffect(() => {
     const supabase = getSupabaseBrowserClient();
@@ -124,6 +126,37 @@ export default function AuthButton({
           <Avatar src={avatar} initial={initial} size={28} />
           <span className="truncate">{displayName}</span>
         </Link>
+        <button
+          type="button"
+          aria-checked={isDark}
+          role="switch"
+          onClick={() => setTheme(isDark ? 'light' : 'dark')}
+          className="nav-link w-full flex items-center justify-between gap-3 px-4 py-3 rounded-2xl text-[0.9375rem] font-medium transition-all"
+        >
+          <span className="flex items-center gap-3">
+            <span
+              className="inline-flex items-center justify-center w-6 h-6"
+              aria-hidden="true"
+            >
+              {isDark ? <MoonIconSmall /> : <SunIconSmall />}
+            </span>
+            <span>Dark mode</span>
+          </span>
+          <span
+            className={`relative inline-flex w-10 h-6 rounded-full transition-colors ${
+              isDark
+                ? 'bg-[color:var(--color-primary)]'
+                : 'bg-[color:var(--color-separator)]'
+            }`}
+            aria-hidden="true"
+          >
+            <span
+              className={`absolute top-0.5 inline-block w-5 h-5 rounded-full bg-white shadow transition-transform ${
+                isDark ? 'translate-x-[18px]' : 'translate-x-0.5'
+              }`}
+            />
+          </span>
+        </button>
         <form action="/auth/sign-out" method="post">
           <button
             type="submit"
@@ -171,6 +204,44 @@ export default function AuthButton({
           >
             Account
           </Link>
+          <div className="border-t border-[color:var(--color-separator)] my-1" />
+          <div className="px-3 py-2">
+            <p className="text-[0.6875rem] uppercase tracking-wide font-semibold text-[color:var(--color-tertiary-label)] mb-2">
+              Settings
+            </p>
+            <button
+              type="button"
+              role="menuitemcheckbox"
+              aria-checked={isDark}
+              onClick={() => setTheme(isDark ? 'light' : 'dark')}
+              className="w-full flex items-center justify-between gap-3 px-2 py-1.5 rounded-lg text-[0.875rem] text-[color:var(--color-label)] hover:bg-[color:var(--color-separator)]/40 transition-colors"
+            >
+              <span className="flex items-center gap-2">
+                <span
+                  className="inline-flex items-center justify-center w-5 h-5 text-[color:var(--color-secondary-label)]"
+                  aria-hidden="true"
+                >
+                  {isDark ? <MoonIconSmall /> : <SunIconSmall />}
+                </span>
+                <span>Dark mode</span>
+              </span>
+              <span
+                className={`relative inline-flex w-9 h-5 rounded-full transition-colors ${
+                  isDark
+                    ? 'bg-[color:var(--color-primary)]'
+                    : 'bg-[color:var(--color-separator)]'
+                }`}
+                aria-hidden="true"
+              >
+                <span
+                  className={`absolute top-0.5 inline-block w-4 h-4 rounded-full bg-white shadow transition-transform ${
+                    isDark ? 'translate-x-[18px]' : 'translate-x-0.5'
+                  }`}
+                />
+              </span>
+            </button>
+          </div>
+          <div className="border-t border-[color:var(--color-separator)] my-1" />
           <form action="/auth/sign-out" method="post">
             <button
               type="submit"
@@ -183,6 +254,43 @@ export default function AuthButton({
         </div>
       )}
     </div>
+  );
+}
+
+function SunIconSmall() {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth={1.6}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      width="16"
+      height="16"
+      aria-hidden="true"
+    >
+      <circle cx="12" cy="12" r="4" />
+      <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41" />
+    </svg>
+  );
+}
+
+function MoonIconSmall() {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth={1.6}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      width="16"
+      height="16"
+      aria-hidden="true"
+    >
+      <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" />
+    </svg>
   );
 }
 
