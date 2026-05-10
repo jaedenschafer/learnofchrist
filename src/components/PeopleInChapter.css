@@ -1,0 +1,128 @@
+/* ─── People in this chapter ────────────────────────────────────────
+ *  Ribbon between the chapter intros and the first scripture section.
+ *  Mirrors CrossRefCard idiom (snap-scroll on touch, grid on wide). */
+
+.people-in-chapter {
+  margin: 1.6rem 0 0.8rem;
+  padding: 1.1rem 0 0;
+  border-top: 1px dashed color-mix(in oklab, var(--color-separator, #d6d3cb) 100%, transparent);
+}
+
+.people__title {
+  margin: 0 0 0.7rem;
+  font-family: -apple-system, "SF Pro Text", system-ui, sans-serif;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--color-tertiary-label, #6e6a60);
+}
+
+.people__row {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 0.7rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 0.4rem;
+}
+.people__row::-webkit-scrollbar { display: none; }
+.people__row { scrollbar-width: none; }
+
+.people__card {
+  scroll-snap-align: start;
+  flex: 0 0 17rem;
+  max-width: 17rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.42rem;
+  padding: 0.95rem 1rem 1rem;
+  background: color-mix(in oklab, var(--color-surface, #faf7f1) 75%, transparent);
+  border: 1px solid color-mix(in oklab, var(--color-separator, #d6d3cb) 50%, transparent);
+  border-radius: 12px;
+  transition: border-color .18s ease, transform .18s ease;
+}
+
+.people__card[data-expanded='1'] {
+  flex: 0 0 22rem;
+  max-width: 22rem;
+}
+
+.people__card-head {
+  display: flex;
+  flex-direction: column;
+  gap: 0.05rem;
+}
+
+.people__name-link {
+  text-decoration: none !important;
+  color: inherit;
+}
+.people__name-link:hover .people__name {
+  color: var(--color-primary, #8b6635);
+}
+
+.people__name {
+  font-family: "New York", "Iowan Old Style", Georgia, serif;
+  font-size: 1.06rem;
+  font-weight: 700;
+  letter-spacing: -0.005em;
+  color: var(--color-label, #1c1b18);
+}
+
+.people__role {
+  font-family: -apple-system, "SF Pro Text", system-ui, sans-serif;
+  font-size: 0.74rem;
+  letter-spacing: 0.02em;
+  color: var(--color-secondary-label, #4d4a44);
+  font-style: italic;
+}
+
+.people__era {
+  font-family: -apple-system, "SF Pro Text", system-ui, sans-serif;
+  font-size: 0.66rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-tertiary-label, #6e6a60);
+}
+
+.people__bio {
+  margin: 0;
+  font-family: "New York", "Iowan Old Style", Georgia, serif;
+  font-size: 0.93rem;
+  line-height: 1.46;
+  color: var(--color-label, #1c1b18);
+}
+
+.people__expand {
+  background: none;
+  border: 0;
+  padding: 0;
+  margin-top: 0.18rem;
+  font-family: -apple-system, "SF Pro Text", system-ui, sans-serif;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: var(--color-primary, #8b6635);
+  cursor: pointer;
+  text-align: left;
+}
+.people__expand:hover { text-decoration: underline; }
+
+@media (min-width: 700px) {
+  .people__row {
+    flex-wrap: wrap;
+    overflow-x: visible;
+  }
+  .people__card {
+    flex: 0 1 calc(50% - 0.35rem);
+    max-width: calc(50% - 0.35rem);
+  }
+  .people__card[data-expanded='1'] {
+    flex: 0 1 100%;
+    max-width: 100%;
+  }
+}

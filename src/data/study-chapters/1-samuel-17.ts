@@ -25,6 +25,25 @@ export const SAMUEL_1_17: RichChapterContent = {
     'But there is a boy in the camp — the youngest son of Jesse, left behind to tend the sheep. His name is David. And when David hears Goliath&apos;s defiance, something stirs in him that is not fear. He sees a man defying the armies of the living God. And he knows: the battle does not belong to Goliath. It belongs to the Lord.',
   ],
 
+  characters: [
+    { slug: 'david', role: 'The shepherd-boy who answered the giant' },
+    { slug: 'goliath' },
+    { slug: 'saul', role: 'The king who watched from camp' },
+    { slug: 'jesse', role: 'David’s father, sender of the bread and cheese' },
+  ],
+
+  map: {
+    preset: 'judea',
+    places: [
+      { name: 'Bethlehem', x: 0.42, y: 0.46, kind: 'origin', note: 'David’s home; Jesse sends him with bread' },
+      { name: 'Valley of Elah', x: 0.30, y: 0.36, kind: 'travel-to', note: 'Where the armies and Goliath stood' },
+      { name: 'Gath', x: 0.10, y: 0.45, kind: 'visit', note: 'Goliath’s Philistine city' },
+      { name: 'Jerusalem', x: 0.46, y: 0.40, kind: 'visit', note: 'Where David later carries Goliath’s head (v. 54)' },
+    ],
+    route: [0, 1],
+    caption: 'David walks from Bethlehem to the valley of Elah, where Israel and Philistia face off across a brook.',
+  },
+
   bottomShare: {
     label: 'Share 1 Samuel 17',
     quote:

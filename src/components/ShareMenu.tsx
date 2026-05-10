@@ -10,7 +10,14 @@ export interface ShareContent {
   variant?: 'verse' | 'insight';
   sourceUrl: string;    // Canonical page URL (used for Copy Link / social share)
   hashtag?: string;
+  /** Optional URL of an artwork plate to overlay behind the verse text in
+   *  the generated share image. Must be HTTPS and on the host whitelist
+   *  enforced by /api/og/share. When omitted, the share image renders on
+   *  the dark gradient default. */
+  artUrl?: string;
 }
+
+type ShareFormat = 'landscape' | 'square' | 'story';
 
 export default function ShareMenu({
   content,
@@ -21,6 +28,7 @@ export default function ShareMenu({
 }) {
   const [copied, setCopied] = useState<'link' | 'text' | null>(null);
   const [nativeSupported, setNativeSupported] = useState(false);
+  const [format, setFormat] = useState<ShareFormat>('landscape');
 
   useEffect(() => {
     setNativeSupported(typeof navigator !== 'undefined' && 'share' in navigator);
@@ -35,7 +43,7 @@ export default function ShareMenu({
     };
   }, [onClose]);
 
-  const ogUrl = buildOgUrl(content);
+  const ogUrl = buildOgUrl(content, format);
   const shareUrl = content.sourceUrl;
   const shareText = content.variant === 'insight'
     ? `${content.quote}${content.ref ? ` — ${content.ref}` : ''}`
@@ -67,7 +75,7 @@ export default function ShareMenu({
       const url = URL.createObjectURL(blob);
       const a = document.createElement('a');
       a.href = url;
-      a.download = `learnofchrist-${slugify(content.ref || 'share')}.png`;
+      a.download = `learnofchrist-${slugify(content.ref || 'share')}-${format}.png`;
       document.body.appendChild(a);
       a.click();
       a.remove();
@@ -119,14 +127,36 @@ export default function ShareMenu({
           </button>
         </div>
 
+        {/* Format toggle — landscape (link previews), square (Instagram
+            feed), story (Instagram/WhatsApp story). */}
+        <div
+          className="share-menu-format"
+          role="radiogroup"
+          aria-label="Image format"
+        >
+          {(['landscape', 'square', 'story'] as ShareFormat[]).map((f) => (
+            <button
+              key={f}
+              type="button"
+              role="radio"
+              aria-checked={format === f}
+              className={`share-menu-format-btn ${format === f ? 'is-active' : ''}`}
+              onClick={() => setFormat(f)}
+            >
+              {f === 'landscape' ? 'Link' : f === 'square' ? 'Square' : 'Story'}
+            </button>
+          ))}
+        </div>
+
         {/* Preview */}
-        <div className="share-menu-preview">
+        <div className={`share-menu-preview share-menu-preview--${format}`}>
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src={ogUrl}
             alt="Share card preview"
             className="share-menu-preview-img"
             loading="eager"
+            key={ogUrl}
           />
         </div>
 
@@ -193,13 +223,15 @@ export default function ShareMenu({
   );
 }
 
-function buildOgUrl(c: ShareContent): string {
+function buildOgUrl(c: ShareContent, format: ShareFormat = 'landscape'): string {
   const params = new URLSearchParams({
     quote: c.quote.slice(0, 320),
     variant: c.variant || 'verse',
+    format,
   });
   if (c.snippet) params.set('snippet', c.snippet.slice(0, 240));
   if (c.ref) params.set('ref', c.ref.slice(0, 60));
+  if (c.artUrl) params.set('art', c.artUrl);
   return `/api/og/share?${params.toString()}`;
 }
 

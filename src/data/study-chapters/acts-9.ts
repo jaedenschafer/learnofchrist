@@ -19,6 +19,24 @@ export const ACTS_9: RichChapterContent = {
   chapter: 9,
 
   estimatedMinutes: { beginner: 10, intermediate: 20, deep: 26 },
+
+  characters: [
+    { slug: 'paul', role: 'The persecutor met by the risen Christ' },
+    { slug: 'peter', role: 'Healing through Lydda and Joppa' },
+  ],
+
+  map: {
+    preset: 'mediterranean',
+    places: [
+      { name: 'Jerusalem', x: 0.61, y: 0.55, kind: 'origin', note: 'Where Saul gets letters from the high priest' },
+      { name: 'Damascus', x: 0.66, y: 0.45, kind: 'travel-to', note: 'The road of the blinding light' },
+      { name: 'Lydda', x: 0.59, y: 0.55, kind: 'visit', note: 'Peter heals Aeneas' },
+      { name: 'Joppa', x: 0.58, y: 0.55, kind: 'visit', note: 'Peter raises Tabitha' },
+    ],
+    route: [0, 1],
+    caption: 'Saul rides north toward Damascus and is met by Christ; meanwhile Peter ministers along the coast.',
+  },
+
   intros: [
     'Saul has made it his mission to hunt down followers of Jesus. He carries letters from the high priest himself, authorizing him to bind any believer he finds and drag them to Jerusalem. But on the road to Damascus, something happens that will unravel everything. A light brighter than the sun cuts him down. A voice speaks his name. "Saul, Saul, why persecutest thou me?" It is Jesus—the One Saul has been fighting against all along. In that instant, the persecutor&apos;s entire world inverts.',
     'This chapter shows what resurrection power actually does when it meets human resistance. It does not reason with Saul or negotiate. It does not wait for him to grow tired of his old ways. It confronts him, blinds him, remakes him. Three days later, a disciple named Ananias—acting on nothing but a vision and obedience—places his hands on Saul&apos;s eyes, scales fall away, and Saul rises baptized. The man who came to Damascus as an executioner leaves as an evangelist.',

@@ -1219,18 +1219,49 @@ html.js .rich-study .scripture.visible mark {
 .share-menu-close:hover { background: #E5E5EA; color: #1D1D1F; }
 .share-menu-close svg { width: 16px; height: 16px; }
 
+.share-menu-format {
+  display: inline-flex;
+  gap: 0.32rem;
+  padding: 0 1.5rem 0.6rem;
+  background: transparent;
+}
+.share-menu-format-btn {
+  background: #F5F5F7;
+  border: 1px solid rgba(0,0,0,0.08);
+  border-radius: 999px;
+  padding: 0.3rem 0.8rem;
+  font-family: -apple-system, "SF Pro Text", system-ui, sans-serif;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: #4d4a44;
+  cursor: pointer;
+  transition: all .15s ease;
+}
+.share-menu-format-btn:hover { border-color: rgba(0,0,0,0.18); }
+.share-menu-format-btn.is-active {
+  background: #1D1D1F;
+  color: #fff;
+  border-color: #1D1D1F;
+}
+
 .share-menu-preview {
   padding: 0 1.5rem 1rem;
+  display: flex;
+  justify-content: center;
 }
 .share-menu-preview-img {
   display: block;
   width: 100%;
-  aspect-ratio: 1200 / 630;
   border-radius: 14px;
   border: 1px solid rgba(0,0,0,0.06);
   background: #F5F5F7;
   object-fit: cover;
+  transition: aspect-ratio .25s ease, max-width .25s ease;
 }
+.share-menu-preview--landscape .share-menu-preview-img { aspect-ratio: 1200 / 630; }
+.share-menu-preview--square    .share-menu-preview-img { aspect-ratio: 1 / 1; max-width: 360px; }
+.share-menu-preview--story     .share-menu-preview-img { aspect-ratio: 1080 / 1920; max-width: 240px; }
 
 .share-menu-actions {
   display: grid;

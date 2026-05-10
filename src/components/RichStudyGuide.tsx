@@ -19,6 +19,11 @@ import ChapterProgress from './ChapterProgress';
 import InlineArtwork from './InlineArtwork';
 import HighlightController from './HighlightController';
 import BlockHideMenus from './BlockHideMenus';
+import CrossRefCard from './CrossRefCard';
+import PeopleInChapter from './PeopleInChapter';
+import ChapterMap from './ChapterMap';
+import VerseTranslationOverlay from './VerseTranslationOverlay';
+import { getFallbackCrossRefs } from '@/data/study-chapters/cross-refs';
 // StudyLevelControl was the prominent three-tab segmented control rendered
 // near the top of every study chapter. It now lives as a compact pill in
 // StudyFilters next to the translation switcher, so this import is gone.
@@ -586,17 +591,46 @@ export default function RichStudyGuide({
           />
         )}
 
+        {/* Optional inline map for narrative chapters. Renders just below
+            the opener so the geography frames the reading. */}
+        {content.map && <ChapterMap map={content.map} />}
+
+        {/* People ribbon — drawn from the shared characters library.
+            Bios deepen with the active study level. */}
+        {content.characters && content.characters.length > 0 && (
+          <PeopleInChapter characters={content.characters} />
+        )}
+
         {opener && <div className="divider">· · ·</div>}
 
-        {content.sections.map((section, i) => (
-          <RenderSection
-            key={i}
-            section={section}
-            studyId={studyId}
-            artworks={artworks}
-            isFirst={i === 0}
-          />
-        ))}
+        {(() => {
+          // Chapter-level cross-ref fallback. Sections without their own
+          // `crossRefs` use it — but only the FIRST section that lacks a
+          // curated set, so the same fallback never repeats down the page.
+          const fallback = getFallbackCrossRefs(content.bookSlug, content.chapter);
+          let fallbackUsed = false;
+          return content.sections.map((section, i) => {
+            const sectionRefs = section.crossRefs;
+            const useFallback =
+              !sectionRefs && fallback.length > 0 && !fallbackUsed;
+            if (useFallback) fallbackUsed = true;
+            return (
+              <RenderSection
+                key={i}
+                section={section}
+                studyId={studyId}
+                artworks={artworks}
+                isFirst={i === 0}
+                resolvedCrossRefs={sectionRefs ?? (useFallback ? fallback : undefined)}
+              />
+            );
+          });
+        })()}
+
+        {/* Long-press / right-click any verse to compare translations.
+            Mounts a single document-level listener; harmless when the
+            user never invokes it. */}
+        <VerseTranslationOverlay bookSlug={content.bookSlug} chapter={content.chapter} />
 
         {content.bottomShare && (
           <div className="study-bottom-share">
@@ -695,11 +729,13 @@ function RenderSection({
   studyId,
   artworks,
   isFirst,
+  resolvedCrossRefs,
 }: {
   section: RichSection;
   studyId: string;
   artworks: ArtworkWithArtist[];
   isFirst: boolean;
+  resolvedCrossRefs?: ReturnType<typeof getFallbackCrossRefs>;
 }) {
   // A "verse-section" wraps every consecutive block until the next section/divider.
   // Genesis 1's pattern: <section className="verse-section"> contains a scripture
@@ -750,6 +786,13 @@ function RenderSection({
           </section>
         );
       })}
+      {/* Cross-reference card — rendered after the section's last block.
+          Section-curated refs win; otherwise the chapter-level fallback
+          (rendered against the first eligible section only — see the
+          parent's fallbackUsed gate). */}
+      {resolvedCrossRefs && resolvedCrossRefs.length > 0 && (
+        <CrossRefCard refs={resolvedCrossRefs} sectionTitle={section.title} />
+      )}
     </>
   );
 }

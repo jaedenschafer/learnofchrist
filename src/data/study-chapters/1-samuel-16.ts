@@ -20,6 +20,25 @@ export const SAMUEL_1_16: RichChapterContent = {
   chapter: 16,
 
   estimatedMinutes: { beginner: 3, intermediate: 12, deep: 15 },
+
+  characters: [
+    { slug: 'samuel', role: 'Sent to anoint Israel’s next king' },
+    { slug: 'david', role: 'The youngest son, called in from the sheep' },
+    { slug: 'jesse', role: 'The Bethlehemite father of eight sons' },
+    { slug: 'saul', role: 'The rejected king, whom David’s harp now soothes' },
+  ],
+
+  map: {
+    preset: 'judea',
+    places: [
+      { name: 'Ramah', x: 0.40, y: 0.32, kind: 'origin', note: 'Samuel’s home before the journey' },
+      { name: 'Bethlehem', x: 0.42, y: 0.46, kind: 'travel-to', note: 'Jesse’s house — the secret anointing' },
+      { name: 'Gibeah', x: 0.45, y: 0.40, kind: 'visit', note: 'Saul’s court, where David is summoned to play' },
+    ],
+    route: [0, 1, 2],
+    caption: 'Samuel travels south to Bethlehem to anoint a new king; David is later summoned north to Saul’s court.',
+  },
+
   intros: [
     'The book of Samuel turns here — from the end of one dynasty to the beginning of another. Saul is rejected. The kingdom is being torn from his hand. And the Lord tells Samuel: "How long wilt thou mourn for Saul, seeing I have rejected him from reigning over Israel?" The task now is to anoint a new king, but not through power or armies or the counsel of men. Instead, the Lord will choose.',
     'David&apos;s anointing happens in secret, in a small Bethlehem town, in the house of a shepherd named Jesse. It is not a coronation with trumpets. It is not witnessed by priests or elders or the people of Israel. It is a private act, a hidden act, a mystery. And it is this very hiddenness that teaches the chapter&apos;s central truth: "Man looketh on the outward appearance, but the Lord looketh on the heart." The God who chooses does not look as men look. He sees what is invisible to us — the heart of a shepherd boy, and in that heart, a king.',

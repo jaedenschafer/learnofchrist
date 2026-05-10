@@ -1,0 +1,46 @@
+/* ─── Chapter map ────────────────────────────────────────────────────
+ *  Lightweight inline SVG. Sits below the chapter opener; a single
+ *  hairline frame keeps it on the printed-book aesthetic of the rest
+ *  of the page. */
+
+.chapter-map {
+  margin: 1.4rem 0 0;
+  padding: 0.7rem;
+  background: color-mix(in oklab, var(--color-surface, #faf7f1) 60%, transparent);
+  border: 1px solid color-mix(in oklab, var(--color-separator, #d6d3cb) 60%, transparent);
+  border-radius: 12px;
+}
+
+.chapter-map__svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 320px;
+  border-radius: 8px;
+  background: #c6d6e1;
+}
+
+.chapter-map__label {
+  font-family: -apple-system, "SF Pro Text", system-ui, sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  fill: #2c2516;
+  paint-order: stroke;
+  stroke: rgba(255, 255, 255, 0.85);
+  stroke-width: 2.5px;
+  stroke-linejoin: round;
+}
+
+.chapter-map__marker {
+  cursor: default;
+}
+
+.chapter-map__caption {
+  margin: 0.55rem 0 0;
+  text-align: center;
+  font-family: -apple-system, "SF Pro Text", system-ui, sans-serif;
+  font-size: 0.78rem;
+  letter-spacing: 0.02em;
+  color: var(--color-secondary-label, #4d4a44);
+  font-style: italic;
+}

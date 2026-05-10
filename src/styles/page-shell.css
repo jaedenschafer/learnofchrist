@@ -266,6 +266,178 @@
   transform: translateX(3px);
 }
 
+/* ─── Translation card ─────────────────────────────────────────────────
+   Editorial card recipe used on /bible/translations. Bigger breathing
+   room, a serif gold ABBR badge in the corner, a calm pull-quote with a
+   gold left rule, and the action row pinned to the bottom so the cards
+   line up across the grid. */
+
+.lop-grid--translations {
+  gap: clamp(1rem, 1.8vw, 1.5rem);
+}
+
+.lop-card--translation {
+  padding: clamp(1.75rem, 2.6vw, 2.25rem);
+  gap: 1.25rem;
+  /* Soft inner top-stripe of warm gold so each card feels like a leaf
+     of paper, not a flat tile. Layered behind content via z. */
+  background:
+    linear-gradient(180deg,
+      color-mix(in srgb, var(--vesper-gold) 6%, transparent) 0%,
+      transparent 22%),
+    var(--frost-tint-card);
+}
+
+.lop-card--translation .lop-card__head {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin: 0;
+  padding: 0 0 0.25rem;
+  border-bottom: 1px solid color-mix(in srgb, var(--vesper-compline) 8%, transparent);
+}
+
+.lop-card__abbr-block {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.65rem;
+  margin: 0 0 0.25rem;
+}
+
+.lop-card__abbr {
+  font-family: 'EB Garamond', 'New York', Georgia, serif;
+  font-weight: 600;
+  font-size: clamp(1.5rem, 2.4vw, 1.875rem);
+  letter-spacing: -0.01em;
+  line-height: 1;
+  color: var(--vesper-gold);
+}
+
+.lop-card__year {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: rgba(26, 22, 18, 0.45);
+  font-variant-numeric: tabular-nums;
+}
+
+.lop-card--translation .lop-card__title {
+  font-size: clamp(1.5rem, 2.2vw, 1.875rem);
+  line-height: 1.12;
+  margin: 0;
+  color: var(--vesper-compline);
+}
+
+.lop-card__sub {
+  margin: 0.15rem 0 0;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: rgba(26, 22, 18, 0.55);
+  letter-spacing: -0.005em;
+}
+
+.lop-card--translation .lop-card__meta {
+  margin: 0;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.lop-card--translation .lop-card__copy {
+  margin: 0;
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  -webkit-line-clamp: 5;
+  line-clamp: 5;
+}
+
+/* Pull quote — italic serif with a vertical gold rule. The cite line
+   sits below in inter, all-caps, tabular numerals so refs line up
+   across cards. */
+.lop-card__quote {
+  position: relative;
+  margin: 0;
+  padding: 0.85rem 0 0.85rem 1.1rem;
+  border-left: 2px solid color-mix(in srgb, var(--vesper-gold) 65%, transparent);
+}
+
+.lop-card__quote-text {
+  margin: 0;
+  font-family: 'EB Garamond', 'New York', Georgia, serif;
+  font-style: italic;
+  font-size: 1.0625rem;
+  line-height: 1.5;
+  color: var(--vesper-compline);
+  letter-spacing: -0.005em;
+}
+
+.lop-card__quote-cite {
+  margin: 0.55rem 0 0;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--vesper-gold);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Actions row — pinned to the bottom of the card so cards in a row
+   end at the same baseline regardless of body length. */
+.lop-card__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: auto;
+  padding-top: 0.5rem;
+}
+
+.lop-card__action {
+  flex: 1 1 auto;
+  min-width: 8.5rem;
+  padding: 0.75rem 1.4rem;
+  font-size: 0.875rem;
+}
+
+@media (min-width: 720px) {
+  .lop-card__action {
+    flex: 0 0 auto;
+  }
+}
+
+/* Dark theme — flip head divider, year/sub colors, and the quote rule
+   so they read on the cloister-tinted card. */
+html[data-reader-theme="dark"] .lop-card--translation {
+  background:
+    linear-gradient(180deg,
+      color-mix(in srgb, #D6A357 8%, transparent) 0%,
+      transparent 24%),
+    rgba(255, 255, 255, 0.04);
+}
+html[data-reader-theme="dark"] .lop-card--translation .lop-card__head {
+  border-bottom-color: rgba(245, 240, 230, 0.10);
+}
+html[data-reader-theme="dark"] .lop-card__abbr {
+  color: #D6A357;
+}
+html[data-reader-theme="dark"] .lop-card__year {
+  color: rgba(245, 240, 230, 0.45);
+}
+html[data-reader-theme="dark"] .lop-card__sub {
+  color: rgba(245, 240, 230, 0.55);
+}
+html[data-reader-theme="dark"] .lop-card__quote {
+  border-left-color: color-mix(in srgb, #D6A357 75%, transparent);
+}
+html[data-reader-theme="dark"] .lop-card__quote-text {
+  color: rgba(245, 240, 230, 0.92);
+}
+html[data-reader-theme="dark"] .lop-card__quote-cite {
+  color: #D6A357;
+}
+
 /* Featured banner card — image/visual on top, copy below. Used by Blog. */
 .lop-feature {
   position: relative;

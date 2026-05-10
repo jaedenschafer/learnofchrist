@@ -75,16 +75,47 @@ const LEVEL_RANK: Record<StudyLevel, number> = {
   deep: 3,
 };
 
+/* ─── Audience ────────────────────────────────────────────────────────── */
+
+/** Reader audience — orthogonal to StudyLevel.
+ *  • adults — the canonical chapter (default).
+ *  • youth  — same chapter, with adult-themed blocks stripped and a few
+ *             Carry/Reflection blocks rephrased for teens via `youthOverride`.
+ *  • kids   — a totally different document. Lives in
+ *             src/data/kids-chapters/[book]-[chapter].ts under a separate
+ *             schema (`types-kids.ts`). The rich content here is NOT used
+ *             when audience is 'kids'; the kids registry is consulted
+ *             instead.
+ *
+ *  The fields below — `hideForYouth` and `youthOverride` — only ever
+ *  affect the Adults+Youth shared file. Kids content is handled outside
+ *  this module.
+ */
+export type Audience = 'adults' | 'youth' | 'kids';
+
+/** Per-block override for Youth audience. Use for Carry/Reflection/commentary
+ *  blocks where the adult version is work/marriage/parenting-coded and the
+ *  teen-relevant version should be school/friends/identity-coded. */
+export interface YouthOverride {
+  /** Replacement HTML for blocks rendered with `html` (commentary, christ,
+   *  carry). Other fields on the block stay the same. */
+  html?: string;
+  /** Replacement reflection prompt. Only meaningful on `kind: 'reflection'`. */
+  prompt?: string;
+  /** Replacement title. Only meaningful on titled blocks (christ). */
+  title?: string;
+}
+
 /* ─── Block types that compose a section ──────────────────────────────── */
 
 export type Block =
-  | { kind: 'scripture'; chapter: number; lines: VerseLine[]; minLevel?: StudyLevel }
-  | { kind: 'commentary'; id?: string; html: string; minLevel?: StudyLevel }
-  | { kind: 'hebrew'; id: string; title: string; script: string; translit: string; description: string; minLevel?: StudyLevel }
-  | { kind: 'greek';  id: string; title: string; script: string; translit: string; description: string; minLevel?: StudyLevel }
-  | { kind: 'christ'; id: string; title: string; html: string; minLevel?: StudyLevel }
-  | { kind: 'carry';  html: string; minLevel?: StudyLevel }
-  | { kind: 'reflection'; id: string; prompt: string; minLevel?: StudyLevel }
+  | { kind: 'scripture'; chapter: number; lines: VerseLine[]; minLevel?: StudyLevel; hideForYouth?: boolean }
+  | { kind: 'commentary'; id?: string; html: string; minLevel?: StudyLevel; hideForYouth?: boolean; youthOverride?: YouthOverride }
+  | { kind: 'hebrew'; id: string; title: string; script: string; translit: string; description: string; minLevel?: StudyLevel; hideForYouth?: boolean }
+  | { kind: 'greek';  id: string; title: string; script: string; translit: string; description: string; minLevel?: StudyLevel; hideForYouth?: boolean }
+  | { kind: 'christ'; id: string; title: string; html: string; minLevel?: StudyLevel; hideForYouth?: boolean; youthOverride?: YouthOverride }
+  | { kind: 'carry';  html: string; minLevel?: StudyLevel; hideForYouth?: boolean; youthOverride?: YouthOverride }
+  | { kind: 'reflection'; id: string; prompt: string; minLevel?: StudyLevel; hideForYouth?: boolean; youthOverride?: YouthOverride }
   | {
       kind: 'artwork';
       /** Author writes RegExp literals; the server resolves them
@@ -109,8 +140,9 @@ export type Block =
        *  "(themed)". Authors do NOT set this directly. */
       themed?: boolean;
       minLevel?: StudyLevel;
+      hideForYouth?: boolean;
     }
-  | { kind: 'divider'; minLevel?: StudyLevel };
+  | { kind: 'divider'; minLevel?: StudyLevel; hideForYouth?: boolean };
 
 /* ─── Study-level helpers ────────────────────────────────────────────── */
 
@@ -158,6 +190,81 @@ export interface EstimatedMinutes {
   deep: number;
 }
 
+/* ─── Cross-references ──────────────────────────────────────────────────
+ *  A small swipeable card rendered after each section's last block. Surfaces
+ *  3–5 places in the rest of Scripture where the same theme, image, or
+ *  promise echoes. Authored per-section so the references are tied to that
+ *  unit's specific point, not a generic chapter overview.
+ */
+
+export interface CrossRef {
+  /** Display label, e.g. "John 1:1–3", "Hebrews 11:3", "Colossians 1:16". */
+  ref: string;
+  /** Short snippet from the passage so readers can preview without leaving. */
+  snippet: string;
+  /** Target URL. Defaults to the canonical Learn of Christ chapter page if
+   *  omitted, derived from `ref` (e.g. "John 1:1–3" → "/study/john/1"). */
+  href?: string;
+  /** Optional one-line note explaining *why* this passage echoes the
+   *  section's theme. Keeps the connection from feeling arbitrary. */
+  note?: string;
+}
+
+/* ─── Characters in this chapter ────────────────────────────────────────
+ *  A small ribbon of people-cards rendered after the chapter intros, before
+ *  the first scripture section. Drawn from the shared character library at
+ *  src/data/study-chapters/characters.ts; the per-chapter list just names
+ *  who's in the scene. Bios expand as the reader's depth tier increases.
+ */
+
+export interface ChapterCharacter {
+  /** Stable slug into the characters library, e.g. "david", "saul", "lydia". */
+  slug: string;
+  /** Optional one-line override for this chapter's specific role —
+   *  e.g. "the rejected king" for Saul in 1 Samuel 16, "the persecutor"
+   *  for Saul/Paul in Acts 9. Falls back to the library's default role. */
+  role?: string;
+}
+
+/* ─── Chapter map ──────────────────────────────────────────────────────
+ *  Lightweight inline SVG map rendered just under the chapter opener for
+ *  narrative chapters. Coordinates are normalized to a 0–1 space within
+ *  a preset silhouette so we don't ship a full GIS dataset.
+ */
+
+export type MapPreset =
+  | 'holy-land'        // Galilee → Jerusalem → Bethlehem; Negev to Dan.
+  | 'mediterranean'    // Roman world: Italy, Greece, Asia Minor, Levant, NA.
+  | 'sinai'            // Egypt → Sinai → Edom; Exodus territory.
+  | 'mesopotamia'      // Tigris-Euphrates: Ur, Babylon, Nineveh.
+  | 'judea';           // Tighter zoom: Judean hill country, Dead Sea.
+
+export interface ChapterMapPlace {
+  /** Display name, e.g. "Philippi", "Bethlehem". */
+  name: string;
+  /** X coordinate in 0–1 space within the preset's bounding box (0=left). */
+  x: number;
+  /** Y coordinate in 0–1 space within the preset's bounding box (0=top). */
+  y: number;
+  /** Marker emphasis. 'origin' is the chapter's starting point;
+   *  'travel-to' is a destination; 'visit' is a passing waypoint. */
+  kind?: 'origin' | 'visit' | 'travel-to';
+  /** Optional short note for the legend, e.g. "Vision of the man pleading". */
+  note?: string;
+}
+
+export interface ChapterMap {
+  /** Which preset silhouette to render under the markers. */
+  preset: MapPreset;
+  /** Places that appear in this chapter, in narrative order. */
+  places: ChapterMapPlace[];
+  /** When set, draws thin lines connecting places by index in this order
+   *  (e.g. [0,1,2,3]) so readers can trace the chapter's journey. */
+  route?: number[];
+  /** Caption beneath the map. */
+  caption?: string;
+}
+
 /* ─── A single section of a chapter ───────────────────────────────────── */
 
 export interface RichSection {
@@ -167,6 +274,10 @@ export interface RichSection {
   /** The section's display heading, e.g. "The Beginning", "Light". */
   title?: string;
   blocks: Block[];
+  /** Optional 3–5 cross-references rendered as a swipeable card after the
+   *  section's last block. Surfaces "where this echoes elsewhere in
+   *  Scripture." Omit to render no card for the section. */
+  crossRefs?: CrossRef[];
 }
 
 /* ─── A complete chapter ──────────────────────────────────────────────── */
@@ -250,6 +361,43 @@ export interface RichChapterContent {
    *  Authors should pick 2–4 topics per chapter; more than that dilutes
    *  the matching signal. */
   topicTags?: string[];
+
+  /** Polished one-paragraph summary for the /christ index — answers
+   *  "How does Christ appear in this chapter?" in a single tight beat.
+   *  When omitted, the Christ Index page falls back to the first
+   *  `kind: 'christ'` block's html (stripped of tags). Use this field
+   *  when the auto-fallback wouldn't read well as a standalone snippet. */
+  christIndexSummary?: string;
+
+  /** Audience-aware overrides applied at render time when the reader has
+   *  picked a non-default audience. Authors fill in only what needs to
+   *  change; everything else falls through to the canonical fields above.
+   *
+   *  Adults always get the canonical chapter — there is no `adults` key.
+   *  Kids do NOT use this field; kids content is a separate file under
+   *  `src/data/kids-chapters/` because the schema is different.
+   */
+  youth?: {
+    /** Replacement intros. When omitted, adult intros are used as-is. */
+    intros?: string[];
+    /** Replacement bottomShare quote/snippet. */
+    bottomShare?: RichChapterContent['bottomShare'];
+    /** Replacement Christ Index summary for the /christ page. */
+    christIndexSummary?: string;
+  };
+
+  /** Named characters who appear in this chapter, drawn from the shared
+   *  characters library at `src/data/study-chapters/characters.ts`.
+   *  Renders as a "People in this chapter" ribbon between the chapter
+   *  intros and the first section. Bios deepen with the active study
+   *  level. Omit on chapters where character framing isn't useful
+   *  (Psalms, prophetic oracles, epistles). */
+  characters?: ChapterCharacter[];
+
+  /** Optional inline map rendered just below the opener for narrative
+   *  chapters (1 Samuel, Acts, Exodus). Lightweight inline SVG over a
+   *  preset silhouette — no third-party GIS dependency. */
+  map?: ChapterMap;
 }
 
 /* ─── Research resources ──────────────────────────────────────────────── */
@@ -374,4 +522,103 @@ export function filterContentByLevel(
     bottomShare: filteredBottomShare,
     sections: filteredSections,
   };
+}
+
+/* ─── Audience filtering ─────────────────────────────────────────────────
+ *  When audience is 'youth', strip blocks marked `hideForYouth: true` and
+ *  swap in the per-block `youthOverride` content where present. Replace
+ *  chapter-level intros / bottomShare from `content.youth` when authored.
+ *
+ *  When audience is 'adults', return content unchanged.
+ *
+ *  When audience is 'kids', this filter is a no-op. The page route consults
+ *  the kids registry and renders KidsStudyGuide instead — RichStudyGuide
+ *  never sees a 'kids' audience in practice. We still accept the value here
+ *  for symmetry and so callers don't have to special-case it.
+ *
+ *  Pure function. Re-runs only when (content, audience) change.
+ */
+export function filterContentByAudience(
+  content: RichChapterContent,
+  audience: Audience,
+): RichChapterContent {
+  if (audience !== 'youth') return content;
+
+  const surviving = new Set<string>();
+  for (const section of content.sections) {
+    for (const block of section.blocks) {
+      if (block.hideForYouth) continue;
+      if ('id' in block && typeof block.id === 'string') surviving.add(block.id);
+    }
+  }
+
+  const stripDangling = (line: VerseLine): VerseLine => ({
+    number: line.number,
+    spans: line.spans.map((s) =>
+      s.kind === 'mark' && !surviving.has(s.jumpTo)
+        ? ({ kind: 'text', text: s.text } as VerseSpan)
+        : s,
+    ),
+  });
+
+  const applyYouthOverride = (block: Block): Block => {
+    // Only blocks whose schema includes youthOverride can carry one.
+    if (
+      block.kind !== 'commentary' &&
+      block.kind !== 'christ' &&
+      block.kind !== 'carry' &&
+      block.kind !== 'reflection'
+    ) {
+      return block;
+    }
+    const override = block.youthOverride;
+    if (!override) return block;
+    if (block.kind === 'reflection') {
+      return { ...block, prompt: override.prompt ?? block.prompt };
+    }
+    if (block.kind === 'christ') {
+      return {
+        ...block,
+        title: override.title ?? block.title,
+        html: override.html ?? block.html,
+      };
+    }
+    // commentary, carry — both have html.
+    return { ...block, html: override.html ?? block.html };
+  };
+
+  const filteredSections: RichSection[] = content.sections
+    .map((section) => {
+      const blocks = section.blocks
+        .filter((b) => !b.hideForYouth)
+        .map(applyYouthOverride)
+        .map((b) =>
+          b.kind === 'scripture'
+            ? { ...b, lines: b.lines.map(stripDangling) }
+            : b,
+        );
+      const meaningful = blocks.filter((b) => b.kind !== 'divider').length;
+      if (meaningful === 0) return null;
+      return { ...section, blocks };
+    })
+    .filter((s): s is RichSection => s !== null);
+
+  return {
+    ...content,
+    intros: content.youth?.intros ?? content.intros,
+    bottomShare: content.youth?.bottomShare ?? content.bottomShare,
+    sections: filteredSections,
+  };
+}
+
+/** Apply both the level filter and the audience filter, in the right order.
+ *  Audience filtering runs FIRST (so dangling-anchor stripping happens once
+ *  on the youth-trimmed set), then level filtering trims further. */
+export function filterContent(
+  content: RichChapterContent,
+  level: StudyLevel,
+  audience: Audience,
+): RichChapterContent {
+  const audienceFiltered = filterContentByAudience(content, audience);
+  return filterContentByLevel(audienceFiltered, level);
 }

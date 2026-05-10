@@ -1,0 +1,111 @@
+/* ─── Cross-reference card ───────────────────────────────────────────
+ *  Rendered after a section's last block in the rich study guide. Reads
+ *  as a quiet aside, not a CTA — small label + a horizontal row of refs.
+ *  On touch screens the row is snap-scrollable. */
+
+.xref-card {
+  margin: 1.6rem 0 0.4rem;
+  padding-top: 1.1rem;
+  border-top: 1px dashed color-mix(in oklab, var(--color-separator, #d6d3cb) 100%, transparent);
+}
+
+.xref-card__label {
+  display: flex;
+  align-items: center;
+  gap: 0.42rem;
+  margin: 0 0 0.7rem;
+  font-family: -apple-system, "SF Pro Text", system-ui, sans-serif;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--color-tertiary-label, #6e6a60);
+}
+
+.xref-card__icon {
+  width: 13px;
+  height: 13px;
+  color: color-mix(in oklab, var(--color-primary, #b08858) 75%, transparent);
+}
+
+.xref-card__row {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 0.7rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 0.4rem;
+  /* Keep cards from clipping their drop-shadow on hover. */
+  scroll-padding-left: 0.25rem;
+}
+
+/* Hide scrollbar — keep the swipe feel clean. */
+.xref-card__row::-webkit-scrollbar { display: none; }
+.xref-card__row { scrollbar-width: none; }
+
+.xref-card__item {
+  scroll-snap-align: start;
+  flex: 0 0 16.5rem;
+  max-width: 16.5rem;
+}
+
+.xref-card__link,
+.xref-card__static {
+  display: flex;
+  flex-direction: column;
+  gap: 0.32rem;
+  height: 100%;
+  padding: 0.85rem 0.95rem 0.95rem;
+  background: color-mix(in oklab, var(--color-surface, #faf7f1) 75%, transparent);
+  border: 1px solid color-mix(in oklab, var(--color-separator, #d6d3cb) 50%, transparent);
+  border-radius: 12px;
+  text-decoration: none !important;
+  color: inherit;
+  transition: border-color .18s ease, transform .18s ease, background .18s ease;
+}
+
+.xref-card__link:hover {
+  border-color: color-mix(in oklab, var(--color-primary, #b08858) 55%, transparent);
+  background: var(--color-surface, #fff);
+  transform: translateY(-1px);
+}
+
+.xref-card__ref {
+  font-family: -apple-system, "SF Pro Text", system-ui, sans-serif;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: var(--color-primary, #8b6635);
+}
+
+.xref-card__snippet {
+  font-family: "New York", "Iowan Old Style", Georgia, serif;
+  font-size: 0.92rem;
+  line-height: 1.42;
+  color: var(--color-label, #1c1b18);
+  font-style: italic;
+}
+
+.xref-card__note {
+  font-family: -apple-system, "SF Pro Text", system-ui, sans-serif;
+  font-size: 0.72rem;
+  line-height: 1.4;
+  color: var(--color-secondary-label, #4d4a44);
+  margin-top: 0.18rem;
+}
+
+/* On wide screens the cards wrap into a 2-column grid, so the user can
+ * see them all at once instead of scrolling. */
+@media (min-width: 700px) {
+  .xref-card__row {
+    flex-wrap: wrap;
+    overflow-x: visible;
+  }
+  .xref-card__item {
+    flex: 0 1 calc(50% - 0.35rem);
+    max-width: calc(50% - 0.35rem);
+  }
+}

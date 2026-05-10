@@ -1,0 +1,215 @@
+/* ─── Christ Index ──────────────────────────────────────────────────── */
+
+.christ-hub {
+  padding: 2rem 0 4rem;
+}
+
+.christ-hub__header {
+  margin-bottom: 2.4rem;
+  padding-bottom: 1.6rem;
+  border-bottom: 1px solid color-mix(in oklab, var(--color-separator, #d6d3cb) 70%, transparent);
+}
+
+.christ-hub__eyebrow {
+  font-family: -apple-system, "SF Pro Text", system-ui, sans-serif;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--color-primary, #8b6635);
+  margin: 0 0 0.55rem;
+}
+
+.christ-hub__crumb {
+  color: inherit;
+  text-decoration: none;
+}
+.christ-hub__crumb:hover { text-decoration: underline; }
+
+.christ-hub__title {
+  font-family: "New York", "Iowan Old Style", Georgia, serif;
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  line-height: 1.15;
+  letter-spacing: -0.012em;
+  margin: 0 0 1rem;
+  color: var(--color-label, #1c1b18);
+}
+
+.christ-hub__lede {
+  font-family: "New York", "Iowan Old Style", Georgia, serif;
+  font-size: 1.06rem;
+  line-height: 1.6;
+  color: var(--color-secondary-label, #4d4a44);
+  margin: 0 0 1rem;
+}
+
+.christ-hub__meta {
+  margin-top: 0.5rem;
+  font-family: -apple-system, "SF Pro Text", system-ui, sans-serif;
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  color: var(--color-tertiary-label, #6e6a60);
+}
+
+.christ-hub__section {
+  margin-bottom: 2.2rem;
+}
+
+.christ-hub__h2 {
+  font-family: -apple-system, "SF Pro Text", system-ui, sans-serif;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-tertiary-label, #6e6a60);
+  margin: 0 0 0.85rem;
+}
+
+.christ-hub__grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  gap: 0.55rem;
+}
+
+.christ-hub__card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.18rem;
+  padding: 0.7rem 0.85rem;
+  background: color-mix(in oklab, var(--color-surface, #faf7f1) 70%, transparent);
+  border: 1px solid color-mix(in oklab, var(--color-separator, #d6d3cb) 55%, transparent);
+  border-radius: 10px;
+  text-decoration: none !important;
+  color: inherit;
+  transition: border-color .18s ease, transform .18s ease;
+}
+.christ-hub__card:hover {
+  border-color: color-mix(in oklab, var(--color-primary, #b08858) 60%, transparent);
+  transform: translateY(-1px);
+}
+
+.christ-hub__card-name {
+  font-family: "New York", "Iowan Old Style", Georgia, serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--color-label, #1c1b18);
+}
+
+.christ-hub__card-meta {
+  font-family: -apple-system, "SF Pro Text", system-ui, sans-serif;
+  font-size: 0.72rem;
+  color: var(--color-tertiary-label, #6e6a60);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.christ-hub__dot {
+  color: var(--color-primary, #b08858);
+  font-size: 0.6rem;
+  line-height: 1;
+}
+
+.christ-hub__foot {
+  margin-top: 2.6rem;
+  padding-top: 1.6rem;
+  border-top: 1px solid color-mix(in oklab, var(--color-separator, #d6d3cb) 70%, transparent);
+  font-family: -apple-system, "SF Pro Text", system-ui, sans-serif;
+  font-size: 0.85rem;
+  color: var(--color-secondary-label, #4d4a44);
+}
+
+.christ-hub__foot-nav {
+  margin-top: 2rem;
+}
+.christ-hub__back {
+  font-family: -apple-system, "SF Pro Text", system-ui, sans-serif;
+  font-size: 0.85rem;
+  color: var(--color-primary, #8b6635);
+  text-decoration: none;
+}
+.christ-hub__back:hover { text-decoration: underline; }
+
+.christ-hub__empty {
+  font-family: "New York", "Iowan Old Style", Georgia, serif;
+  font-size: 1rem;
+  font-style: italic;
+  color: var(--color-secondary-label, #4d4a44);
+}
+
+/* ─── Per-book chapter list ───────────────────────────────────────── */
+
+.christ-chapters {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+
+.christ-chapter {
+  padding: 1.1rem 1.2rem 1.2rem;
+  background: color-mix(in oklab, var(--color-surface, #faf7f1) 70%, transparent);
+  border: 1px solid color-mix(in oklab, var(--color-separator, #d6d3cb) 55%, transparent);
+  border-radius: 12px;
+}
+
+.christ-chapter__head {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  margin-bottom: 0.4rem;
+}
+
+.christ-chapter__ref {
+  font-family: -apple-system, "SF Pro Text", system-ui, sans-serif;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-primary, #8b6635);
+  text-decoration: none !important;
+}
+.christ-chapter__ref:hover { text-decoration: underline !important; }
+
+.christ-chapter__badge {
+  font-family: -apple-system, "SF Pro Text", system-ui, sans-serif;
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-tertiary-label, #6e6a60);
+  border: 1px solid color-mix(in oklab, var(--color-separator, #d6d3cb) 100%, transparent);
+  padding: 0.12rem 0.5rem;
+  border-radius: 999px;
+}
+
+.christ-chapter__title {
+  margin: 0 0 0.42rem;
+  font-family: "New York", "Iowan Old Style", Georgia, serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: -0.005em;
+  color: var(--color-label, #1c1b18);
+}
+
+.christ-chapter__summary {
+  margin: 0 0 0.6rem;
+  font-family: "New York", "Iowan Old Style", Georgia, serif;
+  font-size: 1rem;
+  line-height: 1.55;
+  color: var(--color-label, #1c1b18);
+}
+
+.christ-chapter__link {
+  font-family: -apple-system, "SF Pro Text", system-ui, sans-serif;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--color-primary, #8b6635);
+  text-decoration: none;
+}
+.christ-chapter__link:hover { text-decoration: underline; }

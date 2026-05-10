@@ -24,6 +24,27 @@ export const ACTS_16: RichChapterContent = {
   chapter: 16,
 
   estimatedMinutes: { beginner: 7, intermediate: 18, deep: 23 },
+
+  characters: [
+    { slug: 'paul', role: 'Apostle on his second missionary journey' },
+    { slug: 'silas', role: 'Paul’s partner; sang hymns at midnight in jail' },
+    { slug: 'timothy', role: 'Joins the team in Lystra' },
+    { slug: 'lydia' },
+    { slug: 'philippian-jailer' },
+  ],
+
+  map: {
+    preset: 'mediterranean',
+    places: [
+      { name: 'Antioch', x: 0.85, y: 0.66, kind: 'origin', note: 'Where the journey began (Acts 15)' },
+      { name: 'Lystra', x: 0.74, y: 0.50, kind: 'visit', note: 'Timothy joins the team' },
+      { name: 'Troas', x: 0.59, y: 0.40, kind: 'visit', note: 'Paul’s vision of the man from Macedonia' },
+      { name: 'Philippi', x: 0.49, y: 0.38, kind: 'travel-to', note: 'Lydia, the slave girl, the jailer — three conversions' },
+    ],
+    route: [0, 1, 2, 3],
+    caption: 'Paul’s second journey crosses from Asia into Europe — Antioch → Lystra → Troas → Philippi.',
+  },
+
   intros: [
     'Acts 16 is the moment the gospel crosses the Mediterranean. Paul and Silas are traveling through Asia, but the Spirit forbids them to preach there. A vision comes to Paul in the night: a man from Macedonia stands before him crying, &ldquo;Come over into Macedonia, and help us.&rdquo; In that cry, all of Europe is waiting. The Western world will be changed by what happens next.',
     'In the city of Philippi, the gospel touches three people whose stories weave together: Lydia, a merchant whose &ldquo;heart the Lord opened&rdquo; to receive the word; a slave girl with a spirit of divination, whom Paul frees; and a Roman jailer who, in terror of an earthquake and shame at his captors&apos; apparent escape, asks the question that every human being must answer: &ldquo;What must I do to be saved?&rdquo; Three conversions. Three layers of society. One gospel that saves all.',

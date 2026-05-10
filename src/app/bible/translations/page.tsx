@@ -64,15 +64,19 @@ export default function TranslationsPage() {
           <p className="lop-eyebrow lop-grid__eyebrow">All translations · A → Z</p>
           <h2 className="lop-grid__title">Choose how you&rsquo;ll read.</h2>
 
-          <div className="lop-grid">
+          <div className="lop-grid lop-grid--2 lop-grid--translations">
             {translations.map((t) => (
-              <article key={t.id} className="lop-card">
-                <div className="lop-card__head">
-                  <span className="lop-card__abbr">{t.abbreviation}</span>
-                  <span className="lop-card__year">{t.year}</span>
-                </div>
-                <h3 className="lop-card__title">{t.name}</h3>
-                <p className="lop-card__sub">{t.fullName}</p>
+              <article key={t.id} className="lop-card lop-card--translation">
+                <header className="lop-card__head">
+                  <div className="lop-card__abbr-block">
+                    <span className="lop-card__abbr">{t.abbreviation}</span>
+                    <span className="lop-card__year">{t.year}</span>
+                  </div>
+                  <h3 className="lop-card__title">{t.name}</h3>
+                  {t.fullName && t.fullName !== t.name && (
+                    <p className="lop-card__sub">{t.fullName}</p>
+                  )}
+                </header>
 
                 <div className="lop-card__meta">
                   <span className="frost-chip">{t.tradition}</span>
@@ -81,25 +85,24 @@ export default function TranslationsPage() {
 
                 <p className="lop-card__copy">{t.description}</p>
 
-                {/* Sample verse — pull quote in italic serif. */}
                 {t.sampleVerse && (
                   <blockquote className="lop-card__quote">
                     <p className="lop-card__quote-text">
                       &ldquo;{t.sampleVerse.text}&rdquo;
                     </p>
                     <footer className="lop-card__quote-cite">
-                      &mdash; {t.sampleVerse.reference}
+                      {t.sampleVerse.reference}
                     </footer>
                   </blockquote>
                 )}
 
                 <div className="lop-card__actions">
-                  <Link href={t.readLink} className="btn-primary lop-card__cta">
+                  <Link href={t.readLink} className="btn-primary lop-card__action">
                     Read it
                   </Link>
                   <Link
                     href={`/bible/translations/${t.id}`}
-                    className="btn-outline lop-card__cta"
+                    className="btn-outline lop-card__action"
                   >
                     Learn more
                   </Link>
