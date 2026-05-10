@@ -17,6 +17,13 @@ export const SAMUEL_2_1: RichChapterContent = {
 
   estimatedMinutes: { beginner: 7, intermediate: 12, deep: 16 },
 
+  youth: {
+    intros: [
+      "An Amalekite arrives claiming he killed Saul (he didn't; he's lying for a reward). David executes him for the boast and writes one of the great laments in Scripture: 'How are the mighty fallen.' He grieves both Saul AND Jonathan — the one who hunted him and the one who loved him.",
+      "Real grief doesn't keep the receipts. David refuses to celebrate the death of an enemy. That kind of restraint is rare and worth practicing now, while you're young, before the chance to settle scores starts dressing up as justice.",
+    ],
+  },
+
   characters: [
     { slug: 'david', role: 'Mourns Saul and Jonathan with the song of the bow' },
   ],

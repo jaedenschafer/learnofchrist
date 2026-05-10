@@ -7,6 +7,13 @@ export const HEBREWS_12: RichChapterContent = {
 
   estimatedMinutes: { beginner: 10, intermediate: 17, deep: 27 },
 
+  youth: {
+    intros: [
+      "Look unto Jesus, the author and finisher of our faith, who endured the cross, despising the shame, and is set down at the right hand of the throne of God. The race is run with Him in view.",
+      "The chapter contrasts two mountains: the trembling, fenced-off Sinai, and Mount Zion, the city of the living God. In Christ you've come to the second one. Don't live like you're still afraid at the first one.",
+    ],
+  },
+
   christIndexSummary:
     'Look unto Jesus, the author and finisher of our faith, who endured the cross, despising the shame, and is set down at the right hand of the throne of God. The race is run with Him in view; every comparison Hebrews 12 makes between the trembling Sinai and the heavenly Zion is naming the access His blood has opened.',
   intros: [

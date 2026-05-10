@@ -17,6 +17,13 @@ export const SAMUEL_1_19: RichChapterContent = {
 
   estimatedMinutes: { beginner: 7, intermediate: 13, deep: 17 },
 
+  youth: {
+    intros: [
+      "Saul tries to kill David in three different ways in one chapter: the spear in the room, the assassins at the house, and finally pursuing him to Samuel. Each time God shields him — Jonathan warns him, Michal lowers him out the window, the Spirit overpowers Saul's hit squad.",
+      "When God says you're His, all the murder in the world doesn't get the last word. That's not a license for recklessness; it's a settled spine for hard days at school, hard texts, hard nights. He keeps the ones He calls.",
+    ],
+  },
+
   characters: [
     { slug: 'david', role: 'Hunted by Saul; spared by Saul’s own children' },
     { slug: 'jonathan', role: 'Pleads David’s case before his raging father' },

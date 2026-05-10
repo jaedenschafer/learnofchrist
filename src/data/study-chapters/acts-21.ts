@@ -20,6 +20,13 @@ export const ACTS_21: RichChapterContent = {
 
   estimatedMinutes: { beginner: 11, intermediate: 21, deep: 27 },
 
+  youth: {
+    intros: [
+      "Every prophet on the road warns Paul not to go to Jerusalem. He goes anyway. 'I am ready not to be bound only, but also to die at Jerusalem for the name of the Lord Jesus.' He arrives, gets arrested in the temple, and is dragged out by a mob trying to kill him.",
+      "There's a difference between reckless and resolved. Paul wasn't running into harm for kicks; he was walking toward the place God had pointed him to. The friends crying around him weren't wrong to cry. He wasn't wrong to keep going.",
+    ],
+  },
+
   characters: [
     { slug: 'paul', role: 'Arrested in the temple after coming up to Jerusalem' },
     { slug: 'philip-evangelist', role: 'Hosts Paul’s company in Caesarea' },

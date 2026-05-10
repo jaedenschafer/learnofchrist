@@ -19,6 +19,13 @@ export const SAMUEL_1_26: RichChapterContent = {
 
   estimatedMinutes: { beginner: 9, intermediate: 16, deep: 18 },
 
+  youth: {
+    intros: [
+      "David sneaks into Saul's camp at night while he's sleeping and grabs his spear and water jug. His man Abishai whispers 'let me strike him once.' David refuses again: 'who can stretch forth his hand against the Lord's anointed, and be guiltless?'",
+      "Saul wakes up across the valley to find his own spear stuck in the ground beside him. He shouts: 'I have sinned… I have played the fool, and have erred exceedingly.' Confession without change. The next chapter, David is back on the run.",
+    ],
+  },
+
   characters: [
     { slug: 'david', role: 'Spares Saul a second time at the hill of Hachilah' },
     { slug: 'saul', role: 'Confesses, "I have played the fool, and have erred exceedingly."' },

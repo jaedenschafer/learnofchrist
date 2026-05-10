@@ -22,6 +22,13 @@ export const SAMUEL_2_18: RichChapterContent = {
 
   estimatedMinutes: { beginner: 8, intermediate: 15, deep: 17 },
 
+  youth: {
+    intros: [
+      "Absalom's rebellion ends in a forest battle. He gets caught by his hair in an oak tree, hanging there until Joab — against David's explicit orders — drives three darts through his heart. The runner brings the news. David collapses: 'O my son Absalom, my son, my son Absalom! would God I had died for thee.'",
+      "It's the saddest sentence in the Old Testament. A father wishing he could trade places with his rebel son. Centuries later a different Father did exactly that, with no flinch — and the Son chose to go.",
+    ],
+  },
+
   characters: [
     { slug: 'absalom', role: 'Hangs by his hair from an oak; killed by Joab against orders' },
     { slug: 'joab', role: 'Drives three darts through the heart of the rebel prince' },

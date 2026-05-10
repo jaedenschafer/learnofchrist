@@ -16,6 +16,13 @@ export const GENESIS_2: RichChapterContent = {
 
   estimatedMinutes: { beginner: 10, intermediate: 15, deep: 22 },
 
+  youth: {
+    intros: [
+      "Day six gets a close-up. God forms a human from dust, breathes into him, and the dust starts thinking. Then He plants a garden — not a survival assignment, a gift. Adam gets work to do, every tree to eat from but one, and a partner who finally matches him.",
+      "Read it with Jesus in view and the picture sharpens: a sleep, an opened side, a bride who comes from the wound. The garden is the first sanctuary, Adam the first priest, and the second Adam — Christ — would do all of it again, this time without breaking it.",
+    ],
+  },
+
   christIndexSummary:
     'The garden is the first sanctuary, and Adam — placed in it to "dress and keep" — is the first priest. Christ is the second Adam who succeeds where the first falls, the bridegroom whose side is opened so the bride may come forth. The river that flowed out of Eden anticipates the river of life that flows out of the Lamb.',
   opener: {

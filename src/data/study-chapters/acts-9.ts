@@ -20,6 +20,13 @@ export const ACTS_9: RichChapterContent = {
 
   estimatedMinutes: { beginner: 10, intermediate: 20, deep: 26 },
 
+  youth: {
+    intros: [
+      "Saul is hunting Christians with letters from the high priest. On the road to Damascus a light cuts him down. 'Saul, Saul, why persecutest thou me?' 'Who art thou, Lord?' 'I am Jesus.' He gets up blind. Three days later, a disciple named Ananias lays hands on him, scales fall off, he gets baptized.",
+      "If grace can reach the man holding the coats at Stephen's stoning and turn him into the apostle who wrote half the New Testament, no one is too far. Including the person you've given up on. Including you.",
+    ],
+  },
+
   christIndexSummary:
     'The risen Christ stops His most violent enemy on the road to Damascus and turns him into His apostle. The Christ Connection of Acts 9 is that no one is too far from the kingdom — Saul’s conversion is the proof that grace can reach the man holding the coats at a martyr’s stoning, and remake him into a brother to those he was hunting.',
 

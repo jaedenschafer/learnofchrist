@@ -16,6 +16,13 @@ export const GENESIS_37: RichChapterContent = {
 
   estimatedMinutes: { beginner: 9, intermediate: 16, deep: 21 },
 
+  youth: {
+    intros: [
+      "Joseph is the favorite, the dreamer, the one with the famous coat. His brothers can't stand him. They throw him in a pit, sell him for twenty shekels, and tell their father a wild animal got him. Their lie is dressed in their brother's blood.",
+      "Sound familiar? The beloved son sent by his father to his brothers, rejected, sold for silver, presumed dead — and through the suffering, ends up the deliverer. The pattern is the gospel before the gospel knew it had a name.",
+    ],
+  },
+
   christIndexSummary:
     'Joseph is the beloved son sent by his father to his brothers, who reject him, strip him of his coat, and sell him for silver — and through his suffering ends up saving his family from death. The pattern is the gospel before the gospel: the rejected son becomes the deliverer.',
   opener: {

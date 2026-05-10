@@ -16,6 +16,13 @@ export const ISAIAH_9: RichChapterContent = {
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
 
+  youth: {
+    intros: [
+      "Out of the dark comes a light. Isaiah names a child whose government won't end: 'Wonderful, Counsellor, The mighty God, The everlasting Father, The Prince of Peace.' Read every name out loud. Each one is a thing the world needs and can't manufacture.",
+      "Seven hundred years later a baby is born in Bethlehem who fits every name. The chapter is one of the densest portraits of who Christ would be in the entire Old Testament.",
+    ],
+  },
+
   christIndexSummary:
     '"Unto us a child is born, unto us a son is given; and the government shall be upon his shoulder; and his name shall be called Wonderful, Counsellor, The mighty God, The everlasting Father, The Prince of Peace." Isaiah 9 is the Old Testament’s most concentrated portrait of who the Christ would be — a child whose government has no end.',
   opener: {

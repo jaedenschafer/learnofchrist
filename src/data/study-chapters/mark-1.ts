@@ -20,6 +20,13 @@ export const MARK_1: RichChapterContent = {
 
   estimatedMinutes: { beginner: 3, intermediate: 7, deep: 10 },
 
+  youth: {
+    intros: [
+      "No manger. No genealogy. Mark opens with a voice in the wilderness, John dunking people in the Jordan, the heavens torn open, the Spirit driving Jesus into the wilderness, and a busy first day in Capernaum casting out demons and healing.",
+      "Mark's gospel runs. Christ enters the world working. If you've ever felt like the Christian life moves too slowly, Mark 1 is your antidote: the kingdom is on the move from the first sentence.",
+    ],
+  },
+
   christIndexSummary:
     'Mark opens with no manger — only a voice in the wilderness, a Jordan baptism, a torn heaven, and a Father naming His beloved Son. The Spirit drives Him into the wilderness, then out to call disciples, cast out demons, and heal. Christ enters the world running.',
   opener: {

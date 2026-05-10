@@ -17,6 +17,13 @@ export const SAMUEL_1_17: RichChapterContent = {
 
   estimatedMinutes: { beginner: 12, intermediate: 23, deep: 27 },
 
+  youth: {
+    intros: [
+      "Goliath taunts Israel for forty days and nobody answers. David shows up with bread and cheese for his brothers, hears the giant, and says basically: who is this guy to defy the armies of the living God? Saul tries to put his armor on David. David takes it off.",
+      "Five smooth stones, a sling, the name of the Lord of hosts. The greater David walked into a darker valley centuries later with no weapons at all and won by what looked like weakness. Goliath is every taunting voice that has ever tried to silence God's people; Christ has answered him at the cross.",
+    ],
+  },
+
   christIndexSummary:
     'David refuses Saul’s armor and walks into the valley with five smooth stones and the name of the Lord of hosts. The greater David walked into a darker valley with no weapons at all and won by what looked like weakness. Goliath is every taunting voice that has ever tried to silence God’s people; Christ has answered him at the cross.',
   opener: {

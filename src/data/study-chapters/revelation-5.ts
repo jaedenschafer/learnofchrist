@@ -18,6 +18,13 @@ export const REVELATION_5: RichChapterContent = {
 
   estimatedMinutes: { beginner: 6, intermediate: 14, deep: 18 },
 
+  youth: {
+    intros: [
+      "John weeps because no one is found worthy to open the scroll. Then an elder says: 'Behold, the Lion of the tribe of Juda, the Root of David, hath prevailed.' John looks up — and sees a Lamb, as if it had been slain. Heaven sings a new song: 'Thou wast slain, and hast redeemed us to God by thy blood.'",
+      "The Lion is also the Lamb. Power and sacrifice in the same Person. The whole worship of heaven is about the cross — what Jesus actually did for actual people from every kindred, tongue, people, and nation.",
+    ],
+  },
+
   christIndexSummary:
     'The slain Lamb is found worthy to open the scroll. Heaven sings a new song: "thou wast slain, and hast redeemed us to God by thy blood out of every kindred, and tongue, and people, and nation." Revelation 5 is the throne-room view of what the cross actually accomplished.',
   intros: [

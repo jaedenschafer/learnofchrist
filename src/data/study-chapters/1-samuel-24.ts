@@ -18,6 +18,13 @@ export const SAMUEL_1_24: RichChapterContent = {
 
   estimatedMinutes: { beginner: 3, intermediate: 10, deep: 12 },
 
+  youth: {
+    intros: [
+      "Saul ducks into a cave to use the bathroom. David is hiding in the back of the same cave. His men whisper: this is the day, kill him. David sneaks up and cuts a corner off Saul's robe, then hates himself for even doing that.",
+      "Jesus refused the same shortcut in the wilderness — kingdoms without the cross. The kingdom is taken by suffering, not by force. David's restraint in this cave is one of the early rehearsals of that gospel logic.",
+    ],
+  },
+
   christIndexSummary:
     'David could have killed Saul in the cave and ended his exile in a single afternoon, but he refused to lift his hand against the Lord’s anointed. Christ refused the same shortcut in the wilderness and on the cross: "thinkest thou that I cannot now pray to my Father, and he shall presently give me more than twelve legions of angels?" The kingdom is taken by suffering, not by force.',
 

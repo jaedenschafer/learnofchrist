@@ -19,6 +19,13 @@ export const MATTHEW_1: RichChapterContent = {
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
 
+  youth: {
+    intros: [
+      "Matthew opens with the most boring-looking thing in the Bible — a list of names. But this list is doing real work. Jesus is the son of David, the son of Abraham — gathering up the two great covenants of the Old Testament into one Person.",
+      "And the list is messy. Tamar, Rahab, Bathsheba — names with scandal attached. The genealogy of the Messiah includes the kind of stories families usually edit out. He came for a broken history, not a clean one.",
+    ],
+  },
+
   christIndexSummary:
     'Matthew opens by naming Jesus "the son of David, the son of Abraham" — gathering up the two great covenants of the Old Testament into one Person. The genealogy is uneven and includes scandal (Tamar, Rahab, Bathsheba) — a careful argument that this Christ comes for a broken history, not a clean one.',
   opener: {

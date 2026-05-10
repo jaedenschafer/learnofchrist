@@ -20,6 +20,13 @@ export const ACTS_18: RichChapterContent = {
 
   estimatedMinutes: { beginner: 8, intermediate: 14, deep: 19 },
 
+  youth: {
+    intros: [
+      "Paul stays eighteen months in Corinth. He works as a tentmaker with Aquila and Priscilla. Then they all move to Ephesus, where Aquila and Priscilla take Apollos — a brilliant preacher who only knew John's baptism — aside and 'expounded unto him the way of God more perfectly.'",
+      "Most of God's work in the church doesn't happen on stage. It happens in the side room where someone older quietly explains what someone younger almost-but-not-quite understands. Be the older. Find the older.",
+    ],
+  },
+
   characters: [
     { slug: 'paul', role: 'Eighteen months in Corinth; first appearance before Gallio' },
     { slug: 'aquila', role: 'Tentmaker who lodges with Paul' },

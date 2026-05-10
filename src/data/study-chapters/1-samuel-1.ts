@@ -16,6 +16,13 @@ export const SAMUEL_1_1: RichChapterContent = {
 
   estimatedMinutes: { beginner: 8, intermediate: 15, deep: 19 },
 
+  youth: {
+    intros: [
+      "Hannah can't have a kid. Her sister-wife mocks her every year on the trip to the tabernacle. Eventually Hannah cracks — she stops eating, goes to the temple, prays so hard the priest thinks she's drunk. She tells God: if You give me a son, he's Yours.",
+      "God remembers her. Samuel is born — the prophet who will anoint Israel's first two kings. The pattern starts here and runs forward: closed wombs opened, prayers answered, a child given back to God. It crests with another woman's prayer in Nazareth, and a Son named Jesus.",
+    ],
+  },
+
   christIndexSummary:
     'Hannah is the first in a long line of barren women to whom God gives a son for the sake of His unfolding plan — Sarah, Rebekah, Rachel, Hannah, Elizabeth, and finally the virgin Mary. Samuel is the answer to a single woman’s prayer; Jesus is the answer to a whole creation’s.',
 

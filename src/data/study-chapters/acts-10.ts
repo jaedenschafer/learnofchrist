@@ -21,6 +21,13 @@ export const ACTS_10: RichChapterContent = {
 
   estimatedMinutes: { beginner: 8, intermediate: 17, deep: 22 },
 
+  youth: {
+    intros: [
+      "Cornelius is a Roman centurion — a Gentile, an outsider — who fears God and prays. An angel tells him to send for Peter. Meanwhile Peter has a rooftop vision of unclean animals being declared clean. The two stories collide. Peter preaches. The Spirit falls on the Gentiles before he can even finish.",
+      "The chapter is the moment the gospel formally crossed from Jew to Gentile. Peter has to be argued into it. Most of the categories the church needs to break in our day will require the same kind of vision: Jesus quietly insisting that the people you'd left out are already inside.",
+    ],
+  },
+
   characters: [
     { slug: 'peter', role: 'The vision of unclean animals; the gospel opens to Gentiles' },
     { slug: 'cornelius', role: 'God-fearing Roman centurion at Caesarea' },

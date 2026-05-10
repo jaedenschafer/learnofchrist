@@ -18,6 +18,13 @@ export const SAMUEL_1_27: RichChapterContent = {
 
   estimatedMinutes: { beginner: 6, intermediate: 11, deep: 14 },
 
+  youth: {
+    intros: [
+      "David, exhausted from being hunted, says in his heart: 'I shall now perish one day by the hand of Saul.' He defects to Gath, accepts protection from the Philistine king Achish, and lies about who he's actually raiding. It's the lowest stretch of his fugitive years.",
+      "Even the best of God's servants have chapters where the strategy is sketchy and the lies are mounting. The Lord doesn't endorse the choices, but He doesn't drop David either. Grace finishes a story it started, even when the middle is ugly.",
+    ],
+  },
+
   characters: [
     { slug: 'david', role: 'Takes refuge again in Philistine Gath' },
     { slug: 'achish', role: 'Trusts David enough to give him Ziklag' },

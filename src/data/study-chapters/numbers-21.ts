@@ -21,6 +21,13 @@ export const NUMBERS_21: RichChapterContent = {
 
   estimatedMinutes: { beginner: 6, intermediate: 11, deep: 14 },
 
+  youth: {
+    intros: [
+      "The people complain, again, and the snakes come. Moses prays, and God tells him to make a bronze snake on a pole. Anyone bitten who looks at it lives. It's a strange medicine.",
+      "Jesus claims it for Himself in John 3: 'As Moses lifted up the serpent in the wilderness, even so must the Son of man be lifted up.' The cross is the strange medicine: the curse is borne so the bitten can be healed by looking up.",
+    ],
+  },
+
   christIndexSummary:
     'The bronze serpent on a pole — those who looked at it lived. Jesus claims it for Himself in John 3: "as Moses lifted up the serpent in the wilderness, even so must the Son of man be lifted up." The cross is the strange medicine where the curse is borne so the bitten are healed.',
   intros: [

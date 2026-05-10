@@ -19,6 +19,13 @@ export const SAMUEL_1_14: RichChapterContent = {
 
   estimatedMinutes: { beginner: 10, intermediate: 20, deep: 22 },
 
+  youth: {
+    intros: [
+      "While Saul sits under a pomegranate tree second-guessing himself, his son Jonathan and his armor-bearer climb a cliff face into a Philistine garrison and rout it. The whole army wakes up to chaos and joins the rout.",
+      "Then Saul makes a stupid vow: no eating until evening. Jonathan, who hadn't heard, dips his staff in honey. By nightfall Saul is ready to execute his own son for it. The army stops him. The pattern is set: God is winning battles around Saul; Saul keeps tripping over himself.",
+    ],
+  },
+
   characters: [
     { slug: 'jonathan', role: 'Climbs the cliff with his armor-bearer; routs the Philistines' },
     { slug: 'saul', role: 'Rashly forbids his men food; nearly executes Jonathan' },

@@ -16,6 +16,13 @@ export const ACTS_3: RichChapterContent = {
 
   estimatedMinutes: { beginner: 7, intermediate: 15, deep: 20 },
 
+  youth: {
+    intros: [
+      "Peter and John are walking up to the temple at the hour of prayer. A man lame from birth asks for money. Peter looks straight at him: 'Silver and gold have I none; but such as I have give I thee: in the name of Jesus Christ of Nazareth rise up and walk.' He does.",
+      "The whole crowd gathers. Peter preaches the same Jesus. Notice the pattern: a small mercy in one ordinary moment becomes the doorway to a sermon that names Christ to everyone watching. Most evangelism still works that way.",
+    ],
+  },
+
   characters: [
     { slug: 'peter', role: 'Heals the lame man at the temple gate' },
     { slug: 'john-apostle', role: 'With Peter at the Beautiful Gate' },

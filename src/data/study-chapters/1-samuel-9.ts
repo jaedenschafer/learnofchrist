@@ -15,6 +15,13 @@ export const SAMUEL_1_9: RichChapterContent = {
 
   estimatedMinutes: { beginner: 9, intermediate: 16, deep: 20 },
 
+  youth: {
+    intros: [
+      "Saul is out looking for his father's lost donkeys. He stumbles into a town and into the prophet Samuel, who's been waiting for him. The next thing he knows, oil is being poured on his head and he's the future king of Israel.",
+      "Saul starts humble and tall. The donkeys are forgotten because the kingdom is given. Watch how this reign begins — and watch what slowly hollows out as the chapters unfold.",
+    ],
+  },
+
   characters: [
     { slug: 'saul', role: 'A tall, humble Benjamite searching for lost donkeys' },
     { slug: 'samuel', role: 'The seer who anoints Israel’s first king' },

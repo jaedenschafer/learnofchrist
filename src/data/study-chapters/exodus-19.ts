@@ -19,6 +19,13 @@ export const EXODUS_19: RichChapterContent = {
 
   estimatedMinutes: { beginner: 9, intermediate: 14, deep: 19 },
 
+  youth: {
+    intros: [
+      "Sinai shakes, smokes, burns. Thunder, lightning, a trumpet getting louder. The people are kept at distance under threat of death. This is what holiness without a mediator looks like.",
+      "Hebrews 12 sets that mountain beside Mount Zion: in Christ you've come to the city of the living God, not the trembling mountain. The access His blood opened is the gospel of Exodus 19 in one sentence.",
+    ],
+  },
+
   christIndexSummary:
     'Sinai trembles, smokes, and burns; the people are kept at distance. Hebrews 12 sets that mountain beside Mount Zion: Christ has brought us not to the trembling mountain but to the city of the living God. The Christ Connection in Exodus 19 is the access His blood opens to a holiness that once meant immediate death to approach.',
   intros: [

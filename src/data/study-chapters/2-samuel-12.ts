@@ -20,6 +20,13 @@ export const SAMUEL_2_12: RichChapterContent = {
 
   estimatedMinutes: { beginner: 9, intermediate: 15, deep: 19 },
 
+  youth: {
+    intros: [
+      "Nathan tells David a story: a rich man with many flocks took the only lamb of a poor man and slaughtered it for a guest. David is furious — 'the man that hath done this thing shall surely die.' Nathan turns and says four words: 'Thou art the man.'",
+      "David doesn't argue. 'I have sinned against the Lord.' Real repentance isn't elaborate — it's short. The consequences still come, the child still dies, the sword still doesn't depart from his house. But the relationship survives because the king finally told the truth.",
+    ],
+  },
+
   characters: [
     { slug: 'nathan', role: 'Brings the parable of the poor man’s lamb: "Thou art the man."' },
     { slug: 'david', role: 'Confesses, "I have sinned against the Lord."' },

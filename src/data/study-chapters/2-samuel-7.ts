@@ -17,6 +17,13 @@ export const SAMUEL_2_7: RichChapterContent = {
 
   estimatedMinutes: { beginner: 7, intermediate: 15, deep: 18 },
 
+  youth: {
+    intros: [
+      "David wants to build God a house. God says no — and instead promises to build David a house: a son, a kingdom, a throne that will last forever. Nathan delivers the message. David sits down stunned and prays.",
+      "The 'house' God is building reaches its capstone in Jesus — Son of David, throne without end. Every messianic hope in the Old Testament is anchored in this chapter. Read it slowly; you're at one of the load-bearing beams.",
+    ],
+  },
+
   characters: [
     { slug: 'david', role: 'Wants to build God a house — and is told God will build him a house' },
     { slug: 'nathan', role: 'Delivers the eternal-throne promise that anchors every later messianic hope' },

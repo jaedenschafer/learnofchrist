@@ -23,6 +23,13 @@ export const SAMUEL_2_2: RichChapterContent = {
 
   estimatedMinutes: { beginner: 6, intermediate: 12, deep: 18 },
 
+  youth: {
+    intros: [
+      "David is anointed king over Judah at Hebron. The northern tribes hold out for Saul's son Ish-bosheth. Civil war begins. The first blood is Joab's brother Asahel, killed by Abner. Joab's revenge clock starts ticking and won't stop until next chapter.",
+      "Even God-given kings inherit a long mess. The peaceful coronation isn't immediate. David will need patience — a virtue easier to admire from the outside than to grow inside yourself.",
+    ],
+  },
+
   characters: [
     { slug: 'david', role: 'Made king over Judah at Hebron' },
     { slug: 'joab', role: 'Avenges his brother Asahel against Abner' },

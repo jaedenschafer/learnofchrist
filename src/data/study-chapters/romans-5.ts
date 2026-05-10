@@ -16,6 +16,13 @@ export const ROMANS_5: RichChapterContent = {
 
   estimatedMinutes: { beginner: 8, intermediate: 14, deep: 20 },
 
+  youth: {
+    intros: [
+      "Two Adams. The first one's disobedience let death into the world; the second One's obedience pours grace out farther than the wreckage. Where sin abounded, grace did much more abound.",
+      "Romans 5 is the architecture of the gospel. Christ as the head of a new humanity, undoing in every way what Adam did. You're either still in Adam's story or you've moved into Jesus' story. The doorway is faith.",
+    ],
+  },
+
   christIndexSummary:
     'The two Adams. By one man’s disobedience death entered the world; by one Man’s obedience grace abounds to many. Romans 5 is the architecture of the gospel — Christ as the head of a new humanity, undoing in every way what Adam did, with grace pouring further than the wreckage.',
   opener: {

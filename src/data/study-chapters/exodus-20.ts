@@ -16,6 +16,13 @@ export const EXODUS_20: RichChapterContent = {
 
   estimatedMinutes: { beginner: 9, intermediate: 14, deep: 20 },
 
+  youth: {
+    intros: [
+      "The Ten Words come down from the mountain. They don't make Israel into God's people — they show the shape of life inside the covenant they already have. Worship Him alone. Honor your parents. Don't kill. Don't lie. Don't envy.",
+      "Christ keeps every command in your place and absorbs every penalty for breaking them. Then He hands them back to you not as a ladder you climb but as the shape of the freedom His Spirit grows in you.",
+    ],
+  },
+
   christIndexSummary:
     'The Ten Words come not as a means of becoming God’s people but as the shape of life inside that covenant. Christ keeps every command in our place and absorbs every penalty we earned by breaking them; He hands them back to us not as a ladder but as a description of the freedom His Spirit grows in us.',
   intros: [

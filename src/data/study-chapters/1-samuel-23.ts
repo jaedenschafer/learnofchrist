@@ -20,6 +20,13 @@ export const SAMUEL_1_23: RichChapterContent = {
 
   estimatedMinutes: { beginner: 9, intermediate: 15, deep: 20 },
 
+  youth: {
+    intros: [
+      "David saves Keilah from the Philistines, then has to flee Keilah because the people he saved would have handed him over to Saul. Welcome to leadership: the people you serve will sometimes be the people who turn you in.",
+      "Out in the wilderness of Ziph, Jonathan finds him one last time and 'strengthened his hand in God.' That phrase is a job description for a friend. Look around: who needs you to do that for them this week?",
+    ],
+  },
+
   characters: [
     { slug: 'david', role: 'Saves Keilah from the Philistines, then flees its citizens' },
     { slug: 'jonathan', role: 'Strengthens his friend’s hand in God for the last time' },

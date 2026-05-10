@@ -19,6 +19,13 @@ export const ACTS_24: RichChapterContent = {
 
   estimatedMinutes: { beginner: 7, intermediate: 13, deep: 17 },
 
+  youth: {
+    intros: [
+      "Paul stands trial before Felix. He reasons of righteousness, self-control, and judgment to come. Felix trembles — and then says 'go thy way for this time; when I have a convenient season, I will call for thee.' Two years later Felix is replaced. Paul is still in custody.",
+      "The convenient season rarely comes. Felix knew enough to be scared and not enough to repent. Don't be Felix. The season is now. Make whatever yes God's been pressing on you while it's still in your hand.",
+    ],
+  },
+
   characters: [
     { slug: 'paul', role: 'Defends himself before Felix; reasons of judgment to come' },
     { slug: 'felix', role: 'Trembles at the word but never repents' },

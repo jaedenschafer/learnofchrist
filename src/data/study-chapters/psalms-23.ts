@@ -18,6 +18,13 @@ export const PSALMS_23: RichChapterContent = {
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
 
+  youth: {
+    intros: [
+      "Six lines that thousands of people have learned by heart. The Lord is your shepherd. Not somewhere far away — beside you, with you, leading you. Green pastures. Still waters. A table even when enemies are watching.",
+      "Jesus claims this psalm in John 10: 'I am the good shepherd.' Every line of it is a description of life under His care. Try learning it this week. Pray it walking somewhere. It changes the inside of a regular Tuesday.",
+    ],
+  },
+
   christIndexSummary:
     'Christ names Himself the Good Shepherd of this psalm in John 10. Every line of it — green pastures, still waters, the valley of the shadow, the prepared table — is a description of life under His care. Hebrews 13 calls Him the great shepherd of the sheep brought again from the dead.',
   opener: {

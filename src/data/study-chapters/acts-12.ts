@@ -18,6 +18,13 @@ export const ACTS_12: RichChapterContent = {
 
   estimatedMinutes: { beginner: 6, intermediate: 14, deep: 20 },
 
+  youth: {
+    intros: [
+      "Herod kills the apostle James, then arrests Peter to do the same. The church prays. An angel walks Peter out of prison; he knocks on the door of a prayer meeting and the girl who answered is too excited to let him in. Herod gets eaten by worms.",
+      "The same God who let James die also broke Peter out the same week. He doesn't always do the same thing. He always knows what He's doing. That's worth holding onto when your prayer goes one direction and somebody else's goes the other.",
+    ],
+  },
+
   characters: [
     { slug: 'peter', role: 'Freed from Herod’s prison by an angel' },
   ],

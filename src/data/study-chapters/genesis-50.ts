@@ -19,6 +19,13 @@ export const GENESIS_50: RichChapterContent = {
 
   estimatedMinutes: { beginner: 7, intermediate: 12, deep: 15 },
 
+  youth: {
+    intros: [
+      "Joseph has every reason for revenge. His brothers sold him into slavery; he became the second-most-powerful man in Egypt. Now their father is dead, and they're afraid. They send a message: 'Forgive us.' Joseph weeps.",
+      "Then he says one of the most important sentences in Scripture: 'Ye thought evil against me; but God meant it unto good.' That's the cross compressed into one line. The thing meant to destroy him became the thing that saved his family.",
+    ],
+  },
+
   christIndexSummary:
     'Joseph’s "ye thought evil against me; but God meant it unto good" is the cross compressed to a single sentence. The brothers’ betrayal becomes the means of Israel’s salvation. The risen Christ tells His disciples after His resurrection what Joseph tells his brothers: do not fear; God turned what you meant for evil into life for many.',
   intros: [

@@ -16,6 +16,13 @@ export const ROMANS_3: RichChapterContent = {
 
   estimatedMinutes: { beginner: 7, intermediate: 15, deep: 20 },
 
+  youth: {
+    intros: [
+      "Paul takes the floor out from under everyone. Jew, Gentile, religious, irreligious — none righteous, no, not one. Then in two paragraphs he names the answer: a propitiation through faith in His blood, set forth by God to declare His righteousness for the remission of sins.",
+      "The cross is what makes God BOTH just AND the justifier of those who believe in Jesus. He doesn't ignore the sin; He absorbs it. That's the whole gospel in two verses.",
+    ],
+  },
+
   christIndexSummary:
     'Paul names the bottom of the human story ("there is none righteous, no, not one") and then names Christ as the answer: a propitiation through faith in His blood, set forth by God to declare His righteousness for the remission of sins. The cross is what makes God both just AND the justifier of those who believe in Jesus.',
   topicTags: ['mercy', 'faithfulness', 'hope', 'righteousness'],

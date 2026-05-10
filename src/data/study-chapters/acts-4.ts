@@ -18,6 +18,13 @@ export const ACTS_4: RichChapterContent = {
 
   estimatedMinutes: { beginner: 9, intermediate: 17, deep: 24 },
 
+  youth: {
+    intros: [
+      "Peter and John get arrested for healing the lame man. The Sanhedrin orders them to stop preaching about Jesus. Peter answers: 'Whether it be right in the sight of God to hearken unto you more than unto God, judge ye.' They go back to the church and pray for boldness, not safety.",
+      "When the apostles asked God for what they wanted, they didn't ask Him to make persecution stop. They asked Him to make them braver inside it. That's the prayer worth borrowing the next time school or work asks you to keep your mouth shut.",
+    ],
+  },
+
   characters: [
     { slug: 'peter', role: 'Filled with the Spirit, addresses the Sanhedrin' },
     { slug: 'john-apostle', role: 'Stands beside Peter under arrest' },

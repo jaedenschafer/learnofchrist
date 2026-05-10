@@ -25,6 +25,13 @@ export const ACTS_16: RichChapterContent = {
 
   estimatedMinutes: { beginner: 7, intermediate: 18, deep: 23 },
 
+  youth: {
+    intros: [
+      "The Spirit forbids Paul to preach in Asia. A vision in Troas: a man from Macedonia pleading 'come over and help us.' Paul takes a boat into Europe. In Philippi: Lydia opens her heart, an enslaved girl is freed, Paul and Silas get beaten and thrown in jail, sing hymns at midnight, an earthquake shakes the prison, the jailer asks 'what must I do to be saved?' His whole household is baptized before dawn.",
+      "Three conversions in one chapter — wealthy, enslaved, official. The gospel reaches every layer of the city in one day. And it reached two of those people because two prisoners chose to sing instead of curse. Your reaction to the worst night is somebody else's gospel.",
+    ],
+  },
+
   christIndexSummary:
     'Three conversions in one chapter — wealthy Lydia, an enslaved girl, and a Roman jailer — name the gospel’s reach across class and gender and power. At midnight Paul and Silas sing in chains; an earthquake breaks the prison; a man asks "what must I do to be saved?" and a household is baptized before dawn. The Christ of Acts 16 is the Lord of every layer of the empire.',
 

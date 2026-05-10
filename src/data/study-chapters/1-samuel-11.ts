@@ -21,6 +21,13 @@ export const SAMUEL_1_11: RichChapterContent = {
 
   estimatedMinutes: { beginner: 7, intermediate: 11, deep: 14 },
 
+  youth: {
+    intros: [
+      "An Ammonite king threatens to put out the right eye of every man in Jabesh-Gilead. The town sends for help. Saul hears the news, the Spirit of God comes on him, and he cuts a yoke of oxen in pieces and sends the chunks across Israel as a draft notice.",
+      "The army shows up. Saul wins. Israel renews the kingdom at Gilgal. This is Saul at his best — Spirit-filled, decisive, generous to his enemies. Hold this picture; the chapters ahead will need it.",
+    ],
+  },
+
   characters: [
     { slug: 'saul', role: 'The Spirit comes upon him; he leads Israel to victory' },
     { slug: 'samuel', role: 'Renews the kingdom at Gilgal' },

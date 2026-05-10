@@ -17,6 +17,13 @@ export const SAMUEL_1_20: RichChapterContent = {
 
   estimatedMinutes: { beginner: 2, intermediate: 12, deep: 14 },
 
+  youth: {
+    intros: [
+      "Jonathan and David work out a code with arrows in a field to find out if Saul really wants David dead. The code says yes. They meet one last time and weep on each other. Jonathan, the prince who should have inherited the throne, blesses the friend who will sit on it instead.",
+      "Real friendship at its best is two people choosing what God is doing over what they were owed. Jonathan does it without a flinch. Ask God for a friend like that. Try to be one for someone else.",
+    ],
+  },
+
   characters: [
     { slug: 'jonathan', role: 'Tests his father with arrows in the field' },
     { slug: 'david', role: 'Says farewell to his closest friend' },

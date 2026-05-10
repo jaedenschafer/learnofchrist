@@ -21,6 +21,13 @@ export const HEBREWS_4: RichChapterContent = {
 
   estimatedMinutes: { beginner: 7, intermediate: 12, deep: 17 },
 
+  youth: {
+    intros: [
+      "There remains a sabbath rest for the people of God. Not just a day off — a settled, finished, leaning-into-Him kind of rest. Christ is the great High Priest who passed into the heavens. So come boldly to the throne of grace. Not anxiously. Not eventually. Boldly.",
+      "Whatever you've been holding on your own — performance, anxiety, image-management — the door is already open. Lay it down. The God who knows you fully also welcomes you fully.",
+    ],
+  },
+
   christIndexSummary:
     'There remains a sabbath rest for the people of God. Christ is the great High Priest who passed into the heavens; let us therefore come boldly. The rest Joshua could not give Israel, the rest the seventh day pictured in Genesis 1, is found in Him.',
   intros: [

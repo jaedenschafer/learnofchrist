@@ -25,6 +25,13 @@ export const ACTS_19: RichChapterContent = {
 
   estimatedMinutes: { beginner: 12, intermediate: 22, deep: 28 },
 
+  youth: {
+    intros: [
+      "Three years in Ephesus. The gospel cuts through the city; the silver-shrine industry tanks because people stop buying idols. Demetrius the silversmith starts a riot in the great theater. The town clerk eventually calms them down. Paul leaves with the church planted and the city changed.",
+      "When the gospel actually lands in a place, the economy notices. If your faith is making no difference to how you spend, what you watch, who you follow — it might not have landed yet. Ephesus is what landing looks like.",
+    ],
+  },
+
   characters: [
     { slug: 'paul', role: 'Three years in Ephesus; the Demetrius riot' },
   ],

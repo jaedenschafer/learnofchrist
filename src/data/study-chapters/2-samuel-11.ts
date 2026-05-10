@@ -22,6 +22,13 @@ export const SAMUEL_2_11: RichChapterContent = {
 
   estimatedMinutes: { beginner: 8, intermediate: 13, deep: 17 },
 
+  youth: {
+    intros: [
+      "David should have been at war. Instead he's on the roof of his palace, sees a married woman bathing, and uses his power to take her. She gets pregnant. He summons her husband Uriah home from the front, hoping he'll sleep with her and the timing will look natural.",
+      "Uriah refuses to sleep with his wife while his comrades sleep in tents. So David sends him back to the front carrying a sealed letter that orders his own death. The chapter ends with a cover-up that almost works. Almost. Sin always thinks it's gotten away with it. Chapter 12 is coming.",
+    ],
+  },
+
   characters: [
     { slug: 'david', role: 'Takes Bathsheba; arranges Uriah’s death to cover it' },
     { slug: 'bathsheba', role: 'Wife of Uriah, summoned to the king’s house' },

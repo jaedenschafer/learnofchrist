@@ -19,6 +19,13 @@ export const GENESIS_22: RichChapterContent = {
 
   estimatedMinutes: { beginner: 9, intermediate: 15, deep: 20 },
 
+  youth: {
+    intros: [
+      "God asks Abraham for the impossible: take Isaac, the son of the promise, the son you love, and offer him on a mountain. Abraham gets up early. He doesn't argue. They climb together — knife, wood, fire — and the boy carries his own kindling up the hill.",
+      "At the last second, a ram appears, caught in a thicket. The son lives; the substitute dies. Two thousand years later, on the same range of hills, another Father climbed with His only Son — but this time no ram replaced the Son. He WAS the lamb.",
+    ],
+  },
+
   christIndexSummary:
     'Abraham binds his only son, the son he loves, on a hill in the land of Moriah and lifts the knife. The ram caught in the thicket dies in Isaac’s place. Two thousand years later, on the same range of hills, the Father did not spare His own Son but delivered Him up for us all. Genesis 22 is the Old Testament’s clearest picture of the cross.',
   opener: {

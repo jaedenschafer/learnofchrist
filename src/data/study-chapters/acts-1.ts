@@ -17,6 +17,13 @@ export const ACTS_1: RichChapterContent = {
 
   estimatedMinutes: { beginner: 8, intermediate: 15, deep: 19 },
 
+  youth: {
+    intros: [
+      "Forty days after the resurrection, Jesus tells the disciples to wait in Jerusalem for the promise of the Spirit. Then He's lifted up out of their sight, and two angels say: 'this same Jesus… shall so come in like manner.' The disciples go back, pick a replacement for Judas, and pray.",
+      "The book of Acts is what one ascended Christ does through ordinary people who got the Spirit He promised. Don't underestimate where you're standing — you're still inside the story Acts is telling.",
+    ],
+  },
+
   christIndexSummary:
     'Christ ascends from the Mount of Olives with the promise that He will return the same way. The forty days between resurrection and ascension are the apostles’ final classroom; everything afterward is the church living out what He gave them. The chapter ends not with Christ gone but with Christ enthroned, sending the Spirit.',
 

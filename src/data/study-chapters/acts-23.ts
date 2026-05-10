@@ -21,6 +21,13 @@ export const ACTS_23: RichChapterContent = {
 
   estimatedMinutes: { beginner: 11, intermediate: 20, deep: 27 },
 
+  youth: {
+    intros: [
+      "Paul splits the Sanhedrin by yelling 'I am a Pharisee, the son of a Pharisee: of the hope and resurrection of the dead I am called in question.' The chamber breaks into a fight. That night the Lord stands by him: 'Be of good cheer, Paul: for as thou hast testified of me in Jerusalem, so must thou bear witness also at Rome.' His nephew tips off a plot; he gets sent to Caesarea under armed guard.",
+      "On the worst night, the Lord shows up. The promise isn't safety; the promise is, you're going to make it to Rome. Whatever your Rome is, the Lord is the one keeping you headed there.",
+    ],
+  },
+
   characters: [
     { slug: 'paul', role: 'Splits the Sanhedrin; sent to Caesarea under armed escort' },
   ],

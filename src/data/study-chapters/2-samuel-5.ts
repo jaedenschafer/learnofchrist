@@ -17,6 +17,13 @@ export const SAMUEL_2_5: RichChapterContent = {
 
   estimatedMinutes: { beginner: 6, intermediate: 14, deep: 18 },
 
+  youth: {
+    intros: [
+      "David is finally anointed king over all Israel. He takes Jerusalem from the Jebusites, who taunt him from the walls — 'the blind and the lame shall keep thee out.' He takes the city anyway. It will be the city of the king and, eventually, the city of the King.",
+      "Watch where the story is heading. The Davidic capital is the place where the greater Son of David will be crucified outside the walls. Every line of Scripture is laying track.",
+    ],
+  },
+
   characters: [
     { slug: 'david', role: 'Anointed king over all Israel; takes Jerusalem from the Jebusites' },
   ],

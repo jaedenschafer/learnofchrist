@@ -22,6 +22,13 @@ export const EXODUS_14: RichChapterContent = {
 
   estimatedMinutes: { beginner: 10, intermediate: 14, deep: 18 },
 
+  youth: {
+    intros: [
+      "Israel is trapped: sea in front, Pharaoh's chariots behind, panic everywhere. Moses says, 'Stand still, and see the salvation of the Lord.' The sea opens. They walk through on dry ground. The army that followed gets buried in the wave.",
+      "Paul reads it as baptism — death walked through, life on the other side. Every believer who passes through the waters of baptism is rehearsing this story: the same God who tore open the sea also tore open the heavens at Calvary.",
+    ],
+  },
+
   christIndexSummary:
     'Israel is hemmed in by sea and pursued by the army of death; God parts the waters and brings them through. Paul reads it as baptism (1 Cor 10) — the death-and-resurrection pattern lived out by every believer who passes through the waters into Christ. The same God who said "stand still, and see the salvation of the Lord" tore open the heavens at Calvary.',
   intros: [

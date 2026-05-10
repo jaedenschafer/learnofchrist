@@ -26,6 +26,13 @@ export const EXODUS_12: RichChapterContent = {
 
   estimatedMinutes: { beginner: 12, intermediate: 19, deep: 23 },
 
+  youth: {
+    intros: [
+      "Israel's last night in Egypt: every household kills a lamb, paints its blood on the doorframe, eats fast, and waits. The death angel passes through. Where the blood is, death passes over. Where it isn't, the firstborn dies.",
+      "Paul will later write one line to the Corinthians that explains the whole night: 'Christ our Passover is sacrificed for us.' The Lamb's blood on the door is the cross before the cross. The first communion in the upper room is Jesus reframing this very meal around Himself.",
+    ],
+  },
+
   christIndexSummary:
     'The Passover lamb is Christ. A spotless male lamb, slain at twilight, its blood marking the doorpost so the angel of death passes over the household — every detail Paul names of Jesus in 1 Corinthians 5: "Christ our passover is sacrificed for us." The first sign of the new covenant in the upper room is Jesus reframing this very meal around Himself.',
   intros: [

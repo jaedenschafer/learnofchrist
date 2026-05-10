@@ -19,6 +19,13 @@ export const SAMUEL_1_31: RichChapterContent = {
 
   estimatedMinutes: { beginner: 4, intermediate: 9, deep: 11 },
 
+  youth: {
+    intros: [
+      "On Mount Gilboa, the army of Israel collapses. Saul's three sons die, including Jonathan. Saul is wounded, refuses to be killed by the Philistines, and falls on his own sword. The kingdom of Israel ends in a rout.",
+      "Saul's reign began with God's anointing and ended with a man too proud to ask for help. The book of Samuel does not soften the picture. The next book opens with a different king learning to lament his predecessor honestly.",
+    ],
+  },
+
   characters: [
     { slug: 'saul', role: 'Falls on his own sword on Mount Gilboa' },
     { slug: 'jonathan', role: 'Dies beside his father, faithful to the end' },

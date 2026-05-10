@@ -16,6 +16,13 @@ export const HEBREWS_1: RichChapterContent = {
 
   estimatedMinutes: { beginner: 11, intermediate: 17, deep: 24 },
 
+  youth: {
+    intros: [
+      "God who spoke in many ways through the prophets has spoken to us in these last days by His Son. The brightness of His glory. The express image of His person. He upholds all things by the word of His power. After He purged our sins, He sat down at the right hand of the Majesty.",
+      "Every line of Hebrews 1 is naming Christ. The book opens by stacking up superlatives until it becomes obvious that whatever you're about to read is going to be measured against this Person.",
+    ],
+  },
+
   christIndexSummary:
     'God who spoke in many ways through the prophets has spoken to us in these last days by His Son — the brightness of His glory, the express image of His person, who upholds all things by the word of His power. After He purged our sins, He sat down at the right hand of the Majesty. Every line of Hebrews 1 is naming Christ.',
   intros: [

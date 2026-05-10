@@ -16,6 +16,13 @@ export const ACTS_8: RichChapterContent = {
 
   estimatedMinutes: { beginner: 10, intermediate: 16, deep: 21 },
 
+  youth: {
+    intros: [
+      "The persecution that murdered Stephen scatters the believers — and they preach as they go. Philip ends up in Samaria. People believe. Then an angel sends him out to a desert road to meet an Ethiopian official reading Isaiah 53 in his chariot. Philip jumps up, explains the chapter, baptizes him on the spot.",
+      "The gospel reaches Africa decades before any other recorded mission, on a desert road, through one believer who said yes to a strange route. Pay attention to the Spirit's nudges. The strangest detour might be the assignment.",
+    ],
+  },
+
   characters: [
     { slug: 'philip-evangelist', role: 'Preaches in Samaria; baptizes the Ethiopian on the Gaza road' },
     { slug: 'peter', role: 'Comes down with John to lay hands on the new Samaritan believers' },

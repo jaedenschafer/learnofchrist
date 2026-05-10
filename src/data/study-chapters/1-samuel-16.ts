@@ -21,6 +21,13 @@ export const SAMUEL_1_16: RichChapterContent = {
 
   estimatedMinutes: { beginner: 3, intermediate: 12, deep: 15 },
 
+  youth: {
+    intros: [
+      "Samuel goes to Bethlehem under cover, looking for Israel's next king among Jesse's sons. The oldest is impressive — tall, kingly. Samuel almost anoints him. Then the line that reframes how God picks people: 'man looketh on the outward appearance, but the Lord looketh on the heart.'",
+      "Seven sons pass. Samuel asks if there are more. 'There remaineth yet the youngest, and, behold, he keepeth the sheep.' The youngest, the overlooked, the shepherd. Bethlehem will hold one more shepherd-king a thousand years later.",
+    ],
+  },
+
   christIndexSummary:
     'David is the great Old Testament type of Christ — the youngest, the overlooked, the shepherd anointed in secret. The Lord looks not on outward appearance but on the heart, and He chose a son of Bethlehem. A thousand years later, Bethlehem holds another shepherd-king, and a heart no one had ever seen until then.',
 

@@ -17,6 +17,13 @@ export const ISAIAH_53: RichChapterContent = {
 
   estimatedMinutes: { beginner: 4, intermediate: 7, deep: 11 },
 
+  youth: {
+    intros: [
+      "The chapter that quietly hangs over the New Testament. He had no beauty that we should desire him. He was despised and rejected. He bore our griefs. He was wounded for our transgressions. With his stripes we are healed.",
+      "Philip used this very chapter to preach Jesus to an Ethiopian official on the desert road. Read it twice — once trying to figure out who Isaiah is talking about, once knowing it's Jesus. Every line lands.",
+    ],
+  },
+
   christIndexSummary:
     'The most explicit prophecy of the cross in the Old Testament. He was wounded for our transgressions, bruised for our iniquities; with His stripes we are healed. The chastisement of our peace was upon Him. Philip used this very chapter to preach Jesus to the Ethiopian eunuch on the Gaza road. Every line is fulfilled at Calvary.',
   opener: {

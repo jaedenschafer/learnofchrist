@@ -19,6 +19,13 @@ export const SAMUEL_2_3: RichChapterContent = {
 
   estimatedMinutes: { beginner: 3, intermediate: 13, deep: 14 },
 
+  youth: {
+    intros: [
+      "Abner — Saul's general — defects to David and brokers the unification of Israel. Joab waits at the gate of Hebron and stabs him in revenge. David is furious. He weeps publicly at Abner's grave and refuses to eat all day, making sure everyone knows he didn't authorize the murder.",
+      "Public grief, public clarity. Sometimes integrity looks like making sure the right people see you upset about the right thing. David didn't have a press team — he had a fast and a funeral.",
+    ],
+  },
+
   characters: [
     { slug: 'abner', role: 'Defects to David and is murdered by Joab' },
     { slug: 'joab', role: 'Kills Abner under the gate of Hebron' },

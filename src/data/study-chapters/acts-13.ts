@@ -25,6 +25,13 @@ export const ACTS_13: RichChapterContent = {
 
   estimatedMinutes: { beginner: 9, intermediate: 14, deep: 17 },
 
+  youth: {
+    intros: [
+      "The church at Antioch is fasting and praying. The Spirit says: separate Barnabas and Saul for the work I have called them to. They get on a boat. The first missionary journey begins. Cyprus, Pisidian Antioch, a synagogue sermon, a riot, a shaking of dust off the feet.",
+      "Notice how it starts: not with a strategic plan but with a worship service. The mission of God runs out of prayer rooms more often than out of planning rooms. Make sure you're in the kind of room God can speak in.",
+    ],
+  },
+
   characters: [
     { slug: 'paul', role: 'Set apart with Barnabas; first missionary journey begins' },
     { slug: 'barnabas', role: 'Sent out with Paul by the Antioch church' },

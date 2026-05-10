@@ -15,6 +15,13 @@ export const SAMUEL_1_10: RichChapterContent = {
 
   estimatedMinutes: { beginner: 10, intermediate: 15, deep: 20 },
 
+  youth: {
+    intros: [
+      "Samuel anoints Saul in private, then publicly chooses him by lot. When his name is drawn, Saul is hiding among the supplies. They drag him out. He stands head and shoulders above everyone. The Spirit comes on him; he prophesies.",
+      "Two crowds: the ones who shout 'God save the king' and the ones who whisper 'how can this man save us?' Both will turn out to be partly right. The kingdom that starts here will end on Mount Gilboa with a man falling on his own sword.",
+    ],
+  },
+
   characters: [
     { slug: 'saul', role: 'Anointed king and given a new heart' },
     { slug: 'samuel', role: 'Anoints Saul privately, then publicly by lot' },

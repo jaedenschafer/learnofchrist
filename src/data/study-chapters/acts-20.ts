@@ -21,6 +21,13 @@ export const ACTS_20: RichChapterContent = {
 
   estimatedMinutes: { beginner: 10, intermediate: 21, deep: 27 },
 
+  youth: {
+    intros: [
+      "At Troas, Paul preaches so long a young man named Eutychus falls asleep in a third-story window and tumbles out dead. Paul goes down, raises him, and finishes the sermon. Later at Miletus, he calls the Ephesian elders and gives them his goodbye: 'Take heed therefore unto yourselves, and to all the flock.' He warns them, weeps with them, prays with them. They walk him to the ship.",
+      "What does the end of a faithful life look like? Hands open, no regrets, telling the next leaders what they need to know. Live now in a way you'd be okay finishing later.",
+    ],
+  },
+
   characters: [
     { slug: 'paul', role: 'Bids the Ephesian elders farewell at Miletus, knowing chains await him' },
   ],

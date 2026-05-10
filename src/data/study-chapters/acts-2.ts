@@ -17,6 +17,13 @@ export const ACTS_2: RichChapterContent = {
 
   estimatedMinutes: { beginner: 8, intermediate: 16, deep: 21 },
 
+  youth: {
+    intros: [
+      "The Spirit comes like wind and fire. The disciples spill into the street speaking languages they'd never learned. People from across the Roman world hear the gospel each in his own tongue. Peter — Peter, who denied Jesus three times two months ago — stands up and preaches the first Christian sermon. Three thousand believe and are baptized.",
+      "Pentecost is what Jesus' resurrection looks like spread out across normal people. The Spirit doesn't make you somebody else; He makes the real you usable. Your version of acts-2 starts the day you say yes to it.",
+    ],
+  },
+
   christIndexSummary:
     'Pentecost is the Spirit poured out by the risen Christ. The wind, the fire, the languages — all of them say one thing: the same Jesus who was crucified is now Lord, and His kingdom has begun spreading to every nation. Peter’s sermon is the first announcement of the gospel from the other side of the empty tomb.',
 

@@ -23,6 +23,13 @@ export const REVELATION_21: RichChapterContent = {
 
   estimatedMinutes: { beginner: 10, intermediate: 16, deep: 23 },
 
+  youth: {
+    intros: [
+      "A new heaven and a new earth. The old has passed away. The holy city comes down out of heaven, prepared as a bride adorned for her husband. God Himself wipes away every tear. There is no more death, no more sorrow, no more crying, no more pain.",
+      "Genesis 1 and Revelation 21 are bookends. The Christ who spoke worlds into being now makes all things new. Whatever you're carrying right now isn't the end of the story. Read this chapter slowly when the future feels closed.",
+    ],
+  },
+
   christIndexSummary:
     'A new heaven and a new earth; the holy city coming down. God Himself wipes away every tear; death, sorrow, and pain are gone. The Lamb is the temple and the light. Genesis 1’s first creation finds its answer here — the Christ who spoke worlds into being now makes all things new.',
   intros: [

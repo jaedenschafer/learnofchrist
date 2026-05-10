@@ -15,6 +15,13 @@ export const SAMUEL_1_7: RichChapterContent = {
 
   estimatedMinutes: { beginner: 7, intermediate: 12, deep: 15 },
 
+  youth: {
+    intros: [
+      "After 20 years of grief, Samuel calls Israel back. They put away the foreign gods, gather at Mizpah, pour out water, fast, and confess. The Philistines hear about the meeting and attack. The Lord thunders, and they scatter.",
+      "Samuel sets up a stone and calls it Ebenezer — 'the stone of help' — saying, 'Hitherto hath the Lord helped us.' That stone plants itself everywhere a believer looks back: at the cross, at the empty tomb, at every answered prayer.",
+    ],
+  },
+
   characters: [
     { slug: 'samuel', role: 'Calls Israel to repentance and intercedes at Mizpah' },
   ],

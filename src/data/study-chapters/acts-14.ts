@@ -19,6 +19,13 @@ export const ACTS_14: RichChapterContent = {
 
   estimatedMinutes: { beginner: 8, intermediate: 16, deep: 22 },
 
+  youth: {
+    intros: [
+      "At Lystra, Paul heals a lame man. The crowd decides Paul and Barnabas are gods and tries to sacrifice oxen to them. They tear their clothes and beg the people to stop. Then Jewish leaders from the next towns over arrive, stir up the crowd, and the same crowd that wanted to worship Paul stones him and drags him out the city gate for dead.",
+      "He gets up, walks back into the city. Then back through the same towns to encourage the new believers. 'We must through much tribulation enter into the kingdom of God.' Real apostolic work runs both directions through pain.",
+    ],
+  },
+
   characters: [
     { slug: 'paul', role: 'Stoned at Lystra and left for dead; rises and walks back into the city' },
     { slug: 'barnabas' },

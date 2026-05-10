@@ -20,6 +20,13 @@ export const ACTS_15: RichChapterContent = {
 
   estimatedMinutes: { beginner: 10, intermediate: 15, deep: 20 },
 
+  youth: {
+    intros: [
+      "The big question: do Gentile converts have to be circumcised first? The church holds a council in Jerusalem. Peter speaks. James speaks. They write a short letter that says no. The gospel is by grace, for everyone, on the same terms.",
+      "Paul and Barnabas split right after over John Mark. It's not the only church fight in Acts and it won't be the last. But the council itself models how to disagree with prayer and Scripture and a real conclusion that everyone can carry. Worth studying the next time your group is stuck.",
+    ],
+  },
+
   characters: [
     { slug: 'peter', role: 'Speaks first at the Jerusalem council' },
     { slug: 'paul', role: 'Reports what God did among the Gentiles' },

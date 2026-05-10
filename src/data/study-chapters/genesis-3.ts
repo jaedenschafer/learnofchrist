@@ -15,6 +15,13 @@ export const GENESIS_3: RichChapterContent = {
 
   estimatedMinutes: { beginner: 10, intermediate: 14, deep: 19 },
 
+  youth: {
+    intros: [
+      "Everything good gets undone in one conversation. The serpent doesn't deny what God said — he twists it. \"Did God really say…?\" Eve looks, takes, eats; Adam, standing right there, eats too. The world cracks. Shame, blame, exile.",
+      "But there's a promise hidden in the curse: a seed of the woman who will crush the serpent's head. Genesis 3:15 is the gospel before the gospel — the first hint that the rescue is already coming.",
+    ],
+  },
+
   christIndexSummary:
     'Christ is the seed of the woman promised in 3:15 — the first hint of the gospel in Scripture. The serpent strikes His heel at the cross; He crushes its head. The skins God makes to cover Adam and Eve are the first death after the fall, a substitute slain so the guilty might be clothed — a foreshadow of the Lamb who clothes us in righteousness.',
   opener: {

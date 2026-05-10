@@ -15,6 +15,13 @@ export const REVELATION_1: RichChapterContent = {
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 6 },
 
+  youth: {
+    intros: [
+      "John, exiled on Patmos, hears a voice like a trumpet. He turns and sees Christ — eyes like fire, voice like many waters, holding the keys of death and hell. John falls flat. Jesus says: 'Fear not; I am the first and the last.'",
+      "The whole book is going to show you a lot of strange things, but the first thing it shows you is who is in charge. Whatever happens, He's holding the keys. That's the foundation. Everything else is detail.",
+    ],
+  },
+
   christIndexSummary:
     'John on Patmos sees the risen Christ as the One who walks among the lampstands — eyes like flame, voice like many waters, holding the keys of death and hell. "Fear not; I am the first and the last." The whole apocalypse opens not with the future but with the living Lord who already has every key.',
   opener: {
