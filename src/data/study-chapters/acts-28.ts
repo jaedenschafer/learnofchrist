@@ -24,6 +24,22 @@ export const ACTS_28: RichChapterContent = {
   chapter: 28,
 
   estimatedMinutes: { beginner: 9, intermediate: 16, deep: 21 },
+
+  characters: [
+    { slug: 'paul', role: 'Reaches Rome at last; preaches "the kingdom of God" two whole years' },
+  ],
+
+  map: {
+    preset: 'mediterranean',
+    places: [
+      { name: 'Malta', x: 0.39, y: 0.5, kind: 'origin', note: 'Three months on the island' },
+      { name: 'Syracuse', x: 0.41, y: 0.49, kind: 'visit' },
+      { name: 'Puteoli', x: 0.36, y: 0.43, kind: 'visit' },
+      { name: 'Rome', x: 0.32, y: 0.42, kind: 'travel-to', note: '"Unto the uttermost part of the earth"' },
+    ],
+    route: [0, 1, 2, 3],
+    caption: 'The last leg: Malta → Syracuse → Puteoli → Rome. The book ends with the gospel "no man forbidding."',
+  },
   intros: [
     'Acts 28 does not end the story of the gospel. It ends with the story still running. Paul arrives at Rome, not in triumph, but in chains. He is under guard in a hired house. Yet from that rented room, with a soldier chained to his wrist, he calls together the chief of the Jews and reasons with them about Jesus, about the kingdom, about the hardening of the people spoken of by Isaiah six hundred years before. Some believe, some do not. And Luke closes the book not with Paul&apos;s martyrdom, not with his release, but with him still preaching, still teaching, still unhindered.',
     'This is Luke&apos;s purpose. He wants you to see that the gospel cannot be imprisoned. Chains cannot bind it. Shipwrecks cannot stop it. Opposition cannot silence it. In Acts 1, Jesus promises the disciples: "Ye shall receive power… and ye shall be witnesses unto me… unto the uttermost part of the earth." By Acts 28, that promise is being lived out. The word from Jerusalem has reached Rome, the center of the known world. And it is still spreading, still speaking, still calling people into the kingdom of the God who never loses.',

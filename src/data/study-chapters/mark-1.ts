@@ -19,6 +19,9 @@ export const MARK_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 3, intermediate: 7, deep: 10 },
+
+  christIndexSummary:
+    'Mark opens with no manger — only a voice in the wilderness, a Jordan baptism, a torn heaven, and a Father naming His beloved Son. The Spirit drives Him into the wilderness, then out to call disciples, cast out demons, and heal. Christ enters the world running.',
   opener: {
     matchTitle: /The Healing of Peter/i,
     caption: 'Mark 1',

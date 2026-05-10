@@ -18,6 +18,12 @@ export const SAMUEL_2_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 3, intermediate: 13, deep: 14 },
+
+  characters: [
+    { slug: 'abner', role: 'Defects to David and is murdered by Joab' },
+    { slug: 'joab', role: 'Kills Abner under the gate of Hebron' },
+    { slug: 'david', role: 'Walks behind Abner’s bier and refuses food till sundown' },
+  ],
   topicTags: ['kingship', 'repentance', 'leadership', 'covenant'],
   opener: {
     topical: true,

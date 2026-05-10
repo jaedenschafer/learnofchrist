@@ -15,6 +15,11 @@ export const ACTS_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 7, intermediate: 15, deep: 20 },
+
+  characters: [
+    { slug: 'peter', role: 'Heals the lame man at the temple gate' },
+    { slug: 'john-apostle', role: 'With Peter at the Beautiful Gate' },
+  ],
   opener: {
     matchTitle: /The Healing of the/i,
     caption: 'Acts 3',

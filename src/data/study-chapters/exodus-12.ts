@@ -25,6 +25,9 @@ export const EXODUS_12: RichChapterContent = {
   chapter: 12,
 
   estimatedMinutes: { beginner: 12, intermediate: 19, deep: 23 },
+
+  christIndexSummary:
+    'The Passover lamb is Christ. A spotless male lamb, slain at twilight, its blood marking the doorpost so the angel of death passes over the household — every detail Paul names of Jesus in 1 Corinthians 5: "Christ our passover is sacrificed for us." The first sign of the new covenant in the upper room is Jesus reframing this very meal around Himself.',
   intros: [
     'Exodus 12 is the night God saves His people. It is the centerpiece of Israel&apos;s identity—so central that when the New Testament writers look for the language to describe Jesus&apos; death, they reach back to this chapter. What happens on this night shapes everything that comes after: the Law, the Tabernacle, the priesthood, every sacrifice, every feast. For a Hebrew reader, the Passover is not just a historical memory. It is the theological answer to the question: How does God save?',
     'The chapter turns on a strange reversal. Egypt is the powerful nation. Israel is enslaved. But in this one night, the firstborn of Egypt—from Pharaoh&apos;s heir to the servant in the dungeon—are all marked for death. And the only shelter is blood. Not the blood of the strong. The blood of a lamb. A lamb chosen for its fitness, killed in the evening, eaten with bitter herbs and haste. The blood of that lamb, marked on the doorposts and lintel, forms a cross. And the angel of death passes over. It passes over because of the sign, not because of the family&apos;s worthiness. The Passover asks: Do you trust the lamb, or do you trust yourself?',

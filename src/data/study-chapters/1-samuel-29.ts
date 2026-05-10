@@ -16,6 +16,11 @@ export const SAMUEL_1_29: RichChapterContent = {
   chapter: 29,
 
   estimatedMinutes: { beginner: 5, intermediate: 9, deep: 10 },
+
+  characters: [
+    { slug: 'david', role: 'Dismissed from the Philistine ranks before the battle' },
+    { slug: 'achish' },
+  ],
   topicTags: ['kingship', 'leadership', 'calling', 'providence'],
   opener: {
     topical: true,

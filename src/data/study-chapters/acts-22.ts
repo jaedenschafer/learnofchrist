@@ -20,6 +20,10 @@ export const ACTS_22: RichChapterContent = {
   chapter: 22,
 
   estimatedMinutes: { beginner: 8, intermediate: 13, deep: 17 },
+
+  characters: [
+    { slug: 'paul', role: 'Tells the crowd from the steps of the Antonia his Damascus-road story' },
+  ],
   intros: [
     'Paul is surrounded by a mob. He has been dragged into the temple courtyard, accused by Jews from Asia of bringing a Gentile into the holy place. The crowd is screaming for his death. A Roman officer binds him with chains. In that moment—bound, surrounded, moments from death—Paul asks permission to speak. The officer is surprised. But he grants it. Paul stands on the steps, raises his hand for silence, and begins to speak in Hebrew.',
 

@@ -21,6 +21,9 @@ export const SAMUEL_1_16: RichChapterContent = {
 
   estimatedMinutes: { beginner: 3, intermediate: 12, deep: 15 },
 
+  christIndexSummary:
+    'David is the great Old Testament type of Christ — the youngest, the overlooked, the shepherd anointed in secret. The Lord looks not on outward appearance but on the heart, and He chose a son of Bethlehem. A thousand years later, Bethlehem holds another shepherd-king, and a heart no one had ever seen until then.',
+
   characters: [
     { slug: 'samuel', role: 'Sent to anoint Israel’s next king' },
     { slug: 'david', role: 'The youngest son, called in from the sheep' },

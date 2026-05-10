@@ -20,6 +20,9 @@ export const HEBREWS_4: RichChapterContent = {
   chapter: 4,
 
   estimatedMinutes: { beginner: 7, intermediate: 12, deep: 17 },
+
+  christIndexSummary:
+    'There remains a sabbath rest for the people of God. Christ is the great High Priest who passed into the heavens; let us therefore come boldly. The rest Joshua could not give Israel, the rest the seventh day pictured in Genesis 1, is found in Him.',
   intros: [
     'Hebrews 4 opens with the echo of a promise. God swore to the wilderness generation that they would enter His rest. They refused to believe. They died in the desert—not because God had changed His mind, but because they had. Yet the promise is still standing. Joshua did not fulfill it. David, hundreds of years later, still invokes it in the Psalms. The rest remains open, waiting for those who will believe.',
     'The author then turns to the nature of this rest. It is the Sabbath rest—not merely a day of the week, but a spiritual reality. To enter it means to cease from your own works and to trust entirely in what Christ has accomplished. And here the chapter offers something tender: you do not bring this question to a God who is untouched by your struggle. You bring it to a High Priest who has walked your journey, who knows your weakness, who invites you to approach Him with boldness and without shame.',

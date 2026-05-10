@@ -19,6 +19,9 @@ export const MATTHEW_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 3, intermediate: 7, deep: 9 },
+
+  christIndexSummary:
+    'The wise men come from the east; Herod tries to kill the child; the family flees to Egypt and comes back so that "out of Egypt have I called my son." Christ relives Israel’s story in His own infancy, succeeding where Israel had failed, and showing from the beginning that the gospel reaches Gentiles before His own city receives Him.',
   opener: {
     matchTitle: /The Adoration of the/i,
     caption: 'Matthew 2',

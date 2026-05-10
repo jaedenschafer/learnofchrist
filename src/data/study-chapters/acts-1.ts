@@ -16,6 +16,25 @@ export const ACTS_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 8, intermediate: 15, deep: 19 },
+
+  christIndexSummary:
+    'Christ ascends from the Mount of Olives with the promise that He will return the same way. The forty days between resurrection and ascension are the apostles’ final classroom; everything afterward is the church living out what He gave them. The chapter ends not with Christ gone but with Christ enthroned, sending the Spirit.',
+
+  characters: [
+    { slug: 'peter', role: 'Leads the choosing of Matthias' },
+    { slug: 'jesus', role: 'Ascends from the Mount of Olives with the promise to return' },
+  ],
+
+  map: {
+    preset: 'judea',
+    places: [
+      { name: 'Bethany', x: 0.5, y: 0.42, kind: 'origin', note: 'Where Jesus blessed them and was taken up' },
+      { name: 'Mt of Olives', x: 0.48, y: 0.4, kind: 'visit', note: 'They returned from this mountain' },
+      { name: 'Jerusalem', x: 0.46, y: 0.4, kind: 'travel-to', note: 'Where they waited for the Spirit' },
+    ],
+    route: [0, 1, 2],
+    caption: 'The ascension at Bethany; the disciples return to Jerusalem to wait for the Spirit.',
+  },
   intros: [
     'The Book of Acts opens not with doctrine, but with a risen Lord. Jesus has walked out of the tomb alive, flesh and bone, eating fish and speaking truth. For forty days He moves among His disciples, appearing and disappearing, teaching them about the kingdom of God. The resurrection is not a distant theological claim—it is a lived reality the disciples are being remade by. They touch His wounds. They sit and eat with Him. And in all that teaching, the central theme holds: the kingdom is not about earthly authority or political restoration, but about God&apos;s rule breaking into the world through the gift of the Spirit.',
     'Before His final departure, Jesus presses that promise into their hands: "Ye shall receive power, after that the Holy Ghost is come upon you: and ye shall be witnesses unto me." The disciples stand watching Him disappear into a cloud, and angels redirect them: why stand ye gazing? You have work to do. Not in the heavens, but on the earth. Not in a distant future, but beginning now, beginning here, beginning with Jerusalem.',

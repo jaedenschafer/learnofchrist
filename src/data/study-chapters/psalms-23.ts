@@ -17,6 +17,9 @@ export const PSALMS_23: RichChapterContent = {
   chapter: 23,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+
+  christIndexSummary:
+    'Christ names Himself the Good Shepherd of this psalm in John 10. Every line of it — green pastures, still waters, the valley of the shadow, the prepared table — is a description of life under His care. Hebrews 13 calls Him the great shepherd of the sheep brought again from the dead.',
   opener: {
     matchTitle: /The Lord is my/i,
     caption: 'Psalms 23',

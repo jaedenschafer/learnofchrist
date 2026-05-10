@@ -21,6 +21,11 @@ export const SAMUEL_1_28: RichChapterContent = {
   chapter: 28,
 
   estimatedMinutes: { beginner: 3, intermediate: 9, deep: 12 },
+
+  characters: [
+    { slug: 'saul', role: 'Consults the witch of Endor on the night before his death' },
+    { slug: 'samuel', role: 'Returns from the dead with God’s final word' },
+  ],
   opener: {
     matchTitle: /Saul at the Witch/i,
     caption: '1 Samuel 28',

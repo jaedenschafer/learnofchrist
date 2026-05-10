@@ -17,6 +17,11 @@ export const SAMUEL_1_27: RichChapterContent = {
   chapter: 27,
 
   estimatedMinutes: { beginner: 6, intermediate: 11, deep: 14 },
+
+  characters: [
+    { slug: 'david', role: 'Takes refuge again in Philistine Gath' },
+    { slug: 'achish', role: 'Trusts David enough to give him Ziklag' },
+  ],
   topicTags: ['kingship', 'leadership', 'calling', 'providence'],
   opener: {
     topical: true,

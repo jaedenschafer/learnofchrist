@@ -19,6 +19,23 @@ export const ACTS_18: RichChapterContent = {
   chapter: 18,
 
   estimatedMinutes: { beginner: 8, intermediate: 14, deep: 19 },
+
+  characters: [
+    { slug: 'paul', role: 'Eighteen months in Corinth; first appearance before Gallio' },
+    { slug: 'aquila', role: 'Tentmaker who lodges with Paul' },
+    { slug: 'priscilla', role: 'Teaches Apollos "the way of God more perfectly"' },
+    { slug: 'apollos', role: 'The eloquent Alexandrian who arrives knowing only John’s baptism' },
+  ],
+
+  map: {
+    preset: 'mediterranean',
+    places: [
+      { name: 'Corinth', x: 0.44, y: 0.43, kind: 'origin', note: 'Eighteen months of teaching' },
+      { name: 'Ephesus', x: 0.51, y: 0.45, kind: 'travel-to', note: 'Aquila and Priscilla settle here' },
+    ],
+    route: [0, 1],
+    caption: 'Paul leaves Corinth for Ephesus with Aquila and Priscilla, who stay to teach.',
+  },
   intros: [
     'Paul arrives in Corinth. The city is a crossroads of empire—wealthy, cosmopolitan, morally fractured. It is not a place where the gospel would naturally take root. But Paul comes not with rhetoric or silver, but with his hands. He learns tentmaking from Aquila and Priscilla, two Jewish believers he finds in the city. He works with them; he reasons in the synagogue on Sabbath. Opposition comes. The Jewish leaders reject him. But the Lord comes to Paul in a vision and says something that shapes the rest of his ministry: "I am with thee, and no man shall set on thee to hurt thee: for I have much people in this city." In the most unlikely place, God has a people.',
     'What unfolds is not a triumph of persuasion but a slow, faithful work of presence. Paul stays for eighteen months. A church grows. Meanwhile, an eloquent man named Apollos—burning with the Spirit, skilled in Scripture, but incomplete in his understanding—arrives in Ephesus. And it is a woman, Priscilla, alongside her husband Aquila, who draws him aside and teaches him more fully. The chapter shows us the shape of apostolic work: partnership, patient labor, the courage to stay when the message is rejected, and the humility to teach and be taught.',

@@ -15,6 +15,9 @@ export const GENESIS_37: RichChapterContent = {
   chapter: 37,
 
   estimatedMinutes: { beginner: 9, intermediate: 16, deep: 21 },
+
+  christIndexSummary:
+    'Joseph is the beloved son sent by his father to his brothers, who reject him, strip him of his coat, and sell him for silver — and through his suffering ends up saving his family from death. The pattern is the gospel before the gospel: the rejected son becomes the deliverer.',
   opener: {
     matchTitle: /Joseph Reveals His Dream/i,
     caption: 'Genesis 37',

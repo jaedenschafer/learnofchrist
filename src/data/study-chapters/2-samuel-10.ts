@@ -19,6 +19,11 @@ export const SAMUEL_2_10: RichChapterContent = {
   chapter: 10,
 
   estimatedMinutes: { beginner: 6, intermediate: 12, deep: 16 },
+
+  characters: [
+    { slug: 'david' },
+    { slug: 'joab', role: 'Splits the army between Aram and Ammon' },
+  ],
   opener: {
     matchTitle: /David Attacks the Ammonites/i,
     caption: '2 Samuel 10',

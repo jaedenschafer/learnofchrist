@@ -18,6 +18,23 @@ export const ACTS_14: RichChapterContent = {
   chapter: 14,
 
   estimatedMinutes: { beginner: 8, intermediate: 16, deep: 22 },
+
+  characters: [
+    { slug: 'paul', role: 'Stoned at Lystra and left for dead; rises and walks back into the city' },
+    { slug: 'barnabas' },
+  ],
+
+  map: {
+    preset: 'mediterranean',
+    places: [
+      { name: 'Iconium', x: 0.72, y: 0.5, kind: 'visit' },
+      { name: 'Lystra', x: 0.74, y: 0.5, kind: 'travel-to', note: 'Stoning and resurrection-walk' },
+      { name: 'Derbe', x: 0.76, y: 0.51, kind: 'visit' },
+      { name: 'Antioch (Syrian)', x: 0.85, y: 0.66, kind: 'origin', note: 'Returned to report' },
+    ],
+    route: [0, 1, 2, 3],
+    caption: 'The first journey’s return loop through Galatia, then back to Antioch.',
+  },
   opener: {
     matchTitle: /Paul and Barnabas at/i,
     caption: 'Acts 14',

@@ -22,6 +22,9 @@ export const REVELATION_21: RichChapterContent = {
   chapter: 21,
 
   estimatedMinutes: { beginner: 10, intermediate: 16, deep: 23 },
+
+  christIndexSummary:
+    'A new heaven and a new earth; the holy city coming down. God Himself wipes away every tear; death, sorrow, and pain are gone. The Lamb is the temple and the light. Genesis 1’s first creation finds its answer here — the Christ who spoke worlds into being now makes all things new.',
   intros: [
     'Revelation 21 is the climax of Scripture. The whole story of redemption—from the fall in Genesis 3 through the exile, the prophets&apos; longing, the incarnation, the cross, the resurrection, and the present outpouring of the Spirit—all of it moves toward this moment. John sees a new heaven and a new earth. He sees the holy city, new Jerusalem, coming down from God out of heaven like a bride adorned for her husband. He hears a loud voice: "Behold, the tabernacle of God is with men, and he will dwell with them, and they shall be his people, and God himself shall be with them, and be their God." The great distance that opened between God and humanity in the garden is closed forever. No more temple, because the whole city is the presence of God. No sun, no moon, because the Lamb is the light.',
     'This is not escape into an ethereal, disembodied future. It is the healing of the world—a redeemed earth, a renewed cosmos, the kingdom of God made visible. The architecture is specific: twelve gates inscribed with the names of the twelve tribes, twelve foundations bearing the names of the twelve apostles, a city foursquare, pure gold like clear glass, with a wall of jasper and a street of gold. This is a building. This is a place. And the greatest detail: "they which are written in the Lamb&apos;s book of life" will dwell there. Your name written in that book is your security for eternity, your citizenship in the city of God.',

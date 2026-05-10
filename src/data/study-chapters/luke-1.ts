@@ -17,6 +17,9 @@ export const LUKE_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+
+  christIndexSummary:
+    'Two wombs once closed are opened — Elizabeth’s and Mary’s — and the songs that follow (Mary’s Magnificat, Zacharias’s Benedictus) name the long-promised Christ as already arriving. Mary echoes Hannah; the Forerunner leaps in his mother’s belly. The whole Old Testament’s opening-the-barren-womb pattern crests in this one chapter.',
   opener: {
     matchTitle: /The Annunciation/i,
     caption: 'Luke 1',

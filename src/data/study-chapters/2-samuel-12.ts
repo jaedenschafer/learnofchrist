@@ -19,6 +19,12 @@ export const SAMUEL_2_12: RichChapterContent = {
   chapter: 12,
 
   estimatedMinutes: { beginner: 9, intermediate: 15, deep: 19 },
+
+  characters: [
+    { slug: 'nathan', role: 'Brings the parable of the poor man’s lamb: "Thou art the man."' },
+    { slug: 'david', role: 'Confesses, "I have sinned against the Lord."' },
+    { slug: 'bathsheba', role: 'Becomes the mother of Solomon' },
+  ],
   opener: {
     matchTitle: /Nathan/i,
     caption: '2 Samuel 12',

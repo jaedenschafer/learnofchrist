@@ -18,6 +18,11 @@ export const ACTS_7: RichChapterContent = {
   chapter: 7,
 
   estimatedMinutes: { beginner: 11, intermediate: 17, deep: 22 },
+
+  characters: [
+    { slug: 'stephen', role: 'Preaches the long sermon; sees Jesus standing at God’s right hand' },
+    { slug: 'paul', role: 'Standing nearby, holding the coats of the men who stoned him' },
+  ],
   opener: {
     matchTitle: /The Stoning of Stephen/i,
     caption: 'Acts 7',

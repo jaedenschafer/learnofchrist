@@ -15,6 +15,9 @@ export const ROMANS_5: RichChapterContent = {
   chapter: 5,
 
   estimatedMinutes: { beginner: 8, intermediate: 14, deep: 20 },
+
+  christIndexSummary:
+    'The two Adams. By one man’s disobedience death entered the world; by one Man’s obedience grace abounds to many. Romans 5 is the architecture of the gospel — Christ as the head of a new humanity, undoing in every way what Adam did, with grace pouring further than the wreckage.',
   opener: {
     matchTitle: /Hope/i,
     caption: 'Romans 5',

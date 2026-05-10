@@ -16,6 +16,10 @@ export const SAMUEL_2_5: RichChapterContent = {
   chapter: 5,
 
   estimatedMinutes: { beginner: 6, intermediate: 14, deep: 18 },
+
+  characters: [
+    { slug: 'david', role: 'Anointed king over all Israel; takes Jerusalem from the Jebusites' },
+  ],
   topicTags: ['kingship', 'repentance', 'leadership', 'covenant'],
   opener: {
     topical: true,

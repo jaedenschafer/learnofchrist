@@ -25,6 +25,9 @@ export const ACTS_16: RichChapterContent = {
 
   estimatedMinutes: { beginner: 7, intermediate: 18, deep: 23 },
 
+  christIndexSummary:
+    'Three conversions in one chapter — wealthy Lydia, an enslaved girl, and a Roman jailer — name the gospel’s reach across class and gender and power. At midnight Paul and Silas sing in chains; an earthquake breaks the prison; a man asks "what must I do to be saved?" and a household is baptized before dawn. The Christ of Acts 16 is the Lord of every layer of the empire.',
+
   characters: [
     { slug: 'paul', role: 'Apostle on his second missionary journey' },
     { slug: 'silas', role: 'Paul’s partner; sang hymns at midnight in jail' },

@@ -2119,19 +2119,25 @@ html[data-reader-theme="dark"] .page-container .pill.bg-\[\#5856D6\]\/\[0\.08\] 
    ───────────────────────────────────────────── */
 
 /* Thin progress bar — sits directly under the floating nav pill, matching
-   the pill's width. Used to be a full-width bar at top: 48px that the nav
-   visually sat on top of; now it lines up with the pill's horizontal
-   extent so it reads as the pill's underline. */
+   the pill's width. The nav pill itself is centered with max-width: 1280px
+   inside its sticky wrapper's clamp() outer gutters; this rail mirrors
+   that geometry exactly so on wide viewports it reads as the pill's own
+   underline rather than as an edge-to-edge browser indicator. */
 .chapter-progress {
   position: fixed;
   /* Nav pill: top = clamp(0.5rem, 1vw, 1rem), height = 56px. Sit a few
      pixels below it so the bar is clearly *attached* to the pill rather
      than crashing into its frosted edge. */
   top: calc(clamp(0.5rem, 1vw, 1rem) + 56px + 4px);
-  /* Match the nav's outer gutters so the progress bar's edges align with
-     the pill's edges. */
-  left: clamp(0.75rem, 2vw, 1.5rem);
-  right: clamp(0.75rem, 2vw, 1.5rem);
+  /* Center horizontally and cap at the nav pill's max-width so the rail
+     ends exactly where the pill ends on wide viewports. The width
+     subtracts the .site-nav outer gutter on each side so on narrow
+     viewports (where the pill fills the space minus the gutter) the rail
+     still tracks the pill's edges. */
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100vw - 2 * clamp(0.75rem, 2vw, 1.5rem));
+  max-width: 1280px;
   height: 3px;
   background: rgba(0, 0, 0, 0.06);
   border-radius: 999px;

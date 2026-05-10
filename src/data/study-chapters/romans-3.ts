@@ -15,6 +15,9 @@ export const ROMANS_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 7, intermediate: 15, deep: 20 },
+
+  christIndexSummary:
+    'Paul names the bottom of the human story ("there is none righteous, no, not one") and then names Christ as the answer: a propitiation through faith in His blood, set forth by God to declare His righteousness for the remission of sins. The cross is what makes God both just AND the justifier of those who believe in Jesus.',
   topicTags: ['mercy', 'faithfulness', 'hope', 'righteousness'],
   opener: {
     topical: true,

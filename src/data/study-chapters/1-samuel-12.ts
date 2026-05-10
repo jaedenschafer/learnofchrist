@@ -21,6 +21,11 @@ export const SAMUEL_1_12: RichChapterContent = {
   chapter: 12,
 
   estimatedMinutes: { beginner: 7, intermediate: 13, deep: 17 },
+
+  characters: [
+    { slug: 'samuel', role: 'Delivers his farewell address as judge over Israel' },
+    { slug: 'saul' },
+  ],
   topicTags: ['kingship', 'leadership', 'calling', 'providence'],
   opener: {
     topical: true,

@@ -24,6 +24,22 @@ export const ACTS_13: RichChapterContent = {
   chapter: 13,
 
   estimatedMinutes: { beginner: 9, intermediate: 14, deep: 17 },
+
+  characters: [
+    { slug: 'paul', role: 'Set apart with Barnabas; first missionary journey begins' },
+    { slug: 'barnabas', role: 'Sent out with Paul by the Antioch church' },
+  ],
+
+  map: {
+    preset: 'mediterranean',
+    places: [
+      { name: 'Antioch (Syrian)', x: 0.85, y: 0.66, kind: 'origin', note: 'The sending church' },
+      { name: 'Cyprus', x: 0.79, y: 0.62, kind: 'visit', note: 'First stop; Paphos and the proconsul' },
+      { name: 'Pisidian Antioch', x: 0.71, y: 0.49, kind: 'travel-to', note: 'Paul’s long sermon in the synagogue' },
+    ],
+    route: [0, 1, 2],
+    caption: 'The first missionary journey begins — Antioch, Cyprus, and on into the highlands of Asia Minor.',
+  },
   opener: {
     matchTitle: /The Conversion of the/i,
     caption: 'Acts 13',

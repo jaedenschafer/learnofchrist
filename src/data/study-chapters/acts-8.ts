@@ -15,6 +15,22 @@ export const ACTS_8: RichChapterContent = {
   chapter: 8,
 
   estimatedMinutes: { beginner: 10, intermediate: 16, deep: 21 },
+
+  characters: [
+    { slug: 'philip-evangelist', role: 'Preaches in Samaria; baptizes the Ethiopian on the Gaza road' },
+    { slug: 'peter', role: 'Comes down with John to lay hands on the new Samaritan believers' },
+  ],
+
+  map: {
+    preset: 'judea',
+    places: [
+      { name: 'Jerusalem', x: 0.46, y: 0.4, kind: 'origin', note: 'Persecution scatters the believers' },
+      { name: 'Samaria', x: 0.42, y: 0.32, kind: 'travel-to', note: 'Philip preaches Christ to the Samaritans' },
+      { name: 'Gaza road', x: 0.3, y: 0.55, kind: 'visit', note: 'Philip meets the Ethiopian eunuch' },
+    ],
+    route: [0, 1, 2],
+    caption: 'The gospel spreads to Samaria, then south on the desert road to Gaza.',
+  },
   opener: {
     matchTitle: /The Conversion of the/i,
     caption: 'Acts 8',

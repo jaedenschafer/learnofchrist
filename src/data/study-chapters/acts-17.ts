@@ -20,6 +20,22 @@ export const ACTS_17: RichChapterContent = {
   chapter: 17,
 
   estimatedMinutes: { beginner: 9, intermediate: 13, deep: 17 },
+
+  characters: [
+    { slug: 'paul', role: 'Preaches at Thessalonica, Berea, and Athens' },
+    { slug: 'silas' },
+  ],
+
+  map: {
+    preset: 'mediterranean',
+    places: [
+      { name: 'Thessalonica', x: 0.43, y: 0.36, kind: 'visit', note: 'A church planted in three Sabbaths' },
+      { name: 'Berea', x: 0.42, y: 0.37, kind: 'visit', note: '"More noble" — searched the Scriptures daily' },
+      { name: 'Athens', x: 0.44, y: 0.42, kind: 'travel-to', note: 'The sermon at the Areopagus' },
+    ],
+    route: [0, 1, 2],
+    caption: 'Paul moves south through Greece, ending at the Areopagus in Athens.',
+  },
   opener: {
     matchTitle: /Paul Preaches at the/i,
     caption: 'Acts 17',

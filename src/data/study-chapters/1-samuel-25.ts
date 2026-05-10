@@ -19,6 +19,11 @@ export const SAMUEL_1_25: RichChapterContent = {
   chapter: 25,
 
   estimatedMinutes: { beginner: 10, intermediate: 19, deep: 23 },
+
+  characters: [
+    { slug: 'david', role: 'Restrained from murder by Abigail’s wisdom' },
+    { slug: 'abigail', role: 'Meets David on the road with two hundred loaves and a sermon' },
+  ],
   opener: {
     matchTitle: /David and Abigail/i,
     caption: '1 Samuel 25',

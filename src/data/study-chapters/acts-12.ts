@@ -17,6 +17,10 @@ export const ACTS_12: RichChapterContent = {
   chapter: 12,
 
   estimatedMinutes: { beginner: 6, intermediate: 14, deep: 20 },
+
+  characters: [
+    { slug: 'peter', role: 'Freed from Herod’s prison by an angel' },
+  ],
   opener: {
     matchTitle: /Saint Peter Freed by/i,
     caption: 'Acts 12',

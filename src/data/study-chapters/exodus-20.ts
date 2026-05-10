@@ -15,6 +15,9 @@ export const EXODUS_20: RichChapterContent = {
   chapter: 20,
 
   estimatedMinutes: { beginner: 9, intermediate: 14, deep: 20 },
+
+  christIndexSummary:
+    'The Ten Words come not as a means of becoming God’s people but as the shape of life inside that covenant. Christ keeps every command in our place and absorbs every penalty we earned by breaking them; He hands them back to us not as a ladder but as a description of the freedom His Spirit grows in us.',
   intros: [
     'Exodus 20 is the moment three million people stand at the base of a mountain wrapped in smoke and thunder, and hear the voice of God speak directly to them — not through a priest or prophet, but to all Israel at once. The Ten Commandments are the heart of God&apos;s covenant with His people. They are not arbitrary rules. They are the shape of a life lived in covenant friendship with God and with each other.',
     'What makes this chapter extraordinary is what happens after the words are spoken. The people are afraid. They ask Moses to stand between them and God. And instead of withdrawing in anger, God gives them the way forward — instructions on altars, on sacrifice, on how broken people stay in relationship with a holy God. The Decalogue without the altar is impossible. The altar without the Decalogue is empty. Together they show us why we need a mediator, and why that mediator would have to be more than human.',

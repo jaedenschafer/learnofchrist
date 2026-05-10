@@ -15,6 +15,9 @@ export const HEBREWS_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 11, intermediate: 17, deep: 24 },
+
+  christIndexSummary:
+    'God who spoke in many ways through the prophets has spoken to us in these last days by His Son — the brightness of His glory, the express image of His person, who upholds all things by the word of His power. After He purged our sins, He sat down at the right hand of the Majesty. Every line of Hebrews 1 is naming Christ.',
   intros: [
     'The letter to the Hebrews was written to Jewish believers wrestling with a devastating question: Was leaving the temple system a mistake? They had sacrificed everything—the priesthood their families knew, the rituals that anchored their identity, the geography of Jerusalem itself. Had they broken something sacred? The author answers by going deeper. The Son is not a rejection of those things. He is their fulfillment. He is what they were always about.',
     'Hebrews opens not with argument but with poetry—a hymn of Christ&apos;s supremacy that reads almost like a creed. God has spoken. In times past through the prophets, fragment by fragment, image by image. But now, in these last days, He has spoken through His Son. Not more words, but the Word made flesh. The brightness of God&apos;s own glory. The exact imprint of His person. The heir of all things. The sustainer of all things. Seated at the highest place of power. This is who the church confessed when they left the temple.',

@@ -15,6 +15,9 @@ export const GENESIS_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 10, intermediate: 15, deep: 22 },
+
+  christIndexSummary:
+    'The garden is the first sanctuary, and Adam — placed in it to "dress and keep" — is the first priest. Christ is the second Adam who succeeds where the first falls, the bridegroom whose side is opened so the bride may come forth. The river that flowed out of Eden anticipates the river of life that flows out of the Lamb.',
   opener: {
     matchTitle: /Adam and Eve in/i,
     caption: 'Genesis 2',

@@ -14,6 +14,10 @@ export const ACTS_5: RichChapterContent = {
   chapter: 5,
 
   estimatedMinutes: { beginner: 5, intermediate: 13, deep: 18 },
+
+  characters: [
+    { slug: 'peter', role: 'Confronts Ananias and Sapphira; freed from prison by an angel' },
+  ],
   opener: {
     matchTitle: /The Death of Ananias/i,
     caption: 'Acts 5',

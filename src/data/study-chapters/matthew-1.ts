@@ -18,6 +18,9 @@ export const MATTHEW_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+
+  christIndexSummary:
+    'Matthew opens by naming Jesus "the son of David, the son of Abraham" — gathering up the two great covenants of the Old Testament into one Person. The genealogy is uneven and includes scandal (Tamar, Rahab, Bathsheba) — a careful argument that this Christ comes for a broken history, not a clean one.',
   opener: {
     matchTitle: /The Inspiration of Saint/i,
     caption: 'Matthew 1',

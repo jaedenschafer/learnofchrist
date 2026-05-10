@@ -20,6 +20,12 @@ export const SAMUEL_1_22: RichChapterContent = {
   chapter: 22,
 
   estimatedMinutes: { beginner: 6, intermediate: 12, deep: 15 },
+
+  characters: [
+    { slug: 'david', role: 'Gathers four hundred outcasts at the cave of Adullam' },
+    { slug: 'ahimelech', role: 'Massacred with the priests of Nob at Saul’s order' },
+    { slug: 'saul', role: 'Slaughters a town for sheltering David' },
+  ],
   topicTags: ['kingship', 'leadership', 'calling', 'providence'],
   opener: {
     topical: true,

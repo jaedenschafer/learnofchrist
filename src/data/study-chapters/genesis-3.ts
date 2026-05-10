@@ -14,6 +14,9 @@ export const GENESIS_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 10, intermediate: 14, deep: 19 },
+
+  christIndexSummary:
+    'Christ is the seed of the woman promised in 3:15 — the first hint of the gospel in Scripture. The serpent strikes His heel at the cross; He crushes its head. The skins God makes to cover Adam and Eve are the first death after the fall, a substitute slain so the guilty might be clothed — a foreshadow of the Lamb who clothes us in righteousness.',
   opener: {
     matchTitle: /Temptation of Eve by/i,
     caption: 'Genesis 3',

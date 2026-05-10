@@ -18,6 +18,9 @@ export const GENESIS_22: RichChapterContent = {
   chapter: 22,
 
   estimatedMinutes: { beginner: 9, intermediate: 15, deep: 20 },
+
+  christIndexSummary:
+    'Abraham binds his only son, the son he loves, on a hill in the land of Moriah and lifts the knife. The ram caught in the thicket dies in Isaac’s place. Two thousand years later, on the same range of hills, the Father did not spare His own Son but delivered Him up for us all. Genesis 22 is the Old Testament’s clearest picture of the cross.',
   opener: {
     matchTitle: /Isaac Bears the Wood/i,
     caption: 'Genesis 22',

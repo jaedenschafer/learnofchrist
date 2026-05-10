@@ -14,6 +14,9 @@ export const ROMANS_8: RichChapterContent = {
   chapter: 8,
 
   estimatedMinutes: { beginner: 9, intermediate: 19, deep: 25 },
+
+  christIndexSummary:
+    'No condemnation in Christ Jesus. The Spirit of life has freed us from the law of sin and death. We are co-heirs with Christ, and nothing in all creation can separate us from His love. Romans 8 is the most concentrated paragraph of Christ-centered comfort in the New Testament.',
   opener: {
     matchTitle: /Martydom of Saint Sebastian/i,
     caption: 'Romans 8',

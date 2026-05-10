@@ -15,6 +15,11 @@ export const ACTS_6: RichChapterContent = {
   chapter: 6,
 
   estimatedMinutes: { beginner: 6, intermediate: 11, deep: 16 },
+
+  characters: [
+    { slug: 'stephen', role: 'One of the seven; full of faith and power, does great wonders' },
+    { slug: 'philip-evangelist', role: 'Chosen with Stephen as one of the seven deacons' },
+  ],
   opener: {
     matchTitle: /The Martyrdom of Saint/i,
     caption: 'Acts 6',

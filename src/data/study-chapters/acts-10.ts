@@ -20,6 +20,21 @@ export const ACTS_10: RichChapterContent = {
   chapter: 10,
 
   estimatedMinutes: { beginner: 8, intermediate: 17, deep: 22 },
+
+  characters: [
+    { slug: 'peter', role: 'The vision of unclean animals; the gospel opens to Gentiles' },
+    { slug: 'cornelius', role: 'God-fearing Roman centurion at Caesarea' },
+  ],
+
+  map: {
+    preset: 'judea',
+    places: [
+      { name: 'Joppa', x: 0.32, y: 0.42, kind: 'origin', note: 'Peter’s rooftop vision' },
+      { name: 'Caesarea', x: 0.32, y: 0.3, kind: 'travel-to', note: 'Cornelius’s household believes' },
+    ],
+    route: [0, 1],
+    caption: 'Peter is summoned from Joppa up the coast to Caesarea, and the door opens to the Gentiles.',
+  },
   opener: {
     matchTitle: /What God Has Cleansed/i,
     caption: 'Acts 10',

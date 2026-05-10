@@ -17,6 +17,9 @@ export const PSALMS_22: RichChapterContent = {
   chapter: 22,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+
+  christIndexSummary:
+    'The psalm Jesus quoted from the cross — "my God, my God, why hast thou forsaken me?" Every line moves from the suffering of the rejected one to the worship of the nations. By the end, "all the ends of the earth shall remember and turn unto the Lord," and the resurrection has rewritten the lament.',
   opener: {
     matchTitle: /David the Psalmist Petition/i,
     caption: 'Psalms 22',

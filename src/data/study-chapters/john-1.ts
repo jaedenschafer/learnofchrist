@@ -16,6 +16,9 @@ export const JOHN_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 3, intermediate: 7, deep: 10 },
+
+  christIndexSummary:
+    'John deliberately rewrites Genesis 1: "in the beginning was the Word, and the Word was with God, and the Word was God… all things were made by him." Then in one verse the universe shifts: "and the Word was made flesh, and dwelt among us." The Christ Connection in John 1 is that John IS the Christ Connection — every line names Him.',
   opener: {
     matchTitle: /Nathaniel Under the Fig/i,
     caption: 'John 1',

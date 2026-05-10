@@ -14,6 +14,9 @@ export const REVELATION_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 6 },
+
+  christIndexSummary:
+    'John on Patmos sees the risen Christ as the One who walks among the lampstands — eyes like flame, voice like many waters, holding the keys of death and hell. "Fear not; I am the first and the last." The whole apocalypse opens not with the future but with the living Lord who already has every key.',
   opener: {
     matchTitle: /The Vision of the/i,
     caption: 'Revelation 1',

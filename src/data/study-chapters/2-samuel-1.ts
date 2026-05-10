@@ -16,6 +16,10 @@ export const SAMUEL_2_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 7, intermediate: 12, deep: 16 },
+
+  characters: [
+    { slug: 'david', role: 'Mourns Saul and Jonathan with the song of the bow' },
+  ],
   topicTags: ['kingship', 'repentance', 'leadership', 'covenant'],
   opener: {
     topical: true,

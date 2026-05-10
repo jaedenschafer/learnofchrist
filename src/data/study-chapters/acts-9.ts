@@ -20,6 +20,9 @@ export const ACTS_9: RichChapterContent = {
 
   estimatedMinutes: { beginner: 10, intermediate: 20, deep: 26 },
 
+  christIndexSummary:
+    'The risen Christ stops His most violent enemy on the road to Damascus and turns him into His apostle. The Christ Connection of Acts 9 is that no one is too far from the kingdom — Saul’s conversion is the proof that grace can reach the man holding the coats at a martyr’s stoning, and remake him into a brother to those he was hunting.',
+
   characters: [
     { slug: 'paul', role: 'The persecutor met by the risen Christ' },
     { slug: 'peter', role: 'Healing through Lydda and Joppa' },

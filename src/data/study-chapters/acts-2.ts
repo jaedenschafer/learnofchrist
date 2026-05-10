@@ -16,6 +16,25 @@ export const ACTS_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 8, intermediate: 16, deep: 21 },
+
+  christIndexSummary:
+    'Pentecost is the Spirit poured out by the risen Christ. The wind, the fire, the languages — all of them say one thing: the same Jesus who was crucified is now Lord, and His kingdom has begun spreading to every nation. Peter’s sermon is the first announcement of the gospel from the other side of the empty tomb.',
+
+  characters: [
+    { slug: 'peter', role: 'Stands and preaches the first Christian sermon' },
+  ],
+
+  map: {
+    preset: 'mediterranean',
+    places: [
+      { name: 'Jerusalem', x: 0.61, y: 0.55, kind: 'origin', note: 'Pentecost — the Spirit poured out' },
+      { name: 'Parthia', x: 0.85, y: 0.45, kind: 'visit', note: 'Pilgrims from the East' },
+      { name: 'Egypt', x: 0.55, y: 0.78, kind: 'visit', note: 'Among the nations gathered' },
+      { name: 'Rome', x: 0.32, y: 0.42, kind: 'visit', note: '"Strangers of Rome" hear in their own tongue' },
+      { name: 'Asia Minor', x: 0.55, y: 0.42, kind: 'visit', note: 'Phrygia, Pamphylia, Cappadocia, Pontus' },
+    ],
+    caption: 'Pentecost: pilgrims from across the Roman world hear the gospel each in his own language.',
+  },
   opener: {
     matchTitle: /The Outpouring of the/i,
     caption: 'Acts 2',

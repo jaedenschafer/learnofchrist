@@ -16,6 +16,9 @@ export const ISAIAH_53: RichChapterContent = {
   chapter: 53,
 
   estimatedMinutes: { beginner: 4, intermediate: 7, deep: 11 },
+
+  christIndexSummary:
+    'The most explicit prophecy of the cross in the Old Testament. He was wounded for our transgressions, bruised for our iniquities; with His stripes we are healed. The chastisement of our peace was upon Him. Philip used this very chapter to preach Jesus to the Ethiopian eunuch on the Gaza road. Every line is fulfilled at Calvary.',
   opener: {
     matchTitle: /Small Passion Title Page/i,
     caption: 'Isaiah 53',

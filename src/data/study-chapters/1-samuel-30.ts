@@ -19,6 +19,10 @@ export const SAMUEL_1_30: RichChapterContent = {
   chapter: 30,
 
   estimatedMinutes: { beginner: 7, intermediate: 13, deep: 16 },
+
+  characters: [
+    { slug: 'david', role: 'Recovers all from the Amalekite raiders at Ziklag' },
+  ],
   topicTags: ['kingship', 'leadership', 'calling', 'providence'],
   opener: {
     topical: true,

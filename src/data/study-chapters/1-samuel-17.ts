@@ -16,6 +16,9 @@ export const SAMUEL_1_17: RichChapterContent = {
   chapter: 17,
 
   estimatedMinutes: { beginner: 12, intermediate: 23, deep: 27 },
+
+  christIndexSummary:
+    'David refuses Saul’s armor and walks into the valley with five smooth stones and the name of the Lord of hosts. The greater David walked into a darker valley with no weapons at all and won by what looked like weakness. Goliath is every taunting voice that has ever tried to silence God’s people; Christ has answered him at the cross.',
   opener: {
     matchTitle: /David Overcomes Goliath/i,
     caption: '1 Samuel 17',

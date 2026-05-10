@@ -20,6 +20,9 @@ export const NUMBERS_21: RichChapterContent = {
   chapter: 21,
 
   estimatedMinutes: { beginner: 6, intermediate: 11, deep: 14 },
+
+  christIndexSummary:
+    'The bronze serpent on a pole — those who looked at it lived. Jesus claims it for Himself in John 3: "as Moses lifted up the serpent in the wilderness, even so must the Son of man be lifted up." The cross is the strange medicine where the curse is borne so the bitten are healed.',
   intros: [
     'Numbers 21 opens with a battle: King Arad attacks Israel from the south, and Israel vows a vow to the Lord. If He will deliver these people into their hand, they will utterly destroy their cities. God delivers. Israel keeps the vow and destroys the Canaanite cities (and names the place Hormah, "destruction").',
     'Then the people grumble. They are tired of the wilderness. They are tired of the manna. "Wherefore have ye brought us up out of Egypt to die in the wilderness? for there is no bread, neither is there any water; and our soul loatheth this light bread." This light bread — this is manna, the very miracle God has given them every day for forty years. But when you take miracles for granted long enough, gratitude curdles into contempt.',

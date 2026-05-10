@@ -10,6 +10,16 @@ export const SAMUEL_1_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 9, intermediate: 16, deep: 18 },
+
+  christIndexSummary:
+    'Hannah’s song — "the bows of the mighty men are broken, and they that stumbled are girded with strength… he raiseth up the poor out of the dust" — is the Magnificat before Mary sings it. The Christ Connection of 1 Samuel 2 is that the gospel always upends the expected order: the lowly lifted, the proud scattered.',
+
+  characters: [
+    { slug: 'hannah', role: 'Sings the prayer that Mary will echo' },
+    { slug: 'samuel', role: 'The boy ministering before the Lord' },
+    { slug: 'eli' },
+    { slug: 'eli-sons' },
+  ],
   intros: [
     'Hannah has given birth to Samuel after years of barrenness and prayer. Her joy overflows in a song of divine reversal — the hungry filled, the weak strong, the lowly lifted up. But amid this rejoicing, the chapter shows the priesthood itself corrupting from within. Eli&apos;s sons treat the offering as a theft opportunity, and Eli, though he speaks against them, fails to act decisively. Into this gap where leadership crumbles, the child Samuel grows, favored by God and by the people. And the promise comes: though one priestly house falls, a faithful priest will arise, one who will act as God&apos;s heart intends.',
   ],

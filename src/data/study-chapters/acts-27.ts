@@ -25,6 +25,21 @@ export const ACTS_27: RichChapterContent = {
   chapter: 27,
 
   estimatedMinutes: { beginner: 7, intermediate: 14, deep: 20 },
+
+  characters: [
+    { slug: 'paul', role: 'Voyage to Rome; shipwrecked at Malta' },
+  ],
+
+  map: {
+    preset: 'mediterranean',
+    places: [
+      { name: 'Caesarea', x: 0.64, y: 0.55, kind: 'origin', note: 'Departure under guard' },
+      { name: 'Crete', x: 0.55, y: 0.48, kind: 'visit', note: 'Fair Havens; the unheeded warning' },
+      { name: 'Malta', x: 0.39, y: 0.5, kind: 'travel-to', note: 'Shipwreck — all 276 saved' },
+    ],
+    route: [0, 1, 2],
+    caption: 'The voyage that should have ended in Italy lands first on Malta after a fourteen-day storm.',
+  },
   opener: {
     matchTitle: /St Paul overcoming the/i,
     caption: 'Acts 27',

@@ -15,6 +15,15 @@ export const SAMUEL_1_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 8, intermediate: 15, deep: 19 },
+
+  christIndexSummary:
+    'Hannah is the first in a long line of barren women to whom God gives a son for the sake of His unfolding plan — Sarah, Rebekah, Rachel, Hannah, Elizabeth, and finally the virgin Mary. Samuel is the answer to a single woman’s prayer; Jesus is the answer to a whole creation’s.',
+
+  characters: [
+    { slug: 'hannah', role: 'The barren woman whose prayer turns Israel’s page' },
+    { slug: 'elkanah', role: 'Hannah’s husband; loved her in her grief' },
+    { slug: 'eli', role: 'High priest at Shiloh; mistakes her silent prayer for drunkenness' },
+  ],
   intros: [
     'The book of Samuel marks a turning point in Israel\'s story — a shift from the chaotic era of judges to the age of kings and prophets. But it does not open with a battle or a coronation. It opens with Hannah, a barren woman, weeping in the house of the Lord. Her prayer — silent, unheard by the priest — will change the course of a nation. Samuel, the son she bears, will anoint Israel\'s kings and speak God\'s word with unbreakable authority. Before armies, before thrones, before everything that seems to make a nation great, there is a woman\'s prayer.',
     'In Hannah\'s story we meet a new name for God: "Lord of hosts" — YHWH Tzva\'ot, the God of armies. He is first revealed not in battle but to one suffering woman. And in Samuel we find the pattern that will echo through the New Testament: God answering the prayer of a woman for an impossible birth, a child dedicated back to Him, a life that belongs entirely to God. The line runs from Hannah to Mary, and both point to Jesus.',

@@ -19,6 +19,22 @@ export const ACTS_15: RichChapterContent = {
   chapter: 15,
 
   estimatedMinutes: { beginner: 10, intermediate: 15, deep: 20 },
+
+  characters: [
+    { slug: 'peter', role: 'Speaks first at the Jerusalem council' },
+    { slug: 'paul', role: 'Reports what God did among the Gentiles' },
+    { slug: 'barnabas', role: 'Splits with Paul over John Mark; sails for Cyprus' },
+  ],
+
+  map: {
+    preset: 'mediterranean',
+    places: [
+      { name: 'Antioch (Syrian)', x: 0.85, y: 0.66, kind: 'origin', note: 'The dispute begins here' },
+      { name: 'Jerusalem', x: 0.84, y: 0.71, kind: 'travel-to', note: 'The council that settles the Gentile question' },
+    ],
+    route: [0, 1],
+    caption: 'The Jerusalem council: the church meets to decide whether Gentiles must be circumcised.',
+  },
   topicTags: ['witness', 'mission', 'unity', 'spiritual-warfare'],
   opener: {
     topical: true,

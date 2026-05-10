@@ -18,6 +18,11 @@ export const SAMUEL_1_26: RichChapterContent = {
   chapter: 26,
 
   estimatedMinutes: { beginner: 9, intermediate: 16, deep: 18 },
+
+  characters: [
+    { slug: 'david', role: 'Spares Saul a second time at the hill of Hachilah' },
+    { slug: 'saul', role: 'Confesses, "I have played the fool, and have erred exceedingly."' },
+  ],
   topicTags: ['kingship', 'leadership', 'calling', 'providence'],
   opener: {
     topical: true,

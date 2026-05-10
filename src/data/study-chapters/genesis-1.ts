@@ -13,6 +13,9 @@ export const GENESIS_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 11, intermediate: 18, deep: 22 },
+
+  christIndexSummary:
+    'Christ is the Word who speaks creation into being. John opens his Gospel with the same three words Genesis opens with — "in the beginning" — and names the speaker: Jesus. Every "and God said" in this chapter is the voice of the Son. He is the light before the sun, the image humans are made after, and the rest the seventh day points to.',
   topicTags: ['creation', 'sovereignty', 'glory', 'incarnation'],
 
   // ─── Youth audience overrides ───
