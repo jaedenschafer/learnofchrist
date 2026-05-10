@@ -540,6 +540,10 @@ export const ACTS_2: RichChapterContent = {
           kind: 'carry',
           html:
             'You are not meant to follow Jesus alone. The early church shows us: the faith is lived in community, in shared meals, in shared resources, in daily prayer with others who believe. Who are the people God has called you to live in koinonia with? What would it mean to truly have life in common with them—to share your goods, your burdens, your joy, your faith?',
+          youthOverride: {
+            html:
+              'You are not built to follow Jesus alone. The first Christians ate together, learned together, prayed together every day. For you that probably looks smaller — three or four friends in a group chat that talks about real things, a small group on a Wednesday night, the friend you actually pray with after a hard week. You don\'t need a megachurch. You need two or three real ones. Who is yours? If you don\'t have them yet, ask God for them this week.',
+          },
         },
         {
           kind: 'reflection',

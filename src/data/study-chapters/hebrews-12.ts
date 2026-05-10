@@ -130,6 +130,10 @@ export const HEBREWS_12: RichChapterContent = {
           kind: 'carry',
           html:
             'What are you carrying right now that has nothing to do with the race? The grudge. The &ldquo;what if.&rdquo; The image you work so hard to maintain. The regret that keeps circling back. The sin you know is slowing you. None of these are permanent. You can lay them aside. Strip them off right now—not next week, not after one more lap. The race does not slow down for you to unpack.',
+          youthOverride: {
+            html:
+              'What are you carrying that has nothing to do with the race? The conversation you keep replaying. The comparison loop on social you swear you\'ll close. The version of yourself you\'re working overtime to project. The thing in your phone you know is slowing you down. None of it is permanent. You can put it down right now — not when school is over, not after this weekend, now. The race doesn\'t pause while you sort it out.',
+          },
         },
         {
           kind: 'reflection',

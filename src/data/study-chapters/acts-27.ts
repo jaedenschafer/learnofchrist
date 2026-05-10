@@ -80,6 +80,10 @@ export const ACTS_27: RichChapterContent = {
           kind: 'carry',
           html:
             'Paul is a prisoner being sent to stand trial. He has no control over the ship&apos;s course, no authority over the centurion, no guarantee of a fair hearing. Yet he is not paralyzed by fear. He is on his way to do what he was called to do—preach before Caesar. Whatever losses come, whatever delays or dangers, they are already part of God&apos;s plan. What journey are you on that feels like it is out of your control? What if the very lack of control is where God is most at work?',
+          youthOverride: {
+            html:
+              'Paul didn\'t pick the boat, the route, the captain, or the timing. He was a prisoner. You don\'t get to pick most of yours either — the family you were born into, the move, the school year that turned, the friend who left, the future your parents just rearranged. Paul did the thing he had control over: kept showing up as the person God called him to be. The places that look most out-of-your-hands are usually the places God is most clearly at work.',
+          },
         },
         {
           kind: 'reflection',
@@ -429,6 +433,10 @@ export const ACTS_27: RichChapterContent = {
           kind: 'carry',
           html:
             'You have had a meal offered to you in a moment of crisis. Perhaps someone brought food when the diagnosis came. Perhaps a friend sat down and shared a table with you when everything had fallen apart. Perhaps you have offered bread to someone else in their storm. That is what Paul is doing here. He is not pretending the storm will go away. He is saying: God has spoken. God will keep His word. And in the meantime, we eat together. We break bread. We give thanks. We are still alive. Paul&apos;s act turns the ship from a place of despair into a place of communion. That is the power of bread offered and blessed in the darkness.',
+          youthOverride: {
+            html:
+              'Somebody has shown up for you in a hard week. The friend who texted at the right moment. The one who sat with you on the floor and didn\'t try to fix anything. The youth leader who slid you a coffee without making a thing of it. That\'s what Paul is doing on this ship — he\'s not pretending the storm is over. He\'s saying: God has spoken; in the meantime, we eat. The next time you can be that for someone, be it. Bread in the dark is the gospel\'s oldest move.',
+          },
         },
         {
           kind: 'reflection',

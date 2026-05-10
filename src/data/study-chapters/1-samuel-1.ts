@@ -213,6 +213,10 @@ export const SAMUEL_1_1: RichChapterContent = {
           kind: 'carry',
           html:
             'You may be in a place where the thing you most want — a child, a marriage, a health, a calling, a reconciliation — is the one thing that remains closed to you. And you may have people around you who, knowingly or not, keep poking the wound. Elkanah loved Hannah, and it was not enough. But Elkanah kept bringing her to the house of the Lord. Some of the best love is simply bringing someone into the presence of God and letting Him do what we cannot.',
+          youthOverride: {
+            html:
+              'The thing you want most might be the one thing you don\'t have — the friend you keep losing, the family you wish was different, the body you wish worked, the future you can\'t picture, the relationship that keeps falling apart. And there\'s usually somebody around who, even if they love you, doesn\'t quite get it and keeps poking the bruise. Elkanah loved Hannah and it didn\'t fill the hole. But he kept bringing her to the temple. The best you can do for a friend in that kind of pain is just keep showing up beside them where God is.',
+          },
         },
         {
           kind: 'reflection',
