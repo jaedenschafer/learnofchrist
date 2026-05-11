@@ -6,6 +6,12 @@ export const FOURTH_MACCABEES_15: RichChapterContent = {
   chapter: 15,
 
   estimatedMinutes: { beginner: 5, intermediate: 8, deep: 11 },
+
+  youth: {
+    intros: [
+      "The seventh brother and the mother. The mother watches all seven sons die rather than apostatize, then chooses death herself.",
+    ],
+  },
   intros: [
     'The mother stands watching as all seven of her sons are brought to death one by one. She does not weep. She does not cry out. But her silence is not indifference—it is the sound of pious reason mastering the deepest natural passion, a mother&apos;s love for her children.',
     'In 4 Maccabees 15, the author reaches his philosophical climax. He has shown us six brothers conquered by faith. Now he turns to the one who birthed them all, the woman whose love for her children is stronger than the love of any creature on earth—and yet whose love for God is stronger still.',

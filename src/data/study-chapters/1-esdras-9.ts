@@ -27,6 +27,12 @@ export const FIRST_ESDRAS_9: RichChapterContent = {
   chapter: 9,
 
   estimatedMinutes: { beginner: 13, intermediate: 22, deep: 28 },
+
+  youth: {
+    intros: [
+      "Ezra discovers the people have intermarried with surrounding pagan nations. He calls them to repent. The book ends with Ezra reading the law publicly to the assembled people.",
+    ],
+  },
   intros: [
     'Word comes to Esdras that the returning exiles — priests, Levites, and laypeople — have done something his heart breaks to hear. Some have taken wives from the peoples of the land, and their families have brought with them worship of other gods. The holiness that was to set Israel apart has been compromised. The covenant that held them together is fractured.',
     'Esdras does not hide away to process his grief in private. He tears his garments, pulls out his hair, and sits in horror until the evening sacrifice. Then the people gather around him, themselves trembling. They are moved by his anguish. The question is unbearable: What now? Can the covenant be restored? But first, something harder must happen. The hard thing. The costly thing. The breaking of families in order to restore the people.',

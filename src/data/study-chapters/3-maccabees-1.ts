@@ -20,6 +20,12 @@ export const THIRD_MACCABEES_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 6, intermediate: 11, deep: 16 },
+
+  youth: {
+    intros: [
+      "Ptolemy IV of Egypt tries to enter the Most Holy Place in Jerusalem and is struck down by God. Foreign rulers don&apos;t get to invade God&apos;s house.",
+    ],
+  },
   intros: [
     'Ptolemy IV Philopator has just defeated Antiochus III at Raphia—a stunning victory that leaves Egypt the dominant power in the eastern Mediterranean. The king is drunk on conquest, secure in his own magnificence. To him, all cities and temples are now subject to Egypt, and all borders are his to cross.',
     'But the Jews of Jerusalem have a different King—an invisible one who dwells in the holy of holies, the most sacred space in their temple. When Ptolemy decides he will enter that inner sanctuary to "know what mysteries are hidden," he is not asking permission. He is declaring that even the mysteries of God are now his to claim.',

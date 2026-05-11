@@ -6,6 +6,12 @@ export const FOURTH_MACCABEES_13: RichChapterContent = {
   chapter: 13,
 
   estimatedMinutes: { beginner: 4, intermediate: 8, deep: 12 },
+
+  youth: {
+    intros: [
+      "The brothers, before dying, encourage one another to remain faithful. &ldquo;Brotherly love that fears God is mightier than any tyrant.&rdquo;",
+    ],
+  },
   topicTags: ['suffering', 'wisdom', 'faithfulness', 'integrity'],
   opener: {
     topical: true,

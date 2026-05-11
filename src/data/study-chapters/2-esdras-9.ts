@@ -17,6 +17,12 @@ export const SECOND_ESDRAS_9: RichChapterContent = {
   chapter: 9,
 
   estimatedMinutes: { beginner: 7, intermediate: 13, deep: 16 },
+
+  youth: {
+    intros: [
+      "Signs of the last age. Visit the field, eat only flowers, and Uriel will reveal more.",
+    ],
+  },
   intros: [
     'The angel Uriel draws Ezra deeper into the mysteries of the end times. The visions grow darker, stranger, more urgent. The signs multiply. Yet woven through every dark prophecy runs a thread of hope: those few who endure, who remain faithful when all else falls away, shall see the glory of the Most High.',
     'And then comes the call to prepare. Ezra must fast for seven days in a field of flowers, eating only what the earth yields. It is a strange preparation—not the usual fast of bread and water, but a fast that feeds him on beauty itself. Only so will he be ready to receive the final vision.',

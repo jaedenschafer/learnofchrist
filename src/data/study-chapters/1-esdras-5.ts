@@ -18,6 +18,12 @@ export const FIRST_ESDRAS_5: RichChapterContent = {
   chapter: 5,
 
   estimatedMinutes: { beginner: 8, intermediate: 13, deep: 18 },
+
+  youth: {
+    intros: [
+      "The exiles return to Jerusalem and start rebuilding the temple. The young people shout for joy; the older generation weeps remembering the first temple. Both sounds are mixed in the air.",
+    ],
+  },
   topicTags: ['return', 'worship', 'faithfulness', 'leadership'],
   opener: {
     topical: true,

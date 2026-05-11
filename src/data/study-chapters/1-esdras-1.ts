@@ -20,6 +20,12 @@ export const FIRST_ESDRAS_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 8, intermediate: 15, deep: 20 },
+
+  youth: {
+    intros: [
+      "Josiah keeps a great Passover and is then killed in battle by Pharaoh Necho. The post-exile community remembers Josiah&apos;s reform as a high water mark before the slide into Babylon.",
+    ],
+  },
   topicTags: ['return', 'worship', 'faithfulness', 'leadership'],
   opener: {
     topical: true,

@@ -23,6 +23,12 @@ export const ACTS_26: RichChapterContent = {
   chapter: 26,
 
   estimatedMinutes: { beginner: 9, intermediate: 19, deep: 25 },
+
+  youth: {
+    intros: [
+      "Paul defends his faith before King Agrippa. Tells the Damascus road story for the third time in Acts. Agrippa famously says: &ldquo;Almost thou persuadest me to be a Christian.&rdquo; Almost is not the same as. Don&apos;t let &ldquo;almost&rdquo; be your last word about Jesus.",
+    ],
+  },
   intros: [
     'Paul stands before Agrippa—a king, not a mob. A man educated in Scripture, not hostile to it. In this moment, Paul is allowed to extend his hand and speak. And he does not speak as a prisoner who is sorry or afraid. He speaks as a man who has been apprehended by the risen Christ and has lived thirty years in that grip.',
 

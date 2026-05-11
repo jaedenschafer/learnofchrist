@@ -6,6 +6,12 @@ export const SAMUEL_1_6: RichChapterContent = {
   chapter: 6,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 8 },
+
+  youth: {
+    intros: [
+      "After seven months of plague, the Philistines send the ark back on a new cart pulled by two cows. The ark returns to Israel. Even the cows know who their Maker is. Then 70 Israelites die for looking inside the ark — holiness isn&apos;t casual. The God who returns is still the God who must be approached on His terms.",
+    ],
+  },
   opener: {
     matchTitle: /The Ark Is Returned/i,
     caption: '1 Samuel 6',

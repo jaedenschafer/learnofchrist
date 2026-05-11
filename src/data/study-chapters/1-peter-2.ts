@@ -22,6 +22,12 @@ export const FIRST_PETER_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 10, intermediate: 18, deep: 26 },
+
+  youth: {
+    intros: [
+      "You are a chosen generation, a royal priesthood, a holy nation, His own special people. Christ left us an example, that we should follow His steps. He bore our sins in His own body on the tree.",
+    ],
+  },
   opener: {
     matchTitle: /The Disrobing of Christ/i,
     caption: '1 Peter 2',

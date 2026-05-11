@@ -15,6 +15,12 @@ export const SAMUEL_1_5: RichChapterContent = {
   chapter: 5,
 
   estimatedMinutes: { beginner: 5, intermediate: 8, deep: 10 },
+
+  youth: {
+    intros: [
+      "The Philistines capture the ark and put it in their temple beside their god Dagon. Dagon falls on his face before the ark twice, the second time with hands and head broken off. The Philistine cities erupt in tumors. The ark moves city to city, leaving plague behind. Don&apos;t treat what&apos;s holy as a trophy.",
+    ],
+  },
   intros: [
     "After Israel&apos;s defeat at Ebenezer, the Philistines have taken the ark of the covenant—the holiest object in Israel&apos;s worship, the place where the Lord is said to dwell between the cherubim. They bring it to Ashdod, into the house of Dagon, their grain and fish god, as a trophy of conquest. But possession of the ark is not spoil; it is plague. The false god cannot coexist with the true God. Dagon falls.",
     'What follows is a pattern the Old Testament returns to again and again: the God of Israel pursues His people through judgment, and even the nations around them are forced to acknowledge His power. The Philistines will learn, as Egypt learned at the plagues, that you cannot contain or control the Lord. And for the reader on this side of the cross, the picture deepens: Christ Himself will enter the strongholds of death and darkness—and the powers there will fall before Him just as surely as Dagon fell in his own house.',

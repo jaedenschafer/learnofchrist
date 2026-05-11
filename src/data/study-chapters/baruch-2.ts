@@ -13,6 +13,12 @@ export const BARUCH_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 8, intermediate: 11, deep: 15 },
+
+  youth: {
+    intros: [
+      "A long prayer of confession on behalf of the people. They acknowledge that exile is the just consequence of their disobedience.",
+    ],
+  },
   topicTags: ['exile', 'lament', 'hope', 'repentance'],
   opener: {
     topical: true,

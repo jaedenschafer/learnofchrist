@@ -5,6 +5,12 @@ export const FOURTH_MACCABEES_18: RichChapterContent = {
   bookName: '4 Maccabees',
   chapter: 18,
   estimatedMinutes: { beginner: 7, intermediate: 10, deep: 15 },
+
+  youth: {
+    intros: [
+      "The book ends with praise for the family. The mother&apos;s last words to her sons are recorded. Faith trained in God&apos;s Word survives even the worst tyrants.",
+    ],
+  },
   intros: [
     'The mother stands at the threshold of her own death. Her seven sons are gone. She does not weep but speaks—calling them back to the Scripture-recital their father gave them in childhood. The very words that shaped them then will sustain them now, and her, in the hour of final separation.',
     'In this closing chapter, the mother becomes the voice of faith itself, echoing Moses, Isaiah, David, and the ancient righteous. She shows that suffering is not new under the sun—it is the ancient path of the faithful, and it leads not to defeat but to the crown.',

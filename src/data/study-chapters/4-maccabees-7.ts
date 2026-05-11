@@ -10,6 +10,12 @@ export const FOURTH_MACCABEES_7: RichChapterContent = {
   chapter: 7,
 
   estimatedMinutes: { beginner: 7, intermediate: 11, deep: 15 },
+
+  youth: {
+    intros: [
+      "The book celebrates Eleazar&apos;s endurance: he showed that reason guided by faith can conquer suffering.",
+    ],
+  },
   intros: [
     'After the torture and flames, Eleazar is lifted from the instruments near death. But something in him remains unbroken. The guards see it—a man physically defeated yet spiritually unconquered.',
     'The author pauses the narrative to exalt him. Eleazar becomes not just a victim but a proof. For three hundred verses of argument about how reason masters passion, the author now points to a single flesh-and-blood human being and says: <em>Here. This is what it looks like.</em>',

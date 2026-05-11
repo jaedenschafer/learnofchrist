@@ -16,6 +16,12 @@ export const BARUCH_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 6, intermediate: 13, deep: 19 },
+
+  youth: {
+    intros: [
+      "Baruch — Jeremiah&apos;s scribe — sends a letter from Babylon back to Jerusalem after the exile. The community confesses their sins and asks for prayer.",
+    ],
+  },
   opener: {
     matchTitle: /Baruch/i,
     caption: 'Baruch 1',

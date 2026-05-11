@@ -21,6 +21,12 @@ export const PRAYER_OF_MANASSEH_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 6, intermediate: 12, deep: 14 },
+
+  youth: {
+    intros: [
+      "A short prayer attributed to King Manasseh — the worst king of Judah — after his repentance in Babylonian captivity. &ldquo;The God of them that repent…thou hast appointed repentance unto me, that am a sinner.&rdquo; If Manasseh can come back, you can.",
+    ],
+  },
   intros: [
     'When Manasseh ascended Judah&apos;s throne as a boy, he inherited a nation God had chosen. Within a few years, he erected altars to Baal and Asherah in the very temple his ancestor David had built. He consulted mediums and spiritists. He shed innocent blood. And his people followed him into the dark. For fifty-five years, Judah turned away. Then, in exile—bound in chains in a foreign land—something breaks in the king. He bows. He asks.',
     'This prayer gives words to his turning. It is the prayer of someone who has looked at himself and cannot excuse what he sees. Manasseh names his sins as numerous as the sands of the sea. He does not plead his rank or his former power. He simply cries out: You are the God of the repentant. Save me, the unworthy. And God answers. Manasseh is restored to his throne, humbled, and he spends his remaining years undoing the darkness he had made. His prayer is a door anyone who has wandered far can still walk through.',

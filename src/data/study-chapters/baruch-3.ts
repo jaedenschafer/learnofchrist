@@ -9,6 +9,12 @@ export const BARUCH_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 7, intermediate: 13, deep: 17 },
+
+  youth: {
+    intros: [
+      "A meditation on wisdom. Where can wisdom be found? Not in the great empires. God gave it to Israel in His law. &ldquo;He hath found out all the way of knowledge.&rdquo;",
+    ],
+  },
   intros: [
     'Baruch 3 is one of the most beautiful chapters in the apocrypha—a meditation on Wisdom, and on how God makes Himself known. The chapter begins as continued confession: the soul in anguish cries out to God, acknowledging why Israel suffers. But then it shifts into something deeper: a poetic search for Wisdom itself. Where is wisdom to be found? Not in Babylon, not in the giants of old, not with princes or the wealthy. Wisdom belongs to God alone.',
     'The chapter moves toward its climax with words that would echo through Christian tradition: "Afterward did he shew himself upon earth, and conversed with men" (3:37). For early Christians reading the apocrypha, this was a prophecy of the Word made flesh. Here, in a Hebrew meditation on Wisdom, they heard the echo of John 1:14. Wisdom is not a thing to be discovered through human effort. Wisdom is revealed when God Himself steps into history and speaks.',

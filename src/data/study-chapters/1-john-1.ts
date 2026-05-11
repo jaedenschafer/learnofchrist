@@ -17,6 +17,12 @@ export const FIRST_JOHN_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 6, intermediate: 10, deep: 14 },
+
+  youth: {
+    intros: [
+      "John writes about what he&apos;s seen and touched — the Word of life made visible. &ldquo;If we walk in the light, as he is in the light, we have fellowship one with another, and the blood of Jesus Christ his Son cleanseth us from all sin.&rdquo; And: &ldquo;If we confess our sins, he is faithful and just to forgive us our sins.&rdquo;",
+    ],
+  },
   intros: [
     'First John opens with the same three words Genesis and John&apos;s Gospel open with: "In the beginning." But John the Apostle is not speaking of creation. He is speaking of testimony. He has been there. He has seen. He has heard. He has touched. The Word of life—Jesus Christ—was made flesh, and John witnessed it. From this bedrock of eyewitness testimony, everything else in this epistle flows.',
     'The epistle then pivots to the nature of God: God is light. In Him dwells no darkness at all. This is not a poetic image. This is John&apos;s answer to a world drowning in deception and self-deception. To walk in light is to walk with God, to have true fellowship. Yet the light reveals. It exposes. It shows us ourselves as we truly are—sinners. How, then, do sinners stay in fellowship with a God who is pure light? By confession. Not by pretending to be sinless. Not by hiding. By naming sin, turning from it, and trusting in God&apos;s faithful, just forgiveness.',

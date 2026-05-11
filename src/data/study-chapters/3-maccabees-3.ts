@@ -16,6 +16,12 @@ export const THIRD_MACCABEES_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 6, intermediate: 10, deep: 13 },
+
+  youth: {
+    intros: [
+      "Furious at being humiliated, Ptolemy turns his rage on the Jewish community in Egypt. Persecution begins.",
+    ],
+  },
   intros: [
     'Ptolemy, now back in power but without God&apos;s blessing, turns his malice toward the Jewish people of Egypt. Suspicious of their loyalties and threatened by their distinct customs, he issues a wrathful decree: every Jew in his kingdom must be registered and enslaved — and ultimately eliminated.',
     'The decree is proclaimed throughout every district. Registration becomes the machinery of control; chains bind the innocent; false accusations precede execution. Yet even in darkness, the Jews cry out, and God watches.',

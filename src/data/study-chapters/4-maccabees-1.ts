@@ -21,6 +21,12 @@ export const FOURTH_MACCABEES_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 6, intermediate: 14, deep: 19 },
+
+  youth: {
+    intros: [
+      "The book&apos;s thesis: pious reason is master of the passions. Even pain and fear can be conquered by faith trained in God&apos;s law.",
+    ],
+  },
   topicTags: ['suffering', 'wisdom', 'faithfulness', 'integrity'],
   opener: {
     topical: true,

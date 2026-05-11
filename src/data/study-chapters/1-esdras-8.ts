@@ -21,6 +21,12 @@ export const FIRST_ESDRAS_8: RichChapterContent = {
   chapter: 8,
 
   estimatedMinutes: { beginner: 8, intermediate: 15, deep: 21 },
+
+  youth: {
+    intros: [
+      "Ezra arrives with another wave of exiles. The journey is dangerous; he proclaims a fast for protection because he&apos;d told the king he trusted God for safety.",
+    ],
+  },
   intros: [
     'After seventy years of exile, God has returned His people to their land. The Temple is rebuilt. But now, eighty years later, a second wave of returnees arrives under the leadership of Esdras—a scribe &quot;ready in the law of Moses.&quot; The king grants him full authority: whatever Esdras commands shall be done. He travels with royal favor, Temple treasures, and the mandate to teach God&apos;s commandments to Israel.',
     'Yet when Esdras arrives in Jerusalem, he encounters a wound deeper than broken walls. The priests and Levites have married women from pagan nations. The very people meant to guard the covenant have stepped outside it. In that moment, Esdras must choose: overlook the compromise, or confront the people with the pain of their unfaithfulness. He chooses the latter. His tears and his confession become a mirror for any reader who loves God&apos;s word—a call to grieve what God grieves, and to seek restoration with the whole heart.',

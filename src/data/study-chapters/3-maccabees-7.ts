@@ -22,6 +22,12 @@ export const THIRD_MACCABEES_7: RichChapterContent = {
   chapter: 7,
 
   estimatedMinutes: { beginner: 8, intermediate: 12, deep: 17 },
+
+  youth: {
+    intros: [
+      "The king reverses his policy and honors the Jews. They establish a feast to remember their deliverance. God protects His people from genocide once again.",
+    ],
+  },
   intros: [
     'From the brink of death, the Jews are saved. The king who plotted their destruction reverses his decree. His own heart was turned by the God he never served. The enslaved are freed, their goods restored, their rights re-established.',
     'In Jerusalem, they gather to celebrate. They establish a feast—not like other feasts, but a memorial feast, so that their children and their children&apos;s children will know: this is what the Lord has done.',

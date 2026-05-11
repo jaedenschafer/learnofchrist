@@ -21,6 +21,12 @@ export const FOURTH_MACCABEES_6: RichChapterContent = {
   chapter: 6,
 
   estimatedMinutes: { beginner: 8, intermediate: 12, deep: 18 },
+
+  youth: {
+    intros: [
+      "Eleazar is tortured and killed for refusing to eat unclean food. His final prayer: let my blood be a ransom for them, and take my life as a substitute for theirs.",
+    ],
+  },
   intros: [
     'Eleazar is ninety years old. He is a teacher of the Law, honored among the Jews. When the Syrian king&apos;s officers order him to eat pork and deny the Torah, Eleazar refuses. He will not save his life by breaking his covenant.',
     'What follows is the opening chapter of one of the most striking martyrdom accounts in Second Temple Jewish literature. Eleazar is stripped, bound, and whipped. The narrative unfolds his suffering not as tragedy but as testimony—each blow a voice speaking to God. His blood, the text will later say, becomes a ransom. For readers of the cross, the parallels are profound.',

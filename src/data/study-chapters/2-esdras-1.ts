@@ -20,6 +20,12 @@ export const SECOND_ESDRAS_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 10, intermediate: 18, deep: 23 },
+
+  youth: {
+    intros: [
+      "God&apos;s message to Ezra: Israel has rejected Him; He will turn to other nations. The opening chapter of an apocalyptic book that wrestles with God&apos;s justice.",
+    ],
+  },
   intros: [
     'God addresses His people through Ezra the scribe, and the words are stern. He had brought Israel out of Egypt with power, sustained them in the wilderness, given them prophets generation after generation. Yet they refused to listen. They despised the law He gave them. Now God announces a judgment that cuts deep: He will take His vineyard away from them and plant it with a people that will know Him.',
     'This is not the end of the story—the prophetic pattern always holds open a door for the remnant who repent. But it is a watershed moment: the moment when God turns from Israel in its unfaithfulness and opens His covenant to the nations. The chapter sets the stage for what 2 Esdras will wrestle with for the rest of its length: how does God govern a world that rejects Him? And where is justice? And where is hope?',

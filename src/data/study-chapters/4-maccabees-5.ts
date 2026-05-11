@@ -26,6 +26,12 @@ export const FOURTH_MACCABEES_5: RichChapterContent = {
   chapter: 5,
 
   estimatedMinutes: { beginner: 10, intermediate: 20, deep: 24 },
+
+  youth: {
+    intros: [
+      "Eleazar, an elderly priest, is brought before Antiochus. He&apos;s commanded to eat pork. He refuses, even when offered a way to fake compliance.",
+    ],
+  },
   intros: [
     'Eleazar is brought before King Antiochus—ninety years old, a teacher of the Law, honored among his people for his wisdom and piety. The king has already killed many Jews for refusing to eat unclean meat. Now he brings the priest before him, offering what seems like mercy: conform, and be spared. Refuse, and be tortured to death.',
     'To the crowd watching, the choice seems obvious. What is a dietary rule compared to your life? But Eleazar understands something deeper: that once you compromise the truth you have lived for, you have already lost the thing the king is offering to spare. You are no longer yourself. The body may survive, but the soul has been handed over.',

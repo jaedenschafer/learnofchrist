@@ -5,6 +5,12 @@ export const FOURTH_MACCABEES_10: RichChapterContent = {
   bookName: '4 Maccabees',
   chapter: 10,
   estimatedMinutes: { beginner: 3, intermediate: 5, deep: 8 },
+
+  youth: {
+    intros: [
+      "The second brother dies the same way.",
+    ],
+  },
   topicTags: ['suffering', 'wisdom', 'faithfulness', 'integrity'],
   opener: {
     topical: true,
