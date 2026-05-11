@@ -10,6 +10,13 @@ export const DEUTERONOMY_22: RichChapterContent = {
   chapter: 22,
 
   estimatedMinutes: { beginner: 8, intermediate: 12, deep: 15 },
+
+  youth: {
+    intros: [
+      "Mixed laws — return your neighbor&apos;s lost ox; build a parapet on your roof so no one falls; don&apos;t mix wool and linen; don&apos;t plow with an ox and donkey together. Then sexual ethics, and laws protecting women from false accusations.",
+      "The chapter is teaching something underneath the specifics: holiness reaches into ordinary life. The God who cares about your sex life ALSO cares about your roof safety. He cares about your everything.",
+    ],
+  },
   topicTags: ['covenant', 'faithfulness', 'leadership', 'love'],
   opener: {
     topical: true,

@@ -21,6 +21,13 @@ export const JOSHUA_20: RichChapterContent = {
   chapter: 20,
 
   estimatedMinutes: { beginner: 6, intermediate: 10, deep: 14 },
+
+  youth: {
+    intros: [
+      "Six cities of refuge are formally established — three on each side of the Jordan. Anyone who killed someone accidentally could flee there for protection until standing trial.",
+      "Christ is the city of refuge. There&apos;s no spot in the country where you&apos;re more than a day&apos;s journey from one. There&apos;s no moment in your life where He&apos;s out of reach. Run.",
+    ],
+  },
   topicTags: ['leadership', 'sovereignty', 'protection', 'faithfulness'],
   opener: {
     topical: true,

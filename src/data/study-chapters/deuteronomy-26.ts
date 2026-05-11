@@ -6,6 +6,13 @@ export const DEUTERONOMY_26: RichChapterContent = {
   chapter: 26,
 
   estimatedMinutes: { beginner: 7, intermediate: 12, deep: 17 },
+
+  youth: {
+    intros: [
+      "When Israel brings the first fruits of the harvest, they have to RECITE the story aloud: &ldquo;A Syrian ready to perish was my father…we were Egyptians&apos; slaves…the Lord brought us out…and now I bring the firstfruits.&rdquo;",
+      "Worship is rooted in remembered story. Don&apos;t bring God an offering without remembering why you have anything to offer. Tithe with the testimony in your mouth.",
+    ],
+  },
   topicTags: ['covenant', 'faithfulness', 'leadership', 'love'],
   opener: {
     topical: true,

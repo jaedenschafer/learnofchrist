@@ -15,6 +15,13 @@ export const JOSHUA_8: RichChapterContent = {
   chapter: 8,
 
   estimatedMinutes: { beginner: 10, intermediate: 16, deep: 20 },
+
+  youth: {
+    intros: [
+      "After Achan&apos;s sin is dealt with, Israel attacks Ai again. This time God gives them the city. Then Joshua builds an altar on Mount Ebal and reads the entire law to the assembled nation, including the strangers and women and children.",
+      "Don&apos;t skip the moment of public confession. After failure, the right move isn&apos;t to immediately try again — it&apos;s to deal with the sin, then return to God&apos;s Word, then move forward.",
+    ],
+  },
   opener: {
     matchTitle: /The Conquest of Ai/i,
     caption: 'Joshua 8',

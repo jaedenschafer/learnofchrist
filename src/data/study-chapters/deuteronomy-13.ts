@@ -12,6 +12,13 @@ export const DEUTERONOMY_13: RichChapterContent = {
   chapter: 13,
 
   estimatedMinutes: { beginner: 9, intermediate: 15, deep: 19 },
+
+  youth: {
+    intros: [
+      "How to handle a prophet, a friend, or a family member who tries to lead you toward false gods. Moses is unflinching: don&apos;t consent. Don&apos;t pity. Don&apos;t conceal them.",
+      "Some of the most dangerous voices in your spiritual life will come from people you love. Be loyal to God before you&apos;re loyal to anyone else. The moment a relationship demands that you compromise on Christ, the relationship has crossed a line.",
+    ],
+  },
   topicTags: ['covenant', 'faithfulness', 'leadership', 'love'],
   opener: {
     topical: true,

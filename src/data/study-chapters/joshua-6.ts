@@ -18,6 +18,13 @@ export const JOSHUA_6: RichChapterContent = {
   chapter: 6,
 
   estimatedMinutes: { beginner: 9, intermediate: 15, deep: 18 },
+
+  youth: {
+    intros: [
+      "March around Jericho once a day for six days. On the seventh day march around it seven times. Then blow trumpets and shout. The walls fall. That&apos;s the entire battle plan.",
+      "God&apos;s strategies often look ridiculous before they work. The thing He&apos;s asked you to do that doesn&apos;t make sense — march anyway. The walls in your life that have stood for years can fall on a single shout from the right army.",
+    ],
+  },
   intros: [
     'Joshua 6 is one of the strangest military campaigns in Scripture. Jericho is fortified, its gates shut tight, its king waiting. God gives Joshua a plan that sounds like no military strategy ever devised: march around the city once a day for six days, then on the seventh day march seven times, and when the priests blow their trumpets, shout. The walls will fall flat. Every man, woman, and child inside — except Rahab and her household — will be devoted to destruction.',
     'What makes this chapter unforgettable is not its military strangeness, but its theological gravity. Faith marches without seeing the result. Silence is sometimes the hardest obedience. A nation&apos;s whole future hangs on whether one young leader and twelve tribal leaders can get their people to move together as one body. And before the smoke clears, we meet a woman — a prostitute with faith sharper than a sword — who will carry the line of Christ.',

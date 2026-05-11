@@ -16,6 +16,13 @@ export const JOSHUA_19: RichChapterContent = {
   chapter: 19,
 
   estimatedMinutes: { beginner: 10, intermediate: 15, deep: 19 },
+
+  youth: {
+    intros: [
+      "The last six tribes get their inheritance. Even Joshua himself — at the end — gets his own city to live in (Timnath-serah). The leader who divided the land for everyone else gets his portion last.",
+      "Be the kind of leader who serves the team first and takes your portion last. Joshua spent decades getting other people their inheritance before settling into his own. Greatness is the last seat at the table by choice.",
+    ],
+  },
   topicTags: ['leadership', 'sovereignty', 'protection', 'faithfulness'],
   opener: {
     topical: true,

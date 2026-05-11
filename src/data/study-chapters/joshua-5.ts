@@ -10,6 +10,13 @@ export const JOSHUA_5: RichChapterContent = {
   chapter: 5,
 
   estimatedMinutes: { beginner: 6, intermediate: 10, deep: 12 },
+
+  youth: {
+    intros: [
+      "Before Israel attacks Jericho, God commands them to be circumcised. The whole nation. Then they keep the Passover. Then the manna stops — they eat the produce of the land for the first time. Then Joshua meets the Captain of the Lord&apos;s host outside Jericho with a drawn sword.",
+      "Joshua asks: &ldquo;Art thou for us, or for our adversaries?&rdquo; The Captain answers: &ldquo;Nay; but as captain of the host of the Lord am I now come.&rdquo; God doesn&apos;t pick sides. He IS the side. The question isn&apos;t whether He&apos;s on your team. It&apos;s whether you&apos;re on His.",
+    ],
+  },
   opener: {
     matchTitle: /Joshua and the Captain/i,
     caption: 'Joshua 5',

@@ -14,6 +14,13 @@ export const DEUTERONOMY_30: RichChapterContent = {
   chapter: 30,
 
   estimatedMinutes: { beginner: 7, intermediate: 11, deep: 15 },
+
+  youth: {
+    intros: [
+      "Even after the curses, even after exile, even at the end of every consequence — if Israel turns back, God will gather them. He&apos;ll circumcise their hearts. He&apos;ll bring them home.",
+      "&ldquo;I have set before you life and death, blessing and cursing: therefore choose life, that both thou and thy seed may live.&rdquo; The choice is real. The mercy on the other side of the wrong choice is also real. Choose now.",
+    ],
+  },
   topicTags: ['covenant', 'faithfulness', 'leadership', 'love'],
   opener: {
     topical: true,

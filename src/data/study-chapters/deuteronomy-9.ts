@@ -19,6 +19,13 @@ export const DEUTERONOMY_9: RichChapterContent = {
   chapter: 9,
 
   estimatedMinutes: { beginner: 10, intermediate: 16, deep: 22 },
+
+  youth: {
+    intros: [
+      "Moses warns the new generation: don&apos;t cross into the land thinking you earned this. You&apos;re going to dispossess these nations because of THEIR wickedness, not YOUR righteousness. He reminds them of the golden calf.",
+      "Don&apos;t arrive at any blessing in your life and decide you deserve it. The minute you start thinking you earned God&apos;s favor is the minute you&apos;ve forgotten what He saved you from.",
+    ],
+  },
   opener: {
     matchTitle: /The Golden Calf/i,
     caption: 'Deuteronomy 9',

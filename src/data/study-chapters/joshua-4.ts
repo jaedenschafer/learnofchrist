@@ -15,6 +15,13 @@ export const JOSHUA_4: RichChapterContent = {
   chapter: 4,
 
   estimatedMinutes: { beginner: 7, intermediate: 12, deep: 15 },
+
+  youth: {
+    intros: [
+      "After Israel crosses, God tells Joshua to have one man from each tribe pick up a stone from the riverbed. They build a memorial of twelve stones. &ldquo;That this may be a sign among you, that when your children ask their fathers in time to come…&rdquo;",
+      "Build memorials. Write things down. Take pictures. Make sure your kids and your friends know what God has done. Memory has to be passed on, or one generation forgets the river ever stopped.",
+    ],
+  },
   topicTags: ['leadership', 'sovereignty', 'protection', 'faithfulness'],
   opener: {
     topical: true,

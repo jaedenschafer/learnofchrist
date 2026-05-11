@@ -6,6 +6,13 @@ export const JOSHUA_21: RichChapterContent = {
   chapter: 21,
 
   estimatedMinutes: { beginner: 6, intermediate: 10, deep: 13 },
+
+  youth: {
+    intros: [
+      "The Levites — who own no land — get 48 cities scattered across all the tribes. The priests live everywhere. There&apos;s no part of Israel without a priest within walking distance.",
+      "God doesn&apos;t want His people gathered in one cluster while the rest of the country has no one teaching the Word. Be a Levite where He puts you. Bring God&apos;s presence into the neighborhood you didn&apos;t pick.",
+    ],
+  },
   intros: [
     'Joshua 21 tells the story of God&apos;s faithfulness to a tribe that had no inheritance of land. The Levites[res:sefaria-levites-scattered-priesthood][res:bibleodyssey-levite-cities] had been set apart as priests and worship leaders, but God did not forget them. He commanded that they be given 48 cities scattered across all twelve tribes — so that the worship of God and the priesthood would be woven throughout the entire nation. Not concentrated in one holy capital, but dispersed everywhere Israel lived.',
     'The chapter opens with the Levites coming to Eleazar the priest and Joshua with their request: "The Lord commanded by the hand of Moses to give us cities to dwell in, with the suburbs thereof for our cattle." They have no complaints. They trusted God&apos;s promise, and now they come to receive what was promised. The cities are distributed by lot among the four main families of Levites — the Kohathites (who served as priests), the Gershonites, the Merarites, and others. Forty-eight cities, each with pastureland for their flocks.',

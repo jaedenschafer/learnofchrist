@@ -14,6 +14,13 @@ export const DEUTERONOMY_11: RichChapterContent = {
   chapter: 11,
 
   estimatedMinutes: { beginner: 9, intermediate: 14, deep: 18 },
+
+  youth: {
+    intros: [
+      "&ldquo;You have seen with your own eyes&rdquo; — Moses&apos; constant refrain. This is a generation with EYEWITNESS testimony of God&apos;s deliverance. He&apos;s telling them: don&apos;t lose what you saw.",
+      "What you&apos;ve seen God do in your own life is your strongest defense against the next season&apos;s doubt. Write it down. Tell your kids. Don&apos;t let it fade.",
+    ],
+  },
   topicTags: ['covenant', 'faithfulness', 'leadership', 'love'],
   opener: {
     topical: true,

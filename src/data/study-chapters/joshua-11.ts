@@ -16,6 +16,13 @@ export const JOSHUA_11: RichChapterContent = {
   chapter: 11,
 
   estimatedMinutes: { beginner: 8, intermediate: 11, deep: 16 },
+
+  youth: {
+    intros: [
+      "Jabin king of Hazor forms a coalition of northern kings &ldquo;as the sand of the seashore in multitude&rdquo; to wipe Israel out. God tells Joshua: don&apos;t be afraid. Tomorrow they&apos;ll all be dead. Israel attacks at dawn and routs them.",
+      "When God says don&apos;t be afraid, the size of the threat doesn&apos;t matter. The enemy you&apos;re looking at is not bigger than the God who has already promised the outcome.",
+    ],
+  },
   intros: [
     'Joshua 11 is the turning point of Israel&apos;s conquest. After a series of southern victories, Jabin king of Hazor[res:iaa-hazor-conquest] learns the news and decides to take action. He forges a coalition of northern kings — "as the sand that is upon the sea shore in multitude, with horses and chariots very many" — a force so overwhelming that an ancient reader would have trembled. But God&apos;s first word to Joshua is the same one He spoke at the very beginning of the conquest: "Be not afraid."',
     'What follows is both a military account and a theological blueprint. Joshua refuses to adopt the war technology of the nations. The Anakim giants — the very ones who terrified the spies in Numbers 13 — are finally destroyed. And when the smoke clears, the land rests. For the first time in the book, there is peace.',

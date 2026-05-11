@@ -13,6 +13,13 @@ export const DEUTERONOMY_16: RichChapterContent = {
   chapter: 16,
 
   estimatedMinutes: { beginner: 9, intermediate: 13, deep: 17 },
+
+  youth: {
+    intros: [
+      "Three pilgrimage feasts each year — Passover, Pentecost, Tabernacles. Every able-bodied Israelite man comes to the central place of worship. The whole nation gathers to remember.",
+      "Then: &ldquo;Justice, justice shalt thou follow.&rdquo; (The Hebrew literally repeats the word.) Don&apos;t take bribes. Don&apos;t pervert judgment. The God you worship at the feasts is the same God watching how you treat the poor on Tuesday.",
+    ],
+  },
   topicTags: ['covenant', 'faithfulness', 'leadership', 'love'],
   opener: {
     topical: true,

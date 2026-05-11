@@ -15,6 +15,13 @@ export const JOSHUA_12: RichChapterContent = {
   chapter: 12,
 
   estimatedMinutes: { beginner: 4, intermediate: 9, deep: 13 },
+
+  youth: {
+    intros: [
+      "A list of 31 defeated kings — east of the Jordan under Moses, west under Joshua. Just an inventory. But every name is a battle that was won, a city that was taken, a piece of the promise made real.",
+      "God keeps records of victories you&apos;ve forgotten. The boring list in chapter 12 is a celebration. Your spiritual victories will be written down too. He&apos;s keeping count.",
+    ],
+  },
   opener: {
     matchTitle: /The Conquest of the/i,
     caption: 'Joshua 12',

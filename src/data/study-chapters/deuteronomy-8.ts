@@ -18,6 +18,13 @@ export const DEUTERONOMY_8: RichChapterContent = {
   chapter: 8,
 
   estimatedMinutes: { beginner: 7, intermediate: 12, deep: 16 },
+
+  youth: {
+    intros: [
+      "&ldquo;Man doth not live by bread only, but by every word that proceedeth out of the mouth of the Lord.&rdquo; The verse Jesus quoted in the wilderness when He was tempted to turn stones to bread.",
+      "Don&apos;t mistake comfort for the goal. The hunger God allowed in the wilderness was teaching Israel to depend on Him. The hunger you&apos;re feeling for something isn&apos;t random. He&apos;s teaching you to live on Him.",
+    ],
+  },
   topicTags: ['covenant', 'faithfulness', 'leadership', 'love'],
   opener: {
     topical: true,

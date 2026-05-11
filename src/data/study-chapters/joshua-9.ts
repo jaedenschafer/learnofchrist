@@ -16,6 +16,13 @@ export const JOSHUA_9: RichChapterContent = {
   chapter: 9,
 
   estimatedMinutes: { beginner: 8, intermediate: 11, deep: 15 },
+
+  youth: {
+    intros: [
+      "The Gibeonites — locals who SHOULD be wiped out — show up pretending to be from a far country with moldy bread and worn-out shoes. Israel makes a peace treaty with them without asking God. Three days later they realize they&apos;ve been tricked.",
+      "Israel keeps the treaty anyway because they swore by the Lord&apos;s name. Pray BEFORE you make the deal, not after. And when you&apos;ve given your word in God&apos;s name, keep it even when it costs.",
+    ],
+  },
   intros: [
     'Joshua 9 opens with a united front against Israel. All the kings west of Jordan — the Hittites, Amorites, Canaanites, Perizzites, Hivites, and Jebusites — gather "with one accord to fight." But before the battle lines form, one city — Gibeon — chooses a different path. The Gibeonites, aware of what God has done for Israel, do not fight. They scheme.',
     'Their deception is masterfully simple: old sacks, worn sandals, moldy bread, patched wineskins. A story crafted to convince Israel they have traveled from a far country. Joshua and the princes, looking at the evidence and hearing the tale, make a covenant without asking the Lord. The sin is not the oath itself — oaths matter deeply in Scripture. The sin is the silence before the oath: "They asked not counsel at the mouth of the Lord."',

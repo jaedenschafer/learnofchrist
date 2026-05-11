@@ -17,6 +17,13 @@ export const DEUTERONOMY_29: RichChapterContent = {
   chapter: 29,
 
   estimatedMinutes: { beginner: 7, intermediate: 13, deep: 17 },
+
+  youth: {
+    intros: [
+      "Moses gathers the whole nation — captains and wood-cutters, elders and children, men and women — for a final renewal of the covenant. Even the foreigner with them. Even the kids not yet born.",
+      "&ldquo;The secret things belong unto the Lord our God: but those things which are revealed belong unto us and to our children for ever, that we may do all the words of this law.&rdquo; You don&apos;t need to know everything. You need to do what&apos;s already been revealed.",
+    ],
+  },
   topicTags: ['covenant', 'faithfulness', 'leadership', 'love'],
   opener: {
     topical: true,

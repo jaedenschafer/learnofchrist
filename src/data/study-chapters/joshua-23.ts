@@ -12,6 +12,13 @@ export const JOSHUA_23: RichChapterContent = {
   chapter: 23,
 
   estimatedMinutes: { beginner: 7, intermediate: 11, deep: 16 },
+
+  youth: {
+    intros: [
+      "Joshua&apos;s farewell. He warns Israel: don&apos;t marry into the surrounding nations, don&apos;t worship their gods, don&apos;t mix with their cultures. Keep yourselves distinct.",
+      "Whatever you&apos;ve seen God do, the next generation can lose. Joshua knew it. The chapter is an old leader&apos;s desperate plea: don&apos;t blend in. The cost of compromise is everything God has given you.",
+    ],
+  },
   topicTags: ['leadership', 'sovereignty', 'protection', 'faithfulness'],
   opener: {
     topical: true,

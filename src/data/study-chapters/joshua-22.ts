@@ -13,6 +13,13 @@ export const JOSHUA_22: RichChapterContent = {
   chapter: 22,
 
   estimatedMinutes: { beginner: 8, intermediate: 14, deep: 18 },
+
+  youth: {
+    intros: [
+      "The eastern tribes — Reuben, Gad, half of Manasseh — go home after the conquest. They build a giant altar by the Jordan. The western tribes assume they&apos;re starting an alternative worship and almost go to war over it. They send a delegation to investigate first.",
+      "Investigate before you accuse. The whole misunderstanding gets resolved by ASKING. Don&apos;t go to war with another believer over something you assumed without checking. Ask the question first. Save the army for actual enemies.",
+    ],
+  },
   topicTags: ['leadership', 'sovereignty', 'protection', 'faithfulness'],
   opener: {
     topical: true,

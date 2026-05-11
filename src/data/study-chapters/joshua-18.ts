@@ -18,6 +18,13 @@ export const JOSHUA_18: RichChapterContent = {
   chapter: 18,
 
   estimatedMinutes: { beginner: 8, intermediate: 12, deep: 15 },
+
+  youth: {
+    intros: [
+      "Seven tribes still don&apos;t have an inheritance. Joshua confronts them: how long will you wait? They send out men to map the land. They cast lots at Shiloh and the remaining tribes get their portions.",
+      "Some of you are still waiting on something God has already given. He&apos;s asking the same question Joshua asked: how long are you slack to go possess what I&apos;ve provided? Get up. Take the next step.",
+    ],
+  },
   topicTags: ['leadership', 'sovereignty', 'protection', 'faithfulness'],
   opener: {
     topical: true,

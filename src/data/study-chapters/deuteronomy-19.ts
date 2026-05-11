@@ -20,6 +20,13 @@ export const DEUTERONOMY_19: RichChapterContent = {
   chapter: 19,
 
   estimatedMinutes: { beginner: 8, intermediate: 15, deep: 19 },
+
+  youth: {
+    intros: [
+      "Cities of refuge. Anyone who killed someone accidentally could flee there for protection from the avenger of blood. Israel&apos;s justice system distinguishes between malice and accident.",
+      "God doesn&apos;t treat every wrong the same. Whatever you&apos;re carrying — guilt for something deliberate, regret for something accidental — bring it to Him. He sees the difference. He&apos;s the city of refuge for both.",
+    ],
+  },
   topicTags: ['covenant', 'faithfulness', 'leadership', 'love'],
   opener: {
     topical: true,

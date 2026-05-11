@@ -12,6 +12,13 @@ export const DEUTERONOMY_6: RichChapterContent = {
   chapter: 6,
 
   estimatedMinutes: { beginner: 7, intermediate: 13, deep: 17 },
+
+  youth: {
+    intros: [
+      "&ldquo;Hear, O Israel: The Lord our God is one Lord: And thou shalt love the Lord thy God with all thine heart, and with all thy soul, and with all thy might.&rdquo; The Shema. Jesus called it the greatest commandment.",
+      "Then: teach it to your kids. Talk about it when you sit at home, when you walk on the road, when you lie down, when you rise up. Faith isn&apos;t a Sunday module. It&apos;s the running soundtrack of every conversation in your house.",
+    ],
+  },
   topicTags: ['covenant', 'faithfulness', 'leadership', 'love'],
   opener: {
     topical: true,

@@ -21,6 +21,13 @@ export const DEUTERONOMY_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 9, intermediate: 16, deep: 19 },
+
+  youth: {
+    intros: [
+      "Moses recounts the recent victories. Og, the last giant, with his iron bedstead 13 feet long. Israel walked through territory that should have been impossible. God did it.",
+      "Then Moses asks God to let him cross into the land. God says no — but takes him up Pisgah to see it. Sometimes you don&apos;t get the destination you wanted. But God still gives you a view of what He&apos;s building. The view is a kindness.",
+    ],
+  },
   topicTags: ['covenant', 'faithfulness', 'leadership', 'love'],
   opener: {
     topical: true,

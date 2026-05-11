@@ -6,6 +6,13 @@ export const DEUTERONOMY_23: RichChapterContent = {
   chapter: 23,
 
   estimatedMinutes: { beginner: 8, intermediate: 13, deep: 17 },
+
+  youth: {
+    intros: [
+      "Who can and can&apos;t enter the assembly of the Lord. Then: even your camp latrines must be holy because God walks in your camp. Then: don&apos;t return a runaway slave to his master. Then: charge no interest to your brother.",
+      "The chapter mixes ritual purity with practical mercy with economic ethics. God doesn&apos;t separate the spiritual life from the rest of life. All of it is His.",
+    ],
+  },
   topicTags: ['covenant', 'faithfulness', 'leadership', 'love'],
   opener: {
     topical: true,

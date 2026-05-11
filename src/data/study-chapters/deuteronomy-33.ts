@@ -16,6 +16,13 @@ export const DEUTERONOMY_33: RichChapterContent = {
   chapter: 33,
 
   estimatedMinutes: { beginner: 7, intermediate: 14, deep: 17 },
+
+  youth: {
+    intros: [
+      "Moses blesses each tribe by name before he dies. Unlike Jacob in Genesis 49, Moses speaks ONLY blessing. He doesn&apos;t mention failures. He sees what each tribe could become.",
+      "Be the kind of person who blesses people before you leave a room. Speak life into your siblings, your friends, your kids. Moses&apos; final words are blessings — make yours the same.",
+    ],
+  },
   intros: [
     'Deuteronomy 33 is Moses&apos; final blessing — his last word over Israel before he dies alone on Mount Nebo. Unlike Jacob&apos;s oracle in Genesis 49, which holds both blessing and curse, Moses pronounces only encouragement. Each tribe receives a word that speaks to their geography, their calling, their inheritance. The blessing is poetic, condensed, sometimes cryptic — but always it points to God&apos;s faithfulness.',
     'The chapter begins with an extraordinary theophany: "The Lord came from Sinai, and rose up from Seir unto them; he shined forth from mount Paran." God appears in glory, descending to His people with ten thousand saints. Levi is blessed for their fidelity to the covenant — those who loved God more than family. Joseph receives a vision of abundance, his land blessed with heavenly treasures. And then the chapter climaxes not with the tribes but with God Himself: "The eternal God is thy refuge, and underneath are the everlasting arms." This is the foundation of John 10:28–29. This is the refuge that will not fail. This is the place where Christ will sit at the right hand of the Father.',

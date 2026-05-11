@@ -12,6 +12,13 @@ export const DEUTERONOMY_32: RichChapterContent = {
   chapter: 32,
 
   estimatedMinutes: { beginner: 9, intermediate: 14, deep: 19 },
+
+  youth: {
+    intros: [
+      "The Song of Moses — his last song. Traces Israel&apos;s history with God in compressed poetry: God&apos;s providence, Israel&apos;s ingratitude, judgment, mercy. &ldquo;Is not he thy father that hath bought thee? hath he not made thee, and established thee?&rdquo;",
+      "Then: &ldquo;See now that I, even I, am he, and there is no god with me: I kill, and I make alive; I wound, and I heal: neither is there any that can deliver out of my hand.&rdquo; This is the God you serve. Sing it like Moses did.",
+    ],
+  },
   topicTags: ['covenant', 'faithfulness', 'leadership', 'love'],
   opener: {
     topical: true,

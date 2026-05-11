@@ -12,6 +12,13 @@ export const DEUTERONOMY_31: RichChapterContent = {
   chapter: 31,
 
   estimatedMinutes: { beginner: 10, intermediate: 14, deep: 18 },
+
+  youth: {
+    intros: [
+      "Moses, 120 years old, hands off leadership to Joshua. He commissions Joshua publicly: &ldquo;Be strong and of a good courage…the Lord, he it is that doth go before thee; he will not fail thee, neither forsake thee: fear not, neither be dismayed.&rdquo;",
+      "Then God tells Moses to write a song that the people can&apos;t forget — they&apos;ll sing it as a witness against themselves when they fall away. Some of God&apos;s warnings come in melodies. Pay attention to the worship songs you can&apos;t get out of your head.",
+    ],
+  },
   opener: {
     matchTitle: /Joshua Consecrated as Successor/i,
     caption: 'Deuteronomy 31',

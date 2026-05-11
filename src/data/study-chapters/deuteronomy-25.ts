@@ -11,6 +11,13 @@ export const DEUTERONOMY_25: RichChapterContent = {
   chapter: 25,
 
   estimatedMinutes: { beginner: 7, intermediate: 12, deep: 16 },
+
+  youth: {
+    intros: [
+      "Limits on punishment. Honest weights and measures. Levirate marriage to preserve a dead brother&apos;s line. And the command to remember Amalek — to blot them out for what they did to Israel&apos;s stragglers in the wilderness.",
+      "God remembers what was done to His weakest. He&apos;s never indifferent to who got picked on. Whatever you&apos;ve been on the receiving end of — He sees it. He&apos;s not slow.",
+    ],
+  },
   topicTags: ['covenant', 'faithfulness', 'leadership', 'love'],
   opener: {
     topical: true,

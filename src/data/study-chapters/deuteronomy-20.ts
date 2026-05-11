@@ -13,6 +13,13 @@ export const DEUTERONOMY_20: RichChapterContent = {
   chapter: 20,
 
   estimatedMinutes: { beginner: 7, intermediate: 11, deep: 15 },
+
+  youth: {
+    intros: [
+      "Rules for war. Don&apos;t be afraid of horses and chariots — God fights with you. Send anyone home who&apos;s newly married, newly built a house, newly planted a vineyard, or who&apos;s afraid. The army should be willing.",
+      "Whatever battle you&apos;re fighting — at school, at home, in your faith — God doesn&apos;t want grudging soldiers. Either you&apos;re in or you&apos;re not. Don&apos;t try to be lukewarm in a fight. The lukewarm get spit out.",
+    ],
+  },
   topicTags: ['covenant', 'faithfulness', 'leadership', 'love'],
   opener: {
     topical: true,

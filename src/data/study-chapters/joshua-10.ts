@@ -14,6 +14,13 @@ export const JOSHUA_10: RichChapterContent = {
   chapter: 10,
 
   estimatedMinutes: { beginner: 12, intermediate: 18, deep: 22 },
+
+  youth: {
+    intros: [
+      "Five Amorite kings attack Gibeon for making peace with Israel. Israel defends the Gibeonites — even though Gibeon had tricked them. God hurls hailstones from heaven on the enemy army. Joshua prays for the sun to stand still and it does.",
+      "When you keep your word to people who didn&apos;t deserve it, God fights with you. The day Joshua won the longest battle in history started with him keeping a treaty he didn&apos;t want to keep.",
+    ],
+  },
   opener: {
     matchTitle: /Joshua/i,
     caption: 'Joshua 10',

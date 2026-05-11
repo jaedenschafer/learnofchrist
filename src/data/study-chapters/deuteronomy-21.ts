@@ -12,6 +12,13 @@ export const DEUTERONOMY_21: RichChapterContent = {
   chapter: 21,
 
   estimatedMinutes: { beginner: 8, intermediate: 13, deep: 17 },
+
+  youth: {
+    intros: [
+      "Strange and specific laws. Unsolved murder near a town. Captive women. Firstborn rights when there are two wives. The rebellious son. The body of an executed criminal hung on a tree must be buried by sundown — &ldquo;he that is hanged is accursed of God.&rdquo;",
+      "Paul quotes the last verse in Galatians 3 about Jesus: He became a curse for us by being hung on a tree. The chapter that looks like obscure laws ends with a verse pointing all the way to Calvary.",
+    ],
+  },
   topicTags: ['covenant', 'faithfulness', 'leadership', 'love'],
   opener: {
     topical: true,

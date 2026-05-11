@@ -6,6 +6,13 @@ export const DEUTERONOMY_18: RichChapterContent = {
   chapter: 18,
 
   estimatedMinutes: { beginner: 6, intermediate: 10, deep: 13 },
+
+  youth: {
+    intros: [
+      "Moses warns Israel against the divination, witchcraft, mediums, and necromancy of the surrounding nations. Then promises: &ldquo;The Lord thy God will raise up unto thee a Prophet from the midst of thee, of thy brethren, like unto me.&rdquo;",
+      "That promise gets fulfilled in Jesus. Acts 3 quotes this verse to identify Christ as the Prophet Moses promised. Don&apos;t go looking for spiritual guidance from horoscopes, tarot, or psychics. The voice you need is found in Christ.",
+    ],
+  },
   topicTags: ['covenant', 'faithfulness', 'leadership', 'love'],
   opener: {
     topical: true,

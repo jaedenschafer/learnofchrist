@@ -15,6 +15,13 @@ export const JOSHUA_17: RichChapterContent = {
   chapter: 17,
 
   estimatedMinutes: { beginner: 6, intermediate: 8, deep: 12 },
+
+  youth: {
+    intros: [
+      "Manasseh&apos;s daughters of Zelophehad come back — same five sisters from Numbers 27 — to claim their inheritance. They get it. Then the children of Joseph complain their portion isn&apos;t big enough. Joshua tells them: cut down the forest, drive out the Canaanites, possess what&apos;s yours.",
+      "Stop complaining about the portion God gave you. Possess it. Most of God&apos;s gifts arrive needing to be cleared, planted, and worked. Get to it.",
+    ],
+  },
   topicTags: ['leadership', 'sovereignty', 'protection', 'faithfulness'],
   opener: {
     topical: true,

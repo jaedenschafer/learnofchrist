@@ -17,6 +17,13 @@ export const DEUTERONOMY_14: RichChapterContent = {
   chapter: 14,
 
   estimatedMinutes: { beginner: 7, intermediate: 14, deep: 17 },
+
+  youth: {
+    intros: [
+      "Restating clean and unclean food laws. Then a generous reframe of the tithe — set aside a tenth of everything, then use it to throw a feast in God&apos;s presence with your family and the poor. Worship is supposed to be JOYFUL.",
+      "Generosity isn&apos;t somber. It&apos;s a feast. The God who fed Israel with manna in the desert wants to throw parties with you. Give your tenth. Eat with the lonely. Worship with the people God put around you.",
+    ],
+  },
   intros: [
     'Deuteronomy 14 presents Israel&apos;s covenant identity in two acts: first, the call to separation (what you do with your body, how you mourn, what you eat); second, the call to joy (the tithe-feast, community provision, the stranger at your table). The chapter does not separate holiness from gladness. To be God&apos;s chosen people is to be holy — set apart — but that holiness finds its truest expression not in asceticism but in shared tables, where the priest, the widow, the orphan, and the sojourner eat together.',
     'The food laws here echo Leviticus, but Deuteronomy reframes them. No longer about purity codes to prevent ritual defilement; they become markers of belonging to a peculiar people, a people consecrated by choice and covenant. And when Deuteronomy pivots to the tithe, something remarkable emerges: the yearly increase is to be brought not to an altar for sacrifice, but to "the place which the LORD your God shall choose to place his name there," where you eat it together in feasting. The tithe becomes the table. The table becomes worship.',

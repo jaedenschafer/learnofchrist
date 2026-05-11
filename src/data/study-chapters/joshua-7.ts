@@ -15,6 +15,13 @@ export const JOSHUA_7: RichChapterContent = {
   chapter: 7,
 
   estimatedMinutes: { beginner: 9, intermediate: 16, deep: 20 },
+
+  youth: {
+    intros: [
+      "Israel gets routed at the small city of Ai. Why? One man — Achan — secretly took spoils from Jericho he was forbidden to take. The whole army loses because of one private sin.",
+      "Sin you think is hidden affects more than you. Your private compromise affects your family, your team, your church. Bring it to the light before it costs everyone around you a battle.",
+    ],
+  },
   intros: [
     'Joshua 7 opens with the first crack in Israel&apos;s otherwise flawless conquest narrative. After the walls of Jericho fall at the blast of trumpets, the people are sent to take the small city of Ai. But the spies return with confidence: "Let not all the people go up... for they are but few." So about 3,000 march against Ai — and the men of Ai smite them, chase them, kill 36, and send Israel fleeing in disorder. The conquerors are routed.',
     'Joshua&apos;s response is immediate: he tears his clothes, falls on his face, and cries out to God. His prayer is not complaint, but covenant appeal — "What shall I say, when Israel turneth their backs before their enemies?" He knows the Lord promised victory. Something is wrong. The answer, when it comes, is shattering: "Israel hath sinned... for they have even taken of the accursed thing." One man, Achan, secretly coveted devoted plunder and hid it. The whole nation pays the price until the sin is exposed, the sinner is dealt with, and the Lord&apos;s anger turns.',

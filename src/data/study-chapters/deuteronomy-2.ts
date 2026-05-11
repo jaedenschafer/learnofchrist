@@ -20,6 +20,13 @@ export const DEUTERONOMY_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 9, intermediate: 13, deep: 18 },
+
+  youth: {
+    intros: [
+      "After 38 years circling the same mountain, God says: &ldquo;Ye have compassed this mountain long enough: turn you northward.&rdquo; The wilderness chapter of Israel&apos;s life is closing.",
+      "Some of you have been circling something for years — a doubt, a habit, a question. There&apos;s a moment when God says, you&apos;ve been here long enough. Turn. Move forward. The land is waiting.",
+    ],
+  },
   topicTags: ['covenant', 'faithfulness', 'leadership', 'love'],
   opener: {
     topical: true,

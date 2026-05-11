@@ -6,6 +6,13 @@ export const JOSHUA_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 7, intermediate: 11, deep: 17 },
+
+  youth: {
+    intros: [
+      "Israel arrives at the flooded Jordan. The priests carry the ark of God to the front of the line. The moment their feet touch the water, the river STOPS. Israel walks across on dry ground.",
+      "Notice the order: God didn&apos;t part the river first. The priests had to step in BEFORE it parted. Some of God&apos;s breakthroughs only come after you put your foot in the water. Don&apos;t wait for the path to clear before you obey.",
+    ],
+  },
   opener: {
     matchTitle: /Israel Crosses the Jordan/i,
     caption: 'Joshua 3',

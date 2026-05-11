@@ -16,6 +16,13 @@ export const DEUTERONOMY_34: RichChapterContent = {
   chapter: 34,
 
   estimatedMinutes: { beginner: 8, intermediate: 13, deep: 18 },
+
+  youth: {
+    intros: [
+      "Moses climbs Nebo, sees the promised land from a distance, and dies. God Himself buries him in a valley nobody knows the location of. &ldquo;There arose not a prophet since in Israel like unto Moses, whom the Lord knew face to face.&rdquo;",
+      "He didn&apos;t make it across. The greatest leader in Israel&apos;s history died short of the destination. But on the Mount of Transfiguration in the Gospels, Moses shows up TALKING WITH JESUS — in the promised land at last. God keeps every promise. Sometimes He keeps them on the other side.",
+    ],
+  },
   opener: {
     matchTitle: /The Lord Shows Moses/i,
     caption: 'Deuteronomy 34',

@@ -12,6 +12,13 @@ export const DEUTERONOMY_27: RichChapterContent = {
   chapter: 27,
 
   estimatedMinutes: { beginner: 5, intermediate: 10, deep: 13 },
+
+  youth: {
+    intros: [
+      "Israel will engrave the law on stones and shout the curses from Mount Ebal — twelve specific curses for hidden sins (idol-making in secret, dishonoring parents, moving boundary stones, leading the blind astray, perverting justice for the fatherless). All the people answer Amen.",
+      "The covenant has teeth. Notice the sins listed — they&apos;re mostly the sins you can do in private and nobody would know. God knows. The Amen of the people is them admitting it.",
+    ],
+  },
   topicTags: ['covenant', 'faithfulness', 'leadership', 'love'],
   opener: {
     topical: true,

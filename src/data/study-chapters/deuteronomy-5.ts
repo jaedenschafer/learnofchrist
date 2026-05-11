@@ -24,6 +24,13 @@ export const DEUTERONOMY_5: RichChapterContent = {
   chapter: 5,
 
   estimatedMinutes: { beginner: 10, intermediate: 17, deep: 22 },
+
+  youth: {
+    intros: [
+      "Moses repeats the Ten Commandments to a new generation. He emphasizes: this covenant isn&apos;t ancient history. &ldquo;The Lord made not this covenant with our fathers, but with us, even us, who are all of us here alive this day.&rdquo;",
+      "The Bible isn&apos;t about somebody else&apos;s ancestors. It&apos;s about you. Every command God gave Israel He&apos;s still saying to His people in Christ. Read it as if you were standing at Sinai with them, because in Him, you were.",
+    ],
+  },
   intros: [
     'Deuteronomy 5 repeats the Ten Commandments, but not as a dry rehearsal. Moses is speaking to a new generation — the children of those who heard God&apos;s voice at Mount Sinai forty years ago have now grown to adulthood on the edge of the Promised Land. The covenant, Moses tells them, was made "with us, even us, who are all of us here alive this day." The law does not come down as a handed-off tradition; it comes as a fresh word to a fresh people who must choose it for themselves.',
     'What makes Deuteronomy distinctive is that some commandments are reframed. The Sabbath, for instance, is no longer grounded in creation rest (Exodus) but in deliverance from slavery — a subtle shift that asks: why do you rest? Is it because work is not the ultimate reality? Or is it because you were once enslaved and the God who freed you invites you to remember His liberation by resting? Both are true, and together they tell the whole story: Christ is Lord of creation <em>and</em> Christ is our Redeemer.',

@@ -12,6 +12,13 @@ export const JOSHUA_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 8, intermediate: 14, deep: 17 },
+
+  youth: {
+    intros: [
+      "Joshua sends two spies into Jericho. They end up at the house of Rahab, a prostitute. She hides them, lies to the king&apos;s men to protect them, and asks for one thing: when you take this city, save my family.",
+      "Rahab — a Canaanite, a prostitute, the wrong gender and ethnicity for the &ldquo;hero&rdquo; role — ends up in Jesus&apos; genealogy in Matthew 1. God writes the people religion would have rejected into the line of His Son.",
+    ],
+  },
   opener: {
     matchTitle: /Rahab Hides the Spies/i,
     caption: 'Joshua 2',

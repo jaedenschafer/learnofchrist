@@ -16,6 +16,13 @@ export const JOSHUA_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 8, intermediate: 13, deep: 16 },
+
+  youth: {
+    intros: [
+      "Moses is dead. The most famous leader in Israel&apos;s history is gone. God speaks to Joshua: &ldquo;Arise, go over this Jordan, thou, and all this people, unto the land which I do give to them.&rdquo; The transition is immediate. There&apos;s no extended grieving. The mission moves on.",
+      "Three times in the chapter God says: &ldquo;Be strong and of a good courage…I will not fail thee, nor forsake thee.&rdquo; Whatever transition you&apos;re standing in — graduation, leaving home, a leader you loved is gone — the same God who was with Moses is with you.",
+    ],
+  },
   topicTags: ['leadership', 'sovereignty', 'protection', 'faithfulness'],
   opener: {
     topical: true,

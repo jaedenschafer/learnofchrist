@@ -12,6 +12,13 @@ export const JOSHUA_14: RichChapterContent = {
   chapter: 14,
 
   estimatedMinutes: { beginner: 6, intermediate: 11, deep: 13 },
+
+  youth: {
+    intros: [
+      "Caleb is 85 years old and wants the hill country with the giants. &ldquo;Now therefore give me this mountain, whereof the Lord spake in that day.&rdquo; He&apos;s been waiting 45 years for this assignment and he&apos;s ready to fight.",
+      "Don&apos;t shrink your ambition as you age. Caleb at 85 was asking for the HARDEST territory. Be Caleb. Whatever God promised your younger self, ask for it again at 50, 70, 90. He still gives mountains.",
+    ],
+  },
   opener: {
     matchTitle: /The Division of the/i,
     caption: 'Joshua 14',

@@ -13,6 +13,13 @@ export const DEUTERONOMY_28: RichChapterContent = {
   chapter: 28,
 
   estimatedMinutes: { beginner: 16, intermediate: 22, deep: 27 },
+
+  youth: {
+    intros: [
+      "Fourteen verses of blessing if Israel obeys. Fifty-four verses of curses if Israel disobeys. The chapter is brutal in its honesty: covenant has consequences. The descriptions of exile are so vivid that Jewish readers in the centuries after Babylon read them as prophecy fulfilled.",
+      "Sin destroys. The Bible doesn&apos;t flinch from saying so. The God who pours out blessings is the same God whose covenant cuts the other way when broken. Read this chapter and don&apos;t be casual about disobedience.",
+    ],
+  },
   topicTags: ['covenant', 'faithfulness', 'leadership', 'love'],
   opener: {
     topical: true,

@@ -12,6 +12,13 @@ export const DEUTERONOMY_7: RichChapterContent = {
   chapter: 7,
 
   estimatedMinutes: { beginner: 9, intermediate: 16, deep: 21 },
+
+  youth: {
+    intros: [
+      "God will drive out seven nations greater and mightier than Israel. Israel didn&apos;t earn this. God chose them — &ldquo;not because ye were more in number than any people; for ye were the fewest.&rdquo; God picks the underdog and that&apos;s the whole point.",
+      "Whatever God has called you to that feels too big — He didn&apos;t pick you because you were obviously qualified. He picked you so the credit would obviously go to Him.",
+    ],
+  },
   topicTags: ['covenant', 'faithfulness', 'leadership', 'love'],
   opener: {
     topical: true,

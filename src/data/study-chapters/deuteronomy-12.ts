@@ -16,6 +16,13 @@ export const DEUTERONOMY_12: RichChapterContent = {
   chapter: 12,
 
   estimatedMinutes: { beginner: 9, intermediate: 14, deep: 18 },
+
+  youth: {
+    intros: [
+      "When Israel enters the land, they have to demolish the high places where the previous nations worshiped. Don&apos;t worship God the way they worshipped their gods. Worship Him at the place He chooses.",
+      "Worship is not a vibe you assemble from whatever feels right. It&apos;s a response to who God actually is. Don&apos;t mash up Christianity with whatever spiritual aesthetic you scrolled past. He gets to define how He&apos;s approached.",
+    ],
+  },
   topicTags: ['covenant', 'faithfulness', 'leadership', 'love'],
   opener: {
     topical: true,
