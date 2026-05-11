@@ -6,6 +6,13 @@ export const JUDGES_19: RichChapterContent = {
   chapter: 19,
 
   estimatedMinutes: { beginner: 5, intermediate: 10, deep: 11 },
+
+  youth: {
+    intros: [
+      "One of the darkest chapters in the Bible. A Levite&apos;s concubine is gang-raped to death in Gibeah. The Levite cuts her body into twelve pieces and sends them to the twelve tribes to demand justice. The text doesn&apos;t soften any of it.",
+      "When a culture loses God, the people who suffer first are the women. Read this chapter and don&apos;t look away. The Bible doesn&apos;t pretend evil isn&apos;t evil. The fact that this is in Scripture is God refusing to let the suffering be forgotten.",
+    ],
+  },
   opener: {
     matchTitle: /A Levite Finds a/i,
     caption: 'Judges 19',

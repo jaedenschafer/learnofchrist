@@ -13,6 +13,13 @@ export const JUDGES_9: RichChapterContent = {
   chapter: 9,
 
   estimatedMinutes: { beginner: 9, intermediate: 15, deep: 18 },
+
+  youth: {
+    intros: [
+      "Gideon&apos;s son Abimelech murders his 70 brothers on one stone to make himself king of Shechem. Three years later the city betrays him and a woman drops a millstone on his head from a tower. He asks his armor-bearer to kill him so it doesn&apos;t look like a woman did it. The text records exactly what he tried to hide.",
+      "Power gained by violence is held by violence and ended by violence. Whatever you&apos;re tempted to grab at by stepping on people will end the way Abimelech&apos;s reign ended.",
+    ],
+  },
   opener: {
     matchTitle: /Abimelech/i,
     caption: 'Judges 9',

@@ -16,6 +16,13 @@ export const JUDGES_12: RichChapterContent = {
   chapter: 12,
 
   estimatedMinutes: { beginner: 5, intermediate: 9, deep: 11 },
+
+  youth: {
+    intros: [
+      "The tribe of Ephraim picks a fight with Jephthah for not inviting them to the war. The result: civil war, 42,000 Ephraimites killed at the Jordan. They were spotted by their accent — they couldn&apos;t pronounce &ldquo;shibboleth.&rdquo;",
+      "Tribal pride kills people. When the body of Christ is offended that you didn&apos;t include them, don&apos;t escalate to civil war over it. Apologize. Move on. Don&apos;t spend lives over offense.",
+    ],
+  },
   topicTags: ['deliverance', 'sin', 'leadership', 'mercy'],
   opener: {
     topical: true,

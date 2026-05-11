@@ -18,6 +18,13 @@ export const SAMUEL_2_6: RichChapterContent = {
 
   estimatedMinutes: { beginner: 8, intermediate: 16, deep: 21 },
 
+  youth: {
+    intros: [
+      "David brings the ark of God to Jerusalem. Uzzah touches it to steady it and dies on the spot. David is angry, then afraid. Three months later he tries again — this time with priests carrying it the way the law commanded.",
+      "Then David dances with all his might before the Lord. His wife Michal mocks him from a window. David&apos;s answer: &ldquo;I will yet be more vile than thus.&rdquo; Don&apos;t care who&apos;s judging your worship. Dance.",
+    ],
+  },
+
   characters: [
     { slug: 'david', role: 'Dances before the ark with all his might' },
   ],

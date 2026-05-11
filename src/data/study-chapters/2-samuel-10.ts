@@ -20,6 +20,13 @@ export const SAMUEL_2_10: RichChapterContent = {
 
   estimatedMinutes: { beginner: 6, intermediate: 12, deep: 16 },
 
+  youth: {
+    intros: [
+      "David sends ambassadors of peace to the new king of Ammon. The new king humiliates them — shaves half their beards, cuts off their robes — to insult David. War follows. Israel wins decisively.",
+      "Some people will mistake your kindness for weakness. Don&apos;t change your kindness. Just don&apos;t be naive about who you&apos;re kind to.",
+    ],
+  },
+
   characters: [
     { slug: 'david' },
     { slug: 'joab', role: 'Splits the army between Aram and Ammon' },

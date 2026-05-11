@@ -18,6 +18,13 @@ export const SAMUEL_2_19: RichChapterContent = {
   chapter: 19,
 
   estimatedMinutes: { beginner: 7, intermediate: 17, deep: 23 },
+
+  youth: {
+    intros: [
+      "Absalom is dead. David weeps so hard for his rebellious son that the army feels ashamed of their victory. Joab confronts him: stop sulking, or you&apos;ll lose the army that just saved your life. David finally goes out to bless them.",
+      "Even justified grief can become destructive if it stops you from leading the people God put in your care. Don&apos;t let private sorrow consume the public assignment.",
+    ],
+  },
   topicTags: ['kingship', 'repentance', 'leadership', 'covenant'],
   opener: {
     topical: true,

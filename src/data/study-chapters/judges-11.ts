@@ -5,6 +5,13 @@ export const JUDGES_11: RichChapterContent = {
   bookName: 'Judges',
   chapter: 11,
   estimatedMinutes: { beginner: 3, intermediate: 11, deep: 14 },
+
+  youth: {
+    intros: [
+      "Jephthah is the son of a prostitute, kicked out by his half-brothers, who later come crawling back when they need a fighter. He delivers Israel — and then makes a foolish vow that costs him his only daughter. The chapter is heart-wrenching.",
+      "Don&apos;t make rash vows. Don&apos;t bargain with God in panic. The text never says God required Jephthah&apos;s vow. He made it on his own. Words have weight. Be slow to swear.",
+    ],
+  },
   opener: {
     matchTitle: /Jephthah and His Daughter/i,
     caption: 'Judges 11',

@@ -18,6 +18,13 @@ export const SAMUEL_2_9: RichChapterContent = {
 
   estimatedMinutes: { beginner: 6, intermediate: 11, deep: 14 },
 
+  youth: {
+    intros: [
+      "David asks: is there anyone left of Saul&apos;s house I can show kindness to for Jonathan&apos;s sake? Mephibosheth — Jonathan&apos;s lame son, hidden in fear — is brought to the palace. David gives him all of Saul&apos;s land back AND a permanent seat at the king&apos;s table.",
+      "The whole chapter is a picture of the gospel. You — broken, hiding, afraid — get summoned to the King&apos;s table for the sake of someone who loved you and someone whose name covers you.",
+    ],
+  },
+
   characters: [
     { slug: 'david', role: 'Shows kindness to Mephibosheth, Jonathan&apos;s lame son, for the sake of his friend' },
   ],

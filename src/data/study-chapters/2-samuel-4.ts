@@ -18,6 +18,13 @@ export const SAMUEL_2_4: RichChapterContent = {
 
   estimatedMinutes: { beginner: 3, intermediate: 8, deep: 10 },
 
+  youth: {
+    intros: [
+      "With Abner dead, two of Saul&apos;s officers murder Saul&apos;s remaining son Ish-bosheth in his bed and bring his head to David, expecting a reward. David executes them on the spot for assassinating an innocent man.",
+      "David refuses to gain his throne by violence he didn&apos;t order. The crown coming the right way matters more than the crown coming fast. Same for whatever you&apos;re chasing.",
+    ],
+  },
+
   characters: [
     { slug: 'david', role: 'Executes the men who murdered Saul&apos;s son in his bed' },
   ],

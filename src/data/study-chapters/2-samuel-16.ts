@@ -20,6 +20,13 @@ export const SAMUEL_2_16: RichChapterContent = {
   chapter: 16,
 
   estimatedMinutes: { beginner: 3, intermediate: 11, deep: 13 },
+
+  youth: {
+    intros: [
+      "On the road, a man named Shimei curses David and throws stones at him. David&apos;s soldiers want to kill Shimei. David refuses: &ldquo;Let him alone, and let him curse; for the Lord hath bidden him.&rdquo;",
+      "When you&apos;re going through your worst chapter, every cruel voice that joins in feels personal. David refused to fight back. Some of the curses thrown at you are not yours to answer. Let God handle them.",
+    ],
+  },
   opener: {
     matchTitle: /David Cursed by Shimei/i,
     caption: '2 Samuel 16',

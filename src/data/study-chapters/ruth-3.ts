@@ -16,6 +16,13 @@ export const RUTH_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 3, intermediate: 7, deep: 10 },
+
+  youth: {
+    intros: [
+      "Naomi gives Ruth a bold plan. Go to the threshing floor at night, lie at Boaz&apos;s feet, and ask him to redeem her under the kinsman-redeemer law. It&apos;s a vulnerable, risky ask.",
+      "Boaz responds with kindness and integrity — sends her home with food, says yes, and starts the legal process. Sometimes God&apos;s answer to your hardest ask comes through someone who refuses to take advantage of how vulnerable the moment was.",
+    ],
+  },
   intros: [
     'Ruth 3 moves the story from the barley fields into intimate territory. Naomi has a plan: send Ruth to the threshing floor at night with a simple but dangerous request. By ancient law and custom, a kinsman-redeemer[res:sefaria-goel-redeemer] could marry a widow and restore her family line. But the asking itself is Ruth\'s move. She will approach Boaz under cover of darkness, uncover his feet — a sign of intimacy — and ask for his covering. The whole scene is risky. The text trusts the virtue of both.',
     'But beneath the risk is something deeper: the echo of Boaz\'s earlier promise that God\'s wings would cover her (Ruth 2:12), now asked as a personal request. The threshing floor becomes a place where faith and human initiative meet, where a redeemer\'s commitment is sealed in the night, and where the providence of God moves through obedience and courage.',

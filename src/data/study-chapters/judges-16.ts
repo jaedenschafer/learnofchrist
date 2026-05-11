@@ -13,6 +13,13 @@ export const JUDGES_16: RichChapterContent = {
   chapter: 16,
 
   estimatedMinutes: { beginner: 10, intermediate: 17, deep: 22 },
+
+  youth: {
+    intros: [
+      "Samson loves Delilah. She&apos;s paid by the Philistines to find the secret of his strength. He toys with her three times, then finally tells her: it&apos;s his uncut hair. He wakes up with no strength, no hair, and his eyes are gouged out. He grinds grain in a Philistine prison.",
+      "His final prayer is for one more chance: &ldquo;Let me die with the Philistines.&rdquo; He pulls down their temple on himself and kills more in his death than in his life. Even at the end, God uses him. Whatever&apos;s left of you — He&apos;s not done.",
+    ],
+  },
   opener: {
     matchTitle: /Samson/i,
     caption: 'Judges 16',

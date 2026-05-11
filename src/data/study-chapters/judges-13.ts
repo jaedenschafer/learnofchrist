@@ -12,6 +12,13 @@ export const JUDGES_13: RichChapterContent = {
   chapter: 13,
 
   estimatedMinutes: { beginner: 6, intermediate: 10, deep: 14 },
+
+  youth: {
+    intros: [
+      "An Israelite woman, barren, is told by an angel she&apos;ll have a son who will begin to deliver Israel from the Philistines. Her son is to be a Nazirite — never cut his hair, never drink wine, never touch the dead. His name: Samson.",
+      "God still hands miracle assignments to ordinary couples in ordinary towns. The big Bible names started as someone&apos;s baby in a small house. Be faithful in your small house. The next chapter of God&apos;s story might be born there.",
+    ],
+  },
   opener: {
     matchTitle: /The Sacrifice of Manoah/i,
     caption: 'Judges 13',

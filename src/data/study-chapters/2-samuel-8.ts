@@ -17,6 +17,13 @@ export const SAMUEL_2_8: RichChapterContent = {
 
   estimatedMinutes: { beginner: 4, intermediate: 10, deep: 11 },
 
+  youth: {
+    intros: [
+      "David subdues every surrounding enemy — Philistines, Moabites, Syrians, Edomites, Ammonites. The kingdom expands. The chapter ends with a list of his cabinet — Joab over the army, Jehoshaphat the recorder, Zadok and Ahimelech the priests.",
+      "Behind every great leader is a list of names doing the unglamorous work. The kingdom of God is being built right now by people whose names won&apos;t be in headlines. Be one of them.",
+    ],
+  },
+
   characters: [
     { slug: 'david', role: 'Subdues the surrounding nations; reigns in justice' },
     { slug: 'joab', role: 'Commands the army through every campaign' },

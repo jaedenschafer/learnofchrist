@@ -10,6 +10,13 @@ export const JUDGES_18: RichChapterContent = {
   chapter: 18,
 
   estimatedMinutes: { beginner: 12, intermediate: 20, deep: 24 },
+
+  youth: {
+    intros: [
+      "The tribe of Dan, instead of taking the inheritance God gave them, goes north and slaughters a peaceful town. They steal Micah&apos;s idol and his Levite priest along the way and set up false worship at Dan that lasts for centuries.",
+      "Tribal ambition without God&apos;s direction always ends in stolen worship. Don&apos;t go where God didn&apos;t send you. Don&apos;t hire a priest to bless what God didn&apos;t bless.",
+    ],
+  },
   topicTags: ['deliverance', 'sin', 'leadership', 'mercy'],
   opener: {
     topical: true,

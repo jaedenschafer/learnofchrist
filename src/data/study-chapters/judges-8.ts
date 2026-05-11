@@ -16,6 +16,13 @@ export const JUDGES_8: RichChapterContent = {
   chapter: 8,
 
   estimatedMinutes: { beginner: 9, intermediate: 15, deep: 19 },
+
+  youth: {
+    intros: [
+      "Gideon wins. He pursues the Midianite kings and kills them. The people want him to be king. He says: &ldquo;I will not rule over you, neither shall my son rule over you: the Lord shall rule over you.&rdquo; Right answer.",
+      "Then he asks for gold. Makes an ephod (a priestly garment). All Israel ends up worshipping it. The hero who refused a crown made an idol. Watch out for the spiritual disaster that comes RIGHT AFTER your biggest victory.",
+    ],
+  },
   topicTags: ['deliverance', 'sin', 'leadership', 'mercy'],
   opener: {
     topical: true,

@@ -13,6 +13,13 @@ export const JUDGES_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 8, intermediate: 14, deep: 17 },
+
+  youth: {
+    intros: [
+      "Three judges introduce the pattern: Othniel, Ehud, Shamgar. Ehud is left-handed and uses it to assassinate the obese Moabite king Eglon. Shamgar kills 600 Philistines with an ox-goad — a farming tool.",
+      "God uses the unconventional. Left-handers, farm tools, hidden daggers. Whatever &ldquo;disqualifying&rdquo; thing about you you keep apologizing for is probably exactly what He&apos;s going to use.",
+    ],
+  },
   intros: [
     'After Joshua&apos;s death, Israel descends into a pattern that will repeat itself fifty times across the book of Judges: faithlessness, oppression, desperation, and deliverance. Judges 3 introduces that pattern and the first three judges who break it — Othniel, Ehud, and Shamgar. It is a chapter about testing, about God working through the weak and overlooked, and about the Spirit of the Lord coming upon His people in their darkest hours.',
     'The nations God left in the land were meant to test Israel — would they keep covenant with their God, or would they adopt the gods and habits of their neighbors? The test came immediately. Israel failed it. And yet, that failure does not end the story. In the failure, God sent deliverers. This is the logic that runs through all of Judges: not that God was surprised, but that rescue never waits for righteousness. The broken pattern holds a promise underneath it.',

@@ -6,6 +6,13 @@ export const JUDGES_20: RichChapterContent = {
   chapter: 20,
 
   estimatedMinutes: { beginner: 2, intermediate: 6, deep: 8 },
+
+  youth: {
+    intros: [
+      "Israel goes to civil war against the tribe of Benjamin for protecting the rapists. 65,000 men die before Benjamin is reduced to 600 men hiding in a cave. Israel weeps over what they&apos;ve had to do.",
+      "Justice that comes too late, in too much rage, costs everyone. The chapter is devastating. The whole book is asking for someone — anyone — who can lead these people back to God before they destroy each other.",
+    ],
+  },
   topicTags: ['deliverance', 'sin', 'leadership', 'mercy'],
   opener: {
     topical: true,

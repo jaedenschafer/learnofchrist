@@ -12,6 +12,13 @@ export const JUDGES_10: RichChapterContent = {
   chapter: 10,
 
   estimatedMinutes: { beginner: 7, intermediate: 13, deep: 17 },
+
+  youth: {
+    intros: [
+      "Two minor judges — Tola and Jair — keep Israel for years without drama. Then Israel sins again, and this time God says: I&apos;m done. Go cry to the gods you chose. The cry of repentance from Israel that follows is one of the most desperate in the book.",
+      "There are seasons when God lets you feel the weight of what you chose. Don&apos;t mistake His silence for absence. Sometimes the silence is teaching you to want Him more than the things you&apos;ve been wanting.",
+    ],
+  },
   topicTags: ['deliverance', 'sin', 'leadership', 'mercy'],
   opener: {
     topical: true,

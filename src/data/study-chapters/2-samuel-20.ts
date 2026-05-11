@@ -17,6 +17,13 @@ export const SAMUEL_2_20: RichChapterContent = {
 
   estimatedMinutes: { beginner: 8, intermediate: 18, deep: 20 },
 
+  youth: {
+    intros: [
+      "Sheba — &ldquo;a man of Belial&rdquo; — leads a fresh rebellion. Joab pursues. The rebellion ends when a wise woman in the besieged city negotiates: she&apos;ll throw Sheba&apos;s head over the wall if Joab spares her town. He does.",
+      "One wise person in a desperate situation can end a war before it destroys a city. Be the wise one. Don&apos;t escalate when you can negotiate.",
+    ],
+  },
+
   characters: [
     { slug: 'joab', role: 'Kills Amasa under the pretense of a kiss' },
   ],

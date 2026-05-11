@@ -12,6 +12,13 @@ export const JUDGES_6: RichChapterContent = {
   chapter: 6,
 
   estimatedMinutes: { beginner: 10, intermediate: 15, deep: 18 },
+
+  youth: {
+    intros: [
+      "Midian crushes Israel for seven years. Gideon is hiding in a winepress threshing wheat to avoid being seen. The angel of the Lord shows up and calls him &ldquo;mighty man of valour&rdquo; — which is the LAST thing Gideon currently looks like.",
+      "God calls you what He&apos;s making you, not what you currently are. Whatever you&apos;ve been told you&apos;re not — God may already be calling you the opposite. Listen for His voice over your own self-talk.",
+    ],
+  },
   opener: {
     matchTitle: /Gideon/i,
     caption: 'Judges 6',

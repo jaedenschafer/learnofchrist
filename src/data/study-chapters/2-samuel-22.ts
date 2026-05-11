@@ -16,6 +16,13 @@ export const SAMUEL_2_22: RichChapterContent = {
   chapter: 22,
 
   estimatedMinutes: { beginner: 10, intermediate: 19, deep: 25 },
+
+  youth: {
+    intros: [
+      "David&apos;s song after God delivered him from all his enemies. &ldquo;The Lord is my rock, and my fortress, and my deliverer.&rdquo; A king&apos;s autobiography compressed into a worship song.",
+      "Write your story as a song too. Not for anyone to hear. For you to remember. The God who delivered you from your last battle is the One you&apos;ll need in the next one.",
+    ],
+  },
   topicTags: ['kingship', 'repentance', 'leadership', 'covenant'],
   opener: {
     topical: true,

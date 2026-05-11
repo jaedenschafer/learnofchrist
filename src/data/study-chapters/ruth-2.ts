@@ -22,6 +22,13 @@ export const RUTH_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 4, intermediate: 10, deep: 13 },
+
+  youth: {
+    intros: [
+      "Ruth goes out to glean grain — picking up the leftovers reapers left in the field, which the law required for the poor. She &ldquo;happens&rdquo; to land in the field of Boaz, a wealthy relative of her dead husband.",
+      "Boaz protects her, feeds her extra, and lets her glean the best parts of the field. Some of the most important people in your life are going to show up looking like a coincidence. Pay attention to who God puts on your path.",
+    ],
+  },
   opener: {
     matchTitle: /Ruth in the Field/i,
     caption: 'Ruth 2',

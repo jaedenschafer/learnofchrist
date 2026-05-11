@@ -24,6 +24,13 @@ export const SAMUEL_2_21: RichChapterContent = {
   chapter: 21,
 
   estimatedMinutes: { beginner: 7, intermediate: 11, deep: 14 },
+
+  youth: {
+    intros: [
+      "A three-year famine because of Saul&apos;s old crime against the Gibeonites. David tries to make it right. Then four short stories of David&apos;s mighty men killing the last giants of Gath, including Goliath&apos;s relatives.",
+      "The giants you faced as a teenager have descendants. You&apos;ll keep meeting them. Surround yourself with mighty men so the next generation of giants doesn&apos;t bring you down when your own strength is fading.",
+    ],
+  },
   opener: {
     matchTitle: /Rizpah/i,
     caption: '2 Samuel 21',

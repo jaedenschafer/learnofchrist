@@ -14,6 +14,13 @@ export const JUDGES_14: RichChapterContent = {
   chapter: 14,
 
   estimatedMinutes: { beginner: 8, intermediate: 14, deep: 19 },
+
+  youth: {
+    intros: [
+      "Samson sees a Philistine woman and demands his parents arrange the marriage — against God&apos;s law. On the way, he tears apart a lion bare-handed. Later he eats honey from the carcass — violating his Nazirite vow about touching the dead.",
+      "Samson&apos;s gift was real. His character was a wreck. Don&apos;t confuse anointing with maturity. Don&apos;t assume someone with a lot of supernatural strength is spiritually healthy. They might be Samson.",
+    ],
+  },
   opener: {
     matchTitle: /Samson Slays the Lion/i,
     caption: 'Judges 14',

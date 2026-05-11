@@ -14,6 +14,13 @@ export const JUDGES_4: RichChapterContent = {
   chapter: 4,
 
   estimatedMinutes: { beginner: 8, intermediate: 16, deep: 20 },
+
+  youth: {
+    intros: [
+      "Israel is oppressed by 900 iron chariots. Deborah — a woman, the only female judge — calls Barak to lead. Barak says he&apos;ll only go if she goes too. She does. They win, and the enemy general Sisera is killed by another woman, Jael, who drives a tent peg through his head.",
+      "God uses the people the culture overlooks. Two women lead the chapter. Don&apos;t underestimate the women in your story. God is working through them whether the culture acknowledges it or not.",
+    ],
+  },
   intros: [
     'The children of Israel have turned from God again, and this time the cost is iron. Jabin king of Canaan oppresses them for twenty years with 900 chariots — an armored force Israel cannot hope to match on the open field. They cry out to the Lord.',
     'God answers through Deborah, a prophetess who sits under a palm tree and judges Israel. She calls on Barak to raise ten thousand men and face Sisera, Jabin&apos;s commander. Barak hesitates: he will only go if Deborah goes with him. She agrees — but warns him that the honor of the kill will go to a woman. The battle unfolds at the river Kishon, where the Lord discomfits Sisera&apos;s chariots. Sisera flees on foot and finds shelter in the tent of Jael, a Kenite woman. There, while he sleeps, Jael drives a tent peg through his temples.',

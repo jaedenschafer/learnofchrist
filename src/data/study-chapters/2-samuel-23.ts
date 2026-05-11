@@ -18,6 +18,13 @@ export const SAMUEL_2_23: RichChapterContent = {
   chapter: 23,
 
   estimatedMinutes: { beginner: 8, intermediate: 18, deep: 22 },
+
+  youth: {
+    intros: [
+      "David&apos;s last words. Then a list of his mighty men — the warriors who stood with him in his hardest years. Specific names. Specific feats. Three men who broke through enemy lines just to bring David water from his hometown well.",
+      "Your friends — the ones who showed up in your hardest year — get listed in heaven&apos;s book of mighty men. So do you for someone else. Be the friend who breaks through enemy lines for the water somebody needs.",
+    ],
+  },
   opener: {
     matchTitle: /David and His Mighty/i,
     caption: '2 Samuel 23',

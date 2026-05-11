@@ -12,6 +12,13 @@ export const JUDGES_17: RichChapterContent = {
   chapter: 17,
 
   estimatedMinutes: { beginner: 6, intermediate: 11, deep: 14 },
+
+  youth: {
+    intros: [
+      "Micah steals silver from his mother, gives it back, and they make an idol with it. Hire a Levite to be their personal priest. The line that becomes the refrain of the rest of the book appears: &ldquo;In those days there was no king in Israel, but every man did that which was right in his own eyes.&rdquo;",
+      "When everyone defines &ldquo;right&rdquo; by their own gut, you get chaos. The post-truth culture isn&apos;t new. The fix is the same as it was in Judges: a King who actually defines right.",
+    ],
+  },
   topicTags: ['deliverance', 'sin', 'leadership', 'mercy'],
   opener: {
     topical: true,

@@ -21,6 +21,13 @@ export const SAMUEL_2_24: RichChapterContent = {
   chapter: 24,
 
   estimatedMinutes: { beginner: 6, intermediate: 12, deep: 17 },
+
+  youth: {
+    intros: [
+      "David takes a census of Israel — pride about how big his army is. God offers three choices of judgment. David picks falling into the hand of God rather than men. 70,000 die. David buys a threshing floor at full price and offers a sacrifice. The plague stops.",
+      "&ldquo;Neither will I offer burnt offerings unto the Lord my God of that which doth cost me nothing.&rdquo; What you offer to God isn&apos;t worship if it cost you nothing. The land where the plague stopped becomes the site of Solomon&apos;s temple.",
+    ],
+  },
   opener: {
     matchTitle: /David/i,
     caption: '2 Samuel 24',

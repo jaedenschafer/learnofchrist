@@ -19,6 +19,13 @@ export const SAMUEL_2_13: RichChapterContent = {
 
   estimatedMinutes: { beginner: 10, intermediate: 21, deep: 25 },
 
+  youth: {
+    intros: [
+      "David&apos;s son Amnon rapes his half-sister Tamar. David hears, is angry — and does nothing. Two years later Tamar&apos;s brother Absalom murders Amnon for it. Then flees.",
+      "David&apos;s passive silence in the face of his daughter&apos;s rape destroys his family. Don&apos;t be passive when one of your siblings is the victim. Silence in the face of evil is itself evil.",
+    ],
+  },
+
   characters: [
     { slug: 'absalom', role: 'Avenges his sister Tamar by killing his half-brother Amnon' },
     { slug: 'david', role: 'Mourns his son but does not act' },

@@ -18,6 +18,13 @@ export const SAMUEL_2_17: RichChapterContent = {
   chapter: 17,
 
   estimatedMinutes: { beginner: 8, intermediate: 15, deep: 19 },
+
+  youth: {
+    intros: [
+      "Absalom&apos;s top advisor Ahithophel gives him a brilliant plan: chase David tonight while he&apos;s exhausted. Hushai (David&apos;s spy) gives Absalom a worse plan that sounds better. Absalom listens to the bad plan. Ahithophel goes home and hangs himself.",
+      "God can use one person willing to take a risk in the right room to save the entire mission. Be Hushai. Pray. Speak the word that changes a meeting.",
+    ],
+  },
   topicTags: ['kingship', 'repentance', 'leadership', 'covenant'],
   opener: {
     topical: true,

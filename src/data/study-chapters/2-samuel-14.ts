@@ -17,6 +17,13 @@ export const SAMUEL_2_14: RichChapterContent = {
 
   estimatedMinutes: { beginner: 11, intermediate: 17, deep: 21 },
 
+  youth: {
+    intros: [
+      "Joab schemes to bring the exiled Absalom home — using a woman from Tekoa to tell David a fake story that exposes his own logic. David allows Absalom to come back to Jerusalem but refuses to see him for two years.",
+      "Half-reconciliation is worse than no reconciliation. If you&apos;re going to forgive, forgive. Don&apos;t bring the person back into the city and then refuse to look at them. That&apos;s what radicalized Absalom.",
+    ],
+  },
+
   characters: [
     { slug: 'absalom', role: 'Recalled from exile by a parable from Tekoa' },
     { slug: 'joab', role: 'Brokers Absalom&apos;s return' },

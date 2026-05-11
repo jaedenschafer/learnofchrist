@@ -14,6 +14,13 @@ export const JUDGES_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 10, intermediate: 14, deep: 19 },
+
+  youth: {
+    intros: [
+      "Joshua is dead. Israel asks God who should lead the next assault. Judah goes first. Some tribes obey and dispossess the Canaanites. Others get tired and let the Canaanites stay among them as forced labor.",
+      "The chapter is the seed of the next 400 years of trouble. Half-obedience now becomes total compromise later. Whatever God told you to fully clean out, clean it out. Don&apos;t let it move in next door.",
+    ],
+  },
   topicTags: ['deliverance', 'sin', 'leadership', 'mercy'],
   opener: {
     topical: true,

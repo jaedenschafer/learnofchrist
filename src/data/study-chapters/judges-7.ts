@@ -12,6 +12,13 @@ export const JUDGES_7: RichChapterContent = {
   chapter: 7,
 
   estimatedMinutes: { beginner: 8, intermediate: 13, deep: 17 },
+
+  youth: {
+    intros: [
+      "Gideon&apos;s army of 32,000 gets cut down to 300 by God on purpose. With 300 men against thousands of Midianites, they win the battle by blowing trumpets and breaking pottery. The math doesn&apos;t add up so the credit can&apos;t go to Israel.",
+      "When the math doesn&apos;t work, that&apos;s a sign God is about to do something only He can take credit for. Don&apos;t panic when your team feels too small. The 300 was the point.",
+    ],
+  },
   opener: {
     matchTitle: /Gideon/i,
     caption: 'Judges 7',

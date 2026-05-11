@@ -17,6 +17,13 @@ export const SAMUEL_2_15: RichChapterContent = {
   chapter: 15,
 
   estimatedMinutes: { beginner: 10, intermediate: 18, deep: 22 },
+
+  youth: {
+    intros: [
+      "Absalom spends four years stealing the hearts of Israel. Then he declares himself king at Hebron. David flees Jerusalem barefoot, crying. The man who was anointed king is on the run — again.",
+      "Sometimes the hardest betrayal isn&apos;t from an enemy. It&apos;s from your own kid, your own friend, your own protégé. David doesn&apos;t fight back yet. He just walks. Sometimes faith looks like leaving the city quietly and trusting God with what you can&apos;t control.",
+    ],
+  },
   topicTags: ['kingship', 'repentance', 'leadership', 'covenant'],
   opener: {
     topical: true,

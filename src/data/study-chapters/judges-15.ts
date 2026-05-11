@@ -12,6 +12,13 @@ export const JUDGES_15: RichChapterContent = {
   chapter: 15,
 
   estimatedMinutes: { beginner: 6, intermediate: 12, deep: 15 },
+
+  youth: {
+    intros: [
+      "Samson burns Philistine fields by tying torches to foxes&apos; tails. The Philistines kill his wife and her father in revenge. Samson kills a thousand Philistines with the jawbone of a donkey. Then he almost dies of thirst until God splits a rock and gives him water.",
+      "Samson alternates between superhuman strength and pathetic neediness. The same person who killed 1,000 enemies couldn&apos;t handle being thirsty. You&apos;re probably the same. Strong in one area, fragile in another. Both are real. Both belong to God.",
+    ],
+  },
   opener: {
     matchTitle: /Samson Slays a Thousand/i,
     caption: 'Judges 15',

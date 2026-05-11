@@ -14,6 +14,13 @@ export const JUDGES_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 7, intermediate: 10, deep: 13 },
+
+  youth: {
+    intros: [
+      "A new generation rises &ldquo;which knew not the Lord, nor yet the works which he had done for Israel.&rdquo; One generation away from forgetting. Then the cycle starts: sin, oppression, cry out, deliverance, peace — and back to sin.",
+      "Discipleship isn&apos;t automatic. Don&apos;t assume your kids or your friends absorb your faith just because they&apos;re around it. Pass it down on purpose or it disappears in twenty years.",
+    ],
+  },
   opener: {
     matchTitle: /An Angel Appears to/i,
     caption: 'Judges 2',

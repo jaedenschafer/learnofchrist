@@ -19,6 +19,13 @@ export const JUDGES_21: RichChapterContent = {
   chapter: 21,
 
   estimatedMinutes: { beginner: 6, intermediate: 9, deep: 12 },
+
+  youth: {
+    intros: [
+      "The book ends in chaos. Israel realizes they&apos;ve almost wiped out one of their own tribes. They scheme to give Benjamin survivors wives without breaking their oath. The book closes with the refrain one last time: &ldquo;In those days there was no king in Israel: every man did that which was right in his own eyes.&rdquo;",
+      "The book of Judges is a 400-year argument for why Israel needs a king. Spoiler: a king alone won&apos;t fix it. Israel needs THE King. The whole book is a setup for the Messiah. So is your life.",
+    ],
+  },
   opener: {
     matchTitle: /The Tribe of Benjamin/i,
     caption: 'Judges 21',
