@@ -14,6 +14,12 @@ export const JEREMIAH_27: RichChapterContent = {
   chapter: 27,
 
   estimatedMinutes: { beginner: 5, intermediate: 8, deep: 9 },
+
+  youth: {
+    intros: [
+      "Jeremiah wears a wooden yoke as a sign: submit to Babylon. Don&apos;t fight what God has decreed.",
+    ],
+  },
   topicTags: ['lament', 'judgment', 'hope', 'calling'],
   opener: {
     topical: true,

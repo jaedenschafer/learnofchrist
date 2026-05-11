@@ -15,6 +15,12 @@ export const JEREMIAH_44: RichChapterContent = {
   chapter: 44,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "In Egypt, the people return to worshipping the queen of heaven. Jeremiah&apos;s last recorded sermon — they ignore him. Stubborn people ignore prophets to the end.",
+    ],
+  },
   topicTags: ['lament', 'judgment', 'hope', 'calling'],
   opener: {
     topical: true,

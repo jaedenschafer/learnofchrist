@@ -16,6 +16,12 @@ export const JEREMIAH_29: RichChapterContent = {
   chapter: 29,
 
   estimatedMinutes: { beginner: 5, intermediate: 8, deep: 10 },
+
+  youth: {
+    intros: [
+      "Jeremiah&apos;s letter to the exiles in Babylon: build houses, plant gardens, take wives, seek the peace of the city where I&apos;ve sent you. &ldquo;For I know the thoughts that I think toward you, saith the Lord, thoughts of peace, and not of evil, to give you an expected end.&rdquo;",
+    ],
+  },
   topicTags: ['lament', 'judgment', 'hope', 'calling'],
   opener: {
     topical: true,

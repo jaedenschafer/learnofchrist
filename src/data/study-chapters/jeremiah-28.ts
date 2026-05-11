@@ -15,6 +15,12 @@ export const JEREMIAH_28: RichChapterContent = {
   chapter: 28,
 
   estimatedMinutes: { beginner: 4, intermediate: 6, deep: 7 },
+
+  youth: {
+    intros: [
+      "A false prophet Hananiah breaks Jeremiah&apos;s wooden yoke and predicts a quick end to the exile. God replaces the wooden yoke with an iron one. Hananiah dies that year. Don&apos;t lie in God&apos;s name.",
+    ],
+  },
   topicTags: ['lament', 'judgment', 'hope', 'calling'],
   opener: {
     topical: true,

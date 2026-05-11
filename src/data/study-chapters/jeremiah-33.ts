@@ -15,6 +15,12 @@ export const JEREMIAH_33: RichChapterContent = {
   chapter: 33,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 6 },
+
+  youth: {
+    intros: [
+      "&ldquo;Call unto me, and I will answer thee, and shew thee great and mighty things, which thou knowest not.&rdquo; And: &ldquo;I will raise unto David a Branch of righteousness.&rdquo; The Messiah, again.",
+    ],
+  },
   topicTags: ['lament', 'judgment', 'hope', 'calling'],
   opener: {
     topical: true,

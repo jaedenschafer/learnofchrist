@@ -19,6 +19,12 @@ export const JEREMIAH_7: RichChapterContent = {
   chapter: 7,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 6 },
+
+  youth: {
+    intros: [
+      "The temple sermon: don&apos;t trust in the temple while you live unjust lives. God isn&apos;t interested in your religious building if you&apos;re not interested in obeying Him.",
+    ],
+  },
   topicTags: ['lament', 'judgment', 'hope', 'calling'],
   opener: {
     topical: true,

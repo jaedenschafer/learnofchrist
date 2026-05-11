@@ -15,6 +15,12 @@ export const JEREMIAH_20: RichChapterContent = {
   chapter: 20,
 
   estimatedMinutes: { beginner: 5, intermediate: 8, deep: 10 },
+
+  youth: {
+    intros: [
+      "Jeremiah is beaten and put in stocks by Pashur. He vents to God: I&apos;m mocked all day. But: &ldquo;His word was in mine heart as a burning fire shut up in my bones, and I was weary with forbearing, and I could not stay.&rdquo; You can&apos;t un-call yourself.",
+    ],
+  },
   topicTags: ['lament', 'judgment', 'hope', 'calling'],
   opener: {
     topical: true,

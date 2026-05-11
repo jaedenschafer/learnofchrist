@@ -14,6 +14,12 @@ export const JEREMIAH_26: RichChapterContent = {
   chapter: 26,
 
   estimatedMinutes: { beginner: 6, intermediate: 8, deep: 10 },
+
+  youth: {
+    intros: [
+      "Jeremiah is arrested for prophesying. Princes defend him. Another prophet, Urijah, prophesies the same message and is killed. The same message can have different outcomes for different messengers.",
+    ],
+  },
   topicTags: ['lament', 'judgment', 'hope', 'calling'],
   opener: {
     topical: true,

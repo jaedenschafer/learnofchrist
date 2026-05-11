@@ -17,6 +17,12 @@ export const JEREMIAH_14: RichChapterContent = {
   chapter: 14,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "Drought. False prophets keep saying peace. Jeremiah pleads with God for the people. God says: don&apos;t pray for them anymore — they&apos;ve gone too far.",
+    ],
+  },
   topicTags: ['lament', 'judgment', 'hope', 'calling'],
   opener: {
     topical: true,

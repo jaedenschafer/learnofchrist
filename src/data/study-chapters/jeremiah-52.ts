@@ -15,6 +15,12 @@ export const JEREMIAH_52: RichChapterContent = {
   chapter: 52,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "The book closes with the historical account of Jerusalem&apos;s fall — repeated from 2 Kings 25. The book ends with a small ray of hope: an exiled Davidic king is given a permanent seat at the Babylonian table. The line lives.",
+    ],
+  },
   opener: {
     matchTitle: /The Flight of the/i,
     caption: 'Jeremiah 52',

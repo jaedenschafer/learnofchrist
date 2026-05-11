@@ -19,6 +19,12 @@ export const JEREMIAH_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 6 },
+
+  youth: {
+    intros: [
+      "Israel is portrayed as an unfaithful wife. God still calls her back: &ldquo;Return, thou backsliding Israel.&rdquo; The God you ran from is still saying come home.",
+    ],
+  },
   topicTags: ['lament', 'judgment', 'hope', 'calling'],
   opener: {
     topical: true,

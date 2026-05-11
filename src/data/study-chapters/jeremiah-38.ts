@@ -14,6 +14,12 @@ export const JEREMIAH_38: RichChapterContent = {
   chapter: 38,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 3 },
+
+  youth: {
+    intros: [
+      "Jeremiah is thrown into a muddy cistern to die. An Ethiopian eunuch named Ebed-melech goes to the king and pleads for Jeremiah&apos;s life. Foreigners often see what God&apos;s own people refuse to see.",
+    ],
+  },
   topicTags: ['lament', 'judgment', 'hope', 'calling'],
   opener: {
     topical: true,

@@ -19,6 +19,12 @@ export const JEREMIAH_4: RichChapterContent = {
   chapter: 4,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+
+  youth: {
+    intros: [
+      "Coming destruction from the north (Babylon). Yet: &ldquo;Break up your fallow ground, and sow not among thorns.&rdquo; Repent before the harvest comes due.",
+    ],
+  },
   topicTags: ['lament', 'judgment', 'hope', 'calling'],
   opener: {
     topical: true,

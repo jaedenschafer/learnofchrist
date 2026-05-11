@@ -19,6 +19,12 @@ export const JEREMIAH_9: RichChapterContent = {
   chapter: 9,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "&ldquo;Oh that my head were waters, and mine eyes a fountain of tears.&rdquo; Jeremiah&apos;s grief over his nation. Pray for tears for your culture.",
+    ],
+  },
   topicTags: ['lament', 'judgment', 'hope', 'calling'],
   opener: {
     topical: true,

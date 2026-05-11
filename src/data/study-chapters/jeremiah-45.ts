@@ -16,6 +16,12 @@ export const JEREMIAH_45: RichChapterContent = {
   chapter: 45,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "A short personal word for Baruch, Jeremiah&apos;s scribe. &ldquo;Seekest thou great things for thyself? seek them not.&rdquo; God preserves Baruch&apos;s life through the disaster.",
+    ],
+  },
   topicTags: ['lament', 'judgment', 'hope', 'calling'],
   opener: {
     topical: true,

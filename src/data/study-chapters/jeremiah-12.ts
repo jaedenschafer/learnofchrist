@@ -17,6 +17,12 @@ export const JEREMIAH_12: RichChapterContent = {
   chapter: 12,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "Jeremiah complains: why do the wicked prosper? God answers indirectly: if footmen tire you, how will you keep up with horses? Worse is coming. Build endurance now.",
+    ],
+  },
   topicTags: ['lament', 'judgment', 'hope', 'calling'],
   opener: {
     topical: true,

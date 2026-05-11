@@ -18,6 +18,12 @@ export const JEREMIAH_15: RichChapterContent = {
   chapter: 15,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "God will not relent even if Moses and Samuel stood before Him. Jeremiah cries: I&apos;m alone, mocked, abandoned. God answers: stand firm; speak what I tell you; I&apos;ll deliver you.",
+    ],
+  },
   topicTags: ['lament', 'judgment', 'hope', 'calling'],
   opener: {
     topical: true,

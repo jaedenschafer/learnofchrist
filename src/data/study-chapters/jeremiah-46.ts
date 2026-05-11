@@ -15,6 +15,12 @@ export const JEREMIAH_46: RichChapterContent = {
   chapter: 46,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "Prophecy against Egypt. The empire that hosted Israel&apos;s exile will itself be judged.",
+    ],
+  },
   topicTags: ['lament', 'judgment', 'hope', 'calling'],
   opener: {
     topical: true,

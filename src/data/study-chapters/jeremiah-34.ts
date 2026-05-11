@@ -15,6 +15,12 @@ export const JEREMIAH_34: RichChapterContent = {
   chapter: 34,
 
   estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
+
+  youth: {
+    intros: [
+      "Zedekiah frees the slaves, then goes back on his word and re-enslaves them. God responds: I&apos;ll proclaim freedom for you — to the sword, to pestilence, to famine.",
+    ],
+  },
   topicTags: ['lament', 'judgment', 'hope', 'calling'],
   opener: {
     topical: true,

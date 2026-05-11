@@ -15,6 +15,12 @@ export const JEREMIAH_42: RichChapterContent = {
   chapter: 42,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "The remnant asks Jeremiah to inquire of the Lord. Jeremiah does. God says: stay in the land. They had already decided to flee to Egypt.",
+    ],
+  },
   topicTags: ['lament', 'judgment', 'hope', 'calling'],
   opener: {
     topical: true,

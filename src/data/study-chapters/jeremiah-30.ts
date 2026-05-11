@@ -15,6 +15,12 @@ export const JEREMIAH_30: RichChapterContent = {
   chapter: 30,
 
   estimatedMinutes: { beginner: 5, intermediate: 8, deep: 9 },
+
+  youth: {
+    intros: [
+      "A promise of restoration. &ldquo;I will turn again the captivity of my people Israel and Judah.&rdquo; Even in judgment, God plans the comeback.",
+    ],
+  },
   topicTags: ['lament', 'judgment', 'hope', 'calling'],
   opener: {
     topical: true,

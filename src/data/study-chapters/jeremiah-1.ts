@@ -19,6 +19,12 @@ export const JEREMIAH_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 3, intermediate: 6, deep: 8 },
+
+  youth: {
+    intros: [
+      "God calls Jeremiah as a young prophet. &ldquo;Before I formed thee in the belly I knew thee.&rdquo; Jeremiah objects: I&apos;m a kid, I can&apos;t speak. God answers: don&apos;t say you&apos;re a child. Go where I send. Speak what I tell you. Don&apos;t be afraid.",
+    ],
+  },
   opener: {
     matchTitle: /The Prophet Jeremiah/i,
     caption: 'Jeremiah 1',

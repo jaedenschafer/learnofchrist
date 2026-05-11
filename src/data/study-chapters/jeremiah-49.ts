@@ -14,6 +14,12 @@ export const JEREMIAH_49: RichChapterContent = {
   chapter: 49,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "Prophecy against Ammon, Edom, Damascus, Kedar, Hazor, Elam. God&apos;s reach extends past Israel&apos;s borders.",
+    ],
+  },
   topicTags: ['lament', 'judgment', 'hope', 'calling'],
   opener: {
     topical: true,

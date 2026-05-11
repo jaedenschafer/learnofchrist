@@ -14,6 +14,12 @@ export const JEREMIAH_36: RichChapterContent = {
   chapter: 36,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 3 },
+
+  youth: {
+    intros: [
+      "Jeremiah dictates God&apos;s words to Baruch on a scroll. King Jehoiakim cuts the scroll into pieces with a knife and burns it as he reads. God tells Jeremiah to write a NEW scroll. You can burn the words. You can&apos;t silence the Author.",
+    ],
+  },
   topicTags: ['lament', 'judgment', 'hope', 'calling'],
   opener: {
     topical: true,

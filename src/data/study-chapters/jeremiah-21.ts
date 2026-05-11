@@ -14,6 +14,12 @@ export const JEREMIAH_21: RichChapterContent = {
   chapter: 21,
 
   estimatedMinutes: { beginner: 4, intermediate: 7, deep: 8 },
+
+  youth: {
+    intros: [
+      "King Zedekiah sends to Jeremiah for hope: will Babylon retreat? Jeremiah&apos;s answer: no. Surrender or die. Sometimes the prophetic word is hard.",
+    ],
+  },
   topicTags: ['lament', 'judgment', 'hope', 'calling'],
   opener: {
     topical: true,

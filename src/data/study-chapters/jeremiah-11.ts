@@ -18,6 +18,12 @@ export const JEREMIAH_11: RichChapterContent = {
   chapter: 11,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "The covenant. Israel is in violation. Jeremiah&apos;s own hometown plots to kill him for preaching it. Sometimes the closest people resist your message hardest.",
+    ],
+  },
   topicTags: ['lament', 'judgment', 'hope', 'calling'],
   opener: {
     topical: true,

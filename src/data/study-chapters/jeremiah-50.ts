@@ -15,6 +15,12 @@ export const JEREMIAH_50: RichChapterContent = {
   chapter: 50,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "The fall of Babylon prophesied. The empire that crushed Jerusalem will itself be crushed. God uses nations and then disposes of them.",
+    ],
+  },
   topicTags: ['lament', 'judgment', 'hope', 'calling'],
   opener: {
     topical: true,

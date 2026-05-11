@@ -15,6 +15,12 @@ export const JEREMIAH_22: RichChapterContent = {
   chapter: 22,
 
   estimatedMinutes: { beginner: 5, intermediate: 8, deep: 9 },
+
+  youth: {
+    intros: [
+      "Judgment on the kings of Judah — Shallum, Jehoiakim, Coniah. Their lineage is cut off from David&apos;s throne. The royal line goes through Jeconiah but stays under judgment until Jesus, born of Mary&apos;s line.",
+    ],
+  },
   topicTags: ['lament', 'judgment', 'hope', 'calling'],
   opener: {
     topical: true,

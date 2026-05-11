@@ -15,6 +15,12 @@ export const JEREMIAH_43: RichChapterContent = {
   chapter: 43,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 3 },
+
+  youth: {
+    intros: [
+      "The remnant rejects God&apos;s answer and flees to Egypt — taking Jeremiah with them by force. Sometimes you ask God for guidance only to confirm what you&apos;d already chosen.",
+    ],
+  },
   topicTags: ['lament', 'judgment', 'hope', 'calling'],
   opener: {
     topical: true,

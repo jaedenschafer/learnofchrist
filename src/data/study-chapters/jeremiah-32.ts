@@ -15,6 +15,12 @@ export const JEREMIAH_32: RichChapterContent = {
   chapter: 32,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 5 },
+
+  youth: {
+    intros: [
+      "Jeremiah buys a field while Babylon is besieging the city. A prophetic act of hope: people will come back here someday and own land again. Bet on God&apos;s long game.",
+    ],
+  },
   topicTags: ['lament', 'judgment', 'hope', 'calling'],
   opener: {
     topical: true,

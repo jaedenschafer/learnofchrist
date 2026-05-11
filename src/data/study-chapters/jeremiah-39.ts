@@ -14,6 +14,12 @@ export const JEREMIAH_39: RichChapterContent = {
   chapter: 39,
 
   estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
+
+  youth: {
+    intros: [
+      "Jerusalem falls. Zedekiah&apos;s sons are killed in front of him; then his eyes are put out; then he&apos;s dragged to Babylon in chains. Jeremiah is set free by the Babylonians who recognized his integrity.",
+    ],
+  },
   topicTags: ['lament', 'judgment', 'hope', 'calling'],
   opener: {
     topical: true,

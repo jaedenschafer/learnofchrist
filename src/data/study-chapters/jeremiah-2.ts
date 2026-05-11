@@ -18,6 +18,12 @@ export const JEREMIAH_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 2, intermediate: 6, deep: 7 },
+
+  youth: {
+    intros: [
+      "God&apos;s lawsuit against Israel: she has forsaken Him, the fountain of living waters, to dig her own broken cisterns. The deepest sin in any generation is exchanging the real Source for cheap counterfeits.",
+    ],
+  },
   topicTags: ['lament', 'judgment', 'hope', 'calling'],
   opener: {
     topical: true,

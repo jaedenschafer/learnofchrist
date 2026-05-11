@@ -18,6 +18,12 @@ export const JEREMIAH_13: RichChapterContent = {
   chapter: 13,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "The linen sash buried by the river ruined. Like the linen, Israel&apos;s pride will be destroyed. Visible parable preaching.",
+    ],
+  },
   topicTags: ['lament', 'judgment', 'hope', 'calling'],
   opener: {
     topical: true,

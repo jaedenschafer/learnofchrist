@@ -16,6 +16,12 @@ export const JEREMIAH_16: RichChapterContent = {
   chapter: 16,
 
   estimatedMinutes: { beginner: 6, intermediate: 10, deep: 13 },
+
+  youth: {
+    intros: [
+      "God forbids Jeremiah from marrying or having kids — the coming judgment will be too horrific. The prophet&apos;s personal life becomes a sermon.",
+    ],
+  },
   topicTags: ['lament', 'judgment', 'hope', 'calling'],
   opener: {
     topical: true,

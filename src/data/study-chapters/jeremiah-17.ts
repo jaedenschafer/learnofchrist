@@ -15,6 +15,12 @@ export const JEREMIAH_17: RichChapterContent = {
   chapter: 17,
 
   estimatedMinutes: { beginner: 7, intermediate: 11, deep: 14 },
+
+  youth: {
+    intros: [
+      "&ldquo;Cursed be the man that trusteth in man…blessed is the man that trusteth in the Lord.&rdquo; Two trees again — like Psalm 1. The heart is deceitful above all things; only God knows it.",
+    ],
+  },
   topicTags: ['lament', 'judgment', 'hope', 'calling'],
   opener: {
     topical: true,

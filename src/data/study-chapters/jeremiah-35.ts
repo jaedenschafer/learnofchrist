@@ -15,6 +15,12 @@ export const JEREMIAH_35: RichChapterContent = {
   chapter: 35,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 3 },
+
+  youth: {
+    intros: [
+      "The Rechabites — a family that for generations refused to drink wine because their ancestor commanded it. Their faithfulness shames Israel&apos;s unfaithfulness to God.",
+    ],
+  },
   topicTags: ['lament', 'judgment', 'hope', 'calling'],
   opener: {
     topical: true,

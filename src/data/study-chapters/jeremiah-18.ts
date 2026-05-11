@@ -15,6 +15,12 @@ export const JEREMIAH_18: RichChapterContent = {
   chapter: 18,
 
   estimatedMinutes: { beginner: 6, intermediate: 8, deep: 11 },
+
+  youth: {
+    intros: [
+      "The potter&apos;s house. The clay is marred; the potter reshapes it. God can do the same with nations and individuals. Stay soft enough to be reshaped.",
+    ],
+  },
   topicTags: ['lament', 'judgment', 'hope', 'calling'],
   opener: {
     topical: true,

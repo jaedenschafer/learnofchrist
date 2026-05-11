@@ -14,6 +14,12 @@ export const JEREMIAH_41: RichChapterContent = {
   chapter: 41,
 
   estimatedMinutes: { beginner: 1, intermediate: 2, deep: 2 },
+
+  youth: {
+    intros: [
+      "Gedaliah is assassinated. The remnant panics about Babylonian retaliation.",
+    ],
+  },
   topicTags: ['lament', 'judgment', 'hope', 'calling'],
   opener: {
     topical: true,

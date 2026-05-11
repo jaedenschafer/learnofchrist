@@ -15,6 +15,12 @@ export const JEREMIAH_24: RichChapterContent = {
   chapter: 24,
 
   estimatedMinutes: { beginner: 3, intermediate: 5, deep: 6 },
+
+  youth: {
+    intros: [
+      "Two baskets of figs — good ones to be sent to Babylon, bad ones to remain in the land. The exile is mercy, not the worst judgment. The worst judgment is being left where you are.",
+    ],
+  },
   topicTags: ['lament', 'judgment', 'hope', 'calling'],
   opener: {
     topical: true,

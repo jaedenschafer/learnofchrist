@@ -18,6 +18,12 @@ export const JEREMIAH_6: RichChapterContent = {
   chapter: 6,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+
+  youth: {
+    intros: [
+      "More warnings of invasion. The leaders are healing the people&apos;s wounds slightly: &ldquo;Peace, peace; when there is no peace.&rdquo; Don&apos;t accept easy assurances from people who downplay the actual danger.",
+    ],
+  },
   topicTags: ['lament', 'judgment', 'hope', 'calling'],
   opener: {
     topical: true,

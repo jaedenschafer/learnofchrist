@@ -14,6 +14,12 @@ export const JEREMIAH_40: RichChapterContent = {
   chapter: 40,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 3 },
+
+  youth: {
+    intros: [
+      "Jeremiah is given a choice — go to Babylon or stay in the land. He stays with the remnant under Gedaliah. Sometimes faithfulness keeps you with the wreckage.",
+    ],
+  },
   topicTags: ['lament', 'judgment', 'hope', 'calling'],
   opener: {
     topical: true,

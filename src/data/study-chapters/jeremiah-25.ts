@@ -14,6 +14,12 @@ export const JEREMIAH_25: RichChapterContent = {
   chapter: 25,
 
   estimatedMinutes: { beginner: 5, intermediate: 7, deep: 9 },
+
+  youth: {
+    intros: [
+      "The 70-year exile is announced. The cup of God&apos;s wrath goes to all the nations.",
+    ],
+  },
   topicTags: ['lament', 'judgment', 'hope', 'calling'],
   opener: {
     topical: true,

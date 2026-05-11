@@ -16,6 +16,12 @@ export const JEREMIAH_23: RichChapterContent = {
   chapter: 23,
 
   estimatedMinutes: { beginner: 7, intermediate: 10, deep: 12 },
+
+  youth: {
+    intros: [
+      "Woe to the false shepherds. Then a promise: &ldquo;I will raise unto David a righteous Branch, and a King shall reign and prosper.&rdquo; The Messiah is coming.",
+    ],
+  },
   opener: {
     matchTitle: /The Hireling Shepherd/i,
     caption: 'Jeremiah 23',

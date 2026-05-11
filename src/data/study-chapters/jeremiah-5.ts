@@ -18,6 +18,12 @@ export const JEREMIAH_5: RichChapterContent = {
   chapter: 5,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 6 },
+
+  youth: {
+    intros: [
+      "God sends Jeremiah through Jerusalem looking for ONE righteous person to spare the city. He can&apos;t find one. Don&apos;t assume your culture is fine because it looks normal.",
+    ],
+  },
   topicTags: ['lament', 'judgment', 'hope', 'calling'],
   opener: {
     topical: true,

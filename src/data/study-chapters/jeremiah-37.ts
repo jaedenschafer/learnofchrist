@@ -14,6 +14,12 @@ export const JEREMIAH_37: RichChapterContent = {
   chapter: 37,
 
   estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
+
+  youth: {
+    intros: [
+      "Jeremiah is imprisoned. Zedekiah secretly asks if there&apos;s a word from the Lord. Jeremiah answers: yes — you&apos;ll be delivered to Babylon. Truth doesn&apos;t change because the king is asking nicer this time.",
+    ],
+  },
   topicTags: ['lament', 'judgment', 'hope', 'calling'],
   opener: {
     topical: true,

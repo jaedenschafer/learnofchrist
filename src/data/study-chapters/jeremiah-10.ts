@@ -18,6 +18,12 @@ export const JEREMIAH_10: RichChapterContent = {
   chapter: 10,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 6 },
+
+  youth: {
+    intros: [
+      "Don&apos;t learn the way of the heathen. Their idols are scarecrows in cucumber fields — they can&apos;t walk, can&apos;t talk, do nothing. The Lord is the true and living God.",
+    ],
+  },
   topicTags: ['lament', 'judgment', 'hope', 'calling'],
   opener: {
     topical: true,

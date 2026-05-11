@@ -18,6 +18,12 @@ export const JEREMIAH_8: RichChapterContent = {
   chapter: 8,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 6 },
+
+  youth: {
+    intros: [
+      "Jeremiah weeps for his people: &ldquo;Is there no balm in Gilead; is there no physician there? why then is not the health of the daughter of my people recovered?&rdquo; The healer is available. The patient won&apos;t come.",
+    ],
+  },
   topicTags: ['lament', 'judgment', 'hope', 'calling'],
   opener: {
     topical: true,

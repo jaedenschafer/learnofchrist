@@ -15,6 +15,12 @@ export const JEREMIAH_19: RichChapterContent = {
   chapter: 19,
 
   estimatedMinutes: { beginner: 5, intermediate: 8, deep: 10 },
+
+  youth: {
+    intros: [
+      "Jeremiah breaks a clay jar in front of the leaders to show what God will do to Jerusalem. The illustration costs him another beating.",
+    ],
+  },
   topicTags: ['lament', 'judgment', 'hope', 'calling'],
   opener: {
     topical: true,

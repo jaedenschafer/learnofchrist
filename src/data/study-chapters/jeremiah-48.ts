@@ -15,6 +15,12 @@ export const JEREMIAH_48: RichChapterContent = {
   chapter: 48,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "Prophecy against Moab. Their pride is broken. &ldquo;Cursed be he that doeth the work of the Lord deceitfully&rdquo; — even pagan nations are held to account by God.",
+    ],
+  },
   topicTags: ['lament', 'judgment', 'hope', 'calling'],
   opener: {
     topical: true,

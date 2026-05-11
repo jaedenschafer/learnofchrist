@@ -16,6 +16,12 @@ export const JEREMIAH_31: RichChapterContent = {
   chapter: 31,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 6 },
+
+  youth: {
+    intros: [
+      "The new covenant: &ldquo;I will put my law in their inward parts, and write it in their hearts; and will be their God, and they shall be my people.&rdquo; Hebrews 8 quotes this entire passage. The new covenant in Christ&apos;s blood.",
+    ],
+  },
   opener: {
     matchTitle: /Jeremiah/i,
     caption: 'Jeremiah 31',

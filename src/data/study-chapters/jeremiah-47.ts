@@ -14,6 +14,12 @@ export const JEREMIAH_47: RichChapterContent = {
   chapter: 47,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 3 },
+
+  youth: {
+    intros: [
+      "Prophecy against the Philistines. They&apos;re finished.",
+    ],
+  },
   topicTags: ['lament', 'judgment', 'hope', 'calling'],
   opener: {
     topical: true,

@@ -16,6 +16,12 @@ export const JEREMIAH_51: RichChapterContent = {
   chapter: 51,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "More on Babylon&apos;s fall. Babylon becomes a symbol all the way through Revelation of every empire that opposes God.",
+    ],
+  },
   topicTags: ['lament', 'judgment', 'hope', 'calling'],
   opener: {
     topical: true,
