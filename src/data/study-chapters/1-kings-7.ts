@@ -16,6 +16,13 @@ export const KINGS_1_7: RichChapterContent = {
   chapter: 7,
 
   estimatedMinutes: { beginner: 4, intermediate: 12, deep: 17 },
+
+  youth: {
+    intros: [
+      "Solomon spends THIRTEEN years building his own palace — almost twice as long as the temple. Then back to the temple furnishings: pillars Jachin and Boaz, bronze sea, lavers, lampstands.",
+      "Where you spend the most time and money tells the truth about what you actually love. Solomon&apos;s 13-year palace foreshadowed where his heart was already drifting.",
+    ],
+  },
   topicTags: ['kingship', 'wisdom', 'sin', 'leadership'],
   opener: {
     topical: true,

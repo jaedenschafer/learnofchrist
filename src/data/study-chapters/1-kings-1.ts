@@ -23,6 +23,13 @@ export const KINGS_1_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 11, intermediate: 20, deep: 25 },
+
+  youth: {
+    intros: [
+      "David is old and dying. His son Adonijah declares himself king without asking. The prophet Nathan and Bathsheba run to David: do something now or Solomon dies. David crowns Solomon at the spring while Adonijah is throwing his coronation party.",
+      "When you delay action because you&apos;re tired, somebody else fills the vacuum. Don&apos;t wait too long to do the thing God put in your hand.",
+    ],
+  },
   opener: {
     matchTitle: /David Has Solomon Anointed/i,
     caption: '1 Kings 1',

@@ -18,6 +18,13 @@ export const KINGS_1_18: RichChapterContent = {
   chapter: 18,
 
   estimatedMinutes: { beginner: 3, intermediate: 13, deep: 17 },
+
+  youth: {
+    intros: [
+      "Three-year drought. Elijah challenges 450 prophets of Baal to a contest on Mount Carmel. They scream at Baal all day; nothing. Elijah pours water on his altar three times. God sends fire. The people fall on their faces: &ldquo;The Lord, he is the God.&rdquo;",
+      "When you bet your life on the wrong god, the silence eventually becomes obvious. Bet on the One who answers by fire. He still does.",
+    ],
+  },
   opener: {
     matchTitle: /Elijah Slays the Prophets/i,
     caption: '1 Kings 18',

@@ -6,6 +6,13 @@ export const KINGS_1_14: RichChapterContent = {
   chapter: 14,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 6 },
+
+  youth: {
+    intros: [
+      "Jeroboam&apos;s son falls sick. He sends his wife in disguise to the prophet Ahijah. Ahijah is blind but God tells him exactly who&apos;s coming and why. He pronounces judgment on Jeroboam&apos;s house.",
+      "Disguises don&apos;t work with God. The thing you&apos;re trying to hide from your pastor, your parents, your friends — He sees. Stop performing. Just confess.",
+    ],
+  },
   topicTags: ['kingship', 'wisdom', 'sin', 'leadership'],
   opener: {
     topical: true,

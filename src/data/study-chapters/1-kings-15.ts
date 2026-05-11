@@ -21,6 +21,13 @@ export const KINGS_1_15: RichChapterContent = {
   chapter: 15,
 
   estimatedMinutes: { beginner: 7, intermediate: 14, deep: 19 },
+
+  youth: {
+    intros: [
+      "A series of kings of Judah and Israel. Asa of Judah does what&apos;s right — even removes his idolatrous grandmother from her position. Most of the northern kings do evil. The pattern is set.",
+      "It&apos;s never too late to break a family pattern. Asa removed his own grandmother&apos;s idol because it was idolatrous. Be the family member willing to do the hard thing.",
+    ],
+  },
   topicTags: ['kingship', 'wisdom', 'sin', 'leadership'],
   opener: {
     topical: true,

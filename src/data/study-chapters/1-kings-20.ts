@@ -23,6 +23,13 @@ export const KINGS_1_20: RichChapterContent = {
   chapter: 20,
 
   estimatedMinutes: { beginner: 4, intermediate: 10, deep: 14 },
+
+  youth: {
+    intros: [
+      "Ben-hadad of Syria attacks Israel. God gives Ahab — wicked Ahab — the victory anyway, twice. Then Ahab makes a treaty with him instead of executing him as commanded. A prophet rebukes Ahab: your life for his.",
+      "God can use you for His purposes even when you&apos;re not walking with Him. Don&apos;t mistake His use of you for His approval of you. Ahab won battles and still ended up cursed.",
+    ],
+  },
   opener: {
     matchTitle: /The Israelites Slaughter the/i,
     caption: '1 Kings 20',

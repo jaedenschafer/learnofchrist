@@ -25,6 +25,13 @@ export const KINGS_1_12: RichChapterContent = {
   chapter: 12,
 
   estimatedMinutes: { beginner: 7, intermediate: 13, deep: 17 },
+
+  youth: {
+    intros: [
+      "Solomon dies. His son Rehoboam is asked to lighten the heavy taxes. He listens to his young friends instead of the older advisors and answers harshly. The northern ten tribes rebel. The kingdom splits forever.",
+      "Stupid leadership decisions in your twenties can divide kingdoms for centuries. Listen to old people. They&apos;ve seen the consequences of the words you haven&apos;t said yet.",
+    ],
+  },
   opener: {
     matchTitle: /The Kingdom Divided under/i,
     caption: '1 Kings 12',

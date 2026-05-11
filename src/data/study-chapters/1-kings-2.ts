@@ -18,6 +18,13 @@ export const KINGS_1_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 15, intermediate: 26, deep: 33 },
+
+  youth: {
+    intros: [
+      "David&apos;s deathbed instructions to Solomon: walk in God&apos;s ways. Then he names enemies that need handling. Solomon executes Adonijah, exiles Abiathar, and Joab is killed clinging to the altar. Old debts cleared. The throne is established.",
+      "Don&apos;t leave unfinished business that&apos;ll destroy your kid&apos;s leadership. Be brave enough to handle the hard conversations now.",
+    ],
+  },
   topicTags: ['kingship', 'wisdom', 'sin', 'leadership'],
   opener: {
     topical: true,

@@ -18,6 +18,13 @@ export const KINGS_1_10: RichChapterContent = {
   chapter: 10,
 
   estimatedMinutes: { beginner: 4, intermediate: 13, deep: 18 },
+
+  youth: {
+    intros: [
+      "The Queen of Sheba travels from Africa to test Solomon&apos;s wisdom. She&apos;s overwhelmed: &ldquo;the half was not told me.&rdquo; Then a long description of Solomon&apos;s wealth — 666 talents of gold per year, ivory throne, silver as common as stones in Jerusalem.",
+      "Pay attention to that number — 666. The chapter is hinting that something is off. Wealth without limits and worship without focus is its own kind of idolatry. Watch the next chapter.",
+    ],
+  },
   opener: {
     matchTitle: /The Queen of Sheba/i,
     caption: '1 Kings 10',

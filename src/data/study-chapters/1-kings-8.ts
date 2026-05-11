@@ -20,6 +20,13 @@ export const KINGS_1_8: RichChapterContent = {
   chapter: 8,
 
   estimatedMinutes: { beginner: 9, intermediate: 19, deep: 23 },
+
+  youth: {
+    intros: [
+      "The temple is dedicated. The ark is brought in. The cloud of God&apos;s glory fills the house so the priests can&apos;t even stand to minister. Solomon kneels and prays one of the longest prayers in the Bible.",
+      "Notice his prayer: when this people sin and turn back, please hear from heaven and forgive. Solomon was already preparing for the apostasy he himself would lead. The prayer of dedication is also a prayer for mercy. We need both.",
+    ],
+  },
   opener: {
     matchTitle: /Solomon Dedicates the Temple/i,
     caption: '1 Kings 8',

@@ -19,6 +19,13 @@ export const KINGS_1_17: RichChapterContent = {
   chapter: 17,
 
   estimatedMinutes: { beginner: 5, intermediate: 10, deep: 14 },
+
+  youth: {
+    intros: [
+      "Elijah shows up out of nowhere and tells Ahab: no rain for years. Then God hides him by a brook where ravens feed him bread and meat. The brook dries up. God sends him to a starving widow whose flour and oil never run out for the duration of the famine.",
+      "God provides daily bread in extraordinary ways during seasons of drought. Don&apos;t panic when the brook dries up. He always has a next provision.",
+    ],
+  },
   opener: {
     matchTitle: /Elijah/i,
     caption: '1 Kings 17',

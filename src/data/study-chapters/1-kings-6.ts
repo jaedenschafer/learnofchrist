@@ -22,6 +22,13 @@ export const KINGS_1_6: RichChapterContent = {
   chapter: 6,
 
   estimatedMinutes: { beginner: 7, intermediate: 16, deep: 21 },
+
+  youth: {
+    intros: [
+      "Solomon spends seven years building the temple. Every detail spelled out. God says: &ldquo;If thou wilt walk in my statutes…then will I perform my word with thee.&rdquo; The building matters less than the obedience of the people inside it.",
+      "Don&apos;t mistake the BUILDING for the relationship. Beautiful church, beautiful programs, dead heart — that combination has never impressed God.",
+    ],
+  },
   opener: {
     matchTitle: /Solomon Builds the Temple/i,
     caption: '1 Kings 6',

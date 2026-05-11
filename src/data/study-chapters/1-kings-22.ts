@@ -20,6 +20,13 @@ export const KINGS_1_22: RichChapterContent = {
   chapter: 22,
 
   estimatedMinutes: { beginner: 10, intermediate: 18, deep: 23 },
+
+  youth: {
+    intros: [
+      "Ahab goes to war again. Asks 400 yes-men prophets if he&apos;ll win. They all say yes. Asks one more prophet, Micaiah, who tells the truth: you&apos;ll die. Ahab puts him in prison. Goes to war anyway. A random arrow finds him through a crack in his armor.",
+      "The yes-men in your life will tell you what you want to hear right up until you&apos;re dead. The Micaiahs will tell you the truth and pay for it. Find a Micaiah. Listen to one.",
+    ],
+  },
   opener: {
     matchTitle: /Ahab/i,
     caption: '1 Kings 22',

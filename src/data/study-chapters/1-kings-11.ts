@@ -21,6 +21,13 @@ export const KINGS_1_11: RichChapterContent = {
   chapter: 11,
 
   estimatedMinutes: { beginner: 7, intermediate: 14, deep: 19 },
+
+  youth: {
+    intros: [
+      "Solomon takes 700 wives and 300 concubines, many of them foreign. They turn his heart after their gods. The king who built God&apos;s temple builds altars to Chemosh and Molech. God tells him: I&apos;m tearing the kingdom from your son.",
+      "The wisest man who ever lived ended his life in idolatry. There is no level of spiritual maturity that makes you safe from a slow drift. Stay vigilant. Don&apos;t marry your way into other gods.",
+    ],
+  },
   opener: {
     matchTitle: /Solomon Falls into Idolatry/i,
     caption: '1 Kings 11',

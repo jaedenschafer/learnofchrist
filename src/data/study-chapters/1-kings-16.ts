@@ -16,6 +16,13 @@ export const KINGS_1_16: RichChapterContent = {
   chapter: 16,
 
   estimatedMinutes: { beginner: 4, intermediate: 9, deep: 13 },
+
+  youth: {
+    intros: [
+      "Four kings in rapid succession in the north — Baasha, Elah, Zimri, Omri. Most reign briefly, all die violently. Then Ahab takes the throne and marries Jezebel. The text says Ahab did more evil than all the kings before him.",
+      "Some marriages bring God&apos;s blessing. Some bring His judgment on a whole nation. Be careful who you bring into your house. Their gods come with them.",
+    ],
+  },
   topicTags: ['kingship', 'wisdom', 'sin', 'leadership'],
   opener: {
     topical: true,

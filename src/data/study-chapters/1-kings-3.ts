@@ -19,6 +19,13 @@ export const KINGS_1_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 7, intermediate: 17, deep: 23 },
+
+  youth: {
+    intros: [
+      "Solomon, young and overwhelmed, gets a dream: God offers him anything. He asks for an understanding heart to judge God&apos;s people. God is so pleased He gives him wisdom AND wealth AND honor.",
+      "Then the famous case: two prostitutes, one baby. Solomon orders the baby cut in half to find the real mother. Her response reveals her. Wisdom isn&apos;t just smart. It&apos;s the right question that exposes the truth.",
+    ],
+  },
   opener: {
     matchTitle: /Solomon/i,
     caption: '1 Kings 3',

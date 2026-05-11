@@ -18,6 +18,13 @@ export const KINGS_1_5: RichChapterContent = {
   chapter: 5,
 
   estimatedMinutes: { beginner: 5, intermediate: 9, deep: 12 },
+
+  youth: {
+    intros: [
+      "Solomon makes a treaty with Hiram king of Tyre to get cedar for the temple. Hiram cuts the lumber and floats it down the coast. 30,000 Israelites work in shifts. The God who gave them a king now gives them a partner who will help build His house.",
+      "Big God-projects usually require partnerships you didn&apos;t expect. Don&apos;t be too proud to accept help from outside your tribe when God is the one orchestrating it.",
+    ],
+  },
   opener: {
     matchTitle: /Cedars Are Cut Down/i,
     caption: '1 Kings 5',

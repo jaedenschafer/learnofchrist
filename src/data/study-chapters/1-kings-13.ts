@@ -20,6 +20,13 @@ export const KINGS_1_13: RichChapterContent = {
   chapter: 13,
 
   estimatedMinutes: { beginner: 7, intermediate: 14, deep: 19 },
+
+  youth: {
+    intros: [
+      "A young prophet from Judah confronts the new king Jeroboam at the altar in Bethel. God tells him: don&apos;t eat or drink in this place; don&apos;t go home the same way. An old prophet lies to him. He listens. A lion kills him on the road.",
+      "Be careful whose voice you listen to AFTER God has clearly spoken to you. Some of the most dangerous voices in your life will claim to be on God&apos;s team. If it contradicts what He&apos;s already told you, it&apos;s a lion.",
+    ],
+  },
   opener: {
     matchTitle: /The Disobedient Prophet Is/i,
     caption: '1 Kings 13',

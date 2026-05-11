@@ -24,6 +24,13 @@ export const KINGS_1_21: RichChapterContent = {
   chapter: 21,
 
   estimatedMinutes: { beginner: 7, intermediate: 13, deep: 17 },
+
+  youth: {
+    intros: [
+      "Ahab covets his neighbor Naboth&apos;s vineyard. Naboth refuses to sell — it&apos;s his family inheritance. Jezebel arranges a sham trial; Naboth is stoned to death. Ahab takes the vineyard. Elijah confronts Ahab: dogs will lick your blood where they licked Naboth&apos;s.",
+      "Coveting kills people. Always. Whatever your neighbor has that you can&apos;t stop thinking about — the relationship, the body, the platform — that fixation will, given enough time, lead you to do something you didn&apos;t think you were capable of.",
+    ],
+  },
   opener: {
     matchTitle: /Izebel en koning Achab/i,
     caption: '1 Kings 21',

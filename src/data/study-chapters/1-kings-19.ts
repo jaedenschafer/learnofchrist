@@ -21,6 +21,13 @@ export const KINGS_1_19: RichChapterContent = {
   chapter: 19,
 
   estimatedMinutes: { beginner: 7, intermediate: 15, deep: 20 },
+
+  youth: {
+    intros: [
+      "After the most spectacular victory of his life, Elijah hears Jezebel&apos;s threat and runs into the wilderness wanting to die. God doesn&apos;t scold him — feeds him, lets him sleep, and then meets him on Mount Horeb. Not in the wind, earthquake, or fire. In a still small voice.",
+      "Sometimes the worst depression comes RIGHT AFTER your biggest victory. God doesn&apos;t shame you for it. He sends food, sleep, and quiet. Then a fresh assignment. He never wastes a wilderness.",
+    ],
+  },
   opener: {
     matchTitle: /The Lord Appears to/i,
     caption: '1 Kings 19',

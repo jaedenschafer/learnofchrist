@@ -21,6 +21,13 @@ export const KINGS_1_9: RichChapterContent = {
   chapter: 9,
 
   estimatedMinutes: { beginner: 8, intermediate: 15, deep: 21 },
+
+  youth: {
+    intros: [
+      "God appears to Solomon a second time — answers his prayer, but also warns: if you turn from me, I&apos;ll cast Israel out of this land and this house will become a heap of stones. The promise has conditions.",
+      "Don&apos;t mistake God&apos;s blessing for God&apos;s endorsement of whatever you do next. The same God who builds your house can take it down. Stay close.",
+    ],
+  },
   topicTags: ['kingship', 'wisdom', 'sin', 'leadership'],
   opener: {
     topical: true,

@@ -24,6 +24,13 @@ export const KINGS_1_4: RichChapterContent = {
   chapter: 4,
 
   estimatedMinutes: { beginner: 5, intermediate: 12, deep: 16 },
+
+  youth: {
+    intros: [
+      "Solomon&apos;s administration. Twelve officials. The kingdom at peace. &ldquo;Judah and Israel were many, as the sand which is by the sea in multitude, eating and drinking, and making merry.&rdquo; Then a list of his wisdom — 3,000 proverbs, 1,005 songs.",
+      "There&apos;s a kind of peace that comes when leadership is right. Pray for it for your country, your church, your home. The right person in the right place is a gift.",
+    ],
+  },
   topicTags: ['kingship', 'wisdom', 'sin', 'leadership'],
   opener: {
     topical: true,
