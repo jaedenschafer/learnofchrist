@@ -18,6 +18,13 @@ export const GENESIS_34: RichChapterContent = {
   chapter: 34,
 
   estimatedMinutes: { beginner: 7, intermediate: 10, deep: 13 },
+
+  youth: {
+    intros: [
+      "A hard chapter. Jacob&apos;s daughter Dinah is raped by Shechem, a prince of the local people. Then Shechem decides he wants to marry her. Dinah&apos;s brothers, instead of seeking justice, scheme. They tell the city it can intermarry with them if every male is circumcised. Three days later, while the men are recovering, Simeon and Levi slaughter the entire city.",
+      "Genesis doesn&apos;t soften any of it. It names the violation, names the murder, names Jacob&apos;s passive silence. Vengeance never heals what evil destroys. The story is in the canon partly to warn you: don&apos;t become the monster trying to fight one. Bring the wound to God before you bring the sword to anyone else.",
+    ],
+  },
   topicTags: ['providence', 'covenant', 'faithfulness', 'family'],
   opener: {
     topical: true,

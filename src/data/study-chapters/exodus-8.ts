@@ -19,6 +19,13 @@ export const EXODUS_8: RichChapterContent = {
   chapter: 8,
 
   estimatedMinutes: { beginner: 8, intermediate: 13, deep: 16 },
+
+  youth: {
+    intros: [
+      "Frogs everywhere. Then lice everywhere. Then flies everywhere. Pharaoh&apos;s magicians give up after the lice — &ldquo;This is the finger of God.&rdquo; Even the demonic powers behind Egypt can copy a few miracles before they hit the wall.",
+      "Pharaoh keeps making fake promises to let Israel go, then breaking them when relief comes. Lots of people promise God real change while the pressure is on, then forget when the pain lifts. Don&apos;t be one of them. Mean what you tell Him.",
+    ],
+  },
   intros: [
     'Exodus 8 narrows the conflict. In chapter 7, Pharaoh&apos;s magicians matched the first plague — blood turned to blood. But a magician can only multiply what already exists. Here, Moses brings plagues that neither appear in nature nor can be learned. The magicians will make one more match and then they will stop. They will utter words that change everything.',
     'This chapter also introduces a new pattern. As the plagues escalate, God draws a line between Egypt and Goshen — the land where Israel lives. The language shifts from "all Egypt" to "except the people of Israel" or "except Goshen." God is not just punishing Pharaoh. He is separating His people from judgment. It is the first hint that God thinks in terms of His own people apart from everyone else.',

@@ -15,6 +15,13 @@ export const EXODUS_7: RichChapterContent = {
   chapter: 7,
 
   estimatedMinutes: { beginner: 7, intermediate: 12, deep: 14 },
+
+  youth: {
+    intros: [
+      "The plagues start. Aaron throws down his rod and it becomes a serpent. Pharaoh&apos;s magicians do the same — but Aaron&apos;s serpent eats theirs. Even the powers of the empire have to swallow what God does.",
+      "Then water in the Nile turns to blood. Pharaoh&apos;s magicians match it. He hardens his heart. Watch the pattern: every refusal makes the next plague worse. Every postponed yes to God costs more than the one before it.",
+    ],
+  },
   opener: {
     matchTitle: /Moses and Aaron Appear/i,
     caption: 'Exodus 7',

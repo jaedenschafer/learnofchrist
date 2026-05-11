@@ -15,6 +15,13 @@ export const GENESIS_19: RichChapterContent = {
   chapter: 19,
 
   estimatedMinutes: { beginner: 11, intermediate: 17, deep: 22 },
+
+  youth: {
+    intros: [
+      "The same night Abraham bargained with God, two angels arrive at Sodom. The men of the city try to assault them at Lot&apos;s door. The city has gone past the line. The angels physically drag Lot, his wife, and his daughters out before fire falls.",
+      "Lot&apos;s wife looks back and turns to a pillar of salt. Don&apos;t romanticize what you&apos;re escaping. Don&apos;t wish you were back in the place God just rescued you from. The chapter is brutal and the ending sad — but the loud point is mercy that pulls you out even when you&apos;re moving slowly toward the fire.",
+    ],
+  },
   opener: {
     matchTitle: /Lot Flees from Sodom/i,
     caption: 'Genesis 19',

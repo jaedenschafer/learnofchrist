@@ -25,6 +25,13 @@ export const EXODUS_17: RichChapterContent = {
   chapter: 17,
 
   estimatedMinutes: { beginner: 8, intermediate: 17, deep: 21 },
+
+  youth: {
+    intros: [
+      "No water at Rephidim. Israel almost stones Moses. God tells Moses to strike a rock with his staff. Water gushes out. Paul will later say that rock was Christ. Whatever your wilderness need is, Christ is the rock that pours out for you.",
+      "Then Amalek attacks. Joshua leads the army. Moses goes up the mountain with his staff held high. When his arms drop, Israel loses ground. So Aaron and Hur hold his arms up till sunset. You don&apos;t fight your battles alone. Be the friend whose arms hold someone else&apos;s up. Find the friends who&apos;ll hold yours.",
+    ],
+  },
   intros: [
     'Exodus 17 shows Israel learning two hard lessons at the edge of the wilderness. First, that survival depends not on what they can find or do for themselves, but on God willing to provide in places where nothing grows. Second, that even when God has called you and promised to fight for you, the victory still requires somebody to stand and hold up the work while others fight. These are the lessons of a people learning to depend on God and on each other.',
     'The chapter contains two of the most important types of Christ in all of exodus. The rock at Horeb, struck by Moses&apos; rod and flowing with water, becomes in Paul&apos;s reading the physical manifestation of Christ—the one struck for all sin, whose wounds become the source of living water. And the image of Moses standing with his arms held high, his hands held up by Aaron and Hur, becomes a picture of the cross itself: the victory won not by strength, but by faithful endurance, upheld by the community around the leader.',

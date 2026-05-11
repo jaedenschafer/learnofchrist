@@ -18,6 +18,13 @@ export const EXODUS_27: RichChapterContent = {
   chapter: 27,
 
   estimatedMinutes: { beginner: 6, intermediate: 10, deep: 12 },
+
+  youth: {
+    intros: [
+      "The bronze altar in the courtyard — where every sacrifice was burned. The first thing anyone saw walking into the tabernacle was the altar. You can&apos;t approach a holy God without a sacrifice first. The altar makes that visible.",
+      "Then the boundary of the courtyard, and the lampstand that has to burn continually inside. Two truths in one chapter: a sacrifice you didn&apos;t make has gone before you, and a light is always burning where God dwells. Both are still true at the cross.",
+    ],
+  },
   intros: [
     'Exodus 27 moves from the tabernacle&apos;s interior (the ark, the table, the lampstand) to its furnishings and boundaries. The bronze altar stands in the courtyard, visible to all Israel. This is where whole burnt offerings rise continually—where the people give all of what they bring to God, holding nothing back. The altar&apos;s horns become a place of refuge for the one who commits unintended sin (see 1 Kings 1:50). Then comes the courtyard itself: a white-lined enclosure that separates the holy from the common, the sanctuary from the camp. And finally, a command that the lamp in the holy place burn continually through the night—a light that never goes out, kept alive by pure oil.',
     'These three elements—the altar, the courtyard, the perpetual lamp—form a theology of approach. The altar shows how sinful people can give to a holy God. The courtyard shows how the holy is set apart and protected. The lamp shows that God&apos;s presence is constant, unslumbering, always shining. For the Old Testament reader, these were the structures of covenant life. For the Christian reading them now, they all point toward Christ—the perfect offering, the way into God&apos;s presence, the Light that never dims.',

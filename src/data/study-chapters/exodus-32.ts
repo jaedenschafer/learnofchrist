@@ -17,6 +17,13 @@ export const EXODUS_32: RichChapterContent = {
   chapter: 32,
 
   estimatedMinutes: { beginner: 10, intermediate: 16, deep: 20 },
+
+  youth: {
+    intros: [
+      "Moses is on the mountain forty days. The people get impatient and tell Aaron to make them gods they can see. Aaron — the high priest — caves and builds them a golden calf. They throw a worship party for it.",
+      "God tells Moses what&apos;s happening. Moses comes down, throws the tablets, grinds the calf into powder, and makes the Israelites drink it. Then he intercedes for them: blot me out of your book if you won&apos;t forgive them. The first picture of a mediator willing to die for his people. Christ would later actually do it.",
+    ],
+  },
   opener: {
     matchTitle: /Moses Breaks the Tablets/i,
     caption: 'Exodus 32',

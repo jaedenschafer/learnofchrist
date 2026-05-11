@@ -18,6 +18,13 @@ export const GENESIS_25: RichChapterContent = {
   chapter: 25,
 
   estimatedMinutes: { beginner: 8, intermediate: 14, deep: 17 },
+
+  youth: {
+    intros: [
+      "Abraham dies at 175. His sons Isaac and Ishmael — separated for years by their mothers&apos; conflict — bury him together. Death has a way of putting estranged family in the same room.",
+      "Then Rebekah is pregnant with twins who are already wrestling inside her. God tells her: two nations, the older will serve the younger. Esau is born first, hairy and red. Jacob is born second, gripping his brother&apos;s heel. They grow up: Esau a hunter, Jacob a tent-dweller. Esau sells his birthright for a bowl of stew. Some of life&apos;s biggest losses get traded for things you can eat in five minutes.",
+    ],
+  },
   intros: [
     'Genesis 25 opens with the death of Abraham - the father of the promise, who spent his life believing God for a son he could not yet see, for a nation he would never rule, for a land he would never fully own. He dies at 175, full of years, and is laid to rest with Sarah in the cave of Machpelah, the only plot of promised land he ever truly possessed. But his line does not die with him. His covenant is not buried in that cave.',
     'In the second half of the chapter, we meet Rebekah and Isaac - and in Rebekah&apos;s womb, two nations struggling against each other. The text says the children struggled <em>within her,</em> not like siblings jostling for space, but like two peoples at war. God answers her prayer not with comfort but [res:bibleodyssey-jacob-israel] with an oracle that cuts against every human expectation: <em>the elder shall serve the younger.</em> It is a word that will shape the rest of the Bible - the story of a younger son chosen over an older, again and again, until the last becomes first and the meek inherit the earth.',

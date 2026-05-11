@@ -19,6 +19,13 @@ export const GENESIS_40: RichChapterContent = {
   chapter: 40,
 
   estimatedMinutes: { beginner: 6, intermediate: 10, deep: 13 },
+
+  youth: {
+    intros: [
+      "Joseph is in prison. Two of Pharaoh&apos;s officials — the cupbearer and the baker — end up in the same prison and have dreams the same night. Joseph interprets both: cupbearer goes back to his job in three days, baker dies in three days. Both happen exactly as Joseph said.",
+      "Joseph asks the cupbearer to remember him. The cupbearer forgets. Two more years in prison. The next time you feel like nobody&apos;s remembering you — God hasn&apos;t. Joseph&apos;s forgotten years were preparing him to run the country.",
+    ],
+  },
   intros: [
     'Joseph has not disappeared from Potiphar&apos;s house. He has been moved to prison - the captain of the guard&apos;s prison, where he continues to find favor and eventually runs the place [res:met-museum-egypt]. Then two men arrive: Pharaoh&apos;s chief butler and chief baker, both in disgrace, both locked away. Both men dream. And Joseph - the interpreter - is about to learn that accurate words matter far less than accurate timing.',
     'The chapter is 23 verses long and compressed as iron. Two dreams, two interpretations, two outcomes, all hinged on the same small detail: the third day [res:bibleodyssey-joseph-egypt]. What happens when interpretations come true? Joseph asks for one thing in return. What happens then will shape the rest of his waiting.',

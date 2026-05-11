@@ -13,6 +13,13 @@ export const EXODUS_5: RichChapterContent = {
   chapter: 5,
 
   estimatedMinutes: { beginner: 6, intermediate: 10, deep: 12 },
+
+  youth: {
+    intros: [
+      "Moses and Aaron walk into Pharaoh&apos;s court: &ldquo;Let my people go.&rdquo; Pharaoh&apos;s answer: &ldquo;Who is the Lord, that I should obey his voice? I know not the Lord, neither will I let Israel go.&rdquo;",
+      "Then Pharaoh DOUBLES the workload. The Israelites turn on Moses: you&apos;ve made our lives worse. Sometimes obeying God makes things harder before they get better. The breakthrough is coming. The first chapters of obedience are usually the worst ones.",
+    ],
+  },
   opener: {
     matchTitle: /Moses Demands Israel/i,
     caption: 'Exodus 5',

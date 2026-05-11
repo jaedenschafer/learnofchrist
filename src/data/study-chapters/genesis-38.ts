@@ -21,6 +21,13 @@ export const GENESIS_38: RichChapterContent = {
   chapter: 38,
 
   estimatedMinutes: { beginner: 8, intermediate: 14, deep: 17 },
+
+  youth: {
+    intros: [
+      "The narrator pauses Joseph&apos;s story to tell you about Judah. Judah leaves his brothers, marries a Canaanite, and his sons start dying. Tamar — twice widowed, denied her rights — disguises herself and tricks Judah into giving her a child. When she&apos;s about to be burned for it, Judah owns it: &ldquo;She hath been more righteous than I.&rdquo;",
+      "Tamar shows up in Jesus&apos; genealogy in Matthew 1. So does Judah. The Messiah&apos;s line runs through scandal that the religious world would have erased. Whatever you think disqualifies you from God&apos;s story, He is more than able to write you in.",
+    ],
+  },
   opener: {
     matchTitle: /Judah and Tamar/i,
     caption: 'Genesis 38',

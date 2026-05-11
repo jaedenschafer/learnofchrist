@@ -18,6 +18,13 @@ export const GENESIS_35: RichChapterContent = {
   chapter: 35,
 
   estimatedMinutes: { beginner: 7, intermediate: 13, deep: 17 },
+
+  youth: {
+    intros: [
+      "God tells Jacob to go back to Bethel — the place he had the ladder dream as a fugitive. Before they go, Jacob has his household get rid of every foreign idol. Real homecomings always involve cleaning house first.",
+      "At Bethel God reaffirms the covenant. Then Rachel dies in childbirth giving birth to Benjamin. Jacob&apos;s sons keep growing — eventually one of them (Reuben) sleeps with his father&apos;s concubine, foreshadowing the family dysfunction Joseph&apos;s story will take over. Even God&apos;s renamed people carry brokenness home.",
+    ],
+  },
   intros: [
     'Genesis 35 is a chapter about return and renewal. Jacob has been away from Bethel for more than twenty years. He has fled his father&apos;s house in fear, lived as a stranger in Haran, married, labored, and built a family in exile. Now God calls him back: <em>Arise, go up to Bethel, and dwell there.</em> It is a call to come home.',
     'But the homecoming is not simple. Before returning to the place where God first spoke to him, Jacob must deal with the gods his household has gathered - the idols of Laban&apos;s house, the trinkets of prosperity, the things that have slowly taken the place of devotion. He buries them under an oak and only then approaches Bethel. [res:bibleodyssey-jacob-israel] The chapter holds three deaths - Deborah, Rachel, Isaac - and Jacob keeps moving through each one. Sometimes faithfulness looks less like triumph and more like the simple choice to keep going.',

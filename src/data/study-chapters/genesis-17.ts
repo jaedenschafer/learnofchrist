@@ -15,6 +15,13 @@ export const GENESIS_17: RichChapterContent = {
   chapter: 17,
 
   estimatedMinutes: { beginner: 7, intermediate: 10, deep: 14 },
+
+  youth: {
+    intros: [
+      "Thirteen years after Hagar and Ishmael, God appears to Abram and changes his name. Abram (&ldquo;exalted father&rdquo;) becomes Abraham (&ldquo;father of many&rdquo;). Sarai becomes Sarah. New names mean new identities. God isn&apos;t done writing your name either.",
+      "Then God establishes circumcision as the sign of the covenant — a physical reminder cut into the body. The ancient sign points forward to a New Testament reality: God wants more than a mark on your skin. He wants a heart cut open to Him.",
+    ],
+  },
   topicTags: ['providence', 'covenant', 'faithfulness', 'family'],
   opener: {
     topical: true,

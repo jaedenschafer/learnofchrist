@@ -22,6 +22,13 @@ export const EXODUS_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 9, intermediate: 16, deep: 21 },
+
+  youth: {
+    intros: [
+      "Eighty-year-old Moses sees a bush on fire that doesn&apos;t burn up. He turns aside to look. God speaks his name out of the bush. Moses takes off his shoes — the ground is holy — and gets handed an impossible mission: go to Pharaoh and bring my people out.",
+      "Moses asks God His name. God answers: &ldquo;I AM THAT I AM.&rdquo; Not a name that locks God down. A name that says I am. I will be. I am present tense forever. Whatever you&apos;re facing, that&apos;s the God you&apos;re going to face it with.",
+    ],
+  },
   intros: [
     'Exodus 3 is one of the three most quoted theophanies in all of scripture. God appears in a fire that does not consume, speaks the divine name for the first time, and sends a bewildered shepherd to tell the empire of Egypt that the Lord has arrived. Every time the Old Testament circles back to this chapter—and it does so often—it is because something crucial about who God is lives in these twenty-two verses.',
     'The chapter begins with a small question: Why does this one bush burn? It ends with a name that cannot be translated, only approximated. I AM THAT I AM. Or I AM WHO I AM. Or I will be who I will be. The verb is not settled; the name is not simple. But it is the only name God gives Moses to carry back to a people in slavery, the only credential he has for a mission that will reshape the world.',

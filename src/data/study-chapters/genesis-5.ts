@@ -19,6 +19,13 @@ export const GENESIS_5: RichChapterContent = {
   chapter: 5,
 
   estimatedMinutes: { beginner: 6, intermediate: 11, deep: 14 },
+
+  youth: {
+    intros: [
+      "Genesis 5 is a list of people who lived 800-900 years and then died. Same refrain over and over: &ldquo;and he died.&rdquo; The chapter is one long reminder that long life is still finite.",
+      "Then in the middle, one man — Enoch — &ldquo;walked with God: and he was not; for God took him.&rdquo; No death recorded. Just a man who walked closely enough with God that one day he kept walking right out of this world. Length of years is not the goal of life. Walking with God is.",
+    ],
+  },
   intros: [
     'Genesis 5 is a genealogy - a long list of names, years, descendants, and deaths. It reads like an inventory of mortality, each life a measured span from birth to the moment the refrain returns: &ldquo;and he died.&rdquo; Adam lived nine hundred and thirty years. Seth lived nine hundred and twelve. The chapter could read as an exercise in futility, a reminder that all flesh returns to dust. But Genesis will not allow that reading to stand.',
     'In the middle of the list, one man does not die. Enoch walked with God, and &ldquo;he was not; for God took him.&rdquo;[res:intertextual-enoch-hebrews] The chapter has been beating a rhythm for twelve verses, and then it stops. Later, one more name breaks the pattern: Noah, born to Lamech, whose father says at his birth, &ldquo;This same shall comfort us concerning our work and toil of our hands, because of the ground which the LORD hath cursed.&rdquo; In a genealogy where every name ends in death, these two are the text&apos;s way of pointing to what it has been waiting for all along - a world not cursed forever, and a God whose love does not end when life does.',

@@ -16,6 +16,13 @@ export const GENESIS_15: RichChapterContent = {
   chapter: 15,
 
   estimatedMinutes: { beginner: 7, intermediate: 11, deep: 15 },
+
+  youth: {
+    intros: [
+      "Abram pushes back at God: &ldquo;Lord God, what wilt thou give me, seeing I go childless?&rdquo; God takes him outside, points at the stars, and says: that&apos;s your descendants. Abram believes God, and God counts that belief as righteousness. Paul will quote this verse to argue the entire gospel.",
+      "Then God walks Abram through one of the strangest scenes in Scripture — animals split in half, fire passing between them, God making a covenant Abram doesn&apos;t even have to participate in. The promise is one-sided. God will keep it whether Abram does or not. The cross works the same way.",
+    ],
+  },
   opener: {
     matchTitle: /Abram Receives the Promise/i,
     caption: 'Genesis 15',

@@ -17,6 +17,13 @@ export const GENESIS_26: RichChapterContent = {
   chapter: 26,
 
   estimatedMinutes: { beginner: 9, intermediate: 14, deep: 18 },
+
+  youth: {
+    intros: [
+      "A famine hits. God tells Isaac NOT to go down to Egypt like his father did. Isaac stays put. He plants in a foreign land and has a hundredfold harvest. Then he digs his father&apos;s old wells back open — wells the Philistines had filled in.",
+      "Sometimes the most important thing your generation will do is reopen a well your parents dug and the world tried to fill in. Faith. Prayer. Family worship. None of it is new. You&apos;re digging again to drink the same Living Water Isaac&apos;s line found.",
+    ],
+  },
   opener: {
     matchTitle: /Abimelech bespiedt Isaak en/i,
     caption: 'Genesis 26',

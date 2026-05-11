@@ -13,6 +13,13 @@ export const GENESIS_13: RichChapterContent = {
   chapter: 13,
 
   estimatedMinutes: { beginner: 6, intermediate: 9, deep: 12 },
+
+  youth: {
+    intros: [
+      "Abram and his nephew Lot have grown too big to share the land. Abram could pull rank — he&apos;s older, he&apos;s the promise-bearer. Instead he lets Lot pick first. Lot picks the best-looking land toward Sodom.",
+      "Lot chose with his eyes. Abram trusted with his ear. Lot&apos;s greatest decisions in life will all happen by sight. Abram&apos;s will all happen by faith. You&apos;re going to make a thousand small choices like this. Walk by faith, not by what looks best on the highlight reel.",
+    ],
+  },
   opener: {
     matchTitle: /Abram Beholds the Promised/i,
     caption: 'Genesis 13',

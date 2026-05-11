@@ -14,6 +14,13 @@ export const EXODUS_28: RichChapterContent = {
   chapter: 28,
 
   estimatedMinutes: { beginner: 9, intermediate: 14, deep: 18 },
+
+  youth: {
+    intros: [
+      "The high priest&apos;s clothes — ephod, breastplate, robe, turban — every piece designed by God. The names of the twelve tribes are engraved on the priest&apos;s shoulder stones and over his heart. When the priest enters God&apos;s presence, he&apos;s carrying every name with him.",
+      "Jesus is the great High Priest. When He went into the heavenly Holy of Holies, He carried YOUR name on His shoulders and over His heart. He still does. You don&apos;t have to remind God who you are. Your name is already engraved on Him.",
+    ],
+  },
   opener: {
     matchTitle: /Aaron from De Biblie/i,
     caption: 'Exodus 28',

@@ -13,6 +13,13 @@ export const EXODUS_31: RichChapterContent = {
   chapter: 31,
 
   estimatedMinutes: { beginner: 5, intermediate: 9, deep: 12 },
+
+  youth: {
+    intros: [
+      "God names the artists who&apos;ll build the tabernacle — Bezalel and Aholiab — and SAYS He has filled them with His Spirit to make beautiful things. The first time Scripture says someone is filled with the Spirit, it&apos;s an artist.",
+      "Whatever your craft is — design, music, video, code, words — that gift is from God and meant to be used for Him. Then God commands the Sabbath again. Even the artists building God&apos;s house need to stop one day in seven. You are not the exception.",
+    ],
+  },
   topicTags: ['covenant', 'holiness', 'worship', 'sacrifice'],
   opener: {
     topical: true,

@@ -10,6 +10,13 @@ export const EXODUS_18: RichChapterContent = {
   chapter: 18,
 
   estimatedMinutes: { beginner: 7, intermediate: 11, deep: 14 },
+
+  youth: {
+    intros: [
+      "Moses&apos; father-in-law Jethro — a Midianite priest — visits the camp. He watches Moses judge disputes from morning to night and tells him: this is going to kill you. Delegate. Pick capable men. Set up a structure.",
+      "Moses listens to outside counsel from a non-Israelite. The greatest leader in the Old Testament took advice from his father-in-law. You&apos;re not above wise counsel because you have a calling. Find the older voices God has put around you and listen.",
+    ],
+  },
   topicTags: ['deliverance', 'sovereignty', 'calling', 'protection'],
   opener: {
     topical: true,

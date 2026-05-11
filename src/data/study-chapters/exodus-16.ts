@@ -16,6 +16,13 @@ export const EXODUS_16: RichChapterContent = {
   chapter: 16,
 
   estimatedMinutes: { beginner: 10, intermediate: 19, deep: 22 },
+
+  youth: {
+    intros: [
+      "The food runs out. Israel says they wish they&apos;d died in Egypt where at least there were full plates. God answers with bread from heaven — manna — every morning. Enough for that day. No stockpiling allowed.",
+      "Same God who sends manna also sends quail. Same God who provides also tests their obedience by making them gather only one day&apos;s worth at a time. He wants you depending on Him daily, not stockpiled for a year. That&apos;s why &ldquo;give us this day our daily bread&rdquo; is in the Lord&apos;s Prayer. He likes the daily.",
+    ],
+  },
   opener: {
     matchTitle: /Manna in the Wilderness/i,
     caption: 'Exodus 16',

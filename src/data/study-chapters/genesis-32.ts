@@ -18,6 +18,13 @@ export const GENESIS_32: RichChapterContent = {
   chapter: 32,
 
   estimatedMinutes: { beginner: 9, intermediate: 16, deep: 21 },
+
+  youth: {
+    intros: [
+      "Jacob is about to face Esau — the brother he stole from twenty years ago. Esau is coming with four hundred men. Jacob splits his family into two camps to give half a chance to escape if it goes badly. Then he prays one of the great prayers of the Old Testament.",
+      "That night, alone at a river crossing, a Man wrestles Jacob until daybreak. Touches his hip and sends it out of joint. Jacob refuses to let go: &ldquo;I will not let thee go, except thou bless me.&rdquo; God renames him Israel — &ldquo;he wrestles with God.&rdquo; You don&apos;t graduate from wrestling with God. You learn to limp away blessed.",
+    ],
+  },
   opener: {
     matchTitle: /Jacob Wrestling with the/i,
     caption: 'Genesis 32',

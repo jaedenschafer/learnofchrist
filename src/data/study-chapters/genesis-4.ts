@@ -16,6 +16,13 @@ export const GENESIS_4: RichChapterContent = {
   chapter: 4,
 
   estimatedMinutes: { beginner: 8, intermediate: 13, deep: 17 },
+
+  youth: {
+    intros: [
+      "Two brothers, two offerings, one accepted and one not. Cain&apos;s reaction isn&apos;t to ask why — it&apos;s rage. God warns him directly: &ldquo;sin lieth at the door…and thou shalt rule over him.&rdquo; Cain doesn&apos;t. Out in the field he kills his brother. The first murder in human history was a religious fight between two siblings.",
+      "But God doesn&apos;t end the chapter on Cain&apos;s line. A third son is born — Seth — and Genesis quietly starts a different family tree. Wherever there&apos;s wreckage in your story, God is usually starting another line nobody noticed yet.",
+    ],
+  },
   opener: {
     matchTitle: /Cain Leads Abel to/i,
     caption: 'Genesis 4',

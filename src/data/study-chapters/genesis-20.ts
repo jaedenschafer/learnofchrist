@@ -22,6 +22,13 @@ export const GENESIS_20: RichChapterContent = {
   chapter: 20,
 
   estimatedMinutes: { beginner: 7, intermediate: 11, deep: 15 },
+
+  youth: {
+    intros: [
+      "Abraham does the same lying thing again — tells the king of Gerar that Sarah is his sister. He&apos;s done this exact lie before in Egypt. Some sins repeat. God still steps in and protects Sarah, and protects the foreign king from sinning unknowingly.",
+      "What stands out: God uses this whole humiliating episode to keep His promise on track. Abraham&apos;s faith is patchy. God&apos;s faithfulness isn&apos;t. He&apos;s building toward a Messiah and He&apos;s not going to let one liar derail it. Including you.",
+    ],
+  },
   intros: [
     'Abraham is seventy-five verses into the most important promise God ever made - that Sarah will bear a son, that he will have descendants like the stars, that through him all nations will be blessed. And now, faced with a foreign king, Abraham does something that reveals a crack in his faith: he tells Sarah to say she is his sister, not his wife. This is not the first time. Twelve chapters earlier, he played the same half-truth in Egypt. He is afraid.',
     'Here is what matters: God does not let His promise hang on Abraham\'s courage. When a patriarch fails, God does not fail. What unfolds in Gerar is a story about fear driving a shortcut, [res:bibleodyssey-abraham-covenant] and grace running ahead to catch it. It is also a story about a pagan king whose conscience is cleaner than a patriarch\'s - a scandal that the text will not let us miss.',

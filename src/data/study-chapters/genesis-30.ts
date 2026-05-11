@@ -14,6 +14,13 @@ export const GENESIS_30: RichChapterContent = {
   chapter: 30,
 
   estimatedMinutes: { beginner: 10, intermediate: 16, deep: 22 },
+
+  youth: {
+    intros: [
+      "Two sister-wives. One has babies, the other doesn&apos;t. They use surrogates and competition and bargaining and mandrakes (an ancient fertility plant) to one-up each other. Genesis records the births of eleven sons and a daughter without comment. The future twelve tribes of Israel are born inside this chaos.",
+      "The point: God is not waiting for your family to be functional before He starts His plan. The twelve tribes come out of a marriage built on a switched bride and decades of competition. Whatever your family looks like, God is not blocked by it.",
+    ],
+  },
   topicTags: ['providence', 'covenant', 'faithfulness', 'family'],
   opener: {
     topical: true,

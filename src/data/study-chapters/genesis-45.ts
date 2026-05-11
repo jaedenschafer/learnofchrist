@@ -21,6 +21,13 @@ export const GENESIS_45: RichChapterContent = {
   chapter: 45,
 
   estimatedMinutes: { beginner: 8, intermediate: 14, deep: 17 },
+
+  youth: {
+    intros: [
+      "Joseph can&apos;t hold it back any longer. He sends every Egyptian out of the room and sobs so loudly the whole palace hears. &ldquo;I am Joseph your brother, whom ye sold into Egypt.&rdquo; The brothers are speechless and terrified.",
+      "Then the line every wounded person needs to keep close: &ldquo;Be not grieved, nor angry with yourselves… for God did send me before you to preserve life.&rdquo; Joseph isn&apos;t excusing what they did. He&apos;s naming what God did with what they did. That&apos;s a much bigger story than getting even.",
+    ],
+  },
   opener: {
     matchTitle: /Joseph Makes Himself Known/i,
     caption: 'Genesis 45',

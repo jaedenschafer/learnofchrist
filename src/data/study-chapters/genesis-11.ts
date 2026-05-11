@@ -14,6 +14,13 @@ export const GENESIS_11: RichChapterContent = {
   chapter: 11,
 
   estimatedMinutes: { beginner: 7, intermediate: 12, deep: 15 },
+
+  youth: {
+    intros: [
+      "After the flood, humanity unites — and immediately uses their unity to build a tower up to heaven and make a name for themselves. Pride scales. So God scatters them by confusing their language. Babel is the first time God breaks unity to protect humans from themselves.",
+      "The chapter ends with another genealogy that lands on a man named Abram in a city called Ur. The world has just been scattered into nations and confused into languages. God is about to start the rescue plan — through one family, in one corner of the map.",
+    ],
+  },
   opener: {
     matchTitle: /The Tower of Babel/i,
     caption: 'Genesis 11',

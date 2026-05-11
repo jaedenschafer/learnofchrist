@@ -16,6 +16,13 @@ export const EXODUS_9: RichChapterContent = {
   chapter: 9,
 
   estimatedMinutes: { beginner: 8, intermediate: 13, deep: 16 },
+
+  youth: {
+    intros: [
+      "Three more plagues — livestock disease, boils, and a hailstorm so violent it kills everything left in the open. Each one targets an Egyptian god. The God of Israel is systematically dismantling every false god the empire trusts.",
+      "Pharaoh&apos;s servants now believe Moses, but Pharaoh keeps hardening his heart. There&apos;s a point where you&apos;ve refused God so many times that your refusal becomes who you are. Keep your heart soft NOW. Don&apos;t harden into a person you can&apos;t come back from.",
+    ],
+  },
   intros: [
     'By Exodus 9, the plagues are no longer just warnings — they are judgments that strike to the heart of Egyptian religion and power. Each plague dismantles a god the Egyptians worship: Hapi the Nile god, Heqet the frog goddess, Apis the sacred bull. Now come three more: a livestock plague, boils that attack the Egyptian priestly class (who are supposed to be pure), and a hail storm of apocalyptic scale that kills every living thing in the open field and strips the land bare.',
     'But Exodus 9 introduces a shift. God begins to separate the fearful from the faithless. A handful of Egyptians — those who &ldquo;feared the word of the LORD&rdquo; (v.20) — bring their servants and animals inside and are spared. And Pharaoh breaks again, confessing sin, only to harden his heart once more. The plagues are teaching Egypt (and us) that judgment is not indiscriminate: those who align themselves with God are protected, while those who resist face the full weight of His power.',

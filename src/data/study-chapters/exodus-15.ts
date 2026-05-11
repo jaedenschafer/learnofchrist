@@ -11,6 +11,13 @@ export const EXODUS_15: RichChapterContent = {
   chapter: 15,
 
   estimatedMinutes: { beginner: 7, intermediate: 12, deep: 15 },
+
+  youth: {
+    intros: [
+      "Israel watches Pharaoh&apos;s army drown in the sea and breaks into song. Moses sings; Miriam picks up a tambourine and the women dance. The first worship song in the Bible is a victory song after God did the impossible.",
+      "Three days later they hit Marah — bitter water they can&apos;t drink. They start grumbling immediately. The same crowd that worshiped on Sunday morning is murmuring by Tuesday lunch. Don&apos;t be surprised when your faith feels paper-thin three days after a high. Worship anyway.",
+    ],
+  },
   opener: {
     matchTitle: /The Songs of Joy/i,
     caption: 'Exodus 15',

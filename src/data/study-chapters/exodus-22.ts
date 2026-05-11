@@ -16,6 +16,13 @@ export const EXODUS_22: RichChapterContent = {
   chapter: 22,
 
   estimatedMinutes: { beginner: 8, intermediate: 14, deep: 18 },
+
+  youth: {
+    intros: [
+      "More case laws — property, theft, broken trust. Then a hinge: when the chapter shifts to talking about strangers, widows, orphans, and the poor, God grounds it in one phrase: &ldquo;ye were strangers in the land of Egypt.&rdquo;",
+      "You can&apos;t separate how God treated you from how you&apos;re supposed to treat the people most easy to overlook. The kid in your school nobody sits with. The new employee. The lonely classmate. The way you treat them is the visible measure of whether you remember what God did for you.",
+    ],
+  },
   topicTags: ['covenant', 'holiness', 'worship', 'sacrifice'],
   opener: {
     topical: true,

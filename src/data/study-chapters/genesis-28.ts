@@ -13,6 +13,13 @@ export const GENESIS_28: RichChapterContent = {
   chapter: 28,
 
   estimatedMinutes: { beginner: 8, intermediate: 12, deep: 15 },
+
+  youth: {
+    intros: [
+      "Jacob is on the run, sleeping on the ground with a stone for a pillow, alone with his guilt. And in the worst night of his life, he dreams: a ladder reaching from earth to heaven, angels going up and down on it, and God standing above it speaking promises.",
+      "When Jacob wakes up he says one of the great lines: &ldquo;Surely the Lord is in this place; and I knew it not.&rdquo; God is closer to you on the worst night of your life than on any of the smooth days. Jesus would later tell Nathanael that He Himself is the ladder Jacob saw.",
+    ],
+  },
   opener: {
     matchTitle: /Jacob/i,
     caption: 'Genesis 28',

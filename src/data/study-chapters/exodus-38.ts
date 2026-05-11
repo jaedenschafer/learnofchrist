@@ -12,6 +12,13 @@ export const EXODUS_38: RichChapterContent = {
   chapter: 38,
 
   estimatedMinutes: { beginner: 7, intermediate: 11, deep: 13 },
+
+  youth: {
+    intros: [
+      "The bronze altar where sacrifices burn, and the bronze laver where priests wash. Detail: the laver is made from the bronze mirrors of women who served at the tabernacle. They surrendered the items they used to look at themselves so the priests could be cleansed. Vanity recycled into worship.",
+      "Then the chapter does an inventory of every gold, silver, and bronze offering. Down to the shekel. God keeps records of generosity nobody else sees. He still does.",
+    ],
+  },
   topicTags: ['covenant', 'holiness', 'worship', 'sacrifice'],
   opener: {
     topical: true,

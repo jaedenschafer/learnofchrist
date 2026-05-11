@@ -14,6 +14,13 @@ export const EXODUS_26: RichChapterContent = {
   chapter: 26,
 
   estimatedMinutes: { beginner: 9, intermediate: 15, deep: 17 },
+
+  youth: {
+    intros: [
+      "Blueprint for the tabernacle&apos;s curtains, frames, and the veil that separated the Holy Place from the Holy of Holies — the room where God&apos;s presence lived. The veil keeps people OUT. Holiness and sin can&apos;t share a room.",
+      "Fast forward 1,500 years. Jesus dies on the cross and the veil in the temple rips top to bottom (Matthew 27). The barrier comes down. You don&apos;t need a curtain anymore to get to God. You have a Person.",
+    ],
+  },
   intros: [
     'Exodus 26 is blueprint. Every verse is precise specification — dimensions, materials, how to fasten, how to hang. Ten curtains of fine twined linen with cherubim woven in, goat hair curtains, ram skins dyed red, badger skins. Shittim wood boards, sockets of silver. The parokhet — the veil that separates the Holy Place from the Holy of Holies, where God&apos;s presence dwells.',
     'It sounds like construction manual, and it is. But in the grammar of the Bible, buildings are not silent. They teach. The tabernacle is Israel&apos;s theology in wood and cloth — a place where heaven and earth meet, where a holy God and an unholy people can draw near to each other. And the veil is the threshold. It stands in the way. No one passes it except the high priest, once a year, on the Day of Atonement. The veil holds back. The veil separates.',

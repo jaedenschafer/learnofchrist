@@ -20,6 +20,13 @@ export const EXODUS_37: RichChapterContent = {
   chapter: 37,
 
   estimatedMinutes: { beginner: 10, intermediate: 15, deep: 17 },
+
+  youth: {
+    intros: [
+      "Bezalel makes the ark of the covenant — gold inside and out, mercy seat on top with two cherubim of beaten gold, wings touching above. Then the table for the showbread. Then the lampstand with seven lamps, a single piece of beaten gold.",
+      "Every piece of furniture inside the tabernacle points to Christ. The ark holds the law and is covered by mercy — Jesus is the only place where God&apos;s law and God&apos;s mercy meet without contradiction. The table feeds — Jesus is the bread of life. The lampstand burns — Jesus is the light of the world. Read this chapter looking for Him.",
+    ],
+  },
   intros: [
     'Exodus 37 opens with a word: &quot;And Bezalel made...&quot; After five chapters of blueprints, the work begins. God said. Now Israel obeys. Not halfway. Not with substitutions or shortcuts. Exactly as the LORD commanded. Verse by verse, the furniture appears: the ark of the covenant, the mercy seat, the table, the lampstand, the altar of incense. Every piece matches the design. Every detail is kept.',
     'The repetition has theological weight that Bible readers often miss. Read Genesis 1 and you hear the rhythm: &quot;And God said... and it was so.&quot; Read Exodus 25&ndash;31 and you hear God&apos;s design: &quot;Thou shalt make...&quot; Read Exodus 37&ndash;39 and you hear obedience: &quot;And he made...&quot; Three chapters recording the same furnishings in the same order, because the point is not the furniture—the point is that the word God spoke has become the work the people have done. Before this, Israel had broken faith. They made the golden calf. But here, in the making of the sanctuary, Israel becomes the people who obey. And this obedience is a prophecy: it whispers ahead to John 1, where the Word that spoke all things into being becomes flesh and dwells among us.',

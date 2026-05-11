@@ -15,6 +15,13 @@ export const GENESIS_48: RichChapterContent = {
   chapter: 48,
 
   estimatedMinutes: { beginner: 8, intermediate: 14, deep: 18 },
+
+  youth: {
+    intros: [
+      "Jacob is dying. Joseph brings his two sons — Manasseh and Ephraim — for a final blessing. Jacob crosses his hands so his right hand falls on the YOUNGER son. Joseph tries to correct him. Jacob refuses: God isn&apos;t bound by birth order, and neither is the blessing.",
+      "Watch how the entire Bible keeps doing this — God picks Abel over Cain, Jacob over Esau, Joseph over his older brothers, David over his older brothers. The youngest, the overlooked, the one nobody would have picked — those are the ones God&apos;s eye keeps landing on. Including, eventually, you.",
+    ],
+  },
   opener: {
     matchTitle: /Jacob Blessing Joseph/i,
     caption: 'Genesis 48',

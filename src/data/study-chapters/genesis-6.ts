@@ -16,6 +16,13 @@ export const GENESIS_6: RichChapterContent = {
   chapter: 6,
 
   estimatedMinutes: { beginner: 6, intermediate: 10, deep: 13 },
+
+  youth: {
+    intros: [
+      "Five generations after Eden, the world is so corrupt God is grieved He made it. The God who said &ldquo;very good&rdquo; in chapter 1 is the God grieving in chapter 6. He is not indifferent to what humans do to each other.",
+      "And then one sentence shifts everything: &ldquo;But Noah found grace in the eyes of the Lord.&rdquo; One man and his family. God tells Noah to build a giant boat in a place with no water for a flood that&apos;s never happened. Noah builds. Sometimes faith looks ridiculous to everyone except God.",
+    ],
+  },
   opener: {
     matchTitle: /Building the Ark/i,
     caption: 'Genesis 6',

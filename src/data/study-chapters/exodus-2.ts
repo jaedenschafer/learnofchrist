@@ -16,6 +16,13 @@ export const EXODUS_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 7, intermediate: 12, deep: 14 },
+
+  youth: {
+    intros: [
+      "An Israelite mom hides her baby for three months, then puts him in a waterproofed basket and floats him on the Nile. Pharaoh&apos;s daughter finds him. The baby&apos;s sister (Miriam) suggests a Hebrew nurse — and the mom gets paid by Pharaoh&apos;s house to nurse her own son. God&apos;s rescue starts with three women outsmarting an empire.",
+      "Moses grows up. At forty, he murders an Egyptian beating an Israelite, gets exposed, and runs. He spends the next forty years tending sheep in the desert with a wife and a son. The future deliverer of Israel learns leadership by walking sheep up dry hills. God doesn&apos;t waste your hidden years.",
+    ],
+  },
   opener: {
     matchTitle: /Moses Laid Amid the/i,
     caption: 'Exodus 2',

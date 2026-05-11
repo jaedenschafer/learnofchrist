@@ -23,6 +23,13 @@ export const EXODUS_21: RichChapterContent = {
   chapter: 21,
 
   estimatedMinutes: { beginner: 8, intermediate: 12, deep: 15 },
+
+  youth: {
+    intros: [
+      "Right after the Ten Commandments, God starts dealing with details. The very first laws are about how to treat servants. The God who just freed slaves makes laws to protect anyone who&apos;s ever vulnerable in your house, your job, your team.",
+      "Then case laws — what if someone hits a pregnant woman, what if your ox gores someone&apos;s neighbor, what if you steal a sheep. The point isn&apos;t the bronze-age specifics. It&apos;s the principle: God cares about the actual ways people get hurt by each other, and He puts the strong on the hook for protecting the weak.",
+    ],
+  },
   topicTags: ['covenant', 'holiness', 'worship', 'sacrifice'],
   opener: {
     topical: true,

@@ -18,6 +18,13 @@ export const GENESIS_31: RichChapterContent = {
   chapter: 31,
 
   estimatedMinutes: { beginner: 12, intermediate: 18, deep: 22 },
+
+  youth: {
+    intros: [
+      "After twenty years, God tells Jacob: time to go home. Jacob packs up overnight and leaves without telling Laban. Rachel secretly steals her father&apos;s household idols. Laban chases them down a week later and Jacob, not knowing about the theft, swears anyone who took them should die.",
+      "The whole chapter is a complicated mix of God&apos;s clear direction and people still doing dishonest things on the way to obedience. God can move you toward the right destination through wildly imperfect people. He&apos;s patient with the path, but the destination is still home.",
+    ],
+  },
   opener: {
     matchTitle: /Jacob/i,
     caption: 'Genesis 31',

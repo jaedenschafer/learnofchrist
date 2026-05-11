@@ -15,6 +15,13 @@ export const GENESIS_9: RichChapterContent = {
   chapter: 9,
 
   estimatedMinutes: { beginner: 8, intermediate: 14, deep: 17 },
+
+  youth: {
+    intros: [
+      "Noah steps off the ark to a world that had to be reset. God blesses him — be fruitful, multiply — and hangs a rainbow in the sky as a promise. Whenever you see one, remember: God keeps His word.",
+      "But the chapter ends with Noah drunk in his tent and his sons handling it badly. Even the man who walked with God through the flood couldn&apos;t walk straight in his vineyard. Sin made it onto the boat. The only thing that fixes the human heart is the new covenant Jesus would later seal in His own blood.",
+    ],
+  },
   opener: {
     matchTitle: /The Cursing of Ham/i,
     caption: 'Genesis 9',

@@ -15,6 +15,13 @@ export const GENESIS_18: RichChapterContent = {
   chapter: 18,
 
   estimatedMinutes: { beginner: 7, intermediate: 11, deep: 15 },
+
+  youth: {
+    intros: [
+      "Three strangers visit Abraham at his tent in the heat of the day. He runs to feed them. One of them is the Lord. They tell Sarah she&apos;ll have a son within a year. Sarah laughs from inside the tent. God hears her laugh.",
+      "Then God tells Abraham He&apos;s about to judge Sodom. Abraham bargains: what if there are 50 righteous people? 45? 40? All the way down to 10. God agrees to spare the city for ten. Genesis 18 is one of the boldest prayers in Scripture. God doesn&apos;t mind being argued with by people who actually love Him.",
+    ],
+  },
   opener: {
     matchTitle: /Abraham and the Three/i,
     caption: 'Genesis 18',

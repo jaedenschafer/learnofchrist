@@ -12,6 +12,13 @@ export const EXODUS_4: RichChapterContent = {
   chapter: 4,
 
   estimatedMinutes: { beginner: 9, intermediate: 17, deep: 21 },
+
+  youth: {
+    intros: [
+      "Moses keeps making excuses. What if they don&apos;t believe me? God gives him three signs. What if I can&apos;t speak well? God offers Aaron. Moses keeps stalling. God gets angry but doesn&apos;t fire him.",
+      "Notice: God meets every one of Moses&apos; objections, but doesn&apos;t cancel the call. Your insecurities are real. They&apos;re not a reason for God to pick someone else. They&apos;re what He&apos;s going to use to keep you depending on Him.",
+    ],
+  },
   intros: [
     'Exodus 4 is God&apos;s answer to Moses&apos;s doubt. Three signs — a staff that becomes a serpent, a hand that becomes leprous and is healed, water that becomes blood — are given to authenticate Moses&apos;s mission to Pharaoh. Yet Moses still resists. "I am not eloquent," he says in Hebrew — literally, "heavy of mouth and heavy of tongue." God&apos;s response is swift and surprising: He sends Aaron, but not because Moses was right. Aaron becomes a sign of something else entirely: that God speaks through human weakness, not despite it.',
     'The chapter ends with two strange, urgent scenes. In verses 24–26, at a lodging place, "the Lord met him and sought to kill him" — a cryptic passage that has puzzled readers for millennia. Zipporah, Moses&apos;s wife, circumcises their son and speaks of the "bridegroom of blood," a phrase whose exact meaning remains debated. Then, abruptly, "the Lord let him go." It is one of the Bible&apos;s strangest moments, inviting us to ask what covenant obedience costs, and how the character of God&apos;s people is formed in the smallest, most intimate acts. By the chapter&apos;s end, Moses and Aaron are together in Egypt, ready to speak for the voiceless.',

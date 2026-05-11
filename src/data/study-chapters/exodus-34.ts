@@ -17,6 +17,13 @@ export const EXODUS_34: RichChapterContent = {
   chapter: 34,
 
   estimatedMinutes: { beginner: 9, intermediate: 14, deep: 18 },
+
+  youth: {
+    intros: [
+      "Moses cuts new tablets. God renews the covenant. Then God passes by Moses and says His own name out loud: &ldquo;The Lord, The Lord God, merciful and gracious, longsuffering, and abundant in goodness and truth, keeping mercy for thousands, forgiving iniquity and transgression and sin.&rdquo; That&apos;s the most important self-description in the entire Old Testament.",
+      "Moses comes down with his face shining so bright he has to wear a veil. Hours with God leave a visible mark. Whatever your face has been showing lately is a clue about who you&apos;ve been spending time with.",
+    ],
+  },
   opener: {
     matchTitle: /Moses Brings the New/i,
     caption: 'Exodus 34',

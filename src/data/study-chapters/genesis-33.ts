@@ -15,6 +15,13 @@ export const GENESIS_33: RichChapterContent = {
   chapter: 33,
 
   estimatedMinutes: { beginner: 5, intermediate: 9, deep: 13 },
+
+  youth: {
+    intros: [
+      "Jacob limps to meet Esau. Bows seven times to the ground. Expects death. And Esau RUNS to him — embraces him, falls on his neck, weeps. The forgiveness Jacob spent twenty years dreading is given in one wordless hug.",
+      "Sometimes the reconciliation you&apos;ve dreaded for years takes one step toward each other. Don&apos;t assume the other person is still where they were when the wound happened. People grow. God works on both sides of the river while you&apos;re wrestling on yours.",
+    ],
+  },
   opener: {
     matchTitle: /Esau Reconciles with Jacob/i,
     caption: 'Genesis 33',

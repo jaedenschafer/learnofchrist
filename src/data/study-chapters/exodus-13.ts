@@ -6,6 +6,13 @@ export const EXODUS_13: RichChapterContent = {
   chapter: 13,
 
   estimatedMinutes: { beginner: 8, intermediate: 11, deep: 14 },
+
+  youth: {
+    intros: [
+      "Israel walks out free. God claims every firstborn for Himself — they&apos;re a sign that He bought everyone&apos;s lives that night. He commands them to remember the exodus every year, to teach it to their kids, to talk about it morning and evening.",
+      "Then God leads them by a pillar of cloud by day and a pillar of fire by night. He doesn&apos;t take them the short way to Canaan — they&apos;d turn back the moment they saw an army. God&apos;s longer route through your wilderness is usually His mercy keeping you from running back to Egypt.",
+    ],
+  },
   intros: [
     'Exodus 13 is about belonging. Every firstborn — of humans, of animals — belongs to God. It is the rule written into the Exodus itself: God claims the firstborn because He redeemed the firstborn. The people of Israel walk out of Egypt, and God makes a covenant written in flesh: every son who comes into a family now belongs to the Lord first. Redemption is costly, and it marks everything it touches.',
     'The chapter also marks the path God takes His people by. He does not take the road to Philistia — the short route, the safe route, the sensible route. Instead He leads them into the wilderness. Sometimes the detour is the faithfulness. God walks ahead in a pillar of cloud by day and a pillar of fire by night — His visible presence, His company, His proof that He has not abandoned them. Joseph&apos;s bones are carried with them, a reminder that God keeps His promises even when bodies have to wait in tombs.',

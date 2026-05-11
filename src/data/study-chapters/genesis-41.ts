@@ -17,6 +17,13 @@ export const GENESIS_41: RichChapterContent = {
   chapter: 41,
 
   estimatedMinutes: { beginner: 14, intermediate: 23, deep: 29 },
+
+  youth: {
+    intros: [
+      "Pharaoh has a dream nobody can interpret. The cupbearer FINALLY remembers Joseph. Joseph is rushed out of the dungeon, shaved, given clean clothes, and stands before Pharaoh. His first words: &ldquo;It is not in me: God shall give Pharaoh an answer of peace.&rdquo;",
+      "By the end of the day Joseph is the second most powerful man in Egypt. Thirteen years from a pit to a palace. The seven years of plenty arrive; he stockpiles. The seven years of famine arrive; the world comes to him for food. Some of God&apos;s biggest assignments arrive immediately after the longest waits.",
+    ],
+  },
   opener: {
     matchTitle: /Joseph Interprets Pharaoh/i,
     caption: 'Genesis 41',

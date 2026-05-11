@@ -17,6 +17,13 @@ export const GENESIS_39: RichChapterContent = {
   chapter: 39,
 
   estimatedMinutes: { beginner: 7, intermediate: 11, deep: 14 },
+
+  youth: {
+    intros: [
+      "Joseph is sold to Potiphar, an Egyptian official. The text keeps repeating one phrase: &ldquo;the Lord was with him.&rdquo; Even in slavery, Joseph rises to run the entire household. Then Potiphar&apos;s wife starts hitting on him every day. He says no every time.",
+      "She finally grabs his coat. He runs. She uses the coat to lie about him. He ends up in prison for doing the right thing. The chapter ends like it began: &ldquo;the Lord was with Joseph.&rdquo; Doing the right thing doesn&apos;t guarantee a good outcome in this lifetime. But God doesn&apos;t leave the cell with you.",
+    ],
+  },
   opener: {
     matchTitle: /Joseph and Potiphar/i,
     caption: 'Genesis 39',

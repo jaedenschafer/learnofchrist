@@ -16,6 +16,13 @@ export const GENESIS_16: RichChapterContent = {
   chapter: 16,
 
   estimatedMinutes: { beginner: 5, intermediate: 8, deep: 11 },
+
+  youth: {
+    intros: [
+      "Ten years after the promise, no baby. Sarai gets tired of waiting and tells Abram to sleep with her servant Hagar to make the promise happen by another route. It works biologically. It does not work spiritually. Hagar gets pregnant; family chaos follows.",
+      "Hagar runs away. The angel of the Lord finds her by a spring in the wilderness and gives her a promise of her own. She names God: &ldquo;Thou God seest me.&rdquo; She&apos;s the first person in Scripture to give God a name. Whatever wilderness you&apos;ve been pushed into, the same God sees you in it.",
+    ],
+  },
   topicTags: ['providence', 'covenant', 'faithfulness', 'family'],
   opener: {
     topical: true,

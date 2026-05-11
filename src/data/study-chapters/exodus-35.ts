@@ -14,6 +14,13 @@ export const EXODUS_35: RichChapterContent = {
   chapter: 35,
 
   estimatedMinutes: { beginner: 8, intermediate: 11, deep: 14 },
+
+  youth: {
+    intros: [
+      "Moses tells the people to bring offerings for the tabernacle — but only if their heart is willing. The response is overwhelming. People bring gold, fabric, oil, gemstones. Women spin yarn. Men donate animals. The chapter is one long picture of generous worship.",
+      "Notice the phrase &ldquo;willing-hearted&rdquo; over and over. God doesn&apos;t want grudging compliance. He wants the offering you&apos;d be sad NOT to give. Whatever He&apos;s asking of you right now — give it like that, or wait until you can.",
+    ],
+  },
   topicTags: ['covenant', 'holiness', 'worship', 'sacrifice'],
   opener: {
     topical: true,

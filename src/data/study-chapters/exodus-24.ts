@@ -10,6 +10,13 @@ export const EXODUS_24: RichChapterContent = {
   chapter: 24,
 
   estimatedMinutes: { beginner: 6, intermediate: 12, deep: 14 },
+
+  youth: {
+    intros: [
+      "Israel hears the law read out loud and answers as one voice: &ldquo;All the words which the Lord hath said will we do.&rdquo; Moses sprinkles half the blood of the covenant on the altar and half on the people. They&apos;re bound now.",
+      "Then Moses goes up the mountain into the cloud — and stays for forty days. The chapter ends with him disappearing into the glory of God for a month and a half. Some encounters with God can&apos;t be rushed. Sometimes the most important thing happening in your life is what God is doing while you&apos;re hidden.",
+    ],
+  },
   topicTags: ['covenant', 'holiness', 'worship', 'sacrifice'],
   opener: {
     topical: true,

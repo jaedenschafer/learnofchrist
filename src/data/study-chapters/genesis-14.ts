@@ -16,6 +16,13 @@ export const GENESIS_14: RichChapterContent = {
   chapter: 14,
 
   estimatedMinutes: { beginner: 7, intermediate: 12, deep: 15 },
+
+  youth: {
+    intros: [
+      "Lot gets caught up in a war between kings and is taken captive. Abram, hearing the news, mobilizes 318 of his own men, chases the kings down, and rescues his nephew. Abram is not just an old man with a tent. He&apos;s a fighter when his family is at stake.",
+      "On the way back he meets Melchizedek — king of Salem and priest of God Most High. Melchizedek brings out bread and wine and blesses Abram. Hebrews will later say Jesus is a priest forever in the order of Melchizedek. Genesis 14 is the first hint of that priesthood.",
+    ],
+  },
   opener: {
     matchTitle: /Abram Blessed by Melchizedek/i,
     caption: 'Genesis 14',

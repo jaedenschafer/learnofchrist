@@ -15,6 +15,13 @@ export const EXODUS_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 6, intermediate: 11, deep: 13 },
+
+  youth: {
+    intros: [
+      "Four hundred years after Joseph, a new pharaoh takes the throne — one who never heard of Joseph. Israel has gone from honored guests to slaves. Pharaoh tries to break them with brutal labor. They multiply faster.",
+      "Then Pharaoh tries to murder every Israelite baby boy. Two midwives — Shiphrah and Puah — refuse. They risk their lives to save children. Their names are written down forever in Scripture. The most important resistance to evil starts with two women in a delivery room saying no.",
+    ],
+  },
   opener: {
     matchTitle: /Pharaoh and the Midwives/i,
     caption: 'Exodus 1',

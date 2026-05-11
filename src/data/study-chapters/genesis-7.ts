@@ -16,6 +16,13 @@ export const GENESIS_7: RichChapterContent = {
   chapter: 7,
 
   estimatedMinutes: { beginner: 6, intermediate: 10, deep: 13 },
+
+  youth: {
+    intros: [
+      "The animals come in. Noah&apos;s family comes in. Then a detail people miss: &ldquo;the Lord shut him in.&rdquo; God closes the door. The same God who saves you also seals you in.",
+      "Then forty days of rain. Every place humanity had built — gone. Sometimes God&apos;s mercy looks like a flood. Whatever He&apos;s washing out of your life is being washed out so something new can survive on the other side.",
+    ],
+  },
   opener: {
     matchTitle: /The Animals Enter the/i,
     caption: 'Genesis 7',

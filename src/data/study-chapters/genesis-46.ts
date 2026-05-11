@@ -19,6 +19,13 @@ export const GENESIS_46: RichChapterContent = {
   chapter: 46,
 
   estimatedMinutes: { beginner: 6, intermediate: 12, deep: 15 },
+
+  youth: {
+    intros: [
+      "Jacob is 130. He&apos;s about to leave the promised land for Egypt because his long-dead favorite son is alive and waiting. He stops at Beersheba to offer sacrifices. God speaks to him at night: &ldquo;Fear not to go down into Egypt; for I will there make of thee a great nation.&rdquo;",
+      "Then a list — every member of Jacob&apos;s family that goes down to Egypt. Seventy souls. From those seventy, four hundred years later, two million Israelites will walk out at the Exodus. God grows nations from small obediences in the right direction.",
+    ],
+  },
   opener: {
     matchTitle: /Israel/i,
     caption: 'Genesis 46',

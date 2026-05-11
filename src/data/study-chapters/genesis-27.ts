@@ -15,6 +15,13 @@ export const GENESIS_27: RichChapterContent = {
   chapter: 27,
 
   estimatedMinutes: { beginner: 12, intermediate: 18, deep: 21 },
+
+  youth: {
+    intros: [
+      "Isaac is old and blind. He plans to give the family blessing to his oldest, Esau. Rebekah overhears and helps Jacob steal it instead — goat skins on his arms, his brother&apos;s clothes on his back. Jacob lies to his blind father&apos;s face. Esau comes home a few minutes too late.",
+      "Esau cries with a great and exceeding bitter cry. Then he plans to kill Jacob. Rebekah sends Jacob into exile to save his life. She never sees him again. The chapter is a brutal picture of what scheming costs an entire family. God&apos;s sovereignty doesn&apos;t excuse manipulation. He&apos;ll keep His promise — but the path to it is much harder than it had to be.",
+    ],
+  },
   intros: [
     'Isaac is old. His eyes fail him. He knows the time has come to give his blessing-the prayer that would shape his eldest son&apos;s future, spoken by a dying father, irreversible once spoken. But while Isaac lies in his tent, Rebekah overhears from the doorway. The blessing Isaac means to give Esau is about to go to Jacob instead. And she is going to make it happen.',
     'Genesis 27 is about deception, yes. But it is also about something harder: the cost of what we want. Rebekah gets the blessing moved to Jacob. Esau goes away weeping. And Rebekah, the architect of the scheme, is never named again after this chapter. She stays in Canaan while Jacob flees to Haran and lives as a stranger for twenty years. The text does not moralize. It simply tells you what happened: you got what you wanted, and you paid with what you did not know you had.',

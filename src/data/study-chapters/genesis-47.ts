@@ -23,6 +23,13 @@ export const GENESIS_47: RichChapterContent = {
   chapter: 47,
 
   estimatedMinutes: { beginner: 10, intermediate: 14, deep: 16 },
+
+  youth: {
+    intros: [
+      "Jacob — an old shepherd from a small family — stands before Pharaoh and BLESSES him. The shepherd outranks the king when measured by who has more of God. Don&apos;t miss this: the world&apos;s rich and powerful need a blessing they can only get from someone walking with God.",
+      "Then the famine deepens. Joseph buys all of Egypt for Pharaoh — money, livestock, land, eventually labor itself. The Egyptians say: &ldquo;thou hast saved our lives.&rdquo; The chapter ends with Jacob asking Joseph to bury him with his fathers in Canaan. Even in Egypt, Jacob&apos;s heart is set on the promise that&apos;s bigger than where he&apos;s living.",
+    ],
+  },
   intros: [
     'Genesis 47 is the story of two peoples under one famine [res:met-museum-egypt]. Joseph has brought his family to Egypt, and now they meet Pharaoh. The scene moves fast: brothers presenting themselves, Jacob blessing the king, the famine tightening its grip. One by one the Egyptians trade their freedom for bread - first their money, then their animals, then their land, then their bodies. By verse 25 they are calling themselves Pharaoh&apos;s servants, grateful for the mercy of slavery. And in the middle of all this collapse, Israel is growing, multiplying, taking root in Goshen.',
     'The chapter&apos;s last notes are quiet [res:sefaria-genesis-47]. Jacob is dying. His final words are not blessings over Egypt or thanks for Joseph&apos;s power. They are a command: <em>bury me not in Egypt.</em> A pilgrim&apos;s last instruction [res:bibleodyssey-joseph-egypt]. Everything in this chapter - the contrast between Egypt&apos;s loss of freedom and Israel&apos;s flourishing, the patriarch&apos;s refusal to call Egypt home - points to a country he will never see in this life, and to a Deliverer who will be born from the people growing in Goshen.',

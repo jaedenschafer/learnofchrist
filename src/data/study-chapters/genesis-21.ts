@@ -20,6 +20,13 @@ export const GENESIS_21: RichChapterContent = {
   chapter: 21,
 
   estimatedMinutes: { beginner: 8, intermediate: 12, deep: 16 },
+
+  youth: {
+    intros: [
+      "Isaac is finally born. Sarah, who laughed in disbelief in chapter 18, laughs in joy here. The promise that everyone gave up on is in her arms.",
+      "But Hagar and Ishmael have to leave. Sarah&apos;s family conflict won&apos;t hold them. Hagar wanders in the wilderness, certain her son is going to die. God hears the boy. Provides water. Promises him a future too. Even the messy results of impatience get God&apos;s tender care.",
+    ],
+  },
   opener: {
     matchTitle: /The Expulsion of Hagar/i,
     caption: 'Genesis 21',

@@ -13,6 +13,13 @@ export const EXODUS_6: RichChapterContent = {
   chapter: 6,
 
   estimatedMinutes: { beginner: 8, intermediate: 13, deep: 16 },
+
+  youth: {
+    intros: [
+      "Moses is discouraged. People hate him. Pharaoh hates him. The plan looks broken. God doesn&apos;t give him a new strategy. He gives him Himself: &ldquo;I am the Lord… and I have remembered my covenant.&rdquo; Same God who promised Abraham. Same God showing up here.",
+      "Sometimes the fix for despair isn&apos;t a new plan. It&apos;s a fresh look at who God is. He has not forgotten His promises. He hasn&apos;t forgotten yours either.",
+    ],
+  },
   opener: {
     matchTitle: /Pharaoh/i,
     caption: 'Exodus 6',

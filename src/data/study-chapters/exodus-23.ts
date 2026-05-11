@@ -6,6 +6,13 @@ export const EXODUS_23: RichChapterContent = {
   chapter: 23,
 
   estimatedMinutes: { beginner: 9, intermediate: 16, deep: 20 },
+
+  youth: {
+    intros: [
+      "Don&apos;t spread false reports. Don&apos;t follow a crowd into evil. Don&apos;t take bribes. Help your enemy&apos;s ox if you find it wandering. The Old Testament law is much more &ldquo;love your enemy&rdquo; than people who haven&apos;t read it think.",
+      "Then God commands a Sabbath rest for the LAND every seven years and three annual feasts. Built into Israel&apos;s calendar are recurring stops for worship. Build them into yours too — Sabbath, communion, retreats — or you&apos;ll spiritually starve while you&apos;re too busy to notice.",
+    ],
+  },
   topicTags: ['covenant', 'holiness', 'worship', 'sacrifice'],
   opener: {
     topical: true,

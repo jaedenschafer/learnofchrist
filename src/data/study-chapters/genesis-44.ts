@@ -13,6 +13,13 @@ export const GENESIS_44: RichChapterContent = {
   chapter: 44,
 
   estimatedMinutes: { beginner: 8, intermediate: 13, deep: 15 },
+
+  youth: {
+    intros: [
+      "Joseph plants his silver cup in Benjamin&apos;s sack and sends his steward to &ldquo;catch&rdquo; them. The brothers tear their clothes when the cup is found. They could have left Benjamin to die and gone home — that&apos;s exactly what they did with Joseph.",
+      "Instead Judah steps forward and offers to take Benjamin&apos;s place. Twenty years ago he sold one brother. Now he&apos;ll die for another. Real repentance is when the same person facing the same temptation makes the opposite choice. Watch for that turn in your own story. It&apos;s a sign God has been doing real work.",
+    ],
+  },
   opener: {
     matchTitle: /The Cup Found in/i,
     caption: 'Genesis 44',

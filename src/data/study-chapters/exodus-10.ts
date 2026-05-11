@@ -13,6 +13,13 @@ export const EXODUS_10: RichChapterContent = {
   chapter: 10,
 
   estimatedMinutes: { beginner: 8, intermediate: 15, deep: 17 },
+
+  youth: {
+    intros: [
+      "Locusts cover the land — the worst plague ever, before or since. Pharaoh&apos;s officials BEG him: &ldquo;Knowest thou not yet that Egypt is destroyed?&rdquo; Then darkness so thick people couldn&apos;t see each other for three days. The light God made on day one is taken away.",
+      "Pharaoh keeps trying to negotiate partial obedience. You can go but leave the kids. Go but leave the livestock. Moses won&apos;t budge. Don&apos;t let anyone — even your own fear — talk you into half-following Jesus. Bring your whole life out of Egypt or you&apos;ll end up dragged back into it.",
+    ],
+  },
   opener: {
     matchTitle: /The Ninth Plague Darkness/i,
     caption: 'Exodus 10',

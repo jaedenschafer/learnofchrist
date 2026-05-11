@@ -21,6 +21,13 @@ export const EXODUS_25: RichChapterContent = {
   chapter: 25,
 
   estimatedMinutes: { beginner: 11, intermediate: 16, deep: 21 },
+
+  youth: {
+    intros: [
+      "God tells Moses to take an offering — gold, silver, bronze, fine cloth, oil, spices, gemstones — from anyone whose heart is willing. Then He says the line that explains everything: &ldquo;Let them make me a sanctuary; that I may dwell among them.&rdquo;",
+      "God doesn&apos;t need a building. He wants to live with His people. Every detail of the ark, the table, the lampstand is a picture of how a holy God can dwell with broken people. The whole thing is pointing at Jesus, who would later be called Emmanuel — God with us.",
+    ],
+  },
   opener: {
     matchTitle: /Mozes staande bij de/i,
     caption: 'Exodus 25',

@@ -15,6 +15,13 @@ export const EXODUS_30: RichChapterContent = {
   chapter: 30,
 
   estimatedMinutes: { beginner: 9, intermediate: 15, deep: 18 },
+
+  youth: {
+    intros: [
+      "The altar of incense, the bronze laver for washing, the holy anointing oil, the sacred incense. Every detail of how to come into God&apos;s presence — wash first, then enter through the smoke of incense (which is a picture of prayer rising).",
+      "Revelation later describes the prayers of the saints rising as incense before the throne of God. Your prayers don&apos;t hit the ceiling. They reach a real throne. Even the most awkward, broken, half-asleep prayer goes UP and is received.",
+    ],
+  },
   topicTags: ['covenant', 'holiness', 'worship', 'sacrifice'],
   opener: {
     topical: true,

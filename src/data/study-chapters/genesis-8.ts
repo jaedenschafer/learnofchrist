@@ -11,6 +11,13 @@ export const GENESIS_8: RichChapterContent = {
   chapter: 8,
 
   estimatedMinutes: { beginner: 6, intermediate: 10, deep: 13 },
+
+  youth: {
+    intros: [
+      "Five weeks of nothing but water. Everything Noah ever knew is dead. And then: &ldquo;God remembered Noah.&rdquo; God hadn&apos;t forgotten. He just hadn&apos;t moved yet. The waiting was part of the rescue.",
+      "Noah sends a dove. It comes back with an olive leaf. The earth is drying. God brings them out and Noah builds an altar. The first thing his family does on a fresh planet is worship. The first thing your fresh start needs is the same.",
+    ],
+  },
   opener: {
     matchTitle: /The Dove Returns to/i,
     caption: 'Genesis 8',

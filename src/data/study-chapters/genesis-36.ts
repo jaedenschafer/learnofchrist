@@ -21,6 +21,13 @@ export const GENESIS_36: RichChapterContent = {
   chapter: 36,
 
   estimatedMinutes: { beginner: 6, intermediate: 9, deep: 12 },
+
+  youth: {
+    intros: [
+      "A long genealogy of Esau&apos;s descendants — kings, dukes, families. Esau didn&apos;t get the covenant promise. He still got prospering descendants and a real nation called Edom. God&apos;s &ldquo;no&rdquo; to one path is not a punishment in every direction.",
+      "But Edom will end up at war with Israel for centuries. The kid in your school God hasn&apos;t called the same way He called you isn&apos;t a lesser human. Treat them like a brother. The line between covenant and outsider can heal — Christ would later die to make sure of it.",
+    ],
+  },
   topicTags: ['providence', 'covenant', 'faithfulness', 'family'],
   opener: {
     topical: true,

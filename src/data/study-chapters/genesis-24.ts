@@ -16,6 +16,13 @@ export const GENESIS_24: RichChapterContent = {
   chapter: 24,
 
   estimatedMinutes: { beginner: 13, intermediate: 18, deep: 22 },
+
+  youth: {
+    intros: [
+      "Abraham sends his most trusted servant on a mission: find a wife for Isaac among Abraham&apos;s relatives. The servant prays a specific prayer at a well: let her be the one who offers to water my camels too. Before he&apos;s done praying, Rebekah shows up and does exactly that.",
+      "The chapter is one long study in answered prayer and timely yes. Rebekah&apos;s family asks if she&apos;ll go with this stranger to marry a man she&apos;s never met. Her one-word answer reshapes the line of the Messiah: &ldquo;I will go.&rdquo; God still moves through the yes of regular people who show up at the right well at the right time.",
+    ],
+  },
   opener: {
     matchTitle: /Abraham/i,
     caption: 'Genesis 24',

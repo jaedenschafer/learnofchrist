@@ -14,6 +14,13 @@ export const EXODUS_33: RichChapterContent = {
   chapter: 33,
 
   estimatedMinutes: { beginner: 7, intermediate: 13, deep: 17 },
+
+  youth: {
+    intros: [
+      "After the golden calf, God says He&apos;ll send Israel to the promised land but won&apos;t go with them Himself. Moses says no — if Your presence doesn&apos;t go, we&apos;re not going either. The land without God isn&apos;t worth having.",
+      "Then Moses asks: show me Your glory. God answers: I&apos;ll cover you with my hand in a cleft of the rock and let my goodness pass by — but you can&apos;t see my face. The closer you actually get to God, the more you realize how much of Him is still beyond you. That&apos;s eternity&apos;s job, not this life&apos;s.",
+    ],
+  },
   intros: [
     'Exodus 33 is what happens when God&apos;s patience breaks. Israel has just built the golden calf while Moses is on Mount Sinai. They have broken the first commandment and shattered the covenant before it was even written in stone. God tells Moses to leave—to depart from Sinai and lead the people to the Promised Land—but He Himself will not go. "I will not go up in the midst of thee," He says, "for thou art a stiffnecked people: lest I consume thee in the way."',
     'The chapter turns on a single question. While Israel mourns in sackcloth and ashes, Moses pitches a tent outside the camp and goes there to pray. He speaks to God "as a man speaketh unto his friend." And then, in the strangest and most intimate moment, Moses asks: "I beseech thee, shew me thy glory." God says no—"thou canst not see my face: for there shall no man see me, and live"—but then does something astonishing. He places Moses in the cleft of a rock, hides him with His own hand, and shows him His back as He passes. What could not be looked at directly becomes bearable in hidden refuge. It is the whole gospel compressed into a shadow.',

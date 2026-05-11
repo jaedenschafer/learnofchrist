@@ -20,6 +20,13 @@ export const EXODUS_36: RichChapterContent = {
   chapter: 36,
 
   estimatedMinutes: { beginner: 9, intermediate: 14, deep: 16 },
+
+  youth: {
+    intros: [
+      "The construction starts. So many people bring offerings that Moses has to TELL THEM TO STOP. &ldquo;The people bring much more than enough for the service of the work.&rdquo; A worship problem we should all have.",
+      "Then Bezalel and Aholiab and every skilled worker get going. The detail is staggering. They build the curtains, the boards, the veil. The God who designed the universe gets every fabric and frame just right. He&apos;ll do the same with whatever He&apos;s building in your life.",
+    ],
+  },
   topicTags: ['covenant', 'holiness', 'worship', 'sacrifice'],
   opener: {
     topical: true,

@@ -18,6 +18,13 @@ export const GENESIS_12: RichChapterContent = {
   chapter: 12,
 
   estimatedMinutes: { beginner: 6, intermediate: 10, deep: 13 },
+
+  youth: {
+    intros: [
+      "God speaks to Abram: &ldquo;Get thee out of thy country, and from thy kindred, and from thy father&apos;s house, unto a land that I will shew thee.&rdquo; No GPS, no destination, no return ticket. Just GO. Abram, age 75, packs up and goes. Salvation history begins with one man saying yes to a vague calling.",
+      "Then almost immediately Abram fails — lies about his wife to save himself in Egypt. The hero of Hebrews 11 is also the man who botched the very first test. Following God doesn&apos;t make you flawless. It just makes you forgivable, and usable.",
+    ],
+  },
   intros: [
     'Genesis 12 marks a pivot in the Bible&apos;s story. The first eleven chapters show the world falling apart: Adam and Eve eat the forbidden fruit; their son murders his brother; humanity grows so wicked that God floods the earth; the survivors build a tower to reach heaven and are scattered across the land, their languages confused. Chapter 12 opens with God saying something no one has heard before: <em>Get thee out</em> - and with that command, salvation history begins.',
     'A man named Abram, seventy-five years old, receives a call. Leave your country. Leave your family. Go to a land I will show you. And if you go, I will make you a great nation. I will bless you. I will make your name great. And in you, all the families of the earth shall be blessed. It is a promise that sounds impossible. Abram has no son. He is old. His wife is barren. But he goes. And as he travels from Mesopotamia through Canaan to Egypt, altars rise up behind him - markers that God has kept His word to provide, to protect, and to be present.',

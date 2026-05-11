@@ -16,6 +16,13 @@ export const GENESIS_29: RichChapterContent = {
   chapter: 29,
 
   estimatedMinutes: { beginner: 10, intermediate: 16, deep: 22 },
+
+  youth: {
+    intros: [
+      "Jacob arrives in Haran and meets a woman at a well — Rachel. He&apos;s smitten. Works seven years to marry her, and the years feel like &ldquo;but a few days.&rdquo; Then on the wedding night, Laban switches the bride. Jacob wakes up married to Leah.",
+      "The deceiver got deceived. Twenty years of being on the other side of his own scheme begin tonight. Watch how God uses that table-turning to grow Jacob into Israel. Whatever you&apos;ve done to other people will likely come around. The grace is that God can use even that to remake you.",
+    ],
+  },
   opener: {
     matchTitle: /Jacob and Rachel at/i,
     caption: 'Genesis 29',

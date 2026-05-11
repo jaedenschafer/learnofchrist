@@ -27,6 +27,13 @@ export const EXODUS_40: RichChapterContent = {
   chapter: 40,
 
   estimatedMinutes: { beginner: 8, intermediate: 12, deep: 15 },
+
+  youth: {
+    intros: [
+      "On the first day of the first month of the second year, Moses raises the tabernacle. Every piece in place. Every priest dressed. Every altar lit.",
+      "Then the cloud covers the tabernacle and the glory of the Lord fills it. Even Moses can&apos;t enter. God moves in. Whenever the cloud lifts, Israel moves. When it stays, they stay. That&apos;s how Israel walked for forty years. That&apos;s how every disciple still walks. Move when He moves; stay when He stays.",
+    ],
+  },
   intros: [
     'Exodus 40 brings the book to its greatest moment. After a year in the wilderness, the tabernacle is complete. Every piece is in place—the wood, the gold, the oil, the priestly garments. But until now it has been a structure, not a house. Now Moses will assemble it, anoint it, and dedicate it to God. What happens next changes everything.',
     'The chapter opens with careful, methodical work: place this here, put that there, anoint this with oil. It reads like an ancient instruction manual. But it is not meant to sound ordinary. Each act is an echo of creation itself—God ordering chaos, placing things in their proper space, calling them good. And the author wants us to feel the weight of it: this is not a human structure being finished. This is the place where God will dwell.',

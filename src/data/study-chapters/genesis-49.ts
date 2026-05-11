@@ -16,6 +16,13 @@ export const GENESIS_49: RichChapterContent = {
   chapter: 49,
 
   estimatedMinutes: { beginner: 10, intermediate: 18, deep: 24 },
+
+  youth: {
+    intros: [
+      "Jacob gives a final word over each of his twelve sons. Some are blessings. Some are warnings. He doesn&apos;t flatter. Reuben loses his birthright for sleeping with his father&apos;s concubine. Simeon and Levi get scattered for their massacre. The dying patriarch tells the truth.",
+      "But over Judah he says: &ldquo;The sceptre shall not depart from Judah… until Shiloh come.&rdquo; The Messiah will come from Judah&apos;s line. The same Judah who sold a brother and slept with a disguised daughter-in-law gets the line that runs all the way to Bethlehem. Grace is patient enough to write a Messiah out of a long, slow, real repentance.",
+    ],
+  },
   intros: [
     'Genesis 49 is Jacob&apos;s last will and testament - a long, poetic deathbed blessing over his twelve sons [res:met-museum-egypt]. Each oracle is terse, sometimes cryptic, and devastating in its honesty. Reuben is cursed for his lust. Simeon and Levi are condemned to scatter because of the massacre at Shechem. The words are judgment delivered in love by a dying father who sees his sons not as they are in this moment, but as the tribes they will become.',
     'And yet in the middle of pronouncing these fates, Jacob suddenly breaks off his poetry and cries out to God: "I have waited for thy salvation, O LORD." He is blessing his sons, but his deepest longing is for Someone else - for a Deliverer [res:sefaria-genesis-49]. The Shiloh prophecy on Judah (vv.8-12) becomes the pivot point of the entire book. The scepter will not depart from Judah. A lawgiver will rise from his sons. Obedience of the peoples will gather to him. Two thousand years of interpretation - Jewish and Christian - will hang on these verses.',

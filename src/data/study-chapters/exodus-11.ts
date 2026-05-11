@@ -16,6 +16,13 @@ export const EXODUS_11: RichChapterContent = {
   chapter: 11,
 
   estimatedMinutes: { beginner: 5, intermediate: 9, deep: 11 },
+
+  youth: {
+    intros: [
+      "God announces the final plague: every firstborn in Egypt will die at midnight. Not because God is cruel. Because Pharaoh has refused mercy for nine plagues straight. Eventually consequences arrive that nobody can keep postponing.",
+      "Israel is told to ask Egyptians for silver and gold — and the Egyptians give it freely. The empire is paying reparations to the slaves it tortured. God remembers wages stolen and pays them out. The chapter ends with a single sentence: Pharaoh refused. Tomorrow night, he&apos;ll regret it forever.",
+    ],
+  },
   topicTags: ['deliverance', 'sovereignty', 'calling', 'protection'],
   opener: {
     topical: true,

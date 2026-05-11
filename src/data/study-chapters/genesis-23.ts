@@ -15,6 +15,13 @@ export const GENESIS_23: RichChapterContent = {
   chapter: 23,
 
   estimatedMinutes: { beginner: 5, intermediate: 8, deep: 11 },
+
+  youth: {
+    intros: [
+      "Sarah dies at 127. Abraham is a stranger in the land God promised him, and he has to BUY a burial plot for his wife. He pays full price for a cave from a Hittite landowner — no negotiating, no favors. The chapter is a slow, dignified picture of grief.",
+      "The first piece of land Abraham ever owns in the &ldquo;promised&rdquo; land is a tomb. He died still trusting a promise that was bigger than what he could see in his lifetime. You may be the same way. The promise is real even when the only piece of it you hold is a grave.",
+    ],
+  },
   opener: {
     matchTitle: /The Burial of Sarah/i,
     caption: 'Genesis 23',
