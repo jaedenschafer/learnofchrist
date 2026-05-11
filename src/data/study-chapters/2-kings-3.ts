@@ -19,6 +19,13 @@ export const KINGS_2_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 4, intermediate: 12, deep: 16 },
+
+  youth: {
+    intros: [
+      "Three kings team up against Moab and run out of water in the desert. Elisha shows up and tells them to dig ditches. The next morning the trenches are full of water without rain or wind. Then Moab attacks; Israel routs them.",
+      "Sometimes God&apos;s provision shows up in dug ditches you don&apos;t see filling. Do the obedient digging now. He fills the trench you can&apos;t see filling.",
+    ],
+  },
   topicTags: ['kingship', 'judgment', 'sin', 'exile'],
   opener: {
     topical: true,

@@ -20,6 +20,13 @@ export const KINGS_2_6: RichChapterContent = {
   chapter: 6,
 
   estimatedMinutes: { beginner: 8, intermediate: 16, deep: 21 },
+
+  youth: {
+    intros: [
+      "An axe head falls in the river. Elisha makes it float. Then Syria sends an army to capture Elisha. His servant panics. Elisha prays: &ldquo;Lord, open his eyes.&rdquo; The servant sees the mountain full of horses and chariots of fire. &ldquo;They that be with us are more than they that be with them.&rdquo;",
+      "Whatever army you&apos;re seeing in your news feed, the unseen army is bigger. Pray for your eyes to open. The hill is full of fire whether you can see it or not.",
+    ],
+  },
   opener: {
     matchTitle: /A Famine in Samaria/i,
     caption: '2 Kings 6',

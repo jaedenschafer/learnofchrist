@@ -17,6 +17,13 @@ export const KINGS_2_13: RichChapterContent = {
   chapter: 13,
 
   estimatedMinutes: { beginner: 3, intermediate: 9, deep: 12 },
+
+  youth: {
+    intros: [
+      "Elisha is dying. The new king of Israel comes to weep over him: &ldquo;O my father, my father, the chariot of Israel, and the horsemen thereof.&rdquo; Elisha tells him to shoot arrows out the window — a sign of victory over Syria. The king shoots three times and stops. Elisha is angry: you should have struck five or six times.",
+      "Don&apos;t stop praying after three. Don&apos;t stop pursuing victory after three rounds. Half-hearted obedience gets half-hearted results. Keep shooting.",
+    ],
+  },
   topicTags: ['kingship', 'judgment', 'sin', 'exile'],
   opener: {
     topical: true,

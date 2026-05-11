@@ -16,6 +16,13 @@ export const KINGS_2_4: RichChapterContent = {
   chapter: 4,
 
   estimatedMinutes: { beginner: 3, intermediate: 15, deep: 19 },
+
+  youth: {
+    intros: [
+      "Three miracles in one chapter. A widow&apos;s oil multiplies to pay her debt. A wealthy woman&apos;s long-prayed-for son dies and Elisha raises him. Stew gets poisoned and Elisha makes it edible. Bread for 100 men gets multiplied from 20 loaves.",
+      "Elisha&apos;s ministry was largely small mercies for ordinary people. The biggest miracles in your life will probably be quiet ones for ordinary people. They count.",
+    ],
+  },
   opener: {
     matchTitle: /Elisha Raises the Shunammite/i,
     caption: '2 Kings 4',

@@ -19,6 +19,13 @@ export const KINGS_2_21: RichChapterContent = {
   chapter: 21,
 
   estimatedMinutes: { beginner: 6, intermediate: 12, deep: 17 },
+
+  youth: {
+    intros: [
+      "Manasseh — Hezekiah&apos;s son — undoes everything his father reformed. Builds altars to Baal in the temple itself. Sacrifices his own son. Practices witchcraft. Sheds innocent blood throughout Jerusalem. He reigns 55 years — the longest in Judah&apos;s history.",
+      "Long life isn&apos;t always a blessing. The longest reign in Judah was the most destructive. Pray for short, godly seasons of leadership over long, ungodly ones.",
+    ],
+  },
   topicTags: ['kingship', 'judgment', 'sin', 'exile'],
   opener: {
     topical: true,

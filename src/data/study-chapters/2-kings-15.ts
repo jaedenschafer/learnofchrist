@@ -19,6 +19,13 @@ export const KINGS_2_15: RichChapterContent = {
   chapter: 15,
 
   estimatedMinutes: { beginner: 8, intermediate: 14, deep: 20 },
+
+  youth: {
+    intros: [
+      "Six kings in rapid succession in Israel. Most are assassinated. Judah&apos;s kings are slightly better. The northern kingdom is in free fall. Assyria starts coming down from the north.",
+      "When God&apos;s people abandon Him for generations, the consequences finally arrive. Don&apos;t mistake His patience for tolerance. Long-delayed judgment still lands.",
+    ],
+  },
   topicTags: ['kingship', 'judgment', 'sin', 'exile'],
   opener: {
     topical: true,

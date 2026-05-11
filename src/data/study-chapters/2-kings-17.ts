@@ -18,6 +18,13 @@ export const KINGS_2_17: RichChapterContent = {
   chapter: 17,
 
   estimatedMinutes: { beginner: 4, intermediate: 10, deep: 16 },
+
+  youth: {
+    intros: [
+      "The northern kingdom of Israel falls to Assyria. The ten tribes are deported. The text takes a long pause to explain why: they worshipped other gods, ignored the prophets, hardened their necks. The chapter is the autopsy of a nation God warned for 200 years.",
+      "Read this chapter slowly. Long-term refusal to listen to God isn&apos;t harmless. There&apos;s a point where even mercy stops postponing consequences. Don&apos;t be the generation God finally lets go.",
+    ],
+  },
   opener: {
     matchTitle: /Foreign Nations Are Slain/i,
     caption: '2 Kings 17',

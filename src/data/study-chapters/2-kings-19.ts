@@ -18,6 +18,13 @@ export const KINGS_2_19: RichChapterContent = {
   chapter: 19,
 
   estimatedMinutes: { beginner: 7, intermediate: 13, deep: 16 },
+
+  youth: {
+    intros: [
+      "Hezekiah takes the threatening letter from Sennacherib into the temple and SPREADS IT OUT before the Lord. He prays: &ldquo;Bow down thine ear, O Lord, and hear.&rdquo; That night the angel of the Lord kills 185,000 Assyrian soldiers. Sennacherib goes home and is murdered by his own sons.",
+      "Take the scary letter into God&apos;s presence. Spread it out. Don&apos;t hide what you&apos;re afraid of. Show it to Him. He answers letters spread out before Him.",
+    ],
+  },
   opener: {
     matchTitle: /Sennacherib/i,
     caption: '2 Kings 19',

@@ -25,6 +25,13 @@ export const KINGS_2_10: RichChapterContent = {
   chapter: 10,
 
   estimatedMinutes: { beginner: 5, intermediate: 12, deep: 17 },
+
+  youth: {
+    intros: [
+      "Jehu wipes out the entire house of Ahab — Ahab&apos;s seventy sons in one day. Then he tricks all the prophets of Baal into one temple and kills them all. He destroys Baal worship from Israel. But he keeps the golden calves Jeroboam set up.",
+      "Partial reformation. Jehu got rid of Baal but kept the golden calves. Don&apos;t do half a cleanup. The idols you leave standing will be your kids&apos; problem.",
+    ],
+  },
   topicTags: ['kingship', 'judgment', 'sin', 'exile'],
   opener: {
     topical: true,

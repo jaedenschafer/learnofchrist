@@ -18,6 +18,13 @@ export const KINGS_2_11: RichChapterContent = {
   chapter: 11,
 
   estimatedMinutes: { beginner: 8, intermediate: 16, deep: 21 },
+
+  youth: {
+    intros: [
+      "Athaliah, the queen mother, murders the entire royal family to seize the throne. One baby — Joash — is hidden by the priest&apos;s wife in the temple for six years. Then the priest crowns him king and Athaliah is executed.",
+      "God&apos;s line cannot be erased. One faithful aunt hiding one baby keeps the Davidic promise alive through the worst attempt to wipe it out. The promise that runs from Bethlehem to Calvary went through this hidden child.",
+    ],
+  },
   opener: {
     matchTitle: /The Death of Athaliah/i,
     caption: '2 Kings 11',

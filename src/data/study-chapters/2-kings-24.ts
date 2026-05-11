@@ -19,6 +19,13 @@ export const KINGS_2_24: RichChapterContent = {
   chapter: 24,
 
   estimatedMinutes: { beginner: 6, intermediate: 14, deep: 18 },
+
+  youth: {
+    intros: [
+      "Josiah dies in battle. The next four kings are weak and faithless. Babylon comes calling. Nebuchadnezzar carries the king and the elite of Jerusalem into exile in three waves.",
+      "Even the most thorough reform can&apos;t outlast the next generation if they don&apos;t inherit the heart. Josiah&apos;s sons undid everything he did within decades. Pass down conviction, not just rules.",
+    ],
+  },
   topicTags: ['kingship', 'judgment', 'sin', 'exile'],
   opener: {
     topical: true,

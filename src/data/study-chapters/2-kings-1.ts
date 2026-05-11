@@ -18,6 +18,13 @@ export const KINGS_2_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 4, intermediate: 9, deep: 13 },
+
+  youth: {
+    intros: [
+      "Ahaziah falls through a lattice and is dying. He sends to consult Baal-zebub, the Philistine god, instead of asking the God of Israel. Elijah intercepts the messengers: tell the king he&apos;ll die in that bed because he didn&apos;t inquire of the Lord.",
+      "Where you go for answers when you&apos;re hurting reveals what you actually believe about God. Don&apos;t consult the cultural Baals — horoscopes, online gurus, AI bots — when there&apos;s a real God to ask.",
+    ],
+  },
   opener: {
     matchTitle: /Elijah Destroys the Messengers/i,
     caption: '2 Kings 1',

@@ -19,6 +19,13 @@ export const KINGS_2_8: RichChapterContent = {
   chapter: 8,
 
   estimatedMinutes: { beginner: 5, intermediate: 11, deep: 15 },
+
+  youth: {
+    intros: [
+      "Elisha&apos;s influence keeps reaching into politics. The widow whose son he raised gets her land back. Elisha weeps as he predicts that Hazael will become king of Syria and slaughter Israelites. Hazael murders the current king and takes the throne.",
+      "Sometimes God shows you what&apos;s coming and you weep. The right response to a hard prophetic word isn&apos;t cynicism — it&apos;s tears. Pray for the people who&apos;ll suffer when the predictions land.",
+    ],
+  },
   topicTags: ['kingship', 'judgment', 'sin', 'exile'],
   opener: {
     topical: true,

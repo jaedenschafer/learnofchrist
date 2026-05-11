@@ -19,6 +19,13 @@ export const KINGS_2_22: RichChapterContent = {
   chapter: 22,
 
   estimatedMinutes: { beginner: 6, intermediate: 12, deep: 16 },
+
+  youth: {
+    intros: [
+      "Josiah becomes king at age 8. At 26 he orders the temple repaired. While cleaning, the high priest finds the lost Book of the Law. Josiah reads it and tears his clothes — the people have been violating God&apos;s commands for generations and didn&apos;t even know.",
+      "If you don&apos;t know what the Bible says, you can&apos;t know what you&apos;re missing. Many of us are like Josiah&apos;s generation — assuming we know the Word when we&apos;ve barely read it. Find the lost book on your shelf. Read it.",
+    ],
+  },
   opener: {
     matchTitle: /Josiah Hears the Word/i,
     caption: '2 Kings 22',

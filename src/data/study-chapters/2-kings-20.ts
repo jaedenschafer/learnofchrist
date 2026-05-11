@@ -18,6 +18,13 @@ export const KINGS_2_20: RichChapterContent = {
   chapter: 20,
 
   estimatedMinutes: { beginner: 5, intermediate: 14, deep: 20 },
+
+  youth: {
+    intros: [
+      "Hezekiah falls deathly ill. Isaiah tells him to put his house in order. Hezekiah weeps and prays. God adds 15 years to his life. But during those 15 years, Hezekiah shows off his treasures to envoys from Babylon. Isaiah warns: Babylon will come back and take it all.",
+      "God answered Hezekiah&apos;s prayer for life. But the extra years included his worst mistake. Be careful what you celebrate as answered prayer. Sometimes the &ldquo;yes&rdquo; you wanted ends up being a longer rope.",
+    ],
+  },
   topicTags: ['kingship', 'judgment', 'sin', 'exile'],
   opener: {
     topical: true,

@@ -17,6 +17,13 @@ export const KINGS_2_7: RichChapterContent = {
   chapter: 7,
 
   estimatedMinutes: { beginner: 8, intermediate: 15, deep: 20 },
+
+  youth: {
+    intros: [
+      "Samaria is starving under siege. Four lepers outside the gate decide they might as well surrender to the Syrians. They walk to the enemy camp and find it empty — God made the Syrians hear the noise of a great army and they fled. The lepers eat, drink, and then remember to tell the city.",
+      "&ldquo;We do not well: this day is a day of good tidings, and we hold our peace.&rdquo; The good news of Christ is the spiritual version. Don&apos;t hold the gospel for yourself. Tell someone today.",
+    ],
+  },
   topicTags: ['kingship', 'judgment', 'sin', 'exile'],
   opener: {
     topical: true,

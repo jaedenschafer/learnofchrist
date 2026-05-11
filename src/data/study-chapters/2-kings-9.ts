@@ -20,6 +20,13 @@ export const KINGS_2_9: RichChapterContent = {
   chapter: 9,
 
   estimatedMinutes: { beginner: 4, intermediate: 9, deep: 13 },
+
+  youth: {
+    intros: [
+      "Elisha sends a young prophet to anoint Jehu king of Israel and commission him to wipe out Ahab&apos;s house. Jehu drives furiously across the country. Kills Joram. Kills Ahaziah. Then arrives at Jezreel where Jezebel paints her face and watches from a window. Jehu has her thrown out the window.",
+      "God&apos;s judgment came to Ahab&apos;s house exactly as Elijah prophesied. Slow doesn&apos;t mean no. The judgment that&apos;s been delayed in your culture or your family isn&apos;t cancelled. Pray for repentance now while the door is still open.",
+    ],
+  },
   opener: {
     matchTitle: /The End of Jezebel/i,
     caption: '2 Kings 9',

@@ -26,6 +26,13 @@ export const KINGS_2_14: RichChapterContent = {
   chapter: 14,
 
   estimatedMinutes: { beginner: 6, intermediate: 13, deep: 19 },
+
+  youth: {
+    intros: [
+      "Amaziah of Judah and Jeroboam II of Israel. Both win battles. Amaziah gets cocky after defeating Edom and challenges Israel — and loses badly. Jeroboam II expands Israel&apos;s territory back to its largest extent since Solomon.",
+      "Don&apos;t let one victory make you challenge a battle God didn&apos;t pick for you. Pride after a win is the most dangerous moment in any leader&apos;s life.",
+    ],
+  },
   topicTags: ['kingship', 'judgment', 'sin', 'exile'],
   opener: {
     topical: true,

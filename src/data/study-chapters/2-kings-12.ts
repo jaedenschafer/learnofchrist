@@ -20,6 +20,13 @@ export const KINGS_2_12: RichChapterContent = {
   chapter: 12,
 
   estimatedMinutes: { beginner: 5, intermediate: 10, deep: 15 },
+
+  youth: {
+    intros: [
+      "King Joash repairs the temple. He sets up a chest at the temple gate so people can put offerings in directly without going through corrupt priests. The temple gets restored.",
+      "Sometimes the fix is as simple as creating a more transparent process. When trust is broken in a system, build a new system around the broken one. Don&apos;t just hope the old one fixes itself.",
+    ],
+  },
   topicTags: ['kingship', 'judgment', 'sin', 'exile'],
   opener: {
     topical: true,

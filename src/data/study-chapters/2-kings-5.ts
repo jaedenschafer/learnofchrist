@@ -19,6 +19,13 @@ export const KINGS_2_5: RichChapterContent = {
   chapter: 5,
 
   estimatedMinutes: { beginner: 6, intermediate: 14, deep: 19 },
+
+  youth: {
+    intros: [
+      "Naaman, Syrian commander with leprosy, hears about Elisha from his Israelite slave girl. He travels to Israel expecting royal treatment. Elisha sends a messenger telling him to dip seven times in the Jordan. Naaman is offended. His servant convinces him to obey. He&apos;s healed.",
+      "God&apos;s healing often comes through humbler instructions than your ego wanted. The slave girl, the muddy river, the messenger instead of the prophet. Stop demanding the cinematic version. Just dip.",
+    ],
+  },
   topicTags: ['kingship', 'judgment', 'sin', 'exile'],
   opener: {
     topical: true,

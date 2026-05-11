@@ -18,6 +18,13 @@ export const KINGS_2_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 7, intermediate: 15, deep: 22 },
+
+  youth: {
+    intros: [
+      "Elijah is about to be taken to heaven. Elisha refuses to leave his side. They cross the Jordan on dry ground. Elisha asks for a double portion of Elijah&apos;s spirit. Chariots of fire come down and sweep Elijah up in a whirlwind.",
+      "Then Elisha picks up Elijah&apos;s mantle and starts his own ministry. The work of God doesn&apos;t end when the great leader leaves. Be the kid who refuses to leave Elijah&apos;s side. The mantle is for the next person willing to stay close.",
+    ],
+  },
   opener: {
     matchTitle: /Elijah/i,
     caption: '2 Kings 2',

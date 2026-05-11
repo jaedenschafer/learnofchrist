@@ -18,6 +18,13 @@ export const KINGS_2_25: RichChapterContent = {
   chapter: 25,
 
   estimatedMinutes: { beginner: 3, intermediate: 9, deep: 13 },
+
+  youth: {
+    intros: [
+      "Nebuchadnezzar besieges Jerusalem for two years. The walls fall. The temple burns. The king has his sons killed in front of him, then his own eyes put out, then is dragged to Babylon in chains. The book ends in darkness with a small ray of hope: an exiled Davidic king is given a seat at the Babylonian table.",
+      "The Davidic line survives even in exile. The promise that runs to Bethlehem doesn&apos;t die with the temple. Whatever your nation, family, or church looks like at its lowest point — God is still keeping His promise.",
+    ],
+  },
   opener: {
     matchTitle: /Destruction of Jerusalem and/i,
     caption: '2 Kings 25',

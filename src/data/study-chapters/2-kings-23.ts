@@ -19,6 +19,13 @@ export const KINGS_2_23: RichChapterContent = {
   chapter: 23,
 
   estimatedMinutes: { beginner: 8, intermediate: 16, deep: 22 },
+
+  youth: {
+    intros: [
+      "Josiah leads Judah&apos;s most thorough reform ever. Destroys all the idols, smashes the high places, kills the false priests, removes the altar of Topheth where children were sacrificed. Then keeps the most thorough Passover since the days of the judges.",
+      "Real reform is loud and disruptive. Josiah didn&apos;t hold a quiet conversation with the idol industry. He demolished it. Whatever you&apos;ve been tolerating in your life that needs to go — go full Josiah on it.",
+    ],
+  },
   topicTags: ['kingship', 'judgment', 'sin', 'exile'],
   opener: {
     topical: true,

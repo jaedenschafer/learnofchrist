@@ -20,6 +20,13 @@ export const KINGS_2_18: RichChapterContent = {
   chapter: 18,
 
   estimatedMinutes: { beginner: 6, intermediate: 13, deep: 17 },
+
+  youth: {
+    intros: [
+      "Hezekiah becomes king of Judah and does massive reform — destroys the high places, breaks the bronze serpent (which Israel had started worshipping). Then Sennacherib king of Assyria invades. His messenger Rabshakeh mocks Hezekiah and the Lord at the wall of Jerusalem.",
+      "Reform brings opposition. The moment you start cleaning up your life, the bullies show up to mock. Don&apos;t answer Rabshakeh. Take the threats to the temple like Hezekiah does in the next chapter.",
+    ],
+  },
   topicTags: ['kingship', 'judgment', 'sin', 'exile'],
   opener: {
     topical: true,

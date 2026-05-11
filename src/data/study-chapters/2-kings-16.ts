@@ -19,6 +19,13 @@ export const KINGS_2_16: RichChapterContent = {
   chapter: 16,
 
   estimatedMinutes: { beginner: 6, intermediate: 12, deep: 16 },
+
+  youth: {
+    intros: [
+      "Ahaz, king of Judah, is so faithless he sacrifices his own son to a foreign god. He copies a pagan altar he saw in Damascus and replaces the bronze altar at the temple with it. Then makes a treaty with Assyria for protection.",
+      "When you trust an empire instead of God, the empire becomes the god. Ahaz&apos;s political shortcuts cost his kingdom its faith. Whatever you&apos;re tempted to compromise on for &ldquo;protection&rdquo; — count the long-term cost.",
+    ],
+  },
   topicTags: ['kingship', 'judgment', 'sin', 'exile'],
   opener: {
     topical: true,
