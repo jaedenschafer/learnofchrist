@@ -105,6 +105,10 @@ export const ACTS_18: RichChapterContent = {
           kind: 'carry',
           html:
             'You do not need to choose between working with your hands and serving God. Paul chose both. The tentmakers in your life—the electricians, the teachers, the nurses, the parents working two jobs to pay rent—are not on a lower rung. Their work is their witness. What you do with your hands, the people you sit alongside while you do it, the care you take in ordinary things—that is missional. You do not need a platform to speak the gospel. You need faithfulness in the place where God has put you.',
+          youthOverride: {
+            html:
+              'You don\'t have to be on a stage to be on mission. Paul made tents for a living and planted churches in his off-hours. Your version is the part-time job, the team you\'re on, the group project, the bus ride, the lunch table. The way you treat people while you\'re doing the ordinary thing is the witness. You don\'t need a youth-pastor mic to speak the gospel. You need to be the kind of friend, classmate, teammate, sibling who actually shows up.',
+          },
         },
         {
           kind: 'reflection',
@@ -484,6 +488,10 @@ export const ACTS_18: RichChapterContent = {
           kind: 'carry',
           html:
             'Notice who teaches Apollos: not the apostles, not a famous teacher, but Aquila and Priscilla—a married couple, tentmakers like Paul, ordinary believers in an ordinary home in Ephesus. They take the time. They do it carefully. They do it without condescension. Apollos receives it and goes forward. You do not need credentials to teach. You need to have been taught well, and you need the humility to teach without claiming credit. Somewhere in your life is an Apollos—someone burning but incomplete. And you, like Priscilla, may be the one called to teach him more perfectly.',
+          youthOverride: {
+            html:
+              'Notice who teaches Apollos: not a famous preacher, not the apostles. Two ordinary believers who took him aside in their living room. The next time you watch a friend get fired up about Jesus but get the details wrong, you don\'t need a degree to help. You need a quiet conversation, no condescension, and the patience to walk them through. Some of the most important teaching in your life is going to happen one-on-one in a kitchen, not from a stage.',
+          },
         },
         {
           kind: 'reflection',

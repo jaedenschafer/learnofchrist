@@ -504,6 +504,10 @@ export const SAMUEL_2_12: RichChapterContent = {
           kind: 'carry',
           html:
             'You may be carrying a loss that will not be undone in this life — a child gone, a marriage broken, a dream that will not come true. The world tells you to move on, to accept, to find meaning in what remains. But David\'s words point to something else: acceptance of the loss does not mean acceptance that the loss is final. David eats bread. David worships. David continues to live — not because the wound is healed, but because he knows that one day, "I shall go to him." The resurrection hope is not a cure for grief. It is a frame for it. And it changes everything.',
+          youthOverride: {
+            html:
+              'You may be carrying a loss that doesn\'t come back in this life — a parent gone, a friendship that ended, a family that broke apart, a future you were counting on that just isn\'t happening. The world says move on. David\'s answer was different. He gets up. He eats. He worships. Not because the wound is healed but because he knows: "I shall go to him." Resurrection hope doesn\'t cure grief. It changes the shape of it. Some pain you carry forward, and some you carry forward toward Someone who is waiting.',
+          },
         },
 
         {
