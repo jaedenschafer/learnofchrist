@@ -16,6 +16,12 @@ export const ISAIAH_60: RichChapterContent = {
   chapter: 60,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 5 },
+
+  youth: {
+    intros: [
+      "&ldquo;Arise, shine; for thy light is come, and the glory of the Lord is risen upon thee.&rdquo; Nations come to the light. Kings come to the brightness of your rising.",
+    ],
+  },
   opener: {
     matchTitle: /The Light of the/i,
     caption: 'Isaiah 60',

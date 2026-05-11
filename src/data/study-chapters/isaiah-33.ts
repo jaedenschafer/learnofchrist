@@ -17,6 +17,12 @@ export const ISAIAH_33: RichChapterContent = {
   chapter: 33,
 
   estimatedMinutes: { beginner: 2, intermediate: 6, deep: 8 },
+
+  youth: {
+    intros: [
+      "A woe against the destroyer. &ldquo;The Lord is exalted; for he dwelleth on high…the Lord is our judge, the Lord is our lawgiver, the Lord is our king; he will save us.&rdquo;",
+    ],
+  },
   topicTags: ['judgment', 'calling', 'hope', 'sovereignty'],
   opener: {
     topical: true,

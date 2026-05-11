@@ -16,6 +16,12 @@ export const ISAIAH_11: RichChapterContent = {
   chapter: 11,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 6 },
+
+  youth: {
+    intros: [
+      "A shoot from the stump of Jesse — the Davidic kingdom seemed dead, but a Branch comes out. The Spirit rests on Him. He judges with righteousness. The wolf lives with the lamb. The Messiah&apos;s reign.",
+    ],
+  },
   opener: {
     matchTitle: /Sibyls and Prophets/i,
     caption: 'Isaiah 11',

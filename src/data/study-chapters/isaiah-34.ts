@@ -17,6 +17,12 @@ export const ISAIAH_34: RichChapterContent = {
   chapter: 34,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 6 },
+
+  youth: {
+    intros: [
+      "The day of the Lord against the nations — particularly Edom. The judgment is severe. Then chapter 35 turns the page entirely.",
+    ],
+  },
   topicTags: ['judgment', 'calling', 'hope', 'sovereignty'],
   opener: {
     topical: true,

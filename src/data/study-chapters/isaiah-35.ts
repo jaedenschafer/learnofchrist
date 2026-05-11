@@ -17,6 +17,12 @@ export const ISAIAH_35: RichChapterContent = {
   chapter: 35,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 6 },
+
+  youth: {
+    intros: [
+      "The wilderness shall blossom as the rose. The eyes of the blind shall be opened, the ears of the deaf unstopped, the lame leap as a hart, the tongue of the dumb sing. A prophecy of Christ&apos;s healing ministry.",
+    ],
+  },
   opener: {
     matchTitle: /The Course of Empire/i,
     caption: 'Isaiah 35',

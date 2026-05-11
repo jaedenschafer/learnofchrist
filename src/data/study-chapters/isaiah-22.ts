@@ -15,6 +15,12 @@ export const ISAIAH_22: RichChapterContent = {
   chapter: 22,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "Jerusalem at a moment of celebration when she should be in mourning. Isaiah weeps for the city. Then a specific prophecy about a corrupt official, Shebna, who will be replaced by Eliakim — &ldquo;the key of the house of David will I lay upon his shoulder.&rdquo; Revelation 3 quotes this of Christ.",
+    ],
+  },
   topicTags: ['judgment', 'calling', 'hope', 'sovereignty'],
   opener: {
     topical: true,

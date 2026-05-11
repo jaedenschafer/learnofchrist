@@ -18,6 +18,12 @@ export const ISAIAH_47: RichChapterContent = {
   chapter: 47,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "The fall of Babylon. The empire that thought it would never fall, falls. Pride still goes before destruction.",
+    ],
+  },
   topicTags: ['hope', 'deliverance', 'messianic-prophecy', 'new-creation'],
   opener: {
     topical: true,

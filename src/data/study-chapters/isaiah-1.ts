@@ -16,6 +16,12 @@ export const ISAIAH_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 6 },
+
+  youth: {
+    intros: [
+      "Isaiah opens with God&apos;s lawsuit against Israel. The animals know their owner; My people don&apos;t know Me. &ldquo;Though your sins be as scarlet, they shall be as white as snow.&rdquo; The opening chapter is judgment AND mercy in the same breath.",
+    ],
+  },
   topicTags: ['judgment', 'calling', 'hope', 'sovereignty'],
   opener: {
     topical: true,

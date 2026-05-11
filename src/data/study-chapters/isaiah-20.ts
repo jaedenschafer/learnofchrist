@@ -15,6 +15,12 @@ export const ISAIAH_20: RichChapterContent = {
   chapter: 20,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "Isaiah is told to walk barefoot and naked for three years as a sign of Egypt&apos;s coming captivity. Prophets paid in their bodies for their messages. Don&apos;t romanticize the prophetic role.",
+    ],
+  },
   topicTags: ['judgment', 'calling', 'hope', 'sovereignty'],
   opener: {
     topical: true,

@@ -16,6 +16,12 @@ export const ISAIAH_56: RichChapterContent = {
   chapter: 56,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "Foreigners and eunuchs — the outsiders — are welcomed in. &ldquo;My house shall be called an house of prayer for all people.&rdquo; Jesus quotes this when He cleanses the temple.",
+    ],
+  },
   topicTags: ['hope', 'deliverance', 'messianic-prophecy', 'new-creation'],
   opener: {
     topical: true,

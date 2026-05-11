@@ -16,6 +16,12 @@ export const ISAIAH_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 6 },
+
+  youth: {
+    intros: [
+      "God will strip away Judah&apos;s leaders and judges. The well-dressed women of Jerusalem will lose their finery. Pride before destruction at the national level.",
+    ],
+  },
   topicTags: ['judgment', 'calling', 'hope', 'sovereignty'],
   opener: {
     topical: true,

@@ -17,6 +17,12 @@ export const ISAIAH_6: RichChapterContent = {
   chapter: 6,
 
   estimatedMinutes: { beginner: 2, intermediate: 6, deep: 8 },
+
+  youth: {
+    intros: [
+      "The death of King Uzziah. Isaiah sees the Lord on a throne, high and lifted up. Seraphim crying &ldquo;Holy, holy, holy.&rdquo; Isaiah cries &ldquo;Woe is me!&rdquo; A coal touches his lips: cleansed. Then God asks: &ldquo;Whom shall I send?&rdquo; Isaiah says: &ldquo;Here am I; send me.&rdquo;",
+    ],
+  },
   opener: {
     matchTitle: /Isaiah/i,
     caption: 'Isaiah 6',

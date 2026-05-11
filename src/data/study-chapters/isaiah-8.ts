@@ -16,6 +16,12 @@ export const ISAIAH_8: RichChapterContent = {
   chapter: 8,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 6 },
+
+  youth: {
+    intros: [
+      "Don&apos;t fear what the people fear. The Lord of hosts is your fear. He&apos;s a sanctuary AND a stone of stumbling. Two responses to the same God.",
+    ],
+  },
   topicTags: ['judgment', 'calling', 'hope', 'sovereignty'],
   opener: {
     topical: true,

@@ -18,6 +18,12 @@ export const ISAIAH_40: RichChapterContent = {
   chapter: 40,
 
   estimatedMinutes: { beginner: 2, intermediate: 6, deep: 8 },
+
+  youth: {
+    intros: [
+      "The book pivots. &ldquo;Comfort ye, comfort ye my people, saith your God.&rdquo; The voice in the wilderness preparing the way. &ldquo;The grass withereth, the flower fadeth: but the word of our God shall stand for ever.&rdquo; And: &ldquo;They that wait upon the Lord shall renew their strength; they shall mount up with wings as eagles.&rdquo;",
+    ],
+  },
   topicTags: ['hope', 'deliverance', 'messianic-prophecy', 'new-creation'],
   opener: {
     topical: true,

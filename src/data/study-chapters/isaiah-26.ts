@@ -15,6 +15,12 @@ export const ISAIAH_26: RichChapterContent = {
   chapter: 26,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "&ldquo;Thou wilt keep him in perfect peace, whose mind is stayed on thee: because he trusteth in thee.&rdquo; Stay your mind on Him.",
+    ],
+  },
   topicTags: ['judgment', 'calling', 'hope', 'sovereignty'],
   opener: {
     topical: true,

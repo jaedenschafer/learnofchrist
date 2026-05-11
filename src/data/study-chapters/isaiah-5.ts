@@ -16,6 +16,12 @@ export const ISAIAH_5: RichChapterContent = {
   chapter: 5,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 6 },
+
+  youth: {
+    intros: [
+      "The song of the vineyard. God planted a vineyard expecting good grapes; got wild ones. So He&apos;ll tear down its walls. Then six WOES — to greedy real estate accumulators, drunkards, those who call evil good. The list still applies.",
+    ],
+  },
   topicTags: ['judgment', 'calling', 'hope', 'sovereignty'],
   opener: {
     topical: true,

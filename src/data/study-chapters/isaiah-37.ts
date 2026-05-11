@@ -17,6 +17,12 @@ export const ISAIAH_37: RichChapterContent = {
   chapter: 37,
 
   estimatedMinutes: { beginner: 2, intermediate: 6, deep: 8 },
+
+  youth: {
+    intros: [
+      "Hezekiah takes the threatening letter into the temple and SPREADS IT OUT before the Lord. That night the angel of the Lord kills 185,000 Assyrian soldiers. Sennacherib goes home and is murdered by his sons in his own temple.",
+    ],
+  },
   topicTags: ['judgment', 'calling', 'hope', 'sovereignty'],
   opener: {
     topical: true,

@@ -15,6 +15,12 @@ export const ISAIAH_21: RichChapterContent = {
   chapter: 21,
 
   estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
+
+  youth: {
+    intros: [
+      "The fall of Babylon prophesied. &ldquo;Babylon is fallen, is fallen.&rdquo; Revelation 18 will pick up these exact words about a future Babylon.",
+    ],
+  },
   topicTags: ['judgment', 'calling', 'hope', 'sovereignty'],
   opener: {
     topical: true,

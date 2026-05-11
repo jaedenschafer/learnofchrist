@@ -16,6 +16,12 @@ export const ISAIAH_25: RichChapterContent = {
   chapter: 25,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 6 },
+
+  youth: {
+    intros: [
+      "A song of praise. &ldquo;He will swallow up death in victory; and the Lord God will wipe away tears from off all faces.&rdquo; Paul quotes this in 1 Corinthians 15 about the resurrection.",
+    ],
+  },
   topicTags: ['judgment', 'calling', 'hope', 'sovereignty'],
   opener: {
     topical: true,

@@ -17,6 +17,12 @@ export const ISAIAH_46: RichChapterContent = {
   chapter: 46,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "The idols of Babylon have to be carried by their worshippers. The God of Israel CARRIES His people. Spot the difference.",
+    ],
+  },
   topicTags: ['hope', 'deliverance', 'messianic-prophecy', 'new-creation'],
   opener: {
     topical: true,

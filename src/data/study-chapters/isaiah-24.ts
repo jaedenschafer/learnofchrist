@@ -16,6 +16,12 @@ export const ISAIAH_24: RichChapterContent = {
   chapter: 24,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "Isaiah&apos;s mini-apocalypse. The earth is laid waste because the people have transgressed the covenant. Then a glimpse: &ldquo;The Lord of hosts shall reign in mount Zion.&rdquo;",
+    ],
+  },
   topicTags: ['judgment', 'calling', 'hope', 'sovereignty'],
   opener: {
     topical: true,

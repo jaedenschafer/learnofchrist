@@ -16,6 +16,12 @@ export const ISAIAH_36: RichChapterContent = {
   chapter: 36,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "Sennacherib&apos;s field commander Rabshakeh stands at the wall of Jerusalem mocking God in Hebrew so all can hear. Hezekiah&apos;s officials beg him to speak Aramaic so the people don&apos;t understand. He refuses.",
+    ],
+  },
   topicTags: ['judgment', 'calling', 'hope', 'sovereignty'],
   opener: {
     topical: true,

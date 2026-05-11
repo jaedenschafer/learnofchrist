@@ -17,6 +17,12 @@ export const ISAIAH_32: RichChapterContent = {
   chapter: 32,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+
+  youth: {
+    intros: [
+      "A king will reign in righteousness. The Spirit will be poured out from on high. The wilderness will become a fruitful field.",
+    ],
+  },
   topicTags: ['judgment', 'calling', 'hope', 'sovereignty'],
   opener: {
     topical: true,

@@ -14,6 +14,12 @@ export const ISAIAH_54: RichChapterContent = {
   chapter: 54,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 5 },
+
+  youth: {
+    intros: [
+      "After Isaiah 53&apos;s suffering, Isaiah 54 erupts in joy. &ldquo;No weapon that is formed against thee shall prosper.&rdquo; The fruit of the Servant&apos;s suffering is the church gathered from every nation.",
+    ],
+  },
   topicTags: ['hope', 'deliverance', 'messianic-prophecy', 'new-creation'],
   opener: {
     topical: true,

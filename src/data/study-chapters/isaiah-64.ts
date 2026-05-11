@@ -17,6 +17,12 @@ export const ISAIAH_64: RichChapterContent = {
   chapter: 64,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "&ldquo;Oh that thou wouldest rend the heavens, that thou wouldest come down.&rdquo; A prayer for God to break in. He answered it: 700 years later, in Bethlehem.",
+    ],
+  },
   topicTags: ['hope', 'deliverance', 'messianic-prophecy', 'new-creation'],
   opener: {
     topical: true,

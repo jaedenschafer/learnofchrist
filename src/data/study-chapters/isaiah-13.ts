@@ -16,6 +16,12 @@ export const ISAIAH_13: RichChapterContent = {
   chapter: 13,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 6 },
+
+  youth: {
+    intros: [
+      "The burden against Babylon. Their day is coming. The day of the Lord is at hand. Even the most powerful empire is on God&apos;s clock.",
+    ],
+  },
   opener: {
     matchTitle: /Isaiah/i,
     caption: 'Isaiah 13',

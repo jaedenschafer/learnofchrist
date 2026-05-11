@@ -18,6 +18,12 @@ export const ISAIAH_45: RichChapterContent = {
   chapter: 45,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "God names Cyrus the Persian as His anointed — 150 years before Cyrus is born. &ldquo;I am the Lord, and there is none else.&rdquo; God can use even pagan rulers to accomplish His purposes.",
+    ],
+  },
   topicTags: ['hope', 'deliverance', 'messianic-prophecy', 'new-creation'],
   opener: {
     topical: true,

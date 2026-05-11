@@ -15,6 +15,12 @@ export const ISAIAH_55: RichChapterContent = {
   chapter: 55,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "&ldquo;Ho, every one that thirsteth, come ye to the waters.&rdquo; And: &ldquo;Seek ye the Lord while he may be found, call ye upon him while he is near.&rdquo; The invitation is open. Don&apos;t miss the season.",
+    ],
+  },
   topicTags: ['hope', 'deliverance', 'messianic-prophecy', 'new-creation'],
   opener: {
     topical: true,

@@ -16,6 +16,12 @@ export const ISAIAH_57: RichChapterContent = {
   chapter: 57,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "The wicked are like the troubled sea. But God dwells with the contrite and humble. &ldquo;I will heal him: I will lead him also, and restore comforts unto him.&rdquo;",
+    ],
+  },
   topicTags: ['hope', 'deliverance', 'messianic-prophecy', 'new-creation'],
   opener: {
     topical: true,

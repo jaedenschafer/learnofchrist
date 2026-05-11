@@ -16,6 +16,12 @@ export const ISAIAH_63: RichChapterContent = {
   chapter: 63,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "A vision of the Lord coming from Edom with garments stained red — He has trodden the winepress alone. Revelation 19 will pick up this image of the conquering Christ.",
+    ],
+  },
   topicTags: ['hope', 'deliverance', 'messianic-prophecy', 'new-creation'],
   opener: {
     topical: true,

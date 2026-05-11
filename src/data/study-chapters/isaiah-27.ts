@@ -16,6 +16,12 @@ export const ISAIAH_27: RichChapterContent = {
   chapter: 27,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "The Lord will strike Leviathan. He will gather His people from Egypt and Assyria. Restoration after exile.",
+    ],
+  },
   opener: {
     matchTitle: /The Destruction of Leviathan/i,
     caption: 'Isaiah 27',

@@ -15,6 +15,12 @@ export const ISAIAH_49: RichChapterContent = {
   chapter: 49,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 5 },
+
+  youth: {
+    intros: [
+      "Another Servant Song. &ldquo;It is a light thing that thou shouldest be my servant…I will also give thee for a light to the Gentiles, that thou mayest be my salvation unto the end of the earth.&rdquo;",
+    ],
+  },
   topicTags: ['hope', 'deliverance', 'messianic-prophecy', 'new-creation'],
   opener: {
     topical: true,

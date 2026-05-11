@@ -15,6 +15,12 @@ export const ISAIAH_4: RichChapterContent = {
   chapter: 4,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "After judgment, a remnant. &ldquo;The branch of the Lord&rdquo; — a phrase Isaiah will use repeatedly for the Messiah. New beginning on the other side of the fire.",
+    ],
+  },
   topicTags: ['judgment', 'calling', 'hope', 'sovereignty'],
   opener: {
     topical: true,

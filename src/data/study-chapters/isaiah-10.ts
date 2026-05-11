@@ -16,6 +16,12 @@ export const ISAIAH_10: RichChapterContent = {
   chapter: 10,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 6 },
+
+  youth: {
+    intros: [
+      "Woe to those who write unjust laws to oppress the poor. Then God&apos;s judgment on Assyria — the rod He used to discipline Israel will itself be punished for its arrogance.",
+    ],
+  },
   topicTags: ['judgment', 'calling', 'hope', 'sovereignty'],
   opener: {
     topical: true,

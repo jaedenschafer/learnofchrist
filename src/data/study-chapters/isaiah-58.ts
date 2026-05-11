@@ -16,6 +16,12 @@ export const ISAIAH_58: RichChapterContent = {
   chapter: 58,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "The fast God chooses isn&apos;t about not eating — it&apos;s about loosing the bonds of wickedness, feeding the hungry, sheltering the homeless. Don&apos;t mistake religious activity for actual obedience.",
+    ],
+  },
   topicTags: ['hope', 'deliverance', 'messianic-prophecy', 'new-creation'],
   opener: {
     topical: true,

@@ -15,6 +15,12 @@ export const ISAIAH_28: RichChapterContent = {
   chapter: 28,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "Woe to the drunkards of Ephraim. The religious leaders mock Isaiah&apos;s simple message: &ldquo;precept upon precept; line upon line.&rdquo; Then he tells them: God will speak to you in another tongue (foreign Assyrians) since you wouldn&apos;t hear plain Hebrew.",
+    ],
+  },
   topicTags: ['judgment', 'calling', 'hope', 'sovereignty'],
   opener: {
     topical: true,

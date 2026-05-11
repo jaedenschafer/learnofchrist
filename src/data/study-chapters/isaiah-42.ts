@@ -17,6 +17,12 @@ export const ISAIAH_42: RichChapterContent = {
   chapter: 42,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 8 },
+
+  youth: {
+    intros: [
+      "The first Servant Song. &ldquo;Behold my servant, whom I uphold; mine elect, in whom my soul delighteth.&rdquo; Matthew 12 quotes this of Jesus. The Servant who won&apos;t break a bruised reed.",
+    ],
+  },
   topicTags: ['hope', 'deliverance', 'messianic-prophecy', 'new-creation'],
   opener: {
     topical: true,

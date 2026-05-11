@@ -15,6 +15,12 @@ export const ISAIAH_29: RichChapterContent = {
   chapter: 29,
 
   estimatedMinutes: { beginner: 1, intermediate: 5, deep: 7 },
+
+  youth: {
+    intros: [
+      "A judgment on Jerusalem and a promise: in that day the deaf shall hear, the blind shall see. Healing comes.",
+    ],
+  },
   topicTags: ['judgment', 'calling', 'hope', 'sovereignty'],
   opener: {
     topical: true,

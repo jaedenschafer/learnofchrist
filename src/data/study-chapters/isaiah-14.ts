@@ -16,6 +16,12 @@ export const ISAIAH_14: RichChapterContent = {
   chapter: 14,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 6 },
+
+  youth: {
+    intros: [
+      "The fall of the king of Babylon. Behind the human ruler, a hint of a deeper rebellion: &ldquo;How art thou fallen from heaven, O Lucifer, son of the morning!&rdquo; The pride that started in the heavenlies still operates.",
+    ],
+  },
   topicTags: ['judgment', 'calling', 'hope', 'sovereignty'],
   opener: {
     topical: true,

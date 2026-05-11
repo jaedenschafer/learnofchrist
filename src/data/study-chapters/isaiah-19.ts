@@ -16,6 +16,12 @@ export const ISAIAH_19: RichChapterContent = {
   chapter: 19,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "Egypt under judgment — but then a stunning promise: Egypt will know the Lord and worship Him. &ldquo;Blessed be Egypt my people, and Assyria the work of my hands.&rdquo; Even Israel&apos;s ancient enemies will be brought in.",
+    ],
+  },
   topicTags: ['judgment', 'calling', 'hope', 'sovereignty'],
   opener: {
     topical: true,

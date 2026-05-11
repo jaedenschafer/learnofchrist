@@ -17,6 +17,12 @@ export const ISAIAH_31: RichChapterContent = {
   chapter: 31,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 7 },
+
+  youth: {
+    intros: [
+      "More on don&apos;t-trust-Egypt. Trust God instead — &ldquo;the Lord of hosts shall come down to fight for mount Zion.&rdquo;",
+    ],
+  },
   topicTags: ['judgment', 'calling', 'hope', 'sovereignty'],
   opener: {
     topical: true,

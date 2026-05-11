@@ -16,6 +16,12 @@ export const ISAIAH_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 6 },
+
+  youth: {
+    intros: [
+      "A vision of the last days: nations streaming to Jerusalem to learn God&apos;s ways. &ldquo;They shall beat their swords into plowshares.&rdquo; The future is peace under the Messiah&apos;s reign.",
+    ],
+  },
   topicTags: ['judgment', 'calling', 'hope', 'sovereignty'],
   opener: {
     topical: true,

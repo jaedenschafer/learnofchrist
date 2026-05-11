@@ -17,6 +17,12 @@ export const ISAIAH_43: RichChapterContent = {
   chapter: 43,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+
+  youth: {
+    intros: [
+      "&ldquo;When thou passest through the waters, I will be with thee…I have called thee by thy name; thou art mine.&rdquo; And: &ldquo;Thou art precious in my sight…and I have loved thee.&rdquo;",
+    ],
+  },
   topicTags: ['hope', 'deliverance', 'messianic-prophecy', 'new-creation'],
   opener: {
     topical: true,

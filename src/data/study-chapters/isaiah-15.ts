@@ -16,6 +16,12 @@ export const ISAIAH_15: RichChapterContent = {
   chapter: 15,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "The burden of Moab. Even Israel&apos;s enemies are mourned by God. He doesn&apos;t enjoy their judgment.",
+    ],
+  },
   topicTags: ['judgment', 'calling', 'hope', 'sovereignty'],
   opener: {
     topical: true,

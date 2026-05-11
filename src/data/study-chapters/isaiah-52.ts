@@ -16,6 +16,12 @@ export const ISAIAH_52: RichChapterContent = {
   chapter: 52,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "&ldquo;How beautiful upon the mountains are the feet of him that bringeth good tidings.&rdquo; Then the introduction to the most explicit cross prophecy in the Old Testament: &ldquo;Behold, my servant shall deal prudently…his visage was so marred more than any man.&rdquo;",
+    ],
+  },
   topicTags: ['hope', 'deliverance', 'messianic-prophecy', 'new-creation'],
   opener: {
     topical: true,

@@ -15,6 +15,12 @@ export const ISAIAH_51: RichChapterContent = {
   chapter: 51,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "Comfort for those who pursue righteousness. &ldquo;The Lord shall comfort Zion: he will comfort all her waste places.&rdquo;",
+    ],
+  },
   topicTags: ['hope', 'deliverance', 'messianic-prophecy', 'new-creation'],
   opener: {
     topical: true,

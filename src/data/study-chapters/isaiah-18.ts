@@ -15,6 +15,12 @@ export const ISAIAH_18: RichChapterContent = {
   chapter: 18,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "A word about a far-off land beyond Ethiopia. Even the most distant nations are on God&apos;s map.",
+    ],
+  },
   topicTags: ['judgment', 'calling', 'hope', 'sovereignty'],
   opener: {
     topical: true,

@@ -15,6 +15,12 @@ export const ISAIAH_16: RichChapterContent = {
   chapter: 16,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 6 },
+
+  youth: {
+    intros: [
+      "More on Moab. &ldquo;In mercy shall the throne be established: and he shall sit upon it in truth.&rdquo; A glimpse of the Messiah even in a prophecy of judgment.",
+    ],
+  },
   topicTags: ['judgment', 'calling', 'hope', 'sovereignty'],
   opener: {
     topical: true,

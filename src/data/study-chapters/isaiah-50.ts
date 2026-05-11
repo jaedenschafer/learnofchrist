@@ -15,6 +15,12 @@ export const ISAIAH_50: RichChapterContent = {
   chapter: 50,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "The Servant gives His back to those who beat Him, His cheek to those who plucked off His beard. Quoted of Jesus before the cross. He sets His face like a flint.",
+    ],
+  },
   topicTags: ['hope', 'deliverance', 'messianic-prophecy', 'new-creation'],
   opener: {
     topical: true,

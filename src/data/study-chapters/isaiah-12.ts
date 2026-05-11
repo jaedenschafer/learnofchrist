@@ -16,6 +16,12 @@ export const ISAIAH_12: RichChapterContent = {
   chapter: 12,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "A short song: &ldquo;Behold, God is my salvation; I will trust, and not be afraid.&rdquo; The right response to Isaiah&apos;s vision is worship.",
+    ],
+  },
   topicTags: ['judgment', 'calling', 'hope', 'sovereignty'],
   opener: {
     topical: true,

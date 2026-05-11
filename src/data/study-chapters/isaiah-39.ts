@@ -18,6 +18,12 @@ export const ISAIAH_39: RichChapterContent = {
   chapter: 39,
 
   estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
+
+  youth: {
+    intros: [
+      "Hezekiah shows off his treasures to Babylonian envoys. Isaiah warns: Babylon will come back for it all. Hezekiah&apos;s response is selfish: at least it won&apos;t happen in MY days. Don&apos;t be that kind of leader.",
+    ],
+  },
   topicTags: ['judgment', 'calling', 'hope', 'sovereignty'],
   opener: {
     topical: true,

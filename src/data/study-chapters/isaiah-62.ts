@@ -16,6 +16,12 @@ export const ISAIAH_62: RichChapterContent = {
   chapter: 62,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "A song about Zion&apos;s glorious future. &ldquo;Thou shalt be called Hephzibah&rdquo; — &ldquo;my delight is in her.&rdquo; God renames His people.",
+    ],
+  },
   topicTags: ['hope', 'deliverance', 'messianic-prophecy', 'new-creation'],
   opener: {
     topical: true,

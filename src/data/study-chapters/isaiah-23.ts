@@ -15,6 +15,12 @@ export const ISAIAH_23: RichChapterContent = {
   chapter: 23,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "The burden of Tyre — the great trade city that will be humbled. Wealth from commerce isn&apos;t a substitute for God.",
+    ],
+  },
   topicTags: ['judgment', 'calling', 'hope', 'sovereignty'],
   opener: {
     topical: true,

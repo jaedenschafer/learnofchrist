@@ -16,6 +16,12 @@ export const ISAIAH_38: RichChapterContent = {
   chapter: 38,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "Hezekiah falls deathly ill. He weeps. God adds 15 years. The sun&apos;s shadow goes BACKWARD on the sundial as a sign. Hezekiah writes a song about the experience.",
+    ],
+  },
   topicTags: ['judgment', 'calling', 'hope', 'sovereignty'],
   opener: {
     topical: true,

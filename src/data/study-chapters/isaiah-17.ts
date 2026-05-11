@@ -15,6 +15,12 @@ export const ISAIAH_17: RichChapterContent = {
   chapter: 17,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "The burden of Damascus and Ephraim. Their forsaking of God leads to ruin. &ldquo;In that day shall a man look to his Maker, and his eyes shall have respect to the Holy One of Israel.&rdquo;",
+    ],
+  },
   topicTags: ['judgment', 'calling', 'hope', 'sovereignty'],
   opener: {
     topical: true,

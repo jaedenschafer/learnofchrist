@@ -18,6 +18,12 @@ export const ISAIAH_48: RichChapterContent = {
   chapter: 48,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "God reproves Israel for their stubbornness. Yet for His own name&apos;s sake, He will refine them, not destroy them.",
+    ],
+  },
   topicTags: ['hope', 'deliverance', 'messianic-prophecy', 'new-creation'],
   opener: {
     topical: true,

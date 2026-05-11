@@ -16,6 +16,12 @@ export const ISAIAH_7: RichChapterContent = {
   chapter: 7,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+
+  youth: {
+    intros: [
+      "The Syro-Ephraimite war. King Ahaz refuses to ask God for a sign. Isaiah gives one anyway: &ldquo;Behold, a virgin shall conceive, and bear a son, and shall call his name Immanuel.&rdquo; Matthew 1 quotes this about Jesus.",
+    ],
+  },
   opener: {
     matchTitle: /Isaiah/i,
     caption: 'Isaiah 7',

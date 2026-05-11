@@ -16,6 +16,12 @@ export const ISAIAH_30: RichChapterContent = {
   chapter: 30,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 6 },
+
+  youth: {
+    intros: [
+      "Don&apos;t go down to Egypt for help. &ldquo;In returning and rest shall ye be saved; in quietness and in confidence shall be your strength.&rdquo; Stop running to political alliances. Quietness and confidence.",
+    ],
+  },
   topicTags: ['judgment', 'calling', 'hope', 'sovereignty'],
   opener: {
     topical: true,

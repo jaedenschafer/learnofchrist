@@ -17,6 +17,12 @@ export const ISAIAH_66: RichChapterContent = {
   chapter: 66,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "The book ends with the vision of God gathering all nations. The new heavens and new earth. &ldquo;As the new heavens and the new earth, which I will make, shall remain before me, saith the Lord, so shall your seed and your name remain.&rdquo;",
+    ],
+  },
   topicTags: ['hope', 'deliverance', 'messianic-prophecy', 'new-creation'],
   opener: {
     topical: true,

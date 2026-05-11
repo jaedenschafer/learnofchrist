@@ -17,6 +17,12 @@ export const ISAIAH_61: RichChapterContent = {
   chapter: 61,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "The chapter Jesus read in the Nazareth synagogue and applied to Himself (Luke 4): &ldquo;The Spirit of the Lord God is upon me; because the Lord hath anointed me to preach good tidings unto the meek; he hath sent me to bind up the brokenhearted.&rdquo;",
+    ],
+  },
   topicTags: ['hope', 'deliverance', 'messianic-prophecy', 'new-creation'],
   opener: {
     topical: true,

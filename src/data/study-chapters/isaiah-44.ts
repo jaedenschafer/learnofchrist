@@ -18,6 +18,12 @@ export const ISAIAH_44: RichChapterContent = {
   chapter: 44,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "God against idols — they have eyes that see nothing. He alone is God. He blots out transgressions like a thick cloud.",
+    ],
+  },
   topicTags: ['hope', 'deliverance', 'messianic-prophecy', 'new-creation'],
   opener: {
     topical: true,

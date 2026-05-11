@@ -16,6 +16,12 @@ export const ISAIAH_59: RichChapterContent = {
   chapter: 59,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "Sin separates from God. &ldquo;Your iniquities have separated between you and your God.&rdquo; But God Himself sees there is no intercessor — so He brings salvation by His own arm. Pointing at Christ.",
+    ],
+  },
   topicTags: ['hope', 'deliverance', 'messianic-prophecy', 'new-creation'],
   opener: {
     topical: true,

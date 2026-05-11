@@ -16,6 +16,12 @@ export const ISAIAH_65: RichChapterContent = {
   chapter: 65,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "&ldquo;I am sought of them that asked not for me; I am found of them that sought me not.&rdquo; God reaches out to people who weren&apos;t looking. Then a vision of the new heavens and new earth — the wolf and lamb feeding together.",
+    ],
+  },
   topicTags: ['hope', 'deliverance', 'messianic-prophecy', 'new-creation'],
   opener: {
     topical: true,
