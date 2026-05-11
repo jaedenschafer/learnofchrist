@@ -648,6 +648,10 @@ export const ROMANS_3: RichChapterContent = {
           kind: 'carry',
           html:
             'You have probably spent energy trying to be good enough. To earn God&apos;s favor through your obedience, your service, your effort. And the gospel says: stop. You will never be good enough. And you do not have to be. Believe. Rest. Trust Christ. Let go of the machinery of self-improvement and enter into the reality of being loved while you are still a sinner.',
+          youthOverride: {
+            html:
+              'You\'ve probably been trying to be good enough — for your parents, for your friends, for the version of yourself you wish you were, and somewhere underneath, for God. The gospel says stop. You\'re not going to be good enough by trying harder. You don\'t have to be. He loved you on your worst day. Your job isn\'t to earn what He\'s already given. Your job is to let Him love you while you\'re still figuring out who you are.',
+          },
         },
         {
           kind: 'reflection',

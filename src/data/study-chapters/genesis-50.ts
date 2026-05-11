@@ -246,6 +246,10 @@ export const GENESIS_50: RichChapterContent = {
           kind: 'carry',
           html:
             'Some promises take a lifetime to fulfill. Jacob was told his descendants would inherit Canaan, but he died and was buried there instead of building a dynasty in the land. Yet his bones in that soil are a kind of claim - a statement written in death that the family belongs there, that the promise is real, that one day his descendants will return. What promise are you holding that won\'t see completion in your lifetime? Let your faithfulness now be the foundation for someone else\'s fulfillment later.',
+          youthOverride: {
+            html:
+              'Some prayers you pray right now will be answered fifty years from now. Jacob was promised land he never got to live in — but he asked to be buried there because he believed his great-great-grandkids would. The friend you keep praying for, the family member who isn\'t walking with God, the city you wish was changed — God might be writing a story longer than your lifetime, and your faithfulness now is somebody else\'s answered prayer later.',
+          },
         },
         {
           kind: 'reflection',

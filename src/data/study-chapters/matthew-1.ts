@@ -143,6 +143,10 @@ export const MATTHEW_1: RichChapterContent = {
           kind: 'carry',
           html:
             'Joseph shows us what it looks like to accept the divine interruption. His plans for a quiet life, a respectable marriage, a normal future—all of that is overturned by the angel&apos;s word. And yet he says yes. He takes Mary as his wife. He gives his name to the Son of God. His yes to God&apos;s will, made in the dark of a dream, sets the stage for all that follows.',
+          youthOverride: {
+            html:
+              'Joseph had a plan. Marry Mary, learn the trade, normal life. The angel showed up in a dream and rewrote all of it overnight. Most of God\'s biggest assignments to your life are going to look like an interruption to the plan you sketched in middle school — a different college, a friend you didn\'t expect, a path your parents wouldn\'t have picked, a year that doesn\'t look like anyone else\'s. Joseph said yes in the dark. The whole story of Christmas is built on his single yes.',
+          },
         },
         {
           kind: 'reflection',
