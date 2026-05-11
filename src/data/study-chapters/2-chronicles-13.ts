@@ -20,6 +20,13 @@ export const CHRONICLES_2_13: RichChapterContent = {
   chapter: 13,
 
   estimatedMinutes: { beginner: 6, intermediate: 10, deep: 13 },
+
+  youth: {
+    intros: [
+      "Abijah of Judah preaches a sermon to the army of Israel: you have golden calves; we have the ark and the priests. God fights for Judah. 500,000 northern Israelites die. Judah wins because they relied on the Lord.",
+      "When you&apos;re outnumbered, the question isn&apos;t the math. It&apos;s whose side you&apos;re on. Be on God&apos;s side.",
+    ],
+  },
   topicTags: ['kingship', 'worship', 'judgment', 'repentance'],
   opener: {
     topical: true,

@@ -19,6 +19,13 @@ export const CHRONICLES_2_35: RichChapterContent = {
   chapter: 35,
 
   estimatedMinutes: { beginner: 4, intermediate: 9, deep: 12 },
+
+  youth: {
+    intros: [
+      "Josiah keeps the most thorough Passover in centuries — even more thorough than Hezekiah&apos;s. Then he picks a fight with Pharaoh Necho he wasn&apos;t supposed to fight. Dies in battle.",
+      "Even great leaders die when they pick fights God didn&apos;t pick for them. Don&apos;t mistake your past obedience for permission to act on your own next time.",
+    ],
+  },
   topicTags: ['kingship', 'worship', 'judgment', 'repentance'],
   opener: {
     topical: true,

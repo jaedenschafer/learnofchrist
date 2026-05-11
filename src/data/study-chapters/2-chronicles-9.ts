@@ -20,6 +20,13 @@ export const CHRONICLES_2_9: RichChapterContent = {
   chapter: 9,
 
   estimatedMinutes: { beginner: 8, intermediate: 17, deep: 21 },
+
+  youth: {
+    intros: [
+      "The Queen of Sheba arrives to test Solomon. She&apos;s overwhelmed: &ldquo;the half was not told me.&rdquo; Then Solomon&apos;s wealth — gold, ivory, ships, exotic animals. The kingdom is at its glittering peak.",
+      "Then Solomon dies. The next chapter the kingdom splits. Don&apos;t mistake the peak of glory for permanence. Build for the long-term, not the highlight reel.",
+    ],
+  },
   topicTags: ['kingship', 'worship', 'judgment', 'repentance'],
   opener: {
     topical: true,

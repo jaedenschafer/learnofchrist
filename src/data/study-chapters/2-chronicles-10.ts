@@ -18,6 +18,13 @@ export const CHRONICLES_2_10: RichChapterContent = {
   chapter: 10,
 
   estimatedMinutes: { beginner: 5, intermediate: 10, deep: 14 },
+
+  youth: {
+    intros: [
+      "Rehoboam, Solomon&apos;s son, gets asked to lighten Israel&apos;s tax burden. Old advisors say yes. Young friends say no — make it heavier. Rehoboam listens to his peers. The northern ten tribes split off.",
+      "The friends you listen to in your twenties shape what kind of leader you&apos;ll be in your forties. Pick the older voices when stakes are high.",
+    ],
+  },
   topicTags: ['kingship', 'worship', 'judgment', 'repentance'],
   opener: {
     topical: true,

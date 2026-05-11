@@ -18,6 +18,13 @@ export const CHRONICLES_2_4: RichChapterContent = {
   chapter: 4,
 
   estimatedMinutes: { beginner: 6, intermediate: 14, deep: 20 },
+
+  youth: {
+    intros: [
+      "Furniture for the temple — the bronze altar, the great molten sea, ten lampstands, twelve oxen, golden tables. Every detail spelled out. The God who designed the universe also designed the lamp stands.",
+      "God cares about the details of His house. He cares about the details of you. Nothing is too small to matter to Him.",
+    ],
+  },
   topicTags: ['kingship', 'worship', 'judgment', 'repentance'],
   opener: {
     topical: true,

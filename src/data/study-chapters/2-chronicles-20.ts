@@ -23,6 +23,13 @@ export const CHRONICLES_2_20: RichChapterContent = {
   chapter: 20,
 
   estimatedMinutes: { beginner: 10, intermediate: 19, deep: 25 },
+
+  youth: {
+    intros: [
+      "A massive enemy army comes against Judah. Jehoshaphat proclaims a fast and prays publicly: &ldquo;We have no might against this great company that cometh against us; neither know we what to do: but our eyes are upon thee.&rdquo; God tells them: stand still and see the salvation of the Lord. The enemy armies destroy each other.",
+      "The right prayer in panic isn&apos;t a strategy. It&apos;s an admission. &ldquo;Our eyes are upon thee&rdquo; is enough. He fights when you can&apos;t.",
+    ],
+  },
   opener: {
     matchTitle: /The Ammonite and Moabite/i,
     caption: '2 Chronicles 20',

@@ -21,6 +21,13 @@ export const CHRONICLES_2_19: RichChapterContent = {
   chapter: 19,
 
   estimatedMinutes: { beginner: 4, intermediate: 10, deep: 14 },
+
+  youth: {
+    intros: [
+      "Jehoshaphat returns home and is rebuked by a prophet for the alliance. He repents. He sets up judges throughout the land: &ldquo;Take heed what ye do: for ye judge not for man, but for the Lord.&rdquo;",
+      "After failure, double down on integrity. Build systems that hold leaders accountable. The repentance isn&apos;t just personal — it shows up in how you treat the people under your authority.",
+    ],
+  },
   topicTags: ['kingship', 'worship', 'judgment', 'repentance'],
   opener: {
     topical: true,

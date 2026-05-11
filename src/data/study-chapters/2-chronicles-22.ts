@@ -21,6 +21,13 @@ export const CHRONICLES_2_22: RichChapterContent = {
   chapter: 22,
 
   estimatedMinutes: { beginner: 5, intermediate: 11, deep: 16 },
+
+  youth: {
+    intros: [
+      "Ahaziah, son of Jehoram, reigns one year and is killed. His mother Athaliah — Jezebel&apos;s daughter — murders the entire royal family to seize the throne. One baby — Joash — is hidden by his aunt in the temple.",
+      "Evil tries to wipe out the line of David but cannot. The promise survives in a hidden room. God&apos;s plans don&apos;t depend on visible thrones.",
+    ],
+  },
   topicTags: ['kingship', 'worship', 'judgment', 'repentance'],
   opener: {
     topical: true,

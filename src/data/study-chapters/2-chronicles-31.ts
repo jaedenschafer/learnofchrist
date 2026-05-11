@@ -17,6 +17,13 @@ export const CHRONICLES_2_31: RichChapterContent = {
   chapter: 31,
 
   estimatedMinutes: { beginner: 7, intermediate: 12, deep: 16 },
+
+  youth: {
+    intros: [
+      "After the Passover, the people break down idols across the land. They bring tithes in such abundance that the priests have to build storehouses. Hezekiah does what is &ldquo;good and right and truth before the Lord his God.&rdquo;",
+      "Real revival shows up in your wallet. The people who couldn&apos;t stop giving had finally tasted real worship. Generosity is a fruit, not a duty.",
+    ],
+  },
   topicTags: ['kingship', 'worship', 'judgment', 'repentance'],
   opener: {
     topical: true,

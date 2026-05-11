@@ -23,6 +23,13 @@ export const CHRONICLES_2_16: RichChapterContent = {
   chapter: 16,
 
   estimatedMinutes: { beginner: 5, intermediate: 10, deep: 14 },
+
+  youth: {
+    intros: [
+      "Asa, in his old age, makes a treaty with Syria instead of trusting God. A prophet rebukes him. Asa puts the prophet in prison. Asa develops a foot disease and refuses to seek God for it. He dies.",
+      "Faithfulness in your twenties doesn&apos;t guarantee faithfulness in your sixties. Stay close to the end. The prophets your younger self would have honored, your older self can&apos;t afford to silence.",
+    ],
+  },
   topicTags: ['kingship', 'worship', 'judgment', 'repentance'],
   opener: {
     topical: true,

@@ -16,6 +16,13 @@ export const CHRONICLES_2_12: RichChapterContent = {
   chapter: 12,
 
   estimatedMinutes: { beginner: 3, intermediate: 8, deep: 12 },
+
+  youth: {
+    intros: [
+      "Rehoboam abandons God when his kingdom is established. Egypt invades and takes the temple treasures. Rehoboam humbles himself. The judgment is reduced — but the bronze shields David made get replaced with cheap brass ones.",
+      "After every backslide, what&apos;s restored often isn&apos;t exactly what was lost. The forgiveness is total. The consequences sometimes linger. Don&apos;t walk away in the first place.",
+    ],
+  },
   topicTags: ['kingship', 'worship', 'judgment', 'repentance'],
   opener: {
     topical: true,

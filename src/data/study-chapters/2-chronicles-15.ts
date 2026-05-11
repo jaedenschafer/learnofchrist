@@ -16,6 +16,13 @@ export const CHRONICLES_2_15: RichChapterContent = {
   chapter: 15,
 
   estimatedMinutes: { beginner: 5, intermediate: 11, deep: 15 },
+
+  youth: {
+    intros: [
+      "After the Ethiopian victory, the prophet Azariah meets Asa: &ldquo;The Lord is with you, while ye be with him.&rdquo; Asa leads a national covenant renewal. They seek God with all their heart and find rest.",
+      "Don&apos;t coast after a win. The prophet&apos;s timing is a kindness — the warning comes when you&apos;re strong, not when you&apos;ve already drifted.",
+    ],
+  },
   topicTags: ['kingship', 'worship', 'judgment', 'repentance'],
   opener: {
     topical: true,

@@ -20,6 +20,13 @@ export const CHRONICLES_2_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 4, intermediate: 8, deep: 12 },
+
+  youth: {
+    intros: [
+      "Solomon starts building on Mount Moriah — the same hill where Abraham almost sacrificed Isaac, the same hill where Jesus would later be crucified. The same mountain holds three of God&apos;s biggest moments.",
+      "God doesn&apos;t use random geography. The places where He&apos;s shown up before are usually where He&apos;ll show up again. Pay attention to your spiritual landmarks.",
+    ],
+  },
   topicTags: ['kingship', 'worship', 'judgment', 'repentance'],
   opener: {
     topical: true,

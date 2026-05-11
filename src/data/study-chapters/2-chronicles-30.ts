@@ -19,6 +19,13 @@ export const CHRONICLES_2_30: RichChapterContent = {
   chapter: 30,
 
   estimatedMinutes: { beginner: 3, intermediate: 12, deep: 17 },
+
+  youth: {
+    intros: [
+      "Hezekiah invites all Israel — including the northern tribes — to a Passover in Jerusalem. Many mock the messengers. But some humble themselves and come. The whole nation hasn&apos;t kept Passover this thoroughly since Solomon.",
+      "Send the invitation even when you expect it&apos;ll be mocked. The few who come will be the start of the next move of God.",
+    ],
+  },
   topicTags: ['kingship', 'worship', 'judgment', 'repentance'],
   opener: {
     topical: true,

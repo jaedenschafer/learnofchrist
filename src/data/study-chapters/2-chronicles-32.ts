@@ -17,6 +17,13 @@ export const CHRONICLES_2_32: RichChapterContent = {
   chapter: 32,
 
   estimatedMinutes: { beginner: 6, intermediate: 14, deep: 20 },
+
+  youth: {
+    intros: [
+      "Sennacherib invades. Hezekiah blocks water sources, fortifies walls, and tells the people: &ldquo;Be strong and courageous, be not afraid…there be more with us than with him: With him is an arm of flesh; but with us is the Lord our God.&rdquo; God sends an angel that kills 185,000 Assyrian soldiers in one night.",
+      "Practical preparation AND prayer. Hezekiah did both. Don&apos;t pit them against each other. Block the water sources AND pray. God answers people who plant their feet.",
+    ],
+  },
   topicTags: ['kingship', 'worship', 'judgment', 'repentance'],
   opener: {
     topical: true,

@@ -21,6 +21,13 @@ export const CHRONICLES_2_21: RichChapterContent = {
   chapter: 21,
 
   estimatedMinutes: { beginner: 7, intermediate: 12, deep: 17 },
+
+  youth: {
+    intros: [
+      "Jehoram, Jehoshaphat&apos;s son, kills his brothers when he takes the throne. Marries Ahab&apos;s daughter. Leads Judah into idolatry. Gets a horrible disease. Dies in agony &ldquo;without being desired.&rdquo;",
+      "A bad marriage can undo three generations of faithfulness in one. Be careful who you yoke yourself to. The pattern your spouse brings becomes your kids&apos; pattern.",
+    ],
+  },
   topicTags: ['kingship', 'worship', 'judgment', 'repentance'],
   opener: {
     topical: true,

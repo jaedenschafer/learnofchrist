@@ -20,6 +20,13 @@ export const CHRONICLES_2_23: RichChapterContent = {
   chapter: 23,
 
   estimatedMinutes: { beginner: 7, intermediate: 14, deep: 17 },
+
+  youth: {
+    intros: [
+      "After six years of Athaliah&apos;s tyranny, the priest Jehoiada secretly assembles allies and crowns the seven-year-old Joash king. Athaliah is executed. The covenant with God is renewed.",
+      "Sometimes the most courageous thing is to wait six years for the right moment, then act decisively. Be patient AND brave when the moment finally comes.",
+    ],
+  },
   topicTags: ['kingship', 'worship', 'judgment', 'repentance'],
   opener: {
     topical: true,

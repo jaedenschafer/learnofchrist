@@ -30,6 +30,13 @@ export const CHRONICLES_2_8: RichChapterContent = {
   chapter: 8,
 
   estimatedMinutes: { beginner: 5, intermediate: 10, deep: 14 },
+
+  youth: {
+    intros: [
+      "Solomon completes 20 years of building, fortifies cities, organizes labor, sets up shifts of priests as David instructed. The kingdom is at its peak of order and influence.",
+      "Order matters. The same man who built the temple also organized the workforce. Don&apos;t despise the boring administrative work. It&apos;s part of how God&apos;s house runs.",
+    ],
+  },
   topicTags: ['kingship', 'worship', 'judgment', 'repentance'],
   opener: {
     topical: true,

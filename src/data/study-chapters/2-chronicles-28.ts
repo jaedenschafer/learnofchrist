@@ -20,6 +20,13 @@ export const CHRONICLES_2_28: RichChapterContent = {
   chapter: 28,
 
   estimatedMinutes: { beginner: 10, intermediate: 18, deep: 24 },
+
+  youth: {
+    intros: [
+      "Ahaz is one of the worst kings ever. Sacrifices his own children. Loses battles to Edom and Syria. Brings home the gods of his enemies. Closes the temple. Builds altars on every street corner.",
+      "When a culture loses God, the children pay first. Whatever&apos;s being normalized in your culture that puts kids in harm&apos;s way — God remembers. Don&apos;t go along.",
+    ],
+  },
   topicTags: ['kingship', 'worship', 'judgment', 'repentance'],
   opener: {
     topical: true,

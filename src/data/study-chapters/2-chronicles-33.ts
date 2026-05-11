@@ -19,6 +19,13 @@ export const CHRONICLES_2_33: RichChapterContent = {
   chapter: 33,
 
   estimatedMinutes: { beginner: 5, intermediate: 11, deep: 16 },
+
+  youth: {
+    intros: [
+      "Manasseh — Hezekiah&apos;s son — undoes everything. Worse than the Canaanites Israel originally drove out. Sacrifices his own son. Practices witchcraft. Then God lets Assyria take him captive in chains. In exile, he humbles himself, repents, and God restores him.",
+      "It&apos;s never too late. Manasseh was the worst king Judah ever had and STILL got restored when he repented. Whatever you&apos;ve done — God&apos;s arms are still open.",
+    ],
+  },
   topicTags: ['kingship', 'worship', 'judgment', 'repentance'],
   opener: {
     topical: true,

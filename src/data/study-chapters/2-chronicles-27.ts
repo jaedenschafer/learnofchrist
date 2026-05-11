@@ -16,6 +16,13 @@ export const CHRONICLES_2_27: RichChapterContent = {
   chapter: 27,
 
   estimatedMinutes: { beginner: 4, intermediate: 7, deep: 10 },
+
+  youth: {
+    intros: [
+      "Jotham &ldquo;became mighty, because he prepared his ways before the Lord his God.&rdquo; Quiet faithful reign. The chapter is short. He didn&apos;t make headlines. He just walked with God.",
+      "Most of the godliest lives are short chapters. Faithfulness in obscurity is its own reward. Be Jotham.",
+    ],
+  },
   topicTags: ['kingship', 'worship', 'judgment', 'repentance'],
   opener: {
     topical: true,

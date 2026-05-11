@@ -18,6 +18,13 @@ export const CHRONICLES_2_17: RichChapterContent = {
   chapter: 17,
 
   estimatedMinutes: { beginner: 4, intermediate: 9, deep: 14 },
+
+  youth: {
+    intros: [
+      "Jehoshaphat strengthens Judah, removes high places, sends teaching priests through every city to teach the law. The fear of the Lord falls on the surrounding nations. Tribute pours in. The kingdom prospers.",
+      "Spiritual education changes the climate of a nation. Teach the Word in your home, your school, your workplace. The fear of the Lord is contagious.",
+    ],
+  },
   topicTags: ['kingship', 'worship', 'judgment', 'repentance'],
   opener: {
     topical: true,

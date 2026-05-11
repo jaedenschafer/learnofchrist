@@ -21,6 +21,13 @@ export const CHRONICLES_2_18: RichChapterContent = {
   chapter: 18,
 
   estimatedMinutes: { beginner: 9, intermediate: 16, deep: 22 },
+
+  youth: {
+    intros: [
+      "Jehoshaphat — a faithful king — makes an alliance with wicked Ahab through marriage. They go to war together against Ahab&apos;s wishes (and a true prophet&apos;s warning). Ahab dies. Jehoshaphat barely survives.",
+      "Mixed marriages and mixed alliances cost you. Don&apos;t partner with people who don&apos;t share your God just because they&apos;re powerful. The cost shows up in war.",
+    ],
+  },
   topicTags: ['kingship', 'worship', 'judgment', 'repentance'],
   opener: {
     topical: true,

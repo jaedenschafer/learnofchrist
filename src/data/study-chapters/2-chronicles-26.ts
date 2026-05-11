@@ -20,6 +20,13 @@ export const CHRONICLES_2_26: RichChapterContent = {
   chapter: 26,
 
   estimatedMinutes: { beginner: 7, intermediate: 18, deep: 22 },
+
+  youth: {
+    intros: [
+      "Uzziah is one of Judah&apos;s greatest kings — military victories, fortifications, agriculture. Then his heart is lifted up with pride. He goes into the temple to burn incense (only priests can). 80 priests confront him. Leprosy breaks out on his forehead. He dies in isolation.",
+      "Strength is dangerous. The wider your platform, the easier the fall. Stay in your lane. Stay humble. The role God didn&apos;t give you isn&apos;t worth the price.",
+    ],
+  },
   topicTags: ['kingship', 'worship', 'judgment', 'repentance'],
   opener: {
     topical: true,

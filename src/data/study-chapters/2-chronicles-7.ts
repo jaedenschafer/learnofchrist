@@ -20,6 +20,13 @@ export const CHRONICLES_2_7: RichChapterContent = {
   chapter: 7,
 
   estimatedMinutes: { beginner: 5, intermediate: 13, deep: 16 },
+
+  youth: {
+    intros: [
+      "Fire comes down from heaven and consumes the offerings. The glory of the Lord fills the temple. Then the famous promise: &ldquo;If my people, which are called by my name, shall humble themselves, and pray, and seek my face, and turn from their wicked ways; then will I hear from heaven, and will forgive their sin, and will heal their land.&rdquo;",
+      "The promise still stands. National revival starts with God&apos;s people humbling themselves. Don&apos;t blame the culture. Be the one who kneels first.",
+    ],
+  },
   topicTags: ['kingship', 'worship', 'judgment', 'repentance'],
   opener: {
     topical: true,

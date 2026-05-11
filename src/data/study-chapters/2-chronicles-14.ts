@@ -20,6 +20,13 @@ export const CHRONICLES_2_14: RichChapterContent = {
   chapter: 14,
 
   estimatedMinutes: { beginner: 4, intermediate: 9, deep: 14 },
+
+  youth: {
+    intros: [
+      "Asa removes idols, builds fortified cities, has 580,000 soldiers. A million Ethiopians come against him. He prays: &ldquo;Lord, it is nothing with thee to help, whether with many, or with them that have no power.&rdquo; God routs the Ethiopians.",
+      "The honest prayer of dependence in a desperate moment moves heaven. Pray Asa&apos;s prayer the next time the math doesn&apos;t add up.",
+    ],
+  },
   topicTags: ['kingship', 'worship', 'judgment', 'repentance'],
   opener: {
     topical: true,

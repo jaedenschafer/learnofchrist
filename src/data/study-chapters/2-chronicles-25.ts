@@ -19,6 +19,13 @@ export const CHRONICLES_2_25: RichChapterContent = {
   chapter: 25,
 
   estimatedMinutes: { beginner: 4, intermediate: 14, deep: 18 },
+
+  youth: {
+    intros: [
+      "Amaziah does right but not wholeheartedly. Defeats Edom. Then BRINGS BACK Edom&apos;s gods and worships them. A prophet asks: why are you worshipping the gods that couldn&apos;t save the people I just defeated for you?",
+      "Don&apos;t worship a god you just watched lose. Don&apos;t bring home the spiritual baggage of the cultures you visited. They were defeated for a reason.",
+    ],
+  },
   topicTags: ['kingship', 'worship', 'judgment', 'repentance'],
   opener: {
     topical: true,

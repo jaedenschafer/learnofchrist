@@ -21,6 +21,13 @@ export const CHRONICLES_2_6: RichChapterContent = {
   chapter: 6,
 
   estimatedMinutes: { beginner: 10, intermediate: 18, deep: 25 },
+
+  youth: {
+    intros: [
+      "Solomon&apos;s prayer of dedication. He prays that whenever Israel sins and turns back, even from a foreign land, God would hear and forgive. He&apos;s already anticipating the exile.",
+      "Pray with the future in mind. Solomon was praying for generations he&apos;d never meet. Your prayers can shape your kids&apos; kids.",
+    ],
+  },
   topicTags: ['kingship', 'worship', 'judgment', 'repentance'],
   opener: {
     topical: true,

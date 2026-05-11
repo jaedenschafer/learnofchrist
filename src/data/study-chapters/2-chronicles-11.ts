@@ -17,6 +17,13 @@ export const CHRONICLES_2_11: RichChapterContent = {
   chapter: 11,
 
   estimatedMinutes: { beginner: 3, intermediate: 7, deep: 11 },
+
+  youth: {
+    intros: [
+      "Rehoboam prepares to invade the north. A prophet stops him: don&apos;t fight your brothers. He listens. Then fortifies cities and builds up Judah. Faithful priests from the north migrate south to join him.",
+      "Sometimes obedience means NOT going to war. Listen for God&apos;s voice telling you to stand down. Then build up where you are.",
+    ],
+  },
   topicTags: ['kingship', 'worship', 'judgment', 'repentance'],
   opener: {
     topical: true,

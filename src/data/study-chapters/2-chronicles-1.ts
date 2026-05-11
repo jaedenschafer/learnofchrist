@@ -21,6 +21,13 @@ export const CHRONICLES_2_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 6, intermediate: 10, deep: 14 },
+
+  youth: {
+    intros: [
+      "Solomon, new on the throne, has a dream. God offers him anything. He asks for wisdom to lead. God&apos;s impressed and gives him wisdom plus wealth and honor.",
+      "What you ask God for in your most honest moment reveals what you actually love. Pray for wisdom over comfort. He gives extra to the people who don&apos;t make extra the goal.",
+    ],
+  },
   topicTags: ['kingship', 'worship', 'judgment', 'repentance'],
   opener: {
     topical: true,

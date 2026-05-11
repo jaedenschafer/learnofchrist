@@ -22,6 +22,13 @@ export const CHRONICLES_2_24: RichChapterContent = {
   chapter: 24,
 
   estimatedMinutes: { beginner: 7, intermediate: 16, deep: 21 },
+
+  youth: {
+    intros: [
+      "Joash repairs the temple while Jehoiada lives. After Jehoiada dies, Joash drifts back to idolatry. The priest&apos;s son Zechariah confronts him publicly. Joash has him stoned in the temple court. His servants assassinate Joash in his bed.",
+      "Don&apos;t outlive your mentor&apos;s influence and abandon their teaching. The faith you absorbed from someone else needs to become your own. Joash&apos;s loyalty was to Jehoiada, not to God.",
+    ],
+  },
   topicTags: ['kingship', 'worship', 'judgment', 'repentance'],
   opener: {
     topical: true,

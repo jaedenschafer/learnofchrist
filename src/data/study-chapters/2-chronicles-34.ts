@@ -23,6 +23,13 @@ export const CHRONICLES_2_34: RichChapterContent = {
   chapter: 34,
 
   estimatedMinutes: { beginner: 11, intermediate: 20, deep: 25 },
+
+  youth: {
+    intros: [
+      "Josiah at age 8 takes the throne. At 16 he starts seeking God. At 26 he orders the temple repaired. The lost Book of the Law is found. He reads it, tears his clothes, leads national repentance. The most thorough Passover in centuries.",
+      "Don&apos;t wait until you&apos;re &ldquo;old enough&rdquo; to seek God. Josiah was a teenager when he started. The faith decisions you make now shape decades.",
+    ],
+  },
   topicTags: ['kingship', 'worship', 'judgment', 'repentance'],
   opener: {
     topical: true,

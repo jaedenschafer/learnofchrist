@@ -22,6 +22,13 @@ export const CHRONICLES_2_36: RichChapterContent = {
   chapter: 36,
 
   estimatedMinutes: { beginner: 6, intermediate: 13, deep: 20 },
+
+  youth: {
+    intros: [
+      "Four kings in rapid succession. Each does evil. Babylon comes. The temple is burned. The people are exiled for 70 years. The book ends with a tiny ray of light: Cyrus, king of Persia, decrees that the exiles can go home and rebuild the temple.",
+      "Even at the end of judgment, God is preparing the next chapter. Whatever Babylon you&apos;re in, watch for the Cyrus God will raise up to send you home.",
+    ],
+  },
   topicTags: ['kingship', 'worship', 'judgment', 'repentance'],
   opener: {
     topical: true,

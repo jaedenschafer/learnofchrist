@@ -18,6 +18,13 @@ export const CHRONICLES_2_29: RichChapterContent = {
   chapter: 29,
 
   estimatedMinutes: { beginner: 5, intermediate: 11, deep: 15 },
+
+  youth: {
+    intros: [
+      "Hezekiah, Ahaz&apos;s son, becomes king at 25 and IMMEDIATELY reopens the temple. Cleanses it for sixteen days. Restores the priestly service. Reinstates the music. The whole nation comes back to worship in joy.",
+      "Reform can happen in one generation. The mess your dad left is not your destiny. Open the temple. Cleanse it. Sing.",
+    ],
+  },
   topicTags: ['kingship', 'worship', 'judgment', 'repentance'],
   opener: {
     topical: true,

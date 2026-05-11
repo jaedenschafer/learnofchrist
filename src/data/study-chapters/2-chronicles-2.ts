@@ -18,6 +18,13 @@ export const CHRONICLES_2_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 6, intermediate: 11, deep: 15 },
+
+  youth: {
+    intros: [
+      "Solomon decides to build God a temple. Sends to Hiram of Tyre for cedar and skilled craftsmen. Tells Hiram: this isn&apos;t a small project. Our God is greater than all gods.",
+      "Don&apos;t apologize for the size of the assignment God gave you. If it&apos;s for Him, scale it accordingly.",
+    ],
+  },
   topicTags: ['kingship', 'worship', 'judgment', 'repentance'],
   opener: {
     topical: true,

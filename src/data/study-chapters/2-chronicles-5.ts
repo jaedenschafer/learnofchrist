@@ -17,6 +17,13 @@ export const CHRONICLES_2_5: RichChapterContent = {
   chapter: 5,
 
   estimatedMinutes: { beginner: 5, intermediate: 10, deep: 14 },
+
+  youth: {
+    intros: [
+      "The ark is brought to the temple. The musicians and singers gather. They make ONE sound: &ldquo;He is good; for his mercy endureth for ever.&rdquo; The cloud of glory fills the house so the priests can&apos;t even stand.",
+      "When God&apos;s people are united in worship, His glory shows up in a way that disrupts even the planned ministry. Worship like this with someone this week.",
+    ],
+  },
   topicTags: ['kingship', 'worship', 'judgment', 'repentance'],
   opener: {
     topical: true,
