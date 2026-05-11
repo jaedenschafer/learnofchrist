@@ -17,6 +17,12 @@ export const PSALMS_8: RichChapterContent = {
   chapter: 8,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "&ldquo;What is man, that thou art mindful of him? and the son of man, that thou visitest him?&rdquo; The God who made the stars notices you. Hebrews quotes this psalm to point at Jesus, the Son of Man.",
+    ],
+  },
   opener: {
     matchTitle: /David the Psalmist Adoration/i,
     caption: 'Psalms 8',

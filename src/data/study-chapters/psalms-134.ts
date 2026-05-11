@@ -17,6 +17,12 @@ export const PSALMS_134: RichChapterContent = {
   chapter: 134,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "The last Song of Ascents. The pilgrims have arrived. &ldquo;Lift up your hands in the sanctuary, and bless the Lord.&rdquo; Made it. Now worship.",
+    ],
+  },
   opener: {
     matchTitle: /Utrecht Psalter Psalm/i,
     caption: 'Psalms 134',

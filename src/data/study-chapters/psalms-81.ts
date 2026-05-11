@@ -15,6 +15,12 @@ export const PSALMS_81: RichChapterContent = {
   chapter: 81,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "God reminds Israel: &ldquo;I am the Lord thy God, which brought thee out of the land of Egypt: open thy mouth wide, and I will fill it.&rdquo; Ask big. He fills wide-open mouths.",
+    ],
+  },
   opener: {
     matchTitle: /Stuttgart Psalter folio v/i,
     caption: 'Psalms 81',

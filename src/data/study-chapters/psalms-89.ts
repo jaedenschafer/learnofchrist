@@ -17,6 +17,12 @@ export const PSALMS_89: RichChapterContent = {
   chapter: 89,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "A long meditation on God&apos;s covenant with David — and then the lament that the throne seems lost. &ldquo;How long, Lord?&rdquo; The answer comes 1,000 years later when Jesus is born of David&apos;s line.",
+    ],
+  },
   opener: {
     matchTitle: /The Anointing of David/i,
     caption: 'Psalms 89',

@@ -16,6 +16,12 @@ export const PSALMS_86: RichChapterContent = {
   chapter: 86,
 
   estimatedMinutes: { beginner: 1, intermediate: 2, deep: 4 },
+
+  youth: {
+    intros: [
+      "David: &ldquo;Teach me thy way, O Lord; I will walk in thy truth: unite my heart to fear thy name.&rdquo; Pray for a UNITED heart — not divided, not double-minded. One direction.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

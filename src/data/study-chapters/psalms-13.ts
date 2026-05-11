@@ -16,6 +16,12 @@ export const PSALMS_13: RichChapterContent = {
   chapter: 13,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "&ldquo;How long, O Lord? wilt thou forget me for ever?&rdquo; The psalm starts in despair and ends in trust: &ldquo;But I have trusted in thy mercy; my heart shall rejoice in thy salvation.&rdquo; You&apos;re allowed to start in honest pain.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

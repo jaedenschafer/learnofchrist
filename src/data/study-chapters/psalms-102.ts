@@ -17,6 +17,12 @@ export const PSALMS_102: RichChapterContent = {
   chapter: 102,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 6 },
+
+  youth: {
+    intros: [
+      "A prayer of one overwhelmed. &ldquo;Hear my prayer, O Lord, and let my cry come unto thee.&rdquo; Then a turn: &ldquo;Thou shalt arise, and have mercy upon Zion.&rdquo; Hebrews 1 quotes it about Jesus.",
+    ],
+  },
   opener: {
     matchTitle: /Theodore Psalter Ps/i,
     caption: 'Psalms 102',

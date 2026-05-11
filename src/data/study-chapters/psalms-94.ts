@@ -17,6 +17,12 @@ export const PSALMS_94: RichChapterContent = {
   chapter: 94,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 3 },
+
+  youth: {
+    intros: [
+      "A psalm against oppressors. &ldquo;He that planted the ear, shall he not hear? he that formed the eye, shall he not see?&rdquo; God isn&apos;t blind to the corruption you&apos;re tired of.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

@@ -16,6 +16,12 @@ export const PSALMS_120: RichChapterContent = {
   chapter: 120,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 3 },
+
+  youth: {
+    intros: [
+      "The first of the Songs of Ascents — songs pilgrims sang on the road up to Jerusalem. &ldquo;In my distress I cried unto the Lord, and he heard me.&rdquo;",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

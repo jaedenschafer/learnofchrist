@@ -16,6 +16,12 @@ export const PSALMS_19: RichChapterContent = {
   chapter: 19,
 
   estimatedMinutes: { beginner: 1, intermediate: 5, deep: 6 },
+
+  youth: {
+    intros: [
+      "The heavens declare God&apos;s glory; the law of the Lord is perfect, converting the soul. Two books — creation and Scripture — both speaking. Read both.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

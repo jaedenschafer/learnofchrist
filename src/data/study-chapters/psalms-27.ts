@@ -17,6 +17,12 @@ export const PSALMS_27: RichChapterContent = {
   chapter: 27,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 5 },
+
+  youth: {
+    intros: [
+      "&ldquo;The Lord is my light and my salvation; whom shall I fear?&rdquo; And: &ldquo;One thing have I desired of the Lord, that will I seek after; that I may dwell in the house of the Lord all the days of my life.&rdquo; Make that your one thing.",
+    ],
+  },
   opener: {
     matchTitle: /Theodore Psalter Ps/i,
     caption: 'Psalms 27',

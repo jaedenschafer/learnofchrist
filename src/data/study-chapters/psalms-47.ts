@@ -14,6 +14,12 @@ export const PSALMS_47: RichChapterContent = {
   chapter: 47,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 6 },
+
+  youth: {
+    intros: [
+      "A psalm of God reigning over all the earth. &ldquo;Clap your hands, all ye people; shout unto God with the voice of triumph.&rdquo; Worship loud sometimes.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

@@ -17,6 +17,12 @@ export const PSALMS_88: RichChapterContent = {
   chapter: 88,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "The darkest psalm in the Bible. It ends without a glimmer of light: &ldquo;Lover and friend hast thou put far from me, and mine acquaintance into darkness.&rdquo; If you&apos;re in a dark season, this psalm meets you there.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

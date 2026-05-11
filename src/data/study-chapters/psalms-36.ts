@@ -16,6 +16,12 @@ export const PSALMS_36: RichChapterContent = {
   chapter: 36,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 6 },
+
+  youth: {
+    intros: [
+      "The wickedness of the wicked vs. the lovingkindness of God. &ldquo;Thy mercy, O Lord, is in the heavens; and thy faithfulness reacheth unto the clouds.&rdquo; Picture that scale.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

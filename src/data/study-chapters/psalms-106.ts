@@ -16,6 +16,12 @@ export const PSALMS_106: RichChapterContent = {
   chapter: 106,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "The same history retold — but this time naming Israel&apos;s rebellion. &ldquo;Many times did he deliver them; but they provoked him with their counsel.&rdquo; God&apos;s patience runs deep.",
+    ],
+  },
   opener: {
     matchTitle: /Pharaoh/i,
     caption: 'Psalms 106',

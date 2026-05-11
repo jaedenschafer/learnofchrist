@@ -17,6 +17,12 @@ export const PSALMS_34: RichChapterContent = {
   chapter: 34,
 
   estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
+
+  youth: {
+    intros: [
+      "&ldquo;O taste and see that the Lord is good.&rdquo; You don&apos;t debate God into existence. You experience Him. Take a bite.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

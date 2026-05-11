@@ -16,6 +16,12 @@ export const PSALMS_11: RichChapterContent = {
   chapter: 11,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "When the foundations are destroyed, what shall the righteous do? &ldquo;In the Lord put I my trust.&rdquo; That&apos;s what. When everything you built on is shaking, you build on Him.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

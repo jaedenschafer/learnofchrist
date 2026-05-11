@@ -17,6 +17,12 @@ export const PSALMS_142: RichChapterContent = {
   chapter: 142,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 4 },
+
+  youth: {
+    intros: [
+      "David in the cave. &ldquo;I cried unto the Lord with my voice…I poured out my complaint before him; I shewed before him my trouble.&rdquo; Pour it out. He hears.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

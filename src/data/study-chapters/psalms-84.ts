@@ -18,6 +18,12 @@ export const PSALMS_84: RichChapterContent = {
   chapter: 84,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 5 },
+
+  youth: {
+    intros: [
+      "&ldquo;How amiable are thy tabernacles, O Lord of hosts!&rdquo; And: &ldquo;A day in thy courts is better than a thousand.&rdquo; If you&apos;ve never tasted that, you haven&apos;t tasted Him yet.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

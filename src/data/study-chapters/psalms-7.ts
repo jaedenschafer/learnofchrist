@@ -16,6 +16,12 @@ export const PSALMS_7: RichChapterContent = {
   chapter: 7,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "David in danger again. &ldquo;O Lord my God, in thee do I put my trust: save me from all them that persecute me, and deliver me.&rdquo; When you&apos;re slandered, take refuge in the only Judge who matters.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

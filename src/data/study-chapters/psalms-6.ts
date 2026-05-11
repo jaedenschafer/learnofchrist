@@ -16,6 +16,12 @@ export const PSALMS_6: RichChapterContent = {
   chapter: 6,
 
   estimatedMinutes: { beginner: 1, intermediate: 5, deep: 6 },
+
+  youth: {
+    intros: [
+      "The first of the penitential psalms. David is wrecked: &ldquo;I am weary with my groaning; all the night make I my bed to swim; I water my couch with my tears.&rdquo; God doesn&apos;t shame you for being a mess. He hears the weeping.",
+    ],
+  },
   opener: {
     matchTitle: /Stuttgart Psalter folio v/i,
     caption: 'Psalms 6',

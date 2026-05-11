@@ -6,6 +6,12 @@ export const PSALMS_63: RichChapterContent = {
   chapter: 63,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "David in the wilderness of Judah. &ldquo;O God, thou art my God; early will I seek thee: my soul thirsteth for thee, my flesh longeth for thee in a dry and thirsty land.&rdquo; The wilderness produces a different kind of thirst.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

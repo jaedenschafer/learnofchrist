@@ -15,6 +15,12 @@ export const PSALMS_17: RichChapterContent = {
   chapter: 17,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "David asks God to keep him &ldquo;as the apple of the eye&rdquo; — the pupil, the most protected part of the body. That&apos;s how God watches you.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

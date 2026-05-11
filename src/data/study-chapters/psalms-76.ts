@@ -15,6 +15,12 @@ export const PSALMS_76: RichChapterContent = {
   chapter: 76,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "A song after a victory. &ldquo;In Judah is God known: his name is great in Israel.&rdquo; God revealing Himself to a specific people in a specific place — that&apos;s how the gospel always works.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

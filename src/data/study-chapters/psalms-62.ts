@@ -6,6 +6,12 @@ export const PSALMS_62: RichChapterContent = {
   chapter: 62,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "&ldquo;Truly my soul waiteth upon God: from him cometh my salvation. He only is my rock and my salvation; he is my defence; I shall not be greatly moved.&rdquo; The only is doing a lot of work in that sentence.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

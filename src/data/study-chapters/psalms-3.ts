@@ -18,6 +18,12 @@ export const PSALMS_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 2, intermediate: 6, deep: 7 },
+
+  youth: {
+    intros: [
+      "David is on the run from his own son Absalom. He prays: &ldquo;But thou, O Lord, art a shield for me; my glory, and the lifter up of mine head.&rdquo; When you can&apos;t lift your own head, He lifts it.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

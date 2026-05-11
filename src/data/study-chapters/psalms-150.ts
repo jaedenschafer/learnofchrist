@@ -17,6 +17,12 @@ export const PSALMS_150: RichChapterContent = {
   chapter: 150,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "The final psalm. &ldquo;Let every thing that hath breath praise the Lord. Praise ye the Lord.&rdquo; Every breath is praise material. Take one now. There. That counts.",
+    ],
+  },
   opener: {
     matchTitle: /Utrecht Psalter Psalm/i,
     caption: 'Psalms 150',

@@ -16,6 +16,12 @@ export const PSALMS_132: RichChapterContent = {
   chapter: 132,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "A song about David&apos;s vow to find a place for the ark. God&apos;s answer: I&apos;ve chosen Zion. The Messiah will come from David&apos;s line.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

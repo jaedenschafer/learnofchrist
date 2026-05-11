@@ -16,6 +16,12 @@ export const PSALMS_117: RichChapterContent = {
   chapter: 117,
 
   estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
+
+  youth: {
+    intros: [
+      "The shortest chapter in the Bible. Two verses. &ldquo;O praise the Lord, all ye nations: praise him, all ye people. For his merciful kindness is great toward us.&rdquo; Universal worship in a tweet.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

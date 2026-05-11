@@ -17,6 +17,12 @@ export const PSALMS_139: RichChapterContent = {
   chapter: 139,
 
   estimatedMinutes: { beginner: 1, intermediate: 6, deep: 7 },
+
+  youth: {
+    intros: [
+      "&ldquo;Search me, O God, and know my heart.&rdquo; God knows you completely — your sitting, your standing, your thoughts before you think them. He formed you in the womb. Memorize this psalm.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

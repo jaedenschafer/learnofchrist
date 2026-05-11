@@ -15,6 +15,12 @@ export const PSALMS_48: RichChapterContent = {
   chapter: 48,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+
+  youth: {
+    intros: [
+      "Praise for Jerusalem — the city of God. The earthly Jerusalem points to the heavenly one. &ldquo;Walk about Zion…tell the towers thereof.&rdquo;",
+    ],
+  },
   opener: {
     matchTitle: /Utrecht Psalter Psalm/i,
     caption: 'Psalms 48',

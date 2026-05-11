@@ -16,6 +16,12 @@ export const PSALMS_113: RichChapterContent = {
   chapter: 113,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "&ldquo;Who is like unto the Lord our God, who dwelleth on high, who humbleth himself to behold the things that are in heaven, and in the earth!&rdquo; God notices the lowly. Mary echoes this psalm in the Magnificat.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

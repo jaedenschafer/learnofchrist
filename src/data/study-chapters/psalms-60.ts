@@ -6,6 +6,12 @@ export const PSALMS_60: RichChapterContent = {
   chapter: 60,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 5 },
+
+  youth: {
+    intros: [
+      "A national lament after Israel was defeated. &ldquo;Through God we shall do valiantly: for he it is that shall tread down our enemies.&rdquo; The God who allowed the loss is the God who gives the win.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

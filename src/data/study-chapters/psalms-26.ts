@@ -17,6 +17,12 @@ export const PSALMS_26: RichChapterContent = {
   chapter: 26,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 5 },
+
+  youth: {
+    intros: [
+      "David asks God to examine him: &ldquo;Examine me, O Lord, and prove me; try my reins and my heart.&rdquo; That&apos;s a brave prayer. Pray it sometime.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

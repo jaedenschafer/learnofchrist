@@ -16,6 +16,12 @@ export const PSALMS_98: RichChapterContent = {
   chapter: 98,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 3 },
+
+  youth: {
+    intros: [
+      "Another &ldquo;sing unto the Lord a new song&rdquo; psalm. &ldquo;Make a joyful noise unto the Lord, all the earth.&rdquo; Isaac Watts wrote &ldquo;Joy to the World&rdquo; based on this psalm.",
+    ],
+  },
   opener: {
     matchTitle: /The Proclamation/i,
     caption: 'Psalms 98',

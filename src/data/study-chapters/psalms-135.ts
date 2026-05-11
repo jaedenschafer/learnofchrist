@@ -17,6 +17,12 @@ export const PSALMS_135: RichChapterContent = {
   chapter: 135,
 
   estimatedMinutes: { beginner: 1, intermediate: 5, deep: 6 },
+
+  youth: {
+    intros: [
+      "Praise for what God has done — created the world, delivered Israel, defeated kings. Then mockery of idols: they have eyes but see not. Bow to whoever is real.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

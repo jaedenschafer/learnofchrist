@@ -15,6 +15,12 @@ export const PSALMS_44: RichChapterContent = {
   chapter: 44,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+
+  youth: {
+    intros: [
+      "A national lament. The people remember God&apos;s past deliverance and ask why He&apos;s allowing defeat now. &ldquo;Awake, why sleepest thou, O Lord?&rdquo; Bold prayer in dark seasons.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

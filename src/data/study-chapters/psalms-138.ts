@@ -17,6 +17,12 @@ export const PSALMS_138: RichChapterContent = {
   chapter: 138,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 4 },
+
+  youth: {
+    intros: [
+      "David: &ldquo;Though I walk in the midst of trouble, thou wilt revive me.&rdquo; And: &ldquo;The Lord will perfect that which concerneth me.&rdquo; He finishes what He starts in your life.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

@@ -15,6 +15,12 @@ export const PSALMS_80: RichChapterContent = {
   chapter: 80,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "&ldquo;Turn us again, O God, and cause thy face to shine; and we shall be saved.&rdquo; Repeated three times. The fix for backsliding is God turning your face back to His.",
+    ],
+  },
   opener: {
     matchTitle: /Utrecht Psalter Psalm/i,
     caption: 'Psalms 80',

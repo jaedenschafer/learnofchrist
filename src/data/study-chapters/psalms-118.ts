@@ -17,6 +17,12 @@ export const PSALMS_118: RichChapterContent = {
   chapter: 118,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 6 },
+
+  youth: {
+    intros: [
+      "&ldquo;The stone which the builders refused is become the head stone of the corner.&rdquo; Jesus quotes this about Himself. &ldquo;This is the day which the Lord hath made; we will rejoice and be glad in it.&rdquo;",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

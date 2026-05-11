@@ -16,6 +16,12 @@ export const PSALMS_39: RichChapterContent = {
   chapter: 39,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 6 },
+
+  youth: {
+    intros: [
+      "David tries to keep silent about his pain — and explodes. &ldquo;Make me to know mine end, and the measure of my days.&rdquo; Asking God to remind you how short life is is a strangely steadying prayer.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

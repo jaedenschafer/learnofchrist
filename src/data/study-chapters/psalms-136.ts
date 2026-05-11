@@ -15,6 +15,12 @@ export const PSALMS_136: RichChapterContent = {
   chapter: 136,
 
   estimatedMinutes: { beginner: 1, intermediate: 5, deep: 6 },
+
+  youth: {
+    intros: [
+      "A responsive psalm. Every line ends with &ldquo;for his mercy endureth for ever.&rdquo; 26 verses repeating the chorus. Some truths only land after you say them 26 times.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

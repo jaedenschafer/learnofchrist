@@ -17,6 +17,12 @@ export const PSALMS_96: RichChapterContent = {
   chapter: 96,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 3 },
+
+  youth: {
+    intros: [
+      "&ldquo;Sing unto the Lord a new song.&rdquo; God deserves new songs from new mercies. What&apos;s the song He&apos;s writing in your life right now?",
+    ],
+  },
   opener: {
     matchTitle: /Sing unto the Lord/i,
     caption: 'Psalms 96',

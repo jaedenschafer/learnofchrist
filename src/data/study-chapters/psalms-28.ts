@@ -16,6 +16,12 @@ export const PSALMS_28: RichChapterContent = {
   chapter: 28,
 
   estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
+
+  youth: {
+    intros: [
+      "David asks God to hear him so he doesn&apos;t become &ldquo;like them that go down into the pit.&rdquo; Then ends in faith: &ldquo;The Lord is my strength and my shield.&rdquo;",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

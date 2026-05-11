@@ -18,6 +18,12 @@ export const PSALMS_4: RichChapterContent = {
   chapter: 4,
 
   estimatedMinutes: { beginner: 2, intermediate: 7, deep: 8 },
+
+  youth: {
+    intros: [
+      "David ends his day with prayer: &ldquo;I will both lay me down in peace, and sleep: for thou, Lord, only makest me dwell in safety.&rdquo; The God who watches you while you can&apos;t watch yourself.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

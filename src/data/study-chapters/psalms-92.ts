@@ -17,6 +17,12 @@ export const PSALMS_92: RichChapterContent = {
   chapter: 92,
 
   estimatedMinutes: { beginner: 1, intermediate: 2, deep: 4 },
+
+  youth: {
+    intros: [
+      "A Sabbath song. &ldquo;The righteous shall flourish like the palm tree: he shall grow like a cedar in Lebanon.&rdquo; Stop one day a week. Watch your roots go deeper.",
+    ],
+  },
   opener: {
     matchTitle: /Utrecht Psalter Psalm/i,
     caption: 'Psalms 92',

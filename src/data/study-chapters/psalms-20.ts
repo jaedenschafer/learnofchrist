@@ -15,6 +15,12 @@ export const PSALMS_20: RichChapterContent = {
   chapter: 20,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 4 },
+
+  youth: {
+    intros: [
+      "A prayer for someone in trouble. &ldquo;Some trust in chariots, and some in horses: but we will remember the name of the Lord our God.&rdquo; Remember the name when others remember the resources.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

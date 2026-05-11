@@ -15,6 +15,12 @@ export const PSALMS_69: RichChapterContent = {
   chapter: 69,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "A messianic lament. &ldquo;They gave me also gall for my meat; and in my thirst they gave me vinegar to drink.&rdquo; Quoted of Christ at the cross. David&apos;s suffering becomes Christ&apos;s suffering.",
+    ],
+  },
   opener: {
     matchTitle: /Jonah Prefiguring the Resurrection/i,
     caption: 'Psalms 69',

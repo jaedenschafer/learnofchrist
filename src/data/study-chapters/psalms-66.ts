@@ -18,6 +18,12 @@ export const PSALMS_66: RichChapterContent = {
   chapter: 66,
 
   estimatedMinutes: { beginner: 3, intermediate: 6, deep: 8 },
+
+  youth: {
+    intros: [
+      "A call to all the earth to praise God. &ldquo;Come and see the works of God: he is terrible in his doing toward the children of men.&rdquo; (&ldquo;Terrible&rdquo; in old English meant awe-inspiring.)",
+    ],
+  },
   opener: {
     matchTitle: /The Fiery Furnace/i,
     caption: 'Psalms 66',

@@ -17,6 +17,12 @@ export const PSALMS_130: RichChapterContent = {
   chapter: 130,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "&ldquo;Out of the depths have I cried unto thee, O Lord.&rdquo; A cry from the bottom that lands all the way at God&apos;s ear. There is no depth too deep.",
+    ],
+  },
   opener: {
     matchTitle: /Harley Psalter De Profundis/i,
     caption: 'Psalms 130',

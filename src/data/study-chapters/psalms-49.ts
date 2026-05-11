@@ -14,6 +14,12 @@ export const PSALMS_49: RichChapterContent = {
   chapter: 49,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 6 },
+
+  youth: {
+    intros: [
+      "A wisdom psalm. The rich can&apos;t take it with them. &ldquo;Their inward thought is, that their houses shall continue for ever…nevertheless man being in honour abideth not: he is like the beasts that perish.&rdquo;",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

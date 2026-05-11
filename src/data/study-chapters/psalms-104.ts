@@ -16,6 +16,12 @@ export const PSALMS_104: RichChapterContent = {
   chapter: 104,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 6 },
+
+  youth: {
+    intros: [
+      "A creation hymn. The whole psalm is one long love letter to the world God made. &ldquo;O Lord, how manifold are thy works! in wisdom hast thou made them all.&rdquo;",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

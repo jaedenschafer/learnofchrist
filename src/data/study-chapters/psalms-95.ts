@@ -16,6 +16,12 @@ export const PSALMS_95: RichChapterContent = {
   chapter: 95,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "&ldquo;O come, let us sing unto the Lord…let us kneel before the Lord our maker.&rdquo; And a warning: don&apos;t harden your hearts like Israel did. Hebrews 3-4 quotes this whole chapter.",
+    ],
+  },
   opener: {
     matchTitle: /The Assembly/i,
     caption: 'Psalms 95',

@@ -17,6 +17,12 @@ export const PSALMS_87: RichChapterContent = {
   chapter: 87,
 
   estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
+
+  youth: {
+    intros: [
+      "A song about Zion as the birthplace of the nations. The city of God is the spiritual mother of every redeemed person from every nation. You belong there.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

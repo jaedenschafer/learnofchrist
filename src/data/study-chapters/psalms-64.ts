@@ -6,6 +6,12 @@ export const PSALMS_64: RichChapterContent = {
   chapter: 64,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 5 },
+
+  youth: {
+    intros: [
+      "David asks God to hide him from the secret plotting of his enemies. &ldquo;The righteous shall be glad in the Lord, and shall trust in him.&rdquo; God hears whispers other people meant to keep secret.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

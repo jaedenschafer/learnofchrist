@@ -16,6 +16,12 @@ export const PSALMS_78: RichChapterContent = {
   chapter: 78,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "A long retelling of Israel&apos;s history — God&apos;s faithfulness met by their repeated rebellion. &ldquo;That the generation to come might know them…and declare them to their children.&rdquo; Tell the story to your kids.",
+    ],
+  },
   opener: {
     matchTitle: /Crossing the Red Sea/i,
     caption: 'Psalms 78',

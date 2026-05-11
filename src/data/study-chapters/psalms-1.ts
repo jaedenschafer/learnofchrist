@@ -17,6 +17,12 @@ export const PSALMS_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 2, intermediate: 6, deep: 7 },
+
+  youth: {
+    intros: [
+      "Two trees, two paths, two destinies. The blessed person delights in God&apos;s law and is rooted by streams of water — fruit in season, leaf doesn&apos;t wither. The wicked are like chaff the wind drives away. Pick your tree by what you delight in.",
+    ],
+  },
   opener: {
     matchTitle: /David Composing the Psalms/i,
     caption: 'Psalms 1',

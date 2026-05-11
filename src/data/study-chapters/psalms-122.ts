@@ -15,6 +15,12 @@ export const PSALMS_122: RichChapterContent = {
   chapter: 122,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "&ldquo;I was glad when they said unto me, Let us go into the house of the Lord.&rdquo; The joy of going to worship with God&apos;s people. Don&apos;t take corporate worship for granted.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

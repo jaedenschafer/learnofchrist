@@ -15,6 +15,12 @@ export const PSALMS_16: RichChapterContent = {
   chapter: 16,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "David: &ldquo;I have set the Lord always before me… my flesh also shall rest in hope. For thou wilt not leave my soul in hell, neither wilt thou suffer thine Holy One to see corruption.&rdquo; Peter quotes this in Acts 2 about the resurrection of Jesus.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

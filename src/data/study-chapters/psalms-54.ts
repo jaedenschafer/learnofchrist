@@ -6,6 +6,12 @@ export const PSALMS_54: RichChapterContent = {
   chapter: 54,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "David hiding from Saul. &ldquo;Behold, God is mine helper: the Lord is with them that uphold my soul.&rdquo; When you&apos;re hunted, He&apos;s your help.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

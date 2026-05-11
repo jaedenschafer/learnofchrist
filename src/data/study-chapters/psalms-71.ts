@@ -15,6 +15,12 @@ export const PSALMS_71: RichChapterContent = {
   chapter: 71,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "An old man&apos;s prayer. &ldquo;O God, thou hast taught me from my youth: and hitherto have I declared thy wondrous works. Now also when I am old and grayheaded, O God, forsake me not.&rdquo; The God of your youth is the God of your old age.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

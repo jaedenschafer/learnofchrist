@@ -15,6 +15,12 @@ export const PSALMS_50: RichChapterContent = {
   chapter: 50,
 
   estimatedMinutes: { beginner: 2, intermediate: 6, deep: 7 },
+
+  youth: {
+    intros: [
+      "God indicts His own people for hypocritical worship. &ldquo;Will I eat the flesh of bulls, or drink the blood of goats? Offer unto God thanksgiving.&rdquo; God doesn&apos;t need your sacrifice. He wants your heart.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

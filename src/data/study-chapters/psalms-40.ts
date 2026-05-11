@@ -16,6 +16,12 @@ export const PSALMS_40: RichChapterContent = {
   chapter: 40,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 6 },
+
+  youth: {
+    intros: [
+      "&ldquo;He brought me up also out of an horrible pit, out of the miry clay, and set my feet upon a rock.&rdquo; David testifies. Then: &ldquo;Sacrifice and offering thou didst not desire; mine ears hast thou opened.&rdquo; Hebrews 10 quotes this about Jesus.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

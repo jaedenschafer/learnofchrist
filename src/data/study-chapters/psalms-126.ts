@@ -16,6 +16,12 @@ export const PSALMS_126: RichChapterContent = {
   chapter: 126,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "&ldquo;They that sow in tears shall reap in joy.&rdquo; The seasons of weeping aren&apos;t wasted. They&apos;re seed.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

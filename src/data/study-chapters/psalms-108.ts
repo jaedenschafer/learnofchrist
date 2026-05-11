@@ -16,6 +16,12 @@ export const PSALMS_108: RichChapterContent = {
   chapter: 108,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "A song combining Psalm 57 and Psalm 60. &ldquo;Through God we shall do valiantly: for he it is that shall tread down our enemies.&rdquo;",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

@@ -17,6 +17,12 @@ export const PSALMS_65: RichChapterContent = {
   chapter: 65,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+
+  youth: {
+    intros: [
+      "A harvest psalm. &ldquo;Thou crownest the year with thy goodness; and thy paths drop fatness.&rdquo; God&apos;s ordinary providence — every loaf of bread you eat — is His gift.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

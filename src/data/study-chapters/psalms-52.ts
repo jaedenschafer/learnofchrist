@@ -6,6 +6,12 @@ export const PSALMS_52: RichChapterContent = {
   chapter: 52,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 5 },
+
+  youth: {
+    intros: [
+      "Against Doeg the Edomite who slaughtered the priests for Saul. &ldquo;Why boastest thou thyself in mischief, O mighty man?&rdquo; God will tear down what evil tries to build up.",
+    ],
+  },
   opener: {
     matchTitle: /Bosworth Psalter Quid Gloriaris/i,
     caption: 'Psalms 52',

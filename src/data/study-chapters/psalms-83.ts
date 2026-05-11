@@ -15,6 +15,12 @@ export const PSALMS_83: RichChapterContent = {
   chapter: 83,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "A prayer when many nations conspire together against God&apos;s people. &ldquo;That men may know that thou, whose name alone is JEHOVAH, art the most high over all the earth.&rdquo;",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

@@ -17,6 +17,12 @@ export const PSALMS_99: RichChapterContent = {
   chapter: 99,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "&ldquo;The Lord reigneth; let the people tremble.&rdquo; Holy is His name. Tremble AND worship. Both.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

@@ -16,6 +16,12 @@ export const PSALMS_105: RichChapterContent = {
   chapter: 105,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 6 },
+
+  youth: {
+    intros: [
+      "A retelling of Israel&apos;s history from Abraham to the conquest, framed as praise. Memory becomes worship.",
+    ],
+  },
   opener: {
     matchTitle: /Theodore Psalter fol r/i,
     caption: 'Psalms 105',

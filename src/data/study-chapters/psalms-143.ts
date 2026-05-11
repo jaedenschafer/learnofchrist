@@ -17,6 +17,12 @@ export const PSALMS_143: RichChapterContent = {
   chapter: 143,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "David: &ldquo;Cause me to hear thy lovingkindness in the morning; for in thee do I trust.&rdquo; Start your day asking to hear His love.",
+    ],
+  },
   opener: {
     matchTitle: /Utrecht Psalter Psalm/i,
     caption: 'Psalms 143',

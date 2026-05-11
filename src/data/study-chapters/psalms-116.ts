@@ -16,6 +16,12 @@ export const PSALMS_116: RichChapterContent = {
   chapter: 116,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 4 },
+
+  youth: {
+    intros: [
+      "&ldquo;I love the Lord, because he hath heard my voice and my supplications.&rdquo; A personal testimony of rescue. &ldquo;What shall I render unto the Lord for all his benefits toward me?&rdquo;",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

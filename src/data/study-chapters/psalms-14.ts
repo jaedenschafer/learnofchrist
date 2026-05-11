@@ -15,6 +15,12 @@ export const PSALMS_14: RichChapterContent = {
   chapter: 14,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "&ldquo;The fool hath said in his heart, There is no God.&rdquo; Atheism isn&apos;t intellectually new. Paul quotes this psalm in Romans 3 to make the case that all of us, by nature, suppress the truth.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

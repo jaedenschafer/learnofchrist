@@ -15,6 +15,12 @@ export const PSALMS_75: RichChapterContent = {
   chapter: 75,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "God Himself speaks in this psalm: &ldquo;When I shall receive the congregation I will judge uprightly.&rdquo; Promotion comes from the Lord, not from the east or the west.",
+    ],
+  },
   opener: {
     matchTitle: /Daniel/i,
     caption: 'Psalms 75',

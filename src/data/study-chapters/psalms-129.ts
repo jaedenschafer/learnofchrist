@@ -16,6 +16,12 @@ export const PSALMS_129: RichChapterContent = {
   chapter: 129,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 3 },
+
+  youth: {
+    intros: [
+      "A national lament that ends in confidence. The enemies who plowed Israel like a field will be confounded.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

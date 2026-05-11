@@ -17,6 +17,12 @@ export const PSALMS_145: RichChapterContent = {
   chapter: 145,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "David: &ldquo;Every day will I bless thee.&rdquo; And: &ldquo;The Lord is nigh unto all them that call upon him, to all that call upon him in truth.&rdquo;",
+    ],
+  },
   opener: {
     matchTitle: /Utrecht Psalter Psalm/i,
     caption: 'Psalms 145',

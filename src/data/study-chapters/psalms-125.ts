@@ -15,6 +15,12 @@ export const PSALMS_125: RichChapterContent = {
   chapter: 125,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 3 },
+
+  youth: {
+    intros: [
+      "&ldquo;They that trust in the Lord shall be as mount Zion, which cannot be removed, but abideth for ever.&rdquo; Whatever&apos;s shaking around you isn&apos;t shaking you.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

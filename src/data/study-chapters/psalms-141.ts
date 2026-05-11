@@ -16,6 +16,12 @@ export const PSALMS_141: RichChapterContent = {
   chapter: 141,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "David: &ldquo;Set a watch, O Lord, before my mouth; keep the door of my lips.&rdquo; Pray for guarded speech. Most of your worst moments will involve your mouth.",
+    ],
+  },
   opener: {
     matchTitle: /Harley Psalter fol r/i,
     caption: 'Psalms 141',

@@ -14,6 +14,12 @@ export const PSALMS_45: RichChapterContent = {
   chapter: 45,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+
+  youth: {
+    intros: [
+      "A wedding song for a king — but Hebrews 1 says the King is Jesus and the bride is the church. &ldquo;Thy throne, O God, is for ever and ever.&rdquo;",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

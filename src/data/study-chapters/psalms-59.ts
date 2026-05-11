@@ -6,6 +6,12 @@ export const PSALMS_59: RichChapterContent = {
   chapter: 59,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "Saul&apos;s soldiers waiting at David&apos;s house to kill him. &ldquo;But I will sing of thy power; yea, I will sing aloud of thy mercy in the morning.&rdquo; Hostage situations end in worship.",
+    ],
+  },
   opener: {
     matchTitle: /Michal Watching David from/i,
     caption: 'Psalms 59',

@@ -16,6 +16,12 @@ export const PSALMS_109: RichChapterContent = {
   chapter: 109,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 4 },
+
+  youth: {
+    intros: [
+      "David&apos;s harshest imprecatory psalm. He asks God to judge his slanderers severely. The Bible doesn&apos;t soften how angry the righteous can become at injustice. Pray your real prayer; let God sort it out.",
+    ],
+  },
   opener: {
     matchTitle: /Harley Psalter Psalm/i,
     caption: 'Psalms 109',

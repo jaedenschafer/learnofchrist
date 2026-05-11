@@ -17,6 +17,12 @@ export const PSALMS_35: RichChapterContent = {
   chapter: 35,
 
   estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
+
+  youth: {
+    intros: [
+      "David asks God to fight for him against unjust accusers. The chapter is brutal honesty about being wronged. Bring the case to God before you take it into your own hands.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

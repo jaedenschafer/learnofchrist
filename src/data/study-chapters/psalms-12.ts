@@ -16,6 +16,12 @@ export const PSALMS_12: RichChapterContent = {
   chapter: 12,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "A psalm for when honest people seem to disappear from your circle. &ldquo;The words of the Lord are pure words: as silver tried in a furnace of earth, purified seven times.&rdquo; The truth still exists.",
+    ],
+  },
   opener: {
     matchTitle: /David at the Lord/i,
     caption: 'Psalms 12',

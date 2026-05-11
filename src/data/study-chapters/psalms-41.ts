@@ -15,6 +15,12 @@ export const PSALMS_41: RichChapterContent = {
   chapter: 41,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+
+  youth: {
+    intros: [
+      "The first book of Psalms ends. &ldquo;Blessed is he that considereth the poor.&rdquo; Then a verse Jesus quoted of Judas: &ldquo;He which did eat of my bread hath lifted up his heel against me.&rdquo;",
+    ],
+  },
   opener: {
     matchTitle: /Charity to the Poor/i,
     caption: 'Psalms 41',

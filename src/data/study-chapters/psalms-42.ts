@@ -15,6 +15,12 @@ export const PSALMS_42: RichChapterContent = {
   chapter: 42,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+
+  youth: {
+    intros: [
+      "&ldquo;As the hart panteth after the water brooks, so panteth my soul after thee, O God.&rdquo; The psalmist talks to himself: &ldquo;Why art thou cast down, O my soul?…hope thou in God.&rdquo; Sometimes you have to preach to yourself.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

@@ -15,6 +15,12 @@ export const PSALMS_123: RichChapterContent = {
   chapter: 123,
 
   estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
+
+  youth: {
+    intros: [
+      "&ldquo;Unto thee lift I up mine eyes, O thou that dwellest in the heavens.&rdquo; Eyes up. Mercy comes.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

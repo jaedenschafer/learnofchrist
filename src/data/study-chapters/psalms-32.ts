@@ -17,6 +17,12 @@ export const PSALMS_32: RichChapterContent = {
   chapter: 32,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 5 },
+
+  youth: {
+    intros: [
+      "The blessed person is the one whose sin is covered. David describes the misery of unconfessed sin and the joy of confession. &ldquo;Acknowledge…not hide.&rdquo; Don&apos;t carry it. Bring it.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

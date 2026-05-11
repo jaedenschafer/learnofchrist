@@ -16,6 +16,12 @@ export const PSALMS_5: RichChapterContent = {
   chapter: 5,
 
   estimatedMinutes: { beginner: 2, intermediate: 7, deep: 8 },
+
+  youth: {
+    intros: [
+      "A morning prayer. &ldquo;My voice shalt thou hear in the morning, O Lord; in the morning will I direct my prayer unto thee, and will look up.&rdquo; Start your day pointed at Him.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

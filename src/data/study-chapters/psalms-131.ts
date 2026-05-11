@@ -15,6 +15,12 @@ export const PSALMS_131: RichChapterContent = {
   chapter: 131,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 3 },
+
+  youth: {
+    intros: [
+      "David: &ldquo;Lord, my heart is not haughty, nor mine eyes lofty.&rdquo; A psalm about quieting your soul like a weaned child. Stop demanding. Just rest with Him.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

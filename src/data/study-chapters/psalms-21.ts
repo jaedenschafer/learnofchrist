@@ -17,6 +17,12 @@ export const PSALMS_21: RichChapterContent = {
   chapter: 21,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "A king celebrates God&apos;s answer to a battle prayer. The bigger Person on the throne in this psalm is Jesus.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

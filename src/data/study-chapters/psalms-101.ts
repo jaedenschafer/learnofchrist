@@ -16,6 +16,12 @@ export const PSALMS_101: RichChapterContent = {
   chapter: 101,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 6 },
+
+  youth: {
+    intros: [
+      "David sets the standard for his own house: I will walk with a perfect heart, I will not allow wickedness, I will not tolerate slander. Set standards for your own house too.",
+    ],
+  },
   opener: {
     matchTitle: /Harley Psalter fol v/i,
     caption: 'Psalms 101',

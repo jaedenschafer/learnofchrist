@@ -15,6 +15,12 @@ export const PSALMS_111: RichChapterContent = {
   chapter: 111,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "An acrostic — each line starts with a Hebrew letter in alphabetical order. &ldquo;The fear of the Lord is the beginning of wisdom.&rdquo;",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

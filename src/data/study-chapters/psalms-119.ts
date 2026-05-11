@@ -17,6 +17,12 @@ export const PSALMS_119: RichChapterContent = {
   chapter: 119,
 
   estimatedMinutes: { beginner: 2, intermediate: 8, deep: 9 },
+
+  youth: {
+    intros: [
+      "The longest chapter in the Bible — 176 verses, all about God&apos;s Word. An acrostic with 22 sections, one per Hebrew letter, eight verses each. The whole thing is one long love song to Scripture. Read it slowly across a month.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

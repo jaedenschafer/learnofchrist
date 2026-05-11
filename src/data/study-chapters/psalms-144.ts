@@ -17,6 +17,12 @@ export const PSALMS_144: RichChapterContent = {
   chapter: 144,
 
   estimatedMinutes: { beginner: 1, intermediate: 5, deep: 5 },
+
+  youth: {
+    intros: [
+      "&ldquo;Blessed be the Lord my strength, which teacheth my hands to war, and my fingers to fight.&rdquo; God trains your hands for whatever battle is on your calendar.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

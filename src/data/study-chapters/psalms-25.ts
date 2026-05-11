@@ -17,6 +17,12 @@ export const PSALMS_25: RichChapterContent = {
   chapter: 25,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 5 },
+
+  youth: {
+    intros: [
+      "David asks God to teach him His ways. &ldquo;Remember not the sins of my youth, nor my transgressions: according to thy mercy remember thou me.&rdquo; The God who knows your worst doesn&apos;t hold it against you when you ask.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

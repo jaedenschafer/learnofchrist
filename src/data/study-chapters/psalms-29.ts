@@ -17,6 +17,12 @@ export const PSALMS_29: RichChapterContent = {
   chapter: 29,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "A psalm about the voice of the Lord — over the waters, breaking cedars, dividing flames of fire. The God who speaks worlds into being is speaking now.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

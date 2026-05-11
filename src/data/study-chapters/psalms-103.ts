@@ -16,6 +16,12 @@ export const PSALMS_103: RichChapterContent = {
   chapter: 103,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+
+  youth: {
+    intros: [
+      "&ldquo;Bless the Lord, O my soul: and all that is within me, bless his holy name.&rdquo; &ldquo;Who forgiveth all thine iniquities; who healeth all thy diseases.&rdquo; &ldquo;As far as the east is from the west, so far hath he removed our transgressions from us.&rdquo; Memorize this one.",
+    ],
+  },
   opener: {
     matchTitle: /David the Psalmist Praise/i,
     caption: 'Psalms 103',

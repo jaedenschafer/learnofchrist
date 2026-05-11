@@ -16,6 +16,12 @@ export const PSALMS_127: RichChapterContent = {
   chapter: 127,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "&ldquo;Except the Lord build the house, they labour in vain that build it.&rdquo; All your work without Him is wasted effort. Build with Him.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

@@ -6,6 +6,12 @@ export const PSALMS_58: RichChapterContent = {
   chapter: 58,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "A psalm against unjust judges. &ldquo;Verily there is a reward for the righteous: verily he is a God that judgeth in the earth.&rdquo; God doesn&apos;t miss the corruption you can&apos;t fix.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

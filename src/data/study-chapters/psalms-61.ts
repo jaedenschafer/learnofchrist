@@ -6,6 +6,12 @@ export const PSALMS_61: RichChapterContent = {
   chapter: 61,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "David: &ldquo;From the end of the earth will I cry unto thee, when my heart is overwhelmed: lead me to the rock that is higher than I.&rdquo; The rock that&apos;s higher is the only one tall enough to see over what&apos;s overwhelming you.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

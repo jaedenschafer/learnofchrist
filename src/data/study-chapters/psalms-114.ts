@@ -15,6 +15,12 @@ export const PSALMS_114: RichChapterContent = {
   chapter: 114,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "A short song about the Exodus. &ldquo;The sea saw it, and fled: Jordan was driven back. The mountains skipped like rams.&rdquo; Creation reacts to its Maker.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

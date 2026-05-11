@@ -15,6 +15,12 @@ export const PSALMS_15: RichChapterContent = {
   chapter: 15,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "Who gets to dwell in God&apos;s presence? Someone who walks uprightly, speaks truth, doesn&apos;t backbite, keeps their word even when it hurts. The bar is high. Christ is the only one who clears it. In Him, you do too.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

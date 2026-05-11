@@ -16,6 +16,12 @@ export const PSALMS_31: RichChapterContent = {
   chapter: 31,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "&ldquo;Into thine hand I commit my spirit.&rdquo; Jesus quoted this verse from the cross. David said it during his trials. You can say it during yours.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

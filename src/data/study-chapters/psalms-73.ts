@@ -16,6 +16,12 @@ export const PSALMS_73: RichChapterContent = {
   chapter: 73,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "Asaph wrestles with the prosperity of the wicked. He almost loses his footing — until he goes into the sanctuary and sees their end. &ldquo;Whom have I in heaven but thee? and there is none upon earth that I desire beside thee.&rdquo;",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

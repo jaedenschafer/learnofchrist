@@ -15,6 +15,12 @@ export const PSALMS_70: RichChapterContent = {
   chapter: 70,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "A short urgent prayer: &ldquo;Make haste, O God, to deliver me; make haste to help me, O Lord.&rdquo; Sometimes the only prayer you have time for.",
+    ],
+  },
   opener: {
     matchTitle: /Utrecht Psalter Psalm/i,
     caption: 'Psalms 70',

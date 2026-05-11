@@ -16,6 +16,12 @@ export const PSALMS_33: RichChapterContent = {
   chapter: 33,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 5 },
+
+  youth: {
+    intros: [
+      "A song of praise for God&apos;s creation, His sovereignty over nations, and His care for those who fear Him. &ldquo;The eye of the Lord is upon them that fear him.&rdquo;",
+    ],
+  },
   opener: {
     matchTitle: /David Playing the Flute/i,
     caption: 'Psalms 33',

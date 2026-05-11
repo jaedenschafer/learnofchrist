@@ -6,6 +6,12 @@ export const PSALMS_57: RichChapterContent = {
   chapter: 57,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 5 },
+
+  youth: {
+    intros: [
+      "David hiding in a cave from Saul. &ldquo;In the shadow of thy wings will I make my refuge, until these calamities be overpast.&rdquo; The cave was uncomfortable. The shadow of His wings was perfect.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

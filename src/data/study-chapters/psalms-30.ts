@@ -17,6 +17,12 @@ export const PSALMS_30: RichChapterContent = {
   chapter: 30,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "&ldquo;Weeping may endure for a night, but joy cometh in the morning.&rdquo; Whatever night you&apos;re in, morning is coming. Hold on through the dark.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

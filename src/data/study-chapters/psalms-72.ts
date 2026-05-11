@@ -15,6 +15,12 @@ export const PSALMS_72: RichChapterContent = {
   chapter: 72,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "A coronation prayer for Solomon — and a prophecy of Christ&apos;s reign. &ldquo;He shall come down like rain upon the mown grass: as showers that water the earth.&rdquo;",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

@@ -14,6 +14,12 @@ export const PSALMS_46: RichChapterContent = {
   chapter: 46,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+
+  youth: {
+    intros: [
+      "&ldquo;God is our refuge and strength, a very present help in trouble.&rdquo; And: &ldquo;Be still, and know that I am God.&rdquo; The Reformer Martin Luther wrote &ldquo;A Mighty Fortress is Our God&rdquo; from this psalm.",
+    ],
+  },
   opener: {
     matchTitle: /Utrecht Psalter Psalm/i,
     caption: 'Psalms 46',

@@ -18,6 +18,12 @@ export const PSALMS_149: RichChapterContent = {
   chapter: 149,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "A new song for God&apos;s people. &ldquo;Let the saints be joyful in glory: let them sing aloud upon their beds.&rdquo; Worship doesn&apos;t require an audience or a stage.",
+    ],
+  },
   opener: {
     matchTitle: /Stuttgart Psalter folio v/i,
     caption: 'Psalms 149',

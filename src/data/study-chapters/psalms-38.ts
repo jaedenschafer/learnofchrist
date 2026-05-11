@@ -16,6 +16,12 @@ export const PSALMS_38: RichChapterContent = {
   chapter: 38,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 6 },
+
+  youth: {
+    intros: [
+      "A penitential psalm. David is sick from his own sin. &ldquo;Forsake me not, O Lord: O my God, be not far from me.&rdquo; Pray this when you&apos;ve made yourself sick by something you did.",
+    ],
+  },
   opener: {
     matchTitle: /Tickhill Psalter Psalm/i,
     caption: 'Psalms 38',

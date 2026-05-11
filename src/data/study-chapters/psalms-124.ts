@@ -17,6 +17,12 @@ export const PSALMS_124: RichChapterContent = {
   chapter: 124,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 3 },
+
+  youth: {
+    intros: [
+      "&ldquo;If it had not been the Lord who was on our side… then they had swallowed us up quick.&rdquo; You are alive because God was on your side. Don&apos;t take it for granted.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

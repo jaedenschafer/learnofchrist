@@ -15,6 +15,12 @@ export const PSALMS_68: RichChapterContent = {
   chapter: 68,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 5 },
+
+  youth: {
+    intros: [
+      "A song of God leading His people from the wilderness to Zion. &ldquo;A father of the fatherless, and a judge of the widows, is God in his holy habitation.&rdquo; That&apos;s who He is.",
+    ],
+  },
   opener: {
     matchTitle: /Miriam/i,
     caption: 'Psalms 68',

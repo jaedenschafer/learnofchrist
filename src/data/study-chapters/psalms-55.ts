@@ -6,6 +6,12 @@ export const PSALMS_55: RichChapterContent = {
   chapter: 55,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 6 },
+
+  youth: {
+    intros: [
+      "David betrayed by a close friend. &ldquo;It was not an enemy that reproached me…but it was thou, a man mine equal, my guide, and mine acquaintance.&rdquo; If you&apos;ve been there, this psalm is yours.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

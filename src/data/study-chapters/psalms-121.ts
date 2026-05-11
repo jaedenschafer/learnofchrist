@@ -16,6 +16,12 @@ export const PSALMS_121: RichChapterContent = {
   chapter: 121,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 3 },
+
+  youth: {
+    intros: [
+      "&ldquo;I will lift up mine eyes unto the hills, from whence cometh my help. My help cometh from the Lord, which made heaven and earth.&rdquo; The traveling psalm. Pray it on long drives.",
+    ],
+  },
   opener: {
     matchTitle: /Psalter of Eleanor of/i,
     caption: 'Psalms 121',

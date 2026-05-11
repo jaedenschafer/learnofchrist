@@ -15,6 +15,12 @@ export const PSALMS_97: RichChapterContent = {
   chapter: 97,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 3 },
+
+  youth: {
+    intros: [
+      "&ldquo;The Lord reigneth; let the earth rejoice.&rdquo; Whatever the news cycle is, the throne hasn&apos;t shifted. Rejoice.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

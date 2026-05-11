@@ -17,6 +17,12 @@ export const PSALMS_93: RichChapterContent = {
   chapter: 93,
 
   estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
+
+  youth: {
+    intros: [
+      "&ldquo;The Lord reigneth, he is clothed with majesty.&rdquo; He always has. He always will. The waves crash. The throne doesn&apos;t move.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

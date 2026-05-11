@@ -15,6 +15,12 @@ export const PSALMS_112: RichChapterContent = {
   chapter: 112,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "Sister psalm to 111, also acrostic. The blessed person delights in God&apos;s commandments. &ldquo;He shall not be afraid of evil tidings: his heart is fixed, trusting in the Lord.&rdquo;",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

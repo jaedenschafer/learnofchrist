@@ -15,6 +15,12 @@ export const PSALMS_18: RichChapterContent = {
   chapter: 18,
 
   estimatedMinutes: { beginner: 1, intermediate: 6, deep: 6 },
+
+  youth: {
+    intros: [
+      "David&apos;s great song after God delivered him. &ldquo;The Lord is my rock, and my fortress, and my deliverer; my God, my strength, in whom I will trust.&rdquo; Stack up His names. Keep adding them.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

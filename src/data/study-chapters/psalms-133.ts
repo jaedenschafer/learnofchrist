@@ -16,6 +16,12 @@ export const PSALMS_133: RichChapterContent = {
   chapter: 133,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "&ldquo;Behold, how good and how pleasant it is for brethren to dwell together in unity!&rdquo; Christian unity is precious to God. Don&apos;t be the source of division in your church.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

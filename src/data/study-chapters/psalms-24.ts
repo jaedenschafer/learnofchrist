@@ -17,6 +17,12 @@ export const PSALMS_24: RichChapterContent = {
   chapter: 24,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "&ldquo;The earth is the Lord&apos;s, and the fulness thereof.&rdquo; Then a question: who shall ascend the hill of the Lord? Clean hands and a pure heart. Then: lift up your heads, O ye gates! The King of glory is coming in.",
+    ],
+  },
   opener: {
     matchTitle: /The Ascension/i,
     caption: 'Psalms 24',

@@ -6,6 +6,12 @@ export const PSALMS_53: RichChapterContent = {
   chapter: 53,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 5 },
+
+  youth: {
+    intros: [
+      "Almost identical to Psalm 14. &ldquo;The fool hath said in his heart, There is no God.&rdquo; The repetition is intentional. Some truths need saying twice.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

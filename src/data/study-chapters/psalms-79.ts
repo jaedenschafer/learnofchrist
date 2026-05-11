@@ -15,6 +15,12 @@ export const PSALMS_79: RichChapterContent = {
   chapter: 79,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "A lament after Jerusalem was destroyed. &ldquo;Help us, O God of our salvation, for the glory of thy name; and deliver us, and purge away our sins, for thy name&apos;s sake.&rdquo;",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

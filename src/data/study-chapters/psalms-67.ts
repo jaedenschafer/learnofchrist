@@ -18,6 +18,12 @@ export const PSALMS_67: RichChapterContent = {
   chapter: 67,
 
   estimatedMinutes: { beginner: 3, intermediate: 6, deep: 8 },
+
+  youth: {
+    intros: [
+      "A short psalm asking God to bless His people so that the nations might know Him. &ldquo;That thy way may be known upon earth, thy saving health among all nations.&rdquo;",
+    ],
+  },
   opener: {
     matchTitle: /Utrecht Psalter Psalm/i,
     caption: 'Psalms 67',

@@ -17,6 +17,12 @@ export const PSALMS_100: RichChapterContent = {
   chapter: 100,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "&ldquo;Make a joyful noise unto the Lord, all ye lands. Serve the Lord with gladness: come before his presence with singing.&rdquo; The most exuberant short psalm in the Psalter. Memorize it.",
+    ],
+  },
   opener: {
     matchTitle: /Harley Psalter fol r/i,
     caption: 'Psalms 100',

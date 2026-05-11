@@ -16,6 +16,12 @@ export const PSALMS_107: RichChapterContent = {
   chapter: 107,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "Four groups testify to God&apos;s rescue: wanderers, prisoners, the sick, and sailors in storms. &ldquo;Then they cried unto the Lord in their trouble, and he delivered them out of their distresses.&rdquo; Recognize your story?",
+    ],
+  },
   opener: {
     matchTitle: /Utrecht Psalter Psalm/i,
     caption: 'Psalms 107',

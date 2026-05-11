@@ -17,6 +17,12 @@ export const PSALMS_146: RichChapterContent = {
   chapter: 146,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 4 },
+
+  youth: {
+    intros: [
+      "&ldquo;Put not your trust in princes.&rdquo; Politicians die. Their plans die with them. Trust the Lord, &ldquo;which executeth judgment for the oppressed.&rdquo;",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

@@ -17,6 +17,12 @@ export const PSALMS_147: RichChapterContent = {
   chapter: 147,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 4 },
+
+  youth: {
+    intros: [
+      "&ldquo;He healeth the broken in heart, and bindeth up their wounds. He telleth the number of the stars; he calleth them all by their names.&rdquo; The God who counts stars also tends your wounds.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

@@ -6,6 +6,12 @@ export const PSALMS_51: RichChapterContent = {
   chapter: 51,
 
   estimatedMinutes: { beginner: 1, intermediate: 5, deep: 6 },
+
+  youth: {
+    intros: [
+      "David&apos;s prayer after Nathan exposed his sin with Bathsheba. &ldquo;Have mercy upon me, O God…create in me a clean heart, O God; and renew a right spirit within me.&rdquo; The model prayer of repentance for whatever you&apos;ve done.",
+    ],
+  },
   opener: {
     matchTitle: /David the Psalmist Repentance/i,
     caption: 'Psalms 51',

@@ -17,6 +17,12 @@ export const PSALMS_148: RichChapterContent = {
   chapter: 148,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 4 },
+
+  youth: {
+    intros: [
+      "A call for ALL of creation to praise God — sun, moon, stars, fire, hail, snow, mountains, animals, kings, young men, maidens, old, children. Everyone. Everything. Praise.",
+    ],
+  },
   opener: {
     matchTitle: /Praise the Lord/i,
     caption: 'Psalms 148',

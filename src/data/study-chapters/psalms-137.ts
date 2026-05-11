@@ -17,6 +17,12 @@ export const PSALMS_137: RichChapterContent = {
   chapter: 137,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 4 },
+
+  youth: {
+    intros: [
+      "The Babylonian exile lament. &ldquo;By the rivers of Babylon, there we sat down, yea, we wept, when we remembered Zion.&rdquo; The psalm ends with shocking imprecation against Babylon. Honest grief AND honest rage are allowed in worship.",
+    ],
+  },
   opener: {
     matchTitle: /Jews in Captivity/i,
     caption: 'Psalms 137',

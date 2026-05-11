@@ -14,6 +14,12 @@ export const PSALMS_43: RichChapterContent = {
   chapter: 43,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "A continuation of Psalm 42. &ldquo;Send out thy light and thy truth: let them lead me.&rdquo; Pray for both — light to see clearly, truth to walk straight.",
+    ],
+  },
   opener: {
     matchTitle: /Harley Psalter fol v/i,
     caption: 'Psalms 43',

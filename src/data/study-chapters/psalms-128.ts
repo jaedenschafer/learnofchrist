@@ -16,6 +16,12 @@ export const PSALMS_128: RichChapterContent = {
   chapter: 128,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "A psalm about household blessing. The God who blesses your work also blesses your home life. Both belong to Him.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

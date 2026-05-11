@@ -17,6 +17,12 @@ export const PSALMS_140: RichChapterContent = {
   chapter: 140,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 4 },
+
+  youth: {
+    intros: [
+      "David asks God to keep him from violent men. &ldquo;The righteous shall give thanks unto thy name.&rdquo; God hears the prayer of the slandered.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

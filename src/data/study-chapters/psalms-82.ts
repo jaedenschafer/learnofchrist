@@ -15,6 +15,12 @@ export const PSALMS_82: RichChapterContent = {
   chapter: 82,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "God judges the gods (the corrupt human rulers). &ldquo;Defend the poor and fatherless: do justice to the afflicted and needy.&rdquo; Justice for the vulnerable is not optional.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

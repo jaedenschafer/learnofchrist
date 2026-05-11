@@ -15,6 +15,12 @@ export const PSALMS_9: RichChapterContent = {
   chapter: 9,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "A song of thanksgiving. &ldquo;The Lord also will be a refuge for the oppressed, a refuge in times of trouble.&rdquo; Whatever oppresses you, He&apos;s your refuge.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

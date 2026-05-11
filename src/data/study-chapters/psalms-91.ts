@@ -18,6 +18,12 @@ export const PSALMS_91: RichChapterContent = {
   chapter: 91,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "&ldquo;He that dwelleth in the secret place of the most High shall abide under the shadow of the Almighty.&rdquo; The most quoted protection psalm in Scripture. Memorize it. Pray it.",
+    ],
+  },
   opener: {
     matchTitle: /Guardian Angel/i,
     caption: 'Psalms 91',

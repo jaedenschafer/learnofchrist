@@ -18,6 +18,12 @@ export const PSALMS_90: RichChapterContent = {
   chapter: 90,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "Moses&apos; prayer. &ldquo;Lord, thou hast been our dwelling place in all generations.&rdquo; And: &ldquo;So teach us to number our days, that we may apply our hearts unto wisdom.&rdquo; Count the days you have.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

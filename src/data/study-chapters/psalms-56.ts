@@ -6,6 +6,12 @@ export const PSALMS_56: RichChapterContent = {
   chapter: 56,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "David captured by the Philistines in Gath. &ldquo;What time I am afraid, I will trust in thee.&rdquo; Fear and faith aren&apos;t opposites. You can be afraid AND trust at the same time.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

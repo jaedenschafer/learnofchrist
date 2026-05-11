@@ -18,6 +18,12 @@ export const PSALMS_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 2, intermediate: 8, deep: 10 },
+
+  youth: {
+    intros: [
+      "The nations rage against God and His anointed. God laughs from heaven. He&apos;s installed His King on Zion. &ldquo;Kiss the Son, lest he be angry.&rdquo; The whole psalm is about Christ. Stop fighting Him. Take refuge in Him.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

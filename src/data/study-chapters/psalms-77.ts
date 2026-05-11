@@ -16,6 +16,12 @@ export const PSALMS_77: RichChapterContent = {
   chapter: 77,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 6 },
+
+  youth: {
+    intros: [
+      "Asaph in the night unable to be comforted. He starts in despair, then changes direction: &ldquo;I will remember the works of the Lord.&rdquo; Memory is a discipline that fights despair.",
+    ],
+  },
   opener: {
     matchTitle: /The Baptism of Christ/i,
     caption: 'Psalms 77',

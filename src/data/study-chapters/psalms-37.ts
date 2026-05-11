@@ -16,6 +16,12 @@ export const PSALMS_37: RichChapterContent = {
   chapter: 37,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+
+  youth: {
+    intros: [
+      "&ldquo;Fret not thyself because of evildoers.&rdquo; They look like they&apos;re winning. They&apos;re not. &ldquo;The meek shall inherit the earth.&rdquo; Jesus quoted this in the Beatitudes.",
+    ],
+  },
   opener: {
     matchTitle: /Stuttgart Psalter folio v/i,
     caption: 'Psalms 37',

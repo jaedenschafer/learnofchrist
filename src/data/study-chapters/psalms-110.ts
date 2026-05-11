@@ -16,6 +16,12 @@ export const PSALMS_110: RichChapterContent = {
   chapter: 110,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "The most quoted psalm in the New Testament. &ldquo;The Lord said unto my Lord, Sit thou at my right hand.&rdquo; Jesus quotes it of Himself. The Messiah is David&apos;s Son AND David&apos;s Lord.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

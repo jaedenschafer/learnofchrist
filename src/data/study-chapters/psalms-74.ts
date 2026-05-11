@@ -15,6 +15,12 @@ export const PSALMS_74: RichChapterContent = {
   chapter: 74,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "A lament after the temple was destroyed. &ldquo;O God, why hast thou cast us off for ever?&rdquo; God doesn&apos;t shame you for asking that question. He is the answer.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

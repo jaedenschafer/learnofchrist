@@ -16,6 +16,12 @@ export const PSALMS_85: RichChapterContent = {
   chapter: 85,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "A prayer for revival. &ldquo;Wilt thou not revive us again: that thy people may rejoice in thee?&rdquo; That&apos;s a good prayer for our generation. Pray it.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

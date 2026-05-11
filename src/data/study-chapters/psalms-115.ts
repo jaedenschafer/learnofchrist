@@ -15,6 +15,12 @@ export const PSALMS_115: RichChapterContent = {
   chapter: 115,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 4 },
+
+  youth: {
+    intros: [
+      "&ldquo;Not unto us, O Lord, not unto us, but unto thy name give glory.&rdquo; Then a sharp critique of idols: they have mouths but speak not. Whatever you trust will eventually shape you. Trust the One who actually speaks.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,

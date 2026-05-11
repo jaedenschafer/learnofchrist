@@ -16,6 +16,12 @@ export const PSALMS_10: RichChapterContent = {
   chapter: 10,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "David asks the question every honest believer asks: &ldquo;Why standest thou afar off, O Lord? why hidest thou thyself in times of trouble?&rdquo; The psalm doesn&apos;t answer with explanation — it answers with worship. The Lord is King forever.",
+    ],
+  },
   topicTags: ['praise', 'lament', 'hope', 'protection'],
   opener: {
     topical: true,
