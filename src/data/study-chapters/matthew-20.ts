@@ -16,6 +16,13 @@ export const MATTHEW_20: RichChapterContent = {
   chapter: 20,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "A landowner hires workers throughout the day and pays everyone the same wage at the end. The early-shift workers complain. The landowner answers: &ldquo;Is it not lawful for me to do what I will with mine own?&rdquo; God&apos;s grace is not fair by your math. The thief on the cross gets the same paradise as Paul. Get used to it.",
+      "Then James and John&apos;s mother asks for the best seats in the kingdom for her sons. The other disciples are mad. Jesus rewires greatness AGAIN: &ldquo;whosoever will be great among you, let him be your minister.&rdquo; Then He heals two blind men outside Jericho. Greatness is still walking around like that today — just usually with no microphone.",
+    ],
+  },
   topicTags: ['kingship', 'incarnation', 'witness', 'wisdom'],
   opener: {
     topical: true,

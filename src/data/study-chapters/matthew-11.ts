@@ -20,6 +20,13 @@ export const MATTHEW_11: RichChapterContent = {
   chapter: 11,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+
+  youth: {
+    intros: [
+      "John the Baptist is in prison, doubting. He sends to Jesus: &ldquo;Art thou he that should come, or do we look for another?&rdquo; Even prophets get dark nights. Jesus answers gently with the works that prove who He is. Then defends John&apos;s reputation to the crowd.",
+      "Then one of the most beautiful invitations in Scripture: &ldquo;Come unto me, all ye that labour and are heavy laden, and I will give you rest…my yoke is easy, and my burden is light.&rdquo; Whatever&apos;s loading you down, He&apos;s offering to share the weight.",
+    ],
+  },
   opener: {
     matchTitle: /Christ the Consolator/i,
     caption: 'Matthew 11',

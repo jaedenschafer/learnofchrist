@@ -19,6 +19,13 @@ export const LUKE_8: RichChapterContent = {
   chapter: 8,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "Jesus tells the parable of the sower — same seed, four soils, four results. Same gospel, four hearts, four trajectories. Which soil are you right now?",
+      "Then a storm on the sea (He stops it with a word), a demon-possessed man (restored to his right mind), a bleeding woman who touches His coat in the crowd (healed instantly), and a twelve-year-old girl (raised from the dead). Four impossible cases in one chapter. Mark would have called it Tuesday.",
+    ],
+  },
   opener: {
     matchTitle: /The Daughter of Jairus/i,
     caption: 'Luke 8',

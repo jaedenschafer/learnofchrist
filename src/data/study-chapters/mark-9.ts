@@ -20,6 +20,13 @@ export const MARK_9: RichChapterContent = {
   chapter: 9,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+
+  youth: {
+    intros: [
+      "Jesus takes Peter, James, and John up a mountain and lights up like the sun. Moses and Elijah show up to talk with Him. A voice from heaven says &ldquo;This is my beloved Son: hear him.&rdquo; Then they walk back down into a chaotic scene where the other disciples couldn&apos;t cast out a demon. The mountain doesn&apos;t exempt anyone from the valley.",
+      "Twice in one chapter Jesus tells His disciples He&apos;s going to be killed and rise again. They don&apos;t get it. Then He grabs a kid from the crowd and says: this is what the kingdom looks like. Whoever wants to be first has to be last. Whoever wants greatness has to serve. Welcome to upside-down.",
+    ],
+  },
   topicTags: ['ministry', 'witness', 'suffering', 'compassion'],
   opener: {
     topical: true,

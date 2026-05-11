@@ -21,6 +21,13 @@ export const LUKE_23: RichChapterContent = {
   chapter: 23,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "Jesus is dragged to Pilate, then to Herod, back to Pilate. Three different rulers, none of them able to find a crime. Pilate caves to the crowd anyway. Jesus carries His cross. Simon of Cyrene — a random guy from the crowd — gets pulled into helping Him. Sometimes the assignment is to carry someone else&apos;s cross for the last few steps.",
+      "On the cross between two thieves, one mocks Him and one believes. The believing thief gets the most stunning promise in the Gospels: &ldquo;To day shalt thou be with me in paradise.&rdquo; You&apos;re never too late, never too lost, never too broken to ask. The thief had nothing to offer except his ask. It was enough.",
+    ],
+  },
   opener: {
     matchTitle: /What Our Saviour Saw/i,
     caption: 'Luke 23',

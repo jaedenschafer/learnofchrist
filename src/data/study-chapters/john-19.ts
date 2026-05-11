@@ -17,6 +17,13 @@ export const JOHN_19: RichChapterContent = {
   chapter: 19,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 6 },
+
+  youth: {
+    intros: [
+      "Pilate parades Jesus out, beaten and bleeding, wearing a crown of thorns: &ldquo;Behold the man.&rdquo; The crowd screams crucify Him. Even from the cross, Jesus is making sure His mother is taken care of: &ldquo;Behold thy son&rdquo; (to John). Even dying, He&apos;s loving the people in front of Him.",
+      "His last words are three: &ldquo;It is finished.&rdquo; Not &ldquo;I am finished.&rdquo; The work is done. Every debt you couldn&apos;t pay, every sin you couldn&apos;t fix, every gap between you and God — all of it, in three words. Done.",
+    ],
+  },
   opener: {
     matchTitle: /It Is Finished/i,
     caption: 'John 19',

@@ -18,6 +18,13 @@ export const LUKE_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+
+  youth: {
+    intros: [
+      "The Roman emperor calls a census. A teenage girl and her fianc&eacute; have to walk to a town that&apos;s not theirs. The inn is full. The Son of God is born in a feeding trough. Notice where God shows up — never the place anyone would have planned for Him.",
+      "The first announcement of the Messiah&apos;s birth doesn&apos;t go to kings. It goes to shepherds working the night shift. Then thirty-three years of mostly silence. Luke skips ahead to twelve-year-old Jesus in the temple already astounding the rabbis. The kid grew up. So will you. The question is what you grow into.",
+    ],
+  },
   opener: {
     matchTitle: /The Birth of Our/i,
     caption: 'Luke 2',

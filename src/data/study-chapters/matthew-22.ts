@@ -17,6 +17,13 @@ export const MATTHEW_22: RichChapterContent = {
   chapter: 22,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "The kingdom is like a king throwing a wedding feast — and the invited guests don&apos;t come. So the king sends servants to invite anyone they find on the streets. The hall fills. The gospel is the same. The first invitations get refused. The second wave of invitations gets the room full. You may be the second wave.",
+      "Religious leaders fire trick questions at Jesus all day. Taxes? Resurrection? Greatest commandment? Jesus answers each one and silences them. The greatest commandment is two commandments: love God with everything, and love your neighbor as yourself. Everything else hangs on those.",
+    ],
+  },
   opener: {
     matchTitle: /The Tribute Money/i,
     caption: 'Matthew 22',

@@ -21,6 +21,13 @@ export const MARK_11: RichChapterContent = {
   chapter: 11,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 6 },
+
+  youth: {
+    intros: [
+      "Jesus rides into Jerusalem on a borrowed donkey. The crowd goes wild — palm branches, Hosannas, expecting a king who&apos;ll throw out the Romans. They&apos;re going to be deeply confused by what He does next. Tomorrow He overturns tables in the temple and quotes Jeremiah at the religious establishment that runs it.",
+      "Between the donkey ride and the table-flipping, Jesus curses a fig tree that has leaves but no fruit. The tree dies overnight. The whole chapter is one extended question to anyone playing church: are you producing actual fruit, or just leaves that look impressive from the road?",
+    ],
+  },
   topicTags: ['ministry', 'witness', 'suffering', 'compassion'],
   opener: {
     topical: true,

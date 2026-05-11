@@ -16,6 +16,13 @@ export const MATTHEW_19: RichChapterContent = {
   chapter: 19,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 5 },
+
+  youth: {
+    intros: [
+      "Jesus teaches on marriage and divorce — God joined them, no one is supposed to take it apart. The disciples react: maybe it&apos;s better not to marry. Jesus answers: not everyone is called to that.",
+      "Then a rich young man asks how to get eternal life. Jesus tells him to sell everything and follow. He walks away sad. Then Jesus tells the disciples: it&apos;s easier for a camel to go through the eye of a needle than for a rich man to enter the kingdom of God. With God all things are possible — including the impossible loosening of a grip you&apos;ve had since fourth grade.",
+    ],
+  },
   opener: {
     matchTitle: /The Pharisees Question Jesus/i,
     caption: 'Matthew 19',

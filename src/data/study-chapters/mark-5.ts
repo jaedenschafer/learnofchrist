@@ -20,6 +20,13 @@ export const MARK_5: RichChapterContent = {
   chapter: 5,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+
+  youth: {
+    intros: [
+      "Three impossible cases in one chapter. A man so far gone the village couldn&apos;t chain him is restored to his right mind. A woman who&apos;d been bleeding twelve years touches Jesus&apos; coat in the crowd and is healed instantly. A twelve-year-old girl, dead, hears two Aramaic words from Jesus and gets up.",
+      "Mark is making a point: there is no situation Jesus can&apos;t reach. Not the most demonized person in your school. Not the chronic illness in your family. Not the friend you watched die inside before they ever stopped breathing. He gets to all three before sundown.",
+    ],
+  },
   opener: {
     matchTitle: /My Name is Legion/i,
     caption: 'Mark 5',

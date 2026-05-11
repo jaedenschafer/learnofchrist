@@ -19,6 +19,13 @@ export const LUKE_9: RichChapterContent = {
   chapter: 9,
 
   estimatedMinutes: { beginner: 1, intermediate: 5, deep: 6 },
+
+  youth: {
+    intros: [
+      "Jesus sends the Twelve out with no money, no extra clothes, nothing. Then He feeds five thousand people with one boy&apos;s lunch. Then He takes Peter, James, and John up a mountain and lights up like the sun. The Father&apos;s voice rolls out of a cloud: &ldquo;This is my beloved Son: hear him.&rdquo;",
+      "Right after the mountain, three would-be followers come to Jesus with conditions: &ldquo;but first let me…&rdquo; Jesus answers each one bluntly. Following Him isn&apos;t something you slot in around your existing plan. The kingdom doesn&apos;t take leftover yes&apos;s.",
+    ],
+  },
   opener: {
     matchTitle: /Jesus Traveling/i,
     caption: 'Luke 9',

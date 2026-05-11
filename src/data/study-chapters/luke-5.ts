@@ -19,6 +19,13 @@ export const LUKE_5: RichChapterContent = {
   chapter: 5,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "Peter has fished all night and caught nothing. Jesus tells him to throw the nets back out. Peter is exhausted, embarrassed, ready to be done. He obeys anyway. The catch nearly sinks two boats. Sometimes the most life-altering miracle of your life is on the other side of obedience you don&apos;t feel like doing.",
+      "Peter falls down: &ldquo;Depart from me; for I am a sinful man, O Lord.&rdquo; Jesus answers: &ldquo;Fear not; from henceforth thou shalt catch men.&rdquo; Real encounters with Jesus produce two reactions in the same minute — awareness of how unworthy you are, and a calling that has nothing to do with your worthiness.",
+    ],
+  },
   opener: {
     matchTitle: /Healing of the Lepers/i,
     caption: 'Luke 5',

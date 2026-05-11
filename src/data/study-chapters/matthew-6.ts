@@ -20,6 +20,13 @@ export const MATTHEW_6: RichChapterContent = {
   chapter: 6,
 
   estimatedMinutes: { beginner: 2, intermediate: 6, deep: 8 },
+
+  youth: {
+    intros: [
+      "Jesus warns about doing your &ldquo;goodness&rdquo; in front of an audience — giving, praying, fasting all to be seen. The reward you want is the reward you get. If you do it for the Instagram story, the likes are your whole prize. If you do it secretly for God, the secret-watching God is your reward.",
+      "Then He gives the Lord&apos;s Prayer. Then He warns about money, and worry. &ldquo;Seek ye first the kingdom of God, and his righteousness; and all these things shall be added unto you.&rdquo; Whatever you&apos;ve been chasing, put the kingdom first. The other stuff doesn&apos;t fall apart when you do.",
+    ],
+  },
   opener: {
     matchTitle: /The Lord/i,
     caption: 'Matthew 6',

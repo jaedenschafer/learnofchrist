@@ -17,6 +17,13 @@ export const JOHN_5: RichChapterContent = {
   chapter: 5,
 
   estimatedMinutes: { beginner: 2, intermediate: 6, deep: 8 },
+
+  youth: {
+    intros: [
+      "Thirty-eight years. That&apos;s how long the man at the pool of Bethesda has been sick. Jesus walks up and asks the strangest question in the chapter: &ldquo;Wilt thou be made whole?&rdquo; The man&apos;s answer isn&apos;t yes. It&apos;s an excuse — nobody helps me get into the water in time. He&apos;d settled into being broken. Some of us have, too.",
+      "Jesus heals him anyway. On the Sabbath. The religious leaders are furious — not because someone got healed, but because of the day. Jesus uses the moment to make His most direct claim yet about who He is: He and the Father are doing the same work.",
+    ],
+  },
   topicTags: ['incarnation', 'love', 'glory', 'witness'],
   opener: {
     topical: true,

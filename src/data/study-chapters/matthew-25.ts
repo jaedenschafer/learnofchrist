@@ -17,6 +17,13 @@ export const MATTHEW_25: RichChapterContent = {
   chapter: 25,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+
+  youth: {
+    intros: [
+      "Three parables about being ready. Ten bridesmaids — five had oil, five didn&apos;t. The door shut on the unprepared. Three servants entrusted with talents — two invested and multiplied, one buried his and got fired. You were given gifts to use, not to bury for safekeeping.",
+      "Then the sheep and the goats. The judgment comes down to: did you feed the hungry, clothe the naked, visit the sick, take in the stranger? &ldquo;Inasmuch as ye have done it unto one of the least of these my brethren, ye have done it unto me.&rdquo; Jesus is wearing the face of the people you walk past.",
+    ],
+  },
   opener: {
     matchTitle: /The Foolish Virgins/i,
     caption: 'Matthew 25',

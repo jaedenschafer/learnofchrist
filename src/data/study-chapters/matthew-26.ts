@@ -16,6 +16,13 @@ export const MATTHEW_26: RichChapterContent = {
   chapter: 26,
 
   estimatedMinutes: { beginner: 2, intermediate: 6, deep: 7 },
+
+  youth: {
+    intros: [
+      "A woman pours expensive perfume on Jesus. The disciples say it&apos;s wasteful. He says she&apos;s preparing Him for burial. She gets it. They don&apos;t. Judas walks out and sells Jesus for thirty pieces of silver.",
+      "Last Supper. Jesus reframes the Passover meal around Himself: this is my body, this is my blood. Gethsemane: He sweats blood asking the Father to spare Him, ends with &ldquo;not as I will, but as thou wilt.&rdquo; Arrest. Trial. Peter denies Him three times around a fire and weeps. The longest night in human history. Jesus walks every minute of it for you.",
+    ],
+  },
   opener: {
     matchTitle: /Meal of Our Lord/i,
     caption: 'Matthew 26',

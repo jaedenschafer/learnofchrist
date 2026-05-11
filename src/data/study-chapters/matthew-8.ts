@@ -18,6 +18,13 @@ export const MATTHEW_8: RichChapterContent = {
   chapter: 8,
 
   estimatedMinutes: { beginner: 2, intermediate: 6, deep: 7 },
+
+  youth: {
+    intros: [
+      "Jesus comes down from the mountain and starts touching people. A leper — the kind of person nobody had touched in years — gets touched and healed. A Roman centurion&apos;s servant gets healed from a distance because the centurion just trusts the word. Peter&apos;s mother-in-law gets up off her sickbed and starts serving dinner.",
+      "Then a storm on the sea. The disciples panic. Jesus is asleep. &ldquo;What manner of man is this, that even the winds and the sea obey him?&rdquo; In the next scene, demons obey Him too. Disease, weather, evil spirits — none of it has standing in a room with Jesus.",
+    ],
+  },
   opener: {
     matchTitle: /The Healing of Peter/i,
     caption: 'Matthew 8',

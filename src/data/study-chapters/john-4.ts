@@ -17,6 +17,13 @@ export const JOHN_4: RichChapterContent = {
   chapter: 4,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+
+  youth: {
+    intros: [
+      "Jesus is tired. He sits down at a well in Samaria — a region every &ldquo;respectable&rdquo; Jew avoided — and starts a conversation with a woman who has been married five times and is currently with someone she isn&apos;t married to. Every social rule in His world says don&apos;t. He does anyway.",
+      "He offers her &ldquo;living water&rdquo; — something that ends thirst forever. By the end of the chapter, she runs back to her town and the people who used to talk about her are listening to her preach. Jesus didn&apos;t need her to clean herself up first. He met her where she was, and she became His evangelist.",
+    ],
+  },
   opener: {
     matchTitle: /The Healing of the/i,
     caption: 'John 4',

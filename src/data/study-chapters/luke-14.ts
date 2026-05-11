@@ -21,6 +21,13 @@ export const LUKE_14: RichChapterContent = {
   chapter: 14,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 6 },
+
+  youth: {
+    intros: [
+      "Jesus eats at a Pharisee&apos;s house. He notices everyone scrambling for the best seats and tells them to take the lowest. Whoever exalts himself will be humbled; whoever humbles himself will be exalted. Translation for school: stop trying to seat yourself at the cool kids&apos; table. The kingdom seats you somewhere better.",
+      "Then He gets serious about the cost of following Him. &ldquo;Whosoever doth not bear his cross, and come after me, cannot be my disciple.&rdquo; Jesus doesn&apos;t want fans. He wants disciples. Count the cost first. Then come anyway.",
+    ],
+  },
   topicTags: ['compassion', 'mission', 'witness', 'humility'],
   opener: {
     topical: true,

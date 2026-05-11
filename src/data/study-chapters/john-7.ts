@@ -16,6 +16,13 @@ export const JOHN_7: RichChapterContent = {
   chapter: 7,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+
+  youth: {
+    intros: [
+      "It&apos;s the Feast of Tabernacles in Jerusalem. The crowds are split — is Jesus a prophet, the Christ, or a deceiver? His own brothers don&apos;t believe Him. He shows up to the festival anyway and starts teaching. &ldquo;Never man spake like this man,&rdquo; the temple guards report when they fail to arrest Him.",
+      "On the last and greatest day of the feast, Jesus stands up and shouts: &ldquo;If any man thirst, let him come unto me, and drink.&rdquo; That offer is still open. Whoever you are, whatever you&apos;ve been chasing, the one who said it is still standing.",
+    ],
+  },
   opener: {
     matchTitle: /But No Man Laid/i,
     caption: 'John 7',

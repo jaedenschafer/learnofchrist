@@ -19,6 +19,13 @@ export const LUKE_4: RichChapterContent = {
   chapter: 4,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+
+  youth: {
+    intros: [
+      "The Spirit drives Jesus into the wilderness for forty days. The devil shows up with three temptations — bread, power, and proof. Jesus answers each one with Scripture. Notice the pattern: He didn&apos;t argue, He didn&apos;t debate, He QUOTED. Memorize the Word. You&apos;ll need it on your worst day.",
+      "Then Jesus comes home to Nazareth and reads Isaiah out loud in the synagogue: &ldquo;The Spirit of the Lord is upon me…to preach the gospel to the poor.&rdquo; Then He sits down and says: &ldquo;This day is this scripture fulfilled in your ears.&rdquo; The home crowd that watched Him grow up tries to throw Him off a cliff for it. Familiarity with Jesus and faith in Jesus aren&apos;t the same thing.",
+    ],
+  },
   opener: {
     matchTitle: /All the City Was/i,
     caption: 'Luke 4',

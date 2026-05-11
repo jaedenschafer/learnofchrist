@@ -20,6 +20,13 @@ export const MATTHEW_9: RichChapterContent = {
   chapter: 9,
 
   estimatedMinutes: { beginner: 2, intermediate: 6, deep: 7 },
+
+  youth: {
+    intros: [
+      "Friends drop a paralyzed man through the roof in front of Jesus. Jesus forgives his sins, then heals him as proof He has the authority to forgive. Then He calls Matthew — the tax collector writing this gospel — out of the booth and goes to dinner with sinners.",
+      "A bleeding woman touches the edge of His robe in faith and is healed. A dead twelve-year-old is raised. Two blind men get their sight. A demon-possessed man is freed. The chapter ends with Jesus moved with compassion for the crowds &ldquo;because they fainted, and were scattered abroad, as sheep having no shepherd.&rdquo; His heart aches for the people you walk past.",
+    ],
+  },
   opener: {
     matchTitle: /The Blind of Capernaum/i,
     caption: 'Matthew 9',

@@ -17,6 +17,13 @@ export const JOHN_14: RichChapterContent = {
   chapter: 14,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 6 },
+
+  youth: {
+    intros: [
+      "Jesus&apos; closest friends are about to fall apart. He&apos;s leaving them. He starts the chapter with: &ldquo;Let not your heart be troubled.&rdquo; Then the line that has held millions of grieving people: &ldquo;In my Father&apos;s house are many mansions… I go to prepare a place for you.&rdquo; You have a room reserved.",
+      "Thomas asks where He&apos;s going. Jesus answers with one of His most famous &ldquo;I am&rdquo; statements: &ldquo;I am the way, the truth, and the life: no man cometh unto the Father, but by me.&rdquo; Then He promises the Holy Spirit — the Comforter who will be with you forever. You&apos;re not alone in any hard hour.",
+    ],
+  },
   opener: {
     matchTitle: /Jesus Discourses with His/i,
     caption: 'John 14',

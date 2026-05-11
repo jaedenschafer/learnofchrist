@@ -21,6 +21,13 @@ export const LUKE_16: RichChapterContent = {
   chapter: 16,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 6 },
+
+  youth: {
+    intros: [
+      "A shady manager about to be fired starts cutting deals to make friends for the future. Jesus uses him as an unlikely teacher: be at least as shrewd with eternal things as crooked people are with money. What you do with your money preaches more about your faith than what you say in church.",
+      "Then the rich man and Lazarus. The rich man dies and ends up in torment; the beggar at his gate is comforted in Abraham&apos;s bosom. The chasm is fixed. The chapter is one long warning: don&apos;t spend your one life entertained by your own comfort while a Lazarus is dying at the gate.",
+    ],
+  },
   opener: {
     matchTitle: /The Poor Lazarus at/i,
     caption: 'Luke 16',

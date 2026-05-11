@@ -20,6 +20,13 @@ export const LUKE_12: RichChapterContent = {
   chapter: 12,
 
   estimatedMinutes: { beginner: 1, intermediate: 5, deep: 7 },
+
+  youth: {
+    intros: [
+      "&ldquo;Beware ye of the leaven of the Pharisees, which is hypocrisy.&rdquo; Hidden things will be made known. The version of you online and the version of you in your room are eventually going to be the same version. Better to make them the same now.",
+      "A man asks Jesus to settle an inheritance dispute. Jesus refuses and tells the parable of the rich fool — the guy whose barns are full and whose soul is required of him that night. Then: &ldquo;Take no thought for your life…seek ye the kingdom of God; and all these things shall be added unto you.&rdquo; The God who feeds the ravens isn&apos;t going to forget about you.",
+    ],
+  },
   topicTags: ['compassion', 'mission', 'witness', 'humility'],
   opener: {
     topical: true,

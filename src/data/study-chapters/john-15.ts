@@ -16,6 +16,13 @@ export const JOHN_15: RichChapterContent = {
   chapter: 15,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 6 },
+
+  youth: {
+    intros: [
+      "Jesus says He&apos;s the vine, you&apos;re the branches. The point isn&apos;t effort; the point is staying connected. &ldquo;Without me ye can do nothing.&rdquo; You can perform Christianity for years without abiding for a day. The chapter is asking which one you&apos;re doing.",
+      "Then He calls you a friend, not a servant. Friends know what the master is doing. He picked you. He commands love. And He warns: the world that hated Me will hate you too — don&apos;t be surprised when faith costs you something.",
+    ],
+  },
   topicTags: ['incarnation', 'love', 'glory', 'witness'],
   opener: {
     topical: true,

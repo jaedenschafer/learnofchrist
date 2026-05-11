@@ -20,6 +20,13 @@ export const MARK_8: RichChapterContent = {
   chapter: 8,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+
+  youth: {
+    intros: [
+      "Jesus feeds four thousand people. Asks the Pharisees what kind of sign would actually convince them — and the answer is that nothing would. Then He turns to the disciples on the road to Caesarea Philippi and asks the most important question in the New Testament: &ldquo;Whom say ye that I am?&rdquo;",
+      "Peter gets it: &ldquo;Thou art the Christ.&rdquo; And then immediately gets it wrong when Jesus says the Messiah has to suffer and die. Then the line that should be tattooed on every Christian: &ldquo;Whosoever will come after me, let him deny himself, and take up his cross, and follow me.&rdquo; The kingdom doesn&apos;t come without a cross.",
+    ],
+  },
   topicTags: ['ministry', 'witness', 'suffering', 'compassion'],
   opener: {
     topical: true,

@@ -16,6 +16,13 @@ export const JOHN_18: RichChapterContent = {
   chapter: 18,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+
+  youth: {
+    intros: [
+      "Judas walks into the garden with a small army. Jesus steps forward and asks &ldquo;Whom seek ye?&rdquo; They say &ldquo;Jesus of Nazareth.&rdquo; He says &ldquo;I am he&rdquo; and they all fall backwards. He could have walked away. He doesn&apos;t. He goes voluntarily.",
+      "Peter — who swore he&apos;d die for Jesus a few hours ago — denies he even knows Him three times around a fire. The rooster crows. Pilate, the Roman governor, asks the question every reader has to answer eventually: &ldquo;What is truth?&rdquo; Jesus is the answer standing right in front of him.",
+    ],
+  },
   opener: {
     matchTitle: /Jesus Before Pilate Second/i,
     caption: 'John 18',

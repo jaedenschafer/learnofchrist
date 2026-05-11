@@ -16,6 +16,13 @@ export const MATTHEW_16: RichChapterContent = {
   chapter: 16,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "At Caesarea Philippi, Jesus asks the question your whole life is the answer to: &ldquo;Whom say ye that I am?&rdquo; Peter nails it: &ldquo;Thou art the Christ, the Son of the living God.&rdquo; Jesus blesses him and says the church is going to be built on confessions like that one — and the gates of hell won&apos;t hold against it.",
+      "Then Jesus starts predicting His death. Peter, hot off his big confession, rebukes Him. Jesus calls Peter Satan and tells everyone listening: &ldquo;If any man will come after me, let him deny himself, and take up his cross, and follow me.&rdquo; The kingdom doesn&apos;t come without a cross. Yours included.",
+    ],
+  },
   topicTags: ['kingship', 'incarnation', 'witness', 'wisdom'],
   opener: {
     topical: true,

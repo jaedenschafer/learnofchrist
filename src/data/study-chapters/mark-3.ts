@@ -18,6 +18,13 @@ export const MARK_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 2, intermediate: 6, deep: 9 },
+
+  youth: {
+    intros: [
+      "Jesus heals a man&apos;s withered hand on the Sabbath, and the religious leaders walk out plotting His death — for doing GOOD on the wrong day. Notice what kind of religion is most threatened by Jesus: the kind that cares more about its rules than about people.",
+      "Jesus&apos; family shows up worried He&apos;s lost it. He&apos;s told they&apos;re outside. He says something startling: &ldquo;Whosoever shall do the will of God, the same is my brother, and my sister, and mother.&rdquo; Family in His kingdom isn&apos;t about who you were born to. It&apos;s about who you follow.",
+    ],
+  },
   topicTags: ['ministry', 'witness', 'suffering', 'compassion'],
   opener: {
     topical: true,

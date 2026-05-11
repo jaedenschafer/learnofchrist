@@ -16,6 +16,13 @@ export const JOHN_10: RichChapterContent = {
   chapter: 10,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+
+  youth: {
+    intros: [
+      "Jesus calls Himself the Good Shepherd. The shepherd knows His sheep by name. Hired hands run when the wolf shows up. The Good Shepherd lays down His life for the sheep. He says it twice in this chapter so you can&apos;t miss it: nobody takes my life from me. I lay it down on my own.",
+      "Then the most reassuring sentence anyone has ever spoken to a worried follower of Jesus: &ldquo;My sheep hear my voice, and I know them, and they follow me: And I give unto them eternal life; and they shall never perish, neither shall any man pluck them out of my hand.&rdquo; You aren&apos;t holding on to Him. He&apos;s holding on to you.",
+    ],
+  },
   opener: {
     matchTitle: /Jesus Walks in the/i,
     caption: 'John 10',

@@ -16,6 +16,13 @@ export const MATTHEW_27: RichChapterContent = {
   chapter: 27,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+
+  youth: {
+    intros: [
+      "Pilate finds no fault in Jesus but caves to the crowd. Washes his hands. The crowd takes Jesus out and crucifies Him between two thieves. Darkness covers the land for three hours. Jesus cries &ldquo;My God, my God, why hast thou forsaken me?&rdquo; and dies.",
+      "The veil in the temple — the one separating people from God&apos;s presence — rips top to bottom. The earth shakes. The Roman officer in charge of the execution looks up: &ldquo;Truly this was the Son of God.&rdquo; Joseph of Arimathea, a wealthy disciple, lays Him in his own new tomb. The story looks over.",
+    ],
+  },
   opener: {
     matchTitle: /Jesus Before Pilate First/i,
     caption: 'Matthew 27',

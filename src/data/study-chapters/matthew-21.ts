@@ -17,6 +17,13 @@ export const MATTHEW_21: RichChapterContent = {
   chapter: 21,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "Jesus rides into Jerusalem on a borrowed donkey. The crowd waves palms and shouts Hosanna. Then He walks into the temple and overturns the merchants&apos; tables: &ldquo;My house shall be called the house of prayer; but ye have made it a den of thieves.&rdquo;",
+      "Then a fig tree with leaves but no fruit gets cursed and dies. Jesus tells the chief priests two parables to their face — the two sons (one says yes and doesn&apos;t go, one says no and goes), and the wicked tenants who kill the heir. They know He&apos;s talking about them. They start plotting His death faster.",
+    ],
+  },
   opener: {
     matchTitle: /Jesus Forbids the Carrying/i,
     caption: 'Matthew 21',

@@ -21,6 +21,13 @@ export const MARK_16: RichChapterContent = {
   chapter: 16,
 
   estimatedMinutes: { beginner: 2, intermediate: 6, deep: 8 },
+
+  youth: {
+    intros: [
+      "Three women go to anoint a body. They find an empty tomb and an angel telling them Jesus is risen. They run away terrified. The greatest news in human history breaks loose with three women too scared to speak.",
+      "But Mark doesn&apos;t end there. The risen Jesus appears, sends them out, and gives the Great Commission: &ldquo;Go ye into all the world, and preach the gospel to every creature.&rdquo; The gospel that started with one carpenter in Galilee is now your assignment. Every place you go, you&apos;re carrying it.",
+    ],
+  },
   opener: {
     matchTitle: /The Women at Jesus/i,
     caption: 'Mark 16',

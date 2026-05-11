@@ -17,6 +17,13 @@ export const JOHN_12: RichChapterContent = {
   chapter: 12,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 6 },
+
+  youth: {
+    intros: [
+      "Mary takes a year&apos;s wages worth of perfume and pours it on Jesus&apos; feet. The whole house fills with the smell. Judas calls it wasteful. Jesus says she gets it — she&apos;s preparing me for burial. Some of what looks &ldquo;extravagant&rdquo; about your worship of Jesus will look perfectly proportioned the day He returns.",
+      "Then Jesus rides into Jerusalem on a donkey while the crowd waves palm branches and shouts Hosanna. Five days later most of them will be shouting crucify Him. Crowds are unreliable. Be the one who&apos;s still loving Him on Friday.",
+    ],
+  },
   opener: {
     matchTitle: /Mary of Bethany Anoints/i,
     caption: 'John 12',

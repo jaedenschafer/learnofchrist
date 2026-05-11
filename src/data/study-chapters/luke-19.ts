@@ -6,6 +6,13 @@ export const LUKE_19: RichChapterContent = {
   chapter: 19,
 
   estimatedMinutes: { beginner: 1, intermediate: 5, deep: 5 },
+
+  youth: {
+    intros: [
+      "Zacchaeus is a short, hated tax collector who climbs a tree to see Jesus pass through Jericho. Jesus calls him by name and invites Himself to lunch. By the end of the meal Zacchaeus is paying back four times what he stole. Jesus came for him.",
+      "Then Jesus rides into Jerusalem on a donkey while crowds throw cloaks on the road. He weeps over the city that&apos;s about to reject Him. Then He cleans out the temple of merchants. The week of His death has begun, and He&apos;s spending it loving and lamenting and confronting — exactly the things He wants from us.",
+    ],
+  },
   topicTags: ['compassion', 'mission', 'witness', 'humility'],
   opener: {
     topical: true,

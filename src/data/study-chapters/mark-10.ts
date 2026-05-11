@@ -22,6 +22,13 @@ export const MARK_10: RichChapterContent = {
   chapter: 10,
 
   estimatedMinutes: { beginner: 2, intermediate: 6, deep: 8 },
+
+  youth: {
+    intros: [
+      "Three encounters with three kinds of people. The Pharisees with a trick question about divorce. Parents bringing kids to be blessed (the disciples try to shoo them away; Jesus is furious about it). And a rich young man who keeps every commandment but can&apos;t bring himself to let go of his stuff. Walks away sad.",
+      "Then James and John ask for the best seats in the kingdom. Jesus rewrites the whole concept of greatness: &ldquo;whosoever will be great among you, shall be your minister... For even the Son of man came not to be ministered unto, but to minister, and to give his life a ransom for many.&rdquo; The chapter ends with a blind beggar named Bartimaeus screaming Jesus&apos; name in public until Jesus stops and calls him over.",
+    ],
+  },
   opener: {
     matchTitle: /Jesus Calls the Children/i,
     caption: 'Mark 10',

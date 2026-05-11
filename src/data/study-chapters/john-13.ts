@@ -17,6 +17,13 @@ export const JOHN_13: RichChapterContent = {
   chapter: 13,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+
+  youth: {
+    intros: [
+      "It&apos;s the night before the cross. Jesus, knowing exactly what&apos;s coming, takes a towel and starts washing twelve pairs of dusty feet — including the feet of the man about to betray Him. The God of the universe on His knees. The towel is the gospel.",
+      "Then He gives the new commandment: &ldquo;A new commandment I give unto you, That ye love one another; as I have loved you, that ye also love one another. By this shall all men know that ye are my disciples, if ye have love one to another.&rdquo; Not by your theology. Not by your style. By how you love each other.",
+    ],
+  },
   opener: {
     matchTitle: /The Washing of the/i,
     caption: 'John 13',

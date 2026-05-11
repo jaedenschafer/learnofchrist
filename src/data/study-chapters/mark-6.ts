@@ -19,6 +19,13 @@ export const MARK_6: RichChapterContent = {
   chapter: 6,
 
   estimatedMinutes: { beginner: 2, intermediate: 6, deep: 8 },
+
+  youth: {
+    intros: [
+      "Jesus goes home to Nazareth and the people who watched Him grow up can&apos;t see Him for who He actually is. &ldquo;Isn&apos;t this the carpenter?&rdquo; Familiarity blinds them. The same blindness happens with Jesus today — the kid who grew up in church can become the kid most resistant to actually meeting Him.",
+      "Jesus sends the Twelve out two by two with no money, no extra clothes, nothing. Then He feeds five thousand people with one kid&apos;s lunch. Then He walks across the lake to His freaked-out disciples in the middle of the night. Mark keeps stacking the evidence: the kingdom of God is here, and it doesn&apos;t need your resources to spread.",
+    ],
+  },
   opener: {
     matchTitle: /The Beheading of John/i,
     caption: 'Mark 6',

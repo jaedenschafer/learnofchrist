@@ -19,6 +19,13 @@ export const LUKE_10: RichChapterContent = {
   chapter: 10,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "Jesus sends out seventy more followers — not the famous Twelve, just regular disciples — to towns He&apos;s about to visit. They come back stunned at what God did through them. He tells them: don&apos;t celebrate that demons obey you. Celebrate that your name is written in heaven.",
+      "A lawyer tries to test Jesus: who is my neighbor? Jesus tells the story of the Good Samaritan — the &ldquo;wrong&rdquo; person who actually does the right thing while the &ldquo;right&rdquo; people walk past on the other side. Then Mary and Martha. Mary picks the &ldquo;one thing needful&rdquo; — sitting at His feet. Sometimes the holiest thing you can do is stop being busy.",
+    ],
+  },
   opener: {
     matchTitle: /The Scribe Stood to/i,
     caption: 'Luke 10',

@@ -20,6 +20,13 @@ export const LUKE_11: RichChapterContent = {
   chapter: 11,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 6 },
+
+  youth: {
+    intros: [
+      "The disciples ask Jesus to teach them to pray. He gives them what we now call the Lord&apos;s Prayer — short, packed, the structure of every prayer you&apos;ll ever pray. Then He tells them to keep asking, keep seeking, keep knocking. Persistent prayer isn&apos;t about wearing God down. It&apos;s about being shaped while you wait.",
+      "Then a series of confrontations. Jesus calls out hypocrisy in religious leaders who &ldquo;keep the rules&rdquo; while neglecting justice and the love of God. The harshest words in the Gospels aren&apos;t for sinners — they&apos;re for religious people performing for an audience. Watch what kind of religion Jesus opposes. It might be the kind you accidentally inherited.",
+    ],
+  },
   opener: {
     matchTitle: /A Woman Cries Out/i,
     caption: 'Luke 11',

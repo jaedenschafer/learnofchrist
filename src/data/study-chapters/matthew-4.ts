@@ -18,6 +18,13 @@ export const MATTHEW_4: RichChapterContent = {
   chapter: 4,
 
   estimatedMinutes: { beginner: 2, intermediate: 6, deep: 8 },
+
+  youth: {
+    intros: [
+      "Jesus is led into the wilderness for forty days of fasting. The devil shows up with three temptations: turn stones to bread, jump off the temple, take the kingdoms of the world without going to the cross. Jesus answers each one with Scripture. The Word of God isn&apos;t a comfort blanket. It&apos;s a sword you use in the actual fight.",
+      "Then Jesus walks back to Galilee and starts His ministry: &ldquo;Repent: for the kingdom of heaven is at hand.&rdquo; He calls Peter, Andrew, James, and John from their boats. They drop the nets and follow. Jesus is calling you the same way: leave what you&apos;re holding and come.",
+    ],
+  },
   opener: {
     matchTitle: /Jesus Tempted in the/i,
     caption: 'Matthew 4',

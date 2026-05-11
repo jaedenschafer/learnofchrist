@@ -16,6 +16,13 @@ export const MATTHEW_17: RichChapterContent = {
   chapter: 17,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "Jesus takes Peter, James, and John up a mountain and lights up like the sun. Moses and Elijah show up to talk with Him. Peter wants to build three tents and stay. The Father&apos;s voice cuts in: &ldquo;This is my beloved Son, in whom I am well pleased; hear ye him.&rdquo;",
+      "They walk down into a chaotic scene where the other disciples couldn&apos;t cast out a demon from a boy. Jesus does it instantly and tells the disciples their faith is too small. Then He pays the temple tax with a coin from a fish&apos;s mouth — only Matthew records this. Jesus is never caught off guard. Not even by your bills.",
+    ],
+  },
   opener: {
     matchTitle: /The Possessed Boy at/i,
     caption: 'Matthew 17',

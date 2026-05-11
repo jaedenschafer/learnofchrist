@@ -20,6 +20,13 @@ export const MATTHEW_7: RichChapterContent = {
   chapter: 7,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+
+  youth: {
+    intros: [
+      "&ldquo;Judge not, that ye be not judged.&rdquo; The most-quoted, least-understood line in the Bible. Jesus isn&apos;t saying never call anything wrong. He&apos;s saying take the LOG out of your own eye before you go after the speck in your friend&apos;s. Then you can see clearly enough to actually help them.",
+      "He ends with two builders. Same storm hits both houses. The one built on the rock — the one who DID what Jesus said — stands. The one built on sand — the one who only HEARD — collapses. Jesus didn&apos;t come to give you facts to nod at. He came to give you a life to build on.",
+    ],
+  },
   topicTags: ['kingship', 'incarnation', 'witness', 'wisdom'],
   opener: {
     topical: true,

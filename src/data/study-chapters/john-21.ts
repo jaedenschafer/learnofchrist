@@ -17,6 +17,13 @@ export const JOHN_21: RichChapterContent = {
   chapter: 21,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+
+  youth: {
+    intros: [
+      "Peter — who denied Jesus three times — has gone back to fishing. The risen Jesus shows up on the beach at sunrise with breakfast already cooking. Then He asks Peter the same question three times: &ldquo;Lovest thou me?&rdquo; Three denials, three restorations. Jesus doesn&apos;t hold your worst nights against you.",
+      "Then He gives Peter his job back: &ldquo;Feed my sheep.&rdquo; The chapter, and the whole Gospel of John, ends with Jesus giving an ex-denier a calling. Whatever you have done, whatever you have failed at — He restores like that. He has work for you on the other side of your worst chapter.",
+    ],
+  },
   opener: {
     matchTitle: /Christ Appears on the/i,
     caption: 'John 21',

@@ -19,6 +19,13 @@ export const MARK_4: RichChapterContent = {
   chapter: 4,
 
   estimatedMinutes: { beginner: 2, intermediate: 7, deep: 9 },
+
+  youth: {
+    intros: [
+      "Jesus tells a story: same seed, four kinds of soil — hard path, rocky, weed-choked, good ground. Same gospel hits the same person every Sunday and produces wildly different results depending on what kind of soil their heart is. Which soil are you right now?",
+      "Then a storm hits the boat in the middle of the night. The disciples panic. Jesus is sleeping. He gets up, says three words to the wind, and it stops. Their question is everyone&apos;s question after meeting Him: &ldquo;What manner of man is this?&rdquo;",
+    ],
+  },
   opener: {
     matchTitle: /Jesus Asleep during the/i,
     caption: 'Mark 4',

@@ -21,6 +21,13 @@ export const MATTHEW_5: RichChapterContent = {
   chapter: 5,
 
   estimatedMinutes: { beginner: 2, intermediate: 6, deep: 7 },
+
+  youth: {
+    intros: [
+      "Jesus sits on a hillside and rewires what blessed even means. Blessed are the poor in spirit, the mourners, the meek, the merciful, the peacemakers, the persecuted. The kingdom of heaven runs the OPPOSITE direction of every kingdom you&apos;re used to.",
+      "Then He raises the bar on the law. Don&apos;t murder? He says don&apos;t even hate. Don&apos;t commit adultery? He says don&apos;t even look. Love your neighbor? He says love your ENEMIES. Pray for the people who hurt you. Be perfect like your Father is perfect. Impossible. That&apos;s the point. You need a Savior.",
+    ],
+  },
   opener: {
     matchTitle: /Jesus Teaches the People/i,
     caption: 'Matthew 5',

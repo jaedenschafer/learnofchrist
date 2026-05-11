@@ -16,6 +16,13 @@ export const JOHN_8: RichChapterContent = {
   chapter: 8,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+
+  youth: {
+    intros: [
+      "The religious leaders drag a woman caught in adultery into the temple and demand Jesus condemn her to death. He bends down and writes in the dust. Then He stands and says one of the most famous lines in history: &ldquo;He that is without sin among you, let him first cast a stone at her.&rdquo; The crowd disappears one by one, oldest first.",
+      "He doesn&apos;t excuse her sin — &ldquo;go, and sin no more&rdquo; — but He doesn&apos;t condemn her either. Then Jesus declares: &ldquo;I am the light of the world.&rdquo; The Light He&apos;s talking about is the same one that just made everyone else drop their stones.",
+    ],
+  },
   opener: {
     matchTitle: /The Woman Taken in/i,
     caption: 'John 8',

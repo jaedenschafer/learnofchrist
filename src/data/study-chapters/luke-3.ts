@@ -18,6 +18,13 @@ export const LUKE_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "Luke dates the start of John the Baptist&apos;s ministry by listing seven famous rulers — and then says the word of God came to a guy in the wilderness. The empires you see in the news aren&apos;t where God is doing His most important work. Sometimes He&apos;s in a desert with one prophet you&apos;ve never heard of.",
+      "John preaches repentance. People come from everywhere to confess and be baptized. Even Jesus comes — not because He needs it, but to identify with the sinners He came to save. The heavens open. The Spirit descends. The Father speaks: &ldquo;Thou art my beloved Son; in thee I am well pleased.&rdquo; That voice is the only one that&apos;s ever supposed to define you.",
+    ],
+  },
   topicTags: ['compassion', 'mission', 'witness', 'humility'],
   opener: {
     topical: true,

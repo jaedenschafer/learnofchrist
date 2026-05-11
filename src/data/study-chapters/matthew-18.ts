@@ -16,6 +16,13 @@ export const MATTHEW_18: RichChapterContent = {
   chapter: 18,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "The disciples ask who&apos;s the greatest in the kingdom. Jesus pulls a kid into the middle and says: become like this one. Smallness is the door in. Then a story about a shepherd leaving 99 sheep to find one. Heaven&apos;s priorities are wildly different from yours.",
+      "Then Jesus walks through how to handle conflict in the church (privately first, then with witnesses, then publicly), and the parable of the unmerciful servant — the guy forgiven a million dollar debt who refuses to forgive his friend a hundred bucks. The math of forgiveness only works one way: forgive like you&apos;ve been forgiven.",
+    ],
+  },
   opener: {
     matchTitle: /Two or Three Gathered/i,
     caption: 'Matthew 18',

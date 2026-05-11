@@ -17,6 +17,13 @@ export const JOHN_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 2, intermediate: 6, deep: 7 },
+
+  youth: {
+    intros: [
+      "Jesus&apos; first miracle isn&apos;t a healing or an exorcism. It&apos;s saving a wedding from running out of wine. Notice what that says about Him: He cares about the kind of detail nobody important would have noticed. He turned about 150 gallons of water into the best wine the steward ever tasted, and the bridegroom never even knew where it came from.",
+      "A few days later He walks into the temple, makes a whip, and clears out the people turning worship into a side hustle. The Jesus who blesses the wedding is also the Jesus who flips tables. Don&apos;t pick one. Both are how He loves the world.",
+    ],
+  },
   opener: {
     matchTitle: /The Marriage Feast of/i,
     caption: 'John 2',

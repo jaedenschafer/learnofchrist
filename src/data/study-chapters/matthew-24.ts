@@ -16,6 +16,13 @@ export const MATTHEW_24: RichChapterContent = {
   chapter: 24,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 6 },
+
+  youth: {
+    intros: [
+      "The disciples gawk at the temple. Jesus tells them every stone is coming down, and walks them through the end of the age — wars, famines, persecutions, false christs, the gospel preached to every nation, then the Son of Man returning in glory.",
+      "He doesn&apos;t give a date — &ldquo;but of that day and hour knoweth no man, no, not the angels of heaven, but my Father only.&rdquo; The point isn&apos;t to predict it. The point is to be ready. Live every day like He could come back tonight, because eventually He will.",
+    ],
+  },
   topicTags: ['kingship', 'incarnation', 'witness', 'wisdom'],
   opener: {
     topical: true,

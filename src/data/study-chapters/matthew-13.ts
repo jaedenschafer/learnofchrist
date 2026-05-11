@@ -20,6 +20,13 @@ export const MATTHEW_13: RichChapterContent = {
   chapter: 13,
 
   estimatedMinutes: { beginner: 2, intermediate: 6, deep: 8 },
+
+  youth: {
+    intros: [
+      "Eight kingdom parables in one chapter. The sower (four soils, four results). The mustard seed (smallest start, biggest growth). The hidden treasure (sell EVERYTHING for the field). The pearl of great price (same idea). The kingdom is hidden, growing, and worth everything you have.",
+      "Then Jesus goes home to Nazareth, and the people who watched Him grow up reject Him. &ldquo;Is not this the carpenter&apos;s son?&rdquo; He couldn&apos;t do many works there because of their unbelief. Familiarity with Jesus and faith in Jesus are not the same thing.",
+    ],
+  },
   opener: {
     matchTitle: /He Who Winnows His/i,
     caption: 'Matthew 13',

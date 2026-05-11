@@ -6,6 +6,13 @@ export const LUKE_18: RichChapterContent = {
   chapter: 18,
 
   estimatedMinutes: { beginner: 1, intermediate: 5, deep: 6 },
+
+  youth: {
+    intros: [
+      "A widow keeps showing up to a corrupt judge until he gives her justice. Jesus&apos; point: keep praying. Don&apos;t quit when the answer is slow. A Pharisee and a tax collector pray in the temple. The Pharisee lists his accomplishments. The tax collector beats his chest: &ldquo;God be merciful to me a sinner.&rdquo; The tax collector goes home justified.",
+      "A rich young ruler asks how to inherit eternal life. Jesus tells him to sell everything and follow. He walks away sad. Then a blind beggar named Bartimaeus refuses to be silenced and gets his sight. Whatever you&apos;ve been told to be quiet about — your prayer, your need, your hope — keep yelling.",
+    ],
+  },
   opener: {
     matchTitle: /The Parable of the/i,
     caption: 'Luke 18',

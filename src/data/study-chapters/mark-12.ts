@@ -20,6 +20,13 @@ export const MARK_12: RichChapterContent = {
   chapter: 12,
 
   estimatedMinutes: { beginner: 1, intermediate: 5, deep: 6 },
+
+  youth: {
+    intros: [
+      "Jesus tells the religious leaders a story to their face about a vineyard owner whose tenants kill the heir. They know it&apos;s about them. He drops the line from Psalm 118: &ldquo;The stone which the builders rejected, the same is become the head of the corner.&rdquo; The Messiah they&apos;re about to crucify is the cornerstone of the building they think they&apos;re running.",
+      "Then a series of trick questions — about taxes, marriage, the resurrection — and Jesus answers all of them. A scribe asks the real question: which is the greatest commandment? Jesus picks two: love God with everything, and love your neighbor as yourself. The scribe is &ldquo;not far from the kingdom of God.&rdquo; Where are you in that distance?",
+    ],
+  },
   topicTags: ['ministry', 'witness', 'suffering', 'compassion'],
   opener: {
     topical: true,

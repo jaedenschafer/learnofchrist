@@ -16,6 +16,13 @@ export const MATTHEW_23: RichChapterContent = {
   chapter: 23,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "Seven woes against the religious leaders. Jesus is brutal: blind guides, whitewashed tombs, hypocrites, snakes. The harshest words in the Gospels aren&apos;t for the broken people — they&apos;re for the religious people performing for an audience while neglecting justice, mercy, and faith.",
+      "He ends in tears: &ldquo;O Jerusalem, Jerusalem… how often would I have gathered thy children together, even as a hen gathereth her chickens under her wings, and ye would not!&rdquo; God&apos;s heart is not anger. It&apos;s a Father who keeps trying to gather you home.",
+    ],
+  },
   opener: {
     matchTitle: /Woe unto You Scribes/i,
     caption: 'Matthew 23',

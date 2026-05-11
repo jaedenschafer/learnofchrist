@@ -19,6 +19,13 @@ export const MARK_7: RichChapterContent = {
   chapter: 7,
 
   estimatedMinutes: { beginner: 2, intermediate: 6, deep: 8 },
+
+  youth: {
+    intros: [
+      "The religious leaders attack Jesus over hand-washing rules. Jesus answers with one of His sharpest lines: defilement isn&apos;t about what goes IN, it&apos;s about what comes OUT — &ldquo;evil thoughts, adulteries, fornications, murders, thefts, covetousness, wickedness.&rdquo; Your problem isn&apos;t out there. Your problem is in there. So is the cure.",
+      "Then a non-Jewish woman from Tyre begs Jesus to heal her daughter. He tests her with a hard answer; she comes back with a harder faith. He heals the girl. The kingdom Jesus brings doesn&apos;t stop at any border anyone has ever drawn around it.",
+    ],
+  },
   topicTags: ['ministry', 'witness', 'suffering', 'compassion'],
   opener: {
     topical: true,

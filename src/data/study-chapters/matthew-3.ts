@@ -18,6 +18,13 @@ export const MATTHEW_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+
+  youth: {
+    intros: [
+      "John the Baptist shows up wearing camel hair, eating bugs, in the middle of the desert, telling Israel to repent. Crowds come from the city to confess sin and get baptized. He calls religious leaders a brood of vipers to their face. Then Jesus walks up and asks to be baptized — by him.",
+      "John tries to refuse. Jesus insists. The heavens open. The Spirit descends like a dove. The Father&apos;s voice: &ldquo;This is my beloved Son, in whom I am well pleased.&rdquo; That voice is the only one that&apos;s supposed to define your identity, too.",
+    ],
+  },
   opener: {
     matchTitle: /The Baptism of Jesus/i,
     caption: 'Matthew 3',

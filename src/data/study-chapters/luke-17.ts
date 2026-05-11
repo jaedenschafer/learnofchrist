@@ -20,6 +20,13 @@ export const LUKE_17: RichChapterContent = {
   chapter: 17,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 6 },
+
+  youth: {
+    intros: [
+      "Jesus tells His disciples to forgive — even seven times in one day if the person comes back repenting. They ask for more faith. Jesus says: faith the size of a mustard seed is enough to move trees into the sea. The problem usually isn&apos;t the size of your faith. It&apos;s the object.",
+      "Then ten lepers get healed. ONE comes back to thank Him. He happens to be a Samaritan — the &ldquo;wrong&rdquo; ethnicity. Gratitude is rarer than miracles. Be the one who comes back.",
+    ],
+  },
   opener: {
     matchTitle: /The Healing of Ten/i,
     caption: 'Luke 17',

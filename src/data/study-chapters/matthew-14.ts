@@ -20,6 +20,13 @@ export const MATTHEW_14: RichChapterContent = {
   chapter: 14,
 
   estimatedMinutes: { beginner: 2, intermediate: 6, deep: 8 },
+
+  youth: {
+    intros: [
+      "Herod murders John the Baptist for the entertainment of a birthday party. Jesus retreats — but the crowds find Him, and instead of pulling away further, He has compassion and feeds five thousand from one boy&apos;s lunch.",
+      "Then He sends the disciples ahead in a boat and walks across the lake to them in the storm at 3 AM. Peter asks to walk to Him. Peter does — until he looks at the wind. Jesus catches him: &ldquo;O thou of little faith, wherefore didst thou doubt?&rdquo; You won&apos;t walk on water by looking at the storm. You&apos;ll walk by keeping your eyes on Him.",
+    ],
+  },
   opener: {
     matchTitle: /The Gathering of the/i,
     caption: 'Matthew 14',

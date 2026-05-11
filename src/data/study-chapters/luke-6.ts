@@ -19,6 +19,13 @@ export const LUKE_6: RichChapterContent = {
   chapter: 6,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "Jesus heals a man on the Sabbath and the religious leaders are furious. Then He goes up a mountain, prays all night, and picks twelve ordinary people to change the world. Look at the list — fishermen, a tax collector, a zealot. None of them belong on that list by anyone&apos;s standards but His.",
+      "Then He preaches: blessed are the poor, blessed are the hungry, blessed are those who mourn. Love your enemies. Do good to those who hate you. Forgive. The kingdom of Jesus runs the opposite direction of every kingdom you&apos;ve ever lived in. Including the one in your own head.",
+    ],
+  },
   topicTags: ['compassion', 'mission', 'witness', 'humility'],
   opener: {
     topical: true,

@@ -6,6 +6,13 @@ export const LUKE_20: RichChapterContent = {
   chapter: 20,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "The religious leaders try to trap Jesus with trick questions. By what authority? Should we pay taxes to Caesar? In the resurrection whose wife is she? Jesus answers each one in a way that exposes the question and silences the questioner. He&apos;s not playing.",
+      "The most chilling parable in the chapter: a man plants a vineyard, leaves it with tenants, sends servants for the fruit, gets them all beaten, and finally sends his beloved son. The tenants kill the son. Jesus is naming what they&apos;re about to do to Him. They know it. They&apos;re doing it anyway.",
+    ],
+  },
   topicTags: ['compassion', 'mission', 'witness', 'humility'],
   opener: {
     topical: true,

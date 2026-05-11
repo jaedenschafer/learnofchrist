@@ -16,6 +16,13 @@ export const JOHN_17: RichChapterContent = {
   chapter: 17,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+
+  youth: {
+    intros: [
+      "Jesus prays out loud — for Himself, for His disciples, and for everyone who would believe in Him through their message. That includes you. You&apos;re prayed for, by name and by trajectory, in John 17. Read it slowly knowing this is the night before the cross and you&apos;re on His mind.",
+      "His main request: that you would be one with other believers, and one with Him. The mark of the church isn&apos;t supposed to be how clean we look. It&apos;s how we love each other. The world will believe Jesus is real when His followers actually act like family.",
+    ],
+  },
   opener: {
     matchTitle: /The Last Sermon of/i,
     caption: 'John 17',

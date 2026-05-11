@@ -21,6 +21,13 @@ export const LUKE_24: RichChapterContent = {
   chapter: 24,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "The women come to anoint a body and find an empty tomb and angels asking the question that should reorder your life: &ldquo;Why seek ye the living among the dead?&rdquo; He is risen.",
+      "Two disciples walk to Emmaus arguing about everything that just happened. The risen Jesus walks with them, hidden, opening the Old Testament to them. Their hearts burn while He talks. They recognize Him in the breaking of the bread, and He vanishes. Sometimes you can be talking to Jesus the whole time and only realize it later. He&apos;s always closer than you think.",
+    ],
+  },
   opener: {
     matchTitle: /Apparition of Our Lord/i,
     caption: 'Luke 24',

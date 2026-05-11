@@ -17,6 +17,13 @@ export const MATTHEW_28: RichChapterContent = {
   chapter: 28,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+
+  youth: {
+    intros: [
+      "Sunday morning. The earth shakes. An angel rolls back the stone and sits on it like furniture. The women come to anoint a body and find an angel announcing: &ldquo;He is not here: for he is risen, as he said.&rdquo;",
+      "The risen Jesus meets the women, then the disciples in Galilee. The Gospel ends with the Great Commission: &ldquo;Go ye therefore, and teach all nations, baptizing them in the name of the Father, and of the Son, and of the Holy Ghost… and, lo, I am with you alway, even unto the end of the world.&rdquo; You&apos;re inside that promise. That assignment is yours.",
+    ],
+  },
   opener: {
     matchTitle: /Apparition of Jesus to/i,
     caption: 'Matthew 28',

@@ -19,6 +19,13 @@ export const MARK_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 3, intermediate: 7, deep: 9 },
+
+  youth: {
+    intros: [
+      "Four friends rip the roof off a house to get their paralyzed buddy in front of Jesus. Jesus sees something the religious leaders can&apos;t see — the FAITH of his friends — and forgives him. The crowd watches a man walk out carrying the bed he came in on.",
+      "Jesus calls Levi from a tax-collecting booth — the kind of person every &ldquo;respectable&rdquo; family told you to avoid. He goes to dinner with him. The accusation: He eats with sinners. The answer: those are the people I came for. If you think you&apos;re too far gone for Jesus, Mark 2 is your chapter.",
+    ],
+  },
   opener: {
     matchTitle: /The Healing of the/i,
     caption: 'Mark 2',

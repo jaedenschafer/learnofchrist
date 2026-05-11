@@ -19,6 +19,13 @@ export const MATTHEW_10: RichChapterContent = {
   chapter: 10,
 
   estimatedMinutes: { beginner: 2, intermediate: 6, deep: 7 },
+
+  youth: {
+    intros: [
+      "Jesus picks twelve ordinary guys, gives them authority, and sends them out. He doesn&apos;t promise it&apos;ll be easy. He warns them they&apos;re going as sheep among wolves, and that following Him will sometimes split families and cost them everything.",
+      "But three times in the chapter He says: fear not. Don&apos;t fear those who can kill the body. The Father knows when a sparrow falls; you matter more than a sparrow. He keeps your name in front of His face. Whatever you&apos;re carrying as a follower of Jesus, you&apos;re carrying it watched.",
+    ],
+  },
   opener: {
     matchTitle: /Ordaining of the Twelve/i,
     caption: 'Matthew 10',

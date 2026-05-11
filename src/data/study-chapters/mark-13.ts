@@ -18,6 +18,13 @@ export const MARK_13: RichChapterContent = {
   chapter: 13,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 6 },
+
+  youth: {
+    intros: [
+      "The disciples gawk at the temple stones. Jesus tells them every single one is coming down. Then He walks them through what the end of the age will look like — wars, earthquakes, persecution, false christs, the gospel spreading to every nation, and finally the Son of Man returning in the clouds.",
+      "He doesn&apos;t tell them when. Three times He tells them to WATCH. Stay awake. Don&apos;t fall asleep at the wheel of your faith because the wait is long. Whatever generation gets the return, you live in the meantime — and the meantime is for staying ready.",
+    ],
+  },
   opener: {
     matchTitle: /The Prophecy of the/i,
     caption: 'Mark 13',

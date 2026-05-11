@@ -18,6 +18,13 @@ export const JOHN_20: RichChapterContent = {
   chapter: 20,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+
+  youth: {
+    intros: [
+      "Mary Magdalene gets to the tomb in the dark and finds it empty. She sobs. A &ldquo;gardener&rdquo; speaks her name — &ldquo;Mary&rdquo; — and she realizes it&apos;s Jesus. Risen. She is the first preacher of the resurrection. He could have appeared to anyone first. He picked her.",
+      "Later He shows up to the disciples behind locked doors. Thomas wasn&apos;t there. Thomas refuses to believe without proof. A week later Jesus shows up FOR HIM and lets him touch the wounds. If your faith is full of doubts right now, you&apos;re in good company. Jesus didn&apos;t scold Thomas. He met him.",
+    ],
+  },
   opener: {
     matchTitle: /Apparition of Jesus to/i,
     caption: 'John 20',

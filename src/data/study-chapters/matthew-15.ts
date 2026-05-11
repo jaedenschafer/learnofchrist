@@ -17,6 +17,13 @@ export const MATTHEW_15: RichChapterContent = {
   chapter: 15,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 5 },
+
+  youth: {
+    intros: [
+      "Religious leaders attack Jesus over hand-washing rules. Jesus turns it back on them: you&apos;ve substituted your traditions for God&apos;s actual commandments. What goes IN you doesn&apos;t defile; what comes OUT of you does. Your problem is your heart.",
+      "Then a Canaanite mom — outside the covenant — begs Jesus for her demon-possessed daughter. He tests her with hard answers. She matches Him. He marvels: &ldquo;O woman, great is thy faith.&rdquo; And heals the daughter. Persistence in prayer is rewarded. Don&apos;t take the first &ldquo;no&rdquo; for the final answer.",
+    ],
+  },
   opener: {
     matchTitle: /Jesus Heals the Blind/i,
     caption: 'Matthew 15',

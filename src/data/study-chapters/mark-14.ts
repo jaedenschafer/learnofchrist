@@ -21,6 +21,13 @@ export const MARK_14: RichChapterContent = {
   chapter: 14,
 
   estimatedMinutes: { beginner: 1, intermediate: 5, deep: 7 },
+
+  youth: {
+    intros: [
+      "A woman pours a year&apos;s wages of perfume on Jesus&apos; head. The disciples are scandalized by the waste. Jesus defends her: she&apos;s preparing me for burial. She has read the room better than any of them. Right after, Judas walks out to make a deal with the chief priests for thirty pieces of silver.",
+      "The Last Supper happens. Jesus reframes Passover around Himself: this is my body, this is my blood. Then Gethsemane, where He sweats and pleads &ldquo;take this cup from me&rdquo; while His three closest friends fall asleep on Him. The arrest. The denial. Peter weeping in the courtyard. This is the loneliest night in human history, and Jesus carries it alone so you don&apos;t have to.",
+    ],
+  },
   topicTags: ['cross', 'sacrifice', 'suffering', 'love'],
   opener: {
     topical: true,

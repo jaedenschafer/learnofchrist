@@ -17,6 +17,13 @@ export const JOHN_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 2, intermediate: 6, deep: 8 },
+
+  youth: {
+    intros: [
+      "Nicodemus is a respected religious leader who comes to Jesus at NIGHT — quietly, on the side, where nobody can see. Jesus cuts straight through the small talk: &ldquo;Ye must be born again.&rdquo; Religious credentials don&apos;t save you. A new life does. That new life is a gift you receive, not a credential you earn.",
+      "Then comes the verse you&apos;ve seen on football posters and bumper stickers your whole life — &ldquo;For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.&rdquo; Read it slowly. The whole gospel is in twenty-five words.",
+    ],
+  },
   opener: {
     matchTitle: /Interview between Jesus and/i,
     caption: 'John 3',

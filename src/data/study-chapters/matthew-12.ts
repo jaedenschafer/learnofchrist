@@ -19,6 +19,13 @@ export const MATTHEW_12: RichChapterContent = {
   chapter: 12,
 
   estimatedMinutes: { beginner: 2, intermediate: 6, deep: 8 },
+
+  youth: {
+    intros: [
+      "Two more Sabbath confrontations. Jesus heals on the Sabbath, the religious leaders plot His death over it. He calls Himself &ldquo;Lord even of the sabbath day.&rdquo; The God who made the day made it FOR people, not the other way around.",
+      "Then His critics accuse Him of casting out demons by the devil&apos;s power. Jesus answers with a sober warning about the unforgivable sin — calling the work of the Spirit the work of the devil. And: &ldquo;by thy words thou shalt be justified, and by thy words thou shalt be condemned.&rdquo; The mouth is where the heart shows.",
+    ],
+  },
   opener: {
     matchTitle: /Jesus Heals a Mute/i,
     caption: 'Matthew 12',

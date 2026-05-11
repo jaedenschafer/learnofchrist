@@ -17,6 +17,13 @@ export const JOHN_9: RichChapterContent = {
   chapter: 9,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+
+  youth: {
+    intros: [
+      "Jesus heals a man born blind. The disciples ask the wrong question: who sinned, him or his parents? Jesus reframes the whole thing: this happened so the works of God could be made visible in him. Sometimes the hardest thing in your life isn&apos;t a punishment. It&apos;s a stage where God&apos;s story is about to show up.",
+      "The man gets harassed all chapter for getting healed on a Sabbath. Religious people interrogate him three times. His answer keeps getting better: &ldquo;One thing I know, that, whereas I was blind, now I see.&rdquo; You don&apos;t need a theology degree to give your testimony. You just need to be honest about what God did.",
+    ],
+  },
   opener: {
     matchTitle: /Healing of the Blind/i,
     caption: 'John 9',

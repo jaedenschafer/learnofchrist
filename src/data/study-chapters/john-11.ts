@@ -17,6 +17,13 @@ export const JOHN_11: RichChapterContent = {
   chapter: 11,
 
   estimatedMinutes: { beginner: 2, intermediate: 6, deep: 7 },
+
+  youth: {
+    intros: [
+      "Jesus&apos; close friend Lazarus is dying. The sisters send for Jesus. He waits two days on purpose. By the time He arrives, Lazarus has been in the tomb four days. Both Mary and Martha say the same line: &ldquo;Lord, if thou hadst been here, my brother had not died.&rdquo; You&apos;ve probably said your version of that.",
+      "Then Jesus weeps. Two of the most important words in the Bible: &ldquo;Jesus wept.&rdquo; He doesn&apos;t bypass grief, even when He knows what He&apos;s about to do. Then He shouts at a tomb and a dead man walks out. He says it Himself: &ldquo;I am the resurrection, and the life.&rdquo; Whatever you&apos;re waiting on Him for, He&apos;s never late by His clock.",
+    ],
+  },
   opener: {
     matchTitle: /Lazarus/i,
     caption: 'John 11',

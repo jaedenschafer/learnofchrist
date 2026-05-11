@@ -18,6 +18,13 @@ export const LUKE_22: RichChapterContent = {
   chapter: 22,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "It&apos;s the Last Supper. Jesus reframes the Passover meal around Himself: this is my body, this is my blood. While they&apos;re still at the table the disciples are arguing about who&apos;s the greatest. Jesus tells them the greatest is the one who serves. He just washed their feet to demonstrate.",
+      "Then Gethsemane. He sweats blood, asks for the cup to be removed, says &ldquo;not my will, but thine, be done.&rdquo; Judas kisses Him. The disciples scatter. Peter denies Him three times around a fire and weeps when the rooster crows. The longest night in human history. He carries every minute of it for you.",
+    ],
+  },
   opener: {
     matchTitle: /Jesus Led from Caiaphas/i,
     caption: 'Luke 22',

@@ -20,6 +20,13 @@ export const LUKE_15: RichChapterContent = {
   chapter: 15,
 
   estimatedMinutes: { beginner: 1, intermediate: 5, deep: 5 },
+
+  youth: {
+    intros: [
+      "Three stories about lost things — a sheep, a coin, a son. The shepherd leaves the 99 to find the one. The woman tears the house apart for the missing coin. The father runs down the road when he sees the wreck of a son coming home. Heaven throws a party every time.",
+      "The prodigal son blew everything and came back rehearsing his apology. The father didn&apos;t even let him finish — robe, ring, sandals, fattest calf. Then the older brother sulks outside the party. The chapter ends with the father pleading with both sons. Wherever you are in this story, the Father is still pleading.",
+    ],
+  },
   opener: {
     matchTitle: /The Prodigal Son Returns/i,
     caption: 'Luke 15',

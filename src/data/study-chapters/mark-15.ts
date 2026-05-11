@@ -20,6 +20,13 @@ export const MARK_15: RichChapterContent = {
   chapter: 15,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+
+  youth: {
+    intros: [
+      "The trial is a sham. Pilate knows it. The religious leaders know it. The crowd has been worked up to demand Barabbas — an actual murderer — over the only innocent man in the room. Jesus is flogged, mocked, given a fake crown, and led out to be crucified.",
+      "He hangs there for hours. The sky goes black. He cries &ldquo;My God, my God, why hast thou forsaken me?&rdquo; and dies. The veil in the temple — the one separating people from God&apos;s presence — rips top to bottom. The Roman officer running the execution looks at the dead man and says the line: &ldquo;Truly this man was the Son of God.&rdquo; The first Gentile confession of Christ comes from a soldier at His crucifixion.",
+    ],
+  },
   opener: {
     matchTitle: /The Dead Christ/i,
     caption: 'Mark 15',

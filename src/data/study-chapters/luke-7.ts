@@ -19,6 +19,13 @@ export const LUKE_7: RichChapterContent = {
   chapter: 7,
 
   estimatedMinutes: { beginner: 1, intermediate: 5, deep: 6 },
+
+  youth: {
+    intros: [
+      "A Roman centurion — a Gentile, an outsider — sends to Jesus to heal his servant from a distance. Jesus marvels: &ldquo;I have not found so great faith, no, not in Israel.&rdquo; The faith Jesus brags about doesn&apos;t come from the people you&apos;d expect. It comes from anyone willing to actually trust Him.",
+      "At a Pharisee&apos;s house, a woman known for her sin shows up, washes Jesus&apos; feet with her tears, and dries them with her hair. The Pharisee judges. Jesus tells a story: the one forgiven the most loves the most. Then to the woman: &ldquo;Thy sins are forgiven…thy faith hath saved thee; go in peace.&rdquo; Whatever you&apos;ve done, the door is open the same way it was for her.",
+    ],
+  },
   opener: {
     matchTitle: /The Resurrection of the/i,
     caption: 'Luke 7',

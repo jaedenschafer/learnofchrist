@@ -16,6 +16,13 @@ export const JOHN_16: RichChapterContent = {
   chapter: 16,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+
+  youth: {
+    intros: [
+      "Jesus tells the disciples it&apos;s actually GOOD that He&apos;s leaving — because then He can send the Holy Spirit. They can&apos;t imagine how that&apos;s good. You probably can&apos;t imagine how some of your &ldquo;losses&rdquo; are actually good either. Sometimes the biggest gift is the one waiting on the other side of an absence.",
+      "Then the promise that gets you through the worst weeks: &ldquo;Your sorrow shall be turned into joy… your joy no man taketh from you.&rdquo; And: &ldquo;In the world ye shall have tribulation: but be of good cheer; I have overcome the world.&rdquo; Whatever&apos;s pressing on you tonight is not the final word.",
+    ],
+  },
   topicTags: ['incarnation', 'love', 'glory', 'witness'],
   opener: {
     topical: true,

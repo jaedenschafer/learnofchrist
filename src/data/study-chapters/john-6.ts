@@ -17,6 +17,13 @@ export const JOHN_6: RichChapterContent = {
   chapter: 6,
 
   estimatedMinutes: { beginner: 2, intermediate: 6, deep: 8 },
+
+  youth: {
+    intros: [
+      "Jesus feeds five thousand people from one boy&apos;s lunch. The crowd loves Him for it — they want to make Him king. So He pulls back. The next day He says something that gets most of them to leave: &ldquo;I am the bread of life.&rdquo; You don&apos;t follow Jesus for what He gives you. You follow Him because He IS what you need.",
+      "By the end of the chapter, the crowds are gone. Jesus turns to the Twelve: &ldquo;Will ye also go away?&rdquo; Peter&apos;s answer is the line everyone deciding whether to follow Jesus eventually has to say: &ldquo;Lord, to whom shall we go? thou hast the words of eternal life.&rdquo;",
+    ],
+  },
   topicTags: ['incarnation', 'love', 'glory', 'witness'],
   opener: {
     topical: true,

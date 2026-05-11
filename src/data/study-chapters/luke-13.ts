@@ -20,6 +20,13 @@ export const LUKE_13: RichChapterContent = {
   chapter: 13,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "Some people bring Jesus news of a tragedy. Jesus uses the moment to make sure nobody walks away thinking the victims deserved it. &ldquo;Except ye repent, ye shall all likewise perish.&rdquo; Suffering isn&apos;t always proportional to sin. But every one of us needs to repent.",
+      "Then a woman bent over for eighteen years gets healed on a Sabbath, and the religious leaders complain. Jesus calls the grieving city of Jerusalem to Him: &ldquo;How often would I have gathered thy children together, as a hen doth gather her brood under her wings, and ye would not!&rdquo; God&apos;s tenderness toward you doesn&apos;t go away when you refuse it. But it can&apos;t shelter you if you keep walking out from under it.",
+    ],
+  },
   opener: {
     matchTitle: /The Vine Dresser and/i,
     caption: 'Luke 13',

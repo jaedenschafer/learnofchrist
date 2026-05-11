@@ -19,6 +19,13 @@ export const LUKE_21: RichChapterContent = {
   chapter: 21,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 6 },
+
+  youth: {
+    intros: [
+      "A poor widow drops two tiny coins in the temple offering. Jesus says she gave more than the rich people. God doesn&apos;t measure what you give by the amount. He measures by what you have left after.",
+      "Then Jesus walks His disciples through the end times — the destruction of the temple, persecution, false christs, signs in the heavens, the return of the Son of Man. The chapter ends with three words that should be tattooed on every disciple in every era: &ldquo;Watch ye therefore.&rdquo;",
+    ],
+  },
   opener: {
     matchTitle: /The Widow/i,
     caption: 'Luke 21',
