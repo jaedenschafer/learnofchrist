@@ -20,6 +20,13 @@ export const ESTHER_7: RichChapterContent = {
   chapter: 7,
 
   estimatedMinutes: { beginner: 3, intermediate: 7, deep: 10 },
+
+  youth: {
+    intros: [
+      "At the second banquet, Esther reveals: Haman is plotting genocide against her people. The king is enraged. Haman pleads with Esther on her couch. The king walks back in, accuses Haman of assaulting the queen, and orders him hanged on the gallows Haman built for Mordecai.",
+      "Evil prepares its own destruction. The trap Haman built for Mordecai became Haman&apos;s execution platform. The seeds you sow for somebody else&apos;s harm have a way of coming back.",
+    ],
+  },
   opener: {
     matchTitle: /Esther Accuses Haman/i,
     caption: 'Esther 7',

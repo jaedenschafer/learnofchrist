@@ -19,6 +19,13 @@ export const EZRA_5: RichChapterContent = {
   chapter: 5,
 
   estimatedMinutes: { beginner: 6, intermediate: 9, deep: 12 },
+
+  youth: {
+    intros: [
+      "Prophets Haggai and Zechariah stir up the people to start building again. Local officials write to King Darius asking if they have permission. The answer comes back: yes — Cyrus authorized this.",
+      "Sometimes the order to keep going has to come from outside you. Listen to the prophet voices God sends. They&apos;re trying to get you back on assignment.",
+    ],
+  },
   topicTags: ['return', 'worship', 'faithfulness', 'leadership'],
   opener: {
     topical: true,

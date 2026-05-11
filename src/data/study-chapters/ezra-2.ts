@@ -17,6 +17,13 @@ export const EZRA_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 3, intermediate: 8, deep: 12 },
+
+  youth: {
+    intros: [
+      "A long list of returning exiles by family. 42,360 people plus servants and singers. Each name mattered enough to be recorded.",
+      "Whoever shows up for the rebuilding gets named. Don&apos;t skip the work because nobody famous is leading. Heaven&apos;s record book has plenty of pages.",
+    ],
+  },
   topicTags: ['return', 'worship', 'faithfulness', 'leadership'],
   opener: {
     topical: true,

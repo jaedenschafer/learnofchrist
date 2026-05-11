@@ -17,6 +17,13 @@ export const NEHEMIAH_11: RichChapterContent = {
   chapter: 11,
 
   estimatedMinutes: { beginner: 6, intermediate: 9, deep: 15 },
+
+  youth: {
+    intros: [
+      "One in ten of the people moves into Jerusalem to repopulate the city. The other nine stay in their towns. Lots are cast to decide. People bless the ones willing to move.",
+      "Some assignments require people willing to relocate to the harder place. Be the one in ten if God&apos;s casting lots in your generation.",
+    ],
+  },
   intros: [
     'The wall of Jerusalem is complete. The gates are hung. The people have gathered to hear Ezra read the Law. And yet the city itself is still mostly empty. The returned exiles have scattered into the towns and villages around Jerusalem — they have homes there, fields, lives. Moving into the city would mean leaving those lives behind. So Nehemiah turns to the question: who will dwell in the holy city?',
     'His answer is surprisingly democratic for an ancient Near Eastern context. He does not command; he casts lots. One in ten will move to Jerusalem. Let the Lord decide. But then something moves. Volunteers come forward. They will leave their towns, their vineyards, their established homes, and move into Jerusalem. And when they do, the rest of the people bless them for it. Nehemiah 11 is not just a roster of residents — it is a record of willing sacrifice, and the blessing that rests upon those who offer themselves for something holy.',

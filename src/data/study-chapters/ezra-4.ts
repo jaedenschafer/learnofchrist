@@ -23,6 +23,13 @@ export const EZRA_4: RichChapterContent = {
   chapter: 4,
 
   estimatedMinutes: { beginner: 7, intermediate: 12, deep: 15 },
+
+  youth: {
+    intros: [
+      "Local enemies offer to help build the temple. The Jews refuse — these aren&apos;t their kind of partners. The enemies retaliate by sending letters to the king to stop the work. Construction halts for years.",
+      "Not every offer of partnership belongs in your project. Be careful who helps you build. The wrong allies are the ones most eager to be included.",
+    ],
+  },
   topicTags: ['return', 'worship', 'faithfulness', 'leadership'],
   opener: {
     topical: true,

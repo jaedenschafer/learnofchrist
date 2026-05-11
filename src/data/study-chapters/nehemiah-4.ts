@@ -18,6 +18,13 @@ export const NEHEMIAH_4: RichChapterContent = {
   chapter: 4,
 
   estimatedMinutes: { beginner: 8, intermediate: 17, deep: 23 },
+
+  youth: {
+    intros: [
+      "Sanballat and Tobiah mock the builders. Then they conspire to attack. Nehemiah sets guards, has half the people working with weapons in their other hand. They build with sword on hip and trowel in hand.",
+      "When God is doing something real, opposition shows up. Build with one hand and defend with the other. Don&apos;t stop building because of mockery. Don&apos;t pretend the threat isn&apos;t real.",
+    ],
+  },
   opener: {
     matchTitle: /Building and Defending the/i,
     caption: 'Nehemiah 4',

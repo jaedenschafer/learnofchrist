@@ -20,6 +20,13 @@ export const NEHEMIAH_13: RichChapterContent = {
   chapter: 13,
 
   estimatedMinutes: { beginner: 4, intermediate: 11, deep: 16 },
+
+  youth: {
+    intros: [
+      "Nehemiah returns to Persia for a while. When he comes back to Jerusalem, things have already slipped — Tobiah moved into the temple, the Levites are unpaid and gone, the Sabbath is being violated. Nehemiah cleans house, hard.",
+      "Drift happens fast. Even after great revival, the next generation needs leaders willing to confront the slide. Don&apos;t flinch when you have to be Nehemiah.",
+    ],
+  },
   topicTags: ['return', 'leadership', 'prayer', 'faithfulness'],
   opener: {
     topical: true,

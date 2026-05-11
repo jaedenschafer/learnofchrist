@@ -18,6 +18,13 @@ export const EZRA_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 5, intermediate: 9, deep: 12 },
+
+  youth: {
+    intros: [
+      "The altar is rebuilt first — sacrifices restart even before the temple foundation. Then the temple foundation is laid. The young people shout for joy. The old people who remembered Solomon&apos;s temple weep loudly. Both reactions are real.",
+      "Don&apos;t shame either generation. Some of you celebrate the new thing God is building; some of you grieve what was lost. Both responses are honest. God hears both.",
+    ],
+  },
   opener: {
     matchTitle: /The Founding of the/i,
     caption: 'Ezra 3',

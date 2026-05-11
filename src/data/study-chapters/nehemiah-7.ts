@@ -17,6 +17,13 @@ export const NEHEMIAH_7: RichChapterContent = {
   chapter: 7,
 
   estimatedMinutes: { beginner: 3, intermediate: 8, deep: 12 },
+
+  youth: {
+    intros: [
+      "After the wall is built, Nehemiah appoints leaders, registers the people by genealogy, and counts who returned from exile. Order is established.",
+      "Build, then organize. Walls are nothing without people inside who know who they are. Get the registry right.",
+    ],
+  },
   topicTags: ['return', 'leadership', 'prayer', 'faithfulness'],
   opener: {
     topical: true,

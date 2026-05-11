@@ -20,6 +20,13 @@ export const NEHEMIAH_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 5, intermediate: 16, deep: 23 },
+
+  youth: {
+    intros: [
+      "Nehemiah, sad before the king, gets asked why. He prays a quick arrow prayer and then asks for permission to go rebuild Jerusalem. The king grants it with letters and resources. Nehemiah arrives, secretly inspects the walls at night, then rallies the leaders.",
+      "Pray briefly when you have to. Ask boldly when the door opens. Plan carefully before you announce. Then call your people to the work.",
+    ],
+  },
   opener: {
     matchTitle: /Nehemiah Views the Ruins/i,
     caption: 'Nehemiah 2',

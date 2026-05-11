@@ -18,6 +18,13 @@ export const EZRA_8: RichChapterContent = {
   chapter: 8,
 
   estimatedMinutes: { beginner: 6, intermediate: 13, deep: 18 },
+
+  youth: {
+    intros: [
+      "Ezra leads a group of returnees on the dangerous journey from Babylon to Jerusalem. He&apos;s ashamed to ask the king for a military escort because he had bragged about God&apos;s protection. So they fast and pray instead. They arrive safely.",
+      "Sometimes you back yourself into integrity. Once you&apos;ve told people you trust God, you actually have to. The fast that follows is usually where God meets you.",
+    ],
+  },
   topicTags: ['return', 'worship', 'faithfulness', 'leadership'],
   opener: {
     topical: true,

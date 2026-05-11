@@ -18,6 +18,13 @@ export const NEHEMIAH_10: RichChapterContent = {
   chapter: 10,
 
   estimatedMinutes: { beginner: 6, intermediate: 11, deep: 16 },
+
+  youth: {
+    intros: [
+      "The people sign a written covenant — pledging to keep the Sabbath, not intermarry with pagans, support the temple. Names listed. Specifics included. Real renewal lasts when it&apos;s written down.",
+      "Make your commitments to God specific and visible. Vague resolutions vanish. Written ones survive.",
+    ],
+  },
   topicTags: ['return', 'leadership', 'prayer', 'faithfulness'],
   opener: {
     topical: true,

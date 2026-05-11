@@ -17,6 +17,13 @@ export const ESTHER_10: RichChapterContent = {
   chapter: 10,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "Mordecai becomes second-in-command of the Persian Empire. The book ends with him advancing the welfare of his people.",
+      "From a Jewish refugee in a foreign court to the second most powerful man in the world. God&apos;s elevations are sometimes that drastic. Stay faithful in the small assignments.",
+    ],
+  },
   topicTags: ['providence', 'deliverance', 'faithfulness', 'fear'],
   opener: {
     topical: true,

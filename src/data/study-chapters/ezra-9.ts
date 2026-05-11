@@ -18,6 +18,13 @@ export const EZRA_9: RichChapterContent = {
   chapter: 9,
 
   estimatedMinutes: { beginner: 8, intermediate: 18, deep: 23 },
+
+  youth: {
+    intros: [
+      "Ezra learns that the people — even priests and Levites — have intermarried with the surrounding pagan nations. He tears his clothes, sits stunned, then prays one of the most heartbroken confessions in the Bible.",
+      "When God&apos;s people fall into the same sin God specifically warned them about, the right response is grief — not excuse-making. Grieve sin in your community before you talk strategy.",
+    ],
+  },
   opener: {
     matchTitle: /Ezra Kneels in Prayer/i,
     caption: 'Ezra 9',

@@ -19,6 +19,13 @@ export const NEHEMIAH_6: RichChapterContent = {
   chapter: 6,
 
   estimatedMinutes: { beginner: 7, intermediate: 12, deep: 16 },
+
+  youth: {
+    intros: [
+      "Sanballat tries five times to get Nehemiah to a fake meeting to assassinate him. Each time Nehemiah refuses: &ldquo;I am doing a great work, so that I cannot come down.&rdquo; The wall is finished in 52 days.",
+      "Don&apos;t come down for distraction. The enemy will offer many &ldquo;urgent&rdquo; meetings to pull you off your assignment. Stay on the wall.",
+    ],
+  },
   topicTags: ['return', 'leadership', 'prayer', 'faithfulness'],
   opener: {
     topical: true,

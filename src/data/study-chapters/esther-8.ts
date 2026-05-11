@@ -16,6 +16,13 @@ export const ESTHER_8: RichChapterContent = {
   chapter: 8,
 
   estimatedMinutes: { beginner: 3, intermediate: 7, deep: 11 },
+
+  youth: {
+    intros: [
+      "The king can&apos;t reverse the decree against the Jews — Persian law is irrevocable. So he writes a new decree: the Jews can defend themselves and destroy anyone who attacks them. The mood in the empire changes. People start identifying as Jews because of the favor on them.",
+      "Sometimes God doesn&apos;t reverse the bad news. He gives you a counter-decree. Read His promises like Mordecai&apos;s edict. They&apos;re your defense.",
+    ],
+  },
   topicTags: ['providence', 'deliverance', 'faithfulness', 'fear'],
   opener: {
     topical: true,

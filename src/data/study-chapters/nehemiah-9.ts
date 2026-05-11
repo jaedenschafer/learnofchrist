@@ -19,6 +19,13 @@ export const NEHEMIAH_9: RichChapterContent = {
   chapter: 9,
 
   estimatedMinutes: { beginner: 7, intermediate: 17, deep: 23 },
+
+  youth: {
+    intros: [
+      "The Levites lead a long public confession recounting Israel&apos;s entire history — God&apos;s faithfulness met by Israel&apos;s repeated rebellion. The chapter is one of the longest prayers in the Bible.",
+      "Knowing the story of God with His people anchors your worship. Read big prayers like this one out loud. Pray Israel&apos;s story as your own.",
+    ],
+  },
   opener: {
     matchTitle: /The People/i,
     caption: 'Nehemiah 9',

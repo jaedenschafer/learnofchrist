@@ -25,6 +25,13 @@ export const ESTHER_6: RichChapterContent = {
   chapter: 6,
 
   estimatedMinutes: { beginner: 5, intermediate: 9, deep: 12 },
+
+  youth: {
+    intros: [
+      "The king can&apos;t sleep that night. He has the chronicles read to him. Discovers that Mordecai once saved his life and was never rewarded. He asks Haman: what should be done for the man the king delights to honor? Haman, assuming it&apos;s about him, designs the elaborate honor — and is then forced to lead Mordecai through the city in the king&apos;s robe and on the king&apos;s horse.",
+      "God&apos;s timing is exquisite. The night Haman finished building the gallows is the night the king couldn&apos;t sleep. He&apos;s never asleep at the wrong moment.",
+    ],
+  },
   opener: {
     matchTitle: /Mordecai Raised to High/i,
     caption: 'Esther 6',

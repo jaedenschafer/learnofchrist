@@ -19,6 +19,13 @@ export const NEHEMIAH_5: RichChapterContent = {
   chapter: 5,
 
   estimatedMinutes: { beginner: 5, intermediate: 11, deep: 15 },
+
+  youth: {
+    intros: [
+      "An economic crisis: rich Jews charging interest to poor Jews who lost their land and their kids to debt slavery. Nehemiah is furious and confronts the nobles publicly. They repent. Nehemiah himself models generosity and refuses the governor&apos;s salary.",
+      "Don&apos;t tolerate exploitation among God&apos;s people. Confront it. Then live the example. Lead with your wallet open.",
+    ],
+  },
   topicTags: ['return', 'leadership', 'prayer', 'faithfulness'],
   opener: {
     topical: true,

@@ -21,6 +21,13 @@ export const ESTHER_5: RichChapterContent = {
   chapter: 5,
 
   estimatedMinutes: { beginner: 5, intermediate: 8, deep: 10 },
+
+  youth: {
+    intros: [
+      "Esther fasts for three days, then approaches the king uninvited. He extends his scepter. She invites him and Haman to a banquet. At the banquet she invites them to a SECOND banquet. Haman, thrilled, builds a 75-foot gallows to hang Mordecai on.",
+      "Sometimes wisdom is timing. Esther didn&apos;t blurt the request the first chance she got. She waited. Pray for the timing only the Spirit can give you.",
+    ],
+  },
   opener: {
     matchTitle: /Esther Before the King/i,
     caption: 'Esther 5',

@@ -17,6 +17,13 @@ export const NEHEMIAH_12: RichChapterContent = {
   chapter: 12,
 
   estimatedMinutes: { beginner: 5, intermediate: 11, deep: 15 },
+
+  youth: {
+    intros: [
+      "The wall is dedicated. Two great choirs march in opposite directions on top of the wall, meeting at the temple. The joy of Jerusalem is heard far away.",
+      "When God finishes a long project in your life, throw the celebration. Sing loud enough that it&apos;s heard far away.",
+    ],
+  },
   topicTags: ['return', 'leadership', 'prayer', 'faithfulness'],
   opener: {
     topical: true,

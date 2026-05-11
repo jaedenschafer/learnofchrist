@@ -19,6 +19,13 @@ export const EZRA_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 4, intermediate: 8, deep: 12 },
+
+  youth: {
+    intros: [
+      "Cyrus, king of Persia, issues a decree: any Jew who wants to can return to Jerusalem and rebuild the temple. The exile is ending. God moved a pagan king&apos;s heart to keep an old promise.",
+      "God can use anyone — including the most unlikely political leader — to accomplish His purposes. Don&apos;t underestimate where He&apos;s working.",
+    ],
+  },
   opener: {
     matchTitle: /Return from the Babylonian/i,
     caption: 'Ezra 1',

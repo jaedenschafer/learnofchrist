@@ -17,6 +17,13 @@ export const NEHEMIAH_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 6, intermediate: 10, deep: 15 },
+
+  youth: {
+    intros: [
+      "A list of who built which section of the wall. Goldsmiths, perfumers, priests, daughters of Shallum. Each family taking the section in front of their own house.",
+      "When everyone works in the section God assigned them, the whole wall goes up fast. Build YOUR section. Don&apos;t look longingly at someone else&apos;s.",
+    ],
+  },
   topicTags: ['return', 'leadership', 'prayer', 'faithfulness'],
   opener: {
     topical: true,

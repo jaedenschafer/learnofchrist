@@ -24,6 +24,13 @@ export const ESTHER_4: RichChapterContent = {
   chapter: 4,
 
   estimatedMinutes: { beginner: 6, intermediate: 12, deep: 16 },
+
+  youth: {
+    intros: [
+      "Mordecai tears his clothes and sits in sackcloth outside the palace gate. He sends Esther a message: speak to the king. She protests — going uninvited could mean death. Mordecai answers: &ldquo;Who knoweth whether thou art come to the kingdom for such a time as this?&rdquo;",
+      "There&apos;s a moment in your life that the rest of your life is preparing you for. When it comes, don&apos;t flinch. You were placed where you are for such a time as this.",
+    ],
+  },
   topicTags: ['providence', 'deliverance', 'faithfulness', 'fear'],
   opener: {
     topical: true,

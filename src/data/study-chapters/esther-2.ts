@@ -19,6 +19,13 @@ export const ESTHER_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 3, intermediate: 9, deep: 12 },
+
+  youth: {
+    intros: [
+      "A young Jewish girl named Esther wins the empire-wide beauty pageant and becomes queen of Persia. Her cousin Mordecai had raised her after her parents died and had told her to keep her Jewish identity hidden.",
+      "God can place you in unlikely positions. The room you didn&apos;t pick to be in might be the room He needs you in for the assignment that&apos;s coming.",
+    ],
+  },
   opener: {
     matchTitle: /Esther Chosen Queen by/i,
     caption: 'Esther 2',

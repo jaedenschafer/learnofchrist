@@ -19,6 +19,13 @@ export const NEHEMIAH_8: RichChapterContent = {
   chapter: 8,
 
   estimatedMinutes: { beginner: 8, intermediate: 13, deep: 17 },
+
+  youth: {
+    intros: [
+      "Ezra reads the law to the assembled people from morning until midday. The people weep when they understand it. Nehemiah and Ezra tell them: don&apos;t weep — go celebrate. The joy of the Lord is your strength.",
+      "Conviction over Scripture is good. So is feasting after. God is honored by both your tears and your celebration. Don&apos;t pick one.",
+    ],
+  },
   opener: {
     matchTitle: /Ezra Reads the Law/i,
     caption: 'Nehemiah 8',

@@ -18,6 +18,13 @@ export const ESTHER_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 3, intermediate: 7, deep: 9 },
+
+  youth: {
+    intros: [
+      "King Xerxes throws a six-month party. At the climax, drunk, he summons Queen Vashti to display her beauty. She refuses. He divorces her on the spot. The empire&apos;s new search for a queen begins.",
+      "Vashti loses everything for keeping her dignity. The book of Esther doesn&apos;t mention God&apos;s name once, but you can already feel Him moving through this chapter. He uses what looks like injustice to set up a rescue.",
+    ],
+  },
   opener: {
     matchTitle: /Queen Vashti Refuses to/i,
     caption: 'Esther 1',

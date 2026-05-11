@@ -19,6 +19,13 @@ export const EZRA_6: RichChapterContent = {
   chapter: 6,
 
   estimatedMinutes: { beginner: 7, intermediate: 13, deep: 18 },
+
+  youth: {
+    intros: [
+      "Darius searches the records, finds Cyrus&apos;s decree, and authorizes the temple to be completed AND funded by the Persian treasury. The temple is finished and dedicated with great joy.",
+      "God&apos;s old promises don&apos;t expire even when human paperwork tries to hide them. He brings the right document to light at the right time.",
+    ],
+  },
   topicTags: ['return', 'worship', 'faithfulness', 'leadership'],
   opener: {
     topical: true,

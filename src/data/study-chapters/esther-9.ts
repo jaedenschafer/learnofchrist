@@ -17,6 +17,13 @@ export const ESTHER_9: RichChapterContent = {
   chapter: 9,
 
   estimatedMinutes: { beginner: 3, intermediate: 7, deep: 9 },
+
+  youth: {
+    intros: [
+      "On the day Haman planned for Jewish genocide, the Jews defend themselves and prevail. The Feast of Purim is established to commemorate the rescue.",
+      "Mark the days God delivered you. Build celebrations into your year that retell the rescue. Forgetting is the enemy of faith.",
+    ],
+  },
   topicTags: ['providence', 'deliverance', 'faithfulness', 'fear'],
   opener: {
     topical: true,

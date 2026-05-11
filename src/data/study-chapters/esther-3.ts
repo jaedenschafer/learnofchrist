@@ -19,6 +19,13 @@ export const ESTHER_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 3, intermediate: 7, deep: 9 },
+
+  youth: {
+    intros: [
+      "Haman, the king&apos;s top official, is enraged that Mordecai won&apos;t bow to him. He gets the king to sign an edict ordering the genocide of all Jews on a single day. Persia&apos;s machinery is now aimed at killing every Jew alive.",
+      "When evil aims at God&apos;s people, it tends to overplay its hand. Whatever&apos;s coming against the church or your family or your faith — God isn&apos;t finished writing the chapter.",
+    ],
+  },
   topicTags: ['providence', 'deliverance', 'faithfulness', 'fear'],
   opener: {
     topical: true,

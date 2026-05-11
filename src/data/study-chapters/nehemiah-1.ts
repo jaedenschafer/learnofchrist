@@ -19,6 +19,13 @@ export const NEHEMIAH_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 5, intermediate: 10, deep: 12 },
+
+  youth: {
+    intros: [
+      "Nehemiah, cupbearer to the Persian king, hears Jerusalem&apos;s walls are still broken down. He weeps and fasts for days. Then he prays a prayer of confession that includes himself and his family in the sin of Israel.",
+      "When you hear bad news about your church, your family, your nation — weep first. Pray with your name in the confession. Then move toward the rebuilding.",
+    ],
+  },
   topicTags: ['return', 'leadership', 'prayer', 'faithfulness'],
   opener: {
     topical: true,

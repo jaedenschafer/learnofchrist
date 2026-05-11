@@ -18,6 +18,13 @@ export const EZRA_7: RichChapterContent = {
   chapter: 7,
 
   estimatedMinutes: { beginner: 7, intermediate: 14, deep: 18 },
+
+  youth: {
+    intros: [
+      "Decades after the temple is rebuilt, the priest Ezra arrives in Jerusalem with another wave of returnees. He is &ldquo;a ready scribe in the law of Moses.&rdquo; His mission: teach Israel God&apos;s law again.",
+      "Buildings can be rebuilt without hearts being rebuilt. Real restoration requires teachers of God&apos;s Word. Be one. Find one.",
+    ],
+  },
   opener: {
     matchTitle: /Artaxerxes Grants Freedom to/i,
     caption: 'Ezra 7',

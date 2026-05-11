@@ -25,6 +25,13 @@ export const EZRA_10: RichChapterContent = {
   chapter: 10,
 
   estimatedMinutes: { beginner: 5, intermediate: 9, deep: 14 },
+
+  youth: {
+    intros: [
+      "After Ezra&apos;s prayer, the people decide collectively to put away their foreign wives. The book ends with a list of names. Hard, painful obedience. The text doesn&apos;t soften the cost.",
+      "Some of obedience is brutally hard. The pages of repentance often contain names of people whose lives were upended. God&apos;s mercy is real. So is the human cost of making things right.",
+    ],
+  },
   topicTags: ['return', 'worship', 'faithfulness', 'leadership'],
   opener: {
     topical: true,
