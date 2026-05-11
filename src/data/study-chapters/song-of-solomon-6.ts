@@ -16,6 +16,12 @@ export const SONG_6: RichChapterContent = {
   chapter: 6,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "Reunion. &ldquo;I am my beloved&apos;s, and my beloved is mine.&rdquo; The relationship deepens through the misunderstanding.",
+    ],
+  },
   topicTags: ['love', 'family', 'faithfulness', 'humility'],
   opener: {
     topical: true,

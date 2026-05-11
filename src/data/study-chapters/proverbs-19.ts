@@ -13,6 +13,12 @@ export const PROVERBS_19: RichChapterContent = {
   chapter: 19,
 
   estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
+
+  youth: {
+    intros: [
+      "&ldquo;He that hath pity upon the poor lendeth unto the Lord; and that which he hath given will he pay him again.&rdquo; God treats your generosity to the poor like a personal loan to Him.",
+    ],
+  },
   topicTags: ['wisdom', 'righteousness', 'folly', 'integrity'],
   opener: {
     topical: true,

@@ -14,6 +14,12 @@ export const PROVERBS_18: RichChapterContent = {
   chapter: 18,
 
   estimatedMinutes: { beginner: 1, intermediate: 2, deep: 4 },
+
+  youth: {
+    intros: [
+      "&ldquo;The name of the Lord is a strong tower: the righteous runneth into it, and is safe.&rdquo; Run TOWARD God, not away, when trouble comes.",
+    ],
+  },
   topicTags: ['wisdom', 'righteousness', 'folly', 'integrity'],
   opener: {
     topical: true,

@@ -17,6 +17,12 @@ export const PROVERBS_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 1, intermediate: 5, deep: 6 },
+
+  youth: {
+    intros: [
+      "Search for wisdom like silver. Dig for it like treasure. Then God gives it. The discovery requires the digging.",
+    ],
+  },
   topicTags: ['wisdom', 'righteousness', 'folly', 'integrity'],
   opener: {
     topical: true,

@@ -17,6 +17,12 @@ export const ECCLESIASTES_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+
+  youth: {
+    intros: [
+      "&ldquo;Vanity of vanities; all is vanity.&rdquo; The Hebrew word HEVEL means breath, vapor — gone before you can grasp it. Solomon&apos;s thesis: life under the sun, without God in view, is a chasing after wind.",
+    ],
+  },
   opener: {
     matchTitle: /King Solomon in Old/i,
     caption: 'Ecclesiastes 1',

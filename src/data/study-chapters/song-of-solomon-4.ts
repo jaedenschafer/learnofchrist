@@ -17,6 +17,12 @@ export const SONG_4: RichChapterContent = {
   chapter: 4,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 6 },
+
+  youth: {
+    intros: [
+      "The groom celebrates his bride&apos;s beauty in extravagant detail. He calls her &ldquo;all fair…there is no spot in thee.&rdquo; That&apos;s how Christ sees His church — without spot.",
+    ],
+  },
   topicTags: ['love', 'family', 'faithfulness', 'humility'],
   opener: {
     topical: true,

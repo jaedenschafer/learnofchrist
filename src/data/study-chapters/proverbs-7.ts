@@ -16,6 +16,12 @@ export const PROVERBS_7: RichChapterContent = {
   chapter: 7,
 
   estimatedMinutes: { beginner: 1, intermediate: 5, deep: 6 },
+
+  youth: {
+    intros: [
+      "A young man without wisdom walks past a married woman&apos;s house at night. She seduces him. He follows like an ox to the slaughter. The Bible doesn&apos;t soften the warning. Don&apos;t walk that street.",
+    ],
+  },
   topicTags: ['wisdom', 'righteousness', 'folly', 'integrity'],
   opener: {
     topical: true,

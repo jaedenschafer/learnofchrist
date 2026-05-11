@@ -19,6 +19,12 @@ export const SONG_5: RichChapterContent = {
   chapter: 5,
 
   estimatedMinutes: { beginner: 1, intermediate: 5, deep: 6 },
+
+  youth: {
+    intros: [
+      "A misunderstanding. The bride doesn&apos;t open the door fast enough. The groom withdraws. She searches. The watchmen beat her. Don&apos;t take Christ&apos;s presence for granted. Open quickly when He knocks.",
+    ],
+  },
   topicTags: ['love', 'family', 'faithfulness', 'humility'],
   opener: {
     topical: true,

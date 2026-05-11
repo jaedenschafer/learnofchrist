@@ -16,6 +16,12 @@ export const ECCLESIASTES_11: RichChapterContent = {
   chapter: 11,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 6 },
+
+  youth: {
+    intros: [
+      "&ldquo;Cast thy bread upon the waters: for thou shalt find it after many days.&rdquo; Be generous and patient. The seed you plant comes back in seasons you can&apos;t predict.",
+    ],
+  },
   opener: {
     matchTitle: /The Voyage of Life/i,
     caption: 'Ecclesiastes 11',

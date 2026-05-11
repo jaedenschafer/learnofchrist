@@ -16,6 +16,12 @@ export const PROVERBS_5: RichChapterContent = {
   chapter: 5,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 6 },
+
+  youth: {
+    intros: [
+      "A father warns his son about sexual sin. The honey of forbidden lips turns to wormwood at the end. &ldquo;Drink waters out of thine own cistern&rdquo; — the metaphor isn&apos;t subtle. Save your sexuality for marriage.",
+    ],
+  },
   topicTags: ['wisdom', 'righteousness', 'folly', 'integrity'],
   opener: {
     topical: true,

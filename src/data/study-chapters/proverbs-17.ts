@@ -14,6 +14,12 @@ export const PROVERBS_17: RichChapterContent = {
   chapter: 17,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "&ldquo;A friend loveth at all times, and a brother is born for adversity.&rdquo; Real friends show up when life gets hard. Be that friend.",
+    ],
+  },
   topicTags: ['wisdom', 'righteousness', 'folly', 'integrity'],
   opener: {
     topical: true,

@@ -15,6 +15,12 @@ export const PROVERBS_11: RichChapterContent = {
   chapter: 11,
 
   estimatedMinutes: { beginner: 1, intermediate: 5, deep: 6 },
+
+  youth: {
+    intros: [
+      "More contrast proverbs. &ldquo;A false balance is abomination to the Lord: but a just weight is his delight.&rdquo; Honesty in business matters to God.",
+    ],
+  },
   topicTags: ['wisdom', 'righteousness', 'folly', 'integrity'],
   opener: {
     topical: true,

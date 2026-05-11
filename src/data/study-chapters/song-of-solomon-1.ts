@@ -16,6 +16,12 @@ export const SONG_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 1, intermediate: 5, deep: 7 },
+
+  youth: {
+    intros: [
+      "A love poem. The bride: &ldquo;Let him kiss me with the kisses of his mouth: for thy love is better than wine.&rdquo; Christians have always read it as a picture of Christ&apos;s love for His bride, the church. Read it both ways.",
+    ],
+  },
   topicTags: ['love', 'family', 'faithfulness', 'humility'],
   opener: {
     topical: true,

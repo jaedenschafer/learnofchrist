@@ -17,6 +17,12 @@ export const ECCLESIASTES_9: RichChapterContent = {
   chapter: 9,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 6 },
+
+  youth: {
+    intros: [
+      "Live the life God gave you. &ldquo;Whatsoever thy hand findeth to do, do it with thy might.&rdquo; Eat, drink, enjoy your work, love your spouse — all gifts from a God who&apos;s already accepted you.",
+    ],
+  },
   topicTags: ['wisdom', 'suffering', 'sovereignty', 'providence'],
   opener: {
     topical: true,

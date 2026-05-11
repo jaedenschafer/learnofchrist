@@ -18,6 +18,12 @@ export const ECCLESIASTES_6: RichChapterContent = {
   chapter: 6,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "A man can have everything and not be able to enjoy any of it. The dissatisfied rich. There&apos;s a dimension to life money can&apos;t reach.",
+    ],
+  },
   topicTags: ['wisdom', 'suffering', 'sovereignty', 'providence'],
   opener: {
     topical: true,

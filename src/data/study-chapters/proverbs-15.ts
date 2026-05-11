@@ -17,6 +17,12 @@ export const PROVERBS_15: RichChapterContent = {
   chapter: 15,
 
   estimatedMinutes: { beginner: 1, intermediate: 6, deep: 7 },
+
+  youth: {
+    intros: [
+      "&ldquo;A soft answer turneth away wrath: but grievous words stir up anger.&rdquo; The tone you choose changes the conversation. Try the soft answer.",
+    ],
+  },
   topicTags: ['wisdom', 'righteousness', 'folly', 'integrity'],
   opener: {
     topical: true,

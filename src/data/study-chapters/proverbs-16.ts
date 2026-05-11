@@ -14,6 +14,12 @@ export const PROVERBS_16: RichChapterContent = {
   chapter: 16,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "&ldquo;Pride goeth before destruction, and an haughty spirit before a fall.&rdquo; Probably the most quoted proverb. Probably the most needed.",
+    ],
+  },
   topicTags: ['wisdom', 'righteousness', 'folly', 'integrity'],
   opener: {
     topical: true,

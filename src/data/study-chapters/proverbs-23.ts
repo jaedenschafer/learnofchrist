@@ -14,6 +14,12 @@ export const PROVERBS_23: RichChapterContent = {
   chapter: 23,
 
   estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
+
+  youth: {
+    intros: [
+      "&ldquo;Look not thou upon the wine when it is red.&rdquo; And: &ldquo;Buy the truth, and sell it not.&rdquo; Truth is worth paying any price to get and keep.",
+    ],
+  },
   topicTags: ['wisdom', 'righteousness', 'folly', 'integrity'],
   opener: {
     topical: true,

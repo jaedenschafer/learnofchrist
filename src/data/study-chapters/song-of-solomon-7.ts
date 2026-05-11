@@ -18,6 +18,12 @@ export const SONG_7: RichChapterContent = {
   chapter: 7,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "More celebration. The bride invites the groom into the fields, into the countryside, into delight. Marriage in Scripture is full of pleasure. Don&apos;t pretend the Bible is squeamish.",
+    ],
+  },
   topicTags: ['love', 'family', 'faithfulness', 'humility'],
   opener: {
     topical: true,

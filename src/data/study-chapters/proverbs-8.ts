@@ -16,6 +16,12 @@ export const PROVERBS_8: RichChapterContent = {
   chapter: 8,
 
   estimatedMinutes: { beginner: 1, intermediate: 5, deep: 6 },
+
+  youth: {
+    intros: [
+      "Wisdom personified — &ldquo;The Lord possessed me in the beginning of his way, before his works of old.&rdquo; Christians have always read this as a picture of Christ, who is the wisdom of God.",
+    ],
+  },
   opener: {
     matchTitle: /The Ancient of Days/i,
     caption: 'Proverbs 8',

@@ -14,6 +14,12 @@ export const PROVERBS_28: RichChapterContent = {
   chapter: 28,
 
   estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
+
+  youth: {
+    intros: [
+      "&ldquo;He that covereth his sins shall not prosper: but whoso confesseth and forsaketh them shall have mercy.&rdquo; Hidden sin doesn&apos;t stay hidden. Confess and find mercy.",
+    ],
+  },
   topicTags: ['wisdom', 'righteousness', 'folly', 'integrity'],
   opener: {
     topical: true,

@@ -15,6 +15,12 @@ export const PROVERBS_13: RichChapterContent = {
   chapter: 13,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "&ldquo;He that walketh with wise men shall be wise: but a companion of fools shall be destroyed.&rdquo; Your friend group is your future. Pick wisely.",
+    ],
+  },
   topicTags: ['wisdom', 'righteousness', 'folly', 'integrity'],
   opener: {
     topical: true,

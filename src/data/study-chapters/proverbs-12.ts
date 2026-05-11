@@ -15,6 +15,12 @@ export const PROVERBS_12: RichChapterContent = {
   chapter: 12,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 6 },
+
+  youth: {
+    intros: [
+      "&ldquo;Whoso loveth instruction loveth knowledge: but he that hateth reproof is brutish.&rdquo; Be the kind of person who can take correction without falling apart.",
+    ],
+  },
   topicTags: ['wisdom', 'righteousness', 'folly', 'integrity'],
   opener: {
     topical: true,

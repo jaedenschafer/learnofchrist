@@ -17,6 +17,12 @@ export const SONG_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 4 },
+
+  youth: {
+    intros: [
+      "The bride searches the streets for her beloved at night. &ldquo;I will rise now, and go about the city…I will seek him whom my soul loveth.&rdquo; If you&apos;ve been distant from God, get up and go look for Him.",
+    ],
+  },
   topicTags: ['love', 'family', 'faithfulness', 'humility'],
   opener: {
     topical: true,

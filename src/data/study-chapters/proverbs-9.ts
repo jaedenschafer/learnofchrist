@@ -15,6 +15,12 @@ export const PROVERBS_9: RichChapterContent = {
   chapter: 9,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "Two women set tables: Wisdom and Folly. Both invite passersby. The naive accept Folly&apos;s invitation. The wise eat at Wisdom&apos;s. Whose dinner are you at tonight?",
+    ],
+  },
   topicTags: ['wisdom', 'righteousness', 'folly', 'integrity'],
   opener: {
     topical: true,

@@ -17,6 +17,12 @@ export const PROVERBS_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 2, intermediate: 7, deep: 10 },
+
+  youth: {
+    intros: [
+      "The book opens: &ldquo;The fear of the Lord is the beginning of knowledge.&rdquo; Then a father&apos;s warning to his son: when sinners entice you, don&apos;t go. Wisdom calls in the streets — most people ignore her until it&apos;s too late.",
+    ],
+  },
   topicTags: ['wisdom', 'righteousness', 'folly', 'integrity'],
   opener: {
     topical: true,

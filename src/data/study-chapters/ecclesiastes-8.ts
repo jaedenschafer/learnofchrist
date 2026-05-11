@@ -17,6 +17,12 @@ export const ECCLESIASTES_8: RichChapterContent = {
   chapter: 8,
 
   estimatedMinutes: { beginner: 1, intermediate: 5, deep: 6 },
+
+  youth: {
+    intros: [
+      "The mystery of God&apos;s timing. &ldquo;Because sentence against an evil work is not executed speedily, therefore the heart of the sons of men is fully set in them to do evil.&rdquo; Slow doesn&apos;t mean no.",
+    ],
+  },
   topicTags: ['wisdom', 'suffering', 'sovereignty', 'providence'],
   opener: {
     topical: true,

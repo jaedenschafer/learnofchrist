@@ -13,6 +13,12 @@ export const PROVERBS_21: RichChapterContent = {
   chapter: 21,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 3 },
+
+  youth: {
+    intros: [
+      "&ldquo;The king&apos;s heart is in the hand of the Lord, as the rivers of water: he turneth it whithersoever he will.&rdquo; God moves the most powerful people on earth like a river. Don&apos;t panic about politicians. Pray for them.",
+    ],
+  },
   topicTags: ['wisdom', 'righteousness', 'folly', 'integrity'],
   opener: {
     topical: true,

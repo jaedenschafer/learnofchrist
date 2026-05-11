@@ -15,6 +15,12 @@ export const PROVERBS_22: RichChapterContent = {
   chapter: 22,
 
   estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
+
+  youth: {
+    intros: [
+      "&ldquo;Train up a child in the way he should go: and when he is old, he will not depart from it.&rdquo; Parents — the early years matter forever. Kids — your training is shaping who you&apos;ll be at fifty.",
+    ],
+  },
   topicTags: ['wisdom', 'righteousness', 'folly', 'integrity'],
   opener: {
     topical: true,

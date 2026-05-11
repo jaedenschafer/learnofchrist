@@ -17,6 +17,12 @@ export const ECCLESIASTES_12: RichChapterContent = {
   chapter: 12,
 
   estimatedMinutes: { beginner: 1, intermediate: 5, deep: 7 },
+
+  youth: {
+    intros: [
+      "The book&apos;s closing call: &ldquo;Remember now thy Creator in the days of thy youth.&rdquo; Then the conclusion: &ldquo;Fear God, and keep his commandments: for this is the whole duty of man.&rdquo; That&apos;s the answer to vanity. Found it.",
+    ],
+  },
   opener: {
     matchTitle: /The Wisdom of Solomon/i,
     caption: 'Ecclesiastes 12',

@@ -15,6 +15,12 @@ export const PROVERBS_14: RichChapterContent = {
   chapter: 14,
 
   estimatedMinutes: { beginner: 1, intermediate: 5, deep: 7 },
+
+  youth: {
+    intros: [
+      "&ldquo;The simple believeth every word: but the prudent man looketh well to his going.&rdquo; Don&apos;t believe everything you read online. Look where you&apos;re stepping.",
+    ],
+  },
   topicTags: ['wisdom', 'righteousness', 'folly', 'integrity'],
   opener: {
     topical: true,

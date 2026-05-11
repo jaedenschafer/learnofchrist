@@ -17,6 +17,12 @@ export const SONG_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 1, intermediate: 5, deep: 7 },
+
+  youth: {
+    intros: [
+      "&ldquo;I am the rose of Sharon, and the lily of the valleys.&rdquo; And: &ldquo;My beloved is mine, and I am his.&rdquo; Belonging to one another, exclusively. The picture of how Christ holds you.",
+    ],
+  },
   opener: {
     matchTitle: /The Rest of the/i,
     caption: 'Song of Solomon 2',

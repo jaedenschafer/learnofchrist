@@ -16,6 +16,12 @@ export const PROVERBS_4: RichChapterContent = {
   chapter: 4,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 6 },
+
+  youth: {
+    intros: [
+      "&ldquo;Keep thy heart with all diligence; for out of it are the issues of life.&rdquo; Your heart is the source of everything else. Guard it more than your phone, your reputation, your future.",
+    ],
+  },
   topicTags: ['wisdom', 'righteousness', 'folly', 'integrity'],
   opener: {
     topical: true,

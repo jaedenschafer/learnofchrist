@@ -14,6 +14,12 @@ export const PROVERBS_30: RichChapterContent = {
   chapter: 30,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "Agur&apos;s words. &ldquo;Two things have I required of thee…remove far from me vanity and lies: give me neither poverty nor riches; feed me with food convenient for me.&rdquo; A prayer for &ldquo;just enough&rdquo; — rare in any culture.",
+    ],
+  },
   topicTags: ['wisdom', 'righteousness', 'folly', 'integrity'],
   opener: {
     topical: true,

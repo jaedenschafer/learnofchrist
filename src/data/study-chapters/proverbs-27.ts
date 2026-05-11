@@ -14,6 +14,12 @@ export const PROVERBS_27: RichChapterContent = {
   chapter: 27,
 
   estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
+
+  youth: {
+    intros: [
+      "&ldquo;Boast not thyself of to morrow; for thou knowest not what a day may bring forth.&rdquo; And: &ldquo;Iron sharpeneth iron; so a man sharpeneth the countenance of his friend.&rdquo;",
+    ],
+  },
   topicTags: ['wisdom', 'righteousness', 'folly', 'integrity'],
   opener: {
     topical: true,

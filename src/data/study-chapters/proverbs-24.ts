@@ -13,6 +13,12 @@ export const PROVERBS_24: RichChapterContent = {
   chapter: 24,
 
   estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
+
+  youth: {
+    intros: [
+      "&ldquo;Be not thou envious against evil men, neither desire to be with them.&rdquo; Don&apos;t envy the people whose lives look fun on the surface. Their end is not what you want.",
+    ],
+  },
   topicTags: ['wisdom', 'righteousness', 'folly', 'integrity'],
   opener: {
     topical: true,

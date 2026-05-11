@@ -18,6 +18,12 @@ export const ECCLESIASTES_4: RichChapterContent = {
   chapter: 4,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 6 },
+
+  youth: {
+    intros: [
+      "The oppressed have no comforter. Two are better than one. Three are even better. &ldquo;A threefold cord is not quickly broken.&rdquo; Don&apos;t go through life solo.",
+    ],
+  },
   topicTags: ['wisdom', 'suffering', 'sovereignty', 'providence'],
   opener: {
     topical: true,

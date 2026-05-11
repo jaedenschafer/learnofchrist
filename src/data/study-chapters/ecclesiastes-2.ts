@@ -16,6 +16,12 @@ export const ECCLESIASTES_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 1, intermediate: 5, deep: 7 },
+
+  youth: {
+    intros: [
+      "Solomon tries everything: pleasure, wine, building, gardens, wealth, music, women. All vanity. &ldquo;The wise man&apos;s eyes are in his head; but the fool walketh in darkness.&rdquo; And both die. So now what?",
+    ],
+  },
   topicTags: ['wisdom', 'suffering', 'sovereignty', 'providence'],
   opener: {
     topical: true,

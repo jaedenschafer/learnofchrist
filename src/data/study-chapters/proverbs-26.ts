@@ -14,6 +14,12 @@ export const PROVERBS_26: RichChapterContent = {
   chapter: 26,
 
   estimatedMinutes: { beginner: 1, intermediate: 2, deep: 2 },
+
+  youth: {
+    intros: [
+      "A whole chapter on fools. &ldquo;Answer not a fool according to his folly, lest thou also be like unto him.&rdquo; AND immediately: &ldquo;Answer a fool according to his folly, lest he be wise in his own conceit.&rdquo; Wisdom knows when to do which.",
+    ],
+  },
   topicTags: ['wisdom', 'righteousness', 'folly', 'integrity'],
   opener: {
     topical: true,

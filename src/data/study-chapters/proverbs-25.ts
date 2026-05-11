@@ -13,6 +13,12 @@ export const PROVERBS_25: RichChapterContent = {
   chapter: 25,
 
   estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
+
+  youth: {
+    intros: [
+      "&ldquo;A word fitly spoken is like apples of gold in pictures of silver.&rdquo; The right word at the right time is precious. Pray for it.",
+    ],
+  },
   topicTags: ['wisdom', 'righteousness', 'folly', 'integrity'],
   opener: {
     topical: true,

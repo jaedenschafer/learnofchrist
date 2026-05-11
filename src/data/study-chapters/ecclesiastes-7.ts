@@ -17,6 +17,12 @@ export const ECCLESIASTES_7: RichChapterContent = {
   chapter: 7,
 
   estimatedMinutes: { beginner: 1, intermediate: 6, deep: 7 },
+
+  youth: {
+    intros: [
+      "&ldquo;Sorrow is better than laughter: for by the sadness of the countenance the heart is made better.&rdquo; Hard seasons sometimes do you more good than parties. Don&apos;t flee them.",
+    ],
+  },
   topicTags: ['wisdom', 'suffering', 'sovereignty', 'providence'],
   opener: {
     topical: true,

@@ -16,6 +16,12 @@ export const ECCLESIASTES_10: RichChapterContent = {
   chapter: 10,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+
+  youth: {
+    intros: [
+      "A chapter of contrasts between the wise and foolish. &ldquo;A bird of the air shall carry the voice…that which hath wings shall tell the matter.&rdquo; Watch what you say. Words travel.",
+    ],
+  },
   topicTags: ['wisdom', 'suffering', 'sovereignty', 'providence'],
   opener: {
     topical: true,

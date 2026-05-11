@@ -17,6 +17,12 @@ export const ECCLESIASTES_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 6 },
+
+  youth: {
+    intros: [
+      "&ldquo;To every thing there is a season, and a time to every purpose under the heaven.&rdquo; Time to be born, time to die, time to weep, time to laugh. He has made everything beautiful in His time.",
+    ],
+  },
   opener: {
     matchTitle: /The Voyage of Life/i,
     caption: 'Ecclesiastes 3',

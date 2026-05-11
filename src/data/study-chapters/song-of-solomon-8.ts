@@ -18,6 +18,12 @@ export const SONG_8: RichChapterContent = {
   chapter: 8,
 
   estimatedMinutes: { beginner: 1, intermediate: 5, deep: 6 },
+
+  youth: {
+    intros: [
+      "&ldquo;Set me as a seal upon thine heart, as a seal upon thine arm: for love is strong as death…many waters cannot quench love.&rdquo; The closing image of the book. Christ&apos;s love for you is exactly that strong.",
+    ],
+  },
   topicTags: ['love', 'family', 'faithfulness', 'humility'],
   opener: {
     topical: true,

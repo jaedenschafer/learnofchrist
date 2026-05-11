@@ -17,6 +17,12 @@ export const ECCLESIASTES_5: RichChapterContent = {
   chapter: 5,
 
   estimatedMinutes: { beginner: 1, intermediate: 6, deep: 7 },
+
+  youth: {
+    intros: [
+      "&ldquo;Be not rash with thy mouth, and let not thine heart be hasty to utter any thing before God.&rdquo; And: &ldquo;He that loveth silver shall not be satisfied with silver.&rdquo; Money never fills you up.",
+    ],
+  },
   topicTags: ['wisdom', 'suffering', 'sovereignty', 'providence'],
   opener: {
     topical: true,

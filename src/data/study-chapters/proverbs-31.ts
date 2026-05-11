@@ -15,6 +15,12 @@ export const PROVERBS_31: RichChapterContent = {
   chapter: 31,
 
   estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
+
+  youth: {
+    intros: [
+      "The wise mother instructs her king-son. Then the famous portrait of the worthy woman: hardworking, generous, wise, fearing the Lord. The whole book ends pointing at her — a real human picture of wisdom in motion.",
+    ],
+  },
   topicTags: ['wisdom', 'righteousness', 'folly', 'integrity'],
   opener: {
     topical: true,

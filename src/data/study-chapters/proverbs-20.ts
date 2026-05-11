@@ -13,6 +13,12 @@ export const PROVERBS_20: RichChapterContent = {
   chapter: 20,
 
   estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
+
+  youth: {
+    intros: [
+      "&ldquo;Wine is a mocker, strong drink is raging: and whosoever is deceived thereby is not wise.&rdquo; Watch what you put in your body. Watch what you let make decisions for you.",
+    ],
+  },
   topicTags: ['wisdom', 'righteousness', 'folly', 'integrity'],
   opener: {
     topical: true,

@@ -16,6 +16,12 @@ export const PROVERBS_10: RichChapterContent = {
   chapter: 10,
 
   estimatedMinutes: { beginner: 1, intermediate: 5, deep: 7 },
+
+  youth: {
+    intros: [
+      "Solomon&apos;s individual proverbs begin. Quick, sharp contrasts. &ldquo;The fear of the Lord prolongeth days: but the years of the wicked shall be shortened.&rdquo;",
+    ],
+  },
   topicTags: ['wisdom', 'righteousness', 'folly', 'integrity'],
   opener: {
     topical: true,

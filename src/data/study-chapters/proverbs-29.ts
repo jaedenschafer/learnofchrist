@@ -13,6 +13,12 @@ export const PROVERBS_29: RichChapterContent = {
   chapter: 29,
 
   estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
+
+  youth: {
+    intros: [
+      "&ldquo;Where there is no vision, the people perish.&rdquo; And: &ldquo;The fear of man bringeth a snare: but whoso putteth his trust in the Lord shall be safe.&rdquo; Don&apos;t be ruled by what people think of you.",
+    ],
+  },
   topicTags: ['wisdom', 'righteousness', 'folly', 'integrity'],
   opener: {
     topical: true,

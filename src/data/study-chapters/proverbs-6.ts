@@ -16,6 +16,12 @@ export const PROVERBS_6: RichChapterContent = {
   chapter: 6,
 
   estimatedMinutes: { beginner: 1, intermediate: 5, deep: 6 },
+
+  youth: {
+    intros: [
+      "Don&apos;t cosign loans for strangers. Go to the ant — observe how she works without a boss. Six things God hates: pride, lies, murder, evil schemes, fast feet to wickedness, false witnesses, troublemakers.",
+    ],
+  },
   topicTags: ['wisdom', 'righteousness', 'folly', 'integrity'],
   opener: {
     topical: true,
