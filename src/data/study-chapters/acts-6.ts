@@ -19,7 +19,7 @@ export const ACTS_6: RichChapterContent = {
   youth: {
     intros: [
       "The Greek-speaking widows are getting overlooked in the daily food distribution. The apostles refuse to drop preaching to manage logistics, so the church picks seven trusted men to handle it. Two of them — Stephen and Philip — turn out to be world-shaking evangelists.",
-      "The lesson runs both ways. Don't dismiss small admin work; God uses it to surface unexpected leaders. And don't pretend the small admin doesn't matter; the people being missed are the people God notices first.",
+      "The lesson runs both ways. Don&apos;t dismiss small admin work; God uses it to surface unexpected leaders. And don&apos;t pretend the small admin doesn&apos;t matter; the people being missed are the people God notices first.",
     ],
   },
 

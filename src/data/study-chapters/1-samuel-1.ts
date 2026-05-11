@@ -18,17 +18,17 @@ export const SAMUEL_1_1: RichChapterContent = {
 
   youth: {
     intros: [
-      "Hannah can't have a kid. Her sister-wife mocks her every year on the trip to the tabernacle. Eventually Hannah cracks — she stops eating, goes to the temple, prays so hard the priest thinks she's drunk. She tells God: if You give me a son, he's Yours.",
-      "God remembers her. Samuel is born — the prophet who will anoint Israel's first two kings. The pattern starts here and runs forward: closed wombs opened, prayers answered, a child given back to God. It crests with another woman's prayer in Nazareth, and a Son named Jesus.",
+      "Hannah can&apos;t have a kid. Her sister-wife mocks her every year on the trip to the tabernacle. Eventually Hannah cracks — she stops eating, goes to the temple, prays so hard the priest thinks she&apos;s drunk. She tells God: if You give me a son, he&apos;s Yours.",
+      "God remembers her. Samuel is born — the prophet who will anoint Israel&apos;s first two kings. The pattern starts here and runs forward: closed wombs opened, prayers answered, a child given back to God. It crests with another woman&apos;s prayer in Nazareth, and a Son named Jesus.",
     ],
   },
 
   christIndexSummary:
-    'Hannah is the first in a long line of barren women to whom God gives a son for the sake of His unfolding plan — Sarah, Rebekah, Rachel, Hannah, Elizabeth, and finally the virgin Mary. Samuel is the answer to a single woman’s prayer; Jesus is the answer to a whole creation’s.',
+    'Hannah is the first in a long line of barren women to whom God gives a son for the sake of His unfolding plan — Sarah, Rebekah, Rachel, Hannah, Elizabeth, and finally the virgin Mary. Samuel is the answer to a single woman&apos;s prayer; Jesus is the answer to a whole creation&apos;s.',
 
   characters: [
-    { slug: 'hannah', role: 'The barren woman whose prayer turns Israel’s page' },
-    { slug: 'elkanah', role: 'Hannah’s husband; loved her in her grief' },
+    { slug: 'hannah', role: 'The barren woman whose prayer turns Israel&apos;s page' },
+    { slug: 'elkanah', role: 'Hannah&apos;s husband; loved her in her grief' },
     { slug: 'eli', role: 'High priest at Shiloh; mistakes her silent prayer for drunkenness' },
   ],
   intros: [

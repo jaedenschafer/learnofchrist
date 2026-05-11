@@ -28,16 +28,16 @@ export const ACTS_16: RichChapterContent = {
   youth: {
     intros: [
       "The Spirit forbids Paul to preach in Asia. A vision in Troas: a man from Macedonia pleading 'come over and help us.' Paul takes a boat into Europe. In Philippi: Lydia opens her heart, an enslaved girl is freed, Paul and Silas get beaten and thrown in jail, sing hymns at midnight, an earthquake shakes the prison, the jailer asks 'what must I do to be saved?' His whole household is baptized before dawn.",
-      "Three conversions in one chapter — wealthy, enslaved, official. The gospel reaches every layer of the city in one day. And it reached two of those people because two prisoners chose to sing instead of curse. Your reaction to the worst night is somebody else's gospel.",
+      "Three conversions in one chapter — wealthy, enslaved, official. The gospel reaches every layer of the city in one day. And it reached two of those people because two prisoners chose to sing instead of curse. Your reaction to the worst night is somebody else&apos;s gospel.",
     ],
   },
 
   christIndexSummary:
-    'Three conversions in one chapter — wealthy Lydia, an enslaved girl, and a Roman jailer — name the gospel’s reach across class and gender and power. At midnight Paul and Silas sing in chains; an earthquake breaks the prison; a man asks "what must I do to be saved?" and a household is baptized before dawn. The Christ of Acts 16 is the Lord of every layer of the empire.',
+    'Three conversions in one chapter — wealthy Lydia, an enslaved girl, and a Roman jailer — name the gospel&apos;s reach across class and gender and power. At midnight Paul and Silas sing in chains; an earthquake breaks the prison; a man asks "what must I do to be saved?" and a household is baptized before dawn. The Christ of Acts 16 is the Lord of every layer of the empire.',
 
   characters: [
     { slug: 'paul', role: 'Apostle on his second missionary journey' },
-    { slug: 'silas', role: 'Paul’s partner; sang hymns at midnight in jail' },
+    { slug: 'silas', role: 'Paul&apos;s partner; sang hymns at midnight in jail' },
     { slug: 'timothy', role: 'Joins the team in Lystra' },
     { slug: 'lydia' },
     { slug: 'philippian-jailer' },
@@ -48,11 +48,11 @@ export const ACTS_16: RichChapterContent = {
     places: [
       { name: 'Antioch', x: 0.85, y: 0.66, kind: 'origin', note: 'Where the journey began (Acts 15)' },
       { name: 'Lystra', x: 0.74, y: 0.50, kind: 'visit', note: 'Timothy joins the team' },
-      { name: 'Troas', x: 0.59, y: 0.40, kind: 'visit', note: 'Paul’s vision of the man from Macedonia' },
+      { name: 'Troas', x: 0.59, y: 0.40, kind: 'visit', note: 'Paul&apos;s vision of the man from Macedonia' },
       { name: 'Philippi', x: 0.49, y: 0.38, kind: 'travel-to', note: 'Lydia, the slave girl, the jailer — three conversions' },
     ],
     route: [0, 1, 2, 3],
-    caption: 'Paul’s second journey crosses from Asia into Europe — Antioch → Lystra → Troas → Philippi.',
+    caption: 'Paul&apos;s second journey crosses from Asia into Europe — Antioch → Lystra → Troas → Philippi.',
   },
 
   intros: [

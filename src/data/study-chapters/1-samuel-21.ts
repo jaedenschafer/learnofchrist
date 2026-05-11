@@ -21,14 +21,14 @@ export const SAMUEL_1_21: RichChapterContent = {
 
   youth: {
     intros: [
-      "David is on the run with nothing — no food, no weapon, no plan. He stops at Nob, lies to the priest Ahimelech (it'll cost the priest his life later), eats the holy bread, and walks out with Goliath's old sword. Then he runs to Gath, Goliath's hometown, and has to fake insanity to escape.",
-      "It's a low chapter. The future king of Israel drooling in his beard at the gate of his enemy. Most of us spend more time in our own version of this scene than in the highlight reels. God doesn't drop you in your low chapters; the throne is still coming.",
+      "David is on the run with nothing — no food, no weapon, no plan. He stops at Nob, lies to the priest Ahimelech (it&apos;ll cost the priest his life later), eats the holy bread, and walks out with Goliath&apos;s old sword. Then he runs to Gath, Goliath&apos;s hometown, and has to fake insanity to escape.",
+      "It&apos;s a low chapter. The future king of Israel drooling in his beard at the gate of his enemy. Most of us spend more time in our own version of this scene than in the highlight reels. God doesn&apos;t drop you in your low chapters; the throne is still coming.",
     ],
   },
 
   characters: [
     { slug: 'david', role: 'A king-anointed fugitive on the run' },
-    { slug: 'ahimelech', role: 'Gives him the showbread and Goliath’s sword' },
+    { slug: 'ahimelech', role: 'Gives him the showbread and Goliath&apos;s sword' },
     { slug: 'achish', role: 'King of Gath, before whom David feigns madness' },
   ],
   intros: [

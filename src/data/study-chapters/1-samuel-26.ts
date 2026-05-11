@@ -21,7 +21,7 @@ export const SAMUEL_1_26: RichChapterContent = {
 
   youth: {
     intros: [
-      "David sneaks into Saul's camp at night while he's sleeping and grabs his spear and water jug. His man Abishai whispers 'let me strike him once.' David refuses again: 'who can stretch forth his hand against the Lord's anointed, and be guiltless?'",
+      "David sneaks into Saul&apos;s camp at night while he&apos;s sleeping and grabs his spear and water jug. His man Abishai whispers 'let me strike him once.' David refuses again: 'who can stretch forth his hand against the Lord&apos;s anointed, and be guiltless?'",
       "Saul wakes up across the valley to find his own spear stuck in the ground beside him. He shouts: 'I have sinned… I have played the fool, and have erred exceedingly.' Confession without change. The next chapter, David is back on the run.",
     ],
   },

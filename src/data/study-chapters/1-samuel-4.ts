@@ -18,13 +18,13 @@ export const SAMUEL_1_4: RichChapterContent = {
 
   youth: {
     intros: [
-      "Israel loses a battle, then has the bright idea to drag the ark of the covenant onto the field, like a magic talisman. They lose worse. Eli's two corrupt sons die. The ark is captured. Eli falls off his chair and breaks his neck when he hears.",
-      "His daughter-in-law, dying in childbirth, names her son Ichabod — 'the glory has departed.' The lesson is still loud: God isn't a charm to weaponize. The presence Israel tried to manipulate is the presence Christ would later carry inside Himself.",
+      "Israel loses a battle, then has the bright idea to drag the ark of the covenant onto the field, like a magic talisman. They lose worse. Eli&apos;s two corrupt sons die. The ark is captured. Eli falls off his chair and breaks his neck when he hears.",
+      "His daughter-in-law, dying in childbirth, names her son Ichabod — 'the glory has departed.' The lesson is still loud: God isn&apos;t a charm to weaponize. The presence Israel tried to manipulate is the presence Christ would later carry inside Himself.",
     ],
   },
 
   characters: [
-    { slug: 'eli', role: 'Falls dead at the news of the ark’s capture' },
+    { slug: 'eli', role: 'Falls dead at the news of the ark&apos;s capture' },
     { slug: 'eli-sons', role: 'Killed at the battle of Aphek' },
   ],
   intros: [

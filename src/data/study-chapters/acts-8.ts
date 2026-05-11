@@ -19,7 +19,7 @@ export const ACTS_8: RichChapterContent = {
   youth: {
     intros: [
       "The persecution that murdered Stephen scatters the believers — and they preach as they go. Philip ends up in Samaria. People believe. Then an angel sends him out to a desert road to meet an Ethiopian official reading Isaiah 53 in his chariot. Philip jumps up, explains the chapter, baptizes him on the spot.",
-      "The gospel reaches Africa decades before any other recorded mission, on a desert road, through one believer who said yes to a strange route. Pay attention to the Spirit's nudges. The strangest detour might be the assignment.",
+      "The gospel reaches Africa decades before any other recorded mission, on a desert road, through one believer who said yes to a strange route. Pay attention to the Spirit&apos;s nudges. The strangest detour might be the assignment.",
     ],
   },
 

@@ -28,8 +28,8 @@ export const EXODUS_12: RichChapterContent = {
 
   youth: {
     intros: [
-      "Israel's last night in Egypt: every household kills a lamb, paints its blood on the doorframe, eats fast, and waits. The death angel passes through. Where the blood is, death passes over. Where it isn't, the firstborn dies.",
-      "Paul will later write one line to the Corinthians that explains the whole night: 'Christ our Passover is sacrificed for us.' The Lamb's blood on the door is the cross before the cross. The first communion in the upper room is Jesus reframing this very meal around Himself.",
+      "Israel&apos;s last night in Egypt: every household kills a lamb, paints its blood on the doorframe, eats fast, and waits. The death angel passes through. Where the blood is, death passes over. Where it isn&apos;t, the firstborn dies.",
+      "Paul will later write one line to the Corinthians that explains the whole night: 'Christ our Passover is sacrificed for us.' The Lamb&apos;s blood on the door is the cross before the cross. The first communion in the upper room is Jesus reframing this very meal around Himself.",
     ],
   },
 

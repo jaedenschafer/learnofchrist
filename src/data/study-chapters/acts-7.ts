@@ -21,13 +21,13 @@ export const ACTS_7: RichChapterContent = {
 
   youth: {
     intros: [
-      "Stephen preaches the longest sermon in Acts: a tour of Israel's history that keeps showing the same pattern — God sends, Israel rejects. He ends with 'ye stiffnecked… ye do always resist the Holy Ghost.' They drag him out and stone him.",
+      "Stephen preaches the longest sermon in Acts: a tour of Israel&apos;s history that keeps showing the same pattern — God sends, Israel rejects. He ends with 'ye stiffnecked… ye do always resist the Holy Ghost.' They drag him out and stone him.",
       "He dies seeing Jesus standing at the right hand of God, praying 'Lord, lay not this sin to their charge.' Standing there holding the coats: a young Pharisee named Saul. The death of Stephen is the seed of Acts 11 onward. Faithfulness in your hardest moment is rarely wasted.",
     ],
   },
 
   characters: [
-    { slug: 'stephen', role: 'Preaches the long sermon; sees Jesus standing at God’s right hand' },
+    { slug: 'stephen', role: 'Preaches the long sermon; sees Jesus standing at God&apos;s right hand' },
     { slug: 'paul', role: 'Standing nearby, holding the coats of the men who stoned him' },
   ],
   opener: {

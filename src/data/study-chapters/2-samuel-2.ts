@@ -25,15 +25,15 @@ export const SAMUEL_2_2: RichChapterContent = {
 
   youth: {
     intros: [
-      "David is anointed king over Judah at Hebron. The northern tribes hold out for Saul's son Ish-bosheth. Civil war begins. The first blood is Joab's brother Asahel, killed by Abner. Joab's revenge clock starts ticking and won't stop until next chapter.",
-      "Even God-given kings inherit a long mess. The peaceful coronation isn't immediate. David will need patience — a virtue easier to admire from the outside than to grow inside yourself.",
+      "David is anointed king over Judah at Hebron. The northern tribes hold out for Saul&apos;s son Ish-bosheth. Civil war begins. The first blood is Joab&apos;s brother Asahel, killed by Abner. Joab&apos;s revenge clock starts ticking and won&apos;t stop until next chapter.",
+      "Even God-given kings inherit a long mess. The peaceful coronation isn&apos;t immediate. David will need patience — a virtue easier to admire from the outside than to grow inside yourself.",
     ],
   },
 
   characters: [
     { slug: 'david', role: 'Made king over Judah at Hebron' },
     { slug: 'joab', role: 'Avenges his brother Asahel against Abner' },
-    { slug: 'abner', role: 'Backs Saul’s son Ish-bosheth in the north' },
+    { slug: 'abner', role: 'Backs Saul&apos;s son Ish-bosheth in the north' },
   ],
   intros: [
     'Saul is dead. David has been anointed. But the kingdom is not yet united. Saul&apos;s son Ish-bosheth still lives, and the northern tribes have rallied behind him. Now we watch what happens when a nation divides against itself — when two kings claim the same throne, and the armies that follow them must meet.',

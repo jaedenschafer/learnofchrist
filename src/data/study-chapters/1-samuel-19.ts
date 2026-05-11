@@ -19,15 +19,15 @@ export const SAMUEL_1_19: RichChapterContent = {
 
   youth: {
     intros: [
-      "Saul tries to kill David in three different ways in one chapter: the spear in the room, the assassins at the house, and finally pursuing him to Samuel. Each time God shields him — Jonathan warns him, Michal lowers him out the window, the Spirit overpowers Saul's hit squad.",
-      "When God says you're His, all the murder in the world doesn't get the last word. That's not a license for recklessness; it's a settled spine for hard days at school, hard texts, hard nights. He keeps the ones He calls.",
+      "Saul tries to kill David in three different ways in one chapter: the spear in the room, the assassins at the house, and finally pursuing him to Samuel. Each time God shields him — Jonathan warns him, Michal lowers him out the window, the Spirit overpowers Saul&apos;s hit squad.",
+      "When God says you&apos;re His, all the murder in the world doesn&apos;t get the last word. That&apos;s not a license for recklessness; it&apos;s a settled spine for hard days at school, hard texts, hard nights. He keeps the ones He calls.",
     ],
   },
 
   characters: [
-    { slug: 'david', role: 'Hunted by Saul; spared by Saul’s own children' },
-    { slug: 'jonathan', role: 'Pleads David’s case before his raging father' },
-    { slug: 'saul', role: 'Throws the spear that misses; sends men to David’s house' },
+    { slug: 'david', role: 'Hunted by Saul; spared by Saul&apos;s own children' },
+    { slug: 'jonathan', role: 'Pleads David&apos;s case before his raging father' },
+    { slug: 'saul', role: 'Throws the spear that misses; sends men to David&apos;s house' },
   ],
   intros: [
     'Chapter 19 shows Saul in full descent into madness and paranoia. Jonathan&apos;s words from chapter 18 — his reasoned, faithful plea — seemed to work: Saul swore an oath that David would not be killed. But an oath, for Saul, is only as steady as his next fit of anger. When the evil spirit touches him again, the javelin comes out, and all the king&apos;s promises collapse.',

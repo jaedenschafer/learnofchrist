@@ -24,7 +24,7 @@ export const ACTS_20: RichChapterContent = {
   youth: {
     intros: [
       "At Troas, Paul preaches so long a young man named Eutychus falls asleep in a third-story window and tumbles out dead. Paul goes down, raises him, and finishes the sermon. Later at Miletus, he calls the Ephesian elders and gives them his goodbye: 'Take heed therefore unto yourselves, and to all the flock.' He warns them, weeps with them, prays with them. They walk him to the ship.",
-      "What does the end of a faithful life look like? Hands open, no regrets, telling the next leaders what they need to know. Live now in a way you'd be okay finishing later.",
+      "What does the end of a faithful life look like? Hands open, no regrets, telling the next leaders what they need to know. Live now in a way you&apos;d be okay finishing later.",
     ],
   },
 
@@ -39,7 +39,7 @@ export const ACTS_20: RichChapterContent = {
       { name: 'Miletus', x: 0.58, y: 0.46, kind: 'travel-to', note: 'Farewell address to the Ephesian elders' },
     ],
     route: [0, 1],
-    caption: 'Paul’s southward voyage along the Aegean coast on his way to Jerusalem.',
+    caption: 'Paul&apos;s southward voyage along the Aegean coast on his way to Jerusalem.',
   },
   intros: [
     'Paul is traveling through Macedonia and Greece, visiting the churches he has planted. His companions are with him—men from Thessalonica, Berea, Galatia, Asia, and beyond. Everywhere he goes, he strengthens the disciples, his presence a kind of visible ministry of encouragement. But as he travels, something is changing inside him. The Spirit has been telling him for weeks that bonds and afflictions await in Jerusalem. He cannot turn back. He cannot protect himself. He is bound in spirit toward a fate he cannot escape.',

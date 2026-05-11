@@ -23,12 +23,12 @@ export const MATTHEW_2: RichChapterContent = {
   youth: {
     intros: [
       "Wise men from the east show up looking for the king of the Jews. Herod fakes interest, then tries to murder every two-and-under in Bethlehem. Joseph takes Mary and the baby to Egypt overnight. The family that fled is now also a refugee family.",
-      "Out of Egypt have I called my son. Christ relives Israel's whole story in his infancy — succeeding where Israel had failed. Even the running-for-his-life part is gospel.",
+      "Out of Egypt have I called my son. Christ relives Israel&apos;s whole story in his infancy — succeeding where Israel had failed. Even the running-for-his-life part is gospel.",
     ],
   },
 
   christIndexSummary:
-    'The wise men come from the east; Herod tries to kill the child; the family flees to Egypt and comes back so that "out of Egypt have I called my son." Christ relives Israel’s story in His own infancy, succeeding where Israel had failed, and showing from the beginning that the gospel reaches Gentiles before His own city receives Him.',
+    'The wise men come from the east; Herod tries to kill the child; the family flees to Egypt and comes back so that "out of Egypt have I called my son." Christ relives Israel&apos;s story in His own infancy, succeeding where Israel had failed, and showing from the beginning that the gospel reaches Gentiles before His own city receives Him.',
   opener: {
     matchTitle: /The Adoration of the/i,
     caption: 'Matthew 2',

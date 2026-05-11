@@ -21,7 +21,7 @@ export const PSALMS_22: RichChapterContent = {
   youth: {
     intros: [
       "The psalm Jesus quoted from the cross: 'My God, my God, why hast thou forsaken me?' It opens in agony — bones out of joint, hands and feet pierced, garments divided by lot. The crucifixion is described in detail a thousand years before it happens.",
-      "But the psalm doesn't stay there. By the end, 'all the ends of the earth shall remember and turn unto the Lord.' Lament becomes worship. The cross is followed by the resurrection that started a global mission.",
+      "But the psalm doesn&apos;t stay there. By the end, 'all the ends of the earth shall remember and turn unto the Lord.' Lament becomes worship. The cross is followed by the resurrection that started a global mission.",
     ],
   },
 

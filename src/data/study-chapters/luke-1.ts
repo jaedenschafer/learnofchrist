@@ -20,13 +20,13 @@ export const LUKE_1: RichChapterContent = {
 
   youth: {
     intros: [
-      "Two impossible pregnancies. Old Elizabeth gets pregnant; her cousin Mary, a virgin, gets pregnant. Mary visits Elizabeth and the baby in Elizabeth's belly leaps. Mary sings the Magnificat, an echo of Hannah a thousand years earlier.",
-      "The whole Old Testament's pattern of God opening closed wombs to carry out His plan crests in this chapter. The Forerunner and the Christ are both kicking inside their mothers. The new world is already starting to move.",
+      "Two impossible pregnancies. Old Elizabeth gets pregnant; her cousin Mary, a virgin, gets pregnant. Mary visits Elizabeth and the baby in Elizabeth&apos;s belly leaps. Mary sings the Magnificat, an echo of Hannah a thousand years earlier.",
+      "The whole Old Testament&apos;s pattern of God opening closed wombs to carry out His plan crests in this chapter. The Forerunner and the Christ are both kicking inside their mothers. The new world is already starting to move.",
     ],
   },
 
   christIndexSummary:
-    'Two wombs once closed are opened — Elizabeth’s and Mary’s — and the songs that follow (Mary’s Magnificat, Zacharias’s Benedictus) name the long-promised Christ as already arriving. Mary echoes Hannah; the Forerunner leaps in his mother’s belly. The whole Old Testament’s opening-the-barren-womb pattern crests in this one chapter.',
+    'Two wombs once closed are opened — Elizabeth&apos;s and Mary&apos;s — and the songs that follow (Mary&apos;s Magnificat, Zacharias&apos;s Benedictus) name the long-promised Christ as already arriving. Mary echoes Hannah; the Forerunner leaps in his mother&apos;s belly. The whole Old Testament&apos;s opening-the-barren-womb pattern crests in this one chapter.',
   opener: {
     matchTitle: /The Annunciation/i,
     caption: 'Luke 1',

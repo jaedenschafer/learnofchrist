@@ -22,7 +22,7 @@ export const SAMUEL_1_14: RichChapterContent = {
   youth: {
     intros: [
       "While Saul sits under a pomegranate tree second-guessing himself, his son Jonathan and his armor-bearer climb a cliff face into a Philistine garrison and rout it. The whole army wakes up to chaos and joins the rout.",
-      "Then Saul makes a stupid vow: no eating until evening. Jonathan, who hadn't heard, dips his staff in honey. By nightfall Saul is ready to execute his own son for it. The army stops him. The pattern is set: God is winning battles around Saul; Saul keeps tripping over himself.",
+      "Then Saul makes a stupid vow: no eating until evening. Jonathan, who hadn&apos;t heard, dips his staff in honey. By nightfall Saul is ready to execute his own son for it. The army stops him. The pattern is set: God is winning battles around Saul; Saul keeps tripping over himself.",
     ],
   },
 

@@ -20,7 +20,7 @@ export const ISAIAH_53: RichChapterContent = {
   youth: {
     intros: [
       "The chapter that quietly hangs over the New Testament. He had no beauty that we should desire him. He was despised and rejected. He bore our griefs. He was wounded for our transgressions. With his stripes we are healed.",
-      "Philip used this very chapter to preach Jesus to an Ethiopian official on the desert road. Read it twice — once trying to figure out who Isaiah is talking about, once knowing it's Jesus. Every line lands.",
+      "Philip used this very chapter to preach Jesus to an Ethiopian official on the desert road. Read it twice — once trying to figure out who Isaiah is talking about, once knowing it&apos;s Jesus. Every line lands.",
     ],
   },
 

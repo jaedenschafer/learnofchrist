@@ -17,14 +17,14 @@ export const SAMUEL_1_9: RichChapterContent = {
 
   youth: {
     intros: [
-      "Saul is out looking for his father's lost donkeys. He stumbles into a town and into the prophet Samuel, who's been waiting for him. The next thing he knows, oil is being poured on his head and he's the future king of Israel.",
+      "Saul is out looking for his father&apos;s lost donkeys. He stumbles into a town and into the prophet Samuel, who&apos;s been waiting for him. The next thing he knows, oil is being poured on his head and he&apos;s the future king of Israel.",
       "Saul starts humble and tall. The donkeys are forgotten because the kingdom is given. Watch how this reign begins — and watch what slowly hollows out as the chapters unfold.",
     ],
   },
 
   characters: [
     { slug: 'saul', role: 'A tall, humble Benjamite searching for lost donkeys' },
-    { slug: 'samuel', role: 'The seer who anoints Israel’s first king' },
+    { slug: 'samuel', role: 'The seer who anoints Israel&apos;s first king' },
   ],
   intros: [
     'Kish of Benjamin had lost his asses, and sent his son Saul to find them. The search, which stretches across three lands, becomes the occasion for an encounter with Samuel the prophet. Before Saul knows who he is looking for, God has already told Samuel who is coming. Before Saul understands his own calling, God has already prepared a portion and a place. The chapter turns on a simple economy: looking for one thing, we find another; and often the thing we find is what we needed all along.',

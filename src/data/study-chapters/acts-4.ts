@@ -21,14 +21,14 @@ export const ACTS_4: RichChapterContent = {
   youth: {
     intros: [
       "Peter and John get arrested for healing the lame man. The Sanhedrin orders them to stop preaching about Jesus. Peter answers: 'Whether it be right in the sight of God to hearken unto you more than unto God, judge ye.' They go back to the church and pray for boldness, not safety.",
-      "When the apostles asked God for what they wanted, they didn't ask Him to make persecution stop. They asked Him to make them braver inside it. That's the prayer worth borrowing the next time school or work asks you to keep your mouth shut.",
+      "When the apostles asked God for what they wanted, they didn&apos;t ask Him to make persecution stop. They asked Him to make them braver inside it. That&apos;s the prayer worth borrowing the next time school or work asks you to keep your mouth shut.",
     ],
   },
 
   characters: [
     { slug: 'peter', role: 'Filled with the Spirit, addresses the Sanhedrin' },
     { slug: 'john-apostle', role: 'Stands beside Peter under arrest' },
-    { slug: 'barnabas', role: 'Sells a field and lays the money at the apostles’ feet' },
+    { slug: 'barnabas', role: 'Sells a field and lays the money at the apostles&apos; feet' },
   ],
   intros: [
     'Peter and John have just healed the lame beggar and spoken boldly to the crowds about Jesus. Now they are arrested. The very next morning they stand before the Sanhedrin[res:bibleodyssey-sanhedrin] — the council of seventy elders that had condemned Jesus to death. Peter might have been afraid. Instead, filled with the Holy Ghost, he declares that the lame man is made whole by the power of the name of Jesus Christ. The council is stunned. They recognize that Peter and John have been with Jesus.',

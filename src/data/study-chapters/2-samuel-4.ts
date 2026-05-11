@@ -19,7 +19,7 @@ export const SAMUEL_2_4: RichChapterContent = {
   estimatedMinutes: { beginner: 3, intermediate: 8, deep: 10 },
 
   characters: [
-    { slug: 'david', role: 'Executes the men who murdered Saul’s son in his bed' },
+    { slug: 'david', role: 'Executes the men who murdered Saul&apos;s son in his bed' },
   ],
   topicTags: ['kingship', 'repentance', 'leadership', 'covenant'],
   opener: {

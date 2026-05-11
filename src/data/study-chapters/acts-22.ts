@@ -24,7 +24,7 @@ export const ACTS_22: RichChapterContent = {
   youth: {
     intros: [
       "Standing on the steps of the Antonia, beaten and in chains, Paul tells the crowd his Damascus-road story for the first of three times in the book. He speaks in their language, frames the call as a Jewish hope, names the prophet Ananias, the temple vision, the commission to the Gentiles — and at the word 'Gentiles' the crowd erupts.",
-      "Notice what set them off. Not the resurrection. Not the law. The idea that God's mercy includes 'them.' Most of the friction inside religious people, then and now, is over the door God keeps trying to open wider.",
+      "Notice what set them off. Not the resurrection. Not the law. The idea that God&apos;s mercy includes 'them.' Most of the friction inside religious people, then and now, is over the door God keeps trying to open wider.",
     ],
   },
 

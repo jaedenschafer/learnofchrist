@@ -21,7 +21,7 @@ export const SAMUEL_1_15: RichChapterContent = {
   youth: {
     intros: [
       "Saul is told to wipe out Amalek and keep nothing. He keeps the king and the best of the livestock 'to sacrifice to the Lord' — his cover story. Samuel sees through it instantly. 'Hath the Lord as great delight in burnt offerings… as in obeying the voice of the Lord?'",
-      "Then the line that keeps cutting across the centuries: 'to obey is better than sacrifice.' You can't substitute religious activity for actually doing what God said. Saul learns it too late. The Spirit will leave him in the next chapter.",
+      "Then the line that keeps cutting across the centuries: 'to obey is better than sacrifice.' You can&apos;t substitute religious activity for actually doing what God said. Saul learns it too late. The Spirit will leave him in the next chapter.",
     ],
   },
 

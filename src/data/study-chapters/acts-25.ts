@@ -26,8 +26,8 @@ export const ACTS_25: RichChapterContent = {
 
   youth: {
     intros: [
-      "Festus, the new procurator, wants to do the Jews a favor and send Paul back to Jerusalem to be tried. Paul knows it's a death sentence. He plays his trump card: 'I appeal unto Caesar.' That changes everything. He's going to Rome.",
-      "Paul used the legal system the empire gave him without any drama. He didn't pretend to be above it; he didn't worship it either. He used it. There's a wisdom in that — knowing when to stand on your rights and when to lay them down.",
+      "Festus, the new procurator, wants to do the Jews a favor and send Paul back to Jerusalem to be tried. Paul knows it&apos;s a death sentence. He plays his trump card: 'I appeal unto Caesar.' That changes everything. He&apos;s going to Rome.",
+      "Paul used the legal system the empire gave him without any drama. He didn&apos;t pretend to be above it; he didn&apos;t worship it either. He used it. There&apos;s a wisdom in that — knowing when to stand on your rights and when to lay them down.",
     ],
   },
 

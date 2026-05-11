@@ -23,7 +23,7 @@ export const SAMUEL_1_16: RichChapterContent = {
 
   youth: {
     intros: [
-      "Samuel goes to Bethlehem under cover, looking for Israel's next king among Jesse's sons. The oldest is impressive — tall, kingly. Samuel almost anoints him. Then the line that reframes how God picks people: 'man looketh on the outward appearance, but the Lord looketh on the heart.'",
+      "Samuel goes to Bethlehem under cover, looking for Israel&apos;s next king among Jesse&apos;s sons. The oldest is impressive — tall, kingly. Samuel almost anoints him. Then the line that reframes how God picks people: 'man looketh on the outward appearance, but the Lord looketh on the heart.'",
       "Seven sons pass. Samuel asks if there are more. 'There remaineth yet the youngest, and, behold, he keepeth the sheep.' The youngest, the overlooked, the shepherd. Bethlehem will hold one more shepherd-king a thousand years later.",
     ],
   },
@@ -32,21 +32,21 @@ export const SAMUEL_1_16: RichChapterContent = {
     'David is the great Old Testament type of Christ — the youngest, the overlooked, the shepherd anointed in secret. The Lord looks not on outward appearance but on the heart, and He chose a son of Bethlehem. A thousand years later, Bethlehem holds another shepherd-king, and a heart no one had ever seen until then.',
 
   characters: [
-    { slug: 'samuel', role: 'Sent to anoint Israel’s next king' },
+    { slug: 'samuel', role: 'Sent to anoint Israel&apos;s next king' },
     { slug: 'david', role: 'The youngest son, called in from the sheep' },
     { slug: 'jesse', role: 'The Bethlehemite father of eight sons' },
-    { slug: 'saul', role: 'The rejected king, whom David’s harp now soothes' },
+    { slug: 'saul', role: 'The rejected king, whom David&apos;s harp now soothes' },
   ],
 
   map: {
     preset: 'judea',
     places: [
-      { name: 'Ramah', x: 0.40, y: 0.32, kind: 'origin', note: 'Samuel’s home before the journey' },
-      { name: 'Bethlehem', x: 0.42, y: 0.46, kind: 'travel-to', note: 'Jesse’s house — the secret anointing' },
-      { name: 'Gibeah', x: 0.45, y: 0.40, kind: 'visit', note: 'Saul’s court, where David is summoned to play' },
+      { name: 'Ramah', x: 0.40, y: 0.32, kind: 'origin', note: 'Samuel&apos;s home before the journey' },
+      { name: 'Bethlehem', x: 0.42, y: 0.46, kind: 'travel-to', note: 'Jesse&apos;s house — the secret anointing' },
+      { name: 'Gibeah', x: 0.45, y: 0.40, kind: 'visit', note: 'Saul&apos;s court, where David is summoned to play' },
     ],
     route: [0, 1, 2],
-    caption: 'Samuel travels south to Bethlehem to anoint a new king; David is later summoned north to Saul’s court.',
+    caption: 'Samuel travels south to Bethlehem to anoint a new king; David is later summoned north to Saul&apos;s court.',
   },
 
   intros: [

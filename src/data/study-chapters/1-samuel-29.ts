@@ -19,8 +19,8 @@ export const SAMUEL_1_29: RichChapterContent = {
 
   youth: {
     intros: [
-      "The Philistine lords don't trust David — even though Achish does — and force him to leave the army before the battle against Israel. God just spared David from an impossible day: fighting against his own people on the day his predecessor would die.",
-      "Sometimes the closed door is the rescue. You don't always get to see it at the time. David walks back to Ziklag confused; the reader can see exactly what God just did.",
+      "The Philistine lords don&apos;t trust David — even though Achish does — and force him to leave the army before the battle against Israel. God just spared David from an impossible day: fighting against his own people on the day his predecessor would die.",
+      "Sometimes the closed door is the rescue. You don&apos;t always get to see it at the time. David walks back to Ziklag confused; the reader can see exactly what God just did.",
     ],
   },
 

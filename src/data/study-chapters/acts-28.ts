@@ -27,8 +27,8 @@ export const ACTS_28: RichChapterContent = {
 
   youth: {
     intros: [
-      "Three months on Malta. A snake bites Paul; he shakes it off. He heals the chief's father. Eventually they sail on. He arrives in Rome and meets believers who came out to greet him forty miles down the road. He spends two whole years in his rented house preaching the kingdom of God 'no man forbidding him.'",
-      "Acts ends mid-sentence on purpose. The gospel hasn't stopped. The book is still being written. Every chapter you live faithfully gets added to the same scroll.",
+      "Three months on Malta. A snake bites Paul; he shakes it off. He heals the chief&apos;s father. Eventually they sail on. He arrives in Rome and meets believers who came out to greet him forty miles down the road. He spends two whole years in his rented house preaching the kingdom of God 'no man forbidding him.'",
+      "Acts ends mid-sentence on purpose. The gospel hasn&apos;t stopped. The book is still being written. Every chapter you live faithfully gets added to the same scroll.",
     ],
   },
 

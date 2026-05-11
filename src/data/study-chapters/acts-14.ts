@@ -40,7 +40,7 @@ export const ACTS_14: RichChapterContent = {
       { name: 'Antioch (Syrian)', x: 0.85, y: 0.66, kind: 'origin', note: 'Returned to report' },
     ],
     route: [0, 1, 2, 3],
-    caption: 'The first journey’s return loop through Galatia, then back to Antioch.',
+    caption: 'The first journey&apos;s return loop through Galatia, then back to Antioch.',
   },
   opener: {
     matchTitle: /Paul and Barnabas at/i,

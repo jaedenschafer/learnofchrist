@@ -24,7 +24,7 @@ export const HEBREWS_4: RichChapterContent = {
   youth: {
     intros: [
       "There remains a sabbath rest for the people of God. Not just a day off — a settled, finished, leaning-into-Him kind of rest. Christ is the great High Priest who passed into the heavens. So come boldly to the throne of grace. Not anxiously. Not eventually. Boldly.",
-      "Whatever you've been holding on your own — performance, anxiety, image-management — the door is already open. Lay it down. The God who knows you fully also welcomes you fully.",
+      "Whatever you&apos;ve been holding on your own — performance, anxiety, image-management — the door is already open. Lay it down. The God who knows you fully also welcomes you fully.",
     ],
   },
 

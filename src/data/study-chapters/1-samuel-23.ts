@@ -29,7 +29,7 @@ export const SAMUEL_1_23: RichChapterContent = {
 
   characters: [
     { slug: 'david', role: 'Saves Keilah from the Philistines, then flees its citizens' },
-    { slug: 'jonathan', role: 'Strengthens his friend’s hand in God for the last time' },
+    { slug: 'jonathan', role: 'Strengthens his friend&apos;s hand in God for the last time' },
     { slug: 'saul', role: 'Pursues David through the wilderness of Ziph' },
   ],
   topicTags: ['kingship', 'leadership', 'calling', 'providence'],

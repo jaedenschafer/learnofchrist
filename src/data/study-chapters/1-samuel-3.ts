@@ -13,16 +13,16 @@ export const SAMUEL_1_3: RichChapterContent = {
 
   youth: {
     intros: [
-      "Samuel is a kid sleeping in the temple. A voice calls his name. He runs to Eli — 'Here am I.' Three times this happens. Finally Eli realizes it's God, and tells the boy: next time, just say 'speak, Lord; for thy servant heareth.'",
+      "Samuel is a kid sleeping in the temple. A voice calls his name. He runs to Eli — 'Here am I.' Three times this happens. Finally Eli realizes it&apos;s God, and tells the boy: next time, just say 'speak, Lord; for thy servant heareth.'",
       "The word of the Lord had been rare in those days. Through this boy who learned to listen, it returned. Christ is the final word — the Word made flesh — but the lesson of 1 Samuel 3 is older than anyone alive: God speaks; the work is to be quiet enough to hear.",
     ],
   },
 
   christIndexSummary:
-    'Samuel is called as a boy in the night, and the word of the Lord, which had been rare in those days, returns through him. Christ is the Word made flesh — the final and perfect prophet to whom every later prophet points. Eli’s gentle "go, lie down… and it shall be" is the beginning of a life of listening that the church now lives in the Spirit.',
+    'Samuel is called as a boy in the night, and the word of the Lord, which had been rare in those days, returns through him. Christ is the Word made flesh — the final and perfect prophet to whom every later prophet points. Eli&apos;s gentle "go, lie down… and it shall be" is the beginning of a life of listening that the church now lives in the Spirit.',
 
   characters: [
-    { slug: 'samuel', role: 'The boy who first hears the Lord’s voice' },
+    { slug: 'samuel', role: 'The boy who first hears the Lord&apos;s voice' },
     { slug: 'eli', role: 'The aging priest who teaches him how to listen' },
   ],
   intros: [

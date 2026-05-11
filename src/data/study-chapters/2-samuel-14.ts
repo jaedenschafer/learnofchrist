@@ -19,7 +19,7 @@ export const SAMUEL_2_14: RichChapterContent = {
 
   characters: [
     { slug: 'absalom', role: 'Recalled from exile by a parable from Tekoa' },
-    { slug: 'joab', role: 'Brokers Absalom’s return' },
+    { slug: 'joab', role: 'Brokers Absalom&apos;s return' },
     { slug: 'david', role: 'Cannot quite forgive his son' },
   ],
   intros: [

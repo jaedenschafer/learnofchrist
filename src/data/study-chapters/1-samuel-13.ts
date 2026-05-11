@@ -28,13 +28,13 @@ export const SAMUEL_1_13: RichChapterContent = {
   youth: {
     intros: [
       "Israel is panicking; the Philistines are coming with chariots like the sand of the seashore. Samuel told Saul to wait seven days. Saul waits, almost. Then he panics and offers the burnt sacrifice himself — a thing only a priest is supposed to do.",
-      "Samuel arrives just as the smoke is rising. 'Thou hast done foolishly… now thy kingdom shall not continue.' The first crack in Saul's reign isn't a battle lost. It's a king who couldn't wait fifteen more minutes for God.",
+      "Samuel arrives just as the smoke is rising. 'Thou hast done foolishly… now thy kingdom shall not continue.' The first crack in Saul&apos;s reign isn&apos;t a battle lost. It&apos;s a king who couldn&apos;t wait fifteen more minutes for God.",
     ],
   },
 
   characters: [
     { slug: 'saul', role: 'Offers an unlawful sacrifice and is rebuked' },
-    { slug: 'samuel', role: 'Pronounces that the kingdom will not continue in Saul’s line' },
+    { slug: 'samuel', role: 'Pronounces that the kingdom will not continue in Saul&apos;s line' },
     { slug: 'jonathan', role: 'Strikes the Philistine garrison at Geba' },
   ],
   intros: [

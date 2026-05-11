@@ -17,8 +17,8 @@ export const ACTS_5: RichChapterContent = {
 
   youth: {
     intros: [
-      "Two stories that don't fit on a youth-group flyer. Ananias and Sapphira lie about how much they gave to the church and drop dead. Then the apostles get arrested again and an angel breaks them out overnight to keep preaching.",
-      "The church is being born. God treats it seriously enough to discipline it AND defend it. The same Spirit who fell at Pentecost cares whether the new community lives in honesty. That's not scary if you're honest. It's stabilizing.",
+      "Two stories that don&apos;t fit on a youth-group flyer. Ananias and Sapphira lie about how much they gave to the church and drop dead. Then the apostles get arrested again and an angel breaks them out overnight to keep preaching.",
+      "The church is being born. God treats it seriously enough to discipline it AND defend it. The same Spirit who fell at Pentecost cares whether the new community lives in honesty. That&apos;s not scary if you&apos;re honest. It&apos;s stabilizing.",
     ],
   },
 

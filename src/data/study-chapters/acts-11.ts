@@ -21,7 +21,7 @@ export const ACTS_11: RichChapterContent = {
   youth: {
     intros: [
       "The Jerusalem church grills Peter about eating with Gentiles. He tells the whole story. They go silent, then glorify God: 'then hath God also to the Gentiles granted repentance unto life.' Meanwhile in Antioch, scattered believers are preaching to Gentiles too. Barnabas goes to check; finds it real; goes to fetch Saul. The disciples are first called Christians here.",
-      "Two communities, two cultures, one Spirit. The label 'Christian' is born outside Jerusalem in the church plant nobody planned. God's mission keeps spilling out wider than the people running it expected.",
+      "Two communities, two cultures, one Spirit. The label 'Christian' is born outside Jerusalem in the church plant nobody planned. God&apos;s mission keeps spilling out wider than the people running it expected.",
     ],
   },
 

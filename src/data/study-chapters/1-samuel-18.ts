@@ -21,8 +21,8 @@ export const SAMUEL_1_18: RichChapterContent = {
 
   youth: {
     intros: [
-      "David kills Goliath, gets dropped at Saul's court, and the women come out singing: 'Saul hath slain his thousands, and David his ten thousands.' That song doesn't leave Saul's head. Jealousy is the slow poison; the spear comes next.",
-      "Meanwhile Jonathan, who SHOULD hate David — David is the rival to his throne — strips off his royal robes and gives them to David. Jonathan is the picture of a person who chooses God's anointed over his own resume. Few of us look that good in our reflections.",
+      "David kills Goliath, gets dropped at Saul&apos;s court, and the women come out singing: 'Saul hath slain his thousands, and David his ten thousands.' That song doesn&apos;t leave Saul&apos;s head. Jealousy is the slow poison; the spear comes next.",
+      "Meanwhile Jonathan, who SHOULD hate David — David is the rival to his throne — strips off his royal robes and gives them to David. Jonathan is the picture of a person who chooses God&apos;s anointed over his own resume. Few of us look that good in our reflections.",
     ],
   },
 

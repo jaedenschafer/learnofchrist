@@ -23,7 +23,7 @@ export const SAMUEL_1_30: RichChapterContent = {
   youth: {
     intros: [
       "David gets back to Ziklag and finds it burned to the ground, the women and children carried off by Amalekite raiders. His own men are talking about stoning him. He 'encouraged himself in the Lord his God,' asks God what to do, and chases the raiders down.",
-      "He recovers everything. Then he makes a rule that everyone shares the spoil — including the men too tired to keep up. The kingdom of David starts learning what kingdom shares look like, before there's even a throne to defend.",
+      "He recovers everything. Then he makes a rule that everyone shares the spoil — including the men too tired to keep up. The kingdom of David starts learning what kingdom shares look like, before there&apos;s even a throne to defend.",
     ],
   },
 

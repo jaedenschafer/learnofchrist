@@ -20,12 +20,12 @@ export const SAMUEL_1_17: RichChapterContent = {
   youth: {
     intros: [
       "Goliath taunts Israel for forty days and nobody answers. David shows up with bread and cheese for his brothers, hears the giant, and says basically: who is this guy to defy the armies of the living God? Saul tries to put his armor on David. David takes it off.",
-      "Five smooth stones, a sling, the name of the Lord of hosts. The greater David walked into a darker valley centuries later with no weapons at all and won by what looked like weakness. Goliath is every taunting voice that has ever tried to silence God's people; Christ has answered him at the cross.",
+      "Five smooth stones, a sling, the name of the Lord of hosts. The greater David walked into a darker valley centuries later with no weapons at all and won by what looked like weakness. Goliath is every taunting voice that has ever tried to silence God&apos;s people; Christ has answered him at the cross.",
     ],
   },
 
   christIndexSummary:
-    'David refuses Saul’s armor and walks into the valley with five smooth stones and the name of the Lord of hosts. The greater David walked into a darker valley with no weapons at all and won by what looked like weakness. Goliath is every taunting voice that has ever tried to silence God’s people; Christ has answered him at the cross.',
+    'David refuses Saul&apos;s armor and walks into the valley with five smooth stones and the name of the Lord of hosts. The greater David walked into a darker valley with no weapons at all and won by what looked like weakness. Goliath is every taunting voice that has ever tried to silence God&apos;s people; Christ has answered him at the cross.',
   opener: {
     matchTitle: /David Overcomes Goliath/i,
     caption: '1 Samuel 17',
@@ -39,16 +39,16 @@ export const SAMUEL_1_17: RichChapterContent = {
     { slug: 'david', role: 'The shepherd-boy who answered the giant' },
     { slug: 'goliath' },
     { slug: 'saul', role: 'The king who watched from camp' },
-    { slug: 'jesse', role: 'David’s father, sender of the bread and cheese' },
+    { slug: 'jesse', role: 'David&apos;s father, sender of the bread and cheese' },
   ],
 
   map: {
     preset: 'judea',
     places: [
-      { name: 'Bethlehem', x: 0.42, y: 0.46, kind: 'origin', note: 'David’s home; Jesse sends him with bread' },
+      { name: 'Bethlehem', x: 0.42, y: 0.46, kind: 'origin', note: 'David&apos;s home; Jesse sends him with bread' },
       { name: 'Valley of Elah', x: 0.30, y: 0.36, kind: 'travel-to', note: 'Where the armies and Goliath stood' },
-      { name: 'Gath', x: 0.10, y: 0.45, kind: 'visit', note: 'Goliath’s Philistine city' },
-      { name: 'Jerusalem', x: 0.46, y: 0.40, kind: 'visit', note: 'Where David later carries Goliath’s head (v. 54)' },
+      { name: 'Gath', x: 0.10, y: 0.45, kind: 'visit', note: 'Goliath&apos;s Philistine city' },
+      { name: 'Jerusalem', x: 0.46, y: 0.40, kind: 'visit', note: 'Where David later carries Goliath&apos;s head (v. 54)' },
     ],
     route: [0, 1],
     caption: 'David walks from Bethlehem to the valley of Elah, where Israel and Philistia face off across a brook.',

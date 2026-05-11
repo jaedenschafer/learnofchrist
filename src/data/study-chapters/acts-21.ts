@@ -23,20 +23,20 @@ export const ACTS_21: RichChapterContent = {
   youth: {
     intros: [
       "Every prophet on the road warns Paul not to go to Jerusalem. He goes anyway. 'I am ready not to be bound only, but also to die at Jerusalem for the name of the Lord Jesus.' He arrives, gets arrested in the temple, and is dragged out by a mob trying to kill him.",
-      "There's a difference between reckless and resolved. Paul wasn't running into harm for kicks; he was walking toward the place God had pointed him to. The friends crying around him weren't wrong to cry. He wasn't wrong to keep going.",
+      "There&apos;s a difference between reckless and resolved. Paul wasn&apos;t running into harm for kicks; he was walking toward the place God had pointed him to. The friends crying around him weren&apos;t wrong to cry. He wasn&apos;t wrong to keep going.",
     ],
   },
 
   characters: [
     { slug: 'paul', role: 'Arrested in the temple after coming up to Jerusalem' },
-    { slug: 'philip-evangelist', role: 'Hosts Paul’s company in Caesarea' },
+    { slug: 'philip-evangelist', role: 'Hosts Paul&apos;s company in Caesarea' },
   ],
 
   map: {
     preset: 'mediterranean',
     places: [
       { name: 'Tyre', x: 0.66, y: 0.54, kind: 'visit' },
-      { name: 'Caesarea', x: 0.64, y: 0.55, kind: 'visit', note: 'Agabus binds Paul’s belt as a sign' },
+      { name: 'Caesarea', x: 0.64, y: 0.55, kind: 'visit', note: 'Agabus binds Paul&apos;s belt as a sign' },
       { name: 'Jerusalem', x: 0.65, y: 0.56, kind: 'travel-to', note: 'Paul is arrested in the temple' },
     ],
     route: [0, 1, 2],

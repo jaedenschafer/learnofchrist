@@ -24,8 +24,8 @@ export const SAMUEL_1_12: RichChapterContent = {
 
   youth: {
     intros: [
-      "Samuel hands the people over to their king, but not before reminding them what they've done. He reviews the whole story — judges, deliverers, faithfulness, faithlessness. 'You have done all this wickedness: yet turn not aside from following the Lord.'",
-      "Then he says something every believer needs: 'God forbid that I should sin against the Lord in ceasing to pray for you.' The job of the older saint is to keep praying for the next generation, even when they're walking into something they were warned about.",
+      "Samuel hands the people over to their king, but not before reminding them what they&apos;ve done. He reviews the whole story — judges, deliverers, faithfulness, faithlessness. 'You have done all this wickedness: yet turn not aside from following the Lord.'",
+      "Then he says something every believer needs: 'God forbid that I should sin against the Lord in ceasing to pray for you.' The job of the older saint is to keep praying for the next generation, even when they&apos;re walking into something they were warned about.",
     ],
   },
 

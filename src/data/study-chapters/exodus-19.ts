@@ -22,7 +22,7 @@ export const EXODUS_19: RichChapterContent = {
   youth: {
     intros: [
       "Sinai shakes, smokes, burns. Thunder, lightning, a trumpet getting louder. The people are kept at distance under threat of death. This is what holiness without a mediator looks like.",
-      "Hebrews 12 sets that mountain beside Mount Zion: in Christ you've come to the city of the living God, not the trembling mountain. The access His blood opened is the gospel of Exodus 19 in one sentence.",
+      "Hebrews 12 sets that mountain beside Mount Zion: in Christ you&apos;ve come to the city of the living God, not the trembling mountain. The access His blood opened is the gospel of Exodus 19 in one sentence.",
     ],
   },
 

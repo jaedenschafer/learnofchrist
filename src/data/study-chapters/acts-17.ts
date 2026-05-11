@@ -23,8 +23,8 @@ export const ACTS_17: RichChapterContent = {
 
   youth: {
     intros: [
-      "Thessalonica plants a church in three Sabbaths. Berea hears them out and 'searched the scriptures daily, whether those things were so.' Paul ends up in Athens, preaches at the Areopagus to the philosophers, names the unknown God they'd carved an altar to, and quotes their own poets back at them.",
-      "Paul didn't condemn the curiosity; he met it. The model still works. The friends asking real questions about Jesus aren't enemies — they're Areopagus people. Listen, learn the language, and then name Christ where they're already looking.",
+      "Thessalonica plants a church in three Sabbaths. Berea hears them out and 'searched the scriptures daily, whether those things were so.' Paul ends up in Athens, preaches at the Areopagus to the philosophers, names the unknown God they&apos;d carved an altar to, and quotes their own poets back at them.",
+      "Paul didn&apos;t condemn the curiosity; he met it. The model still works. The friends asking real questions about Jesus aren&apos;t enemies — they&apos;re Areopagus people. Listen, learn the language, and then name Christ where they&apos;re already looking.",
     ],
   },
 

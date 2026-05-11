@@ -17,8 +17,8 @@ export const GENESIS_3: RichChapterContent = {
 
   youth: {
     intros: [
-      "Everything good gets undone in one conversation. The serpent doesn't deny what God said — he twists it. \"Did God really say…?\" Eve looks, takes, eats; Adam, standing right there, eats too. The world cracks. Shame, blame, exile.",
-      "But there's a promise hidden in the curse: a seed of the woman who will crush the serpent's head. Genesis 3:15 is the gospel before the gospel — the first hint that the rescue is already coming.",
+      "Everything good gets undone in one conversation. The serpent doesn&apos;t deny what God said — he twists it. \"Did God really say…?\" Eve looks, takes, eats; Adam, standing right there, eats too. The world cracks. Shame, blame, exile.",
+      "But there&apos;s a promise hidden in the curse: a seed of the woman who will crush the serpent&apos;s head. Genesis 3:15 is the gospel before the gospel — the first hint that the rescue is already coming.",
     ],
   },
 

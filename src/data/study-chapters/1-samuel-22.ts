@@ -23,14 +23,14 @@ export const SAMUEL_1_22: RichChapterContent = {
 
   youth: {
     intros: [
-      "David hides in the cave at Adullam. Four hundred outcasts gather to him — 'every one that was in distress, and every one that was in debt, and every one that was discontented.' That's the founding crew of the kingdom. Not a polished group.",
+      "David hides in the cave at Adullam. Four hundred outcasts gather to him — 'every one that was in distress, and every one that was in debt, and every one that was discontented.' That&apos;s the founding crew of the kingdom. Not a polished group.",
       "Meanwhile Saul, hearing that Ahimelech helped David, slaughters the priests of Nob and their families. The kingdom of Saul reveals itself: cruel to the helpless, blind to the actual threat. The kingdom of David starts in a cave full of misfits, which is also where the church usually starts.",
     ],
   },
 
   characters: [
     { slug: 'david', role: 'Gathers four hundred outcasts at the cave of Adullam' },
-    { slug: 'ahimelech', role: 'Massacred with the priests of Nob at Saul’s order' },
+    { slug: 'ahimelech', role: 'Massacred with the priests of Nob at Saul&apos;s order' },
     { slug: 'saul', role: 'Slaughters a town for sheltering David' },
   ],
   topicTags: ['kingship', 'leadership', 'calling', 'providence'],

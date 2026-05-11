@@ -13,13 +13,13 @@ export const SAMUEL_1_2: RichChapterContent = {
 
   youth: {
     intros: [
-      "Hannah sings. She names a God who turns the world right-side-up: 'the bows of the mighty men are broken,' the hungry are full, the barren bears seven, the proud are scattered. It's not just gratitude — it's prophecy.",
-      "A thousand years later, a girl named Mary will sing almost the exact same song before her own miracle baby is born. The God who lifts the lowly hasn't changed. He's still picking the overlooked, still flipping the table on the proud.",
+      "Hannah sings. She names a God who turns the world right-side-up: 'the bows of the mighty men are broken,' the hungry are full, the barren bears seven, the proud are scattered. It&apos;s not just gratitude — it&apos;s prophecy.",
+      "A thousand years later, a girl named Mary will sing almost the exact same song before her own miracle baby is born. The God who lifts the lowly hasn&apos;t changed. He&apos;s still picking the overlooked, still flipping the table on the proud.",
     ],
   },
 
   christIndexSummary:
-    'Hannah’s song — "the bows of the mighty men are broken, and they that stumbled are girded with strength… he raiseth up the poor out of the dust" — is the Magnificat before Mary sings it. The Christ Connection of 1 Samuel 2 is that the gospel always upends the expected order: the lowly lifted, the proud scattered.',
+    'Hannah&apos;s song — "the bows of the mighty men are broken, and they that stumbled are girded with strength… he raiseth up the poor out of the dust" — is the Magnificat before Mary sings it. The Christ Connection of 1 Samuel 2 is that the gospel always upends the expected order: the lowly lifted, the proud scattered.',
 
   characters: [
     { slug: 'hannah', role: 'Sings the prayer that Mary will echo' },

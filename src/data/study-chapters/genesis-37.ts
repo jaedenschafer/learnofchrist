@@ -18,7 +18,7 @@ export const GENESIS_37: RichChapterContent = {
 
   youth: {
     intros: [
-      "Joseph is the favorite, the dreamer, the one with the famous coat. His brothers can't stand him. They throw him in a pit, sell him for twenty shekels, and tell their father a wild animal got him. Their lie is dressed in their brother's blood.",
+      "Joseph is the favorite, the dreamer, the one with the famous coat. His brothers can&apos;t stand him. They throw him in a pit, sell him for twenty shekels, and tell their father a wild animal got him. Their lie is dressed in their brother&apos;s blood.",
       "Sound familiar? The beloved son sent by his father to his brothers, rejected, sold for silver, presumed dead — and through the suffering, ends up the deliverer. The pattern is the gospel before the gospel knew it had a name.",
     ],
   },

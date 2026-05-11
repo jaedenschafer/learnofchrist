@@ -23,12 +23,12 @@ export const SAMUEL_1_25: RichChapterContent = {
   youth: {
     intros: [
       "David is about to commit a massacre over an insult. Abigail — wife of the fool who insulted him — hears, packs two hundred loaves and a few dozen sheep, and intercepts him on the road. Her speech is one of the great sermons in the Old Testament; it stops him cold.",
-      "She predicts his coming reign and names what bloodshed will cost him: a stone he'd carry forever. David thanks God for sending her. Listen for the voices God sends to stop you from a sin you'd never outgrow.",
+      "She predicts his coming reign and names what bloodshed will cost him: a stone he&apos;d carry forever. David thanks God for sending her. Listen for the voices God sends to stop you from a sin you&apos;d never outgrow.",
     ],
   },
 
   characters: [
-    { slug: 'david', role: 'Restrained from murder by Abigail’s wisdom' },
+    { slug: 'david', role: 'Restrained from murder by Abigail&apos;s wisdom' },
     { slug: 'abigail', role: 'Meets David on the road with two hundred loaves and a sermon' },
   ],
   opener: {

@@ -29,7 +29,7 @@ export const ACTS_27: RichChapterContent = {
   youth: {
     intros: [
       "The voyage to Rome runs into a fourteen-day storm. The crew gives up hope. Paul stands on the deck and tells them: an angel of the God whose I am stood by me this night. There will be no loss of life, only of the ship. They run aground at Malta. All 276 make it to shore.",
-      "When God promises something, He says it through a real man on a real boat in a real storm. Paul didn't know he wasn't drowning by his own peace; he knew because the angel said so. Take notes — God still uses ordinary people to deliver hope on hopeless decks.",
+      "When God promises something, He says it through a real man on a real boat in a real storm. Paul didn&apos;t know he wasn&apos;t drowning by his own peace; he knew because the angel said so. Take notes — God still uses ordinary people to deliver hope on hopeless decks.",
     ],
   },
 

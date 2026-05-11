@@ -24,16 +24,16 @@ export const SAMUEL_2_11: RichChapterContent = {
 
   youth: {
     intros: [
-      "David should have been at war. Instead he's on the roof of his palace, sees a married woman bathing, and uses his power to take her. She gets pregnant. He summons her husband Uriah home from the front, hoping he'll sleep with her and the timing will look natural.",
-      "Uriah refuses to sleep with his wife while his comrades sleep in tents. So David sends him back to the front carrying a sealed letter that orders his own death. The chapter ends with a cover-up that almost works. Almost. Sin always thinks it's gotten away with it. Chapter 12 is coming.",
+      "David should have been at war. Instead he&apos;s on the roof of his palace, sees a married woman bathing, and uses his power to take her. She gets pregnant. He summons her husband Uriah home from the front, hoping he&apos;ll sleep with her and the timing will look natural.",
+      "Uriah refuses to sleep with his wife while his comrades sleep in tents. So David sends him back to the front carrying a sealed letter that orders his own death. The chapter ends with a cover-up that almost works. Almost. Sin always thinks it&apos;s gotten away with it. Chapter 12 is coming.",
     ],
   },
 
   characters: [
-    { slug: 'david', role: 'Takes Bathsheba; arranges Uriah’s death to cover it' },
-    { slug: 'bathsheba', role: 'Wife of Uriah, summoned to the king’s house' },
+    { slug: 'david', role: 'Takes Bathsheba; arranges Uriah&apos;s death to cover it' },
+    { slug: 'bathsheba', role: 'Wife of Uriah, summoned to the king&apos;s house' },
     { slug: 'uriah', role: 'Refuses comfort while his comrades sleep in tents' },
-    { slug: 'joab', role: 'Carries out the king’s sealed orders' },
+    { slug: 'joab', role: 'Carries out the king&apos;s sealed orders' },
   ],
   intros: [
     'The eleventh chapter of 2 Samuel tells a story that has echoed through two thousand years of Scripture commentary and spiritual reckoning. It begins with a sentence that seems innocent — "It came to pass, after the year was expired, at the time when kings go forth to battle, that David sent Joab, and his servants with him, and all Israel... But David tarried still at Jerusalem." A king, at the moment he should have been leading his armies, remained at home.',

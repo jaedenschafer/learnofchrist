@@ -24,7 +24,7 @@ export const ACTS_10: RichChapterContent = {
   youth: {
     intros: [
       "Cornelius is a Roman centurion — a Gentile, an outsider — who fears God and prays. An angel tells him to send for Peter. Meanwhile Peter has a rooftop vision of unclean animals being declared clean. The two stories collide. Peter preaches. The Spirit falls on the Gentiles before he can even finish.",
-      "The chapter is the moment the gospel formally crossed from Jew to Gentile. Peter has to be argued into it. Most of the categories the church needs to break in our day will require the same kind of vision: Jesus quietly insisting that the people you'd left out are already inside.",
+      "The chapter is the moment the gospel formally crossed from Jew to Gentile. Peter has to be argued into it. Most of the categories the church needs to break in our day will require the same kind of vision: Jesus quietly insisting that the people you&apos;d left out are already inside.",
     ],
   },
 
@@ -36,8 +36,8 @@ export const ACTS_10: RichChapterContent = {
   map: {
     preset: 'judea',
     places: [
-      { name: 'Joppa', x: 0.32, y: 0.42, kind: 'origin', note: 'Peter’s rooftop vision' },
-      { name: 'Caesarea', x: 0.32, y: 0.3, kind: 'travel-to', note: 'Cornelius’s household believes' },
+      { name: 'Joppa', x: 0.32, y: 0.42, kind: 'origin', note: 'Peter&apos;s rooftop vision' },
+      { name: 'Caesarea', x: 0.32, y: 0.3, kind: 'travel-to', note: 'Cornelius&apos;s household believes' },
     ],
     route: [0, 1],
     caption: 'Peter is summoned from Joppa up the coast to Caesarea, and the door opens to the Gentiles.',

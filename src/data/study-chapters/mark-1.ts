@@ -23,7 +23,7 @@ export const MARK_1: RichChapterContent = {
   youth: {
     intros: [
       "No manger. No genealogy. Mark opens with a voice in the wilderness, John dunking people in the Jordan, the heavens torn open, the Spirit driving Jesus into the wilderness, and a busy first day in Capernaum casting out demons and healing.",
-      "Mark's gospel runs. Christ enters the world working. If you've ever felt like the Christian life moves too slowly, Mark 1 is your antidote: the kingdom is on the move from the first sentence.",
+      "Mark&apos;s gospel runs. Christ enters the world working. If you&apos;ve ever felt like the Christian life moves too slowly, Mark 1 is your antidote: the kingdom is on the move from the first sentence.",
     ],
   },
 

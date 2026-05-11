@@ -19,7 +19,7 @@ export const SAMUEL_2_9: RichChapterContent = {
   estimatedMinutes: { beginner: 6, intermediate: 11, deep: 14 },
 
   characters: [
-    { slug: 'david', role: 'Shows kindness to Mephibosheth, Jonathan’s lame son, for the sake of his friend' },
+    { slug: 'david', role: 'Shows kindness to Mephibosheth, Jonathan&apos;s lame son, for the sake of his friend' },
   ],
   intros: [
     'The book of 2 Samuel opens with King David establishing his throne over all Israel. He has won every battle, subdued every enemy, and the kingdom is secure. And then — in the very chapter where we might expect him to shore up his power or claim his spoils — David does something unexpected. He asks: "Is there yet any that is left of the house of Saul, that I may shew him kindness for Jonathan&apos;s sake?" He is asking after the family of his enemy.',

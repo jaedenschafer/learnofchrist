@@ -16,7 +16,7 @@ export const SAMUEL_1_8: RichChapterContent = {
 
   youth: {
     intros: [
-      "Israel wants a king like the other nations. Samuel warns them: a king will draft your sons, take your daughters, tax your harvest, conscript your animals. They don't care. 'Make us a king to judge us like all the nations.'",
+      "Israel wants a king like the other nations. Samuel warns them: a king will draft your sons, take your daughters, tax your harvest, conscript your animals. They don&apos;t care. 'Make us a king to judge us like all the nations.'",
       "God lets them have what they ask for. The whole story of Saul is what happens when 'we want to be like everyone else' wins out over 'we belong to God.' But behind the warning is the promise of a different King — one who serves instead of taking.",
     ],
   },

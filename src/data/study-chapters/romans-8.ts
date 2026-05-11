@@ -17,7 +17,7 @@ export const ROMANS_8: RichChapterContent = {
 
   youth: {
     intros: [
-      "No condemnation in Christ Jesus. The Spirit of life has freed you from the law of sin and death. You're a co-heir with Christ. The whole creation is groaning, waiting for what God is doing in His children. And nothing — not death, not life, not angels, not the present, not the future, not anything in all creation — can separate you from the love of God which is in Christ Jesus our Lord.",
+      "No condemnation in Christ Jesus. The Spirit of life has freed you from the law of sin and death. You&apos;re a co-heir with Christ. The whole creation is groaning, waiting for what God is doing in His children. And nothing — not death, not life, not angels, not the present, not the future, not anything in all creation — can separate you from the love of God which is in Christ Jesus our Lord.",
       "There is no comfort denser than Romans 8. Read it slowly. Read it out loud. Read it on your worst day.",
     ],
   },

@@ -24,14 +24,14 @@ export const SAMUEL_1_28: RichChapterContent = {
 
   youth: {
     intros: [
-      "Samuel is dead. God isn't answering. So Saul disguises himself and finds the witch of Endor — exactly the kind of person his earlier laws had banished — and asks her to bring up Samuel from the dead. Samuel actually comes up. The message is brutal: tomorrow, you and your sons.",
-      "There's a cliff after every refusal to listen. Saul could have repented for years. He chose midnight séances instead. The lesson is loud: there's no shortcut around God. The voice you've been ignoring is the voice you'll eventually need.",
+      "Samuel is dead. God isn&apos;t answering. So Saul disguises himself and finds the witch of Endor — exactly the kind of person his earlier laws had banished — and asks her to bring up Samuel from the dead. Samuel actually comes up. The message is brutal: tomorrow, you and your sons.",
+      "There&apos;s a cliff after every refusal to listen. Saul could have repented for years. He chose midnight séances instead. The lesson is loud: there&apos;s no shortcut around God. The voice you&apos;ve been ignoring is the voice you&apos;ll eventually need.",
     ],
   },
 
   characters: [
     { slug: 'saul', role: 'Consults the witch of Endor on the night before his death' },
-    { slug: 'samuel', role: 'Returns from the dead with God’s final word' },
+    { slug: 'samuel', role: 'Returns from the dead with God&apos;s final word' },
   ],
   opener: {
     matchTitle: /Saul at the Witch/i,

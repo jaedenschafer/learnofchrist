@@ -28,7 +28,7 @@ export const ACTS_13: RichChapterContent = {
   youth: {
     intros: [
       "The church at Antioch is fasting and praying. The Spirit says: separate Barnabas and Saul for the work I have called them to. They get on a boat. The first missionary journey begins. Cyprus, Pisidian Antioch, a synagogue sermon, a riot, a shaking of dust off the feet.",
-      "Notice how it starts: not with a strategic plan but with a worship service. The mission of God runs out of prayer rooms more often than out of planning rooms. Make sure you're in the kind of room God can speak in.",
+      "Notice how it starts: not with a strategic plan but with a worship service. The mission of God runs out of prayer rooms more often than out of planning rooms. Make sure you&apos;re in the kind of room God can speak in.",
     ],
   },
 
@@ -42,7 +42,7 @@ export const ACTS_13: RichChapterContent = {
     places: [
       { name: 'Antioch (Syrian)', x: 0.85, y: 0.66, kind: 'origin', note: 'The sending church' },
       { name: 'Cyprus', x: 0.79, y: 0.62, kind: 'visit', note: 'First stop; Paphos and the proconsul' },
-      { name: 'Pisidian Antioch', x: 0.71, y: 0.49, kind: 'travel-to', note: 'Paul’s long sermon in the synagogue' },
+      { name: 'Pisidian Antioch', x: 0.71, y: 0.49, kind: 'travel-to', note: 'Paul&apos;s long sermon in the synagogue' },
     ],
     route: [0, 1, 2],
     caption: 'The first missionary journey begins — Antioch, Cyprus, and on into the highlands of Asia Minor.',
