@@ -128,6 +128,10 @@ export const SAMUEL_2_11: RichChapterContent = {
           kind: 'carry',
           html:
             'Sin does not often arrive as a thunderbolt. It arrives as an absence — the moment we step away from what we are called to do and settle into what is comfortable. A marriage falters not always because of a dramatic betrayal, but because someone stopped showing up. A faith weakens not always because of a crisis, but because someone lingered in a place they were never meant to be. Where have you abandoned your post?',
+          youthOverride: {
+            html:
+              'Sin doesn\'t usually start as a thunderbolt. It starts as a small absence — the morning you stopped opening your Bible, the friend group you kept showing up to even though you knew it was rewiring you, the page you kept reopening when you said you wouldn\'t. A friendship doesn\'t collapse from one bad fight; it drifts because someone stopped texting back. A faith doesn\'t crumble from one big doubt; it thins out from a hundred small skips. Where did you stop showing up?',
+          },
         },
         {
           kind: 'reflection',
@@ -204,6 +208,10 @@ export const SAMUEL_2_11: RichChapterContent = {
           kind: 'carry',
           html:
             'Bathsheba did not initiate this encounter. A king in power called, and she came. The text does not blame her. She was the wife of another man; the violation was David&apos;s. But this chapter is addressed also to those who, like David, have power — to see, to take, to move others without their consent. The beauty you see is not yours to take. The person you desire is not your possession. The moment you inquire and discover a reason not to proceed, that is the moment to stop. David did not stop.',
+          youthOverride: {
+            html:
+              'Bathsheba didn\'t start this. The king did. The text doesn\'t blame her — it lays the violation squarely on the one with power. You have more power than you think. Older kid to younger kid. Popular kid to one who wants in. Anyone with a phone to anyone whose photo it could pass around. The moment you find out a reason this person isn\'t actually yours to chase — they\'re taken, they\'re younger, they didn\'t consent — that\'s the moment to stop. David didn\'t. The chapter never recovers.',
+          },
         },
         {
           kind: 'reflection',

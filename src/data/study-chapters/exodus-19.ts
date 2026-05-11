@@ -215,6 +215,10 @@ export const EXODUS_19: RichChapterContent = {
           kind: 'carry',
           html:
             'If you are a believer, you are a priest. Not a pastor or minister — a priest. That means you are called to stand between God and a broken world: to intercede, to speak truth, to embody His character. It does not mean you have to be perfect or have all the answers. Priests in the Old Testament made mistakes, doubted, stumbled. But they showed up. They kept showing up. Who in your life needs a priest right now — someone who will intercede for them, speak God&apos;s truth to them, stand with them in their pain?',
+          youthOverride: {
+            html:
+              'If you follow Jesus, you\'re a priest already — no microphone, no stage, no degree, no title required. A priest stands between God and a broken world: prays, speaks truth, lives the character. You don\'t have to have it all figured out. The Old Testament priests stumbled too. They just kept showing up. Who in your group, your family, your school is one prayer or one honest word away from meeting God? Be the priest in their life this week.',
+          },
         },
         {
           kind: 'reflection',

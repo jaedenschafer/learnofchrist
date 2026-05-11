@@ -125,6 +125,10 @@ export const ACTS_21: RichChapterContent = {
           kind: 'carry',
           html:
             'You will have people in your life—wise, faithful, Spirit-filled people—who will beg you not to do something you feel called to do. They will weep. They will cite Scripture. They will make a compelling case. But if the Spirit in you has borne witness to a calling, do not mistake their love for God&apos;s will. Sometimes a warning from a friend is a test of your obedience. Press forward with your eyes open and your heart grateful for their care, but do not let their fear write the end of your story.',
+          youthOverride: {
+            html:
+              'There will be people who love you and beg you not to do the thing God is asking you to do. The friend who can\'t understand why you\'re cutting off something. The parent who is sure your faith decision is impractical. The teammate scared you\'re going to lose your shot. They love you. Their fear is honest. But love and warning aren\'t always the same as God\'s will. Receive their care; don\'t let their fear write the end of your story.',
+          },
         },
         {
           kind: 'reflection',
