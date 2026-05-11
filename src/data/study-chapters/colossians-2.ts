@@ -17,6 +17,12 @@ export const COLOSSIANS_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 9, intermediate: 18, deep: 27 },
+
+  youth: {
+    intros: [
+      "In Christ are hidden all the treasures of wisdom and knowledge. Beware lest any man spoil you through philosophy. You are complete in Him. Don&apos;t add to the gospel.",
+    ],
+  },
   topicTags: ['kingship', 'unity', 'holiness', 'love'],
   opener: {
     topical: true,

@@ -15,6 +15,12 @@ export const SECOND_CORINTHIANS_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 8, intermediate: 13, deep: 18 },
+
+  youth: {
+    intros: [
+      "The God of all comfort comforts us in all our tribulation, that we may comfort others. The hardest things you&apos;ve walked through become the credentials God uses to send you to comfort others walking through them.",
+    ],
+  },
   topicTags: ['suffering', 'compassion', 'witness', 'hope'],
   opener: {
     topical: true,

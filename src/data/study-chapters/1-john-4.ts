@@ -15,6 +15,12 @@ export const FIRST_JOHN_4: RichChapterContent = {
   chapter: 4,
 
   estimatedMinutes: { beginner: 8, intermediate: 16, deep: 22 },
+
+  youth: {
+    intros: [
+      "God is love. He sent His only begotten Son into the world that we might live through Him. Beloved, if God so loved us, we ought also to love one another. Perfect love casts out fear.",
+    ],
+  },
   topicTags: ['love', 'faithfulness', 'unity', 'integrity'],
   opener: {
     topical: true,

@@ -25,6 +25,12 @@ export const GALATIANS_5: RichChapterContent = {
   chapter: 5,
 
   estimatedMinutes: { beginner: 12, intermediate: 21, deep: 29 },
+
+  youth: {
+    intros: [
+      "&ldquo;Stand fast therefore in the liberty wherewith Christ hath made us free.&rdquo; The fruit of the Spirit: love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance. Bear that fruit.",
+    ],
+  },
   opener: {
     matchTitle: /The Outpouring of the/i,
     caption: 'Galatians 5',

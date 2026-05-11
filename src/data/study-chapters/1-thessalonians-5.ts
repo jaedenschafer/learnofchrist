@@ -16,6 +16,12 @@ export const FIRST_THESSALONIANS_5: RichChapterContent = {
   chapter: 5,
 
   estimatedMinutes: { beginner: 7, intermediate: 13, deep: 20 },
+
+  youth: {
+    intros: [
+      "The day of the Lord comes as a thief. Be sober, watch. &ldquo;Pray without ceasing. In every thing give thanks: for this is the will of God.&rdquo;",
+    ],
+  },
   opener: {
     matchTitle: /The Second Coming of/i,
     caption: '1 Thessalonians 5',

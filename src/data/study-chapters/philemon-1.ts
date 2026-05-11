@@ -16,6 +16,12 @@ export const PHILEMON_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 7, intermediate: 15, deep: 21 },
+
+  youth: {
+    intros: [
+      "A short, personal letter. Paul asks Philemon to take back his runaway slave Onesimus — but now as a brother. The gospel changes everything, including how you treat people who wronged you.",
+    ],
+  },
   intros: [
     'Onesimus was Philemon&apos;s slave. He ran away—perhaps stole money—and ended up in Rome. There, he encountered Paul and became a believer. But Paul does not help him hide. He sends him back to face his master, armed only with a letter that asks Philemon to receive him as a brother. No abolition rhetoric. No legal argument. Just the quiet, revolutionary claim that the gospel has changed everything.',
     'Philemon is also a believer. He hosts a church in his house. He is known for love and faith. So Paul writes to him as an equal, as a fellow servant of Christ—a master of slaves, but also a servant of a King who taught that the greatest among you must become servant of all. The letter is intimate, personal, and disarmingly tender. It shows the gospel not as doctrine but as the redeeming power that unmakes the bonds of the world.',

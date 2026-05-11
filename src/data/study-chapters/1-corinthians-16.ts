@@ -15,6 +15,12 @@ export const FIRST_CORINTHIANS_16: RichChapterContent = {
   chapter: 16,
 
   estimatedMinutes: { beginner: 8, intermediate: 16, deep: 24 },
+
+  youth: {
+    intros: [
+      "Practical instructions on the offering for Jerusalem. Paul&apos;s travel plans. The chapter ends: &ldquo;Watch ye, stand fast in the faith, quit you like men, be strong. Let all your things be done with charity.&rdquo;",
+    ],
+  },
   topicTags: ['unity', 'love', 'witness', 'wisdom'],
   opener: {
     topical: true,

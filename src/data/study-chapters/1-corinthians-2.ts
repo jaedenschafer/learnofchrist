@@ -15,6 +15,12 @@ export const FIRST_CORINTHIANS_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 7, intermediate: 13, deep: 20 },
+
+  youth: {
+    intros: [
+      "Paul came to Corinth not with excellent speech but determined to know nothing among them save Christ crucified. The Spirit reveals what the eye has not seen, the ear not heard, neither has entered the heart of man — what God has prepared for them that love Him.",
+    ],
+  },
   topicTags: ['unity', 'love', 'witness', 'wisdom'],
   opener: {
     topical: true,

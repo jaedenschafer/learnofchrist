@@ -16,6 +16,12 @@ export const ROMANS_4: RichChapterContent = {
   chapter: 4,
 
   estimatedMinutes: { beginner: 10, intermediate: 18, deep: 23 },
+
+  youth: {
+    intros: [
+      "Abraham was justified by faith, not works. He believed God, and it was counted to him as righteousness. Paul&apos;s case: salvation by faith was always God&apos;s plan, even before the law was given.",
+    ],
+  },
   topicTags: ['mercy', 'faithfulness', 'hope', 'righteousness'],
   opener: {
     topical: true,

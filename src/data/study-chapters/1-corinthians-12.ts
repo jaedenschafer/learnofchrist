@@ -15,6 +15,12 @@ export const FIRST_CORINTHIANS_12: RichChapterContent = {
   chapter: 12,
 
   estimatedMinutes: { beginner: 9, intermediate: 18, deep: 25 },
+
+  youth: {
+    intros: [
+      "Spiritual gifts. Many gifts, one Spirit. The body has many members, all needed. The eye can&apos;t say to the hand: I have no need of thee. Find your gift; honor others&apos;.",
+    ],
+  },
   opener: {
     matchTitle: /The Descent of the/i,
     caption: '1 Corinthians 12',

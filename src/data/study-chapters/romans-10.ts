@@ -14,6 +14,12 @@ export const ROMANS_10: RichChapterContent = {
   chapter: 10,
 
   estimatedMinutes: { beginner: 8, intermediate: 14, deep: 18 },
+
+  youth: {
+    intros: [
+      "&ldquo;If thou shalt confess with thy mouth the Lord Jesus, and shalt believe in thine heart that God hath raised him from the dead, thou shalt be saved.&rdquo; And: &ldquo;How shall they hear without a preacher?&rdquo; Tell someone.",
+    ],
+  },
   topicTags: ['mercy', 'faithfulness', 'hope', 'righteousness'],
   opener: {
     topical: true,

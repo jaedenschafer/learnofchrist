@@ -17,6 +17,12 @@ export const HEBREWS_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 8, intermediate: 12, deep: 23 },
+
+  youth: {
+    intros: [
+      "We must give the more earnest heed to the things we&apos;ve heard. Christ took on flesh to taste death for every man. He&apos;s a merciful and faithful high priest.",
+    ],
+  },
   topicTags: ['priest', 'sacrifice', 'faithfulness', 'hope'],
   opener: {
     topical: true,

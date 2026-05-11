@@ -19,6 +19,12 @@ export const FIRST_TIMOTHY_4: RichChapterContent = {
   chapter: 4,
 
   estimatedMinutes: { beginner: 10, intermediate: 17, deep: 26 },
+
+  youth: {
+    intros: [
+      "Some shall depart from the faith giving heed to seducing spirits. Bodily exercise profits little; godliness is profitable unto all things. Let no man despise your youth.",
+    ],
+  },
   intros: [
     'Asceticism creeps into the church. False teachers speak with confidence born of deception, forbidding marriage and demanding abstinence from certain foods. Their theology inverts the created order: the body becomes enemy territory to be starved, rather than God&apos;s creation to be received with gratitude. Paul responds with pastoral firmness, cutting through the spiritual seduction with apostolic authority.',
     'Yet Paul does not dismiss all discipline. He calls Timothy to "exercise thyself unto godliness." The Greek word is gumnaze—to train as an athlete. Discipline is necessary. But it aims not at self-punishment or the denial of creation, but at becoming conformed to Christ. Training the spirit means proper alignment of the whole person—body, soul, and spirit—toward the image of Jesus.',

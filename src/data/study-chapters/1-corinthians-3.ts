@@ -17,6 +17,12 @@ export const FIRST_CORINTHIANS_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 7, intermediate: 13, deep: 18 },
+
+  youth: {
+    intros: [
+      "You are God&apos;s building. The foundation is Jesus Christ; no other can be laid. Be careful how you build on it. Wood, hay, stubble will burn. Gold, silver, precious stones will last.",
+    ],
+  },
   topicTags: ['unity', 'love', 'witness', 'wisdom'],
   opener: {
     topical: true,

@@ -6,6 +6,12 @@ export const FIRST_THESSALONIANS_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 9, intermediate: 14, deep: 20 },
+
+  youth: {
+    intros: [
+      "Paul recounts his ministry among them — bold, gentle as a nursing mother, exhorting like a father. He didn&apos;t flatter them or seek personal gain. Authentic ministry.",
+    ],
+  },
   topicTags: ['hope', 'second-coming', 'witness', 'love'],
   opener: {
     topical: true,

@@ -20,6 +20,12 @@ export const GALATIANS_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 8, intermediate: 17, deep: 25 },
+
+  youth: {
+    intros: [
+      "Paul confronts Peter to his face for compromising on the gospel for the Gentiles. &ldquo;I am crucified with Christ: nevertheless I live; yet not I, but Christ liveth in me.&rdquo;",
+    ],
+  },
   intros: [
     'Paul faced the Jerusalem church at a moment of crisis. False brethren had crept in unaware, demanding that Gentiles become Jewish to be fully Christian. Paul did not waver. He went up to Jerusalem not as a subordinate seeking permission, but as a defender of the gospel. The apostles recognized his calling. The gospel to the Gentiles is valid. Gentile believers do not need the law.',
     'But the chapter does not end in Jerusalem. It moves to Antioch[res:intertextual-galatians-antioch], where the real test comes. Peter, who had eaten with Gentiles, withdraws when the circumcision party arrives. His hypocrisy reveals how easily even the leaders can compromise the gospel. Paul responds not with anger, but with the most profound statement of Christian identity ever written: "I am crucified with Christ: nevertheless I live; yet not I, but Christ liveth in me." The old self is dead. The Christian lives from a new source—Christ Himself.',

@@ -15,6 +15,12 @@ export const SECOND_TIMOTHY_4: RichChapterContent = {
   chapter: 4,
 
   estimatedMinutes: { beginner: 8, intermediate: 14, deep: 20 },
+
+  youth: {
+    intros: [
+      "Preach the word; be instant in season, out of season. Paul&apos;s farewell: &ldquo;I have fought a good fight, I have finished my course, I have kept the faith.&rdquo; Live so you can say that.",
+    ],
+  },
   opener: {
     matchTitle: /The Voyage of Life/i,
     caption: '2 Timothy 4',

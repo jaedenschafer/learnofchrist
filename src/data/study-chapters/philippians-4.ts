@@ -17,6 +17,12 @@ export const PHILIPPIANS_4: RichChapterContent = {
   chapter: 4,
 
   estimatedMinutes: { beginner: 7, intermediate: 13, deep: 17 },
+
+  youth: {
+    intros: [
+      "&ldquo;Rejoice in the Lord alway.&rdquo; &ldquo;Be careful for nothing; but in every thing by prayer…let your requests be made known unto God.&rdquo; &ldquo;I can do all things through Christ which strengtheneth me.&rdquo; A chapter to memorize.",
+    ],
+  },
   intros: [
     'Paul has written about partnership, joy in loss, resurrection power, and the surpassing knowledge of Christ. Now he turns to the street-level life of believers: friends in conflict, hearts prone to anxiety, minds tempted toward despair. He calls the church back to what matters: standing firm in the Lord, rejoicing, and releasing every fear to God in prayer.',
     'The promise of Philippians 4 is not that your problems disappear. It is that the peace of God—a peace beyond understanding—will guard your heart and mind. This peace is the presence of Christ in the midst of your difficulty, transforming fear into trust and anxiety into prayer.',

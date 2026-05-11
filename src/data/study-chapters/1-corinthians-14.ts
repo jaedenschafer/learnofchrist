@@ -16,6 +16,12 @@ export const FIRST_CORINTHIANS_14: RichChapterContent = {
   chapter: 14,
 
   estimatedMinutes: { beginner: 8, intermediate: 15, deep: 20 },
+
+  youth: {
+    intros: [
+      "On tongues and prophecy. Tongues edify the speaker; prophecy edifies the church. Order in worship: let everything be done decently and in order.",
+    ],
+  },
   topicTags: ['unity', 'love', 'witness', 'wisdom'],
   opener: {
     topical: true,

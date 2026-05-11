@@ -6,6 +6,12 @@ export const FIRST_PETER_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 7, intermediate: 10, deep: 17 },
+
+  youth: {
+    intros: [
+      "Husbands and wives — both honored in different roles. Be of one mind, having compassion. Don&apos;t return evil for evil. Sanctify the Lord God in your hearts: be ready always to give an answer for the hope that is in you.",
+    ],
+  },
   opener: {
     matchTitle: /Christ in Limbo/i,
     caption: '1 Peter 3',

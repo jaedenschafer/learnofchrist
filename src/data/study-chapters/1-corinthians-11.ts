@@ -15,6 +15,12 @@ export const FIRST_CORINTHIANS_11: RichChapterContent = {
   chapter: 11,
 
   estimatedMinutes: { beginner: 10, intermediate: 18, deep: 23 },
+
+  youth: {
+    intros: [
+      "On the Lord&apos;s Supper. Examine yourself before partaking. Some at Corinth were eating without honoring the body of Christ — and were getting sick because of it. Don&apos;t be casual about communion.",
+    ],
+  },
   topicTags: ['unity', 'love', 'witness', 'wisdom'],
   opener: {
     topical: true,

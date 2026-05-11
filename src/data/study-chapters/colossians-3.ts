@@ -15,6 +15,12 @@ export const COLOSSIANS_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 13, intermediate: 25, deep: 36 },
+
+  youth: {
+    intros: [
+      "Set your affection on things above, not on things on the earth. Put off anger, malice, blasphemy. Put on bowels of mercies, kindness, humbleness, meekness, longsuffering. Above all, charity.",
+    ],
+  },
   opener: {
     matchTitle: /Christ in the House/i,
     caption: 'Colossians 3',

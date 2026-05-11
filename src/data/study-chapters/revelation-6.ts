@@ -17,6 +17,12 @@ export const REVELATION_6: RichChapterContent = {
   chapter: 6,
 
   estimatedMinutes: { beginner: 8, intermediate: 12, deep: 18 },
+
+  youth: {
+    intros: [
+      "The Lamb opens the first six seals. Four horsemen — conquest, war, famine, death. The martyrs cry &ldquo;How long?&rdquo; The sun goes black, the moon blood, the stars fall. The day of God&apos;s wrath has come.",
+    ],
+  },
   intros: [
     'Revelation 6 opens the scroll. With each broken seal, a vision unfolds—not random chaos, but a deliberate unrolling of judgment and promise. The white horse rides forth, then the red, then the black. Death himself appears on a pale horse. Beneath the altar, the souls of the slain cry out: "How long?" And when the sixth seal breaks, creation trembles.',
     'None of these seals are loose accidents. The Lamb opens them. Christ holds the scroll. Everything you see—conquest and war, famine and death, martyrdom and cosmic upheaval—happens under His hand. The chapter ends with a people in terror, hiding in the rocks, asking the question that will define everything after: "Who shall be able to stand?"',

@@ -15,6 +15,12 @@ export const SECOND_TIMOTHY_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 10, intermediate: 16, deep: 23 },
+
+  youth: {
+    intros: [
+      "God has not given us the spirit of fear, but of power, and of love, and of a sound mind. Don&apos;t be ashamed of the testimony of our Lord. Stir up the gift of God in you.",
+    ],
+  },
   opener: {
     matchTitle: /Saint Timothy the Apostle/i,
     caption: '2 Timothy 1',

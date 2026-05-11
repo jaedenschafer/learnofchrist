@@ -16,6 +16,12 @@ export const REVELATION_15: RichChapterContent = {
   chapter: 15,
 
   estimatedMinutes: { beginner: 4, intermediate: 9, deep: 12 },
+
+  youth: {
+    intros: [
+      "Seven angels with seven last plagues. The song of Moses and of the Lamb sung before the throne.",
+    ],
+  },
   topicTags: ['second-coming', 'judgment', 'new-creation', 'kingship'],
   opener: {
     topical: true,

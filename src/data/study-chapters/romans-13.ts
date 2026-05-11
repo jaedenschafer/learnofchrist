@@ -13,6 +13,12 @@ export const ROMANS_13: RichChapterContent = {
   chapter: 13,
 
   estimatedMinutes: { beginner: 8, intermediate: 14, deep: 21 },
+
+  youth: {
+    intros: [
+      "Submit to governing authorities. Pay your taxes. Owe no one anything except love. The night is far spent; the day is at hand. Wake up.",
+    ],
+  },
   topicTags: ['mercy', 'faithfulness', 'hope', 'righteousness'],
   opener: {
     topical: true,

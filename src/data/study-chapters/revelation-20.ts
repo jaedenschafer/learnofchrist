@@ -6,6 +6,12 @@ export const REVELATION_20: RichChapterContent = {
   chapter: 20,
 
   estimatedMinutes: { beginner: 6, intermediate: 9, deep: 14 },
+
+  youth: {
+    intros: [
+      "Satan is bound for a thousand years. Then loosed for a little season. The great white throne judgment. Death and hell are cast into the lake of fire. Whoever is not found in the book of life is cast in too.",
+    ],
+  },
   opener: {
     matchTitle: /Last Judgment/i,
     caption: 'Revelation 20',

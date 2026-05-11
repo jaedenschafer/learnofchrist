@@ -19,6 +19,12 @@ export const HEBREWS_9: RichChapterContent = {
   chapter: 9,
 
   estimatedMinutes: { beginner: 12, intermediate: 18, deep: 40 },
+
+  youth: {
+    intros: [
+      "The earthly tabernacle was a copy. Christ entered the heavenly Most Holy Place once for all with His own blood, having obtained eternal redemption. Without shedding of blood is no remission.",
+    ],
+  },
   opener: {
     matchTitle: /The Dead Christ Supported/i,
     caption: 'Hebrews 9',

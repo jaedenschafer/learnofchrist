@@ -19,6 +19,12 @@ export const FIRST_CORINTHIANS_10: RichChapterContent = {
   chapter: 10,
 
   estimatedMinutes: { beginner: 13, intermediate: 21, deep: 31 },
+
+  youth: {
+    intros: [
+      "Israel&apos;s wilderness story is a warning to you. Don&apos;t commit idolatry, don&apos;t commit fornication, don&apos;t test the Lord, don&apos;t murmur. &ldquo;Whether therefore ye eat, or drink, or whatsoever ye do, do all to the glory of God.&rdquo;",
+    ],
+  },
   intros: [
     'The Corinthians are confident in their standing with God. They have been baptized. They partake of the Lord&apos;s Supper. They believe they have the Holy Spirit. But confidence can curdle into complacency, and Paul will not allow it. He turns to Israel&apos;s desert wanderings as a mirror for the church&apos;s own danger. Israel had even greater visible privileges than the Corinthians have—the cloud, the sea, the manna, the rock—yet most of that generation perished in the wilderness because of idolatry and sexual immorality. Paul&apos;s message is stark: spiritual privilege is not spiritual insurance.',
     'The chapter divides into two halves. Verses 1–13 use the wilderness account as a warning and frame temptation as universal but not overwhelming. God&apos;s faithfulness ensures a way of escape from every trial. Verses 14–22 apply this directly to the Corinthian question about eating meat offered to idols. The Lord&apos;s Supper is participation in Christ&apos;s body and blood—a covenant bond with Him and with the church. This bond is incompatible with sitting at an idol&apos;s table. The chapter ends with the principle that governs every choice: whether you eat, drink, or do anything at all, do it to the glory of God.',

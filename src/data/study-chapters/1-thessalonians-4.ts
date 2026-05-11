@@ -21,6 +21,12 @@ export const FIRST_THESSALONIANS_4: RichChapterContent = {
   chapter: 4,
 
   estimatedMinutes: { beginner: 6, intermediate: 11, deep: 17 },
+
+  youth: {
+    intros: [
+      "Abstain from sexual immorality. Live quiet lives. Then the famous resurrection passage: &ldquo;The Lord himself shall descend from heaven with a shout…and the dead in Christ shall rise first.&rdquo; Comfort one another with these words.",
+    ],
+  },
   intros: [
     'Paul has just comforted the Thessalonians about those who have "fallen asleep"—believers who died before seeing Christ&apos;s return. Now he turns to their daily walk. Holiness is not abstract. It is how you use your body, how you treat others, how you earn your bread. Sanctification touches everything.',
     'The call to sanctification is urgent but not joyless. Paul grounds it in the hope of Christ&apos;s return. You are preserved—set apart—not for judgment but for reunion. This is the comfort that transforms ethics into love.',

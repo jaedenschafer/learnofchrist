@@ -6,6 +6,12 @@ export const REVELATION_17: RichChapterContent = {
   chapter: 17,
 
   estimatedMinutes: { beginner: 4, intermediate: 8, deep: 13 },
+
+  youth: {
+    intros: [
+      "The great whore who sits upon many waters — Babylon the great, mother of harlots. The beast with seven heads carries her. They will hate her in the end and burn her with fire.",
+    ],
+  },
   intros: [
     "An angel shows John the great whore — the woman who has seduced the kingdoms of the earth with fornication and wealth. She sits on a scarlet beast, drunk with the blood of the saints. Her name is Mystery, Babylon the Great. Identifying her with any single historical power misses the point: she is the pattern of every seductive false kingdom, dressed in gold and scarlet, offering power and prosperity to those who will worship her instead of God.",
     "But the Lamb shall overcome them. He is Lord of lords and King of kings. The same beast that carried the woman will turn and devour her — evil has no loyalty even to itself. This vision is not vindication delayed; it is victory already won, shown to believers who are called, chosen, and faithful. You are in that company if you are with Him.",

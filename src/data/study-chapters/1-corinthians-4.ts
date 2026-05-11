@@ -16,6 +16,12 @@ export const FIRST_CORINTHIANS_4: RichChapterContent = {
   chapter: 4,
 
   estimatedMinutes: { beginner: 7, intermediate: 15, deep: 20 },
+
+  youth: {
+    intros: [
+      "The apostles are stewards of the mysteries of God. Required of stewards: faithfulness. Paul lists what apostles endure: hunger, thirst, nakedness, beatings, no certain dwellingplace. Don&apos;t romanticize ministry.",
+    ],
+  },
   topicTags: ['unity', 'love', 'witness', 'wisdom'],
   opener: {
     topical: true,

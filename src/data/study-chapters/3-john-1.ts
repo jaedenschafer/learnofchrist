@@ -18,6 +18,12 @@ export const THIRD_JOHN_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 6, intermediate: 10, deep: 13 },
+
+  youth: {
+    intros: [
+      "Paul commends Gaius for walking in truth and showing hospitality to traveling missionaries. Don&apos;t be like Diotrephes, who loves the preeminence.",
+    ],
+  },
   opener: {
     matchTitle: /The Death of the/i,
     caption: '3 John 1',

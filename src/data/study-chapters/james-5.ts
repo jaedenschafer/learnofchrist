@@ -16,6 +16,12 @@ export const JAMES_5: RichChapterContent = {
   chapter: 5,
 
   estimatedMinutes: { beginner: 6, intermediate: 9, deep: 14 },
+
+  youth: {
+    intros: [
+      "Woe to the rich who oppress workers. Be patient unto the coming of the Lord. The fervent prayer of a righteous man avails much. Confess your faults one to another.",
+    ],
+  },
   topicTags: ['wisdom', 'integrity', 'humility', 'faithfulness'],
   opener: {
     topical: true,

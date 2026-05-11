@@ -16,6 +16,12 @@ export const SECOND_CORINTHIANS_4: RichChapterContent = {
   chapter: 4,
 
   estimatedMinutes: { beginner: 7, intermediate: 12, deep: 18 },
+
+  youth: {
+    intros: [
+      "&ldquo;We have this treasure in earthen vessels, that the excellency of the power may be of God, and not of us.&rdquo; And: &ldquo;Our light affliction, which is but for a moment, worketh for us a far more exceeding and eternal weight of glory.&rdquo;",
+    ],
+  },
   opener: {
     matchTitle: /Saint Paul Writing His/i,
     caption: '2 Corinthians 4',

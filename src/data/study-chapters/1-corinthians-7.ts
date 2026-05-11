@@ -14,6 +14,12 @@ export const FIRST_CORINTHIANS_7: RichChapterContent = {
   chapter: 7,
 
   estimatedMinutes: { beginner: 8, intermediate: 15, deep: 20 },
+
+  youth: {
+    intros: [
+      "On marriage and singleness. Paul&apos;s practical wisdom: each person has their own gift from God. Whether married or single, glorify God where He&apos;s placed you.",
+    ],
+  },
   topicTags: ['unity', 'love', 'witness', 'wisdom'],
   opener: {
     topical: true,

@@ -16,6 +16,12 @@ export const SECOND_CORINTHIANS_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 6, intermediate: 11, deep: 15 },
+
+  youth: {
+    intros: [
+      "Paul&apos;s anguish over the Corinthian church. He delayed coming because he didn&apos;t want to grieve them again. &ldquo;Now thanks be unto God, which always causeth us to triumph in Christ.&rdquo;",
+    ],
+  },
   topicTags: ['suffering', 'compassion', 'witness', 'hope'],
   opener: {
     topical: true,

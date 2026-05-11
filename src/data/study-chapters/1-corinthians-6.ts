@@ -14,6 +14,12 @@ export const FIRST_CORINTHIANS_6: RichChapterContent = {
   chapter: 6,
 
   estimatedMinutes: { beginner: 6, intermediate: 15, deep: 21 },
+
+  youth: {
+    intros: [
+      "Don&apos;t sue your fellow believers in pagan courts. And don&apos;t join your body to a prostitute — your body is the temple of the Holy Spirit, bought with a price. Glorify God in your body.",
+    ],
+  },
   topicTags: ['unity', 'love', 'witness', 'wisdom'],
   opener: {
     topical: true,

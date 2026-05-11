@@ -15,6 +15,12 @@ export const EPHESIANS_4: RichChapterContent = {
   chapter: 4,
 
   estimatedMinutes: { beginner: 6, intermediate: 15, deep: 20 },
+
+  youth: {
+    intros: [
+      "One body, one Spirit, one Lord, one faith, one baptism, one God and Father. Christ gave gifts to the church to equip the saints. Put off the old man; put on the new.",
+    ],
+  },
   opener: {
     matchTitle: /The Calling of Saint/i,
     caption: 'Ephesians 4',

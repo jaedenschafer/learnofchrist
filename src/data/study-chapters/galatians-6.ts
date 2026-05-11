@@ -18,6 +18,12 @@ export const GALATIANS_6: RichChapterContent = {
   chapter: 6,
 
   estimatedMinutes: { beginner: 8, intermediate: 15, deep: 21 },
+
+  youth: {
+    intros: [
+      "Bear one another&apos;s burdens. Whatever a man sows, that shall he also reap. Be not weary in well doing, for in due season we shall reap if we faint not.",
+    ],
+  },
   intros: [
     'Galatians closes not with doctrine alone but with the lived shape of the gospel. The law is gone; the Spirit&apos;s work remains. Believers are called to restore the fallen with meekness, to bear one another&apos;s weight, to sow[res:sefaria-hosea-sowing-reaping] to the Spirit rather than the flesh. The final word is staggering: Paul glories in the cross of Christ, and in that cross finds all the freedom the law could never grant.',
     'The false teachers boasted in the flesh[res:topostext-galatia-geography]—in circumcision, in bloodline, in external markers of achievement. Paul&apos;s boast is radically different. The cross. That is where glory lives. By that cross the world is crucified unto him, and he unto the world. All his old identity dies. What rises is something new: a creature remade in Christ, bearing His marks, walking in His grace.',

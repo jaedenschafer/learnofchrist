@@ -18,6 +18,12 @@ export const HEBREWS_13: RichChapterContent = {
   chapter: 13,
 
   estimatedMinutes: { beginner: 4, intermediate: 11, deep: 20 },
+
+  youth: {
+    intros: [
+      "Let brotherly love continue. Don&apos;t forget hospitality — some have entertained angels unawares. Marriage is honorable. Be content with what you have. &ldquo;Jesus Christ the same yesterday, and to day, and for ever.&rdquo;",
+    ],
+  },
   topicTags: ['priest', 'sacrifice', 'faithfulness', 'hope'],
   opener: {
     topical: true,

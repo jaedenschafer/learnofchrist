@@ -17,6 +17,12 @@ export const ROMANS_15: RichChapterContent = {
   chapter: 15,
 
   estimatedMinutes: { beginner: 8, intermediate: 16, deep: 25 },
+
+  youth: {
+    intros: [
+      "The strong should bear with the weak. Christ welcomed you, so welcome one another. Paul shares his missionary plans: he&apos;s heading to Rome and then Spain.",
+    ],
+  },
   topicTags: ['mercy', 'faithfulness', 'hope', 'righteousness'],
   opener: {
     topical: true,

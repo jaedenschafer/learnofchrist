@@ -17,6 +17,12 @@ export const SECOND_CORINTHIANS_13: RichChapterContent = {
   chapter: 13,
 
   estimatedMinutes: { beginner: 7, intermediate: 13, deep: 20 },
+
+  youth: {
+    intros: [
+      "Examine yourselves whether you be in the faith. Paul&apos;s closing benediction: &ldquo;The grace of the Lord Jesus Christ, and the love of God, and the communion of the Holy Ghost, be with you all.&rdquo;",
+    ],
+  },
   intros: [
     'Paul writes this letter in pain. The Corinthian church has divided against him, doubting his apostolic authority, tolerating false teachers, persisting in sin. He has written with sharpness because healing demands honesty. But as he closes, his intention clarifies: not judgment, but restoration. He is coming a third time. This time will be different.',
     'The chapter turns suddenly from threat to tenderness. Yes, Paul will not spare those who reject his authority and cling to sin. But the deeper word is always Christ&apos;s pattern: weakness yielding to power, death producing resurrection. And then—almost without warning—Paul lifts the whole letter into one of Scripture&apos;s most luminous prayers: grace, love, and communion, each from a distinct person of the Godhead, each essential, all three resting on the church he is about to visit.',

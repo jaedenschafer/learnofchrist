@@ -15,6 +15,12 @@ export const EPHESIANS_5: RichChapterContent = {
   chapter: 5,
 
   estimatedMinutes: { beginner: 11, intermediate: 21, deep: 29 },
+
+  youth: {
+    intros: [
+      "Walk in love as Christ loved us and gave Himself for us. Don&apos;t be drunk with wine but be filled with the Spirit. Submit to one another in the fear of God. Husbands love your wives as Christ loved the church.",
+    ],
+  },
   intros: [
     'Ephesians 5 opens with a simple command: "Be followers of God, as dear children." And what is the content of following God? "Walk in love." All that follows—teaching about relationships, marriage, family—flows from this foundation: that believers are people who have learned to love as Christ has loved them.',
     'The chapter moves from general principles of love and light to specific relationships. Marriage is presented not as a legal contract, but as a covenant image of Christ&apos;s relationship with the church. Christ "gave himself for" the church, making her "not having spot, or wrinkle, or any such thing; but that she should be holy and without blemish." This is the measure by which all love is understood.',

@@ -20,6 +20,12 @@ export const GALATIANS_4: RichChapterContent = {
   chapter: 4,
 
   estimatedMinutes: { beginner: 7, intermediate: 13, deep: 19 },
+
+  youth: {
+    intros: [
+      "You are no longer slaves but sons. The Spirit of His Son in your heart cries Abba, Father. Don&apos;t go back to bondage.",
+    ],
+  },
   opener: {
     matchTitle: /The Annunciation/i,
     caption: 'Galatians 4',

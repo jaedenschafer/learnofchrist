@@ -23,6 +23,12 @@ export const HEBREWS_11: RichChapterContent = {
   chapter: 11,
 
   estimatedMinutes: { beginner: 15, intermediate: 32, deep: 35 },
+
+  youth: {
+    intros: [
+      "The faith chapter. By faith Abel, Enoch, Noah, Abraham, Sarah, Moses, Rahab. By faith they all died not having received the promises but having seen them afar off. They&apos;re cheering you on.",
+    ],
+  },
   intros: [
     'Hebrews 11 is the hall of faith. Abel, Enoch, Noah, Abraham, Isaac, Jacob, Joseph, Moses, Rahab, Samson, David—and many unnamed—all lived and died in faith, not having received the promises, but having seen them afar off. They were persuaded of them and embraced them. They confessed themselves pilgrims and strangers on the earth, seeking a better country. Their faith is not blind. It is grounded in reality, even when that reality is invisible.',
     'The passage defines faith: "Now faith is the substance of things hoped for, the evidence of things not seen." Not wishful thinking. Not denial of reality. But the conviction that God\'s word is as solid as what you can touch. And it opens with a simple truth: faith pleases God. Everything in this chapter flows from that.',

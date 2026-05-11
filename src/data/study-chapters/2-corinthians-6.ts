@@ -15,6 +15,12 @@ export const SECOND_CORINTHIANS_6: RichChapterContent = {
   chapter: 6,
 
   estimatedMinutes: { beginner: 6, intermediate: 12, deep: 16 },
+
+  youth: {
+    intros: [
+      "&ldquo;Behold, now is the accepted time; behold, now is the day of salvation.&rdquo; And: &ldquo;Be ye not unequally yoked together with unbelievers.&rdquo; Don&apos;t harness yourself to people whose plows are pulling against God.",
+    ],
+  },
   topicTags: ['suffering', 'compassion', 'witness', 'hope'],
   opener: {
     topical: true,

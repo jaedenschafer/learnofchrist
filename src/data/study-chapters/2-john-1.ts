@@ -17,6 +17,12 @@ export const SECOND_JOHN_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 6, intermediate: 13, deep: 18 },
+
+  youth: {
+    intros: [
+      "A short letter to &ldquo;the elect lady.&rdquo; Walk in truth. Walk in love. Don&apos;t welcome teachers who deny that Jesus came in the flesh.",
+    ],
+  },
   opener: {
     matchTitle: /Holy Apostle John the/i,
     caption: '2 John 1',

@@ -14,6 +14,12 @@ export const FIRST_JOHN_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 11, intermediate: 18, deep: 24 },
+
+  youth: {
+    intros: [
+      "My little children, sin not. If any man sin, we have an advocate with the Father, Jesus Christ the righteous. He is the propitiation for our sins. Love not the world, neither the things that are in the world.",
+    ],
+  },
   topicTags: ['love', 'faithfulness', 'unity', 'integrity'],
   opener: {
     topical: true,

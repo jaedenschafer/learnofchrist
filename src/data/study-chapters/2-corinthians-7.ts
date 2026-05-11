@@ -16,6 +16,12 @@ export const SECOND_CORINTHIANS_7: RichChapterContent = {
   chapter: 7,
 
   estimatedMinutes: { beginner: 7, intermediate: 12, deep: 17 },
+
+  youth: {
+    intros: [
+      "Godly sorrow works repentance unto salvation. Worldly sorrow works death. Don&apos;t just regret consequences. Repent of the sin.",
+    ],
+  },
   topicTags: ['suffering', 'compassion', 'witness', 'hope'],
   opener: {
     topical: true,

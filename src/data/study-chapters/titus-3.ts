@@ -18,6 +18,12 @@ export const TITUS_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 8, intermediate: 16, deep: 24 },
+
+  youth: {
+    intros: [
+      "Submit to governing authorities. Be ready to every good work. We were once foolish ourselves; the kindness of God appeared and saved us — not by works of righteousness but by His mercy.",
+    ],
+  },
   intros: [
     'Paul has given instructions throughout the letter. Now he reaches bedrock. Believers are not saved because they are good, not because they have earned God&apos;s favor. They are saved because God showed mercy. This doctrine must reshape the church&apos;s stance toward the world, toward the unbelieving, toward one another.',
     'The chapter holds another concentrated gospel paragraph—Titus 3:4–7—where Paul unpacks the mechanics of salvation: not works, but mercy; not human effort, but the washing of regeneration and the renewing of the Holy Ghost. This is grace that appears. This is mercy that saves. And it calls forth a response: to maintain good works, to pursue purity, to guard against division.',

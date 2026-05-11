@@ -19,6 +19,12 @@ export const SECOND_CORINTHIANS_10: RichChapterContent = {
   chapter: 10,
 
   estimatedMinutes: { beginner: 9, intermediate: 16, deep: 21 },
+
+  youth: {
+    intros: [
+      "The weapons of our warfare are not carnal but mighty through God to the pulling down of strongholds. Don&apos;t fight spiritual battles with worldly weapons.",
+    ],
+  },
   topicTags: ['suffering', 'compassion', 'witness', 'hope'],
   opener: {
     topical: true,

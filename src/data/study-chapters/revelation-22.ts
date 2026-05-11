@@ -14,6 +14,12 @@ export const REVELATION_22: RichChapterContent = {
   chapter: 22,
 
   estimatedMinutes: { beginner: 9, intermediate: 14, deep: 20 },
+
+  youth: {
+    intros: [
+      "The river of life. The tree of life. No more curse. The throne of God and of the Lamb shall be in it. &ldquo;Behold, I come quickly.&rdquo; The Spirit and the bride say, Come. The Bible ends with an invitation.",
+    ],
+  },
   topicTags: ['new-creation', 'hope', 'second-coming', 'love'],
   opener: {
     topical: true,

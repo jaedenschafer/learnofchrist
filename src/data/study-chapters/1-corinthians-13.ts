@@ -14,6 +14,12 @@ export const FIRST_CORINTHIANS_13: RichChapterContent = {
   chapter: 13,
 
   estimatedMinutes: { beginner: 6, intermediate: 14, deep: 19 },
+
+  youth: {
+    intros: [
+      "The love chapter. Without love, all your gifts are nothing. Love is patient, kind, doesn&apos;t envy, doesn&apos;t parade itself. &ldquo;And now abideth faith, hope, charity, these three; but the greatest of these is charity.&rdquo;",
+    ],
+  },
   intros: [
     'First Corinthians 12 describes the gifts—prophecy, healing, speaking in tongues, knowledge. The Corinthians prize them. They compete for them. They rank them. And Paul has affirmed that the gifts are real and vital. But then he says, "Let me show you a more excellent way." There is something greater than any gift.',
     'What follows is not a sermon on marriage or romantic love, though this chapter has graced a thousand wedding ceremonies. It is Paul&apos;s diagnosis of the Corinthian church: expert in gifts, catastrophic in love. They speak in tongues without love—mere noise. They move mountains without love—they are nothing. And he makes a breathtaking claim: love is the only thing that never fails. When prophecies end, when tongues cease, when knowledge vanishes, love endures. Love is eternal.',

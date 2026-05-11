@@ -16,6 +16,12 @@ export const ROMANS_14: RichChapterContent = {
   chapter: 14,
 
   estimatedMinutes: { beginner: 7, intermediate: 15, deep: 22 },
+
+  youth: {
+    intros: [
+      "Don&apos;t judge your brother over disputed matters — what they eat, what days they observe. Each will give an account to God. Don&apos;t cause your brother to stumble.",
+    ],
+  },
   intros: [
     'By Romans 14, Paul has laid doctrinal ground for eight chapters. Now he turns to the hardest question: How do Christians disagree without dividing? Some believers eat meat; others eat only vegetables. Some set one day above another; others count all days alike. To the strong, these rules feel like shadows. To the weak, they feel like walls. Both are sincere. Both believe they answer to God. And that last part—"answer to God"—is where Paul plants his flag.',
     'The chapter is not about food or calendars. It is about the church learning to hold disagreement differently. In a body where Christ is Lord, you cannot despise someone Christ died for. You cannot judge someone Christ will judge. You must bear the infirmities of the weak, not out of duty alone, but because you belong to Him. "To his own master he standeth or falleth." That master is Christ. Not you.',

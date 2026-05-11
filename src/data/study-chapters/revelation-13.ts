@@ -16,6 +16,12 @@ export const REVELATION_13: RichChapterContent = {
   chapter: 13,
 
   estimatedMinutes: { beginner: 8, intermediate: 14, deep: 17 },
+
+  youth: {
+    intros: [
+      "The beast rises out of the sea. Forty-two months of authority. Then a second beast — the false prophet. The mark of the beast: 666.",
+    ],
+  },
   opener: {
     matchTitle: /The Number of the/i,
     caption: 'Revelation 13',

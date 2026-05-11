@@ -16,6 +16,12 @@ export const REVELATION_14: RichChapterContent = {
   chapter: 14,
 
   estimatedMinutes: { beginner: 9, intermediate: 18, deep: 23 },
+
+  youth: {
+    intros: [
+      "The Lamb on Mount Zion with 144,000 who follow Him wherever He goes. Three angels announce the gospel, the fall of Babylon, and warning against the beast. Two harvests — grain and grapes of wrath.",
+    ],
+  },
   intros: [
     'Revelation 14 stands like a still center between the chaos of the beasts and the final pouring out of bowls. The Lamb is on Mount Zion. The 144,000—the sealed, the faithful, the overcomers—stand with Him, marked not with the beast&apos;s mark but with His Father&apos;s name. They are already secure while the world still reels.',
     'Then comes the proclamation. Three angels cry out across the heavens: the gospel is eternal; Babylon will fall; judgment comes for those who worship the beast. The message is clear: choose your allegiance now. The time of mercy is waning. The harvest is ripe. The Son of Man holds the sickle.',

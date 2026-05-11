@@ -15,6 +15,12 @@ export const GALATIANS_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 6, intermediate: 12, deep: 17 },
+
+  youth: {
+    intros: [
+      "The just shall live by faith. Paul shows from Abraham that justification was always by faith, not law. The law was a schoolmaster to bring us to Christ. In Him there is neither Jew nor Greek.",
+    ],
+  },
   intros: [
     'Paul opens with urgency and grief: "O foolish Galatians, who hath bewitched you?" The Galatians have turned from faith to works. They received the Spirit by faith; now they trust in the flesh. Paul takes them back to Abraham[res:sefaria-abraham-covenant]—not the law, but the man of faith. Abraham believed God, and that belief was counted as righteousness. The law came 430 years later. It was never meant to replace faith; it was meant to lead you to Christ.',
     'In Christ, the old divisions collapse. Jew and Gentile, slave and free, male and female—these categories no longer divide the believer. All are baptized into Christ. All have put on Christ. All are one in Him. All are Abraham&apos;s seed, heirs of the promise by faith. This is the gospel&apos;s scandal and its scandal is its power: the distinctions the world builds to divide and rank—ethnicity, status, gender—count for nothing in the kingdom of God.',

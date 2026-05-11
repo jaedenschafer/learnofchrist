@@ -18,6 +18,12 @@ export const FIRST_CORINTHIANS_8: RichChapterContent = {
   chapter: 8,
 
   estimatedMinutes: { beginner: 6, intermediate: 13, deep: 19 },
+
+  youth: {
+    intros: [
+      "On meat sacrificed to idols. Knowledge puffs up; love builds up. Don&apos;t exercise your freedom in a way that wounds a weaker brother&apos;s conscience.",
+    ],
+  },
   topicTags: ['unity', 'love', 'witness', 'wisdom'],
   opener: {
     topical: true,

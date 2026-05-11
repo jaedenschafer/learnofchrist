@@ -15,6 +15,12 @@ export const FIRST_TIMOTHY_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 7, intermediate: 12, deep: 19 },
+
+  youth: {
+    intros: [
+      "Paul&apos;s pastoral letter to young Timothy. The end of the commandment is charity out of a pure heart. Christ Jesus came to save sinners — of whom Paul says he is chief.",
+    ],
+  },
   opener: {
     matchTitle: /Saint Timothy/i,
     caption: '1 Timothy 1',

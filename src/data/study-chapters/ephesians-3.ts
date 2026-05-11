@@ -17,6 +17,12 @@ export const EPHESIANS_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 7, intermediate: 15, deep: 21 },
+
+  youth: {
+    intros: [
+      "Paul prays you would comprehend the breadth, length, depth, height of the love of Christ — and be filled with all the fulness of God. &ldquo;Now unto him that is able to do exceeding abundantly above all that we ask or think.&rdquo;",
+    ],
+  },
   intros: [
     'Ephesians 3 opens with Paul reflecting on his calling as "the prisoner of Jesus Christ for you Gentiles"—not in shame, but in stewardship. He then unveils the mystery: what was hidden "from the beginning of the world" is now revealed. Gentiles and Jews share one body, one Spirit, one Lord, one faith. They are not secondary or marginal. They are co-heirs.',
     'The chapter concludes with one of the Bible&apos;s most stretching prayers. Paul prays that you would be strengthened to comprehend the breadth, length, depth, and height of Christ&apos;s love—a love that surpasses knowing. He prays that you would be filled with all the fullness of God. Not as isolated individuals, but as a community rooted and grounded in love, indwelt by Christ through faith.',

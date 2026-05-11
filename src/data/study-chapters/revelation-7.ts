@@ -15,6 +15,12 @@ export const REVELATION_7: RichChapterContent = {
   chapter: 7,
 
   estimatedMinutes: { beginner: 7, intermediate: 11, deep: 16 },
+
+  youth: {
+    intros: [
+      "A pause before the seventh seal. 144,000 sealed from Israel. Then a great multitude no man could number, from every nation, standing before the throne. They&apos;ve washed their robes in the blood of the Lamb.",
+    ],
+  },
   intros: [
     'Revelation 6 ends with a cosmic question: "Who shall be able to stand?" before the wrath of the Lamb. Chapter 7 answers it. Before the seventh seal opens, God pauses. He seals His own—marking them with the seal of the living God, protecting them from what is to come. The 144,000, drawn from all twelve tribes of Israel, represent the fullness and completeness of God&apos;s redeemed people.',
     'But then the vision expands. John sees not just 144,000, but a multitude no one can number—from every nation, language, and people. They stand before the throne in white robes, triumphant not by their own strength but because they have washed their garments in the blood of the Lamb. They cry out with one voice: "Salvation to our God which sitteth upon the throne, and unto the Lamb." This is the church in victory, eternal and secure.',

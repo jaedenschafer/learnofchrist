@@ -20,6 +20,12 @@ export const GALATIANS_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 8, intermediate: 14, deep: 19 },
+
+  youth: {
+    intros: [
+      "Paul is shocked the Galatians are turning to a different gospel. &ldquo;If any man preach any other gospel unto you than that ye have received, let him be accursed.&rdquo; The gospel is not negotiable.",
+    ],
+  },
   intros: [
     'Galatians is Paul&apos;s most urgent letter. The Galatian churches have been influenced by false teachers—later called "Judaizers"—who insist that faith in Christ is not enough. Works of the law, especially circumcision, are also required for salvation. Paul considers this a betrayal of the gospel itself. This is not a small dispute over practice. This is a head-on collision over the very heart of redemption.',
     'Notice the severity of Paul&apos;s tone: "I marvel that ye are so soon removed from him that called you." He opens not with thanksgiving but with astonishment and concern. The letter is a defense of his apostolic authority and a passionate call to remember what the gospel truly is: Christ gave Himself for our sins. Period. No additions. No supplements. No works required beyond faith.',

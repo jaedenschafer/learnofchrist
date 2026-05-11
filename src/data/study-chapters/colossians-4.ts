@@ -16,6 +16,12 @@ export const COLOSSIANS_4: RichChapterContent = {
   chapter: 4,
 
   estimatedMinutes: { beginner: 7, intermediate: 13, deep: 19 },
+
+  youth: {
+    intros: [
+      "Pray without ceasing. Walk in wisdom toward outsiders. Let your speech be always with grace, seasoned with salt. The chapter ends with personal greetings — names of real co-workers.",
+    ],
+  },
   topicTags: ['kingship', 'unity', 'holiness', 'love'],
   opener: {
     topical: true,

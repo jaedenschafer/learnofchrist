@@ -17,6 +17,12 @@ export const ROMANS_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 7, intermediate: 15, deep: 21 },
+
+  youth: {
+    intros: [
+      "Paul opens his greatest letter. The gospel is the power of God for salvation to everyone who believes. Then a brutal indictment: humanity has suppressed truth in unrighteousness. The wrath of God is revealed against ungodliness. Read it slowly.",
+    ],
+  },
   opener: {
     matchTitle: /St Paul Dictating at/i,
     caption: 'Romans 1',

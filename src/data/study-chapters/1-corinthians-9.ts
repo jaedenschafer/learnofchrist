@@ -16,6 +16,12 @@ export const FIRST_CORINTHIANS_9: RichChapterContent = {
   chapter: 9,
 
   estimatedMinutes: { beginner: 4, intermediate: 10, deep: 13 },
+
+  youth: {
+    intros: [
+      "Paul defends his apostleship. He gave up rights — including being supported financially — to remove obstacles to the gospel. &ldquo;I am made all things to all men, that I might by all means save some.&rdquo;",
+    ],
+  },
   topicTags: ['unity', 'love', 'witness', 'wisdom'],
   opener: {
     topical: true,

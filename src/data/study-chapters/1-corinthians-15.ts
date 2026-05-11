@@ -18,6 +18,12 @@ export const FIRST_CORINTHIANS_15: RichChapterContent = {
   chapter: 15,
 
   estimatedMinutes: { beginner: 11, intermediate: 24, deep: 30 },
+
+  youth: {
+    intros: [
+      "The resurrection chapter. If Christ is not risen, your faith is in vain. But Christ IS risen — the firstfruits of those who slept. The dead in Christ shall be raised incorruptible. &ldquo;O death, where is thy sting?&rdquo;",
+    ],
+  },
   opener: {
     matchTitle: /The Body of the/i,
     caption: '1 Corinthians 15',

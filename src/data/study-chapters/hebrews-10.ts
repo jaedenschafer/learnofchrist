@@ -21,6 +21,12 @@ export const HEBREWS_10: RichChapterContent = {
   chapter: 10,
 
   estimatedMinutes: { beginner: 10, intermediate: 19, deep: 29 },
+
+  youth: {
+    intros: [
+      "The blood of bulls and goats can&apos;t take away sins. Christ&apos;s one sacrifice did. Therefore let us draw near…hold fast…provoke one another to love and good works…not forsaking the assembling.",
+    ],
+  },
   topicTags: ['priest', 'sacrifice', 'faithfulness', 'hope'],
   opener: {
     topical: true,

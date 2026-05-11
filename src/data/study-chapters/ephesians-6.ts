@@ -22,6 +22,12 @@ export const EPHESIANS_6: RichChapterContent = {
   chapter: 6,
 
   estimatedMinutes: { beginner: 9, intermediate: 17, deep: 26 },
+
+  youth: {
+    intros: [
+      "Honor your parents. Servants and masters, treat each other rightly. Then the armor of God: truth, righteousness, peace, faith, salvation, Spirit-Word. Pray always with all prayer.",
+    ],
+  },
   intros: [
     'In the final chapter of Ephesians, Paul moves from theology to life. He addresses children and parents, servants and masters. These are not abstract teachings. They are instructions for Tuesday morning, for the dinner table, for the workplace. And in each case, the instruction is the same: know that you answer to Christ, not merely to the person in front of you. When a child obeys a parent, she is obeying the Lord. When a servant works, he works as if working for Christ. When a master commands, he remembers that his Master is in heaven.',
     'But then Paul&apos;s vision expands dramatically. He reminds the Ephesians that the struggle they face is not merely earthly. They do not wrestle against flesh and blood. Their real adversaries are principalities and powers, spiritual wickedness in high places. And for this cosmic battle, God has provided armor—not the armor of a soldier, but the armor of Christ. Truth is armor. Righteousness is armor. The gospel of peace is armor. Faith is a shield that quenches every fiery dart. And the sword of the Spirit is the word of God. As you put on this armor, piece by piece, you are putting on Christ.',

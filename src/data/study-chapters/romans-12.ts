@@ -14,6 +14,12 @@ export const ROMANS_12: RichChapterContent = {
   chapter: 12,
 
   estimatedMinutes: { beginner: 8, intermediate: 15, deep: 24 },
+
+  youth: {
+    intros: [
+      "&ldquo;Present your bodies a living sacrifice…be not conformed to this world: but be ye transformed by the renewing of your mind.&rdquo; Then practical Christianity: love without hypocrisy, bless your enemies, weep with those who weep.",
+    ],
+  },
   intros: [
     'Having established justification by faith and God&apos;s purpose for both Jews and Gentiles, Paul now turns to the practical life of faith. The theology of Romans 1–11 is not abstract. It calls for transformation. "Present your bodies a living sacrifice." Your physical self, your daily choices, your presence in the world—all of it is an offering to God.',
     'Romans 12 is the bridge between doctrine and discipleship. The mercies of God demand a response. That response is not merely internal sentiment. It is embodied, concrete, visible. You are transformed by the renewing of your mind. You use spiritual gifts in service of others. You overcome evil not with more evil but with good. This is what the justified life looks like.',

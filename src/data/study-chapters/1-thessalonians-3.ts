@@ -16,6 +16,12 @@ export const FIRST_THESSALONIANS_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 6, intermediate: 10, deep: 14 },
+
+  youth: {
+    intros: [
+      "Paul sends Timothy to check on them. Timothy returns with good news of their faith. Paul&apos;s prayer: that the Lord would make their love increase and abound.",
+    ],
+  },
   topicTags: ['hope', 'second-coming', 'witness', 'love'],
   opener: {
     topical: true,

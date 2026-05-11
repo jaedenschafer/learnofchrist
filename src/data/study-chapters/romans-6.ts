@@ -16,6 +16,12 @@ export const ROMANS_6: RichChapterContent = {
   chapter: 6,
 
   estimatedMinutes: { beginner: 5, intermediate: 13, deep: 19 },
+
+  youth: {
+    intros: [
+      "What shall we say then? Shall we continue in sin, that grace may abound? God forbid. You died with Christ in baptism; you rose with Him to walk in newness of life. Sin is not your master anymore.",
+    ],
+  },
   opener: {
     matchTitle: /Christ Triumphing over Death/i,
     caption: 'Romans 6',

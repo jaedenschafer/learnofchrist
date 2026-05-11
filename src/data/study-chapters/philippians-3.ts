@@ -17,6 +17,12 @@ export const PHILIPPIANS_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 7, intermediate: 15, deep: 23 },
+
+  youth: {
+    intros: [
+      "Whatever was gain to me, those I counted loss for Christ. &ldquo;That I may know him, and the power of his resurrection.&rdquo; Press toward the mark for the prize of the high calling of God in Christ Jesus.",
+    ],
+  },
   intros: [
     'Paul begins Chapter 3 by warning against false teachers who insist that works or circumcision earn righteousness. But then he pivots. He does not argue with them. Instead, he tells his own story. He had everything such teachers could boast about—the right pedigree, the right status, the right zeal. He was, by every measure that mattered to his culture, a success. Then he met Christ. And his entire accounting system shifted.',
     'The language is crucial. He did not deny the reality of these things. His birth was real, his credentials were real, his achievements were real. He reassessed their value. And the reassessment was not made from failure—it was made from encounter. He had met Christ. That meeting transformed how he valued everything else. This is the logic of conversion: not denial of the old, but recognition that the new infinitely outweighs it.',

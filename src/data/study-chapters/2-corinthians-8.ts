@@ -14,6 +14,12 @@ export const SECOND_CORINTHIANS_8: RichChapterContent = {
   chapter: 8,
 
   estimatedMinutes: { beginner: 8, intermediate: 16, deep: 19 },
+
+  youth: {
+    intros: [
+      "The Macedonian churches gave generously out of their deep poverty. &ldquo;He which soweth bountifully shall reap also bountifully.&rdquo; Generosity isn&apos;t about how much; it&apos;s about how willing.",
+    ],
+  },
   topicTags: ['suffering', 'compassion', 'witness', 'hope'],
   opener: {
     topical: true,

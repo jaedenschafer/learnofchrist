@@ -18,6 +18,12 @@ export const SECOND_PETER_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 9, intermediate: 17, deep: 26 },
+
+  youth: {
+    intros: [
+      "Add to your faith virtue, knowledge, temperance, patience, godliness, brotherly kindness, charity. Make your calling and election sure. We have a more sure word of prophecy, holy men of God spoke as moved by the Holy Ghost.",
+    ],
+  },
   opener: {
     matchTitle: /Christ/i,
     caption: '2 Peter 1',

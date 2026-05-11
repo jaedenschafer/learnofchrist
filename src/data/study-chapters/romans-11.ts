@@ -15,6 +15,12 @@ export const ROMANS_11: RichChapterContent = {
   chapter: 11,
 
   estimatedMinutes: { beginner: 7, intermediate: 13, deep: 17 },
+
+  youth: {
+    intros: [
+      "God hasn&apos;t cast off Israel. A remnant remains. The Gentile branches grafted into the olive tree shouldn&apos;t boast. The chapter ends in a doxology: &ldquo;O the depth of the riches both of the wisdom and knowledge of God!&rdquo;",
+    ],
+  },
   topicTags: ['mercy', 'faithfulness', 'hope', 'righteousness'],
   opener: {
     topical: true,

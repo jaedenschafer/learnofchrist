@@ -15,6 +15,12 @@ export const SECOND_TIMOTHY_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 10, intermediate: 18, deep: 24 },
+
+  youth: {
+    intros: [
+      "In the last days, perilous times shall come. All Scripture is given by inspiration of God, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness.",
+    ],
+  },
   intros: [
     'Paul describes the moral collapse that precedes the end times. "Perilous times shall come." His list is sobering: self-love, materialism, pride, blasphemy, family breakdown, ingratitude, impiety. These are not future speculation. Timothy is already living in them. What sustains faith in such darkness? The Scripture itself—God&apos;s Word, which endures when earthly structures crumble.',
     'Paul does not offer Timothy escape from the chaos. Instead, he offers him a weapon: the Word of God. Profitable for teaching, for reproof, for correction, for training in righteousness. The Bible is not primarily information. It is transformation. It remakes you, equips you, prepares you for every good work.',

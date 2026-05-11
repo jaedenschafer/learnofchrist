@@ -12,6 +12,12 @@ export const HEBREWS_6: RichChapterContent = {
   chapter: 6,
 
   estimatedMinutes: { beginner: 6, intermediate: 14, deep: 17 },
+
+  youth: {
+    intros: [
+      "Let us go on unto perfection. Don&apos;t fall away. God&apos;s promise to Abraham is sure, and we have hope as an anchor for the soul.",
+    ],
+  },
   intros: [
     'Hebrews 6 is a passage of two voices: warning and comfort. The author begins with a plea to spiritual maturity—leave behind the foundational teachings of Christ and press on to perfection. Then comes the hardest apostasy passage in Scripture: some who have tasted heavenly gifts, experienced the Spirit, known God&apos;s power, fall away into deliberate rejection. Such falling away is impossible to heal. Yet even as he writes this, the author softens. "But, beloved, we are persuaded better things of you." He trusts his readers. He knows they are not apostates.',
     'The passage anchors all its hope in God&apos;s immutable promise and oath. God swore by Himself—by His own unchanging nature. He cannot lie. Your hope, then, is not fragile; it is unshakeable. It is fastened to Christ, who has already entered the veil, who is your forerunner, who sits in the very place your hope reaches to. Nothing can break that anchor.',

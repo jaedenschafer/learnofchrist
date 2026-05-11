@@ -15,6 +15,12 @@ export const REVELATION_19: RichChapterContent = {
   chapter: 19,
 
   estimatedMinutes: { beginner: 8, intermediate: 14, deep: 18 },
+
+  youth: {
+    intros: [
+      "Heaven rejoices over Babylon&apos;s fall. The marriage supper of the Lamb. Then the rider on the white horse — Faithful and True — comes with armies of heaven. The beast and false prophet are thrown into the lake of fire.",
+    ],
+  },
   intros: [
     'Revelation 19 contains the only four occurrences of "Alleluia" in the New Testament — a word born in Hebrew worship (hallelu-Yah, "praise the Lord") that erupts at the climax of John&apos;s vision. After all the trumpets and bowls, after the fall of Babylon, heaven does not whisper or grieve. Heaven shouts: Salvation and glory and honor and power belong to God alone. The reason is a wedding. The marriage of the Lamb is come.',
     'Then John sees heaven itself open. A rider sits on a white horse, called Faithful and True. His eyes are a flame of fire. From His mouth goes a sharp sword. On His thigh is written the greatest name: KING OF KINGS, AND LORD OF LORDS. The beast and the false prophet are taken and cast into the lake of fire. The long story moves from wedding feast to the appearing of the King.',

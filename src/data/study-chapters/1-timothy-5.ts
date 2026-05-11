@@ -18,6 +18,12 @@ export const FIRST_TIMOTHY_5: RichChapterContent = {
   chapter: 5,
 
   estimatedMinutes: { beginner: 9, intermediate: 17, deep: 25 },
+
+  youth: {
+    intros: [
+      "Care for widows. Honor elders who rule well. Don&apos;t accept accusations against an elder except on the testimony of two or three witnesses.",
+    ],
+  },
   topicTags: ['leadership', 'faithfulness', 'witness', 'integrity'],
   opener: {
     topical: true,

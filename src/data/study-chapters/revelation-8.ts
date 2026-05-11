@@ -21,6 +21,12 @@ export const REVELATION_8: RichChapterContent = {
   chapter: 8,
 
   estimatedMinutes: { beginner: 7, intermediate: 13, deep: 21 },
+
+  youth: {
+    intros: [
+      "The seventh seal opens. Silence in heaven. Seven angels with seven trumpets. The first four trumpets devastate the earth, sea, rivers, sun.",
+    ],
+  },
   opener: {
     matchTitle: /The Opening of the/i,
     caption: 'Revelation 8',

@@ -18,6 +18,12 @@ export const SECOND_PETER_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 9, intermediate: 15, deep: 20 },
+
+  youth: {
+    intros: [
+      "Warning against false teachers. They&apos;ll bring destructive heresies. The Lord knows how to deliver the godly out of temptations and reserve the unjust for judgment.",
+    ],
+  },
   topicTags: ['faithfulness', 'second-coming', 'witness', 'protection'],
   opener: {
     topical: true,

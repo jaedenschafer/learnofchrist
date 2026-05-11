@@ -15,6 +15,12 @@ export const ROMANS_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 7, intermediate: 14, deep: 18 },
+
+  youth: {
+    intros: [
+      "Whoever you are, judging others without examining yourself, you condemn yourself. God shows no partiality. Real circumcision is of the heart, not the flesh.",
+    ],
+  },
   topicTags: ['mercy', 'faithfulness', 'hope', 'righteousness'],
   opener: {
     topical: true,

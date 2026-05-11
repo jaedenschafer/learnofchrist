@@ -16,6 +16,12 @@ export const SECOND_CORINTHIANS_9: RichChapterContent = {
   chapter: 9,
 
   estimatedMinutes: { beginner: 5, intermediate: 9, deep: 15 },
+
+  youth: {
+    intros: [
+      "&ldquo;God loveth a cheerful giver.&rdquo; You can&apos;t out-give God. He&apos;s able to make all grace abound toward you, that you may always have all sufficiency in all things.",
+    ],
+  },
   topicTags: ['suffering', 'compassion', 'witness', 'hope'],
   opener: {
     topical: true,

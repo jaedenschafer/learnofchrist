@@ -16,6 +16,12 @@ export const ROMANS_16: RichChapterContent = {
   chapter: 16,
 
   estimatedMinutes: { beginner: 6, intermediate: 14, deep: 20 },
+
+  youth: {
+    intros: [
+      "Greetings to a long list of believers — many of them women — who labored alongside Paul. The chapter is a snapshot of the early church&apos;s actual people. Your name is being added to that list every day you serve Christ.",
+    ],
+  },
   topicTags: ['mercy', 'faithfulness', 'hope', 'righteousness'],
   opener: {
     topical: true,

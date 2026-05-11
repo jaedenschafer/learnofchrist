@@ -15,6 +15,12 @@ export const FIRST_THESSALONIANS_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 5, intermediate: 9, deep: 11 },
+
+  youth: {
+    intros: [
+      "Paul thanks God for the Thessalonians&apos; faith, love, and patience of hope. They turned from idols to serve the living and true God, and to wait for His Son from heaven. Three marks of a real church.",
+    ],
+  },
   intros: [
     'Paul addresses a young church born in difficulty. He had been driven out of Thessalonica by opposition, yet the church remained, and grew. This opening chapter is Paul&apos;s thanksgiving for their steadfastness. They have faith. They have love. They have hope. And they have done something remarkable: they have turned to God from idols.',
     'The Thessalonians became believers in the midst of a pagan world. They rejected the gods of their ancestors. They rejected the spiritual comfort of idolatry. And they chose instead to wait for Jesus Christ—a figure they had never seen, in a kingdom that was not yet visible. This is the shape of conversion. Not an intellectual shift alone, but a complete reorientation: from false gods to the true God, from waiting for nothing to waiting for Him.',

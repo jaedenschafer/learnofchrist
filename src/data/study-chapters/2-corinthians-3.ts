@@ -20,6 +20,12 @@ export const SECOND_CORINTHIANS_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 7, intermediate: 13, deep: 18 },
+
+  youth: {
+    intros: [
+      "You are an epistle of Christ — written not with ink but with the Spirit. The new covenant is one of the Spirit, not the letter. Where the Spirit of the Lord is, there is liberty. We are being transformed from glory to glory.",
+    ],
+  },
   intros: [
     'Paul addresses a nagging accusation: that he inflates his own authority. But instead of defending himself with credentials on parchment, he points to something far more powerful—the Corinthians themselves. Their transformed lives are his letter of recommendation. This moves into a profound theology of covenants. The old covenant was written on stone tablets, brought down by Moses from Sinai. Its glory was so intense that Moses&apos; face shone, and he had to veil himself so the people could bear to look at him. But that glory, Paul says, is fading. Fading toward what? Toward Christ, and toward a new covenant written on human hearts.',
     'To live under the new covenant is to live in constant transformation. Not through the letter of the law (which kills), but through the Spirit (which gives life). Not in fear and distance, but in liberty—the freedom that comes when you can look directly at the Lord&apos;s face without a veil. And as you behold His glory, you yourself are changed, from one degree of glory to the next, being remade into His likeness by the very Spirit of God. This is what Paul means by sufficiency: not sufficiency of ourselves, but sufficiency through Christ.',

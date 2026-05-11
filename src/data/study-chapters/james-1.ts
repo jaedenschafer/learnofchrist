@@ -15,6 +15,12 @@ export const JAMES_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 8, intermediate: 12, deep: 19 },
+
+  youth: {
+    intros: [
+      "Count it all joy when you fall into various trials. The trying of your faith works patience. If any lack wisdom, let him ask of God. Be doers of the word, not hearers only. Pure religion is to visit orphans and widows in their affliction.",
+    ],
+  },
   opener: {
     matchTitle: /Saint James the Just/i,
     caption: 'James 1',

@@ -15,6 +15,12 @@ export const SECOND_CORINTHIANS_5: RichChapterContent = {
   chapter: 5,
 
   estimatedMinutes: { beginner: 8, intermediate: 16, deep: 19 },
+
+  youth: {
+    intros: [
+      "We have a building of God, a house not made with hands, eternal in the heavens. We walk by faith, not by sight. &ldquo;If any man be in Christ, he is a new creature: old things are passed away; behold, all things are become new.&rdquo;",
+    ],
+  },
   opener: {
     matchTitle: /The Voyage of Life/i,
     caption: '2 Corinthians 5',
