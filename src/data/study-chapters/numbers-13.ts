@@ -18,6 +18,13 @@ export const NUMBERS_13: RichChapterContent = {
   chapter: 13,
 
   estimatedMinutes: { beginner: 5, intermediate: 9, deep: 12 },
+
+  youth: {
+    intros: [
+      "Twelve spies sent into Canaan. Forty days of scouting. They come back with grapes so big it takes two men to carry one cluster. But ten of the twelve report giants in fortified cities. Only Joshua and Caleb say: &ldquo;we are well able to overcome it.&rdquo;",
+      "Same land, same data, two reports. Ten saw giants and forgot God. Two saw giants and remembered God. The thing in front of you is whatever it is. The question is which voice you&apos;re going to listen to about it.",
+    ],
+  },
   opener: {
     matchTitle: /The Spies of Canaan/i,
     caption: 'Numbers 13',

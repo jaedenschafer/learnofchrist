@@ -32,6 +32,13 @@ export const NUMBERS_5: RichChapterContent = {
   chapter: 5,
 
   estimatedMinutes: { beginner: 8, intermediate: 12, deep: 15 },
+
+  youth: {
+    intros: [
+      "Three holiness situations: those who are unclean separated outside camp; restitution for wrongs (confess + pay back + add a fifth); the strange &ldquo;jealousy&rdquo; ritual for a husband suspecting his wife. The chapter takes seriously both real wrongs and false accusations.",
+      "Don&apos;t pile up unaddressed sin against people. Confess. Make it right. Don&apos;t hide it in the camp.",
+    ],
+  },
   topicTags: ['provision', 'protection', 'leadership', 'doubt'],
   opener: {
     topical: true,

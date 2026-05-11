@@ -27,6 +27,13 @@ export const NUMBERS_28: RichChapterContent = {
   chapter: 28,
 
   estimatedMinutes: { beginner: 7, intermediate: 9, deep: 11 },
+
+  youth: {
+    intros: [
+      "The daily, weekly, monthly, and annual offerings spelled out in detail. Two lambs every day — morning and evening. Plus more on Sabbath, plus more at the new moon, plus more at the festivals.",
+      "Worship has rhythms. Daily, weekly, seasonally. Build them into your life or you&apos;ll forget what God did for you. The morning prayer, the evening prayer, the Sunday gathering, the annual retreat — these aren&apos;t legalism. They&apos;re a frame for staying close.",
+    ],
+  },
   topicTags: ['provision', 'protection', 'leadership', 'doubt'],
   opener: {
     topical: true,

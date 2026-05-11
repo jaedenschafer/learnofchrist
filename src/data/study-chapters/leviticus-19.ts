@@ -17,6 +17,13 @@ export const LEVITICUS_19: RichChapterContent = {
   chapter: 19,
 
   estimatedMinutes: { beginner: 8, intermediate: 14, deep: 17 },
+
+  youth: {
+    intros: [
+      "&ldquo;Be ye holy; for I the Lord your God am holy.&rdquo; Then a long list of what holiness actually looks like — leave grain at the edge of your fields for the poor, don&apos;t lie, don&apos;t steal, pay your workers on time, treat the deaf and blind with kindness, love your neighbor as yourself.",
+      "Holiness isn&apos;t a vibe. It&apos;s a way you treat real people. The kid you sat next to at lunch. The new employee. Your sibling. &ldquo;Love thy neighbour as thyself&rdquo; was hidden in Leviticus a thousand years before Jesus quoted it.",
+    ],
+  },
   topicTags: ['holiness', 'sacrifice', 'priest', 'worship'],
   opener: {
     topical: true,

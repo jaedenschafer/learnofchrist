@@ -22,6 +22,13 @@ export const NUMBERS_24: RichChapterContent = {
   chapter: 24,
 
   estimatedMinutes: { beginner: 7, intermediate: 13, deep: 14 },
+
+  youth: {
+    intros: [
+      "Balaam&apos;s third oracle. The Spirit of God comes on him. He sees a star coming out of Jacob and a sceptre rising in Israel — a prophecy that Christian readers have always read as pointing to Christ. The hired sorcerer becomes an unintended prophet of the Messiah.",
+      "God will use the most unlikely mouths to preach the truth about Jesus. Sometimes the person who knows the LEAST about Him says the thing that makes you see Him most clearly.",
+    ],
+  },
   topicTags: ['provision', 'protection', 'leadership', 'doubt'],
   opener: {
     topical: true,

@@ -22,6 +22,13 @@ export const NUMBERS_33: RichChapterContent = {
   chapter: 33,
 
   estimatedMinutes: { beginner: 9, intermediate: 14, deep: 19 },
+
+  youth: {
+    intros: [
+      "Forty-two stages from Egypt to the edge of Canaan. Just a list of place names — they journeyed from here, pitched there. No miracles retold. No drama. Just the geography of a forty-year journey.",
+      "Your spiritual life will look like this list one day too. Look back over the campsites of your faith — the schools, jobs, churches, friendships, hard seasons. He led you stage by stage. He still is.",
+    ],
+  },
   opener: {
     matchTitle: /The Exodus/i,
     caption: 'Numbers 33',

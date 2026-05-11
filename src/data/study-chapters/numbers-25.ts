@@ -25,6 +25,13 @@ export const NUMBERS_25: RichChapterContent = {
   chapter: 25,
 
   estimatedMinutes: { beginner: 6, intermediate: 9, deep: 13 },
+
+  youth: {
+    intros: [
+      "What Balaam couldn&apos;t do with curses, the Moabite women do with seduction. Israel commits idolatry and sexual immorality at Baal-peor. A plague kills 24,000. Phinehas — Aaron&apos;s grandson — drives a spear through an Israelite man and a Midianite woman in the act, and the plague stops.",
+      "What an outside attack couldn&apos;t accomplish, an inside compromise did. The biggest threat to your faith probably isn&apos;t persecution. It&apos;s the slow drift toward what looks fun and ends in death.",
+    ],
+  },
   intros: [
     'Numbers 25 is a hard chapter. Israel has been wandering for forty years, and now, just as they stand on the edge of Canaan, they fall into sexual immorality and idol worship with Moabite and Midianite women. A plague comes. And Phinehas, Aaron\'s grandson, takes a spear into the camp and kills an Israelite man and a Midianite woman in the act—stopping the plague and securing a covenant of eternal priesthood for his descendants.',
     'The narrator clearly endorses what Phinehas did. But if this is endorsement, how do we live with it? The answer lies in recognizing what Phinehas\'s zeal prefigures: a priesthood that will come after him, one that will not kill another person but will die itself, offering a sacrifice so complete that no other zeal will ever be needed again. That priest is Jesus. In Him, the literal violence of the old priesthood becomes the symbolic and substitutionary blood of the new one.',

@@ -14,6 +14,13 @@ export const NUMBERS_23: RichChapterContent = {
   chapter: 23,
 
   estimatedMinutes: { beginner: 7, intermediate: 11, deep: 13 },
+
+  youth: {
+    intros: [
+      "Balaam tries three times to curse Israel. Each time God puts a blessing in his mouth instead. Balak is furious. Balaam can&apos;t change God&apos;s word about His people no matter how many altars he builds.",
+      "What God has blessed, no enemy can curse. Whatever&apos;s coming against you — if you&apos;re in Christ, the curse can&apos;t land. The blessing has been pronounced from a mountain you can&apos;t see.",
+    ],
+  },
   intros: [
     'Balaam is a hired prophet with a gift for seeing and speaking. King Balak of Moab pays him to curse Israel—a people Balak fears. But when Balaam opens his mouth, God overrides his will. Instead of curses, blessings pour out. The chapter shows the impossibility of reversing what God has blessed.',
     `For every believer who has felt cursed by circumstance, rejected, or condemned—this chapter whispers a radical truth: you cannot be cursed if God has blessed you. Your circumstances may be hard. Your reputation may be damaged. But the blessing God has declared over you cannot be reversed by any voice but His own. This is Balaam's uncomfortable discovery: he is a tool in God\'s hand, not a master of his own words.`,

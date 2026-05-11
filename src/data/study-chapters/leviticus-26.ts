@@ -6,6 +6,13 @@ export const LEVITICUS_26: RichChapterContent = {
   chapter: 26,
 
   estimatedMinutes: { beginner: 9, intermediate: 17, deep: 20 },
+
+  youth: {
+    intros: [
+      "If Israel keeps the covenant: rain in season, harvests, safety, peace, God walking among them. If they break it: increasing layers of discipline — terror, drought, wild animals, sword, plague, exile.",
+      "But even at the bottom, if they confess and turn back, God remembers His covenant. The chapter ends with mercy waiting on the other side of the worst consequences. There is no place you can go where repentance can&apos;t reach Him.",
+    ],
+  },
   topicTags: ['holiness', 'sacrifice', 'priest', 'worship'],
   opener: {
     topical: true,

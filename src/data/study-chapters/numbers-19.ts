@@ -34,6 +34,13 @@ export const NUMBERS_19: RichChapterContent = {
   chapter: 19,
 
   estimatedMinutes: { beginner: 7, intermediate: 11, deep: 14 },
+
+  youth: {
+    intros: [
+      "A red heifer — without spot, never yoked — is killed and burned outside the camp. Its ashes mixed with running water make the water of cleansing for anyone defiled by death.",
+      "Hebrews 9 picks this up: how much more shall the blood of Christ purge your conscience from dead works to serve the living God? The red heifer ritual was a shadow. Christ&apos;s blood is the substance.",
+    ],
+  },
   topicTags: ['provision', 'protection', 'leadership', 'doubt'],
   opener: {
     topical: true,

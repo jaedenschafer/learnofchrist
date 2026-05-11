@@ -20,6 +20,13 @@ export const NUMBERS_16: RichChapterContent = {
   chapter: 16,
 
   estimatedMinutes: { beginner: 11, intermediate: 19, deep: 24 },
+
+  youth: {
+    intros: [
+      "Korah and 250 leaders rise up against Moses and Aaron — &ldquo;ye take too much upon you.&rdquo; The earth opens and swallows them. Fire from the Lord consumes the 250. The next day Israel grumbles AGAIN; a plague kills 14,700 before Aaron stops it with incense.",
+      "Rebellion against God&apos;s appointed leadership isn&apos;t humility — it&apos;s pride dressed up. Be careful which side you take in church fights. The grass that swallows you might be the same grass that swallowed Korah.",
+    ],
+  },
   opener: {
     matchTitle: /The Punishment of Korah/i,
     caption: 'Numbers 16',

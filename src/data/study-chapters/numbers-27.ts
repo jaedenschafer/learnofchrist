@@ -26,6 +26,13 @@ export const NUMBERS_27: RichChapterContent = {
   chapter: 27,
 
   estimatedMinutes: { beginner: 8, intermediate: 13, deep: 17 },
+
+  youth: {
+    intros: [
+      "Five sisters — Mahlah, Noah, Hoglah, Milcah, Tirzah — stand up before Moses and the whole assembly. Their father died with no sons. The law doesn&apos;t cover their case. They ask: why should our father&apos;s name disappear because he had only daughters?",
+      "Moses brings their case to the Lord. God answers: they&apos;re right. The law gets amended. Sometimes God uses the underdog asking the right question to expand the boundaries of what His people understand about His justice.",
+    ],
+  },
   topicTags: ['provision', 'protection', 'leadership', 'doubt'],
   opener: {
     topical: true,

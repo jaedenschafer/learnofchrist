@@ -6,6 +6,13 @@ export const LEVITICUS_24: RichChapterContent = {
   chapter: 24,
 
   estimatedMinutes: { beginner: 7, intermediate: 12, deep: 15 },
+
+  youth: {
+    intros: [
+      "Lamps burning continually in the Holy Place. Twelve loaves of showbread set out fresh every Sabbath, one for each tribe — God&apos;s people are never forgotten in His presence.",
+      "Then a man blasphemes God&apos;s name and is executed by stoning. The chapter wants you to feel the contrast: God provides daily bread for His people AND takes seriously when His name is mocked. Reverence and grace aren&apos;t opposites. They&apos;re both who He is.",
+    ],
+  },
   topicTags: ['holiness', 'sacrifice', 'priest', 'worship'],
   opener: {
     topical: true,

@@ -6,6 +6,13 @@ export const NUMBERS_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 8, intermediate: 10, deep: 13 },
+
+  youth: {
+    intros: [
+      "God orders a census — count every Israelite man twenty and up who can fight. Total: 603,550 fighting men. The book opens with arithmetic because Israel is about to march toward enemies. God knows His people by name AND by count.",
+      "You aren&apos;t a number to God. He counts His people because each one matters, not because He needs the math. Your name is in His book the same way these names are in this chapter.",
+    ],
+  },
   intros: [
     'Numbers 1 opens with God commanding a census: count every Israelite man twenty years old and older who is able to go to war. Twelve tribe leaders are named, and over the next four verses their runners go through the camp, numbering each tribe. The result: 603,550 men fit for war — a massive standing army, ready, known. By name and number, every one of them.',
     'The book opens in the wilderness, far from Egypt, far from home. In that vast, uncertain place, the first thing God does is not to promise safety, but to count. To notice. The Levites are excluded from the count — they have a different calling altogether, set apart for sanctuary service. But those who will fight? God wants them numbered not because He needs the data, but because He is the God who knows His people by name.',

@@ -17,6 +17,13 @@ export const LEVITICUS_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 6, intermediate: 9, deep: 11 },
+
+  youth: {
+    intros: [
+      "The peace offering is the only sacrifice you sit down and eat. Part to God, part to the priest, part to the worshipper&apos;s family. A meal with God Himself.",
+      "Communion with God isn&apos;t just kneeling in awe. It&apos;s also dinner. Christ is the peace offering at every Lord&apos;s Supper — the meal you sit at because the war is over.",
+    ],
+  },
   topicTags: ['holiness', 'sacrifice', 'priest', 'worship'],
   opener: {
     topical: true,

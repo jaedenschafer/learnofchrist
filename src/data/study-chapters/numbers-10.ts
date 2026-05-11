@@ -16,6 +16,13 @@ export const NUMBERS_10: RichChapterContent = {
   chapter: 10,
 
   estimatedMinutes: { beginner: 9, intermediate: 14, deep: 16 },
+
+  youth: {
+    intros: [
+      "Two silver trumpets. One blast for assembly. Different blasts for marching. Israel doesn&apos;t move until the trumpets sound. Then the cloud lifts and they&apos;re on their way to the promised land.",
+      "Be the kind of person who moves when God says move. Don&apos;t leave early to look ambitious. Don&apos;t stay late to look loyal. Wait for the trumpet and the cloud. He&apos;ll lift it when He&apos;s ready.",
+    ],
+  },
   topicTags: ['provision', 'protection', 'leadership', 'doubt'],
   opener: {
     topical: true,

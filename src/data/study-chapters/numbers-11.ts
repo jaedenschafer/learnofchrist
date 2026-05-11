@@ -12,6 +12,13 @@ export const NUMBERS_11: RichChapterContent = {
   chapter: 11,
 
   estimatedMinutes: { beginner: 9, intermediate: 16, deep: 21 },
+
+  youth: {
+    intros: [
+      "Israel complains about the manna and demands meat. They romanticize Egypt&apos;s food. Moses cracks: &ldquo;I am not able to bear all this people alone.&rdquo; God gives him seventy elders to share the load. Then sends quail — and a plague.",
+      "Don&apos;t romanticize what God brought you out of. The Egypt of your past was slavery, no matter what flavor it had. And don&apos;t carry leadership alone. God has elders for you to share the weight.",
+    ],
+  },
   opener: {
     matchTitle: /The Gathering of the/i,
     caption: 'Numbers 11',

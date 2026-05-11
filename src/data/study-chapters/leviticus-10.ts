@@ -15,6 +15,13 @@ export const LEVITICUS_10: RichChapterContent = {
   chapter: 10,
 
   estimatedMinutes: { beginner: 9, intermediate: 14, deep: 18 },
+
+  youth: {
+    intros: [
+      "Two of Aaron&apos;s sons — Nadab and Abihu — bring &ldquo;strange fire&rdquo; before the Lord, an offering He didn&apos;t command. They die instantly. Aaron, their father, is forbidden to mourn publicly because the priesthood is on him.",
+      "The chapter is sobering: God isn&apos;t casual about how He&apos;s approached. The same God who is full of grace is also holy. Whatever &ldquo;strange fire&rdquo; you&apos;ve been thinking about offering — make sure it&apos;s what He asked for, not what felt creative to you.",
+    ],
+  },
   opener: {
     matchTitle: /The Two Priests Are/i,
     caption: 'Leviticus 10',

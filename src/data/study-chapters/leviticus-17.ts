@@ -15,6 +15,13 @@ export const LEVITICUS_17: RichChapterContent = {
   chapter: 17,
 
   estimatedMinutes: { beginner: 6, intermediate: 10, deep: 13 },
+
+  youth: {
+    intros: [
+      "All animal slaughter has to happen at the tabernacle. Why? Because the blood belongs to God. &ldquo;The life of the flesh is in the blood: and I have given it to you upon the altar to make an atonement for your souls.&rdquo;",
+      "The whole sacrificial system rests on this verse. Life is in the blood. Forgiveness costs blood. That&apos;s why Jesus had to bleed for you — and why nothing less would have done it.",
+    ],
+  },
   topicTags: ['holiness', 'sacrifice', 'priest', 'worship'],
   opener: {
     topical: true,

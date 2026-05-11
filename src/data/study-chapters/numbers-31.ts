@@ -23,6 +23,13 @@ export const NUMBERS_31: RichChapterContent = {
   chapter: 31,
 
   estimatedMinutes: { beginner: 7, intermediate: 11, deep: 15 },
+
+  youth: {
+    intros: [
+      "A hard chapter. God commands Israel to take vengeance on Midian for the seduction at Baal-peor. The slaughter is total — every Midianite male, then every Midianite woman who participated in the seduction. The chapter is brutal.",
+      "Sin has consequences. The Midianites had drawn Israel into idolatry that killed 24,000. The chapter doesn&apos;t soften God&apos;s justice. We live on this side of the cross — the wages of sin still fell, but they fell on Christ. Be glad you&apos;re reading from this side.",
+    ],
+  },
   topicTags: ['provision', 'protection', 'leadership', 'doubt'],
   opener: {
     topical: true,

@@ -20,6 +20,13 @@ export const NUMBERS_35: RichChapterContent = {
   chapter: 35,
 
   estimatedMinutes: { beginner: 10, intermediate: 15, deep: 20 },
+
+  youth: {
+    intros: [
+      "Six cities of refuge — three on each side of the Jordan. If you accidentally killed someone, you could flee to one of these cities and be protected from the avenger of blood. Justice and mercy held in tension.",
+      "Christ is the city of refuge. Whatever you&apos;ve done — even the hardest things — He&apos;s a real place you can run to. The avenger of blood can&apos;t cross the line of His sanctuary.",
+    ],
+  },
   topicTags: ['provision', 'protection', 'leadership', 'doubt'],
   opener: {
     topical: true,

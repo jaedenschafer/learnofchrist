@@ -12,6 +12,13 @@ export const NUMBERS_18: RichChapterContent = {
   chapter: 18,
 
   estimatedMinutes: { beginner: 9, intermediate: 17, deep: 20 },
+
+  youth: {
+    intros: [
+      "The priests and Levites get no land — God Himself is their inheritance. The people&apos;s tithes feed them. The whole economy of Israel is built so that the worship of God is sustained by the people&apos;s generosity.",
+      "Your generosity to your local church isn&apos;t optional. The pastors and ministers in your life are sustained the same way. And whatever you give back to God — He&apos;s not the one who needs it. He&apos;s testing whether you trust the One who gave you everything in the first place.",
+    ],
+  },
   topicTags: ['provision', 'protection', 'leadership', 'doubt'],
   opener: {
     topical: true,

@@ -12,6 +12,13 @@ export const LEVITICUS_27: RichChapterContent = {
   chapter: 27,
 
   estimatedMinutes: { beginner: 9, intermediate: 13, deep: 17 },
+
+  youth: {
+    intros: [
+      "What happens when you make a vow to God? The chapter sets values for redeeming vowed people, animals, houses, fields. It feels mundane after the fire of chapter 26 — but it&apos;s teaching something important: God takes your promises seriously.",
+      "Don&apos;t make vows lightly. Don&apos;t promise God what you don&apos;t intend to give. The chapter (and the book) ends with: these are the commandments which the Lord commanded Moses for the children of Israel in mount Sinai. Quiet finish. Big book.",
+    ],
+  },
   topicTags: ['holiness', 'sacrifice', 'priest', 'worship'],
   opener: {
     topical: true,

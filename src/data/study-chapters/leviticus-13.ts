@@ -14,6 +14,13 @@ export const LEVITICUS_13: RichChapterContent = {
   chapter: 13,
 
   estimatedMinutes: { beginner: 12, intermediate: 16, deep: 20 },
+
+  youth: {
+    intros: [
+      "Sixty verses of skin-disease diagnostic procedure. The priest examines, waits, examines again. No panic, no shortcuts. The infected person is separated for a season — for the safety of the camp and to picture how seriously God takes contamination.",
+      "Sin works the same way. It spreads if it&apos;s not addressed. Parts of your life will need a careful examination by someone outside yourself. Don&apos;t hide what God wants brought to the priest.",
+    ],
+  },
   intros: [
     'Leviticus 13 is a careful manual. For fifty-nine verses, Moses lays out exactly how a priest is to examine a suspected skin affliction — what marks require watching, what marks demand immediate separation, what the quarantine looks like. There is no guessing. There is no fear-based panic. A priest looks, waits, examines again. Seven days. The rhythm is merciful, not cruel.',
     'But the chapter also tells you what happens when the affliction cannot be healed: the person must tear their clothes, let their hair go unkempt, cover their upper lip, and cry out in the streets, "Unclean, unclean!" They dwell alone, outside the camp. They are separated from worship, from the tabernacle, from the people they love. The law is medical hygiene layered over something deeper — a picture of what it means to be broken and cast outside.',

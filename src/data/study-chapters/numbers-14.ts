@@ -28,6 +28,13 @@ export const NUMBERS_14: RichChapterContent = {
   chapter: 14,
 
   estimatedMinutes: { beginner: 9, intermediate: 15, deep: 18 },
+
+  youth: {
+    intros: [
+      "Israel believes the bad report. Weeps all night. Plots to stone Moses and go back to Egypt. God&apos;s judgment: this entire generation will die in the wilderness over forty years. Only Joshua and Caleb of the spies will enter the land.",
+      "Unbelief at the door of the promise costs everything. Don&apos;t arrive at the moment of YOUR promised land and turn back because the giants look big. They are big. He&apos;s bigger.",
+    ],
+  },
   topicTags: ['provision', 'protection', 'leadership', 'doubt'],
   opener: {
     topical: true,

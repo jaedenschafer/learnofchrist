@@ -17,6 +17,13 @@ export const NUMBERS_15: RichChapterContent = {
   chapter: 15,
 
   estimatedMinutes: { beginner: 7, intermediate: 10, deep: 14 },
+
+  youth: {
+    intros: [
+      "Even though the older generation will die in the wilderness, God gives Moses laws for when they DO eventually live in the land. He&apos;s talking to a generation that won&apos;t see Canaan as if Canaan is a sure thing.",
+      "God&apos;s promises don&apos;t expire because of a delay you caused. He&apos;s still planning the inheritance for the generation after you, even when your generation flunked the test.",
+    ],
+  },
   opener: {
     matchTitle: /The Sabbath Breaker Stoned/i,
     caption: 'Numbers 15',

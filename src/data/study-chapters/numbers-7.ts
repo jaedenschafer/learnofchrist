@@ -30,6 +30,13 @@ export const NUMBERS_7: RichChapterContent = {
   chapter: 7,
 
   estimatedMinutes: { beginner: 11, intermediate: 14, deep: 16 },
+
+  youth: {
+    intros: [
+      "Twelve days, twelve tribal princes, identical offerings — the chapter repeats the SAME list twelve times. It&apos;s long. It&apos;s repetitive. It&apos;s also showing that God notices each tribe by name. Nobody got skipped or summarized.",
+      "God doesn&apos;t skim past you. The thing you brought Him today — the prayer, the obedience, the small offering — He noticed by name even though it looks identical to a thousand others.",
+    ],
+  },
   topicTags: ['provision', 'protection', 'leadership', 'doubt'],
   opener: {
     topical: true,

@@ -16,6 +16,13 @@ export const LEVITICUS_23: RichChapterContent = {
   chapter: 23,
 
   estimatedMinutes: { beginner: 14, intermediate: 18, deep: 23 },
+
+  youth: {
+    intros: [
+      "Seven feasts that ran the rhythm of Israel&apos;s year — Passover, Unleavened Bread, Firstfruits, Pentecost, Trumpets, Atonement, Tabernacles. Each one a rehearsal of God&apos;s redemption. Spring feasts already fulfilled in Christ&apos;s death and resurrection. Fall feasts pointing forward to His return.",
+      "The whole year was an outline of the gospel before the gospel was preached. Build rhythm into your year too. Not to earn anything. To remember Who&apos;s in the middle of it.",
+    ],
+  },
   intros: [
     'Leviticus 23 opens with a single word: moadim — appointed times, feasts. Not suggestions, not optional celebrations, but the rhythm God built into His people&apos;s year. Seven sacred seasons frame the calendar of Israel, each one a rehearsal of redemption. Four of them cluster in spring (Passover, Unleavened Bread, Firstfruits, Pentecost), walking through death and resurrection and the gift of the Spirit. Three arrive in fall (Trumpets, Atonement, Tabernacles), painting a picture of return, judgment, and God&apos;s dwelling with His people.',
     'For the Israelite, every season was theology. You couldn&apos;t live through the year without walking through the story of deliverance over and over again. And for the reader on this side of the cross, each feast is a prophecy wearing a calendar date. Every spring celebration was already whispering about a day when God&apos;s Son would become the Passover Lamb, the unleavened bread, the firstfruits of resurrection, the Pentecost gift to the nations. The feasts are not merely history; they are the architecture of God&apos;s plan.',

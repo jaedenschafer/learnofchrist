@@ -6,6 +6,13 @@ export const LEVITICUS_8: RichChapterContent = {
   chapter: 8,
 
   estimatedMinutes: { beginner: 9, intermediate: 13, deep: 17 },
+
+  youth: {
+    intros: [
+      "Aaron and his sons get ordained as priests in front of the whole congregation. Washed, dressed, anointed with oil, marked with blood on the right ear, right thumb, right toe — total consecration of what they hear, do, and where they go.",
+      "Peter calls every believer a royal priesthood. The same dedication is on you. Your ears (what you let in), your hands (what you do), your steps (where you walk) all belong to God now. He didn&apos;t mark you with bull&apos;s blood. He marked you with His Son&apos;s.",
+    ],
+  },
   opener: {
     matchTitle: /The Consecration of Aaron/i,
     caption: 'Leviticus 8',

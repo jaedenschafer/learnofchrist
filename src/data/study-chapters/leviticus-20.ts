@@ -13,6 +13,13 @@ export const LEVITICUS_20: RichChapterContent = {
   chapter: 20,
 
   estimatedMinutes: { beginner: 8, intermediate: 13, deep: 15 },
+
+  youth: {
+    intros: [
+      "Consequences attached to the violations chapter 18 named. Death penalty for child sacrifice to Molech. Death for adultery. Death for sexual abuse. The Bible takes seriously what an entire culture had normalized.",
+      "Whatever you think about ancient capital punishment, hold the principle: the things destroying ancient Israel were the things God said draw a hard line on. The same things still destroy people today. Don&apos;t make peace with what God hasn&apos;t.",
+    ],
+  },
   topicTags: ['holiness', 'sacrifice', 'priest', 'worship'],
   opener: {
     topical: true,

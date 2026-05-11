@@ -18,6 +18,13 @@ export const LEVITICUS_5: RichChapterContent = {
   chapter: 5,
 
   estimatedMinutes: { beginner: 7, intermediate: 10, deep: 12 },
+
+  youth: {
+    intros: [
+      "Sins of silence. Sins of carelessness. Sins of swearing something without thinking. Leviticus 5 names the small stuff we usually wave away: the moment you didn&apos;t say something true, the rash promise, the contact you didn&apos;t realize made you unclean.",
+      "God doesn&apos;t pretend small sin is no sin. Neither did Jesus. And neither does His blood — it covers the careless slip you forgot about by Tuesday.",
+    ],
+  },
   topicTags: ['holiness', 'sacrifice', 'priest', 'worship'],
   opener: {
     topical: true,

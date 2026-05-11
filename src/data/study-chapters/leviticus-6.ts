@@ -6,6 +6,13 @@ export const LEVITICUS_6: RichChapterContent = {
   chapter: 6,
 
   estimatedMinutes: { beginner: 9, intermediate: 13, deep: 16 },
+
+  youth: {
+    intros: [
+      "If you sinned against your neighbor — lied to them, stole from them, deceived them — the trespass offering required you to FIRST go pay them back plus 20 percent. THEN bring your offering to God. You can&apos;t worship over the head of someone you&apos;ve wronged.",
+      "Jesus said the same thing in Matthew 5: leave your gift at the altar and go reconcile with your brother first. Some of your prayers are stuck because there&apos;s a person you need to make right with on the way to church.",
+    ],
+  },
   topicTags: ['holiness', 'sacrifice', 'priest', 'worship'],
   opener: {
     topical: true,

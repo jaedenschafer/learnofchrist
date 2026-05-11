@@ -23,6 +23,13 @@ export const NUMBERS_4: RichChapterContent = {
   chapter: 4,
 
   estimatedMinutes: { beginner: 7, intermediate: 10, deep: 13 },
+
+  youth: {
+    intros: [
+      "Detailed instructions for transporting the tabernacle. The Kohathites carry the holy items but are NEVER to look at them uncovered or they&apos;ll die. Holy things require careful handling.",
+      "There are some things in your spiritual life — moments with God, secrets He&apos;s told you — that aren&apos;t for the public feed. Some of God&apos;s holy work in you is meant to be carried covered.",
+    ],
+  },
   intros: [
     'Israel is about to leave Sinai and begin the journey to the Promised Land. But first, the tabernacle must move. Not a simple tent—it is the dwelling place of the Lord, filled with objects so holy that the wrong person touching them, or seeing them uncovered, will die. Numbers 4 is the operational manual for moving God\'s presence.',
     'The Levites are divided by labor. Three clans, three precise jobs. But the most dangerous work falls to Kohath: they must carry the holiest things, yet they cannot look at them. They must touch them, yet only after Aaron covers them completely. It is a portrait of trust so strict that one careless glance means death. And in that severe requirement lives a profound truth about holiness and the price of drawing near to God.',

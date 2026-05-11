@@ -23,6 +23,13 @@ export const NUMBERS_34: RichChapterContent = {
   chapter: 34,
 
   estimatedMinutes: { beginner: 7, intermediate: 12, deep: 16 },
+
+  youth: {
+    intros: [
+      "God draws the borders of the promised land. North to Lebanon, south to the Negev, west to the Mediterranean, east to the Jordan. Specific landmarks. Specific tribes assigned specific portions.",
+      "Whatever your inheritance in Christ is — God knows the borders. You don&apos;t have to figure out who you are or what you&apos;re supposed to do by guessing. He has marked your portion. Walk into it.",
+    ],
+  },
   topicTags: ['provision', 'protection', 'leadership', 'doubt'],
   opener: {
     topical: true,

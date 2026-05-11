@@ -24,6 +24,13 @@ export const NUMBERS_30: RichChapterContent = {
   chapter: 30,
 
   estimatedMinutes: { beginner: 8, intermediate: 13, deep: 19 },
+
+  youth: {
+    intros: [
+      "Vows you make to God are binding. The chapter walks through how vows work in households — how a father or husband can affirm or annul a daughter&apos;s/wife&apos;s vow on the day he hears it. The cultural specifics are dated. The principle isn&apos;t.",
+      "Don&apos;t throw your word around to God. Be slow to vow. When you do, keep it. Jesus said let your yes be yes and your no be no — beyond that comes from evil.",
+    ],
+  },
   topicTags: ['provision', 'protection', 'leadership', 'doubt'],
   opener: {
     topical: true,

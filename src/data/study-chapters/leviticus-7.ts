@@ -11,6 +11,13 @@ export const LEVITICUS_7: RichChapterContent = {
   chapter: 7,
 
   estimatedMinutes: { beginner: 10, intermediate: 16, deep: 19 },
+
+  youth: {
+    intros: [
+      "The peace offering meal had rules — eat it the same day or by tomorrow, not the third day. Anything held too long was rejected. Some of God&apos;s blessings have a shelf life. The thing He gave you to enjoy in season needs to be used in season.",
+      "The fellowship of God is a meal, not a leftover. Don&apos;t let what He&apos;s feeding you go stale because you got too busy to sit down with Him.",
+    ],
+  },
   topicTags: ['holiness', 'sacrifice', 'priest', 'worship'],
   opener: {
     topical: true,

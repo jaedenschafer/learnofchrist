@@ -19,6 +19,13 @@ export const LEVITICUS_11: RichChapterContent = {
   chapter: 11,
 
   estimatedMinutes: { beginner: 8, intermediate: 14, deep: 19 },
+
+  youth: {
+    intros: [
+      "Long lists of clean and unclean animals. The point isn&apos;t the menu — it&apos;s that even what you eat is supposed to remind you that you&apos;re a separate people. God&apos;s holiness reaches into the kitchen.",
+      "Then in Acts 10, God lifts the food laws for Peter as a sign that the Gentiles are now &ldquo;clean&rdquo; too. The barrier comes down. But the principle stays: even your most ordinary daily choices are part of being set apart.",
+    ],
+  },
   intros: [
     'Leviticus 11 lays out the animals Israel may eat and those it must avoid. The chapter divides the world into two categories: clean (tahor) and unclean (tame). A clean animal meets certain physical marks — cattle must both part the hoof and chew the cud. If an animal fails either test, it is unclean, and eating it makes the Israelite unclean. The same rules apply to birds, fish, swarming things, and every creature that walks the earth.',
     'At first, these rules sound like hygiene laws. But they are not. Pigs are unclean not because they carry disease — camels are clean even though they live in dust and filth. The unclean animals are unclean because God says they are. The point is not safety; the point is obedience. Every time Israel set the table, chose what to eat, chose what to touch, Israel was choosing to be set apart. The food laws were not rules about purity in the body — they were reminders, carved into daily life, that the people belonged to a holy God.',

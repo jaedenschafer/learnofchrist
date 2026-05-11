@@ -11,6 +11,13 @@ export const LEVITICUS_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 5, intermediate: 12, deep: 15 },
+
+  youth: {
+    intros: [
+      "The grain offering — fine flour, oil, frankincense. No animal, no blood. It&apos;s a gift of work — the daily harvest you brought in with your hands, given back to God in worship. Whatever you spend your day producing, a portion of it belongs at His table.",
+      "No leaven, no honey allowed. Salt, always. The tiny details preach: keep your offering pure, free of pride and hype. The God who notices flour notices the work you put in too.",
+    ],
+  },
   topicTags: ['holiness', 'sacrifice', 'priest', 'worship'],
   opener: {
     topical: true,

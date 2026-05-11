@@ -16,6 +16,13 @@ export const LEVITICUS_21: RichChapterContent = {
   chapter: 21,
 
   estimatedMinutes: { beginner: 6, intermediate: 10, deep: 13 },
+
+  youth: {
+    intros: [
+      "Stricter rules for priests than for the rest of Israel. Their marriages, their mourning, even physical defects could disqualify them from the altar. To modern ears it sounds harsh.",
+      "The point: the priest was a picture, and the picture had to be unblemished. Christ is the perfect High Priest the picture pointed to. He&apos;s the one who actually qualified. Now you&apos;re a priest in Him — your access doesn&apos;t depend on your perfection. It depends on His.",
+    ],
+  },
   topicTags: ['holiness', 'sacrifice', 'priest', 'worship'],
   opener: {
     topical: true,

@@ -11,6 +11,13 @@ export const LEVITICUS_15: RichChapterContent = {
   chapter: 15,
 
   estimatedMinutes: { beginner: 7, intermediate: 10, deep: 12 },
+
+  youth: {
+    intros: [
+      "The chapter is a clinical look at bodily discharges and the temporary uncleanness they cause. The Bible doesn&apos;t pretend bodies don&apos;t do what bodies do. It builds rituals of washing into ordinary life.",
+      "There&apos;s no shame in any of this. There&apos;s only the recognition that you&apos;re always being made clean. In the New Testament, Jesus heals the woman with twelve years of bleeding by being touched, and HE doesn&apos;t become unclean — SHE becomes clean. The flow of holiness reverses at the cross.",
+    ],
+  },
   intros: [
     'Leviticus 15 walks through the laws of bodily discharges. Male emissions, menstruation, abnormal discharge—what makes a person temporarily unclean, how long the uncleanness lasts, what washing is required, what offerings bring cleansing. The language is direct and clinical. There is no squeamishness in Scripture about the reality of the body.',
     'These laws are not about shame. They are about boundaries. Even normal bodily function—the kind that happens to every human—reminds Israel that this is a fallen world that needs cleansing before it can come near God. The pattern is consistent: isolation, washing, waiting, offering. The body matters. Cleanliness matters. And Christ will later overturn the direction of it all: instead of cleanness flowing outward from the holy, cleanness will flow inward from Him.',

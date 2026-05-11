@@ -19,6 +19,13 @@ export const LEVITICUS_18: RichChapterContent = {
   chapter: 18,
 
   estimatedMinutes: { beginner: 8, intermediate: 12, deep: 16 },
+
+  youth: {
+    intros: [
+      "A long list of sexual relationships forbidden to Israel. Don&apos;t pattern your sex life on Egypt; don&apos;t pattern it on Canaan. Two cultures soaked in the misuse of bodies. God draws a different line.",
+      "Some of the things Leviticus 18 forbids are still controversial. Don&apos;t flinch at the chapter. The God who designed your body knows what does and doesn&apos;t honor it. The freedom is on the inside of His lines, not outside them.",
+    ],
+  },
   topicTags: ['holiness', 'sacrifice', 'priest', 'worship'],
   opener: {
     topical: true,

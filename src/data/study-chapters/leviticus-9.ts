@@ -12,6 +12,13 @@ export const LEVITICUS_9: RichChapterContent = {
   chapter: 9,
 
   estimatedMinutes: { beginner: 7, intermediate: 11, deep: 14 },
+
+  youth: {
+    intros: [
+      "Eighth day. Aaron offers his first sacrifices as high priest in front of all Israel. He blesses the people. Fire comes out from before the Lord and consumes the offering on the altar. The people see it and fall on their faces.",
+      "When God shows up to a worship service, you don&apos;t need a sermon afterward. The right response to glory is the floor. Don&apos;t pretend casual when He&apos;s actually there.",
+    ],
+  },
   opener: {
     matchTitle: /The Fire of Atonement/i,
     caption: 'Leviticus 9',

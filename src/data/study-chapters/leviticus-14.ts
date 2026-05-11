@@ -17,6 +17,13 @@ export const LEVITICUS_14: RichChapterContent = {
   chapter: 14,
 
   estimatedMinutes: { beginner: 12, intermediate: 16, deep: 19 },
+
+  youth: {
+    intros: [
+      "What happens when a leper is healed? They don&apos;t just walk back into society. There&apos;s a whole restoration ritual — birds, blood, water, oil, sacrifice. The community didn&apos;t just need them clean; the person needed to be FULLY restored.",
+      "When God heals you of something, the healing is real but the restoration takes time. Don&apos;t skip the slow work of rejoining your community after a long isolation. Let the priests of your life — pastors, mentors, friends — walk you back in.",
+    ],
+  },
   topicTags: ['holiness', 'sacrifice', 'priest', 'worship'],
   opener: {
     topical: true,

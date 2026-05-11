@@ -17,6 +17,13 @@ export const LEVITICUS_12: RichChapterContent = {
   chapter: 12,
 
   estimatedMinutes: { beginner: 4, intermediate: 5, deep: 7 },
+
+  youth: {
+    intros: [
+      "After childbirth, a mother goes through a period of ceremonial separation. The Bible doesn&apos;t treat the body that bleeds for new life as gross — it treats it as set apart, requiring time and a specific offering. Mary observed this law (Luke 2) when she brought baby Jesus to the temple.",
+      "Even the holiest moment in human history — the dedication of the Son of God — happened inside an old, careful, female-bodied law. God doesn&apos;t bypass the realities of the body. He honors them.",
+    ],
+  },
   topicTags: ['holiness', 'sacrifice', 'priest', 'worship'],
   opener: {
     topical: true,

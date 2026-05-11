@@ -33,6 +33,13 @@ export const NUMBERS_26: RichChapterContent = {
   chapter: 26,
 
   estimatedMinutes: { beginner: 7, intermediate: 13, deep: 14 },
+
+  youth: {
+    intros: [
+      "Thirty-eight years later, a second census. The first generation is dead. The new total: 601,730 — almost identical to the first census. God grew a NEW generation in the wilderness while the old one died off. The promise didn&apos;t expire.",
+      "Whatever generation flunked the test in your family or your church, God can grow a new one. The promise to Abraham is bigger than any one generation&apos;s failure.",
+    ],
+  },
   topicTags: ['provision', 'protection', 'leadership', 'doubt'],
   opener: {
     topical: true,

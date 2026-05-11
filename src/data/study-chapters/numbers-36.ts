@@ -23,6 +23,13 @@ export const NUMBERS_36: RichChapterContent = {
   chapter: 36,
 
   estimatedMinutes: { beginner: 6, intermediate: 11, deep: 13 },
+
+  youth: {
+    intros: [
+      "The five sisters from chapter 27 come up again. The leaders of Manasseh have a follow-up question: if these daughters marry men from another tribe, the inheritance leaves Manasseh. Solution: they marry within their own tribe. Their inheritance is preserved.",
+      "Even in the small details about land allocation, God is preserving the lines that run all the way to the Messiah. The tribe of Judah will produce Christ. Every &ldquo;minor&rdquo; rule in this book is part of how God kept that line clear.",
+    ],
+  },
   intros: [
     'Numbers 36 opens with the chiefs of Manasseh — the leaders of Machir&apos;s family — approaching Moses with a problem. The statute from Numbers 27 is good and right: if a man dies without sons, his daughters inherit. But what about the tribes? If Zelophehad&apos;s daughters marry men from another tribe, their inheritance goes with them to that tribe. Over time, Manasseh loses land and shrinks. Even at the Jubilee, when all land returns to its original owners, the daughters&apos; inheritance does not return — it stays in the other tribe. The law as it stands creates a loophole that unravels tribal boundaries.',
     'Moses listens. He brings the matter before the Lord. The Lord affirms the chiefs&apos; concern and gives a ruling: the statute stands. The daughters may marry whomever they choose. But they must marry within the tribe. The inheritance system stays intact. Mercy toward the daughters and order among the tribes are not enemies. Both can be honored together. Zelophehad&apos;s five daughters — Mahlah, Tirzah, Hoglah, Milcah, and Noah — marry their cousins, the sons of their father&apos;s brothers. The family stays whole. The inheritance stays in Manasseh.',

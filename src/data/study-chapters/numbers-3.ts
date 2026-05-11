@@ -17,6 +17,13 @@ export const NUMBERS_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 8, intermediate: 12, deep: 14 },
+
+  youth: {
+    intros: [
+      "The Levites — the tribe of priests — are taken in place of every firstborn male in Israel. God claims them for Himself, an entire tribe given to the work of the tabernacle so that the rest of Israel could go about life knowing the priestly work was being done.",
+      "In the New Testament every believer is a priest. You don&apos;t need a special tribe to bring people to God anymore. You just need to bring yourself.",
+    ],
+  },
   intros: [
     'At Passover, when the firstborn of Egypt fell, Israel&apos;s firstborn were spared. They became the Lord&apos;s — set apart, belonging entirely to Him. But not long after, the Lord exchanges those firstborn for the Levites. A whole tribe, given to God in place of every Israelite firstborn. The system is elegant and costly: the Levites work the tabernacle; Israel&apos;s firstborn go free. And for those firstborn beyond the Levite count, redemption comes at a price: 5 shekels per person, a ransom that points ahead.',
     'Numbers 3 is the ledger of that exchange. It names the Levite clans, assigns them their posts around the tabernacle, counts them against Israel&apos;s firstborn, and fixes the redemption price. It is also a portrait of substitution — one group standing in for another, one life traded for many. That logic becomes the deepest truth of the Gospel.',

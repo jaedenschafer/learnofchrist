@@ -6,6 +6,13 @@ export const NUMBERS_8: RichChapterContent = {
   chapter: 8,
 
   estimatedMinutes: { beginner: 6, intermediate: 10, deep: 13 },
+
+  youth: {
+    intros: [
+      "Aaron lights the lamps in the Holy Place. Then the Levites are formally set apart for tabernacle service — washed, shaved, presented to the Lord. They served from age 25 to 50.",
+      "There&apos;s a season when you serve actively, and a season when you mentor and step back. Both are honored. God doesn&apos;t require you to be 25 forever. He requires you to keep showing up where He&apos;s placed you in this season.",
+    ],
+  },
   topicTags: ['provision', 'protection', 'leadership', 'doubt'],
   opener: {
     topical: true,

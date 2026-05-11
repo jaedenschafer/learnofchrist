@@ -21,6 +21,13 @@ export const NUMBERS_17: RichChapterContent = {
   chapter: 17,
 
   estimatedMinutes: { beginner: 5, intermediate: 7, deep: 9 },
+
+  youth: {
+    intros: [
+      "God tells each tribe to bring a wooden staff. Twelve staffs are placed in the tabernacle overnight. The next morning Aaron&apos;s staff has BUDDED, blossomed, and produced almonds. God&apos;s appointed leader is settled — visibly.",
+      "When you&apos;re wondering whether God has called someone, watch their staff. Real callings produce real fruit, often overnight, often unmistakable. Beware of leaders whose staffs never bud.",
+    ],
+  },
   opener: {
     matchTitle: /Aaron/i,
     caption: 'Numbers 17',

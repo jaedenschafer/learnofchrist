@@ -28,6 +28,13 @@ export const LEVITICUS_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 6, intermediate: 9, deep: 13 },
+
+  youth: {
+    intros: [
+      "Leviticus opens with God speaking from the tabernacle He just moved into. The first laws aren&apos;t about prohibitions — they&apos;re about how to come close. The burnt offering is total: the whole animal goes up in smoke, nothing kept back. It&apos;s a picture of giving God all of you, not just the leftover pieces.",
+      "Christ is the burnt offering. He didn&apos;t hold anything back at the cross. Reading these laws with Him in view turns the whole book into a portrait of Jesus before the Gospels were written.",
+    ],
+  },
   intros: [
     'Leviticus is not a book most readers turn to first. It is full of rules, animal blood, priestly instructions, and the word "abomination." But it opens with something else entirely: not a law, not a prohibition, but a word about access. "And the LORD called unto Moses, and spake unto him out of the tabernacle of the congregation, saying..." What God is about to teach is how sinners can draw near. Leviticus is a book about holiness—but not holiness that keeps people away. Holiness that makes room for sinners to come.',
     'The burnt offering is the first sacrifice, the most basic one, the one that opens the door. It is called olah in Hebrew, a word that means "that which goes up"—the whole animal, wholly consumed by fire, nothing reserved, nothing kept back for the priest or the worshiper. It rises as a smell, a savor, to the Lord. And before the animal is killed, before the blood flows, before the fire consumes it all, the worshiper lays his hand on the animal&apos;s head. This act—samakh yad, "the laying on of the hand"—is the heart of the entire sacrifice. It means: this animal is my substitute. My hand marks it. My guilt is transferred. My death becomes its death. So I can live.',

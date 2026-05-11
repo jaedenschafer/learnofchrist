@@ -44,6 +44,13 @@ export const NUMBERS_29: RichChapterContent = {
   chapter: 29,
 
   estimatedMinutes: { beginner: 10, intermediate: 15, deep: 21 },
+
+  youth: {
+    intros: [
+      "More festival offerings — Trumpets, Atonement, Tabernacles. The seventh month is the climax of Israel&apos;s liturgical year. The fall feasts point forward to Christ&apos;s second coming.",
+      "Just as the spring feasts (Passover, Firstfruits, Pentecost) all happened on the day Christ was crucified / rose / sent the Spirit — the fall feasts are still future. He keeps the calendar. He&apos;s coming back on it.",
+    ],
+  },
   topicTags: ['provision', 'protection', 'leadership', 'doubt'],
   opener: {
     topical: true,
