@@ -514,6 +514,10 @@ export const SAMUEL_2_2: RichChapterContent = {
           kind: 'carry',
           html:
             'Abner&apos;s question echoes beyond this moment in history. "Shall the sword devour for ever?" applies to any conflict that grinds on and on — any family feud that lasts for generations, any workplace war that never quite ends, any grudge that seems to have a life of its own. At some point, someone has to ask: When does this stop? And it will not stop until someone willing to be victorious is also willing to ask whether victory is worth the price. Abner had won. Joab had lost more men than David. But Abner&apos;s question changed everything. Sometimes the most powerful thing a leader can do is to lay down the sword and ask if it is time to ask for peace.',
+          youthOverride: {
+            html:
+              'Abner\'s question echoes way past this story. "Shall the sword devour forever?" applies to any feud that just won\'t end — the friend group split that\'s on its third year, the family fight everyone keeps inheriting, the silent treatment between you and someone who used to matter, the comment thread that won\'t die. At some point someone has to ask: when does this stop? And it never does until someone with the upper hand decides victory isn\'t worth what it\'s costing. Be the one who says it first.',
+          },
         },
         {
           kind: 'reflection',

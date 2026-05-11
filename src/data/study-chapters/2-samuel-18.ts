@@ -621,6 +621,10 @@ export const SAMUEL_2_18: RichChapterContent = {
           kind: 'carry',
           html:
             'If you are a parent, you may have felt a version of David\'s cry — a moment when you would have taken your child\'s pain, their consequence, their judgment, into yourself if you could. If you are a child, you may have been on the receiving end of that love — someone loving you despite your rebellion, your foolishness, your betrayal. And if you are human, you have been loved by the God who did what David could not: He gave His Son. Not because we deserved it. Not because we had repented perfectly. But because He is a Father, and fathers love their children past all reason, past all justice. Past death itself.',
+          youthOverride: {
+            html:
+              'You\'ve probably been on the receiving end of David\'s kind of love — somebody who kept loving you through the rebellion, the dumb decision, the wreck you made of something you should have protected. Maybe a parent. Maybe a youth pastor. Maybe a friend who refused to leave when leaving made sense. David cried "would God I had died for thee" — a wish he could not actually pay. The Father did. He gave the Son. That love isn\'t the love you have to earn. It\'s the love that found you while you were still in your worst chapter.',
+          },
         },
         {
           kind: 'reflection',

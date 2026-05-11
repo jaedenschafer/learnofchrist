@@ -273,6 +273,10 @@ export const EXODUS_20: RichChapterContent = {
           kind: 'carry',
           html:
             'Work is good — the first six days prove it. But work is not ultimate. There is a day built into creation itself that says: you can stop. The ground will be fine. Your family will be fine. God rested on the seventh day because creation was complete and very good. Stopping is not laziness; it is agreement with reality. The world was made to run without your hands for one whole day a week. What would change if you believed that?',
+          youthOverride: {
+            html:
+              'Work is good — school, sports, the side project, the practice — six days of it built into creation. But none of it is ultimate. There\'s one day a week designed for you to stop. The chat will be fine. The grade will be fine. The post will still get likes if you don\'t check it for 24 hours. Stopping isn\'t laziness; it\'s agreement with reality. The world was made to keep running without your hands for one full day a week. What would change if you actually trusted that?',
+          },
         },
         {
           kind: 'reflection',

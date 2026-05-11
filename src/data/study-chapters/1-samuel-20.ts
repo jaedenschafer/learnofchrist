@@ -473,6 +473,10 @@ export const SAMUEL_1_20: RichChapterContent = {
           kind: 'carry',
           html:
             'You may know the experience of loving someone whose path must diverge from yours. Perhaps a child who must leave home, a friend who must move, a partner whose calling takes them elsewhere. Jonathan faces something even harder: he must watch the man he loves walk toward a throne that was meant to be his own. He could have resented David. He could have tried to stop him. Instead, Jonathan became David&apos;s shield. His covenant bound himself not only to David, but to David&apos;s descendants — a binding that outlasted both their lives. Years later, after David had conquered and become king, he would remember Jonathan. He would find Jonathan&apos;s surviving son, Mephibosheth, crippled and hiding in shame, and bring him to his table for life (2 Samuel 9). That is what the covenant meant. What you have given in love does not return void. The faithfulness you show in hard moments becomes the shape of how you treat those who remain.',
+          youthOverride: {
+            html:
+              'You\'ve probably already had to love someone whose path was about to split off from yours. The friend moving away. The friend group going to a different school. The teammate transferring. Jonathan faced something harder — the friend he loved was about to take the throne that was supposed to be his. He could have resented David. He chose to bless him. Years later David didn\'t forget — he found Jonathan\'s lame son and gave him a seat at the king\'s table for life. The faithfulness you show now isn\'t lost. It becomes the shape of how someone treats your people decades later.',
+          },
         },
 
         {

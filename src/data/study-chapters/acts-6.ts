@@ -303,6 +303,10 @@ export const ACTS_6: RichChapterContent = {
           kind: 'carry',
           html:
             'You were given your assignment—your job, your family, your local church, your daily work. But the Holy Spirit is not hemmed in by job descriptions. If you are truly filled with His presence, your life will overflow with gifts and graces that reach far beyond your title. The widows get served, yes. But they get served by a man whose faith is so alive that miracles follow him.',
+          youthOverride: {
+            html:
+              'You\'ve got an assignment — school, your family, your friend group, the team you\'re on. But the Spirit doesn\'t stay inside the lane labeled "what you\'re supposed to do." Stephen got picked to organize meals. He ended up doing miracles and preaching the longest sermon in Acts. If the Spirit is actually in you, what He grows in your life will spill out way past your job title. Be faithful with what you were assigned. Watch what overflows.',
+          },
         },
         {
           kind: 'reflection',
