@@ -6,6 +6,12 @@ export const HOSEA_7: RichChapterContent = {
   chapter: 7,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "Israel is like a half-baked cake — turned only on one side. Half-hearted faith ends up burnt on one side and raw on the other. Either give yourself fully or recognize the half-baked thing isn&apos;t food.",
+    ],
+  },
   topicTags: ['faithfulness', 'mercy', 'sin', 'love'],
   opener: {
     topical: true,

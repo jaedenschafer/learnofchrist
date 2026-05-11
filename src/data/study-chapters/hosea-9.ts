@@ -6,6 +6,12 @@ export const HOSEA_9: RichChapterContent = {
   chapter: 9,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "The harvest of judgment. Israel&apos;s glory will fly away like a bird.",
+    ],
+  },
   topicTags: ['faithfulness', 'mercy', 'sin', 'love'],
   opener: {
     topical: true,

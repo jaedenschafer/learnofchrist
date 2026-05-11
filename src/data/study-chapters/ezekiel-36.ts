@@ -15,6 +15,12 @@ export const EZEKIEL_36: RichChapterContent = {
   chapter: 36,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "A promise of restoration: &ldquo;A new heart also will I give you, and a new spirit will I put within you: and I will take away the stony heart out of your flesh, and I will give you an heart of flesh.&rdquo; Quoted by Jesus to Nicodemus in spirit.",
+    ],
+  },
   topicTags: ['judgment', 'glory', 'hope', 'second-coming'],
   opener: {
     topical: true,

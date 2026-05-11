@@ -18,6 +18,12 @@ export const EZEKIEL_23: RichChapterContent = {
   chapter: 23,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "Two sisters — Oholah and Oholibah — represent Samaria and Jerusalem. Both committed spiritual adultery with the empires around them. Graphic, intentional. Sin is uglier than the language we use to describe it.",
+    ],
+  },
   topicTags: ['judgment', 'glory', 'hope', 'second-coming'],
   opener: {
     topical: true,

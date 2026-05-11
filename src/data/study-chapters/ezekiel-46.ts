@@ -14,6 +14,12 @@ export const EZEKIEL_46: RichChapterContent = {
   chapter: 46,
 
   estimatedMinutes: { beginner: 1, intermediate: 2, deep: 4 },
+
+  youth: {
+    intros: [
+      "Worship procedures for the prince and the people. Even kings come and go through assigned gates. Worship has order.",
+    ],
+  },
   topicTags: ['judgment', 'glory', 'hope', 'second-coming'],
   opener: {
     topical: true,

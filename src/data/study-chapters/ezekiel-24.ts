@@ -19,6 +19,12 @@ export const EZEKIEL_24: RichChapterContent = {
   chapter: 24,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "The siege of Jerusalem begins on the very day God tells Ezekiel. Ezekiel&apos;s wife dies. He&apos;s told not to mourn outwardly — a sign that the people&apos;s grief over the temple will be too deep to perform.",
+    ],
+  },
   topicTags: ['judgment', 'glory', 'hope', 'second-coming'],
   opener: {
     topical: true,

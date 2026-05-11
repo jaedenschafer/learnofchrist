@@ -9,6 +9,12 @@ export const MALACHI_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "Judgment on the priests for failing to teach. Then a hard word about divorce: God hates putting away. Marriage is a covenant He witnesses.",
+    ],
+  },
   topicTags: ['faithfulness', 'judgment', 'hope', 'love'],
   opener: {
     topical: true,

@@ -14,6 +14,12 @@ export const MICAH_4: RichChapterContent = {
   chapter: 4,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "A vision of the last days: nations streaming to the mountain of the Lord. Swords beaten into plowshares. Quoted from Isaiah 2 and ahead to Revelation.",
+    ],
+  },
   topicTags: ['justice', 'judgment', 'hope', 'humility'],
   opener: {
     topical: true,

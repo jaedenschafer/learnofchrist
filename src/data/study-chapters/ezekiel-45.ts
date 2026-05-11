@@ -15,6 +15,12 @@ export const EZEKIEL_45: RichChapterContent = {
   chapter: 45,
 
   estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
+
+  youth: {
+    intros: [
+      "Land allotments around the temple. Holy portions for the priests, the prince, and the people.",
+    ],
+  },
   topicTags: ['judgment', 'glory', 'hope', 'second-coming'],
   opener: {
     topical: true,

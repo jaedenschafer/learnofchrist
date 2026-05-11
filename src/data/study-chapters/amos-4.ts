@@ -6,6 +6,12 @@ export const AMOS_4: RichChapterContent = {
   chapter: 4,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "God sent famine, drought, blight, plague, war — and Israel still didn&apos;t return. &ldquo;Prepare to meet thy God, O Israel.&rdquo;",
+    ],
+  },
   topicTags: ['justice', 'judgment', 'righteousness', 'wrath'],
   opener: {
     topical: true,

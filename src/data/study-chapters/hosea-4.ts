@@ -15,6 +15,12 @@ export const HOSEA_4: RichChapterContent = {
   chapter: 4,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "&ldquo;My people are destroyed for lack of knowledge.&rdquo; Israel doesn&apos;t know God&apos;s ways. The priests have failed to teach them.",
+    ],
+  },
   topicTags: ['faithfulness', 'mercy', 'sin', 'love'],
   opener: {
     topical: true,

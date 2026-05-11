@@ -14,6 +14,12 @@ export const HOSEA_6: RichChapterContent = {
   chapter: 6,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "&ldquo;Come, and let us return unto the Lord: for he hath torn, and he will heal us; he hath smitten, and he will bind us up.&rdquo; The pattern of repentance and restoration.",
+    ],
+  },
   topicTags: ['faithfulness', 'mercy', 'sin', 'love'],
   opener: {
     topical: true,

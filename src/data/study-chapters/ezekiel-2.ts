@@ -15,6 +15,12 @@ export const EZEKIEL_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 5 },
+
+  youth: {
+    intros: [
+      "God commissions Ezekiel: &ldquo;Son of man, I send thee to the children of Israel.&rdquo; He&apos;s told to speak whether they listen or not. Faithfulness, not response, is the prophet&apos;s job.",
+    ],
+  },
   opener: {
     matchTitle: /Ezekiel/i,
     caption: 'Ezekiel 2',

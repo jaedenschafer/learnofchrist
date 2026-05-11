@@ -15,6 +15,12 @@ export const LAMENTATIONS_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "Jeremiah grieves over the fallen city of Jerusalem. &ldquo;How doth the city sit solitary, that was full of people!&rdquo; Read this when grief seems too big for words.",
+    ],
+  },
   opener: {
     matchTitle: /Jeremiah/i,
     caption: 'Lamentations 1',

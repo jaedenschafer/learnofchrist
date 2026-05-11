@@ -15,6 +15,12 @@ export const EZEKIEL_33: RichChapterContent = {
   chapter: 33,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "Ezekiel is appointed watchman. If he warns the wicked and they don&apos;t listen, their blood is on their own heads. If he doesn&apos;t warn them, it&apos;s on him. Speak up. Souls are at stake.",
+    ],
+  },
   topicTags: ['judgment', 'glory', 'hope', 'second-coming'],
   opener: {
     topical: true,

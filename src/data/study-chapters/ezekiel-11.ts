@@ -15,6 +15,12 @@ export const EZEKIEL_11: RichChapterContent = {
   chapter: 11,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 5 },
+
+  youth: {
+    intros: [
+      "Judgment on Jerusalem&apos;s wicked counselors. Then a promise to the exiles: &ldquo;I will give them one heart, and I will put a new spirit within you…and I will take the stony heart out of their flesh, and will give them an heart of flesh.&rdquo;",
+    ],
+  },
   topicTags: ['judgment', 'glory', 'hope', 'second-coming'],
   opener: {
     topical: true,

@@ -12,6 +12,12 @@ export const HAGGAI_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "The exiles have returned but stopped building the temple. They&apos;re building their own paneled houses. Haggai: &ldquo;Consider your ways.&rdquo; The people respond and start building.",
+    ],
+  },
   opener: {
     matchTitle: /The Prophet Haggai/i,
     caption: 'Haggai 1',

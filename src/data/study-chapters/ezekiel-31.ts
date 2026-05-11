@@ -15,6 +15,12 @@ export const EZEKIEL_31: RichChapterContent = {
   chapter: 31,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "Egypt compared to a great cedar of Lebanon — admired by all, then cut down. Pride before destruction.",
+    ],
+  },
   topicTags: ['judgment', 'glory', 'hope', 'second-coming'],
   opener: {
     topical: true,

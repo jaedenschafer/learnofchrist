@@ -13,6 +13,12 @@ export const JONAH_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "The fish vomits Jonah on dry land. He goes to Nineveh, preaches eight words: &ldquo;Yet forty days, and Nineveh shall be overthrown.&rdquo; The whole city repents — including the king. God relents.",
+    ],
+  },
   opener: {
     matchTitle: /Jonah Preaches to the/i,
     caption: 'Jonah 3',

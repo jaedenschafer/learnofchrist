@@ -15,6 +15,12 @@ export const EZEKIEL_12: RichChapterContent = {
   chapter: 12,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "Ezekiel acts out exile — packing his bags, digging through a wall — as a sign to the rebellious house. Acted-out parables when words don&apos;t land.",
+    ],
+  },
   topicTags: ['judgment', 'glory', 'hope', 'second-coming'],
   opener: {
     topical: true,

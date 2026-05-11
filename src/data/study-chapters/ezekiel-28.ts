@@ -21,6 +21,12 @@ export const EZEKIEL_28: RichChapterContent = {
   chapter: 28,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "The king of Tyre. Behind him, hints of a deeper rebel — a covering cherub fallen because his heart was lifted up by his beauty. Read alongside Isaiah 14.",
+    ],
+  },
   topicTags: ['judgment', 'glory', 'hope', 'second-coming'],
   opener: {
     topical: true,

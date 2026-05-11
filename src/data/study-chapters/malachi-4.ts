@@ -9,6 +9,12 @@ export const MALACHI_4: RichChapterContent = {
   chapter: 4,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "The day of the Lord is coming. &ldquo;Unto you that fear my name shall the Sun of righteousness arise with healing in his wings.&rdquo; Then Elijah will come — pointing to John the Baptist. The OT ends. The Messiah is the next page.",
+    ],
+  },
   topicTags: ['faithfulness', 'judgment', 'hope', 'love'],
   opener: {
     topical: true,

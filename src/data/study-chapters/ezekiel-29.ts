@@ -18,6 +18,12 @@ export const EZEKIEL_29: RichChapterContent = {
   chapter: 29,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "Prophecies against Egypt and Pharaoh — &ldquo;the great dragon that lieth in the midst of his rivers.&rdquo;",
+    ],
+  },
   topicTags: ['judgment', 'glory', 'hope', 'second-coming'],
   opener: {
     topical: true,

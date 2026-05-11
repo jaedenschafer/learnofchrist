@@ -9,6 +9,12 @@ export const ZECHARIAH_8: RichChapterContent = {
   chapter: 8,
 
   estimatedMinutes: { beginner: 1, intermediate: 2, deep: 4 },
+
+  youth: {
+    intros: [
+      "A vision of restored Jerusalem — old men and women sitting in the streets, boys and girls playing. Peace returns to the city.",
+    ],
+  },
   topicTags: ['hope', 'messianic-prophecy', 'second-coming', 'kingship'],
   opener: {
     topical: true,

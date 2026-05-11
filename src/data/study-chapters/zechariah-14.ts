@@ -9,6 +9,12 @@ export const ZECHARIAH_14: RichChapterContent = {
   chapter: 14,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 5 },
+
+  youth: {
+    intros: [
+      "The day of the Lord. The Mount of Olives splits in half. Living waters flow from Jerusalem. The Lord shall be king over all the earth — &ldquo;in that day shall there be one Lord, and his name one.&rdquo;",
+    ],
+  },
   topicTags: ['hope', 'messianic-prophecy', 'second-coming', 'kingship'],
   opener: {
     topical: true,

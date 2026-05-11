@@ -9,6 +9,12 @@ export const ZECHARIAH_9: RichChapterContent = {
   chapter: 9,
 
   estimatedMinutes: { beginner: 1, intermediate: 2, deep: 4 },
+
+  youth: {
+    intros: [
+      "&ldquo;Rejoice greatly, O daughter of Zion…behold, thy King cometh unto thee: he is just, and having salvation; lowly, and riding upon an ass.&rdquo; Quoted at Jesus&apos; triumphal entry.",
+    ],
+  },
   opener: {
     matchTitle: /The Prophet Zechariah/i,
     caption: 'Zechariah 9',

@@ -15,6 +15,12 @@ export const EZEKIEL_44: RichChapterContent = {
   chapter: 44,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "Rules for the priesthood in the new temple. Faithful priests will minister; unfaithful Levites will serve at lower duties. Faithfulness gets you closer access.",
+    ],
+  },
   opener: {
     matchTitle: /Ezekiel/i,
     caption: 'Ezekiel 44',

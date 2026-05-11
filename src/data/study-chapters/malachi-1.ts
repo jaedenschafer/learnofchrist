@@ -9,6 +9,12 @@ export const MALACHI_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "The last book of the Old Testament. God: &ldquo;I have loved you.&rdquo; Israel: &ldquo;Wherein hast thou loved us?&rdquo; God: I chose Jacob over Esau. Then He confronts the priests for offering blemished sacrifices.",
+    ],
+  },
   topicTags: ['faithfulness', 'judgment', 'hope', 'love'],
   opener: {
     topical: true,

@@ -6,6 +6,12 @@ export const AMOS_8: RichChapterContent = {
   chapter: 8,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "A famine of hearing the words of the Lord. The worst judgment of all isn&apos;t lack of food but lack of God&apos;s voice.",
+    ],
+  },
   topicTags: ['justice', 'judgment', 'righteousness', 'wrath'],
   opener: {
     topical: true,

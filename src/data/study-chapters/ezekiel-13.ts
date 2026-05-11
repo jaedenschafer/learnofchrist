@@ -16,6 +16,12 @@ export const EZEKIEL_13: RichChapterContent = {
   chapter: 13,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 5 },
+
+  youth: {
+    intros: [
+      "Woe to the prophets who say &ldquo;peace&rdquo; when there is no peace. Don&apos;t whitewash a wall that&apos;s about to fall. Tell the truth.",
+    ],
+  },
   topicTags: ['judgment', 'glory', 'hope', 'second-coming'],
   opener: {
     topical: true,

@@ -15,6 +15,12 @@ export const EZEKIEL_38: RichChapterContent = {
   chapter: 38,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "Gog of the land of Magog will come against Israel in the last days. God will defend His people. Revelation picks up these images.",
+    ],
+  },
   topicTags: ['judgment', 'glory', 'hope', 'second-coming'],
   opener: {
     topical: true,

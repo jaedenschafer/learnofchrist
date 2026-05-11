@@ -6,6 +6,12 @@ export const AMOS_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "The judgment circles closer — Moab, then Judah, then Israel. The hardest word is to God&apos;s own people.",
+    ],
+  },
   topicTags: ['justice', 'judgment', 'righteousness', 'wrath'],
   opener: {
     topical: true,

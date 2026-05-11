@@ -15,6 +15,12 @@ export const JONAH_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 6 },
+
+  youth: {
+    intros: [
+      "God tells Jonah to preach to Nineveh. Jonah runs the opposite direction. A storm. The sailors throw him overboard. A great fish swallows him. Don&apos;t run from your assignment.",
+    ],
+  },
   opener: {
     matchTitle: /Jonah/i,
     caption: 'Jonah 1',

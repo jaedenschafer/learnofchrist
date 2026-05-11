@@ -13,6 +13,12 @@ export const MICAH_6: RichChapterContent = {
   chapter: 6,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "&ldquo;He hath shewed thee, O man, what is good; and what doth the Lord require of thee, but to do justly, and to love mercy, and to walk humbly with thy God?&rdquo; The book of Micah in one verse.",
+    ],
+  },
   opener: {
     matchTitle: /Micah/i,
     caption: 'Micah 6',

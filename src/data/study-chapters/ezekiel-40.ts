@@ -15,6 +15,12 @@ export const EZEKIEL_40: RichChapterContent = {
   chapter: 40,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "A vision of a future temple. Dimensions, gates, courts. The detail itself is the worship — God cares about the future house.",
+    ],
+  },
   topicTags: ['judgment', 'glory', 'hope', 'second-coming'],
   opener: {
     topical: true,

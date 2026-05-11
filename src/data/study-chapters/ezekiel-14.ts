@@ -15,6 +15,12 @@ export const EZEKIEL_14: RichChapterContent = {
   chapter: 14,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "Even if Noah, Daniel, and Job were in the city, they couldn&apos;t save it by their righteousness. Each soul is responsible for itself before God.",
+    ],
+  },
   topicTags: ['judgment', 'glory', 'hope', 'second-coming'],
   opener: {
     topical: true,

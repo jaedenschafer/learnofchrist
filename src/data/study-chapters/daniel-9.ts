@@ -16,6 +16,12 @@ export const DANIEL_9: RichChapterContent = {
   chapter: 9,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 6 },
+
+  youth: {
+    intros: [
+      "Daniel prays one of the great corporate confessions in the Bible. While he&apos;s praying, the angel Gabriel arrives with the prophecy of seventy weeks — predicting the coming of the Messiah.",
+    ],
+  },
   topicTags: ['faithfulness', 'sovereignty', 'second-coming', 'protection'],
   opener: {
     topical: true,

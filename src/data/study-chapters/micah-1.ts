@@ -13,6 +13,12 @@ export const MICAH_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "Judgment on Samaria and Jerusalem. The mountains melt like wax before the Lord. God&apos;s coming.",
+    ],
+  },
   opener: {
     matchTitle: /Micah Exhorts the Israelites/i,
     caption: 'Micah 1',

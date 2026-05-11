@@ -13,6 +13,12 @@ export const HABAKKUK_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "Habakkuk asks God: how long will violence and injustice continue? God answers: I&apos;m raising up the Babylonians. Habakkuk asks the harder question: how can a holy God use such evil people as His instrument?",
+    ],
+  },
   topicTags: ['faithfulness', 'doubt', 'hope', 'sovereignty'],
   opener: {
     topical: true,

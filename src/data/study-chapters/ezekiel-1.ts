@@ -17,6 +17,12 @@ export const EZEKIEL_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 5 },
+
+  youth: {
+    intros: [
+      "Ezekiel by the river Chebar in exile. The heavens open. He sees four living creatures, wheels within wheels, and above them a throne with One like the Son of Man. The opening vision of the whole book.",
+    ],
+  },
   opener: {
     matchTitle: /The Prophet Ezekiel/i,
     caption: 'Ezekiel 1',

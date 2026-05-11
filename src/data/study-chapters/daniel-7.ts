@@ -16,6 +16,12 @@ export const DANIEL_7: RichChapterContent = {
   chapter: 7,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 6 },
+
+  youth: {
+    intros: [
+      "Daniel&apos;s vision of four beasts and one like the Son of Man coming in clouds, given a kingdom that won&apos;t pass away. Jesus calls Himself the Son of Man — quoting this chapter — at His trial in Mark 14.",
+    ],
+  },
   opener: {
     matchTitle: /Daniel/i,
     caption: 'Daniel 7',

@@ -15,6 +15,12 @@ export const EZEKIEL_5: RichChapterContent = {
   chapter: 5,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "Ezekiel shaves his head with a sword, divides the hair into thirds, burns one, scatters one, takes one. A picture of what Babylon will do to Jerusalem&apos;s population.",
+    ],
+  },
   topicTags: ['judgment', 'glory', 'hope', 'second-coming'],
   opener: {
     topical: true,

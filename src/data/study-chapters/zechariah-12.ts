@@ -9,6 +9,12 @@ export const ZECHARIAH_12: RichChapterContent = {
   chapter: 12,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "&ldquo;They shall look upon me whom they have pierced.&rdquo; Quoted of Jesus on the cross. A future day when Israel will see and mourn for the One they rejected.",
+    ],
+  },
   topicTags: ['hope', 'messianic-prophecy', 'second-coming', 'kingship'],
   opener: {
     topical: true,

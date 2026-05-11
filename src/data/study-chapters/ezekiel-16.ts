@@ -19,6 +19,12 @@ export const EZEKIEL_16: RichChapterContent = {
   chapter: 16,
 
   estimatedMinutes: { beginner: 2, intermediate: 6, deep: 7 },
+
+  youth: {
+    intros: [
+      "Israel is portrayed as an abandoned baby God rescued, raised, and married — and who then committed shocking adultery with every passing nation. The chapter is graphic. God&apos;s love is bigger than the betrayal.",
+    ],
+  },
   topicTags: ['judgment', 'glory', 'hope', 'second-coming'],
   opener: {
     topical: true,

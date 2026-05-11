@@ -6,6 +6,12 @@ export const AMOS_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "&ldquo;You only have I known of all the families of the earth: therefore I will punish you for all your iniquities.&rdquo; Privilege brings responsibility.",
+    ],
+  },
   topicTags: ['justice', 'judgment', 'righteousness', 'wrath'],
   opener: {
     topical: true,

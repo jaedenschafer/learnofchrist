@@ -13,6 +13,12 @@ export const MICAH_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "The leaders eat the flesh of God&apos;s people. False prophets divine for money. &ldquo;Zion shall be plowed as a field.&rdquo;",
+    ],
+  },
   topicTags: ['justice', 'judgment', 'hope', 'humility'],
   opener: {
     topical: true,

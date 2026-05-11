@@ -9,6 +9,12 @@ export const ZECHARIAH_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "Joshua the high priest standing in filthy garments before the angel of the Lord. Satan accuses. The Lord rebukes Satan and gives Joshua clean garments. A picture of justification.",
+    ],
+  },
   topicTags: ['hope', 'messianic-prophecy', 'second-coming', 'kingship'],
   opener: {
     topical: true,

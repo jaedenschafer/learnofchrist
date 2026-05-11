@@ -6,6 +6,12 @@ export const JOEL_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 6 },
+
+  youth: {
+    intros: [
+      "The day of the Lord is great and terrible. &ldquo;Rend your heart, and not your garments, and turn unto the Lord your God.&rdquo; Then the famous promise: &ldquo;I will pour out my spirit upon all flesh.&rdquo; Peter quotes this in Acts 2 at Pentecost.",
+    ],
+  },
   opener: {
     matchTitle: /The Prophet Joel/i,
     caption: 'Joel 2',

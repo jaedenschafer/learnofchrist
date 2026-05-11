@@ -16,6 +16,12 @@ export const DANIEL_12: RichChapterContent = {
   chapter: 12,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+
+  youth: {
+    intros: [
+      "The end times. &ldquo;Many of them that sleep in the dust of the earth shall awake, some to everlasting life, and some to shame and everlasting contempt.&rdquo; The first clear OT statement of bodily resurrection of the just AND unjust.",
+    ],
+  },
   topicTags: ['faithfulness', 'sovereignty', 'second-coming', 'protection'],
   opener: {
     topical: true,

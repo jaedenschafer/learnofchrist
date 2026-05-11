@@ -15,6 +15,12 @@ export const EZEKIEL_48: RichChapterContent = {
   chapter: 48,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "Final land allotments. The book ends with the city&apos;s name: &ldquo;THE LORD IS THERE.&rdquo; That&apos;s the goal of all of Scripture.",
+    ],
+  },
   topicTags: ['judgment', 'glory', 'hope', 'second-coming'],
   opener: {
     topical: true,

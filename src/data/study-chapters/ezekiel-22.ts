@@ -19,6 +19,12 @@ export const EZEKIEL_22: RichChapterContent = {
   chapter: 22,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "A list of Jerusalem&apos;s sins — bloodshed, idolatry, exploitation of the poor and the foreigner. God looked for one person to stand in the gap and found none.",
+    ],
+  },
   topicTags: ['judgment', 'glory', 'hope', 'second-coming'],
   opener: {
     topical: true,

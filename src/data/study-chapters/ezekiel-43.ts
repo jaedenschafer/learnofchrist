@@ -14,6 +14,12 @@ export const EZEKIEL_43: RichChapterContent = {
   chapter: 43,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "The glory of the Lord returns to the temple. The same glory that left in chapter 10 comes back. God always returns to a place prepared for Him.",
+    ],
+  },
   topicTags: ['judgment', 'glory', 'hope', 'second-coming'],
   opener: {
     topical: true,

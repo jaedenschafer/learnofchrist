@@ -6,6 +6,12 @@ export const JOEL_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "The valley of decision. God gathers the nations for judgment. Israel is restored. &ldquo;The Lord shall roar out of Zion, and utter his voice from Jerusalem.&rdquo;",
+    ],
+  },
   topicTags: ['judgment', 'repentance', 'hope', 'second-coming'],
   opener: {
     topical: true,

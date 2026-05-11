@@ -15,6 +15,12 @@ export const EZEKIEL_34: RichChapterContent = {
   chapter: 34,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 5 },
+
+  youth: {
+    intros: [
+      "Woe to the false shepherds who feed themselves and not the flock. God Himself will shepherd His sheep. He sets up &ldquo;my servant David&rdquo; — the Messiah — to be their shepherd.",
+    ],
+  },
   topicTags: ['judgment', 'glory', 'hope', 'second-coming'],
   opener: {
     topical: true,

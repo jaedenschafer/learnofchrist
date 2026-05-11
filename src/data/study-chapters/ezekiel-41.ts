@@ -14,6 +14,12 @@ export const EZEKIEL_41: RichChapterContent = {
   chapter: 41,
 
   estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
+
+  youth: {
+    intros: [
+      "More temple architecture. Walls, doors, windows, carvings of cherubim and palm trees.",
+    ],
+  },
   topicTags: ['judgment', 'glory', 'hope', 'second-coming'],
   opener: {
     topical: true,

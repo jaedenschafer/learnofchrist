@@ -16,6 +16,12 @@ export const HOSEA_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 4, intermediate: 6, deep: 8 },
+
+  youth: {
+    intros: [
+      "God tells Hosea to marry a prostitute named Gomer. Their three children are named Jezreel (judgment), Lo-ruhamah (no mercy), and Lo-ammi (not my people). Hosea&apos;s family becomes a sermon about Israel&apos;s spiritual adultery.",
+    ],
+  },
   opener: {
     matchTitle: /The Prophet Hosea with/i,
     caption: 'Hosea 1',

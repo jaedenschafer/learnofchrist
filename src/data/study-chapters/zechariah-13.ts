@@ -9,6 +9,12 @@ export const ZECHARIAH_13: RichChapterContent = {
   chapter: 13,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "A fountain opened for sin and uncleanness. &ldquo;Smite the shepherd, and the sheep shall be scattered.&rdquo; Jesus quotes this on the night of His arrest.",
+    ],
+  },
   topicTags: ['hope', 'messianic-prophecy', 'second-coming', 'kingship'],
   opener: {
     topical: true,

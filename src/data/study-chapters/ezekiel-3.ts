@@ -15,6 +15,12 @@ export const EZEKIEL_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "Ezekiel eats a scroll. It tastes like honey in his mouth, then becomes bitter in his stomach. God&apos;s Word goes in sweet, gets harder once you have to live it. He&apos;s appointed a watchman.",
+    ],
+  },
   topicTags: ['judgment', 'glory', 'hope', 'second-coming'],
   opener: {
     topical: true,

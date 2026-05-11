@@ -17,6 +17,12 @@ export const LAMENTATIONS_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 2, intermediate: 6, deep: 8 },
+
+  youth: {
+    intros: [
+      "The center of the book and its turning point: &ldquo;It is of the Lord&apos;s mercies that we are not consumed, because his compassions fail not. They are new every morning: great is thy faithfulness.&rdquo; Even at the bottom, mercy.",
+    ],
+  },
   topicTags: ['lament', 'suffering', 'hope', 'mercy'],
   opener: {
     topical: true,

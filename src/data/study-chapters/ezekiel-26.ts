@@ -19,6 +19,12 @@ export const EZEKIEL_26: RichChapterContent = {
   chapter: 26,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "The fall of Tyre prophesied. The wealthy trade city will become a place fishermen spread their nets. Wealth doesn&apos;t exempt anyone from judgment.",
+    ],
+  },
   topicTags: ['judgment', 'glory', 'hope', 'second-coming'],
   opener: {
     topical: true,

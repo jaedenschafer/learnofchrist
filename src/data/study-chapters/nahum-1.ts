@@ -12,6 +12,12 @@ export const NAHUM_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "Nineveh — which Jonah saw repent — has gone back to evil. Now its judgment is sure. &ldquo;The Lord is good, a strong hold in the day of trouble; and he knoweth them that trust in him.&rdquo;",
+    ],
+  },
   opener: {
     matchTitle: /The Prophet Nahum/i,
     caption: 'Nahum 1',

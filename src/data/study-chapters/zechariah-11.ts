@@ -9,6 +9,12 @@ export const ZECHARIAH_11: RichChapterContent = {
   chapter: 11,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "The Good Shepherd is rejected. Sold for thirty pieces of silver — the exact price Judas was paid. The silver is thrown into the temple — exactly what Judas did.",
+    ],
+  },
   topicTags: ['hope', 'messianic-prophecy', 'second-coming', 'kingship'],
   opener: {
     topical: true,

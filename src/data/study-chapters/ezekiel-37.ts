@@ -16,6 +16,12 @@ export const EZEKIEL_37: RichChapterContent = {
   chapter: 37,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "The valley of dry bones. God asks: can these bones live? Ezekiel answers: Lord, thou knowest. He prophesies. Bones come together. Sinews. Flesh. Breath. An exceeding great army stands up. God can resurrect what looks dead in your life.",
+    ],
+  },
   opener: {
     matchTitle: /Ezekiel/i,
     caption: 'Ezekiel 37',

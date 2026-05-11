@@ -16,6 +16,12 @@ export const EZEKIEL_8: RichChapterContent = {
   chapter: 8,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 5 },
+
+  youth: {
+    intros: [
+      "Ezekiel is taken in vision to Jerusalem and shown the secret idolatry happening even in the temple itself. Public sin is bad. Hidden sin in God&apos;s house is worse.",
+    ],
+  },
   topicTags: ['judgment', 'glory', 'hope', 'second-coming'],
   opener: {
     topical: true,

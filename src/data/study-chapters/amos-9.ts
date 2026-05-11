@@ -6,6 +6,12 @@ export const AMOS_9: RichChapterContent = {
   chapter: 9,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "Even from the depths of the sea, God&apos;s judgment will reach. Yet the book ends with restoration: &ldquo;In that day will I raise up the tabernacle of David that is fallen.&rdquo; Acts 15 quotes this about the inclusion of Gentiles.",
+    ],
+  },
   topicTags: ['justice', 'judgment', 'righteousness', 'wrath'],
   opener: {
     topical: true,

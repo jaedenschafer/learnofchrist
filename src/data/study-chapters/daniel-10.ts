@@ -16,6 +16,12 @@ export const DANIEL_10: RichChapterContent = {
   chapter: 10,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "Daniel is in mourning for three weeks. An angel arrives explaining the delay: a spiritual battle held him up. The unseen war is real.",
+    ],
+  },
   topicTags: ['faithfulness', 'sovereignty', 'second-coming', 'protection'],
   opener: {
     topical: true,

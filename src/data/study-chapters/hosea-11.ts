@@ -6,6 +6,12 @@ export const HOSEA_11: RichChapterContent = {
   chapter: 11,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "&ldquo;When Israel was a child, then I loved him, and called my son out of Egypt.&rdquo; Matthew quotes this when Joseph and Mary flee to Egypt with baby Jesus. God&apos;s heart toward His people aches like a parent.",
+    ],
+  },
   opener: {
     matchTitle: /Hosea/i,
     caption: 'Hosea 11',

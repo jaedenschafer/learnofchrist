@@ -15,6 +15,12 @@ export const LAMENTATIONS_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 6 },
+
+  youth: {
+    intros: [
+      "The Lord has become like an enemy. The destruction was His judgment. There&apos;s no minimizing it. &ldquo;Mine eye trickleth down, and ceaseth not, without any intermission.&rdquo;",
+    ],
+  },
   opener: {
     matchTitle: /The Dead Bodies Carried/i,
     caption: 'Lamentations 2',

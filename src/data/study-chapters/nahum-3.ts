@@ -12,6 +12,12 @@ export const NAHUM_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "Woe to the bloody city. Nineveh&apos;s end is final. Even mighty empires don&apos;t escape God&apos;s court.",
+    ],
+  },
   topicTags: ['judgment', 'sovereignty', 'wrath', 'protection'],
   opener: {
     topical: true,

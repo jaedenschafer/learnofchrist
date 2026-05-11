@@ -9,6 +9,12 @@ export const ZECHARIAH_4: RichChapterContent = {
   chapter: 4,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "A golden lampstand fed by two olive trees. &ldquo;Not by might, nor by power, but by my spirit, saith the Lord of hosts.&rdquo; The work of God isn&apos;t accomplished by human strength.",
+    ],
+  },
   topicTags: ['hope', 'messianic-prophecy', 'second-coming', 'kingship'],
   opener: {
     topical: true,

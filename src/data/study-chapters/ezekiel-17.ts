@@ -19,6 +19,12 @@ export const EZEKIEL_17: RichChapterContent = {
   chapter: 17,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 5 },
+
+  youth: {
+    intros: [
+      "A parable of two eagles and a vine. King Zedekiah broke his oath to Nebuchadnezzar, and God will hold him accountable. Don&apos;t break covenants you sealed in God&apos;s name.",
+    ],
+  },
   topicTags: ['judgment', 'glory', 'hope', 'second-coming'],
   opener: {
     topical: true,

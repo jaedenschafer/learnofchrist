@@ -9,6 +9,12 @@ export const ZECHARIAH_5: RichChapterContent = {
   chapter: 5,
 
   estimatedMinutes: { beginner: 1, intermediate: 2, deep: 4 },
+
+  youth: {
+    intros: [
+      "A flying scroll. A woman in a basket. Symbolic visions of judgment and the removal of wickedness from the land.",
+    ],
+  },
   topicTags: ['hope', 'messianic-prophecy', 'second-coming', 'kingship'],
   opener: {
     topical: true,

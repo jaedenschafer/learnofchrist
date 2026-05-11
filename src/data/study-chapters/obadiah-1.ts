@@ -6,6 +6,12 @@ export const OBADIAH_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "The shortest book in the Old Testament. A prophecy against Edom (descendants of Esau) for their cruelty when Jerusalem fell. &ldquo;The kingdom shall be the Lord&apos;s.&rdquo; God remembers what families do to each other.",
+    ],
+  },
   opener: {
     matchTitle: /The Prophet Obadiah/i,
     caption: 'Obadiah 1',

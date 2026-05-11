@@ -17,6 +17,12 @@ export const DANIEL_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 5 },
+
+  youth: {
+    intros: [
+      "Nebuchadnezzar has a dream he can&apos;t remember. None of the wise men can recover it. Daniel prays, God reveals the dream and its meaning: an image of gold-silver-bronze-iron representing four kingdoms, struck by a stone &ldquo;cut out without hands&rdquo; — Christ&apos;s kingdom that fills the earth.",
+    ],
+  },
   opener: {
     matchTitle: /Susannah and the Elders/i,
     caption: 'Daniel 2',

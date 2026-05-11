@@ -9,6 +9,12 @@ export const MALACHI_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "&ldquo;Behold, I will send my messenger…the messenger of the covenant.&rdquo; John the Baptist and Jesus. Then: &ldquo;Bring ye all the tithes into the storehouse…and prove me now herewith.&rdquo; The only place God invites you to test Him.",
+    ],
+  },
   opener: {
     matchTitle: /Malachi/i,
     caption: 'Malachi 3',

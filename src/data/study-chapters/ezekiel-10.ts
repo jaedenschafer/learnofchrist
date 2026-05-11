@@ -15,6 +15,12 @@ export const EZEKIEL_10: RichChapterContent = {
   chapter: 10,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 5 },
+
+  youth: {
+    intros: [
+      "The glory of the Lord departs from the temple, gradually, almost reluctantly. God leaves a place He&apos;s been pushed out of. He always gives warning.",
+    ],
+  },
   topicTags: ['judgment', 'glory', 'hope', 'second-coming'],
   opener: {
     topical: true,

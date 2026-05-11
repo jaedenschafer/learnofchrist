@@ -13,6 +13,12 @@ export const ZEPHANIAH_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "The Day of the Lord is near. God will sweep away everything from the land of Judah.",
+    ],
+  },
   topicTags: ['judgment', 'hope', 'humility', 'mercy'],
   opener: {
     topical: true,

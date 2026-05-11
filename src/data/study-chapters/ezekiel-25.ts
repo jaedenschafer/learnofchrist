@@ -18,6 +18,12 @@ export const EZEKIEL_25: RichChapterContent = {
   chapter: 25,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "Prophecies against the surrounding nations who took advantage of Israel&apos;s fall — Ammon, Moab, Edom, Philistia. God notices who kicked you when you were down.",
+    ],
+  },
   topicTags: ['judgment', 'glory', 'hope', 'second-coming'],
   opener: {
     topical: true,

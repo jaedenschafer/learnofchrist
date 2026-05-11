@@ -6,6 +6,12 @@ export const HOSEA_10: RichChapterContent = {
   chapter: 10,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "&ldquo;Sow to yourselves in righteousness, reap in mercy; break up your fallow ground: for it is time to seek the Lord.&rdquo; Plant righteousness. The harvest is mercy.",
+    ],
+  },
   topicTags: ['faithfulness', 'mercy', 'sin', 'love'],
   opener: {
     topical: true,

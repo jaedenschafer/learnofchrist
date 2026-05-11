@@ -13,6 +13,12 @@ export const HABAKKUK_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
+
+  youth: {
+    intros: [
+      "God answers: &ldquo;The just shall live by his faith.&rdquo; (Quoted three times in the New Testament — the verse Luther rediscovered to spark the Reformation.) The proud&apos;s soul is not upright; the righteous live by trust.",
+    ],
+  },
   topicTags: ['faithfulness', 'doubt', 'hope', 'sovereignty'],
   opener: {
     topical: true,

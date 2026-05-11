@@ -9,6 +9,12 @@ export const ZECHARIAH_6: RichChapterContent = {
   chapter: 6,
 
   estimatedMinutes: { beginner: 1, intermediate: 2, deep: 4 },
+
+  youth: {
+    intros: [
+      "Four chariots from between two mountains. Joshua the priest is crowned — a picture of the future King-Priest who will be both. Christ holds both offices.",
+    ],
+  },
   opener: {
     matchTitle: /Zechariah/i,
     caption: 'Zechariah 6',

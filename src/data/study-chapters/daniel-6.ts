@@ -17,6 +17,12 @@ export const DANIEL_6: RichChapterContent = {
   chapter: 6,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "Daniel, now elderly, prays three times a day with windows open toward Jerusalem. Jealous officials trick the king into outlawing prayer to anyone but him. Daniel prays anyway. Lions&apos; den. God shuts the lions&apos; mouths.",
+    ],
+  },
   opener: {
     matchTitle: /Daniel in the Lion/i,
     caption: 'Daniel 6',

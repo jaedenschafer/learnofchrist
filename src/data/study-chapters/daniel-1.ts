@@ -17,6 +17,12 @@ export const DANIEL_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+
+  youth: {
+    intros: [
+      "Daniel and three friends — Hananiah, Mishael, Azariah — are taken to Babylon as teenagers. They refuse to defile themselves with the king&apos;s rich food. They eat vegetables and drink water and end up healthier than the kids on Babylon&apos;s diet.",
+    ],
+  },
   opener: {
     matchTitle: /Daniel among the Exiles/i,
     caption: 'Daniel 1',

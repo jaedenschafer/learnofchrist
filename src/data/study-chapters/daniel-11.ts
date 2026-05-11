@@ -15,6 +15,12 @@ export const DANIEL_11: RichChapterContent = {
   chapter: 11,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "Detailed prophecy about the future kings of the north (Seleucids) and south (Ptolemies). Hundreds of years of detailed history predicted in advance. The Bible is not a book of vague predictions.",
+    ],
+  },
   topicTags: ['faithfulness', 'sovereignty', 'second-coming', 'protection'],
   opener: {
     topical: true,

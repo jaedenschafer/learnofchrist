@@ -13,6 +13,12 @@ export const ZEPHANIAH_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "After judgment, restoration. &ldquo;The Lord thy God in the midst of thee is mighty; he will save, he will rejoice over thee with joy; he will rest in his love, he will joy over thee with singing.&rdquo; God SINGS over you.",
+    ],
+  },
   opener: {
     matchTitle: /The Prophet Zephaniah/i,
     caption: 'Zephaniah 3',

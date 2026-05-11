@@ -13,6 +13,12 @@ export const MICAH_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "Woe to those who lie awake plotting how to seize land and houses. Real estate greed under judgment.",
+    ],
+  },
   topicTags: ['justice', 'judgment', 'hope', 'humility'],
   opener: {
     topical: true,

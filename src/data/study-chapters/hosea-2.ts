@@ -15,6 +15,12 @@ export const HOSEA_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 3, intermediate: 6, deep: 9 },
+
+  youth: {
+    intros: [
+      "God will allure Israel back into the wilderness and speak tenderly to her. He&apos;ll betroth her to Himself forever. Discipline is followed by remarriage.",
+    ],
+  },
   topicTags: ['faithfulness', 'mercy', 'sin', 'love'],
   opener: {
     topical: true,

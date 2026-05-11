@@ -14,6 +14,12 @@ export const EZEKIEL_35: RichChapterContent = {
   chapter: 35,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "A prophecy against Mount Seir (Edom) for their hatred of Israel. Family grudges have a long memory in heaven&apos;s court.",
+    ],
+  },
   topicTags: ['judgment', 'glory', 'hope', 'second-coming'],
   opener: {
     topical: true,

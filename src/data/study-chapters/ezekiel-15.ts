@@ -16,6 +16,12 @@ export const EZEKIEL_15: RichChapterContent = {
   chapter: 15,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "Israel is like a useless vine — only good for being burned. Sober imagery.",
+    ],
+  },
   topicTags: ['judgment', 'glory', 'hope', 'second-coming'],
   opener: {
     topical: true,

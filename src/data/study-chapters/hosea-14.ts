@@ -6,6 +6,12 @@ export const HOSEA_14: RichChapterContent = {
   chapter: 14,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 5 },
+
+  youth: {
+    intros: [
+      "The book ends with a call to return: &ldquo;Take with you words, and turn to the Lord.&rdquo; God promises: &ldquo;I will heal their backsliding, I will love them freely.&rdquo;",
+    ],
+  },
   topicTags: ['faithfulness', 'mercy', 'sin', 'love'],
   opener: {
     topical: true,

@@ -13,6 +13,12 @@ export const ZEPHANIAH_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "Seek the Lord — the meek of the earth — &ldquo;it may be ye shall be hid in the day of the Lord&apos;s anger.&rdquo;",
+    ],
+  },
   topicTags: ['judgment', 'hope', 'humility', 'mercy'],
   opener: {
     topical: true,

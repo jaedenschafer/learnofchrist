@@ -19,6 +19,12 @@ export const EZEKIEL_20: RichChapterContent = {
   chapter: 20,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 6 },
+
+  youth: {
+    intros: [
+      "A long retelling of Israel&apos;s history of rebellion since Egypt. Yet God will gather them back &ldquo;for my name&apos;s sake.&rdquo; His faithfulness is anchored in His own character, not their performance.",
+    ],
+  },
   topicTags: ['judgment', 'glory', 'hope', 'second-coming'],
   opener: {
     topical: true,

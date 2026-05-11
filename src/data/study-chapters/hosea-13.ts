@@ -6,6 +6,12 @@ export const HOSEA_13: RichChapterContent = {
   chapter: 13,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 5 },
+
+  youth: {
+    intros: [
+      "Israel is destroyed for trusting in princes and idols. &ldquo;O death, I will be thy plagues; O grave, I will be thy destruction.&rdquo; Paul quotes this in 1 Corinthians 15 about the resurrection.",
+    ],
+  },
   topicTags: ['faithfulness', 'mercy', 'sin', 'love'],
   opener: {
     topical: true,

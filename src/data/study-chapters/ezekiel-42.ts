@@ -14,6 +14,12 @@ export const EZEKIEL_42: RichChapterContent = {
   chapter: 42,
 
   estimatedMinutes: { beginner: 1, intermediate: 2, deep: 2 },
+
+  youth: {
+    intros: [
+      "The chambers around the temple. Where priests will eat the holy offerings.",
+    ],
+  },
   topicTags: ['judgment', 'glory', 'hope', 'second-coming'],
   opener: {
     topical: true,

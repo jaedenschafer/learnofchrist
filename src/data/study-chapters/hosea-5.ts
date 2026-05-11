@@ -14,6 +14,12 @@ export const HOSEA_5: RichChapterContent = {
   chapter: 5,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "Both Ephraim (north) and Judah (south) are guilty. God will tear them like a lion until they acknowledge their guilt and seek His face.",
+    ],
+  },
   topicTags: ['faithfulness', 'mercy', 'sin', 'love'],
   opener: {
     topical: true,

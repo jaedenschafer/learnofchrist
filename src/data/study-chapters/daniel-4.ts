@@ -17,6 +17,12 @@ export const DANIEL_4: RichChapterContent = {
   chapter: 4,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 6 },
+
+  youth: {
+    intros: [
+      "Nebuchadnezzar&apos;s pride. God turns him into a wild animal grazing on grass for seven years until he acknowledges that the Most High rules. The chapter is the king&apos;s own testimony.",
+    ],
+  },
   opener: {
     matchTitle: /Nebuchadnezzar/i,
     caption: 'Daniel 4',

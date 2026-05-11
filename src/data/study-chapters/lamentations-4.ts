@@ -15,6 +15,12 @@ export const LAMENTATIONS_4: RichChapterContent = {
   chapter: 4,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "The famine inside the besieged city was so severe that mothers ate their own children. The Bible doesn&apos;t flinch from naming what sin actually costs.",
+    ],
+  },
   topicTags: ['lament', 'suffering', 'hope', 'mercy'],
   opener: {
     topical: true,

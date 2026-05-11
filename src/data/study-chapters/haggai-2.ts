@@ -12,6 +12,12 @@ export const HAGGAI_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "The new temple looks small compared to Solomon&apos;s. God promises: &ldquo;The glory of this latter house shall be greater than of the former.&rdquo; Christ Himself walked in it. The glory of His presence beats the glory of any building.",
+    ],
+  },
   topicTags: ['worship', 'faithfulness', 'calling', 'hope'],
   opener: {
     topical: true,

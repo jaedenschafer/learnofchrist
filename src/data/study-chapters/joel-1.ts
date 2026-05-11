@@ -6,6 +6,12 @@ export const JOEL_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "A locust plague has wiped out everything. Joel sees in it a sign of the coming Day of the Lord. Use disasters as occasions to seek God.",
+    ],
+  },
   opener: {
     matchTitle: /Joel/i,
     caption: 'Joel 1',

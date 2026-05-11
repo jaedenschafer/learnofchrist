@@ -14,6 +14,12 @@ export const MICAH_5: RichChapterContent = {
   chapter: 5,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "&ldquo;But thou, Bethlehem Ephratah, though thou be little among the thousands of Judah, yet out of thee shall he come forth unto me that is to be ruler in Israel.&rdquo; The chief priests quoted this to Herod about the Messiah&apos;s birthplace.",
+    ],
+  },
   topicTags: ['justice', 'judgment', 'hope', 'humility'],
   opener: {
     topical: true,

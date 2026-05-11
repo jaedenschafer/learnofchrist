@@ -16,6 +16,12 @@ export const DANIEL_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 6 },
+
+  youth: {
+    intros: [
+      "A 90-foot golden statue. Bow or burn. Shadrach, Meshach, and Abednego refuse: &ldquo;Our God whom we serve is able to deliver us…but if not, be it known unto thee, O king, that we will not serve thy gods.&rdquo; Thrown into the furnace. A fourth man walks with them in the fire — &ldquo;like the Son of God.&rdquo;",
+    ],
+  },
   opener: {
     matchTitle: /Shadrach Meshach and Abednego/i,
     caption: 'Daniel 3',

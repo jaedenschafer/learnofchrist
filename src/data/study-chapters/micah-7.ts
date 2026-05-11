@@ -13,6 +13,12 @@ export const MICAH_7: RichChapterContent = {
   chapter: 7,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "A prayer of confession and hope. &ldquo;Who is a God like unto thee, that pardoneth iniquity…he delighteth in mercy.&rdquo; Mercy is His delight.",
+    ],
+  },
   topicTags: ['justice', 'judgment', 'hope', 'humility'],
   opener: {
     topical: true,

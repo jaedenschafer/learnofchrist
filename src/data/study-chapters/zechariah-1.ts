@@ -9,6 +9,12 @@ export const ZECHARIAH_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 5 },
+
+  youth: {
+    intros: [
+      "A prophet to the post-exile community. Eight night visions. The first: a man among the myrtle trees. God is angry with the nations at ease while His people suffer.",
+    ],
+  },
   opener: {
     matchTitle: /The Prophet Zechariah/i,
     caption: 'Zechariah 1',

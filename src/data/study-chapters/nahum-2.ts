@@ -12,6 +12,12 @@ export const NAHUM_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
+
+  youth: {
+    intros: [
+      "The siege of Nineveh described in advance. The empire that crushed Israel will itself be crushed.",
+    ],
+  },
   topicTags: ['judgment', 'sovereignty', 'wrath', 'protection'],
   opener: {
     topical: true,

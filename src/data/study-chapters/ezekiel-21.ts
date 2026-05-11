@@ -19,6 +19,12 @@ export const EZEKIEL_21: RichChapterContent = {
   chapter: 21,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "The sword of the Lord is sharpened. Jerusalem is in its path. Even the king will lose his crown until He comes whose right it is — a Messianic hint.",
+    ],
+  },
   topicTags: ['judgment', 'glory', 'hope', 'second-coming'],
   opener: {
     topical: true,

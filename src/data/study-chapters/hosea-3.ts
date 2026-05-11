@@ -15,6 +15,12 @@ export const HOSEA_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "God tells Hosea to BUY back his wife from her lover for the price of a slave. A picture of what God does for His people. Christ paid full price to bring you back.",
+    ],
+  },
   topicTags: ['faithfulness', 'mercy', 'sin', 'love'],
   opener: {
     topical: true,

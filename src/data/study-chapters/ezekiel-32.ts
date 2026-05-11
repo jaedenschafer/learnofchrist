@@ -15,6 +15,12 @@ export const EZEKIEL_32: RichChapterContent = {
   chapter: 32,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "A lamentation over Pharaoh. Egypt will lie among the slain in the lower parts of the earth.",
+    ],
+  },
   topicTags: ['judgment', 'glory', 'hope', 'second-coming'],
   opener: {
     topical: true,

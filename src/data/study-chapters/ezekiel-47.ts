@@ -15,6 +15,12 @@ export const EZEKIEL_47: RichChapterContent = {
   chapter: 47,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "A river flows from under the temple — small at first, then ankle-deep, knee-deep, waist-deep, then a river too deep to cross. It heals everything it touches. Revelation 22 picks up this river of life.",
+    ],
+  },
   topicTags: ['judgment', 'glory', 'hope', 'second-coming'],
   opener: {
     topical: true,

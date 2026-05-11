@@ -13,6 +13,12 @@ export const HABAKKUK_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "Habakkuk&apos;s prayer-song: &ldquo;Although the fig tree shall not blossom, neither shall fruit be in the vines…yet I will rejoice in the Lord, I will joy in the God of my salvation.&rdquo; Faith without circumstances. Memorize this passage.",
+    ],
+  },
   opener: {
     matchTitle: /The Prophet Habakkuk/i,
     caption: 'Habakkuk 3',

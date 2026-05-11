@@ -14,6 +14,12 @@ export const EZEKIEL_39: RichChapterContent = {
   chapter: 39,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "The defeat of Gog. It will take seven months to bury the dead. God&apos;s victory is final.",
+    ],
+  },
   topicTags: ['judgment', 'glory', 'hope', 'second-coming'],
   opener: {
     topical: true,

@@ -9,6 +9,12 @@ export const ZECHARIAH_7: RichChapterContent = {
   chapter: 7,
 
   estimatedMinutes: { beginner: 1, intermediate: 2, deep: 4 },
+
+  youth: {
+    intros: [
+      "The people ask if they should keep fasting now that they&apos;re back from exile. God answers: when you fasted, did you fast to me? Worship without justice is empty performance.",
+    ],
+  },
   topicTags: ['hope', 'messianic-prophecy', 'second-coming', 'kingship'],
   opener: {
     topical: true,

@@ -6,6 +6,12 @@ export const AMOS_5: RichChapterContent = {
   chapter: 5,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 4 },
+
+  youth: {
+    intros: [
+      "&ldquo;Let judgment run down as waters, and righteousness as a mighty stream.&rdquo; God isn&apos;t impressed by religious festivals while injustice runs rampant. Justice is the worship He wants.",
+    ],
+  },
   opener: {
     matchTitle: /Amos/i,
     caption: 'Amos 5',

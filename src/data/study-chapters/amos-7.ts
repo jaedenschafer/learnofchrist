@@ -6,6 +6,12 @@ export const AMOS_7: RichChapterContent = {
   chapter: 7,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "Visions of judgment. The priest Amaziah tries to silence Amos: &ldquo;Go, flee thee away into the land of Judah.&rdquo; Amos answers: I&apos;m no professional prophet — God took me from following the flock.",
+    ],
+  },
   topicTags: ['justice', 'judgment', 'righteousness', 'wrath'],
   opener: {
     topical: true,

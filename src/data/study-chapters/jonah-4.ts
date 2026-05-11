@@ -14,6 +14,12 @@ export const JONAH_4: RichChapterContent = {
   chapter: 4,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "Jonah is FURIOUS that God forgave Nineveh. He sits outside the city pouting under a vine. God grows the vine, then kills it. The book ends with God&apos;s question: shouldn&apos;t I have compassion on a great city full of people who don&apos;t know their right hand from their left? It&apos;s left unanswered.",
+    ],
+  },
   topicTags: ['mercy', 'repentance', 'calling', 'compassion'],
   opener: {
     topical: true,

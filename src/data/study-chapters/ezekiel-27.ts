@@ -19,6 +19,12 @@ export const EZEKIEL_27: RichChapterContent = {
   chapter: 27,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "A funeral song for Tyre — listing her trade partners, her riches, her ships. All of it sinks into the sea.",
+    ],
+  },
   topicTags: ['judgment', 'glory', 'hope', 'second-coming'],
   opener: {
     topical: true,

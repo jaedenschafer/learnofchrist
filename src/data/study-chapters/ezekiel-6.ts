@@ -15,6 +15,12 @@ export const EZEKIEL_6: RichChapterContent = {
   chapter: 6,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "A prophecy against the mountains of Israel — the high places where idols were worshipped. They will be thrown down with their altars.",
+    ],
+  },
   topicTags: ['judgment', 'glory', 'hope', 'second-coming'],
   opener: {
     topical: true,

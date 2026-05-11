@@ -15,6 +15,12 @@ export const EZEKIEL_9: RichChapterContent = {
   chapter: 9,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "A man with a writer&apos;s inkhorn marks the foreheads of those who grieve over the abominations. Then the executioners pass through and kill those without the mark. God knows His own.",
+    ],
+  },
   topicTags: ['judgment', 'glory', 'hope', 'second-coming'],
   opener: {
     topical: true,

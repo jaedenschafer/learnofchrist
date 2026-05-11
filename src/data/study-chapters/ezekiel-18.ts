@@ -18,6 +18,12 @@ export const EZEKIEL_18: RichChapterContent = {
   chapter: 18,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 6 },
+
+  youth: {
+    intros: [
+      "The soul that sins, it shall die. The son shall not bear the iniquity of the father, nor the father the son. Each person stands before God for their own choices.",
+    ],
+  },
   topicTags: ['judgment', 'glory', 'hope', 'second-coming'],
   opener: {
     topical: true,

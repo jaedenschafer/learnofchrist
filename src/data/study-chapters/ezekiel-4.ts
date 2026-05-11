@@ -15,6 +15,12 @@ export const EZEKIEL_4: RichChapterContent = {
   chapter: 4,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "Ezekiel is told to lie on his side for 390 days, then 40 days, as a sign of Israel&apos;s coming siege. The prophet&apos;s body becomes the sermon.",
+    ],
+  },
   topicTags: ['judgment', 'glory', 'hope', 'second-coming'],
   opener: {
     topical: true,

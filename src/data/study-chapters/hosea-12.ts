@@ -6,6 +6,12 @@ export const HOSEA_12: RichChapterContent = {
   chapter: 12,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "Israel&apos;s history of struggle — Jacob wrestling at Peniel. The same struggle continues. God still wrestles with His people to bless them.",
+    ],
+  },
   topicTags: ['faithfulness', 'mercy', 'sin', 'love'],
   opener: {
     topical: true,

@@ -13,6 +13,12 @@ export const JONAH_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "Inside the fish, Jonah prays. &ldquo;I cried by reason of mine affliction unto the Lord, and he heard me.&rdquo; Jesus quotes this story as a sign of His own three days in the grave.",
+    ],
+  },
   opener: {
     matchTitle: /Jonah Is Spewed Forth/i,
     caption: 'Jonah 2',

@@ -6,6 +6,12 @@ export const HOSEA_8: RichChapterContent = {
   chapter: 8,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "Israel sows the wind; she will reap the whirlwind. Casual sin produces catastrophic consequences.",
+    ],
+  },
   topicTags: ['faithfulness', 'mercy', 'sin', 'love'],
   opener: {
     topical: true,

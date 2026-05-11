@@ -15,6 +15,12 @@ export const DANIEL_8: RichChapterContent = {
   chapter: 8,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "A vision of a ram and a goat — Persia and Greece. A little horn (Antiochus Epiphanes) will desecrate the temple. The vision foreshadows a greater desecration in the last days.",
+    ],
+  },
   topicTags: ['faithfulness', 'sovereignty', 'second-coming', 'protection'],
   opener: {
     topical: true,

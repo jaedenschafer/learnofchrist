@@ -15,6 +15,12 @@ export const LAMENTATIONS_5: RichChapterContent = {
   chapter: 5,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+
+  youth: {
+    intros: [
+      "A closing prayer: &ldquo;Turn thou us unto thee, O Lord, and we shall be turned; renew our days as of old.&rdquo; Even after total loss, the prayer for restoration is honest.",
+    ],
+  },
   topicTags: ['lament', 'suffering', 'hope', 'mercy'],
   opener: {
     topical: true,

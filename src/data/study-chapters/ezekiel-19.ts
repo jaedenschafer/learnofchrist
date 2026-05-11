@@ -18,6 +18,12 @@ export const EZEKIEL_19: RichChapterContent = {
   chapter: 19,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "A lament for the princes of Israel — pictured as lions trapped and led to Babylon. The royal line is being humbled.",
+    ],
+  },
   topicTags: ['judgment', 'glory', 'hope', 'second-coming'],
   opener: {
     topical: true,

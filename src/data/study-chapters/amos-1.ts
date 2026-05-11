@@ -6,6 +6,12 @@ export const AMOS_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
+
+  youth: {
+    intros: [
+      "A shepherd from Tekoa speaks against the surrounding nations — Damascus, Gaza, Tyre, Edom, Ammon. &ldquo;For three transgressions…and for four, I will not turn away the punishment.&rdquo;",
+    ],
+  },
   opener: {
     matchTitle: /The Prophet Amos/i,
     caption: 'Amos 1',

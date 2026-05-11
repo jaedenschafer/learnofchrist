@@ -16,6 +16,12 @@ export const DANIEL_5: RichChapterContent = {
   chapter: 5,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 6 },
+
+  youth: {
+    intros: [
+      "Belshazzar throws a drunken feast using the temple vessels. A hand appears and writes on the wall: MENE, MENE, TEKEL, UPHARSIN. Daniel interprets: God has numbered your kingdom; you&apos;re weighed and found wanting; your kingdom is divided. That night Belshazzar dies.",
+    ],
+  },
   opener: {
     matchTitle: /Daniel Interprets the Writing/i,
     caption: 'Daniel 5',
