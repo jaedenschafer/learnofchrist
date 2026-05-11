@@ -14,6 +14,13 @@ export const JOB_38: RichChapterContent = {
   chapter: 38,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+
+  youth: {
+    intros: [
+      "God answers Job out of the whirlwind: &ldquo;Where wast thou when I laid the foundations of the earth?&rdquo; Then a tour through creation — sea, stars, animals, weather. God doesn&apos;t answer Job&apos;s question. He shows up.",
+      "Sometimes the answer to suffering isn&apos;t an explanation. It&apos;s the Person. God&apos;s presence is bigger than any answer.",
+    ],
+  },
   opener: {
     matchTitle: /The Lord Answering Job/i,
     caption: 'Job 38',

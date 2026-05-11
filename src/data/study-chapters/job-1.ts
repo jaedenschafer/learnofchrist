@@ -21,6 +21,13 @@ export const JOB_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 7, intermediate: 15, deep: 20 },
+
+  youth: {
+    intros: [
+      "Job is the wealthiest, most upright man in the East. Satan stands before God and challenges: take it all away, and Job will curse you. God allows Satan to test him. In a single day Job loses his children, his livestock, his servants. He worships: &ldquo;The Lord gave, and the Lord hath taken away; blessed be the name of the Lord.&rdquo;",
+      "The worst day of Job&apos;s life starts with a conversation he never heard. Some of your suffering has unseen reasons. Worship anyway.",
+    ],
+  },
   opener: {
     matchTitle: /Job/i,
     caption: 'Job 1',

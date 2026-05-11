@@ -18,6 +18,13 @@ export const JOB_9: RichChapterContent = {
   chapter: 9,
 
   estimatedMinutes: { beginner: 2, intermediate: 8, deep: 10 },
+
+  youth: {
+    intros: [
+      "Job knows he can&apos;t argue his case before God — God is too holy, too powerful, too wise. &ldquo;Neither is there any daysman betwixt us, that might lay his hand upon us both.&rdquo; Job longs for a mediator.",
+      "Centuries later, that mediator arrives. Jesus stands between you and God with one hand on each. Job&apos;s longing is your reality.",
+    ],
+  },
   topicTags: ['suffering', 'hope', 'sovereignty', 'lament'],
   opener: {
     topical: true,

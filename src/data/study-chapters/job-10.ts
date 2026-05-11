@@ -19,6 +19,13 @@ export const JOB_10: RichChapterContent = {
   chapter: 10,
 
   estimatedMinutes: { beginner: 2, intermediate: 7, deep: 9 },
+
+  youth: {
+    intros: [
+      "Job pleads with God: tell me what I&apos;m on trial for. He still trusts God enough to address Him directly even in his confusion.",
+      "Confused honesty in prayer is better than performed certainty. Tell God what you don&apos;t understand. He can take it.",
+    ],
+  },
   topicTags: ['suffering', 'hope', 'sovereignty', 'lament'],
   opener: {
     topical: true,

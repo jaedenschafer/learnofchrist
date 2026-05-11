@@ -14,6 +14,13 @@ export const JOB_33: RichChapterContent = {
   chapter: 33,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 7 },
+
+  youth: {
+    intros: [
+      "Elihu addresses Job directly: God speaks in dreams, in pain, through His messengers. Suffering can be God speaking to draw a person back from the pit.",
+      "Sometimes God&apos;s loudest voice in your life is your pain. Don&apos;t mute it. Listen for what He&apos;s saying through it.",
+    ],
+  },
   topicTags: ['suffering', 'hope', 'sovereignty', 'lament'],
   opener: {
     topical: true,

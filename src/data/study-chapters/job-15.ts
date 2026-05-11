@@ -18,6 +18,13 @@ export const JOB_15: RichChapterContent = {
   chapter: 15,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+
+  youth: {
+    intros: [
+      "Round two of speeches. Eliphaz comes back angrier. Accuses Job of casting off the fear of God by his complaints.",
+      "When listeners run out of arguments, they often switch to attacking your character. Don&apos;t mistake that for actual rebuttal.",
+    ],
+  },
   topicTags: ['suffering', 'hope', 'sovereignty', 'lament'],
   opener: {
     topical: true,

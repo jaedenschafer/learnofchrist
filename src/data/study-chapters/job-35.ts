@@ -14,6 +14,13 @@ export const JOB_35: RichChapterContent = {
   chapter: 35,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 6 },
+
+  youth: {
+    intros: [
+      "Elihu argues that God isn&apos;t reduced by your sin or enriched by your righteousness. Your behavior matters, but it doesn&apos;t change God.",
+      "God isn&apos;t insecure about you. He doesn&apos;t need your obedience to feel good. He commands it because it&apos;s good for you, not Him.",
+    ],
+  },
   topicTags: ['suffering', 'hope', 'sovereignty', 'lament'],
   opener: {
     topical: true,

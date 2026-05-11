@@ -20,6 +20,13 @@ export const JOB_6: RichChapterContent = {
   chapter: 6,
 
   estimatedMinutes: { beginner: 4, intermediate: 11, deep: 14 },
+
+  youth: {
+    intros: [
+      "Job answers: my anguish is heavier than the sand of the sea. He doesn&apos;t deny suffering — he names it. Then accuses his friends: you&apos;re like a stream that runs dry in summer when travelers come needing water.",
+      "Don&apos;t be the friend who disappears when someone actually needs you. Reliability in someone&apos;s worst week is everything.",
+    ],
+  },
   topicTags: ['suffering', 'hope', 'sovereignty', 'lament'],
   opener: {
     topical: true,

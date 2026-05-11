@@ -18,6 +18,13 @@ export const JOB_8: RichChapterContent = {
   chapter: 8,
 
   estimatedMinutes: { beginner: 2, intermediate: 6, deep: 8 },
+
+  youth: {
+    intros: [
+      "Bildad takes his turn. Doubles down on Eliphaz: your kids must have sinned, that&apos;s why they died. If you&apos;re truly innocent, God will restore you. Cold comfort.",
+      "Don&apos;t weaponize theology against grieving people. Bildad was technically orthodox and pastorally cruel.",
+    ],
+  },
   topicTags: ['suffering', 'hope', 'sovereignty', 'lament'],
   opener: {
     topical: true,

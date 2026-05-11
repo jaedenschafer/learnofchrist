@@ -18,6 +18,13 @@ export const JOB_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 4, intermediate: 9, deep: 13 },
+
+  youth: {
+    intros: [
+      "Job finally breaks the silence — and what comes out is despair. He curses the day he was born. Wishes he&apos;d died as a baby. Asks why God lets people suffer who long for death.",
+      "Faith doesn&apos;t mean you don&apos;t scream. The Bible records Job&apos;s rawest words without softening them. God can handle your worst day&apos;s honesty.",
+    ],
+  },
   opener: {
     matchTitle: /Job/i,
     caption: 'Job 3',

@@ -19,6 +19,13 @@ export const JOB_16: RichChapterContent = {
   chapter: 16,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+
+  youth: {
+    intros: [
+      "Job answers: &ldquo;Miserable comforters are ye all.&rdquo; Then says: &ldquo;My witness is in heaven, and my record is on high.&rdquo; Even when nobody on earth defends him, somebody in heaven knows.",
+      "When everyone around you misjudges you, your record is in heaven. Don&apos;t live for the human verdict.",
+    ],
+  },
   topicTags: ['suffering', 'hope', 'sovereignty', 'lament'],
   opener: {
     topical: true,

@@ -14,6 +14,13 @@ export const JOB_34: RichChapterContent = {
   chapter: 34,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+
+  youth: {
+    intros: [
+      "Elihu defends God&apos;s justice. God doesn&apos;t pervert justice. He sees everything. He doesn&apos;t need to consult anyone.",
+      "When you&apos;re tempted to accuse God of unfairness, slow down. The charge usually says more about your limited view than about God&apos;s integrity.",
+    ],
+  },
   topicTags: ['suffering', 'hope', 'sovereignty', 'lament'],
   opener: {
     topical: true,

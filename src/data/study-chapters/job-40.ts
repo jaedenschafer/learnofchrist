@@ -15,6 +15,13 @@ export const JOB_40: RichChapterContent = {
   chapter: 40,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 6 },
+
+  youth: {
+    intros: [
+      "Job answers humbly: &ldquo;Behold, I am vile; what shall I answer thee? I will lay mine hand upon my mouth.&rdquo; God isn&apos;t done. He describes Behemoth — a massive creature only God can handle.",
+      "There are things only God can handle. You don&apos;t need to fix everything. Lay your hand on your mouth and let Him be God.",
+    ],
+  },
   opener: {
     matchTitle: /Behemoth and Leviathan/i,
     caption: 'Job 40',

@@ -22,6 +22,13 @@ export const JOB_7: RichChapterContent = {
   chapter: 7,
 
   estimatedMinutes: { beginner: 4, intermediate: 10, deep: 14 },
+
+  youth: {
+    intros: [
+      "Job complains directly to God. &ldquo;Wherefore hast thou set me as a mark against thee, so that I am a burden to myself?&rdquo; He doesn&apos;t curse God. He WRESTLES with God.",
+      "Wrestling with God is not the same as cursing Him. Job 7 is in your Bible because honest wrestling is allowed.",
+    ],
+  },
   opener: {
     matchTitle: /Job/i,
     caption: 'Job 7',

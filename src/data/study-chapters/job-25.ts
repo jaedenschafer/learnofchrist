@@ -20,6 +20,13 @@ export const JOB_25: RichChapterContent = {
   chapter: 25,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
+
+  youth: {
+    intros: [
+      "Bildad&apos;s final, short speech. He&apos;s essentially out of arguments. Just repeats: how can man be righteous before God?",
+      "When critics stop engaging your actual case and just keep repeating their thesis, you&apos;ve usually won the argument. Stay calm.",
+    ],
+  },
   topicTags: ['suffering', 'hope', 'sovereignty', 'lament'],
   opener: {
     topical: true,

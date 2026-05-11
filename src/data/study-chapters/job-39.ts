@@ -14,6 +14,13 @@ export const JOB_39: RichChapterContent = {
   chapter: 39,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 8 },
+
+  youth: {
+    intros: [
+      "More creation tour — wild donkeys, ostriches, war horses, eagles. God reminds Job there&apos;s a vast universe Job knows nothing about.",
+      "You&apos;re smaller than you think. God is bigger than you can imagine. Both of those are good news.",
+    ],
+  },
   topicTags: ['suffering', 'hope', 'sovereignty', 'lament'],
   opener: {
     topical: true,

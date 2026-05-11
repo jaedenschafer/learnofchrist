@@ -19,6 +19,13 @@ export const JOB_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 3, intermediate: 12, deep: 15 },
+
+  youth: {
+    intros: [
+      "Round two. Satan strikes Job with painful boils head to foot. Job sits in ashes scraping himself with broken pottery. His wife says: &ldquo;Curse God, and die.&rdquo; Job answers: &ldquo;Shall we receive good at the hand of God, and shall we not receive evil?&rdquo;",
+      "Three friends arrive — Eliphaz, Bildad, Zophar — and sit with Job in silence for seven days. Sometimes the holiest thing you can do for a friend in pain is shut up and sit down.",
+    ],
+  },
   opener: {
     matchTitle: /Job and His Friends/i,
     caption: 'Job 2',

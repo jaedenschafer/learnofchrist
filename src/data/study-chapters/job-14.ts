@@ -19,6 +19,13 @@ export const JOB_14: RichChapterContent = {
   chapter: 14,
 
   estimatedMinutes: { beginner: 2, intermediate: 6, deep: 7 },
+
+  youth: {
+    intros: [
+      "Job laments how short and painful human life is. Asks the question every grieving person asks: &ldquo;If a man die, shall he live again?&rdquo;",
+      "Job didn&apos;t have the resurrection of Jesus to look back on. We do. The answer to his question is YES.",
+    ],
+  },
   opener: {
     topical: true,
     caption: 'Job 14',

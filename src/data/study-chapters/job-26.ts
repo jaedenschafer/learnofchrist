@@ -21,6 +21,13 @@ export const JOB_26: RichChapterContent = {
   chapter: 26,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 6 },
+
+  youth: {
+    intros: [
+      "Job ends the friends&apos; debate cycle with a soaring meditation on God&apos;s power. &ldquo;Lo, these are parts of his ways: but how little a portion is heard of him?&rdquo;",
+      "Even at his lowest, Job still magnifies God. Don&apos;t shrink God to fit your circumstances.",
+    ],
+  },
   topicTags: ['suffering', 'hope', 'sovereignty', 'lament'],
   opener: {
     topical: true,

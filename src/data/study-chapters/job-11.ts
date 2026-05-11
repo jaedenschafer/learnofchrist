@@ -18,6 +18,13 @@ export const JOB_11: RichChapterContent = {
   chapter: 11,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 6 },
+
+  youth: {
+    intros: [
+      "Zophar speaks third — and harshest. Calls Job a fool, says God is going easy on him compared to what he deserves. Tells him to repent.",
+      "Some of your &ldquo;friends&rdquo; will get harsher in the second round of comforting. That&apos;s a sign they&apos;ve stopped listening and started lecturing.",
+    ],
+  },
   opener: {
     matchTitle: /Job Rebuked by His/i,
     caption: 'Job 11',

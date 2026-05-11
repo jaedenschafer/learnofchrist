@@ -19,6 +19,13 @@ export const JOB_21: RichChapterContent = {
   chapter: 21,
 
   estimatedMinutes: { beginner: 3, intermediate: 7, deep: 11 },
+
+  youth: {
+    intros: [
+      "Job answers Zophar with the obvious counterexample: many wicked people DO prosper their whole lives. The friends&apos; theology doesn&apos;t match reality.",
+      "Don&apos;t cling to a worldview that doesn&apos;t survive contact with the actual world. The honest observation can lead you closer to truth than the comfortable theory.",
+    ],
+  },
   topicTags: ['suffering', 'hope', 'sovereignty', 'lament'],
   opener: {
     topical: true,

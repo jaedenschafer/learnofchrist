@@ -20,6 +20,13 @@ export const JOB_5: RichChapterContent = {
   chapter: 5,
 
   estimatedMinutes: { beginner: 4, intermediate: 11, deep: 16 },
+
+  youth: {
+    intros: [
+      "Eliphaz keeps going. Calls Job to repent. Promises God will restore him if he just confesses. Surface-level true. Deeply wrong as a diagnosis here.",
+      "Don&apos;t prescribe formulas to people in pain. The friend who needs you doesn&apos;t need a checklist. They need presence.",
+    ],
+  },
   topicTags: ['suffering', 'hope', 'sovereignty', 'lament'],
   opener: {
     topical: true,

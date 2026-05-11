@@ -19,6 +19,13 @@ export const JOB_13: RichChapterContent = {
   chapter: 13,
 
   estimatedMinutes: { beginner: 1, intermediate: 5, deep: 7 },
+
+  youth: {
+    intros: [
+      "Job tells his friends to shut up: &ldquo;Oh that ye would altogether hold your peace! and it should be your wisdom.&rdquo; Then declares: &ldquo;Though he slay me, yet will I trust in him.&rdquo;",
+      "Trust that survives suffering is the truest kind. Faith that&apos;s never been tested isn&apos;t faith yet.",
+    ],
+  },
   topicTags: ['suffering', 'hope', 'sovereignty', 'lament'],
   opener: {
     topical: true,

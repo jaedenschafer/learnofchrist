@@ -19,6 +19,13 @@ export const JOB_20: RichChapterContent = {
   chapter: 20,
 
   estimatedMinutes: { beginner: 3, intermediate: 6, deep: 9 },
+
+  youth: {
+    intros: [
+      "Zophar: the wicked may flourish briefly but will be destroyed. (Still implying Job deserves it.) The friends are stuck in their loop.",
+      "Bad theology resists being corrected. When somebody&apos;s in a loop, sometimes the only thing to do is stop debating and let God answer.",
+    ],
+  },
   topicTags: ['suffering', 'hope', 'sovereignty', 'lament'],
   opener: {
     topical: true,

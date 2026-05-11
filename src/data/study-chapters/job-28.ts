@@ -15,6 +15,13 @@ export const JOB_28: RichChapterContent = {
   chapter: 28,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 7 },
+
+  youth: {
+    intros: [
+      "A poem about wisdom. Humans can mine the depths for gold and silver — but where is wisdom found? &ldquo;The fear of the Lord, that is wisdom; and to depart from evil is understanding.&rdquo;",
+      "All the smartest STEM in the world doesn&apos;t equal wisdom. Wisdom starts with the fear of the Lord. Always has.",
+    ],
+  },
   topicTags: ['suffering', 'hope', 'sovereignty', 'lament'],
   opener: {
     topical: true,

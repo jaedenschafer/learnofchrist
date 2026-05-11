@@ -14,6 +14,13 @@ export const JOB_36: RichChapterContent = {
   chapter: 36,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 6 },
+
+  youth: {
+    intros: [
+      "Elihu keeps going. Names God&apos;s greatness in nature. Argues that suffering is often God&apos;s way of opening ears.",
+      "&ldquo;Behold, God is great, and we know him not.&rdquo; The chapter ends in awe. Don&apos;t lose awe in the middle of suffering.",
+    ],
+  },
   topicTags: ['suffering', 'hope', 'sovereignty', 'lament'],
   opener: {
     topical: true,

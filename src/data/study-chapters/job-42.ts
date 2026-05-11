@@ -15,6 +15,13 @@ export const JOB_42: RichChapterContent = {
   chapter: 42,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+
+  youth: {
+    intros: [
+      "Job repents: &ldquo;I have heard of thee by the hearing of the ear: but now mine eye seeth thee.&rdquo; God restores Job&apos;s family and gives him double of everything he lost. The friends have to ask Job to pray for THEM — God only accepts the prayer of the man they wronged.",
+      "Most people know God second-hand. Job met Him face-to-face in the storm of his life. Suffering can become the doorway to seeing God. So can His mercy on the other side.",
+    ],
+  },
   opener: {
     matchTitle: /Job/i,
     caption: 'Job 42',

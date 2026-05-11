@@ -18,6 +18,13 @@ export const JOB_12: RichChapterContent = {
   chapter: 12,
 
   estimatedMinutes: { beginner: 1, intermediate: 5, deep: 7 },
+
+  youth: {
+    intros: [
+      "Job answers all three: &ldquo;No doubt but ye are the people, and wisdom shall die with you.&rdquo; (That&apos;s sarcasm.) Then a long meditation on God&apos;s wisdom and power — He alone holds creation together.",
+      "Sometimes the right response to bad theology is to back up and worship the actual God. Job doesn&apos;t reduce God. He magnifies Him in front of friends who shrunk Him.",
+    ],
+  },
   topicTags: ['suffering', 'hope', 'sovereignty', 'lament'],
   opener: {
     topical: true,

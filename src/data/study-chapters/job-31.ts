@@ -14,6 +14,13 @@ export const JOB_31: RichChapterContent = {
   chapter: 31,
 
   estimatedMinutes: { beginner: 2, intermediate: 6, deep: 8 },
+
+  youth: {
+    intros: [
+      "Job&apos;s final defense — a long oath about everything he didn&apos;t do. He didn&apos;t lust, didn&apos;t lie, didn&apos;t exploit servants, didn&apos;t trust in wealth, didn&apos;t rejoice when his enemies fell.",
+      "What kind of life can you swear that to? Job sets a high bar. The grace of Christ doesn&apos;t lower the bar — it lets His record become yours.",
+    ],
+  },
   topicTags: ['suffering', 'hope', 'sovereignty', 'lament'],
   opener: {
     topical: true,

@@ -20,6 +20,13 @@ export const JOB_27: RichChapterContent = {
   chapter: 27,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 6 },
+
+  youth: {
+    intros: [
+      "Job swears his integrity. Refuses to confess sin he didn&apos;t commit just to please his friends.",
+      "Don&apos;t fake a confession to keep peace. Keep your integrity even when it costs you the room&apos;s approval.",
+    ],
+  },
   topicTags: ['suffering', 'hope', 'sovereignty', 'lament'],
   opener: {
     topical: true,

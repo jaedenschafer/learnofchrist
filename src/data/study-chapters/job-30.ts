@@ -14,6 +14,13 @@ export const JOB_30: RichChapterContent = {
   chapter: 30,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+
+  youth: {
+    intros: [
+      "Now the present: the same people who once respected him now mock him. Even the lowest scum spit at him. He&apos;s become a sideshow.",
+      "Public opinion is fickle. The crowd that praised you in your prosperity will mock you in your collapse. Don&apos;t live for the crowd.",
+    ],
+  },
   topicTags: ['suffering', 'hope', 'sovereignty', 'lament'],
   opener: {
     topical: true,

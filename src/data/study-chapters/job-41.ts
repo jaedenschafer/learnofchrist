@@ -14,6 +14,13 @@ export const JOB_41: RichChapterContent = {
   chapter: 41,
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
+
+  youth: {
+    intros: [
+      "God describes Leviathan — a sea monster nobody can tame. The whole chapter is one extended &ldquo;you can&apos;t even touch this creature, much less argue with the One who made it.&rdquo;",
+      "Whatever&apos;s untamable in your life — God made it and can handle it. Stop trying to tame your own Leviathans. Bring them to Him.",
+    ],
+  },
   topicTags: ['suffering', 'hope', 'sovereignty', 'lament'],
   opener: {
     topical: true,

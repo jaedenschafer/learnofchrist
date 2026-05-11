@@ -19,6 +19,13 @@ export const JOB_23: RichChapterContent = {
   chapter: 23,
 
   estimatedMinutes: { beginner: 3, intermediate: 6, deep: 9 },
+
+  youth: {
+    intros: [
+      "Job longs to find God to plead his case. &ldquo;Behold, I go forward, but he is not there; and backward, but I cannot perceive him.&rdquo; Yet: &ldquo;He knoweth the way that I take: when he hath tried me, I shall come forth as gold.&rdquo;",
+      "When God feels absent, He&apos;s still working you into gold. The fire is the refining, not the destruction.",
+    ],
+  },
   topicTags: ['suffering', 'hope', 'sovereignty', 'lament'],
   opener: {
     topical: true,

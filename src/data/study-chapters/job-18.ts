@@ -18,6 +18,13 @@ export const JOB_18: RichChapterContent = {
   chapter: 18,
 
   estimatedMinutes: { beginner: 3, intermediate: 6, deep: 9 },
+
+  youth: {
+    intros: [
+      "Bildad describes the fate of the wicked in graphic detail — clearly aimed at Job. The implication: you&apos;re the wicked man we&apos;re describing.",
+      "Bullies in spiritual clothing love general truths they can apply specifically to wound. Don&apos;t do that. Don&apos;t accept it from others either.",
+    ],
+  },
   topicTags: ['suffering', 'hope', 'sovereignty', 'lament'],
   opener: {
     topical: true,

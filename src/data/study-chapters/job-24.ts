@@ -20,6 +20,13 @@ export const JOB_24: RichChapterContent = {
   chapter: 24,
 
   estimatedMinutes: { beginner: 3, intermediate: 5, deep: 7 },
+
+  youth: {
+    intros: [
+      "Job rages against the injustice he sees in the world. The wicked oppress the poor and seem to get away with it.",
+      "Don&apos;t let &ldquo;God is in control&rdquo; numb you to actual injustice. Job, the most patient man in Scripture, was furious about it. So can you be.",
+    ],
+  },
   topicTags: ['suffering', 'hope', 'sovereignty', 'lament'],
   opener: {
     topical: true,

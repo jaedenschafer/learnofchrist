@@ -14,6 +14,13 @@ export const JOB_37: RichChapterContent = {
   chapter: 37,
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 5 },
+
+  youth: {
+    intros: [
+      "Elihu describes the storms gathering — thunder, lightning, snow. As Elihu speaks, you can feel God Himself starting to arrive in the storm.",
+      "Sometimes God&apos;s answer comes in a way that makes the smaller voices stop talking. Get quiet when the storm shows up.",
+    ],
+  },
   topicTags: ['suffering', 'hope', 'sovereignty', 'lament'],
   opener: {
     topical: true,

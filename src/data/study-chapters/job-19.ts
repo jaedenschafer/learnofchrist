@@ -19,6 +19,13 @@ export const JOB_19: RichChapterContent = {
   chapter: 19,
 
   estimatedMinutes: { beginner: 4, intermediate: 9, deep: 12 },
+
+  youth: {
+    intros: [
+      "Job&apos;s most famous declaration: &ldquo;I know that my redeemer liveth, and that he shall stand at the latter day upon the earth: and though after my skin worms destroy this body, yet in my flesh shall I see God.&rdquo;",
+      "In the middle of unimaginable loss, Job sees Jesus across the centuries. Bodily resurrection. Personal vindication. He held on to it without ever reading the New Testament. So can you.",
+    ],
+  },
   topicTags: ['suffering', 'hope', 'sovereignty', 'lament'],
   opener: {
     topical: true,

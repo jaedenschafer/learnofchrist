@@ -19,6 +19,13 @@ export const JOB_22: RichChapterContent = {
   chapter: 22,
 
   estimatedMinutes: { beginner: 3, intermediate: 6, deep: 9 },
+
+  youth: {
+    intros: [
+      "Eliphaz, third round, makes up specific sins to accuse Job of. He&apos;s now manufacturing evidence to support his theory.",
+      "When people are committed to thinking the worst of you, they&apos;ll invent material. Stay quiet. God knows.",
+    ],
+  },
   topicTags: ['suffering', 'hope', 'sovereignty', 'lament'],
   opener: {
     topical: true,

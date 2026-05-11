@@ -14,6 +14,13 @@ export const JOB_32: RichChapterContent = {
   chapter: 32,
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 6 },
+
+  youth: {
+    intros: [
+      "A young man named Elihu has been listening this whole time. Now he speaks. He&apos;s angry at the three friends for failing to answer Job and angry at Job for justifying himself rather than God.",
+      "Sometimes the youngest voice in the room has the clearest perspective. Older isn&apos;t always wiser. Listen to the kid who&apos;s been quietly thinking.",
+    ],
+  },
   opener: {
     matchTitle: /The Wrath of Elihu/i,
     caption: 'Job 32',

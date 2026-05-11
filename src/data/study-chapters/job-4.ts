@@ -19,6 +19,13 @@ export const JOB_4: RichChapterContent = {
   chapter: 4,
 
   estimatedMinutes: { beginner: 3, intermediate: 9, deep: 12 },
+
+  youth: {
+    intros: [
+      "Eliphaz speaks first. His basic thesis: good people prosper, bad people suffer. So if you&apos;re suffering, Job, you must have done something. He even claims a vision backs him up.",
+      "Bad theology often arrives wrapped in spiritual language. Pat answers like &ldquo;you&apos;re suffering because you sinned&rdquo; aren&apos;t always wrong. They&apos;re also not always right.",
+    ],
+  },
   opener: {
     matchTitle: /The Vision of Eliphaz/i,
     caption: 'Job 4',

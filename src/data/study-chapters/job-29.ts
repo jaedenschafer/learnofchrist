@@ -14,6 +14,13 @@ export const JOB_29: RichChapterContent = {
   chapter: 29,
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 6 },
+
+  youth: {
+    intros: [
+      "Job remembers the good days — when he had honor, family, the respect of the city. The contrast with his current ash heap is brutal.",
+      "Don&apos;t romanticize the past in a way that denies the present. But also don&apos;t deny that good days were real. Both can be true.",
+    ],
+  },
   topicTags: ['suffering', 'hope', 'sovereignty', 'lament'],
   opener: {
     topical: true,

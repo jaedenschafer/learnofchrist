@@ -19,6 +19,13 @@ export const JOB_17: RichChapterContent = {
   chapter: 17,
 
   estimatedMinutes: { beginner: 2, intermediate: 6, deep: 7 },
+
+  youth: {
+    intros: [
+      "Job&apos;s spirit is broken. He says his only hope now is the grave. Yet he still appeals to God to be his guarantor.",
+      "Even your last shred of faith is real faith. God doesn&apos;t require enthusiasm. Just don&apos;t let go.",
+    ],
+  },
   topicTags: ['suffering', 'hope', 'sovereignty', 'lament'],
   opener: {
     topical: true,
