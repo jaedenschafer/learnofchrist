@@ -19,6 +19,13 @@ export const CHRONICLES_1_14: RichChapterContent = {
   chapter: 14,
 
   estimatedMinutes: { beginner: 5, intermediate: 10, deep: 15 },
+
+  youth: {
+    intros: [
+      "David builds his house. Has more children. Defeats the Philistines twice — once by direct assault (God&apos;s strategy), once by waiting for the sound of marching in the trees (God&apos;s second strategy).",
+      "Same enemy, two different plans. Don&apos;t assume what worked last time will work this time. Ask God for fresh strategy each fight.",
+    ],
+  },
   topicTags: ['kingship', 'worship', 'covenant', 'faithfulness'],
   opener: {
     topical: true,

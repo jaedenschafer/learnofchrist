@@ -18,6 +18,13 @@ export const CHRONICLES_1_13: RichChapterContent = {
   chapter: 13,
 
   estimatedMinutes: { beginner: 5, intermediate: 10, deep: 14 },
+
+  youth: {
+    intros: [
+      "David tries to bring the ark to Jerusalem on a new cart. Uzzah touches it to steady it and dies on the spot. David is angry, then afraid, and leaves the ark at Obed-edom&apos;s house — where it brings blessing.",
+      "Good intentions don&apos;t override God&apos;s instructions. Read the manual before you transport the holy. The same ark that killed in Uzzah&apos;s hand blessed in Obed-edom&apos;s house. Approach matters.",
+    ],
+  },
   topicTags: ['kingship', 'worship', 'covenant', 'faithfulness'],
   opener: {
     topical: true,

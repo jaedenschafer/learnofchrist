@@ -20,6 +20,13 @@ export const CHRONICLES_1_29: RichChapterContent = {
   chapter: 29,
 
   estimatedMinutes: { beginner: 6, intermediate: 14, deep: 19 },
+
+  youth: {
+    intros: [
+      "David asks the people to give freely for the temple. They respond overwhelmingly. David prays one of the most beautiful prayers in Scripture: &ldquo;All things come of thee, and of thine own have we given thee.&rdquo;",
+      "Whatever you give to God, you&apos;re giving Him back what He gave you first. Generosity is just acknowledgment of where it all came from.",
+    ],
+  },
   topicTags: ['kingship', 'worship', 'covenant', 'faithfulness'],
   opener: {
     topical: true,

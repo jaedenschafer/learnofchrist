@@ -21,6 +21,13 @@ export const CHRONICLES_1_24: RichChapterContent = {
   chapter: 24,
 
   estimatedMinutes: { beginner: 5, intermediate: 8, deep: 12 },
+
+  youth: {
+    intros: [
+      "Aaron&apos;s descendants are divided into 24 priestly courses, each with their assigned weeks of temple service. Zechariah, John the Baptist&apos;s father, served in the eighth course (Luke 1).",
+      "Even your assigned schedule of serving God can become the moment your story turns. Show up to your shift. The angel might come this week.",
+    ],
+  },
   topicTags: ['kingship', 'worship', 'covenant', 'faithfulness'],
   opener: {
     topical: true,

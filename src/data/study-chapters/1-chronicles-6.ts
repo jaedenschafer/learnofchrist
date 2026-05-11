@@ -22,6 +22,13 @@ export const CHRONICLES_1_6: RichChapterContent = {
   chapter: 6,
 
   estimatedMinutes: { beginner: 6, intermediate: 12, deep: 16 },
+
+  youth: {
+    intros: [
+      "The Levites — the priestly tribe. Aaron&apos;s line, Moses&apos; family, the singers David appointed for temple worship. The whole chapter is about who keeps the worship of God going from generation to generation.",
+      "There&apos;s a tribe in your church family that holds the worship together. Praise your worship leaders. Pay your pastors. Honor the people God set apart to keep His house running.",
+    ],
+  },
   topicTags: ['kingship', 'worship', 'covenant', 'faithfulness'],
   opener: {
     topical: true,

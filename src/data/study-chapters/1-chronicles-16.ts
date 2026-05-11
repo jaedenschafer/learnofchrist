@@ -18,6 +18,13 @@ export const CHRONICLES_1_16: RichChapterContent = {
   chapter: 16,
 
   estimatedMinutes: { beginner: 4, intermediate: 15, deep: 20 },
+
+  youth: {
+    intros: [
+      "David appoints Asaph and others to lead worship before the ark in Jerusalem. He gives them a song — pieces of what would become Psalms 105, 96, and 106. Worship becomes constant in the city.",
+      "Worship as a way of life, not a Sunday event. Build singing and prayer into your daily rhythm. Make Jerusalem of your week.",
+    ],
+  },
   topicTags: ['kingship', 'worship', 'covenant', 'faithfulness'],
   opener: {
     topical: true,

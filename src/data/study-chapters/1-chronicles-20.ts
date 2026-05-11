@@ -18,6 +18,13 @@ export const CHRONICLES_1_20: RichChapterContent = {
   chapter: 20,
 
   estimatedMinutes: { beginner: 3, intermediate: 6, deep: 10 },
+
+  youth: {
+    intros: [
+      "Joab leads the army to victory while David stays home. (1 Samuel 11 fills in: this is the time David committed adultery with Bathsheba — the Chronicler skips that part.) Then giants of Gath are killed by David&apos;s mighty men.",
+      "The chapter wants to focus on the kingdom&apos;s wins. Some books of your life will need to skip the worst parts to keep the larger story moving forward.",
+    ],
+  },
   topicTags: ['kingship', 'worship', 'covenant', 'faithfulness'],
   opener: {
     topical: true,

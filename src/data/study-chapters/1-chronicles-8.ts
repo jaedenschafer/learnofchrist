@@ -15,6 +15,13 @@ export const CHRONICLES_1_8: RichChapterContent = {
   chapter: 8,
 
   estimatedMinutes: { beginner: 4, intermediate: 8, deep: 12 },
+
+  youth: {
+    intros: [
+      "Benjamin&apos;s genealogy in detail — the tribe of Saul. The Chronicler doesn&apos;t skip Saul&apos;s family even though Saul&apos;s reign was a disaster. God&apos;s record includes everyone.",
+      "Nobody is too forgotten or too disgraced to be in God&apos;s genealogy. He doesn&apos;t edit out the painful chapters. He includes them as part of the story.",
+    ],
+  },
   topicTags: ['kingship', 'worship', 'covenant', 'faithfulness'],
   opener: {
     topical: true,

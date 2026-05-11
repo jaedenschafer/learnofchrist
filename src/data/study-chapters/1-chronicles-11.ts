@@ -20,6 +20,13 @@ export const CHRONICLES_1_11: RichChapterContent = {
   chapter: 11,
 
   estimatedMinutes: { beginner: 9, intermediate: 16, deep: 22 },
+
+  youth: {
+    intros: [
+      "All Israel gathers to David at Hebron and makes him king. Joab climbs the wall and conquers Jerusalem. Then a list of David&apos;s mighty men — the names of the warriors who stood with him in his hardest years.",
+      "Be a mighty man for somebody. Stand with the leader God anointed when nobody knows yet. The throne is coming. Be there before it does.",
+    ],
+  },
   topicTags: ['kingship', 'worship', 'covenant', 'faithfulness'],
   opener: {
     topical: true,

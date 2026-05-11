@@ -18,6 +18,13 @@ export const CHRONICLES_1_27: RichChapterContent = {
   chapter: 27,
 
   estimatedMinutes: { beginner: 2, intermediate: 7, deep: 10 },
+
+  youth: {
+    intros: [
+      "Twelve army divisions of 24,000 each — one for each month. Plus tribal officers, royal officials, and David&apos;s personal counselors. The administration of the kingdom in detail.",
+      "Order matters. God&apos;s kingdom isn&apos;t chaos. Build structure into your life so when battles come, the response is automatic.",
+    ],
+  },
   topicTags: ['kingship', 'worship', 'covenant', 'faithfulness'],
   opener: {
     topical: true,

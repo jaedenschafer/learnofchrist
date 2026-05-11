@@ -19,6 +19,13 @@ export const CHRONICLES_1_22: RichChapterContent = {
   chapter: 22,
 
   estimatedMinutes: { beginner: 6, intermediate: 13, deep: 17 },
+
+  youth: {
+    intros: [
+      "David, knowing he won&apos;t build the temple, prepares EVERYTHING for Solomon to build it. Stone, iron, bronze, cedar, gold, silver. Then commissions Solomon publicly: &ldquo;Be strong and of good courage…the Lord be with thee.&rdquo;",
+      "Some of the most important work you do is preparing the way for what someone else will finish. Don&apos;t resent the role God gave you. Pile up materials.",
+    ],
+  },
   topicTags: ['kingship', 'worship', 'covenant', 'faithfulness'],
   opener: {
     topical: true,

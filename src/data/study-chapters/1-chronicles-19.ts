@@ -21,6 +21,13 @@ export const CHRONICLES_1_19: RichChapterContent = {
   chapter: 19,
 
   estimatedMinutes: { beginner: 3, intermediate: 10, deep: 15 },
+
+  youth: {
+    intros: [
+      "David sends ambassadors of comfort to a new Ammonite king. The king humiliates them — shaves half their beards, cuts their robes off. War follows. Israel wins decisively.",
+      "Some people will mistake your kindness for weakness. Don&apos;t change the kindness. Just don&apos;t be naive about who&apos;s receiving it.",
+    ],
+  },
   topicTags: ['kingship', 'worship', 'covenant', 'faithfulness'],
   opener: {
     topical: true,

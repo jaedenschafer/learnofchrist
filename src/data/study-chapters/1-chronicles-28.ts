@@ -20,6 +20,13 @@ export const CHRONICLES_1_28: RichChapterContent = {
   chapter: 28,
 
   estimatedMinutes: { beginner: 9, intermediate: 16, deep: 21 },
+
+  youth: {
+    intros: [
+      "David, in his final speech, gathers all Israel&apos;s leaders. Hands Solomon the blueprint for the temple — given to him by the Spirit. Charges Solomon publicly: &ldquo;Be strong and of good courage, and do it: fear not, nor be dismayed: for the Lord God…will not fail thee.&rdquo;",
+      "Pass the baton with public encouragement. Tell the next leader they can do it. Fathers, do this for your kids. Mentors, do this for the young people God put in your care.",
+    ],
+  },
   topicTags: ['kingship', 'worship', 'covenant', 'faithfulness'],
   opener: {
     topical: true,

@@ -19,6 +19,13 @@ export const CHRONICLES_1_26: RichChapterContent = {
   chapter: 26,
 
   estimatedMinutes: { beginner: 5, intermediate: 10, deep: 14 },
+
+  youth: {
+    intros: [
+      "Gatekeepers — appointed to guard the temple. Treasurers — to manage the treasures dedicated to God. Officers and judges. The unglamorous infrastructure that lets worship happen.",
+      "Most of the work in God&apos;s kingdom is unglamorous infrastructure. Be a gatekeeper. Be a treasurer. Without them, the choir doesn&apos;t sing.",
+    ],
+  },
   topicTags: ['kingship', 'worship', 'covenant', 'faithfulness'],
   opener: {
     topical: true,

@@ -19,6 +19,13 @@ export const CHRONICLES_1_7: RichChapterContent = {
   chapter: 7,
 
   estimatedMinutes: { beginner: 5, intermediate: 12, deep: 16 },
+
+  youth: {
+    intros: [
+      "The remaining tribes — Issachar, Benjamin, Naphtali, Manasseh, Ephraim, Asher. Long lists of names. Tribes God didn&apos;t forget even when most of their stories never made the headlines.",
+      "Most of God&apos;s people in any era are people you&apos;ll never hear of. The faithful work nobody talks about is still in His book.",
+    ],
+  },
   topicTags: ['kingship', 'worship', 'covenant', 'faithfulness'],
   opener: {
     topical: true,

@@ -16,6 +16,13 @@ export const CHRONICLES_1_17: RichChapterContent = {
   chapter: 17,
 
   estimatedMinutes: { beginner: 6, intermediate: 16, deep: 18 },
+
+  youth: {
+    intros: [
+      "David wants to build God a house. Nathan tells him to do whatever&apos;s in his heart. Then God overrides: David won&apos;t build the house — God will build David a house. A son will come whose throne won&apos;t end.",
+      "That promise is fulfilled in Jesus. Sometimes God&apos;s &ldquo;no&rdquo; to your plan is because He has a much bigger &ldquo;yes&rdquo; you couldn&apos;t have written for yourself.",
+    ],
+  },
   intros: [
     'David has brought the ark of God to Jerusalem. The kingdom is at peace. The enemies of Israel are subdued. Now David sits in his house of cedar and looks around: his dwelling is magnificent, permanent, secure. But the ark of God dwells in a tent. The incongruity troubles him. How can the king live in cedar while the God of Israel dwells in curtains? He calls the prophet Nathan and says, "See now, I dwell in an house of cedar, but the ark of God dwelleth within curtains." And Nathan, hearing the desire of a grateful king, says simply, "Go, do all that is in thine heart; for the Lord is with thee."',
     'But that night the word of the Lord comes to Nathan with a different answer. God does not say David&apos;s desire is wrong. God says it is unnecessary. "I have not dwelt in an house since the day that I brought up Israel." For all the generations of wilderness, judges, and battles, God has walked in a tent, dwelling with His people wherever they go. And now, God says something that will echo through all of Scripture: "I will build thee an house." Not a building—a dynasty. An eternal throne. And one of David&apos;s descendants, sitting on that throne forever, will be called the Son of God.',

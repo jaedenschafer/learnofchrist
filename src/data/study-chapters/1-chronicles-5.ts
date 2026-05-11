@@ -18,6 +18,13 @@ export const CHRONICLES_1_5: RichChapterContent = {
   chapter: 5,
 
   estimatedMinutes: { beginner: 6, intermediate: 13, deep: 18 },
+
+  youth: {
+    intros: [
+      "Reuben&apos;s line. Reuben should have inherited the firstborn rights but lost them when he slept with his father&apos;s concubine. Joseph got the inheritance instead. Sin has long-term consequences.",
+      "Don&apos;t trade your inheritance for a moment. Reuben&apos;s descendants knew the whole genealogy of what their ancestor lost.",
+    ],
+  },
   topicTags: ['kingship', 'worship', 'covenant', 'faithfulness'],
   opener: {
     topical: true,

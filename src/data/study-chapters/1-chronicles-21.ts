@@ -18,6 +18,13 @@ export const CHRONICLES_1_21: RichChapterContent = {
   chapter: 21,
 
   estimatedMinutes: { beginner: 6, intermediate: 15, deep: 21 },
+
+  youth: {
+    intros: [
+      "Satan provokes David to take a census — pride about his army size. God sends a plague. David buys Ornan&apos;s threshing floor at full price and offers a sacrifice. The plague stops. The threshing floor becomes the site of Solomon&apos;s temple.",
+      "Sin&apos;s consequences and God&apos;s redemption land in the same place. Where David&apos;s pride caused 70,000 deaths is where the temple of God will stand. Grace lands hardest in the spots we&apos;ve fallen hardest.",
+    ],
+  },
   topicTags: ['kingship', 'worship', 'covenant', 'faithfulness'],
   opener: {
     topical: true,

@@ -19,6 +19,13 @@ export const CHRONICLES_1_12: RichChapterContent = {
   chapter: 12,
 
   estimatedMinutes: { beginner: 4, intermediate: 11, deep: 16 },
+
+  youth: {
+    intros: [
+      "Long list of who came to David at Ziklag and Hebron — even men from Saul&apos;s own tribe of Benjamin. The kingdom is being assembled out of unlikely loyalties.",
+      "Watch for the people who choose God&apos;s anointed before the crown is on. Those are the kingdom-builders. Be one. Find one.",
+    ],
+  },
   topicTags: ['kingship', 'worship', 'covenant', 'faithfulness'],
   opener: {
     topical: true,

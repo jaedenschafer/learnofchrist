@@ -17,6 +17,13 @@ export const CHRONICLES_1_2: RichChapterContent = {
   chapter: 2,
 
   estimatedMinutes: { beginner: 5, intermediate: 10, deep: 14 },
+
+  youth: {
+    intros: [
+      "The line of Judah — the tribe that produces David, and a thousand years later, Jesus. The list is messy: Tamar, Rahab, Bathsheba all show up by implication. The Messiah&apos;s family tree includes scandal.",
+      "If your family tree has scandal in it, you&apos;re in good company. God writes redemption stories through messy lines. Including yours.",
+    ],
+  },
   topicTags: ['kingship', 'worship', 'covenant', 'faithfulness'],
   opener: {
     topical: true,

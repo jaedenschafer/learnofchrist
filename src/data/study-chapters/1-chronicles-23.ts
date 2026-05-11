@@ -18,6 +18,13 @@ export const CHRONICLES_1_23: RichChapterContent = {
   chapter: 23,
 
   estimatedMinutes: { beginner: 4, intermediate: 11, deep: 16 },
+
+  youth: {
+    intros: [
+      "David organizes the Levites into shifts for temple service — 24,000 in service, 6,000 officers and judges, 4,000 gatekeepers, 4,000 musicians. The worship of God will run continuously when the temple opens.",
+      "God&apos;s house has a schedule. Worship is not random. Build the structure now that&apos;ll let praise keep happening when you&apos;re tired.",
+    ],
+  },
   topicTags: ['kingship', 'worship', 'covenant', 'faithfulness'],
   opener: {
     topical: true,

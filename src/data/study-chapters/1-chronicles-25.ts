@@ -20,6 +20,13 @@ export const CHRONICLES_1_25: RichChapterContent = {
   chapter: 25,
 
   estimatedMinutes: { beginner: 4, intermediate: 10, deep: 15 },
+
+  youth: {
+    intros: [
+      "David appoints 288 musicians divided into 24 courses to lead temple worship. The chief instrumentalists are named and listed. Worship leaders matter enough to be in Scripture by name.",
+      "Music in worship isn&apos;t a frill. David built it into the architecture of how Israel lived with God. Sing on purpose. Lead worship if you&apos;ve been given that gift.",
+    ],
+  },
   topicTags: ['kingship', 'worship', 'covenant', 'faithfulness'],
   opener: {
     topical: true,

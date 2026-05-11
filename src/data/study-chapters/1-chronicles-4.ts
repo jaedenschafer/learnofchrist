@@ -17,6 +17,13 @@ export const CHRONICLES_1_4: RichChapterContent = {
   chapter: 4,
 
   estimatedMinutes: { beginner: 3, intermediate: 9, deep: 12 },
+
+  youth: {
+    intros: [
+      "More descendants of Judah. Then a tiny verse about a man named Jabez who prayed: &ldquo;Oh that thou wouldest bless me indeed, and enlarge my coast, and that thine hand might be with me.&rdquo; And God granted him what he asked.",
+      "One short prayer in the middle of a long list of names changed a man&apos;s life. Don&apos;t underestimate a small bold prayer.",
+    ],
+  },
   topicTags: ['kingship', 'worship', 'covenant', 'faithfulness'],
   opener: {
     topical: true,

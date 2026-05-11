@@ -20,6 +20,13 @@ export const CHRONICLES_1_18: RichChapterContent = {
   chapter: 18,
 
   estimatedMinutes: { beginner: 3, intermediate: 7, deep: 11 },
+
+  youth: {
+    intros: [
+      "David subdues the Philistines, Moabites, Syrians, Edomites, Ammonites. The kingdom expands. David takes huge spoils and dedicates them to the Lord — saving them for the temple Solomon will build.",
+      "Don&apos;t spend everything God gives you on yourself. Some of what He blesses you with is meant to fund what someone else will build later.",
+    ],
+  },
   topicTags: ['kingship', 'worship', 'covenant', 'faithfulness'],
   opener: {
     topical: true,

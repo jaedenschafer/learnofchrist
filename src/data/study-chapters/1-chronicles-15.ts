@@ -23,6 +23,13 @@ export const CHRONICLES_1_15: RichChapterContent = {
   chapter: 15,
 
   estimatedMinutes: { beginner: 4, intermediate: 9, deep: 14 },
+
+  youth: {
+    intros: [
+      "Second attempt to bring the ark to Jerusalem. This time David does it RIGHT — only Levites carry it on poles, with sacrifices and music and dancing. The ark arrives safely.",
+      "The first attempt failed because they didn&apos;t do it God&apos;s way. The second attempt succeeded because they did. Failure is often a lesson, not a verdict. Learn the lesson and try again the right way.",
+    ],
+  },
   opener: {
     matchTitle: /David Dancing Before the/i,
     caption: '1 Chronicles 15',

@@ -18,6 +18,13 @@ export const CHRONICLES_1_1: RichChapterContent = {
   chapter: 1,
 
   estimatedMinutes: { beginner: 4, intermediate: 12, deep: 18 },
+
+  youth: {
+    intros: [
+      "Chronicles opens with names. Adam to Noah to Abraham to Jacob — God&apos;s family tree. Boring on the surface, but every name was a person God knew. The list is His way of saying: I remember everyone.",
+      "You&apos;re in His list too. Whatever else gets forgotten about your life, your name is written in heaven (Luke 10:20). That&apos;s a permanence the world can&apos;t touch.",
+    ],
+  },
   topicTags: ['kingship', 'worship', 'covenant', 'faithfulness'],
   opener: {
     topical: true,

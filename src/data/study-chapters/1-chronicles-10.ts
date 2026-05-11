@@ -19,6 +19,13 @@ export const CHRONICLES_1_10: RichChapterContent = {
   chapter: 10,
 
   estimatedMinutes: { beginner: 3, intermediate: 8, deep: 11 },
+
+  youth: {
+    intros: [
+      "Saul&apos;s death on Mount Gilboa. The Chronicler says explicitly why he died: &ldquo;he asked counsel of one that had a familiar spirit&rdquo; instead of God. So God turned the kingdom over to David.",
+      "When God&apos;s leadership doesn&apos;t answer fast enough for your liking, don&apos;t go to the witch of Endor. The shortcut to demonic counsel is the shortest path to the end of your story.",
+    ],
+  },
   topicTags: ['kingship', 'worship', 'covenant', 'faithfulness'],
   opener: {
     topical: true,

@@ -18,6 +18,13 @@ export const CHRONICLES_1_3: RichChapterContent = {
   chapter: 3,
 
   estimatedMinutes: { beginner: 3, intermediate: 8, deep: 11 },
+
+  youth: {
+    intros: [
+      "David&apos;s descendants. Solomon, Rehoboam, all the way down through the kings of Judah and into the post-exile generation. The Davidic line keeps going even after the throne is empty.",
+      "God doesn&apos;t need a throne to keep a promise. The line that runs through this chapter ends in Jesus. Whatever has been &ldquo;dethroned&rdquo; in your life, the promise still walks forward.",
+    ],
+  },
   topicTags: ['kingship', 'worship', 'covenant', 'faithfulness'],
   opener: {
     topical: true,

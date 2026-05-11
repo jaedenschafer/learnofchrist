@@ -18,6 +18,13 @@ export const CHRONICLES_1_9: RichChapterContent = {
   chapter: 9,
 
   estimatedMinutes: { beginner: 7, intermediate: 14, deep: 18 },
+
+  youth: {
+    intros: [
+      "After exile, the people return and settle in Jerusalem. The Chronicler lists who came back to do the priestly work — gatekeepers, singers, those responsible for the showbread, the daily incense.",
+      "Restoration comes through ordinary people taking their assigned roles. After your worst exile, find your station. Show up to the work God gave you.",
+    ],
+  },
   topicTags: ['kingship', 'worship', 'covenant', 'faithfulness'],
   opener: {
     topical: true,
