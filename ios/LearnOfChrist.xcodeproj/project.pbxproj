@@ -26,6 +26,13 @@
 		AD43E781BB7139B0F21EDFA0 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEA22E737B2582BD3343D44 /* Theme.swift */; };
 		C247F18B92395D0A633C828C /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DC88E991163454E92E27A6 /* OnboardingView.swift */; };
 		C2DD54D7E7D5DC609D4A4E3B /* ChapterReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0119AE34ED8F057D7C2F62FD /* ChapterReaderView.swift */; };
+		7A1B22F08C9D4E2DA5B14401 /* SupabaseConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2C33E1F0E45D3EB6C25502 /* SupabaseConfig.swift */; };
+		7C3D44E2A1F36B4CC7D36603 /* SupabaseClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4E55F3B2046C5DD8E47704 /* SupabaseClient.swift */; };
+		7E5F66A4C3157D6EE9F58805 /* SyncService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6077B5D4268E7FFA098906 /* SyncService.swift */; };
+		8A1B22F08C9D4E2DA5B14401 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2C33E1F0E45D3EB6C25502 /* Keychain.swift */; };
+		8C3D44E2A1F36B4CC7D36603 /* SupabaseSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4E55F3B2046C5DD8E47704 /* SupabaseSession.swift */; };
+		8E5F66A4C3157D6EE9F58805 /* AppleSignInCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6077B5D4268E7FFA098906 /* AppleSignInCoordinator.swift */; };
+		9A7188C6E5379F8001120A07 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8299D7F6480091122B0B08 /* AuthService.swift */; };
 		CADEFB96F3EC104FAEFAE3B3 /* scripture-ref-test-vectors.json in Resources */ = {isa = PBXBuildFile; fileRef = 5AFFA6BC87C79D1BD7EAC5A1 /* scripture-ref-test-vectors.json */; };
 		9C7DA1F2B4F84A55E5A37BD0 /* rich-content-filter-test-vectors.json in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C72A0488C44D78B129EAB /* rich-content-filter-test-vectors.json */; };
 		CDEDCD70AD9CF921310D0B2B /* UserDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E985681588671C4DA2FCBFF4 /* UserDataStore.swift */; };
@@ -71,6 +78,14 @@
 		6B083050796EA89260158C08 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		7EF111E4EB04E236512DC846 /* PackCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackCache.swift; sourceTree = "<group>"; };
 		9EFCFA5C21ED087763C2DD72 /* ScriptureRef.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptureRef.swift; sourceTree = "<group>"; };
+		7B2C33E1F0E45D3EB6C25502 /* SupabaseConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupabaseConfig.swift; sourceTree = "<group>"; };
+		7D4E55F3B2046C5DD8E47704 /* SupabaseClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupabaseClient.swift; sourceTree = "<group>"; };
+		7F6077B5D4268E7FFA098906 /* SyncService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncService.swift; sourceTree = "<group>"; };
+		8B2C33E1F0E45D3EB6C25502 /* Keychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
+		8D4E55F3B2046C5DD8E47704 /* SupabaseSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupabaseSession.swift; sourceTree = "<group>"; };
+		8F6077B5D4268E7FFA098906 /* AppleSignInCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleSignInCoordinator.swift; sourceTree = "<group>"; };
+		9B8299D7F6480091122B0B08 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		9DA411F9C8602B0334450D0A /* LearnOfChrist.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LearnOfChrist.entitlements; sourceTree = "<group>"; };
 		AA263511EF4ACB7157220CCC /* RichChapterContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichChapterContent.swift; sourceTree = "<group>"; };
 		4A1FB3E7DC6249E48BAA0BB5 /* ReaderPrefs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderPrefs.swift; sourceTree = "<group>"; };
 		2E58C9D2A75B4E72B81A6CC0 /* RichChapterContentFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichChapterContentFilter.swift; sourceTree = "<group>"; };
@@ -151,6 +166,7 @@
 		81DAD47F39D45DCFDD0FD266 /* LearnOfChrist */ = {
 			isa = PBXGroup;
 			children = (
+				9C9300E8B7591A0223330C09 /* Auth */,
 				EF61D1615C6650305364AD00 /* Models */,
 				FB588B470A7516807E1675EE /* Networking */,
 				F84BC1C24A490338B66BBEC0 /* Persistence */,
@@ -159,6 +175,7 @@
 				5FE25BE602094F13215BFEEA /* Theme */,
 				C89C50E401D6E9DFF4D0D505 /* Views */,
 				158A3BDD3934A3D1F123907F /* LearnOfChristApp.swift */,
+				9DA411F9C8602B0334450D0A /* LearnOfChrist.entitlements */,
 			);
 			path = LearnOfChrist;
 			sourceTree = "<group>";
@@ -237,8 +254,22 @@
 			isa = PBXGroup;
 			children = (
 				48A109E0167021461BF1329D /* ContentService.swift */,
+				7B2C33E1F0E45D3EB6C25502 /* SupabaseConfig.swift */,
+				7D4E55F3B2046C5DD8E47704 /* SupabaseClient.swift */,
+				7F6077B5D4268E7FFA098906 /* SyncService.swift */,
 			);
 			path = Networking;
+			sourceTree = "<group>";
+		};
+		9C9300E8B7591A0223330C09 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				8B2C33E1F0E45D3EB6C25502 /* Keychain.swift */,
+				8D4E55F3B2046C5DD8E47704 /* SupabaseSession.swift */,
+				8F6077B5D4268E7FFA098906 /* AppleSignInCoordinator.swift */,
+				9B8299D7F6480091122B0B08 /* AuthService.swift */,
+			);
+			path = Auth;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -361,6 +392,13 @@
 				E0D8AF8D68FF846A6F32FAEC /* ContentManifest.swift in Sources */,
 				5F374F09A7B9052E14960305 /* ContentService.swift in Sources */,
 				810A2FAEA1C8875C7F80D714 /* LearnOfChristApp.swift in Sources */,
+				7A1B22F08C9D4E2DA5B14401 /* SupabaseConfig.swift in Sources */,
+				7C3D44E2A1F36B4CC7D36603 /* SupabaseClient.swift in Sources */,
+				7E5F66A4C3157D6EE9F58805 /* SyncService.swift in Sources */,
+				8A1B22F08C9D4E2DA5B14401 /* Keychain.swift in Sources */,
+				8C3D44E2A1F36B4CC7D36603 /* SupabaseSession.swift in Sources */,
+				8E5F66A4C3157D6EE9F58805 /* AppleSignInCoordinator.swift in Sources */,
+				9A7188C6E5379F8001120A07 /* AuthService.swift in Sources */,
 				E2D99CF3AFED0252963EDC8C /* LibraryView.swift in Sources */,
 				74A6FC271DC88737EA6B54CC /* NoteEditorSheet.swift in Sources */,
 				5B7E48C1F9203A4DB6BB42E0 /* ReaderPrefsToolbar.swift in Sources */,

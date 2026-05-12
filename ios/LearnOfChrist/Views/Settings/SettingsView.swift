@@ -50,12 +50,25 @@ private struct SectionHeader: View {
 
 // MARK: - Sign-in prompt
 // Anonymous-by-default — see docs/MOBILE-PLATFORM-STRATEGY.md. This
-// card explains what sign-in unlocks and stages the eventual handoff.
-// No real auth is wired yet; the button surfaces a sheet with copy
-// only, so we can review the messaging now without dependencies.
+// card surfaces either the sign-in call-to-action (when no Supabase
+// session is present) or an account summary + sign-out button (when
+// the user has a live session).
 
 private struct SignInPromptCard: View {
-    @State private var showingPlaceholder = false
+    @Environment(AuthService.self) private var auth
+    @Environment(SyncService.self) private var sync
+
+    var body: some View {
+        if auth.isSignedIn {
+            SignedInCard()
+        } else {
+            SignInCallToAction()
+        }
+    }
+}
+
+private struct SignInCallToAction: View {
+    @Environment(AuthService.self) private var auth
 
     var body: some View {
         VStack(alignment: .leading, spacing: Theme.metric.spaceM) {
@@ -75,66 +88,121 @@ private struct SignInPromptCard: View {
                 Spacer(minLength: 0)
             }
             Button {
-                showingPlaceholder = true
+                Task { await auth.signInWithApple() }
             } label: {
-                Text("Sign in with Apple")
-                    .font(Theme.font.cardTitle)
-                    .frame(maxWidth: .infinity)
-                    .padding(.vertical, Theme.metric.spaceM)
-                    .foregroundStyle(.white)
-                    .background(Theme.color.label, in: RoundedRectangle(cornerRadius: Theme.metric.radiusSM))
+                HStack(spacing: 8) {
+                    if auth.isSigningIn {
+                        ProgressView().tint(.white)
+                    } else {
+                        Image(systemName: "apple.logo")
+                            .font(.system(size: 18, weight: .semibold))
+                    }
+                    Text(auth.isSigningIn ? "Signing in…" : "Sign in with Apple")
+                        .font(Theme.font.cardTitle)
+                }
+                .frame(maxWidth: .infinity)
+                .padding(.vertical, Theme.metric.spaceM)
+                .foregroundStyle(.white)
+                .background(Theme.color.label, in: RoundedRectangle(cornerRadius: Theme.metric.radiusSM))
             }
             .buttonStyle(.plain)
-            Text("You can keep using Learn of Christ without an account. Your data stays on this device until you sign in.")
-                .font(Theme.font.caption)
-                .foregroundStyle(Theme.color.tertiaryLabel)
+            .disabled(auth.isSigningIn)
+
+            if let err = auth.lastError {
+                Text(err)
+                    .font(Theme.font.caption)
+                    .foregroundStyle(Theme.color.warning)
+            } else {
+                Text("You can keep using Learn of Christ without an account. Your data stays on this device until you sign in.")
+                    .font(Theme.font.caption)
+                    .foregroundStyle(Theme.color.tertiaryLabel)
+            }
         }
         .padding(Theme.metric.spaceL)
         .frame(maxWidth: .infinity, alignment: .leading)
         .themeFill(.warmSubtle, radius: Theme.metric.radiusMD)
-        .sheet(isPresented: $showingPlaceholder) {
-            SignInPlaceholderSheet()
-        }
     }
 }
 
-private struct SignInPlaceholderSheet: View {
-    @Environment(\.dismiss) private var dismiss
+private struct SignedInCard: View {
+    @Environment(AuthService.self) private var auth
+    @Environment(SyncService.self) private var sync
 
     var body: some View {
-        NavigationStack {
-            VStack(alignment: .leading, spacing: Theme.metric.spaceL) {
-                Image(systemName: "wrench.and.screwdriver")
-                    .font(.system(size: 38, weight: .light))
+        VStack(alignment: .leading, spacing: Theme.metric.spaceM) {
+            HStack(spacing: Theme.metric.spaceM) {
+                Image(systemName: "checkmark.icloud")
+                    .font(.system(size: 22, weight: .semibold))
                     .foregroundStyle(Theme.color.accent)
-                    .padding(.bottom, Theme.metric.spaceS)
-
-                Text("Sign-in is coming soon.")
-                    .font(Theme.font.title)
-                    .foregroundStyle(Theme.color.label)
-
-                Text("We're still wiring this up. When it ships, signing in with your Apple ID will sync your highlights, notes, bookmarks, and reading progress across every device you read on.")
-                    .font(Theme.font.body)
-                    .foregroundStyle(Theme.color.secondaryLabel)
-
-                Text("Until then, everything you save stays on this device.")
-                    .font(Theme.font.callout)
-                    .foregroundStyle(Theme.color.tertiaryLabel)
-
-                Spacer()
-            }
-            .padding(Theme.metric.readerHorizontalPadding)
-            .frame(maxWidth: .infinity, alignment: .leading)
-            .background(Theme.color.background)
-            .toolbar {
-                ToolbarItem(placement: .topBarTrailing) {
-                    Button("Done") { dismiss() }
+                    .frame(width: 32, alignment: .leading)
+                VStack(alignment: .leading, spacing: 4) {
+                    Text("Signed in")
+                        .font(Theme.font.cardTitle)
+                        .foregroundStyle(Theme.color.label)
+                    Text(syncStatusText)
+                        .font(Theme.font.callout)
+                        .foregroundStyle(Theme.color.secondaryLabel)
                 }
+                Spacer(minLength: 0)
             }
-            .navigationTitle("Sign in")
-            .navigationBarTitleDisplayMode(.inline)
+            HStack(spacing: Theme.metric.spaceS) {
+                Button {
+                    Task { await sync.sync() }
+                } label: {
+                    HStack(spacing: 6) {
+                        if sync.isSyncing {
+                            ProgressView().controlSize(.small)
+                        } else {
+                            Image(systemName: "arrow.triangle.2.circlepath")
+                        }
+                        Text(sync.isSyncing ? "Syncing…" : "Sync now")
+                            .font(Theme.font.callout)
+                    }
+                    .frame(maxWidth: .infinity)
+                    .padding(.vertical, Theme.metric.spaceS)
+                    .foregroundStyle(Theme.color.label)
+                    .background(
+                        RoundedRectangle(cornerRadius: Theme.metric.radiusSM)
+                            .stroke(Theme.color.tertiaryLabel.opacity(0.4))
+                    )
+                }
+                .buttonStyle(.plain)
+                .disabled(sync.isSyncing)
+
+                Button {
+                    Task { await auth.signOut() }
+                } label: {
+                    Text("Sign out")
+                        .font(Theme.font.callout)
+                        .frame(maxWidth: .infinity)
+                        .padding(.vertical, Theme.metric.spaceS)
+                        .foregroundStyle(Theme.color.warning)
+                        .background(
+                            RoundedRectangle(cornerRadius: Theme.metric.radiusSM)
+                                .stroke(Theme.color.warning.opacity(0.4))
+                        )
+                }
+                .buttonStyle(.plain)
+            }
+            if let err = sync.lastError {
+                Text(err)
+                    .font(Theme.font.caption)
+                    .foregroundStyle(Theme.color.warning)
+            }
         }
-        .presentationDetents([.medium])
+        .padding(Theme.metric.spaceL)
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .themeFill(.warmSubtle, radius: Theme.metric.radiusMD)
+    }
+
+    private var syncStatusText: String {
+        if sync.isSyncing { return "Syncing your library…" }
+        guard let when = sync.lastSyncedAt else {
+            return "Highlights, notes, and bookmarks back up to your account."
+        }
+        let rel = RelativeDateTimeFormatter()
+        rel.unitsStyle = .full
+        return "Last synced \(rel.localizedString(for: when, relativeTo: Date()))."
     }
 }
 

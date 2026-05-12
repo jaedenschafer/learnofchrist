@@ -42,6 +42,12 @@ enum Theme {
         static let warmSubtle   = Color("LCWarmSubtle")
         /// Highlight tone — the underline / wash behind anchor phrases.
         static let highlight    = Color("LCHighlight")
+        /// Warning / destructive — sign-out, error copy, "remove
+        /// account" buttons. Falls back to a system-red until the
+        /// asset-catalog entry lands. Distinct from `.accent` (warm
+        /// orange) so destructive vs. primary actions are visually
+        /// unambiguous.
+        static let warning      = Color(.systemRed)
 
         // Text ───────────────────────────────────────────────────
         /// Primary text. Use for body, headings, the bulk of reading.
