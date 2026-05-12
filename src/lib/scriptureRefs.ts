@@ -1,5 +1,20 @@
 'use client';
 
+/**
+ * scriptureRefs.ts — LOOSE / IN-PROSE scripture reference parser.
+ *
+ * This file parses human-written, free-form references that appear inside
+ * commentary text ("John 3:16", "1 Cor. 10:1–2", "Gen 1:1-3") so they can
+ * be rendered as clickable links. It accepts dozens of book-name variants
+ * and abbreviations.
+ *
+ * For the strict CANONICAL interchange format used by deep links, push
+ * notifications, widgets, sync row identifiers, and shared cross-client
+ * test vectors, use `src/lib/canonicalRef.ts` — that's the Swift /
+ * Kotlin / TypeScript twin. See `docs/MOBILE-PLATFORM-STRATEGY.md` for
+ * the rationale.
+ */
+
 import { supabase } from './supabase';
 
 /**

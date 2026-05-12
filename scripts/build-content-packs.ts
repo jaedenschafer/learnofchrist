@@ -40,7 +40,41 @@ import { getRichChapter } from '../src/data/study-chapters';
 import type {
   Block,
   RichChapterContent,
+  RichSection,
 } from '../src/data/study-chapters/types';
+import { getFallbackCrossRefs } from '../src/data/study-chapters/cross-refs';
+
+/**
+ * Block kinds the iOS / Android decoders understand. Adding a new block
+ * kind to the schema means teaching every native decoder to handle it
+ * (see `ios/LearnOfChrist/Models/RichChapterContent.swift → Block`).
+ * The build script warns whenever it serializes a kind outside this set
+ * so we catch silent decoder drift at build time, not on a user's device.
+ *
+ * Keep alphabetised. Update this set in lock-step with the Swift enum.
+ */
+const SWIFT_KNOWN_BLOCK_KINDS: ReadonlySet<string> = new Set([
+  'artwork',
+  'carry',
+  'christ',
+  'commentary',
+  'divider',
+  'greek',
+  'hebrew',
+  'reflection',
+  'scripture',
+]);
+
+/** Verse-span kinds the native decoders understand. Same lock-step rule. */
+const SWIFT_KNOWN_SPAN_KINDS: ReadonlySet<string> = new Set([
+  'mark',
+  'resource',
+  'text',
+]);
+
+/** Block kinds we've already warned about — once per build is plenty. */
+const warnedBlockKinds = new Set<string>();
+const warnedSpanKinds = new Set<string>();
 
 const PACK_VERSION = 1;
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
@@ -89,7 +123,35 @@ function serializeRegExp(re: RegExp | undefined | null) {
   return { pattern: re.source, flags: re.flags };
 }
 
-function serializeBlock(b: Block): unknown {
+function serializeBlock(b: Block, ctx: { bookSlug: string; chapter: number }): unknown {
+  // Warn (once) on any block kind native decoders don't recognise yet.
+  if (!SWIFT_KNOWN_BLOCK_KINDS.has(b.kind) && !warnedBlockKinds.has(b.kind)) {
+    warnedBlockKinds.add(b.kind);
+    process.stderr.write(
+      `  ⚠ unknown block kind "${b.kind}" first seen at ${ctx.bookSlug}/${ctx.chapter}. ` +
+      `Native decoders will fall back to .unknown — add it to SWIFT_KNOWN_BLOCK_KINDS ` +
+      `here and to ios/LearnOfChrist/Models/RichChapterContent.swift → Block before shipping.\n`
+    );
+  }
+  // Same warning, one level deeper, for verse-span kinds inside scripture
+  // blocks. The Swift VerseSpan decoder falls back to plain text on
+  // unknown kinds — silent loss of meaning, exactly what this warning
+  // exists to prevent.
+  if (b.kind === 'scripture') {
+    for (const line of b.lines) {
+      for (const span of line.spans) {
+        if (!SWIFT_KNOWN_SPAN_KINDS.has(span.kind) && !warnedSpanKinds.has(span.kind)) {
+          warnedSpanKinds.add(span.kind);
+          process.stderr.write(
+            `  ⚠ unknown verse-span kind "${span.kind}" first seen at ${ctx.bookSlug}/${ctx.chapter}:${line.number}. ` +
+            `Native decoders will render it as plain text — add it to SWIFT_KNOWN_SPAN_KINDS ` +
+            `here and to ios/LearnOfChrist/Models/RichChapterContent.swift → VerseSpan.\n`
+          );
+        }
+      }
+    }
+  }
+
   if (b.kind === 'artwork') {
     return {
       ...b,
@@ -100,7 +162,34 @@ function serializeBlock(b: Block): unknown {
   return b;
 }
 
+/**
+ * Resolve and bake per-section cross-refs into the pack so native clients
+ * don't need to ship the fallback table. Mirrors the renderer logic at
+ * `src/components/RichStudyGuide.tsx` (the `getFallbackCrossRefs` block):
+ * curated section refs win, then the FIRST section without curated refs
+ * inherits the chapter-level fallback pool, then subsequent sections
+ * without curated refs stay empty (no repetition down the page).
+ */
+function bakeSectionCrossRefs(
+  sections: RichSection[],
+  bookSlug: string,
+  chapter: number
+): RichSection[] {
+  const fallback = getFallbackCrossRefs(bookSlug, chapter);
+  let fallbackUsed = false;
+  return sections.map((s) => {
+    if (s.crossRefs && s.crossRefs.length > 0) return s;
+    if (!fallbackUsed && fallback.length > 0) {
+      fallbackUsed = true;
+      return { ...s, crossRefs: fallback };
+    }
+    return s;
+  });
+}
+
 function serializeRich(rich: RichChapterContent) {
+  const ctx = { bookSlug: rich.bookSlug, chapter: rich.chapter };
+  const baked = bakeSectionCrossRefs(rich.sections, rich.bookSlug, rich.chapter);
   return {
     ...rich,
     opener: rich.opener
@@ -110,9 +199,9 @@ function serializeRich(rich: RichChapterContent) {
           matchArtist: serializeRegExp(rich.opener.matchArtist ?? null),
         }
       : undefined,
-    sections: rich.sections.map((s) => ({
+    sections: baked.map((s) => ({
       ...s,
-      blocks: s.blocks.map(serializeBlock),
+      blocks: s.blocks.map((b) => serializeBlock(b, ctx)),
     })),
   };
 }

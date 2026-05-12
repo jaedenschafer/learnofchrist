@@ -103,13 +103,17 @@ Rules:
 
 A parser/serializer ships in three places:
 
-- TypeScript: `src/lib/scriptureRefs.ts` (already exists)
-- Swift: `LearnOfChrist/Reference/ScriptureRef.swift` (to be added)
-- Kotlin: `com.learnofchrist.reference.ScriptureRef` (to be added)
+- TypeScript: `src/lib/canonicalRef.ts` — strict canonical parser /
+  serializer for the `<book-slug>.<chapter>.<verse>` format above. (The
+  separate `src/lib/scriptureRefs.ts` is the *loose* in-prose parser
+  for human-written references like "John 3:16" or "1 Cor. 10:1-2" —
+  used inside commentary text only, NOT the interchange format.)
+- Swift: `ios/LearnOfChrist/Reference/ScriptureRef.swift`.
+- Kotlin: `com.learnofchrist.reference.ScriptureRef` (to be added when
+  the Android package is set up).
 
-All three implementations must round-trip the same set of refs;
-shared test vectors live in `docs/scripture-ref-test-vectors.json`
-(to be added when the iOS package is set up).
+All three canonical implementations must round-trip the same set of
+refs; shared test vectors live in `docs/scripture-ref-test-vectors.json`.
 
 ## Sync model
 
