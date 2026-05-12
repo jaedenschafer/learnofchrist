@@ -101,6 +101,13 @@ struct ChapterReaderView: View {
                             .foregroundStyle(Theme.color.secondaryLabel)
                     }
 
+                    // People in this chapter — rendered between intros
+                    // and the first section, mirroring the web layout.
+                    // Only shown when the author tagged characters.
+                    if let characters = view.characters, !characters.isEmpty {
+                        PeopleInChapterRibbon(characters: characters)
+                    }
+
                     ForEach(Array(view.sections.enumerated()), id: \.offset) { _, section in
                         SectionView(
                             section: section,
@@ -110,6 +117,14 @@ struct ChapterReaderView: View {
                             onVerseAction: handle,
                             onVerseVisibilityChange: handleVerseVisibility
                         )
+                    }
+
+                    // Further study — external research resources,
+                    // numbered to match the inline `.resource`
+                    // superscripts in the prose. Only shown when the
+                    // author attached resources to the chapter.
+                    if let resources = view.resources, !resources.isEmpty {
+                        FurtherStudyBlock(resources: resources)
                     }
                 }
                 .padding(.horizontal, Theme.metric.readerHorizontalPadding)
@@ -324,6 +339,12 @@ private struct SectionView: View {
                     onVerseAction: onVerseAction,
                     onVerseVisibilityChange: onVerseVisibilityChange
                 )
+            }
+            // Where this echoes elsewhere — rendered after the last
+            // block. Either a curated set or the chapter-level
+            // fallback, baked into the pack by the web build script.
+            if let refs = section.crossRefs, !refs.isEmpty {
+                SectionCrossRefsCard(crossRefs: refs)
             }
         }
         .padding(.vertical, Theme.metric.spaceS)

@@ -1,8 +1,9 @@
 // BookGridView.swift
 // ────────────────────────────────────────────────────────────────────────────
-// First-tap browse experience. Shows the 66 canonical Bible books split
-// into Old + New Testament sections. Tapping a book pushes
-// ChapterListView. Searchable so the user can jump to a book by name.
+// First-tap browse experience. Shows every Bible book split into
+// testament sections (Old, New, Deuterocanon, Orthodox). Tapping a
+// book pushes ChapterListView. Searchable so the user can jump to a
+// book by name.
 //
 // Driven by BibleBookCatalog (static), so this view renders synchronously
 // and works fully offline.
@@ -18,6 +19,19 @@ struct BookGridView: View {
     private var filteredNew: [BibleBook] {
         filter(BibleBookCatalog.newTestament)
     }
+    private var filteredApocrypha: [BibleBook] {
+        filter(BibleBookCatalog.apocrypha)
+    }
+    private var filteredOrthodox: [BibleBook] {
+        filter(BibleBookCatalog.orthodox)
+    }
+
+    private var hasAnyResults: Bool {
+        !filteredOld.isEmpty
+        || !filteredNew.isEmpty
+        || !filteredApocrypha.isEmpty
+        || !filteredOrthodox.isEmpty
+    }
 
     var body: some View {
         ScrollView {
@@ -28,7 +42,13 @@ struct BookGridView: View {
                 if !filteredNew.isEmpty {
                     section(title: "New Testament", books: filteredNew)
                 }
-                if filteredOld.isEmpty && filteredNew.isEmpty {
+                if !filteredApocrypha.isEmpty {
+                    section(title: "Deuterocanon", books: filteredApocrypha)
+                }
+                if !filteredOrthodox.isEmpty {
+                    section(title: "Orthodox", books: filteredOrthodox)
+                }
+                if !hasAnyResults {
                     ContentUnavailableView.search(text: query)
                         .padding(.top, Theme.metric.spaceXXL)
                 }

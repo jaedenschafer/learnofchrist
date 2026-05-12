@@ -17,6 +17,7 @@
 		6F7004E306FF0D85248D43AF /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6862B5ECB9ACC2922AF808C0 /* SettingsView.swift */; };
 		74A6FC271DC88737EA6B54CC /* NoteEditorSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5923C00A7C8D96FC5853FCB8 /* NoteEditorSheet.swift */; };
 		5B7E48C1F9203A4DB6BB42E0 /* ReaderPrefsToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD9FA1037B144C2B5FD9180 /* ReaderPrefsToolbar.swift */; };
+		AB1C42D5E6F70891B2C34567 /* ChapterReaderExtras.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD2531EFEF80892A3D45678 /* ChapterReaderExtras.swift */; };
 		810A2FAEA1C8875C7F80D714 /* LearnOfChristApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158A3BDD3934A3D1F123907F /* LearnOfChristApp.swift */; };
 		85A1EE6E66E494324443378E /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B083050796EA89260158C08 /* RootView.swift */; };
 		9C53E769C5E12AACECA05D44 /* RichChapterContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA263511EF4ACB7157220CCC /* RichChapterContent.swift */; };
@@ -68,6 +69,7 @@
 		50B291322CEEC7FEF64053F8 /* BibleNavigationDestinations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibleNavigationDestinations.swift; sourceTree = "<group>"; };
 		5923C00A7C8D96FC5853FCB8 /* NoteEditorSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteEditorSheet.swift; sourceTree = "<group>"; };
 		6CD9FA1037B144C2B5FD9180 /* ReaderPrefsToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderPrefsToolbar.swift; sourceTree = "<group>"; };
+		ACD2531EFEF80892A3D45678 /* ChapterReaderExtras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterReaderExtras.swift; sourceTree = "<group>"; };
 		5AFFA6BC87C79D1BD7EAC5A1 /* scripture-ref-test-vectors.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "scripture-ref-test-vectors.json"; sourceTree = "<group>"; };
 		1E5C72A0488C44D78B129EAB /* rich-content-filter-test-vectors.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "rich-content-filter-test-vectors.json"; sourceTree = "<group>"; };
 		5C4EDF7609B6967C64A6B3A1 /* ContentManifest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentManifest.swift; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 				0119AE34ED8F057D7C2F62FD /* ChapterReaderView.swift */,
 				5923C00A7C8D96FC5853FCB8 /* NoteEditorSheet.swift */,
 				6CD9FA1037B144C2B5FD9180 /* ReaderPrefsToolbar.swift */,
+				ACD2531EFEF80892A3D45678 /* ChapterReaderExtras.swift */,
 				21CCFA4325AAE426AEC699AA /* VerseRow.swift */,
 			);
 			path = Reader;
@@ -402,6 +405,7 @@
 				E2D99CF3AFED0252963EDC8C /* LibraryView.swift in Sources */,
 				74A6FC271DC88737EA6B54CC /* NoteEditorSheet.swift in Sources */,
 				5B7E48C1F9203A4DB6BB42E0 /* ReaderPrefsToolbar.swift in Sources */,
+				AB1C42D5E6F70891B2C34567 /* ChapterReaderExtras.swift in Sources */,
 				C247F18B92395D0A633C828C /* OnboardingView.swift in Sources */,
 				E1A66B56D030808CA165A886 /* PackCache.swift in Sources */,
 				9C53E769C5E12AACECA05D44 /* RichChapterContent.swift in Sources */,

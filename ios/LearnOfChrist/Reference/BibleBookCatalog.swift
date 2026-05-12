@@ -1,14 +1,15 @@
 // BibleBookCatalog.swift
 // ────────────────────────────────────────────────────────────────────────────
-// Static, hard-coded list of canonical Bible books. Mirrors the web's
+// Static, hard-coded list of Bible books — Protestant 66 plus the
+// deuterocanon (Catholic + wider Orthodox). Mirrors the web's
 // src/data/books.ts and is the source of truth for the iOS book grid.
 //
 // Why static instead of fetching from `v1_book_index`:
 //   1. Works offline (and the app is account-optional, so cold launch
 //      should not require any network for the browse hierarchy).
 //   2. Lets SwiftUI render the grid synchronously, no skeleton flash.
-//   3. The 66 canonical books haven't changed in ~1700 years; we don't
-//      need a database round-trip every time the user opens the app.
+//   3. The canonical books haven't changed in centuries; we don't need
+//      a database round-trip every time the user opens the app.
 //
 // The chapter counts here authoritatively shape the chapter picker.
 // Per-book content packs may have *fewer* chapters with hand-authored
@@ -20,12 +21,21 @@ struct BibleBook: Identifiable, Hashable, Sendable {
     let slug: String          // "genesis", "1-corinthians", "song-of-solomon"
     let name: String          // "Genesis", "1 Corinthians", "Song of Solomon"
     let abbreviation: String  // "Gen", "1Co", "Son"
-    let testament: Testament  // .old / .new (apocrypha excluded for v1 navigation)
+    let testament: Testament  // .old / .new / .apocrypha / .orthodox
     let chapters: Int         // total chapter count
-    let canonicalOrder: Int   // 1...66
+    let canonicalOrder: Int   // sort order across the full catalog
 
-    enum Testament: String, Sendable {
+    enum Testament: String, Sendable, CaseIterable {
         case old, new
+        /// Roman Catholic deuterocanon — Tobit, Judith, Wisdom of
+        /// Solomon, Sirach, 1–2 Maccabees, Baruch (incl. Letter of
+        /// Jeremiah). Surfaced in BookGridView under a separate
+        /// "Deuterocanon" heading.
+        case apocrypha
+        /// Wider Orthodox / Eastern canon — 1–2 Esdras, Prayer of
+        /// Manasseh, 3–4 Maccabees, Psalm 151. Surfaced under
+        /// "Orthodox" heading.
+        case orthodox
     }
 
     var id: String { slug }
@@ -34,7 +44,7 @@ struct BibleBook: Identifiable, Hashable, Sendable {
 enum BibleBookCatalog {
     // MARK: - Public API
 
-    static let all: [BibleBook] = oldTestament + newTestament
+    static let all: [BibleBook] = oldTestament + newTestament + apocrypha + orthodox
 
     static let oldTestament: [BibleBook] = [
         .init(slug: "genesis",        name: "Genesis",        abbreviation: "Gen", testament: .old, chapters: 50, canonicalOrder: 1),
@@ -108,6 +118,31 @@ enum BibleBookCatalog {
         .init(slug: "revelation",      name: "Revelation",      abbreviation: "Rev", testament: .new, chapters: 22, canonicalOrder: 66),
     ]
 
+    /// Roman Catholic deuterocanon. Slug + name match the web
+    /// `bibleBooks` table; chapter counts match `src/data/books.ts`
+    /// 67–73. Listed in canonical order across editions.
+    static let apocrypha: [BibleBook] = [
+        .init(slug: "tobit",             name: "Tobit",             abbreviation: "Tob", testament: .apocrypha, chapters: 14, canonicalOrder: 67),
+        .init(slug: "judith",            name: "Judith",            abbreviation: "Jdt", testament: .apocrypha, chapters: 16, canonicalOrder: 68),
+        .init(slug: "wisdom-of-solomon", name: "Wisdom of Solomon", abbreviation: "Wis", testament: .apocrypha, chapters: 19, canonicalOrder: 69),
+        .init(slug: "sirach",            name: "Sirach",            abbreviation: "Sir", testament: .apocrypha, chapters: 51, canonicalOrder: 70),
+        .init(slug: "1-maccabees",       name: "1 Maccabees",       abbreviation: "1Ma", testament: .apocrypha, chapters: 16, canonicalOrder: 71),
+        .init(slug: "2-maccabees",       name: "2 Maccabees",       abbreviation: "2Ma", testament: .apocrypha, chapters: 15, canonicalOrder: 72),
+        .init(slug: "baruch",            name: "Baruch",            abbreviation: "Bar", testament: .apocrypha, chapters: 6,  canonicalOrder: 73),
+    ]
+
+    /// Wider Orthodox / Eastern canon — present in Slavonic and
+    /// some Greek bibles. Continues the canonicalOrder beyond the
+    /// deuterocanon.
+    static let orthodox: [BibleBook] = [
+        .init(slug: "1-esdras",            name: "1 Esdras",            abbreviation: "1Es",   testament: .orthodox, chapters: 9,  canonicalOrder: 74),
+        .init(slug: "2-esdras",            name: "2 Esdras",            abbreviation: "2Es",   testament: .orthodox, chapters: 16, canonicalOrder: 75),
+        .init(slug: "prayer-of-manasseh",  name: "Prayer of Manasseh",  abbreviation: "PrM",   testament: .orthodox, chapters: 1,  canonicalOrder: 76),
+        .init(slug: "3-maccabees",         name: "3 Maccabees",         abbreviation: "3Ma",   testament: .orthodox, chapters: 7,  canonicalOrder: 77),
+        .init(slug: "4-maccabees",         name: "4 Maccabees",         abbreviation: "4Ma",   testament: .orthodox, chapters: 18, canonicalOrder: 78),
+        .init(slug: "psalm-151",           name: "Psalm 151",           abbreviation: "Ps151", testament: .orthodox, chapters: 1,  canonicalOrder: 79),
+    ]
+
     /// O(1)-ish lookup by slug. The static dictionary is built once.
     static func book(for slug: String) -> BibleBook? {
         bySlug[slug]
@@ -119,4 +154,16 @@ enum BibleBookCatalog {
         for book in all { d[book.slug] = book }
         return d
     }()
+
+    /// Books grouped by testament — convenient for BookGridView's
+    /// section dividers ("Old Testament", "New Testament",
+    /// "Deuterocanon", "Orthodox").
+    static func books(in testament: BibleBook.Testament) -> [BibleBook] {
+        switch testament {
+        case .old:       return oldTestament
+        case .new:       return newTestament
+        case .apocrypha: return apocrypha
+        case .orthodox:  return orthodox
+        }
+    }
 }
