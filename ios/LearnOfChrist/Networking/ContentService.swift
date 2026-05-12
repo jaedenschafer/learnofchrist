@@ -27,20 +27,87 @@ actor ContentService {
     private let cache: PackCache
     private let decoder: JSONDecoder
 
-    init(session: URLSession = .shared, cache: PackCache = PackCache()) {
+    /// On-disk cache key for the manifest payload (bytes; we decode each launch
+    /// for forward-compat with optional fields).
+    private let manifestCachePath = "manifest.json"
+
+    /// UserDefaults keys for the conditional-GET cache. ETag lets us send
+    /// `If-None-Match` on subsequent launches so an unchanged manifest comes
+    /// back as a 304 with an empty body — saves ~19 KB of bandwidth per
+    /// launch and lets the CDN serve a near-free response.
+    private let etagDefaultsKey = "loc.contentService.manifestETag"
+    private let lastModifiedDefaultsKey = "loc.contentService.manifestLastModified"
+
+    private let defaults: UserDefaults
+
+    init(
+        session: URLSession = .shared,
+        cache: PackCache = PackCache(),
+        defaults: UserDefaults = .standard
+    ) {
         self.session = session
         self.cache = cache
+        self.defaults = defaults
         self.decoder = JSONDecoder()
     }
 
     // MARK: - Manifest
 
-    /// Always re-fetches the manifest. Tiny (~19 KB) and we want freshness
-    /// on every cold launch. The packs themselves are content-hash cached.
+    /// Fetches the manifest using a conditional GET. If the server returns
+    /// 304 Not Modified (and we have a cached copy on disk), we decode the
+    /// cached bytes and skip the network payload entirely. Otherwise we
+    /// download, persist the ETag/Last-Modified headers, and write the body
+    /// to disk so the next launch can short-circuit.
+    ///
+    /// The manifest is small (~19 KB), but the packs the manifest points at
+    /// are content-hash cached separately by `loadPack(_:)` — so on a quiet
+    /// launch (no content has changed) we issue exactly one conditional GET
+    /// and read every pack from disk.
     func fetchManifest() async throws -> ContentManifest {
         let url = baseURL.appendingPathComponent("manifest.json")
-        let (data, resp) = try await session.data(from: url)
+        var req = URLRequest(url: url)
+        if let etag = defaults.string(forKey: etagDefaultsKey) {
+            req.setValue(etag, forHTTPHeaderField: "If-None-Match")
+        }
+        if let lastModified = defaults.string(forKey: lastModifiedDefaultsKey) {
+            req.setValue(lastModified, forHTTPHeaderField: "If-Modified-Since")
+        }
+
+        let (data, resp) = try await session.data(for: req)
+        let http = resp as? HTTPURLResponse
+
+        // 304 Not Modified — manifest unchanged. Decode from the on-disk
+        // copy if we have one; if the cache is missing/corrupt (e.g. user
+        // cleared app data), fall through to an unconditional refetch.
+        if http?.statusCode == 304 {
+            if let cached = try? cache.read(path: manifestCachePath) {
+                do {
+                    return try decoder.decode(ContentManifest.self, from: cached)
+                } catch {
+                    // Local cache corrupt — discard, force redownload.
+                    defaults.removeObject(forKey: etagDefaultsKey)
+                    defaults.removeObject(forKey: lastModifiedDefaultsKey)
+                    return try await fetchManifest()
+                }
+            }
+            // No local copy despite a 304 — clear the validators and retry.
+            defaults.removeObject(forKey: etagDefaultsKey)
+            defaults.removeObject(forKey: lastModifiedDefaultsKey)
+            return try await fetchManifest()
+        }
+
         try Self.expectOK(resp)
+
+        // 200 OK — persist the new validators for next launch.
+        if let etag = http?.value(forHTTPHeaderField: "Etag") {
+            defaults.set(etag, forKey: etagDefaultsKey)
+        }
+        if let lastModified = http?.value(forHTTPHeaderField: "Last-Modified") {
+            defaults.set(lastModified, forKey: lastModifiedDefaultsKey)
+        }
+        // Stash the body so the next 304 has something to read.
+        try? cache.write(path: manifestCachePath, data: data)
+
         do {
             return try decoder.decode(ContentManifest.self, from: data)
         } catch {
