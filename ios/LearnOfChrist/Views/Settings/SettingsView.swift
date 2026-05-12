@@ -1,14 +1,18 @@
 // SettingsView.swift
 // ────────────────────────────────────────────────────────────────────────────
-// The third tab. Three sections in priority order:
+// The third tab. Four sections in priority order:
 //
 //   1. Profile        — sign-in prompt ("Save your library"). Anonymous
 //                       users see the call-to-action; signed-in users see
 //                       account info. v1 has no real auth yet — the
 //                       button is a placeholder for the eventual Sign in
 //                       with Apple flow described in the strategy doc.
-//   2. Appearance     — color scheme picker, text size.
-//   3. About          — app version, privacy policy + terms links,
+//   2. Reading        — study level, audience, translation. Persisted
+//                       via @AppStorage with the loc-* keys so values
+//                       round-trip with web. Drives `filterContent` in
+//                       `ChapterReaderView`.
+//   3. Appearance     — color scheme picker, text size.
+//   4. About          — app version, privacy policy + terms links,
 //                       acknowledgements.
 //
 // Every visual reference goes through Theme.
@@ -20,6 +24,7 @@ struct SettingsView: View {
         ScrollView {
             VStack(alignment: .leading, spacing: Theme.metric.spaceXL) {
                 SignInPromptCard()
+                ReadingSection()
                 AppearanceSection()
                 AboutSection()
             }
@@ -130,6 +135,147 @@ private struct SignInPlaceholderSheet: View {
             .navigationBarTitleDisplayMode(.inline)
         }
         .presentationDetents([.medium])
+    }
+}
+
+// MARK: - Reading preferences
+//
+// The shared depth + audience + translation contract is in
+// `ReaderPrefs.swift`; the storage keys are the same strings web uses
+// (`loc-study-level`, `loc-audience`, `loc-translation`) so values
+// round-trip cleanly once cloud sync is wired up.
+//
+// Kids audience is intentionally absent from the iOS picker for v1 —
+// the kids decoder + registry aren't built on Swift yet. A user who
+// picked kids on web and switched to iOS keeps the value in storage
+// but the picker shows it as Adults; the filter is a no-op for kids
+// either way (see `filterContentByAudience`), so no rendering bug.
+
+private struct ReadingSection: View {
+    @AppStorage(ReaderPrefs.Key.studyLevel)
+    private var studyLevelRaw: String = ReaderPrefs.defaultStudyLevel.rawValue
+
+    @AppStorage(ReaderPrefs.Key.audience)
+    private var audienceRaw: String = ReaderPrefs.defaultAudience.rawValue
+
+    @AppStorage(ReaderPrefs.Key.audienceLock)
+    private var audienceLock: String = ""
+
+    @AppStorage(ReaderPrefs.Key.translation)
+    private var translation: String = ReaderPrefs.defaultTranslation
+
+    private var isAudienceLocked: Bool { audienceLock == "1" }
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: Theme.metric.spaceM) {
+            SectionHeader(title: "Reading")
+            VStack(spacing: Theme.metric.spaceS) {
+                studyLevelRow
+                if !isAudienceLocked {
+                    audienceRow
+                }
+                translationRow
+            }
+        }
+    }
+
+    // ─── Study level ───
+    private var studyLevelRow: some View {
+        VStack(alignment: .leading, spacing: Theme.metric.spaceS) {
+            HStack {
+                Image(systemName: "slider.horizontal.3")
+                    .font(.system(size: 15, weight: .semibold))
+                    .foregroundStyle(Theme.color.accent)
+                    .frame(width: 22)
+                Text("Study depth")
+                    .font(Theme.font.cardTitle)
+                    .foregroundStyle(Theme.color.label)
+                Spacer()
+            }
+            Picker("Study depth", selection: $studyLevelRaw) {
+                ForEach(StudyLevel.allCases, id: \.rawValue) { level in
+                    Text(level.label).tag(level.rawValue)
+                }
+            }
+            .pickerStyle(.segmented)
+            if let current = StudyLevel(rawValue: studyLevelRaw) {
+                Text(current.blurb)
+                    .font(Theme.font.caption)
+                    .foregroundStyle(Theme.color.tertiaryLabel)
+            }
+        }
+        .padding(Theme.metric.spaceL - 2)
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .themeSurface(radius: Theme.metric.radiusMD)
+    }
+
+    // ─── Audience ───
+    private var audienceRow: some View {
+        VStack(alignment: .leading, spacing: Theme.metric.spaceS) {
+            HStack {
+                Image(systemName: "person.2")
+                    .font(.system(size: 15, weight: .semibold))
+                    .foregroundStyle(Theme.color.accent)
+                    .frame(width: 22)
+                Text("Audience")
+                    .font(Theme.font.cardTitle)
+                    .foregroundStyle(Theme.color.label)
+                Spacer()
+            }
+            Picker("Audience", selection: $audienceRaw) {
+                ForEach(Audience.iOSSupported, id: \.rawValue) { aud in
+                    Text(aud.label).tag(aud.rawValue)
+                }
+            }
+            .pickerStyle(.segmented)
+            if let current = Audience(rawValue: audienceRaw),
+               Audience.iOSSupported.contains(current) {
+                Text(current.blurb)
+                    .font(Theme.font.caption)
+                    .foregroundStyle(Theme.color.tertiaryLabel)
+            }
+        }
+        .padding(Theme.metric.spaceL - 2)
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .themeSurface(radius: Theme.metric.radiusMD)
+    }
+
+    // ─── Translation ───
+    private var translationRow: some View {
+        VStack(alignment: .leading, spacing: Theme.metric.spaceS) {
+            HStack {
+                Image(systemName: "book.closed")
+                    .font(.system(size: 15, weight: .semibold))
+                    .foregroundStyle(Theme.color.accent)
+                    .frame(width: 22)
+                Text("Translation")
+                    .font(Theme.font.cardTitle)
+                    .foregroundStyle(Theme.color.label)
+                Spacer()
+                Menu {
+                    Picker("Translation", selection: $translation) {
+                        ForEach(ReaderPrefs.publicDomainTranslations) { t in
+                            Text(t.name).tag(t.abbreviation)
+                        }
+                    }
+                } label: {
+                    HStack(spacing: 6) {
+                        Text(ReaderPrefs.translation(forAbbreviation: translation).name)
+                            .font(Theme.font.callout)
+                            .foregroundStyle(Theme.color.label)
+                        Image(systemName: "chevron.up.chevron.down")
+                            .font(.system(size: 11, weight: .semibold))
+                            .foregroundStyle(Theme.color.tertiaryLabel)
+                    }
+                }
+            }
+            Text("Public-domain translations only — licensed ones (NIV/ESV/CSB) are not in v1.")
+                .font(Theme.font.caption)
+                .foregroundStyle(Theme.color.tertiaryLabel)
+        }
+        .padding(Theme.metric.spaceL - 2)
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .themeSurface(radius: Theme.metric.radiusMD)
     }
 }
 

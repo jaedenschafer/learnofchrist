@@ -26,6 +26,16 @@ struct ChapterReaderView: View {
     @AppStorage(AppearancePreferences.Key.textSize)
     private var textSizeRaw: String = AppearancePreferences.TextSizePreference.medium.rawValue
 
+    // Reader-prefs trio. Same @AppStorage keys as web (loc-* strings) so
+    // values round-trip cleanly once cloud sync is wired up. The Settings
+    // tab writes these; the reader reads them and re-renders through
+    // `filterContent` whenever they change.
+    @AppStorage(ReaderPrefs.Key.studyLevel)
+    private var studyLevelRaw: String = ReaderPrefs.defaultStudyLevel.rawValue
+
+    @AppStorage(ReaderPrefs.Key.audience)
+    private var audienceRaw: String = ReaderPrefs.defaultAudience.rawValue
+
     @State private var isBookmarked: Bool = false
     @State private var noteEditorVerse: Int?
     @State private var noteEditorBody: String = ""
@@ -40,6 +50,25 @@ struct ChapterReaderView: View {
 
     private var textSize: AppearancePreferences.TextSizePreference {
         AppearancePreferences.TextSizePreference(rawValue: textSizeRaw) ?? .medium
+    }
+
+    /// Active study level — falls back to default if storage held an
+    /// unknown value (e.g. a future tier we don't know about yet).
+    private var studyLevel: StudyLevel {
+        StudyLevel(rawValue: studyLevelRaw) ?? ReaderPrefs.defaultStudyLevel
+    }
+
+    /// Active audience — same fallback rule.
+    private var audience: Audience {
+        Audience(rawValue: audienceRaw) ?? ReaderPrefs.defaultAudience
+    }
+
+    /// The chapter as it should render under the user's current depth +
+    /// audience choices. Recomputed every time the relevant @AppStorage
+    /// values change. Pure transformation (see
+    /// `RichChapterContentFilter.swift`); no side effects.
+    private var filteredChapter: RichChapterContent {
+        filterContent(chapter, level: studyLevel, audience: audience)
     }
 
     private var topVisibleVerse: Int? { visibleVerses.min() }
@@ -61,20 +90,21 @@ struct ChapterReaderView: View {
     }
 
     var body: some View {
-        ScrollViewReader { proxy in
+        let view = filteredChapter
+        return ScrollViewReader { proxy in
             ScrollView {
                 VStack(alignment: .leading, spacing: Theme.metric.readerSectionSpacing) {
                     header
-                    ForEach(Array(chapter.intros.enumerated()), id: \.offset) { _, p in
+                    ForEach(Array(view.intros.enumerated()), id: \.offset) { _, p in
                         Text(p)
                             .font(Theme.font.body)
                             .foregroundStyle(Theme.color.secondaryLabel)
                     }
 
-                    ForEach(Array(chapter.sections.enumerated()), id: \.offset) { _, section in
+                    ForEach(Array(view.sections.enumerated()), id: \.offset) { _, section in
                         SectionView(
                             section: section,
-                            chapter: chapter,
+                            chapter: view,
                             highlightedVerses: highlightedVerseSet,
                             notedVerses: notedVerseSet,
                             onVerseAction: handle,
@@ -90,6 +120,12 @@ struct ChapterReaderView: View {
             .dynamicTypeSize(textSize.dynamicTypeSize)
             .navigationTitle("\(chapter.bookName) \(chapter.chapter)")
             .toolbar {
+                ToolbarItem(placement: .topBarTrailing) {
+                    ReaderPrefsToolbar(
+                        studyLevelRaw: $studyLevelRaw,
+                        audienceRaw: $audienceRaw
+                    )
+                }
                 ToolbarItem(placement: .topBarTrailing) {
                     Button {
                         isBookmarked = userData.toggleChapterBookmark(
