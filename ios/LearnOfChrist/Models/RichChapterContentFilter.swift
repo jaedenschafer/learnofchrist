@@ -50,7 +50,7 @@ func filterContentByLevel(
     let surviving = visibleBlockIDs(content, level: level)
 
     let filteredSections: [RichSection] = content.sections.compactMap { section in
-        var blocks: [AnnotatedBlock] = section.blocks
+        let blocks: [AnnotatedBlock] = section.blocks
             .filter { isVisible($0, atLevel: level) }
             .map { annotated -> AnnotatedBlock in
                 guard case let .scripture(chapter, lines) = annotated.block else {

@@ -402,18 +402,35 @@ private struct ScriptureBlock: View {
     var body: some View {
         VStack(alignment: .leading, spacing: Theme.metric.spaceS) {
             ForEach(lines) { line in
-                VerseRow(
-                    line: line,
-                    isHighlighted: highlightedVerses.contains(line.number),
-                    hasNote: notedVerses.contains(line.number),
-                    onAction: { action in onVerseAction(action, line) }
-                )
-                // ScrollViewReader anchor for resume-to-verse.
-                .id(line.number)
-                // Threshold 0.5 = at least half the row visible. Tune
-                // if "current verse" feels jumpy in long passages.
-                .onScrollVisibilityChange(threshold: 0.5) { isVisible in
-                    onVerseVisibilityChange(line.number, isVisible)
+                Group {
+                    if #available(iOS 18.0, *) {
+                        VerseRow(
+                            line: line,
+                            isHighlighted: highlightedVerses.contains(line.number),
+                            hasNote: notedVerses.contains(line.number),
+                            onAction: { action in onVerseAction(action, line) }
+                        )
+                        // ScrollViewReader anchor for resume-to-verse.
+                        .id(line.number)
+                        // Threshold 0.5 = at least half the row visible.
+                        // Tune if "current verse" feels jumpy in long
+                        // passages. iOS 18+ only — on iOS 17 the
+                        // resume-position auto-save degrades to the
+                        // last-explicitly-opened verse (no auto-tracking),
+                        // which is acceptable for v1 since the reader
+                        // still functions end-to-end.
+                        .onScrollVisibilityChange(threshold: 0.5) { isVisible in
+                            onVerseVisibilityChange(line.number, isVisible)
+                        }
+                    } else {
+                        VerseRow(
+                            line: line,
+                            isHighlighted: highlightedVerses.contains(line.number),
+                            hasNote: notedVerses.contains(line.number),
+                            onAction: { action in onVerseAction(action, line) }
+                        )
+                        .id(line.number)
+                    }
                 }
             }
         }
