@@ -280,9 +280,9 @@ private struct SectionView: View {
                     .font(Theme.font.title)
                     .foregroundStyle(Theme.color.label)
             }
-            ForEach(Array(section.blocks.enumerated()), id: \.offset) { _, block in
+            ForEach(Array(section.blocks.enumerated()), id: \.offset) { _, annotated in
                 BlockView(
-                    block: block,
+                    block: annotated.block,
                     highlightedVerses: highlightedVerses,
                     notedVerses: notedVerses,
                     onVerseAction: onVerseAction,

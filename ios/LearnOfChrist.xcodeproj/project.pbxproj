@@ -24,6 +24,7 @@
 		C247F18B92395D0A633C828C /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DC88E991163454E92E27A6 /* OnboardingView.swift */; };
 		C2DD54D7E7D5DC609D4A4E3B /* ChapterReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0119AE34ED8F057D7C2F62FD /* ChapterReaderView.swift */; };
 		CADEFB96F3EC104FAEFAE3B3 /* scripture-ref-test-vectors.json in Resources */ = {isa = PBXBuildFile; fileRef = 5AFFA6BC87C79D1BD7EAC5A1 /* scripture-ref-test-vectors.json */; };
+		9C7DA1F2B4F84A55E5A37BD0 /* rich-content-filter-test-vectors.json in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C72A0488C44D78B129EAB /* rich-content-filter-test-vectors.json */; };
 		CDEDCD70AD9CF921310D0B2B /* UserDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E985681588671C4DA2FCBFF4 /* UserDataStore.swift */; };
 		D78D0B91D7F9115C48BDAADC /* VerseRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CCFA4325AAE426AEC699AA /* VerseRow.swift */; };
 		D896D3C27BF4D86DEB79447B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC63A05F74A0523C37DFE3C4 /* Assets.xcassets */; };
@@ -57,6 +58,7 @@
 		50B291322CEEC7FEF64053F8 /* BibleNavigationDestinations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibleNavigationDestinations.swift; sourceTree = "<group>"; };
 		5923C00A7C8D96FC5853FCB8 /* NoteEditorSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteEditorSheet.swift; sourceTree = "<group>"; };
 		5AFFA6BC87C79D1BD7EAC5A1 /* scripture-ref-test-vectors.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "scripture-ref-test-vectors.json"; sourceTree = "<group>"; };
+		1E5C72A0488C44D78B129EAB /* rich-content-filter-test-vectors.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "rich-content-filter-test-vectors.json"; sourceTree = "<group>"; };
 		5C4EDF7609B6967C64A6B3A1 /* ContentManifest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentManifest.swift; sourceTree = "<group>"; };
 		5D360D296F4F41183BC0C752 /* LearnOfChristTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = LearnOfChristTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D6DB00959201694DB39EF9A /* BookGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookGridView.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				5AFFA6BC87C79D1BD7EAC5A1 /* scripture-ref-test-vectors.json */,
+				1E5C72A0488C44D78B129EAB /* rich-content-filter-test-vectors.json */,
 			);
 			name = docs;
 			path = ../docs;
@@ -320,6 +323,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CADEFB96F3EC104FAEFAE3B3 /* scripture-ref-test-vectors.json in Resources */,
+				9C7DA1F2B4F84A55E5A37BD0 /* rich-content-filter-test-vectors.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

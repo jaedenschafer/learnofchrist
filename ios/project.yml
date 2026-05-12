@@ -71,6 +71,12 @@ targets:
       # ScriptureRefTests can load them via Bundle(for: Self.self).
       - path: ../docs/scripture-ref-test-vectors.json
         buildPhase: resources
+      # Same idea for filterContent — RichContentFilterTests drives the
+      # Swift filter through these vectors, and the TS twin
+      # (src/data/study-chapters/__tests__/filter.test.ts) drives the
+      # web filter through the identical set.
+      - path: ../docs/rich-content-filter-test-vectors.json
+        buildPhase: resources
     dependencies:
       - target: LearnOfChrist
     settings:

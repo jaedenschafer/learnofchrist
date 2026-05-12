@@ -1,0 +1,430 @@
+{
+  "_comment": "Shared test vectors for filterContent(level, audience). Drives identical test suites in TypeScript (src/data/study-chapters/__tests__/filter.spec.ts) and Swift (ios/LearnOfChristTests/RichContentFilterTests.swift). Both runtimes MUST agree on every case in this file.\n\nFormat: each `case` has `input` (a RichChapterContent), `level`, `audience`, and `expected` (the filtered RichChapterContent). Fields not relevant to a case are omitted to keep the fixture readable.\n\nWhen adding a new case: explain in `description` what edge it exercises, and verify both runtimes accept it before committing.",
+  "cases": [
+    {
+      "name": "beginner-trims-intros-and-bottomShare",
+      "description": "At Beginner: intros truncated to 1 paragraph, bottomShare dropped, commentary/hebrew/reflection/artwork removed (they default to intermediate/deep). Scripture + christ + carry remain.",
+      "level": "beginner",
+      "audience": "adults",
+      "input": {
+        "bookSlug": "genesis",
+        "bookName": "Genesis",
+        "chapter": 1,
+        "intros": ["First paragraph.", "Second paragraph.", "Third paragraph."],
+        "sections": [
+          {
+            "title": "Day 1",
+            "blocks": [
+              { "kind": "scripture", "chapter": 1, "lines": [{ "number": 1, "spans": [{ "kind": "text", "text": "In the beginning..." }] }] },
+              { "kind": "commentary", "id": "c1", "html": "<p>Commentary.</p>" },
+              { "kind": "christ", "id": "ch1", "title": "Christ", "html": "<p>Christ.</p>" },
+              { "kind": "carry", "html": "<p>Carry into your day.</p>" },
+              { "kind": "hebrew", "id": "h1", "title": "tehom", "script": "תְהוֹם", "translit": "tehom", "description": "The deep." },
+              { "kind": "reflection", "id": "r1", "prompt": "What does this mean?" },
+              { "kind": "artwork", "caption": "Plate." }
+            ]
+          }
+        ],
+        "bottomShare": { "quote": "Q", "snippet": "S", "ref": "Gen 1" }
+      },
+      "expected": {
+        "bookSlug": "genesis",
+        "bookName": "Genesis",
+        "chapter": 1,
+        "intros": ["First paragraph."],
+        "sections": [
+          {
+            "title": "Day 1",
+            "blocks": [
+              { "kind": "scripture", "chapter": 1, "lines": [{ "number": 1, "spans": [{ "kind": "text", "text": "In the beginning..." }] }] },
+              { "kind": "christ", "id": "ch1", "title": "Christ", "html": "<p>Christ.</p>" },
+              { "kind": "carry", "html": "<p>Carry into your day.</p>" }
+            ]
+          }
+        ]
+      }
+    },
+
+    {
+      "name": "intermediate-keeps-commentary-strips-deep",
+      "description": "At Intermediate: commentary survives. Hebrew / reflection / artwork drop. Intros + bottomShare preserved (only Beginner trims them).",
+      "level": "intermediate",
+      "audience": "adults",
+      "input": {
+        "bookSlug": "genesis",
+        "bookName": "Genesis",
+        "chapter": 1,
+        "intros": ["First.", "Second."],
+        "sections": [
+          {
+            "blocks": [
+              { "kind": "commentary", "id": "c1", "html": "<p>Comm.</p>" },
+              { "kind": "hebrew", "id": "h1", "title": "tehom", "script": "תְהוֹם", "translit": "tehom", "description": "deep" },
+              { "kind": "reflection", "id": "r1", "prompt": "Why?" },
+              { "kind": "artwork", "caption": "art" }
+            ]
+          }
+        ],
+        "bottomShare": { "quote": "Q", "snippet": "S", "ref": "Gen 1" }
+      },
+      "expected": {
+        "bookSlug": "genesis",
+        "bookName": "Genesis",
+        "chapter": 1,
+        "intros": ["First.", "Second."],
+        "sections": [
+          {
+            "blocks": [
+              { "kind": "commentary", "id": "c1", "html": "<p>Comm.</p>" }
+            ]
+          }
+        ],
+        "bottomShare": { "quote": "Q", "snippet": "S", "ref": "Gen 1" }
+      }
+    },
+
+    {
+      "name": "deep-keeps-everything",
+      "description": "Deep: every block kind survives. Intros + bottomShare preserved.",
+      "level": "deep",
+      "audience": "adults",
+      "input": {
+        "bookSlug": "psalms",
+        "bookName": "Psalms",
+        "chapter": 23,
+        "intros": ["Only paragraph."],
+        "sections": [
+          {
+            "blocks": [
+              { "kind": "scripture", "chapter": 23, "lines": [{ "number": 1, "spans": [{ "kind": "text", "text": "The Lord is..." }] }] },
+              { "kind": "commentary", "id": "c1", "html": "<p>c.</p>" },
+              { "kind": "hebrew", "id": "h1", "title": "raah", "script": "רֹעִי", "translit": "ro'i", "description": "shepherd" }
+            ]
+          }
+        ]
+      },
+      "expected": {
+        "bookSlug": "psalms",
+        "bookName": "Psalms",
+        "chapter": 23,
+        "intros": ["Only paragraph."],
+        "sections": [
+          {
+            "blocks": [
+              { "kind": "scripture", "chapter": 23, "lines": [{ "number": 1, "spans": [{ "kind": "text", "text": "The Lord is..." }] }] },
+              { "kind": "commentary", "id": "c1", "html": "<p>c.</p>" },
+              { "kind": "hebrew", "id": "h1", "title": "raah", "script": "רֹעִי", "translit": "ro'i", "description": "shepherd" }
+            ]
+          }
+        ]
+      }
+    },
+
+    {
+      "name": "dangling-mark-demoted-to-text",
+      "description": "At Beginner, commentary block is filtered out. A scripture mark pointing at its id must demote to plain text so taps don't scroll to nothing.",
+      "level": "beginner",
+      "audience": "adults",
+      "input": {
+        "bookSlug": "john",
+        "bookName": "John",
+        "chapter": 1,
+        "intros": ["Intro."],
+        "sections": [
+          {
+            "blocks": [
+              {
+                "kind": "scripture",
+                "chapter": 1,
+                "lines": [
+                  {
+                    "number": 1,
+                    "spans": [
+                      { "kind": "text", "text": "In the beginning was " },
+                      { "kind": "mark", "tone": "hp", "text": "the Word", "jumpTo": "c-the-word" },
+                      { "kind": "text", "text": "." }
+                    ]
+                  }
+                ]
+              },
+              { "kind": "commentary", "id": "c-the-word", "html": "<p>The Word is Christ.</p>" }
+            ]
+          }
+        ]
+      },
+      "expected": {
+        "bookSlug": "john",
+        "bookName": "John",
+        "chapter": 1,
+        "intros": ["Intro."],
+        "sections": [
+          {
+            "blocks": [
+              {
+                "kind": "scripture",
+                "chapter": 1,
+                "lines": [
+                  {
+                    "number": 1,
+                    "spans": [
+                      { "kind": "text", "text": "In the beginning was " },
+                      { "kind": "text", "text": "the Word" },
+                      { "kind": "text", "text": "." }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+
+    {
+      "name": "empty-section-dropped",
+      "description": "A section whose only non-divider blocks all get filtered out is dropped entirely.",
+      "level": "beginner",
+      "audience": "adults",
+      "input": {
+        "bookSlug": "genesis",
+        "bookName": "Genesis",
+        "chapter": 1,
+        "intros": ["Intro."],
+        "sections": [
+          { "title": "Keep me", "blocks": [{ "kind": "scripture", "chapter": 1, "lines": [{ "number": 1, "spans": [{ "kind": "text", "text": "v" }] }] }] },
+          { "title": "Drop me", "blocks": [{ "kind": "commentary", "id": "c1", "html": "<p>c</p>" }, { "kind": "hebrew", "id": "h1", "title": "x", "script": "x", "translit": "x", "description": "x" }] },
+          { "title": "Only divider survives — drop", "blocks": [{ "kind": "divider" }, { "kind": "commentary", "id": "c2", "html": "<p>c</p>" }] }
+        ]
+      },
+      "expected": {
+        "bookSlug": "genesis",
+        "bookName": "Genesis",
+        "chapter": 1,
+        "intros": ["Intro."],
+        "sections": [
+          { "title": "Keep me", "blocks": [{ "kind": "scripture", "chapter": 1, "lines": [{ "number": 1, "spans": [{ "kind": "text", "text": "v" }] }] }] }
+        ]
+      }
+    },
+
+    {
+      "name": "minLevel-override-promotes-block",
+      "description": "A commentary block with minLevel='deep' is hidden at Intermediate even though commentary defaults to Intermediate.",
+      "level": "intermediate",
+      "audience": "adults",
+      "input": {
+        "bookSlug": "romans",
+        "bookName": "Romans",
+        "chapter": 1,
+        "intros": ["Intro."],
+        "sections": [
+          {
+            "blocks": [
+              { "kind": "commentary", "id": "c-deep", "html": "<p>Deep only.</p>", "minLevel": "deep" },
+              { "kind": "commentary", "id": "c-standard", "html": "<p>Standard.</p>" }
+            ]
+          }
+        ]
+      },
+      "expected": {
+        "bookSlug": "romans",
+        "bookName": "Romans",
+        "chapter": 1,
+        "intros": ["Intro."],
+        "sections": [
+          {
+            "blocks": [
+              { "kind": "commentary", "id": "c-standard", "html": "<p>Standard.</p>" }
+            ]
+          }
+        ]
+      }
+    },
+
+    {
+      "name": "audience-youth-strips-hideForYouth",
+      "description": "Youth audience: blocks marked hideForYouth=true are dropped. Adults pass through unchanged.",
+      "level": "deep",
+      "audience": "youth",
+      "input": {
+        "bookSlug": "ephesians",
+        "bookName": "Ephesians",
+        "chapter": 5,
+        "intros": ["Adult intro."],
+        "sections": [
+          {
+            "blocks": [
+              { "kind": "commentary", "id": "c-marriage", "html": "<p>Marriage commentary.</p>", "hideForYouth": true },
+              { "kind": "commentary", "id": "c-general", "html": "<p>General commentary.</p>" }
+            ]
+          }
+        ]
+      },
+      "expected": {
+        "bookSlug": "ephesians",
+        "bookName": "Ephesians",
+        "chapter": 5,
+        "intros": ["Adult intro."],
+        "sections": [
+          {
+            "blocks": [
+              { "kind": "commentary", "id": "c-general", "html": "<p>General commentary.</p>" }
+            ]
+          }
+        ]
+      }
+    },
+
+    {
+      "name": "audience-youth-applies-overrides-all-four-kinds",
+      "description": "Youth audience: youthOverride content swaps in on commentary (html), christ (title+html), carry (html), reflection (prompt). Adults version of each is the input; expected reflects the override.",
+      "level": "deep",
+      "audience": "youth",
+      "input": {
+        "bookSlug": "proverbs",
+        "bookName": "Proverbs",
+        "chapter": 3,
+        "intros": ["Adult intro."],
+        "sections": [
+          {
+            "blocks": [
+              { "kind": "commentary", "id": "c1", "html": "<p>Adult commentary.</p>", "youthOverride": { "html": "<p>Teen commentary.</p>" } },
+              { "kind": "christ", "id": "ch1", "title": "Adult Christ", "html": "<p>Adult Christ html.</p>", "youthOverride": { "title": "Teen Christ", "html": "<p>Teen Christ html.</p>" } },
+              { "kind": "carry", "html": "<p>Adult carry.</p>", "youthOverride": { "html": "<p>Teen carry.</p>" } },
+              { "kind": "reflection", "id": "r1", "prompt": "Adult reflection?", "youthOverride": { "prompt": "Teen reflection?" } }
+            ]
+          }
+        ]
+      },
+      "expected": {
+        "bookSlug": "proverbs",
+        "bookName": "Proverbs",
+        "chapter": 3,
+        "intros": ["Adult intro."],
+        "sections": [
+          {
+            "blocks": [
+              { "kind": "commentary", "id": "c1", "html": "<p>Teen commentary.</p>", "youthOverride": { "html": "<p>Teen commentary.</p>" } },
+              { "kind": "christ", "id": "ch1", "title": "Teen Christ", "html": "<p>Teen Christ html.</p>", "youthOverride": { "title": "Teen Christ", "html": "<p>Teen Christ html.</p>" } },
+              { "kind": "carry", "html": "<p>Teen carry.</p>", "youthOverride": { "html": "<p>Teen carry.</p>" } },
+              { "kind": "reflection", "id": "r1", "prompt": "Teen reflection?", "youthOverride": { "prompt": "Teen reflection?" } }
+            ]
+          }
+        ]
+      }
+    },
+
+    {
+      "name": "audience-youth-uses-chapter-level-overrides",
+      "description": "Youth audience: chapter-level content.youth.intros and content.youth.bottomShare replace the adult versions when authored.",
+      "level": "deep",
+      "audience": "youth",
+      "input": {
+        "bookSlug": "1-peter",
+        "bookName": "1 Peter",
+        "chapter": 1,
+        "intros": ["Adult intro."],
+        "sections": [
+          {
+            "blocks": [
+              { "kind": "scripture", "chapter": 1, "lines": [{ "number": 1, "spans": [{ "kind": "text", "text": "v1" }] }] }
+            ]
+          }
+        ],
+        "bottomShare": { "quote": "Adult Q", "snippet": "S", "ref": "1 Pet 1" },
+        "youth": {
+          "intros": ["Teen intro."],
+          "bottomShare": { "quote": "Teen Q", "snippet": "S", "ref": "1 Pet 1" }
+        }
+      },
+      "expected": {
+        "bookSlug": "1-peter",
+        "bookName": "1 Peter",
+        "chapter": 1,
+        "intros": ["Teen intro."],
+        "sections": [
+          {
+            "blocks": [
+              { "kind": "scripture", "chapter": 1, "lines": [{ "number": 1, "spans": [{ "kind": "text", "text": "v1" }] }] }
+            ]
+          }
+        ],
+        "bottomShare": { "quote": "Teen Q", "snippet": "S", "ref": "1 Pet 1" },
+        "youth": {
+          "intros": ["Teen intro."],
+          "bottomShare": { "quote": "Teen Q", "snippet": "S", "ref": "1 Pet 1" }
+        }
+      }
+    },
+
+    {
+      "name": "audience-kids-is-noop",
+      "description": "Kids audience is a no-op on RichChapterContent (kids uses a separate schema and route). Filter returns the input unchanged at every level.",
+      "level": "deep",
+      "audience": "kids",
+      "input": {
+        "bookSlug": "genesis",
+        "bookName": "Genesis",
+        "chapter": 1,
+        "intros": ["Adult intro."],
+        "sections": [
+          {
+            "blocks": [
+              { "kind": "commentary", "id": "c1", "html": "<p>Adult commentary.</p>", "hideForYouth": true }
+            ]
+          }
+        ]
+      },
+      "expected": {
+        "bookSlug": "genesis",
+        "bookName": "Genesis",
+        "chapter": 1,
+        "intros": ["Adult intro."],
+        "sections": [
+          {
+            "blocks": [
+              { "kind": "commentary", "id": "c1", "html": "<p>Adult commentary.</p>", "hideForYouth": true }
+            ]
+          }
+        ]
+      }
+    },
+
+    {
+      "name": "level-then-audience-stacked",
+      "description": "Audience runs first, then level. A youth-only block is dropped before the level filter sees it; a deep-only block is dropped after youth has already swapped overrides.",
+      "level": "intermediate",
+      "audience": "youth",
+      "input": {
+        "bookSlug": "1-corinthians",
+        "bookName": "1 Corinthians",
+        "chapter": 7,
+        "intros": ["Adult.", "Adult two."],
+        "sections": [
+          {
+            "blocks": [
+              { "kind": "commentary", "id": "c-marriage", "html": "<p>Marriage.</p>", "hideForYouth": true },
+              { "kind": "commentary", "id": "c-general", "html": "<p>Adult general.</p>", "youthOverride": { "html": "<p>Teen general.</p>" } },
+              { "kind": "hebrew", "id": "h-only-deep", "title": "x", "script": "x", "translit": "x", "description": "x" }
+            ]
+          }
+        ],
+        "youth": { "intros": ["Teen intro."] }
+      },
+      "expected": {
+        "bookSlug": "1-corinthians",
+        "bookName": "1 Corinthians",
+        "chapter": 7,
+        "intros": ["Teen intro."],
+        "sections": [
+          {
+            "blocks": [
+              { "kind": "commentary", "id": "c-general", "html": "<p>Teen general.</p>", "youthOverride": { "html": "<p>Teen general.</p>" } }
+            ]
+          }
+        ],
+        "youth": { "intros": ["Teen intro."] }
+      }
+    }
+  ]
+}
