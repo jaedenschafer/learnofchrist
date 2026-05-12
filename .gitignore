@@ -24,6 +24,16 @@
 .DS_Store
 *.pem
 
+# Apple signing keys — NEVER commit these. Sign in with Apple .p8 files,
+# distribution certs, provisioning profiles. The .p8 in particular is a
+# private RSA key and Apple lets you download it exactly once, so a
+# repo leak is permanent and forces a key rotation.
+*.p8
+*.p12
+*.cer
+*.mobileprovision
+ios/AuthKey_*.p8
+
 # debug
 npm-debug.log*
 yarn-debug.log*
