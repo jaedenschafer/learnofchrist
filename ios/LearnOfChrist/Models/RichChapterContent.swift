@@ -604,8 +604,15 @@ struct ChapterMapPlace: Codable, Sendable, Hashable {
 // Only the fields the author wants to swap need to be set; everything else
 // falls through to the canonical chapter fields. Adults always get the
 // canonical chapter; Kids uses a separate schema entirely.
+//
+// NOTE — Hashable/Equatable intentionally omitted: BottomShare doesn't
+// conform to either, and Swift can't synthesize them through an
+// optional non-conforming field. We don't compare YouthOverrides
+// instances or use them as Set/Dictionary keys anywhere, so the
+// conformances would be dead weight. Add them (along with Hashable on
+// BottomShare) when a real consumer needs them.
 
-struct YouthOverrides: Codable, Sendable, Hashable {
+struct YouthOverrides: Codable, Sendable {
     /// Replacement intros (full list, not patch).
     let intros: [String]?
     /// Replacement bottom-share card.
