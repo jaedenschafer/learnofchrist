@@ -9,6 +9,12 @@ import {
   useState,
   type ReactNode,
 } from 'react';
+import {
+  DEFAULT_STUDY_LEVEL,
+  STUDY_LEVEL_STORAGE_KEY,
+  isStudyLevel,
+  type StudyLevel as ReaderStudyLevel,
+} from './readerPrefs';
 
 /**
  * Study depth — Beginner / Intermediate / Deep Dive.
@@ -17,8 +23,12 @@ import {
  * and the rich study guide (which filters Blocks via `minLevel` per the
  * defaultMinLevel rule). Same enum, one source of truth, syncs to Supabase
  * for cross-device parity.
+ *
+ * Persistence key / default / valid values live in `./readerPrefs.ts`
+ * (the shared schema iOS + Android mirror); this context owns the React
+ * lifecycle (hydration from localStorage, print-time elevation, etc).
  */
-export type StudyLevel = 'beginner' | 'intermediate' | 'deep';
+export type StudyLevel = ReaderStudyLevel;
 
 /** Numeric rank for comparing levels — higher means "more depth". */
 export const LEVEL_RANK: Record<StudyLevel, number> = {
@@ -71,22 +81,17 @@ export const STUDY_LEVELS = [
   },
 ] as const;
 
-const STORAGE_KEY = 'loc-study-level';
-
-// Default for new readers: Intermediate. Beginner risks training people that
-// the site is shallow; Deep Dive risks a wall-of-text first impression.
-const DEFAULT_LEVEL: StudyLevel = 'intermediate';
-
-const isStudyLevel = (v: unknown): v is StudyLevel =>
-  v === 'beginner' || v === 'intermediate' || v === 'deep';
+// STORAGE_KEY / DEFAULT_LEVEL / isStudyLevel moved to ./readerPrefs.ts
+// so the iOS and Android clients can mirror them byte-for-byte. This
+// module re-uses them via the imports above.
 
 export function StudyLevelProvider({ children }: { children: ReactNode }) {
-  const [level, setLevelState] = useState<StudyLevel>(DEFAULT_LEVEL);
+  const [level, setLevelState] = useState<StudyLevel>(DEFAULT_STUDY_LEVEL);
 
   // Hydrate from localStorage on mount.
   useEffect(() => {
     try {
-      const saved = localStorage.getItem(STORAGE_KEY);
+      const saved = localStorage.getItem(STUDY_LEVEL_STORAGE_KEY);
       if (isStudyLevel(saved)) setLevelState(saved);
     } catch {
       /* private mode etc. — fall back to default */
@@ -128,7 +133,7 @@ export function StudyLevelProvider({ children }: { children: ReactNode }) {
   const setLevel = useCallback((next: StudyLevel) => {
     setLevelState(next);
     try {
-      localStorage.setItem(STORAGE_KEY, next);
+      localStorage.setItem(STUDY_LEVEL_STORAGE_KEY, next);
     } catch {
       /* user just won't have persistence */
     }

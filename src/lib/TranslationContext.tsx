@@ -9,15 +9,21 @@ import {
   useState,
   type ReactNode,
 } from 'react';
+import {
+  DEFAULT_TRANSLATION,
+  PUBLIC_DOMAIN_TRANSLATIONS,
+  TRANSLATION_STORAGE_KEY,
+  isKnownTranslation,
+} from './readerPrefs';
 
 interface TranslationContextType {
   currentTranslation: string;
   setTranslation: (abbr: string) => void;
-  availableTranslations: { abbreviation: string; name: string }[];
+  availableTranslations: readonly { abbreviation: string; name: string }[];
 }
 
 const TranslationContext = createContext<TranslationContextType>({
-  currentTranslation: 'kjv',
+  currentTranslation: DEFAULT_TRANSLATION,
   setTranslation: () => {},
   availableTranslations: [],
 });
@@ -26,27 +32,17 @@ export function useTranslation() {
   return useContext(TranslationContext);
 }
 
-// All public domain translations. KJV stays at the top as the default; the
-// rest are alphabetised by full name so the dropdown is easy to scan.
-const KJV = { abbreviation: 'kjv', name: 'King James Version' };
-const REST = [
-  { abbreviation: 'asv', name: 'American Standard Version' },
-  { abbreviation: 'bsb', name: 'Berean Standard Bible' },
-  { abbreviation: 'dra', name: 'Douay-Rheims American' },
-  { abbreviation: 'jst', name: 'Joseph Smith Translation' },
-  { abbreviation: 'lsv', name: 'Literal Standard Version' },
-  { abbreviation: 'nwt', name: 'New World Translation' },
-  { abbreviation: 'web', name: 'World English Bible' },
-].sort((a, b) => a.name.localeCompare(b.name));
-const PUBLIC_DOMAIN_TRANSLATIONS = [KJV, ...REST];
+// The translation catalog / storage key / default live in
+// `./readerPrefs.ts` so the iOS and Android clients can mirror them
+// byte-for-byte. This module owns the React state lifecycle.
 
 export function TranslationProvider({ children }: { children: ReactNode }) {
-  const [currentTranslation, setCurrentTranslation] = useState('kjv');
+  const [currentTranslation, setCurrentTranslation] = useState<string>(DEFAULT_TRANSLATION);
 
   // Load saved preference from localStorage
   useEffect(() => {
-    const saved = localStorage.getItem('loc-translation');
-    if (saved && PUBLIC_DOMAIN_TRANSLATIONS.some(t => t.abbreviation === saved)) {
+    const saved = localStorage.getItem(TRANSLATION_STORAGE_KEY);
+    if (isKnownTranslation(saved)) {
       setCurrentTranslation(saved);
     }
   }, []);
@@ -54,7 +50,7 @@ export function TranslationProvider({ children }: { children: ReactNode }) {
   const setTranslation = useCallback((abbr: string) => {
     setCurrentTranslation(abbr);
     try {
-      localStorage.setItem('loc-translation', abbr);
+      localStorage.setItem(TRANSLATION_STORAGE_KEY, abbr);
     } catch {}
   }, []);
 

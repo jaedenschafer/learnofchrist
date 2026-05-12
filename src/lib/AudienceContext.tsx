@@ -27,6 +27,12 @@ import {
  */
 
 import type { Audience } from '@/data/study-chapters/types';
+import {
+  AUDIENCE_LOCK_STORAGE_KEY,
+  AUDIENCE_STORAGE_KEY,
+  DEFAULT_AUDIENCE,
+  isAudience,
+} from './readerPrefs';
 export type { Audience };
 
 interface AudienceContextType {
@@ -68,15 +74,9 @@ export const AUDIENCES = [
   },
 ] as const;
 
-const STORAGE_KEY = 'loc-audience';
-const LOCK_KEY = 'loc-audience-lock';
-
-// Default for new readers: Adults. Most visitors are adults; teens and
-// parents-with-kids will pick their audience explicitly.
-const DEFAULT_AUDIENCE: Audience = 'adults';
-
-const isAudience = (v: unknown): v is Audience =>
-  v === 'adults' || v === 'youth' || v === 'kids';
+// STORAGE_KEY / LOCK_KEY / DEFAULT_AUDIENCE / isAudience moved to
+// ./readerPrefs.ts so the iOS and Android clients can mirror them
+// byte-for-byte. This module re-uses them via the imports above.
 
 export function AudienceProvider({ children }: { children: ReactNode }) {
   const [audience, setAudienceState] = useState<Audience>(DEFAULT_AUDIENCE);
@@ -85,9 +85,9 @@ export function AudienceProvider({ children }: { children: ReactNode }) {
   // Hydrate from localStorage on mount.
   useEffect(() => {
     try {
-      const saved = localStorage.getItem(STORAGE_KEY);
+      const saved = localStorage.getItem(AUDIENCE_STORAGE_KEY);
       if (isAudience(saved)) setAudienceState(saved);
-      const lock = localStorage.getItem(LOCK_KEY);
+      const lock = localStorage.getItem(AUDIENCE_LOCK_STORAGE_KEY);
       if (lock === '1') {
         setLockedState(true);
         setAudienceState('kids');
@@ -109,7 +109,7 @@ export function AudienceProvider({ children }: { children: ReactNode }) {
       if (locked && next !== 'kids') return;
       setAudienceState(next);
       try {
-        localStorage.setItem(STORAGE_KEY, next);
+        localStorage.setItem(AUDIENCE_STORAGE_KEY, next);
       } catch {
         /* user just won't have persistence */
       }
@@ -121,9 +121,9 @@ export function AudienceProvider({ children }: { children: ReactNode }) {
     setLockedState(next);
     try {
       if (next) {
-        localStorage.setItem(LOCK_KEY, '1');
+        localStorage.setItem(AUDIENCE_LOCK_STORAGE_KEY, '1');
       } else {
-        localStorage.removeItem(LOCK_KEY);
+        localStorage.removeItem(AUDIENCE_LOCK_STORAGE_KEY);
       }
     } catch {
       /* ignore */
@@ -132,7 +132,7 @@ export function AudienceProvider({ children }: { children: ReactNode }) {
       // Force kids when the lock flips on.
       setAudienceState('kids');
       try {
-        localStorage.setItem(STORAGE_KEY, 'kids');
+        localStorage.setItem(AUDIENCE_STORAGE_KEY, 'kids');
       } catch {
         /* ignore */
       }
