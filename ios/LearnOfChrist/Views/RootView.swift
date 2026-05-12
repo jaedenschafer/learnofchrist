@@ -1,19 +1,23 @@
 // RootView.swift
 // ────────────────────────────────────────────────────────────────────────────
-// App-level shell. Two tabs:
+// App-level shell. Four tabs:
 //
-//   1. Read    — book grid → chapter picker → reader
-//   2. Library — your activity (continue reading, notes, highlights, bookmarks)
+//   1. Home    — editorial landing: hero, Continue Reading, quickstart.
+//   2. Bible   — book grid → chapter picker → reader
+//   3. Library — your activity (continue reading, notes, highlights, bookmarks)
+//   4. Settings — appearance, reading prefs, account.
 //
 // Each tab owns its own NavigationStack so back-stacks don't leak
-// between tabs. Both stacks attach the same .bibleNavigationDestinations()
-// modifier — anything that links to a BibleBook or a ChapterRoute
-// resolves the same way regardless of where in the app it was tapped.
+// between tabs. All stacks attach `.bibleNavigationDestinations()`
+// so a `ChapterRoute(bookSlug:chapter:)` resolves the same way from
+// any tap origin (Home Continue card, Bible book grid, Library
+// bookmark, deep link, etc).
 
 import SwiftUI
 
 struct RootView: View {
-    @State private var readPath = NavigationPath()
+    @State private var homePath = NavigationPath()
+    @State private var biblePath = NavigationPath()
     @State private var libraryPath = NavigationPath()
 
     @AppStorage(AppearancePreferences.Key.colorScheme)
@@ -25,11 +29,23 @@ struct RootView: View {
 
     var body: some View {
         TabView {
-            NavigationStack(path: $readPath) {
+            NavigationStack(path: $homePath) {
+                HomeView()
+                    .bibleNavigationDestinations()
+                    .navigationDestination(for: BrowseDestination.self) { dest in
+                        switch dest {
+                        case .bible:   BookGridView()
+                        case .library: LibraryView()
+                        }
+                    }
+            }
+            .tabItem { Label("Home", systemImage: "house") }
+
+            NavigationStack(path: $biblePath) {
                 BookGridView()
                     .bibleNavigationDestinations()
             }
-            .tabItem { Label("Read", systemImage: "book.closed") }
+            .tabItem { Label("Bible", systemImage: "book.closed") }
 
             NavigationStack(path: $libraryPath) {
                 LibraryView()

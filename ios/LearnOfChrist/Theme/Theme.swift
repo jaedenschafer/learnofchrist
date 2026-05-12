@@ -65,13 +65,30 @@ enum Theme {
 
     enum font {
         /// Largest editorial display — chapter title hero, hero card.
-        static let display    = Font.system(.largeTitle, design: .serif).weight(.semibold)
+        /// Editorial hero — used for the home-screen wordmark moment.
+        /// Comes in HUGE on purpose; we want a "Find God in the story."
+        /// scale presence on the Home tab, not a fits-on-one-line nav
+        /// title. SwiftUI dynamic type still scales this respectfully.
+        static let hero       = Font.system(size: 52, weight: .semibold, design: .serif)
+        /// Display — chapter title hero, book name on the chapter screen.
+        /// Bigger than .largeTitle by design to match the web's editorial
+        /// hierarchy.
+        static let display    = Font.system(size: 40, weight: .semibold, design: .serif)
         /// Section heading inside a chapter — "Light", "The Beginning".
         static let title      = Font.system(.title2, design: .serif).weight(.semibold)
+        /// Smaller serif used for callout titles (Christ Connection,
+        /// Carry, Reflect) — keeps the editorial flavor without
+        /// shouting at the reader.
+        static let calloutTitle = Font.system(.headline, design: .serif).weight(.semibold)
         /// Card / row title.
         static let cardTitle  = Font.system(.headline)
-        /// Default reading body text.
-        static let body       = Font.system(.body)
+        /// Default reading body text — serif, slightly larger than
+        /// system body to match the printed-page feel of the web.
+        static let body       = Font.system(.body, design: .serif)
+        /// Sans-serif body for UI chrome that shouldn't read like prose
+        /// (buttons, tab bars, settings rows). Kept distinct from
+        /// `.body` so we can tune them independently.
+        static let uiBody     = Font.system(.body)
         /// Slightly tighter body — used inside callouts and metadata.
         static let callout    = Font.system(.callout)
         /// Caption — verse numbers, refs, chips.
