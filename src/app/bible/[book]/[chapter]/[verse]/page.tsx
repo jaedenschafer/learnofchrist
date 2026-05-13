@@ -107,10 +107,10 @@ export default async function VersePage({ params }: VersePageProps) {
         {/* Verse Header */}
         <div className="card mb-4">
           <span className="pill pill-gold mb-3 inline-block">{explanation.reference}</span>
-          <h1 className="font-serif text-2xl sm:text-3xl font-bold text-navy mb-4 leading-tight">
+          <h1 className="font-serif text-2xl sm:text-3xl font-bold text-navy mb-4 leading-tight break-words">
             {explanation.reference}
           </h1>
-          <blockquote className="font-serif text-lg sm:text-xl text-navy/85 leading-relaxed italic border-l-[3px] border-gold/40 pl-4">
+          <blockquote className="font-serif text-base sm:text-xl text-navy/85 leading-relaxed italic border-l-[3px] border-gold/40 pl-3 sm:pl-4">
             &ldquo;{explanation.kjvText}&rdquo;
           </blockquote>
           <p className="text-sm text-navy/40 mt-3">King James Version (KJV)</p>
@@ -118,11 +118,11 @@ export default async function VersePage({ params }: VersePageProps) {
 
         {/* Translation Switcher note */}
         <div className="card mb-4 !py-3">
-          <div className="flex items-center justify-between">
+          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
             <p className="text-sm text-navy/50">
               Read this verse in context with translation switching:
             </p>
-            <Link href={`/bible/${book}/${chapter}`} className="text-sm font-semibold text-gold hover:text-gold/80 transition-colors">
+            <Link href={`/bible/${book}/${chapter}`} className="text-sm font-semibold text-gold hover:text-gold/80 transition-colors whitespace-nowrap">
               Read Full Chapter &rarr;
             </Link>
           </div>
@@ -192,10 +192,10 @@ export default async function VersePage({ params }: VersePageProps) {
                     <Link
                       key={key}
                       href={`/bible/${key}`}
-                      className="card-grouped-item flex items-center gap-3 group"
+                      className="card-grouped-item flex items-center gap-2 sm:gap-3 group min-w-0"
                     >
-                      <span className="pill pill-gold text-xs">{related.reference}</span>
-                      <span className="text-sm text-navy/50 flex-1 truncate">{related.kjvText.slice(0, 60)}...</span>
+                      <span className="pill pill-gold text-xs flex-shrink-0">{related.reference}</span>
+                      <span className="text-sm text-navy/50 flex-1 truncate min-w-0">{related.kjvText.slice(0, 60)}...</span>
                       <svg className="w-4 h-4 text-navy/20 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
                     </Link>
                   );

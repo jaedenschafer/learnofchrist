@@ -73,7 +73,7 @@ export default async function BookPage({ params }: BookPageProps) {
       <div className="max-w-3xl mx-auto">
         <BreadcrumbNav items={[{ label: 'Bible', href: '/bible' }, { label: book_obj.name, href: '#' }]} />
 
-        <div className="bg-[color:var(--color-surface)] rounded-3xl p-6 mb-6">
+        <div className="bg-[color:var(--color-surface)] rounded-3xl p-4 sm:p-6 mb-6">
           <span className={`inline-block text-[0.75rem] font-medium px-3 py-1 rounded-full mb-3 ${
             book_obj.testament === 'apocrypha'
               ? 'text-[#AF52DE] bg-[#AF52DE]/[0.08]'
@@ -81,7 +81,7 @@ export default async function BookPage({ params }: BookPageProps) {
           }`}>
             {book_obj.testament === 'old' ? 'Old Testament' : book_obj.testament === 'apocrypha' ? 'Deuterocanonical' : 'New Testament'}
           </span>
-          <h1 className="text-3xl sm:text-4xl font-bold text-[color:var(--color-label)] tracking-tight mb-3">{book_obj.name}</h1>
+          <h1 className="text-2xl sm:text-4xl font-bold text-[color:var(--color-label)] tracking-tight mb-3 break-words">{book_obj.name}</h1>
           <p className="text-[0.9375rem] text-[color:var(--color-secondary-label)] leading-relaxed mb-4">{book_obj.description}</p>
           <div className="flex gap-2 flex-wrap">
             <span className="text-[0.8125rem] font-medium text-[color:var(--color-primary)] px-3 py-1 rounded-full">{book_obj.chapters} Chapters</span>
@@ -95,7 +95,7 @@ export default async function BookPage({ params }: BookPageProps) {
         <div className="px-1 mb-2">
           <p className="text-[0.8125rem] font-semibold text-[color:var(--color-secondary-label)]">Select a Chapter to Read</p>
         </div>
-        <div className="grid grid-cols-4 sm:grid-cols-5 md:grid-cols-6 gap-2">
+        <div className="grid grid-cols-5 sm:grid-cols-6 md:grid-cols-8 gap-2">
           {Array.from({ length: book_obj.chapters }, (_, i) => i + 1).map((chapter) => (
             <Link
               key={chapter}

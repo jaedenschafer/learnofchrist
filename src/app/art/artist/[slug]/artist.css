@@ -55,10 +55,14 @@
 }
 
 .artist-hero__text {
-  padding: 1.75rem 1.5rem 1.5rem;
+  padding: 1.5rem 1.125rem 1.25rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+@media (min-width: 540px) {
+  .artist-hero__text { padding: 1.75rem 1.5rem 1.5rem; }
 }
 
 @media (min-width: 768px) {
@@ -334,11 +338,18 @@ html[data-reader-theme="dark"] .artist-hero__art-caption {
 .artist-section__p:first-of-type::first-letter {
   font-family: var(--font-serif), Georgia, serif;
   float: left;
-  font-size: 3.4rem;
+  font-size: 2.75rem;
   line-height: 0.95;
   font-weight: 600;
-  margin: 0.18rem 0.5rem 0 0;
+  margin: 0.18rem 0.4rem 0 0;
   color: var(--color-label);
+}
+
+@media (min-width: 540px) {
+  .artist-section__p:first-of-type::first-letter {
+    font-size: 3.4rem;
+    margin: 0.18rem 0.5rem 0 0;
+  }
 }
 
 /* ── Bible scenes ────────────────────────────────────────────────── */
@@ -532,8 +543,12 @@ html[data-reader-theme="dark"] .artist-hero__art-caption {
   background: var(--color-warm-subtle);
   border: 1px solid color-mix(in srgb, var(--color-warm) 60%, var(--color-separator));
   border-radius: 20px;
-  padding: 1.75rem 1.75rem 1.5rem;
+  padding: 1.25rem 1.125rem 1rem;
   margin: 0 0 3.25rem;
+}
+
+@media (min-width: 540px) {
+  .artist-faith { padding: 1.75rem 1.75rem 1.5rem; }
 }
 
 @media (min-width: 768px) {
@@ -676,6 +691,7 @@ html[data-reader-theme="dark"] .artist-faith {
   padding: 0.625rem 1rem;
   /* Tap-target on mobile / app shells. */
   min-height: 40px;
+  max-width: 100%;
   border: 1px solid var(--color-separator);
   border-radius: 999px;
   background: var(--color-surface);
@@ -684,6 +700,9 @@ html[data-reader-theme="dark"] .artist-faith {
   font-size: 0.875rem;
   font-weight: 500;
   -webkit-tap-highlight-color: transparent;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
   transition: border-color 0.15s ease, transform 0.15s ease,
               box-shadow 0.15s ease;
 }

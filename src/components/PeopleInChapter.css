@@ -126,3 +126,19 @@
     max-width: 100%;
   }
 }
+
+/* Narrow phones — shrink so the rail doesn't push past the viewport
+ * when a card is expanded. */
+@media (max-width: 540px) {
+  .people__card {
+    flex: 0 0 14.5rem;
+    max-width: 14.5rem;
+    padding: 0.85rem 0.9rem 0.9rem;
+  }
+  .people__card[data-expanded='1'] {
+    flex: 0 0 18rem;
+    max-width: 18rem;
+  }
+  .people__name { font-size: 1rem; }
+  .people__bio { font-size: 0.9rem; }
+}

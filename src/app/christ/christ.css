@@ -213,3 +213,46 @@
   text-decoration: none;
 }
 .christ-chapter__link:hover { text-decoration: underline; }
+
+/* ─── Mobile (≤ 540px) — tighten paddings and font sizes so the
+       hub fits comfortably on a 360–414px phone viewport. ─── */
+@media (max-width: 540px) {
+  .christ-hub {
+    padding: 1.25rem 0 2.5rem;
+  }
+  .christ-hub__header {
+    margin-bottom: 1.6rem;
+    padding-bottom: 1.2rem;
+  }
+  .christ-hub__lede {
+    font-size: 1rem;
+    line-height: 1.55;
+  }
+  .christ-hub__grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 0.5rem;
+  }
+  .christ-hub__card {
+    padding: 0.65rem 0.75rem;
+  }
+  .christ-hub__card-name {
+    font-size: 0.95rem;
+  }
+  .christ-hub__section {
+    margin-bottom: 1.8rem;
+  }
+  .christ-chapter {
+    padding: 0.9rem 0.95rem 1rem;
+  }
+  .christ-chapter__head {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .christ-chapter__title {
+    font-size: 1.02rem;
+  }
+  .christ-chapter__summary {
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+}

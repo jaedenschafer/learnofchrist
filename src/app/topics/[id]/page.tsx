@@ -78,7 +78,7 @@ export default async function TopicPage({ params }: TopicPageProps) {
 
           {/* Header */}
           <div className="frost-card mb-4">
-            <h1 className="text-3xl sm:text-4xl font-bold text-[color:var(--color-label)] tracking-tight mb-2">{topic.name}</h1>
+            <h1 className="text-2xl sm:text-4xl font-bold text-[color:var(--color-label)] tracking-tight mb-2 break-words">{topic.name}</h1>
             <p className="text-sm text-[color:var(--color-secondary-label)] leading-relaxed">{topic.description}</p>
           </div>
 
@@ -173,7 +173,7 @@ export default async function TopicPage({ params }: TopicPageProps) {
             <div className="cta-banner">
               <h2 className="text-lg font-bold mb-1">Continue Your Study</h2>
               <p className="text-xs opacity-70 mb-3">Explore more topics and deepen your understanding of Scripture.</p>
-              <div className="flex gap-2 justify-center">
+              <div className="flex flex-col sm:flex-row gap-2 justify-center">
                 <Link href="/topics" className="btn-secondary">All Topics</Link>
                 <Link href="/bible" className="btn-primary">Study the Bible</Link>
               </div>

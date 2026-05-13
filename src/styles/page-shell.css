@@ -102,12 +102,25 @@
 .lop-hero__title {
   font-family: 'EB Garamond', 'New York', Georgia, serif;
   font-weight: 500;
-  font-size: clamp(2.5rem, 6vw, 4.5rem);
-  line-height: 1.02;
+  font-size: clamp(2rem, 6vw, 4.5rem);
+  line-height: 1.05;
   letter-spacing: -0.025em;
   color: var(--vesper-compline);
   margin: 0.5rem 0 1.25rem;
   text-wrap: balance;
+  overflow-wrap: break-word;
+}
+
+/* On small phones the hardcoded <br> in titles can leave odd gaps;
+   collapse it so the title flows naturally to the available width. */
+@media (max-width: 540px) {
+  .lop-hero__title br {
+    display: none;
+  }
+  .lop-hero__pane {
+    padding: 1.75rem 1.25rem;
+    border-radius: 26px;
+  }
 }
 
 .lop-hero__sub {
@@ -736,6 +749,34 @@ html[data-reader-theme="dark"] .lop-card__quote-cite {
   gap: 0.6rem;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+/* Mobile tightening for shared page-shell sections. */
+@media (max-width: 540px) {
+  .lop-closer {
+    min-height: auto;
+    padding: 3rem 0 3.5rem;
+  }
+  .lop-closer__pane {
+    padding: 1.75rem 1.25rem;
+    border-radius: 24px;
+  }
+  .lop-closer__ctas .btn-primary,
+  .lop-closer__ctas .btn-outline {
+    flex: 1 1 100%;
+    text-align: center;
+  }
+  .lop-feature__body {
+    padding: 1.25rem;
+  }
+  .lop-card {
+    padding: 1.25rem;
+    border-radius: 22px;
+  }
+  .lop-list-card {
+    padding: 1.1rem;
+    border-radius: 20px;
+  }
 }
 
 /* ─── 7. Dark theme ────────────────────────────────────────────────── */

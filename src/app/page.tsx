@@ -134,7 +134,7 @@ export default async function Home() {
         <div className="loc-hero__inner">
           <p className="loc-hero__eyebrow">A free Bible study, beautifully made.</p>
           <h1 className="loc-hero__title">
-            Find God<br />in the story.
+            Find God<br />{' '}in the story.
           </h1>
           <p className="loc-hero__sub">
             One narrative runs from Genesis to Revelation. Read every chapter,

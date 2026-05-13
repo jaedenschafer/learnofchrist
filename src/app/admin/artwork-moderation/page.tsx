@@ -100,7 +100,7 @@ export default async function ArtworkModerationPage() {
     <div style={{ background: '#F5F5F7', minHeight: '100vh' }}>
       <header
         style={{
-          padding: '24px 20px 0',
+          padding: '24px 16px 0',
           maxWidth: 1100,
           margin: '0 auto',
         }}
@@ -119,7 +119,7 @@ export default async function ArtworkModerationPage() {
         </p>
         <h1
           style={{
-            fontSize: 28,
+            fontSize: 'clamp(22px, 5vw, 28px)',
             fontWeight: 700,
             color: '#1D1D1F',
             margin: '4px 0 6px',
@@ -145,8 +145,9 @@ export default async function ArtworkModerationPage() {
         <div
           style={{
             maxWidth: 560,
-            margin: '40px auto',
-            padding: 24,
+            margin: '40px 16px',
+            marginInline: 'auto',
+            padding: 'clamp(16px, 4vw, 24px)',
             background: '#fff',
             borderRadius: 20,
             border: '1px solid rgba(0,0,0,0.06)',

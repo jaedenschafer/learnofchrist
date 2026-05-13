@@ -104,7 +104,7 @@ export default async function AccountPage() {
           <h2 className="text-[1.125rem] font-semibold text-[color:var(--color-label)] mb-3">
             Your library
           </h2>
-          <div className="rounded-2xl border border-[color:var(--color-separator)] bg-[color:var(--color-surface)] p-6">
+          <div className="rounded-2xl border border-[color:var(--color-separator)] bg-[color:var(--color-surface)] p-4 sm:p-6">
             <p className="text-[0.9375rem] text-[color:var(--color-secondary-label)]">
               Bookmarks, saved artworks, and private notes will appear here as
               you build your library across Learn of Christ. Sync is active on

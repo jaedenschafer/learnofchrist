@@ -239,7 +239,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         </div>
 
         {/* Title */}
-        <h1 className="font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-[color:var(--color-label)] mb-5 leading-tight">
+        <h1 className="font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-[color:var(--color-label)] mb-5 leading-tight break-words">
           {post.title}
         </h1>
 
@@ -445,7 +445,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
             <h2 className="font-sans text-lg font-semibold text-[color:var(--color-label)] mb-4 px-1">
               Related Articles
             </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
               {relatedPosts.map((related) =>
                 related ? (
                   <Link

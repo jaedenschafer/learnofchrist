@@ -2280,3 +2280,106 @@ html[data-reader-theme="dark"] .loc-closer__pane {
     inset 0 1px 0 rgba(245, 240, 230, 0.08),
     0 24px 60px -22px rgba(0, 0, 0, 0.65);
 }
+
+/* ─── Mobile (<=540px) — final tuning pass ───────────────────────────────
+   At 360–414px the hero title needs to step down from its 56px minimum,
+   the section vertical rhythm needs to relax so we don't waste a full
+   100svh on each band, and a few interior rows (closer choices, plan
+   cards) need wrap/padding fixes so nothing pokes outside the gutter. */
+@media (max-width: 540px) {
+  /* Shrink the display type ladder so headlines aren't 56px on a 360px screen. */
+  :root {
+    --loc-h1: clamp(2.5rem, 11vw, 3.5rem);
+    --loc-h2: clamp(1.875rem, 7.5vw, 2.5rem);
+    --loc-h3: clamp(1.25rem, 5.5vw, 1.625rem);
+    --loc-section-y: clamp(3rem, 12vw, 4.5rem);
+  }
+
+  /* Sections fill ~100svh by default. On a phone that's wasted real
+     estate between heading and content — let them size to content. */
+  .loc-dash,
+  .loc-resources,
+  .loc-mission,
+  .loc-plans,
+  .loc-blog,
+  .loc-closer {
+    min-height: 0 !important;
+    justify-content: flex-start !important;
+  }
+
+  /* Hero: shrink the headline to a phone-comfortable size while keeping
+     its serif character; pull the bottom padding up so the gradient
+     veil still has room for the CTA. */
+  .loc-hero {
+    min-height: 520px;
+    height: 88svh;
+  }
+  .loc-hero__title {
+    font-size: var(--loc-h1);
+    max-width: 100%;
+    letter-spacing: -0.022em;
+  }
+  .loc-hero__eyebrow { margin-bottom: 1rem; }
+  .loc-hero__sub {
+    font-size: 1rem;
+    margin-bottom: 1.75rem;
+  }
+  .loc-hero__inner {
+    padding-bottom: clamp(3rem, 9vw, 4.25rem);
+  }
+
+  /* Plan cards: tighten padding + drop the min-height so the column
+     doesn't feel like a tall ladder on a small screen. */
+  .loc-plan-card {
+    padding: 1.25rem 1.15rem 1.15rem;
+    min-height: 0;
+  }
+  .loc-plan-card__title { font-size: 1.25rem; }
+  .loc-plan-card__copy {
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+  }
+
+  /* Closer pane: allow each "01 · John 1 · The Word made flesh" row to
+     wrap on narrow widths so longer subtitles don't squeeze out of the
+     pill. The right-aligned sub drops to a new line if needed. */
+  .loc-closer__pane {
+    padding: clamp(1.5rem, 6vw, 2rem);
+    border-radius: 28px;
+  }
+  .loc-closer__choice {
+    flex-wrap: wrap;
+    gap: 0.5rem 0.75rem;
+    padding: 0.75rem 0.875rem;
+    border-radius: 18px;
+  }
+  .loc-closer__choice-sub {
+    flex: 1 1 100%;
+    text-align: left;
+    padding-left: 2.25rem; /* align under the name, past the "01" prefix */
+    color: var(--frost-text-muted);
+  }
+  .loc-closer__title { margin-bottom: 1.5rem; }
+  .loc-closer__choices { margin: 1.25rem 0; }
+  .loc-closer__cta {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* Resources arches caption: bring it tighter to the band on mobile. */
+  .loc-arches__caption { margin-top: 1rem; padding-inline: var(--loc-gutter); }
+
+  /* Blog header — the "All posts →" link wraps below the title on
+     narrow phones so it doesn't fight for space. */
+  .loc-blog__head { align-items: flex-start; margin-bottom: 1.75rem; }
+  .loc-blog__see-all { margin-top: 0.25rem; }
+
+  /* Buttons feel chunky at 0.95rem padding inside a 360px column. */
+  .loc-btn,
+  .loc-btn--solid,
+  .loc-btn--ghost,
+  .loc-btn--outline {
+    padding: 0.85rem 1.5rem;
+    font-size: 0.9375rem;
+  }
+}

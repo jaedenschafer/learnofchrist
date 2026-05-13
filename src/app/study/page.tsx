@@ -66,7 +66,7 @@ export default function StudyIndexPage() {
           <div className="absolute -top-24 -right-16 w-72 h-72 rounded-full blur-3xl pointer-events-none" />
           <div className="absolute -bottom-24 -left-16 w-72 h-72 rounded-full blur-3xl pointer-events-none" />
 
-          <div className="relative px-6 sm:px-10 py-10 sm:py-14 text-center">
+          <div className="relative px-4 sm:px-10 py-8 sm:py-14 text-center">
             <span className="hero-pill inline-block text-[0.6875rem] font-semibold text-[color:var(--vesper-gold)] backdrop-blur-sm px-3 py-1 rounded-full uppercase tracking-[0.1em] mb-5">
               Study · Reflect · Grow
             </span>
@@ -95,7 +95,7 @@ export default function StudyIndexPage() {
               </Link>
             </div>
 
-            <div className="flex flex-wrap items-center justify-center gap-x-5 gap-y-2 text-[0.8125rem] text-[color:var(--color-label)]">
+            <div className="flex flex-wrap items-center justify-center gap-x-3 sm:gap-x-5 gap-y-2 text-[0.75rem] sm:text-[0.8125rem] text-[color:var(--color-label)]">
               <div className="flex items-center gap-1.5">
                 <span className="font-semibold text-[color:var(--color-label)]">1,320</span>
                 <span className="text-[color:var(--color-secondary-label)]">study guides</span>

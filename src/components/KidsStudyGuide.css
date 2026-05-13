@@ -381,3 +381,33 @@
   justify-content: center;
   margin: 2.5rem 0 1rem;
 }
+
+/* Mobile — tighter spacing, smaller heads, slimmer Q-bubble inset. */
+@media (max-width: 540px) {
+  .kids-study { font-size: 1.0625rem; }
+  .kids-section__title { font-size: 1.25rem; }
+  .kids-section + .kids-section { margin-top: 2rem; }
+  .kids-big-idea,
+  .kids-key-word,
+  .kids-try-this,
+  .kids-pray-together,
+  .kids-parent-note {
+    padding: 0.95rem 1rem;
+  }
+  .kids-memory-verse {
+    padding: 1.15rem 1rem;
+  }
+  .kids-memory-verse__text { font-size: 1.0625rem; }
+  .kids-big-idea__body p { font-size: 1.0625rem; }
+  .kids-key-word__word { font-size: 1.25rem; }
+  .kids-talk-together li {
+    padding: 0.7rem 0 0.7rem 2.35rem;
+    font-size: 1rem;
+  }
+  .kids-talk-together li::before {
+    width: 1.7rem;
+    height: 1.7rem;
+    top: 0.75rem;
+    font-size: 0.8125rem;
+  }
+}

@@ -116,12 +116,12 @@ export default async function StudyPlanPage({ params }: StudyPlanPageProps) {
 
         {/* CTA */}
         <div className="cta-banner mt-6">
-          <h2 className="font-serif text-2xl font-bold mb-3">Ready to Begin?</h2>
+          <h2 className="font-serif text-xl sm:text-2xl font-bold mb-3">Ready to Begin?</h2>
           <p className="text-sm opacity-55 max-w-sm mx-auto mb-6">
             Start with Day 1 and let God&apos;s Word transform your understanding one chapter at a time.
           </p>
-          <Link href={plan.days[0].readingLink} className="btn-primary">
-            Start Day 1: {plan.days[0].reading}
+          <Link href={plan.days[0].readingLink} className="btn-primary max-w-full text-center">
+            <span className="break-words">Start Day 1: {plan.days[0].reading}</span>
           </Link>
         </div>
 

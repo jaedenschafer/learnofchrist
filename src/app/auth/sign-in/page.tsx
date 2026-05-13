@@ -28,7 +28,7 @@ export default async function SignInPage({
   return (
     <div className="page-container">
       <div className="max-w-md mx-auto">
-        <div className="rounded-2xl border border-[color:var(--color-separator)] bg-[color:var(--color-surface)] p-8">
+        <div className="rounded-2xl border border-[color:var(--color-separator)] bg-[color:var(--color-surface)] p-6 sm:p-8">
           <h1 className="text-[1.5rem] font-semibold text-[color:var(--color-label)]">
             Sign in
           </h1>

@@ -81,7 +81,7 @@ export default async function QuestionPage({ params }: QuestionPageProps) {
           {/* Header */}
           <div className="frost-card mb-4">
             <span className="inline-block text-xs font-medium text-[color:var(--color-primary)] px-3 py-1 rounded-full mb-3">{question.category}</span>
-            <h1 className="text-2xl sm:text-3xl font-bold text-[color:var(--color-label)] tracking-tight">{question.question}</h1>
+            <h1 className="text-2xl sm:text-3xl font-bold text-[color:var(--color-label)] tracking-tight break-words">{question.question}</h1>
           </div>
 
           <div className="space-y-3">
@@ -157,7 +157,7 @@ export default async function QuestionPage({ params }: QuestionPageProps) {
             <div className="cta-banner">
               <h2 className="text-lg font-bold mb-1">Have More Questions?</h2>
               <p className="text-xs opacity-70 mb-3">Explore more answers to common questions about Jesus and the Christian faith.</p>
-              <div className="flex gap-2 justify-center">
+              <div className="flex flex-col sm:flex-row gap-2 justify-center">
                 <Link href="/questions" className="btn-secondary">All Questions</Link>
                 <Link href="/bible" className="btn-primary">Study the Bible</Link>
               </div>

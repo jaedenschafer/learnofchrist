@@ -582,6 +582,11 @@ html.js .rich-study .scripture.visible mark {
   .rich-study .subtitle { font-size: 18px; }
   .rich-study h2.section { font-size: 24px; }
   .rich-study .scripture { padding: 1.25rem 1.15rem 1.15rem; }
+  .rich-study .hebrew,
+  .rich-study .christ {
+    padding: 1.35rem 1.15rem 1.2rem;
+    border-radius: 22px;
+  }
   .rich-study .hebrew .script { font-size: 2.2rem; }
   .rich-study .intro:first-of-type::first-letter { font-size: 52px; }
   .rich-study .verse-section .scripture { top: 104px; }

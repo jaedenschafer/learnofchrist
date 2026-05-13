@@ -192,7 +192,7 @@ export default async function ArtworkReviewPage() {
           </p>
           <h1
             style={{
-              fontSize: 22,
+              fontSize: 'clamp(20px, 5vw, 22px)',
               fontWeight: 700,
               color: '#1D1D1F',
               margin: '2px 0 0',
@@ -277,8 +277,9 @@ export default async function ArtworkReviewPage() {
 
 const setupCardStyle: React.CSSProperties = {
   maxWidth: 560,
-  margin: '40px auto',
-  padding: 28,
+  margin: '40px 16px',
+  marginInline: 'auto',
+  padding: 'clamp(18px, 4vw, 28px)',
   background: '#fff',
   borderRadius: 20,
   border: '1px solid rgba(0,0,0,0.06)',

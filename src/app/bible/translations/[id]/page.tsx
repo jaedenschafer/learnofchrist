@@ -44,7 +44,7 @@ export default async function TranslationPage({ params }: { params: Promise<Para
     <main className="min-h-screen bg-[var(--color-bg)]">
       {/* Breadcrumb + Hero */}
       <div className="frost-card border-b border-[color:var(--frost-border-card)]">
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
           <BreadcrumbNav items={[
             { label: 'Home', href: '/' },
             { label: 'Bible', href: '/bible' },
@@ -52,12 +52,12 @@ export default async function TranslationPage({ params }: { params: Promise<Para
             { label: t.name },
           ]} />
 
-          <div className="mt-8">
-            <div className="flex items-center gap-3 mb-4">
+          <div className="mt-6 sm:mt-8">
+            <div className="flex items-center gap-3 mb-4 flex-wrap">
               <span className="frost-chip">{t.abbreviation}</span>
               <span className="text-[0.8125rem] text-[color:var(--color-secondary-label)]">{t.year}</span>
             </div>
-            <h1 className="font-sans text-3xl sm:text-4xl font-bold text-[color:var(--color-label)]">{t.fullName}</h1>
+            <h1 className="font-sans text-2xl sm:text-4xl font-bold text-[color:var(--color-label)] break-words">{t.fullName}</h1>
 
             <div className="flex flex-wrap gap-2 mt-4">
               <span className="text-[0.75rem] font-medium px-2.5 py-0.5 rounded-full frost-chip text-[color:var(--frost-text)]">{t.tradition}</span>
@@ -65,7 +65,7 @@ export default async function TranslationPage({ params }: { params: Promise<Para
               <span className="text-[0.75rem] font-medium px-2.5 py-0.5 rounded-full frost-chip text-[color:var(--frost-text)]">{t.language}</span>
             </div>
 
-            <Link href={t.readLink} className="btn-primary">
+            <Link href={t.readLink} className="btn-primary mt-6 inline-flex">
               Start Reading in {t.abbreviation}
             </Link>
           </div>
@@ -73,15 +73,15 @@ export default async function TranslationPage({ params }: { params: Promise<Para
       </div>
 
       {/* Content */}
-      <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-8">
+      <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 space-y-6 sm:space-y-8">
         {/* Description */}
-        <div className="frost-card shadow-sm p-8">
+        <div className="frost-card shadow-sm p-5 sm:p-8">
           <p className="text-base text-[color:var(--frost-text-soft)] leading-relaxed">{t.description}</p>
         </div>
 
         {/* Sample Verse */}
-        <div className="frost-card shadow-sm p-8">
-          <h2 className="font-sans text-xl font-bold text-[color:var(--color-label)] mb-6">Sample Verse</h2>
+        <div className="frost-card shadow-sm p-5 sm:p-8">
+          <h2 className="font-sans text-xl font-bold text-[color:var(--color-label)] mb-4 sm:mb-6">Sample Verse</h2>
           <div className="frost-pill --block border-l-4 border-[color:var(--vesper-gold)]">
             <p className="text-[0.8125rem] font-medium text-[color:var(--color-primary)] mb-2">{t.sampleVerse.reference}</p>
             <p className="text-base text-[color:var(--color-label)] leading-relaxed italic">&ldquo;{t.sampleVerse.text}&rdquo;</p>
@@ -89,8 +89,8 @@ export default async function TranslationPage({ params }: { params: Promise<Para
         </div>
 
         {/* History */}
-        <div className="frost-card shadow-sm p-8">
-          <h2 className="font-sans text-xl font-bold text-[color:var(--color-label)] mb-6">History</h2>
+        <div className="frost-card shadow-sm p-5 sm:p-8">
+          <h2 className="font-sans text-xl font-bold text-[color:var(--color-label)] mb-4 sm:mb-6">History</h2>
           <div className="space-y-4">
             {t.history.map((paragraph, i) => (
               <p key={i} className="text-[0.9375rem] text-[color:var(--frost-text-soft)] leading-relaxed">{paragraph}</p>
@@ -99,8 +99,8 @@ export default async function TranslationPage({ params }: { params: Promise<Para
         </div>
 
         {/* Key Features */}
-        <div className="bg-[color:var(--color-surface)] rounded-2xl shadow-sm p-8">
-          <h2 className="font-sans text-xl font-bold text-[color:var(--color-label)] mb-6">Key Features</h2>
+        <div className="bg-[color:var(--color-surface)] rounded-2xl shadow-sm p-5 sm:p-8">
+          <h2 className="font-sans text-xl font-bold text-[color:var(--color-label)] mb-4 sm:mb-6">Key Features</h2>
           <ul className="space-y-3">
             {t.features.map((feature, i) => (
               <li key={i} className="flex items-start gap-3">
@@ -112,9 +112,9 @@ export default async function TranslationPage({ params }: { params: Promise<Para
         </div>
 
         {/* Best For */}
-        <div className="bg-[color:var(--color-surface)] rounded-2xl shadow-sm p-8">
-          <h2 className="font-sans text-xl font-bold text-[color:var(--color-label)] mb-6">Best For</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <div className="bg-[color:var(--color-surface)] rounded-2xl shadow-sm p-5 sm:p-8">
+          <h2 className="font-sans text-xl font-bold text-[color:var(--color-label)] mb-4 sm:mb-6">Best For</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
             {t.bestFor.map((use, i) => (
               <div key={i} className="bg-[var(--color-bg)] rounded-lg p-4 border border-[color:var(--color-separator)]">
                 <p className="text-[0.9375rem] font-medium text-[color:var(--color-label)]">{use}</p>
@@ -124,7 +124,7 @@ export default async function TranslationPage({ params }: { params: Promise<Para
         </div>
 
         {/* Bottom CTA */}
-        <div className="bg-[color:var(--color-surface)] rounded-2xl shadow-sm p-8 text-center">
+        <div className="bg-[color:var(--color-surface)] rounded-2xl shadow-sm p-5 sm:p-8 text-center">
           <h2 className="font-sans text-xl font-bold text-[color:var(--color-label)] mb-3">Ready to explore Scripture?</h2>
           <p className="text-[0.9375rem] text-[color:var(--color-secondary-label)] mb-6 max-w-xl mx-auto">
             Start reading the {t.fullName} and discover how this translation can deepen your biblical study and spiritual growth.

@@ -173,7 +173,7 @@ export default function DeuterocanonicalBooksPage() {
     <div className="page-container">
       <JsonLd data={jsonLd} />
 
-      <div className="max-w-4xl mx-auto py-8 sm:py-12 px-4">
+      <div className="max-w-4xl mx-auto py-6 sm:py-12 px-3 sm:px-4">
         <BreadcrumbNav
           items={[
             { label: 'Study', href: '/study' },
@@ -185,10 +185,10 @@ export default function DeuterocanonicalBooksPage() {
           <p className="text-sm uppercase tracking-wide text-[color:var(--color-tertiary-label)] mb-3">
             A complete guide
           </p>
-          <h1 className="text-4xl sm:text-5xl font-bold text-[color:var(--color-label)] leading-tight tracking-tight mb-4">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[color:var(--color-label)] leading-tight tracking-tight mb-4">
             The Deuterocanonical Books
           </h1>
-          <p className="text-xl text-[color:var(--color-secondary-label)] leading-relaxed">
+          <p className="text-base sm:text-lg md:text-xl text-[color:var(--color-secondary-label)] leading-relaxed">
             Eleven books written in the centuries between the Old and New Testaments.
             Free, chapter-by-chapter study guides for each — {totalChapters} chapters in
             all, every one with KJV scripture, original-language callouts, and Christ-centered
@@ -197,7 +197,7 @@ export default function DeuterocanonicalBooksPage() {
         </header>
 
         <section className="prose-section mb-10">
-          <h2 className="text-2xl font-bold text-[color:var(--color-label)] mb-4">
+          <h2 className="text-xl sm:text-2xl font-bold text-[color:var(--color-label)] mb-4">
             What are the deuterocanonical books?
           </h2>
           <div className="text-[color:var(--color-secondary-label)] leading-relaxed space-y-4">
@@ -228,7 +228,7 @@ export default function DeuterocanonicalBooksPage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-2xl font-bold text-[color:var(--color-label)] mb-6">
+          <h2 className="text-xl sm:text-2xl font-bold text-[color:var(--color-label)] mb-6">
             The eleven books
           </h2>
           <div className="grid gap-4">
@@ -238,11 +238,11 @@ export default function DeuterocanonicalBooksPage() {
                 href={`/study/${book.slug}`}
                 className="frost-card block hover:shadow-md transition-shadow no-underline"
               >
-                <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-2 mb-2">
-                  <h3 className="text-xl font-bold text-[color:var(--color-label)]">
+                <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-1 sm:gap-2 mb-2">
+                  <h3 className="text-lg sm:text-xl font-bold text-[color:var(--color-label)]">
                     {book.name}
                   </h3>
-                  <span className="text-sm text-[color:var(--color-tertiary-label)]">
+                  <span className="text-xs sm:text-sm text-[color:var(--color-tertiary-label)]">
                     {book.chapters} chapter{book.chapters === 1 ? '' : 's'} · {book.era}
                   </span>
                 </div>
@@ -261,7 +261,7 @@ export default function DeuterocanonicalBooksPage() {
         </section>
 
         <section className="prose-section mb-10">
-          <h2 className="text-2xl font-bold text-[color:var(--color-label)] mb-4">
+          <h2 className="text-xl sm:text-2xl font-bold text-[color:var(--color-label)] mb-4">
             Why study them?
           </h2>
           <div className="text-[color:var(--color-secondary-label)] leading-relaxed space-y-4">
@@ -283,7 +283,7 @@ export default function DeuterocanonicalBooksPage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-2xl font-bold text-[color:var(--color-label)] mb-4">
+          <h2 className="text-xl sm:text-2xl font-bold text-[color:var(--color-label)] mb-4">
             Where to start
           </h2>
           <div className="text-[color:var(--color-secondary-label)] leading-relaxed space-y-3 mb-6">
@@ -317,7 +317,7 @@ export default function DeuterocanonicalBooksPage() {
         </section>
 
         <section className="frost-card mb-10">
-          <h2 className="text-xl font-bold text-[color:var(--color-label)] mb-3">
+          <h2 className="text-lg sm:text-xl font-bold text-[color:var(--color-label)] mb-3">
             About the study guides
           </h2>
           <p className="text-[color:var(--color-secondary-label)] leading-relaxed mb-3">
