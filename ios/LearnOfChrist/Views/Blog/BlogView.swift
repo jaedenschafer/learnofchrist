@@ -1,13 +1,18 @@
 // BlogView.swift
 // ────────────────────────────────────────────────────────────────────────────
-// Browse the blog posts. v1 is a frosted placeholder — same design
-// idiom as Art / Home, "coming soon" copy that explains what will
-// land here. Real fetch will pull from Supabase `blog_posts` and
-// render with MDX-aware text.
+// Blog feed. Fetches `blog_posts` via PostgREST anon read, filters to
+// status='published'. Same frosted-card design idiom as Home + Art.
+// When the server has no posts yet, falls through to a graceful
+// "nothing published yet" empty state so the screen doesn't look
+// broken on a fresh project.
 
 import SwiftUI
 
 struct BlogView: View {
+    @State private var posts: [BlogPostPreview] = []
+    @State private var error: String?
+    @State private var isLoading = false
+
     var body: some View {
         ZStack {
             BlogBackdrop()
@@ -16,8 +21,30 @@ struct BlogView: View {
             ScrollView {
                 VStack(alignment: .leading, spacing: Theme.metric.spaceXL) {
                     header
-                    placeholderCard
-                    samplePostList
+
+                    if let error {
+                        Text(error)
+                            .font(Theme.font.callout)
+                            .foregroundStyle(Theme.color.warning)
+                            .padding(Theme.metric.spaceM)
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                            .background(
+                                RoundedRectangle(cornerRadius: 16)
+                                    .fill(.ultraThinMaterial)
+                            )
+                    }
+
+                    if posts.isEmpty && isLoading {
+                        skeletonList
+                    } else if posts.isEmpty {
+                        emptyCard
+                    } else {
+                        VStack(spacing: Theme.metric.spaceM) {
+                            ForEach(posts) { post in
+                                BlogPostCard(post: post)
+                            }
+                        }
+                    }
                 }
                 .padding(.horizontal, Theme.metric.spaceL)
                 .padding(.top, Theme.metric.spaceXL)
@@ -26,7 +53,11 @@ struct BlogView: View {
         }
         .navigationTitle("")
         .toolbar(.hidden, for: .navigationBar)
+        .task { await load() }
+        .refreshable { await load() }
     }
+
+    // MARK: - Header
 
     private var header: some View {
         VStack(alignment: .leading, spacing: Theme.metric.spaceS) {
@@ -41,13 +72,49 @@ struct BlogView: View {
         }
     }
 
-    private var placeholderCard: some View {
+    // MARK: - Loading skeleton
+
+    private var skeletonList: some View {
+        VStack(spacing: Theme.metric.spaceM) {
+            ForEach(0..<3, id: \.self) { _ in
+                HStack(alignment: .top, spacing: Theme.metric.spaceM) {
+                    RoundedRectangle(cornerRadius: 12)
+                        .fill(.ultraThinMaterial)
+                        .frame(width: 96, height: 96)
+                    VStack(alignment: .leading, spacing: 6) {
+                        RoundedRectangle(cornerRadius: 4)
+                            .fill(.primary.opacity(0.18))
+                            .frame(height: 16)
+                            .frame(maxWidth: 220)
+                        RoundedRectangle(cornerRadius: 4)
+                            .fill(.primary.opacity(0.10))
+                            .frame(height: 10)
+                            .frame(maxWidth: .infinity)
+                        RoundedRectangle(cornerRadius: 4)
+                            .fill(.primary.opacity(0.10))
+                            .frame(height: 10)
+                            .frame(maxWidth: 240)
+                    }
+                    Spacer(minLength: 0)
+                }
+                .padding(Theme.metric.spaceM)
+                .background(
+                    RoundedRectangle(cornerRadius: 20)
+                        .fill(.ultraThinMaterial)
+                )
+            }
+        }
+    }
+
+    // MARK: - Empty state
+
+    private var emptyCard: some View {
         VStack(alignment: .leading, spacing: Theme.metric.spaceM) {
-            Text("COMING SOON ON iOS")
+            Text("NOTHING PUBLISHED YET")
                 .font(Theme.font.eyebrow)
                 .tracking(2)
                 .foregroundStyle(Theme.color.accent)
-            Text("Long-form essays, study breakdowns, and behind-the-scenes notes from the editor — currently live on learnofchrist.com/blog. iOS reader coming next.")
+            Text("The blog will land here once the first essay is published. We'll surface long-form study breakdowns, behind-the-scenes notes, and reader letters as they go up.")
                 .font(Theme.font.body)
                 .foregroundStyle(.primary)
                 .lineSpacing(4)
@@ -65,48 +132,101 @@ struct BlogView: View {
         )
     }
 
-    private var samplePostList: some View {
-        VStack(spacing: Theme.metric.spaceM) {
-            ForEach(0..<3, id: \.self) { _ in
-                HStack(alignment: .top, spacing: Theme.metric.spaceM) {
-                    RoundedRectangle(cornerRadius: 12)
-                        .fill(.ultraThinMaterial)
-                        .frame(width: 72, height: 72)
-                        .overlay(
-                            Image(systemName: "doc.text")
-                                .font(.system(size: 20, weight: .light))
-                                .foregroundStyle(.secondary)
-                        )
-                    VStack(alignment: .leading, spacing: 4) {
-                        RoundedRectangle(cornerRadius: 4)
-                            .fill(.primary.opacity(0.18))
-                            .frame(height: 14)
-                            .frame(maxWidth: 220)
-                        RoundedRectangle(cornerRadius: 4)
-                            .fill(.primary.opacity(0.12))
-                            .frame(height: 10)
-                            .frame(maxWidth: .infinity)
-                        RoundedRectangle(cornerRadius: 4)
-                            .fill(.primary.opacity(0.10))
-                            .frame(height: 10)
-                            .frame(maxWidth: 280)
-                    }
-                    Spacer(minLength: 0)
-                }
-                .padding(Theme.metric.spaceM)
-                .frame(maxWidth: .infinity, alignment: .leading)
-                .background(
-                    RoundedRectangle(cornerRadius: 20)
-                        .fill(.ultraThinMaterial)
-                )
-                .overlay(
-                    RoundedRectangle(cornerRadius: 20)
-                        .stroke(.primary.opacity(0.05), lineWidth: 1)
-                )
-            }
+    // MARK: - Data
+
+    private func load() async {
+        isLoading = true
+        defer { isLoading = false }
+        do {
+            self.error = nil
+            self.posts = try await BlogService.shared.listLatest(limit: 40)
+        } catch {
+            self.error = error.localizedDescription
         }
     }
 }
+
+// MARK: - Post card
+
+private struct BlogPostCard: View {
+    let post: BlogPostPreview
+
+    private static let shortDate: DateFormatter = {
+        let f = DateFormatter()
+        f.dateFormat = "MMM d"
+        return f
+    }()
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 0) {
+            if let url = post.heroURL {
+                AsyncImage(url: url) { phase in
+                    switch phase {
+                    case .empty:
+                        Rectangle()
+                            .fill(.ultraThinMaterial)
+                            .overlay(ProgressView())
+                    case .success(let image):
+                        image.resizable().scaledToFill()
+                    case .failure:
+                        Rectangle()
+                            .fill(.ultraThinMaterial)
+                            .overlay(
+                                Image(systemName: "photo")
+                                    .foregroundStyle(.secondary)
+                            )
+                    @unknown default:
+                        Rectangle().fill(.ultraThinMaterial)
+                    }
+                }
+                .frame(height: 180)
+                .frame(maxWidth: .infinity)
+                .clipShape(
+                    UnevenRoundedRectangle(
+                        topLeadingRadius: 20,
+                        bottomLeadingRadius: 0,
+                        bottomTrailingRadius: 0,
+                        topTrailingRadius: 20
+                    )
+                )
+            }
+
+            VStack(alignment: .leading, spacing: Theme.metric.spaceS) {
+                if let date = post.publishedDate {
+                    Text(Self.shortDate.string(from: date).uppercased())
+                        .font(Theme.font.eyebrow)
+                        .tracking(2)
+                        .foregroundStyle(Theme.color.accent)
+                }
+                Text(post.title)
+                    .font(.system(.title3, design: .serif).weight(.semibold))
+                    .foregroundStyle(.primary)
+                    .fixedSize(horizontal: false, vertical: true)
+                    .multilineTextAlignment(.leading)
+                if let excerpt = post.excerpt, !excerpt.isEmpty {
+                    Text(excerpt)
+                        .font(Theme.font.body)
+                        .foregroundStyle(.secondary)
+                        .lineLimit(3)
+                        .multilineTextAlignment(.leading)
+                        .fixedSize(horizontal: false, vertical: true)
+                }
+            }
+            .padding(Theme.metric.spaceL)
+            .frame(maxWidth: .infinity, alignment: .leading)
+        }
+        .background(
+            RoundedRectangle(cornerRadius: 20)
+                .fill(.ultraThinMaterial)
+        )
+        .overlay(
+            RoundedRectangle(cornerRadius: 20)
+                .stroke(.primary.opacity(0.06), lineWidth: 1)
+        )
+    }
+}
+
+// MARK: - Backdrop
 
 private struct BlogBackdrop: View {
     @Environment(\.colorScheme) private var scheme
