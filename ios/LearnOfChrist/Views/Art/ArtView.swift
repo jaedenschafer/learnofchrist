@@ -1,31 +1,67 @@
 // ArtView.swift
 // ────────────────────────────────────────────────────────────────────────────
-// Browse the chapter-artwork library. v1 is intentionally a frosted
-// "Coming soon" placeholder so the Home tab's "Explore the art library"
-// row doesn't push to an empty screen. Real implementation will:
+// Browse the chapter-artwork library. Hits Supabase PostgREST for the
+// approved subset of the `artworks` table (7,000+ works as of 2026-05),
+// renders a 2-column masonry-ish grid with AsyncImage thumbnails, and
+// hands each tile off to an artwork detail sheet on tap.
 //
-//   • Hit Supabase REST for the `artworks` table, filtered + paged.
-//   • Render a masonry-ish grid with `AsyncImage` over the public
-//     thumbnail URLs in the `art-thumbs` Supabase Storage bucket.
-//   • Per-artwork detail sheet with artist + period + linked chapter.
+// Tile design matches the frosted home — ultraThinMaterial backdrop,
+// large rounded corners, accent eyebrows on metadata.
 //
-// For now we ship the visual language (warm gradient + ultra-thin
-// material card) so users see the design direction even when there's
-// no data yet.
+// Network errors don't replace the grid; they surface as a small
+// banner at the top so the user can still scroll the grid of cached
+// or already-loaded thumbnails AsyncImage may have on disk.
 
 import SwiftUI
 
 struct ArtView: View {
+    @State private var artworks: [ArtworkPreview] = []
+    @State private var error: String?
+    @State private var isLoading = false
+    @State private var selected: ArtworkPreview?
+
+    private let columns: [GridItem] = [
+        GridItem(.flexible(), spacing: Theme.metric.spaceM),
+        GridItem(.flexible(), spacing: Theme.metric.spaceM),
+    ]
+
     var body: some View {
         ZStack {
             ArtBackdrop()
                 .ignoresSafeArea()
 
             ScrollView {
-                VStack(alignment: .leading, spacing: Theme.metric.spaceXL) {
+                VStack(alignment: .leading, spacing: Theme.metric.spaceL) {
                     header
-                    comingSoonCard
-                    sampleGalleryCard
+
+                    if let error {
+                        Text(error)
+                            .font(Theme.font.callout)
+                            .foregroundStyle(Theme.color.warning)
+                            .padding(Theme.metric.spaceM)
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                            .background(
+                                RoundedRectangle(cornerRadius: 16)
+                                    .fill(.ultraThinMaterial)
+                            )
+                    }
+
+                    if artworks.isEmpty && isLoading {
+                        skeletonGrid
+                    } else if artworks.isEmpty {
+                        emptyCard
+                    } else {
+                        LazyVGrid(columns: columns, spacing: Theme.metric.spaceM) {
+                            ForEach(artworks) { artwork in
+                                Button {
+                                    selected = artwork
+                                } label: {
+                                    ArtworkTile(artwork: artwork)
+                                }
+                                .buttonStyle(.plain)
+                            }
+                        }
+                    }
                 }
                 .padding(.horizontal, Theme.metric.spaceL)
                 .padding(.top, Theme.metric.spaceXL)
@@ -34,7 +70,14 @@ struct ArtView: View {
         }
         .navigationTitle("")
         .toolbar(.hidden, for: .navigationBar)
+        .task { await load() }
+        .refreshable { await load() }
+        .sheet(item: $selected) { art in
+            ArtworkDetailSheet(artwork: art)
+        }
     }
+
+    // MARK: - Header
 
     private var header: some View {
         VStack(alignment: .leading, spacing: Theme.metric.spaceS) {
@@ -43,73 +86,200 @@ struct ArtView: View {
                 .tracking(3)
                 .foregroundStyle(Theme.color.accent)
             Text("Scripture through\n2,000 years of art.")
-                .font(.system(size: 36, weight: .semibold, design: .serif))
+                .font(.system(size: 34, weight: .semibold, design: .serif))
                 .lineSpacing(-4)
                 .foregroundStyle(.primary)
+                .fixedSize(horizontal: false, vertical: true)
+            Text("Curated from the Met, the Rijksmuseum, Wikimedia, and the Church History collection.")
+                .font(Theme.font.callout)
+                .foregroundStyle(.secondary)
+        }
+        .padding(.bottom, Theme.metric.spaceS)
+    }
+
+    // MARK: - Skeleton (loading state)
+
+    private var skeletonGrid: some View {
+        LazyVGrid(columns: columns, spacing: Theme.metric.spaceM) {
+            ForEach(0..<8, id: \.self) { _ in
+                RoundedRectangle(cornerRadius: 20)
+                    .fill(.ultraThinMaterial)
+                    .frame(height: 220)
+                    .overlay(
+                        Image(systemName: "photo.artframe")
+                            .font(.system(size: 28, weight: .light))
+                            .foregroundStyle(.secondary)
+                    )
+            }
         }
     }
 
-    private var comingSoonCard: some View {
-        VStack(alignment: .leading, spacing: Theme.metric.spaceM) {
-            Text("COMING SOON ON iOS")
+    // MARK: - Empty state
+
+    private var emptyCard: some View {
+        VStack(alignment: .leading, spacing: Theme.metric.spaceS) {
+            Text("NOTHING TO SHOW")
                 .font(Theme.font.eyebrow)
                 .tracking(2)
-                .foregroundStyle(Theme.color.accent)
-            Text("The full art library — 1,000+ works from the Met, the Rijksmuseum, Wikimedia, and the Church History collection — is wired on the web. The iOS browse experience is on the way; each chapter's plate already renders inline in the reader.")
+                .foregroundStyle(.secondary)
+            Text("The art catalog couldn't load. Pull down to refresh.")
                 .font(Theme.font.body)
                 .foregroundStyle(.primary)
-                .lineSpacing(4)
                 .fixedSize(horizontal: false, vertical: true)
         }
         .padding(Theme.metric.spaceL)
         .frame(maxWidth: .infinity, alignment: .leading)
         .background(
-            RoundedRectangle(cornerRadius: 24)
+            RoundedRectangle(cornerRadius: 20)
                 .fill(.ultraThinMaterial)
-        )
-        .overlay(
-            RoundedRectangle(cornerRadius: 24)
-                .stroke(.primary.opacity(0.06), lineWidth: 1)
         )
     }
 
-    /// Three placeholder tiles in a row — give the user a feel of the
-    /// eventual layout without making promises about specific artworks.
-    private var sampleGalleryCard: some View {
-        VStack(alignment: .leading, spacing: Theme.metric.spaceM) {
-            Text("PREVIEW LAYOUT")
-                .font(Theme.font.eyebrow)
-                .tracking(2)
-                .foregroundStyle(.secondary)
-            HStack(spacing: Theme.metric.spaceM) {
-                ForEach(0..<3, id: \.self) { _ in
+    // MARK: - Data
+
+    private func load() async {
+        isLoading = true
+        defer { isLoading = false }
+        do {
+            self.error = nil
+            self.artworks = try await ArtService.shared.listLatest(limit: 60)
+        } catch {
+            self.error = error.localizedDescription
+        }
+    }
+}
+
+// MARK: - Tile
+
+private struct ArtworkTile: View {
+    let artwork: ArtworkPreview
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: Theme.metric.spaceS) {
+            AsyncImage(url: artwork.previewURL) { phase in
+                switch phase {
+                case .empty:
                     RoundedRectangle(cornerRadius: 16)
                         .fill(.ultraThinMaterial)
-                        .frame(height: 120)
+                        .overlay(ProgressView())
+                case .success(let image):
+                    image.resizable().scaledToFill()
+                case .failure:
+                    RoundedRectangle(cornerRadius: 16)
+                        .fill(.ultraThinMaterial)
                         .overlay(
-                            Image(systemName: "photo.artframe")
-                                .font(.system(size: 28, weight: .light))
+                            Image(systemName: "photo")
+                                .font(.system(size: 24, weight: .light))
                                 .foregroundStyle(.secondary)
                         )
-                        .overlay(
-                            RoundedRectangle(cornerRadius: 16)
-                                .stroke(.primary.opacity(0.06), lineWidth: 1)
-                        )
+                @unknown default:
+                    RoundedRectangle(cornerRadius: 16)
+                        .fill(.ultraThinMaterial)
                 }
             }
+            .frame(height: 200)
+            .frame(maxWidth: .infinity)
+            .clipShape(RoundedRectangle(cornerRadius: 16))
+
+            VStack(alignment: .leading, spacing: 2) {
+                Text(artwork.title)
+                    .font(.system(.subheadline, design: .serif).weight(.semibold))
+                    .foregroundStyle(.primary)
+                    .lineLimit(2)
+                    .multilineTextAlignment(.leading)
+                if let artist = artwork.artist_name_cached, !artist.isEmpty {
+                    Text(artist)
+                        .font(Theme.font.caption)
+                        .foregroundStyle(.secondary)
+                        .lineLimit(1)
+                }
+            }
+            .frame(maxWidth: .infinity, alignment: .leading)
         }
-        .padding(Theme.metric.spaceL)
-        .frame(maxWidth: .infinity, alignment: .leading)
+        .padding(Theme.metric.spaceS)
         .background(
-            RoundedRectangle(cornerRadius: 24)
+            RoundedRectangle(cornerRadius: 20)
                 .fill(.ultraThinMaterial)
         )
         .overlay(
-            RoundedRectangle(cornerRadius: 24)
+            RoundedRectangle(cornerRadius: 20)
                 .stroke(.primary.opacity(0.06), lineWidth: 1)
         )
     }
 }
+
+// MARK: - Detail sheet
+
+private struct ArtworkDetailSheet: View {
+    let artwork: ArtworkPreview
+    @Environment(\.dismiss) private var dismiss
+
+    private var fullURL: URL? {
+        if let s = artwork.thumbnail_800_url, let u = URL(string: s) { return u }
+        return artwork.previewURL
+    }
+
+    var body: some View {
+        NavigationStack {
+            ScrollView {
+                VStack(alignment: .leading, spacing: Theme.metric.spaceL) {
+                    AsyncImage(url: fullURL) { phase in
+                        switch phase {
+                        case .empty:
+                            Rectangle()
+                                .fill(Theme.color.fillSubtle)
+                                .frame(height: 360)
+                                .overlay(ProgressView())
+                        case .success(let image):
+                            image.resizable().scaledToFit()
+                        case .failure:
+                            Rectangle()
+                                .fill(Theme.color.fillSubtle)
+                                .frame(height: 360)
+                                .overlay(
+                                    Image(systemName: "photo")
+                                        .font(.largeTitle)
+                                        .foregroundStyle(.secondary)
+                                )
+                        @unknown default:
+                            Rectangle().fill(Theme.color.fillSubtle).frame(height: 360)
+                        }
+                    }
+                    .clipShape(RoundedRectangle(cornerRadius: 20))
+
+                    VStack(alignment: .leading, spacing: Theme.metric.spaceXS) {
+                        Text(artwork.title)
+                            .font(.system(.title2, design: .serif).weight(.semibold))
+                            .foregroundStyle(Theme.color.label)
+                            .fixedSize(horizontal: false, vertical: true)
+                        if let artist = artwork.artist_name_cached, !artist.isEmpty {
+                            Text(artist)
+                                .font(Theme.font.body)
+                                .foregroundStyle(Theme.color.secondaryLabel)
+                        }
+                        if let year = artwork.year, year != 0 {
+                            Text(String(year))
+                                .font(Theme.font.callout)
+                                .foregroundStyle(Theme.color.tertiaryLabel)
+                                .padding(.top, Theme.metric.spaceXS)
+                        }
+                    }
+                }
+                .padding(Theme.metric.spaceL)
+            }
+            .background(Theme.color.background)
+            .navigationTitle("")
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .topBarTrailing) {
+                    Button("Done") { dismiss() }
+                }
+            }
+        }
+    }
+}
+
+// MARK: - Backdrop
 
 private struct ArtBackdrop: View {
     @Environment(\.colorScheme) private var scheme

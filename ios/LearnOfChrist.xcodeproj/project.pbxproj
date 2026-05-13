@@ -33,6 +33,7 @@
 		7A1B22F08C9D4E2DA5B14401 /* SupabaseConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2C33E1F0E45D3EB6C25502 /* SupabaseConfig.swift */; };
 		7C3D44E2A1F36B4CC7D36603 /* SupabaseClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4E55F3B2046C5DD8E47704 /* SupabaseClient.swift */; };
 		7E5F66A4C3157D6EE9F58805 /* SyncService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6077B5D4268E7FFA098906 /* SyncService.swift */; };
+		F9A4B5C611559DD6EBF548F9 /* ArtService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB5C6D7266ABE7FCF559A0A /* ArtService.swift */; };
 		8A1B22F08C9D4E2DA5B14401 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2C33E1F0E45D3EB6C25502 /* Keychain.swift */; };
 		8C3D44E2A1F36B4CC7D36603 /* SupabaseSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4E55F3B2046C5DD8E47704 /* SupabaseSession.swift */; };
 		8E5F66A4C3157D6EE9F58805 /* AppleSignInCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6077B5D4268E7FFA098906 /* AppleSignInCoordinator.swift */; };
@@ -89,6 +90,7 @@
 		7B2C33E1F0E45D3EB6C25502 /* SupabaseConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupabaseConfig.swift; sourceTree = "<group>"; };
 		7D4E55F3B2046C5DD8E47704 /* SupabaseClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupabaseClient.swift; sourceTree = "<group>"; };
 		7F6077B5D4268E7FFA098906 /* SyncService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncService.swift; sourceTree = "<group>"; };
+		FAB5C6D7266ABE7FCF559A0A /* ArtService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtService.swift; sourceTree = "<group>"; };
 		8B2C33E1F0E45D3EB6C25502 /* Keychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
 		8D4E55F3B2046C5DD8E47704 /* SupabaseSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupabaseSession.swift; sourceTree = "<group>"; };
 		8F6077B5D4268E7FFA098906 /* AppleSignInCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleSignInCoordinator.swift; sourceTree = "<group>"; };
@@ -269,6 +271,7 @@
 				7B2C33E1F0E45D3EB6C25502 /* SupabaseConfig.swift */,
 				7D4E55F3B2046C5DD8E47704 /* SupabaseClient.swift */,
 				7F6077B5D4268E7FFA098906 /* SyncService.swift */,
+				FAB5C6D7266ABE7FCF559A0A /* ArtService.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -431,6 +434,7 @@
 				7A1B22F08C9D4E2DA5B14401 /* SupabaseConfig.swift in Sources */,
 				7C3D44E2A1F36B4CC7D36603 /* SupabaseClient.swift in Sources */,
 				7E5F66A4C3157D6EE9F58805 /* SyncService.swift in Sources */,
+				F9A4B5C611559DD6EBF548F9 /* ArtService.swift in Sources */,
 				8A1B22F08C9D4E2DA5B14401 /* Keychain.swift in Sources */,
 				8C3D44E2A1F36B4CC7D36603 /* SupabaseSession.swift in Sources */,
 				8E5F66A4C3157D6EE9F58805 /* AppleSignInCoordinator.swift in Sources */,
