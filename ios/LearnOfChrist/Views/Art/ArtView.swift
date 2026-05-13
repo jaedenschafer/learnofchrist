@@ -19,6 +19,7 @@ struct ArtView: View {
     @State private var error: String?
     @State private var isLoading = false
     @State private var selected: ArtworkPreview?
+    @State private var query: String = ""
 
     private let columns: [GridItem] = [
         GridItem(.flexible(), spacing: Theme.metric.spaceM),
@@ -33,6 +34,7 @@ struct ArtView: View {
             ScrollView {
                 VStack(alignment: .leading, spacing: Theme.metric.spaceL) {
                     header
+                    searchField
 
                     if let error {
                         Text(error)
@@ -70,10 +72,56 @@ struct ArtView: View {
         }
         .navigationTitle("")
         .toolbar(.hidden, for: .navigationBar)
-        .task { await load() }
-        .refreshable { await load() }
+        .task(id: debouncedQuery) { await load(for: debouncedQuery) }
+        .refreshable { await load(for: query) }
         .sheet(item: $selected) { art in
             ArtworkDetailSheet(artwork: art)
+        }
+    }
+
+    // MARK: - Search field
+
+    /// Debounced query — `task(id:)` only re-runs when this value
+    /// changes, and we set it after a short delay so each keystroke
+    /// doesn't fire a network request.
+    @State private var debouncedQuery: String = ""
+
+    private var searchField: some View {
+        HStack(spacing: Theme.metric.spaceS) {
+            Image(systemName: "magnifyingglass")
+                .font(.system(size: 14, weight: .semibold))
+                .foregroundStyle(.secondary)
+            TextField("Search artwork, artist, theme…", text: $query)
+                .textFieldStyle(.plain)
+                .submitLabel(.search)
+                .autocorrectionDisabled()
+                .textInputAutocapitalization(.never)
+                .foregroundStyle(.primary)
+            if !query.isEmpty {
+                Button {
+                    query = ""
+                    debouncedQuery = ""
+                } label: {
+                    Image(systemName: "xmark.circle.fill")
+                        .font(.system(size: 16))
+                        .foregroundStyle(.secondary)
+                }
+                .buttonStyle(.plain)
+            }
+        }
+        .padding(.horizontal, Theme.metric.spaceL)
+        .padding(.vertical, Theme.metric.spaceM)
+        .background(
+            Capsule().fill(.ultraThinMaterial)
+        )
+        .overlay(
+            Capsule().stroke(.primary.opacity(0.08), lineWidth: 1)
+        )
+        .task(id: query) {
+            // Debounce: 350ms after last keystroke.
+            try? await Task.sleep(nanoseconds: 350_000_000)
+            if Task.isCancelled { return }
+            debouncedQuery = query
         }
     }
 
@@ -117,15 +165,20 @@ struct ArtView: View {
     // MARK: - Empty state
 
     private var emptyCard: some View {
-        VStack(alignment: .leading, spacing: Theme.metric.spaceS) {
-            Text("NOTHING TO SHOW")
+        let searching = !debouncedQuery.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
+        return VStack(alignment: .leading, spacing: Theme.metric.spaceS) {
+            Text(searching ? "NO MATCHES" : "NOTHING TO SHOW")
                 .font(Theme.font.eyebrow)
                 .tracking(2)
                 .foregroundStyle(.secondary)
-            Text("The art catalog couldn't load. Pull down to refresh.")
-                .font(Theme.font.body)
-                .foregroundStyle(.primary)
-                .fixedSize(horizontal: false, vertical: true)
+            Text(
+                searching
+                ? "Try a different artist name, biblical figure, or theme. The catalog has 7,000+ approved works tagged by name, period, and subject."
+                : "The art catalog couldn't load. Pull down to refresh."
+            )
+            .font(Theme.font.body)
+            .foregroundStyle(.primary)
+            .fixedSize(horizontal: false, vertical: true)
         }
         .padding(Theme.metric.spaceL)
         .frame(maxWidth: .infinity, alignment: .leading)
@@ -137,12 +190,12 @@ struct ArtView: View {
 
     // MARK: - Data
 
-    private func load() async {
+    private func load(for query: String) async {
         isLoading = true
         defer { isLoading = false }
         do {
             self.error = nil
-            self.artworks = try await ArtService.shared.listLatest(limit: 60)
+            self.artworks = try await ArtService.shared.search(query: query, limit: 60)
         } catch {
             self.error = error.localizedDescription
         }

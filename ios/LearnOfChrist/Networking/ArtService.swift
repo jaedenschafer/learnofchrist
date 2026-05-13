@@ -66,6 +66,34 @@ actor ArtService {
         try await listLatest(limit: limit)
     }
 
+    /// Server-side substring search over `search_text` (the denormalised
+    /// title + artist + biblical theme column populated by a generated-
+    /// column trigger on the artworks table). Case-insensitive ILIKE.
+    /// PostgREST URL-encodes the pattern for us; we wrap with leading
+    /// + trailing wildcards.
+    ///
+    /// Empty `query` falls through to `listLatest` so a search bar that
+    /// debounces to nothing still shows the default grid.
+    func search(query: String, limit: Int = 60) async throws -> [ArtworkPreview] {
+        let trimmed = query.trimmingCharacters(in: .whitespacesAndNewlines)
+        guard !trimmed.isEmpty else {
+            return try await listLatest(limit: limit)
+        }
+        // PostgREST `ilike` operator: prefix value with `*` wildcards.
+        // The library URL-encodes `*` → `%2A` then PostgREST flips it
+        // back to `%` server-side. We send the pattern directly with
+        // `*` and let the URL builder escape it.
+        let pattern = "*\(trimmed)*"
+        let url = SupabaseConfig.restURL("artworks").appending(queryItems: [
+            URLQueryItem(name: "select", value: "slug,title,year,thumbnail_256_url,thumbnail_800_url,artist_name_cached"),
+            URLQueryItem(name: "moderation_status", value: "eq.approved"),
+            URLQueryItem(name: "search_text", value: "ilike.\(pattern)"),
+            URLQueryItem(name: "order", value: "created_at.desc"),
+            URLQueryItem(name: "limit", value: String(limit)),
+        ])
+        return try await fetch(url)
+    }
+
     // MARK: - Internals
 
     private func fetch(_ url: URL) async throws -> [ArtworkPreview] {

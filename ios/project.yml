@@ -41,23 +41,39 @@ targets:
       - path: LearnOfChrist
         excludes:
           - "**/.DS_Store"
+    # Full Info.plist — we can't use GENERATE_INFOPLIST_FILE because
+    # CFBundleURLTypes (array of dicts for the learnofchrist:// deep-link
+    # scheme) has no INFOPLIST_KEY_* equivalent. So we write the whole
+    # plist here and xcodegen serializes it.
+    info:
+      path: LearnOfChrist/Info.plist
+      properties:
+        CFBundleDisplayName: "Learn of Christ"
+        LSApplicationCategoryType: "public.app-category.lifestyle"
+        UILaunchScreen:
+          UIColorName: ""
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+          UISceneConfigurations: {}
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+        UISupportedInterfaceOrientations~ipad:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationPortraitUpsideDown
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+        CFBundleURLTypes:
+          - CFBundleURLName: com.learnofchrist.app.deeplink
+            CFBundleURLSchemes:
+              - learnofchrist
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.learnofchrist.app
         MARKETING_VERSION: "0.1.0"
-        CURRENT_PROJECT_VERSION: "1"
+        CURRENT_PROJECT_VERSION: "4"
         TARGETED_DEVICE_FAMILY: "1,2"        # iPhone + iPad
         SUPPORTS_MACCATALYST: NO
         SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD: NO
-        # Auto-generate Info.plist from the keys below — keeps everything
-        # in one file and avoids checking in another XML blob.
-        GENERATE_INFOPLIST_FILE: YES
-        INFOPLIST_KEY_CFBundleDisplayName: "Learn of Christ"
-        INFOPLIST_KEY_LSApplicationCategoryType: "public.app-category.lifestyle"
-        INFOPLIST_KEY_UILaunchScreen_Generation: YES
-        INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
-        INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone: "UIInterfaceOrientationPortrait"
-        INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad: "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight"
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
         ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
         # Sign in with Apple capability. The entitlements file is the
@@ -66,6 +82,31 @@ targets:
         # Identifiers & Profiles → Identifiers → com.learnofchrist.app →
         # Sign In with Apple).
         CODE_SIGN_ENTITLEMENTS: LearnOfChrist/LearnOfChrist.entitlements
+    dependencies:
+      - target: LearnOfChristWidgets
+        embed: true
+        codeSign: true
+
+  LearnOfChristWidgets:
+    type: app-extension
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - path: LearnOfChristWidgets
+        excludes:
+          - "**/.DS_Store"
+    dependencies:
+      - sdk: WidgetKit.framework
+      - sdk: SwiftUI.framework
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.learnofchrist.app.widgets
+        MARKETING_VERSION: "0.1.0"
+        CURRENT_PROJECT_VERSION: "4"
+        INFOPLIST_FILE: LearnOfChristWidgets/Info.plist
+        CODE_SIGN_ENTITLEMENTS: LearnOfChristWidgets/LearnOfChristWidgets.entitlements
+        SKIP_INSTALL: YES
+        ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES: YES
 
   LearnOfChristTests:
     type: bundle.unit-test
