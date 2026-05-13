@@ -62,14 +62,19 @@ struct BookGridView: View {
     }
 
     private func section(title: String, books: [BibleBook]) -> some View {
-        VStack(alignment: .leading, spacing: Theme.metric.spaceM) {
-            Text(title.uppercased())
-                .font(Theme.font.eyebrow)
-                .tracking(2)
-                .foregroundStyle(Theme.color.secondaryLabel)
+        VStack(alignment: .leading, spacing: Theme.metric.spaceL) {
+            VStack(alignment: .leading, spacing: 6) {
+                Text(title.uppercased())
+                    .font(Theme.font.eyebrow)
+                    .tracking(2.5)
+                    .foregroundStyle(Theme.color.accent)
+                Rectangle()
+                    .fill(Theme.color.accent.opacity(0.3))
+                    .frame(width: 40, height: 1)
+            }
 
-            let columns = [GridItem(.adaptive(minimum: 140, maximum: 220), spacing: Theme.metric.spaceS)]
-            LazyVGrid(columns: columns, alignment: .leading, spacing: Theme.metric.spaceS) {
+            let columns = [GridItem(.adaptive(minimum: 150, maximum: 220), spacing: Theme.metric.spaceM)]
+            LazyVGrid(columns: columns, alignment: .leading, spacing: Theme.metric.spaceM) {
                 ForEach(books) { book in
                     NavigationLink(value: book) {
                         BookTile(book: book)
@@ -95,24 +100,23 @@ private struct BookTile: View {
     let book: BibleBook
 
     var body: some View {
-        HStack(spacing: Theme.metric.spaceM) {
-            Text(book.abbreviation)
+        VStack(alignment: .leading, spacing: Theme.metric.spaceXS) {
+            Text(book.abbreviation.uppercased())
                 .font(Theme.font.eyebrow)
+                .tracking(1.5)
                 .foregroundStyle(Theme.color.accent)
-                .frame(width: 36, alignment: .leading)
-            VStack(alignment: .leading, spacing: 2) {
-                Text(book.name)
-                    .font(Theme.font.cardTitle)
-                    .foregroundStyle(Theme.color.label)
-                    .lineLimit(1)
-                Text("\(book.chapters) chapter\(book.chapters == 1 ? "" : "s")")
-                    .font(Theme.font.caption)
-                    .foregroundStyle(Theme.color.secondaryLabel)
-            }
-            Spacer(minLength: 0)
+            Text(book.name)
+                .font(Theme.font.calloutTitle)
+                .foregroundStyle(Theme.color.label)
+                .lineLimit(1)
+                .minimumScaleFactor(0.85)
+            Text("\(book.chapters) ch")
+                .font(Theme.font.caption)
+                .foregroundStyle(Theme.color.tertiaryLabel)
+                .padding(.top, 2)
         }
         .padding(Theme.metric.spaceM)
         .frame(maxWidth: .infinity, alignment: .leading)
-        .themeSurface()
+        .themeSurface(radius: Theme.metric.radiusMD)
     }
 }

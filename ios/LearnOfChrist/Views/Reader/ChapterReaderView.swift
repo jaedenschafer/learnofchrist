@@ -371,15 +371,15 @@ private struct BlockView: View {
         case .commentary(_, let html):
             ProseBlock(html: html)
         case .christ(_, let title, let html):
-            CalloutBlock(title: title, html: html, tone: .warmSubtle)
+            CalloutBlock(title: title, html: html, tone: .warmSubtle, eyebrow: "CHRIST CONNECTION")
         case .carry(let html):
-            CalloutBlock(title: "Carry into your day", html: html, tone: .warm)
+            CalloutBlock(title: "Carry into your day", html: html, tone: .warm, eyebrow: "CARRY")
         case .hebrew(_, let title, let script, let translit, let description):
             LanguageCallout(badge: "Hebrew", title: title, script: script, translit: translit, description: description)
         case .greek(_, let title, let script, let translit, let description):
             LanguageCallout(badge: "Greek", title: title, script: script, translit: translit, description: description)
         case .reflection(_, let prompt):
-            CalloutBlock(title: "Reflect", html: prompt, tone: .subtle)
+            CalloutBlock(title: "Take a moment", html: prompt, tone: .subtle, eyebrow: "REFLECT")
         case .artwork(_, _, _, let caption):
             ArtworkPlaceholder(caption: caption)
         case .divider:
@@ -447,28 +447,44 @@ private struct ProseBlock: View {
         Text(plainText(from: html))
             .font(Theme.font.body)
             .foregroundStyle(Theme.color.label)
+            .lineSpacing(4)
             .frame(maxWidth: .infinity, alignment: .leading)
             .padding(.vertical, Theme.metric.spaceXS)
     }
 }
 
+/// Tinted callout used for Christ Connection / Carry / Reflect blocks.
+/// Visual idiom mirrors the web: warm fill, accent eyebrow, serif title,
+/// generous padding, rounded corners. The optional `eyebrow` lets us
+/// label the block ("CHRIST CONNECTION", "CARRY", "REFLECT") in the
+/// way the web's tinted cards do, so the reader knows what role the
+/// block plays without having to infer from styling alone.
 private struct CalloutBlock: View {
     let title: String
     let html: String
     let tone: ThemeFillTone
+    var eyebrow: String? = nil
 
     var body: some View {
         VStack(alignment: .leading, spacing: Theme.metric.spaceS) {
+            if let eyebrow {
+                Text(eyebrow)
+                    .font(Theme.font.eyebrow)
+                    .tracking(2)
+                    .foregroundStyle(Theme.color.accent)
+            }
             Text(title)
-                .font(Theme.font.cardTitle)
+                .font(Theme.font.calloutTitle)
                 .foregroundStyle(Theme.color.label)
             Text(plainText(from: html))
-                .font(Theme.font.callout)
+                .font(Theme.font.body)
                 .foregroundStyle(Theme.color.label)
+                .lineSpacing(3)
+                .fixedSize(horizontal: false, vertical: true)
         }
-        .padding(Theme.metric.spaceL - 2)
+        .padding(Theme.metric.spaceL)
         .frame(maxWidth: .infinity, alignment: .leading)
-        .themeFill(tone)
+        .themeFill(tone, radius: Theme.metric.radiusLG)
     }
 }
 
@@ -480,34 +496,48 @@ private struct LanguageCallout: View {
     let description: String
 
     var body: some View {
-        VStack(alignment: .leading, spacing: Theme.metric.spaceXS + 2) {
-            HStack {
-                Text(badge.uppercased())
-                    .font(Theme.font.eyebrow)
-                    .padding(.horizontal, Theme.metric.spaceS)
-                    .padding(.vertical, 2)
-                    .background(Theme.color.accent.opacity(0.18), in: Capsule())
-                    .foregroundStyle(Theme.color.accent)
-                Text(title)
-                    .font(Theme.font.cardTitle)
+        HStack(alignment: .top, spacing: 0) {
+            // Left accent rule — the visual cue the web uses for
+            // original-language callouts. Sits flush against the
+            // tinted card and helps the reader's eye anchor the block.
+            Rectangle()
+                .fill(Theme.color.accent)
+                .frame(width: 3)
+
+            VStack(alignment: .leading, spacing: Theme.metric.spaceS) {
+                HStack(spacing: Theme.metric.spaceS) {
+                    Text(badge.uppercased())
+                        .font(Theme.font.eyebrow)
+                        .tracking(2)
+                        .padding(.horizontal, Theme.metric.spaceS)
+                        .padding(.vertical, 3)
+                        .background(Theme.color.accent.opacity(0.16), in: Capsule())
+                        .foregroundStyle(Theme.color.accent)
+                    Text(title)
+                        .font(Theme.font.calloutTitle)
+                        .foregroundStyle(Theme.color.label)
+                }
+                HStack(alignment: .firstTextBaseline, spacing: Theme.metric.spaceM) {
+                    Text(script)
+                        .font(.system(.title, design: .serif))
+                        .foregroundStyle(Theme.color.label)
+                    Text(translit)
+                        .font(.system(.subheadline, design: .serif).italic())
+                        .foregroundStyle(Theme.color.secondaryLabel)
+                }
+                Text(plainText(from: description))
+                    .font(Theme.font.body)
                     .foregroundStyle(Theme.color.label)
+                    .lineSpacing(3)
+                    .fixedSize(horizontal: false, vertical: true)
             }
-            HStack(alignment: .firstTextBaseline, spacing: Theme.metric.spaceS) {
-                Text(script)
-                    .font(.system(.title3, design: .serif))
-                    .foregroundStyle(Theme.color.label)
-                Text(translit)
-                    .font(.system(.subheadline, design: .serif).italic())
-                    .foregroundStyle(Theme.color.secondaryLabel)
-            }
-            Text(plainText(from: description))
-                .font(Theme.font.callout)
-                .foregroundStyle(Theme.color.label)
-                .padding(.top, 2)
+            .padding(Theme.metric.spaceL)
+            .frame(maxWidth: .infinity, alignment: .leading)
         }
-        .padding(Theme.metric.spaceL - 2)
-        .frame(maxWidth: .infinity, alignment: .leading)
-        .themeFill(.warmSubtle)
+        .background(
+            Theme.color.warmSubtle
+                .clipShape(RoundedRectangle(cornerRadius: Theme.metric.radiusLG))
+        )
     }
 }
 

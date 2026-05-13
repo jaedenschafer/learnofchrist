@@ -78,8 +78,15 @@ struct HomeView: View {
 
     // MARK: - Quickstart
 
+    /// Genesis is guaranteed to be in BibleBookCatalog; force-unwrap is
+    /// safe and lets us keep the call site declarative.
+    private static let genesisRoute = ChapterRoute(
+        book: BibleBookCatalog.book(for: "genesis")!,
+        chapter: 1
+    )
+
     private var quickstartBlock: some View {
-        NavigationLink(value: ChapterRoute(bookSlug: "genesis", chapter: 1)) {
+        NavigationLink(value: Self.genesisRoute) {
             HStack(spacing: Theme.metric.spaceM) {
                 VStack(alignment: .leading, spacing: 4) {
                     Text("START HERE")
@@ -149,10 +156,25 @@ private struct ContinueReadingCard: View {
             ?? progress.bookSlug.capitalized
     }
 
+    private var route: ChapterRoute? {
+        guard let book = BibleBookCatalog.book(for: progress.bookSlug) else { return nil }
+        return ChapterRoute(book: book, chapter: progress.chapter)
+    }
+
     var body: some View {
-        NavigationLink(
-            value: ChapterRoute(bookSlug: progress.bookSlug, chapter: progress.chapter)
-        ) {
+        if let route {
+            NavigationLink(value: route) { card }
+                .buttonStyle(.plain)
+        } else {
+            // Stored progress whose slug isn't in the static catalog —
+            // probably an apocryphal book or a renamed slug. Show the
+            // card non-interactively so the user doesn't see broken
+            // navigation.
+            card.opacity(0.6)
+        }
+    }
+
+    private var card: some View {
             VStack(alignment: .leading, spacing: Theme.metric.spaceM) {
                 Text("CONTINUE READING")
                     .font(Theme.font.eyebrow)
@@ -190,8 +212,6 @@ private struct ContinueReadingCard: View {
             .padding(Theme.metric.spaceL)
             .frame(maxWidth: .infinity, alignment: .leading)
             .themeFill(.warm, radius: Theme.metric.radiusLG)
-        }
-        .buttonStyle(.plain)
     }
 }
 
