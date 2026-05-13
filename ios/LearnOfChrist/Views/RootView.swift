@@ -36,6 +36,8 @@ struct RootView: View {
                         switch dest {
                         case .bible:   BookGridView()
                         case .library: LibraryView()
+                        case .art:     ArtView()
+                        case .blog:    BlogView()
                         }
                     }
             }
