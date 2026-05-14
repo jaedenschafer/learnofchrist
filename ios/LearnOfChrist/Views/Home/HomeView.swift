@@ -77,46 +77,40 @@ struct HomeView: View {
             HomeGradient().ignoresSafeArea()
 
             ScrollView {
-                LazyVStack(alignment: .leading, spacing: Theme.metric.spaceXL) {
+                LazyVStack(alignment: .leading, spacing: 14) {
 
-                    GreetingHeader(streak: streakDays)
+                    AvatarHeader()
 
-                    VerseOfDayCard()
+                    BibleInAYearHero(streak: streakDays)
+
+                    TodaysReadingCard()
+
+                    HomeSectionHeader(
+                        title: "Library",
+                        trailing: AnyView(SeeAllLink(destination: .library))
+                    )
 
                     if let progress = continueReading,
                        let route = HomeRoutes.route(for: progress) {
                         ContinueReadingCard(progress: progress, route: route)
                     }
 
-                    TodaysStudyCard()
+                    BrowseGridCard()
+
+                    OriginalLanguageCard()
+
+                    TopicsRow()
 
                     HomeSectionHeader(
-                        title: "For you",
-                        subtitle: "Chapters curated to your depth"
-                    )
-                    ForYouCarousel()
-
-                    HomeSectionHeader(title: "Browse by theme")
-                    BrowseByThemePills()
-
-                    ReadingStreakCard(streak: streakDays, history: streakHistory)
-
-                    HomeSectionHeader(
-                        title: "Sacred art",
+                        title: "Sacred Art",
                         subtitle: "Over 7,000 curated artworks"
                     )
                     SacredArtCarousel(artworks: artworks)
 
-                    QuickActionsGrid()
-
-                    ReflectionPromptCard()
-
                     if !blogPosts.isEmpty {
-                        HomeSectionHeader(title: "From the blog")
+                        HomeSectionHeader(title: "From the Blog")
                         BlogStrip(posts: blogPosts)
                     }
-
-                    ChristConnectionCard()
                 }
                 .padding(.horizontal, Theme.metric.spaceL)
                 .padding(.top, Theme.metric.spaceL)
@@ -142,22 +136,23 @@ struct HomeView: View {
     }
 }
 
-// MARK: - Background — soft pastel periwinkle gradient that lets the
-//   frosted-glass cards above feel like they're floating on a sky.
+// MARK: - Background — the F Year-Plan signature gradient: a soft
+//   135° wash from sky-blue through peach to rose. The glass tiles
+//   above feel like they're catching the warm light coming through.
 
 private struct HomeGradient: View {
     @Environment(\.colorScheme) private var scheme
     var body: some View {
         let colors: [Color] = scheme == .dark
             ? [
-                Color(red: 0.13, green: 0.14, blue: 0.22),
-                Color(red: 0.18, green: 0.16, blue: 0.26),
-                Color(red: 0.12, green: 0.12, blue: 0.22),
+                Color(red: 0.10, green: 0.10, blue: 0.16),
+                Color(red: 0.16, green: 0.12, blue: 0.20),
+                Color(red: 0.12, green: 0.10, blue: 0.16),
               ]
             : [
-                Color(red: 0.71, green: 0.76, blue: 0.93),   // periwinkle top
-                Color(red: 0.84, green: 0.79, blue: 0.92),   // mauve middle
-                Color(red: 0.74, green: 0.81, blue: 0.94),   // soft blue bottom
+                Color(red: 0.75, green: 0.82, blue: 0.94),   // sky #BFD0F0
+                Color(red: 0.95, green: 0.77, blue: 0.71),   // peach #F2C5B5
+                Color(red: 0.91, green: 0.73, blue: 0.85),   // rose #E8BBD8
               ]
         return LinearGradient(
             colors: colors,
@@ -179,18 +174,631 @@ private struct HomeSectionHeader: View {
             VStack(alignment: .leading, spacing: 2) {
                 Text(title)
                     .font(.system(.title2, design: .serif).weight(.semibold))
-                    .foregroundStyle(.primary)
+                    .foregroundStyle(FInkColors.ink900)
                 if let subtitle {
                     Text(subtitle)
                         .font(Theme.font.callout)
-                        .foregroundStyle(.secondary)
+                        .foregroundStyle(FInkColors.ink500)
                 }
             }
             Spacer()
             trailing
         }
         .padding(.horizontal, 4)
-        .padding(.top, Theme.metric.spaceS)
+        .padding(.top, 12)
+    }
+}
+
+// MARK: - F Year-Plan palette tokens
+//
+// Centralized so every new component pulls from the same palette
+// instead of hex-literal-by-component drift. Mirrors the CSS variables
+// on the design's web reference.
+
+enum FInkColors {
+    static let ink900   = Color(red: 0.106, green: 0.094, blue: 0.188)   // #1B1830
+    static let ink700   = Color(red: 0.227, green: 0.208, blue: 0.329)   // #3A3554
+    static let ink500   = Color(red: 0.420, green: 0.396, blue: 0.522)   // #6B6585
+    static let ink400   = Color(red: 0.545, green: 0.525, blue: 0.635)   // #8B86A2
+    static let ink300   = Color(red: 0.671, green: 0.655, blue: 0.741)   // #ABA7BD
+}
+
+enum FLavender {
+    static let l600 = Color(red: 0.373, green: 0.306, blue: 0.580)   // #5F4E94
+    static let l500 = Color(red: 0.494, green: 0.424, blue: 0.722)   // #7E6CB8
+    static let l400 = Color(red: 0.624, green: 0.553, blue: 0.812)   // #9F8DCF
+    static let l300 = Color(red: 0.737, green: 0.682, blue: 0.878)   // #BCAEE0
+    static let l200 = Color(red: 0.839, green: 0.800, blue: 0.937)   // #D6CCEF
+    static let l100 = Color(red: 0.910, green: 0.886, blue: 0.961)   // #E8E2F5
+    static let l50  = Color(red: 0.957, green: 0.945, blue: 0.984)   // #F4F1FB
+}
+
+/// Hebrew/Greek gold — exclusive to original-language callouts.
+private let hebrewGold = Color(red: 0.659, green: 0.459, blue: 0.157)   // #A87528
+private let hebrewDeep = Color(red: 0.239, green: 0.184, blue: 0.094)   // #3D2F18
+
+// MARK: - "SEE ALL" link
+
+// MARK: - "SEE ALL" link
+
+private struct SeeAllLink: View {
+    let destination: BrowseDestination
+    var body: some View {
+        NavigationLink(value: destination) {
+            HStack(spacing: 4) {
+                Text("See all")
+                    .font(.system(.footnote).weight(.medium))
+                    .foregroundStyle(FInkColors.ink500)
+                Image(systemName: "arrow.right")
+                    .font(.caption2.weight(.semibold))
+                    .foregroundStyle(FInkColors.ink500)
+            }
+        }
+    }
+}
+
+// MARK: - F Year-Plan home sections
+//
+// Each of these mirrors a section from the HTML design reference. They
+// all share the .liquidGlassCard() background — frosted white over the
+// warm 135° gradient — and ink-700/ink-500 for text.
+
+/// Top of the page — just the avatar circle. The reference puts it
+/// alone in the top strip; the navigation title is hidden so the page
+/// reads as a piece of editorial UI not a Settings screen.
+private struct AvatarHeader: View {
+    var body: some View {
+        HStack {
+            Circle()
+                .fill(
+                    LinearGradient(
+                        colors: [FLavender.l500, FLavender.l600],
+                        startPoint: .topLeading, endPoint: .bottomTrailing
+                    )
+                )
+                .frame(width: 36, height: 36)
+                .overlay(
+                    Text("J")
+                        .font(.system(.subheadline, design: .serif).weight(.semibold))
+                        .foregroundStyle(.white)
+                )
+            Spacer()
+        }
+        .padding(.top, 4)
+    }
+}
+
+/// The headline plan card: "Bible in a year — Day 134 / 365" with an
+/// on-pace pill, finish date, and an ahead/behind chip.
+private struct BibleInAYearHero: View {
+    let streak: Int
+
+    private var daysInYear: Int { 365 }
+    private var dayOfYear: Int {
+        Calendar.current.ordinality(of: .day, in: .year, for: Date()) ?? 1
+    }
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 14) {
+            HStack {
+                Text("Bible in a year")
+                    .font(.system(.headline, design: .serif).weight(.regular))
+                    .foregroundStyle(FInkColors.ink700)
+                Spacer()
+                Image(systemName: "ellipsis")
+                    .foregroundStyle(FInkColors.ink400)
+            }
+
+            HStack(alignment: .firstTextBaseline, spacing: 8) {
+                Text("Day \(dayOfYear)")
+                    .font(.system(size: 44, design: .serif).weight(.regular))
+                    .foregroundStyle(FInkColors.ink900)
+                Text("/ 365")
+                    .font(.system(.title2, design: .serif).weight(.regular))
+                    .foregroundStyle(FInkColors.ink400)
+                Spacer()
+                pacePill
+            }
+
+            // Progress bar
+            GeometryReader { geo in
+                ZStack(alignment: .leading) {
+                    Capsule()
+                        .fill(FLavender.l100)
+                        .frame(height: 6)
+                    Capsule()
+                        .fill(
+                            LinearGradient(
+                                colors: [FLavender.l500, FLavender.l400],
+                                startPoint: .leading, endPoint: .trailing
+                            )
+                        )
+                        .frame(width: max(8, geo.size.width * CGFloat(dayOfYear) / CGFloat(daysInYear)), height: 6)
+                }
+            }
+            .frame(height: 6)
+
+            HStack {
+                Text("Finish by Dec 31")
+                    .font(.footnote)
+                    .foregroundStyle(FInkColors.ink500)
+                Spacer()
+                Text("+9 ahead")
+                    .font(.footnote.weight(.medium))
+                    .foregroundStyle(FLavender.l600)
+            }
+        }
+        .padding(20)
+        .liquidGlassCard(cornerRadius: 22)
+    }
+
+    private var pacePill: some View {
+        HStack(spacing: 4) {
+            Circle().fill(FLavender.l500).frame(width: 6, height: 6)
+            Text("On pace")
+                .font(.caption.weight(.semibold))
+        }
+        .foregroundStyle(FLavender.l600)
+        .padding(.horizontal, 10)
+        .padding(.vertical, 5)
+        .background(Capsule().fill(FLavender.l100))
+    }
+}
+
+/// Today's reading — 18 min, 2 chapters, plus a verse-of-the-day
+/// sub-row and a "Begin study" CTA.
+private struct TodaysReadingCard: View {
+    var body: some View {
+        VStack(alignment: .leading, spacing: 14) {
+            HStack {
+                Text("Today's reading")
+                    .font(.system(.headline, design: .serif).weight(.regular))
+                    .foregroundStyle(FInkColors.ink700)
+                Spacer()
+                HStack(spacing: 4) {
+                    Image(systemName: "clock")
+                        .font(.caption2)
+                    Text("18 min")
+                        .font(.caption.weight(.medium))
+                }
+                .foregroundStyle(FInkColors.ink500)
+            }
+
+            HStack(spacing: 10) {
+                chapterChip("Genesis 12")
+                chapterChip("Matthew 7")
+                Spacer()
+            }
+
+            Divider().overlay(FInkColors.ink300.opacity(0.5))
+
+            HStack(spacing: 10) {
+                Image(systemName: "quote.opening")
+                    .font(.footnote)
+                    .foregroundStyle(FLavender.l500)
+                VStack(alignment: .leading, spacing: 2) {
+                    Text("Verse of the day")
+                        .font(.caption2.weight(.semibold))
+                        .foregroundStyle(FInkColors.ink400)
+                    Text("1 Peter 5:7")
+                        .font(.system(.footnote, design: .serif).weight(.semibold))
+                        .foregroundStyle(FInkColors.ink700)
+                }
+                Spacer()
+            }
+
+            Button {
+                // TODO: deep-link into the study
+            } label: {
+                Text("Begin study")
+                    .font(.subheadline.weight(.semibold))
+                    .foregroundStyle(.white)
+                    .frame(maxWidth: .infinity)
+                    .padding(.vertical, 12)
+                    .background(
+                        LinearGradient(
+                            colors: [FLavender.l500, FLavender.l600],
+                            startPoint: .leading, endPoint: .trailing
+                        )
+                    )
+                    .clipShape(Capsule())
+                    .shadow(color: FLavender.l600.opacity(0.30), radius: 12, x: 0, y: 6)
+            }
+            .buttonStyle(.plain)
+        }
+        .padding(20)
+        .liquidGlassCard(cornerRadius: 22)
+    }
+
+    private func chapterChip(_ title: String) -> some View {
+        Text(title)
+            .font(.system(.footnote, design: .serif).weight(.semibold))
+            .foregroundStyle(FInkColors.ink700)
+            .padding(.horizontal, 12)
+            .padding(.vertical, 6)
+            .background(Capsule().fill(Color.white.opacity(0.55)))
+            .overlay(Capsule().stroke(Color.white.opacity(0.7), lineWidth: 1))
+    }
+}
+
+/// 2-row × 3-col browse grid: Study Plans · Topics · Artwork ·
+/// Translations · Audio Bible · Questions. Each is a small glass tile
+/// with an icon, a label, and an item count.
+private struct BrowseGridCard: View {
+    private struct Tile {
+        let title: String
+        let count: String
+        let icon: String
+        let destination: BrowseDestination?
+    }
+
+    private static let tiles: [Tile] = [
+        Tile(title: "Study Plans",  count: "32 plans",       icon: "list.bullet.rectangle.portrait", destination: .library),
+        Tile(title: "Topics",       count: "48 themes",      icon: "tag",                            destination: nil),
+        Tile(title: "Artwork",      count: "7,000+ pieces",  icon: "paintpalette",                   destination: .art),
+        Tile(title: "Translations", count: "8 versions",     icon: "globe",                          destination: .bible),
+        Tile(title: "Audio Bible",  count: "Daily listen",   icon: "headphones",                     destination: nil),
+        Tile(title: "Questions",    count: "Ask anything",   icon: "questionmark.bubble",            destination: nil),
+    ]
+
+    private let columns: [GridItem] = [
+        GridItem(.flexible(), spacing: 10),
+        GridItem(.flexible(), spacing: 10),
+        GridItem(.flexible(), spacing: 10),
+    ]
+
+    var body: some View {
+        LazyVGrid(columns: columns, spacing: 10) {
+            ForEach(Self.tiles.indices, id: \.self) { i in
+                let t = Self.tiles[i]
+                Group {
+                    if let dest = t.destination {
+                        NavigationLink(value: dest) { tileView(t) }
+                            .buttonStyle(.plain)
+                    } else {
+                        tileView(t)
+                    }
+                }
+            }
+        }
+    }
+
+    private func tileView(_ t: Tile) -> some View {
+        VStack(alignment: .leading, spacing: 8) {
+            Image(systemName: t.icon)
+                .font(.system(size: 18, weight: .semibold))
+                .foregroundStyle(FLavender.l600)
+            Text(t.title)
+                .font(.system(.footnote).weight(.semibold))
+                .foregroundStyle(FInkColors.ink900)
+                .lineLimit(1)
+                .minimumScaleFactor(0.85)
+            Text(t.count)
+                .font(.caption2)
+                .foregroundStyle(FInkColors.ink500)
+                .lineLimit(1)
+                .minimumScaleFactor(0.85)
+        }
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .padding(14)
+        .liquidGlassCard(cornerRadius: 16)
+    }
+}
+
+/// "From the original language" — Hebrew (or Greek) word + translit
+/// + short explanation. Gold accents, serif everywhere.
+private struct OriginalLanguageCard: View {
+    var body: some View {
+        VStack(alignment: .leading, spacing: 12) {
+            HStack(spacing: 8) {
+                Image(systemName: "character.book.closed")
+                    .font(.caption.weight(.semibold))
+                    .foregroundStyle(hebrewGold)
+                Text("FROM THE ORIGINAL LANGUAGE")
+                    .font(.caption2.weight(.bold))
+                    .tracking(1.3)
+                    .foregroundStyle(hebrewGold)
+            }
+
+            HStack(alignment: .firstTextBaseline, spacing: 14) {
+                Text("בְּרֵאשִׁית")
+                    .font(.system(size: 38, design: .serif).weight(.regular))
+                    .foregroundStyle(hebrewDeep)
+                VStack(alignment: .leading, spacing: 2) {
+                    Text("Bereishit")
+                        .font(.system(.headline, design: .serif).weight(.regular))
+                        .foregroundStyle(FInkColors.ink900)
+                    Text("bərê·šît")
+                        .font(.system(.footnote, design: .serif).italic())
+                        .foregroundStyle(FInkColors.ink500)
+                }
+                Spacer()
+            }
+
+            Text("\"In the beginning\" — Genesis 1's opening word, a doorway into all that follows. Same root as the firstborn, the first-fruits, the firstness of God's act.")
+                .font(.system(.footnote, design: .serif))
+                .foregroundStyle(FInkColors.ink700)
+                .lineSpacing(3)
+                .fixedSize(horizontal: false, vertical: true)
+        }
+        .padding(20)
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .liquidGlassCard(cornerRadius: 22)
+    }
+}
+
+/// Horizontal scroll of topic chips: Anxiety, Gratitude, Patience,
+/// Faith — each pill shows the topic name + verse count.
+private struct TopicsRow: View {
+    private static let topics: [(name: String, count: String, icon: String)] = [
+        ("Anxiety",   "42 verses", "wind"),
+        ("Gratitude", "61 verses", "heart"),
+        ("Patience",  "29 verses", "leaf"),
+        ("Faith",     "118 verses", "flame"),
+        ("Wisdom",    "73 verses", "lightbulb"),
+        ("Love",      "156 verses", "heart.fill"),
+    ]
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 10) {
+            HomeSectionHeader(title: "Topics")
+            ScrollView(.horizontal, showsIndicators: false) {
+                LazyHStack(spacing: 10) {
+                    ForEach(Self.topics, id: \.name) { topic in
+                        VStack(alignment: .leading, spacing: 6) {
+                            Image(systemName: topic.icon)
+                                .font(.subheadline.weight(.semibold))
+                                .foregroundStyle(FLavender.l600)
+                            Text(topic.name)
+                                .font(.system(.footnote, design: .serif).weight(.semibold))
+                                .foregroundStyle(FInkColors.ink900)
+                            Text(topic.count)
+                                .font(.caption2)
+                                .foregroundStyle(FInkColors.ink500)
+                        }
+                        .padding(14)
+                        .frame(width: 130, alignment: .leading)
+                        .liquidGlassCard(cornerRadius: 16)
+                    }
+                }
+                .padding(.horizontal, 4)
+            }
+            .scrollClipDisabled()
+        }
+    }
+}
+
+// MARK: - Explore Header (top bar of the home screen)
+
+private struct ExploreHeader: View {
+    var body: some View {
+        HStack(spacing: Theme.metric.spaceM) {
+            Circle()
+                .fill(
+                    LinearGradient(
+                        colors: [
+                            Color(red: 0.98, green: 0.78, blue: 0.38),
+                            Color(red: 0.84, green: 0.55, blue: 0.18),
+                        ],
+                        startPoint: .topLeading, endPoint: .bottomTrailing
+                    )
+                )
+                .frame(width: 44, height: 44)
+                .overlay(
+                    Text("C")
+                        .font(.system(.headline, design: .serif).weight(.semibold))
+                        .foregroundStyle(.white)
+                )
+            Text("Explore")
+                .font(.system(.largeTitle, design: .serif).weight(.semibold))
+                .foregroundStyle(.white)
+            Spacer()
+            Button { } label: {
+                Image(systemName: "magnifyingglass")
+                    .font(.headline.weight(.medium))
+                    .foregroundStyle(Color.white.opacity(0.85))
+                    .frame(width: 44, height: 44)
+                    .background(
+                        Circle().stroke(Color.white.opacity(0.25), lineWidth: 1)
+                    )
+            }
+        }
+        .padding(.top, 4)
+    }
+}
+
+// MARK: - Most Popular hero card
+
+private struct MostPopularHero: View {
+    var body: some View {
+        ZStack(alignment: .bottomLeading) {
+            // Photographic placeholder — warm bronze/sepia gradient
+            // until we wire featured-plan artwork.
+            LinearGradient(
+                colors: [
+                    Color(red: 0.28, green: 0.20, blue: 0.14),
+                    Color(red: 0.50, green: 0.32, blue: 0.18),
+                    Color(red: 0.20, green: 0.14, blue: 0.10),
+                ],
+                startPoint: .topLeading, endPoint: .bottomTrailing
+            )
+            .frame(height: 220)
+
+            // Dark veil at the bottom so text reads cleanly on busy
+            // photography.
+            LinearGradient(
+                colors: [.clear, Color.black.opacity(0.55)],
+                startPoint: .center, endPoint: .bottom
+            )
+            .frame(height: 220)
+
+            VStack(alignment: .leading, spacing: 6) {
+                Text("STUDY PLAN")
+                    .font(Theme.font.eyebrow)
+                    .tracking(3)
+                    .foregroundStyle(Color.white.opacity(0.85))
+                Text("The Armor of God")
+                    .font(.system(.title, design: .serif).weight(.semibold))
+                    .foregroundStyle(.white)
+
+                // Faux dot pagination — matches the reference.
+                HStack(spacing: 6) {
+                    Spacer()
+                    ForEach(0..<4, id: \.self) { i in
+                        Capsule()
+                            .fill(i == 1 ? Color.white : Color.white.opacity(0.30))
+                            .frame(width: i == 1 ? 18 : 6, height: 4)
+                    }
+                    Spacer()
+                }
+                .padding(.top, 8)
+            }
+            .padding(Theme.metric.spaceL)
+        }
+        .clipShape(RoundedRectangle(cornerRadius: 22, style: .continuous))
+        .overlay(
+            RoundedRectangle(cornerRadius: 22, style: .continuous)
+                .stroke(Color.white.opacity(0.08), lineWidth: 1)
+        )
+        .shadow(color: .black.opacity(0.45), radius: 18, x: 0, y: 10)
+    }
+}
+
+// MARK: - Category 2×2 grid
+
+private struct CategoryGrid: View {
+    private struct CategoryTile {
+        let title: String
+        let icon: String
+        let fill: Color
+        let stroke: Color
+        let text: Color
+        let icBg: Color
+    }
+
+    private static let tiles: [CategoryTile] = [
+        CategoryTile(
+            title: "Meditations",
+            icon: "sparkles",
+            fill: Color(red: 0.06, green: 0.32, blue: 0.25),
+            stroke: Color(red: 0.20, green: 0.62, blue: 0.45),
+            text: Color(red: 0.50, green: 0.95, blue: 0.78),
+            icBg: Color(red: 0.04, green: 0.22, blue: 0.18)
+        ),
+        CategoryTile(
+            title: "Videos",
+            icon: "play.tv",
+            fill: Color(red: 0.30, green: 0.18, blue: 0.55),
+            stroke: Color(red: 0.62, green: 0.50, blue: 0.92),
+            text: Color(red: 0.85, green: 0.75, blue: 1.00),
+            icBg: Color(red: 0.20, green: 0.13, blue: 0.40)
+        ),
+        CategoryTile(
+            title: "Study Plans",
+            icon: "bookmark.fill",
+            fill: Color(red: 0.07, green: 0.20, blue: 0.36),
+            stroke: Color(red: 0.32, green: 0.58, blue: 0.92),
+            text: Color(red: 0.62, green: 0.82, blue: 1.00),
+            icBg: Color(red: 0.04, green: 0.14, blue: 0.28)
+        ),
+        CategoryTile(
+            title: "Reading Plans",
+            icon: "book.fill",
+            fill: Color(red: 0.42, green: 0.24, blue: 0.18),
+            stroke: Color(red: 0.85, green: 0.55, blue: 0.40),
+            text: Color(red: 1.00, green: 0.80, blue: 0.70),
+            icBg: Color(red: 0.30, green: 0.18, blue: 0.12)
+        ),
+    ]
+
+    private let columns: [GridItem] = [
+        GridItem(.flexible(), spacing: 12),
+        GridItem(.flexible(), spacing: 12),
+    ]
+
+    var body: some View {
+        LazyVGrid(columns: columns, spacing: 12) {
+            ForEach(Self.tiles.indices, id: \.self) { idx in
+                tileView(Self.tiles[idx])
+            }
+        }
+    }
+
+    private func tileView(_ t: CategoryTile) -> some View {
+        HStack(spacing: 12) {
+            Image(systemName: t.icon)
+                .font(.system(size: 18, weight: .semibold))
+                .foregroundStyle(t.text)
+                .frame(width: 38, height: 38)
+                .background(
+                    RoundedRectangle(cornerRadius: 10, style: .continuous)
+                        .fill(t.icBg)
+                )
+            Text(t.title)
+                .font(.system(.callout, design: .rounded).weight(.bold))
+                .foregroundStyle(t.text)
+            Spacer(minLength: 0)
+        }
+        .padding(.horizontal, 14)
+        .padding(.vertical, 18)
+        .frame(maxWidth: .infinity)
+        .background(
+            RoundedRectangle(cornerRadius: 18, style: .continuous)
+                .fill(t.fill)
+        )
+        .overlay(
+            RoundedRectangle(cornerRadius: 18, style: .continuous)
+                .stroke(t.stroke.opacity(0.45), lineWidth: 1)
+        )
+    }
+}
+
+// MARK: - Personal Plan CTA
+
+private struct PersonalPlanCTA: View {
+    var body: some View {
+        HStack(spacing: Theme.metric.spaceM) {
+            Image(systemName: "book.closed.fill")
+                .font(.title2)
+                .foregroundStyle(Color(red: 0.70, green: 0.85, blue: 1.00))
+                .frame(width: 52, height: 52)
+                .background(
+                    Circle().fill(Color.white.opacity(0.06))
+                )
+            VStack(alignment: .leading, spacing: 2) {
+                Text("Your Personal Study Plan")
+                    .font(.system(.headline, design: .rounded).weight(.bold))
+                    .foregroundStyle(.white)
+                Text("Built around your faith journey")
+                    .font(.system(.subheadline, design: .rounded))
+                    .foregroundStyle(Color.white.opacity(0.65))
+            }
+            Spacer(minLength: 0)
+            Button { } label: {
+                Text("Create Mine")
+                    .font(.system(.subheadline, design: .rounded).weight(.bold))
+                    .foregroundStyle(Color(red: 0.08, green: 0.10, blue: 0.20))
+                    .padding(.horizontal, 16)
+                    .padding(.vertical, 12)
+                    .background(Capsule().fill(.white))
+            }
+            .buttonStyle(.plain)
+        }
+        .padding(Theme.metric.spaceL)
+        .background(
+            LinearGradient(
+                colors: [
+                    Color(red: 0.10, green: 0.22, blue: 0.40),
+                    Color(red: 0.07, green: 0.15, blue: 0.30),
+                ],
+                startPoint: .topLeading, endPoint: .bottomTrailing
+            )
+        )
+        .clipShape(RoundedRectangle(cornerRadius: 22, style: .continuous))
+        .overlay(
+            RoundedRectangle(cornerRadius: 22, style: .continuous)
+                .stroke(Color(red: 0.32, green: 0.55, blue: 0.95).opacity(0.30), lineWidth: 1)
+        )
     }
 }
 
