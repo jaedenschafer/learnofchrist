@@ -49,6 +49,8 @@ targets:
       path: LearnOfChrist/Info.plist
       properties:
         CFBundleDisplayName: "Learn of Christ"
+        CFBundleShortVersionString: "$(MARKETING_VERSION)"
+        CFBundleVersion: "$(CURRENT_PROJECT_VERSION)"
         LSApplicationCategoryType: "public.app-category.lifestyle"
         UILaunchScreen:
           UIColorName: ""
@@ -70,7 +72,7 @@ targets:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.learnofchrist.app
         MARKETING_VERSION: "0.1.0"
-        CURRENT_PROJECT_VERSION: "4"
+        CURRENT_PROJECT_VERSION: "5"
         TARGETED_DEVICE_FAMILY: "1,2"        # iPhone + iPad
         SUPPORTS_MACCATALYST: NO
         SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD: NO
@@ -102,7 +104,7 @@ targets:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.learnofchrist.app.widgets
         MARKETING_VERSION: "0.1.0"
-        CURRENT_PROJECT_VERSION: "4"
+        CURRENT_PROJECT_VERSION: "5"
         INFOPLIST_FILE: LearnOfChristWidgets/Info.plist
         CODE_SIGN_ENTITLEMENTS: LearnOfChristWidgets/LearnOfChristWidgets.entitlements
         SKIP_INSTALL: YES

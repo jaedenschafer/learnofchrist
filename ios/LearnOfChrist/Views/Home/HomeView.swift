@@ -139,24 +139,18 @@ struct HomeView: View {
     }
 }
 
-// MARK: - Warm parchment gradient (light + dark)
+// MARK: - Background (light = white, dark = near-black)
 
 private struct HomeGradient: View {
     @Environment(\.colorScheme) private var scheme
     var body: some View {
-        let top, mid, bottom: Color
-        switch scheme {
-        case .dark:
-            top    = Color(red: 0.12, green: 0.10, blue: 0.08)
-            mid    = Color(red: 0.30, green: 0.18, blue: 0.13)
-            bottom = Color(red: 0.07, green: 0.05, blue: 0.04)
-        default:
-            top    = Color(red: 0.97, green: 0.94, blue: 0.88)
-            mid    = Color(red: 0.92, green: 0.83, blue: 0.71)
-            bottom = Color(red: 0.78, green: 0.62, blue: 0.46)
+        Group {
+            if scheme == .dark {
+                Color(white: 0.06)
+            } else {
+                Color.white
+            }
         }
-        return LinearGradient(colors: [top, mid, bottom],
-                              startPoint: .top, endPoint: .bottom)
     }
 }
 
@@ -234,7 +228,7 @@ private struct StreakChip: View {
         }
         .padding(.horizontal, 12)
         .padding(.vertical, 6)
-        .background(Capsule().fill(.ultraThinMaterial))
+        .background(Capsule().fill(Color(.secondarySystemBackground)))
         .overlay(Capsule().stroke(.primary.opacity(0.06), lineWidth: 1))
     }
 }
@@ -365,7 +359,7 @@ private struct VerseOfDayCard: View {
         .frame(maxWidth: .infinity, alignment: .leading)
         .background(
             RoundedRectangle(cornerRadius: 28, style: .continuous)
-                .fill(.ultraThinMaterial)
+                .fill(Color(.secondarySystemBackground))
         )
         .overlay(
             RoundedRectangle(cornerRadius: 28, style: .continuous)
@@ -466,7 +460,7 @@ private struct TodaysStudyCard: View {
         }
         .background(
             RoundedRectangle(cornerRadius: 28, style: .continuous)
-                .fill(.ultraThinMaterial)
+                .fill(Color(.secondarySystemBackground))
         )
         .overlay(
             RoundedRectangle(cornerRadius: 28, style: .continuous)
@@ -478,7 +472,7 @@ private struct TodaysStudyCard: View {
 // MARK: - 5. For You — horizontal carousel of curated chapter cards
 
 private struct ForYouCarousel: View {
-    private struct Pick: Identifiable {
+    fileprivate struct Pick: Identifiable {
         let slug: String
         let chapter: Int
         let title: String
@@ -611,7 +605,7 @@ private struct BrowseByThemePills: View {
                         }
                         .padding(.horizontal, 16)
                         .padding(.vertical, 10)
-                        .background(Capsule().fill(.ultraThinMaterial))
+                        .background(Capsule().fill(Color(.secondarySystemBackground)))
                         .overlay(Capsule().stroke(.primary.opacity(0.06), lineWidth: 1))
                     }
                     .buttonStyle(.plain)
@@ -673,7 +667,7 @@ private struct ReadingStreakCard: View {
         .frame(maxWidth: .infinity, alignment: .leading)
         .background(
             RoundedRectangle(cornerRadius: 28, style: .continuous)
-                .fill(.ultraThinMaterial)
+                .fill(Color(.secondarySystemBackground))
         )
         .overlay(
             RoundedRectangle(cornerRadius: 28, style: .continuous)
@@ -766,7 +760,7 @@ private struct SacredArtTile: View {
 // MARK: - 9. Quick Actions — 2×2 grid
 
 private struct QuickActionsGrid: View {
-    private struct Action: Identifiable {
+    fileprivate struct Action: Identifiable {
         let title: String
         let icon: String
         let destination: BrowseDestination
@@ -814,7 +808,7 @@ private struct QuickActionTile: View {
         .frame(height: 130)
         .background(
             RoundedRectangle(cornerRadius: 24, style: .continuous)
-                .fill(.ultraThinMaterial)
+                .fill(Color(.secondarySystemBackground))
         )
         .overlay(
             RoundedRectangle(cornerRadius: 24, style: .continuous)
@@ -865,7 +859,7 @@ private struct ReflectionPromptCard: View {
         .frame(maxWidth: .infinity, alignment: .leading)
         .background(
             RoundedRectangle(cornerRadius: 28, style: .continuous)
-                .fill(.ultraThinMaterial)
+                .fill(Color(.secondarySystemBackground))
         )
         .overlay(
             RoundedRectangle(cornerRadius: 28, style: .continuous)
@@ -928,7 +922,7 @@ private struct BlogPostRow: View {
         .padding(Theme.metric.spaceM)
         .background(
             RoundedRectangle(cornerRadius: 24, style: .continuous)
-                .fill(.ultraThinMaterial)
+                .fill(Color(.secondarySystemBackground))
         )
         .overlay(
             RoundedRectangle(cornerRadius: 24, style: .continuous)
@@ -980,7 +974,7 @@ private struct ContinueReadingCard: View {
             .padding(Theme.metric.spaceL)
             .background(
                 RoundedRectangle(cornerRadius: 24, style: .continuous)
-                    .fill(.ultraThinMaterial)
+                    .fill(Color(.secondarySystemBackground))
             )
             .overlay(
                 RoundedRectangle(cornerRadius: 24, style: .continuous)

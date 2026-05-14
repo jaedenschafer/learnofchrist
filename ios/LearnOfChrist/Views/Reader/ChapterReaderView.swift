@@ -41,6 +41,66 @@ struct ChapterReaderView: View {
     @State private var noteEditorBody: String = ""
     @State private var pendingShare: String?
 
+    /// Mode toggle — Study Guide (rich content with commentary, hebrew,
+    /// christ-connection, carry, etc) vs Plain Bible (just verses in the
+    /// selected translation). Persisted in @AppStorage so the user lands
+    /// in the same mode next time.
+    @AppStorage("loc.reader.mode")
+    private var readerModeRaw: String = ReaderMode.study.rawValue
+
+    /// Selected translation for Plain Bible mode. KJV by default.
+    /// Persisted with the same key the web uses so values round-trip
+    /// cleanly once sync is wired.
+    @AppStorage(ReaderPrefs.Key.translation)
+    private var translationAbbr: String = BibleTranslation.default.abbreviation
+
+    private var readerMode: ReaderMode {
+        ReaderMode(rawValue: readerModeRaw) ?? .study
+    }
+
+    private var translation: BibleTranslation {
+        BibleTranslation.publicDomain.first { $0.abbreviation == translationAbbr }
+            ?? .default
+    }
+
+    @ToolbarContentBuilder
+    private var modeAndTranslationToolbar: some ToolbarContent {
+        ToolbarItem(placement: .topBarLeading) {
+            Picker("Mode", selection: $readerModeRaw) {
+                Text("Study").tag(ReaderMode.study.rawValue)
+                Text("Bible").tag(ReaderMode.bible.rawValue)
+            }
+            .pickerStyle(.segmented)
+            .frame(width: 160)
+        }
+        ToolbarItem(placement: .topBarTrailing) {
+            Menu {
+                ForEach(BibleTranslation.publicDomain) { t in
+                    Button {
+                        translationAbbr = t.abbreviation
+                    } label: {
+                        if t.abbreviation == translationAbbr {
+                            Label(t.name, systemImage: "checkmark")
+                        } else {
+                            Text(t.name)
+                        }
+                    }
+                }
+            } label: {
+                HStack(spacing: 4) {
+                    Text(translation.abbreviation.uppercased())
+                        .font(.system(.footnote, design: .serif).weight(.semibold))
+                    Image(systemName: "chevron.down")
+                        .font(.caption2.weight(.semibold))
+                }
+                .foregroundStyle(Theme.color.accent)
+                .padding(.horizontal, 10)
+                .padding(.vertical, 5)
+                .background(Capsule().fill(Theme.color.accent.opacity(0.12)))
+            }
+        }
+    }
+
     /// Set of verse numbers currently >= 50% on screen. The smallest
     /// is taken as the "user's place" and persisted on debounce.
     @State private var visibleVerses: Set<Int> = []
@@ -90,8 +150,27 @@ struct ChapterReaderView: View {
     }
 
     var body: some View {
+        if readerMode == .bible {
+            BibleReaderView(
+                bookSlug: chapter.bookSlug,
+                bookName: chapter.bookName,
+                chapter: chapter.chapter,
+                translation: Binding(
+                    get: { translation },
+                    set: { translationAbbr = $0.abbreviation }
+                )
+            )
+            .navigationTitle("\(chapter.bookName) \(chapter.chapter)")
+            .toolbar { modeAndTranslationToolbar }
+        } else {
+            studyBody
+        }
+    }
+
+    @ViewBuilder
+    private var studyBody: some View {
         let view = filteredChapter
-        return ScrollViewReader { proxy in
+        ScrollViewReader { proxy in
             ScrollView {
                 VStack(alignment: .leading, spacing: Theme.metric.readerSectionSpacing) {
                     header
@@ -135,6 +214,7 @@ struct ChapterReaderView: View {
             .dynamicTypeSize(textSize.dynamicTypeSize)
             .navigationTitle("\(chapter.bookName) \(chapter.chapter)")
             .toolbar {
+                modeAndTranslationToolbar
                 ToolbarItem(placement: .topBarTrailing) {
                     ReaderPrefsToolbar(
                         studyLevelRaw: $studyLevelRaw,
@@ -165,6 +245,21 @@ struct ChapterReaderView: View {
                     bookSlug: chapter.bookSlug,
                     chapter: chapter.chapter
                 )
+                // Push this chapter into the App Group store so Home
+                // Screen + Lock Screen widgets reflect what the user
+                // actually has open. Cheap (UserDefaults write +
+                // WidgetCenter ping) so it's safe to do every appear.
+                let firstVerseText = chapter.allVerseLines.first?.plainText
+                WidgetSyncService.publish(
+                    bookSlug: chapter.bookSlug,
+                    bookName: chapter.bookName,
+                    chapter: chapter.chapter,
+                    verseHook: firstVerseText.map { String($0.prefix(80)) }
+                )
+                // If the user has a focus block active, granting an
+                // unlock for opening the chapter would defeat the point.
+                // The reward fires once they finish (scroll to bottom),
+                // not on appear. See `task(id: topVisibleVerse)` below.
                 // If the user has a saved resume verse, queue it for one
                 // scroll-to as soon as the layout settles.
                 if let saved = userData.readingProgress(
@@ -200,6 +295,15 @@ struct ChapterReaderView: View {
                     chapter: chapter.chapter,
                     verseNumber: v
                 )
+
+                // Read-To-Unlock trigger: when the user reaches the
+                // last verse of the chapter, grant the focus reward.
+                // Safe to call unconditionally — the manager no-ops if
+                // the user isn't authorized or hasn't enabled blocking.
+                if let last = filteredChapter.allVerseLines.last?.number,
+                   v >= last {
+                    Task { await FocusReadManager.shared.grantUnlock() }
+                }
             }
             .sheet(item: noteEditorBinding) { verse in
                 NoteEditorSheet(
@@ -390,6 +494,18 @@ private struct BlockView: View {
     }
 }
 
+// MARK: - Reader mode
+
+/// Top-level toggle inside the chapter reader. "Study" shows the rich
+/// content (commentary, hebrew/greek callouts, Christ-connections,
+/// carry application, reflection prompts). "Bible" hides every study
+/// block and shows only verses in the user's chosen public-domain
+/// translation, fetched on-demand from Supabase via ScriptureService.
+enum ReaderMode: String, Hashable {
+    case study
+    case bible
+}
+
 // MARK: - Block subviews
 
 private struct ScriptureBlock: View {
@@ -436,7 +552,7 @@ private struct ScriptureBlock: View {
         }
         .padding(Theme.metric.spaceL - 2)
         .frame(maxWidth: .infinity, alignment: .leading)
-        .themeFill(.subtle)
+        .liquidGlassCard(cornerRadius: Theme.metric.radiusLG)
     }
 }
 
@@ -484,7 +600,7 @@ private struct CalloutBlock: View {
         }
         .padding(Theme.metric.spaceL)
         .frame(maxWidth: .infinity, alignment: .leading)
-        .themeFill(tone, radius: Theme.metric.radiusLG)
+        .liquidGlassCard(cornerRadius: Theme.metric.radiusLG)
     }
 }
 
@@ -534,10 +650,7 @@ private struct LanguageCallout: View {
             .padding(Theme.metric.spaceL)
             .frame(maxWidth: .infinity, alignment: .leading)
         }
-        .background(
-            Theme.color.warmSubtle
-                .clipShape(RoundedRectangle(cornerRadius: Theme.metric.radiusLG))
-        )
+        .liquidGlassCard(cornerRadius: Theme.metric.radiusLG)
     }
 }
 
