@@ -433,7 +433,7 @@ export default function GenesisOneStudy({ artworks = [] }: GenesisOneStudyProps)
             The Hebrew word for &ldquo;divided&rdquo; (<em>havdil</em>) is the priestly word for distinguishing the holy from the common. The first priestly act in the Bible is God&apos;s own — and every act of separation God makes through the rest of the chapter flows from this one.
           </p>
           <div className="carry">
-            Before God ever fills a life, He very often begins with a line — <em>this is not that.</em> A priestly kind of separation, the text calls it. Looking back, you can almost always see them in your own story: a season when something quietly got named, a difference that finally became clear, a space that gently opened. Every such line has been His work. The ones you may be sensing now are probably His too.
+            Before God fills a life, He often draws a line first — <em>this is for now, that is for later. This belongs here, that doesn&apos;t.</em> Genesis calls it a priestly act, the same word the Bible later uses for setting holy things apart from common things. Look back over your own life and you can almost always spot these moments: the day something finally got a clear name, the morning a real difference settled in, the week a new pocket of space opened up. Those lines were His. The one you&apos;re sensing this week is probably His too.
           </div>
         </section>
 

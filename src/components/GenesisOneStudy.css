@@ -12,6 +12,20 @@
   --sage: #6E7A60;
   --wine: #7A2F3D;
   --pale-gold: color-mix(in srgb, var(--vesper-gold, #C8964A) 12%, transparent);
+
+  /* ── Unified card tokens ──
+     Every elevated block (Scripture, Hebrew, Christ Connection, Reflection)
+     pulls radius/shadow/border from here so they read as one family. Carry
+     stays a rule-only aside on purpose. */
+  --card-radius: 20px;
+  --card-radius-sm: 12px;
+  --card-border-color: rgba(26, 22, 18, 0.08);
+  --card-border: 1px solid var(--card-border-color);
+  --card-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.55),
+    0 12px 28px -18px rgba(26, 22, 18, 0.20);
+  --card-padding: 1.55rem 1.7rem;
+  --section-gap: 2rem;
   font-family: 'EB Garamond', 'New York', 'Iowan Old Style', 'Source Serif 4', 'Charter', Georgia, 'Times New Roman', serif;
   color: var(--body);
   line-height: 1.7;
@@ -58,19 +72,35 @@
 }
 
 .rich-study h2.section {
+  position: relative;
   font-family: 'New York', 'Iowan Old Style', Georgia, serif;
   color: var(--ink);
   font-size: 28px;
   line-height: 1.25;
   font-weight: 700;
   letter-spacing: -0.01em;
-  margin: 3rem 0 1.25rem;
+  margin: 3.25rem 0 1.4rem;
+  padding-top: 1.25rem;
 }
 
-/* Section-ref label ("CREATION DAY 1 · Genesis 1:3-5"). Plain wine
-   eyebrow now — the pill border + tinted background read as a chip
-   stamped onto the page; just letting the small caps stand on their
-   own keeps the rhythm calm. */
+/* Small gold accent rule above each section header — ties every day-break
+   into the same gold accent used by Hebrew/Christ/Reflection so the page
+   reads as one designed system instead of a list of independent pieces. */
+.rich-study h2.section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 2px;
+  border-radius: 999px;
+  background: var(--gold);
+  opacity: 0.9;
+}
+
+/* Section-ref label ("CREATION DAY 1 · Genesis 1:3-5"). Sits directly
+   under the gold accent rule. Wine eyebrow keeps the small-caps weight
+   without competing with the gold above it. */
 .rich-study h2.section .ref {
   display: block;
   font-family: var(--font-sans);
@@ -79,7 +109,7 @@
   font-weight: 700;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  margin-bottom: 0.55rem;
+  margin-bottom: 0.45rem;
   text-decoration: none;
 }
 
@@ -112,11 +142,12 @@
   position: relative;
   font-size: 13.5px;
   line-height: 1.55;
-  color: #6E6E73;
-  background: rgba(120, 120, 128, 0.06);
-  border-left: 2px solid rgba(120, 120, 128, 0.35);
-  border-radius: 6px;
-  padding: 10px 38px 10px 14px; /* room for the close (×) on the right */
+  color: var(--sub);
+  background: rgba(200, 150, 74, 0.05);
+  border: 1px solid rgba(200, 150, 74, 0.18);
+  border-left: 2px solid rgba(200, 150, 74, 0.55);
+  border-radius: var(--card-radius-sm);
+  padding: 12px 40px 12px 16px; /* room for the close (×) on the right */
   margin: 0 0 2rem;
 }
 .rich-study .kjv-note strong {
@@ -164,11 +195,12 @@ html[data-reader-theme="dark"] .rich-study .kjv-note .kjv-note-close:hover {
 
 .rich-study .divider {
   text-align: center;
-  color: var(--sub);
+  color: var(--gold);
   letter-spacing: 0.7em;
-  font-size: 14px;
-  margin: 2.5rem 0;
+  font-size: 11px;
+  margin: 2.75rem 0;
   user-select: none;
+  opacity: 0.55;
 }
 
 /* ── Scripture blocks ──
@@ -185,10 +217,13 @@ html[data-reader-theme="dark"] .rich-study .kjv-note .kjv-note-close:hover {
 .rich-study .scripture {
   position: relative;
   margin: 1.75rem 0 1.5rem;
-  padding: 1.45rem 1.65rem 1.55rem;
-  border-radius: 22px;
+  padding: var(--card-padding);
+  border-radius: var(--card-radius);
   background-color: #FFFCF4;
-  border: 1px solid rgba(170, 150, 120, 0.14);
+  border: var(--card-border);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.6),
+    0 10px 24px -18px rgba(26, 22, 18, 0.14);
   font-family: 'EB Garamond', 'Cormorant Garamond', 'New York', Georgia, serif;
   line-height: 1.55;
   color: #1C1B18;
@@ -275,11 +310,11 @@ html[data-reading-mode="verse"] .rich-study .scripture .verse-line {
    commentary text never scrolls behind the verse passage. */
 .rich-study .verse-section {
   position: relative;
-  margin: 1.25rem 0 1.75rem;
+  margin: 1.5rem 0 2rem;
 }
 .rich-study .verse-section .scripture {
   position: relative;
-  margin: 0 0 1.25rem;
+  margin: 0 0 1.4rem;
 }
 
 /* Scripture-side editorial marks (Christ / Hebrew / Greek themes).
@@ -355,20 +390,18 @@ html.js .rich-study .scripture.visible mark {
 .rich-study .hebrew {
   position: relative;
   background:
-    radial-gradient(ellipse 90% 120% at 0% 0%, rgba(232, 200, 148, 0.40), transparent 65%),
-    radial-gradient(ellipse 60% 80% at 100% 100%, rgba(200, 170, 100, 0.22), transparent 70%),
-    color-mix(in srgb, var(--pale-gold) 75%, transparent);
-  -webkit-backdrop-filter: blur(22px) saturate(170%);
-  backdrop-filter: blur(22px) saturate(170%);
-  border: 1px solid rgba(255, 255, 255, 0.42);
-  border-radius: 28px;
-  padding: 1.85rem 1.85rem 1.6rem;
-  margin: 2rem 0;
+    radial-gradient(ellipse 90% 120% at 0% 0%, rgba(232, 200, 148, 0.34), transparent 65%),
+    radial-gradient(ellipse 60% 80% at 100% 100%, rgba(200, 170, 100, 0.18), transparent 70%),
+    color-mix(in srgb, var(--pale-gold) 70%, transparent);
+  -webkit-backdrop-filter: blur(22px) saturate(160%);
+  backdrop-filter: blur(22px) saturate(160%);
+  border: var(--card-border);
+  border-radius: var(--card-radius);
+  padding: 1.7rem 1.7rem 1.5rem;
+  margin: var(--section-gap) 0;
   text-align: center;
   isolation: isolate;
-  box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.55),
-    0 24px 50px -22px rgba(26, 22, 18, 0.26);
+  box-shadow: var(--card-shadow);
 }
 .rich-study .hebrew .title {
   font-family: var(--font-sans);
@@ -425,20 +458,18 @@ html.js .rich-study .scripture.visible mark {
 .rich-study .christ {
   position: relative;
   background:
-    radial-gradient(ellipse 90% 120% at 0% 0%, rgba(232, 184, 148, 0.32), transparent 65%),
-    radial-gradient(ellipse 60% 80% at 100% 100%, rgba(200, 150, 74, 0.18), transparent 70%),
-    color-mix(in srgb, white 62%, transparent);
-  -webkit-backdrop-filter: blur(22px) saturate(170%);
-  backdrop-filter: blur(22px) saturate(170%);
-  border: 1px solid rgba(255, 255, 255, 0.38);
+    radial-gradient(ellipse 90% 120% at 0% 0%, rgba(232, 184, 148, 0.28), transparent 65%),
+    radial-gradient(ellipse 60% 80% at 100% 100%, rgba(200, 150, 74, 0.16), transparent 70%),
+    color-mix(in srgb, white 65%, transparent);
+  -webkit-backdrop-filter: blur(22px) saturate(160%);
+  backdrop-filter: blur(22px) saturate(160%);
+  border: var(--card-border);
   /* Drop the wine-red border-left — the gold bloom carries the accent now. */
-  border-radius: 28px;
-  padding: 1.75rem 1.85rem 1.5rem;
-  margin: 2rem 0;
+  border-radius: var(--card-radius);
+  padding: 1.6rem 1.7rem 1.45rem;
+  margin: var(--section-gap) 0;
   isolation: isolate;
-  box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.55),
-    0 24px 50px -22px rgba(26, 22, 18, 0.28);
+  box-shadow: var(--card-shadow);
 }
 /* Christ Connection eyebrow with leading cross glyph. The glyph is the
    single thing that distinguishes Christ Connection cards from
@@ -476,8 +507,8 @@ html.js .rich-study .scripture.visible mark {
    Connection's elevated bloom card. */
 .rich-study .carry {
   border-left: 3px solid var(--sage);
-  padding: 0.1rem 0 0.1rem 1.25rem;
-  margin: 1.75rem 0 2rem;
+  padding: 0.1rem 0 0.1rem 1.35rem;
+  margin: var(--section-gap) 0;
   font-style: italic;
   line-height: 1.65;
   color: #2E3A28;
@@ -577,15 +608,25 @@ html.js .rich-study .scripture.visible mark {
 }
 
 @media (max-width: 640px) {
-  .rich-study { padding: 0 0 2.5rem; }
+  .rich-study {
+    padding: 0 0 2.5rem;
+    --card-radius: 18px;
+    --card-padding: 1.25rem 1.2rem;
+  }
   .rich-study h1.page-title { font-size: 32px; }
   .rich-study .subtitle { font-size: 18px; }
-  .rich-study h2.section { font-size: 24px; }
-  .rich-study .scripture { padding: 1.25rem 1.15rem 1.15rem; }
-  .rich-study .hebrew,
-  .rich-study .christ {
-    padding: 1.35rem 1.15rem 1.2rem;
-    border-radius: 22px;
+  .rich-study h2.section {
+    font-size: 24px;
+    margin: 2.75rem 0 1.2rem;
+    padding-top: 1.1rem;
+  }
+  .rich-study .scripture { padding: 1.25rem 1.2rem 1.2rem; }
+  .rich-study .hebrew {
+    padding: 1.4rem 1.2rem 1.25rem;
+  }
+  .rich-study .christ,
+  .rich-study .reflection-block {
+    padding: 1.25rem 1.2rem 1.15rem;
   }
   .rich-study .hebrew .script { font-size: 2.2rem; }
   .rich-study .intro:first-of-type::first-letter { font-size: 52px; }
@@ -707,10 +748,11 @@ html.js .rich-study .scripture.visible mark {
 /* ── Reflection block ── */
 .rich-study .reflection-block {
   background: linear-gradient(180deg, #FFFCF5 0%, #FFF8EC 100%);
-  border: 1px solid rgba(184, 134, 11, 0.18);
-  border-radius: 18px;
-  padding: 1.35rem 1.5rem 1.25rem;
-  margin: 2rem 0 2.5rem;
+  border: var(--card-border);
+  border-radius: var(--card-radius);
+  box-shadow: var(--card-shadow);
+  padding: 1.45rem 1.7rem 1.3rem;
+  margin: var(--section-gap) 0 2.5rem;
   font-family: 'New York', 'Iowan Old Style', Georgia, serif;
 }
 .rich-study .reflection-head {
@@ -718,7 +760,7 @@ html.js .rich-study .scripture.visible mark {
   align-items: center;
   gap: 0.4rem;
   font-family: var(--font-sans);
-  color: #B8860B;
+  color: var(--gold);
   margin-bottom: 0.55rem;
   position: relative;
 }
@@ -735,13 +777,13 @@ html.js .rich-study .scripture.visible mark {
   border-radius: 50%;
   background: transparent;
   border: none;
-  color: #B8860B;
+  color: var(--gold);
   cursor: pointer;
   opacity: 0.7;
   transition: background-color 0.15s ease, opacity 0.15s ease;
 }
 .rich-study .reflection-menu-btn:hover {
-  background: rgba(184, 134, 11, 0.12);
+  background: rgba(200, 150, 74, 0.12);
   opacity: 1;
 }
 .rich-study .reflection-menu-pop {
@@ -806,8 +848,8 @@ html.js .rich-study .scripture.visible mark {
   width: 100%;
   min-height: 100px;
   padding: 0.75rem 0.9rem;
-  border: 1px solid rgba(184, 134, 11, 0.22);
-  border-radius: 12px;
+  border: 1px solid rgba(200, 150, 74, 0.22);
+  border-radius: var(--card-radius-sm);
   background: #fff;
   font-family: 'New York', Georgia, serif;
   font-size: 16px;
@@ -818,8 +860,8 @@ html.js .rich-study .scripture.visible mark {
 }
 .rich-study .reflection-textarea:focus {
   outline: none;
-  border-color: #B8860B;
-  box-shadow: 0 0 0 3px rgba(184, 134, 11, 0.14);
+  border-color: var(--gold);
+  box-shadow: 0 0 0 3px rgba(200, 150, 74, 0.18);
 }
 .rich-study .reflection-textarea::placeholder {
   color: #AEAEB2;
@@ -946,7 +988,8 @@ html.js .rich-study .scripture.visible mark {
 @media (max-width: 640px) {
   .note-drawer { max-width: 100%; }
   .rich-study .reflection-prompt { font-size: 16px; }
-  .rich-study .reflection-block { padding: 1.1rem 1.15rem 1rem; }
+  /* Reflection mobile padding now driven by the unified mobile breakpoint
+     at the top of the file — left intentionally empty here. */
 }
 
 /* ─────────────────────────────────────────────
@@ -1601,8 +1644,8 @@ html.js .rich-study .scripture.visible mark {
 .rich-study .hebrew-audio-btn {
   appearance: none;
   border: none;
-  background: rgba(184, 134, 11, 0.12);
-  color: #B8860B;
+  background: rgba(200, 150, 74, 0.12);
+  color: var(--gold);
   width: 28px;
   height: 28px;
   border-radius: 50%;
@@ -1613,7 +1656,7 @@ html.js .rich-study .scripture.visible mark {
   transition: background 0.15s, transform 0.15s, color 0.15s;
 }
 .rich-study .hebrew-audio-btn:hover {
-  background: rgba(184, 134, 11, 0.2);
+  background: rgba(200, 150, 74, 0.22);
   transform: scale(1.08);
 }
 .rich-study .hebrew-audio-btn:active { transform: scale(0.95); }
@@ -1622,8 +1665,8 @@ html.js .rich-study .scripture.visible mark {
   animation: hebrewPulse 0.9s ease-out;
 }
 @keyframes hebrewPulse {
-  0% { box-shadow: 0 0 0 0 rgba(184, 134, 11, 0.5); }
-  100% { box-shadow: 0 0 0 14px rgba(184, 134, 11, 0); }
+  0% { box-shadow: 0 0 0 0 rgba(200, 150, 74, 0.5); }
+  100% { box-shadow: 0 0 0 14px rgba(200, 150, 74, 0); }
 }
 
 /* Keep the study-top actions row tidy when we add audio */

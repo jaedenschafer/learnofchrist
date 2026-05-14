@@ -225,7 +225,7 @@ export const GENESIS_1: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'Before God ever fills a life, He very often begins with a line - <em>this is not that.</em> A priestly kind of separation, the text calls it. Looking back, you can almost always see them in your own story: a season when something quietly got named, a difference that finally became clear, a space that gently opened. Every such line has been His work. The ones you may be sensing now are probably His too.',
+            'Before God fills a life, He often draws a line first - <em>this is for now, that is for later. This belongs here, that doesn&apos;t.</em> Genesis calls it a priestly act, the same word the Bible later uses for setting holy things apart from common things. Look back over your own life and you can almost always spot these moments: the day something finally got a clear name, the morning a real difference settled in, the week a new pocket of space opened up. Those lines were His. The one you&apos;re sensing this week is probably His too.',
           youthOverride: {
             html:
               'Before God ever fills a life, He almost always starts by drawing a line — <em>this is not that.</em> Maybe it&apos;s the friend group you&apos;re finally outgrowing. The voice in your head that&apos;s not actually yours. The version of you that lives only on a screen. Day one of creation says God&apos;s first move in any new chapter is usually a separation. The lines you&apos;re sensing right now? Probably Him.',
