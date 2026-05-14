@@ -25,6 +25,7 @@ struct SettingsView: View {
             VStack(alignment: .leading, spacing: Theme.metric.spaceXL) {
                 SignInPromptCard()
                 ReadingSection()
+                FocusReadCard()
                 AppearanceSection()
                 AboutSection()
             }
@@ -34,6 +35,53 @@ struct SettingsView: View {
         .background(Theme.color.background)
         .navigationTitle("Settings")
     }
+}
+
+// MARK: - Focus & Reading card
+
+/// Editorial card that links to FocusReadView. Mirrors the same shape
+/// as SignInPromptCard so the settings stack reads as a coherent list
+/// of "things you can opt into."
+private struct FocusReadCard: View {
+    var body: some View {
+        NavigationLink(value: SettingsDestination.focusRead) {
+            HStack(spacing: Theme.metric.spaceM) {
+                Image(systemName: "moon.zzz.fill")
+                    .font(.title2)
+                    .foregroundStyle(Theme.color.accent)
+                VStack(alignment: .leading, spacing: 4) {
+                    Text("Read to unlock")
+                        .font(Theme.font.cardTitle)
+                        .foregroundStyle(Theme.color.label)
+                    Text("Block distracting apps. A finished chapter buys you back a few minutes.")
+                        .font(Theme.font.callout)
+                        .foregroundStyle(Theme.color.secondaryLabel)
+                        .multilineTextAlignment(.leading)
+                }
+                Spacer(minLength: 0)
+                Image(systemName: "chevron.right")
+                    .font(.footnote.weight(.semibold))
+                    .foregroundStyle(Theme.color.secondaryLabel)
+            }
+            .padding(Theme.metric.spaceL)
+            .background(
+                RoundedRectangle(cornerRadius: 18, style: .continuous)
+                    .fill(.ultraThinMaterial)
+            )
+        }
+        .buttonStyle(.plain)
+        .navigationDestination(for: SettingsDestination.self) { dest in
+            switch dest {
+            case .focusRead: FocusReadView()
+            }
+        }
+    }
+}
+
+/// Route values pushed from inside SettingsView. Kept tiny on purpose —
+/// SettingsView is intentionally flat, only Focus & Reading dives deeper.
+enum SettingsDestination: Hashable {
+    case focusRead
 }
 
 // MARK: - Section header

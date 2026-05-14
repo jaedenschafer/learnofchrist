@@ -13,12 +13,14 @@
 // or already-loaded thumbnails AsyncImage may have on disk.
 
 import SwiftUI
+import ImageIO
+import UIKit
 
 struct ArtView: View {
     @State private var artworks: [ArtworkPreview] = []
     @State private var error: String?
     @State private var isLoading = false
-    @State private var selected: ArtworkPreview?
+    @State private var selected: SelectedArtwork?
     @State private var query: String = ""
 
     private let columns: [GridItem] = [
@@ -55,12 +57,12 @@ struct ArtView: View {
                     } else {
                         LazyVGrid(columns: columns, spacing: Theme.metric.spaceM) {
                             ForEach(artworks) { artwork in
-                                Button {
-                                    selected = artwork
-                                } label: {
-                                    ArtworkTile(artwork: artwork)
+                                ArtworkTileButton(artwork: artwork) { preloaded in
+                                    selected = SelectedArtwork(
+                                        artwork: artwork,
+                                        preloadedTile: preloaded
+                                    )
                                 }
-                                .buttonStyle(.plain)
                             }
                         }
                     }
@@ -74,8 +76,11 @@ struct ArtView: View {
         .toolbar(.hidden, for: .navigationBar)
         .task(id: debouncedQuery) { await load(for: debouncedQuery) }
         .refreshable { await load(for: query) }
-        .sheet(item: $selected) { art in
-            ArtworkDetailSheet(artwork: art)
+        .sheet(item: $selected) { sel in
+            ArtworkDetailSheet(
+                artwork: sel.artwork,
+                preloadedTile: sel.preloadedTile
+            )
         }
     }
 
@@ -202,37 +207,190 @@ struct ArtView: View {
     }
 }
 
+// MARK: - Image cache + loader
+
+/// Shared image cache. Single `URLSession` configured with a generous
+/// disk+memory `URLCache`, plus an `NSCache` of decoded `UIImage`s keyed
+/// by URL. The NSCache is the hot path on scroll — it skips both the
+/// network and the ImageIO decode.
+///
+/// Final-class + immutable storage; safe to mark `Sendable` and use
+/// from any actor.
+final class ArtImageCache: @unchecked Sendable {
+    static let shared = ArtImageCache()
+
+    let session: URLSession
+    private let memoryCache: NSCache<NSURL, UIImage>
+
+    private init() {
+        let cache = URLCache(
+            memoryCapacity: 20 * 1024 * 1024,
+            diskCapacity: 100 * 1024 * 1024
+        )
+        let config = URLSessionConfiguration.default
+        config.urlCache = cache
+        config.requestCachePolicy = .returnCacheDataElseLoad
+        self.session = URLSession(configuration: config)
+        let nsCache = NSCache<NSURL, UIImage>()
+        nsCache.countLimit = 200
+        self.memoryCache = nsCache
+    }
+
+    func image(forKey url: URL) -> UIImage? {
+        memoryCache.object(forKey: url as NSURL)
+    }
+
+    func store(_ image: UIImage, forKey url: URL) {
+        memoryCache.setObject(image, forKey: url as NSURL)
+    }
+}
+
+/// Downloads the image bytes via the shared cache-aware session, then
+/// downsamples through ImageIO to a target pixel size so the GPU
+/// doesn't have to push a 2,000-px-wide texture for a 180-pt tile.
+private func loadDownsampledImage(
+    url: URL,
+    maxPixelSize: CGFloat
+) async -> UIImage? {
+    if let cached = ArtImageCache.shared.image(forKey: url) {
+        return cached
+    }
+    do {
+        let (data, _) = try await ArtImageCache.shared.session.data(from: url)
+        guard let source = CGImageSourceCreateWithData(
+            data as CFData,
+            [kCGImageSourceShouldCache: false] as CFDictionary
+        ) else { return nil }
+        let options: [CFString: Any] = [
+            kCGImageSourceCreateThumbnailFromImageAlways: true,
+            kCGImageSourceShouldCacheImmediately: true,
+            kCGImageSourceCreateThumbnailWithTransform: true,
+            kCGImageSourceThumbnailMaxPixelSize: maxPixelSize,
+        ]
+        guard let cg = CGImageSourceCreateThumbnailAtIndex(
+            source, 0, options as CFDictionary
+        ) else { return nil }
+        let img = UIImage(cgImage: cg)
+        ArtImageCache.shared.store(img, forKey: url)
+        return img
+    } catch {
+        return nil
+    }
+}
+
+// MARK: - Cached image view
+
+/// Drop-in replacement for `AsyncImage` that uses the shared cache and
+/// downsamples to the tile's display size. Reports the loaded image
+/// back to the parent via `onLoaded` so taps can pass the already-
+/// decoded `UIImage` straight to the detail sheet.
+private struct CachedTileImage: View {
+    let url: URL?
+    let targetSize: CGSize
+    var onLoaded: (@MainActor (UIImage) -> Void)? = nil
+
+    @State private var image: UIImage?
+    @State private var didFail = false
+
+    var body: some View {
+        ZStack {
+            if let image {
+                Image(uiImage: image)
+                    .resizable()
+                    .scaledToFill()
+            } else if didFail {
+                RoundedRectangle(cornerRadius: 16)
+                    .fill(Theme.color.fillSubtle)
+                    .overlay(
+                        Image(systemName: "photo")
+                            .font(.system(size: 24, weight: .light))
+                            .foregroundStyle(.secondary)
+                    )
+            } else {
+                RoundedRectangle(cornerRadius: 16)
+                    .fill(Theme.color.fillSubtle)
+                    .overlay(ProgressView())
+            }
+        }
+        .task(id: url) {
+            guard let url else {
+                didFail = true
+                return
+            }
+            // Synchronous cache hit — avoid the async hop entirely.
+            if let cached = ArtImageCache.shared.image(forKey: url) {
+                self.image = cached
+                onLoaded?(cached)
+                return
+            }
+            let scale = await MainActor.run { UIScreen.main.scale }
+            let maxPixel = max(targetSize.width, targetSize.height) * scale
+            if let loaded = await loadDownsampledImage(url: url, maxPixelSize: maxPixel) {
+                if Task.isCancelled { return }
+                self.image = loaded
+                onLoaded?(loaded)
+            } else if !Task.isCancelled {
+                self.didFail = true
+            }
+        }
+    }
+}
+
+// MARK: - Selection wrapper
+
+/// Pairs a tappable artwork with whatever tile-sized image we've already
+/// decoded for it, so the detail sheet doesn't have to re-fetch the
+/// 800px URL just to render a placeholder.
+private struct SelectedArtwork: Identifiable {
+    let artwork: ArtworkPreview
+    let preloadedTile: UIImage?
+    var id: ArtworkPreview.ID { artwork.id }
+}
+
 // MARK: - Tile
+
+/// Wraps the tile in a Button and threads the most recent decoded image
+/// back to the caller so a tap can pass it to the detail sheet.
+private struct ArtworkTileButton: View {
+    let artwork: ArtworkPreview
+    let onTap: (UIImage?) -> Void
+
+    @State private var preloaded: UIImage?
+
+    var body: some View {
+        Button {
+            onTap(preloaded)
+        } label: {
+            ArtworkTile(artwork: artwork) { img in
+                preloaded = img
+            }
+        }
+        .buttonStyle(.plain)
+    }
+}
 
 private struct ArtworkTile: View {
     let artwork: ArtworkPreview
+    let onImageLoaded: (UIImage) -> Void
+
+    /// Display height of the tile image. Used to size the downsampled
+    /// thumbnail so the decoded `UIImage` is roughly the displayed size
+    /// times the screen scale.
+    private static let tileImageHeight: CGFloat = 200
 
     var body: some View {
         VStack(alignment: .leading, spacing: Theme.metric.spaceS) {
-            AsyncImage(url: artwork.previewURL) { phase in
-                switch phase {
-                case .empty:
-                    RoundedRectangle(cornerRadius: 16)
-                        .fill(.ultraThinMaterial)
-                        .overlay(ProgressView())
-                case .success(let image):
-                    image.resizable().scaledToFill()
-                case .failure:
-                    RoundedRectangle(cornerRadius: 16)
-                        .fill(.ultraThinMaterial)
-                        .overlay(
-                            Image(systemName: "photo")
-                                .font(.system(size: 24, weight: .light))
-                                .foregroundStyle(.secondary)
-                        )
-                @unknown default:
-                    RoundedRectangle(cornerRadius: 16)
-                        .fill(.ultraThinMaterial)
-                }
+            GeometryReader { geo in
+                CachedTileImage(
+                    url: artwork.previewURL,
+                    targetSize: CGSize(width: geo.size.width, height: Self.tileImageHeight),
+                    onLoaded: onImageLoaded
+                )
+                .frame(width: geo.size.width, height: Self.tileImageHeight)
+                .clipShape(RoundedRectangle(cornerRadius: 16))
             }
-            .frame(height: 200)
+            .frame(height: Self.tileImageHeight)
             .frame(maxWidth: .infinity)
-            .clipShape(RoundedRectangle(cornerRadius: 16))
 
             VStack(alignment: .leading, spacing: 2) {
                 Text(artwork.title)
@@ -252,7 +410,7 @@ private struct ArtworkTile: View {
         .padding(Theme.metric.spaceS)
         .background(
             RoundedRectangle(cornerRadius: 20)
-                .fill(.ultraThinMaterial)
+                .fill(Theme.color.fillSubtle)
         )
         .overlay(
             RoundedRectangle(cornerRadius: 20)
@@ -265,27 +423,36 @@ private struct ArtworkTile: View {
 
 private struct ArtworkDetailSheet: View {
     let artwork: ArtworkPreview
+    let preloadedTile: UIImage?
     @Environment(\.dismiss) private var dismiss
+
+    @State private var fullImage: UIImage?
+    @State private var didFail = false
 
     private var fullURL: URL? {
         if let s = artwork.thumbnail_800_url, let u = URL(string: s) { return u }
         return artwork.previewURL
     }
 
+    /// What to show in the hero image slot. Order of preference:
+    /// 1. The full-size image once it's loaded.
+    /// 2. The pre-loaded tile passed in from the grid (so the sheet has
+    ///    something to render immediately, no flash of empty material,
+    ///    no re-fetch of the smaller URL just to make a placeholder).
+    private var heroImage: UIImage? {
+        fullImage ?? preloadedTile
+    }
+
     var body: some View {
         NavigationStack {
             ScrollView {
                 VStack(alignment: .leading, spacing: Theme.metric.spaceL) {
-                    AsyncImage(url: fullURL) { phase in
-                        switch phase {
-                        case .empty:
-                            Rectangle()
-                                .fill(Theme.color.fillSubtle)
-                                .frame(height: 360)
-                                .overlay(ProgressView())
-                        case .success(let image):
-                            image.resizable().scaledToFit()
-                        case .failure:
+                    Group {
+                        if let heroImage {
+                            Image(uiImage: heroImage)
+                                .resizable()
+                                .scaledToFit()
+                        } else if didFail {
                             Rectangle()
                                 .fill(Theme.color.fillSubtle)
                                 .frame(height: 360)
@@ -294,11 +461,34 @@ private struct ArtworkDetailSheet: View {
                                         .font(.largeTitle)
                                         .foregroundStyle(.secondary)
                                 )
-                        @unknown default:
-                            Rectangle().fill(Theme.color.fillSubtle).frame(height: 360)
+                        } else {
+                            Rectangle()
+                                .fill(Theme.color.fillSubtle)
+                                .frame(height: 360)
+                                .overlay(ProgressView())
                         }
                     }
                     .clipShape(RoundedRectangle(cornerRadius: 20))
+                    .task(id: fullURL) {
+                        guard let url = fullURL else { return }
+                        if let cached = ArtImageCache.shared.image(forKey: url) {
+                            self.fullImage = cached
+                            return
+                        }
+                        // Aim for ~screen-width pixels; the 800px URL
+                        // already caps us short of that on most devices.
+                        let scale = await MainActor.run { UIScreen.main.scale }
+                        let target = await MainActor.run { UIScreen.main.bounds.width } * scale
+                        if let loaded = await loadDownsampledImage(
+                            url: url,
+                            maxPixelSize: target
+                        ) {
+                            if Task.isCancelled { return }
+                            self.fullImage = loaded
+                        } else if !Task.isCancelled {
+                            self.didFail = true
+                        }
+                    }
 
                     VStack(alignment: .leading, spacing: Theme.metric.spaceXS) {
                         Text(artwork.title)

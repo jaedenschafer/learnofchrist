@@ -69,4 +69,37 @@ private struct ChapterTile: View {
 struct ChapterRoute: Hashable {
     let book: BibleBook
     let chapter: Int
+
+    /// Parses a widget / Lock-Screen deep link of the form
+    /// `learnofchrist://study/<bookSlug>/<chapter>` into a route.
+    /// Returns nil if the URL doesn't match the schema or the book slug
+    /// isn't in BibleBookCatalog.
+    static func parse(deepLink url: URL) -> ChapterRoute? {
+        guard url.scheme == "learnofchrist" else { return nil }
+        guard url.host == "study" else { return nil }
+        // path is "/<bookSlug>/<chapter>" — split on "/" and drop the
+        // empty leading segment.
+        let parts = url.path.split(separator: "/").map(String.init)
+        guard parts.count == 2,
+              let chapter = Int(parts[1]),
+              let book = BibleBookCatalog.book(for: parts[0])
+        else { return nil }
+        return ChapterRoute(book: book, chapter: chapter)
+    }
+}
+
+// MARK: - Environment plumbing for deep links
+
+private struct PendingDeepLinkKey: EnvironmentKey {
+    static let defaultValue: ChapterRoute? = nil
+}
+
+extension EnvironmentValues {
+    /// Set by LearnOfChristApp when a `learnofchrist://study/...` deep
+    /// link arrives. RootView observes it and pushes onto the visible
+    /// tab's NavigationStack.
+    var pendingDeepLink: ChapterRoute? {
+        get { self[PendingDeepLinkKey.self] }
+        set { self[PendingDeepLinkKey.self] = newValue }
+    }
 }

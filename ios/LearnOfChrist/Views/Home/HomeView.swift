@@ -29,6 +29,7 @@
 
 import SwiftUI
 import SwiftData
+import UIKit   // UIPasteboard for the verse-card menu's "Copy verse" action
 
 // MARK: - Top-level view
 
@@ -119,7 +120,9 @@ struct HomeView: View {
                 }
                 .padding(.horizontal, Theme.metric.spaceL)
                 .padding(.top, Theme.metric.spaceL)
-                .padding(.bottom, Theme.metric.spaceXXL)
+                // Extra bottom slack so the floating tab bar never covers
+                // the last card. Floating bar is ~70pt + 8pt outer margin.
+                .padding(.bottom, 120)
                 .frame(maxWidth: .infinity, alignment: .leading)
             }
         }
@@ -139,7 +142,8 @@ struct HomeView: View {
     }
 }
 
-// MARK: - Background (light = white, dark = near-black)
+// MARK: - Background — soft off-white in light mode (so the white cards
+//   read as floating), near-black in dark mode.
 
 private struct HomeGradient: View {
     @Environment(\.colorScheme) private var scheme
@@ -148,7 +152,10 @@ private struct HomeGradient: View {
             if scheme == .dark {
                 Color(white: 0.06)
             } else {
-                Color.white
+                // Just slightly off pure-white so white cards visibly
+                // float. Apple's secondarySystemBackground is the
+                // standard token for this.
+                Color(.systemGroupedBackground)
             }
         }
     }
@@ -329,33 +336,78 @@ private struct VerseOfDayCard: View {
     }
 
     private func content(verse v: Verse) -> some View {
-        VStack(alignment: .leading, spacing: Theme.metric.spaceL) {
+        VStack(alignment: .leading, spacing: Theme.metric.spaceM) {
             HStack {
                 Text("VERSE OF THE DAY")
                     .font(Theme.font.eyebrow)
                     .tracking(3)
-                    .foregroundStyle(Theme.color.accent)
+                    .foregroundStyle(Theme.color.secondaryLabel)
                 Spacer()
-                Image(systemName: "quote.opening")
-                    .font(.title3)
-                    .foregroundStyle(Theme.color.accent.opacity(0.5))
+                Menu {
+                    Button {
+                        UIPasteboard.general.string = "\(v.text)\n— \(v.reference)"
+                    } label: {
+                        Label("Copy verse", systemImage: "doc.on.doc")
+                    }
+                    ShareLink(item: "\(v.text)\n— \(v.reference)") {
+                        Label("Share", systemImage: "square.and.arrow.up")
+                    }
+                    if let book = BibleBookCatalog.book(for: v.bookSlug) {
+                        NavigationLink(value: ChapterRoute(book: book, chapter: v.chapter)) {
+                            Label("Read \(book.name) \(v.chapter)", systemImage: "book")
+                        }
+                    }
+                } label: {
+                    Image(systemName: "ellipsis")
+                        .font(.subheadline.weight(.semibold))
+                        .foregroundStyle(Theme.color.secondaryLabel)
+                        .padding(6)
+                        .contentShape(Rectangle())
+                }
             }
-            Text(v.text)
-                .font(.system(.title2, design: .serif).weight(.medium))
-                .foregroundStyle(.primary)
-                .lineSpacing(4)
-                .multilineTextAlignment(.leading)
-            HStack {
+
+            // Inner gradient panel — the verse sits on a warm
+            // parchment-to-bronze gradient so it pops out of the
+            // surrounding card chrome. Matches the design reference.
+            VStack(alignment: .leading, spacing: Theme.metric.spaceL) {
+                Text(v.text)
+                    .font(.system(.title2, design: .serif).weight(.regular))
+                    .foregroundStyle(.white)
+                    .lineSpacing(4)
+                    .multilineTextAlignment(.leading)
+                    .fixedSize(horizontal: false, vertical: true)
+
                 Text(v.reference)
                     .font(.system(.subheadline, design: .serif).weight(.semibold))
-                    .foregroundStyle(Theme.color.accent)
-                Spacer()
-                Text("Read in context →")
-                    .font(Theme.font.callout.weight(.semibold))
-                    .foregroundStyle(.primary.opacity(0.7))
+                    .foregroundStyle(.white.opacity(0.85))
+
+                HStack(spacing: 8) {
+                    Image(systemName: "square.and.arrow.up")
+                        .font(.footnote.weight(.semibold))
+                    Text("SHARE")
+                        .font(.footnote.weight(.bold))
+                        .tracking(1.2)
+                }
+                .foregroundStyle(.white)
+                .padding(.horizontal, 18)
+                .padding(.vertical, 10)
+                .background(Capsule().fill(Color.white.opacity(0.22)))
+                .overlay(Capsule().stroke(Color.white.opacity(0.30), lineWidth: 1))
             }
+            .padding(Theme.metric.spaceL)
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .background(
+                LinearGradient(
+                    colors: [
+                        Color(red: 0.72, green: 0.40, blue: 0.28),
+                        Color(red: 0.45, green: 0.22, blue: 0.16),
+                    ],
+                    startPoint: .topLeading, endPoint: .bottomTrailing
+                )
+            )
+            .clipShape(RoundedRectangle(cornerRadius: 22, style: .continuous))
         }
-        .padding(Theme.metric.spaceXL)
+        .padding(Theme.metric.spaceL)
         .frame(maxWidth: .infinity, alignment: .leading)
         .background(
             RoundedRectangle(cornerRadius: 28, style: .continuous)
@@ -623,44 +675,66 @@ private struct ReadingStreakCard: View {
     let streak: Int
     let history: Set<Date>
 
-    private var days: [(date: Date, read: Bool)] {
+    /// Longest run of consecutive days in `history`. O(n log n) over
+    /// the set — n is tiny (one entry per day a user has ever read),
+    /// so it's cheap.
+    private var longestStreak: Int {
         let cal = Calendar.current
-        let today = cal.startOfDay(for: Date())
-        return (0..<14).reversed().map { offset in
-            let d = cal.date(byAdding: .day, value: -offset, to: today) ?? today
-            return (d, history.contains(d))
+        let sorted = history.sorted()
+        guard !sorted.isEmpty else { return 0 }
+        var longest = 1
+        var current = 1
+        for i in 1..<sorted.count {
+            let prev = sorted[i - 1]
+            let now = sorted[i]
+            if let expected = cal.date(byAdding: .day, value: 1, to: prev),
+               cal.isDate(expected, inSameDayAs: now) {
+                current += 1
+                longest = max(longest, current)
+            } else {
+                current = 1
+            }
         }
+        return longest
     }
 
     var body: some View {
         VStack(alignment: .leading, spacing: Theme.metric.spaceM) {
             HStack {
-                VStack(alignment: .leading, spacing: 2) {
-                    Text("READING STREAK")
-                        .font(Theme.font.eyebrow)
-                        .tracking(3)
-                        .foregroundStyle(Theme.color.accent)
-                    Text(streakHeadline)
-                        .font(.system(.title2, design: .serif).weight(.semibold))
-                        .foregroundStyle(.primary)
-                }
+                Text("DAILY STUDY")
+                    .font(Theme.font.eyebrow)
+                    .tracking(3)
+                    .foregroundStyle(Theme.color.secondaryLabel)
                 Spacer()
-                if streak > 0 {
-                    HStack(spacing: 4) {
-                        Image(systemName: "flame.fill")
-                            .foregroundStyle(Theme.color.accent)
-                        Text("\(streak)")
-                            .font(.system(.largeTitle, design: .serif).weight(.bold))
-                            .foregroundStyle(.primary)
+                Menu {
+                    NavigationLink(value: BrowseDestination.library) {
+                        Label("View library", systemImage: "books.vertical")
                     }
+                    NavigationLink(value: BrowseDestination.bible) {
+                        Label("Open Bible", systemImage: "book.closed")
+                    }
+                } label: {
+                    Image(systemName: "ellipsis")
+                        .font(.subheadline.weight(.semibold))
+                        .foregroundStyle(Theme.color.secondaryLabel)
+                        .padding(6)
+                        .contentShape(Rectangle())
                 }
             }
-            HStack(spacing: 6) {
-                ForEach(Array(days.enumerated()), id: \.offset) { _, d in
-                    Circle()
-                        .fill(d.read ? Theme.color.accent : Color.primary.opacity(0.08))
-                        .frame(width: 18, height: 18)
-                }
+
+            HStack(spacing: Theme.metric.spaceM) {
+                StreakStatTile(
+                    iconSystem: "bolt.fill",
+                    iconColor: Color(red: 0.30, green: 0.74, blue: 0.85),
+                    value: streak,
+                    label: "Current Streak"
+                )
+                StreakStatTile(
+                    iconSystem: "star.fill",
+                    iconColor: Color(red: 0.95, green: 0.74, blue: 0.20),
+                    value: max(longestStreak, streak),
+                    label: "Longest Streak"
+                )
             }
         }
         .padding(Theme.metric.spaceL)
@@ -674,15 +748,47 @@ private struct ReadingStreakCard: View {
                 .stroke(.primary.opacity(0.06), lineWidth: 1)
         )
     }
+}
 
-    private var streakHeadline: String {
-        switch streak {
-        case 0: return "Start your streak today."
-        case 1: return "1 day. Keep going."
-        case 2..<7: return "\(streak) days in a row."
-        case 7..<30: return "\(streak) days. Look at you."
-        default: return "\(streak) days. Faithful."
+/// One stat tile inside the Daily Study card — colored icon + big
+/// number + tiny "days" + label. Two of these sit side by side.
+private struct StreakStatTile: View {
+    let iconSystem: String
+    let iconColor: Color
+    let value: Int
+    let label: String
+
+    var body: some View {
+        HStack(alignment: .center, spacing: 12) {
+            Image(systemName: iconSystem)
+                .font(.title2.weight(.semibold))
+                .foregroundStyle(iconColor)
+            VStack(alignment: .leading, spacing: 0) {
+                HStack(alignment: .firstTextBaseline, spacing: 4) {
+                    Text("\(value)")
+                        .font(.system(.title, design: .rounded).weight(.bold))
+                        .foregroundStyle(.primary)
+                    Text("days")
+                        .font(.system(.footnote, design: .rounded).weight(.medium))
+                        .foregroundStyle(.secondary)
+                }
+                Text(label)
+                    .font(.caption2.weight(.medium))
+                    .foregroundStyle(.secondary)
+            }
+            Spacer(minLength: 0)
         }
+        .padding(.vertical, 14)
+        .padding(.horizontal, 14)
+        .frame(maxWidth: .infinity)
+        .background(
+            RoundedRectangle(cornerRadius: 18, style: .continuous)
+                .fill(Color.primary.opacity(0.04))
+        )
+        .overlay(
+            RoundedRectangle(cornerRadius: 18, style: .continuous)
+                .stroke(Color.primary.opacity(0.06), lineWidth: 1)
+        )
     }
 }
 

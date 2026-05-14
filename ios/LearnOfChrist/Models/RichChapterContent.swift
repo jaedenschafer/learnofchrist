@@ -497,6 +497,37 @@ extension VerseSpan: Codable {
     }
 }
 
+// MARK: - Verse-line convenience helpers
+//
+// The WidgetSync flow and the Read-To-Unlock trigger both want simple
+// "first verse of the chapter" / "last verse of the chapter" handles
+// without having to pattern-match through Section → Block → scripture
+// every time. These extensions live here next to the model so the data
+// shape and its accessors stay in one file.
+
+extension VerseLine {
+    /// Joined plain text of every span. Strips highlight styling and any
+    /// resource-superscript markers — that's a render-layer concern.
+    var plainText: String {
+        spans.map(\.text).joined()
+    }
+}
+
+extension RichChapterContent {
+    /// Every VerseLine from every scripture block in document order.
+    /// Non-scripture blocks (commentary, hebrew, etc.) are skipped.
+    var allVerseLines: [VerseLine] {
+        sections.flatMap { section in
+            section.blocks.flatMap { annotated -> [VerseLine] in
+                if case .scripture(_, let lines) = annotated.block {
+                    return lines
+                }
+                return []
+            }
+        }
+    }
+}
+
 // MARK: - SerializedRegex
 // The pack builder marshals JS RegExp as { pattern, flags }. We don't need
 // to actually run these on the device for v1 — they're metadata for the

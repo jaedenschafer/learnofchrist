@@ -22,6 +22,12 @@ struct LearnOfChristApp: App {
     @State private var auth: AuthService
     @State private var sync: SyncService
 
+    /// Deep-link target. When `learnofchrist://study/<book>/<chapter>` is
+    /// opened (Home Screen widget, Lock Screen widget, Universal Link),
+    /// this gets set; RootView reads it on `.onChange` and pushes the
+    /// chapter onto the visible tab's NavigationStack.
+    @State private var pendingDeepLink: ChapterRoute?
+
     @AppStorage(AppearancePreferences.Key.onboardingDone)
     private var onboardingDone: Bool = false
 
@@ -71,6 +77,15 @@ struct LearnOfChristApp: App {
                     Task { await sync.sync() }
                 }
             }
+            // Widget / Lock-Screen deep links — parse incoming URLs of
+            // the form learnofchrist://study/<bookSlug>/<chapter> into a
+            // ChapterRoute, which RootView consumes to push the reader.
+            .onOpenURL { url in
+                if let route = ChapterRoute.parse(deepLink: url) {
+                    pendingDeepLink = route
+                }
+            }
+            .environment(\.pendingDeepLink, pendingDeepLink)
         }
         .modelContainer(userData.container)
     }
