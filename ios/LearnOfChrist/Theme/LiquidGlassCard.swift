@@ -1,22 +1,22 @@
 // LiquidGlassCard.swift
 // ────────────────────────────────────────────────────────────────────────────
-// White-on-white "liquid glass" card surface. The reference design uses
-// pure white (or near-white) cards floating on a very light gray
-// background with a soft drop shadow for separation — no harsh borders,
-// no frost, no warm tint. Selected/active cards just get a stronger
-// shadow to lift them further off the page.
+// True frosted-glass card surface — built for pastel gradient
+// backgrounds where the card needs to read as a piece of clear glass
+// lit from behind. Recipe:
 //
-// Apply with `.liquidGlassCard()` on any view that should look like a
-// floating UI element. Pass `selected: true` for the brighter, more
-// elevated state (used for the active tab in a picker, the selected
-// row in a list, etc).
+//   1. .ultraThinMaterial base — the actual blur.
+//   2. White-tinted veil at low opacity — softens what's behind so text
+//      is readable without losing the "glass" feel.
+//   3. Inset white highlight along the top edge — catches the light.
+//   4. Hairline white border — defines the rim of the glass.
+//   5. Soft cool drop shadow — lifts the card off the page.
+//
+// Pass `selected: true` for the elevated state used on the active
+// option in a picker / list / filter row.
 
 import SwiftUI
 
 extension View {
-    /// Wraps the receiver in the white-on-white "liquid glass" card
-    /// surface — pure white fill, soft drop shadow, generous rounded
-    /// corners. Use `selected` for a more elevated state.
     func liquidGlassCard(
         cornerRadius: CGFloat = 22,
         selected: Bool = false
@@ -35,70 +35,74 @@ private struct LiquidGlassCardModifier: ViewModifier {
 
     func body(content: Content) -> some View {
         content
-            .background(
-                RoundedRectangle(cornerRadius: cornerRadius, style: .continuous)
-                    .fill(surface)
-            )
-            // Inset white highlight along the top rim — keeps the "liquid
-            // glass" cue without darkening the whole card with a border.
+            .background {
+                ZStack {
+                    // 1. Frosted blur.
+                    RoundedRectangle(cornerRadius: cornerRadius, style: .continuous)
+                        .fill(.ultraThinMaterial)
+
+                    // 2. White-tinted veil — softens the gradient behind
+                    //    just enough that text reads cleanly.
+                    RoundedRectangle(cornerRadius: cornerRadius, style: .continuous)
+                        .fill(Color.white.opacity(veilOpacity))
+                        .blendMode(.plusLighter)
+                }
+            }
+            // 3. Inset white highlight along the upper rim — the iOS
+            //    Liquid Glass "catch of light" cue.
             .overlay(alignment: .top) {
                 Capsule()
-                    .fill(Color.white.opacity(scheme == .dark ? 0.10 : 0.85))
+                    .fill(Color.white.opacity(scheme == .dark ? 0.22 : 0.65))
                     .frame(height: 1)
                     .padding(.horizontal, cornerRadius * 0.85)
                     .padding(.top, 1)
                     .allowsHitTesting(false)
             }
-            .clipShape(RoundedRectangle(cornerRadius: cornerRadius, style: .continuous))
-            // Outer hairline so the card has a defined edge against very
-            // light backgrounds (only visible when the bg is identical
-            // to the card surface).
+            // 4. Hairline glass border.
             .overlay(
                 RoundedRectangle(cornerRadius: cornerRadius, style: .continuous)
-                    .stroke(borderColor, lineWidth: 0.5)
+                    .stroke(borderColor, lineWidth: 1)
             )
-            // Soft drop shadow — primary depth cue. Two-layer for a
-            // softer "ambient + key light" feel.
+            .clipShape(RoundedRectangle(cornerRadius: cornerRadius, style: .continuous))
+            // 5. Soft cool-toned drop shadow.
             .shadow(
                 color: ambientShadow,
-                radius: selected ? 28 : 18,
+                radius: selected ? 30 : 22,
                 x: 0,
-                y: selected ? 14 : 8
+                y: selected ? 16 : 10
             )
             .shadow(
                 color: keyShadow,
                 radius: selected ? 6 : 3,
                 x: 0,
-                y: selected ? 3 : 1
+                y: selected ? 4 : 2
             )
     }
 
-    private var surface: Color {
+    /// How much white veil sits on top of the frost. Selected gets a
+    /// brighter veil so the active option visibly stands above the rest.
+    private var veilOpacity: Double {
         if scheme == .dark {
-            return selected
-                ? Color(white: 0.16)
-                : Color(white: 0.11)
+            return selected ? 0.10 : 0.04
         }
-        return Color.white
+        return selected ? 0.55 : 0.32
     }
 
     private var borderColor: Color {
         scheme == .dark
-            ? Color.white.opacity(0.06)
-            : Color.black.opacity(0.04)
+            ? Color.white.opacity(selected ? 0.20 : 0.10)
+            : Color.white.opacity(selected ? 0.85 : 0.55)
     }
 
-    /// Soft, wide ambient shadow.
     private var ambientShadow: Color {
         scheme == .dark
-            ? Color.black.opacity(selected ? 0.65 : 0.55)
-            : Color.black.opacity(selected ? 0.13 : 0.08)
+            ? Color.black.opacity(selected ? 0.55 : 0.40)
+            : Color(red: 0.32, green: 0.32, blue: 0.45).opacity(selected ? 0.22 : 0.14)
     }
 
-    /// Tight key shadow that crisps the edge.
     private var keyShadow: Color {
         scheme == .dark
-            ? Color.black.opacity(0.35)
-            : Color.black.opacity(0.06)
+            ? Color.black.opacity(0.28)
+            : Color(red: 0.30, green: 0.30, blue: 0.42).opacity(0.08)
     }
 }

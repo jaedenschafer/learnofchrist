@@ -142,22 +142,28 @@ struct HomeView: View {
     }
 }
 
-// MARK: - Background — soft off-white in light mode (so the white cards
-//   read as floating), near-black in dark mode.
+// MARK: - Background — soft pastel periwinkle gradient that lets the
+//   frosted-glass cards above feel like they're floating on a sky.
 
 private struct HomeGradient: View {
     @Environment(\.colorScheme) private var scheme
     var body: some View {
-        Group {
-            if scheme == .dark {
-                Color(white: 0.06)
-            } else {
-                // Just slightly off pure-white so white cards visibly
-                // float. Apple's secondarySystemBackground is the
-                // standard token for this.
-                Color(.systemGroupedBackground)
-            }
-        }
+        let colors: [Color] = scheme == .dark
+            ? [
+                Color(red: 0.13, green: 0.14, blue: 0.22),
+                Color(red: 0.18, green: 0.16, blue: 0.26),
+                Color(red: 0.12, green: 0.12, blue: 0.22),
+              ]
+            : [
+                Color(red: 0.71, green: 0.76, blue: 0.93),   // periwinkle top
+                Color(red: 0.84, green: 0.79, blue: 0.92),   // mauve middle
+                Color(red: 0.74, green: 0.81, blue: 0.94),   // soft blue bottom
+              ]
+        return LinearGradient(
+            colors: colors,
+            startPoint: .topLeading,
+            endPoint: .bottomTrailing
+        )
     }
 }
 
@@ -399,8 +405,8 @@ private struct VerseOfDayCard: View {
             .background(
                 LinearGradient(
                     colors: [
-                        Color(red: 0.72, green: 0.40, blue: 0.28),
-                        Color(red: 0.45, green: 0.22, blue: 0.16),
+                        Color(red: 0.45, green: 0.49, blue: 0.74),   // soft indigo
+                        Color(red: 0.32, green: 0.36, blue: 0.62),   // deeper periwinkle
                     ],
                     startPoint: .topLeading, endPoint: .bottomTrailing
                 )
@@ -409,14 +415,7 @@ private struct VerseOfDayCard: View {
         }
         .padding(Theme.metric.spaceL)
         .frame(maxWidth: .infinity, alignment: .leading)
-        .background(
-            RoundedRectangle(cornerRadius: 28, style: .continuous)
-                .fill(Color(.secondarySystemBackground))
-        )
-        .overlay(
-            RoundedRectangle(cornerRadius: 28, style: .continuous)
-                .stroke(.primary.opacity(0.06), lineWidth: 1)
-        )
+        .liquidGlassCard(cornerRadius: 28)
     }
 }
 
@@ -510,14 +509,7 @@ private struct TodaysStudyCard: View {
             }
             .padding(Theme.metric.spaceL)
         }
-        .background(
-            RoundedRectangle(cornerRadius: 28, style: .continuous)
-                .fill(Color(.secondarySystemBackground))
-        )
-        .overlay(
-            RoundedRectangle(cornerRadius: 28, style: .continuous)
-                .stroke(.primary.opacity(0.06), lineWidth: 1)
-        )
+        .liquidGlassCard(cornerRadius: 28)
     }
 }
 
@@ -739,14 +731,7 @@ private struct ReadingStreakCard: View {
         }
         .padding(Theme.metric.spaceL)
         .frame(maxWidth: .infinity, alignment: .leading)
-        .background(
-            RoundedRectangle(cornerRadius: 28, style: .continuous)
-                .fill(Color(.secondarySystemBackground))
-        )
-        .overlay(
-            RoundedRectangle(cornerRadius: 28, style: .continuous)
-                .stroke(.primary.opacity(0.06), lineWidth: 1)
-        )
+        .liquidGlassCard(cornerRadius: 28)
     }
 }
 
@@ -912,14 +897,7 @@ private struct QuickActionTile: View {
         .frame(maxWidth: .infinity, alignment: .leading)
         .padding(Theme.metric.spaceL)
         .frame(height: 130)
-        .background(
-            RoundedRectangle(cornerRadius: 24, style: .continuous)
-                .fill(Color(.secondarySystemBackground))
-        )
-        .overlay(
-            RoundedRectangle(cornerRadius: 24, style: .continuous)
-                .stroke(.primary.opacity(0.06), lineWidth: 1)
-        )
+        .liquidGlassCard(cornerRadius: 24)
     }
 }
 
@@ -963,14 +941,7 @@ private struct ReflectionPromptCard: View {
         }
         .padding(Theme.metric.spaceL)
         .frame(maxWidth: .infinity, alignment: .leading)
-        .background(
-            RoundedRectangle(cornerRadius: 28, style: .continuous)
-                .fill(Color(.secondarySystemBackground))
-        )
-        .overlay(
-            RoundedRectangle(cornerRadius: 28, style: .continuous)
-                .stroke(.primary.opacity(0.06), lineWidth: 1)
-        )
+        .liquidGlassCard(cornerRadius: 28)
     }
 }
 
@@ -1026,14 +997,7 @@ private struct BlogPostRow: View {
             Spacer(minLength: 0)
         }
         .padding(Theme.metric.spaceM)
-        .background(
-            RoundedRectangle(cornerRadius: 24, style: .continuous)
-                .fill(Color(.secondarySystemBackground))
-        )
-        .overlay(
-            RoundedRectangle(cornerRadius: 24, style: .continuous)
-                .stroke(.primary.opacity(0.06), lineWidth: 1)
-        )
+        .liquidGlassCard(cornerRadius: 24)
     }
 }
 
