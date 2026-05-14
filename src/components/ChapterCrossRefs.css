@@ -1,0 +1,237 @@
+/* ─── Chapter cross-references — collapsed dropdown ───────────────────
+ *  Sits directly below the Further Study section. Reads as a sibling of
+ *  it: same max-width, same wine eyebrow weight, same tight rhythm. The
+ *  whole section is wrapped in a native <details> so closed-by-default
+ *  behavior, keyboard support, and accessibility are all free.
+ *
+ *  Inside the dropdown each cross-reference is one full row — no grid,
+ *  no horizontal scrolling. The old swipeable CrossRefCard layout still
+ *  exists for any place that wants it; this is a separate component. */
+
+.chapter-xrefs {
+  margin: 0 auto 1.75rem;
+  padding: 0 1.25rem;
+  max-width: 42rem;
+  /* No top border — the Further Study section above already has one and
+     adding a second rule would read as two stacked dividers. */
+}
+
+/* ─── Summary (the clickable header) ──
+   Reads as a quiet eyebrow with a chevron at the end. Click anywhere on
+   the row toggles the dropdown — native <details>/<summary> behavior. */
+.chapter-xrefs__summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem;
+  width: 100%;
+  padding: 0.7rem 0.25rem;
+  cursor: pointer;
+  list-style: none;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+  border-radius: 6px;
+  transition: background 160ms ease;
+}
+.chapter-xrefs__summary::-webkit-details-marker {
+  display: none;
+}
+.chapter-xrefs__summary:hover {
+  background: color-mix(in oklab, var(--resource-ink, #7A2F3D) 5%, transparent);
+}
+.chapter-xrefs__summary:focus-visible {
+  outline: 2px solid var(--resource-ink, #7A2F3D);
+  outline-offset: 2px;
+}
+
+.chapter-xrefs__summary-text {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--font-sans, Georgia, 'Times New Roman', serif);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--resource-ink, #7A2F3D);
+}
+
+.chapter-xrefs__icon {
+  width: 14px;
+  height: 14px;
+  color: color-mix(in oklab, var(--resource-ink, #7A2F3D) 75%, transparent);
+  flex-shrink: 0;
+}
+
+/* Small numeric pill next to the label — tells the reader how many echoes
+   are inside before they bother to expand. */
+.chapter-xrefs__count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.4rem;
+  height: 1.05rem;
+  padding: 0 0.4rem;
+  margin-left: 0.1rem;
+  background: color-mix(in oklab, var(--resource-ink, #7A2F3D) 10%, transparent);
+  color: var(--resource-ink, #7A2F3D);
+  border-radius: 999px;
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+/* Chevron that rotates when the dropdown opens. */
+.chapter-xrefs__chevron {
+  width: 14px;
+  height: 14px;
+  color: color-mix(in oklab, var(--resource-ink, #7A2F3D) 75%, transparent);
+  flex-shrink: 0;
+  transition: transform 220ms ease;
+}
+.chapter-xrefs[open] .chapter-xrefs__chevron {
+  transform: rotate(180deg);
+}
+
+/* ─── Body (the expanded content) ── */
+.chapter-xrefs__body {
+  padding: 0.5rem 0.25rem 0.25rem;
+  /* Soft fade-in when opened — no height animation, just a gentle reveal
+     so it doesn't snap into place. Native <details> doesn't animate
+     height for us, but the fade is enough to feel intentional. */
+  animation: chapter-xrefs-fade-in 220ms ease-out;
+}
+@keyframes chapter-xrefs-fade-in {
+  from { opacity: 0; transform: translateY(-2px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.chapter-xrefs__group {
+  margin-bottom: 1.25rem;
+}
+.chapter-xrefs__group:last-child {
+  margin-bottom: 0;
+}
+
+.chapter-xrefs__group-title {
+  font-family: var(--font-sans, Georgia, 'Times New Roman', serif);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-tertiary-label, #6e6a60);
+  margin: 0 0 0.5rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px dashed
+    color-mix(in oklab, var(--color-separator, #d6d3cb) 85%, transparent);
+}
+
+.chapter-xrefs__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+
+.chapter-xrefs__item {
+  /* Each xref is its own full-width row. */
+}
+
+.chapter-xrefs__link,
+.chapter-xrefs__static {
+  display: flex;
+  flex-direction: column;
+  gap: 0.18rem;
+  padding: 0.6rem 0.75rem;
+  background: color-mix(in oklab, var(--color-surface, #faf7f1) 80%, transparent);
+  border: 1px solid
+    color-mix(in oklab, var(--color-separator, #d6d3cb) 45%, transparent);
+  border-radius: 10px;
+  text-decoration: none !important;
+  color: inherit;
+  transition: border-color 180ms ease, background 180ms ease,
+    transform 180ms ease;
+}
+
+.chapter-xrefs__link:hover {
+  border-color: color-mix(in oklab, var(--color-primary, #b08858) 55%, transparent);
+  background: var(--color-surface, #fff);
+  transform: translateY(-1px);
+}
+
+.chapter-xrefs__ref {
+  font-family: -apple-system, 'SF Pro Text', system-ui, sans-serif;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: var(--color-primary, #8b6635);
+}
+
+.chapter-xrefs__snippet {
+  font-family: 'New York', 'Iowan Old Style', Georgia, serif;
+  font-size: 0.92rem;
+  line-height: 1.45;
+  color: var(--color-label, #1c1b18);
+  font-style: italic;
+}
+
+.chapter-xrefs__note {
+  font-family: -apple-system, 'SF Pro Text', system-ui, sans-serif;
+  font-size: 0.72rem;
+  line-height: 1.4;
+  color: var(--color-secondary-label, #4d4a44);
+  margin-top: 0.18rem;
+}
+
+/* ─── Dark mode ──
+   Matches the rich-study dark-theme palette so the dropdown still reads
+   as a sibling of Further Study when the reader has flipped the theme. */
+html[data-reader-theme='dark'] .chapter-xrefs__summary-text,
+html[data-reader-theme='dark'] .chapter-xrefs__icon,
+html[data-reader-theme='dark'] .chapter-xrefs__chevron {
+  color: #E97A8B;
+}
+html[data-reader-theme='dark'] .chapter-xrefs__summary:hover {
+  background: rgba(233, 122, 139, 0.10);
+}
+html[data-reader-theme='dark'] .chapter-xrefs__count {
+  background: rgba(233, 122, 139, 0.16);
+  color: #E97A8B;
+}
+html[data-reader-theme='dark'] .chapter-xrefs__group-title {
+  color: #8E8E93;
+  border-bottom-color: rgba(255, 255, 255, 0.08);
+}
+html[data-reader-theme='dark'] .chapter-xrefs__link,
+html[data-reader-theme='dark'] .chapter-xrefs__static {
+  background: rgba(255, 255, 255, 0.04);
+  border-color: rgba(255, 255, 255, 0.08);
+}
+html[data-reader-theme='dark'] .chapter-xrefs__link:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(224, 174, 69, 0.4);
+}
+html[data-reader-theme='dark'] .chapter-xrefs__ref {
+  color: #E0AE45;
+}
+html[data-reader-theme='dark'] .chapter-xrefs__snippet {
+  color: #E5E5EA;
+}
+html[data-reader-theme='dark'] .chapter-xrefs__note {
+  color: #AEAEB2;
+}
+
+@media (max-width: 640px) {
+  .chapter-xrefs {
+    padding: 0 1rem;
+  }
+  .chapter-xrefs__link,
+  .chapter-xrefs__static {
+    padding: 0.55rem 0.7rem;
+  }
+  .chapter-xrefs__snippet {
+    font-size: 0.88rem;
+  }
+}

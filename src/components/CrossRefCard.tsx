@@ -7,7 +7,7 @@ import './CrossRefCard.css';
 /** Decode the small set of HTML entities that appear in author prose so
  *  they don't render literally inside the card (snippets are plain text,
  *  not innerHTML). */
-function decodeEntities(s: string): string {
+export function decodeEntities(s: string): string {
   return s
     .replace(/&apos;/g, '’')
     .replace(/&ldquo;/g, '“')
@@ -24,7 +24,7 @@ function decodeEntities(s: string): string {
  *  like "John 1:1–3" or "1 Samuel 17:48–50". Returns null when the ref
  *  doesn't parse cleanly so the card falls back to a static (non-link)
  *  presentation rather than a broken link. */
-function deriveHrefFromRef(ref: string): string | null {
+export function deriveHrefFromRef(ref: string): string | null {
   // Match "<Book name with optional leading digit> <chapter>[:<verse>]"
   const m = ref.match(/^([1-3]?\s?[A-Za-z][A-Za-z'’\s]*?)\s+(\d+)(?::|$|\s)/);
   if (!m) return null;

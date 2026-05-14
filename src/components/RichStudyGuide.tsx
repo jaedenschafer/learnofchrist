@@ -11,18 +11,13 @@ import {
 import dynamic from 'next/dynamic';
 import ReflectionBlock from './ReflectionBlock';
 import ScriptureRefs from './ScriptureRefs';
-import ShareableMarks from './ShareableMarks';
 import ShareButton from './ShareButton';
 import HebrewAudio from './HebrewAudio';
 import ReadingComfortEffects from './ReadingComfortEffects';
-import ChapterProgress from './ChapterProgress';
 import InlineArtwork from './InlineArtwork';
-import HighlightController from './HighlightController';
-import BlockHideMenus from './BlockHideMenus';
-import CrossRefCard from './CrossRefCard';
+import ChapterCrossRefs from './ChapterCrossRefs';
 import PeopleInChapter from './PeopleInChapter';
 import ChapterMap from './ChapterMap';
-import VerseTranslationOverlay from './VerseTranslationOverlay';
 import { getFallbackCrossRefs } from '@/data/study-chapters/cross-refs';
 // StudyLevelControl was the prominent three-tab segmented control rendered
 // near the top of every study chapter. It now lives as a compact pill in
@@ -60,6 +55,31 @@ import './FurtherStudy.css';
 const StudyAudioPlayer = dynamic(() => import('./StudyAudioPlayer'), {
   ssr: false,
   loading: () => <div className="h-11 w-11" aria-hidden="true" />,
+});
+
+/* ─── Interaction-layer components (lazy-mounted) ──────────────────────
+ * These components are interaction-only (text selection, share marks,
+ * block-hide menus, long-press translation overlay, scroll progress,
+ * audio player). Hydrating them up-front on initial render is a big
+ * cost — none of them paint anything visible before the user does
+ * something. We defer their mount until the first user interaction
+ * (pointerdown/touchstart/keydown) or, failing that, until the browser
+ * is idle. Once mounted they behave exactly as before. */
+const HighlightController = dynamic(() => import('./HighlightController'), {
+  ssr: false,
+});
+const ShareableMarks = dynamic(() => import('./ShareableMarks'), {
+  ssr: false,
+});
+const BlockHideMenus = dynamic(() => import('./BlockHideMenus'), {
+  ssr: false,
+});
+const VerseTranslationOverlay = dynamic(
+  () => import('./VerseTranslationOverlay'),
+  { ssr: false },
+);
+const ChapterProgress = dynamic(() => import('./ChapterProgress'), {
+  ssr: false,
 });
 
 /* ─── Translation-aware scripture context ─────────────────────────────── */
@@ -340,6 +360,29 @@ export default function RichStudyGuide({
     [rawContent, studyLevel, audience],
   );
 
+  // Aggregate cross-references across the whole chapter so the new
+  // ChapterCrossRefs dropdown (rendered below Further Study) can show
+  // every echo in one place. Each section contributes either its own
+  // curated `crossRefs` or, for the FIRST section that lacks one, the
+  // chapter-level fallback — preserving the prior "no duplicate fallback"
+  // behavior of the old inline cards.
+  const chapterCrossRefGroups = useMemo(() => {
+    const fallback = getFallbackCrossRefs(content.bookSlug, content.chapter);
+    let fallbackUsed = false;
+    const groups: Array<{ sectionTitle?: string; refs: ReturnType<typeof getFallbackCrossRefs> }> = [];
+    for (const section of content.sections) {
+      const sectionRefs = section.crossRefs;
+      const useFallback =
+        !sectionRefs && fallback.length > 0 && !fallbackUsed;
+      if (useFallback) fallbackUsed = true;
+      const resolved = sectionRefs ?? (useFallback ? fallback : undefined);
+      if (resolved && resolved.length > 0) {
+        groups.push({ sectionTitle: section.title, refs: resolved });
+      }
+    }
+    return groups;
+  }, [content.bookSlug, content.chapter, content.sections]);
+
   const opener = content.opener
     ? matchArtwork(
         artworks,
@@ -350,6 +393,87 @@ export default function RichStudyGuide({
     : null;
 
   const [versesByChapter, setVersesByChapter] = useState<Record<number, Verse[]>>({});
+
+  // Lazy-mount the interaction layer. The interaction-only components
+  // (highlight controller, share-marks, block-hide menus, translation
+  // overlay, audio player) don't paint anything visible before user
+  // interaction, but unconditionally hydrating them on first render
+  // costs measurable hydration time. We flip this flag on the first of:
+  //   - pointerdown / touchstart / keydown (any user gesture)
+  //   - requestIdleCallback (fallback: setTimeout 1500ms)
+  // Once true it stays true for the life of the page; deferred mounts
+  // behave identically to eager mounts after that.
+  const [interactionLayerMounted, setInteractionLayerMounted] = useState(false);
+  // ChapterProgress does localStorage I/O on mount; defer it to idle
+  // so it never competes with first paint or scroll. Separate flag so
+  // it can mount before any user gesture if the browser is idle.
+  const [progressMounted, setProgressMounted] = useState(false);
+
+  useEffect(() => {
+    if (interactionLayerMounted) return;
+    let cancelled = false;
+    const mount = () => {
+      if (cancelled) return;
+      setInteractionLayerMounted(true);
+    };
+    const events: Array<'pointerdown' | 'touchstart' | 'keydown'> = [
+      'pointerdown',
+      'touchstart',
+      'keydown',
+    ];
+    events.forEach((evt) =>
+      window.addEventListener(evt, mount, { once: true, passive: true }),
+    );
+    // Fallback: mount on idle (or after 1.5s if requestIdleCallback is
+    // not available). Use a different handle than the event listeners
+    // so we can clean both up on unmount.
+    type IdleCallbackHandle = number;
+    type IdleCallback = (deadline: { didTimeout: boolean; timeRemaining: () => number }) => void;
+    const w = window as Window & {
+      requestIdleCallback?: (cb: IdleCallback, opts?: { timeout?: number }) => IdleCallbackHandle;
+      cancelIdleCallback?: (handle: IdleCallbackHandle) => void;
+    };
+    let idleHandle: IdleCallbackHandle | null = null;
+    let timeoutHandle: ReturnType<typeof setTimeout> | null = null;
+    if (typeof w.requestIdleCallback === 'function') {
+      idleHandle = w.requestIdleCallback(mount, { timeout: 1500 });
+    } else {
+      timeoutHandle = setTimeout(mount, 1500);
+    }
+    return () => {
+      cancelled = true;
+      events.forEach((evt) => window.removeEventListener(evt, mount));
+      if (idleHandle !== null && typeof w.cancelIdleCallback === 'function') {
+        w.cancelIdleCallback(idleHandle);
+      }
+      if (timeoutHandle !== null) clearTimeout(timeoutHandle);
+    };
+  }, [interactionLayerMounted]);
+
+  // ChapterProgress: defer to idle (it reads localStorage on mount).
+  useEffect(() => {
+    if (progressMounted) return;
+    type IdleCallbackHandle = number;
+    type IdleCallback = (deadline: { didTimeout: boolean; timeRemaining: () => number }) => void;
+    const w = window as Window & {
+      requestIdleCallback?: (cb: IdleCallback, opts?: { timeout?: number }) => IdleCallbackHandle;
+      cancelIdleCallback?: (handle: IdleCallbackHandle) => void;
+    };
+    let idleHandle: IdleCallbackHandle | null = null;
+    let timeoutHandle: ReturnType<typeof setTimeout> | null = null;
+    const mount = () => setProgressMounted(true);
+    if (typeof w.requestIdleCallback === 'function') {
+      idleHandle = w.requestIdleCallback(mount, { timeout: 2000 });
+    } else {
+      timeoutHandle = setTimeout(mount, 2000);
+    }
+    return () => {
+      if (idleHandle !== null && typeof w.cancelIdleCallback === 'function') {
+        w.cancelIdleCallback(idleHandle);
+      }
+      if (timeoutHandle !== null) clearTimeout(timeoutHandle);
+    };
+  }, [progressMounted]);
 
   // Dismissible "A note on translations" intro card. Hidden initially to avoid
   // a flash for users who already dismissed it; flipped to visible after we
@@ -516,31 +640,50 @@ export default function RichStudyGuide({
      <ResourceCtx.Provider value={resourceMap}>
       <ChapterMetaCtx.Provider value={{ bookName: content.bookName, chapter: content.chapter }}>
       <article className="rich-study">
-        <HighlightController
-          bookSlug={content.bookSlug}
-          chapter={content.chapter}
-          containerSelector=".rich-study"
-        />
+        {/* Interaction-only layer. Mounted lazily on first user gesture
+            or on idle (see effect above). HighlightController, ShareableMarks,
+            BlockHideMenus, VerseTranslationOverlay defer here. ScriptureRefs
+            renders inline scripture-reference popovers around author HTML
+            and HebrewAudio attaches play buttons to Hebrew/Greek callouts
+            visible without interaction — both stay eager. */}
+        {interactionLayerMounted && (
+          <>
+            <HighlightController
+              bookSlug={content.bookSlug}
+              chapter={content.chapter}
+              containerSelector=".rich-study"
+            />
+            <ShareableMarks
+              studyId={studyId}
+              chapterRef={`${content.bookName} ${content.chapter}`}
+              pageUrl={`/study/${content.bookSlug}/${content.chapter}`}
+            />
+            <BlockHideMenus />
+          </>
+        )}
         <ScriptureRefs />
-        <ShareableMarks
-          studyId={studyId}
-          chapterRef={`${content.bookName} ${content.chapter}`}
-          pageUrl={`/study/${content.bookSlug}/${content.chapter}`}
-        />
 
         {hasHebrew && <HebrewAudio />}
         <ReadingComfortEffects />
-        <BlockHideMenus />
 
-        <ChapterProgress
-          chapterKey={`${content.bookSlug}/${content.chapter}`}
-          chapterName={`${content.bookName} ${content.chapter}`}
-          bookSlug={content.bookSlug}
-          chapter={content.chapter}
-        />
+        {progressMounted && (
+          <ChapterProgress
+            chapterKey={`${content.bookSlug}/${content.chapter}`}
+            chapterName={`${content.bookName} ${content.chapter}`}
+            bookSlug={content.bookSlug}
+            chapter={content.chapter}
+          />
+        )}
 
         <div id="study-audio" className="study-top-actions">
-          <StudyAudioPlayer />
+          {/* Audio player chunk is dynamic + ssr:false, and we gate the
+              mount behind the interaction-layer flag so the chunk isn't
+              fetched until the reader is actually around to use it. */}
+          {interactionLayerMounted ? (
+            <StudyAudioPlayer />
+          ) : (
+            <div className="h-11 w-11" aria-hidden="true" />
+          )}
         </div>
 
         {/* Page-level H1 — required for SEO. Chapter pages were previously
@@ -606,34 +749,23 @@ export default function RichStudyGuide({
 
         {opener && <div className="divider">· · ·</div>}
 
-        {(() => {
-          // Chapter-level cross-ref fallback. Sections without their own
-          // `crossRefs` use it — but only the FIRST section that lacks a
-          // curated set, so the same fallback never repeats down the page.
-          const fallback = getFallbackCrossRefs(content.bookSlug, content.chapter);
-          let fallbackUsed = false;
-          return content.sections.map((section, i) => {
-            const sectionRefs = section.crossRefs;
-            const useFallback =
-              !sectionRefs && fallback.length > 0 && !fallbackUsed;
-            if (useFallback) fallbackUsed = true;
-            return (
-              <RenderSection
-                key={i}
-                section={section}
-                studyId={studyId}
-                artworks={artworks}
-                isFirst={i === 0}
-                resolvedCrossRefs={sectionRefs ?? (useFallback ? fallback : undefined)}
-              />
-            );
-          });
-        })()}
+        {content.sections.map((section, i) => (
+          <RenderSection
+            key={i}
+            section={section}
+            studyId={studyId}
+            artworks={artworks}
+            isFirst={i === 0}
+          />
+        ))}
 
         {/* Long-press / right-click any verse to compare translations.
             Mounts a single document-level listener; harmless when the
-            user never invokes it. */}
-        <VerseTranslationOverlay bookSlug={content.bookSlug} chapter={content.chapter} />
+            user never invokes it. Lazy-mounted with the rest of the
+            interaction layer. */}
+        {interactionLayerMounted && (
+          <VerseTranslationOverlay bookSlug={content.bookSlug} chapter={content.chapter} />
+        )}
 
         {content.bottomShare && (
           <div className="study-bottom-share">
@@ -656,6 +788,10 @@ export default function RichStudyGuide({
 
         {content.resources && content.resources.length > 0 && (
           <FurtherStudy resources={content.resources} />
+        )}
+
+        {chapterCrossRefGroups.length > 0 && (
+          <ChapterCrossRefs groups={chapterCrossRefGroups} />
         )}
 
         <ChapterClosingOrnament bookName={content.bookName} chapter={content.chapter} />
@@ -732,13 +868,11 @@ function RenderSection({
   studyId,
   artworks,
   isFirst,
-  resolvedCrossRefs,
 }: {
   section: RichSection;
   studyId: string;
   artworks: ArtworkWithArtist[];
   isFirst: boolean;
-  resolvedCrossRefs?: ReturnType<typeof getFallbackCrossRefs>;
 }) {
   // A "verse-section" wraps every consecutive block until the next section/divider.
   // Genesis 1's pattern: <section className="verse-section"> contains a scripture
@@ -789,13 +923,10 @@ function RenderSection({
           </section>
         );
       })}
-      {/* Cross-reference card — rendered after the section's last block.
-          Section-curated refs win; otherwise the chapter-level fallback
-          (rendered against the first eligible section only — see the
-          parent's fallbackUsed gate). */}
-      {resolvedCrossRefs && resolvedCrossRefs.length > 0 && (
-        <CrossRefCard refs={resolvedCrossRefs} sectionTitle={section.title} />
-      )}
+      {/* Cross-references used to render here as an inline CrossRefCard.
+          They now live in the aggregated ChapterCrossRefs dropdown that
+          sits below the Further Study section — closed by default so the
+          chapter page isn't cluttered by per-section echo lists. */}
     </>
   );
 }
