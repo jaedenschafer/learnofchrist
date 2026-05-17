@@ -23,6 +23,18 @@ enum SupabaseConfig {
     static let anonKey: String =
         "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVxY2dpZWlsbHl2ZWZ6bW9oenBuIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzYwNDMzNzYsImV4cCI6MjA5MTYxOTM3Nn0.zoIExWWQ_1YDHSAtPzRM9OjbCdsVoPQ1piBibwGZb4E"
 
+    /// iOS-type OAuth Client ID from Google Cloud Console. Used by
+    /// GoogleSignIn-iOS so Google's consent screen displays the iOS
+    /// app's identity ("Learn of Christ") rather than the Supabase
+    /// project URL. Must also be added to Supabase → Auth → Providers
+    /// → Google → "Authorized Client IDs" so Supabase trusts id_tokens
+    /// minted by this client.
+    ///
+    /// Empty string until the iOS OAuth client is created. The native
+    /// Google flow throws `.notConfigured` when empty so the button
+    /// can fall back gracefully.
+    static let googleIosClientID: String = ""
+
     /// Convenience subpath builders.
     static func authURL(_ path: String) -> URL {
         projectURL.appendingPathComponent("auth/v1").appendingPathComponent(path)

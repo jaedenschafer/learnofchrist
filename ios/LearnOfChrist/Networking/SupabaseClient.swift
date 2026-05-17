@@ -95,6 +95,41 @@ actor SupabaseClient {
         }
     }
 
+    /// Sign in with a Google id_token + raw nonce. Mirrors the Apple
+    /// flow — Supabase verifies (1) the id_token signature against
+    /// Google's published keys, (2) the `aud` claim matches one of the
+    /// trusted Google client IDs configured in the Supabase dashboard,
+    /// and (3) SHA-256(rawNonce) matches the id_token's `nonce` claim.
+    ///
+    /// Returns a fresh Supabase session. Caller persists to Keychain.
+    func signInWithGoogle(idToken: String, rawNonce: String) async throws -> SupabaseSession {
+        let url = SupabaseConfig.authURL("token").appending(queryItems: [
+            URLQueryItem(name: "grant_type", value: "id_token"),
+        ])
+        var req = URLRequest(url: url)
+        req.httpMethod = "POST"
+        req.setValue("application/json", forHTTPHeaderField: "Content-Type")
+        req.setValue(SupabaseConfig.anonKey, forHTTPHeaderField: "apikey")
+
+        let body = GoogleSignInBody(
+            provider: "google",
+            id_token: idToken,
+            nonce: rawNonce
+        )
+        do {
+            req.httpBody = try encoder.encode(body)
+        } catch {
+            throw SupabaseError.encoding(error)
+        }
+
+        let data = try await sendExpectingOK(req)
+        do {
+            return try SupabaseSession.decode(from: data)
+        } catch {
+            throw SupabaseError.decoding(error)
+        }
+    }
+
     /// Exchange a refresh token for a fresh access token. Caller is
     /// responsible for persisting the merged session via
     /// `SupabaseSession.merged(withRefreshResponse:)`.
@@ -223,6 +258,12 @@ actor SupabaseClient {
     // MARK: - Wire shapes
 
     private struct AppleSignInBody: Encodable {
+        let provider: String
+        let id_token: String
+        let nonce: String
+    }
+
+    private struct GoogleSignInBody: Encodable {
         let provider: String
         let id_token: String
         let nonce: String

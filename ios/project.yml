@@ -18,6 +18,17 @@ options:
   generateEmptyDirectories: true
   defaultConfig: Debug
 
+# Swift Package Manager dependencies.
+# GoogleSignIn-iOS drives the native Google Sign-In flow so Google's
+# consent screen shows the iOS app's identity ("Learn of Christ") instead
+# of the Supabase project URL. Returns an id_token we then exchange for a
+# Supabase session via /auth/v1/token?grant_type=id_token (same pattern
+# as Apple Sign In).
+packages:
+  GoogleSignIn:
+    url: https://github.com/google/GoogleSignIn-iOS
+    from: "7.1.0"
+
 settings:
   base:
     SWIFT_VERSION: "5.0"
@@ -68,11 +79,20 @@ targets:
           - CFBundleURLName: com.learnofchrist.app.deeplink
             CFBundleURLSchemes:
               - learnofchrist
+          # Google Sign-In callback. The scheme is the REVERSED iOS
+          # Client ID from Google Cloud Console — looks like
+          # com.googleusercontent.apps.123456789-abc. GoogleSignIn-iOS
+          # requires this for its OAuth callback.
+          # PLACEHOLDER — replace with your iOS Client ID's reversed
+          # form once it's created in Google Cloud Console.
+          - CFBundleURLName: com.learnofchrist.app.google
+            CFBundleURLSchemes:
+              - com.googleusercontent.apps.PLACEHOLDER_IOS_CLIENT_ID
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.learnofchrist.app
         MARKETING_VERSION: "0.1.0"
-        CURRENT_PROJECT_VERSION: "13"
+        CURRENT_PROJECT_VERSION: "14"
         TARGETED_DEVICE_FAMILY: "1,2"        # iPhone + iPad
         SUPPORTS_MACCATALYST: NO
         SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD: NO
@@ -88,6 +108,8 @@ targets:
       - target: LearnOfChristWidgets
         embed: true
         codeSign: true
+      - package: GoogleSignIn
+        product: GoogleSignIn
 
   LearnOfChristWidgets:
     type: app-extension
@@ -104,7 +126,7 @@ targets:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.learnofchrist.app.widgets
         MARKETING_VERSION: "0.1.0"
-        CURRENT_PROJECT_VERSION: "13"
+        CURRENT_PROJECT_VERSION: "14"
         INFOPLIST_FILE: LearnOfChristWidgets/Info.plist
         CODE_SIGN_ENTITLEMENTS: LearnOfChristWidgets/LearnOfChristWidgets.entitlements
         SKIP_INSTALL: YES

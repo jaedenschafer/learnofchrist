@@ -15,6 +15,7 @@
 //                      foreground and after sign-in.
 
 import SwiftUI
+import GoogleSignIn
 
 @main
 struct LearnOfChristApp: App {
@@ -80,7 +81,14 @@ struct LearnOfChristApp: App {
             // Widget / Lock-Screen deep links — parse incoming URLs of
             // the form learnofchrist://study/<bookSlug>/<chapter> into a
             // ChapterRoute, which RootView consumes to push the reader.
+            //
+            // GoogleSignIn callbacks also arrive here (scheme is the
+            // reversed iOS Client ID). The SDK consumes the URL via
+            // `GIDSignIn.sharedInstance.handle(url)` and returns `true`;
+            // we only fall through to deep-link parsing for app-owned
+            // schemes.
             .onOpenURL { url in
+                if GIDSignIn.sharedInstance.handle(url) { return }
                 if let route = ChapterRoute.parse(deepLink: url) {
                     pendingDeepLink = route
                 }

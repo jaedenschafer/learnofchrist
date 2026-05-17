@@ -76,21 +76,25 @@ final class AuthService {
         }
     }
 
-    /// Google sign-in via Supabase's hosted OAuth endpoint. Opens an
-    /// ASWebAuthenticationSession, waits for the redirect to
-    /// `learnofchrist://auth-callback`, parses tokens out of the URL
-    /// fragment, persists the session, and triggers a sync. No Google
-    /// SDK — the Supabase implicit grant gives us everything we need.
+    /// Native Google sign-in via the GoogleSignIn-iOS SDK. Returns an
+    /// id_token + raw nonce that we exchange for a Supabase session
+    /// (same id_token grant pattern as Apple).
+    ///
+    /// Google's consent screen displays the iOS app's identity ("Learn
+    /// of Christ") rather than the Supabase project URL because the
+    /// flow runs against the iOS-type OAuth client, not Supabase's
+    /// hosted endpoint.
     func signInWithGoogle() async {
         isSigningIn = true
         defer { isSigningIn = false }
         lastError = nil
 
         let coordinator = GoogleSignInCoordinator()
-        let callbackURL: URL
+        let googleResult: GoogleSignInResult
         do {
-            callbackURL = try await coordinator.signIn()
+            googleResult = try await coordinator.signIn()
         } catch GoogleSignInError.canceled {
+            // User dismissed the sheet — silent.
             return
         } catch {
             lastError = error.localizedDescription
@@ -98,7 +102,10 @@ final class AuthService {
         }
 
         do {
-            let new = try SupabaseSession.fromOAuthCallback(url: callbackURL)
+            let new = try await client.signInWithGoogle(
+                idToken: googleResult.idToken,
+                rawNonce: googleResult.rawNonce
+            )
             try new.saveToKeychain()
             self.session = new
         } catch {

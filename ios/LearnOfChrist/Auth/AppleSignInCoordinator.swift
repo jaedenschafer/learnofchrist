@@ -187,101 +187,110 @@ extension AppleSignInCoordinator: ASAuthorizationControllerPresentationContextPr
 
 // MARK: - GoogleSignInCoordinator
 // ────────────────────────────────────────────────────────────────────────────
-// Drives the Google sign-in flow via Supabase's hosted OAuth endpoint.
-// We don't use the GoogleSignIn SDK because the Supabase implicit-grant
-// path covers what we need with no extra dependencies:
+// Drives Google sign-in via the official GoogleSignIn-iOS SDK so Google's
+// consent screen shows the iOS app's identity ("Learn of Christ") rather
+// than the Supabase project URL. Mirrors the Apple flow:
 //
-//   1. Open ASWebAuthenticationSession pointing at
-//      https://<project>.supabase.co/auth/v1/authorize
-//        ?provider=google&redirect_to=learnofchrist://auth-callback
-//   2. Supabase bounces the browser to Google's consent screen.
-//   3. On consent, Supabase mints a session and redirects to the
-//      learnofchrist:// callback with #access_token=…&refresh_token=…
-//      in the URL fragment.
-//   4. ASWebAuthenticationSession captures the callback URL; we hand
-//      it to SupabaseSession.fromOAuthCallback to build a session.
+//   1. Generate a random nonce locally; SHA-256 it.
+//   2. Hand the hashed nonce to GoogleSignIn — Google embeds it in the
+//      id_token as the `nonce` claim.
+//   3. Receive the id_token + the raw nonce.
+//   4. Caller posts both to Supabase's /auth/v1/token?grant_type=id_token
+//      with provider=google; Supabase verifies the signature, the
+//      `aud` claim (must match a trusted iOS client ID), and the
+//      SHA-256 of the raw nonce against the id_token's `nonce` claim.
 //
-// The callbackURLScheme passed to ASWebAuthenticationSession
-// (`learnofchrist`) is the auth scheme; the host segment
-// (`auth-callback`) is ours by convention. The OS handles routing
-// — we do NOT need an Info.plist URLTypes entry for this flow.
-// Supabase's dashboard must list `learnofchrist://auth-callback` in
-// the project's Auth → URL Configuration → Redirect URLs allowlist.
+// Prereqs (dashboard work, not in this commit):
+//   - Google Cloud Console: create an iOS-type OAuth client with bundle
+//     id com.learnofchrist.app. Paste the Client ID into
+//     SupabaseConfig.googleIosClientID and the REVERSED form into
+//     ios/project.yml CFBundleURLTypes (placeholder is in place).
+//   - Supabase → Auth → Providers → Google → "Authorized Client IDs":
+//     add the iOS client ID so Supabase trusts id_tokens it issues.
+
+import GoogleSignIn
 
 enum GoogleSignInError: Error, LocalizedError {
+    case notConfigured
     case canceled
-    case noCallback
-    case authentication(Error)
+    case noIdToken
+    case noPresenter
+    case signIn(Error)
 
     var errorDescription: String? {
         switch self {
+        case .notConfigured:
+            return "Google Sign-In isn't configured — missing iOS Client ID."
         case .canceled:
             return "Sign in canceled."
-        case .noCallback:
-            return "Google did not return a callback."
-        case .authentication(let e):
+        case .noIdToken:
+            return "Google did not return an identity token."
+        case .noPresenter:
+            return "Could not find a window to present Google Sign-In."
+        case .signIn(let e):
             return "Sign in failed: \(e.localizedDescription)"
         }
     }
 }
 
-@MainActor
-final class GoogleSignInCoordinator: NSObject {
-    private static let callbackScheme = "learnofchrist"
-    private static let callbackHost = "auth-callback"
-
-    private var sessionRef: ASWebAuthenticationSession?
-
-    /// Open Google's hosted OAuth via Supabase and await the callback
-    /// URL. Throws `.canceled` if the user dismisses the sheet.
-    func signIn() async throws -> URL {
-        let redirect = "\(Self.callbackScheme)://\(Self.callbackHost)"
-        guard var comps = URLComponents(url: SupabaseConfig.authURL("authorize"), resolvingAgainstBaseURL: false) else {
-            throw GoogleSignInError.noCallback
-        }
-        comps.queryItems = [
-            URLQueryItem(name: "provider", value: "google"),
-            URLQueryItem(name: "redirect_to", value: redirect),
-        ]
-        guard let url = comps.url else {
-            throw GoogleSignInError.noCallback
-        }
-
-        return try await withCheckedThrowingContinuation { cont in
-            let s = ASWebAuthenticationSession(
-                url: url,
-                callbackURLScheme: Self.callbackScheme
-            ) { callbackURL, error in
-                if let error = error {
-                    if let asErr = error as? ASWebAuthenticationSessionError,
-                       asErr.code == .canceledLogin {
-                        cont.resume(throwing: GoogleSignInError.canceled)
-                    } else {
-                        cont.resume(throwing: GoogleSignInError.authentication(error))
-                    }
-                    return
-                }
-                guard let callbackURL = callbackURL else {
-                    cont.resume(throwing: GoogleSignInError.noCallback)
-                    return
-                }
-                cont.resume(returning: callbackURL)
-            }
-            s.presentationContextProvider = self
-            // Use ephemeral session so the user isn't auto-signed-in
-            // with whatever cookie Safari has — this also avoids the
-            // "do you want to share cookies?" prompt the first time.
-            s.prefersEphemeralWebBrowserSession = true
-            self.sessionRef = s
-            if !s.start() {
-                cont.resume(throwing: GoogleSignInError.noCallback)
-            }
-        }
-    }
+struct GoogleSignInResult: Sendable {
+    /// JWT signed by Google. Send to Supabase as `id_token`.
+    let idToken: String
+    /// Raw (un-hashed) nonce. Send to Supabase as `nonce`.
+    let rawNonce: String
+    /// Google account email — informational, Supabase derives identity
+    /// from the id_token claims.
+    let email: String?
 }
 
-extension GoogleSignInCoordinator: ASWebAuthenticationPresentationContextProviding {
-    func presentationAnchor(for session: ASWebAuthenticationSession) -> ASPresentationAnchor {
+@MainActor
+final class GoogleSignInCoordinator {
+
+    /// Kick off the Google Sign-In sheet and await the id_token. Throws
+    /// `.canceled` if the user dismisses the sheet, `.notConfigured` if
+    /// the iOS Client ID hasn't been set, otherwise wraps the underlying
+    /// error.
+    func signIn() async throws -> GoogleSignInResult {
+        let clientID = SupabaseConfig.googleIosClientID
+        guard !clientID.isEmpty else {
+            throw GoogleSignInError.notConfigured
+        }
+
+        GIDSignIn.sharedInstance.configuration = GIDConfiguration(clientID: clientID)
+
+        guard let presenter = Self.topViewController() else {
+            throw GoogleSignInError.noPresenter
+        }
+
+        let rawNonce = AppleSignInCoordinator.randomNonceForGoogle(length: 32)
+        let hashedNonce = AppleSignInCoordinator.sha256ForGoogle(rawNonce)
+
+        do {
+            let signInResult = try await GIDSignIn.sharedInstance.signIn(
+                withPresenting: presenter,
+                hint: nil,
+                additionalScopes: nil,
+                nonce: hashedNonce
+            )
+            guard let idToken = signInResult.user.idToken?.tokenString else {
+                throw GoogleSignInError.noIdToken
+            }
+            return GoogleSignInResult(
+                idToken: idToken,
+                rawNonce: rawNonce,
+                email: signInResult.user.profile?.email
+            )
+        } catch let e where (e as NSError).code == -5 {
+            // GIDSignInError.canceled — user dismissed the sheet.
+            throw GoogleSignInError.canceled
+        } catch {
+            throw GoogleSignInError.signIn(error)
+        }
+    }
+
+    /// Walk the connected scenes to find a presenter. Same recipe Apple's
+    /// presentation anchor uses — iOS 16+ removed the keyWindow shortcut.
+    private static func topViewController() -> UIViewController? {
         let scenes = UIApplication.shared.connectedScenes
         let windowScene = scenes
             .compactMap { $0 as? UIWindowScene }
@@ -289,6 +298,48 @@ extension GoogleSignInCoordinator: ASWebAuthenticationPresentationContextProvidi
             ?? scenes.compactMap { $0 as? UIWindowScene }.first
         let window = windowScene?.windows.first(where: \.isKeyWindow)
             ?? windowScene?.windows.first
-        return window ?? ASPresentationAnchor()
+        var top = window?.rootViewController
+        while let presented = top?.presentedViewController {
+            top = presented
+        }
+        return top
+    }
+}
+
+/// Re-use Apple's nonce helpers — they're already battle-tested and the
+/// recipe is identical (random alphanumeric + SHA-256 hex). Exposed via
+/// these forwarding statics so we don't duplicate code.
+extension AppleSignInCoordinator {
+    static func randomNonceForGoogle(length: Int) -> String {
+        // Same charset/recipe as the private Apple helper. Splitting it
+        // into a static here keeps the call site clean while keeping
+        // the single random/sha256 implementation in this file.
+        precondition(length > 0)
+        let charset: Array<Character> = Array(
+            "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz-._"
+        )
+        var result = ""
+        var remaining = length
+        while remaining > 0 {
+            var randoms = [UInt8](repeating: 0, count: 16)
+            let status = SecRandomCopyBytes(kSecRandomDefault, randoms.count, &randoms)
+            if status != errSecSuccess {
+                for _ in 0..<randoms.count {
+                    randoms[Int.random(in: 0..<randoms.count)] = UInt8.random(in: 0...255)
+                }
+            }
+            for r in randoms where remaining > 0 {
+                if Int(r) < charset.count {
+                    result.append(charset[Int(r)])
+                    remaining -= 1
+                }
+            }
+        }
+        return result
+    }
+
+    static func sha256ForGoogle(_ input: String) -> String {
+        let hashed = SHA256.hash(data: Data(input.utf8))
+        return hashed.map { String(format: "%02x", $0) }.joined()
     }
 }
