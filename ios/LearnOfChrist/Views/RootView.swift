@@ -90,7 +90,25 @@ struct RootView: View {
             }
             .ignoresSafeArea(.keyboard)
 
-            FloatingTabBar(selected: $selectedTab)
+            FloatingTabBar(selected: $selectedTab) { tappedTab in
+                // Tab-bar tap behavior:
+                //   • Tapping the already-selected tab → pop that tab's
+                //     stack to root. ("I'm deep in Art, tap Art → back
+                //     to Art root.")
+                //   • Tapping a different tab → switch, AND if the
+                //     destination is Home, pop its stack too so Home
+                //     always lands on the homepage proper. ("I'm deep
+                //     in Art, tap Home → I want the homepage, not
+                //     whatever was last open on Home.")
+                if tappedTab == selectedTab {
+                    popToRoot(tappedTab)
+                } else {
+                    selectedTab = tappedTab
+                    if tappedTab == .home {
+                        homePath = NavigationPath()
+                    }
+                }
+            }
                 .padding(.horizontal, 16)
                 .padding(.bottom, 24)
         }
@@ -106,6 +124,19 @@ struct RootView: View {
                 selectedTab = .home
                 homePath.append(route)
             }
+        }
+    }
+
+    /// Pop the matching tab's NavigationStack back to its root view.
+    /// Called from the floating tab bar when the user taps the
+    /// already-selected tab.
+    private func popToRoot(_ tab: Tab) {
+        switch tab {
+        case .home:    homePath = NavigationPath()
+        case .bible:   biblePath = NavigationPath()
+        case .search:  searchPath = NavigationPath()
+        case .library: libraryPath = NavigationPath()
+        case .browse:  browsePath = NavigationPath()
         }
     }
 
@@ -494,6 +525,9 @@ private struct SearchView: View {
 
 private struct FloatingTabBar: View {
     @Binding var selected: RootView.Tab
+    /// Tap handler — invoked with the tapped tab. The parent decides
+    /// whether to switch tabs, pop a stack to root, or do both.
+    var onTap: (RootView.Tab) -> Void = { _ in }
     @Environment(\.colorScheme) private var scheme
 
     private let cornerRadius: CGFloat = 36
@@ -577,7 +611,7 @@ private struct FloatingTabBar: View {
                 ForEach(RootView.Tab.allCases, id: \.self) { tab in
                     Button {
                         withAnimation(.spring(response: 0.35, dampingFraction: 0.85)) {
-                            selected = tab
+                            onTap(tab)
                         }
                     } label: {
                         TabBarIcon(tab: tab, isActive: selected == tab)
