@@ -226,7 +226,8 @@ async function main() {
       const legacy = getChapterContent(slug, ch);
       // getRichChapter returns hand-authored if registered, otherwise the
       // auto-port output if legacy exists, otherwise emptyChapter shell.
-      const rich = getRichChapter(slug, book.name, ch, legacy, []);
+      // Async now — hand-authored chapters lazy-load via dynamic import.
+      const rich = await getRichChapter(slug, book.name, ch, legacy, []);
       if (!rich) continue;
 
       // Skip empty shells (no real content) so the pack only carries

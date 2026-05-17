@@ -523,28 +523,15 @@ private struct ArtworkDetailSheet: View {
 }
 
 // MARK: - Backdrop
+//
+// The original sepia-gradient backdrop was a holdover from the warm
+// editorial palette. With LCBackground / LCAccent flipped to the cool
+// navy palette, this screen should sit on the same flat white surface
+// as Home. We render `Theme.color.background` so any future palette
+// flip propagates automatically.
 
 private struct ArtBackdrop: View {
-    @Environment(\.colorScheme) private var scheme
-
     var body: some View {
-        let top: Color
-        let mid: Color
-        let bottom: Color
-        switch scheme {
-        case .dark:
-            top    = Color(red: 0.10, green: 0.09, blue: 0.08)
-            mid    = Color(red: 0.22, green: 0.14, blue: 0.11)
-            bottom = Color(red: 0.06, green: 0.05, blue: 0.04)
-        default:
-            top    = Color(red: 0.94, green: 0.88, blue: 0.78)
-            mid    = Color(red: 0.78, green: 0.62, blue: 0.46)
-            bottom = Color(red: 0.30, green: 0.22, blue: 0.17)
-        }
-        return LinearGradient(
-            colors: [top, mid, bottom],
-            startPoint: .topLeading,
-            endPoint: .bottomTrailing
-        )
+        Theme.color.background
     }
 }

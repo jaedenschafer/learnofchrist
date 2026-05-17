@@ -528,6 +528,10 @@ html[data-reader-theme="dark"] .artist-hero__art-caption {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 0.875rem;
+  /* Performance: this grid can mount dozens of ArtCards on prolific
+     artists (Doré, Tissot). Skip layout/paint until scrolled into view. */
+  content-visibility: auto;
+  contain-intrinsic-size: auto 320px;
 }
 
 @media (min-width: 640px) {

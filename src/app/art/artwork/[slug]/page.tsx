@@ -184,16 +184,15 @@ export default async function ArtworkPage({ params }: PageProps) {
                 art.dominant_color || 'var(--color-separator)',
             }}
           >
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
+            <Image
               src={art.thumbnail_800_url || art.image_url}
               width={art.width || 1200}
-              height={art.height || 900}
+              height={art.height || 1600}
               alt={altText}
-              loading="eager"
-              decoding="async"
-              fetchPriority="high"
-              className="w-full h-auto block"
+              sizes="(max-width: 768px) 100vw, 800px"
+              priority
+              style={{ width: '100%', height: 'auto' }}
+              className="block"
             />
           </div>
           <figcaption className="text-[0.75rem] text-[color:var(--color-tertiary-label)] mt-2 px-1 flex flex-wrap gap-x-2 gap-y-1 items-baseline">

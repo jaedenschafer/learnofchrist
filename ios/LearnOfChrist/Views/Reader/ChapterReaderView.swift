@@ -160,7 +160,11 @@ struct ChapterReaderView: View {
                     set: { translationAbbr = $0.abbreviation }
                 )
             )
-            .navigationTitle("\(chapter.bookName) \(chapter.chapter)")
+            // Title is rendered as a big serif H1 in the body, matching the
+            // web design — leave the navigation title empty so it doesn't
+            // duplicate next to the back arrow.
+            .navigationTitle("")
+            .navigationBarTitleDisplayMode(.inline)
             .toolbar { modeAndTranslationToolbar }
         } else {
             studyBody
@@ -212,7 +216,10 @@ struct ChapterReaderView: View {
             }
             .background(Theme.color.background)
             .dynamicTypeSize(textSize.dynamicTypeSize)
-            .navigationTitle("\(chapter.bookName) \(chapter.chapter)")
+            // Title rendered as a big serif H1 in the scrolling body —
+            // suppress the nav-bar title so it doesn't appear twice.
+            .navigationTitle("")
+            .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 modeAndTranslationToolbar
                 ToolbarItem(placement: .topBarTrailing) {

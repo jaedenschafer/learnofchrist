@@ -21,6 +21,7 @@ export const dynamicParams = true;
 
 interface PageProps {
   params: Promise<{ slug: string }>;
+  searchParams: Promise<{ all?: string }>;
 }
 
 export async function generateStaticParams() {
@@ -82,12 +83,20 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   };
 }
 
-export default async function ArtistPage({ params }: PageProps) {
+export default async function ArtistPage({ params, searchParams }: PageProps) {
   const { slug } = await params;
+  const { all } = await searchParams;
+  const showAllWorks = all === '1';
   const artist = await getArtistBySlug(slug);
   if (!artist) return notFound();
 
   const works = await getArtworksByArtist(artist.id);
+  // Cap the "all works" grid to keep initial paint cheap on prolific
+  // artists (Doré has 200+, Tissot 350+). The `?all=1` query param
+  // opens the floodgates when readers actually want to browse.
+  const WORKS_CAP = 24;
+  const visibleWorks = showAllWorks ? works : works.slice(0, WORKS_CAP);
+  const worksOverflow = works.length - visibleWorks.length;
   const lifespan = lifespanLabel(artist.birth_year, artist.death_year);
 
   // Group artworks by Bible book so the "Bible scenes" section reads as a
@@ -445,10 +454,17 @@ export default async function ArtistPage({ params }: PageProps) {
                   All works by {artist.name} in our library
                 </h2>
                 <div className="artist-works-grid">
-                  {works.map((w) => (
+                  {visibleWorks.map((w) => (
                     <ArtCard key={w.id} artwork={w} />
                   ))}
                 </div>
+                {worksOverflow > 0 && (
+                  <p className="artist-section__p" style={{ marginTop: '1.5rem' }}>
+                    <a href="?all=1#all-works" className="artist-rail__cta" style={{ display: 'inline-block', width: 'auto', padding: '0.625rem 1.25rem' }}>
+                      Show all {works.length} works →
+                    </a>
+                  </p>
+                )}
               </section>
             )}
 

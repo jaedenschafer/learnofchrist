@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { bibleBooks } from '@/data/books';
 
 /**
@@ -112,13 +113,14 @@ export default function AppDashboard() {
     <section className="loc-dash" aria-label="Today">
       {/* Sunrise mountain ridge — light enough that the cards' white
           frost stays translucent, dim enough that white text reads. */}
-      {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img
+      <Image
         src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=2400&q=85"
         alt=""
+        fill
+        sizes="100vw"
+        quality={65}
+        priority={false}
         className="loc-dash__bg"
-        loading="lazy"
-        decoding="async"
       />
       <div className="loc-dash__veil" aria-hidden="true" />
 

@@ -22,7 +22,7 @@ interface ChapterArtStripProps {
  * each card is a Link + img + interaction handlers, and the cost adds up
  * fast even with lazy loading.
  */
-const RAIL_CAP = 24;
+const RAIL_CAP = 8;
 const MANUSCRIPT_RAIL_CAP = 8;
 
 /** True if the artwork carries the 'manuscript-page' tag — i.e. it's a

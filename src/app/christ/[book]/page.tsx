@@ -49,7 +49,7 @@ export default async function BookChristPage({ params }: BookChristPageProps) {
   const obj = getBookByName(bookName);
   if (!obj) notFound();
 
-  const { entries } = getChristIndexForBook(obj);
+  const { entries } = await getChristIndexForBook(obj);
 
   return (
     <div className="page-container">

@@ -39,7 +39,7 @@ export default function ArtRowCarousel({
   subtitle,
   kicker,
   seeAllHref,
-  limit = 18,
+  limit = 10,
   priorityFirst = false,
   accentColor,
   artworks,

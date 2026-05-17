@@ -5,6 +5,11 @@
   margin-bottom: 1rem;
   padding-top: 2rem;
   border-top: 1px solid var(--color-separator);
+  /* Performance: chapter art strips live at the very bottom of the
+     study page — almost always below the fold. Skip layout/paint
+     until they scroll into view. */
+  content-visibility: auto;
+  contain-intrinsic-size: 240px 200px;
 }
 
 .chapter-art-strip__head {

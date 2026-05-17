@@ -500,7 +500,7 @@ export async function getArtworksBySources(
     .eq('status', 'published')
     .eq('moderation_status', 'approved')
     .order('created_at', { ascending: false })
-    .limit(limit * 4); // overfetch so the manuscript-filter step still has enough
+    .limit(limit * 2); // overfetch so the manuscript-filter step still has enough
 
   if (error) {
     console.error('Error fetching artworks by sources:', error);
@@ -829,7 +829,7 @@ export async function getArtworksBrowse(limit = 60): Promise<ArtworkWithArtist[]
  * `not contains` on a tag array is awkward and overfetching is cheap).
  */
 export async function getCuratedHighlights(limit = 24): Promise<ArtworkWithArtist[]> {
-  const overfetch = Math.max(limit * 4, 80);
+  const overfetch = Math.max(limit * 2, 80);
   const { data, error } = await supabaseServer
     .from('artworks')
     .select(`

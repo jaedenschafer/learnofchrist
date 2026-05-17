@@ -19,8 +19,8 @@ export const metadata: Metadata = {
   },
 };
 
-export default function ChristIndexHub() {
-  const summaries = getChristIndexHub();
+export default async function ChristIndexHub() {
+  const summaries = await getChristIndexHub();
 
   const oldTestament = summaries.filter((s) => s.book.testament === 'old');
   const newTestament = summaries.filter((s) => s.book.testament === 'new');
@@ -74,7 +74,7 @@ function Section({
   items,
 }: {
   title: string;
-  items: ReturnType<typeof getChristIndexHub>;
+  items: Awaited<ReturnType<typeof getChristIndexHub>>;
 }) {
   if (items.length === 0) return null;
   return (

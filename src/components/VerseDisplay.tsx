@@ -1,9 +1,9 @@
 'use client';
 
-import { useState, useEffect } from 'react';
 import { useTranslation } from '@/lib/TranslationContext';
 import { useReadingPrefs } from '@/lib/ReadingPrefsContext';
-import { fetchVersesClient, Verse } from '@/lib/supabase';
+import { Verse } from '@/lib/supabase';
+import { useChapterVerses } from '@/lib/useChapterVerses';
 
 interface VerseDisplayProps {
   bookSlug: string;
@@ -30,37 +30,15 @@ const FONT_SIZE_CLASSES = {
 export default function VerseDisplay({ bookSlug, chapter, initialVerses, explainedVerses = [], defaultTranslation = 'kjv' }: VerseDisplayProps) {
   const { currentTranslation } = useTranslation();
   const { fontSize, readingMode } = useReadingPrefs();
-  const [verses, setVerses] = useState<Verse[]>(initialVerses);
-  const [loading, setLoading] = useState(false);
-  const [loadedTranslation, setLoadedTranslation] = useState(defaultTranslation);
-
-  useEffect(() => {
-    if (currentTranslation === loadedTranslation) return;
-
-    if (currentTranslation === defaultTranslation && initialVerses.length > 0) {
-      setVerses(initialVerses);
-      setLoadedTranslation(defaultTranslation);
-      return;
-    }
-
-    let cancelled = false;
-    setLoading(true);
-
-    fetchVersesClient(bookSlug, chapter, currentTranslation).then((newVerses) => {
-      if (!cancelled) {
-        if (newVerses.length > 0) {
-          setVerses(newVerses);
-        } else if (initialVerses.length > 0) {
-          // If the selected translation has no verses (e.g. KJV for Apocrypha), keep showing initial
-          setVerses(initialVerses);
-        }
-        setLoadedTranslation(newVerses.length > 0 ? currentTranslation : defaultTranslation);
-        setLoading(false);
-      }
-    });
-
-    return () => { cancelled = true; };
-  }, [currentTranslation, bookSlug, chapter, loadedTranslation, initialVerses, defaultTranslation]);
+  // Translation fetches are cached at module scope so toggling
+  // KJV → ASV → KJV doesn't refetch KJV. See `useChapterVerses`.
+  const { verses, loading, loadedTranslation } = useChapterVerses(
+    bookSlug,
+    chapter,
+    currentTranslation,
+    initialVerses,
+    defaultTranslation,
+  );
 
   if (verses.length === 0) {
     return (

@@ -157,3 +157,16 @@ html[data-reader-theme="dark"] .art-row__rail {
 html[data-reader-theme="dark"] .art-row__rail::-webkit-scrollbar-thumb {
   background: rgba(255, 255, 255, 0.2);
 }
+
+/* Performance: skip layout/paint for rails that are off-screen. The
+   browser still reserves the intrinsic size below so scroll position
+   stays stable. The first row above the fold opts out via the override
+   so LCP isn't affected. */
+.art-row {
+  content-visibility: auto;
+  contain-intrinsic-size: 360px 280px;
+}
+
+.art-row--first {
+  content-visibility: visible;
+}

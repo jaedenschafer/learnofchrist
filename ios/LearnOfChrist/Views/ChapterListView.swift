@@ -31,7 +31,12 @@ struct ChapterListView: View {
             .padding(.vertical, Theme.metric.spaceL)
         }
         .background(Theme.color.background)
-        .navigationTitle(book.name)
+        // Show an empty inline title — the page renders the book name as a
+        // big serif H1 in the header below, so showing it twice (once next
+        // to the back-arrow, once in the body) looked broken. Keep the bar
+        // itself visible so the back button still works.
+        .navigationTitle("")
+        .navigationBarTitleDisplayMode(.inline)
     }
 
     private var header: some View {

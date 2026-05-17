@@ -67,15 +67,27 @@ export function bookNameToSlug(name: string): string {
   return name.toLowerCase().replace(/\s+/g, '-').replace(/'/g, '');
 }
 
-/** Build the Christ Index for one book. Pure (no I/O); safe to call from
- *  RSC components at build time. */
-export function getChristIndexForBook(book: BibleBook): ChristIndexBook {
+/** Build the Christ Index for one book. Async because `getRichChapter`
+ *  now lazy-loads hand-authored chapters via dynamic import — see
+ *  `data/study-chapters/index.ts`. Still safe to call from RSC
+ *  components at build time; the page just `await`s it. */
+export async function getChristIndexForBook(book: BibleBook): Promise<ChristIndexBook> {
   const slug = bookNameToSlug(book.name);
   const entries: ChristIndexEntry[] = [];
 
+  // Resolve every chapter in parallel — each is a tiny dynamic import,
+  // and a sequential loop would multiply the import overhead by `book.chapters`.
+  const richResults = await Promise.all(
+    Array.from({ length: book.chapters }, (_, i) => {
+      const ch = i + 1;
+      const legacy = getChapterContent(slug, ch);
+      return getRichChapter(slug, book.name, ch, legacy);
+    }),
+  );
+
   for (let ch = 1; ch <= book.chapters; ch++) {
     const legacy = getChapterContent(slug, ch);
-    const rich = getRichChapter(slug, book.name, ch, legacy);
+    const rich = richResults[ch - 1];
     if (!rich) continue;
 
     // Skip empty-placeholder chapters. `getRichChapter` returns a stub
@@ -142,8 +154,8 @@ export function getChristIndexForBook(book: BibleBook): ChristIndexBook {
 /** Build the Christ Index for every book. Expensive enough to warrant
  *  caching by the caller (the /christ pages do this via Next's RSC
  *  revalidate). Returned books are in canonical order. */
-export function getFullChristIndex(): ChristIndexBook[] {
-  return bibleBooks.map((b) => getChristIndexForBook(b));
+export async function getFullChristIndex(): Promise<ChristIndexBook[]> {
+  return Promise.all(bibleBooks.map((b) => getChristIndexForBook(b)));
 }
 
 /** Used by the /christ hub for at-a-glance counts. */
@@ -154,14 +166,16 @@ export interface ChristIndexBookSummary {
   totalSummaries: number;
 }
 
-export function getChristIndexHub(): ChristIndexBookSummary[] {
-  return bibleBooks.map((book) => {
-    const { entries } = getChristIndexForBook(book);
-    return {
-      book,
-      slug: bookNameToSlug(book.name),
-      curatedCount: entries.filter((e) => e.curated).length,
-      totalSummaries: entries.length,
-    };
-  });
+export async function getChristIndexHub(): Promise<ChristIndexBookSummary[]> {
+  return Promise.all(
+    bibleBooks.map(async (book) => {
+      const { entries } = await getChristIndexForBook(book);
+      return {
+        book,
+        slug: bookNameToSlug(book.name),
+        curatedCount: entries.filter((e) => e.curated).length,
+        totalSummaries: entries.length,
+      };
+    }),
+  );
 }

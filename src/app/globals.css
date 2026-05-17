@@ -2113,8 +2113,10 @@ html[data-reader-theme="dark"] ::-webkit-scrollbar-thumb:hover { background: rgb
      comes from the backdrop-blur + inset white highlight, not from
      translucency. */
   background: rgba(245, 240, 230, 0.92);
-  -webkit-backdrop-filter: blur(20px) saturate(180%);
-  backdrop-filter: blur(20px) saturate(180%);
+  /* Backdrop blur is only applied when the nav is scrolled — see
+     `.site-nav.glass-heavy .site-nav__bar` below. Idle state skips the
+     filter entirely because `backdrop-filter` is expensive on iOS
+     Safari and stacks with the page-level composite cost. */
   border: 1px solid rgba(255, 255, 255, 0.55);
   box-shadow:
     inset 0 1px 0 rgba(255, 255, 255, 0.7),
@@ -2131,6 +2133,15 @@ html[data-reader-theme="dark"] .site-nav__bar {
   box-shadow:
     inset 0 1px 0 rgba(255, 255, 255, 0.10),
     0 10px 32px -10px rgba(0, 0, 0, 0.55);
+}
+/* Only run the expensive backdrop-filter when the nav has scrolled past
+   the page top (Navbar.tsx toggles `glass-heavy` on the `.site-nav`
+   wrapper based on `window.scrollY > 8`). The idle pill is already
+   nearly opaque, so dropping the filter at rest is invisible to the eye
+   but saves a full-viewport blur composite on every paint. */
+.site-nav.glass-heavy .site-nav__bar {
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  backdrop-filter: blur(20px) saturate(180%);
 }
 
 /* All navbar text is dark Compline (or Parchment in dark mode) — one

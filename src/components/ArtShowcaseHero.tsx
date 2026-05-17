@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import type { ArtworkWithArtist } from '@/lib/supabase';
 import './ArtShowcaseHero.css';
 
@@ -51,14 +52,14 @@ export default function ArtShowcaseHero({
           : undefined
       }
     >
-      {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img
+      <Image
         src={heroSrc}
         alt={`${artwork.title} by ${artistName}`}
+        fill
+        sizes="100vw"
+        quality={75}
+        priority
         className="art-hero__image"
-        loading="eager"
-        fetchPriority="high"
-        decoding="async"
       />
       <div className="art-hero__scrim" aria-hidden="true" />
 

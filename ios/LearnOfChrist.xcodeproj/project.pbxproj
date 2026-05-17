@@ -107,7 +107,7 @@
 		1633C4A78F765CB7BEF71D19 /* UserDataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataModels.swift; sourceTree = "<group>"; };
 		197C5C88E0CE53F73B9BE472 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		1B560D471B825874EE100161 /* BlogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogView.swift; sourceTree = "<group>"; };
-		20039A19BF7137D11B75EB5C /* LearnOfChristWidgets.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = LearnOfChristWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		20039A19BF7137D11B75EB5C /* LearnOfChristWidgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LearnOfChristWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		21CCFA4325AAE426AEC699AA /* VerseRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerseRow.swift; sourceTree = "<group>"; };
 		22C0FA4DC0133E00D3F6FC67 /* AppleSignInCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleSignInCoordinator.swift; sourceTree = "<group>"; };
 		239DED3DB2D1BEF6DA7E5360 /* LearnOfChristWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnOfChristWidgets.swift; sourceTree = "<group>"; };
@@ -117,7 +117,7 @@
 		341F5B43503CE896CA3E4374 /* BlogService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogService.swift; sourceTree = "<group>"; };
 		3B77E6051D19C6FCFC4C382A /* ScriptureService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptureService.swift; sourceTree = "<group>"; };
 		3DEA22E737B2582BD3343D44 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
-		43387349AA109DD361305EEB /* LearnOfChrist.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = LearnOfChrist.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43387349AA109DD361305EEB /* LearnOfChrist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnOfChrist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43CE1474E78149055FD2869A /* SharedReadingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedReadingState.swift; sourceTree = "<group>"; };
 		445C889CEFFC46661F4A657A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		4475EA642D59A86E5C9BB000 /* SupabaseSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupabaseSession.swift; sourceTree = "<group>"; };
@@ -499,12 +499,6 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					2D32DF07DF7AC5042E44B18F = {
-						DevelopmentTeam = "";
-					};
-					6718B7C13B8798E918EF6097 = {
-						DevelopmentTeam = "";
-					};
 					ADE213E718D51C9A5695AE2B = {
 						DevelopmentTeam = "";
 					};
@@ -729,7 +723,8 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_ENTITLEMENTS = LearnOfChristWidgets/LearnOfChristWidgets.entitlements;
-				CURRENT_PROJECT_VERSION = 9;
+				CURRENT_PROJECT_VERSION = 10;
+				DEVELOPMENT_TEAM = 8RK5YTXL77;
 				INFOPLIST_FILE = LearnOfChristWidgets/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -752,7 +747,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = LearnOfChrist/LearnOfChrist.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 9;
+				CURRENT_PROJECT_VERSION = 10;
+				DEVELOPMENT_TEAM = 8RK5YTXL77;
 				INFOPLIST_FILE = LearnOfChrist/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -850,7 +846,8 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_ENTITLEMENTS = LearnOfChristWidgets/LearnOfChristWidgets.entitlements;
-				CURRENT_PROJECT_VERSION = 9;
+				CURRENT_PROJECT_VERSION = 10;
+				DEVELOPMENT_TEAM = 8RK5YTXL77;
 				INFOPLIST_FILE = LearnOfChristWidgets/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -873,7 +870,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = LearnOfChrist/LearnOfChrist.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 9;
+				CURRENT_PROJECT_VERSION = 10;
+				DEVELOPMENT_TEAM = 8RK5YTXL77;
 				INFOPLIST_FILE = LearnOfChrist/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (

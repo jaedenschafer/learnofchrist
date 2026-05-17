@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { getAllBlogPosts, categoryColors } from '@/data/blog-posts';
 import { getAllStudyPlans } from '@/data/study-plans';
 import { getCuratedHighlights } from '@/lib/supabase';
@@ -112,7 +113,7 @@ export default async function Home() {
   const studyPlans = getAllStudyPlans();
   // Curated art feeds the arches band (the gallery preview row above).
   // No manuscript folios — see getCuratedHighlights for the filter.
-  const archArt = await getCuratedHighlights(30);
+  const archArt = await getCuratedHighlights(16);
 
   return (
     <>
@@ -121,13 +122,14 @@ export default async function Home() {
         {/* Looping YouTube background, ends at 0:57 to skip the logo. */}
         <HeroVideoBackground />
         {/* Static fallback shown while the video loads (or if YT fails). */}
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
+        <Image
           src={IMG.hero}
           alt=""
+          fill
+          sizes="100vw"
+          quality={70}
+          priority
           className="loc-hero__bg"
-          loading="eager"
-          fetchPriority="high"
         />
         <div className="loc-hero__veil" aria-hidden="true" />
 
@@ -278,12 +280,14 @@ export default async function Home() {
 
       {/* ═══════════ 7. Closer — sun circles + frosted pane ═══════════ */}
       <section className="loc-closer">
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
+        <Image
           src={IMG.closer}
           alt=""
+          fill
+          sizes="100vw"
+          quality={70}
+          priority={false}
           className="loc-closer__bg"
-          loading="lazy"
         />
         <div className="loc-closer__veil" aria-hidden="true" />
 
