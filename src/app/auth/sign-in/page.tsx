@@ -3,12 +3,13 @@ import Link from 'next/link';
 import { redirect } from 'next/navigation';
 import { getCurrentUser } from '@/lib/supabase/server';
 import SignInWithGoogleButton from './SignInWithGoogleButton';
+import SignInWithAppleButton from './SignInWithAppleButton';
 
 export const dynamic = 'force-dynamic';
 
 export const metadata: Metadata = {
   title: 'Sign in | Learn of Christ',
-  description: 'Sign in with Google to save your reading progress, bookmark verses, and build a personal library.',
+  description: 'Sign in with Apple or Google to save your reading progress, bookmark verses, and build a personal library.',
   robots: { index: false, follow: false },
 };
 
@@ -45,7 +46,8 @@ export default async function SignInPage({
             </div>
           )}
 
-          <div className="mt-6">
+          <div className="mt-6 space-y-3">
+            <SignInWithAppleButton next={next} />
             <SignInWithGoogleButton next={next} />
           </div>
 
