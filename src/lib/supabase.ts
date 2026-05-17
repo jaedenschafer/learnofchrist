@@ -267,6 +267,7 @@ export async function getArtworksForChapter(
     .eq('chapter', chapter)
     .eq('artwork.status', 'published')
     .eq('artwork.moderation_status', 'approved')
+    .not('artwork.thumbnail_800_url', 'is', null)
     .order('is_primary', { ascending: false });
 
   if (error) {
@@ -362,6 +363,7 @@ export async function getTopicalArtworksForChapter(
     `)
     .eq('status', 'published')
     .eq('moderation_status', 'approved')
+    .not('thumbnail_800_url', 'is', null)
     .overlaps('tags', tagValues)
     .limit(80);
 
@@ -426,6 +428,7 @@ export async function getArtworksForBook(
     .eq('book_id', book.id)
     .eq('artwork.status', 'published')
     .eq('artwork.moderation_status', 'approved')
+    .not('artwork.thumbnail_800_url', 'is', null)
     .order('chapter', { ascending: true })
     .order('is_primary', { ascending: false });
 
@@ -499,6 +502,7 @@ export async function getArtworksBySources(
     .in('source', sources)
     .eq('status', 'published')
     .eq('moderation_status', 'approved')
+    .not('thumbnail_800_url', 'is', null)
     .order('created_at', { ascending: false })
     .limit(limit * 2); // overfetch so the manuscript-filter step still has enough
 
@@ -538,6 +542,7 @@ export async function getManuscriptArtworks(limit: number): Promise<ArtworkWithA
     .contains('tags', ['manuscript-page'])
     .eq('status', 'published')
     .eq('moderation_status', 'approved')
+    .not('thumbnail_800_url', 'is', null)
     .order('year', { ascending: true })
     .limit(limit);
 
@@ -590,6 +595,7 @@ export async function getFeaturedHeroArtwork(): Promise<ArtworkWithArtist | null
     .in('source', HERO_SOURCES)
     .eq('status', 'published')
     .eq('moderation_status', 'approved')
+    .not('thumbnail_800_url', 'is', null)
     .not('thumbnail_800_url', 'is', null)
     .not('description', 'is', null)
     .order('scripture_ref_count', { ascending: false })
@@ -665,6 +671,7 @@ export async function getFeaturedArtistShowcase(): Promise<{
     .eq('artist_id', artistRow.id)
     .eq('status', 'published')
     .eq('moderation_status', 'approved')
+    .not('thumbnail_800_url', 'is', null)
     .order('scripture_ref_count', { ascending: false })
     .limit(8);
   if (wErr || !works || works.length === 0) return null;
@@ -712,6 +719,7 @@ export async function getArtworkBySlug(slug: string): Promise<ArtworkWithRefs | 
     .eq('slug', slug)
     .eq('status', 'published')
     .eq('moderation_status', 'approved')
+    .not('thumbnail_800_url', 'is', null)
     .maybeSingle();
 
   if (error || !artwork) {
@@ -803,6 +811,7 @@ export async function getArtworksBrowse(limit = 60): Promise<ArtworkWithArtist[]
     `)
     .eq('status', 'published')
     .eq('moderation_status', 'approved')
+    .not('thumbnail_800_url', 'is', null)
     .order('created_at', { ascending: false })
     .limit(limit);
 
@@ -842,6 +851,7 @@ export async function getCuratedHighlights(limit = 24): Promise<ArtworkWithArtis
     `)
     .eq('status', 'published')
     .eq('moderation_status', 'approved')
+    .not('thumbnail_800_url', 'is', null)
     .order('scripture_ref_count', { ascending: false, nullsFirst: false })
     .limit(overfetch);
 
@@ -1339,6 +1349,7 @@ export async function getArtworksByArtist(artistId: string): Promise<
     .eq('artist_id', artistId)
     .eq('status', 'published')
     .eq('moderation_status', 'approved')
+    .not('thumbnail_800_url', 'is', null)
     .order('year', { ascending: true, nullsFirst: false });
 
   if (error) {
