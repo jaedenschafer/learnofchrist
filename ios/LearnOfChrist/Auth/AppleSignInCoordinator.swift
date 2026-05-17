@@ -184,3 +184,111 @@ extension AppleSignInCoordinator: ASAuthorizationControllerPresentationContextPr
         return window ?? ASPresentationAnchor()
     }
 }
+
+// MARK: - GoogleSignInCoordinator
+// ────────────────────────────────────────────────────────────────────────────
+// Drives the Google sign-in flow via Supabase's hosted OAuth endpoint.
+// We don't use the GoogleSignIn SDK because the Supabase implicit-grant
+// path covers what we need with no extra dependencies:
+//
+//   1. Open ASWebAuthenticationSession pointing at
+//      https://<project>.supabase.co/auth/v1/authorize
+//        ?provider=google&redirect_to=learnofchrist://auth-callback
+//   2. Supabase bounces the browser to Google's consent screen.
+//   3. On consent, Supabase mints a session and redirects to the
+//      learnofchrist:// callback with #access_token=…&refresh_token=…
+//      in the URL fragment.
+//   4. ASWebAuthenticationSession captures the callback URL; we hand
+//      it to SupabaseSession.fromOAuthCallback to build a session.
+//
+// The callbackURLScheme passed to ASWebAuthenticationSession
+// (`learnofchrist`) is the auth scheme; the host segment
+// (`auth-callback`) is ours by convention. The OS handles routing
+// — we do NOT need an Info.plist URLTypes entry for this flow.
+// Supabase's dashboard must list `learnofchrist://auth-callback` in
+// the project's Auth → URL Configuration → Redirect URLs allowlist.
+
+enum GoogleSignInError: Error, LocalizedError {
+    case canceled
+    case noCallback
+    case authentication(Error)
+
+    var errorDescription: String? {
+        switch self {
+        case .canceled:
+            return "Sign in canceled."
+        case .noCallback:
+            return "Google did not return a callback."
+        case .authentication(let e):
+            return "Sign in failed: \(e.localizedDescription)"
+        }
+    }
+}
+
+@MainActor
+final class GoogleSignInCoordinator: NSObject {
+    private static let callbackScheme = "learnofchrist"
+    private static let callbackHost = "auth-callback"
+
+    private var sessionRef: ASWebAuthenticationSession?
+
+    /// Open Google's hosted OAuth via Supabase and await the callback
+    /// URL. Throws `.canceled` if the user dismisses the sheet.
+    func signIn() async throws -> URL {
+        let redirect = "\(Self.callbackScheme)://\(Self.callbackHost)"
+        guard var comps = URLComponents(url: SupabaseConfig.authURL("authorize"), resolvingAgainstBaseURL: false) else {
+            throw GoogleSignInError.noCallback
+        }
+        comps.queryItems = [
+            URLQueryItem(name: "provider", value: "google"),
+            URLQueryItem(name: "redirect_to", value: redirect),
+        ]
+        guard let url = comps.url else {
+            throw GoogleSignInError.noCallback
+        }
+
+        return try await withCheckedThrowingContinuation { cont in
+            let s = ASWebAuthenticationSession(
+                url: url,
+                callbackURLScheme: Self.callbackScheme
+            ) { callbackURL, error in
+                if let error = error {
+                    if let asErr = error as? ASWebAuthenticationSessionError,
+                       asErr.code == .canceledLogin {
+                        cont.resume(throwing: GoogleSignInError.canceled)
+                    } else {
+                        cont.resume(throwing: GoogleSignInError.authentication(error))
+                    }
+                    return
+                }
+                guard let callbackURL = callbackURL else {
+                    cont.resume(throwing: GoogleSignInError.noCallback)
+                    return
+                }
+                cont.resume(returning: callbackURL)
+            }
+            s.presentationContextProvider = self
+            // Use ephemeral session so the user isn't auto-signed-in
+            // with whatever cookie Safari has — this also avoids the
+            // "do you want to share cookies?" prompt the first time.
+            s.prefersEphemeralWebBrowserSession = true
+            self.sessionRef = s
+            if !s.start() {
+                cont.resume(throwing: GoogleSignInError.noCallback)
+            }
+        }
+    }
+}
+
+extension GoogleSignInCoordinator: ASWebAuthenticationPresentationContextProviding {
+    func presentationAnchor(for session: ASWebAuthenticationSession) -> ASPresentationAnchor {
+        let scenes = UIApplication.shared.connectedScenes
+        let windowScene = scenes
+            .compactMap { $0 as? UIWindowScene }
+            .first(where: { $0.activationState == .foregroundActive })
+            ?? scenes.compactMap { $0 as? UIWindowScene }.first
+        let window = windowScene?.windows.first(where: \.isKeyWindow)
+            ?? windowScene?.windows.first
+        return window ?? ASPresentationAnchor()
+    }
+}

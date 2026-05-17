@@ -76,6 +76,36 @@ final class AuthService {
         }
     }
 
+    /// Google sign-in via Supabase's hosted OAuth endpoint. Opens an
+    /// ASWebAuthenticationSession, waits for the redirect to
+    /// `learnofchrist://auth-callback`, parses tokens out of the URL
+    /// fragment, persists the session, and triggers a sync. No Google
+    /// SDK — the Supabase implicit grant gives us everything we need.
+    func signInWithGoogle() async {
+        isSigningIn = true
+        defer { isSigningIn = false }
+        lastError = nil
+
+        let coordinator = GoogleSignInCoordinator()
+        let callbackURL: URL
+        do {
+            callbackURL = try await coordinator.signIn()
+        } catch GoogleSignInError.canceled {
+            return
+        } catch {
+            lastError = error.localizedDescription
+            return
+        }
+
+        do {
+            let new = try SupabaseSession.fromOAuthCallback(url: callbackURL)
+            try new.saveToKeychain()
+            self.session = new
+        } catch {
+            lastError = error.localizedDescription
+        }
+    }
+
     // MARK: - Sign-out
 
     func signOut() async {

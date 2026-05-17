@@ -156,6 +156,49 @@ private struct SignInCallToAction: View {
             .buttonStyle(.plain)
             .disabled(auth.isSigningIn)
 
+            Button {
+                Task { await auth.signInWithGoogle() }
+            } label: {
+                HStack(spacing: 10) {
+                    if auth.isSigningIn {
+                        ProgressView()
+                    } else {
+                        // Google "G" mark — drawn from the four-color
+                        // wordmark since we don't bundle the official
+                        // SVG. Multi-color via stacked Text glyphs.
+                        Text("G")
+                            .font(.system(size: 18, weight: .bold, design: .rounded))
+                            .foregroundStyle(
+                                LinearGradient(
+                                    colors: [
+                                        Color(red: 66/255,  green: 133/255, blue: 244/255), // blue
+                                        Color(red: 219/255, green:  68/255, blue:  55/255), // red
+                                        Color(red: 244/255, green: 180/255, blue:   0/255), // yellow
+                                        Color(red:  15/255, green: 157/255, blue:  88/255), // green
+                                    ],
+                                    startPoint: .topLeading,
+                                    endPoint: .bottomTrailing
+                                )
+                            )
+                    }
+                    Text("Continue with Google")
+                        .font(Theme.font.cardTitle)
+                        .foregroundStyle(Theme.color.label)
+                }
+                .frame(maxWidth: .infinity)
+                .padding(.vertical, Theme.metric.spaceM)
+                .background(
+                    RoundedRectangle(cornerRadius: Theme.metric.radiusSM)
+                        .fill(Color.white)
+                )
+                .overlay(
+                    RoundedRectangle(cornerRadius: Theme.metric.radiusSM)
+                        .stroke(Theme.color.tertiaryLabel.opacity(0.35), lineWidth: 1)
+                )
+            }
+            .buttonStyle(.plain)
+            .disabled(auth.isSigningIn)
+
             if let err = auth.lastError {
                 Text(err)
                     .font(Theme.font.caption)

@@ -40,6 +40,89 @@ struct SupabaseSession: Codable, Sendable, Hashable {
         )
     }
 
+    /// Construct from the URL-fragment payload Supabase hands back on an
+    /// OAuth implicit-grant callback (Google, GitHub, etc.). The URL
+    /// looks like:
+    ///   learnofchrist://auth-callback#access_token=…&refresh_token=…
+    ///     &expires_in=3600&token_type=bearer&provider_token=…
+    /// We pull out the four fields we need; userId is decoded from the
+    /// JWT `sub` claim since OAuth implicit grants don't include a
+    /// nested user payload.
+    static func fromOAuthCallback(url: URL) throws -> SupabaseSession {
+        // Fragment is everything after the "#". URLComponents gives us
+        // a query-encoded string we can re-parse with URLQueryItem.
+        guard let fragment = url.fragment, !fragment.isEmpty else {
+            throw OAuthCallbackError.noFragment
+        }
+        var comps = URLComponents()
+        comps.percentEncodedQuery = fragment
+        let items = comps.queryItems ?? []
+
+        func pick(_ key: String) -> String? {
+            items.first(where: { $0.name == key })?.value
+        }
+
+        guard
+            let access = pick("access_token"),
+            let refresh = pick("refresh_token")
+        else {
+            // Supabase sometimes returns an error in the fragment when
+            // the user denies consent — surface that to the UI.
+            if let err = pick("error_description") ?? pick("error") {
+                throw OAuthCallbackError.providerError(err)
+            }
+            throw OAuthCallbackError.missingTokens
+        }
+
+        let expiresIn = Int(pick("expires_in") ?? "") ?? 3600
+        let tokenType = pick("token_type") ?? "bearer"
+        let userId = Self.subClaim(fromJWT: access) ?? ""
+
+        return SupabaseSession(
+            accessToken: access,
+            refreshToken: refresh,
+            expiresAt: Date().addingTimeInterval(TimeInterval(expiresIn)),
+            userId: userId,
+            tokenType: tokenType
+        )
+    }
+
+    enum OAuthCallbackError: Error, LocalizedError {
+        case noFragment
+        case missingTokens
+        case providerError(String)
+
+        var errorDescription: String? {
+            switch self {
+            case .noFragment:
+                return "Sign in did not return a callback payload."
+            case .missingTokens:
+                return "Sign in callback was missing tokens."
+            case .providerError(let s):
+                return "Sign in failed: \(s)"
+            }
+        }
+    }
+
+    /// Decode the `sub` claim out of a JWT. We don't verify the
+    /// signature here — Supabase's PostgREST does that on every request
+    /// — we just need the user id for client-side bookkeeping.
+    private static func subClaim(fromJWT token: String) -> String? {
+        let parts = token.split(separator: ".")
+        guard parts.count >= 2 else { return nil }
+        var payload = String(parts[1])
+        // base64url → base64 padding
+        payload = payload
+            .replacingOccurrences(of: "-", with: "+")
+            .replacingOccurrences(of: "_", with: "/")
+        while payload.count % 4 != 0 { payload.append("=") }
+        guard let data = Data(base64Encoded: payload) else { return nil }
+        guard let obj = try? JSONSerialization.jsonObject(with: data) as? [String: Any] else {
+            return nil
+        }
+        return obj["sub"] as? String
+    }
+
     /// Refreshing the access token gives a new access + (potentially)
     /// new refresh + new expires_in but no fresh user payload.
     func merged(withRefreshResponse data: Data) throws -> SupabaseSession {
