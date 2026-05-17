@@ -40,7 +40,7 @@ import type { Block, RichChapterContent } from './types';
  * Keep this list in sync with the files in this directory. Adding a
  * new chapter file? Add its `<book-slug>/<chapter>` key here too.
  */
-const RICH_CHAPTER_KEYS: ReadonlySet<string> = new Set([
+export const RICH_CHAPTER_KEYS: ReadonlySet<string> = new Set([
   'genesis/1',
   'genesis/2',
   'genesis/3',

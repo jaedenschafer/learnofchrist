@@ -33,7 +33,13 @@ private func artSerifFont(_ size: CGFloat, weight: Font.Weight = .regular) -> Fo
 
 // MARK: - Shared content models for the showcase
 
-struct ArtShowcaseRow: Codable, Hashable, Identifiable {
+// All four "Art*" payload structs are Decodable-only (not Codable). The
+// downstream `[ArtworkPreview]` is itself Decodable-only — synthesising
+// Encodable on these would fail because ArtworkPreview can't encode. We
+// only ever fetch these from the server, never POST them, so dropping
+// Encodable is correct.
+
+struct ArtShowcaseRow: Decodable, Hashable, Identifiable {
     let id: String
     let title: String
     let subtitle: String
@@ -42,30 +48,30 @@ struct ArtShowcaseRow: Codable, Hashable, Identifiable {
     let artworks: [ArtworkPreview]
 }
 
-struct ArtShowcaseArtist: Codable, Hashable {
+struct ArtShowcaseArtist: Decodable, Hashable {
     let slug: String
     let name: String
     let bio: String?
     let years: String?
 }
 
-struct ArtFeaturedArtist: Codable, Hashable {
+struct ArtFeaturedArtist: Decodable, Hashable {
     let artist: ArtShowcaseArtist
     let artworks: [ArtworkPreview]
 }
 
-struct ArtShowcase: Codable, Hashable {
+struct ArtShowcase: Decodable, Hashable {
     let hero: ArtworkPreview?
     let featuredArtist: ArtFeaturedArtist?
     let rows: [ArtShowcaseRow]
 }
 
-struct ArtFilterFacets: Codable, Hashable {
-    struct Book: Codable, Hashable {
+struct ArtFilterFacets: Decodable, Hashable {
+    struct Book: Decodable, Hashable {
         let slug: String
         let name: String
     }
-    struct Artist: Codable, Hashable {
+    struct Artist: Decodable, Hashable {
         let slug: String
         let name: String
         let count: Int
@@ -74,7 +80,7 @@ struct ArtFilterFacets: Codable, Hashable {
     let artists: [Artist]
 }
 
-struct ArtFilteredResult: Codable, Hashable {
+struct ArtFilteredResult: Decodable, Hashable {
     let artworks: [ArtworkPreview]
     let total: Int
     let nextCursor: String?

@@ -9,7 +9,8 @@
     "lint": "eslint",
     "test": "node --import tsx --test \"src/**/*.test.ts\"",
     "content:build": "tsx scripts/build-content-packs.ts",
-    "content:publish": "tsx scripts/build-content-packs.ts --upload"
+    "content:publish": "tsx scripts/build-content-packs.ts --upload",
+    "build:original-language": "tsx scripts/build-original-language.ts"
   },
   "dependencies": {
     "@aws-sdk/client-rekognition": "^3.1032.0",

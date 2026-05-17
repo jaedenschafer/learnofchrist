@@ -57,7 +57,14 @@ struct BookGridView: View {
             .padding(.vertical, Theme.metric.spaceL)
         }
         .background(Theme.color.background)
-        .searchable(text: $query, prompt: "Search books")
+        // Pin the search bar to the top of the page (under the nav title)
+        // — iOS 26 defaults can stash it at the bottom which the design
+        // doesn't want.
+        .searchable(
+            text: $query,
+            placement: .navigationBarDrawer(displayMode: .always),
+            prompt: "Search books"
+        )
         .navigationTitle("Bible")
     }
 

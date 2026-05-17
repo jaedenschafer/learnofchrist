@@ -190,10 +190,10 @@ struct FurtherStudyBlock: View {
                         .font(Theme.font.eyebrow)
                         .tracking(1.5)
                         .foregroundStyle(Theme.color.tertiaryLabel)
-                    Text(resource.label)
+                    Text(plainText(from: resource.label))
                         .font(Theme.font.cardTitle)
                         .foregroundStyle(Theme.color.label)
-                    Text(resource.description)
+                    Text(plainText(from: resource.description))
                         .font(Theme.font.callout)
                         .foregroundStyle(Theme.color.secondaryLabel)
                     if let url = URL(string: resource.url) {

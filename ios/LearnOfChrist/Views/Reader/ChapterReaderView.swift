@@ -179,7 +179,10 @@ struct ChapterReaderView: View {
                 VStack(alignment: .leading, spacing: Theme.metric.readerSectionSpacing) {
                     header
                     ForEach(Array(view.intros.enumerated()), id: \.offset) { _, p in
-                        Text(p)
+                        // Intros may carry HTML entities (&apos;, &mdash;,
+                        // etc) from the content pack — decode them so the
+                        // reader doesn't show "Aaron&apos;s" as literal text.
+                        Text(plainText(from: p))
                             .font(Theme.font.body)
                             .foregroundStyle(Theme.color.secondaryLabel)
                     }
@@ -438,7 +441,9 @@ private struct SectionView: View {
                     .foregroundStyle(Theme.color.tertiaryLabel)
             }
             if let title = section.title {
-                Text(title)
+                // Decode HTML entities so "Aaron&apos;s Priestly Line"
+                // renders as "Aaron's Priestly Line".
+                Text(plainText(from: title))
                     .font(Theme.font.title)
                     .foregroundStyle(Theme.color.label)
             }
@@ -683,25 +688,91 @@ private struct ArtworkPlaceholder: View {
 
 // MARK: - Helpers
 
-/// Strip HTML tags from a commentary string. Web renders these with rich
-/// markup; iOS v1 just shows the plain text. Replace with NSAttributedString
-/// once we want to render <em>/<strong>/<a> styled.
-private func plainText(from html: String) -> String {
+/// Strip HTML tags from a commentary string AND decode the common named
+/// entities. The chapter content pack is HTML-encoded (it powers the web
+/// app, which renders via dangerouslySetInnerHTML). iOS doesn't do HTML
+/// rendering — Text just prints the string literally — so `&apos;` /
+/// `&ldquo;` / etc would otherwise show up as visible text in the reader.
+///
+/// Replace with NSAttributedString once we want to render <em>/<strong>/<a>
+/// styled.
+func plainText(from html: String) -> String {
     let stripped = html.replacingOccurrences(
         of: "<[^>]+>",
         with: "",
         options: .regularExpression
     )
-    return stripped
-        .replacingOccurrences(of: "&nbsp;", with: " ")
-        .replacingOccurrences(of: "&amp;", with: "&")
-        .replacingOccurrences(of: "&lt;", with: "<")
-        .replacingOccurrences(of: "&gt;", with: ">")
-        .replacingOccurrences(of: "&#39;", with: "'")
-        .replacingOccurrences(of: "&quot;", with: "\"")
-        .replacingOccurrences(of: "&mdash;", with: "—")
-        .replacingOccurrences(of: "&ndash;", with: "–")
-        .trimmingCharacters(in: .whitespacesAndNewlines)
+    let entities: [(String, String)] = [
+        ("&nbsp;", " "),
+        ("&amp;", "&"),     // must run first so &amp;apos; -> &apos; -> '
+        ("&lt;", "<"),
+        ("&gt;", ">"),
+        ("&apos;", "'"),
+        ("&#39;", "'"),
+        ("&quot;", "\""),
+        ("&#34;", "\""),
+        ("&ldquo;", "“"),
+        ("&rdquo;", "”"),
+        ("&lsquo;", "‘"),
+        ("&rsquo;", "’"),
+        ("&mdash;", "—"),
+        ("&ndash;", "–"),
+        ("&hellip;", "…"),
+        ("&middot;", "·"),
+        ("&copy;", "©"),
+        ("&reg;", "®"),
+        ("&trade;", "™"),
+        ("&deg;", "°"),
+    ]
+    var out = stripped
+    for (entity, replacement) in entities {
+        out = out.replacingOccurrences(of: entity, with: replacement)
+    }
+    // Numeric entities: &#NNNN; (decimal) and &#xHHHH; (hex). Common in
+    // copy paste from rich editors. Fall back gracefully — if a number
+    // doesn't decode to a valid scalar, leave it as-is.
+    if out.contains("&#") {
+        // Decimal: &#1234;
+        out = out.replacingMatches(of: "&#([0-9]+);") { match in
+            guard let code = UInt32(match), let scalar = Unicode.Scalar(code) else {
+                return "&#\(match);"
+            }
+            return String(Character(scalar))
+        }
+        // Hex: &#xABCD;
+        out = out.replacingMatches(of: "&#[xX]([0-9A-Fa-f]+);") { hex in
+            guard let code = UInt32(hex, radix: 16), let scalar = Unicode.Scalar(code) else {
+                return "&#x\(hex);"
+            }
+            return String(Character(scalar))
+        }
+    }
+    return out.trimmingCharacters(in: .whitespacesAndNewlines)
+}
+
+private extension String {
+    /// Replace every regex match using a closure that takes the first
+    /// capture group. Used to decode numeric HTML entities.
+    func replacingMatches(of pattern: String, with transform: (String) -> String) -> String {
+        guard let regex = try? NSRegularExpression(pattern: pattern) else { return self }
+        let nsString = self as NSString
+        let matches = regex.matches(in: self, range: NSRange(location: 0, length: nsString.length))
+        var result = self
+        // Replace in reverse so earlier ranges stay valid.
+        for match in matches.reversed() where match.numberOfRanges >= 2 {
+            let captureRange = match.range(at: 1)
+            let fullRange = match.range
+            guard captureRange.location != NSNotFound, fullRange.location != NSNotFound else { continue }
+            let capture = nsString.substring(with: captureRange)
+            let replacement = transform(capture)
+            // `match.range` is already an NSRange. Convert it directly
+            // to a Range<String.Index>.
+            if let swiftRange = Range(fullRange, in: result) {
+                result.replaceSubrange(swiftRange, with: replacement)
+            }
+        }
+        return result
+    }
 }
 
 // MARK: - Identifiable wrappers for sheet(item:)
