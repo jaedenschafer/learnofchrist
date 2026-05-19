@@ -26,6 +26,20 @@ export const viewport: Viewport = {
 // legacy 'system' value falls through to 'light' and gets rewritten on mount.
 const themeInitScript = `(function(){try{var t=localStorage.getItem('loc-theme');var r=(t==='dark')?'dark':'light';document.documentElement.setAttribute('data-reader-theme',r);if(r==='dark'){document.documentElement.style.colorScheme='dark';}}catch(e){}})();`;
 
+// Google Analytics 4. The CSP nonce is required because this app's
+// middleware enforces a strict script-src in production (see
+// src/lib/supabase/middleware.ts); www.googletagmanager.com is whitelisted
+// there alongside the google-analytics.com collection endpoint in
+// connect-src. We hand-roll the snippet rather than using
+// @next/third-parties/google's <GoogleAnalytics /> because that helper
+// evaluates inline scripts in an isolated scope and leaves window.gtag
+// undefined.
+const GA_MEASUREMENT_ID = 'G-NCRDLE7H8R';
+const gaInitScript = `window.dataLayer = window.dataLayer || [];
+window.gtag = function(){window.dataLayer.push(arguments);};
+gtag('js', new Date());
+gtag('config', '${GA_MEASUREMENT_ID}');`;
+
 export const metadata: Metadata = {
   metadataBase: new URL('https://learnofchrist.com'),
   title: 'Learn of Christ - Bible Study for Understanding Jesus',
@@ -71,6 +85,13 @@ export default async function RootLayout({
         <link rel="dns-prefetch" href="https://upload.wikimedia.org" />
         <link rel="dns-prefetch" href="https://commons.wikimedia.org" />
         <script nonce={nonce} dangerouslySetInnerHTML={{ __html: themeInitScript }} />
+        {/* Google Analytics 4 — see GA constants above for rationale. */}
+        <script
+          nonce={nonce}
+          async
+          src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+        />
+        <script nonce={nonce} dangerouslySetInnerHTML={{ __html: gaInitScript }} />
       </head>
       <body className="flex flex-col min-h-screen">
         <script

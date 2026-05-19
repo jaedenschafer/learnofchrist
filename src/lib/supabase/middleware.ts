@@ -12,9 +12,13 @@ function buildCsp(nonce: string): string {
   // the iframe domain whitelisted. With 'strict-dynamic' the explicit
   // host is technically redundant for nonced loaders, but we list it
   // anyway to keep behavior predictable.
+  // Google Analytics gtag.js loader needs the googletagmanager host
+  // whitelisted in script-src; the loader then injects child scripts
+  // (covered by 'strict-dynamic' in prod). google-analytics.com is the
+  // collection endpoint, listed in connect-src below.
   const scriptSrc = isProd
-    ? `script-src 'self' 'nonce-${nonce}' 'strict-dynamic' https://vercel.live https://www.youtube.com https://s.ytimg.com`
-    : `script-src 'self' 'unsafe-inline' 'unsafe-eval' 'nonce-${nonce}' https://vercel.live https://www.youtube.com https://s.ytimg.com`;
+    ? `script-src 'self' 'nonce-${nonce}' 'strict-dynamic' https://vercel.live https://www.youtube.com https://s.ytimg.com https://www.googletagmanager.com`
+    : `script-src 'self' 'unsafe-inline' 'unsafe-eval' 'nonce-${nonce}' https://vercel.live https://www.youtube.com https://s.ytimg.com https://www.googletagmanager.com`;
 
   return [
     "default-src 'self'",
@@ -22,7 +26,7 @@ function buildCsp(nonce: string): string {
     "style-src 'self' 'unsafe-inline'",
     "img-src 'self' data: blob: https:",
     "font-src 'self' data:",
-    "connect-src 'self' https://*.supabase.co https://vercel.live wss://*.supabase.co https://www.youtube.com",
+    "connect-src 'self' https://*.supabase.co https://vercel.live wss://*.supabase.co https://www.youtube.com https://www.google-analytics.com https://*.analytics.google.com https://*.google-analytics.com https://www.googletagmanager.com",
     // Allow YouTube + youtube-nocookie iframes for the hero video
     // background. Excludes the rest of the world by omission.
     "frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com",
